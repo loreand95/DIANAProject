@@ -14,7 +14,7 @@ miRNA : dict
 def store_miRNA(miRNA):
 
     # Check if the microRNA is already in the db
-    r = session.run("MATCH (m:microRNA) WHERE m.name=$id RETURN m",id=miRNA)
+    r = session.run("MATCH (m:microRNA) WHERE m.name=$id RETURN m",id=miRNA.get('id'))
 
     res = r.single()
 
@@ -27,7 +27,6 @@ def store_miRNA(miRNA):
                         "mirbase_link: $accession})", miRNA)
         return True
     return False
-
 
 # Check command line arguments
 if len(sys.argv) < 4:
