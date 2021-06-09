@@ -14,17 +14,17 @@ miRNA : dict
 def store_miRNA(miRNA):
 
     # Check if the microRNA is already in the db
-    r = session.run("MATCH (m:microRNA {name:{id}}) RETURN m",
-                   miRNA)
-    try:
-        r.single()
-    except exceptions.ResultError:
+    r = session.run("MATCH (m:microRNA) WHERE m.name=$id RETURN m",id=miRNA)
+
+    res = r.single()
+
+    if res == None:
         # Not in db... insert it
         session.run("CREATE (m:microRNA {"
-                        "name: {id},"
-                        "accession: {accession},"
-                        "species: {species},"
-                        "mirbase_link: {accession}})", miRNA)
+                        "name: $id,"
+                        "accession: $accession,"
+                        "species: $species,"
+                        "mirbase_link: $accession})", miRNA)
         return True
     return False
 
