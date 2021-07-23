@@ -16,24 +16,10 @@ var viz;
 function draw() {
     var config = {
         container_id: "viz",
-        server_url: "bolt://51.145.134.135:7687",
+        server_url: "bolt+s://51.145.134.135:7687",
         server_user: "DIANAProject",
         server_password: "toga-adrian-circus-raymond-salami-1610",
-        labels: {
-            //"Character": "name",
-            "Character": {
-                "caption": "name",
-                "size": "pagerank",
-                "community": "community"
-            }
-        },
-        relationships: {
-            "INTERACTS": {
-                "thickness": "weight",
-                "caption": false
-            }
-        },
-        initial_cypher: "MATCH (n) RETURN n LIMIT 25"
+        initial_cypher: "MATCH (n) RETURN n LIMIT 25",
     };
 
     viz = new NeoVis.default(config);
