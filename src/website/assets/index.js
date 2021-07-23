@@ -16,7 +16,7 @@ var viz;
 function draw() {
     var config = {
         container_id: "viz",
-        server_url: "bolt://51.145.134.135:7687",
+        server_url: "bolt+ssc://51.145.134.135:7687",
         server_user: "DIANAProject",
         server_password: "toga-adrian-circus-raymond-salami-1610",
         labels: {
