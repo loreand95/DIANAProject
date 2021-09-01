@@ -1,9 +1,7 @@
-from DataTable import DataTable
 from flask import Flask
 from neo4j import GraphDatabase
 import os
 import time
-from Relation import Relation
 from flask import render_template
 from flask import request
 
@@ -72,7 +70,7 @@ def createDataTable(relations, isGeneResearch):
             #gene already exists
             if( not target in data[source]):
                 data[source][target] = {}
-                
+
             data[source][target][database] = True
 
     return data
