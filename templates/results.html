@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, td {
+                border: 1px solid black;
+                padding: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>Gene Id</td>
+                    {% for targetEl in target %}
+                        <td>{{targetEl}}</td>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for sourceEl in source %}
+                <tr>
+                    <td>{{sourceEl}}</td>
+                    
+                    {% for targetEl in data.get(sourceEl) %}
+                        <td>
+                        {% for database in data.get(sourceEl).get(targetEl) %}
+                            {{database}}
+                        {% endfor %}
+                        </td>
+                    {% endfor %}
+
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

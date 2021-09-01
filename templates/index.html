@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>DIANA Project</h1>
+        <form action="{{ url_for('query') }}" method="post">
+            <h2>Genes</h2>
+            <textarea rows="4" cols="50" name="genes" required></textarea>
+            <h2>MicroRNAs</h2>
+            <textarea rows="4" cols="50" name="mrnas" required></textarea>
+            <br>
+            <br>
+            <input type="radio" id="gene" name="targetName" value="gene" required>
+            <label for="gene">Gene</label><br>
+            <input type="radio" id="mrna" name="targetName" value="mrna">
+            <label for="mrna">MicroRNA</label><br>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
