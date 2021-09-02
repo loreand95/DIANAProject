@@ -5,16 +5,42 @@
     <body>
         <h1>DIANA Project</h1>
         <form method="post">
-            <h2>Genes</h2>
-            <textarea rows="4" cols="50" name="genes" required></textarea>
-            <h2>MicroRNAs</h2>
-            <textarea rows="4" cols="50" name="mrnas" required></textarea>
+            <fieldset>
+                <legend>Genes</legend>
+                <textarea rows="4" cols="50" name="genes" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>MicroRNA</legend>
+                <textarea rows="4" cols="50" name="mrnas" required></textarea>
+            </fieldset>
             <br>
+            <fieldset>
+                <legend>Dataset</legend>
+                <div>
+                    <input type="checkbox" id="pictar" name="pictar" checked>
+                    <label for="pictar">PicTar</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="targetscan" name="targetscan">
+                    <label for="targetscan">TargetScan</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rna22" name="rna22">
+                    <label for="rna22">RNA22</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mirtarbase" name="mirtarbase">
+                    <label for="mirtarbase">Mirtarbase</label>
+                </div>
+            </fieldset>
             <br>
-            <input type="radio" id="gene" name="targetName" value="gene" required>
-            <label for="gene">Gene</label><br>
-            <input type="radio" id="mrna" name="targetName" value="mrna">
-            <label for="mrna">MicroRNA</label><br>
+            <fieldset>
+                <legend>Source</legend>
+                <input type="radio" id="gene" name="targetName" value="gene" required>
+                <label for="gene">Gene</label><br>
+                <input type="radio" id="mrna" name="targetName" value="mrna">
+                <label for="mrna">MicroRNA</label><br>
+            </fieldset>
             <br>
             <input type="submit">
         </form>

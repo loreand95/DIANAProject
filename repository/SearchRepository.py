@@ -2,9 +2,9 @@ from repository.Neo4jConnection import Neo4jConnection
 
 class SearchRepository:
 
-    def findRelations(source, target, rank):
+    def findRelations(source, target, databases):
 
-        queryString = SearchRepository.__queryBuilding(source,target)
+        queryString = SearchRepository.__findRelationsQuery(source,target,databases)
         print(queryString)
         
         res = None
@@ -13,12 +13,12 @@ class SearchRepository:
         
         return res
 
-    def __queryBuilding(source, target):
+    def __findRelationsQuery(source, target,databases):
 
         sourceList = source[:]
         targetList = target[:]
 
-        query = 'MATCH p=(m:microRNA)-[]->(t:Target) WHERE ('
+        query = 'MATCH p=(m:microRNA)-[s]->(t:Target) WHERE ('
 
         #Source 
         query += f"m.name='{sourceList[0]}'"
@@ -34,6 +34,13 @@ class SearchRepository:
         for target in targetList:
             query += f" OR t.geneid='{target}'" 
 
-        query += ') RETURN p'
+        if(databases):
+            query += ") AND ("
+            for count,database in enumerate(databases):
+                query += f"type(s) = '{database}' "
+                if(count+1 < len(databases)):
+                    query += ' OR '
+
+        query += ") RETURN p"
 
         return query

@@ -8,26 +8,49 @@ def index():
 
 def search():
 
-    #retrieve params
-    genes = request.form['genes']
-    mrnas = request.form['mrnas']
-    targetName = request.form['targetName']
+    #Retrieve params
+    
+    genes = request.form.get('genes')
+    mrnas = request.form.get('mrnas')
 
-    #sanitize
+    mirtarbase = request.form.get("mirtarbase")
+    rna22 = request.form.get('rna22')
+    targetscan = request.form.get('targetscan')
+    pictar = request.form.get('pictar')
+
+    targetName = request.form.get('targetName')
+
+    #Sanitize and check
 
     isGeneResearch = targetName == 'gene'
     genes = genes.split(',')
     mrnas = mrnas.split(',')
     rankParam = 0
 
-    relations = SearchRepository.findRelations(mrnas, genes, rankParam)
-    data = relations2DataTable(relations, isGeneResearch)
-
+    databases = []
+    if(mirtarbase):
+        databases.append('miRTarBase')
+    
+    if(rna22):
+        databases.append('TargetScan')
+    
+    if(targetscan):
+        databases.append('RNA22')
+    
+    if(pictar):
+        databases.append('PicTar')
+    
     if(isGeneResearch):
         source = genes
         target = mrnas
     else:
         source = mrnas
         target = genes
+
+    # Query
+    relations = SearchRepository.findRelations(mrnas, genes, databases)
+
+    # Conversion
+    data = relations2DataTable(relations, isGeneResearch)
 
     return render_template('search/results_page.html', source = source, target = target, data = data) 
