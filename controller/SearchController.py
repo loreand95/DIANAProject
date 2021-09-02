@@ -76,10 +76,10 @@ def _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,isValidForm):
         databases.append('miRTarBase')
     
     if(rna22):
-        databases.append('TargetScan')
+        databases.append('RNA22')
     
     if(targetscan):
-        databases.append('RNA22')
+        databases.append('TargetScan')
     
     if(pictar):
         databases.append('PicTar')

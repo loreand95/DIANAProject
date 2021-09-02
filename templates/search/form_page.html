@@ -18,8 +18,9 @@
                 <legend>Genes</legend>
                 <textarea rows="4" cols="50" name="genes" required></textarea>
             </fieldset>
+            <br>
             <fieldset>
-                <legend>MicroRNA</legend>
+                <legend>mRNAs</legend>
                 <textarea rows="4" cols="50" name="mrnas" required></textarea>
             </fieldset>
             <br>
@@ -39,16 +40,16 @@
                 </div>
                 <div>
                     <input type="checkbox" id="mirtarbase" name="mirtarbase">
-                    <label for="mirtarbase">Mirtarbase</label>
+                    <label for="mirtarbase">miRTarBase</label>
                 </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend>Source</legend>
-                <input type="radio" id="gene" name="targetName" value="gene" required>
-                <label for="gene">Gene</label><br>
+                <input type="radio" id="gene" name="targetName" value="gene" required checked>
+                <label for="gene">Genes</label><br>
                 <input type="radio" id="mrna" name="targetName" value="mrna">
-                <label for="mrna">MicroRNA</label><br>
+                <label for="mrna">mRNAs</label><br>
             </fieldset>
             <br>
             <input type="submit">
