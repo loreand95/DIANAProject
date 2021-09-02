@@ -4,6 +4,15 @@
     </head>
     <body>
         <h1>DIANA Project</h1>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class=flashes>
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
         <form method="post">
             <fieldset>
                 <legend>Genes</legend>

@@ -23,14 +23,16 @@
                 <tr>
                     <td>{{sourceEl}}</td>
                     {% if data %}
-                        {% for targetEl in data.get(sourceEl) %}
-                            <td>
-                            {% for database in data.get(sourceEl).get(targetEl) %}
-                                {{database}}
+                        {% if data.get(sourceEl) %}
+                            {% for targetEl in data.get(sourceEl) %}
+                                <td>
+                                {% for database in data.get(sourceEl).get(targetEl) %}
+                                    {{database}}
+                                {% endfor %}
+                                </td>
                             {% endfor %}
-                            </td>
-                        {% endfor %}
-                    </tr>
+                        </tr>
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </tbody>
