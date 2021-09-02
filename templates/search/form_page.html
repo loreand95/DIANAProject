@@ -1,58 +1,89 @@
+{% extends 'base.html' %}
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="{{url_for('static', filename='js/search.js')}}"></script>
+        <link href="{{url_for('static', filename='bootstrap-5.1.0-dist/css/bootstrap.min.css')}}" rel="stylesheet" crossorigin="anonymous">
     </head>
     <body>
         <h1>DIANA Project</h1>
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <ul class=flashes>
-                {% for message in messages %}
-                <li>{{ message }}</li>
-                {% endfor %}
-                </ul>
-            {% endif %}
-        {% endwith %}
-        <form method="post">
-            <fieldset>
-                <legend>Genes</legend>
-                <textarea rows="4" cols="50" name="genes" required></textarea>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>mRNAs</legend>
-                <textarea rows="4" cols="50" name="mrnas" required></textarea>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Dataset</legend>
-                <div>
-                    <input type="checkbox" id="pictar" name="pictar" checked>
-                    <label for="pictar">PicTar</label>
+        {% block content %}
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div class="alert alert-warning alert-dismissible fade show mt-3" role="alert">
+                        <ul style="margin-bottom: 0px;">
+                            {% for message in messages %}
+                            <li>{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endif %}
+            {% endwith %}
+            <form method="post">
+                <div class="row align-items-center mt-5">
+                    <div class="col">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="..." id="genes" name="genes" style="height: 150px" oninput="validateGenes()" required></textarea>
+                            <label for="genes" class="form-label">Genes ID</label>
+                          </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="..." id="mrnas" name="mrnas" style="height: 150px" oninput="validatemRNAs()" required></textarea>
+                            <label for="mrnas" class="form-label">mRNAs</label>
+                          </div>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="targetscan" name="targetscan">
-                    <label for="targetscan">TargetScan</label>
+                <br>
+                <div class="row align-items-center mt-2" style="padding: 10px;">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 offset-md-2 mt-3 customBorder" id="fieldDataset">
+                        <label  class="form-label">Dataset</label>
+                        <div class="form-check">
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="pictar" onchange="checkDatabase()" name="pictar" checked>
+                                <label class="form-check-label" for="pictar">PicTar</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="targetscan" onchange="checkDatabase()" name="targetscan">
+                                <label class="form-check-label" for="targetscan">TargetScan</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="rna22" onchange="checkDatabase()" name="rna22">
+                                <label class="form-check-label" for="rna22">RNA22</label>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="checkbox" id="mirtarbase" onchange="checkDatabase()" name="mirtarbase">
+                                <label class="form-check-label" for="mirtarbase">miRTarBase</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 offset-md-2 mt-3 customBorder" style="height: 160px;">
+                        <label for="pictar" class="form-label">Source</label>
+                        <div id="fieldSource" >
+                            <input type="radio" id="gene" name="targetName" value="gene" required checked>
+                            <label for="gene">Genes</label><br>
+                            <input type="radio" id="mrna" name="targetName" value="mrna">
+                            <label for="mrna">mRNAs</label>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="rna22" name="rna22">
-                    <label for="rna22">RNA22</label>
+            </div>
+                <br>
+                <div class="row justify-content-center mt-5 mb-5">
+                    <div class="col-3">
+                        <div class="d-grid gap-2">
+                            <button type="submit" id="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                                 Search
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox" id="mirtarbase" name="mirtarbase">
-                    <label for="mirtarbase">miRTarBase</label>
-                </div>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Source</legend>
-                <input type="radio" id="gene" name="targetName" value="gene" required checked>
-                <label for="gene">Genes</label><br>
-                <input type="radio" id="mrna" name="targetName" value="mrna">
-                <label for="mrna">mRNAs</label><br>
-            </fieldset>
-            <br>
-            <input type="submit">
-        </form>
+                <br>
+            </form>
+        {% endblock %}
+        <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     </body>
 </html>

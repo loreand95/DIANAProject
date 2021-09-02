@@ -8,7 +8,7 @@ def index():
     return render_template('search/form_page.html') 
 
 def search():
-    isValidForm = True
+    error = { 'isValidForm' : True}
     #Retrieve params
     
     genes = request.form.get('genes')
@@ -22,19 +22,15 @@ def search():
     targetName = request.form.get('targetName')
 
     #Sanitize and check
-    genes = _sanitizeGenes(genes,isValidForm)
-    mrnas = _sanitizeMrnas(mrnas,isValidForm)
+    genes = _sanitizeGenes(genes,error)
+    mrnas = _sanitizeMrnas(mrnas,error)
 
-    databases = _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,isValidForm)
+    databases = _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,error)
     
     isGeneResearch = targetName == 'gene'
-    if(isGeneResearch):
-        source = genes
-        target = mrnas
-    else:
-        source = mrnas
-        target = genes
     
+    if(not error['isValidForm']):
+        return redirect(url_for('search_bp.index'))
 
     # Query
     relations = SearchRepository.findRelations(mrnas, genes, databases)
@@ -42,35 +38,42 @@ def search():
     # Conversion
     data = relations2DataTable(relations, isGeneResearch)
 
+    if(isGeneResearch):
+        source = genes
+        target = mrnas
+    else:
+        source = mrnas
+        target = genes
+
     return render_template('search/results_page.html', source = source, target = target, data = data) 
 
-def _sanitizeGenes(genes,isValidForm):
+def _sanitizeGenes(genes,error):
     genes = genes.replace("\n","")
     genes = genes.replace("\r","")
     genes = genes.replace(" ","")
     genes = re.match("(\d+)(,\s*\d+)*",genes)
 
     if(not genes):
-        isValidForm = False
+        error['isValidForm'] = False
         flash('Invalid genes', 'error')
         return None
 
     return genes.group().split(',')
 
-def _sanitizeMrnas(mrnas,isValidForm):
+def _sanitizeMrnas(mrnas,error):
     mrnas = mrnas.replace("\n","")
     mrnas = mrnas.replace("\r","")
     mrnas = mrnas.replace(" ","")
-    mrnas = re.match("(mmu-miR-[A-Za-z0-9_-]+)(\,(mmu-miR-[A-Za-z0-9_-]+))*",mrnas)
+    mrnas = re.match("(mmu-[A-Za-z0-9_-]+)(\,(mmu-[A-Za-z0-9_-]+))*",mrnas)
 
     if(not mrnas):
-        isValidForm = False
+        error['isValidForm'] = False
         flash('Invalid mRNAs', 'error')
         return None
 
     return mrnas.group().split(',')
 
-def _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,isValidForm):
+def _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,error):
     databases = []
     if(mirtarbase):
         databases.append('miRTarBase')
@@ -85,7 +88,7 @@ def _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,isValidForm):
         databases.append('PicTar')
 
     if(not databases):
-        isValidForm = False
+        error['isValidForm'] = False
         flash('Select at least one database', 'error')
 
     return databases

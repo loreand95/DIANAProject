@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>DIANA Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='bootstrap-5.1.0-dist/css/bootstrap.min.css')}}" rel="stylesheet" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="{{url_for('static', filename='css/index.css')}}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1127a403b9.js" crossorigin="anonymous"></script>
+    </head>
+  <body>
+    <main>
+        <header class="p-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/" class="nav-link px-2 link-secondary">DIANA Project</a></li>
+            </ul>
+            </div>
+        </div>
+        </header>
+    </main>
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div>
+    <script src="{{url_for('static', filename='js/search.js')}}" crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
+  </body>
+</html>

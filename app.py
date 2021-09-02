@@ -10,3 +10,7 @@ app.register_blueprint(search_bp, url_prefix='/search')
 @app.route('/')
 def index():
     return redirect(url_for('search_bp.index'))
+
+@app.route('/coane')
+def ok():
+    return render_template('base_layout.html')
