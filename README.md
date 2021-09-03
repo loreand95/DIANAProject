@@ -3,12 +3,17 @@ DIANAProject
 
 ## Init
 
-Create a new database:
-- name: neo4j
-- password: password
+Create a Neo4J database:
+- user: neo4j
+- password: test
+
+
 
 ## Run
 
 ```
-$ python mirbase.py .../DIANAProject/src/mirbase.py 'Mus musculus' mmu
+$ cd ../DIANAProject
+$ pip3 install -r requirements.txt
+$ flask run
+
 ```
