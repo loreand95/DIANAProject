@@ -15,6 +15,7 @@
                 <button type="submit" id="submit" class="btn btn-primary btn-sm" onclick="back()">
                     <i class="fas fa-arrow-left"></i> Back
                 </button>
+                <h1 style="text-align: center;">Results</h1>
             </div>
             <table class="table table-responsive table-bordered mt-3">
                 <thead>
@@ -34,9 +35,22 @@
                                 {% for targetEl in target %}
                                     <td>
                                         {% if data.get(sourceEl).get(targetEl) %}
+                                            <div class="mainCell">
                                             {% for database in data.get(sourceEl).get(targetEl) %}
-                                                {{database}}
+                                                {% if database == 'miRTarBase' %}
+                                                    <div class="databaseCell" style="background-color: #5DADE2;"></div>
+                                                {% endif %}
+                                                {% if database == 'RNA22' %}
+                                                    <div class="databaseCell" style="background-color: #82E0AA;"></div>
+                                                {% endif %}
+                                                {% if database == 'PicTar' %}
+                                                    <div class="databaseCell" style="background-color: #FFC300;"></div>
+                                                {% endif %}
+                                                {% if database == 'TargetScan' %}
+                                                    <div class="databaseCell" style="background-color: #C70039;"></div>
+                                                {% endif %}
                                             {% endfor %}
+                                        </div>
                                         {% endif %}
                                     </td>
                                 {% endfor %}
@@ -50,6 +64,28 @@
                     {% endfor %}
                 </tbody>
             </table>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                <div style="display:flex;justify-content: space-evenly;" >
+                    <div style="display:flex; align-items: center; ">
+                        <div style="height: 100%; width: 10px; background-color: #5DADE2; border-radius: 3px;"></div>
+                        <a style="margin-left: 5px;">miRTarBase</a>
+                    </div>
+                    <div style="display:flex; align-items: center;">
+                        <div style="height: 100%; width: 10px; background-color: #82E0AA; border-radius: 3px;"></div>
+                        <a style="margin-left: 5px;">RNA22</a>
+                    </div>
+                    <div style="display:flex; align-items: center;">
+                        <div style="height: 100%; width: 10px; background-color: #C70039; border-radius: 3px;"></div>
+                        <a style="margin-left: 5px;">TargetScan</a>
+                    </div>
+                    <div style="display:flex; align-items: center;">
+                        <div style="height: 100%; width: 10px; background-color: #FFC300; border-radius: 3px;"></div>
+                        <a style="margin-left: 5px;">PicTar</a>
+                    </div>
+                </div>
+            </div>
+            </div>
         {% endblock %}
     </body>
 </html>
