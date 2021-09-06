@@ -1,4 +1,5 @@
-from flask import render_template, redirect, url_for, request, flash,abort
+from flask import render_template, redirect, url_for, request, flash,abort,json
+from neo4j.work.simple import Query
 from repository.SearchRepository import SearchRepository
 from flask import request
 from utility.data_table import relations2DataTable
@@ -45,7 +46,14 @@ def search():
         source = mrnas
         target = genes
 
-    return render_template('search/results_page.html', source = source, target = target, data = data) 
+    result = {
+        "source": source,
+        "target":target,
+        "databases":databases,
+        "isGeneResearch":isGeneResearch
+    }
+
+    return render_template('search/results_page.html', source = source, target = target, databases = databases, data=data, result = result) 
 
 def _sanitizeGenes(genes,error):
     genes = genes.replace("\n","")

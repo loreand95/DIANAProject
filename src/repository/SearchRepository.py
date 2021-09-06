@@ -1,4 +1,8 @@
 from repository.Neo4jConnection import Neo4jConnection
+import uuid
+from flask import json
+
+FILE_PATH = 'src/static/saved-search.json'
 
 class SearchRepository:
 
@@ -44,3 +48,28 @@ class SearchRepository:
         query += ") RETURN p"
 
         return query
+
+    def saveSearch(data):
+
+        data['id'] = str(uuid.uuid4()) #Random ID
+
+        #Write to file
+        with open(FILE_PATH, 'r+') as f:
+
+            searches = json.loads(f.read()) # File to JSON
+        
+            searches[data['id']] = data # Add ID
+
+            #Overwrite
+            f.seek(0)
+            f.write(json.dumps(searches))
+            f.truncate()
+
+    def getAllSearch():
+        
+        #Write to file
+        with open(FILE_PATH, 'r') as f:
+
+            searches = json.loads(f.read()) # File to JSON
+        
+            return searches

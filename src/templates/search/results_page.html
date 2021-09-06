@@ -11,16 +11,22 @@
     </head>
     <body>
         {% block content %}
-            <div class="mt-3">
-                <button type="submit" id="submit" class="btn btn-primary btn-sm" onclick="back()">
+        <div id="alertContainer">
+        </div>
+   
+            <div class="mt-3 header-result">
+                <button type="submit" id="back" class="btn btn-primary btn-sm" onclick="back()">
                     <i class="fas fa-arrow-left"></i> Back
                 </button>
                 <h1 style="text-align: center;">Results</h1>
+                <button  type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#saveModal">
+                    <i class="fas fa-save"></i> Save
+                </button>
             </div>
             <table class="table table-responsive table-bordered mt-3">
                 <thead>
                     <tr>
-                        <td>Gene Id</td>
+                        <td>Source</td>
                         {% for targetEl in target %}
                             <td>{{targetEl}}</td>
                         {% endfor %}
@@ -86,6 +92,62 @@
                 </div>
             </div>
             </div>
+            <div class="modal fade" id="saveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Save search</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form onsubmit="event.preventDefault();save()">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="fileName" placeholder="name@example.com" required>
+                                <label for="floatingInput">File name</label>
+                            </div
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function createAlert(message){
+                    let wrapper = document.createElement("div");
+                    wrapper.innerHTML = '<div class="alert alert-success alert-dismissible fade show mt-3" role="alert">'+
+                        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
+                        message+'</div>';
+                    return wrapper;
+                }
+                
+                function save(){
+
+                    let data = {{result|tojson}};
+
+                    data['name'] = document.getElementById('fileName').value;
+                    
+                    const xhttp = new XMLHttpRequest();
+                    xhttp.onload = function() {
+                        if (this.readyState == 4 && this.status == 201) {
+                            console.log(this.response);
+                            let saveModal = document.getElementById('saveModal');
+                            bootstrap.Modal.getInstance(saveModal).toggle();
+
+                            let alertContainer = document.getElementById('alertContainer');
+                            let alert = createAlert("Search saved!");
+                            alertContainer.appendChild(alert);
+
+                            document.getElementById('fileName').value = '';
+                        }
+                    }
+                    xhttp.open("POST", "/api/search/", true);
+                    xhttp.setRequestHeader("Content-type", "application/json");
+                    xhttp.send(JSON.stringify(data));
+                }
+            </script>
         {% endblock %}
     </body>
 </html>

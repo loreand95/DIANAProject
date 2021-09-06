@@ -1,10 +1,14 @@
 from flask import Flask, redirect, url_for
 from routes.search_bp import search_bp
+from routes.api.api_search_bp import api_search_bp
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 app.register_blueprint(search_bp, url_prefix='/search')
+
+### API ###
+app.register_blueprint(api_search_bp, url_prefix='/api/search')
 
 @app.route('/')
 def index():
