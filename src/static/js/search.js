@@ -47,3 +47,90 @@ function checkDatabase(){
         submitBtn.disabled = true;
     }
 }
+
+function createAlert(message){
+    let wrapper = document.createElement("div");
+    wrapper.innerHTML = '<div class="alert alert-success alert-dismissible fade show mt-3" role="alert">'+
+        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
+        message+'</div>';
+    return wrapper;
+}
+
+function save(){
+    data['name'] = document.getElementById('fileName').value;
+    
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        if (this.readyState == 4 && this.status == 201) {
+            console.log(this.response);
+            let saveModal = document.getElementById('saveModal');
+            bootstrap.Modal.getInstance(saveModal).toggle();
+
+            let alertContainer = document.getElementById('alertContainer');
+            let alert = createAlert("Search saved!");
+            alertContainer.appendChild(alert);
+
+            document.getElementById('fileName').value = '';
+        }
+    }
+    xhttp.open("POST", "/api/search/", true);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send(JSON.stringify(data));
+}
+
+function loadTable(query){
+    
+     confTable = {
+        'pagination': {
+          'limit': 10
+        }
+      }
+
+    const colorDatabase = {
+        'miRTarBase':'#5DADE2;',
+        'TargetScan':'#C70039',
+        'PicTar' :'#FFC300',
+        'RNA22':'#82E0AA'
+    }
+
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            response = JSON.parse(this.response);
+
+            data = []
+
+            for(sourceId in response.data){
+                row = [];
+                row.push(sourceId);
+                source = response.data[sourceId];
+                response.target.forEach(el =>{
+                    if(el in source){
+                        let databases =[];
+                        for(database in response.data[sourceId][el]){
+                            databases.push(database)
+                        }
+                        let value = '<div class="mainCell" style="height:20px">';
+                        databases.forEach(database=>{
+                            value = value + `<div class="databaseCell" style="background-color:${colorDatabase[database]};"></div>`
+
+                        })
+                        value = value + '</div>'
+                        row.push(gridjs.html(value));
+                    }else{
+                        row.push('');
+                    }
+                })
+                data.push(row);
+            }            
+
+            confTable.columns = [...['Gene ID'],...response.target];
+            confTable.data = data;
+
+            new gridjs.Grid(confTable).render(document.getElementById("wrapper"));
+        }
+    }
+    xhttp.open("POST", "/api/search/table", true);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send(JSON.stringify(query));
+}

@@ -33,27 +33,14 @@ def search():
     if(not error['isValidForm']):
         return redirect(url_for('search_bp.index'))
 
-    # Query
-    relations = SearchRepository.findRelations(mrnas, genes, databases)
-
-    # Conversion
-    data = relations2DataTable(relations, isGeneResearch)
-
-    if(isGeneResearch):
-        source = genes
-        target = mrnas
-    else:
-        source = mrnas
-        target = genes
-
     result = {
-        "source": source,
-        "target":target,
+        "mrnas": mrnas,
+        "genes":genes,
         "databases":databases,
         "isGeneResearch":isGeneResearch
     }
 
-    return render_template('search/results_page.html', source = source, target = target, databases = databases, data=data, result = result) 
+    return render_template('search/results_page.html', result = result) 
 
 def _sanitizeGenes(genes,error):
     genes = genes.replace("\n","")

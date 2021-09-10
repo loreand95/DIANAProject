@@ -32,11 +32,11 @@ class SearchRepository:
             query += f" OR m.name='{mRNA}'" 
 
         #Target
-        query += f") AND (t.geneid='{targetList[0]}'"
-        targetList.pop(0)
+        # query += f") AND (t.geneid='{targetList[0]}'"
+        # targetList.pop(0)
 
-        for target in targetList:
-            query += f" OR t.geneid='{target}'" 
+        # for target in targetList:
+        #     query += f" OR t.geneid='{target}'" 
 
         if(databases):
             query += ") AND ("

@@ -17,12 +17,15 @@ def relations2DataTable(relations, isGeneResearch):
             #new gene
             data[source] = {}
             data[source][target] = {}
-            data[source][target][database] = True
+            data[source][target][database] = 1
         else:
             #gene already exists
             if( not target in data[source]):
                 data[source][target] = {}
 
-            data[source][target][database] = True
+            if(not database in data[source][target]):
+                data[source][target][database] = 0
+            
+            data[source][target][database] = data[source][target][database]+1
 
     return data

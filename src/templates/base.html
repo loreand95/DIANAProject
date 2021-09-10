@@ -25,14 +25,13 @@
     </head>
   <body>
     <main>
-        <header class="p-3 border-bottom">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center">
-            <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="/" class="nav-link px-2 link-secondary">DIANA Project</a></li>
-            </ul>
+        <header>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container" style="justify-content: center;">
+              <a class="navbar-brand" href="#">DIANA Project</a>
             </div>
-        </div>
+          </nav>
+          {% block head %}{% endblock %}
         </header>
     </main>
     <div class="container">
@@ -40,5 +39,6 @@
     </div>
     <script src="{{url_for('static', filename='js/search.js')}}" crossorigin="anonymous"></script>
     <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
+    {% block script %}{% endblock %}
   </body>
 </html>
