@@ -27,9 +27,4 @@ def table():
     # Conversion
     data = relations2DataTable(relations, isGeneResearch)
 
-    colomns = ['Gene ID'] + mrnas
-
-    return jsonify({
-        'data':data,
-        'target': mrnas
-    })    
+    return jsonify(data)    

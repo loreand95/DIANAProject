@@ -78,13 +78,9 @@ function save(){
     xhttp.send(JSON.stringify(data));
 }
 
-function loadTable(query){
-    
-     confTable = {
-        'pagination': {
-          'limit': 10
-        }
-      }
+
+function data2row(response){
+    data = []
 
     const colorDatabase = {
         'miRTarBase':'#5DADE2;',
@@ -93,44 +89,44 @@ function loadTable(query){
         'RNA22':'#82E0AA'
     }
 
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            response = JSON.parse(this.response);
+    for(sourceId in response.data){
+        row = [];
+        row.push(sourceId);
+        source = response.data[sourceId];
+        response.target.forEach(el =>{
+            if(el in source){
+                let databases =[];
+                for(database in response.data[sourceId][el]){
+                    databases.push(database)
+                }
+                let value = '<div class="mainCell" style="height:20px">';
+                databases.forEach(database=>{
+                    value = value + `<div class="databaseCell" style="background-color:${colorDatabase[database]};"></div>`
 
-            data = []
-
-            for(sourceId in response.data){
-                row = [];
-                row.push(sourceId);
-                source = response.data[sourceId];
-                response.target.forEach(el =>{
-                    if(el in source){
-                        let databases =[];
-                        for(database in response.data[sourceId][el]){
-                            databases.push(database)
-                        }
-                        let value = '<div class="mainCell" style="height:20px">';
-                        databases.forEach(database=>{
-                            value = value + `<div class="databaseCell" style="background-color:${colorDatabase[database]};"></div>`
-
-                        })
-                        value = value + '</div>'
-                        row.push(gridjs.html(value));
-                    }else{
-                        row.push('');
-                    }
                 })
-                data.push(row);
-            }            
-
-            confTable.columns = [...['Gene ID'],...response.target];
-            confTable.data = data;
-
-            new gridjs.Grid(confTable).render(document.getElementById("wrapper"));
-        }
+                value = value + '</div>'
+                row.push(gridjs.html(value));
+            }else{
+                row.push('');
+            }
+        })
+        data.push(row);
     }
-    xhttp.open("POST", "/api/search/table", true);
-    xhttp.setRequestHeader("Content-type", "application/json");
-    xhttp.send(JSON.stringify(query));
+    return data;
+}
+
+function loadTable(query){
+
+    confTable = {
+        'pagination': {
+          'limit': 10
+        },
+        data : ()=>{
+            return searchAPI(query).then((response)=>{
+                return data2row({data:response, target:query.mrnas})})
+        },
+        'columns':[...['Gene ID'],...query.mrnas]
+    }
+
+    new gridjs.Grid(confTable).render(document.getElementById("wrapper"));
 }
