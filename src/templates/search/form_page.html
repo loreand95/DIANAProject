@@ -20,7 +20,7 @@
                     </div>
                 {% endif %}
             {% endwith %}
-            <div class="row align-items-center mt-3">
+            <div class="row align-items-center mt-5">
                 <div style="display: flex; justify-content: space-between;">
                     <h1>Base Search</h1>
                     <div class="form-floating">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center mt-3">
+            <div class="row align-items-center mt-5">
                 <div style="display: flex">
                     <div style="display: flex; align-items: flex-start; justify-content: center;">
                         <h3 id="titleSearch" style="margin-right: 15px;">Search genes from mRNAs</h3>
@@ -129,6 +129,7 @@
         {% block script %}
         <script src="{{url_for('static', filename='js/api/SearchApi.js')}}" crossorigin="anonymous"></script>
         <script src="{{url_for('static', filename='js/search/searchForm.js')}}" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='js/search/searchLoadModal.js')}}" crossorigin="anonymous"></script>
         {% endblock %}
         <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     </body>

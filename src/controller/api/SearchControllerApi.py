@@ -1,6 +1,6 @@
 from flask import render_template, redirect, url_for, request, flash,abort,jsonify,json,Response
 from repository.SearchRepository import SearchRepository
-from utility.data_table import relations2DataTable
+from utility.dataConversion import relations2Table
 
 def index():
     return jsonify(SearchRepository.getAllSearch())
@@ -16,14 +16,15 @@ def table():
 
     data = request.get_json()
 
-    isGeneTarget = data['isGeneTarget']
-    source = data['source']
-    databases = data['databases']
+    isGeneTarget = data.get('isGeneTarget')
+    source = data.get('source')
+    target = data.get('target')
+    databases = data.get('databases')
         
     # Query
-    relations = SearchRepository.findRelations(source, isGeneTarget, databases)
+    relations = SearchRepository.findRelations(source, target, isGeneTarget, databases)
 
     # Conversion
-    data = relations2DataTable(relations, isGeneTarget)
+    data = relations2Table(relations, isGeneTarget)
 
     return jsonify(data)    

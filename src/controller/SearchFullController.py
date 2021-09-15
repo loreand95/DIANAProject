@@ -1,14 +1,16 @@
-from flask import render_template, redirect, url_for, request, flash
+from flask import render_template, redirect, url_for, request, flash,abort,json
+from flask import request
 import re
 
 def index():
-    return render_template('search/form_page.html') 
+    return render_template('search/full/full_form_page.html') 
 
 def search():
     error = { 'isValidForm' : True}
     #Retrieve params
     
-    source = request.form.get('source')
+    genes = request.form.get('genes')
+    mrnas = request.form.get('mrnas')
 
     mirtarbase = request.form.get("mirtarbase")
     rna22 = request.form.get('rna22')
@@ -17,24 +19,22 @@ def search():
 
     targetName = request.form.get('targetName')
 
-    isGeneTarget = targetName == 'genes'
-
     #Sanitize and check
-    if(isGeneTarget):
-        source = _sanitizeMrnas(source,error)
-    else:
-        source = _sanitizeGenes(source,error)
+    genes = _sanitizeGenes(genes,error)
+    mrnas = _sanitizeMrnas(mrnas,error)
 
     databases = _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,error)
+    
+    isGeneTarget = targetName == 'genes'
     
     if(not error['isValidForm']):
         return redirect(url_for('search_bp.index'))
 
     query = {
-        "source": source,
+        "source": mrnas if isGeneTarget else genes,
+        "target": genes if isGeneTarget else mrnas,
         "databases":databases,
         "isGeneTarget":isGeneTarget,
-        "type":"base-search"
     }
 
     return render_template('search/results_page.html', query = query) 

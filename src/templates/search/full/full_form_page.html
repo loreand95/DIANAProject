@@ -20,9 +20,9 @@
                     </div>
                 {% endif %}
             {% endwith %}
-            <div class="row align-items-center mt-3">
+            <div class="row align-items-center mt-5">
                 <div style="display: flex; justify-content: space-between;">
-                    <h1>Base Search</h1>
+                    <h1>Full Search</h1>
                     <div class="form-floating">
                         <button  type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loadModal">
                             <span class="material-icons-outlined">
@@ -32,29 +32,41 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center mt-3">
-                <div style="display: flex">
-                    <div style="display: flex; align-items: flex-start; justify-content: center;">
-                        <h3 id="titleSearch" style="margin-right: 15px;">Search genes from mRNAs</h3>
-                        <button  type="button" class="btn btn-primary btn-sm" onclick="switchSource()">
-                            <span class="material-icons-round">
-                                loop
-                                </span><a>Switch</a>
-                        </button>
+            <form method="post" action="/search/full/" onsubmit="return submitForm()">
+                <div class="row align-items-center mt-5">
+                    <div class="col-5">
+                        <label for="genes" class="form-label label">Source</label>
                     </div>
-                    
+                    <div class="col-2"></div>
+                    <div class="col-5">
+                        <label for="genes" class="form-label label">Target</label>
+                    </div>
                 </div>
-            </div>
-            <form method="post" onsubmit="return validateSource()">
-                <div class="row align-items-center mt-3">
-                    <div class="col col-md-8">
+                <div class="row align-items-center" id="swapRow">
+                    <div class="col-5">
                         <div class="form-floating">
-                            <textarea class="form-control" spellcheck="false" placeholder="..." id="source" name="source" style="height: 160px" oninput="validateSource()" required></textarea>
-                            <label for="genes" class="form-label label" id="labelSource">mRNAs</label>
+                            <textarea class="form-control" placeholder="..." id="mrnas" name="mrnas" style="height: 150px" required oninput="validatemRNAs()"></textarea>
+                            <label for="mrnas" class="form-label label" style="font-weight: 100; color: grey;">mRNAs Name</label>
                           </div>
                     </div>
-                    <div class="col customBorder" id="fieldDataset">
-                        <label  class="form-label label">Dataset</label>
+                    <div class="col-2" style="display: flex; justify-content: center;">
+                        <button id="swap" type="button" class="btn btn-primary" onclick="swapField()">
+                            <span class="material-icons-round">
+                                swap_horiz
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col-5">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="..." id="genes" name="genes" style="height: 150px"  required oninput="validateGenes()"></textarea>
+                            <label for="genes" class="form-label label" style="font-weight: 100; color: grey;">Genes ID</label>
+                          </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row align-items-center mt-2" style="padding: 10px; justify-content: center;">
+                    <div class="customBorder" style="width: 200px;" id="fieldDataset">
+                        <label  class="form-label label">Databases</label>
                         <div class="form-check" id='datasetForm'>
                             <div>
                                 <input class="form-check-input" type="checkbox" id="pictar" onchange="checkDatabase()" name="pictar" checked>
@@ -75,20 +87,10 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <div hidden>
-                    <div >
-                        <div id="fieldSource" >
-                            <input type="radio" id="geneTarget" oninput="validateSource()"  name="targetName" value="genes" required checked>
-                            <label for="gene">Genes</label><br>
-                            <input type="radio" name="targetName" id="mrnaTarget" oninput="validateSource()"  value="mrnas" >
-                            <label for="mrna">mRNAs</label>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <input   type="radio" id="geneTarget" name="targetName" value="genes" checked>
                 <br>
-                    <div class="input-group mb-3" style="display: flex;justify-content: center;">
+                    <div class="input-group mb-3 mt-3" style="display: flex;justify-content: center;">
                     <button type="submit" id="submit" class="btn btn-primary">
                         <span class="material-icons-outlined">
                             search
@@ -122,13 +124,11 @@
                     </div>
                 </div>
             </div>
-            <script>
-                
-            </script>
         {% endblock %}
         {% block script %}
         <script src="{{url_for('static', filename='js/api/SearchApi.js')}}" crossorigin="anonymous"></script>
-        <script src="{{url_for('static', filename='js/search/searchForm.js')}}" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='js/search/full/searchFullForm.js')}}" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='js/search/searchLoadModal.js')}}" crossorigin="anonymous"></script>
         {% endblock %}
         <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     </body>

@@ -1,4 +1,4 @@
-def relations2DataTable(relations, isGeneResearch):
+def relations2Table(relations, isGeneResearch):
 
     data = {}
     for row in relations:
