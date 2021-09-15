@@ -12,8 +12,7 @@ def search():
     error = { 'isValidForm' : True}
     #Retrieve params
     
-    genes = request.form.get('genes')
-    mrnas = request.form.get('mrnas')
+    source = request.form.get('source')
 
     mirtarbase = request.form.get("mirtarbase")
     rna22 = request.form.get('rna22')
@@ -22,25 +21,26 @@ def search():
 
     targetName = request.form.get('targetName')
 
+    isGeneTarget = targetName == 'genes'
+
     #Sanitize and check
-    genes = _sanitizeGenes(genes,error)
-    mrnas = _sanitizeMrnas(mrnas,error)
+    if(isGeneTarget):
+        source = _sanitizeMrnas(source,error)
+    else:
+        source = _sanitizeGenes(source,error)
 
     databases = _sanitizeDatabases(mirtarbase,rna22,targetscan,pictar,error)
-    
-    isGeneResearch = targetName == 'gene'
     
     if(not error['isValidForm']):
         return redirect(url_for('search_bp.index'))
 
-    result = {
-        "mrnas": mrnas,
-        "genes":genes,
+    query = {
+        "source": source,
         "databases":databases,
-        "isGeneResearch":isGeneResearch
+        "isGeneTarget":isGeneTarget
     }
 
-    return render_template('search/results_page.html', result = result) 
+    return render_template('search/results_page.html', query = query) 
 
 def _sanitizeGenes(genes,error):
     genes = genes.replace("\n","")

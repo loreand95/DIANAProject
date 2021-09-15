@@ -32,26 +32,26 @@
                     </div>
                 </div>
             </div>
-            
-            <form method="post">
-                <div class="row align-items-center mt-5">
-                    <div class="col">
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="..." id="genes" name="genes" style="height: 150px" oninput="validateGenes()" required></textarea>
-                            <label for="genes" class="form-label label">Genes ID</label>
-                          </div>
-                    </div>
-                    <br>
-                    <div class="col">
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="..." id="mrnas" name="mrnas" style="height: 150px" oninput="validatemRNAs()" required></textarea>
-                            <label for="mrnas" class="form-label label">mRNAs Name</label>
-                          </div>
+            <div class="row align-items-center mt-3">
+                <div style="display: flex">
+                    <div class="form-floating">
+                        <button  type="button" class="btn btn-primary btn-sm" onclick="changeSource()">
+                            <span class="material-icons-round">
+                                loop
+                                </span><a>Change source</a>
+                        </button>
                     </div>
                 </div>
-                <br>
-                <div class="row align-items-center mt-2" style="padding: 10px;">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 offset-md-2 mt-3 customBorder" id="fieldDataset">
+            </div>
+            <form method="post" onsubmit="return validateSource()">
+                <div class="row align-items-center mt-3">
+                    <div class="col-8">
+                        <div class="form-floating">
+                            <textarea class="form-control" spellcheck="false" placeholder="..." id="source" name="source" style="height: 160px" oninput="validateSource()" required></textarea>
+                            <label for="genes" class="form-label label" id="labelSource">mRNAs</label>
+                          </div>
+                    </div>
+                    <div class="col-4 customBorder" id="fieldDataset">
                         <label  class="form-label label">Dataset</label>
                         <div class="form-check" id='datasetForm'>
                             <div>
@@ -72,12 +72,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 offset-md-2 mt-3 customBorder" style="height: 160px;">
-                        <label for="pictar" class="form-label label">Scope</label>
+                </div>
+                <br>
+                <div hidden>
+                    <div >
                         <div id="fieldSource" >
-                            <input type="radio" id="gene" name="targetName" value="gene" required checked>
+                            <input type="radio" id="geneTarget" oninput="validateSource()"  name="targetName" value="genes" required checked>
                             <label for="gene">Genes</label><br>
-                            <input type="radio" id="mrna" name="targetName" value="mrna">
+                            <input type="radio" name="targetName" id="mrnaTarget" oninput="validateSource()"  value="mrnas" >
                             <label for="mrna">mRNAs</label>
                         </div>
                     </div>
@@ -119,94 +121,11 @@
                 </div>
             </div>
             <script>
-                let searches;
-                document.getElementById('loadModal').addEventListener('show.bs.modal', function (event) {
-                    
-                    const xhttp = new XMLHttpRequest();
-                    xhttp.onload = function() {
-                        if (this.readyState == 4 && this.status == 200) {
-                            
-                            searches = JSON.parse(this.response);
-
-                           let table = document.getElementById("loadTable").getElementsByTagName('tbody')[0];
-
-                           table.innerHTML = '';//Clear table
-
-                           for(search in searches){
-                                
-                                let row = table.insertRow();
-                                let cellName = row.insertCell();
-                                cellName.innerHTML = searches[search].name;
-
-                                let cellSource = row.insertCell(1);
-                                cellSource.innerHTML = searches[search].source;
-
-                                let cellTarget = row.insertCell(2);
-                                cellTarget.innerHTML = searches[search].target;
-
-                                let cellDatabase = row.insertCell(3);
-                                if(searches[search].databases.length == 4)
-                                    cellDatabase.innerHTML = 'ALL';
-                                else{
-                                    cellDatabase.innerHTML = searches[search].databases
-                                }
-                                
-                                let actionCell = row.insertCell(4);
-                                
-                                actionCell.innerHTML = `<button type="button" class="btn btn-primary btn-sm" aria-label="Load" onclick=load('${search}')>Load</button>`;
-                           }                            
-                        }
-                    }
-                    xhttp.open("GET", "/api/search/", true);
-                    xhttp.setRequestHeader("Content-type", "application/json");
-                    xhttp.send();
-                })
-
-                function load(id){
-     
-                    let search = searches[id]
-
-                    //Close modal
-                    let loadModal = document.getElementById('loadModal');
-                    bootstrap.Modal.getInstance(loadModal).toggle();
-
-                    let source,target;
-
-                    if(search.isGeneResearch){
-                        source = search['source']
-                        target = search['target']
-                    }else{
-                        target = search['source']
-                        source = search['target']
-                    }
-
-                    // Fill form
-
-                    // SOURCE & TARGET 
-                    document.getElementById('genes').value = source
-                    document.getElementById('mrnas').value = target
-
-                    // SCOPE
-                    if(search.isGeneResearch){
-                        document.getElementById('gene').checked = true;
-                    }else{
-                        document.getElementById('mrna').checked = true;
-                    }
-                    
-                    // DATABASE
-
-                    // Clear, deselect all 
-                    document.querySelectorAll("#datasetForm input").forEach(checkbox=>{
-                        checkbox.checked=false;
-                    });
-                    // Select
-                    search.databases.forEach(database => {
-                        let checkbox = document.getElementById(database.toLowerCase());
-                        console.log(search.databases.includes(database))
-                        checkbox.checked = search.databases.includes(database);
-                    });
-                }
+                
             </script>
+        {% endblock %}
+        {% block script %}
+        <script src="{{url_for('static', filename='js/searchForm.js')}}" crossorigin="anonymous"></script>
         {% endblock %}
         <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     </body>

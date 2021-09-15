@@ -1,35 +1,3 @@
-/* VALIDATION */
-
-function back(){
-    window.history.back();
-}
-
-function validateGenes(){
-    submitBtn = document.getElementById("submit")
-    text = document.getElementById("genes").value;
-    const regex = /([0-9]+)(\,[0-9]+)*$/
-    if(regex.test(text)){
-        document.getElementById('genes').style.border='';
-        submitBtn.disabled = false;
-    }else{
-        document.getElementById('genes').style.border='1px solid red';
-        submitBtn.disabled = true;
-    }
-}
-
-function validatemRNAs(){
-    submitBtn = document.getElementById("submit")
-    text = document.getElementById("mrnas").value;
-    const regex = /(mmu-[A-Za-z0-9_-]+)(\,(mmu-[A-Za-z0-9_-]+))*$/
-    if(regex.test(text)){
-        document.getElementById('mrnas').style.border='';
-        submitBtn.disabled = false;
-    }else{
-        document.getElementById('mrnas').style.border='1px solid red';
-        submitBtn.disabled = true;
-    }
-}
-
 function checkDatabase(){
     checks = document.querySelectorAll('input[type="checkbox"]');
     submitBtn = document.getElementById("submit")
@@ -48,21 +16,12 @@ function checkDatabase(){
     }
 }
 
-function createAlert(message){
-    let wrapper = document.createElement("div");
-    wrapper.innerHTML = '<div class="alert alert-success alert-dismissible fade show mt-3" role="alert">'+
-        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'+
-        message+'</div>';
-    return wrapper;
-}
-
 function save(){
-    data['name'] = document.getElementById('fileName').value;
+    //Add name
+    query['name'] = document.getElementById('fileName').value;
     
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        if (this.readyState == 4 && this.status == 201) {
-            console.log(this.response);
+    saveSearchAPI(query).then((response)=>{
+
             let saveModal = document.getElementById('saveModal');
             bootstrap.Modal.getInstance(saveModal).toggle();
 
@@ -71,11 +30,7 @@ function save(){
             alertContainer.appendChild(alert);
 
             document.getElementById('fileName').value = '';
-        }
-    }
-    xhttp.open("POST", "/api/search/", true);
-    xhttp.setRequestHeader("Content-type", "application/json");
-    xhttp.send(JSON.stringify(data));
+    });
 }
 
 
@@ -123,9 +78,9 @@ function loadTable(query){
         },
         data : ()=>{
             return searchAPI(query).then((response)=>{
-                return data2row({data:response, target:query.mrnas})})
+                return data2row({data:response, target:query.source})})
         },
-        'columns':[...['Gene ID'],...query.mrnas]
+        'columns':[...['ID'],...query.source]
     }
 
     new gridjs.Grid(confTable).render(document.getElementById("wrapper"));

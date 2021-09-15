@@ -16,15 +16,14 @@ def table():
 
     data = request.get_json()
 
-    isGeneResearch = data['isGeneResearch']
-    mrnas = data['mrnas']
-    genes = data['genes']
+    isGeneTarget = data['isGeneTarget']
+    source = data['source']
     databases = data['databases']
         
     # Query
-    relations = SearchRepository.findRelations(mrnas, genes, databases)
+    relations = SearchRepository.findRelations(source, isGeneTarget, databases)
 
     # Conversion
-    data = relations2DataTable(relations, isGeneResearch)
+    data = relations2DataTable(relations, isGeneTarget)
 
     return jsonify(data)    

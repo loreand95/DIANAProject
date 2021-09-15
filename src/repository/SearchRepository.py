@@ -6,9 +6,9 @@ FILE_PATH = 'src/static/saved-search.json'
 
 class SearchRepository:
 
-    def findRelations(source, target, databases):
+    def findRelations(source, isGeneTarget, databases):
 
-        queryString = SearchRepository.__findRelationsQuery(source,target,databases)
+        queryString = SearchRepository.__findRelationsQuery(source, isGeneTarget, databases)
         print(queryString)
         
         res = None
@@ -17,26 +17,26 @@ class SearchRepository:
         
         return res
 
-    def __findRelationsQuery(source, target,databases):
+    def __findRelationsQuery(source, isGeneTarget, databases):
 
         sourceList = source[:]
-        targetList = target[:]
 
         query = 'MATCH p=(m:microRNA)-[s]->(t:Target) WHERE ('
 
-        #Source 
-        query += f"m.name='{sourceList[0]}'"
-        sourceList.pop(0)
+        if(isGeneTarget):
+            #mRNAs 
+            query += f"m.name='{sourceList[0]}'"
+            sourceList.pop(0)
 
-        for mRNA in sourceList:
-            query += f" OR m.name='{mRNA}'" 
+            for mRNA in sourceList:
+                query += f" OR m.name='{mRNA}'" 
+        else:
+            # genes
+            query += f"t.geneid='{sourceList[0]}'"
+            sourceList.pop(0)
 
-        #Target
-        # query += f") AND (t.geneid='{targetList[0]}'"
-        # targetList.pop(0)
-
-        # for target in targetList:
-        #     query += f" OR t.geneid='{target}'" 
+            for gene in sourceList:
+                query += f" OR t.geneid='{gene}'" 
 
         if(databases):
             query += ") AND ("
@@ -45,7 +45,7 @@ class SearchRepository:
                 if(count+1 < len(databases)):
                     query += ' OR '
 
-        query += ") RETURN p"
+        query += ") RETURN p LIMIT 1000"
 
         return query
 
