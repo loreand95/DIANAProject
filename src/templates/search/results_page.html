@@ -81,6 +81,8 @@
         {% endblock %}
         {% block script %}
         <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+        <script src="{{url_for('static', filename='js/api/SearchApi.js')}}" crossorigin="anonymous"></script>
+        <script src="{{url_for('static', filename='js/search/searchTable.js')}}" crossorigin="anonymous"></script>
         <script>
             const query = {{query|tojson}};
             loadTable(query);

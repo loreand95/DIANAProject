@@ -1,9 +1,8 @@
-let searches;
+document.getElementById("searchMenuLink").classList.add('active');
+document.getElementById("baseSearchLink").classList.add('active');
+document.getElementById("loadModal").addEventListener("show.bs.modal",showModalSavedSearch);
 
-document.getElementById("loadModal").addEventListener("show.bs.modal",showSavedSearch);
-
-
-function showSavedSearch(event){
+function showModalSavedSearch(event){
     const xhttp = new XMLHttpRequest();
 
     getAllSearchAPI().then((response)=>{
@@ -41,13 +40,16 @@ function showSavedSearch(event){
 
         let actionCell = row.insertCell(4);
 
-        actionCell.innerHTML = `<button type="button" class="btn btn-primary btn-sm" aria-label="Load" onclick=load('${search}')>Load</button>`;
+        actionCell.innerHTML = `<button type="button" class="btn btn-primary btn-sm" aria-label="Load" id="${search}"">Load</button>`;
+        const button = actionCell.children[0];
+        button.addEventListener('click', (event)=>{
+          fillSavedSearch(searches[event.target.id])
+        });
       }
     });
 }
 
-function load(id) {
-  let search = searches[id];
+function fillSavedSearch(search) {
 
   //Close modal
   let loadModal = document.getElementById("loadModal");
@@ -80,9 +82,10 @@ function load(id) {
   });
 }
 
-function changeSource(){
+function switchSource(){
 
     const labelSource = document.getElementById('labelSource');
+    const titleSearch = document.getElementById('titleSearch');
 
     const genesTarget = document.getElementById('geneTarget');
     const mrnasTarget = document.getElementById('mrnaTarget');
@@ -90,9 +93,11 @@ function changeSource(){
     if(genesTarget.checked){
         mrnasTarget.checked = !mrnasTarget.checked;
         labelSource.innerHTML = 'Genes';
+        titleSearch.innerHTML = 'Search mRNAs from genes';
     }else{
         genesTarget.checked = !genesTarget.checked;
         labelSource.innerHTML = 'mRNAs ';
+        titleSearch.innerHTML = 'Search genes from mRNAs';
     }
 
     const sourceText = document.getElementById("source").value;
@@ -141,4 +146,22 @@ function validateGenes(){
         submitBtn.disabled = true;
         return false;
     }
+}
+
+function checkDatabase(){
+  checks = document.querySelectorAll('input[type="checkbox"]');
+  submitBtn = document.getElementById("submit")
+
+  let val = false;
+  checks.forEach(element => {
+      val = val || element.checked
+  });
+
+  if(val){
+      document.getElementById('fieldDataset').style.borderColor='';
+      submitBtn.disabled = false;
+  }else{
+      document.getElementById('fieldDataset').style.borderColor='red';
+      submitBtn.disabled = true;
+  }
 }

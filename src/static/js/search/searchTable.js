@@ -1,21 +1,3 @@
-function checkDatabase(){
-    checks = document.querySelectorAll('input[type="checkbox"]');
-    submitBtn = document.getElementById("submit")
-
-    let val = false;
-    checks.forEach(element => {
-        val = val || element.checked
-    });
-
-    if(val){
-        document.getElementById('fieldDataset').style.borderColor='';
-        submitBtn.disabled = false;
-    }else{
-        document.getElementById('fieldDataset').style.borderColor='red';
-        submitBtn.disabled = true;
-    }
-}
-
 function save(){
     //Add name
     query['name'] = document.getElementById('fileName').value;
@@ -32,7 +14,6 @@ function save(){
             document.getElementById('fileName').value = '';
     });
 }
-
 
 function data2row(response){
     data = []

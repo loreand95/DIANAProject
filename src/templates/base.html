@@ -26,9 +26,28 @@
   <body>
     <main>
         <header>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container" style="justify-content: center;">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
               <a class="navbar-brand" href="#">DIANA Project</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" style="align-items: center;" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="searchMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Searches
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="searchMenuLink">
+                      <li><a class="dropdown-item" id="baseSearchLink" href="#">Base search</a></li>
+                      <li><a class="dropdown-item" href="#">Full search</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </nav>
           {% block head %}{% endblock %}
@@ -37,9 +56,7 @@
     <div class="container">
       {% block content %}{% endblock %}
     </div>
-    <script src="{{url_for('static', filename='js/search.js')}}" crossorigin="anonymous"></script>
     <script src="{{url_for('static', filename='js/utils.js')}}" crossorigin="anonymous"></script>
-    <script src="{{url_for('static', filename='js/api/SearchApi.js')}}" crossorigin="anonymous"></script>
     <script src="{{url_for('static', filename='bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
     {% block script %}{% endblock %}
   </body>
