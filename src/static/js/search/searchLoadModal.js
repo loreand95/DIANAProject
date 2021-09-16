@@ -38,11 +38,27 @@ function showModalSavedSearch(event){
 
         let actionCell = row.insertCell(4);
 
-        actionCell.innerHTML = `<button type="button" class="btn btn-primary btn-sm" aria-label="Load" id="${search}"">Load</button>`;
-        const button = actionCell.children[0];
-        button.addEventListener('click', (event)=>{
+        actionCell.innerHTML = 
+        `<div style="display:flex">
+          <button type="button" class="btn btn-primary btn-sm" aria-label="Load" id="${search}"">Load</button>
+          <button style="margin-left:15px" type="button" class="btn btn-danger btn-sm" aria-label="Delete" id="${search}"">Remove</button>
+        </div>`;
+
+        const loadButton = actionCell.firstChild.children[0];
+        loadButton.addEventListener('click', (event)=>{
           fillForm(searches[event.target.id])
+        });
+
+        const removeButton = actionCell.firstChild.children[1];
+        removeButton.addEventListener('click', (event)=>{
+          removeSavedSearch(searches[event.target.id])
         });
       }
     });
+}
+
+function removeSavedSearch(search){
+  console.log('renoved '+search.id)
+  deleteSearchAPI(search.id);
+  showModalSavedSearch();
 }

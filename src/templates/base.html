@@ -1,33 +1,30 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
+    <meta name="description" content="DIANA Project">
+    <meta name="author" content="Andreoli Lorenzo">
     <title>DIANA Project</title>
+    <!-- Icons -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="{{url_for('static', filename='bootstrap-5.1.0-dist/css/bootstrap.min.css')}}" rel="stylesheet" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="{{url_for('static', filename='css/index.css')}}" rel="stylesheet">
+    <!-- Custom font -->
     <style>
       @font-face {
         font-family: ProductSans;
         src: url("{{ url_for('static', filename='font/Product Sans Regular.ttf') }}");
       }
-      body {
-  font-family: 'ProductSans', sans-serif !important;
-}
     </style>
-    <script src="https://kit.fontawesome.com/1127a403b9.js" crossorigin="anonymous"></script>
-    </head>
+  </head>
   <body class="d-flex flex-column h-100">
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">DIANA Project</a>
+              <a class="navbar-brand" href="/">DIANA Project</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>

@@ -108,3 +108,17 @@ class SearchRepository:
             searches = json.loads(f.read()) # File to JSON
         
             return searches
+
+    def deleteSearch(id):
+
+        #Write to file
+        with open(FILE_PATH, 'r+') as f:
+
+            searches = json.loads(f.read()) # File to JSON
+
+            searches.pop(id)
+
+            #Overwrite
+            f.seek(0)
+            f.write(json.dumps(searches))
+            f.truncate()

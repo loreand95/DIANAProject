@@ -37,3 +37,12 @@ function getAllSearchAPI(data){
       console.error('Error:', error);
     });
 }
+
+function deleteSearchAPI(searchID){
+  return fetch('/api/search/'+searchID, {
+      method: 'DELETE'
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+}

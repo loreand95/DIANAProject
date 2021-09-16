@@ -12,6 +12,10 @@ def store():
     
     return Response(status=201, mimetype='application/json')
 
+def delete(id):
+    SearchRepository.deleteSearch(id)
+    return Response(status=200, mimetype='application/json')
+
 def table():
 
     data = request.get_json()
