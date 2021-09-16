@@ -11,11 +11,11 @@ function switchSource() {
   if (genesTarget.checked) {
     mrnasTarget.checked = !mrnasTarget.checked;
     labelSource.innerHTML = "Genes";
-    titleSearch.innerHTML = "Search mRNAs from genes";
+    titleSearch.innerHTML = "Search all mRNAs from genes";
   } else {
     genesTarget.checked = !genesTarget.checked;
     labelSource.innerHTML = "mRNAs ";
-    titleSearch.innerHTML = "Search genes from mRNAs";
+    titleSearch.innerHTML = "Search all genes from mRNAs";
   }
 
   const sourceText = document.getElementById("source").value;

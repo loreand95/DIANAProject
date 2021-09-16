@@ -34,6 +34,9 @@
             </div>
             <form method="post" action="/search/full/" onsubmit="return submitForm()">
                 <div class="row align-items-center mt-5">
+                    <h3 id="titleSearch" style="margin-right: 15px;">Search a subset of genes and mRNAs</h3>
+                </div>
+                <div class="row align-items-center mt-3">
                     <div class="col-5">
                         <label for="genes" class="form-label label">Source</label>
                     </div>
@@ -99,31 +102,9 @@
                     </div>
                 <br>
             </form>
-            <div class="modal fade" id="loadModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Load search</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <table class="table table-responsive" id="loadTable">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Sources</td>
-                                    <td>Targets</td>
-                                    <td>Databases</td>
-                                    <td>Action</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            <!-- LOAD MODAL -->
+            {% include "search/table_load_modal.html" %}
+            <!-- LOAD MODAL -->
         {% endblock %}
         {% block script %}
         <script src="{{url_for('static', filename='js/api/SearchApi.js')}}" crossorigin="anonymous"></script>
