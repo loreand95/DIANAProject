@@ -1,0 +1,88 @@
+ID   RHAD_YERPB              Reviewed;         274 AA.
+AC   B2K1W0;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-APR-2021, entry version 64.
+DE   RecName: Full=Rhamnulose-1-phosphate aldolase {ECO:0000255|HAMAP-Rule:MF_00770};
+DE            EC=4.1.2.19 {ECO:0000255|HAMAP-Rule:MF_00770};
+GN   Name=rhaD {ECO:0000255|HAMAP-Rule:MF_00770}; OrderedLocusNames=YPTS_0406;
+OS   Yersinia pseudotuberculosis serotype IB (strain PB1/+).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=502801;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PB1/+;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Munk A.C., Brettin T., Detter J.C.,
+RA   Han C., Tapia R., Schmutz J., Larimer F., Land M., Hauser L.,
+RA   Challacombe J.F., Green L., Lindler L.E., Nikolich M.P., Richardson P.;
+RT   "Complete sequence of Yersinia pseudotuberculosis PB1/+.";
+RL   Submitted (APR-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible cleavage of L-rhamnulose-1-phosphate
+CC       to dihydroxyacetone phosphate (DHAP) and L-lactaldehyde.
+CC       {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-rhamnulose 1-phosphate = (S)-lactaldehyde + dihydroxyacetone
+CC         phosphate; Xref=Rhea:RHEA:19689, ChEBI:CHEBI:18041,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:58313; EC=4.1.2.19;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00770};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00770};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00770};
+CC   -!- PATHWAY: Carbohydrate degradation; L-rhamnose degradation; glycerone
+CC       phosphate from L-rhamnose: step 3/3. {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SIMILARITY: Belongs to the aldolase class II family. RhaD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001048; ACC87395.1; -; Genomic_DNA.
+DR   RefSeq; WP_012413440.1; NZ_CP009780.1.
+DR   SMR; B2K1W0; -.
+DR   GeneID; 49787623; -.
+DR   KEGG; ypb:YPTS_0406; -.
+DR   PATRIC; fig|502801.10.peg.4084; -.
+DR   OMA; SHFMSHI; -.
+DR   BioCyc; YPSE502801:YPTS_RS02130-MONOMER; -.
+DR   UniPathway; UPA00541; UER00603.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008994; F:rhamnulose-1-phosphate aldolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019301; P:rhamnose catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.225.10; -; 1.
+DR   HAMAP; MF_00770; RhaD; 1.
+DR   InterPro; IPR001303; Aldolase_II/adducin_N.
+DR   InterPro; IPR036409; Aldolase_II/adducin_N_sf.
+DR   InterPro; IPR013447; Rhamnulose-1-P_Aldolase.
+DR   Pfam; PF00596; Aldolase_II; 1.
+DR   SMART; SM01007; Aldolase_II; 1.
+DR   SUPFAM; SSF53639; SSF53639; 1.
+DR   TIGRFAMs; TIGR02624; rhamnu_1P_ald; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lyase; Metal-binding; Rhamnose metabolism; Zinc.
+FT   CHAIN           1..274
+FT                   /note="Rhamnulose-1-phosphate aldolase"
+FT                   /id="PRO_1000193740"
+FT   ACT_SITE        117
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           141
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           143
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           212
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+SQ   SEQUENCE   274 AA;  30361 MW;  C297ED8D2A03174F CRC64;
+     MQAILSSWFI QGMIKATSDM WHKGWDERNG GNISLRLLAE EVEPYRRDFY QHPRKVELTQ
+     PAPELANSWF LVTGSGKFFR NVELNPAENL VLLQVSNDGM AYHIHWGLTQ GGLPTSELAA
+     HFQSHIVRMQ VSGGTNRVIM HCHATNLIAL SYVQKLENAS FTRLLWEGST ECLVVFPDGI
+     GIVPWMVPGT DGIGTQTAEQ MREHSLVLWP FHGIFGSGPT LDDAFGLIDT AEKSAEIMVK
+     VLSMGGKKQT ISREQLIALA ARFDVTPMAA ALDA
+//

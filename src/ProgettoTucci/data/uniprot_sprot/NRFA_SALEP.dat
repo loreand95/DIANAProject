@@ -1,0 +1,177 @@
+ID   NRFA_SALEP              Reviewed;         478 AA.
+AC   B5QZA1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   04-NOV-2008, sequence version 1.
+DT   07-APR-2021, entry version 70.
+DE   RecName: Full=Cytochrome c-552 {ECO:0000255|HAMAP-Rule:MF_01182};
+DE            EC=1.7.2.2 {ECO:0000255|HAMAP-Rule:MF_01182};
+DE   AltName: Full=Ammonia-forming cytochrome c nitrite reductase {ECO:0000255|HAMAP-Rule:MF_01182};
+DE            Short=Cytochrome c nitrite reductase {ECO:0000255|HAMAP-Rule:MF_01182};
+DE   Flags: Precursor;
+GN   Name=nrfA {ECO:0000255|HAMAP-Rule:MF_01182}; OrderedLocusNames=SEN4047;
+OS   Salmonella enteritidis PT4 (strain P125109).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=550537;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=P125109;
+RX   PubMed=18583645; DOI=10.1101/gr.077404.108;
+RA   Thomson N.R., Clayton D.J., Windhorst D., Vernikos G., Davidson S.,
+RA   Churcher C., Quail M.A., Stevens M., Jones M.A., Watson M., Barron A.,
+RA   Layton A., Pickard D., Kingsley R.A., Bignell A., Clark L., Harris B.,
+RA   Ormond D., Abdellah Z., Brooks K., Cherevach I., Chillingworth T.,
+RA   Woodward J., Norberczak H., Lord A., Arrowsmith C., Jagels K., Moule S.,
+RA   Mungall K., Saunders M., Whitehead S., Chabalgoity J.A., Maskell D.,
+RA   Humphreys T., Roberts M., Barrow P.A., Dougan G., Parkhill J.;
+RT   "Comparative genome analysis of Salmonella enteritidis PT4 and Salmonella
+RT   gallinarum 287/91 provides insights into evolutionary and host adaptation
+RT   pathways.";
+RL   Genome Res. 18:1624-1637(2008).
+CC   -!- FUNCTION: Catalyzes the reduction of nitrite to ammonia, consuming six
+CC       electrons in the process. {ECO:0000255|HAMAP-Rule:MF_01182}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6 [Fe(III)cytochrome c] + 2 H2O + NH4(+) = 6 [Fe(II)cytochrome
+CC         c] + 8 H(+) + nitrite; Xref=Rhea:RHEA:13089, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16301, ChEBI:CHEBI:28938, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034; EC=1.7.2.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01182};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01182};
+CC       Note=Binds 1 Ca(2+) ion per monomer. {ECO:0000255|HAMAP-Rule:MF_01182};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01182};
+CC       Note=Binds 5 heme groups covalently per monomer. {ECO:0000255|HAMAP-
+CC       Rule:MF_01182};
+CC   -!- PATHWAY: Nitrogen metabolism; nitrate reduction (assimilation).
+CC       {ECO:0000255|HAMAP-Rule:MF_01182}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01182}.
+CC   -!- SIMILARITY: Belongs to the cytochrome c-552 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01182}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM933172; CAR35609.1; -; Genomic_DNA.
+DR   RefSeq; WP_000101770.1; NC_011294.1.
+DR   SMR; B5QZA1; -.
+DR   KEGG; set:SEN4047; -.
+DR   HOGENOM; CLU_035040_1_0_6; -.
+DR   OMA; EMVILWA; -.
+DR   BioCyc; SENT550537:G1G1W-4449-MONOMER; -.
+DR   UniPathway; UPA00653; -.
+DR   Proteomes; UP000000613; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042279; F:nitrite reductase (cytochrome, ammonia-forming) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042128; P:nitrate assimilation; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00548; NrfA-like; 1.
+DR   HAMAP; MF_01182; Cytochrom_C552; 1.
+DR   InterPro; IPR003321; Cyt_c552.
+DR   InterPro; IPR017570; Cyt_c_NO2Rdtase_formate-dep.
+DR   InterPro; IPR011031; Multihaem_cyt.
+DR   InterPro; IPR036280; Multihaem_cyt_sf.
+DR   PANTHER; PTHR30633; PTHR30633; 1.
+DR   Pfam; PF02335; Cytochrom_C552; 1.
+DR   PIRSF; PIRSF000243; Cyt_c552; 1.
+DR   SUPFAM; SSF48695; SSF48695; 1.
+DR   TIGRFAMs; TIGR03152; cyto_c552_HCOOH; 1.
+DR   PROSITE; PS51008; MULTIHEME_CYTC; 1.
+PE   3: Inferred from homology;
+KW   Calcium; Electron transport; Heme; Iron; Metal-binding; Oxidoreductase;
+KW   Periplasm; Signal; Transport.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   CHAIN           27..478
+FT                   /note="Cytochrome c-552"
+FT                   /id="PRO_5000397508"
+FT   METAL           94
+FT                   /note="Iron (heme 3 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           126
+FT                   /note="Iron (heme 1 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           164
+FT                   /note="Iron (heme 2 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           213
+FT                   /note="Iron (heme 3 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           215
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           216
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           261
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           263
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           275
+FT                   /note="Iron (heme 5 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           286
+FT                   /note="Iron (heme 4 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           301
+FT                   /note="Iron (heme 2 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           318
+FT                   /note="Iron (heme 5 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   METAL           393
+FT                   /note="Iron (heme 4 axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         122
+FT                   /note="Heme 1; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         125
+FT                   /note="Heme 1; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         160
+FT                   /note="Heme 2; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         163
+FT                   /note="Heme 2; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         209
+FT                   /note="Heme 3; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         212
+FT                   /note="Heme 3; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         216
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         264
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         282
+FT                   /note="Heme 4; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         285
+FT                   /note="Heme 4; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         314
+FT                   /note="Heme 5; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+FT   BINDING         317
+FT                   /note="Heme 5; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01182"
+SQ   SEQUENCE   478 AA;  53787 MW;  0AD7521E66215571 CRC64;
+     MARKTLRARR FFSLIFPFFF ITSVYAEQTP ESAKTVTVEA KNEMFAPQHP DQYQSWKATS
+     EQSAREDALA EDPRLVILWA GYPFSRDYNK PRGHAYAVTD VRETLRTGAP KTAEDGPLPM
+     ACWSCKSPDV ARLIQQEGED GYFHGKWARG GPEIVNDLGC ADCHNTASDD FAQGKPALTL
+     SRPYAERAME AIGKPFDKAG RFDQQSMVCG QCHVEYYFDG KNKAVKFPWD EGMKVENMEQ
+     YYDAIAFSDW TNSLSKTPML KAQHPEYETW SAGIHGKNNV TCIDCHMPKV QNAEGKLYTD
+     HKIGNPFDNF AQTCANCHTQ DKASLQKVVA ERKQAIHDLK IKVEDQLVHA HFEAKAAWDA
+     GATDAEMKPI LNDIRHAQWR WDLAIASHGI HMHAPEEGLR MLGSAMDKAA DARTKLARLL
+     ATKGITHEIP LPDISTKEKA QKAIGLNMQQ INAEKQDFLK TVVPQWEDQA RKNGLLSQ
+//

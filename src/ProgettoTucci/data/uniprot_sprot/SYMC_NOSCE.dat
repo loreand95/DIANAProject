@@ -1,0 +1,93 @@
+ID   SYMC_NOSCE              Reviewed;         560 AA.
+AC   C4V943;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-NOV-2009, sequence version 2.
+DT   10-FEB-2021, entry version 55.
+DE   RecName: Full=Probable methionine--tRNA ligase, cytoplasmic;
+DE            EC=6.1.1.10;
+DE   AltName: Full=Methionyl-tRNA synthetase;
+DE            Short=MetRS;
+GN   ORFNames=NCER_101052;
+OS   Nosema ceranae (strain BRL01) (Microsporidian parasite).
+OC   Eukaryota; Fungi; Fungi incertae sedis; Microsporidia; Nosematidae; Nosema.
+OX   NCBI_TaxID=578460;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BRL01;
+RX   PubMed=19503607; DOI=10.1371/journal.ppat.1000466;
+RA   Cornman R.S., Chen Y.P., Schatz M.C., Street C., Zhao Y., Desany B.,
+RA   Egholm M., Hutchison S., Pettis J.S., Lipkin W.I., Evans J.D.;
+RT   "Genomic analyses of the microsporidian Nosema ceranae, an emergent
+RT   pathogen of honey bees.";
+RL   PLoS Pathog. 5:E1000466-E1000466(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-methionine + tRNA(Met) = AMP + diphosphate + L-
+CC         methionyl-tRNA(Met); Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667,
+CC         Rhea:RHEA-COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:78442, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.10;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EEQ82257.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ACOL01000084; EEQ82257.1; ALT_FRAME; Genomic_DNA.
+DR   RefSeq; XP_002995928.1; XM_002995882.1.
+DR   SMR; C4V943; -.
+DR   EnsemblFungi; EEQ82257; EEQ82257; NCER_101052.
+DR   KEGG; nce:NCER_101052; -.
+DR   VEuPathDB; MicrosporidiaDB:NCER_101052; -.
+DR   HOGENOM; CLU_009710_1_2_1; -.
+DR   InParanoid; C4V943; -.
+DR   Proteomes; UP000009082; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IEA:InterPro.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   Gene3D; 2.20.28.20; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR029038; MetRS_Zn.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF57770; SSF57770; 1.
+DR   TIGRFAMs; TIGR00398; metG; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..560
+FT                   /note="Probable methionine--tRNA ligase, cytoplasmic"
+FT                   /id="PRO_0000388398"
+FT   MOTIF           16..26
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           347..351
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         350
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   560 AA;  65264 MW;  A52A29503EC6867A CRC64;
+     MKKKFLVKKI ITSALPYVNN QPHLGNIIGC VLSADMYARF CRKNNEDVVF LSGTDEYGTA
+     IEMAAFAQNK TPLQICEENR IIHKKIYDWF NIDFDFFGHT TSTAHTKNVQ DFFNKIHNNG
+     FFTEQEIEQF FCDKCQIFLA DRYVVGTCKF CKYTDAKGDQ CDGCGHTYKS LDLIDAKCTL
+     CHSFPNIKST RHLFFDFNNF KDKLQKLFNT NSQYWSENGK QITKSWLDQE LLPRCMTRDL
+     KNRWGVPVPL KDFEEKVFYV WFDAVIGYFT FYKEYVAARS ESKELDKNNV FATDNILQDC
+     ELVQFMGKDN VFFHTIVFPS LIFATNDSYP LIKKLSVTEF LLFENEKFSK SRGHGIFGLD
+     LVDNTMGQSC LWRYYLAKIR PEKCDSNFSF THFTNVIDAD LNNNIGNFCN RVLKYIKNKN
+     DKLISIDKLE HRDDLMVQTI DKIYKEYLTS FSAIRIREAL EKILEISKVG NEYVQQVVSS
+     KIEVPKGFQV AFSIVVLIGQ LLEPFIPVSS EKLLKMCNRK KENFCESFYI IKSAEIGDDI
+     KPLFNKLDDS LIERIKNFKK
+//

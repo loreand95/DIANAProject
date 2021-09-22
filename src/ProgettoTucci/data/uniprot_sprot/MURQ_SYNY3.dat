@@ -1,0 +1,104 @@
+ID   MURQ_SYNY3              Reviewed;         305 AA.
+AC   P73585;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   02-DEC-2020, entry version 127.
+DE   RecName: Full=N-acetylmuramic acid 6-phosphate etherase {ECO:0000255|HAMAP-Rule:MF_00068};
+DE            Short=MurNAc-6-P etherase {ECO:0000255|HAMAP-Rule:MF_00068};
+DE            EC=4.2.1.126 {ECO:0000255|HAMAP-Rule:MF_00068};
+DE   AltName: Full=N-acetylmuramic acid 6-phosphate hydrolase {ECO:0000255|HAMAP-Rule:MF_00068};
+DE   AltName: Full=N-acetylmuramic acid 6-phosphate lyase {ECO:0000255|HAMAP-Rule:MF_00068};
+GN   Name=murQ {ECO:0000255|HAMAP-Rule:MF_00068}; OrderedLocusNames=sll0861;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Synechococcales; Merismopediaceae; Synechocystis;
+OC   unclassified Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T., Hosouchi T.,
+RA   Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S., Shimpo S.,
+RA   Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the entire
+RT   genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+CC   -!- FUNCTION: Specifically catalyzes the cleavage of the D-lactyl ether
+CC       substituent of MurNAc 6-phosphate, producing GlcNAc 6-phosphate and D-
+CC       lactate. {ECO:0000255|HAMAP-Rule:MF_00068}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acetyl-D-muramate 6-phosphate = (R)-lactate + N-
+CC         acetyl-D-glucosamine 6-phosphate; Xref=Rhea:RHEA:26410,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16004, ChEBI:CHEBI:57513,
+CC         ChEBI:CHEBI:58722; EC=4.2.1.126; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00068};
+CC   -!- PATHWAY: Amino-sugar metabolism; N-acetylmuramate degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00068}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00068}.
+CC   -!- MISCELLANEOUS: A lyase-type mechanism (elimination/hydration) is
+CC       suggested for the cleavage of the lactyl ether bond of MurNAc 6-
+CC       phosphate, with the formation of an alpha,beta-unsaturated aldehyde
+CC       intermediate with (E)-stereochemistry, followed by the syn addition of
+CC       water to give product. {ECO:0000255|HAMAP-Rule:MF_00068}.
+CC   -!- SIMILARITY: Belongs to the GCKR-like family. MurNAc-6-P etherase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00068}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000022; BAA17625.1; -; Genomic_DNA.
+DR   PIR; S77291; S77291.
+DR   SMR; P73585; -.
+DR   IntAct; P73585; 28.
+DR   STRING; 1148.1652705; -.
+DR   PaxDb; P73585; -.
+DR   EnsemblBacteria; BAA17625; BAA17625; BAA17625.
+DR   KEGG; syn:sll0861; -.
+DR   eggNOG; COG2103; Bacteria.
+DR   InParanoid; P73585; -.
+DR   OMA; CPPTFCT; -.
+DR   PhylomeDB; P73585; -.
+DR   UniPathway; UPA00342; -.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0097367; F:carbohydrate derivative binding; IEA:InterPro.
+DR   GO; GO:0016835; F:carbon-oxygen lyase activity; IBA:GO_Central.
+DR   GO; GO:0016803; F:ether hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0046348; P:amino sugar catabolic process; IBA:GO_Central.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0097173; P:N-acetylmuramic acid catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009254; P:peptidoglycan turnover; IBA:GO_Central.
+DR   CDD; cd05007; SIS_Etherase; 1.
+DR   HAMAP; MF_00068; MurQ; 1.
+DR   InterPro; IPR005488; Etherase_MurQ.
+DR   InterPro; IPR005486; Glucokinase_regulatory_CS.
+DR   InterPro; IPR040190; MURQ/GCKR.
+DR   InterPro; IPR001347; SIS.
+DR   PANTHER; PTHR10088; PTHR10088; 1.
+DR   PANTHER; PTHR10088:SF5; PTHR10088:SF5; 1.
+DR   Pfam; PF13580; SIS_2; 1.
+DR   TIGRFAMs; TIGR00274; TIGR00274; 1.
+DR   PROSITE; PS01272; GCKR; 1.
+DR   PROSITE; PS51464; SIS; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Lyase; Reference proteome.
+FT   CHAIN           1..305
+FT                   /note="N-acetylmuramic acid 6-phosphate etherase"
+FT                   /id="PRO_0000214839"
+FT   DOMAIN          61..224
+FT                   /note="SIS"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00068"
+FT   ACT_SITE        89
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00068"
+FT   ACT_SITE        120
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00068"
+SQ   SEQUENCE   305 AA;  32181 MW;  1B223275DE714D18 CRC64;
+     MPMEILEERG HLLTEQTNPQ SQNLDQLSSL ELVDLFNQQD QLTVTAIAGA REDLAAAIEI
+     ISDALAKGGR LFYIGAGTSG RLGVLDAVEC PPTFCTPSEL VQGILAGGAS ALLRSSEGLE
+     DIAADGAQAI ADHRITQLDV VVGITAGGTT PYVHGALDAA RARGTKTIFI ACVPESQAPC
+     QADVNIRLLT GPEILAGSTR LKAGTVTKMA LNILSTGAMV KLGKVYGNRM VDVAVTNRKL
+     EDRAIRILRD LTDLNREEAA ELLVASGQRV KLALLMHWSG LSAESAQAQL DRHGGNLRQA
+     MDAAP
+//

@@ -1,0 +1,109 @@
+ID   COXX_THEPD              Reviewed;         282 AA.
+AC   A1RZ10;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Protoheme IX farnesyltransferase {ECO:0000255|HAMAP-Rule:MF_00154};
+DE            EC=2.5.1.141 {ECO:0000255|HAMAP-Rule:MF_00154};
+DE   AltName: Full=Heme B farnesyltransferase {ECO:0000255|HAMAP-Rule:MF_00154};
+DE   AltName: Full=Heme O synthase {ECO:0000255|HAMAP-Rule:MF_00154};
+GN   Name=ctaB {ECO:0000255|HAMAP-Rule:MF_00154}; OrderedLocusNames=Tpen_1040;
+OS   Thermofilum pendens (strain DSM 2475 / Hrk 5).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae;
+OC   Thermofilum.
+OX   NCBI_TaxID=368408;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 2475 / Hrk 5;
+RX   PubMed=18263724; DOI=10.1128/jb.01949-07;
+RA   Anderson I., Rodriguez J., Susanti D., Porat I., Reich C., Ulrich L.E.,
+RA   Elkins J.G., Mavromatis K., Lykidis A., Kim E., Thompson L.S., Nolan M.,
+RA   Land M., Copeland A., Lapidus A., Lucas S., Detter C., Zhulin I.B.,
+RA   Olsen G.J., Whitman W., Mukhopadhyay B., Bristow J., Kyrpides N.;
+RT   "Genome sequence of Thermofilum pendens reveals an exceptional loss of
+RT   biosynthetic pathways without genome reduction.";
+RL   J. Bacteriol. 190:2957-2965(2008).
+CC   -!- FUNCTION: Converts heme B (protoheme IX) to heme O by substitution of
+CC       the vinyl group on carbon 2 of heme B porphyrin ring with a
+CC       hydroxyethyl farnesyl side group. {ECO:0000255|HAMAP-Rule:MF_00154}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E)-farnesyl diphosphate + H2O + heme b = diphosphate +
+CC         Fe(II)-heme o; Xref=Rhea:RHEA:28070, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:60344, ChEBI:CHEBI:60530,
+CC         ChEBI:CHEBI:175763; EC=2.5.1.141; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00154};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; heme O biosynthesis;
+CC       heme O from protoheme: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00154}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_00154};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_00154}.
+CC   -!- MISCELLANEOUS: Carbon 2 of the heme B porphyrin ring is defined
+CC       according to the Fischer nomenclature. {ECO:0000255|HAMAP-
+CC       Rule:MF_00154}.
+CC   -!- SIMILARITY: Belongs to the UbiA prenyltransferase family. Protoheme IX
+CC       farnesyltransferase subfamily. {ECO:0000255|HAMAP-Rule:MF_00154}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000505; ABL78440.1; -; Genomic_DNA.
+DR   RefSeq; WP_011752705.1; NC_008698.1.
+DR   STRING; 368408.Tpen_1040; -.
+DR   EnsemblBacteria; ABL78440; ABL78440; Tpen_1040.
+DR   GeneID; 4600945; -.
+DR   KEGG; tpe:Tpen_1040; -.
+DR   eggNOG; arCOG00479; Archaea.
+DR   HOGENOM; CLU_029631_0_1_2; -.
+DR   OMA; WQFPHFW; -.
+DR   OrthoDB; 97092at2157; -.
+DR   UniPathway; UPA00834; UER00712.
+DR   Proteomes; UP000000641; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008495; F:protoheme IX farnesyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048034; P:heme O biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13957; PT_UbiA_Cox10; 1.
+DR   HAMAP; MF_00154; CyoE_CtaB; 1.
+DR   InterPro; IPR006369; Protohaem_IX_farnesylTrfase.
+DR   InterPro; IPR000537; UbiA_prenyltransferase.
+DR   InterPro; IPR030470; UbiA_prenylTrfase_CS.
+DR   PANTHER; PTHR43448; PTHR43448; 1.
+DR   Pfam; PF01040; UbiA; 1.
+DR   TIGRFAMs; TIGR01473; cyoE_ctaB; 1.
+DR   PROSITE; PS00943; UBIA; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Heme biosynthesis; Membrane; Reference proteome;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..282
+FT                   /note="Protoheme IX farnesyltransferase"
+FT                   /id="PRO_0000346096"
+FT   TRANSMEM        40..60
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        87..107
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        108..128
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        135..157
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        162..184
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        204..224
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        228..248
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+FT   TRANSMEM        261..281
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00154"
+SQ   SEQUENCE   282 AA;  29523 MW;  F45AFBEEDE9736CD CRC64;
+     MAPSAKDLLE LFKVKQTALL LVTGVCAYLE GAGKPDPATL VLASLSMFLS IAGTTGFNMV
+     LDADIDSAMF RTRNRPLPAR RMSAKDAVLA SSAALAAGLA AGVAVNPYVF VAGLLGFLID
+     IAVYTVLLKR KSPWSVVFGG FAGGMPALGG WAAATGGFGY QGVLLMLLVA VWSSLHIWTL
+     STYYSEDYRR AGVPMLPAVY GERAGVVASL AAAVAVFLVA FLAFRAGLIS AVGFAVAAVP
+     LVLAVAVLLK GLVSGEYREK AYRAFKLVNI FMGLFFVLLV LT
+//

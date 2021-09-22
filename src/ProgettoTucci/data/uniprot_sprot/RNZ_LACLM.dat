@@ -1,0 +1,109 @@
+ID   RNZ_LACLM               Reviewed;         307 AA.
+AC   A2RIV7;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-MAR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 79.
+DE   RecName: Full=Ribonuclease Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            Short=RNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            EC=3.1.26.11 {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNA 3 endonuclease {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+GN   Name=rnz {ECO:0000255|HAMAP-Rule:MF_01818}; OrderedLocusNames=llmg_0604;
+OS   Lactococcus lactis subsp. cremoris (strain MG1363).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=416870;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MG1363;
+RX   PubMed=17307855; DOI=10.1128/jb.01768-06;
+RA   Wegmann U., O'Connell-Motherway M., Zomer A., Buist G., Shearman C.,
+RA   Canchaya C., Ventura M., Goesmann A., Gasson M.J., Kuipers O.P.,
+RA   van Sinderen D., Kok J.;
+RT   "The complete genome sequence of the lactic acid bacterial paradigm
+RT   Lactococcus lactis subsp. cremoris MG1363.";
+RL   J. Bacteriol. 189:3256-3270(2007).
+CC   -!- FUNCTION: Zinc phosphodiesterase, which displays some tRNA 3'-
+CC       processing endonuclease activity. Probably involved in tRNA maturation,
+CC       by removing a 3'-trailer from precursor tRNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage of RNA, removing extra 3' nucleotides
+CC         from tRNA precursor, generating 3' termini of tRNAs. A 3'-hydroxy
+CC         group is left at the tRNA terminus and a 5'-phosphoryl group is left
+CC         at the trailer molecule.; EC=3.1.26.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01818};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01818};
+CC       Note=Binds 2 Zn(2+) ions. {ECO:0000255|HAMAP-Rule:MF_01818};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01818}.
+CC   -!- SIMILARITY: Belongs to the RNase Z family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM406671; CAL97204.1; -; Genomic_DNA.
+DR   RefSeq; WP_011834620.1; NZ_WJVF01000015.1.
+DR   SMR; A2RIV7; -.
+DR   STRING; 416870.llmg_0604; -.
+DR   EnsemblBacteria; CAL97204; CAL97204; llmg_0604.
+DR   KEGG; llm:llmg_0604; -.
+DR   eggNOG; COG1234; Bacteria.
+DR   HOGENOM; CLU_031317_2_0_9; -.
+DR   OMA; GTQRQMM; -.
+DR   BioCyc; LLAC416870:LLMG_RS03145-MONOMER; -.
+DR   Proteomes; UP000000364; Chromosome.
+DR   GO; GO:0042781; F:3'-tRNA processing endoribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd07717; RNaseZ_ZiPD-like_MBL-fold; 1.
+DR   Gene3D; 3.60.15.10; -; 1.
+DR   HAMAP; MF_01818; RNase_Z_BN; 1.
+DR   InterPro; IPR001279; Metallo-B-lactamas.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   InterPro; IPR013471; RNase_Z/BN.
+DR   Pfam; PF00753; Lactamase_B; 1.
+DR   Pfam; PF12706; Lactamase_B_2; 1.
+DR   SUPFAM; SSF56281; SSF56281; 1.
+DR   TIGRFAMs; TIGR02651; RNase_Z; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease; Hydrolase; Metal-binding; Nuclease; tRNA processing; Zinc.
+FT   CHAIN           1..307
+FT                   /note="Ribonuclease Z"
+FT                   /id="PRO_1000070289"
+FT   ACT_SITE        67
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           63
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           65
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           67
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           68
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           143
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           213
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           213
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           271
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+SQ   SEQUENCE   307 AA;  33944 MW;  A44048CE4149B98D CRC64;
+     MEIQFLGTGA GQPSKSRNTQ AIALKMLDER NEIWLFDCGE ASQHQILNTA IKPRKITKIF
+     ITHLHGDHIF GLPGFLSSRS FQSSDEQTDL DLYGPVGIKE FVLAGLRISG SHLGYRINFH
+     EIDSAGKIFE DDSFEVYTDL LDHTIFCLGY RVVEKNRVGE LDANALKEAG LPFGPLFGKI
+     KKGEVVDYDG KTFDPKDYIG ADKVGKIVTI LGDTRKTNTA VRLAWQADLL VHEATYEAAE
+     SKMARAHGHS TTKQAADVAK EAGVNRLLLT HISARYVGPL VGQLVREAQD VHANTFVAKD
+     LYEEKIG
+//

@@ -1,0 +1,104 @@
+ID   METE_PELCD              Reviewed;         758 AA.
+AC   Q3A7E2;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00172};
+DE            EC=2.1.1.14 {ECO:0000255|HAMAP-Rule:MF_00172};
+DE   AltName: Full=Cobalamin-independent methionine synthase {ECO:0000255|HAMAP-Rule:MF_00172};
+DE   AltName: Full=Methionine synthase, vitamin-B12 independent isozyme {ECO:0000255|HAMAP-Rule:MF_00172};
+GN   Name=metE {ECO:0000255|HAMAP-Rule:MF_00172}; OrderedLocusNames=Pcar_0442;
+OS   Pelobacter carbinolicus (strain DSM 2380 / NBRC 103641 / GraBd1).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales;
+OC   Desulfuromonadaceae; Pelobacter.
+OX   NCBI_TaxID=338963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 2380 / NBRC 103641 / GraBd1;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Chertkov O., Schmutz J., Larimer F.,
+RA   Land M., Kyrpides N., Ivanova N., Richardson P.;
+RT   "Complete sequence of Pelobacter carbinolicus DSM 2380.";
+RL   Submitted (OCT-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a methyl group from 5-
+CC       methyltetrahydrofolate to homocysteine resulting in methionine
+CC       formation. {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-methyltetrahydropteroyltri-L-glutamate + L-homocysteine = L-
+CC         methionine + tetrahydropteroyltri-L-glutamate; Xref=Rhea:RHEA:21196,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:58140, ChEBI:CHEBI:58199,
+CC         ChEBI:CHEBI:58207; EC=2.1.1.14; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00172};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00172};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00172};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-methionine from L-homocysteine (MetE route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   -!- SIMILARITY: Belongs to the vitamin-B12 independent methionine synthase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000142; ABA87702.1; -; Genomic_DNA.
+DR   RefSeq; WP_011340124.1; NC_007498.2.
+DR   SMR; Q3A7E2; -.
+DR   STRING; 338963.Pcar_0442; -.
+DR   EnsemblBacteria; ABA87702; ABA87702; Pcar_0442.
+DR   KEGG; pca:Pcar_0442; -.
+DR   eggNOG; COG0620; Bacteria.
+DR   HOGENOM; CLU_013175_0_0_7; -.
+DR   OMA; RFGWVQS; -.
+DR   OrthoDB; 577156at2; -.
+DR   BioCyc; PCAR338963:G1G5C-470-MONOMER; -.
+DR   UniPathway; UPA00051; UER00082.
+DR   Proteomes; UP000002534; Chromosome.
+DR   GO; GO:0003871; F:5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd03311; CIMS_C_terminal_like; 1.
+DR   Gene3D; 3.20.20.210; -; 2.
+DR   HAMAP; MF_00172; Meth_synth; 1.
+DR   InterPro; IPR013215; Cbl-indep_Met_Synth_N.
+DR   InterPro; IPR006276; Cobalamin-indep_Met_synthase.
+DR   InterPro; IPR002629; Met_Synth_C/arc.
+DR   InterPro; IPR038071; UROD/MetE-like_sf.
+DR   Pfam; PF08267; Meth_synt_1; 1.
+DR   Pfam; PF01717; Meth_synt_2; 1.
+DR   PIRSF; PIRSF000382; MeTrfase_B12_ind; 1.
+DR   SUPFAM; SSF51726; SSF51726; 2.
+DR   TIGRFAMs; TIGR01371; met_syn_B12ind; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Metal-binding; Methionine biosynthesis;
+KW   Methyltransferase; Reference proteome; Repeat; Transferase; Zinc.
+FT   CHAIN           1..758
+FT                   /note="5-methyltetrahydropteroyltriglutamate--homocysteine
+FT                   methyltransferase"
+FT                   /id="PRO_1000071614"
+FT   METAL           643
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   METAL           645
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+FT   METAL           728
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00172"
+SQ   SEQUENCE   758 AA;  85720 MW;  059EAB3FE0EF7BB7 CRC64;
+     MLTHTLGFPR MGAHRELKKN LESYWKGAIG QEKLMASGRE LRLRHWRLQQ QAGIDLVPVG
+     DFSYYDHMLD MVAMLGAVPP RFGWQGESVD LDTYFYMARG SSGHRTTTAM EMTKWFDTNY
+     HYIVPEFYPG QRFRLARNRL FEELAEACIE GIQAKPVLPG PMTFIALGKE MVAGFDRWSH
+     LDAVVEVYEE IVSRVAAKCS WIQLDEPILA TDVPGPIRLR VRDVYRRLAA VAGPCRLMVA
+     TYFGALQENL DLALSLPVDG LHVDLVRAPG QLEKVLPCLP ENMVLSLGLI DGRNVWRSNL
+     RQAISTAQDA VVARGSDRVM IAPSCSLLHV PVDLAGEAVL DPRIRSWLAF ARQKCQEVNV
+     VRLALDGEDV TEVLQANDTA MENRRKSALV HRDAVRRRMA DISPDMYCRR SSFEERKKQQ
+     AWLRLPTLPT TTIGSFPQVA GVRSARRSFK QGRISEEQYR AEMQRYIREA IAQQEALGLD
+     VLVHGEPERN DMVEYFGEQL AGFCFTENGW VQGYGSRCVK PPIIYGDVER LKPMTMEWTT
+     YAQQQTNRPL KGMLTGPVTM LCWSFVRDDQ PRSATCKQIA LAIRDEVQDL EQAGIKIIQV
+     DEAALREGLP LRKSAWREYL GWAVDAFRLT ASGVADSTQI HTHMCYSEFN HIAEWIAKMD
+     ADVISIEASR SNMELLGVLE SFTYPNDIGP GVYDIHSPRV PSVAEMVELL RKASEVIPLE
+     RLWVNPDCGL KTRAWPETLA SLRNMVAAAQ KLRFFARG
+//

@@ -1,0 +1,114 @@
+ID   IF2_LISMH               Reviewed;         781 AA.
+AC   B8DG02;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   07-APR-2021, entry version 71.
+DE   RecName: Full=Translation initiation factor IF-2 {ECO:0000255|HAMAP-Rule:MF_00100};
+GN   Name=infB {ECO:0000255|HAMAP-Rule:MF_00100}; OrderedLocusNames=LMHCC_1245;
+OS   Listeria monocytogenes serotype 4a (strain HCC23).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+OX   NCBI_TaxID=552536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HCC23;
+RX   PubMed=21602330; DOI=10.1128/jb.05236-11;
+RA   Steele C.L., Donaldson J.R., Paul D., Banes M.M., Arick T., Bridges S.M.,
+RA   Lawrence M.L.;
+RT   "Genome sequence of lineage III Listeria monocytogenes strain HCC23.";
+RL   J. Bacteriol. 193:3679-3680(2011).
+CC   -!- FUNCTION: One of the essential components for the initiation of protein
+CC       synthesis. Protects formylmethionyl-tRNA from spontaneous hydrolysis
+CC       and promotes its binding to the 30S ribosomal subunits. Also involved
+CC       in the hydrolysis of GTP during the formation of the 70S ribosomal
+CC       complex. {ECO:0000255|HAMAP-Rule:MF_00100}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00100}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. IF-2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00100}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001175; ACK39592.1; -; Genomic_DNA.
+DR   RefSeq; WP_012581383.1; NC_011660.1.
+DR   SMR; B8DG02; -.
+DR   KEGG; lmh:LMHCC_1245; -.
+DR   HOGENOM; CLU_006301_5_1_9; -.
+DR   OMA; NRDNRTG; -.
+DR   BioCyc; LMON552536:G1GTR-1292-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003743; F:translation initiation factor activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd03702; IF2_mtIF2_II; 1.
+DR   Gene3D; 3.40.50.10050; -; 1.
+DR   HAMAP; MF_00100_B; IF_2_B; 1.
+DR   InterPro; IPR044145; IF2_II.
+DR   InterPro; IPR006847; IF2_N.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR000178; TF_IF2_bacterial-like.
+DR   InterPro; IPR015760; TIF_IF2.
+DR   InterPro; IPR023115; TIF_IF2_dom3.
+DR   InterPro; IPR036925; TIF_IF2_dom3_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   PANTHER; PTHR43381; PTHR43381; 1.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   Pfam; PF11987; IF-2; 1.
+DR   Pfam; PF04760; IF2_N; 2.
+DR   SUPFAM; SSF50447; SSF50447; 2.
+DR   SUPFAM; SSF52156; SSF52156; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00487; IF-2; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+DR   PROSITE; PS01176; IF2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Initiation factor; Nucleotide-binding;
+KW   Protein biosynthesis.
+FT   CHAIN           1..781
+FT                   /note="Translation initiation factor IF-2"
+FT                   /id="PRO_1000118765"
+FT   DOMAIN          282..451
+FT                   /note="tr-type G"
+FT   NP_BIND         291..298
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   NP_BIND         337..341
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   NP_BIND         391..394
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   REGION          291..298
+FT                   /note="G1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          316..320
+FT                   /note="G2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          337..340
+FT                   /note="G3"
+FT                   /evidence="ECO:0000250"
+FT   REGION          391..394
+FT                   /note="G4"
+FT                   /evidence="ECO:0000250"
+FT   REGION          427..429
+FT                   /note="G5"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   781 AA;  84810 MW;  C5BDAAB429F68CC8 CRC64;
+     MSKVRVYEYA KEHQVSSKKV IEALKDLGIE VANHMSTINE NALRQLDNAV DGTNKKAEAP
+     KKETTSNENG NSKGPNKPNM TNSNEKSNKP NKPAGQANKP ATANKSQGAK PATNKPANTG
+     NQTQASGNQQ AGGQKRNNNN NSNRPGGGNP NRPGGNNRPN RGGNFNNKGR NTKKKGKLNH
+     STVPPTPPKP KELPEKIVFS ESLTVAELAK KLYREPSELI KKLFMLGVVA TINQSLDKDA
+     IELICDDYGV QVEEEIKVDV TDLDVYFENE LNEAVDESKL VERPPVVTIM GHVDHGKTTL
+     LDSLRNTKVT LGEAGGITQH IGAYQLEIHN KKITFLDTPG HAAFTAMRAR GAQITDITIL
+     VVAADDGVMP QTIEAINHAK AAGMPIIVAV NKIDKPQANP DRVMQELTEY ELVPEAWGGD
+     TIFAPISAKF GEGLENLLDM ILLVSEVEEL KANPDRRAIG SVIEAELDKG RGPVATLLVQ
+     DGTLNIGDPI VVGNTFGRVR AMVNDLGRRV KKVGPSTPVE ITGLNDVPQA GDRFVVFEDE
+     KTARNIGETR ASRALVAQRS ATNRVSLDNL FEHMKAGEMK EVNVIIKADV QGSVEALAAS
+     LRKIDVEGVN VKIIHTAVGA INESDITLAA ASNAIIIGFN VRPTTQAREA AENESVDIRL
+     HRVIYKAIDE IEAAMKGMLD PEFQEKIIGQ AQVRQTINVS KVGTIAGCYV TDGKITRDSG
+     VRIIRDGIVV FEGEIATLKR FKDDAKEVAK GYECGITVQN FNDIKEDDVI EAYVMEEIER
+     K
+//

@@ -1,0 +1,86 @@
+ID   METK_METKA              Reviewed;         397 AA.
+AC   Q8TV85;
+DT   25-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=S-adenosylmethionine synthase {ECO:0000255|HAMAP-Rule:MF_00136};
+DE            Short=AdoMet synthase {ECO:0000255|HAMAP-Rule:MF_00136};
+DE            EC=2.5.1.6 {ECO:0000255|HAMAP-Rule:MF_00136};
+DE   AltName: Full=Methionine adenosyltransferase {ECO:0000255|HAMAP-Rule:MF_00136};
+GN   Name=mat {ECO:0000255|HAMAP-Rule:MF_00136}; OrderedLocusNames=MK1508;
+OS   Methanopyrus kandleri (strain AV19 / DSM 6324 / JCM 9639 / NBRC 100938).
+OC   Archaea; Euryarchaeota; Methanopyri; Methanopyrales; Methanopyraceae;
+OC   Methanopyrus.
+OX   NCBI_TaxID=190192;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AV19 / DSM 6324 / JCM 9639 / NBRC 100938;
+RX   PubMed=11930014; DOI=10.1073/pnas.032671499;
+RA   Slesarev A.I., Mezhevaya K.V., Makarova K.S., Polushin N.N.,
+RA   Shcherbinina O.V., Shakhova V.V., Belova G.I., Aravind L., Natale D.A.,
+RA   Rogozin I.B., Tatusov R.L., Wolf Y.I., Stetter K.O., Malykh A.G.,
+RA   Koonin E.V., Kozyavkin S.A.;
+RT   "The complete genome of hyperthermophile Methanopyrus kandleri AV19 and
+RT   monophyly of archaeal methanogens.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:4644-4649(2002).
+CC   -!- FUNCTION: Catalyzes the formation of S-adenosylmethionine from
+CC       methionine and ATP. {ECO:0000255|HAMAP-Rule:MF_00136}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-methionine = diphosphate + phosphate + S-
+CC         adenosyl-L-methionine; Xref=Rhea:RHEA:21080, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:59789; EC=2.5.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00136};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00136};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine biosynthesis;
+CC       S-adenosyl-L-methionine from L-methionine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00136}.
+CC   -!- SIMILARITY: Belongs to the AdoMet synthase 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00136}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009439; AAM02721.1; -; Genomic_DNA.
+DR   SMR; Q8TV85; -.
+DR   EnsemblBacteria; AAM02721; AAM02721; MK1508.
+DR   KEGG; mka:MK1508; -.
+DR   PATRIC; fig|190192.8.peg.1666; -.
+DR   HOGENOM; CLU_057642_0_0_2; -.
+DR   OMA; IGHPDSI; -.
+DR   UniPathway; UPA00315; UER00080.
+DR   Proteomes; UP000001826; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004478; F:methionine adenosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.300.280; -; 1.
+DR   Gene3D; 3.30.300.340; -; 1.
+DR   HAMAP; MF_00136; S_AdoMet_synth2; 1.
+DR   InterPro; IPR042543; AdoMet_synthase_2.
+DR   InterPro; IPR027790; AdoMet_synthase_2_family.
+DR   InterPro; IPR042544; AdoMet_synthase_3.
+DR   InterPro; IPR002795; S-AdoMet_synthetase_arc.
+DR   PANTHER; PTHR36697; PTHR36697; 1.
+DR   Pfam; PF01941; AdoMet_Synthase; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; One-carbon metabolism;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..397
+FT                   /note="S-adenosylmethionine synthase"
+FT                   /id="PRO_0000150029"
+FT   NP_BIND         136..141
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00136"
+SQ   SEQUENCE   397 AA;  44075 MW;  83AFFDEAC30FD07E CRC64;
+     MVRNIVVETM KRSPFTETEV EIVERKGVGH PDSLADGIAE SVSRALCREY IERFGRILHH
+     NTDEVQIVAG ESRPEFGGGE VIRPIYILVT GRATAYVGDE EIPVGTIALE AATEYLEETV
+     RHLDTEKHVV IEPKIGHGSA DLRDVFERGE EVPLANDTSF GVGYAPLTTT ERLVYETERK
+     INSPKLKKDL PEVGEDVKVM ALREDNKIEL TVAAAMVSQR IDDIDHYISV VEELRDRVAD
+     LAAEIASDHD VEVHVNTADD YERESVYLTV TGTSAEQGDD GSVGRGNRVN GLITPFRPMS
+     MEAAAGKNPV NHVGKLYNVL AHQMAREIYE ETSADEVYVR LLSQIGHPID DPKAVDVHLV
+     GDVSEEDERV ARRVADELLE NITELTERIV EGEIEVF
+//

@@ -1,0 +1,99 @@
+ID   SYE_PYRHO               Reviewed;         570 AA.
+AC   O59314;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   02-DEC-2020, entry version 120.
+DE   RecName: Full=Glutamate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02076};
+DE            EC=6.1.1.17 {ECO:0000255|HAMAP-Rule:MF_02076};
+DE   AltName: Full=Glutamyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02076};
+DE            Short=GluRS {ECO:0000255|HAMAP-Rule:MF_02076};
+GN   Name=gltX {ECO:0000255|HAMAP-Rule:MF_02076}; OrderedLocusNames=PH1686;
+OS   Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC
+OS   100139 / OT-3).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=70601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3;
+RX   PubMed=9679194; DOI=10.1093/dnares/5.2.55;
+RA   Kawarabayasi Y., Sawada M., Horikawa H., Haikawa Y., Hino Y., Yamamoto S.,
+RA   Sekine M., Baba S., Kosugi H., Hosoyama A., Nagai Y., Sakai M., Ogura K.,
+RA   Otsuka R., Nakazawa H., Takamiya M., Ohfuku Y., Funahashi T., Tanaka T.,
+RA   Kudoh Y., Yamazaki J., Kushida N., Oguchi A., Aoki K., Yoshizawa T.,
+RA   Nakamura Y., Robb F.T., Horikoshi K., Masuchi Y., Shizuya H., Kikuchi H.;
+RT   "Complete sequence and gene organization of the genome of a hyper-
+RT   thermophilic archaebacterium, Pyrococcus horikoshii OT3.";
+RL   DNA Res. 5:55-76(1998).
+CC   -!- FUNCTION: Catalyzes the attachment of glutamate to tRNA(Glu) in a two-
+CC       step reaction: glutamate is first activated by ATP to form Glu-AMP and
+CC       then transferred to the acceptor end of tRNA(Glu). {ECO:0000255|HAMAP-
+CC       Rule:MF_02076}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-glutamate + tRNA(Glu) = AMP + diphosphate + L-
+CC         glutamyl-tRNA(Glu); Xref=Rhea:RHEA:23540, Rhea:RHEA-COMP:9663,
+CC         Rhea:RHEA-COMP:9680, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78520,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_02076};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02076}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       Glutamate--tRNA ligase type 2 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_02076}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000001; BAA30798.1; -; Genomic_DNA.
+DR   PIR; F71049; F71049.
+DR   RefSeq; WP_010885751.1; NC_000961.1.
+DR   SMR; O59314; -.
+DR   STRING; 70601.3258115; -.
+DR   EnsemblBacteria; BAA30798; BAA30798; BAA30798.
+DR   GeneID; 1442532; -.
+DR   KEGG; pho:PH1686; -.
+DR   eggNOG; arCOG04302; Archaea.
+DR   OMA; MRFAPNP; -.
+DR   OrthoDB; 8922at2157; -.
+DR   BioCyc; PHOR70601:G1G39-1632-MONOMER; -.
+DR   Proteomes; UP000000752; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02076; Glu_tRNA_synth_type2; 1.
+DR   InterPro; IPR004526; Glu-tRNA-synth_arc/euk.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR020059; Glu/Gln-tRNA-synth_Ib_codon-bd.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_N.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   Pfam; PF03950; tRNA-synt_1c_C; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00463; gltX_arch; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..570
+FT                   /note="Glutamate--tRNA ligase"
+FT                   /id="PRO_0000119728"
+FT   MOTIF           105..115
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02076"
+SQ   SEQUENCE   570 AA;  66125 MW;  51ED48F94891B963 CRC64;
+     MDVEKIALKH ALINAIEHGG KANLKAVIGK VLGENPELRP RAKEIIPIIN KVVEEVNSLA
+     RDEQLEKLKD IYPEYFEKKE EKKEKKGLPL LPKAEKGKVV TRFAPNPDGA FHLGNARAAI
+     LSYEYAKMYG GKFILRFDDT DPKVKRPEPI FYKMIIEDLE WLGIKPDEIV YASDRLEIYY
+     KYAEELIKMG KAYVCTCPPE KFRELRDKGI PCPHRDEPVE VQLERWKKML NGEYKEGEAV
+     VRIKTDLNHP NPAVRDWPAL RIIDNPNHPR TGNKYRVWPL YNFASAIDDH ELGVTHIFRG
+     QEHAENETRQ RYIYEYFGWE YPVTIHHGRL SIEGVVLSKS KTRKGIEEGK YLGWDDPRLG
+     TIRALRRRGI LPEAIKELII EVGLKKSDAT ISWENLAAIN RKLVDPIANR YFFVADPIPM
+     EVEGAPEFIA EIPLHPDHPE RGVRRLKFTP ERPVYVSKDD LNLLKPGNFV RLKDLFNVEI
+     LEVGDKIRAR FYSFEYEIAK KNRWKMVHWV TEGRPCEVII PEGDELVVRK GLLEKDAKVQ
+     VNEIVQFERF GFVRIDRIEG DKVIAIYAHK
+//

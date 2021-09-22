@@ -1,0 +1,117 @@
+ID   PDUF_SALTY              Reviewed;         264 AA.
+AC   P37451;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 2.
+DT   07-OCT-2020, entry version 127.
+DE   RecName: Full=Propanediol diffusion facilitator;
+GN   Name=pduF; OrderedLocusNames=STM2037;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=8071226; DOI=10.1128/jb.176.17.5474-5482.1994;
+RA   Chen P., Anderson D.I., Roth J.R.;
+RT   "The control region of the pdu/cob regulon in Salmonella typhimurium.";
+RL   J. Bacteriol. 176:5474-5482(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=9352910; DOI=10.1128/jb.179.21.6633-6639.1997;
+RA   Bobik T.A., Xu Y., Jeter R.M., Otto K.E., Roth J.R.;
+RT   "Propanediol utilization genes (pdu) of Salmonella typhimurium: three genes
+RT   for the propanediol dehydratase.";
+RL   J. Bacteriol. 179:6633-6639(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: May facilitate the diffusion of propanediol.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Multi-pass membrane protein.
+CC   -!- INDUCTION: By propanediol.
+CC   -!- DOMAIN: Aquaporins contain two tandem repeats each containing three
+CC       membrane-spanning domains and a pore-forming loop with the signature
+CC       motif Asn-Pro-Ala (NPA).
+CC   -!- SIMILARITY: Belongs to the MIP/aquaporin (TC 1.A.8) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF026270; AAB84108.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL20941.1; -; Genomic_DNA.
+DR   RefSeq; NP_460982.1; NC_003197.2.
+DR   RefSeq; WP_001000023.1; NC_003197.2.
+DR   SMR; P37451; -.
+DR   PaxDb; P37451; -.
+DR   EnsemblBacteria; AAL20941; AAL20941; STM2037.
+DR   GeneID; 1253558; -.
+DR   KEGG; stm:STM2037; -.
+DR   PATRIC; fig|99287.12.peg.2159; -.
+DR   HOGENOM; CLU_020019_9_3_6; -.
+DR   OMA; IGCHDEP; -.
+DR   PhylomeDB; P37451; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015267; F:channel activity; IEA:InterPro.
+DR   CDD; cd00333; MIP; 1.
+DR   Gene3D; 1.20.1080.10; -; 1.
+DR   InterPro; IPR023271; Aquaporin-like.
+DR   InterPro; IPR000425; MIP.
+DR   InterPro; IPR022357; MIP_CS.
+DR   Pfam; PF00230; MIP; 1.
+DR   PRINTS; PR00783; MINTRINSICP.
+DR   SUPFAM; SSF81338; SSF81338; 1.
+DR   TIGRFAMs; TIGR00861; MIP; 1.
+DR   PROSITE; PS00221; MIP; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Membrane; Reference proteome; Repeat; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..264
+FT                   /note="Propanediol diffusion facilitator"
+FT                   /id="PRO_0000064095"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        42..62
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        84..104
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        143..163
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        179..199
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        228..248
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           66..68
+FT                   /note="NPA 1"
+FT   MOTIF           201..203
+FT                   /note="NPA 2"
+FT   CONFLICT        121
+FT                   /note="R -> A (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        177..181
+FT                   /note="APLLI -> RLCLL (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   264 AA;  27744 MW;  CBFB5E729061A26C CRC64;
+     MNDSLKAQCG AEFLGTGLFL FFGIGCLSAL KVAGASLGLW EICIIWGLGI SLAVYLTAGI
+     SGGHLNPAVT IALWLFACFP KQKVLPYIIA QFAGAFGGAL LAYVLYSSLF TEFETAHHMV
+     RGSVESLQLA SIFSTYPAAA LNVWQAALVE VVITSILMGM IMALTDDGNG IPKGPLAPLL
+     IGILVAVIGA STGPLTGFAM NPARDFGPKL FTWLAGWGNM AMSGGREIPY FIVPIVAPVI
+     GACAGAAIYR YFIGKNLPCN RCEL
+//

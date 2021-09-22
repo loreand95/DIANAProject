@@ -1,0 +1,157 @@
+ID   IDI_SALTY               Reviewed;         181 AA.
+AC   Q8ZM82;
+DT   15-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 117.
+DE   RecName: Full=Isopentenyl-diphosphate Delta-isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE            Short=IPP isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE            EC=5.3.3.2 {ECO:0000255|HAMAP-Rule:MF_00202};
+DE   AltName: Full=IPP:DMAPP isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE   AltName: Full=Isopentenyl pyrophosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+GN   Name=idi {ECO:0000255|HAMAP-Rule:MF_00202}; OrderedLocusNames=STM3039;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Catalyzes the 1,3-allylic rearrangement of the homoallylic
+CC       substrate isopentenyl (IPP) to its highly electrophilic allylic isomer,
+CC       dimethylallyl diphosphate (DMAPP). {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopentenyl diphosphate = dimethylallyl diphosphate;
+CC         Xref=Rhea:RHEA:23284, ChEBI:CHEBI:57623, ChEBI:CHEBI:128769;
+CC         EC=5.3.3.2; Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC       Note=Binds 1 Mg(2+) ion per subunit. The magnesium ion binds only when
+CC       substrate is bound. {ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC       Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from isopentenyl diphosphate:
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- SIMILARITY: Belongs to the IPP isomerase type 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL21914.1; -; Genomic_DNA.
+DR   RefSeq; NP_461955.1; NC_003197.2.
+DR   RefSeq; WP_000133994.1; NC_003197.2.
+DR   PDB; 3HYQ; X-ray; 1.52 A; A=1-181.
+DR   PDBsum; 3HYQ; -.
+DR   SMR; Q8ZM82; -.
+DR   PaxDb; Q8ZM82; -.
+DR   EnsemblBacteria; AAL21914; AAL21914; STM3039.
+DR   GeneID; 1254562; -.
+DR   KEGG; stm:STM3039; -.
+DR   PATRIC; fig|99287.12.peg.3219; -.
+DR   HOGENOM; CLU_060552_2_0_6; -.
+DR   OMA; GHPYPGE; -.
+DR   PhylomeDB; Q8ZM82; -.
+DR   UniPathway; UPA00059; UER00104.
+DR   EvolutionaryTrace; Q8ZM82; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   GO; GO:0004452; F:isopentenyl-diphosphate delta-isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008299; P:isoprenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02885; IPP_Isomerase; 1.
+DR   HAMAP; MF_00202; Idi; 1.
+DR   InterPro; IPR011876; IsopentenylPP_isomerase_typ1.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PIRSF; PIRSF018427; Isopntndiph_ism; 1.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   TIGRFAMs; TIGR02150; IPP_isom_1; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Isomerase; Isoprene biosynthesis; Magnesium;
+KW   Manganese; Metal-binding; Reference proteome.
+FT   CHAIN           1..181
+FT                   /note="Isopentenyl-diphosphate Delta-isomerase"
+FT                   /id="PRO_0000205265"
+FT   DOMAIN          30..164
+FT                   /note="Nudix hydrolase"
+FT   ACT_SITE        67
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   ACT_SITE        116
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           25
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           32
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           67
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           69
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           87
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           114
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           116
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   STRAND          35..40
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          46..51
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          56..58
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          62..68
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   HELIX           76..88
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          92..99
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          103..107
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          113..117
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          120..125
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   TURN            133..135
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   STRAND          136..142
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   HELIX           144..153
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   HELIX           155..157
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   HELIX           160..166
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   HELIX           169..176
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+FT   TURN            177..180
+FT                   /evidence="ECO:0007744|PDB:3HYQ"
+SQ   SEQUENCE   181 AA;  20781 MW;  1B0EBEA813936526 CRC64;
+     MTEEHVVLLD EQDKPSGTLE KYAAHTLNTP LHLAFSCWLF NEDGQLLVTR RSLSKKAWPG
+     VWTNSVCGHP QQGETTEEAI IRRCRFELGV EITDLTPVYP HFSYRATDPN GIVENEVCPV
+     FAARATSVLQ VNSEEVMDYQ WSEFKSVWKS LLATPWAFSP WMVMQASDEQ ARERLLNYCQ
+     R
+//

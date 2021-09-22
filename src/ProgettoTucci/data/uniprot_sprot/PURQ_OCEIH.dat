@@ -1,0 +1,114 @@
+ID   PURQ_OCEIH              Reviewed;         228 AA.
+AC   Q8ES97;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   02-DEC-2020, entry version 117.
+DE   RecName: Full=Phosphoribosylformylglycinamidine synthase subunit PurQ {ECO:0000255|HAMAP-Rule:MF_00421};
+DE            Short=FGAM synthase {ECO:0000255|HAMAP-Rule:MF_00421};
+DE            EC=6.3.5.3 {ECO:0000255|HAMAP-Rule:MF_00421};
+DE   AltName: Full=Formylglycinamide ribonucleotide amidotransferase subunit I {ECO:0000255|HAMAP-Rule:MF_00421};
+DE            Short=FGAR amidotransferase I {ECO:0000255|HAMAP-Rule:MF_00421};
+DE            Short=FGAR-AT I {ECO:0000255|HAMAP-Rule:MF_00421};
+DE   AltName: Full=Glutaminase PurQ {ECO:0000255|HAMAP-Rule:MF_00421};
+DE            EC=3.5.1.2 {ECO:0000255|HAMAP-Rule:MF_00421};
+DE   AltName: Full=Phosphoribosylformylglycinamidine synthase subunit I {ECO:0000255|HAMAP-Rule:MF_00421};
+GN   Name=purQ {ECO:0000255|HAMAP-Rule:MF_00421}; OrderedLocusNames=OB0744;
+OS   Oceanobacillus iheyensis (strain DSM 14371 / CIP 107618 / JCM 11309 / KCTC
+OS   3954 / HTE831).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Oceanobacillus.
+OX   NCBI_TaxID=221109;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 14371 / CIP 107618 / JCM 11309 / KCTC 3954 / HTE831;
+RX   PubMed=12235376; DOI=10.1093/nar/gkf526;
+RA   Takami H., Takaki Y., Uchiyama I.;
+RT   "Genome sequence of Oceanobacillus iheyensis isolated from the Iheya Ridge
+RT   and its unexpected adaptive capabilities to extreme environments.";
+RL   Nucleic Acids Res. 30:3927-3935(2002).
+CC   -!- FUNCTION: Part of the phosphoribosylformylglycinamidine synthase
+CC       complex involved in the purines biosynthetic pathway. Catalyzes the
+CC       ATP-dependent conversion of formylglycinamide ribonucleotide (FGAR) and
+CC       glutamine to yield formylglycinamidine ribonucleotide (FGAM) and
+CC       glutamate. The FGAM synthase complex is composed of three subunits.
+CC       PurQ produces an ammonia molecule by converting glutamine to glutamate.
+CC       PurL transfers the ammonia molecule to FGAR to form FGAM in an ATP-
+CC       dependent manner. PurS interacts with PurQ and PurL and is thought to
+CC       assist in the transfer of the ammonia molecule from PurQ to PurL.
+CC       {ECO:0000255|HAMAP-Rule:MF_00421}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + N(2)-formyl-N(1)-(5-phospho-beta-D-
+CC         ribosyl)glycinamide = 2-formamido-N(1)-(5-O-phospho-beta-D-
+CC         ribosyl)acetamidine + ADP + H(+) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:17129, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:147286, ChEBI:CHEBI:147287,
+CC         ChEBI:CHEBI:456216; EC=6.3.5.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00421};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-glutamine = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00421};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       amino-1-(5-phospho-D-ribosyl)imidazole from N(2)-formyl-N(1)-(5-
+CC       phospho-D-ribosyl)glycinamide: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_00421}.
+CC   -!- SUBUNIT: Part of the FGAM synthase complex composed of 1 PurL, 1 PurQ
+CC       and 2 PurS subunits. {ECO:0000255|HAMAP-Rule:MF_00421}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00421}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000028; BAC12700.1; -; Genomic_DNA.
+DR   RefSeq; WP_011065152.1; NC_004193.1.
+DR   SMR; Q8ES97; -.
+DR   STRING; 221109.22776424; -.
+DR   PRIDE; Q8ES97; -.
+DR   EnsemblBacteria; BAC12700; BAC12700; BAC12700.
+DR   KEGG; oih:OB0744; -.
+DR   eggNOG; COG0047; Bacteria.
+DR   HOGENOM; CLU_001031_3_1_9; -.
+DR   OMA; LHFVCRD; -.
+DR   OrthoDB; 1527083at2; -.
+DR   BioCyc; OIHE221109:OB_RS04020-MONOMER; -.
+DR   UniPathway; UPA00074; UER00128.
+DR   Proteomes; UP000000822; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004642; F:phosphoribosylformylglycinamidine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00421; PurQ; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010075; PRibForGlyAmidine_synth_PurQ.
+DR   PIRSF; PIRSF001586; FGAM_synth_I; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01737; FGAM_synth_I; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Glutamine amidotransferase; Hydrolase; Ligase;
+KW   Nucleotide-binding; Purine biosynthesis; Reference proteome.
+FT   CHAIN           1..228
+FT                   /note="Phosphoribosylformylglycinamidine synthase subunit
+FT                   PurQ"
+FT                   /id="PRO_0000100574"
+FT   DOMAIN          3..226
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00421"
+FT   ACT_SITE        87
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00421"
+FT   ACT_SITE        195
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00421"
+FT   ACT_SITE        197
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00421"
+SQ   SEQUENCE   228 AA;  25303 MW;  25D27A79F666FD0B CRC64;
+     MKFAVIVFPG SNCDRDMYHA VKEVAGAEAE LVWYTETDKL EGVDGILLPG GFSYGDYLRS
+     GSMASTSDVM HKIREHAAKG KPVLGVCNGF QILTESGLLP GALMRNKHLS FMCHQEELVV
+     EDNQTFFTSL YEKKEVVRFP IAHGEGSYFC DEATLKELQA NNQIVFTYKN NPNGSIENIA
+     GIRNKQGNVL GMMPHPERAV EELLGSDDGL KLFKSMIANW RDSYAINA
+//

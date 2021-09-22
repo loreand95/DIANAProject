@@ -1,0 +1,138 @@
+ID   GMHBA_ANETH             Reviewed;         179 AA.
+AC   Q9AGY5;
+DT   27-SEP-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   11-DEC-2019, entry version 84.
+DE   RecName: Full=D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 7-phosphatase;
+DE            EC=3.1.3.83;
+DE   AltName: Full=D,D-heptose 1,7-bisphosphate phosphatase;
+DE            Short=HBP phosphatase;
+GN   Name=gmhB; Synonyms=gmhC;
+OS   Aneurinibacillus thermoaerophilus.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae;
+OC   Aneurinibacillus group; Aneurinibacillus.
+OX   NCBI_TaxID=143495;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   PATHWAY.
+RC   STRAIN=ATCC 12990 / DSM 10155 / LMG 17166;
+RX   PubMed=11279237; DOI=10.1074/jbc.m100378200;
+RA   Kneidinger B., Graninger M., Puchberger M., Kosma P., Messner P.;
+RT   "Biosynthesis of nucleotide-activated D-glycero-D-manno-heptose.";
+RL   J. Biol. Chem. 276:20935-20944(2001).
+RN   [2]
+RP   BIOSYNTHESIS OF NUCLEOTIDE-ACTIVATED GLYCERO-MANNO-HEPTOSE.
+RX   PubMed=12101286; DOI=10.1099/00221287-148-7-1979;
+RA   Valvano M.A., Messner P., Kosma P.;
+RT   "Novel pathways for biosynthesis of nucleotide-activated glycero-manno-
+RT   heptose precursors of bacterial glycoproteins and cell surface
+RT   polysaccharides.";
+RL   Microbiology 148:1979-1989(2002).
+CC   -!- FUNCTION: Converts the D-glycero-alpha-D-manno-heptose 1,7-bisphosphate
+CC       intermediate into D-glycero-alpha-D-manno-heptose 1-phosphate by
+CC       removing the phosphate group at the C-7 position.
+CC       {ECO:0000269|PubMed:11279237}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glycero-alpha-D-manno-heptose 1,7-bisphosphate + H2O = D-
+CC         glycero-alpha-D-manno-heptose 1-phosphate + phosphate;
+CC         Xref=Rhea:RHEA:28522, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:60207, ChEBI:CHEBI:61574; EC=3.1.3.83;
+CC         Evidence={ECO:0000269|PubMed:11279237};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Nucleotide-sugar biosynthesis; GDP-D-glycero-alpha-D-manno-
+CC       heptose biosynthesis; GDP-D-glycero-alpha-D-manno-heptose from D-
+CC       glycero-alpha-D-manno-heptose 7-phosphate: step 2/3.
+CC       {ECO:0000269|PubMed:11279237}.
+CC   -!- PATHWAY: Cell surface structure biogenesis; S-layer biogenesis.
+CC       {ECO:0000269|PubMed:11279237}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the GmhB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF324836; AAK27853.1; -; Genomic_DNA.
+DR   SMR; Q9AGY5; -.
+DR   BioCyc; MetaCyc:MONOMER-15574; -.
+DR   BRENDA; 3.1.3.83; 344.
+DR   UniPathway; UPA00543; UER00607.
+DR   UniPathway; UPA00977; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0034200; F:D,D-heptose 1,7-bisphosphate phosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0045232; P:S-layer organization; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.1000; -; 1.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR006549; HAD-SF_hydro_IIIA.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR004446; Heptose_bisP_phosphatase.
+DR   InterPro; IPR006543; Histidinol-phos.
+DR   InterPro; IPR013954; PNK3P.
+DR   PANTHER; PTHR42891; PTHR42891; 1.
+DR   Pfam; PF08645; PNK3P; 1.
+DR   PIRSF; PIRSF004682; GmhB; 1.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR00213; GmhB_yaeD; 1.
+DR   TIGRFAMs; TIGR01662; HAD-SF-IIIA; 1.
+DR   TIGRFAMs; TIGR01656; Histidinol-ppas; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cell wall biogenesis/degradation; Cytoplasm;
+KW   Hydrolase; Magnesium; Metal-binding; Zinc.
+FT   CHAIN           1..179
+FT                   /note="D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 7-
+FT                   phosphatase"
+FT                   /id="PRO_0000209384"
+FT   REGION          9..11
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          17..20
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          51..54
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          108..109
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        9
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        11
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   METAL           9
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           11
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   METAL           134
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           135
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         135
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            51
+FT                   /note="Stabilizes the phosphoryl group"
+FT                   /evidence="ECO:0000250"
+FT   SITE            108
+FT                   /note="Contributes to substrate recognition"
+FT                   /evidence="ECO:0000250"
+FT   SITE            109
+FT                   /note="Stabilizes the phosphoryl group"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   179 AA;  20764 MW;  941AAFD10C10239A CRC64;
+     MKNKALFLDR DGVINVEKNY VHKIEDFEFM DGIFETLRYF QEKGYLLIII TNQAGIGRGY
+     YTEEQFHILN DWMLSEFEKE GIYITKVYYC PYHPEHGIGK YKRDSFDRKP NPGMILKSQK
+     EFNIDLSKSI LVGDKESDIQ AGKRAGVNVN IIFSNNKNGD ELDCCKKINS LSELVSLIL
+//

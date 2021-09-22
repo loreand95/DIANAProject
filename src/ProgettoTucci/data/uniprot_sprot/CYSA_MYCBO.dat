@@ -1,0 +1,113 @@
+ID   CYSA_MYCBO              Reviewed;         351 AA.
+AC   P0A4W3; A0A1R3Y3A0; P71747; X2BKK1;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUN-2014, sequence version 2.
+DT   07-APR-2021, entry version 118.
+DE   RecName: Full=Sulfate/thiosulfate import ATP-binding protein CysA {ECO:0000255|HAMAP-Rule:MF_01701};
+DE            EC=7.3.2.3 {ECO:0000255|HAMAP-Rule:MF_01701};
+DE   AltName: Full=Sulfate-transporting ATPase {ECO:0000255|HAMAP-Rule:MF_01701};
+GN   Name=cysA {ECO:0000255|HAMAP-Rule:MF_01701};
+GN   OrderedLocusNames=BQ2027_MB2419C;
+OS   Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=233413;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-935 / AF2122/97;
+RX   PubMed=12788972; DOI=10.1073/pnas.1130426100;
+RA   Garnier T., Eiglmeier K., Camus J.-C., Medina N., Mansoor H., Pryor M.,
+RA   Duthoy S., Grondin S., Lacroix C., Monsempe C., Simon S., Harris B.,
+RA   Atkin R., Doggett J., Mayes R., Keating L., Wheeler P.R., Parkhill J.,
+RA   Barrell B.G., Cole S.T., Gordon S.V., Hewinson R.G.;
+RT   "The complete genome sequence of Mycobacterium bovis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:7877-7882(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], AND GENOME REANNOTATION.
+RC   STRAIN=ATCC BAA-935 / AF2122/97;
+RX   PubMed=28385856; DOI=10.1128/genomea.00157-17;
+RA   Malone K.M., Farrell D., Stuber T.P., Schubert O.T., Aebersold R.,
+RA   Robbe-Austerman S., Gordon S.V.;
+RT   "Updated reference genome sequence and annotation of Mycobacterium bovis
+RT   AF2122/97.";
+RL   Genome Announc. 5:E00157-E00157(2017).
+CC   -!- FUNCTION: Part of the ABC transporter complex CysAWTP involved in
+CC       sulfate/thiosulfate import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + sulfate(out) = ADP + H(+) + phosphate +
+CC         sulfate(in); Xref=Rhea:RHEA:10192, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16189, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.3.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01701};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + thiosulfate(out) = ADP + H(+) + phosphate +
+CC         thiosulfate(in); Xref=Rhea:RHEA:29871, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33542,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.3.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01701};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (CysA),
+CC       two transmembrane proteins (CysT and CysW) and a solute-binding protein
+CC       (CysP). {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01701};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01701}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Sulfate/tungstate importer (TC 3.A.1.6) family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01701}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LT708304; SIU01034.1; -; Genomic_DNA.
+DR   RefSeq; NP_856068.1; NC_002945.3.
+DR   RefSeq; WP_003412325.1; NC_002945.4.
+DR   SMR; P0A4W3; -.
+DR   EnsemblBacteria; SIU01034; SIU01034; BQ2027_MB2419C.
+DR   GeneID; 45426385; -.
+DR   PATRIC; fig|233413.5.peg.2660; -.
+DR   OMA; MEVRVQN; -.
+DR   BioCyc; MBOV233413:G1GT4-2491-MONOMER; -.
+DR   Proteomes; UP000001419; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0015419; F:ABC-type sulfate transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0102025; F:ABC-type thiosulfate transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   CDD; cd03296; ABC_CysA_sulfate_importer; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR014769; ABC_CysA_ATP-bd_C.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005666; Sulph_transpt1.
+DR   InterPro; IPR024765; TOBE-like.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF12857; TOBE_3; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00968; 3a0106s01; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51237; CYSA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding;
+KW   Sulfate transport; Translocase; Transport.
+FT   CHAIN           1..351
+FT                   /note="Sulfate/thiosulfate import ATP-binding protein CysA"
+FT                   /id="PRO_0000092274"
+FT   DOMAIN          5..235
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01701"
+FT   NP_BIND         37..44
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01701"
+SQ   SEQUENCE   351 AA;  37444 MW;  63A55D9DE26D1BEA CRC64;
+     MTYAIVVADA TKRYGDFVAL DHVDFVVPTG SLTALLGPSG SGKSTLLRTI AGLDQPDTGT
+     ITINGRDVTR VPPQRRGIGF VFQHYAAFKH LTVRDNVAFG LKIRKRPKAE IKAKVDNLLQ
+     VVGLSGFQSR YPNQLSGGQR QRMALARALA VDPEVLLLDE PFGALDAKVR EELRAWLRRL
+     HDEVHVTTVL VTHDQAEALD VADRIAVLHK GRIEQVGSPT DVYDAPANAF VMSFLGAVST
+     LNGSLVRPHD IRVGRTPNMA VAAADGTAGS TGVLRAVVDR VVVLGFEVRV ELTSAATGGA
+     FTAQITRGDA EALALREGDT VYVRATRVPP IAGGVSGVDD AGVERVKVTS T
+//

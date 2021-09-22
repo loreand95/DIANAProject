@@ -1,0 +1,92 @@
+ID   PNCB_BRUAB              Reviewed;         434 AA.
+AC   Q57FQ9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   07-APR-2021, entry version 92.
+DE   RecName: Full=Nicotinate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00570};
+DE            Short=NAPRTase {ECO:0000255|HAMAP-Rule:MF_00570};
+DE            EC=6.3.4.21 {ECO:0000255|HAMAP-Rule:MF_00570};
+GN   Name=pncB {ECO:0000255|HAMAP-Rule:MF_00570}; OrderedLocusNames=BruAb1_0109;
+OS   Brucella abortus biovar 1 (strain 9-941).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=262698;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=9-941;
+RX   PubMed=15805518; DOI=10.1128/jb.187.8.2715-2726.2005;
+RA   Halling S.M., Peterson-Burch B.D., Bricker B.J., Zuerner R.L., Qing Z.,
+RA   Li L.-L., Kapur V., Alt D.P., Olsen S.C.;
+RT   "Completion of the genome sequence of Brucella abortus and comparison to
+RT   the highly similar genomes of Brucella melitensis and Brucella suis.";
+RL   J. Bacteriol. 187:2715-2726(2005).
+CC   -!- FUNCTION: Catalyzes the synthesis of beta-nicotinate D-ribonucleotide
+CC       from nicotinate and 5-phospho-D-ribose 1-phosphate at the expense of
+CC       ATP. {ECO:0000255|HAMAP-Rule:MF_00570}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-alpha-D-ribose 1-diphosphate + ATP + H2O +
+CC         nicotinate = ADP + diphosphate + nicotinate beta-D-ribonucleotide +
+CC         phosphate; Xref=Rhea:RHEA:36163, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:32544, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57502, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:456216; EC=6.3.4.21; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00570};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; nicotinate D-
+CC       ribonucleotide from nicotinate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00570}.
+CC   -!- PTM: Transiently phosphorylated on a His residue during the reaction
+CC       cycle. Phosphorylation strongly increases the affinity for substrates
+CC       and increases the rate of nicotinate D-ribonucleotide production.
+CC       Dephosphorylation regenerates the low-affinity form of the enzyme,
+CC       leading to product release. {ECO:0000255|HAMAP-Rule:MF_00570}.
+CC   -!- SIMILARITY: Belongs to the NAPRTase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00570}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017223; AAX73525.1; -; Genomic_DNA.
+DR   RefSeq; WP_002965361.1; NC_006932.1.
+DR   SMR; Q57FQ9; -.
+DR   EnsemblBacteria; AAX73525; AAX73525; BruAb1_0109.
+DR   GeneID; 45051261; -.
+DR   GeneID; 58776704; -.
+DR   KEGG; bmb:BruAb1_0109; -.
+DR   HOGENOM; CLU_030991_1_0_5; -.
+DR   OMA; GTSNVHF; -.
+DR   BioCyc; BABO262698:G1G0O-119-MONOMER; -.
+DR   UniPathway; UPA00253; UER00457.
+DR   Proteomes; UP000000540; Chromosome I.
+DR   GO; GO:0004516; F:nicotinate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004514; F:nicotinate-nucleotide diphosphorylase (carboxylating) activity; IEA:InterPro.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00570; NAPRTase; 1.
+DR   InterPro; IPR041525; N/Namide_PRibTrfase.
+DR   InterPro; IPR040727; NAPRTase_N.
+DR   InterPro; IPR006406; Nic_PRibTrfase.
+DR   InterPro; IPR007229; Nic_PRibTrfase-Fam.
+DR   InterPro; IPR036068; Nicotinate_pribotase-like_C.
+DR   PANTHER; PTHR11098; PTHR11098; 1.
+DR   Pfam; PF04095; NAPRTase; 1.
+DR   Pfam; PF17767; NAPRTase_N; 1.
+DR   PIRSF; PIRSF000484; NAPRT; 1.
+DR   SUPFAM; SSF51690; SSF51690; 1.
+DR   TIGRFAMs; TIGR01514; NAPRTase; 1.
+PE   3: Inferred from homology;
+KW   Ligase; Phosphoprotein; Pyridine nucleotide biosynthesis.
+FT   CHAIN           1..434
+FT                   /note="Nicotinate phosphoribosyltransferase"
+FT                   /id="PRO_1000024996"
+FT   MOD_RES         242
+FT                   /note="Phosphohistidine; by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00570"
+SQ   SEQUENCE   434 AA;  49909 MW;  A11BE6474B58F0C4 CRC64;
+     MAKTDLARRV YNHTWKLDPI IRSLLDTDFY KLLMLQMIWG LYPRVDATFS LINRTSSVRL
+     ADEIDEGELR AQLDHARTLR FSKKEMIWLA GNTFYGRKQI FQPEFLAWLH DFQLPEYELR
+     RKDGQYELHF HGPWTHTTMW EIPALAIINE LRSRAAMKNL GPFSLDVLYA RAKAKMWSKV
+     ERLRQLPDLK ISDFGTRRRH SFLWQRWCVE ALKEGIGSAF TGTSNVLLAM DTDLEALGTN
+     AHELPMVLAA LAKTDDELRS APYRVLQDWN RYYGGNLLIV LPDAFGTAAF LRNAPDWVAD
+     WTGFRPDSAP PIEGGERIIE WWKSKGKDPR EKLLIFSDAL DVDTIEETYR HFEGRVRMGF
+     GWGTNLTNDF AGCAPQSIDG LKAISLVCKV TDANGHPAVK LSDNPQKATG DPKEVARYLR
+     FFGNEERVEQ LVRV
+//

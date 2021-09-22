@@ -1,0 +1,92 @@
+ID   SURE_PARD8              Reviewed;         255 AA.
+AC   A6LF90;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2007, sequence version 1.
+DT   10-FEB-2021, entry version 79.
+DE   RecName: Full=5'-nucleotidase SurE {ECO:0000255|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.5 {ECO:0000255|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Nucleoside 5'-monophosphate phosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00060};
+GN   Name=surE {ECO:0000255|HAMAP-Rule:MF_00060}; OrderedLocusNames=BDI_2635;
+OS   Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM
+OS   5825 / NCTC 11152).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Tannerellaceae;
+OC   Parabacteroides.
+OX   NCBI_TaxID=435591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152;
+RX   PubMed=17579514; DOI=10.1371/journal.pbio.0050156;
+RA   Xu J., Mahowald M.A., Ley R.E., Lozupone C.A., Hamady M., Martens E.C.,
+RA   Henrissat B., Coutinho P.M., Minx P., Latreille P., Cordum H.,
+RA   Van Brunt A., Kim K., Fulton R.S., Fulton L.A., Clifton S.W., Wilson R.K.,
+RA   Knight R.D., Gordon J.I.;
+RT   "Evolution of symbiotic bacteria in the distal human intestine.";
+RL   PLoS Biol. 5:1574-1586(2007).
+CC   -!- FUNCTION: Nucleotidase that shows phosphatase activity on nucleoside
+CC       5'-monophosphates. {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00060};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000140; ABR44354.1; -; Genomic_DNA.
+DR   RefSeq; WP_011966925.1; NC_009615.1.
+DR   SMR; A6LF90; -.
+DR   STRING; 435591.BDI_2635; -.
+DR   EnsemblBacteria; ABR44354; ABR44354; BDI_2635.
+DR   KEGG; pdi:BDI_2635; -.
+DR   eggNOG; COG0496; Bacteria.
+DR   HOGENOM; CLU_045192_1_0_10; -.
+DR   OMA; DCVHIAL; -.
+DR   OrthoDB; 1909278at2; -.
+DR   BioCyc; PDIS435591:G1G5A-2707-MONOMER; -.
+DR   Proteomes; UP000000566; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008253; F:5'-nucleotidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1210.10; -; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   InterPro; IPR036523; SurE-like_sf.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SSF64167; 1.
+DR   TIGRFAMs; TIGR00087; surE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN           1..255
+FT                   /note="5'-nucleotidase SurE"
+FT                   /id="PRO_1000007756"
+FT   METAL           13
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           14
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           44
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           100
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+SQ   SEQUENCE   255 AA;  27746 MW;  9E6DD9EF3EA1EC01 CRC64;
+     MTNERPLILI TNDDGVWAKG INELIECLKD LGDLVVFAPD GPRSGMGSAI TSLVPIKYTL
+     LKKEEGLTIY SCTGTPVDCV KLAINEVLER KPDLLVSGIN HGGNMAICVN YSGTMGAAAE
+     GCIFNVPSMG VSLLDHAADA DFSECCRLGR MLARRVLKEG LPHGTYLNLN VPKLPQVKGL
+     KVCRQADGRW VREFKRSENA SGEPVFWLTG AFESAKPIHP DNDMLALDSG YASLVPCKID
+     VTDYDFMATL NNWIL
+//

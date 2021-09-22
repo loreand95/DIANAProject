@@ -1,0 +1,171 @@
+ID   PYRG_ECOLC              Reviewed;         545 AA.
+AC   B1IU61;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=CTP synthase {ECO:0000255|HAMAP-Rule:MF_01227};
+DE            EC=6.3.4.2 {ECO:0000255|HAMAP-Rule:MF_01227};
+DE   AltName: Full=Cytidine 5'-triphosphate synthase {ECO:0000255|HAMAP-Rule:MF_01227};
+DE   AltName: Full=Cytidine triphosphate synthetase {ECO:0000255|HAMAP-Rule:MF_01227};
+DE            Short=CTP synthetase {ECO:0000255|HAMAP-Rule:MF_01227};
+DE            Short=CTPS {ECO:0000255|HAMAP-Rule:MF_01227};
+DE   AltName: Full=UTP--ammonia ligase {ECO:0000255|HAMAP-Rule:MF_01227};
+GN   Name=pyrG {ECO:0000255|HAMAP-Rule:MF_01227}; OrderedLocusNames=EcolC_0932;
+OS   Escherichia coli (strain ATCC 8739 / DSM 1576 / Crooks).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=481805;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8739 / DSM 1576 / Crooks;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Kiss H., Brettin T., Detter J.C., Han C.,
+RA   Kuske C.R., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Mikhailova N., Ingram L., Richardson P.;
+RT   "Complete sequence of Escherichia coli C str. ATCC 8739.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the ATP-dependent amination of UTP to CTP with
+CC       either L-glutamine or ammonia as the source of nitrogen. Regulates
+CC       intracellular CTP levels through interactions with the four
+CC       ribonucleotide triphosphates. {ECO:0000255|HAMAP-Rule:MF_01227}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + UTP = ADP + CTP + 2 H(+) + L-
+CC         glutamate + phosphate; Xref=Rhea:RHEA:26426, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:43474, ChEBI:CHEBI:46398,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456216; EC=6.3.4.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01227};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP, when glutamine is
+CC       the substrate; GTP has no effect on the reaction when ammonia is the
+CC       substrate. The allosteric effector GTP functions by stabilizing the
+CC       protein conformation that binds the tetrahedral intermediate(s) formed
+CC       during glutamine hydrolysis. Inhibited by the product CTP, via
+CC       allosteric rather than competitive inhibition. {ECO:0000255|HAMAP-
+CC       Rule:MF_01227}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       CTP from UDP: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01227}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01227}.
+CC   -!- MISCELLANEOUS: CTPSs have evolved a hybrid strategy for distinguishing
+CC       between UTP and CTP. The overlapping regions of the product feedback
+CC       inhibitory and substrate sites recognize a common feature in both
+CC       compounds, the triphosphate moiety. To differentiate isosteric
+CC       substrate and product pyrimidine rings, an additional pocket far from
+CC       the expected kinase/ligase catalytic site, specifically recognizes the
+CC       cytosine and ribose portions of the product inhibitor.
+CC       {ECO:0000255|HAMAP-Rule:MF_01227}.
+CC   -!- SIMILARITY: Belongs to the CTP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01227}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000946; ACA76601.1; -; Genomic_DNA.
+DR   RefSeq; WP_000210878.1; NZ_CP022959.1.
+DR   SMR; B1IU61; -.
+DR   MEROPS; C26.964; -.
+DR   GeneID; 58459987; -.
+DR   KEGG; ecl:EcolC_0932; -.
+DR   HOGENOM; CLU_011675_5_0_6; -.
+DR   OMA; EFNNAYR; -.
+DR   UniPathway; UPA00159; UER00277.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003883; F:CTP synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd03113; CTPS_N; 1.
+DR   CDD; cd01746; GATase1_CTP_Synthase; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_01227; PyrG; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR004468; CTP_synthase.
+DR   InterPro; IPR017456; CTP_synthase_N.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR033828; GATase1_CTP_Synthase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11550; PTHR11550; 1.
+DR   Pfam; PF06418; CTP_synth_N; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00337; PyrG; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Pyrimidine biosynthesis.
+FT   CHAIN           1..545
+FT                   /note="CTP synthase"
+FT                   /id="PRO_1000139447"
+FT   DOMAIN          291..542
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   NP_BIND         15..20
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   NP_BIND         147..149
+FT                   /note="CTP; allosteric inhibitor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   NP_BIND         187..192
+FT                   /note="CTP; allosteric inhibitor; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   NP_BIND         187..192
+FT                   /note="UTP; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   NP_BIND         239..241
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   REGION          1..266
+FT                   /note="Amidoligase domain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   REGION          380..383
+FT                   /note="L-glutamine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   ACT_SITE        379
+FT                   /note="Nucleophile; for glutamine hydrolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   ACT_SITE        515
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   ACT_SITE        517
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   METAL           72
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   METAL           140
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         14
+FT                   /note="CTP; allosteric inhibitor; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         14
+FT                   /note="UTP; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         72
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         223
+FT                   /note="CTP; allosteric inhibitor; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         223
+FT                   /note="UTP; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         352
+FT                   /note="L-glutamine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         403
+FT                   /note="L-glutamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+FT   BINDING         470
+FT                   /note="L-glutamine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01227"
+SQ   SEQUENCE   545 AA;  60374 MW;  FBB9E2E18FA355FC CRC64;
+     MTTNYIFVTG GVVSSLGKGI AAASLAAILE ARGLNVTIMK LDPYINVDPG TMSPIQHGEV
+     FVTEDGAETD LDLGHYERFI RTKMSRRNNF TTGRIYSDVL RKERRGDYLG ATVQVIPHIT
+     NAIKERVLEG GEGHDVVLVE IGGTVGDIES LPFLEAIRQM AVEIGREHTL FMHLTLVPYM
+     AASGEVKTKP TQHSVKELLS IGIQPDILIC RSDRAVPANE RAKIALFCNV PEKAVISLKD
+     VDSIYKIPGL LKSQGLDDYI CKRFSLNCPE ANLSEWEQVI FEEANPVSEV TIGMVGKYIE
+     LPDAYKSVIE ALKHGGLKNR VSVNIKLIDS QDVETRGVEI LKGLDAILVP GGFGYRGVEG
+     MITTARFARE NNIPYLGICL GMQVALIDYA RHVANMENAN STEFVPDCKY PVVALITEWR
+     DENGNVEVRS EKSDLGGTMR LGAQQCQLVD DSLVRQLYNA PTIVERHRHR YEVNNMLLKQ
+     IEDAGLRVAG RSGDDQLVEI IEVPNHPWFV ACQFHPEFTS TPRDGHPLFA GFVKAASEFQ
+     KRQAK
+//

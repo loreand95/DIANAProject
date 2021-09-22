@@ -1,0 +1,133 @@
+ID   JBP1_TRYBB              Reviewed;         839 AA.
+AC   P86937; Q382H3; Q9U6M3;
+DT   27-JUL-2011, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 1.
+DT   17-JUN-2020, entry version 17.
+DE   RecName: Full=Thymine dioxygenase JBP1;
+DE            EC=1.14.11.6 {ECO:0000250|UniProtKB:Q9U6M1};
+DE   AltName: Full=J-binding protein 1;
+DE   AltName: Full=Thymidine hydroxylase JBP1;
+GN   Name=JBP1;
+OS   Trypanosoma brucei brucei.
+OC   Eukaryota; Discoba; Euglenozoa; Kinetoplastea; Metakinetoplastina;
+OC   Trypanosomatida; Trypanosomatidae; Trypanosoma.
+OX   NCBI_TaxID=5702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND DNA-BINDING.
+RC   STRAIN=427;
+RX   PubMed=10562569; DOI=10.1093/emboj/18.22.6573;
+RA   Cross M., Kieft R., Sabatini R., Wilm M., de Kort M., van der Marel G.A.,
+RA   van Boom J.H., van Leeuwen F., Borst P.;
+RT   "The modified base J is the target for a novel DNA-binding protein in
+RT   kinetoplastid protozoans.";
+RL   EMBO J. 18:6573-6581(1999).
+RN   [2]
+RP   FUNCTION, SUBCELLULAR LOCATION, DOMAIN, AND DEVELOPMENTAL STAGE.
+RC   STRAIN=29-13, and 427;
+RX   PubMed=15694344; DOI=10.1016/j.molcel.2004.12.022;
+RA   DiPaolo C., Kieft R., Cross M., Sabatini R.;
+RT   "Regulation of trypanosome DNA glycosylation by a SWI2/SNF2-like protein.";
+RL   Mol. Cell 17:441-451(2005).
+RN   [3]
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=29-13, and 427;
+RX   PubMed=19136460; DOI=10.1093/nar/gkn1067;
+RA   Cliffe L.J., Kieft R., Southern T., Birkeland S.R., Marshall M.,
+RA   Sweeney K., Sabatini R.;
+RT   "JBP1 and JBP2 are two distinct thymidine hydroxylases involved in J
+RT   biosynthesis in genomic DNA of African trypanosomes.";
+RL   Nucleic Acids Res. 37:1452-1462(2009).
+CC   -!- FUNCTION: Dioxygenase that catalyzes the first step of DNA base J
+CC       (beta-d-glucosyl-HOMedU) biosynthesis by converting thymine to 5-
+CC       hydroxymethyluracil (HOMedU). DNA base J is a hypermodified thymidine
+CC       residue found in the genome of kinetoplastid parasites, which is
+CC       localized primarily to repetitive DNA, namely the telomeres, and is
+CC       implicated in the regulation of antigenic variation. Also specifically
+CC       binds to base J-containing DNA (J-DNA). Involved in propagation and
+CC       maintenance of DNA base J synthesis initiated by JBP2 by specifically
+CC       binding already synthesized DNA base J and propagating J synthesis.
+CC       Thymine dioxygenase activity and J-DNA-binding are independent
+CC       functions. {ECO:0000269|PubMed:15694344}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + thymine = 5-hydroxymethyluracil + CO2 +
+CC         succinate; Xref=Rhea:RHEA:10316, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:16964,
+CC         ChEBI:CHEBI:17821, ChEBI:CHEBI:30031; EC=1.14.11.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q9U6M1};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000250|UniProtKB:Q6N021};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:Q6N021};
+CC   -!- SUBUNIT: Monomer. Binds to DNA as a monomer (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9U6M1}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:15694344}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in bloodstream form and significantly
+CC       less in procyclic form. {ECO:0000269|PubMed:15694344}.
+CC   -!- DOMAIN: The DNA-binding JBP1 domain (DB-JBP1) is necessary and
+CC       sufficient for binding to J-DNA. {ECO:0000250|UniProtKB:Q9U6M1}.
+CC   -!- DISRUPTION PHENOTYPE: Does not affect growth, gene expression or the
+CC       stability of some repetitive DNA sequences. The genome contains only
+CC       about 5% of the wild-type level of J in their DNA. Cells lacking both
+CC       JBP1 and JBP2 show a complete absence of base J.
+CC       {ECO:0000269|PubMed:19136460}.
+CC   -!- SIMILARITY: Belongs to the TET family. JBP1 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF182399; AAF01741.1; -; Genomic_DNA.
+DR   SMR; P86937; -.
+DR   GO; GO:0005634; C:nucleus; IDA:UniProtKB.
+DR   GO; GO:0003677; F:DNA binding; IDA:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050341; F:thymine dioxygenase activity; TAS:UniProtKB.
+DR   GO; GO:0070580; P:base J metabolic process; IMP:UniProtKB.
+DR   Gene3D; 1.20.120.1440; -; 1.
+DR   InterPro; IPR024779; 2OGFeDO_noxygenase_dom.
+DR   InterPro; IPR041241; DB_JBP1.
+DR   InterPro; IPR043111; DB_JBP1_sf.
+DR   Pfam; PF18526; DB_JBP1; 1.
+DR   Pfam; PF12851; Tet_JBP; 1.
+PE   1: Evidence at protein level;
+KW   Dioxygenase; DNA-binding; Iron; Metal-binding; Nucleus; Oxidoreductase.
+FT   CHAIN           1..839
+FT                   /note="Thymine dioxygenase JBP1"
+FT                   /id="PRO_0000412184"
+FT   REGION          86..288
+FT                   /note="Thymine dioxygenase"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U6M1"
+FT   REGION          415..583
+FT                   /note="DNA-binding JBP1 domain"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U6M1"
+FT   METAL           213
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6N021"
+FT   METAL           215
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6N021"
+FT   METAL           263
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6N021"
+FT   BINDING         279
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6N021"
+FT   SITE            548
+FT                   /note="Involved in J base recognition, conferring
+FT                   specificity towards J-DNA"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9U6M1"
+SQ   SEQUENCE   839 AA;  95230 MW;  72CEC5A3E3EEB342 CRC64;
+     MRRQVKKVLR EKADDSMKPG WDVYQPSNDV VYAFNHYMQG SQIDAEAREK AEKAFQEAVK
+     KHPFHNNADH AVDFHGTTVF RNAKGKVCGV LIPKALPSFA TSMAADVLEC AVARTSLRSA
+     LFGGVSPNSG IAGYFDYRGT PVELKCRKTS FTYEHTKEWR SVFPMIDYTS AIYKAALPDH
+     WKAQDAAVPD VVRIHGSPFS TLTVNERFRT ASHTDNGDFD NGYGVLAVLK GEYSGLSLAL
+     DDYGVCFNMQ PTDVLLFDTH LFHSNTELEA KEANATWNRL SCVFYYRAAL GEQPCVEEYR
+     RRLKKAKEEK STSLSFNHIE QKDNGENTNK PAPVYPVPLT PFSCAASAWA LRGCAAAMLT
+     RLHGLVRENA SLMTELFGEP VEVADGLPRR APEEIIPVHK HTNVQMHYLG GFSEKGDILN
+     EAMNKRHYLD KENLQKMFGE EFVNIWTQSR THWLQLVKKE WEHQKETNPT RTRFSWNNTS
+     AMNFAFFDLC DVAKQLMCGA FGDREVNKKE EQSFWGMFAA HLDNACINEI GMLQGSMGMH
+     KLNVKLKDYN FGGTRYLKDM PPEEQERRRR RRLEIEQARR RAPICNSESG DWLRNEAFDY
+     QTEDVAVNYE REQWITPENN AKRFGFPERG VYGAEGAATG TISVLIVLPK PTNHRQKTCE
+     LPTSREADRI MKNPAAQRLL CAKPCNIGLS TSSNKSRTVL CGNIRIDKVF DGGSVGGKMY
+     DFVIMRHLLA ATTGEREPLE CLVRWTSLAR YCTFVVEVDL LDRHHYILKS EIGEEYSAVS
+     EICFSALYSA TYARDKVNLR TTPCLLSFID KSGNMLESRF KFNGSPLNTV AFVVRRREK
+//

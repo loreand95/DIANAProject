@@ -1,0 +1,91 @@
+ID   THIM_BACAA              Reviewed;         268 AA.
+AC   C3PBW0;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   07-APR-2021, entry version 58.
+DE   RecName: Full=Hydroxyethylthiazole kinase {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            EC=2.7.1.50 {ECO:0000255|HAMAP-Rule:MF_00228};
+DE   AltName: Full=4-methyl-5-beta-hydroxyethylthiazole kinase {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            Short=TH kinase {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            Short=Thz kinase {ECO:0000255|HAMAP-Rule:MF_00228};
+GN   Name=thiM {ECO:0000255|HAMAP-Rule:MF_00228}; OrderedLocusNames=BAA_0439;
+OS   Bacillus anthracis (strain A0248).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=592021;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A0248;
+RA   Dodson R.J., Munk A.C., Bruce D., Detter C., Tapia R., Sutton G., Sims D.,
+RA   Brettin T.;
+RT   "Genome sequence of Bacillus anthracis A0248.";
+RL   Submitted (APR-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the hydroxyl group of 4-
+CC       methyl-5-beta-hydroxyethylthiazole (THZ). {ECO:0000255|HAMAP-
+CC       Rule:MF_00228}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-(2-hydroxyethyl)-4-methylthiazole + ATP = 4-methyl-5-(2-
+CC         phosphooxyethyl)-thiazole + ADP + H(+); Xref=Rhea:RHEA:24212,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17957, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:58296, ChEBI:CHEBI:456216; EC=2.7.1.50;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00228};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00228};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis; 4-
+CC       methyl-5-(2-phosphoethyl)-thiazole from 5-(2-hydroxyethyl)-4-
+CC       methylthiazole: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00228}.
+CC   -!- SIMILARITY: Belongs to the Thz kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00228}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001598; ACQ50279.1; -; Genomic_DNA.
+DR   RefSeq; WP_001092689.1; NC_012659.1.
+DR   SMR; C3PBW0; -.
+DR   GeneID; 45020435; -.
+DR   KEGG; bai:BAA_0439; -.
+DR   HOGENOM; CLU_019943_0_1_9; -.
+DR   OMA; KRPLVHN; -.
+DR   UniPathway; UPA00060; UER00139.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004417; F:hydroxyethylthiazole kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01170; THZ_kinase; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   HAMAP; MF_00228; Thz_kinase; 1.
+DR   InterPro; IPR000417; Hyethyz_kinase.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   Pfam; PF02110; HK; 1.
+DR   PIRSF; PIRSF000513; Thz_kinase; 1.
+DR   PRINTS; PR01099; HYETHTZKNASE.
+DR   SUPFAM; SSF53613; SSF53613; 1.
+DR   TIGRFAMs; TIGR00694; thiM; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..268
+FT                   /note="Hydroxyethylthiazole kinase"
+FT                   /id="PRO_1000198102"
+FT   BINDING         45
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         121
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         167
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         194
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+SQ   SEQUENCE   268 AA;  28059 MW;  B53502FADB94651B CRC64;
+     MNTKEISKVV DLVRESNPLV HNITNVVVTN FTANGLLALG ASPVMAYAKE EVAEMASIAG
+     ALVLNMGTLR PDEVEAMLLA GKSANRNDVP VLFDPVGAGA TSYRTEVARH IPAEIELAII
+     RGNAAEIANV INEKWEIKGV DAGAGNGNVV SIAKQAADEL NTVAVITGKE DVVTDGERTI
+     VIRNGHSILT KITGTGCLLT SVIGAFVAVE KDYVKAAVAA LTFYGVAAEL AAAKTVEKGP
+     GSFQIEFLNQ LANTTSGDIE KYGKIEVI
+//

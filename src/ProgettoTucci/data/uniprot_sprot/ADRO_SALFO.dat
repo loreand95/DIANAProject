@@ -1,0 +1,114 @@
+ID   ADRO_SALFO              Reviewed;         498 AA.
+AC   P82861;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   11-DEC-2019, entry version 94.
+DE   RecName: Full=NADPH:adrenodoxin oxidoreductase, mitochondrial;
+DE            Short=AR;
+DE            Short=Adrenodoxin reductase;
+DE            EC=1.18.1.6 {ECO:0000250|UniProtKB:P08165};
+DE   AltName: Full=Ferredoxin--NADP(+) reductase;
+DE            Short=Ferredoxin reductase;
+DE   Flags: Precursor;
+GN   Name=fdxr;
+OS   Salvelinus fontinalis (Brook trout) (Salmo fontinalis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii; Salmoniformes;
+OC   Salmonidae; Salmoninae; Salvelinus.
+OX   NCBI_TaxID=8038;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Ovary;
+RA   Bobe J., Goetz F.W., Langenau D.;
+RT   "Molecular cloning of adrenodoxin reductase from brook trout.";
+RL   Submitted (JUN-2000) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Serves as the first electron transfer protein in all the
+CC       mitochondrial P450 systems including cholesterol side chain cleavage in
+CC       all steroidogenic tissues, steroid 11-beta hydroxylation in the adrenal
+CC       cortex, 25-OH-vitamin D3-24 hydroxylation in the kidney, and sterol C-
+CC       27 hydroxylation in the liver. {ECO:0000250|UniProtKB:P08165}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + NADP(+) + 2 reduced [adrenodoxin] = NADPH + 2 oxidized
+CC         [adrenodoxin]; Xref=Rhea:RHEA:42312, Rhea:RHEA-COMP:9998, Rhea:RHEA-
+CC         COMP:9999, ChEBI:CHEBI:15378, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.18.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:P08165};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:P08165};
+CC   -!- PATHWAY: Steroid metabolism; cholesterol metabolism.
+CC       {ECO:0000250|UniProtKB:P08165}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:P48360}; Peripheral membrane protein
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ferredoxin--NADP reductase type 1 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF283287; AAG13948.1; -; mRNA.
+DR   SMR; P82861; -.
+DR   UniPathway; UPA00296; -.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; ISS:UniProtKB.
+DR   GO; GO:0015039; F:NADPH-adrenodoxin reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008203; P:cholesterol metabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.50.50.60; -; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR021163; Ferredox_Rdtase_adrenod.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   PIRSF; PIRSF000362; FNR; 1.
+PE   2: Evidence at transcript level;
+KW   Cholesterol metabolism; Electron transport; FAD; Flavoprotein;
+KW   Lipid metabolism; Membrane; Mitochondrion; Mitochondrion inner membrane;
+KW   NADP; Oxidoreductase; Steroid metabolism; Sterol metabolism;
+KW   Transit peptide; Transport.
+FT   TRANSIT         1..37
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   CHAIN           38..498
+FT                   /note="NADPH:adrenodoxin oxidoreductase, mitochondrial"
+FT                   /id="PRO_0000019423"
+FT   NP_BIND         190..193
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   NP_BIND         234..235
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   NP_BIND         411..413
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         54
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         75
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         83
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         119
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         246
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         404
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+FT   BINDING         411
+FT                   /note="NADP; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P08165"
+SQ   SEQUENCE   498 AA;  54342 MW;  B472004DF7BC4AA7 CRC64;
+     MSTHKAALCK VQILKLFLIS ARCVRITRFY GVCGLSTSTP ASSPKVCIVG GGPAGFYTAQ
+     HLVKTRTDVQ VDIYERLPVP FGLVRFGVAP DHPEVKNVIN TFTQTARHAR CSFHGNVRVG
+     KDVTVEELQE AYHAVVLSYG AEGNRTMGVP GEDLAGVYSA KDFVGWYNGL PRNRELRPDL
+     SCETAVILGQ GNVALDVARM LLSPVDILKK TDITQHALDA LAESSVRRVL IVGRRGPLQV
+     ACTIKELREM VNLPGTRPEM EASEFEGIAE TLKSLARPRK RLTELLLKAA IETPGEEELE
+     KRNKAERAWG FRFLRRPLEV LPSTDLIRAA GIRLAVNRLE GDGEGVRAVA TGEVEDVECG
+     LVISSIGYKS LPIDPAVPFD GRKAIIPNTM GRVQQTAGLY CSGWVKRGPT GVIATTMNDS
+     FDTARTLLQD IGKGTLDVSS VKPGSQGVSA LLEKRGVKPV SFSDWEKIDS EETRRGETRG
+     KPREKMLDVG EMLQVARA
+//

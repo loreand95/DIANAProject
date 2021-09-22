@@ -1,0 +1,139 @@
+ID   PYGM_MACFA              Reviewed;         842 AA.
+AC   Q8HXW4;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=Glycogen phosphorylase, muscle form;
+DE            EC=2.4.1.1;
+DE   AltName: Full=Myophosphorylase;
+GN   Name=PYGM; ORFNames=QccE-10224;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain cortex;
+RA   Kusuda J., Osada N., Hida M., Sugano S., Hashimoto K.;
+RT   "Isolation and characterization of cDNA for macaque neurological disease
+RT   genes.";
+RL   Submitted (APR-2002) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Phosphorylase is an important allosteric enzyme in
+CC       carbohydrate metabolism. Enzymes from different sources differ in their
+CC       regulatory mechanisms and in their natural substrates. However, all
+CC       known phosphorylases share catalytic and structural properties (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1->4)-alpha-D-glucosyl](n) + phosphate = [(1->4)-alpha-D-
+CC         glucosyl](n-1) + alpha-D-glucose 1-phosphate; Xref=Rhea:RHEA:41732,
+CC         Rhea:RHEA-COMP:9584, Rhea:RHEA-COMP:9586, ChEBI:CHEBI:15444,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58601; EC=2.4.1.1;
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. Dimers associate into a tetramer to form the
+CC       enzymatically active phosphorylase A (By similarity). {ECO:0000250}.
+CC   -!- PTM: Phosphorylation of Ser-15 converts phosphorylase B
+CC       (unphosphorylated) to phosphorylase A. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycogen phosphorylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB083327; BAC20606.1; -; mRNA.
+DR   RefSeq; NP_001270168.1; NM_001283239.1.
+DR   SMR; Q8HXW4; -.
+DR   STRING; 9541.XP_005577432.1; -.
+DR   CAZy; GT35; Glycosyltransferase Family 35.
+DR   PRIDE; Q8HXW4; -.
+DR   GeneID; 102138647; -.
+DR   KEGG; mcf:102138647; -.
+DR   CTD; 5837; -.
+DR   eggNOG; KOG2099; Eukaryota.
+DR   OrthoDB; 240595at2759; -.
+DR   Proteomes; UP000233100; Unplaced.
+DR   GO; GO:0008184; F:glycogen phosphorylase activity; IEA:InterPro.
+DR   GO; GO:0102250; F:linear malto-oligosaccharide phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0102499; F:SHG alpha-glucan phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005977; P:glycogen metabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR011833; Glycg_phsphrylas.
+DR   InterPro; IPR000811; Glyco_trans_35.
+DR   InterPro; IPR035090; Pyridoxal_P_attach_site.
+DR   PANTHER; PTHR11468; PTHR11468; 1.
+DR   Pfam; PF00343; Phosphorylase; 1.
+DR   PIRSF; PIRSF000460; Pprylas_GlgP; 1.
+DR   TIGRFAMs; TIGR02093; P_ylase; 1.
+DR   PROSITE; PS00102; PHOSPHORYLASE; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Allosteric enzyme; Carbohydrate metabolism;
+KW   Glycogen metabolism; Glycosyltransferase; Nucleotide-binding;
+KW   Phosphoprotein; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P00489"
+FT   CHAIN           2..842
+FT                   /note="Glycogen phosphorylase, muscle form"
+FT                   /id="PRO_0000188530"
+FT   BINDING         76
+FT                   /note="AMP"
+FT                   /evidence="ECO:0000250"
+FT   SITE            109
+FT                   /note="Involved in the association of subunits"
+FT                   /evidence="ECO:0000250"
+FT   SITE            143
+FT                   /note="Involved in the association of subunits"
+FT                   /evidence="ECO:0000250"
+FT   SITE            156
+FT                   /note="May be involved in allosteric control"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P00489"
+FT   MOD_RES         15
+FT                   /note="Phosphoserine; by PHK; in form phosphorylase A"
+FT                   /evidence="ECO:0000250|UniProtKB:P11217"
+FT   MOD_RES         204
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09812"
+FT   MOD_RES         227
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09812"
+FT   MOD_RES         430
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9WUB3"
+FT   MOD_RES         473
+FT                   /note="Phosphotyrosine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9WUB3"
+FT   MOD_RES         514
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09812"
+FT   MOD_RES         681
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         747
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09812"
+FT   MOD_RES         748
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P09812"
+SQ   SEQUENCE   842 AA;  97150 MW;  F1EFAD31EDAD2424 CRC64;
+     MSRPLSDQEK RKQISVRGLA GVENVTELKK NFNRHLHFTL VKDRNVATPR DYYFALAHTV
+     RDHLVGRWIR TQQHYYEKDP KRIYYLSLEF YMGRTLQNTM VNLALENACD EATYQLGLDM
+     EELEEIEEDA GLGNGGLGRL AACFLDSMAT LGLAAYGYGI RYEFGIFNQK ISGGWQMEEA
+     DVWLRYGNPW EKARPEFTLP VHFYGHVEHT SQGAKWVDTQ VVLAMPYDTP VPGYRNNVVN
+     TMRLWSAKAP NDFNLKDFNV GGYIQAVLDR NLAENIPRVL YPNDNFFEGK ELRLKQEYFV
+     VAATLQDIIR RFKSSKFGCR DPVRTNFDAF PDKVAIQLND THPSLAIPEL MRILVDLERM
+     DWDKAWDVTV RTCAYTNHTV LPEALERWPV HLLETLLPRH LQIIYEINQR FLNRVAATFP
+     GDVDRLRRMS LVEEGAVKRI NMAHLCIAGS HAVNGVARIH SEILKKTIFK DFYELEPHKF
+     QNKTNGITPR RWLVLCNPGL AEVIAERIGE DFISDLDQLR KLLSFVDDEA FIRDVAKVKQ
+     ENKLKFAAYL EREYKVHINP NSLFDIQVKR IHEYKRQLLN CLHVITLYNR IKREPNKFFV
+     PRTVMIGGKA APGHHMAKMI IRLITAIGDV VNHDPTVGDR LRVIFLENYR VSLSEKVIPA
+     ADLSEQISTA GTEASGTGNM KFMLNGALTI GTMDGANVEM AEEAGEENFF IFGMRVEDVD
+     KLDQRGYNAQ EYYDRIPELR QVIEQLSSGF FSPKQPDLFK DIVNMLMHHD RFKVFADYED
+     YIKCQEKVSA LYKNPREWTR MVIRNIATSG KFSSDRTIAQ YAREIWGVEP SRQRLPAPDE
+     AI
+//

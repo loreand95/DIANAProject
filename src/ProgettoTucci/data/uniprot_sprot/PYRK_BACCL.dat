@@ -1,0 +1,110 @@
+ID   PYRK_BACCL              Reviewed;         257 AA.
+AC   P46536;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   11-DEC-2019, entry version 96.
+DE   RecName: Full=Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit {ECO:0000255|HAMAP-Rule:MF_01211};
+DE   AltName: Full=Dihydroorotate oxidase B, electron transfer subunit {ECO:0000255|HAMAP-Rule:MF_01211};
+GN   Name=pyrK {ECO:0000255|HAMAP-Rule:MF_01211};
+OS   Bacillus caldolyticus.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus;
+OC   Geobacillus thermoleovorans group.
+OX   NCBI_TaxID=1394;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=DSM 405 / NBRC 15313 / YP-T;
+RX   PubMed=7516791; DOI=10.1099/00221287-140-3-479;
+RA   Ghim S.Y., Nielsen P., Neuhard J.;
+RT   "Molecular characterization of pyrimidine biosynthesis genes from the
+RT   thermophile Bacillus caldolyticus.";
+RL   Microbiology 140:479-491(1994).
+CC   -!- FUNCTION: Responsible for channeling the electrons from the oxidation
+CC       of dihydroorotate from the FMN redox center in the PyrD type B subunit
+CC       to the ultimate electron acceptor NAD(+). {ECO:0000255|HAMAP-
+CC       Rule:MF_01211}.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01211};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01211};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01211};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_01211};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       orotate from (S)-dihydroorotate (NAD(+) route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01211}.
+CC   -!- SUBUNIT: Heterotetramer of 2 PyrK and 2 PyrD type B subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01211}.
+CC   -!- SIMILARITY: Belongs to the PyrK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01211}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X73308; CAA51740.1; -; Genomic_DNA.
+DR   PIR; I40170; I40170.
+DR   SMR; P46536; -.
+DR   UniPathway; UPA00070; UER00945.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.10.240.10; -; 1.
+DR   Gene3D; 3.40.50.80; -; 1.
+DR   HAMAP; MF_01211; DHODB_Fe_S_bind; 1.
+DR   InterPro; IPR008333; Cbr1-like_FAD-bd_dom.
+DR   InterPro; IPR012165; Cyt_c3_hydrogenase_gsu.
+DR   InterPro; IPR037117; Dihydroorotate_DH_ele_sf.
+DR   InterPro; IPR019480; Dihydroorotate_DH_Fe-S-bd.
+DR   InterPro; IPR023455; Dihydroorotate_DHASE_ETsu.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR001433; OxRdtase_FAD/NAD-bd.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   Pfam; PF10418; DHODB_Fe-S_bind; 1.
+DR   Pfam; PF00970; FAD_binding_6; 1.
+DR   Pfam; PF00175; NAD_binding_1; 1.
+DR   PIRSF; PIRSF006816; Cyc3_hyd_g; 1.
+DR   SUPFAM; SSF52343; SSF52343; 1.
+DR   SUPFAM; SSF63380; SSF63380; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Electron transport; FAD; Flavoprotein; Iron; Iron-sulfur;
+KW   Metal-binding; Pyrimidine biosynthesis; Transport.
+FT   CHAIN           1..257
+FT                   /note="Dihydroorotate dehydrogenase B (NAD(+)), electron
+FT                   transfer subunit"
+FT                   /id="PRO_0000148355"
+FT   DOMAIN          2..102
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   NP_BIND         53..56
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   NP_BIND         70..72
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   NP_BIND         77..78
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           221
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           226
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           229
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           244
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+SQ   SEQUENCE   257 AA;  27641 MW;  6FF7F8319457EE5F CRC64;
+     MIGRERMTVA SQRLIAERTY ELTLSGRLVQ EMRQPGQFVH VKVAASADPL LRRPLSLCHI
+     DHKQGQCTII YRQEGKGTAL LAQKQPGDTV DVLGPLGNGF PLEAAPAGSR ALLVGGGIGV
+     PPLYELAKQL TKRGVKVVSV LGFQTKAAVF YEEEFAAFGE THVATDDGSH GTAGRVTDVI
+     EARSLEFDVL YACGPKPMLR ALAERFPNRP VYLSLEERMG CGVGACFACV CHVPGSETAY
+     KKVCSDGPVF RAGEVVL
+//

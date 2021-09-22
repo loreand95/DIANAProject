@@ -1,0 +1,111 @@
+ID   AROA_STRS2              Reviewed;         426 AA.
+AC   A4W069;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            EC=2.5.1.19 {ECO:0000255|HAMAP-Rule:MF_00210};
+DE   AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            Short=EPSP synthase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            Short=EPSPS {ECO:0000255|HAMAP-Rule:MF_00210};
+GN   Name=aroA {ECO:0000255|HAMAP-Rule:MF_00210}; OrderedLocusNames=SSU98_0600;
+OS   Streptococcus suis (strain 98HAH33).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=391296;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=98HAH33;
+RX   PubMed=17375201; DOI=10.1371/journal.pone.0000315;
+RA   Chen C., Tang J., Dong W., Wang C., Feng Y., Wang J., Zheng F., Pan X.,
+RA   Liu D., Li M., Song Y., Zhu X., Sun H., Feng T., Guo Z., Ju A., Ge J.,
+RA   Dong Y., Sun W., Jiang Y., Wang J., Yan J., Yang H., Wang X., Gao G.F.,
+RA   Yang R., Wang J., Yu J.;
+RT   "A glimpse of streptococcal toxic shock syndrome from comparative genomics
+RT   of S. suis 2 Chinese isolates.";
+RL   PLoS ONE 2:E315-E315(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of the enolpyruvyl moiety of
+CC       phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3-phosphate
+CC       (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phosphoshikimate + phosphoenolpyruvate = 5-O-(1-
+CC         carboxyvinyl)-3-phosphoshikimate + phosphate; Xref=Rhea:RHEA:21256,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701, ChEBI:CHEBI:58702,
+CC         ChEBI:CHEBI:145989; EC=2.5.1.19; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00210};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       6/7. {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00210}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000408; ABP91758.1; -; Genomic_DNA.
+DR   SMR; A4W069; -.
+DR   KEGG; ssv:SSU98_0600; -.
+DR   HOGENOM; CLU_024321_0_1_9; -.
+DR   OMA; YEDHRMA; -.
+DR   UniPathway; UPA00053; UER00089.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003866; F:3-phosphoshikimate 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01556; EPSP_synthase; 1.
+DR   Gene3D; 3.65.10.10; -; 2.
+DR   HAMAP; MF_00210; EPSP_synth; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR006264; EPSP_synthase.
+DR   InterPro; IPR023193; EPSP_synthase_CS.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   PIRSF; PIRSF000505; EPSPS; 1.
+DR   SUPFAM; SSF55205; SSF55205; 1.
+DR   TIGRFAMs; TIGR01356; aroA; 1.
+DR   PROSITE; PS00104; EPSP_SYNTHASE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Cytoplasm;
+KW   Transferase.
+FT   CHAIN           1..426
+FT                   /note="3-phosphoshikimate 1-carboxyvinyltransferase"
+FT                   /id="PRO_1000012497"
+FT   REGION          20..21
+FT                   /note="Shikimate-3-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   REGION          90..93
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   ACT_SITE        312
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   ACT_SITE        340
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         25
+FT                   /note="Shikimate-3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         120
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         339
+FT                   /note="Shikimate-3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         385
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+SQ   SEQUENCE   426 AA;  45928 MW;  029ED6BB36DA3DAB CRC64;
+     MKLRRSVEKL KGTIRVPGDK SISHRSIIFG SLAKGVTRFH NILRGEDVLS TMQVFRDLGV
+     KIEDNGDIVE VHGVGFDGLQ APKNDLDMGN SGTSIRLISG VLAGQDFEAT MFGDDSLSKR
+     PMDRVTIPLS QMGLKISGQT ERDLPPLTIK GNKNLKPIRY QLPVASAQVK SALIFAALQA
+     EGNSVIVKKD LTRNHTEDMI VQFGGQLKFN GKEIRIQGGQ EFIAQEITVP GDISSAAFWL
+     VAGLIIPGSK IVLENVGINE TRTGILDVIK AMGGKMTLSN IDELAKSATI TVETSELKAT
+     EIAGELIPRL IDELPIITLL ATQAHGTTII CDAEELKVKE TDCIQVVADA LNSMGATIEP
+     TEDGMIIHGP TALHGAEINT FGDHRIGMMT AIAALLAKDG EVVLERAEAI NTSYPAFFEH
+     LNSLMD
+//

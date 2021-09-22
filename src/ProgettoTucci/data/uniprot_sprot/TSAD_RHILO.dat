@@ -1,0 +1,119 @@
+ID   TSAD_RHILO              Reviewed;         362 AA.
+AC   Q98EI6;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   02-DEC-2020, entry version 102.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            EC=2.3.1.234 {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000255|HAMAP-Rule:MF_01445}; Synonyms=gcp;
+GN   OrderedLocusNames=mlr4224;
+OS   Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099)
+OS   (Mesorhizobium loti (strain MAFF 303099)).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Phyllobacteriaceae; Mesorhizobium.
+OX   NCBI_TaxID=266835;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LMG 29417 / CECT 9101 / MAFF 303099;
+RX   PubMed=11214968; DOI=10.1093/dnares/7.6.331;
+RA   Kaneko T., Nakamura Y., Sato S., Asamizu E., Kato T., Sasamoto S.,
+RA   Watanabe A., Idesawa K., Ishikawa A., Kawashima K., Kimura T., Kishida Y.,
+RA   Kiyokawa C., Kohara M., Matsumoto M., Matsuno A., Mochizuki Y.,
+RA   Nakayama S., Nakazaki N., Shimpo S., Sugimoto M., Takeuchi C., Yamada M.,
+RA   Tabata S.;
+RT   "Complete genome structure of the nitrogen-fixing symbiotic bacterium
+RT   Mesorhizobium loti.";
+RL   DNA Res. 7:331-338(2000).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is involved in the transfer of the threonylcarbamoyl
+CC       moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37,
+CC       together with TsaE and TsaB. TsaD likely plays a direct catalytic role
+CC       in this reaction. {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + L-threonylcarbamoyladenylate = AMP +
+CC         H(+) + N(6)-L-threonylcarbamoyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000012; BAB50932.1; -; Genomic_DNA.
+DR   RefSeq; WP_010912274.1; NC_002678.2.
+DR   SMR; Q98EI6; -.
+DR   STRING; 266835.14024328; -.
+DR   EnsemblBacteria; BAB50932; BAB50932; BAB50932.
+DR   KEGG; mlo:mlr4224; -.
+DR   PATRIC; fig|266835.9.peg.3335; -.
+DR   eggNOG; COG0533; Bacteria.
+DR   HOGENOM; CLU_023208_0_2_5; -.
+DR   OMA; HLEGHIY; -.
+DR   OrthoDB; 1257362at2; -.
+DR   BioCyc; MLOT266835:G1G20-3343-MONOMER; -.
+DR   Proteomes; UP000000552; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061711; F:N(6)-L-threonylcarbamoyladenine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR022450; TsaD.
+DR   PANTHER; PTHR11735; PTHR11735; 1.
+DR   PANTHER; PTHR11735:SF6; PTHR11735:SF6; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   TIGRFAMs; TIGR03723; T6A_TsaD_YgjD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Iron; Metal-binding; Transferase;
+KW   tRNA processing.
+FT   CHAIN           1..362
+FT                   /note="tRNA N6-adenosine threonylcarbamoyltransferase"
+FT                   /id="PRO_0000303509"
+FT   REGION          138..142
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           116
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           120
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           312
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         171
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         184
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         284
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+SQ   SEQUENCE   362 AA;  37346 MW;  8E4B11C45895D1D7 CRC64;
+     MIRVLGIETS CDETAASVVA LEGDAAPKIL SNIVLSQIEE HAAFGGVVPE IAARAHVEAL
+     DGIVEAALAD SGTTLADIDA IAATAGPGLV GGLIVGLMTA KAIAAAAGKP LIAVNHLEGH
+     ALTARLTDGL EFPYLLLLVS GGHTQILAVR GVGDYQRWAT TIDDALGEAF DKTAKMLGLP
+     YPGGPNVEKA AQTGNASRFT FPRPMKGSAQ PDFSFSGLKT AVRQAATAIE PLGDQDVADI
+     CASFQAAVAD ALADRVSRAL ARFSQTFPGT KNPALVVAGG VAANHTIKAT LERLCAEAGF
+     IFVAPPLKLC TDNAAMIAWA GIERLREGMA QENGFDFVPR SRWPLDSISA PMVGSGRRGA
+     KA
+//

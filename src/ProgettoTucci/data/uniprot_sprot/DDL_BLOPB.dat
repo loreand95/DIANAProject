@@ -1,0 +1,112 @@
+ID   DDL_BLOPB               Reviewed;         368 AA.
+AC   Q492J5;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 104.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000255|HAMAP-Rule:MF_00047};
+GN   Name=ddl {ECO:0000255|HAMAP-Rule:MF_00047}; OrderedLocusNames=BPEN_490;
+OS   Blochmannia pennsylvanicus (strain BPEN).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; ant endosymbionts; Candidatus Blochmannia.
+OX   NCBI_TaxID=291272;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BPEN;
+RX   PubMed=16077009; DOI=10.1101/gr.3771305;
+RA   Degnan P.H., Lazarus A.B., Wernegreen J.J.;
+RT   "Genome sequence of Blochmannia pennsylvanicus indicates parallel
+RT   evolutionary trends among bacterial mutualists of insects.";
+RL   Genome Res. 15:1023-1033(2005).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 2 D-alanine = ADP + D-alanyl-D-alanine + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:57416,
+CC         ChEBI:CHEBI:57822, ChEBI:CHEBI:456216; EC=6.3.2.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000016; AAZ41104.1; -; Genomic_DNA.
+DR   RefSeq; WP_011283015.1; NC_007292.1.
+DR   SMR; Q492J5; -.
+DR   STRING; 291272.BPEN_490; -.
+DR   EnsemblBacteria; AAZ41104; AAZ41104; BPEN_490.
+DR   KEGG; bpn:BPEN_490; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   HOGENOM; CLU_039268_0_1_6; -.
+DR   OMA; IDFFLTD; -.
+DR   BioCyc; CBLO291272:BPEN_RS03300-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000007794; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 1.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+DR   PROSITE; PS00844; DALA_DALA_LIGASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell shape; Cell wall biogenesis/degradation; Cytoplasm;
+KW   Ligase; Magnesium; Manganese; Metal-binding; Nucleotide-binding;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..368
+FT                   /note="D-alanine--D-alanine ligase"
+FT                   /id="PRO_0000341060"
+FT   DOMAIN          137..340
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   NP_BIND         167..222
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           294
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           307
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           307
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           309
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+SQ   SEQUENCE   368 AA;  41585 MW;  F4BD5CA22F70A2E4 CRC64;
+     MSKLCIGIIC GGRSLEHEIS LKSAMCIAQF IDKFRFEAMI LWIDKKGCWH LKDIDFNDLS
+     YHKDEKISIL LQNCPYPFKF HTKNINILLK FDVIFPVVHG TLGEDGALQG LLCMMNLPFV
+     GSNVLSSSVG MDKDVSKCLL RDAGLSVVPF RTVLAQDQHN IDFDYFVSIF GLPLFVKPSN
+     QGSSIGVSKV TKCKDFNLAL IKAFSFSNKI LIEPAIIGRE LECAVLGNDN PKISVCGEVI
+     LSDNNFYTYH DKYVKRKAQI MIPALINDAI SDDIRHIALR AFQVLNCSGM ARVDVFLNLD
+     NKIFINEVNT LPGFTFDSMY PKLWEVSGLN LQELITKLVE LALDLHDKKN CFYHVDGAVL
+     KYFRHERI
+//

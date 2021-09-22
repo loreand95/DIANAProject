@@ -1,0 +1,123 @@
+ID   SYD_LACLM               Reviewed;         590 AA.
+AC   A2RN94;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-MAR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 97.
+DE   RecName: Full=Aspartate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            EC=6.1.1.12 {ECO:0000255|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Aspartyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            Short=AspRS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   Name=aspS {ECO:0000255|HAMAP-Rule:MF_00044}; OrderedLocusNames=llmg_2215;
+OS   Lactococcus lactis subsp. cremoris (strain MG1363).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=416870;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MG1363;
+RX   PubMed=17307855; DOI=10.1128/jb.01768-06;
+RA   Wegmann U., O'Connell-Motherway M., Zomer A., Buist G., Shearman C.,
+RA   Canchaya C., Ventura M., Goesmann A., Gasson M.J., Kuipers O.P.,
+RA   van Sinderen D., Kok J.;
+RT   "The complete genome sequence of the lactic acid bacterial paradigm
+RT   Lactococcus lactis subsp. cremoris MG1363.";
+RL   J. Bacteriol. 189:3256-3270(2007).
+CC   -!- FUNCTION: Catalyzes the attachment of L-aspartate to tRNA(Asp) in a
+CC       two-step reaction: L-aspartate is first activated by ATP to form Asp-
+CC       AMP and then transferred to the acceptor end of tRNA(Asp).
+CC       {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-aspartate + tRNA(Asp) = AMP + diphosphate + L-
+CC         aspartyl-tRNA(Asp); Xref=Rhea:RHEA:19649, Rhea:RHEA-COMP:9660,
+CC         Rhea:RHEA-COMP:9678, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78516,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.12; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00044};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM406671; CAL98782.1; -; Genomic_DNA.
+DR   RefSeq; WP_011835906.1; NZ_WJVF01000009.1.
+DR   SMR; A2RN94; -.
+DR   STRING; 416870.llmg_2215; -.
+DR   EnsemblBacteria; CAL98782; CAL98782; llmg_2215.
+DR   KEGG; llm:llmg_2215; -.
+DR   eggNOG; COG0173; Bacteria.
+DR   HOGENOM; CLU_014330_3_2_9; -.
+DR   OMA; YQLDVEM; -.
+DR   BioCyc; LLAC416870:LLMG_RS11115-MONOMER; -.
+DR   Proteomes; UP000000364; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004815; F:aspartate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006422; P:aspartyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.30; -; 1.
+DR   HAMAP; MF_00044; Asp_tRNA_synth_type1; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004524; Asp-tRNA-ligase_1.
+DR   InterPro; IPR002312; Asp/Asn-tRNA-synth_IIb.
+DR   InterPro; IPR004115; GAD-like_sf.
+DR   InterPro; IPR029351; GAD_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   PANTHER; PTHR22594:SF5; PTHR22594:SF5; 1.
+DR   Pfam; PF02938; GAD; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR01042; TRNASYNTHASP.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF55261; SSF55261; 1.
+DR   TIGRFAMs; TIGR00459; aspS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..590
+FT                   /note="Aspartate--tRNA ligase"
+FT                   /id="PRO_1000006691"
+FT   NP_BIND         220..222
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   NP_BIND         536..539
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   REGION          198..201
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         174
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         220
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         229
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         443
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         484
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         491
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+SQ   SEQUENCE   590 AA;  66529 MW;  5D1D44F703026696 CRC64;
+     MKRTNYAGNI TEEYLNQTIT VKGWVAKRRN LGGLIFIDLR DREGIVQIVV NPETAATEVA
+     EAADKARNEF VLEVTGKVVE RASKNDKIKT GGIEIEATAI EILSTSKTTP FEIKDDVEVL
+     DDTRLKYRYL DLRRPEMLKN ITMRHATTRS IREYLDGAGF IDVETPFLNK STPEGARDYL
+     VPSRVNKGEF YALPQSPQLM KQLLMTAGLD RYYQIVKCFR DEDLRGDRQP EFTQVDLETS
+     FLGEEEIQEL TEELIAKVMK DVKGIDVTLP FPRMNYDDAM NFYGSDKPDT RFELLLTDLS
+     ALAKTVDFKV FQEAEVVKAI VVKGAADKYS RKSIDKLTEQ AKQNGAKGLA WVKFEKGEFA
+     GGVSKFLAES TDSFVNELKL TDNDLVLFVA DSLDVANSAL GALRLTIGKQ QGLIDFRKFN
+     FLWVIDWPMF EWSDEEERYM SAHHPFTLPT KETQAFLSAD GHRKDSDLKK VRAHAYDIVL
+     NGYELGGGSL RINSRDLQEE MLSALGFKLE DANEQFGFLL EALDYGFPPH GGLALGLDRF
+     VMLLAGKDNI REVIAFPKNN KASDPMTQAP SIVADKQLEE LSIKLANKDQ
+//

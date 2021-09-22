@@ -1,0 +1,121 @@
+ID   PEPB_STRA3              Reviewed;         601 AA.
+AC   Q53778;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   10-JAN-2003, sequence version 2.
+DT   07-APR-2021, entry version 122.
+DE   RecName: Full=Group B oligopeptidase PepB;
+DE            EC=3.4.24.-;
+GN   Name=pepB; OrderedLocusNames=gbs0824;
+OS   Streptococcus agalactiae serotype III (strain NEM316).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=211110;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=3502 / Serotype III;
+RX   PubMed=8757883; DOI=10.1128/iai.64.8.3401-3406.1996;
+RA   Lin B., Averett W.F., Novak J., Chatham W.W., Hollingshead S.K.,
+RA   Coligan J.E., Egan M.L., Pritchard D.G.;
+RT   "Characterization of PepB, a group B streptococcal oligopeptidase.";
+RL   Infect. Immun. 64:3401-3406(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NEM316;
+RX   PubMed=12354221; DOI=10.1046/j.1365-2958.2002.03126.x;
+RA   Glaser P., Rusniok C., Buchrieser C., Chevalier F., Frangeul L., Msadek T.,
+RA   Zouine M., Couve E., Lalioui L., Poyart C., Trieu-Cuot P., Kunst F.;
+RT   "Genome sequence of Streptococcus agalactiae, a pathogen causing invasive
+RT   neonatal disease.";
+RL   Mol. Microbiol. 45:1499-1513(2002).
+CC   -!- FUNCTION: Has oligopeptidase activity and degrades a variety of small
+CC       bioactive peptides, including bradykinin, neurotensin, and peptide
+CC       fragments of substance P and adrenocorticotropin. Also hydrolyzes the
+CC       synthetic collagen-like substrate N-(3-[2-furyl]acryloyl)-Leu-Gly-Pro-
+CC       Ala (FALGPA).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the peptidase M3B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U49821; AAC44215.1; -; Genomic_DNA.
+DR   EMBL; AL766847; CAD46468.1; -; Genomic_DNA.
+DR   PIR; T51748; T51748.
+DR   RefSeq; WP_001282905.1; NC_004368.1.
+DR   SMR; Q53778; -.
+DR   STRING; 211110.gbs0824; -.
+DR   MEROPS; M03.007; -.
+DR   PRIDE; Q53778; -.
+DR   EnsemblBacteria; CAD46468; CAD46468; CAD46468.
+DR   KEGG; san:pepB; -.
+DR   eggNOG; COG1164; Bacteria.
+DR   HOGENOM; CLU_021290_2_0_9; -.
+DR   OMA; YRQTMFA; -.
+DR   Proteomes; UP000000823; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   Gene3D; 1.10.1370.20; -; 1.
+DR   InterPro; IPR013647; OligopepF_N_dom.
+DR   InterPro; IPR042088; OligoPept_F_C.
+DR   InterPro; IPR001567; Pept_M3A_M3B.
+DR   InterPro; IPR004438; Peptidase_M3B.
+DR   Pfam; PF01432; Peptidase_M3; 1.
+DR   Pfam; PF08439; Peptidase_M3_N; 1.
+DR   TIGRFAMs; TIGR00181; pepF; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Metalloprotease; Protease; Zinc.
+FT   CHAIN           1..601
+FT                   /note="Group B oligopeptidase PepB"
+FT                   /id="PRO_0000078170"
+FT   ACT_SITE        387
+FT                   /evidence="ECO:0000250"
+FT   METAL           386
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           390
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           393
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        39
+FT                   /note="N -> D (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        63
+FT                   /note="D -> E (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        210
+FT                   /note="V -> G (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        307
+FT                   /note="S -> P (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        324
+FT                   /note="E -> K (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        332
+FT                   /note="V -> A (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        515
+FT                   /note="Y -> H (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        595
+FT                   /note="A -> T (in Ref. 1; AAC44215)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   601 AA;  69633 MW;  5FBE051146826FA9 CRC64;
+     MSDNRSHIEE KYQWDLTTVF ATDELWETEV VELTQAIDNA KGFSGHLLDS SQSLLEITEV
+     ELDLSRRLEK VYVYASMKND QDTTVAKYQE FQAKATALYA KFSETFSFYE PELLQLSESD
+     YQSFLLEMPD LQKYDHFFEK IFANKPHVLS QNEEELLAGA SEIFGAAGET FEILDNADMV
+     FPVVKNAKGE EVELTHGNFI SLMESSDRTV RKEAYQAMYS TYEQFQHTYA KTLQTNVKSQ
+     NFKARVHHYQ SARQSALSAN FIPEEVYETL IKTVNHHLPL LHRYMKLRQK VLGLDDLKMY
+     DVYTPLSQMD MSFTYDEALK KSEEVLAIFG EVYSERVHRA FTERWIDVHV NKGKRSGAYS
+     GGSYDTNAFM LLNWQDTLDN LYTLVHETGH SLHSTFTREN QPYVYGDYSI FLAEIASTTN
+     ENILTETLLK EVKDDKNRFA ILNHYLDGFK GTIFRQTQFA EFEHAIHVAD QEGQVLTSEY
+     LNNLYAELNE KYYGLTKEDN HFIQYEWARI PHFYYNYYVF QYATGFAAAN YLAERIVNGN
+     PEDKEAYLNY LKAGNSDYPL NVIAKAGVDM TSADYLDAAF RVFEERLVEL ENLVAKGVHN
+     D
+//

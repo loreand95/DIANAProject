@@ -1,0 +1,104 @@
+ID   ARND_YERPS              Reviewed;         301 AA.
+AC   Q7BF86; Q66A05;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 95.
+DE   RecName: Full=Probable 4-deoxy-4-formamido-L-arabinose-phosphoundecaprenol deformylase ArnD {ECO:0000255|HAMAP-Rule:MF_01870};
+DE            EC=3.5.1.n3 {ECO:0000255|HAMAP-Rule:MF_01870};
+GN   Name=arnD {ECO:0000255|HAMAP-Rule:MF_01870}; OrderedLocusNames=YPTB2327;
+OS   Yersinia pseudotuberculosis serotype I (strain IP32953).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=273123;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND INDUCTION.
+RC   STRAIN=32777 / IP2777 / Serotype O1:b;
+RX   PubMed=15583148; DOI=10.1099/mic.0.27426-0;
+RA   Marceau M.B., Sebbane F., Ewann F., Collyn F., Lindner B., Campos M.A.,
+RA   Bengoechea J.-A., Simonet M.;
+RT   "The pmrF polymyxin-resistance operon of Yersinia pseudotuberculosis is
+RT   upregulated by the PhoP-PhoQ two-component system but not by PmrA-PmrB, and
+RT   is not required for virulence.";
+RL   Microbiology 150:3947-3957(2004).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP32953;
+RX   PubMed=15358858; DOI=10.1073/pnas.0404012101;
+RA   Chain P.S.G., Carniel E., Larimer F.W., Lamerdin J., Stoutland P.O.,
+RA   Regala W.M., Georgescu A.M., Vergez L.M., Land M.L., Motin V.L.,
+RA   Brubaker R.R., Fowler J., Hinnebusch J., Marceau M., Medigue C.,
+RA   Simonet M., Chenal-Francisque V., Souza B., Dacheux D., Elliott J.M.,
+RA   Derbise A., Hauser L.J., Garcia E.;
+RT   "Insights into the evolution of Yersinia pestis through whole-genome
+RT   comparison with Yersinia pseudotuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13826-13831(2004).
+CC   -!- FUNCTION: Catalyzes the deformylation of 4-deoxy-4-formamido-L-
+CC       arabinose-phosphoundecaprenol to 4-amino-4-deoxy-L-arabinose-
+CC       phosphoundecaprenol. The modified arabinose is attached to lipid A and
+CC       is required for resistance to polymyxin and cationic antimicrobial
+CC       peptides. {ECO:0000255|HAMAP-Rule:MF_01870}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-deoxy-4-formamido-alpha-L-arabinopyranosyl di-trans,octa-
+CC         cis-undecaprenyl phosphate + H2O = 4-amino-4-deoxy-alpha-L-
+CC         arabinopyranosyl di-trans,octa-cis-undecaprenyl phosphate + formate;
+CC         Xref=Rhea:RHEA:27734, ChEBI:CHEBI:15377, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:58909, ChEBI:CHEBI:60463; EC=3.5.1.n3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01870};
+CC   -!- PATHWAY: Glycolipid biosynthesis; 4-amino-4-deoxy-alpha-L-arabinose
+CC       undecaprenyl phosphate biosynthesis; 4-amino-4-deoxy-alpha-L-arabinose
+CC       undecaprenyl phosphate from UDP-4-deoxy-4-formamido-beta-L-arabinose
+CC       and undecaprenyl phosphate: step 2/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01870}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01870}.
+CC   -!- INDUCTION: Activated by low magnesium concentrations, via the two-
+CC       component regulatory system PhoP/PhoQ. {ECO:0000269|PubMed:15583148}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide deacetylase family. ArnD
+CC       deformylase subfamily. {ECO:0000255|HAMAP-Rule:MF_01870}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF336802; AAK69643.1; -; Genomic_DNA.
+DR   EMBL; BX936398; CAH21565.1; -; Genomic_DNA.
+DR   RefSeq; WP_002211822.1; NZ_CP009712.1.
+DR   SMR; Q7BF86; -.
+DR   EnsemblBacteria; CAH21565; CAH21565; YPTB2327.
+DR   GeneID; 57976258; -.
+DR   KEGG; ypo:BZ17_127; -.
+DR   KEGG; yps:YPTB2327; -.
+DR   PATRIC; fig|273123.14.peg.136; -.
+DR   OMA; KFLWKML; -.
+DR   UniPathway; UPA00030; -.
+DR   UniPathway; UPA00036; UER00496.
+DR   Proteomes; UP000001011; Chromosome.
+DR   GO; GO:0016811; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036108; P:4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009103; P:lipopolysaccharide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01870; ArnD; 1.
+DR   InterPro; IPR023557; ArnD.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR002509; NODB_dom.
+DR   Pfam; PF01522; Polysacc_deac_1; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+DR   PROSITE; PS51677; NODB; 1.
+PE   2: Evidence at transcript level;
+KW   Antibiotic resistance; Hydrolase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Lipopolysaccharide biosynthesis.
+FT   CHAIN           1..301
+FT                   /note="Probable 4-deoxy-4-formamido-L-arabinose-
+FT                   phosphoundecaprenol deformylase ArnD"
+FT                   /id="PRO_0000383556"
+FT   DOMAIN          2..261
+FT                   /note="NodB homology"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01870"
+SQ   SEQUENCE   301 AA;  33504 MW;  ABA3A1132D09A864 CRC64;
+     MKQVGLRIDV DTYRGTQYGV PSLLTVLEKH DIRASFFFSV GPDNMGRHLW RLFRPRFLWK
+     MLRSNAASLY GWDILLAGTA WPGKKIAKDF GPLMKAAAMA GHEVGLHAWD HQGWQANVAS
+     WSQQQLTEQV QRGVDTLQQS IGQPISCSAA AGWRADERVL AVKQQFDFSY NSDCRGTHPF
+     RPLLPNGSLG SVQIPVTLPT YDEVVGGEVQ AENFNDFIID AILRDSGVSV YTIHAEVEGM
+     SQAAMFEQLL MRAKQQDIEF CPLSKLLPSD LQLLPVGKVI RAAFPGREGW LGCQSDIKDA
+     E
+//

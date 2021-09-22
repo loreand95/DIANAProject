@@ -1,0 +1,103 @@
+ID   TIMP3_SCYTO             Reviewed;         214 AA.
+AC   Q9W6B4;
+DT   20-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   11-DEC-2019, entry version 84.
+DE   RecName: Full=Metalloproteinase inhibitor 3;
+DE   AltName: Full=Tissue inhibitor of metalloproteinases 3;
+DE            Short=TIMP-3;
+DE   Flags: Precursor;
+GN   Name=TIMP3;
+OS   Scyliorhinus torazame (Cloudy catshark).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Chondrichthyes;
+OC   Elasmobranchii; Galeomorphii; Galeoidea; Carcharhiniformes; Scyliorhinidae;
+OC   Scyliorhinus.
+OX   NCBI_TaxID=75743;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cartilage;
+RX   PubMed=11342115; DOI=10.1016/s0167-4781(00)00255-4;
+RA   Kim J.T., Kim M.-S., Bae M.-K., Song H.S., Ahn M.-Y., Kim Y.-J., Lee S.-J.,
+RA   Kim K.-W.;
+RT   "Cloning and characterization of tissue inhibitor of metalloproteinase-3
+RT   (TIMP-3) from shark, Scyliorhinus torazame.";
+RL   Biochim. Biophys. Acta 1517:311-315(2001).
+CC   -!- FUNCTION: Complexes with metalloproteinases (such as collagenases) and
+CC       irreversibly inactivates them by binding to their catalytic zinc
+CC       cofactor. May form part of a tissue-specific acute response to
+CC       remodeling stimuli (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed abundantly in brain and cartilage.
+CC   -!- SIMILARITY: Belongs to the protease inhibitor I35 (TIMP) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF110767; AAD26150.1; -; mRNA.
+DR   MEROPS; I35.003; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0008191; F:metalloendopeptidase inhibitor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   Gene3D; 2.40.50.120; -; 1.
+DR   Gene3D; 3.90.370.10; -; 1.
+DR   InterPro; IPR001134; Netrin_domain.
+DR   InterPro; IPR001820; TIMP.
+DR   InterPro; IPR008993; TIMP-like_OB-fold.
+DR   InterPro; IPR015612; TIMP3.
+DR   InterPro; IPR027465; TIMP_C.
+DR   InterPro; IPR030490; TIMP_CS.
+DR   PANTHER; PTHR11844; PTHR11844; 1.
+DR   PANTHER; PTHR11844:SF22; PTHR11844:SF22; 1.
+DR   Pfam; PF00965; TIMP; 1.
+DR   SMART; SM00206; NTR; 1.
+DR   SUPFAM; SSF50242; SSF50242; 1.
+DR   PROSITE; PS50189; NTR; 1.
+DR   PROSITE; PS00288; TIMP; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Extracellular matrix; Glycoprotein; Metal-binding;
+KW   Metalloenzyme inhibitor; Metalloprotease inhibitor; Protease inhibitor;
+KW   Secreted; Signal; Zinc.
+FT   SIGNAL          1..26
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           27..214
+FT                   /note="Metalloproteinase inhibitor 3"
+FT                   /id="PRO_0000034347"
+FT   DOMAIN          27..146
+FT                   /note="NTR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   REGION          27..30
+FT                   /note="Involved in metalloproteinase-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16035"
+FT   REGION          91..92
+FT                   /note="Involved in metalloproteinase-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16035"
+FT   METAL           27
+FT                   /note="Zinc; via amino nitrogen and carbonyl oxygen; shared
+FT                   with metalloproteinase partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P16035"
+FT   SITE            40
+FT                   /note="Involved in metalloproteinase-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16035"
+FT   CARBOHYD        210
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        27..94
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   DISULFID        29..121
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   DISULFID        39..146
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   DISULFID        148..195
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   DISULFID        153..158
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+FT   DISULFID        166..187
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00295"
+SQ   SEQUENCE   214 AA;  24498 MW;  BCAD300B8E483557 CRC64;
+     MVFSTTAALS LLLALSSMQL SEVSEACTCM PNHPQEAFCN SDIVIRAKVV GKKLLKDGPF
+     GTMRYTIKQM KMYRGFSKMQ QVQYIYTEAA ESLCGVRLQV NKFQYLITGR VFDGEVYTGV
+     CNFIVPWDRL TLSQRKGLNH RYQYGCNCKI KPCYYLPCFV TAKNECFWTD MLSDQGYMGH
+     QAKHYVCIRQ KEGYCSWYRG AAPPDKTRIN ATDP
+//

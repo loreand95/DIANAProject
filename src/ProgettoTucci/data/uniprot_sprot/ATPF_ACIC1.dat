@@ -1,0 +1,91 @@
+ID   ATPF_ACIC1              Reviewed;         191 AA.
+AC   A0LSL2;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 1.
+DT   02-DEC-2020, entry version 79.
+DE   RecName: Full=ATP synthase subunit b {ECO:0000255|HAMAP-Rule:MF_01398};
+DE   AltName: Full=ATP synthase F(0) sector subunit b {ECO:0000255|HAMAP-Rule:MF_01398};
+DE   AltName: Full=ATPase subunit I {ECO:0000255|HAMAP-Rule:MF_01398};
+DE   AltName: Full=F-type ATPase subunit b {ECO:0000255|HAMAP-Rule:MF_01398};
+DE            Short=F-ATPase subunit b {ECO:0000255|HAMAP-Rule:MF_01398};
+GN   Name=atpF {ECO:0000255|HAMAP-Rule:MF_01398}; OrderedLocusNames=Acel_0649;
+OS   Acidothermus cellulolyticus (strain ATCC 43068 / 11B).
+OC   Bacteria; Actinobacteria; Acidothermales; Acidothermaceae; Acidothermus.
+OX   NCBI_TaxID=351607;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43068 / 11B;
+RX   PubMed=19270083; DOI=10.1101/gr.084848.108;
+RA   Barabote R.D., Xie G., Leu D.H., Normand P., Necsulea A., Daubin V.,
+RA   Medigue C., Adney W.S., Xu X.C., Lapidus A., Parales R.E., Detter C.,
+RA   Pujic P., Bruce D., Lavire C., Challacombe J.F., Brettin T.S., Berry A.M.;
+RT   "Complete genome of the cellulolytic thermophile Acidothermus
+RT   cellulolyticus 11B provides insights into its ecophysiological and
+RT   evolutionary adaptations.";
+RL   Genome Res. 19:1033-1043(2009).
+CC   -!- FUNCTION: F(1)F(0) ATP synthase produces ATP from ADP in the presence
+CC       of a proton or sodium gradient. F-type ATPases consist of two
+CC       structural domains, F(1) containing the extramembraneous catalytic core
+CC       and F(0) containing the membrane proton channel, linked together by a
+CC       central stalk and a peripheral stalk. During catalysis, ATP synthesis
+CC       in the catalytic domain of F(1) is coupled via a rotary mechanism of
+CC       the central stalk subunits to proton translocation. {ECO:0000255|HAMAP-
+CC       Rule:MF_01398}.
+CC   -!- FUNCTION: Component of the F(0) channel, it forms part of the
+CC       peripheral stalk, linking F(1) to F(0). {ECO:0000255|HAMAP-
+CC       Rule:MF_01398}.
+CC   -!- SUBUNIT: F-type ATPases have 2 components, F(1) - the catalytic core
+CC       - and F(0) - the membrane proton channel. F(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). F(0) has three main
+CC       subunits: a(1), b(2) and c(10-14). The alpha and beta chains form an
+CC       alternating ring which encloses part of the gamma chain. F(1) is
+CC       attached to F(0) by a central stalk formed by the gamma and epsilon
+CC       chains, while a peripheral stalk is formed by the delta and b chains.
+CC       {ECO:0000255|HAMAP-Rule:MF_01398}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01398};
+CC       Single-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01398}.
+CC   -!- SIMILARITY: Belongs to the ATPase B chain family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01398}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000481; ABK52422.1; -; Genomic_DNA.
+DR   RefSeq; WP_011719485.1; NC_008578.1.
+DR   SMR; A0LSL2; -.
+DR   STRING; 351607.Acel_0649; -.
+DR   EnsemblBacteria; ABK52422; ABK52422; Acel_0649.
+DR   KEGG; ace:Acel_0649; -.
+DR   eggNOG; COG0711; Bacteria.
+DR   HOGENOM; CLU_079215_5_2_11; -.
+DR   OMA; KFAWKPI; -.
+DR   OrthoDB; 1999641at2; -.
+DR   BioCyc; ACEL351607:G1G7K-661-MONOMER; -.
+DR   Proteomes; UP000008221; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045263; C:proton-transporting ATP synthase complex, coupling factor F(o); IEA:UniProtKB-KW.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01398; ATP_synth_b_bprime; 1.
+DR   InterPro; IPR028987; ATP_synth_B-like_membr_sf.
+DR   InterPro; IPR002146; ATP_synth_b/b'su_bac/chlpt.
+DR   InterPro; IPR005864; ATP_synth_F0_bsu_bac.
+DR   Pfam; PF00430; ATP-synt_B; 1.
+DR   SUPFAM; SSF81573; SSF81573; 1.
+DR   TIGRFAMs; TIGR01144; ATP_synt_b; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; Cell membrane; CF(0); Hydrogen ion transport; Ion transport;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..191
+FT                   /note="ATP synthase subunit b"
+FT                   /id="PRO_0000368285"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01398"
+SQ   SEQUENCE   191 AA;  21644 MW;  A416920B2B97B545 CRC64;
+     MPPRTLADNF LVPGPTAIAE LIVFLLILFI FGKYIVPFVN QKLAERQELI RSQFEEAKRA
+     RDEAEAAAAE YRAQLQEIRA EATRVRERAH EEGQQIIAEM KEQARREADR IVRAAEEQIQ
+     AERARAVAAV RAEVGSLAVE LASRIVGESL ADVERQHRIV ERFLAELEER AQRQPAASDV
+     VGGQQREEVH R
+//

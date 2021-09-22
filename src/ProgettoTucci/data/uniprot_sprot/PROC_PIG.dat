@@ -1,0 +1,262 @@
+ID   PROC_PIG                Reviewed;         459 AA.
+AC   Q9GLP2;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   02-DEC-2020, entry version 133.
+DE   RecName: Full=Vitamin K-dependent protein C;
+DE            EC=3.4.21.69;
+DE   AltName: Full=Anticoagulant protein C;
+DE   AltName: Full=Autoprothrombin IIA;
+DE   AltName: Full=Blood coagulation factor XIV;
+DE   Contains:
+DE     RecName: Full=Vitamin K-dependent protein C light chain;
+DE   Contains:
+DE     RecName: Full=Vitamin K-dependent protein C heavy chain;
+DE   Contains:
+DE     RecName: Full=Activation peptide;
+DE   Flags: Precursor;
+GN   Name=PROC;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Liver;
+RX   PubMed=11229814; DOI=10.1007/pl00000775;
+RA   Grimm D.R., Colter M.B., Braunschweig M., Alexander L.J., Neame P.J.,
+RA   Kim H.K.W.;
+RT   "Porcine factor V: cDNA cloning, gene mapping, three-dimensional protein
+RT   modeling of membrane binding sites and comparative anatomy of domains.";
+RL   Cell. Mol. Life Sci. 58:148-159(2001).
+CC   -!- FUNCTION: Protein C is a vitamin K-dependent serine protease that
+CC       regulates blood coagulation by inactivating factors Va and VIIIa in the
+CC       presence of calcium ions and phospholipids. Exerts a protective effect
+CC       on the endothelial cell barrier function.
+CC       {ECO:0000250|UniProtKB:P04070}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Degradation of blood coagulation factors Va and VIIIa.;
+CC         EC=3.4.21.69;
+CC   -!- SUBUNIT: Synthesized as a single chain precursor, which is cleaved into
+CC       a light chain and a heavy chain held together by a disulfide bond. The
+CC       enzyme is then activated by thrombin, which cleaves a tetradecapeptide
+CC       from the amino end of the heavy chain; this reaction, which occurs at
+CC       the surface of endothelial cells, is strongly promoted by
+CC       thrombomodulin.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P04070}. Golgi
+CC       apparatus {ECO:0000250|UniProtKB:P04070}. Endoplasmic reticulum
+CC       {ECO:0000250|UniProtKB:P04070}.
+CC   -!- TISSUE SPECIFICITY: Plasma; synthesized in the liver.
+CC   -!- PTM: The vitamin K-dependent, enzymatic carboxylation of some Glu
+CC       residues allows the modified protein to bind calcium.
+CC   -!- PTM: The iron and 2-oxoglutarate dependent 3-hydroxylation of aspartate
+CC       and asparagine is (R) stereospecific within EGF domains. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Calcium also binds, with stronger affinity to another
+CC       site, beyond the GLA domain. This GLA-independent binding site is
+CC       necessary for the recognition of the thrombin-thrombomodulin complex.
+CC   -!- SIMILARITY: Belongs to the peptidase S1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF191307; AAG28380.1; -; mRNA.
+DR   RefSeq; NP_999083.1; NM_213918.1.
+DR   SMR; Q9GLP2; -.
+DR   STRING; 9823.ENSSSCP00000026729; -.
+DR   MEROPS; S01.218; -.
+DR   PaxDb; Q9GLP2; -.
+DR   PeptideAtlas; Q9GLP2; -.
+DR   GeneID; 396954; -.
+DR   KEGG; ssc:396954; -.
+DR   CTD; 5624; -.
+DR   eggNOG; ENOG502QQ3W; Eukaryota.
+DR   InParanoid; Q9GLP2; -.
+DR   OrthoDB; 1314811at2759; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISS:UniProtKB.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005794; C:Golgi apparatus; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:0007596; P:blood coagulation; IEA:UniProtKB-KW.
+DR   GO; GO:0043066; P:negative regulation of apoptotic process; ISS:UniProtKB.
+DR   GO; GO:0050819; P:negative regulation of coagulation; ISS:UniProtKB.
+DR   GO; GO:0050728; P:negative regulation of inflammatory response; ISS:UniProtKB.
+DR   GO; GO:1903142; P:positive regulation of establishment of endothelial barrier; ISS:UniProtKB.
+DR   CDD; cd00190; Tryp_SPc; 1.
+DR   Gene3D; 2.40.10.10; -; 2.
+DR   Gene3D; 4.10.740.10; -; 1.
+DR   InterPro; IPR017857; Coagulation_fac-like_Gla_dom.
+DR   InterPro; IPR001881; EGF-like_Ca-bd_dom.
+DR   InterPro; IPR000742; EGF-like_dom.
+DR   InterPro; IPR000152; EGF-type_Asp/Asn_hydroxyl_site.
+DR   InterPro; IPR018097; EGF_Ca-bd_CS.
+DR   InterPro; IPR035972; GLA-like_dom_SF.
+DR   InterPro; IPR000294; GLA_domain.
+DR   InterPro; IPR012224; Pept_S1A_FX.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR001314; Peptidase_S1A.
+DR   InterPro; IPR001254; Trypsin_dom.
+DR   InterPro; IPR018114; TRYPSIN_HIS.
+DR   InterPro; IPR033116; TRYPSIN_SER.
+DR   Pfam; PF00008; EGF; 1.
+DR   Pfam; PF00594; Gla; 1.
+DR   Pfam; PF00089; Trypsin; 1.
+DR   PIRSF; PIRSF001143; Factor_X; 1.
+DR   PRINTS; PR00722; CHYMOTRYPSIN.
+DR   PRINTS; PR00001; GLABLOOD.
+DR   SMART; SM00181; EGF; 2.
+DR   SMART; SM00179; EGF_CA; 2.
+DR   SMART; SM00069; GLA; 1.
+DR   SMART; SM00020; Tryp_SPc; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   SUPFAM; SSF57630; SSF57630; 1.
+DR   PROSITE; PS00010; ASX_HYDROXYL; 1.
+DR   PROSITE; PS00022; EGF_1; 1.
+DR   PROSITE; PS01186; EGF_2; 2.
+DR   PROSITE; PS50026; EGF_3; 1.
+DR   PROSITE; PS01187; EGF_CA; 1.
+DR   PROSITE; PS00011; GLA_1; 1.
+DR   PROSITE; PS50998; GLA_2; 1.
+DR   PROSITE; PS50240; TRYPSIN_DOM; 1.
+DR   PROSITE; PS00134; TRYPSIN_HIS; 1.
+DR   PROSITE; PS00135; TRYPSIN_SER; 1.
+PE   2: Evidence at transcript level;
+KW   Blood coagulation; Calcium; Cleavage on pair of basic residues;
+KW   Disulfide bond; EGF-like domain; Endoplasmic reticulum;
+KW   Gamma-carboxyglutamic acid; Glycoprotein; Golgi apparatus; Hemostasis;
+KW   Hydrolase; Hydroxylation; Protease; Reference proteome; Repeat; Secreted;
+KW   Serine protease; Signal; Zymogen.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000250"
+FT   PROPEP          19..41
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000028117"
+FT   CHAIN           42..459
+FT                   /note="Vitamin K-dependent protein C"
+FT                   /id="PRO_0000028118"
+FT   CHAIN           42..196
+FT                   /note="Vitamin K-dependent protein C light chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000028119"
+FT   CHAIN           199..459
+FT                   /note="Vitamin K-dependent protein C heavy chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000028120"
+FT   PEPTIDE         199..213
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000028121"
+FT   DOMAIN          42..87
+FT                   /note="Gla"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   DOMAIN          96..131
+FT                   /note="EGF-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          135..175
+FT                   /note="EGF-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076"
+FT   DOMAIN          214..448
+FT                   /note="Peptidase S1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00274"
+FT   ACT_SITE        255
+FT                   /note="Charge relay system"
+FT   ACT_SITE        301
+FT                   /note="Charge relay system"
+FT   ACT_SITE        400
+FT                   /note="Charge relay system"
+FT   SITE            213..214
+FT                   /note="Cleavage; by thrombin"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         47
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         48
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         55
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         57
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         60
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         61
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         66
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         67
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         70
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         76
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00745,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00463"
+FT   MOD_RES         112
+FT                   /note="(3R)-3-hydroxyaspartate"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        138
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        292
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        353
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        58..63
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        91..110
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        100..105
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        104..119
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        121..130
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        139..150
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        146..159
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        161..174
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        182..321
+FT                   /note="Interchain (between light and heavy chains)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00076,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00274, ECO:0000255|PROSITE-
+FT                   ProRule:PRU00463"
+FT   DISULFID        240..256
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        371..385
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        396..424
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   459 AA;  51867 MW;  8541AAC14CC16D09 CRC64;
+     MWQLASLLLL LIIWAVSSTP VPPDSVFSSS QRAHQMLRSK RANSFLEELR PSSLERECKE
+     ETCDFEEARE IFQNTENTMA FWSKYHDGDQ CAVSPPEHLC DSPCCGRGTC IDGLGGFRCD
+     CAQGWEGRFC LHEVRFSNCS TENGGCAHYC LEEEGGRRCA CAPGYRLGDD HLQCEPKVRS
+     PCGRLGNRME KKRKNLKRDT DQVDKKEDQI DPRLVNGKQS PWGESPWQVI LLDSKKKLAC
+     GAVLIHVSWV LTAAHCLDDY KKLTVRLGEY DLRRREKWEV DLDIKEFLVH PNYTRSTSDN
+     DIALLRLAEP ATFSQTIVPI CLPDSGLSER ELTRVGQETV VTGWGYRSEA KTNRSFILNF
+     IKVPVAPHNE CVQAMHNKIS ENMLCAGILG DSRDACEGDS GGPMVASFRG TWFLVGLVSW
+     GEGCGRLHNY GVYTKVSRYL DWIHGHIRME EAFHKNQVP
+//

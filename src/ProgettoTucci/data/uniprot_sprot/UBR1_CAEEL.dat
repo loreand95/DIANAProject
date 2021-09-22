@@ -1,0 +1,260 @@
+ID   UBR1_CAEEL              Reviewed;        2058 AA.
+AC   P91133;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 2.
+DT   07-APR-2021, entry version 137.
+DE   RecName: Full=E3 ubiquitin-protein ligase ubr-1;
+DE            EC=2.3.2.27;
+DE   AltName: Full=N-recognin-1;
+DE   AltName: Full=RING-type E3 ubiquitin transferase ubr-1;
+DE   AltName: Full=Ubiquitin-protein ligase E3-alpha;
+GN   Name=ubr-1 {ECO:0000312|WormBase:C32E8.11};
+GN   ORFNames=C32E8.11 {ECO:0000312|WormBase:C32E8.11};
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [2]
+RP   INTERACTION WITH UBC-1.
+RX   PubMed=14732404; DOI=10.1016/j.ydbio.2003.09.037;
+RA   Crowe E., Candido E.P.M.;
+RT   "Characterization of C. elegans RING finger protein 1, a binding partner of
+RT   ubiquitin-conjugating enzyme 1.";
+RL   Dev. Biol. 265:446-459(2004).
+RN   [3]
+RP   FUNCTION, IDENTIFICATION IN COMPLEX WITH CED-3 AND ATE-1, DISRUPTION
+RP   PHENOTYPE, AND MUTAGENESIS OF 136-MET--GLU-163.
+RX   PubMed=28602583; DOI=10.1016/j.devcel.2017.05.013;
+RA   Weaver B.P., Weaver Y.M., Mitani S., Han M.;
+RT   "Coupled Caspase and N-End Rule Ligase Activities Allow Recognition and
+RT   Degradation of Pluripotency Factor LIN-28 during Non-Apoptotic
+RT   Development.";
+RL   Dev. Cell 41:665-673(2017).
+RN   [4]
+RP   FUNCTION, TISSUE SPECIFICITY, AND MUTAGENESIS OF 18-ARG--TRP-25;
+RP   821-GLU--PHE-2058 AND 1864-GLN--PHE-2058.
+RX   PubMed=29649217; DOI=10.1371/journal.pgen.1007303;
+RA   Chitturi J., Hung W., Rahman A.M.A., Wu M., Lim M.A., Calarco J., Baran R.,
+RA   Huang X., Dennis J.W., Zhen M.;
+RT   "The UBR-1 ubiquitin ligase regulates glutamate metabolism to generate
+RT   coordinated motor pattern in Caenorhabditis elegans.";
+RL   PLoS Genet. 14:E1007303-E1007303(2018).
+CC   -!- FUNCTION: E3 ubiquitin-protein ligase which is a component of the N-end
+CC       rule pathway (By similarity). Recognizes and binds to proteins bearing
+CC       specific N-terminal residues that are destabilizing according to the N-
+CC       end rule, leading to their ubiquitination and subsequent degradation
+CC       (By similarity). In complex with ced-3, required for the ced-3-mediated
+CC       cleavage and subsequent degradation of the heterochronic protein lin-28
+CC       to regulate seam cell fate patterning during larval development
+CC       (PubMed:28602583). Negatively regulates glutamate metabolism through
+CC       the aspartate aminotransferase got-1.2 (PubMed:29649217). Modulation of
+CC       glutamate levels most likely controls locomotory behavior, in
+CC       particular backwards locomotion or 'reversals' (PubMed:29649217).
+CC       {ECO:0000250|UniProtKB:Q8IWV7, ECO:0000269|PubMed:28602583,
+CC       ECO:0000269|PubMed:29649217}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine +
+CC         [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-
+CC         cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.;
+CC         EC=2.3.2.27;
+CC   -!- PATHWAY: Protein modification; protein ubiquitination.
+CC   -!- SUBUNIT: Interacts with ubc-1 (Probable). Component of a complex
+CC       containing at least ced-3, ubr-1 and possibly ate-1 (PubMed:28602583).
+CC       Within complex interacts with ced-3 (via the p17 subunit); this
+CC       interaction is required for the ced-3-mediated cleavage and subsequent
+CC       degradation of the heterochronic protein lin-28 (PubMed:28602583).
+CC       {ECO:0000269|PubMed:28602583, ECO:0000305|PubMed:14732404}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in pharyngeal muscles, body wall muscles
+CC       and a subset of neurons throughout postembryonic development
+CC       (PubMed:29649217). Prominently expressed in premotor interneurons, but
+CC       not expressed in ventral cord motor neurons (PubMed:29649217). Weakly
+CC       expressed in hypodermal seam cells (PubMed:29649217).
+CC       {ECO:0000269|PubMed:29649217}.
+CC   -!- DOMAIN: The RING-H2 zinc finger is an atypical RING finger with a His
+CC       ligand in place of the fourth Cys of the classical motif.
+CC   -!- DISRUPTION PHENOTYPE: RNAi-mediated knockdown enhances the excessive
+CC       seam cell proliferation phenotype of the ain-1 ku322 mutant.
+CC       {ECO:0000269|PubMed:28602583}.
+CC   -!- SIMILARITY: Belongs to the UBR1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX284601; CCD66417.1; -; Genomic_DNA.
+DR   PIR; T25604; T25604.
+DR   RefSeq; NP_491231.2; NM_058830.4.
+DR   SMR; P91133; -.
+DR   BioGRID; 37427; 8.
+DR   IntAct; P91133; 1.
+DR   STRING; 6239.C32E8.11; -.
+DR   EPD; P91133; -.
+DR   PaxDb; P91133; -.
+DR   PeptideAtlas; P91133; -.
+DR   PRIDE; P91133; -.
+DR   EnsemblMetazoa; C32E8.11.1; C32E8.11.1; WBGene00016326.
+DR   GeneID; 171953; -.
+DR   KEGG; cel:CELE_C32E8.11; -.
+DR   UCSC; C32E8.11; c. elegans.
+DR   CTD; 171953; -.
+DR   WormBase; C32E8.11; CE40441; WBGene00016326; ubr-1.
+DR   eggNOG; KOG1140; Eukaryota.
+DR   GeneTree; ENSGT00950000183075; -.
+DR   HOGENOM; CLU_001801_2_0_1; -.
+DR   InParanoid; P91133; -.
+DR   OMA; WESEWET; -.
+DR   OrthoDB; 81415at2759; -.
+DR   PhylomeDB; P91133; -.
+DR   Reactome; R-CEL-983168; Antigen processing: Ubiquitination & Proteasome degradation.
+DR   UniPathway; UPA00143; -.
+DR   PRO; PR:P91133; -.
+DR   Proteomes; UP000001940; Chromosome I.
+DR   Bgee; WBGene00016326; Expressed in multi-cellular organism and 5 other tissues.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0000151; C:ubiquitin ligase complex; IBA:GO_Central.
+DR   GO; GO:0031624; F:ubiquitin conjugating enzyme binding; IPI:WormBase.
+DR   GO; GO:0061630; F:ubiquitin protein ligase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:2000212; P:negative regulation of glutamate metabolic process; IMP:UniProtKB.
+DR   GO; GO:0016567; P:protein ubiquitination; IBA:GO_Central.
+DR   GO; GO:0043058; P:regulation of backward locomotion; IMP:UniProtKB.
+DR   GO; GO:0071596; P:ubiquitin-dependent protein catabolic process via the N-end rule pathway; IBA:GO_Central.
+DR   Gene3D; 3.30.1390.10; -; 1.
+DR   InterPro; IPR003769; ClpS_core.
+DR   InterPro; IPR044046; E3_ligase_UBR-like_C.
+DR   InterPro; IPR014719; Ribosomal_L7/12_C/ClpS-like.
+DR   InterPro; IPR039164; UBR1-like.
+DR   InterPro; IPR003126; Znf_UBR.
+DR   PANTHER; PTHR21497; PTHR21497; 1.
+DR   Pfam; PF02617; ClpS; 1.
+DR   Pfam; PF18995; PRT6_C; 1.
+DR   Pfam; PF02207; zf-UBR; 1.
+DR   SMART; SM00396; ZnF_UBR1; 1.
+DR   SUPFAM; SSF54736; SSF54736; 1.
+DR   PROSITE; PS51157; ZF_UBR; 1.
+PE   1: Evidence at protein level;
+KW   Membrane; Metal-binding; Reference proteome; Transferase; Transmembrane;
+KW   Transmembrane helix; Ubl conjugation pathway; Zinc; Zinc-finger.
+FT   CHAIN           1..2058
+FT                   /note="E3 ubiquitin-protein ligase ubr-1"
+FT                   /id="PRO_0000056138"
+FT   TRANSMEM        1695..1715
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   ZN_FING         93..164
+FT                   /note="UBR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00508"
+FT   ZN_FING         1217..1335
+FT                   /note="RING-type; atypical"
+FT   MUTAGEN         18..25
+FT                   /note="Missing: In hp820; animals are viable, but display
+FT                   defective locomotion that progressively develops from the
+FT                   late larval stage into adulthood. Animals are capable of
+FT                   backwards locomotion or 'reversals' movements, but exhibit
+FT                   limited body flexing, with decreased body curvature during
+FT                   reversals, increased duration of reversals and a reduced
+FT                   frequency of reversal initiation compared to wild-type.
+FT                   Reduced bending is due to a defective activation pattern of
+FT                   A class motor neurons, whereby the posterior clusters of A
+FT                   class motor neurons DA7, VA10 and VA11, that innervate body
+FT                   wall muscles to execute reversals, are activated at the
+FT                   same time, which is in contrast to wild-type. Animals also
+FT                   display morphological and synaptic activity defects in AVA
+FT                   and AVE interneurons. Increases glutamate levels which is
+FT                   likely through increased got-1.2 activity. Defective
+FT                   reversals movement phenotype and increased glutamate levels
+FT                   are rescued in the got-1.2 hp731 mutant."
+FT                   /evidence="ECO:0000269|PubMed:29649217"
+FT   MUTAGEN         34..2058
+FT                   /note="Missing: In hp821; animals are viable, but display
+FT                   defective locomotion that progressively develops from the
+FT                   late larval stage into adulthood. Animals are capable of
+FT                   backwards locomotion or 'reversals' movements, but exhibit
+FT                   limited body flexing, with decreased body curvature during
+FT                   reversals, increased duration of reversals and a reduced
+FT                   frequency of reversal initiation compared to wild-type.
+FT                   Reduced bending is due to a defective activation pattern of
+FT                   A class motor neurons, whereby the posterior clusters of A
+FT                   class motor neurons DA7, VA10 and VA11, that innervate body
+FT                   wall muscles to execute reversals, are activated at the
+FT                   same time, which is in contrast to wild-type. Animals also
+FT                   display morphological and synaptic activity defects in AVA
+FT                   and AVE interneurons. Increases glutamate levels which is
+FT                   likely through increased got-1.2 activity. Defective
+FT                   reversals movement phenotype and increased glutamate levels
+FT                   are rescued in the got-1.2 hp731 mutant."
+FT                   /evidence="ECO:0000269|PubMed:29649217"
+FT   MUTAGEN         136..163
+FT                   /note="Missing: In tm5996; increases lin-28 protein levels
+FT                   30 hours post feeding. Enhances the excessive seam cell
+FT                   proliferation phenotype and enhances the delay in temporal
+FT                   cell fate patterning of seam cells during the progression
+FT                   of larval development of the ain-1 ku322 mutant."
+FT                   /evidence="ECO:0000269|PubMed:28602583"
+FT   MUTAGEN         1864..2058
+FT                   /note="Missing: In hp684; animals are viable, but display
+FT                   defective locomotion that progressively develops from the
+FT                   late larval stage into adulthood. Animals are capable of
+FT                   backwards locomotion or 'reversals' movements, but exhibit
+FT                   limited body flexing, with decreased body curvature during
+FT                   reversals, increased duration of reversals and a reduced
+FT                   frequency of reversal initiation compared to wild-type.
+FT                   Reduced bending is due to a defective activation pattern of
+FT                   A class motor neurons, whereby the posterior clusters of A
+FT                   class motor neurons DA7, VA10 and VA11, that innervate body
+FT                   wall muscles to execute reversals, are activated at the
+FT                   same time, which is in contrast to wild-type. Animals also
+FT                   display morphological and synaptic activity defects in AVA
+FT                   and AVE interneurons. Increases glutamate levels which is
+FT                   likely through increased got-1.2 activity. Defective
+FT                   reversals movement phenotype and increased glutamate levels
+FT                   are rescued in the got-1.2 hp731 mutant."
+FT                   /evidence="ECO:0000269|PubMed:29649217"
+SQ   SEQUENCE   2058 AA;  232816 MW;  DBAE0014CE89F7AC CRC64;
+     MIVDLIQSAR QGEWAQVRQL LLKHWLVQVP EVFEVNSDLP WDNTAANERI LGSQGEILLA
+     PLVSAFVLDV RNTKSTLEAM NGIAGVDPAR RGQICGHVFK NGELTYTCLD CATDGTCVMC
+     LQCFEVSIHK SHKYKMHSSS GSGYCDCGDA DAWTEGYACA NHEKKDDEEA AVLAPELKKR
+     CEQLVEIILQ FSLSMITHKD DLKLPEIFEK MKPEVTNEAQ QYLTVLYNDE THTYESVIKV
+     LELYIHCTKD QAMLVATIVD REGRSAVKLG SKADCTKAKD DVQRKTARDP TSIRRSSNHN
+     LPLSVKVMDT TLFALQNFSI SLLTWLNTQM DVFPPLREIV GEILLSSKFA LKKNYTRKMK
+     SEDQRLVAGI IRNVMVLPDD EEEELFALDG RMDVDEMDDD DIGGEALQME IDADDEEEIT
+     AALAGVSEHQ ESPGPSRDSS TFTMLENILL QDTQMWKAGR SILHQMLMRT VFMIYDQKVR
+     FAKAFMLHYN EIYEDFIKDD HEMDVSVVGL SVQFMTVPSL ARKLVAEDQA FSVISKAIRD
+     QTDKFVKYYN DGKIARFDFT SRSFPPELRR SLHITRDMAY ILNAVPSESD WNRELIDGFV
+     QGFADFLLFL QHLQGMDEVK RQAVEHQVWE SEWETAFNIL LRLKDAISMI IGWAETNEEV
+     HNRLMIMCLE LMNRMPPVYT KSEEDTYELT VTINGESCRI SHFDVLKSST SVHQPVVRII
+     AGLFSASNYT GFLLNRSNNS HTSLNQERIK ELINCKDETN LYELSLRVLV LCAQSNATLW
+     RRNGFSLINQ IHNYFSPLCR NEMFDRDVLM MQVGAALTPS TKFIFHLLHR FRLFKWATSE
+     FEQDKANEKP AKPESEDLSK TLVMIAEEFI QCLILILCER YTYGVGKTRP MDQMKREVIH
+     ILCTGSHTFS HIQQKMSHDI NSKRLSLHEA VNLVADFRKP LATTAGQFHC KESSLPTYSP
+     FFMHYSKSDQ SAAEQSQARV RAKMEKSVRA CAPPILPDFQ TFFERIPEIL TTNVLIHVVR
+     LIIDRTARRS RFSSDRLFHK TLYLIGIALN EEEKNPSFGF TQRAEESIGL LSLLEGLVGK
+     PESSICPILL EVTVEKYRKL IKARAGVPEA APAPENKPAQ SEEEIKAKRA ARAAEMRQKA
+     MAKMSNMQSK FMKKIEDEEK KDESQTPSEK SETVVKKDDY DNKHFFDEDV VKQVGHDFPV
+     CIGANKWHAE LVKPRTLTCI LCQEDEIIAP QQGKPMVCAA FIQQSQLFTH KNKNGELMTA
+     SSGTISTRDL LTAPATLQYG VDVSTCSHSM HYECYRSLAE ANRSRESLRA RQVGQHSHKM
+     VDTENGEYQC PLCKRLSNAA IPVLPAYQLT NQNGFSTVSG AGKENFDTWV ARVKRNLEMP
+     LSSESVSKKG HSRKRSHSER SLLDLEKLSK DPDTANTSAG VLQFGAMEMS SATHMPASAE
+     SQMLMTTSPS QDDVEFYNEL AAMFVDQDVN NTTSPAATPE TIPAIGSSSR IPESQESGKK
+     PLSSQIQHVL YSLIRPFPAL INSNRICSSS FEGFEEPIKD LGKNMMKFRK RGNELKTNFI
+     EKHLKGYVIS TVTWQSTAHV ARAISSYLHY DKKPLFGALN TRQRDCLSAM ARLCASLSHN
+     MQFLLHAVSD MLRVFLCEPP RPKLAQTPGS PLLSAPSTSS FTPAPAQIPH SGTNFAFLVQ
+     LFNPAGPRKN VNLNILQIDI LSLAISLMMT IGWTWNNGTQ SMNSSSTHQK ARLLTPDGSV
+     DEAYVLRLSL LAHYFQIIAT HSEADGNDVN MEEEQESQME VDPVAAQTIR KLYALCHPFD
+     GPLRRVDILW RKMEEGAQSL LRPIALLYHF ITLVDPPEAL KDPSINSSEP LFRYLGLPHK
+     IEEQISGSML EKLFTMWSSS IPSDQALRQD LVVQPVRPNL LVELPEKYSQ LINQVATFKC
+     PTIPIEESTS NVPTLCLVCG TILCSQAYCC QKIINKQSYG ACRYHMSQCS GSVGMFLRVR
+     DCSLVLMTTR KRGCFRPAPY VDEFGEVDQG FRRGNPLHLN PELYQKLKSL WLQQGITEEV
+     VNYNEIDFRN VQYDWGHF
+//

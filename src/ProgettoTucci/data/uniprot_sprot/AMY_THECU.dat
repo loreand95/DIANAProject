@@ -1,0 +1,121 @@
+ID   AMY_THECU               Reviewed;         605 AA.
+AC   P29750;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   11-DEC-2019, entry version 102.
+DE   RecName: Full=Alpha-amylase;
+DE            EC=3.2.1.1;
+DE   AltName: Full=1,4-alpha-D-glucan glucanohydrolase;
+DE   Flags: Precursor;
+GN   Name=tam;
+OS   Thermomonospora curvata.
+OC   Bacteria; Actinobacteria; Streptosporangiales; Thermomonosporaceae;
+OC   Thermomonospora.
+OX   NCBI_TaxID=2020;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CCM 3352;
+RX   PubMed=1551601; DOI=10.1016/0378-1119(92)90305-9;
+RA   Petricek M., Tichy P., Kuncova M.;
+RT   "Characterization of the alpha-amylase-encoding gene from Thermomonospora
+RT   curvata.";
+RL   Gene 112:77-83(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1756733; DOI=10.1002/j.1460-2075.1991.tb05004.x;
+RA   Marcey D., Watkins W.S., Hazelrigg T.;
+RT   "The temporal and spatial distribution pattern of maternal exuperantia
+RT   protein: evidence for a role in establishment but not maintenance of bicoid
+RT   mRNA localization.";
+RL   EMBO J. 10:4259-4266(1991).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in
+CC         polysaccharides containing three or more (1->4)-alpha-linked D-
+CC         glucose units.; EC=3.2.1.1;
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108; Evidence={ECO:0000250};
+CC       Note=Binds 1 Ca(2+) ion per subunit. {ECO:0000250};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Optimum temperature is 65 degrees Celsius.;
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- INDUCTION: By maltose or maltodextrins, even in the presence of
+CC       glucose.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 13 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59159; CAA41881.1; -; Genomic_DNA.
+DR   PIR; JH0638; JH0638.
+DR   SMR; P29750; -.
+DR   CAZy; CBM20; Carbohydrate-Binding Module Family 20.
+DR   CAZy; GH13; Glycoside Hydrolase Family 13.
+DR   GO; GO:0004556; F:alpha-amylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0103025; F:alpha-amylase activity (releasing maltohexaose); IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:2001070; F:starch binding; IEA:InterPro.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.10; -; 1.
+DR   Gene3D; 2.60.40.1180; -; 1.
+DR   InterPro; IPR006048; A-amylase/branching_C.
+DR   InterPro; IPR031319; A-amylase_C.
+DR   InterPro; IPR006046; Alpha_amylase.
+DR   InterPro; IPR013784; Carb-bd-like_fold.
+DR   InterPro; IPR002044; CBM_fam20.
+DR   InterPro; IPR006047; Glyco_hydro_13_cat_dom.
+DR   InterPro; IPR013780; Glyco_hydro_b.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   Pfam; PF00128; Alpha-amylase; 1.
+DR   Pfam; PF02806; Alpha-amylase_C; 1.
+DR   Pfam; PF00686; CBM_20; 1.
+DR   PRINTS; PR00110; ALPHAAMYLASE.
+DR   SMART; SM00642; Aamy; 1.
+DR   SMART; SM00632; Aamy_C; 1.
+DR   SMART; SM01065; CBM_2; 1.
+DR   SUPFAM; SSF49452; SSF49452; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS51166; CBM20; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Carbohydrate metabolism; Glycosidase; Hydrolase; Metal-binding;
+KW   Signal.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           34..605
+FT                   /note="Alpha-amylase"
+FT                   /id="PRO_0000001346"
+FT   DOMAIN          500..605
+FT                   /note="CBM20"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00594"
+FT   ACT_SITE        219
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        253
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   METAL           130
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           189
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           223
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   SITE            313
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   605 AA;  64735 MW;  80ABB8F08A69B69A CRC64;
+     MGVRRSLAAL LAALLGCATS LVALTVAASP AHAAPSGNRD VIVHLFQWRW KSIADECRTT
+     LGPHGFGAVQ VSPPQEHVVL PAEDYPWWQD YQPVSYKLDQ TRRGSRADFI DMVNTCREAG
+     VKIYVDAVIN HMTGTGSAGA GPGSAGSSYS KYDYPGIYQS QDFNDCRRDI TNWNDKWEVQ
+     HCELVGLADL KTSSPYVQDR IAAYLNELID LGVAGFRIDA AKHIPEGDLQ AILSRLKNVH
+     PAWGGGKPYI FQEVIADSTI STGSYTHLGS VTEFQYHRDI SHAFANGNIA HLTGLGSGLT
+     PSDKAVVFVV NHDTQRYEPI LTHTDRARYD LAQKFMLAHP YGTPKVMSSY TWSGDDKAGP
+     PMHSDGTTRP TDCSADRWLC EHRAVAGMVG FHNAVAGQGI GSAVTDGNGR LAFARGSAGY
+     AAFNATNTAW TRTFTTSLPD GVYCDVANGT FVDGVCDGPS YQVSGGKFTA TVPANGAVAL
+     HVEAPGSCGP DGCGTPPGGG DDCTTVTARF HATVTTWYGQ EVAVVGSIPE LGSWQPAQGV
+     RLRTDSGTYP VWSGAVDLPA GVGFEYKYVK LNRTAPWSGS RAATASPPWM TSGGGCSQNF
+     YDSWR
+//

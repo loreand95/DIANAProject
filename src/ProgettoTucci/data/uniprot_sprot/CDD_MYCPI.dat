@@ -1,0 +1,84 @@
+ID   CDD_MYCPI               Reviewed;         133 AA.
+AC   P47718;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Cytidine deaminase;
+DE            Short=CDA;
+DE            EC=3.5.4.5;
+DE   AltName: Full=Cytidine aminohydrolase;
+GN   Name=cdd;
+OS   Mycoplasma pirum.
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=2122;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BER;
+RX   PubMed=8349569; DOI=10.1128/jb.175.16.5281-5285.1993;
+RA   Tham T.N., Ferris S., Kovacic R., Montagnier L., Blanchard A.;
+RT   "Identification of Mycoplasma pirum genes involved in the salvage pathways
+RT   for nucleosides.";
+RL   J. Bacteriol. 175:5281-5285(1993).
+CC   -!- FUNCTION: This enzyme scavenges exogenous and endogenous cytidine and
+CC       2'-deoxycytidine for UMP synthesis. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine + H(+) + H2O = NH4(+) + uridine;
+CC         Xref=Rhea:RHEA:16069, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16704, ChEBI:CHEBI:17562, ChEBI:CHEBI:28938; EC=3.5.4.5;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2'-deoxycytidine + H(+) + H2O = 2'-deoxyuridine + NH4(+);
+CC         Xref=Rhea:RHEA:13433, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15698, ChEBI:CHEBI:16450, ChEBI:CHEBI:28938; EC=3.5.4.5;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L13289; AAA25433.1; -; Genomic_DNA.
+DR   PIR; D53312; D53312.
+DR   SMR; P47718; -.
+DR   GO; GO:0004126; F:cytidine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047844; F:deoxycytidine deaminase activity; IEA:RHEA.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR002125; CMP_dCMP_dom.
+DR   InterPro; IPR006262; Cyt_deam_tetra.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   Pfam; PF00383; dCMP_cyt_deam_1; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR01354; cyt_deam_tetra; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES_1; 1.
+DR   PROSITE; PS51747; CYT_DCMP_DEAMINASES_2; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Zinc.
+FT   CHAIN           1..133
+FT                   /note="Cytidine deaminase"
+FT                   /id="PRO_0000171680"
+FT   DOMAIN          2..130
+FT                   /note="CMP/dCMP-type deaminase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01083"
+FT   REGION          42..44
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        55
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   METAL           53
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           88
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           91
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   133 AA;  15018 MW;  19CB3314EEAF12C4 CRC64;
+     MKEKDIYFQK LNELISNAYV PYSNFRVSCL LLTDGGWFAG VNIENSAYSP TICAERSAVS
+     SMITSGFKQI FKVYILTDTI VKDIGTPCGV CRQVLSEFAK PETPIITYNL KGEKFFYTLE
+     QLLPFAFNKD ALK
+//

@@ -1,0 +1,114 @@
+ID   ERA_MYCBP               Reviewed;         300 AA.
+AC   A1KL54;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-APR-2021, entry version 81.
+DE   RecName: Full=GTPase Era {ECO:0000255|HAMAP-Rule:MF_00367};
+GN   Name=era {ECO:0000255|HAMAP-Rule:MF_00367}; OrderedLocusNames=BCG_2378c;
+OS   Mycobacterium bovis (strain BCG / Pasteur 1173P2).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=410289;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BCG / Pasteur 1173P2;
+RX   PubMed=17372194; DOI=10.1073/pnas.0700869104;
+RA   Brosch R., Gordon S.V., Garnier T., Eiglmeier K., Frigui W., Valenti P.,
+RA   Dos Santos S., Duthoy S., Lacroix C., Garcia-Pelayo C., Inwald J.K.,
+RA   Golby P., Garcia J.N., Hewinson R.G., Behr M.A., Quail M.A., Churcher C.,
+RA   Barrell B.G., Parkhill J., Cole S.T.;
+RT   "Genome plasticity of BCG and impact on vaccine efficacy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5596-5601(2007).
+CC   -!- FUNCTION: An essential GTPase that binds both GDP and GTP, with rapid
+CC       nucleotide exchange. Plays a role in 16S rRNA processing and 30S
+CC       ribosomal subunit biogenesis and possibly also in cell cycle regulation
+CC       and energy metabolism. {ECO:0000255|HAMAP-Rule:MF_00367}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00367}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cell membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00367}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00367}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. Era GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00367, ECO:0000255|PROSITE-ProRule:PRU01050}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM408590; CAL72366.1; -; Genomic_DNA.
+DR   RefSeq; WP_003412224.1; NC_008769.1.
+DR   SMR; A1KL54; -.
+DR   GeneID; 45426351; -.
+DR   KEGG; mbb:BCG_2378c; -.
+DR   HOGENOM; CLU_038009_0_2_11; -.
+DR   OMA; HVKVAKD; -.
+DR   BioCyc; MBOV410289:G1G1S-2564-MONOMER; -.
+DR   Proteomes; UP000001472; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070181; F:small ribosomal subunit rRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042274; P:ribosomal small subunit biogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd04163; Era; 1.
+DR   Gene3D; 3.30.300.20; -; 1.
+DR   HAMAP; MF_00367; GTPase_Era; 1.
+DR   InterPro; IPR030388; G_ERA_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR005662; GTP-bd_Era.
+DR   InterPro; IPR015946; KH_dom-like_a/b.
+DR   InterPro; IPR004044; KH_dom_type_2.
+DR   InterPro; IPR009019; KH_sf_prok-type.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF07650; KH_2; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54814; SSF54814; 1.
+DR   TIGRFAMs; TIGR00436; era; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51713; G_ERA; 1.
+DR   PROSITE; PS50823; KH_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Cytoplasm; GTP-binding; Membrane; Nucleotide-binding;
+KW   Ribosome biogenesis; RNA-binding; rRNA-binding.
+FT   CHAIN           1..300
+FT                   /note="GTPase Era"
+FT                   /id="PRO_1000079710"
+FT   DOMAIN          5..176
+FT                   /note="Era-type G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   DOMAIN          207..286
+FT                   /note="KH type-2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         13..20
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         60..64
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         125..128
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   REGION          13..20
+FT                   /note="G1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          39..43
+FT                   /note="G2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          60..63
+FT                   /note="G3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          125..128
+FT                   /note="G4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          155..157
+FT                   /note="G5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+SQ   SEQUENCE   300 AA;  32460 MW;  01A5C664C5E9D9D7 CRC64;
+     MTEFHSGFVC LVGRPNTGKS TLTNALVGAK VAITSTRPQT TRHAIRGIVH SDDFQIILVD
+     TPGLHRPRTL LGKRLNDLVR ETYAAVDVIG LCIPADEAIG PGDRWIVEQL RSTGPANTTL
+     VVIVTKIDKV PKEKVVAQLV AVSELVTNAA EIVPVSAMTG DRVDLLIDVL AAALPAGPAY
+     YPDGELTDEP EEVLMAELIR EAALQGVRDE LPHSLAVVID EVSPREGRDD LIDVHAALYV
+     ERDSQKGIVI GKGGARLREV GTAARSQIEN LLGTKVYLDL RVKVAKNWQR DPKQLGRLGF
+//

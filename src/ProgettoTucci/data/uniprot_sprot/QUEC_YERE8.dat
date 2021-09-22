@@ -1,0 +1,103 @@
+ID   QUEC_YERE8              Reviewed;         232 AA.
+AC   A1JNM3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633}; OrderedLocusNames=YE3127;
+OS   Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 /
+OS   8081).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=393305;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 13174 / 8081;
+RX   PubMed=17173484; DOI=10.1371/journal.pgen.0020206;
+RA   Thomson N.R., Howard S., Wren B.W., Holden M.T.G., Crossman L.,
+RA   Challis G.L., Churcher C., Mungall K., Brooks K., Chillingworth T.,
+RA   Feltwell T., Abdellah Z., Hauser H., Jagels K., Maddison M., Moule S.,
+RA   Sanders M., Whitehead S., Quail M.A., Dougan G., Parkhill J.,
+RA   Prentice M.B.;
+RT   "The complete genome sequence and comparative genome analysis of the high
+RT   pathogenicity Yersinia enterocolitica strain 8081.";
+RL   PLoS Genet. 2:2039-2051(2006).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + ATP + NH4(+) = 7-cyano-7-
+CC         deazaguanine + ADP + H(+) + H2O + phosphate; Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286415; CAL13162.1; -; Genomic_DNA.
+DR   RefSeq; WP_005167647.1; NC_008800.1.
+DR   RefSeq; YP_001007309.1; NC_008800.1.
+DR   SMR; A1JNM3; -.
+DR   STRING; 393305.YE3127; -.
+DR   EnsemblBacteria; CAL13162; CAL13162; YE3127.
+DR   KEGG; yen:YE3127; -.
+DR   PATRIC; fig|393305.7.peg.3329; -.
+DR   eggNOG; COG0603; Bacteria.
+DR   HOGENOM; CLU_081854_0_0_6; -.
+DR   OMA; CESCMRR; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000000642; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR42914; PTHR42914; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Zinc.
+FT   CHAIN           1..232
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_1000069805"
+FT   NP_BIND         8..18
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           189
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           198
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           201
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           204
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   232 AA;  25678 MW;  B13257E50EA33A6B CRC64;
+     MKRAVVVFSG GQDSTTCLIQ ALQQYDEVHC ITFDYGQRHR AEIDVARELA IQLGAKAHKV
+     LDVGMLNELA VSSLTRDNIP VPSYSEEGED SIPSTFVPGR NILFLTLAAI YAYQVQAQAV
+     ITGVCETDFS GYPDCRDEFV KALNHAIDLG IGRDIAFITP LMWLDKAETW ALADYYQQLD
+     RIRHDTLTCY NGIQGDGCGQ CAACHLRAKG LEFYLANKPK VILSLKQKTG LV
+//

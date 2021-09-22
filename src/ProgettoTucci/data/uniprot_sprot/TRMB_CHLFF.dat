@@ -1,0 +1,92 @@
+ID   TRMB_CHLFF              Reviewed;         224 AA.
+AC   Q255M7;
+DT   29-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2006, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000255|HAMAP-Rule:MF_01057}; OrderedLocusNames=CF0239;
+OS   Chlamydia felis (strain Fe/C-56) (Chlamydophila felis).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=264202;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fe/C-56;
+RX   PubMed=16766509; DOI=10.1093/dnares/dsi027;
+RA   Azuma Y., Hirakawa H., Yamashita A., Cai Y., Rahman M.A., Suzuki H.,
+RA   Mitaku S., Toh H., Goto S., Murakami T., Sugi K., Hayashi H., Fukushi H.,
+RA   Hattori M., Kuhara S., Shirai M.;
+RT   "Genome sequence of the cat pathogen, Chlamydophila felis.";
+RL   DNA Res. 13:15-23(2006).
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at position 46
+CC       (m7G46) in tRNA. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(46) in tRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(46) in tRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42708, Rhea:RHEA-COMP:10188, Rhea:RHEA-COMP:10189,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.33; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01057};
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. TrmB family. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006861; BAE81011.1; -; Genomic_DNA.
+DR   RefSeq; WP_011457793.1; NC_007899.1.
+DR   SMR; Q255M7; -.
+DR   STRING; 264202.CF0239; -.
+DR   KEGG; cfe:CF0239; -.
+DR   eggNOG; COG0220; Bacteria.
+DR   HOGENOM; CLU_050910_2_0_0; -.
+DR   OMA; GHALEYC; -.
+DR   OrthoDB; 1025521at2; -.
+DR   BioCyc; CFEL264202:G1G29-241-MONOMER; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000001260; Chromosome.
+DR   GO; GO:0008176; F:tRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   PANTHER; PTHR23417; PTHR23417; 1.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00091; TIGR00091; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..224
+FT                   /note="tRNA (guanine-N(7)-)-methyltransferase"
+FT                   /id="PRO_0000288135"
+FT   ACT_SITE        129
+FT                   /evidence="ECO:0000250"
+FT   BINDING         54
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         79
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         106
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         129
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         133
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+FT   BINDING         165
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01057"
+SQ   SEQUENCE   224 AA;  26838 MW;  956CA60F7DB4DA16 CRC64;
+     MKPQDLKVPF FWEERSTKIK DNVLYVPEHY FKHHQFIMPS WEEFFGNDNP ISCELCSGNG
+     DWVVAQAKET PEVNWIAVEK RFDRVRKIWS KMHNCRVTNL RIVCGDAQTF FLHYLGEAVV
+     QRIIVNFPDP WPKSRHRKHR LFQDEFLNNV VRVLTEPGIL ILATDDKNYL LQAIQIMRQY
+     LSPTMEDPYY CEVENYGNSW FETLWRSKGR EIFYTEFVKK LGYS
+//

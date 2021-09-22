@@ -1,0 +1,143 @@
+ID   MTND_PROM3              Reviewed;         185 AA.
+AC   A2CBN5;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 2.
+DT   07-APR-2021, entry version 73.
+DE   RecName: Full=Acireductone dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=DHK-MTPene dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=Acireductone dioxygenase (Fe(2+)-requiring) {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=ARD' {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=Fe-ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            EC=1.13.11.54 {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=Acireductone dioxygenase (Ni(2+)-requiring) {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=Ni-ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            EC=1.13.11.53 {ECO:0000255|HAMAP-Rule:MF_01682};
+GN   Name=mtnD {ECO:0000255|HAMAP-Rule:MF_01682}; OrderedLocusNames=P9303_21601;
+OS   Prochlorococcus marinus (strain MIT 9303).
+OC   Bacteria; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus.
+OX   NCBI_TaxID=59922;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MIT 9303;
+RX   PubMed=18159947; DOI=10.1371/journal.pgen.0030231;
+RA   Kettler G.C., Martiny A.C., Huang K., Zucker J., Coleman M.L., Rodrigue S.,
+RA   Chen F., Lapidus A., Ferriera S., Johnson J., Steglich C., Church G.M.,
+RA   Richardson P., Chisholm S.W.;
+RT   "Patterns and implications of gene gain and loss in the evolution of
+RT   Prochlorococcus.";
+RL   PLoS Genet. 3:2515-2528(2007).
+CC   -!- FUNCTION: Catalyzes 2 different reactions between oxygene and the
+CC       acireductone 1,2-dihydroxy-3-keto-5-methylthiopentene (DHK-MTPene)
+CC       depending upon the metal bound in the active site. Fe-containing
+CC       acireductone dioxygenase (Fe-ARD) produces formate and 2-keto-4-
+CC       methylthiobutyrate (KMTB), the alpha-ketoacid precursor of methionine
+CC       in the methionine recycle pathway. Ni-containing acireductone
+CC       dioxygenase (Ni-ARD) produces methylthiopropionate, carbon monoxide and
+CC       formate, and does not lie on the methionine recycle pathway.
+CC       {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydroxy-5-(methylsulfanyl)pent-1-en-3-one + O2 = 3-
+CC         (methylsulfanyl)propanoate + CO + formate + 2 H(+);
+CC         Xref=Rhea:RHEA:14161, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:17245, ChEBI:CHEBI:49016,
+CC         ChEBI:CHEBI:49252; EC=1.13.11.53; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01682};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydroxy-5-(methylsulfanyl)pent-1-en-3-one + O2 = 4-
+CC         methylsulfanyl-2-oxobutanoate + formate + 2 H(+);
+CC         Xref=Rhea:RHEA:24504, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:16723, ChEBI:CHEBI:49252;
+CC         EC=1.13.11.54; Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC       Note=Binds 1 Fe cation per monomer. {ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- COFACTOR:
+CC       Name=Ni(2+); Xref=ChEBI:CHEBI:49786;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC       Note=Binds 1 nickel ion per monomer. {ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; L-methionine from S-methyl-5-thio-alpha-D-ribose 1-phosphate:
+CC       step 5/6. {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- SIMILARITY: Belongs to the acireductone dioxygenase (ARD) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABM78895.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000554; ABM78895.1; ALT_INIT; Genomic_DNA.
+DR   SMR; A2CBN5; -.
+DR   EnsemblBacteria; ABM78895; ABM78895; P9303_21601.
+DR   KEGG; pmf:P9303_21601; -.
+DR   HOGENOM; CLU_125400_0_0_3; -.
+DR   OMA; TTHWFDM; -.
+DR   BioCyc; PMAR59922:G1G80-1887-MONOMER; -.
+DR   UniPathway; UPA00904; UER00878.
+DR   Proteomes; UP000002274; Chromosome.
+DR   GO; GO:0010308; F:acireductone dioxygenase (Ni2+-requiring) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010309; F:acireductone dioxygenase [iron(II)-requiring] activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:UniProtKB-UniRule.
+DR   CDD; cd02232; cupin_ARD; 1.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01682; Salvage_MtnD; 1.
+DR   InterPro; IPR004313; ARD.
+DR   InterPro; IPR023956; ARD_bac.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR23418; PTHR23418; 1.
+DR   Pfam; PF03079; ARD; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Dioxygenase; Iron; Metal-binding;
+KW   Methionine biosynthesis; Nickel; Oxidoreductase.
+FT   CHAIN           1..185
+FT                   /note="Acireductone dioxygenase"
+FT                   /id="PRO_0000359215"
+FT   METAL           102
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           102
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           104
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           104
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           108
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           108
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           146
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           146
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            101
+FT                   /note="May play a role in metal incorporation in vivo"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            107
+FT                   /note="May play a role in transmitting local conformational
+FT                   changes"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            110
+FT                   /note="Important to generate the dianion"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+SQ   SEQUENCE   185 AA;  20717 MW;  71660C567BC35468 CRC64;
+     MSRLSIHPEG NTNATSPAEP LLESDDPAVI KAELAKRGIE FQHWPAKVKL HQNSIESDIL
+     AAYAVEIARV QADGRYPTVD AIRITPDHPD REALRQKFLA EHTHAEDEVR FFVEGRGLFC
+     LHIGAEVLQV LCEQNDCINV PAGTRHWFDM GSKPQFCAVR FFDNPEGWIA SFTGDAIAER
+     FAKLP
+//

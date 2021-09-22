@@ -1,0 +1,111 @@
+ID   GLO2_ACTPJ              Reviewed;         235 AA.
+AC   B0BTR9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Hydroxyacylglutathione hydrolase {ECO:0000255|HAMAP-Rule:MF_01374};
+DE            EC=3.1.2.6 {ECO:0000255|HAMAP-Rule:MF_01374};
+DE   AltName: Full=Glyoxalase II {ECO:0000255|HAMAP-Rule:MF_01374};
+DE            Short=Glx II {ECO:0000255|HAMAP-Rule:MF_01374};
+GN   Name=gloB {ECO:0000255|HAMAP-Rule:MF_01374}; OrderedLocusNames=APJL_0439;
+OS   Actinobacillus pleuropneumoniae serotype 3 (strain JL03).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=434271;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JL03;
+RX   PubMed=18197260; DOI=10.1371/journal.pone.0001450;
+RA   Xu Z., Zhou Y., Li L., Zhou R., Xiao S., Wan Y., Zhang S., Wang K., Li W.,
+RA   Li L., Jin H., Kang M., Dalai B., Li T., Liu L., Cheng Y., Zhang L., Xu T.,
+RA   Zheng H., Pu S., Wang B., Gu W., Zhang X.L., Zhu G.-F., Wang S.,
+RA   Zhao G.-P., Chen H.;
+RT   "Genome biology of Actinobacillus pleuropneumoniae JL03, an isolate of
+RT   serotype 3 prevalent in China.";
+RL   PLoS ONE 3:E1450-E1450(2008).
+CC   -!- FUNCTION: Thiolesterase that catalyzes the hydrolysis of S-D-lactoyl-
+CC       glutathione to form glutathione and D-lactic acid. {ECO:0000255|HAMAP-
+CC       Rule:MF_01374}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an S-(2-hydroxyacyl)glutathione + H2O = a 2-hydroxy
+CC         carboxylate + glutathione + H(+); Xref=Rhea:RHEA:21864,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:58896, ChEBI:CHEBI:71261; EC=3.1.2.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01374};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01374};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01374};
+CC   -!- PATHWAY: Secondary metabolite metabolism; methylglyoxal degradation;
+CC       (R)-lactate from methylglyoxal: step 2/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01374}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01374}.
+CC   -!- SIMILARITY: Belongs to the metallo-beta-lactamase superfamily.
+CC       Glyoxalase II family. {ECO:0000255|HAMAP-Rule:MF_01374}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000687; ABY69024.1; -; Genomic_DNA.
+DR   RefSeq; WP_005607164.1; NC_010278.1.
+DR   SMR; B0BTR9; -.
+DR   EnsemblBacteria; ABY69024; ABY69024; APJL_0439.
+DR   KEGG; apj:APJL_0439; -.
+DR   HOGENOM; CLU_030571_4_1_6; -.
+DR   OMA; NYIWLLQ; -.
+DR   OrthoDB; 733552at2; -.
+DR   BioCyc; APLE434271:G1G8V-436-MONOMER; -.
+DR   UniPathway; UPA00619; UER00676.
+DR   Proteomes; UP000008547; Chromosome.
+DR   GO; GO:0004416; F:hydroxyacylglutathione hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019243; P:methylglyoxal catabolic process to D-lactate via S-lactoyl-glutathione; IEA:InterPro.
+DR   CDD; cd07723; hydroxyacylglutathione_hydrolase_MBL-fold; 1.
+DR   Gene3D; 3.60.15.10; -; 1.
+DR   HAMAP; MF_01374; Glyoxalase_2; 1.
+DR   InterPro; IPR035680; Clx_II_MBL.
+DR   InterPro; IPR032282; HAGH_C.
+DR   InterPro; IPR017782; Hydroxyacylglutathione_Hdrlase.
+DR   InterPro; IPR001279; Metallo-B-lactamas.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   Pfam; PF16123; HAGH_C; 1.
+DR   Pfam; PF00753; Lactamase_B; 1.
+DR   SMART; SM00849; Lactamase_B; 1.
+DR   SUPFAM; SSF56281; SSF56281; 1.
+DR   TIGRFAMs; TIGR03413; GSH_gloB; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Zinc.
+FT   CHAIN           1..235
+FT                   /note="Hydroxyacylglutathione hydrolase"
+FT                   /id="PRO_1000144749"
+FT   METAL           53
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           55
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           57
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           58
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           109
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           127
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           127
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+FT   METAL           165
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01374"
+SQ   SEQUENCE   235 AA;  26642 MW;  F7510B0068980364 CRC64;
+     MLNITPIPAL SDNYIWAIQK DNDVIIVDPS DAVPVLAFIA KNQLNLTAIL LTHNHHDHTD
+     GMPELLSRYP QLSVYGPQEV AQFANRIVQP EDHLTLFDYD VRVIESAGHT AQHVSYLFGN
+     EYLFCGDVLF SGGCGRVFTG NYQAQFDALQ RFKALPEFVE IFPAHEYTLS NLKFAEAVLA
+     PSCALFEIQE RAEILRSRNQ PTLPTTLERE LQINPFLQAV DLDQFIALRH QKDNF
+//

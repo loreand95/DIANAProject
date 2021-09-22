@@ -1,0 +1,296 @@
+ID   LPDA_MYCTU              Reviewed;         493 AA.
+AC   P9WHH7; L0TC51; O53355; Q8VJ36;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 45.
+DE   RecName: Full=NAD(P)H dehydrogenase (quinone);
+DE            EC=1.6.5.2;
+DE   AltName: Full=NAD(P)H quinone reductase;
+DE   AltName: Full=NAD(P)H: menadione oxidoreductase;
+DE   AltName: Full=NADH-menadione reductase;
+GN   Name=lpdA; Synonyms=lpdA-2; OrderedLocusNames=Rv3303c;
+OS   Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83332;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=9634230; DOI=10.1038/31159;
+RA   Cole S.T., Brosch R., Parkhill J., Garnier T., Churcher C.M., Harris D.E.,
+RA   Gordon S.V., Eiglmeier K., Gas S., Barry C.E. III, Tekaia F., Badcock K.,
+RA   Basham D., Brown D., Chillingworth T., Connor R., Davies R.M., Devlin K.,
+RA   Feltwell T., Gentles S., Hamlin N., Holroyd S., Hornsby T., Jagels K.,
+RA   Krogh A., McLean J., Moule S., Murphy L.D., Oliver S., Osborne J.,
+RA   Quail M.A., Rajandream M.A., Rogers J., Rutter S., Seeger K., Skelton S.,
+RA   Squares S., Squares R., Sulston J.E., Taylor K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Deciphering the biology of Mycobacterium tuberculosis from the complete
+RT   genome sequence.";
+RL   Nature 393:537-544(1998).
+RN   [2]
+RP   FUNCTION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=17097323; DOI=10.1016/j.micinf.2006.09.004;
+RA   Akhtar P., Srivastava S., Srivastava A., Srivastava M., Srivastava B.S.,
+RA   Srivastava R.;
+RT   "Rv3303c of Mycobacterium tuberculosis protects tubercle bacilli against
+RT   oxidative stress in vivo and contributes to virulence in mice.";
+RL   Microbes Infect. 8:2855-2862(2006).
+RN   [3]
+RP   IDENTIFICATION AS A DRUG TARGET [LARGE SCALE ANALYSIS].
+RX   PubMed=19099550; DOI=10.1186/1752-0509-2-109;
+RA   Raman K., Yeturu K., Chandra N.;
+RT   "targetTB: a target identification pipeline for Mycobacterium tuberculosis
+RT   through an interactome, reactome and genome-scale structural analysis.";
+RL   BMC Syst. Biol. 2:109-109(2008).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=21969609; DOI=10.1074/mcp.m111.011627;
+RA   Kelkar D.S., Kumar D., Kumar P., Balakrishnan L., Muthusamy B., Yadav A.K.,
+RA   Shrivastava P., Marimuthu A., Anand S., Sundaram H., Kingsbury R.,
+RA   Harsha H.C., Nair B., Prasad T.S., Chauhan D.S., Katoch K., Katoch V.M.,
+RA   Kumar P., Chaerkady R., Ramachandran S., Dash D., Pandey A.;
+RT   "Proteogenomic analysis of Mycobacterium tuberculosis by high resolution
+RT   mass spectrometry.";
+RL   Mol. Cell. Proteomics 10:M111.011627-M111.011627(2011).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.81 ANGSTROMS) IN COMPLEX WITH FAD, MASS
+RP   SPECTROMETRY, FUNCTION, SUBUNIT, SUBSTRATE SPECIFICITY, REACTION MECHANISM,
+RP   AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=15456792; DOI=10.1074/jbc.m410704200;
+RA   Argyrou A., Vetting M.W., Blanchard J.S.;
+RT   "Characterization of a new member of the flavoprotein disulfide reductase
+RT   family of enzymes from Mycobacterium tuberculosis.";
+RL   J. Biol. Chem. 279:52694-52702(2004).
+CC   -!- FUNCTION: May contribute to virulence by increasing resistance to
+CC       reactive oxygen intermediates. It can reduce 2,6-dimethyl-1,4-
+CC       benzoquinone (DMBQ), 5-hydroxy-1,4-naphthaquinone (5-HNQ) and
+CC       menadione. NADPH is the physiological reductant rather than NADH.
+CC       {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + H(+) + NADH = a quinol + NAD(+);
+CC         Xref=Rhea:RHEA:46160, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124; EC=1.6.5.2;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + H(+) + NADPH = a quinol + NADP(+);
+CC         Xref=Rhea:RHEA:46164, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:132124; EC=1.6.5.2;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC       Note=Binds 1 FAD per subunit.;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.39 uM for 5-HNQ (with NADPH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=0.44 uM for NADPH (with 5-HNQ at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=0.53 uM for NADPH (with DMBQ at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=1.6 uM for DMBQ (with NADPH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=5.4 uM for oxidized thionicotinamide adenine dinucleotide
+CC         (thio_NAD)(with NADH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=5.5 uM for 5-HNQ (with NADH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=11 uM for DMBQ (with NADH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=18 uM for oxidized thionicotinamide adenine dinucleotide
+CC         (thio_NAD)(with NADPH at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=28 uM for NADH (with 5-HNQ at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         KM=35.7 uM for menadione (at pH 7.5) {ECO:0000269|PubMed:15456792,
+CC         ECO:0000269|PubMed:17097323};
+CC         KM=36 uM for NADH (with DMBQ at pH 7.5 and at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC         Vmax=20 umol/min/mg enzyme with menadione (at pH 7.5)
+CC         {ECO:0000269|PubMed:15456792, ECO:0000269|PubMed:17097323};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:15456792}.
+CC   -!- MASS SPECTROMETRY: Mass=52543; Mass_error=3; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:15456792};
+CC   -!- MISCELLANEOUS: Catalysis proceeds by a classical ping-pong bi-bi
+CC       reaction mechanism.
+CC   -!- MISCELLANEOUS: Was identified as a high-confidence drug target.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   -!- CAUTION: Despite significant sequence similarity to lipoamide
+CC       dehydrogenases this protein cannot catalyze the reduction of lipoyl
+CC       substrates. It lacks one of two cysteine residues involved in dithiol-
+CC       disulfide interchange with lipoyl substrates and a His-Glu pair
+CC       involved in general acid catalysis. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL123456; CCP46122.1; -; Genomic_DNA.
+DR   PIR; F70841; F70841.
+DR   RefSeq; NP_217820.1; NC_000962.3.
+DR   RefSeq; WP_009936266.1; NZ_NVQJ01000003.1.
+DR   PDB; 1XDI; X-ray; 2.81 A; A/B=1-493.
+DR   PDBsum; 1XDI; -.
+DR   SMR; P9WHH7; -.
+DR   STRING; 83332.Rv3303c; -.
+DR   DrugBank; DB03147; Flavin adenine dinucleotide.
+DR   PaxDb; P9WHH7; -.
+DR   GeneID; 887659; -.
+DR   KEGG; mtu:Rv3303c; -.
+DR   TubercuList; Rv3303c; -.
+DR   eggNOG; COG1249; Bacteria.
+DR   OMA; SHCLMAV; -.
+DR   PhylomeDB; P9WHH7; -.
+DR   SABIO-RK; P9WHH7; -.
+DR   Proteomes; UP000001584; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IDA:MTBBASE.
+DR   GO; GO:0003955; F:NAD(P)H dehydrogenase (quinone) activity; IDA:MTBBASE.
+DR   GO; GO:0050136; F:NADH dehydrogenase (quinone) activity; IEA:RHEA.
+DR   GO; GO:0070401; F:NADP+ binding; IDA:MTBBASE.
+DR   GO; GO:0008753; F:NADPH dehydrogenase (quinone) activity; IEA:RHEA.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IDA:MTBBASE.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IMP:MTBBASE.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   SUPFAM; SSF55424; SSF55424; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; FAD; Flavoprotein; NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..493
+FT                   /note="NAD(P)H dehydrogenase (quinone)"
+FT                   /id="PRO_0000391461"
+FT   NP_BIND         12..13
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   NP_BIND         35..37
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   NP_BIND         42..43
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   NP_BIND         324..325
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   BINDING         52
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   BINDING         117
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   BINDING         317
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   BINDING         450
+FT                   /note="FAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000269|PubMed:15456792"
+FT   STRAND          3..8
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           12..24
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   TURN            26..28
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          29..37
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           41..45
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           48..64
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   TURN            65..71
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           83..107
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          111..119
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          122..124
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          127..134
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          140..150
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          154..156
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           160..162
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          166..171
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           172..177
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          183..189
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           192..203
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          208..211
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          213..218
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           223..235
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          239..241
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          246..251
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          253..260
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          265..273
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          277..279
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          282..284
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   TURN            286..290
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   TURN            295..297
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          303..306
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          312..314
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           317..319
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           325..339
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           349..351
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          353..356
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          358..367
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           369..373
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          379..386
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           390..394
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          401..407
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   TURN            408..410
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          412..420
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           423..436
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           440..444
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   STRAND          450..452
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+FT   HELIX           454..464
+FT                   /evidence="ECO:0007744|PDB:1XDI"
+SQ   SEQUENCE   493 AA;  51489 MW;  71C3F1483665278C CRC64;
+     MVTRIVILGG GPAGYEAALV AATSHPETTQ VTVIDCDGIG GAAVLDDCVP SKTFIASTGL
+     RTELRRAPHL GFHIDFDDAK ISLPQIHARV KTLAAAQSAD ITAQLLSMGV QVIAGRGELI
+     DSTPGLARHR IKATAADGST SEHEADVVLV ATGASPRILP SAQPDGERIL TWRQLYDLDA
+     LPDHLIVVGS GVTGAEFVDA YTELGVPVTV VASQDHVLPY EDADAALVLE ESFAERGVRL
+     FKNARAASVT RTGAGVLVTM TDGRTVEGSH ALMTIGSVPN TSGLGLERVG IQLGRGNYLT
+     VDRVSRTLAT GIYAAGDCTG LLPLASVAAM QGRIAMYHAL GEGVSPIRLR TVAATVFTRP
+     EIAAVGVPQS VIDAGSVAAR TIMLPLRTNA RAKMSEMRHG FVKIFCRRST GVVIGGVVVA
+     PIASELILPI AVAVQNRITV NELAQTLAVY PSLSGSITEA ARRLMAHDDL DCTAAQDAAE
+     QLALVPHHLP TSN
+//

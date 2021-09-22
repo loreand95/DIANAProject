@@ -1,0 +1,161 @@
+ID   HEMA_RUMJO              Reviewed;         515 AA.
+AC   Q59292;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-OCT-2020, entry version 115.
+DE   RecName: Full=Probable multifunctional siroheme biosynthesis protein HemA;
+DE   Includes:
+DE     RecName: Full=Glutamyl-tRNA reductase {ECO:0000255|HAMAP-Rule:MF_00087};
+DE              Short=GluTR {ECO:0000255|HAMAP-Rule:MF_00087};
+DE              EC=1.2.1.70 {ECO:0000255|HAMAP-Rule:MF_00087};
+DE   Includes:
+DE     RecName: Full=Precorrin-2 dehydrogenase;
+DE              EC=1.3.1.76;
+DE   Includes:
+DE     RecName: Full=Sirohydrochlorin ferrochelatase;
+DE              EC=4.99.1.4;
+GN   Name=hemA {ECO:0000255|HAMAP-Rule:MF_00087};
+OS   Ruminiclostridium josui (Clostridium josui).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae;
+OC   Ruminiclostridium.
+OX   NCBI_TaxID=1499;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=DSM 25723 / FERM P-9684 / JCM 17888 / KCTC 15379 / III;
+RX   PubMed=7665501; DOI=10.1128/jb.177.17.5169-5175.1995;
+RA   Fujino E., Fujino T., Karita S., Sakka K., Ohmiya K.;
+RT   "Cloning and sequencing of some genes responsible for porphyrin
+RT   biosynthesis from the anaerobic bacterium Clostridium josui.";
+RL   J. Bacteriol. 177:5169-5175(1995).
+CC   -!- FUNCTION: Multifunctional enzyme that catalyzes the NADPH-dependent
+CC       reduction of glutamyl-tRNA(Glu) to glutamate 1-semialdehyde (GSA), the
+CC       NAD-dependent ring dehydrogenation of precorrin-2 to sirohydrochlorin
+CC       and finally, the ferrochelation of sirohydrochlorin to yield siroheme.
+CC       {ECO:0000305|PubMed:7665501}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-4-amino-5-oxopentanoate + NADP(+) + tRNA(Glu) = H(+) + L-
+CC         glutamyl-tRNA(Glu) + NADPH; Xref=Rhea:RHEA:12344, Rhea:RHEA-
+CC         COMP:9663, Rhea:RHEA-COMP:9680, ChEBI:CHEBI:15378, ChEBI:CHEBI:57501,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78520; EC=1.2.1.70; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00087};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + precorrin-2 = 2 H(+) + NADH + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:15613, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:58351, ChEBI:CHEBI:58827; EC=1.3.1.76;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + siroheme = Fe(2+) + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:24360, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:58351, ChEBI:CHEBI:60052; EC=4.99.1.4;
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       sirohydrochlorin from precorrin-2: step 1/1.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; siroheme from sirohydrochlorin: step 1/1.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; sirohydrochlorin from precorrin-2: step 1/1.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; 5-aminolevulinate from L-glutamyl-tRNA(Glu): step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00087}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00087}.
+CC   -!- DOMAIN: Possesses an unusual extended V-shaped dimeric structure with
+CC       each monomer consisting of three distinct domains arranged along a
+CC       curved 'spinal' alpha-helix. The N-terminal catalytic domain
+CC       specifically recognizes the glutamate moiety of the substrate. The
+CC       second domain is the NADPH-binding domain, and the third C-terminal
+CC       domain is responsible for dimerization. {ECO:0000255|HAMAP-
+CC       Rule:MF_00087}.
+CC   -!- MISCELLANEOUS: During catalysis, the active site Cys acts as a
+CC       nucleophile attacking the alpha-carbonyl group of tRNA-bound glutamate
+CC       with the formation of a thioester intermediate between enzyme and
+CC       glutamate, and the concomitant release of tRNA(Glu). The thioester
+CC       intermediate is finally reduced by direct hydride transfer from NADPH,
+CC       to form the product GSA. {ECO:0000255|HAMAP-Rule:MF_00087}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the glutamyl-tRNA
+CC       reductase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the precorrin-2
+CC       dehydrogenase / sirohydrochlorin ferrochelatase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D28503; BAA05860.1; -; Genomic_DNA.
+DR   PIR; I40809; I40809.
+DR   SMR; Q59292; -.
+DR   PRIDE; Q59292; -.
+DR   UniPathway; UPA00148; UER00222.
+DR   UniPathway; UPA00251; UER00316.
+DR   UniPathway; UPA00262; UER00222.
+DR   UniPathway; UPA00262; UER00376.
+DR   GO; GO:0008883; F:glutamyl-tRNA reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0043115; F:precorrin-2 dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051266; F:sirohydrochlorin ferrochelatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019354; P:siroheme biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.460.30; -; 1.
+DR   HAMAP; MF_00087; Glu_tRNA_reductase; 1.
+DR   InterPro; IPR000343; 4pyrrol_synth_GluRdtase.
+DR   InterPro; IPR015895; 4pyrrol_synth_GluRdtase_N.
+DR   InterPro; IPR018214; GluRdtase_CS.
+DR   InterPro; IPR036343; GluRdtase_N_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR006151; Shikm_DH/Glu-tRNA_Rdtase.
+DR   InterPro; IPR006367; Sirohaem_synthase_N.
+DR   Pfam; PF05201; GlutR_N; 1.
+DR   Pfam; PF01488; Shikimate_DH; 1.
+DR   SUPFAM; SSF51735; SSF51735; 2.
+DR   SUPFAM; SSF69742; SSF69742; 1.
+DR   TIGRFAMs; TIGR01470; cysG_Nterm; 1.
+DR   TIGRFAMs; TIGR01035; hemA; 1.
+DR   PROSITE; PS00747; GLUTR; 1.
+PE   3: Inferred from homology;
+KW   Cobalamin biosynthesis; Lyase; Multifunctional enzyme; NAD; NADP;
+KW   Oxidoreductase; Porphyrin biosynthesis.
+FT   CHAIN           1..515
+FT                   /note="Probable multifunctional siroheme biosynthesis
+FT                   protein HemA"
+FT                   /id="PRO_0000114012"
+FT   NP_BIND         26..27
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         47..48
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         206..211
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00087"
+FT   REGION          26..174
+FT                   /note="Glutamyl-tRNA reductase"
+FT   REGION          68..71
+FT                   /note="Glutamyl-tRNA binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          367..507
+FT                   /note="Precorrin-2 dehydrogenase /sirohydrochlorin
+FT                   ferrochelatase"
+FT   ACT_SITE        69
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00087"
+FT   BINDING         127
+FT                   /note="Glutamyl-tRNA"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         132
+FT                   /note="Glutamyl-tRNA"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         138
+FT                   /note="Glutamyl-tRNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            117
+FT                   /note="Important for activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00087"
+SQ   SEQUENCE   515 AA;  58368 MW;  A9769824AA30DC4C CRC64;
+     MQLGRHNSGS IKKRLEMYIL SIISASLDYK SAAIDIRERF SYTSTRIREI LRRIKAADGV
+     SGAVLLCTCN RTELYISGDN IENMNPALLL CQLSGEEDHK SLMTLFSIRH DSEAIFHLME
+     VACGLQSMVL FEDRVITQVK NAAAISREEK TIDSTLETLF RLCITAAKKA KTEIKVKAVP
+     TSAAERAITE LSKKYCFTDK RILVIGNGEI GRLCCKKLIE LGAEITITLR KYKHGEIIIP
+     VGCNTIPYDE REEVLPLSDV VISATTSPHF TITYDMIEKL ERKPEIFVDL ALPRDIESSI
+     SNFTGVELYN LDRFYTDYSV LNQKEVSKIR EIINHFILQF EKWKDYREEA AFTKIPDLHN
+     DTLYGRFPLF IDLSGKKVLV VGGGEIATRR VKTLLRFGAD IYLVAPHLTS ELQEMLNCKL
+     INYREGYYES QDIQNMFLVI AATNDRETNH KVYLDAKEKG IQMSIADCRE ECSFYFPAIF
+     EFDGIVGGLV SQNGDNHSLV KSVAEQIRKI GQATD
+//

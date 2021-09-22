@@ -1,0 +1,109 @@
+ID   VANS_ENTFC              Reviewed;         384 AA.
+AC   Q06240;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   07-APR-2021, entry version 135.
+DE   RecName: Full=Sensor protein VanS;
+DE            EC=2.7.13.3;
+DE   AltName: Full=Vancomycin histidine protein kinase;
+DE   AltName: Full=Vancomycin resistance protein VanS;
+GN   Name=vanS;
+OS   Enterococcus faecium (Streptococcus faecium).
+OG   Plasmid pIP816.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+OC   Enterococcus.
+OX   NCBI_TaxID=1352;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BM4147; TRANSPOSON=Tn1546;
+RX   PubMed=8380148; DOI=10.1128/jb.175.1.117-127.1993;
+RA   Arthur M., Molinas C., Depardieu F., Courvalin P.;
+RT   "Characterization of Tn1546, a Tn3-related transposon conferring
+RT   glycopeptide resistance by synthesis of depsipeptide peptidoglycan
+RT   precursors in Enterococcus faecium BM4147.";
+RL   J. Bacteriol. 175:117-127(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BM4147;
+RX   PubMed=1556077; DOI=10.1128/jb.174.8.2582-2591.1992;
+RA   Arthur M., Molinas C., Courvalin P.;
+RT   "The VanS-VanR two-component regulatory system controls synthesis of
+RT   depsipeptide peptidoglycan precursors in Enterococcus faecium BM4147.";
+RL   J. Bacteriol. 174:2582-2591(1992).
+CC   -!- FUNCTION: Member of the two-component regulatory system VanS/VanR.
+CC       Activates the transcription of vanH, vanA and vanX in response to
+CC       vancomycin which results in vancomycin resistance. VanS activates VanR
+CC       by phosphorylation.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + protein L-histidine = ADP + protein N-phospho-L-
+CC         histidine.; EC=2.7.13.3;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M97297; AAA65954.1; -; Genomic_DNA.
+DR   EMBL; M68910; AAA24788.1; -; Genomic_DNA.
+DR   PIR; B41838; B41838.
+DR   RefSeq; WP_002305818.1; NZ_WQKY01000109.1.
+DR   RefSeq; YP_001019037.1; NC_008821.1.
+DR   RefSeq; YP_001974798.1; NC_010980.1.
+DR   RefSeq; YP_002128397.1; NC_011140.1.
+DR   RefSeq; YP_004172618.1; NC_014959.1.
+DR   RefSeq; YP_976079.1; NC_008768.1.
+DR   SMR; Q06240; -.
+DR   GeneID; 59695977; -.
+DR   BRENDA; 2.7.13.3; 2096.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0043433; P:negative regulation of DNA-binding transcription factor activity; IGI:CACAO.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   CDD; cd00082; HisKA; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR005467; His_kinase_dom.
+DR   InterPro; IPR003661; HisK_dim/P.
+DR   InterPro; IPR036097; HisK_dim/P_sf.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; ATP-binding; Cell membrane;
+KW   Cell wall biogenesis/degradation; Kinase; Membrane; Nucleotide-binding;
+KW   Phosphoprotein; Plasmid; Transferase; Transmembrane; Transmembrane helix;
+KW   Two-component regulatory system.
+FT   CHAIN           1..384
+FT                   /note="Sensor protein VanS"
+FT                   /id="PRO_0000074893"
+FT   TRANSMEM        21..41
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        76..96
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          161..376
+FT                   /note="Histidine kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00107"
+FT   MOD_RES         164
+FT                   /note="Phosphohistidine; by autocatalysis"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00107"
+SQ   SEQUENCE   384 AA;  43916 MW;  D69099844F37C35A CRC64;
+     MVIKLKNKKN DYSKLERKLY MYIVAIVVVA IVFVLYIRSM IRGKLGDWIL SILENKYDLN
+     HLDAMKLYQY SIRNNIDIFI YVAIVISILI LCRVMLSKFA KYFDEINTGI DVLIQNEDKQ
+     IELSAEMDVM EQKLNTLKRT LEKREQDAKL AEQRKNDVVM YLAHDIKTPL TSIIGYLSLL
+     DEAPDMPVDQ KAKYVHITLD KAYRLEQLID EFFEITRYNL QTITLTKTHI DLYYMLVQMT
+     DEFYPQLSAH GKQAVIHAPE DLTVSGDPDK LARVFNNILK NAAAYSEDNS IIDITAGLSG
+     DVVSIEFKNT GSIPKDKLAA IFEKFYRLDN ARSSDTGGAG LGLAIAKEII VQHGGQIYAE
+     SNDNYTTFRV ELPAMPDLVD KRRS
+//

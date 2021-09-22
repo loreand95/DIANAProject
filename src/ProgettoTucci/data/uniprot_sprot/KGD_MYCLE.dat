@@ -1,0 +1,251 @@
+ID   KGD_MYCLE               Reviewed;        1238 AA.
+AC   Q9CC97;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 2.
+DT   02-DEC-2020, entry version 106.
+DE   RecName: Full=Multifunctional 2-oxoglutarate metabolism enzyme;
+DE   AltName: Full=2-hydroxy-3-oxoadipate synthase;
+DE            Short=HOA synthase;
+DE            Short=HOAS;
+DE            EC=2.2.1.5;
+DE   AltName: Full=2-oxoglutarate carboxy-lyase;
+DE   AltName: Full=2-oxoglutarate decarboxylase;
+DE   AltName: Full=Alpha-ketoglutarate decarboxylase;
+DE            Short=KG decarboxylase;
+DE            Short=KGD;
+DE            EC=4.1.1.71;
+DE   AltName: Full=Alpha-ketoglutarate-glyoxylate carboligase;
+DE   Includes:
+DE     RecName: Full=2-oxoglutarate dehydrogenase E1 component;
+DE              Short=ODH E1 component;
+DE              EC=1.2.4.2;
+DE     AltName: Full=Alpha-ketoglutarate dehydrogenase E1 component;
+DE              Short=KDH E1 component;
+DE   Includes:
+DE     RecName: Full=Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex;
+DE              EC=2.3.1.61;
+DE     AltName: Full=2-oxoglutarate dehydrogenase complex E2 component;
+DE              Short=ODH E2 component;
+DE              Short=OGDC-E2;
+DE     AltName: Full=Dihydrolipoamide succinyltransferase;
+GN   Name=kgd; OrderedLocusNames=ML1095;
+OS   Mycobacterium leprae (strain TN).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=272631;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TN;
+RX   PubMed=11234002; DOI=10.1038/35059006;
+RA   Cole S.T., Eiglmeier K., Parkhill J., James K.D., Thomson N.R.,
+RA   Wheeler P.R., Honore N., Garnier T., Churcher C.M., Harris D.E.,
+RA   Mungall K.L., Basham D., Brown D., Chillingworth T., Connor R.,
+RA   Davies R.M., Devlin K., Duthoy S., Feltwell T., Fraser A., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Lacroix C., Maclean J., Moule S.,
+RA   Murphy L.D., Oliver K., Quail M.A., Rajandream M.A., Rutherford K.M.,
+RA   Rutter S., Seeger K., Simon S., Simmonds M., Skelton J., Squares R.,
+RA   Squares S., Stevens K., Taylor K., Whitehead S., Woodward J.R.,
+RA   Barrell B.G.;
+RT   "Massive gene decay in the leprosy bacillus.";
+RL   Nature 409:1007-1011(2001).
+CC   -!- FUNCTION: Shows three enzymatic activities that share a first common
+CC       step, the attack of thiamine-PP on 2-oxoglutarate (alpha-ketoglutarate,
+CC       KG), leading to the formation of an enamine-thiamine-PP intermediate
+CC       upon decarboxylation. Thus, displays KGD activity, catalyzing the
+CC       decarboxylation from five-carbon 2-oxoglutarate to four-carbon
+CC       succinate semialdehyde (SSA). Also catalyzes C-C bond formation between
+CC       the activated aldehyde formed after decarboxylation of alpha-
+CC       ketoglutarate and the carbonyl of glyoxylate (GLX), to yield 2-hydroxy-
+CC       3-oxoadipate (HOA), which spontaneously decarboxylates to form 5-
+CC       hydroxylevulinate (HLA). And is also a component of the 2-oxoglutarate
+CC       dehydrogenase (ODH) complex, that catalyzes the overall conversion of
+CC       2-oxoglutarate to succinyl-CoA and CO(2). The KG decarboxylase and KG
+CC       dehydrogenase reactions provide two alternative, tightly regulated,
+CC       pathways connecting the oxidative and reductive branches of the TCA
+CC       cycle (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + glyoxylate + H(+) = 2-hydroxy-3-oxoadipate +
+CC         CO2; Xref=Rhea:RHEA:14341, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:36655, ChEBI:CHEBI:57712; EC=2.2.1.5;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + H(+) = CO2 + succinate semialdehyde;
+CC         Xref=Rhea:RHEA:10524, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57706; EC=4.1.1.71;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + [dihydrolipoyllysine-residue
+CC         succinyltransferase]-(R)-N(6)-lipoyl-L-lysine + H(+) =
+CC         [dihydrolipoyllysine-residue succinyltransferase]-(R)-N(6)-(S(8)-
+CC         succinyldihydrolipoyl)-L-lysine + CO2; Xref=Rhea:RHEA:12188,
+CC         Rhea:RHEA-COMP:10483, Rhea:RHEA-COMP:10484, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83120; EC=1.2.4.2;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-N(6)-dihydrolipoyl-L-lysyl-[2-oxoglutarate dehydrogenase
+CC         complex component E2] + succinyl-CoA = (R)-N(6)-(S(8)-
+CC         succinyldihydrolipoyl)-L-lysyl-[2-oxoglutarate dehydrogenase complex
+CC         component E2] + CoA; Xref=Rhea:RHEA:15213, Rhea:RHEA-COMP:10581,
+CC         Rhea:RHEA-COMP:10582, ChEBI:CHEBI:57287, ChEBI:CHEBI:57292,
+CC         ChEBI:CHEBI:83100, ChEBI:CHEBI:83120; EC=2.3.1.61;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000250};
+CC   -!- ACTIVITY REGULATION: Alpha-ketoglutarate dehydrogenase and
+CC       decarboxylase activities are inhibited by unphosphorylated GarA, and
+CC       allosterically activated by acetyl-CoA, the main substrate of the TCA
+CC       cycle. {ECO:0000250}.
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; succinate
+CC       from 2-oxoglutarate (transferase route): step 1/2.
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; succinyl-
+CC       CoA from 2-oxoglutarate (dehydrogenase route): step 1/1.
+CC   -!- SUBUNIT: Homodimer. The 2-oxoglutarate dehydrogenase (ODH) complex
+CC       contains multiple copies of three enzymatic components: 2-oxoglutarate
+CC       dehydrogenase (E1), dihydrolipoamide succinyltransferase (E2) and
+CC       lipoamide dehydrogenase (E3) (By similarity). {ECO:0000250}.
+CC   -!- DOMAIN: Is a fusion protein with two major domains exhibiting
+CC       structural features of an E1 and E2 protein, and a short sequence
+CC       stretch of E1 localized at the N-terminus, which is connected by a
+CC       linker region to the rest of the protein. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the 2-oxoacid dehydrogenase family. Kgd
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAC31476.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL583920; CAC31476.1; ALT_INIT; Genomic_DNA.
+DR   PIR; A87046; A87046.
+DR   RefSeq; NP_301802.2; NC_002677.1.
+DR   RefSeq; WP_010908126.1; NC_002677.1.
+DR   SMR; Q9CC97; -.
+DR   STRING; 272631.ML1095; -.
+DR   EnsemblBacteria; CAC31476; CAC31476; CAC31476.
+DR   KEGG; mle:ML1095; -.
+DR   PATRIC; fig|272631.5.peg.1959; -.
+DR   Leproma; ML1095; -.
+DR   eggNOG; COG0508; Bacteria.
+DR   eggNOG; COG0567; Bacteria.
+DR   HOGENOM; CLU_004709_1_0_11; -.
+DR   BioCyc; MLEP272631:G1GT5-1193-MONOMER; -.
+DR   UniPathway; UPA00223; UER00997.
+DR   UniPathway; UPA00223; UER01001.
+DR   Proteomes; UP000000806; Chromosome.
+DR   GO; GO:0050439; F:2-hydroxy-3-oxoadipate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008683; F:2-oxoglutarate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004149; F:dihydrolipoyllysine-residue succinyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004591; F:oxoglutarate dehydrogenase (succinyl-transferring) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:InterPro.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.559.10; -; 1.
+DR   Gene3D; 3.40.50.11610; -; 1.
+DR   InterPro; IPR001078; 2-oxoacid_DH_actylTfrase.
+DR   InterPro; IPR032106; 2-oxogl_dehyd_N.
+DR   InterPro; IPR011603; 2oxoglutarate_DH_E1.
+DR   InterPro; IPR023213; CAT-like_dom_sf.
+DR   InterPro; IPR001017; DH_E1.
+DR   InterPro; IPR031717; KGD_C.
+DR   InterPro; IPR042179; KGD_C_sf.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   PANTHER; PTHR23152; PTHR23152; 1.
+DR   Pfam; PF00198; 2-oxoacid_dh; 1.
+DR   Pfam; PF16078; 2-oxogl_dehyd_N; 1.
+DR   Pfam; PF00676; E1_dh; 1.
+DR   Pfam; PF16870; OxoGdeHyase_C; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   PIRSF; PIRSF000157; Oxoglu_dh_E1; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+DR   TIGRFAMs; TIGR00239; 2oxo_dh_E1; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Allosteric enzyme; Coiled coil; Decarboxylase; Lyase;
+KW   Magnesium; Metal-binding; Multifunctional enzyme; Oxidoreductase;
+KW   Reference proteome; Thiamine pyrophosphate; Transferase;
+KW   Tricarboxylic acid cycle.
+FT   CHAIN           1..1238
+FT                   /note="Multifunctional 2-oxoglutarate metabolism enzyme"
+FT                   /id="PRO_0000310716"
+FT   REGION          1..41
+FT                   /note="2-oxoglutarate dehydrogenase E1, N-terminal part"
+FT   REGION          42..97
+FT                   /note="Linker"
+FT   REGION          98..346
+FT                   /note="Succinyltransferase E2"
+FT   REGION          347..1238
+FT                   /note="2-oxoglutarate dehydrogenase E1, C-terminal part"
+FT   REGION          550..551
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          615..617
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          657..659
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1101..1104
+FT                   /note="Allosteric activator"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1161..1162
+FT                   /note="Allosteric activator"
+FT                   /evidence="ECO:0000250"
+FT   COILED          795..825
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        325
+FT                   /note="Proton acceptor; for succinyltransferase activity"
+FT                   /evidence="ECO:0000250"
+FT   METAL           657
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           690
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           692
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         590
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         615
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         964
+FT                   /note="Thiamine pyrophosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1032
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1050
+FT                   /note="Allosteric activator"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1066
+FT                   /note="Allosteric activator"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         1154
+FT                   /note="Allosteric activator"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1238 AA;  137020 MW;  62B154E8A1D9A0E8 CRC64;
+     MANISSPFGQ NEWLVEEMYR KFRDDPSSVD PSWHEFLVDY NPESTAEPVL TDPTSTDKQP
+     SATPQAKPAA AADPVASRAK PATTPTVANG TAAGSAAAPA KTTTTPPIEG DELQVLRGAA
+     AVVVKNMSAS LDVPTATSVR AVPAKLMIDN RTVINNQLKR NRGGKISFTH LLGYALVQAV
+     KKFPNINRHY AEIDGKPIAV TPAHTNLGLA IDLQGKDGKR SLVVAGIKRC EELRFAQFVT
+     AYEDIVRRAR DGKLTAEDFA GVTISLTNPG TIGTVHSVPR LMTGQGAIIG VGAMEYPAEF
+     QGASAERIAE LGIGKLITLT STYDHRIIQG AESGDFLRTI HEMVLSDSFW DEIFRELSIP
+     YLPVRWRTDN PDSIVDKNAR VMELIAAYRN RGHLMADIDP LRLDNTRFRS HPDLDLLTHG
+     LTLWDLDRVF KVNGFGGWKY KKLRDVLGLL RDAYCRHIGV EYTHILDPEQ QEWLQQRVET
+     KNVKPTVAEQ KYILSKLNAA EAFETFLHTK YVGQKRFSLE GAESVIPMMD AAIDQCAKHG
+     LDEVVIGMPH RGRLNVLANI VGKPYSQIFT EFEGNLNPTL AHSSGDVKYH LGATGLYLQM
+     FGDNDIQVSL TANPSHLEAV DPVLEGLVRA KQDLLNKDTN GNQDEAFSVV PMMLHGDAAF
+     AGQGVVAETL NLANLPGYRV GGTIHIIVNN QIGFTTAPEY SRSSEYCTDV AKMIGAPIFH
+     VNGDDPEACV WVAKLAVDFR QRFKKDVVID MLCYRRRGHN EGDDPSMTNP YMYDVVDTKR
+     GARKSYTEAL IGRGDISLKE AEDALRDYQG QLERVFNEVR DLEKHGVQPS ESVESDQMIP
+     AGLSTAVDKA LLARIGDAFL AVPEGFTVHP RVQPVLEKRR EMAYEGKIDW AFAELLALGS
+     LVAEGKLVRL SGQDTKRGTF SQRHSVIIDR HTGEEFTPLQ LLANNPDGSP TGGKFLVYNS
+     PLSEYAAVGF EYGYTVGNPD AVVLWEAQFG DFVNGAQSII DEFINSGEAK WGQLSTVVLL
+     LPHGHEGQGP DHTSGRIERF LQLWAEGSMT FAVPSTPSNY FHLLRRHALD GIKRPLIVFT
+     PKSMLRNKAA VSDIKDFTEI KFRSVLEEPT YEDSIDDRSK VTRVLLTCGK LYYELAARKI
+     KDNRDDVAIV RIEQLAPLPR RRLGETLDRY ENAKEFFWVQ EEPANQGAWP RFGLELPELL
+     PRLTGIKRIS RRAMSAPSSG SSKVHAVEQQ EILDTAFG
+//

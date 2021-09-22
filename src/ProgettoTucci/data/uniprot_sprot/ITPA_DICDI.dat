@@ -1,0 +1,149 @@
+ID   ITPA_DICDI              Reviewed;         194 AA.
+AC   Q54LQ6;
+DT   08-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAY-2005, sequence version 1.
+DT   02-DEC-2020, entry version 98.
+DE   RecName: Full=Inosine triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE            Short=ITPase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE            Short=Inosine triphosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE            EC=3.6.1.9 {ECO:0000255|HAMAP-Rule:MF_03148};
+DE   AltName: Full=Non-canonical purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE   AltName: Full=Non-standard purine NTP pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE   AltName: Full=Nucleoside-triphosphate diphosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE   AltName: Full=Nucleoside-triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_03148};
+DE            Short=NTPase {ECO:0000255|HAMAP-Rule:MF_03148};
+GN   Name=itpa; ORFNames=DDB_G0286495;
+OS   Dictyostelium discoideum (Slime mold).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Dictyostelia; Dictyosteliales;
+OC   Dictyosteliaceae; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AX4;
+RX   PubMed=15875012; DOI=10.1038/nature03481;
+RA   Eichinger L., Pachebat J.A., Gloeckner G., Rajandream M.A., Sucgang R.,
+RA   Berriman M., Song J., Olsen R., Szafranski K., Xu Q., Tunggal B.,
+RA   Kummerfeld S., Madera M., Konfortov B.A., Rivero F., Bankier A.T.,
+RA   Lehmann R., Hamlin N., Davies R., Gaudet P., Fey P., Pilcher K., Chen G.,
+RA   Saunders D., Sodergren E.J., Davis P., Kerhornou A., Nie X., Hall N.,
+RA   Anjard C., Hemphill L., Bason N., Farbrother P., Desany B., Just E.,
+RA   Morio T., Rost R., Churcher C.M., Cooper J., Haydock S., van Driessche N.,
+RA   Cronin A., Goodhead I., Muzny D.M., Mourier T., Pain A., Lu M., Harper D.,
+RA   Lindsay R., Hauser H., James K.D., Quiles M., Madan Babu M., Saito T.,
+RA   Buchrieser C., Wardroper A., Felder M., Thangavelu M., Johnson D.,
+RA   Knights A., Loulseged H., Mungall K.L., Oliver K., Price C., Quail M.A.,
+RA   Urushihara H., Hernandez J., Rabbinowitsch E., Steffen D., Sanders M.,
+RA   Ma J., Kohara Y., Sharp S., Simmonds M.N., Spiegler S., Tivey A.,
+RA   Sugano S., White B., Walker D., Woodward J.R., Winckler T., Tanaka Y.,
+RA   Shaulsky G., Schleicher M., Weinstock G.M., Rosenthal A., Cox E.C.,
+RA   Chisholm R.L., Gibbs R.A., Loomis W.F., Platzer M., Kay R.R.,
+RA   Williams J.G., Dear P.H., Noegel A.A., Barrell B.G., Kuspa A.;
+RT   "The genome of the social amoeba Dictyostelium discoideum.";
+RL   Nature 435:43-57(2005).
+CC   -!- FUNCTION: Pyrophosphatase that hydrolyzes non-canonical purine
+CC       nucleotides such as inosine triphosphate (ITP), deoxyinosine
+CC       triphosphate (dITP) or xanthosine 5'-triphosphate (XTP) to their
+CC       respective monophosphate derivatives. The enzyme does not distinguish
+CC       between the deoxy- and ribose forms. Probably excludes non-canonical
+CC       purines from RNA and DNA precursor pools, thus preventing their
+CC       incorporation into RNA and DNA and avoiding chromosomal lesions.
+CC       {ECO:0000255|HAMAP-Rule:MF_03148}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + diphosphate + H(+); Xref=Rhea:RHEA:23996,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58043, ChEBI:CHEBI:61557; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03148};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + H2O = a 2'-
+CC         deoxyribonucleoside 5'-phosphate + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:44644, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:65317; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03148};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03148};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03148};
+CC       Note=Binds 1 divalent metal cation per subunit; can use either Mg(2+)
+CC       or Mn(2+). {ECO:0000255|HAMAP-Rule:MF_03148};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_03148}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03148}.
+CC   -!- SIMILARITY: Belongs to the HAM1 NTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03148}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAFI02000086; EAL64198.1; -; Genomic_DNA.
+DR   RefSeq; XP_637700.1; XM_632608.1.
+DR   SMR; Q54LQ6; -.
+DR   STRING; 44689.DDB0238062; -.
+DR   PaxDb; Q54LQ6; -.
+DR   EnsemblProtists; EAL64198; EAL64198; DDB_G0286495.
+DR   GeneID; 8625642; -.
+DR   KEGG; ddi:DDB_G0286495; -.
+DR   dictyBase; DDB_G0286495; itpa.
+DR   eggNOG; KOG3222; Eukaryota.
+DR   HOGENOM; CLU_082080_1_1_1; -.
+DR   InParanoid; Q54LQ6; -.
+DR   OMA; GYCDGRK; -.
+DR   PhylomeDB; Q54LQ6; -.
+DR   Reactome; R-DDI-74259; Purine catabolism.
+DR   PRO; PR:Q54LQ6; -.
+DR   Proteomes; UP000002195; Chromosome 4.
+DR   Proteomes; UP000002195; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0035529; F:NADH pyrophosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047429; F:nucleoside-triphosphate diphosphatase activity; ISS:dictyBase.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009204; P:deoxyribonucleoside triphosphate catabolic process; ISS:dictyBase.
+DR   GO; GO:0009143; P:nucleoside triphosphate catabolic process; IBA:GO_Central.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00515; HAM1; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_03148; HAM1_NTPase; 1.
+DR   InterPro; IPR002637; Ham1p-like.
+DR   InterPro; IPR027502; ITPase.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   PANTHER; PTHR11067; PTHR11067; 1.
+DR   Pfam; PF01725; Ham1p_like; 1.
+DR   SUPFAM; SSF52972; SSF52972; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide metabolism; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..194
+FT                   /note="Inosine triphosphate pyrophosphatase"
+FT                   /id="PRO_0000328399"
+FT   REGION          11..16
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   REGION          67..68
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   REGION          143..146
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   REGION          171..172
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   METAL           39
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   METAL           67
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   BINDING         51
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+FT   BINDING         166
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03148"
+SQ   SEQUENCE   194 AA;  21730 MW;  B8A4AB1217C26D0E CRC64;
+     MSISKKIVFV TGNAKKLEEA LQILGTSFPI ESKKVDLPEL QGDPIDISIE KCKIAAREVG
+     GPVLVEDTCL CFNALKGLPG PYVKWFLDKL EPEGLYKLLD AWEDKSAYAL CNFAFSEGPD
+     SEPIVFAGKT DGIIVQPRGP RNFGWDPVFQ PDGYKETYAE MDKSIKNTIS HRTRSLQKVK
+     EFLKSKGYEN CKFE
+//

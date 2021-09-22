@@ -1,0 +1,127 @@
+ID   IDI2_CHLPM              Reviewed;         355 AA.
+AC   A4SGE6;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Isopentenyl-diphosphate delta-isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            Short=IPP isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            EC=5.3.3.2 {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Isopentenyl pyrophosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Type 2 isopentenyl diphosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            Short=IDI-2 {ECO:0000255|HAMAP-Rule:MF_00354};
+GN   Name=fni {ECO:0000255|HAMAP-Rule:MF_00354}; OrderedLocusNames=Cvib_1545;
+OS   Chlorobium phaeovibrioides (strain DSM 265 / 1930) (Prosthecochloris
+OS   vibrioformis (strain DSM 265)).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae;
+OC   Chlorobium/Pelodictyon group; Chlorobium.
+OX   NCBI_TaxID=290318;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 265 / 1930;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Pitluck S., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Mikhailova N., Li T., Overmann J.,
+RA   Schuster S.C., Bryant D.A., Richardson P.;
+RT   "Complete sequence of Prosthecochloris vibrioformis DSM 265.";
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the biosynthesis of isoprenoids. Catalyzes the
+CC       1,3-allylic rearrangement of the homoallylic substrate isopentenyl
+CC       (IPP) to its allylic isomer, dimethylallyl diphosphate (DMAPP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopentenyl diphosphate = dimethylallyl diphosphate;
+CC         Xref=Rhea:RHEA:23284, ChEBI:CHEBI:57623, ChEBI:CHEBI:128769;
+CC         EC=5.3.3.2; Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=NADPH; Xref=ChEBI:CHEBI:57783;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- SUBUNIT: Homooctamer. Dimer of tetramers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00354}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   -!- SIMILARITY: Belongs to the IPP isomerase type 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000607; ABP37555.1; -; Genomic_DNA.
+DR   RefSeq; WP_011890778.1; NC_009337.1.
+DR   SMR; A4SGE6; -.
+DR   STRING; 290318.Cvib_1545; -.
+DR   EnsemblBacteria; ABP37555; ABP37555; Cvib_1545.
+DR   KEGG; pvi:Cvib_1545; -.
+DR   eggNOG; COG1304; Bacteria.
+DR   HOGENOM; CLU_065515_1_0_10; -.
+DR   OMA; WDWGIPT; -.
+DR   OrthoDB; 1186741at2; -.
+DR   BioCyc; CPHA290318:G1G8E-1620-MONOMER; -.
+DR   Proteomes; UP000006700; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010181; F:FMN binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004452; F:isopentenyl-diphosphate delta-isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070402; F:NADPH binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0008299; P:isoprenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02811; IDI-2_FMN; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00354; Idi_2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000262; FMN-dep_DH.
+DR   InterPro; IPR011179; IPdP_isomerase.
+DR   PANTHER; PTHR43665; PTHR43665; 1.
+DR   Pfam; PF01070; FMN_dh; 1.
+DR   PIRSF; PIRSF003314; IPP_isomerase; 1.
+DR   TIGRFAMs; TIGR02151; IPP_isom_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Flavoprotein; FMN; Isomerase; Isoprene biosynthesis; Magnesium;
+KW   Metal-binding; NADP; Reference proteome.
+FT   CHAIN           1..355
+FT                   /note="Isopentenyl-diphosphate delta-isomerase"
+FT                   /id="PRO_1000079381"
+FT   NP_BIND         71..73
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   NP_BIND         308..309
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   REGION          12..13
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   REGION          101..103
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   METAL           166
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         70
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         101
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         130
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         165
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         197
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+SQ   SEQUENCE   355 AA;  38114 MW;  F7646487A4B27082 CRC64;
+     MSTTITNSTA ERKHSHVDIC LRGDVAFSTI TTGLERYRLR HNALPELNYD NLSTETDFLG
+     KRIGAPLMIS SMTGGYSEAA ELNGKLAEAA ERFQLPLGVG SMRQALEESS HRDSFAVVRR
+     HAPTTQIFAN IGAPEIAKGL SSDDLQTMIE MIRADGLIIH LNAAQELFQP EGGTDFRRVL
+     DEVAAITAKL SVPVIAKEVG CGISAPVARQ LLNAGVRVID VAGAGGISWQ KVEEARYTRR
+     FGTDDRFSTR GLEELLNWGT PTAECLVAVN ALRENPTPPF SLIASGGIQS GIDIAKSIAL
+     GADLAASAGA LLRSLHSGTL EETLTTWMND LRAAMFLTGS ATIAELQNNR PISKQ
+//

@@ -1,0 +1,88 @@
+ID   TAL_MANSM               Reviewed;         317 AA.
+AC   Q65PZ8;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   02-DEC-2020, entry version 96.
+DE   RecName: Full=Transaldolase {ECO:0000255|HAMAP-Rule:MF_00492};
+DE            EC=2.2.1.2 {ECO:0000255|HAMAP-Rule:MF_00492};
+GN   Name=tal {ECO:0000255|HAMAP-Rule:MF_00492}; OrderedLocusNames=MS2355;
+OS   Mannheimia succiniciproducens (strain MBEL55E).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Basfia.
+OX   NCBI_TaxID=221988;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MBEL55E;
+RX   PubMed=15378067; DOI=10.1038/nbt1010;
+RA   Hong S.H., Kim J.S., Lee S.Y., In Y.H., Choi S.S., Rih J.-K., Kim C.H.,
+RA   Jeong H., Hur C.G., Kim J.J.;
+RT   "The genome sequence of the capnophilic rumen bacterium Mannheimia
+RT   succiniciproducens.";
+RL   Nat. Biotechnol. 22:1275-1281(2004).
+CC   -!- FUNCTION: Transaldolase is important for the balance of metabolites in
+CC       the pentose-phosphate pathway. {ECO:0000255|HAMAP-Rule:MF_00492}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + D-sedoheptulose 7-phosphate =
+CC         beta-D-fructose 6-phosphate + D-erythrose 4-phosphate;
+CC         Xref=Rhea:RHEA:17053, ChEBI:CHEBI:16897, ChEBI:CHEBI:57483,
+CC         ChEBI:CHEBI:57634, ChEBI:CHEBI:59776; EC=2.2.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00492};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       glyceraldehyde 3-phosphate and beta-D-fructose 6-phosphate from D-
+CC       ribose 5-phosphate and D-xylulose 5-phosphate (non-oxidative stage):
+CC       step 2/3. {ECO:0000255|HAMAP-Rule:MF_00492}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00492}.
+CC   -!- SIMILARITY: Belongs to the transaldolase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00492}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016827; AAU38962.1; -; Genomic_DNA.
+DR   RefSeq; WP_011201500.1; NC_006300.1.
+DR   SMR; Q65PZ8; -.
+DR   STRING; 221988.MS2355; -.
+DR   PRIDE; Q65PZ8; -.
+DR   EnsemblBacteria; AAU38962; AAU38962; MS2355.
+DR   KEGG; msu:MS2355; -.
+DR   eggNOG; COG0176; Bacteria.
+DR   HOGENOM; CLU_047470_0_1_6; -.
+DR   OMA; KYGIHCN; -.
+DR   OrthoDB; 784333at2; -.
+DR   BioCyc; MSUC221988:MS_RS10715-MONOMER; -.
+DR   UniPathway; UPA00115; UER00414.
+DR   Proteomes; UP000000607; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004801; F:sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase activity; ISS:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-UniRule.
+DR   CDD; cd00957; Transaldolase_TalAB; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00492; Transaldolase_1; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001585; TAL/FSA.
+DR   InterPro; IPR004730; Transaldolase_1.
+DR   InterPro; IPR018225; Transaldolase_AS.
+DR   PANTHER; PTHR10683; PTHR10683; 1.
+DR   PANTHER; PTHR10683:SF18; PTHR10683:SF18; 1.
+DR   Pfam; PF00923; TAL_FSA; 1.
+DR   TIGRFAMs; TIGR00874; talAB; 1.
+DR   PROSITE; PS01054; TRANSALDOLASE_1; 1.
+DR   PROSITE; PS00958; TRANSALDOLASE_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Pentose shunt; Schiff base; Transferase.
+FT   CHAIN           1..317
+FT                   /note="Transaldolase"
+FT                   /id="PRO_0000230955"
+FT   ACT_SITE        132
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00492"
+SQ   SEQUENCE   317 AA;  35072 MW;  230D4E52CDB83C39 CRC64;
+     MTTQLDALRN MTVVVADTGD IEAIKKYQPQ DATTNPSLIL SASALPQYAS LIDDAINYAK
+     AKSTDKAQQL IDAEDKLAVN IGLEILKIVP GRISTEVDAR LSYDTAATVE KARKLIKLYN
+     EAGINNDRIL IKVASTWQGI RAAEILEKEG INCNLTLLFS QAQARACAEA GVYLISPFVG
+     RILDWYKANT DKKEYVPNED PGVISVTSIY NYYKQYGYQT VVMGASFRNI GEITELAGCD
+     RLTIAPALLK ELQESNADLP RKLDYKGEVK PKPAPLTESQ FYWEHNNDPM AVDKLAEGIR
+     KFAADIEKLE AMLSTKL
+//

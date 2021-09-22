@@ -1,0 +1,150 @@
+ID   RDRP_TRVPP              Reviewed;        1707 AA.
+AC   Q9J942; Q9QPN5;
+DT   31-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 2.
+DT   07-APR-2021, entry version 88.
+DE   RecName: Full=Replicase large subunit;
+DE            EC=2.1.1.-;
+DE            EC=2.7.7.-;
+DE            EC=2.7.7.48;
+DE            EC=3.6.4.13;
+DE   AltName: Full=194 kDa protein;
+DE   AltName: Full=RNA-directed RNA polymerase;
+DE   Contains:
+DE     RecName: Full=Replicase small subunit;
+DE              EC=2.1.1.-;
+DE              EC=2.7.7.-;
+DE              EC=3.6.4.13;
+DE     AltName: Full=134 kDa protein;
+DE     AltName: Full=Methyltransferase/RNA helicase;
+OS   Tobacco rattle virus (isolate PpK20) (TRV).
+OC   Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Alsuviricetes;
+OC   Martellivirales; Virgaviridae; Tobravirus.
+OX   NCBI_TaxID=652939;
+OH   NCBI_TaxID=42337; Bidens pilosa (Hairy beggarticks) (Cobbler's pegs).
+OH   NCBI_TaxID=4072; Capsicum annuum (Capsicum pepper).
+OH   NCBI_TaxID=59895; Cynara cardunculus var. scolymus (Globe artichoke) (Cynara scolymus).
+OH   NCBI_TaxID=4081; Solanum lycopersicum (Tomato) (Lycopersicon esculentum).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RA   Visser P.B., Bol J.F.;
+RT   "Complete nucleotide sequence of RNA 1 of tobacco rattle virus isolate
+RT   PpK20.";
+RL   Submitted (JUL-1999) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: [Replicase large subunit]: is an RNA-dependent RNA polymerase
+CC       active in viral RNA replication. {ECO:0000250}.
+CC   -!- FUNCTION: [Replicase small subunit]: is a methyltransferase active in
+CC       RNA capping and an RNA helicase. Methyltransferase displays a
+CC       cytoplasmic capping enzyme activity. This function is necessary since
+CC       all viral RNAs are synthesized in the cytoplasm, and host capping
+CC       enzymes are restricted to the nucleus. Helicase region probably
+CC       exhibits NTPase and RNA unwinding activities (Potential).
+CC       {ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- SUBUNIT: Heterodimer of a large and a small subunit. {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The replicase large subunit is translated as a fusion
+CC       protein by episodic readthrough of a termination codon. When
+CC       readthrough of the terminator codon TGA occurs between the codons for
+CC       1187-Lys and 1189-Arg, this results in the addition of the RdRp region.
+CC   -!- SIMILARITY: Belongs to the ssRNA positive-strand viruses RNA-directed
+CC       RNA polymerase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF166084; AAD48026.1; -; Genomic_RNA.
+DR   EMBL; AF166084; AAD48027.2; -; Genomic_RNA.
+DR   RefSeq; NP_620669.1; NC_003805.1.
+DR   GeneID; 962130; -.
+DR   KEGG; vg:962130; -.
+DR   Proteomes; UP000001669; Genome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008174; F:mRNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   InterPro; IPR027351; (+)RNA_virus_helicase_core_dom.
+DR   InterPro; IPR002588; Alphavirus-like_MT_dom.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR007094; RNA-dir_pol_PSvirus.
+DR   InterPro; IPR001788; Tymovirus_RNA-dep_RNA_pol.
+DR   Pfam; PF00978; RdRP_2; 1.
+DR   Pfam; PF01443; Viral_helicase1; 1.
+DR   Pfam; PF01660; Vmethyltransf; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS51743; ALPHAVIRUS_MT; 1.
+DR   PROSITE; PS51657; PSRV_HELICASE; 1.
+DR   PROSITE; PS50507; RDRP_SSRNA_POS; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coiled coil; Helicase; Hydrolase; Methyltransferase;
+KW   Nucleotide-binding; Nucleotidyltransferase; Reference proteome;
+KW   RNA-binding; RNA-directed RNA polymerase; Transferase;
+KW   Viral RNA replication.
+FT   CHAIN           1..1707
+FT                   /note="Replicase large subunit"
+FT                   /id="PRO_0000409292"
+FT   CHAIN           1..1187
+FT                   /note="Replicase small subunit"
+FT                   /id="PRO_0000409293"
+FT   DOMAIN          86..300
+FT                   /note="Alphavirus-like MT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01079"
+FT   DOMAIN          872..1033
+FT                   /note="(+)RNA virus helicase ATP-binding"
+FT   DOMAIN          1034..1187
+FT                   /note="(+)RNA virus helicase C-terminal"
+FT   DOMAIN          1449..1562
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+FT   REGION          65..425
+FT                   /note="Methyltransferase"
+FT   REGION          901..1155
+FT                   /note="Helicase"
+FT   COILED          601..622
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        107..110
+FT                   /note="Poly-Leu"
+SQ   SEQUENCE   1707 AA;  194180 MW;  15900BC7CE9BC8AE CRC64;
+     MANGNFKLSQ LLNVDEMSAE QRSHFFDLML TKPDCEIGQM MQRVVVDKVD DMIRERKTKD
+     PVIVHEVLSQ KEQNKLMEIY PEFNIVFKDD KNMVHGFAAA ERKLQALLLL DRVPALQEVD
+     DIGGQWSFWV TRGEKRIHSC CPNLDIRDDQ REISRQIFLT AIGDQARSGK RQMSENELWM
+     YDQFRKNIAA PNAVRCNNTY HGCTCRGFSD GKKKGAQYAI ALHSLYDFKL KDLMATMVEK
+     KTKVGHAAML FAPESMLVDE GPLPSVDGYY MKKNGKIYFG FEKDPSFSYI HDWEEYKKYL
+     LGKPVSYQGN VFYFEPWQVR GDTMLFSIYR IAGVPRRSLS SQEYYRRIYI SRWENMVVVP
+     IFDLVESTRE LVKKDLFVEK QFMDKCLDYI ARLSDQQLTI SNVKSYLSSN NWVLFINGAA
+     VKNKQSVDSR DLQLLAQTLL VKEQVARPVM RELREAILTE TKPITSLTDV LGLISRKMWK
+     QFANKIAVGG FVGMVGTLIG FYPKKVLTWA KDTPNGPELC YENSHKTKVI VFLSVVYAIG
+     GITLMRRDIR DGLVKKLCDM FDIKRGAHVL DVENPCRYYD INDFFSSLYS ASESGETVLP
+     DLSEVKAKSD KLLQQKKEIA DEFLSAKFSN YSGSSVRTSP PSVVGSSRSG LGLLLEDSNV
+     LTQARVGVSR KVADEEIMEQ FLSGLIDTEA EIDEVVPAFS AECERGETSG TKVLCNLLTP
+     PGFENVLPAV KPLVSKGKTV KRVDYFQVMG GERLPKRPVV SGDDSVDARR EFLYYLDAER
+     VAQNDEIMSL YRDYSRGVIR TGGQNYPHGL GVWDVEMKNW CIRPVVTEHA YVSNPDKRMD
+     DWSGYLEVAV WERGMLVNDF AVERMSDYVI VCDQTYLCNN RLILDNLSAL DLGPVNCSFE
+     LVDGVPGCGK STMIVNSANP CVDVVLSTGR AATDDLIERF ASKGFPCKLK RRVKTVDSFL
+     MHCVDGSLTG DVLHFDEALM AHAGMVYFCA QIAGAKRCIC QGDQNQISFK PRVSQVDLRF
+     SSLVGKFDIV TEKRETYRSP ADVAAVLNKY YTGDVRTHNA TANSMTVRKI VSKEQVSLKP
+     GAQYITFLQS EKKELVNLLA LRKVAAKVST VHESQGETFK DVVLVRTKPT DDSIARGREY
+     LIVALSRHTQ SLVYETVKED DVSKEIRESA ALTKAALARF FVTETVLXRF RSRFDVFRHH
+     EGPCAVPDSG TITDLEMWYD ALFPGNSLRD SSLDGYLVAT TDCNLRLDNV TIKSGNWKDK
+     FAEKETFLKP VIRTAMPDKR KTTQLESLLA LQKRNQAAPD LQENVHATVL IEETMKKLKS
+     VVYDVGKIRA DPIVNRAQME RWWRNQSTAV QAKVVADVRE LHEIDYSSYM FMIKSDVKPK
+     TDLTPQFEYS ALQTVVYHEK LINSLFGPIF KEINERKLDA MQPHFVFNTR MTSSDLNDRV
+     KFLNTEAAYD FVEIDMSKFD KSANRFHLQL QLEIYRLFGL DEWAAFLWEV SHTQTTVRDI
+     QNGMMAHIWY QQKSGDADTY NANSDRTLCA LLSELPLEKA VMVTYGGDDS LIAFPRGTQF
+     VDPCPKLATK WNFECKIFKY DVPMFCGKFL LKTSSCYEFV PDPVKVLTKL GKKSIKDVQH
+     LAEIYISLND SNRALGNYMV VSKLSESVSD RYLYKGDSVH ALCALWKHIK SFTALCTLFR
+     DENDKELNPA KVDWKKAQRA VSNFYDW
+//

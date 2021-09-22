@@ -1,0 +1,121 @@
+ID   DLTA_STAAM              Reviewed;         485 AA.
+AC   P68876; Q53661;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=D-alanine--D-alanyl carrier protein ligase {ECO:0000255|HAMAP-Rule:MF_00593};
+DE            Short=DCL {ECO:0000255|HAMAP-Rule:MF_00593};
+DE            EC=6.2.1.54 {ECO:0000255|HAMAP-Rule:MF_00593};
+DE   AltName: Full=D-alanine--poly(phosphoribitol) ligase subunit 1 {ECO:0000255|HAMAP-Rule:MF_00593};
+DE   AltName: Full=D-alanine-activating enzyme {ECO:0000255|HAMAP-Rule:MF_00593};
+DE            Short=DAE {ECO:0000255|HAMAP-Rule:MF_00593};
+GN   Name=dltA {ECO:0000255|HAMAP-Rule:MF_00593}; OrderedLocusNames=SAV0932;
+OS   Staphylococcus aureus (strain Mu50 / ATCC 700699).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=158878;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Mu50 / ATCC 700699;
+RX   PubMed=11418146; DOI=10.1016/s0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I., Cui L.,
+RA   Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K., Hirakawa H.,
+RA   Kuhara S., Goto S., Yabuzaki J., Kanehisa M., Yamashita A., Oshima K.,
+RA   Furuya K., Yoshino C., Shiba T., Hattori M., Ogasawara N., Hayashi H.,
+RA   Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus aureus.";
+RL   Lancet 357:1225-1240(2001).
+CC   -!- FUNCTION: Catalyzes the first step in the D-alanylation of lipoteichoic
+CC       acid (LTA), the activation of D-alanine and its transfer onto the D-
+CC       alanyl carrier protein (Dcp) DltC. In an ATP-dependent two-step
+CC       reaction, forms a high energy D-alanyl-AMP intermediate, followed by
+CC       transfer of the D-alanyl residue as a thiol ester to the
+CC       phosphopantheinyl prosthetic group of the Dcp. D-alanylation of LTA
+CC       plays an important role in modulating the properties of the cell wall
+CC       in Gram-positive bacteria, influencing the net charge of the cell wall.
+CC       {ECO:0000255|HAMAP-Rule:MF_00593}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-alanine + holo-[D-alanyl-carrier protein] = AMP + D-
+CC         alanyl-[D-alanyl-carrier protein] + diphosphate;
+CC         Xref=Rhea:RHEA:55132, Rhea:RHEA-COMP:14102, Rhea:RHEA-COMP:14103,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57416,
+CC         ChEBI:CHEBI:64479, ChEBI:CHEBI:138620, ChEBI:CHEBI:456215;
+CC         EC=6.2.1.54; Evidence={ECO:0000255|HAMAP-Rule:MF_00593};
+CC   -!- PATHWAY: Cell wall biogenesis; lipoteichoic acid biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00593}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00593}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       DltA subfamily. {ECO:0000255|HAMAP-Rule:MF_00593}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000017; BAB57094.1; -; Genomic_DNA.
+DR   RefSeq; WP_000129659.1; NC_002758.2.
+DR   SMR; P68876; -.
+DR   World-2DPAGE; 0002:P68876; -.
+DR   PaxDb; P68876; -.
+DR   EnsemblBacteria; BAB57094; BAB57094; SAV0932.
+DR   KEGG; sav:SAV0932; -.
+DR   HOGENOM; CLU_000022_2_12_9; -.
+DR   OMA; VMDLYPC; -.
+DR   PhylomeDB; P68876; -.
+DR   BioCyc; SAUR158878:SAV_RS05075-MONOMER; -.
+DR   UniPathway; UPA00556; -.
+DR   Proteomes; UP000002481; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047473; F:D-alanine [D-alanyl carrier protein] ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070395; P:lipoteichoic acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd05945; DltA; 1.
+DR   Gene3D; 3.40.50.12780; -; 1.
+DR   HAMAP; MF_00593; DltA; 1.
+DR   InterPro; IPR010071; AA_adenyl_domain.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR042099; AMP-dep_Synthh-like_sf.
+DR   InterPro; IPR010072; DltA.
+DR   InterPro; IPR044507; DltA-like.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   TIGRFAMs; TIGR01733; AA-adenyl-dom; 1.
+DR   TIGRFAMs; TIGR01734; D-ala-DACP-lig; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding.
+FT   CHAIN           1..485
+FT                   /note="D-alanine--D-alanyl carrier protein ligase"
+FT                   /id="PRO_0000213150"
+FT   NP_BIND         144..145
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   NP_BIND         284..289
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   BINDING         189
+FT                   /note="D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   BINDING         293
+FT                   /note="D-alanine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   BINDING         365
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   BINDING         473
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+FT   BINDING         473
+FT                   /note="D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00593"
+SQ   SEQUENCE   485 AA;  54644 MW;  3E2DB528D8211794 CRC64;
+     MTDIINKLQA FADANPQSIA VRHTTDELTY QQLMDESSKL AHRLQGSKKP MILFGHMSPY
+     MIVGMIGAIK AGCGYVPVDT SIPEDRIKMI INKVQPEFVF NTTDESFESL EGEVFTIEDI
+     KTSQDPVIFD SQIKDNDTVY TIFTSGSTGE PKGVQIEYAS LVQFTEWMLE LNKSGNKQQW
+     LNQAPFSFDL SVMAIYPCLA SGGTLNLVDK NMINKPKLLN EMLTATPINI WVSTPSFMEM
+     CLLLPTLNEE QYGSLNEFFF CGEILPHRAA KALVSRFPSA TIYNTYGPTE ATVAVTSIQI
+     TQEILDQYPT LPVGVERLGA RLSTTDDGEL VIEGQSVSLG YLKNDQKTAE VFNFDDGIRT
+     YHTGDKAKFE NGQWFIQGRI DFQIKLNGYR MELEEIETQL RQSEFVKEAI VVPVYKNDKV
+     IHLIGAIVPT TEVTDNAEMT KNIKNDLKSR LPEYMIPRKF EWMEQLPLTS NGKIDRKKIA
+     EVING
+//

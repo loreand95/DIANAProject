@@ -1,0 +1,93 @@
+ID   RSMG_CAUVC              Reviewed;         216 AA.
+AC   P0CAW6; Q9XBF7;
+DT   16-JUN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   02-DEC-2020, entry version 68.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.170 {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=Glucose-inhibited division protein B;
+GN   Name=rsmG {ECO:0000255|HAMAP-Rule:MF_00074}; Synonyms=gidB;
+GN   OrderedLocusNames=CC_3754;
+OS   Caulobacter vibrioides (strain ATCC 19089 / CB15) (Caulobacter crescentus).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+OC   Caulobacteraceae; Caulobacter.
+OX   NCBI_TaxID=190650;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19089 / CB15;
+RX   PubMed=11259647; DOI=10.1073/pnas.061029298;
+RA   Nierman W.C., Feldblyum T.V., Laub M.T., Paulsen I.T., Nelson K.E.,
+RA   Eisen J.A., Heidelberg J.F., Alley M.R.K., Ohta N., Maddock J.R.,
+RA   Potocka I., Nelson W.C., Newton A., Stephens C., Phadke N.D., Ely B.,
+RA   DeBoy R.T., Dodson R.J., Durkin A.S., Gwinn M.L., Haft D.H., Kolonay J.F.,
+RA   Smit J., Craven M.B., Khouri H.M., Shetty J., Berry K.J., Utterback T.R.,
+RA   Tran K., Wolf A.M., Vamathevan J.J., Ermolaeva M.D., White O.,
+RA   Salzberg S.L., Venter J.C., Shapiro L., Fraser C.M.;
+RT   "Complete genome sequence of Caulobacter crescentus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4136-4141(2001).
+CC   -!- FUNCTION: Specifically methylates the N7 position of guanine in
+CC       position 527 of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(527) in 16S rRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(527) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42732, Rhea:RHEA-COMP:10209, Rhea:RHEA-COMP:10210,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.170; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00074};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK25716.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005673; AAK25716.1; ALT_INIT; Genomic_DNA.
+DR   PIR; H87714; H87714.
+DR   RefSeq; NP_422548.1; NC_002696.2.
+DR   RefSeq; WP_015923358.1; NC_002696.2.
+DR   SMR; P0CAW6; -.
+DR   STRING; 190650.CC_3754; -.
+DR   EnsemblBacteria; AAK25716; AAK25716; CC_3754.
+DR   KEGG; ccr:CC_3754; -.
+DR   PATRIC; fig|190650.5.peg.3756; -.
+DR   eggNOG; COG0357; Bacteria.
+DR   HOGENOM; CLU_065341_1_1_5; -.
+DR   OMA; YPRKAGI; -.
+DR   Proteomes; UP000001816; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR31760; PTHR31760; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00138; rsmG_gidB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..216
+FT                   /note="Ribosomal RNA small subunit methyltransferase G"
+FT                   /id="PRO_0000184233"
+FT   REGION          135..136
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         82
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         87
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         148
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   216 AA;  23531 MW;  0C7844BA739ADA51 CRC64;
+     MQPDLALAPE AVLDAAGFQA LVGATDAQIE DLTRFQTLLA EWNEVMNLVG PLTIATYWTR
+     HALDSAQLIP LAPEATAWAD LGAGAGLPGV VLAILLKGRA GAKVHLVESM IKRCRFLEVV
+     AKDLDLPVQI HNARAEDLKL KVDIVTARAC APMTKLLGFA EPYLRNGAVG LFLKGQDVET
+     ELSEARKAWT FESELRTSQS DPRGRIVQVK RLSRVR
+//

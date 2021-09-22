@@ -1,0 +1,201 @@
+ID   CYSJ_SALTY              Reviewed;         599 AA.
+AC   P38039; P14782;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   02-DEC-2020, entry version 139.
+DE   RecName: Full=Sulfite reductase [NADPH] flavoprotein alpha-component {ECO:0000255|HAMAP-Rule:MF_01541};
+DE            Short=SiR-FP {ECO:0000255|HAMAP-Rule:MF_01541};
+DE            EC=1.8.1.2 {ECO:0000255|HAMAP-Rule:MF_01541};
+GN   Name=cysJ {ECO:0000255|HAMAP-Rule:MF_01541}; OrderedLocusNames=STM2948;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=2550423;
+RA   Ostrowski J., Barber M.J., Rueger D.C., Miller B.E., Siegel L.M.,
+RA   Kredich N.M.;
+RT   "Characterization of the flavoprotein moieties of NADPH-sulfite reductase
+RT   from Salmonella typhimurium and Escherichia coli. Physicochemical and
+RT   catalytic properties, amino acid sequence deduced from DNA sequence of
+RT   cysJ, and comparison with NADPH-cytochrome P-450 reductase.";
+RL   J. Biol. Chem. 264:15796-15808(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 594-599.
+RC   STRAIN=LT2;
+RX   PubMed=2670946;
+RA   Ostrowski J., Wu J.-Y., Rueger D.C., Miller B.E., Siegel L.M.,
+RA   Kredich N.M.;
+RT   "Characterization of the cysJIH regions of Salmonella typhimurium and
+RT   Escherichia coli B. DNA sequences of cysI and cysH and a model for the
+RT   siroheme-Fe4S4 active center of sulfite reductase hemoprotein based on
+RT   amino acid homology with spinach nitrite reductase.";
+RL   J. Biol. Chem. 264:15726-15737(1989).
+CC   -!- FUNCTION: Component of the sulfite reductase complex that catalyzes the
+CC       6-electron reduction of sulfite to sulfide. This is one of several
+CC       activities required for the biosynthesis of L-cysteine from sulfate.
+CC       The flavoprotein component catalyzes the electron flow from NADPH ->
+CC       FAD -> FMN to the hemoprotein component. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3 H2O + hydrogen sulfide + 3 NADP(+) = 4 H(+) + 3 NADPH +
+CC         sulfite; Xref=Rhea:RHEA:13801, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17359, ChEBI:CHEBI:29919, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.8.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01541};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01541};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_01541};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01541};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000255|HAMAP-Rule:MF_01541};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; hydrogen
+CC       sulfide from sulfite (NADPH route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   -!- SUBUNIT: Alpha(8)-beta(8). The alpha component is a flavoprotein, the
+CC       beta component is a hemoprotein. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: Belongs to the NADPH-dependent sulphite reductase
+CC       flavoprotein subunit CysJ family. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the flavodoxin
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the flavoprotein
+CC       pyridine nucleotide cytochrome reductase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M23007; AAA27046.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL21828.1; -; Genomic_DNA.
+DR   PIR; A34231; A34231.
+DR   RefSeq; NP_461869.1; NC_003197.2.
+DR   RefSeq; WP_000210927.1; NC_003197.2.
+DR   SMR; P38039; -.
+DR   PaxDb; P38039; -.
+DR   EnsemblBacteria; AAL21828; AAL21828; STM2948.
+DR   GeneID; 1254471; -.
+DR   KEGG; stm:STM2948; -.
+DR   PATRIC; fig|99287.12.peg.3109; -.
+DR   HOGENOM; CLU_001570_17_7_6; -.
+DR   OMA; QKRYQRD; -.
+DR   PhylomeDB; P38039; -.
+DR   UniPathway; UPA00140; UER00207.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IBA:GO_Central.
+DR   GO; GO:0010181; F:FMN binding; IBA:GO_Central.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0004783; F:sulfite reductase (NADPH) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019344; P:cysteine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.990.10; -; 1.
+DR   Gene3D; 3.40.50.360; -; 1.
+DR   Gene3D; 3.40.50.80; -; 1.
+DR   HAMAP; MF_01541; CysJ; 1.
+DR   InterPro; IPR010199; CysJ.
+DR   InterPro; IPR003097; CysJ-like_FAD-binding.
+DR   InterPro; IPR029758; CysJ_Proteobact.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR001094; Flavdoxin-like.
+DR   InterPro; IPR008254; Flavodoxin/NO_synth.
+DR   InterPro; IPR001709; Flavoprot_Pyr_Nucl_cyt_Rdtase.
+DR   InterPro; IPR029039; Flavoprotein-like_sf.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR023173; NADPH_Cyt_P450_Rdtase_alpha.
+DR   InterPro; IPR001433; OxRdtase_FAD/NAD-bd.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   Pfam; PF00667; FAD_binding_1; 1.
+DR   Pfam; PF00258; Flavodoxin_1; 1.
+DR   Pfam; PF00175; NAD_binding_1; 1.
+DR   PIRSF; PIRSF000207; SiR-FP_CysJ; 1.
+DR   PRINTS; PR00369; FLAVODOXIN.
+DR   PRINTS; PR00371; FPNCR.
+DR   SUPFAM; SSF52218; SSF52218; 1.
+DR   SUPFAM; SSF52343; SSF52343; 1.
+DR   SUPFAM; SSF63380; SSF63380; 1.
+DR   TIGRFAMs; TIGR01931; cysJ; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+DR   PROSITE; PS50902; FLAVODOXIN_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cysteine biosynthesis; Electron transport; FAD;
+KW   Flavoprotein; FMN; NADP; Oxidoreductase; Reference proteome; Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..599
+FT                   /note="Sulfite reductase [NADPH] flavoprotein alpha-
+FT                   component"
+FT                   /id="PRO_0000199935"
+FT   DOMAIN          64..202
+FT                   /note="Flavodoxin-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   DOMAIN          234..448
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         70..75
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         117..120
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         153..162
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         386..389
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         404..406
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         419..422
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         519..520
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         525..529
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         322
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         356
+FT                   /note="FAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         410
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         561
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         599
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+SQ   SEQUENCE   599 AA;  66484 MW;  13CBAC2BF806EBDB CRC64;
+     MTTPAPLTGL LPLNPEQLAR LQAATTDLTP EQLAWVSGYF WGVLNPRSGA VAVTPVPERK
+     MPRVTLISAS QTGNARRVAE ALRDDLLAAN LNVTLVNAGD YKFKQIASEK LLVIVTSTQG
+     EGEPPEEAVA LHKFLFSKKA PKLENTAFAV FSLGDTSYEF FCQSGKDFDS KLAELGGERL
+     LDRVDADVEY QAAASEWRAR VVDVLKSRAP VAAPSQSVAT GAVNDIHTSP YTKDAPLIAT
+     LSVNQKITGR NSEKDVRHIE IDLGDSGLRY QPGDALGVWY QNDPALVKEL VELLWLKGDE
+     PVTVDGKTLP LAEALEWHFE LTVNTANIVE NYATLTRSES LLPLVGDKAQ LQHYAATTPI
+     VDMVRFSPAQ LDAQALIDLL RPLTPRLYSI ASAQAEVESE VHITVGVVRY DIEGRARAGG
+     ASSFLADRVE EEGEVRVFIE HNDNFRLPAN PETPVIMIGP GTGIAPFRSF MQQRAAEGVE
+     GKNWLFFGNP HFTEDFLYQV EWQRYVKEGV LSRIDLAWSR DQKEKIYVQD KLREQGAELW
+     RWINDGAHIY VCGDARRMAA DVEKALLEVI AEFGGMDLES ADEYLSELRV ERRYQRDVY
+//

@@ -1,0 +1,102 @@
+ID   PTRA_KLEPN              Reviewed;         135 AA.
+AC   P37080;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   10-FEB-2021, entry version 112.
+DE   RecName: Full=PTS system sorbose-specific EIIA component {ECO:0000303|PubMed:2287279};
+DE   AltName: Full=EIIA-Sor {ECO:0000303|PubMed:2287279};
+DE   AltName: Full=EIII-F-Sor;
+DE   AltName: Full=Sorbose-specific phosphotransferase enzyme IIA component {ECO:0000303|PubMed:2287279};
+GN   Name=sorF {ECO:0000303|PubMed:2287279};
+OS   Klebsiella pneumoniae.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=573;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=1033-5P14 / KAY2026;
+RX   PubMed=7947968; DOI=10.1016/0167-4838(94)90124-4;
+RA   Wehmeier U.F., Lengeler J.W.;
+RT   "Sequence of the sor-operon for L-sorbose utilization from Klebsiella
+RT   pneumoniae KAY2026.";
+RL   Biochim. Biophys. Acta 1208:348-351(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7700234; DOI=10.1007/bf00298968;
+RA   Wehmeier U.F., Wohrl B.M., Lengeler J.W.;
+RT   "Molecular analysis of the phosphoenolpyruvate-dependent L-sorbose:
+RT   phosphotransferase system from Klebsiella pneumoniae and of its multidomain
+RT   structure.";
+RL   Mol. Gen. Genet. 246:610-618(1995).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=1033-5P14 / KAY2026;
+RX   PubMed=6361004; DOI=10.1128/jb.157.1.39-45.1984;
+RA   Sprenger G.A., Lengeler J.W.;
+RT   "L-Sorbose metabolism in Klebsiella pneumoniae and Sor+ derivatives of
+RT   Escherichia coli K-12 and chemotaxis toward sorbose.";
+RL   J. Bacteriol. 157:39-45(1984).
+RN   [4]
+RP   FUNCTION, AND INDUCTION.
+RX   PubMed=2287279; DOI=10.1111/j.1365-2958.1990.tb02067.x;
+RA   Woehrl B.M., Lengeler J.W.;
+RT   "Cloning and physical mapping of the sor genes for L-sorbose transport and
+RT   metabolism from Klebsiella pneumoniae.";
+RL   Mol. Microbiol. 4:1557-1565(1990).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar phosphotransferase
+CC       system (PTS), a major carbohydrate active transport system, catalyzes
+CC       the phosphorylation of incoming sugar substrates concomitant with their
+CC       translocation across the cell membrane. The enzyme II SorABFM PTS
+CC       system is involved in L-sorbose transport. {ECO:0000269|PubMed:6361004,
+CC       ECO:0000305|PubMed:2287279, ECO:0000305|PubMed:7700234}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- INDUCTION: By L-sorbose. {ECO:0000269|PubMed:2287279}.
+CC   -!- DOMAIN: The EIIA type-4 domain is phosphorylated by phospho-HPr on a
+CC       histidyl residue. Then, it transfers the phosphoryl group to the EIIB
+CC       type-4 domain. {ECO:0000255|PROSITE-ProRule:PRU00419}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X66059; CAA46857.1; -; Genomic_DNA.
+DR   PIR; S50187; S50187.
+DR   RefSeq; WP_002884611.1; NZ_WYAL01000049.1.
+DR   SMR; P37080; -.
+DR   TCDB; 4.A.6.1.3; the pts mannose-fructose-sorbose (man) family.
+DR   GeneID; 56941192; -.
+DR   OrthoDB; 2008912at2; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:InterPro.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016773; F:phosphotransferase activity, alcohol group as acceptor; IEA:InterPro.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   CDD; cd00006; PTS_IIA_man; 1.
+DR   Gene3D; 3.40.50.510; -; 1.
+DR   InterPro; IPR013789; PTS_EIIA_man.
+DR   InterPro; IPR004701; PTS_EIIA_man-typ.
+DR   InterPro; IPR036662; PTS_EIIA_man-typ_sf.
+DR   InterPro; IPR033887; PTS_IIA_man.
+DR   Pfam; PF03610; EIIA-man; 1.
+DR   SUPFAM; SSF53062; SSF53062; 1.
+DR   TIGRFAMs; TIGR00824; EIIA-man; 1.
+DR   PROSITE; PS51096; PTS_EIIA_TYPE_4; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Kinase; Phosphoprotein; Phosphotransferase system;
+KW   Sugar transport; Transferase; Transport.
+FT   CHAIN           1..135
+FT                   /note="PTS system sorbose-specific EIIA component"
+FT                   /id="PRO_0000186665"
+FT   DOMAIN          1..131
+FT                   /note="PTS EIIA type-4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00419"
+FT   ACT_SITE        9
+FT                   /note="Tele-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00419"
+FT   MOD_RES         9
+FT                   /note="Phosphohistidine; by HPr"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   135 AA;  14508 MW;  8DEF06570D46B706 CRC64;
+     MVHAIFCAHG QLAGAMLDSV CMVYGEVNVS AVAFVPGENA ADIAINLEKL VSAHTDEEWV
+     IAVDLQCGSP WNAAAGLAMR HPQIRVISGL SLPLALELVD NQHTLSADDL CQHLQAIASQ
+     CCVVWQQPET VEEEF
+//

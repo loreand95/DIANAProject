@@ -1,0 +1,94 @@
+ID   RLME_RICFE              Reviewed;         227 AA.
+AC   Q4UKG2;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   02-DEC-2020, entry version 86.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase E {ECO:0000255|HAMAP-Rule:MF_01547};
+DE            EC=2.1.1.166 {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=23S rRNA Um2552 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=rRNA (uridine-2'-O-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Name=rlmE {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Synonyms=ftsJ {ECO:0000255|HAMAP-Rule:MF_01547},
+GN   rrmJ {ECO:0000255|HAMAP-Rule:MF_01547}; OrderedLocusNames=RF_1118;
+OS   Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) (Rickettsia azadi).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=315456;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-1525 / URRWXCal2;
+RX   PubMed=15984913; DOI=10.1371/journal.pbio.0030248;
+RA   Ogata H., Renesto P., Audic S., Robert C., Blanc G., Fournier P.-E.,
+RA   Parinello H., Claverie J.-M., Raoult D.;
+RT   "The genome sequence of Rickettsia felis identifies the first putative
+RT   conjugative plasmid in an obligate intracellular parasite.";
+RL   PLoS Biol. 3:1-12(2005).
+CC   -!- FUNCTION: Specifically methylates the uridine in position 2552 of 23S
+CC       rRNA at the 2'-O position of the ribose in the fully assembled 50S
+CC       ribosomal subunit. {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(2552) in 23S rRNA = 2'-O-
+CC         methyluridine(2552) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42720, Rhea:RHEA-COMP:10202, Rhea:RHEA-COMP:10203,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74478; EC=2.1.1.166;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01547};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase RlmE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01547}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000053; AAY61969.1; -; Genomic_DNA.
+DR   RefSeq; WP_011271428.1; NC_007109.1.
+DR   SMR; Q4UKG2; -.
+DR   STRING; 315456.RF_1118; -.
+DR   EnsemblBacteria; AAY61969; AAY61969; RF_1118.
+DR   KEGG; rfe:RF_1118; -.
+DR   eggNOG; COG0293; Bacteria.
+DR   HOGENOM; CLU_009422_4_0_5; -.
+DR   OMA; HRQTDHL; -.
+DR   OrthoDB; 1798571at2; -.
+DR   BioCyc; RFEL315456:G1G4G-1874-MONOMER; -.
+DR   Proteomes; UP000008548; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008650; F:rRNA (uridine-2'-O-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01547; RNA_methyltr_E; 1.
+DR   InterPro; IPR015507; rRNA-MeTfrase_E.
+DR   InterPro; IPR002877; rRNA_MeTrfase_FtsJ_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01728; FtsJ; 1.
+DR   PIRSF; PIRSF005461; 23S_rRNA_mtase; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; rRNA processing; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..227
+FT                   /note="Ribosomal RNA large subunit methyltransferase E"
+FT                   /id="PRO_0000155533"
+FT   ACT_SITE        183
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         78
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         80
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         103
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         119
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         143
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+SQ   SEQUENCE   227 AA;  25764 MW;  A7528B1C4DC19D56 CRC64;
+     MTNNLSGYRN KFVRVKTSKK RTVSSSNWLR RQLNDPYVAK ARLEGFRSRA AYKLLEIHGK
+     FKLFNPNMKI VDLGAAPGGW SQVASKLIKA SDNSLNNKII SIDLLEIEPI AEVEFFQKDF
+     FEENTEELII QALDGKADIV MSDMASNTIG HKATDHIRTL LLCEQAFEFA LKVLKPSGHF
+     IAKIFRGGAE NELLNKVKRE FRTVKHFKPS SSRSESTEIY LVALNKK
+//

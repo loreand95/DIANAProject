@@ -1,0 +1,108 @@
+ID   RNC_LACRJ               Reviewed;         233 AA.
+AC   B2G826;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-APR-2021, entry version 72.
+DE   RecName: Full=Ribonuclease 3 {ECO:0000255|HAMAP-Rule:MF_00104};
+DE            EC=3.1.26.3 {ECO:0000255|HAMAP-Rule:MF_00104};
+DE   AltName: Full=Ribonuclease III {ECO:0000255|HAMAP-Rule:MF_00104};
+DE            Short=RNase III {ECO:0000255|HAMAP-Rule:MF_00104};
+GN   Name=rnc {ECO:0000255|HAMAP-Rule:MF_00104}; OrderedLocusNames=LAR_1092;
+OS   Lactobacillus reuteri (strain JCM 1112).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Limosilactobacillus.
+OX   NCBI_TaxID=557433;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCM 1112;
+RX   PubMed=18487258; DOI=10.1093/dnares/dsn009;
+RA   Morita H., Toh H., Fukuda S., Horikawa H., Oshima K., Suzuki T.,
+RA   Murakami M., Hisamatsu S., Kato Y., Takizawa T., Fukuoka H., Yoshimura T.,
+RA   Itoh K., O'Sullivan D.J., McKay L.L., Ohno H., Kikuchi J., Masaoka T.,
+RA   Hattori M.;
+RT   "Comparative genome analysis of Lactobacillus reuteri and Lactobacillus
+RT   fermentum reveal a genomic island for reuterin and cobalamin production.";
+RL   DNA Res. 15:151-161(2008).
+CC   -!- FUNCTION: Digests double-stranded RNA. Involved in the processing of
+CC       primary rRNA transcript to yield the immediate precursors to the large
+CC       and small rRNAs (23S and 16S). Processes some mRNAs, and tRNAs when
+CC       they are encoded in the rRNA operon. Processes pre-crRNA and tracrRNA
+CC       of type II CRISPR loci if present in the organism. {ECO:0000255|HAMAP-
+CC       Rule:MF_00104}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00104};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00104};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00104}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00104}.
+CC   -!- SIMILARITY: Belongs to the ribonuclease III family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00104}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP007281; BAG25608.1; -; Genomic_DNA.
+DR   RefSeq; WP_003663822.1; NC_010609.1.
+DR   SMR; B2G826; -.
+DR   GeneID; 57053402; -.
+DR   KEGG; lrf:LAR_1092; -.
+DR   HOGENOM; CLU_000907_1_3_9; -.
+DR   OMA; LTHKSCK; -.
+DR   BioCyc; LREU557433:G1G2C-1269-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004525; F:ribonuclease III activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019843; F:rRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016075; P:rRNA catabolic process; IEA:InterPro.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   CDD; cd00593; RIBOc; 1.
+DR   Gene3D; 1.10.1520.10; -; 1.
+DR   HAMAP; MF_00104; RNase_III; 1.
+DR   InterPro; IPR014720; dsRBD_dom.
+DR   InterPro; IPR011907; RNase_III.
+DR   InterPro; IPR000999; RNase_III_dom.
+DR   InterPro; IPR036389; RNase_III_sf.
+DR   Pfam; PF00035; dsrm; 1.
+DR   Pfam; PF14622; Ribonucleas_3_3; 1.
+DR   SMART; SM00358; DSRM; 1.
+DR   SMART; SM00535; RIBOc; 1.
+DR   SUPFAM; SSF69065; SSF69065; 1.
+DR   TIGRFAMs; TIGR02191; RNaseIII; 1.
+DR   PROSITE; PS50137; DS_RBD; 1.
+DR   PROSITE; PS50142; RNASE_3_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Magnesium; Metal-binding;
+KW   mRNA processing; Nuclease; RNA-binding; rRNA processing; rRNA-binding;
+KW   tRNA processing.
+FT   CHAIN           1..233
+FT                   /note="Ribonuclease 3"
+FT                   /id="PRO_1000094118"
+FT   DOMAIN          6..135
+FT                   /note="RNase III"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   DOMAIN          161..230
+FT                   /note="DRBM"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   ACT_SITE        52
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   ACT_SITE        124
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   METAL           48
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   METAL           121
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+FT   METAL           124
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00104"
+SQ   SEQUENCE   233 AA;  26606 MW;  4BC0984FB3568C47 CRC64;
+     MIEELQDYLA KEFNIHFDNP ALLAEAFTQA SYVNEHPNQG LKYYERIEFL GDAVLELIVS
+     EYIYKRFPEL PQGKLTRLRA AMVCEDSFSK FAKECHFDQY IRLGHGEEMA GARERPGLLC
+     DIFESFIGAL YLDQGRPAVE KFVQRVIFPK LDMGWFDHAV DAKTSLQEFL QRDGDIAIEY
+     HLVEESGTEN DPEFKVNVTA NGDVIGEGKG SSKKHAEMQA AQQALDNMRN KNK
+//

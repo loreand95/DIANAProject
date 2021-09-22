@@ -1,0 +1,101 @@
+ID   MSCS_HELPX              Reviewed;         274 AA.
+AC   T0DVE4;
+DT   07-JUN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   16-OCT-2013, sequence version 1.
+DT   07-APR-2021, entry version 26.
+DE   RecName: Full=Small-conductance mechanosensitive channel;
+GN   Name=mscS; ORFNames=N203_05530 {ECO:0000312|EMBL:EPZ73970.1};
+OS   Helicobacter pylori (Campylobacter pylori).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=210;
+RN   [1] {ECO:0000312|EMBL:EPZ73970.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UM084 {ECO:0000312|EMBL:EPZ73970.1};
+RX   PubMed=24051312; DOI=10.1128/genomea.00687-13;
+RA   Rehvathy V., Tan M.H., Gunaletchumy S.P., Teh X., Wang S., Baybayan P.,
+RA   Singh S., Ashby M., Kaakoush N.O., Mitchell H.M., Croft L.J., Goh K.L.,
+RA   Loke M.F., Vadivelu J.;
+RT   "Multiple genome sequences of Helicobacter pylori strains of diverse
+RT   disease and antibiotic resistance backgrounds from malaysia.";
+RL   Genome Announc. 1:E00687-E00713(2013).
+RN   [2] {ECO:0007744|PDB:4HW9}
+RP   X-RAY CRYSTALLOGRAPHY (4.14 ANGSTROMS), TOPOLOGY, AND SUBUNIT.
+RX   PubMed=23339071; DOI=10.1002/pro.2222;
+RA   Lai J.Y., Poon Y.S., Kaiser J.T., Rees D.C.;
+RT   "Open and shut: crystal structures of the dodecylmaltoside solubilized
+RT   mechanosensitive channel of small conductance from Escherichia coli and
+RT   Helicobacter pylori at 4.4 A and 4.1 A resolutions.";
+RL   Protein Sci. 22:502-509(2013).
+CC   -!- FUNCTION: Mechanosensitive channel that participates in the regulation
+CC       of osmotic pressure changes within the cell, opening in response to
+CC       stretch forces in the membrane lipid bilayer, without the need for
+CC       other proteins. Contributes to normal resistance to hypoosmotic shock.
+CC       Forms an ion channel of 1.0 nanosiemens conductance with a slight
+CC       preference for anions. {ECO:0000250|UniProtKB:P0C0S1}.
+CC   -!- SUBUNIT: Homoheptamer. {ECO:0000269|PubMed:23339071}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:P0C0S1}; Multi-pass membrane protein
+CC       {ECO:0000269|PubMed:23339071}.
+CC   -!- SIMILARITY: Belongs to the MscS (TC 1.A.23) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AUSO01000002; EPZ73970.1; -; Genomic_DNA.
+DR   RefSeq; WP_021304837.1; NZ_RJHH01000009.1.
+DR   PDB; 4HW9; X-ray; 4.14 A; A/B/C/D/E/F/G=1-272.
+DR   PDBsum; 4HW9; -.
+DR   SMR; T0DVE4; -.
+DR   STRING; 1345592.CBOM010000016_gene1203; -.
+DR   EnsemblBacteria; EPZ73970; EPZ73970; N203_05530.
+DR   PATRIC; fig|1355530.3.peg.203; -.
+DR   eggNOG; COG0668; Bacteria.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   Gene3D; 2.30.30.60; -; 1.
+DR   InterPro; IPR010920; LSM_dom_sf.
+DR   InterPro; IPR006685; MscS_channel.
+DR   InterPro; IPR011066; MscS_channel_C.
+DR   InterPro; IPR011014; MscS_channel_TM-2.
+DR   InterPro; IPR023408; MscS_dom_sf.
+DR   Pfam; PF00924; MS_channel; 1.
+DR   SUPFAM; SSF50182; SSF50182; 1.
+DR   SUPFAM; SSF82689; SSF82689; 1.
+DR   SUPFAM; SSF82861; SSF82861; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell inner membrane; Cell membrane; Ion channel;
+KW   Ion transport; Membrane; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..274
+FT                   /note="Small-conductance mechanosensitive channel"
+FT                   /id="PRO_0000440565"
+FT   TOPO_DOM        1..21
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000305|PubMed:23339071"
+FT   TRANSMEM        22..44
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000269|PubMed:23339071"
+FT   TOPO_DOM        45..56
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:23339071"
+FT   TRANSMEM        57..77
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000269|PubMed:23339071"
+FT   TOPO_DOM        78..79
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000305|PubMed:23339071"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000269|PubMed:23339071"
+FT   TOPO_DOM        101..274
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305|PubMed:23339071"
+SQ   SEQUENCE   274 AA;  30402 MW;  2CA167714FDD34E6 CRC64;
+     MDEIKTLLVD FFPQAKHFGI ILIKAVIVFC IGFYFSFFLR NKTMKLLSKK DEILANFVAQ
+     VTFILILIIT TIIALSTLGV QTTSIITVLG TVGIAVALAL KDYLSSIAGG IILIILHPFK
+     KGDIIEISGL EGKVEALNFF NTSLRLHDGR LAVLPNRSVA NSNIINSNNT ACRRIEWVCG
+     VGYGSDIELV HKTIKDVIDT MEKIDKNMPT FIGITDFGSS SLNFTIRVWA KIEDGIFNVR
+     SELIERIKNA LDANHIEIPF NKLDIAIKNQ DSSK
+//

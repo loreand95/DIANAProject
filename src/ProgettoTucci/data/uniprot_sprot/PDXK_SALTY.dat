@@ -1,0 +1,173 @@
+ID   PDXK_SALTY              Reviewed;         288 AA.
+AC   P40192;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 2.
+DT   02-DEC-2020, entry version 128.
+DE   RecName: Full=Pyridoxine/pyridoxal/pyridoxamine kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+DE            Short=PN/PL/PM kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+DE            EC=2.7.1.35 {ECO:0000255|HAMAP-Rule:MF_01638};
+DE   AltName: Full=B6-vitamer kinase {ECO:0000255|HAMAP-Rule:MF_01638};
+GN   Name=pdxK {ECO:0000255|HAMAP-Rule:MF_01638, ECO:0000303|PubMed:27987384};
+GN   OrderedLocusNames=STM2435;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT2;
+RX   PubMed=7612925; DOI=10.3109/10425179509029354;
+RA   Titgemeyer F.M., Reizer J., Reizer A., Tang J., Parr T.R. Jr.,
+RA   Saier M.H. Jr.;
+RT   "Nucleotide sequence of the region between crr and cysM in Salmonella
+RT   typhimurium: five novel ORFs including one encoding a putative
+RT   transcriptional regulator of the phosphotransferase system.";
+RL   DNA Seq. 5:145-152(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [3]
+RP   INDUCTION.
+RC   STRAIN=LT2;
+RX   PubMed=27987384; DOI=10.1111/febs.13994;
+RA   Tramonti A., Milano T., Nardella C., di Salvo M.L., Pascarella S.,
+RA   Contestabile R.;
+RT   "Salmonella typhimurium PtsJ is a novel MocR-like transcriptional repressor
+RT   involved in regulating the vitamin B6 salvage pathway.";
+RL   FEBS J. 284:466-484(2017).
+CC   -!- FUNCTION: B6-vitamer kinase involved in the salvage pathway of
+CC       pyridoxal 5'-phosphate (PLP). Catalyzes the phosphorylation of
+CC       pyridoxine (PN), pyridoxal (PL), and pyridoxamine (PM), forming their
+CC       respective 5'-phosphorylated esters, i.e. PNP, PLP and PMP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + pyridoxal = ADP + H(+) + pyridoxal 5'-phosphate;
+CC         Xref=Rhea:RHEA:10224, ChEBI:CHEBI:15378, ChEBI:CHEBI:17310,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:456216, ChEBI:CHEBI:597326;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + pyridoxine = ADP + H(+) + pyridoxine 5'-phosphate;
+CC         Xref=Rhea:RHEA:25108, ChEBI:CHEBI:15378, ChEBI:CHEBI:16709,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58589, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + pyridoxamine = ADP + H(+) + pyridoxamine 5'-phosphate;
+CC         Xref=Rhea:RHEA:25104, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57761, ChEBI:CHEBI:58451, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.35; Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01638};
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxal: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01638}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage;
+CC       pyridoxine 5'-phosphate from pyridoxine: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01638}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage;
+CC       pyridoxamine 5'-phosphate from pyridoxamine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   -!- INDUCTION: Is repressed by the transcriptional regulator PtsJ.
+CC       {ECO:0000269|PubMed:27987384}.
+CC   -!- SIMILARITY: Belongs to the pyridoxine kinase family. PdxK subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01638}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U11243; AAC43343.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL21329.1; -; Genomic_DNA.
+DR   RefSeq; NP_461370.1; NC_003197.2.
+DR   RefSeq; WP_000529613.1; NC_003197.2.
+DR   SMR; P40192; -.
+DR   PaxDb; P40192; -.
+DR   EnsemblBacteria; AAL21329; AAL21329; STM2435.
+DR   GeneID; 1253957; -.
+DR   KEGG; stm:STM2435; -.
+DR   PATRIC; fig|99287.12.peg.2573; -.
+DR   HOGENOM; CLU_046496_3_1_6; -.
+DR   OMA; REETWRW; -.
+DR   PhylomeDB; P40192; -.
+DR   UniPathway; UPA01068; UER00298.
+DR   UniPathway; UPA01068; UER00299.
+DR   UniPathway; UPA01068; UER00300.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008902; F:hydroxymethylpyrimidine kinase activity; IBA:GO_Central.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008478; F:pyridoxal kinase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009443; P:pyridoxal 5'-phosphate salvage; IBA:GO_Central.
+DR   CDD; cd01173; pyridoxal_pyridoxamine_kinase; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   HAMAP; MF_01638; PdxK; 1.
+DR   InterPro; IPR023479; PdxK.
+DR   InterPro; IPR013749; PM/HMP-P_kinase-1.
+DR   InterPro; IPR004625; PyrdxlKinase.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   PANTHER; PTHR10534; PTHR10534; 1.
+DR   Pfam; PF08543; Phos_pyr_kin; 1.
+DR   SUPFAM; SSF53613; SSF53613; 1.
+DR   TIGRFAMs; TIGR00687; pyridox_kin; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..288
+FT                   /note="Pyridoxine/pyridoxal/pyridoxamine kinase"
+FT                   /id="PRO_0000213344"
+FT   NP_BIND         225..228
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   METAL           141
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   METAL           167
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         28
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         130
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         162
+FT                   /note="ATP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         167
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         200
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         235
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   BINDING         237
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01638"
+FT   CONFLICT        241
+FT                   /note="A -> P (in Ref. 1; AAC43343)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        283
+FT                   /note="Missing (in Ref. 1; AAC43343)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   288 AA;  30968 MW;  CF3F701FEA841F7A CRC64;
+     MGQESDIQSV LFDDNHRALQ TDIVAVQSQV VYGSVGNSIA VPAIKAQGLR VTAVPTVLFS
+     NTPHYKTFYG GIIPAEWFAG YLTALNERDA LRELKAITTG YMGSADQIVL LSKWLMAIRA
+     SHPEVCILVD PVIGDTDSGM YVQAEIPQAY RTHLLPQAQG LTPNVFELEM LSGKPCRTLE
+     EAVAAAQSLL SDTLKWVVIT SAPGESLETI TVAVVTAQVV EVFAHPRVAT ELKGTGDLFC
+     AELVSGIVQG KKLTTAAKDA AQRVLEVMTW TQQCGCDELI LPPAGEAR
+//

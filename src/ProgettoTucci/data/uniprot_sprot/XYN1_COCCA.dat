@@ -1,0 +1,98 @@
+ID   XYN1_COCCA              Reviewed;         221 AA.
+AC   Q06562;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   07-OCT-2020, entry version 95.
+DE   RecName: Full=Endo-1,4-beta-xylanase I;
+DE            Short=Xylanase I;
+DE            EC=3.2.1.8;
+DE   AltName: Full=1,4-beta-D-xylan xylanohydrolase 1;
+DE   Flags: Precursor;
+GN   Name=XYL1;
+OS   Cochliobolus carbonum (Maize leaf spot fungus) (Bipolaris zeicola).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Dothideomycetes;
+OC   Pleosporomycetidae; Pleosporales; Pleosporineae; Pleosporaceae; Bipolaris.
+OX   NCBI_TaxID=5017;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Race 1 / Isolate SB111;
+RX   PubMed=8400376; DOI=10.1094/mpmi-6-467;
+RA   Apel P.C., Panaccione D.G., Holden F.R., Walton J.D.;
+RT   "Cloning and targeted gene disruption of XYL1, a beta 1,4-xylanase gene
+RT   from the maize pathogen Cochliobolus carbonum.";
+RL   Mol. Plant Microbe Interact. 6:467-473(1993).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   AGRICOLA=IND92046127; DOI=10.1016/0885-5765(92)90070-C;
+RA   Holden F.R., Walton J.D.;
+RT   "Xylanases from the fungal maize pathogen Cochliobolus carbonum.";
+RL   Physiol. Mol. Plant Pathol. 40:39-47(1992).
+CC   -!- FUNCTION: Major xylan-degrading enzyme. Contributes to the hydrolysis
+CC       of arabinoxylan, the major component of maize cell-walls.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8;
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- PTM: The N-terminus is blocked.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 11 (cellulase G) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L13596; AAA33024.1; -; Genomic_DNA.
+DR   SMR; Q06562; -.
+DR   CAZy; GH11; Glycoside Hydrolase Family 11.
+DR   CLAE; XYN11A_COCCA; -.
+DR   BRENDA; 3.2.1.8; 1551.
+DR   UniPathway; UPA00114; -.
+DR   PHI-base; PHI:571; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.60.120.180; -; 1.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR013319; GH11/12.
+DR   InterPro; IPR018208; GH11_AS_1.
+DR   InterPro; IPR033119; GH11_AS_2.
+DR   InterPro; IPR033123; GH11_dom.
+DR   InterPro; IPR001137; Glyco_hydro_11.
+DR   Pfam; PF00457; Glyco_hydro_11; 1.
+DR   PRINTS; PR00911; GLHYDRLASE11.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   PROSITE; PS00776; GH11_1; 1.
+DR   PROSITE; PS00777; GH11_2; 1.
+DR   PROSITE; PS51761; GH11_3; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Direct protein sequencing; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..30
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           31..221
+FT                   /note="Endo-1,4-beta-xylanase I"
+FT                   /id="PRO_0000008003"
+FT   DOMAIN          31..219
+FT                   /note="GH11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01097"
+FT   ACT_SITE        115
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10062"
+FT   ACT_SITE        206
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10063"
+FT   CONFLICT        81
+FT                   /note="W -> I (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        107
+FT                   /note="G -> A (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        131
+FT                   /note="S -> W (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   221 AA;  23728 MW;  59DBD8983FC5B08C CRC64;
+     MVSFTSIITA AVAATGALAA PATDVSLVAR QNTPNGEGTH NGCFWSWWSD GGARATYTNG
+     AGGSYSVSWG SGGNLVGGKG WNPGTARTIT YSGTYNYNGN SYLAVYGWTR NPLVEYYVVE
+     NFGTYDPSSQ SQNKGTVTSD GSSYKIAQST RTNQPSIDGT RTFQQYWSVR QNKRSSGSVN
+     MKTHFDAWAS KGMNLGQHYY QIVATEGYFS TGNAQITVNC P
+//

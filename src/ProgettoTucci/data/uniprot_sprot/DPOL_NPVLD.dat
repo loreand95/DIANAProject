@@ -1,0 +1,114 @@
+ID   DPOL_NPVLD              Reviewed;        1014 AA.
+AC   P30318; Q9YMP4;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 2.
+DT   10-FEB-2021, entry version 96.
+DE   RecName: Full=DNA polymerase;
+DE            EC=2.7.7.7;
+GN   Name=POL; OrderedLocusNames=LdOrf-83;
+OS   Lymantria dispar multicapsid nuclear polyhedrosis virus (LdMNPV).
+OC   Viruses; Baculoviridae; Alphabaculovirus.
+OX   NCBI_TaxID=10449;
+OH   NCBI_TaxID=7088; Lepidoptera (butterflies and moths).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1469355; DOI=10.1099/0022-1317-73-12-3177;
+RA   Bjoernson R.M., Glocker B., Rohrmann G.F.;
+RT   "Characterization of the nucleotide sequence of the Lymantria dispar
+RT   nuclear polyhedrosis virus DNA polymerase gene region.";
+RL   J. Gen. Virol. 73:3177-3183(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=9887315; DOI=10.1006/viro.1998.9469;
+RA   Kuzio J., Pearson M.N., Harwood S.H., Funk C.J., Evans J.T., Slavicek J.M.,
+RA   Rohrmann G.F.;
+RT   "Sequence and analysis of the genome of a baculovirus pathogenic for
+RT   Lymantria dispar.";
+RL   Virology 253:17-34(1999).
+CC   -!- FUNCTION: Replicates the viral genome, host DNA polymerases cannot
+CC       substitute for the viral enzyme in this process. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.7;
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D11476; BAA02036.1; -; Genomic_DNA.
+DR   EMBL; AF081810; AAC70269.1; -; Genomic_DNA.
+DR   PIR; JQ1920; JQ1920.
+DR   PIR; T30431; T30431.
+DR   RefSeq; NP_047720.1; NC_001973.1.
+DR   PRIDE; P30318; -.
+DR   GeneID; 1488540; -.
+DR   KEGG; vg:1488540; -.
+DR   Proteomes; UP000203997; Genome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:InterPro.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0039693; P:viral DNA genome replication; IEA:UniProtKB-KW.
+DR   GO; GO:0019079; P:viral genome replication; ISS:UniProtKB.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   Gene3D; 3.90.1600.10; -; 1.
+DR   InterPro; IPR006172; DNA-dir_DNA_pol_B.
+DR   InterPro; IPR017964; DNA-dir_DNA_pol_B_CS.
+DR   InterPro; IPR006133; DNA-dir_DNA_pol_B_exonuc.
+DR   InterPro; IPR006134; DNA-dir_DNA_pol_B_multi_dom.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR023211; DNA_pol_palm_dom_sf.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   Pfam; PF00136; DNA_pol_B; 1.
+DR   Pfam; PF03104; DNA_pol_B_exo1; 1.
+DR   PRINTS; PR00106; DNAPOLB.
+DR   SMART; SM00486; POLBc; 1.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS00116; DNA_POLYMERASE_B; 1.
+PE   3: Inferred from homology;
+KW   DNA replication; DNA-binding; DNA-directed DNA polymerase;
+KW   Nucleotidyltransferase; Reference proteome; Transferase;
+KW   Viral DNA replication.
+FT   CHAIN           1..1014
+FT                   /note="DNA polymerase"
+FT                   /id="PRO_0000046529"
+FT   CONFLICT        462..463
+FT                   /note="AA -> RRP (in Ref. 1; BAA02036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        483..493
+FT                   /note="RKRAFNEPAPS -> ASAPSTSRP (in Ref. 1; BAA02036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        565
+FT                   /note="S -> SS (in Ref. 1; BAA02036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        701..725
+FT                   /note="LAPDRRQTAIRSIVQDHVCKTLNDS -> WRRTAARPRSAPSCRTTCAKRST
+FT                   TL (in Ref. 1; BAA02036)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        783..799
+FT                   /note="LLRGHSTACALGLLAEQ -> FSAATRRVRARPARRE (in Ref. 1;
+FT                   BAA02036)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1014 AA;  115823 MW;  F6AE184DBCE4CBF3 CRC64;
+     MSSVNLMEWS ALKTQLQAGR DAGKARVSIG PADTARITRM TYADNHLIVF MNARLAKENH
+     RLYQFYAEVR CDLYSYKSCY GTHASATCHR NCTSYKTFVM PGLRDVHTDK LHVVKFKRSD
+     EKRDKNCLDG YLADVNRVHM QTSLLEGQYV RFKNAHACRD YRLSHTAKDV HEFESMLERV
+     QVSALSHEIL PVVACYDIET HSDGQRFSAP DADFIISIAV VVRRDAADTR ICLFYSPDDP
+     VDLSSSSSSP PAAPDTAAVH FRAERDMIAA FFQLLPLLNA DVVLDFNGDK FDLPFLTGRA
+     NKLCGPAEAA RATKIARYDL SPVNVVTQQS YDKFSNKLHS HYLTYYIHID LYQFLSTDSE
+     HNDLENFQLN TVAEHYLKKS KVDLPIHDML QMYGEKRLSR IVEYNVQDCV LPVELFLKLE
+     IADYMYTQCM LLYLCTDDLL RNISHKITVA YFHLALTNTV AAADPTPDPY FFNKYDLSVT
+     SGRKRAFNEP APSANAIDLS QLKRTPVDAA RIPPSAVKLC STRQSCTYKG GKVLSPKPGF
+     NRWVATLDFN ALYPTIMMWE GVCMSNVFIA SDGNVYLDKN VNAVNPKLLK TLSEMRVRYK
+     GLRDQCEYNS FYYKLYDKIQ NALKRIANSI YGYYGIFFKP LANYITKMGR GKLKEVVGKV
+     EAMSDDPRIL REFGLSKINF SVIYGDTDSC FIRVLFDEAE LAPDRRQTAI RSIVQDHVCK
+     TLNDSWCGYK MSLENIMLSL ILLKKKKYCY LNNEQRTKYK GWLIKRDMPL FMRKAFRATV
+     DSLLRGHSTA CALGLLAEQM LRYYREFGAP RENLVDYCFS MSYNETSTTA KRRKEEDPAR
+     KPVITIAKHC RELLANPGVD FLPGNGDRIQ YVLVDVKEKI TQKAFPLKLF DPDSPTLQIS
+     WLKHMNILCT FMNELIQVFG NRPEFEHYFG AIVDEYTSAQ MYDVRYPVLV PTRRAKAGKS
+     AKKNDSDSDS DSDDDDDPAT TPVNYHSLFS MHLKKPKRQA VGEFEPCPQC VARA
+//

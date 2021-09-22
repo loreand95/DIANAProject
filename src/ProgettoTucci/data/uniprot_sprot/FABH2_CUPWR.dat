@@ -1,0 +1,91 @@
+ID   FABH2_CUPWR             Reviewed;         402 AA.
+AC   P49245;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3 B, chloroplastic;
+DE            EC=2.3.1.180;
+DE   AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III B;
+DE   AltName: Full=Beta-ketoacyl-ACP synthase III B;
+DE            Short=KAS III B;
+DE   Flags: Precursor;
+GN   Name=KAS3B;
+OS   Cuphea wrightii (Wright's waxweed).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Myrtales; Lythraceae; Cuphea.
+OX   NCBI_TaxID=35942;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Embryo;
+RX   PubMed=7784524; DOI=10.1104/pp.108.1.443;
+RA   Slabaugh M.B., Tai H., Jaworski J., Knapp S.J.;
+RT   "cDNA clones encoding beta-ketoacyl-acyl carrier protein synthase III from
+RT   Cuphea wrightii.";
+RL   Plant Physiol. 108:443-444(1995).
+CC   -!- FUNCTION: Catalyzes the condensation reaction of fatty acid synthesis
+CC       by the addition to an acyl acceptor of two carbons from malonyl-ACP.
+CC       KAS III catalyzes the first condensation reaction which initiates fatty
+CC       acid synthesis and may therefore play a role in governing the total
+CC       rate of fatty acid production. Possesses both acetoacetyl-ACP synthase
+CC       and acetyl transacylase activities (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + H(+) + malonyl-[ACP] = 3-oxobutanoyl-[ACP] + CO2
+CC         + CoA; Xref=Rhea:RHEA:12080, Rhea:RHEA-COMP:9623, Rhea:RHEA-
+CC         COMP:9625, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:78449, ChEBI:CHEBI:78450;
+CC         EC=2.3.1.180;
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. FabH family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U15934; AAA97534.1; -; mRNA.
+DR   SMR; P49245; -.
+DR   PRIDE; P49245; -.
+DR   BRENDA; 2.3.1.180; 1755.
+DR   UniPathway; UPA00094; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0033818; F:beta-ketoacyl-acyl-carrier-protein synthase III activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00830; KAS_III; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   HAMAP; MF_01815; FabH; 1.
+DR   InterPro; IPR013751; ACP_syn_III.
+DR   InterPro; IPR013747; ACP_syn_III_C.
+DR   InterPro; IPR004655; FabH_synth.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF08545; ACP_syn_III; 1.
+DR   Pfam; PF08541; ACP_syn_III_C; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   TIGRFAMs; TIGR00747; fabH; 1.
+PE   2: Evidence at transcript level;
+KW   Chloroplast; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; Plastid; Transferase;
+KW   Transit peptide.
+FT   TRANSIT         1..?
+FT                   /note="Chloroplast"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..402
+FT                   /note="3-oxoacyl-[acyl-carrier-protein] synthase 3 B,
+FT                   chloroplastic"
+FT                   /id="PRO_0000008734"
+FT   ACT_SITE        178
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        328
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        358
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   402 AA;  42458 MW;  6A6FB1234069EC74 CRC64;
+     MANAYGFVGH SVPTMKRAAQ FQQMGSGFCS ADSISKRVFC CSVVQGADKP ASGDSRTEYR
+     TPRLVSRGCK LVGSGSAMPA LQVSNDDLSK IVDTNDEWIS VRTGIRNRRV LTGKESLTNL
+     ATVAARKALE MAQVDANDVD MVLMCTSTPE DLFGSAPQIQ KALGCKKNPL AYDITAACSG
+     FVLGLVSAAC HIRGGGFNNI LVIGADSLSR YVDWTDRGTC ILFGDAAGAV LVQSCDAEED
+     GLFAFDLHSD GDGQRHLKAA ITENGIDHAV GSNGSVSDFP PRSSSYSCIQ MNGKEVFRFA
+     CRCVPQSIES ALGKAGLNGS NIDWLLLHQA NQRIIDAVAT RLEVPQERVI SNLANYGNTS
+     AASIPLALDE AVRGGKVKAG HLIATAGFGA GLTWGSAIVR WG
+//

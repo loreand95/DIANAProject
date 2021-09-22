@@ -1,0 +1,206 @@
+ID   HEPC_BACTN              Reviewed;         702 AA.
+AC   Q89YR9;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=Heparin-sulfate lyase;
+DE            EC=4.2.2.8;
+DE   AltName: Full=Heparin-sulfate eliminase;
+DE   AltName: Full=Heparinase III;
+DE            Short=HepIII;
+DE   AltName: Full=Heparitin-sulfate lyase;
+DE   Flags: Precursor;
+GN   Name=hepC; OrderedLocusNames=BT_4662;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 /
+OS   E50 / VPI-5482).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS), FUNCTION, CATALYTIC ACTIVITY, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=23011846; DOI=10.1007/s13238-012-2056-z;
+RA   Dong W., Lu W., McKeehan W.L., Luo Y., Ye S.;
+RT   "Structural basis of heparan sulfate-specific degradation by heparinase
+RT   III.";
+RL   Protein Cell 3:950-961(2012).
+CC   -!- FUNCTION: Specifically cleaves heparan sulfate-rich regions of acidic
+CC       polysaccharides. Does not act on N,O-desulfated glucosamine or N-
+CC       acetyl-O-sulfated glucosamine linkages. Functions in cleaving metazoan
+CC       heparan sulfate and providing carbon, nitrogen and sulfate sources for
+CC       microorganisms. {ECO:0000269|PubMed:23011846}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Elimination of sulfate, appears to act on linkages between N-
+CC         acetyl-D-glucosamine and uronate. Product is an unsaturated sugar.;
+CC         EC=4.2.2.8; Evidence={ECO:0000269|PubMed:23011846};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=6.8 uM for heparan sulfate {ECO:0000269|PubMed:23011846};
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the polysaccharide lyase 12 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79767.1; -; Genomic_DNA.
+DR   RefSeq; NP_813573.1; NC_004663.1.
+DR   RefSeq; WP_008760377.1; NC_004663.1.
+DR   PDB; 4FNV; X-ray; 1.60 A; A=1-702.
+DR   PDBsum; 4FNV; -.
+DR   SMR; Q89YR9; -.
+DR   STRING; 226186.BT_4662; -.
+DR   CAZy; PL12; Polysaccharide Lyase Family 12.
+DR   PaxDb; Q89YR9; -.
+DR   PRIDE; Q89YR9; -.
+DR   EnsemblBacteria; AAO79767; AAO79767; BT_4662.
+DR   GeneID; 31617781; -.
+DR   KEGG; bth:BT_4662; -.
+DR   PATRIC; fig|226186.12.peg.4743; -.
+DR   eggNOG; COG5434; Bacteria.
+DR   HOGENOM; CLU_013047_1_0_10; -.
+DR   InParanoid; Q89YR9; -.
+DR   OMA; GWHKEMS; -.
+DR   BioCyc; BTHE:G13PU-9646-MONOMER; -.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015021; F:heparin-sulfate lyase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.50.10.100; -; 1.
+DR   InterPro; IPR008929; Chondroitin_lyas.
+DR   InterPro; IPR012480; Hepar_II_III.
+DR   InterPro; IPR031680; Hepar_II_III_N.
+DR   Pfam; PF07940; Hepar_II_III; 1.
+DR   Pfam; PF16889; Hepar_II_III_N; 1.
+DR   SUPFAM; SSF48230; SSF48230; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Lyase; Periplasm; Reference proteome; Signal.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..702
+FT                   /note="Heparin-sulfate lyase"
+FT                   /id="PRO_0000424105"
+FT   ACT_SITE        314
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255"
+FT   HELIX           48..52
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           61..68
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           72..85
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           103..111
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           127..129
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           153..158
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   TURN            159..163
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           164..174
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           178..193
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          198..200
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           208..225
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           233..252
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           259..275
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           282..299
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           312..331
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           335..337
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   TURN            340..345
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           346..355
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           359..362
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           381..386
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           388..395
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           400..408
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           409..411
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          424..426
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   TURN            427..430
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          431..436
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          443..448
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          472..476
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          479..482
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           498..504
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           506..508
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          509..514
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          525..530
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          532..544
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          547..556
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   TURN            557..559
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          560..570
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          573..580
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   TURN            586..588
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          589..592
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   HELIX           593..595
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          597..600
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          606..616
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          619..633
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          636..647
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          653..664
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          671..675
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          677..679
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          684..691
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+FT   STRAND          694..701
+FT                   /evidence="ECO:0007744|PDB:4FNV"
+SQ   SEQUENCE   702 AA;  79423 MW;  A0F23F65E5046B50 CRC64;
+     MKNIFFICFC ALFAFSGCAD DDDDLLTGGN VDIDLLPDAK PNDVVDPQVF EAINLNYPGL
+     EKVKEFYEAG EHYYAANALL EYYRTRTNVT NPNLSLINVT ISEAEQAKAD YALVDYRFHV
+     NNFYEDKETL KPYSVKQDGG INWEYSPKDA SDEYQKQLHR HQWFIPQAKA YRVSGDEKYI
+     QSWIEVYKNW IENNPKPTTG PNTTSWWQLQ VSTRIGDQVQ LLEYFKNSVN FTPEWLSTFL
+     VEFAEQADFL VDYPYESGGN ILISQANALA TAGTLMPEFK NAEKWMNTGY QILSEEVQNQ
+     IMSDGWHKEM SLHYHIGIVA DFYEAMKLAE ANQLSSKLPS DFTEPLRKAA EVVMYFTYPN
+     YFIKGSDNVV PMFNDSWSRT RNVLKNTNFK QYVEMFPDSE ELKYMQTAGN GGTAQGRTPN
+     NDMKLFDQAG YYVLRNGWTP ASTVMILSNN KSNDASNSLS AYSHNQPDNG TFELYHNGRN
+     FFPDSGVCTY YTSGGDNDLR YWFRGIDKHN TLSIGKQNIK KAAGKLLKSE EGATELVVFE
+     NQGYDNLKHR RAVFYVNKKF FVLVDEGIGN AEGTINLSFN LCEGTASEVV MDTDKNGVHT
+     AFSNNNNIIV RTFANKAVTC SPFTGRIAYL VDGAYNTRQS YTIDMNKSAD ETARYITVIL
+     PVNGSTDTSS ISAKFIDSGY SENSASVEVS VNGETHTLSY TL
+//

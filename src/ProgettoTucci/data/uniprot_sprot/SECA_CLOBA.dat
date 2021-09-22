@@ -1,0 +1,121 @@
+ID   SECA_CLOBA              Reviewed;         836 AA.
+AC   B2UZL5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Protein translocase subunit SecA {ECO:0000255|HAMAP-Rule:MF_01382};
+GN   Name=secA {ECO:0000255|HAMAP-Rule:MF_01382}; OrderedLocusNames=CLH_0512;
+OS   Clostridium botulinum (strain Alaska E43 / Type E3).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=508767;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Alaska E43 / Type E3;
+RA   Brinkac L.M., Brown J.L., Bruce D., Detter C., Munk C., Smith L.A.,
+RA   Smith T.J., Sutton G., Brettin T.S.;
+RT   "Complete genome sequence of Clostridium botulinum E3 str. Alaska E43.";
+RL   Submitted (MAY-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts with
+CC       the SecYEG preprotein conducting channel. Has a central role in
+CC       coupling the hydrolysis of ATP to the transfer of proteins into and
+CC       across the cell membrane, serving as an ATP-driven molecular motor
+CC       driving the stepwise translocation of polypeptide chains across the
+CC       membrane. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01382};
+CC       Note=May bind 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382};
+CC   -!- SUBUNIT: Monomer and homodimer. Part of the essential Sec protein
+CC       translocation apparatus which comprises SecA, SecYEG and auxiliary
+CC       proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01382};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01382};
+CC       Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01382}. Cytoplasm
+CC       {ECO:0000255|HAMAP-Rule:MF_01382}. Note=Distribution is 50-50.
+CC       {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SIMILARITY: Belongs to the SecA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001078; ACD52757.1; -; Genomic_DNA.
+DR   RefSeq; WP_003370042.1; NC_010723.1.
+DR   SMR; B2UZL5; -.
+DR   KEGG; cbt:CLH_0512; -.
+DR   HOGENOM; CLU_005314_3_0_9; -.
+DR   OMA; MVHYDVQ; -.
+DR   OrthoDB; 212453at2; -.
+DR   BioCyc; CBOT508767:G1GC0-495-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-UniRule.
+DR   GO; GO:0017038; P:protein import; IEA:InterPro.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01382; SecA; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004027; SEC_C_motif.
+DR   InterPro; IPR000185; SecA.
+DR   InterPro; IPR020937; SecA_CS.
+DR   InterPro; IPR011115; SecA_DEAD.
+DR   InterPro; IPR014018; SecA_motor_DEAD.
+DR   InterPro; IPR011130; SecA_preprotein_X-link_dom.
+DR   InterPro; IPR011116; SecA_Wing/Scaffold.
+DR   InterPro; IPR036266; SecA_Wing/Scaffold_sf.
+DR   InterPro; IPR036670; SecA_X-link_sf.
+DR   PANTHER; PTHR30612; PTHR30612; 1.
+DR   Pfam; PF02810; SEC-C; 1.
+DR   Pfam; PF07517; SecA_DEAD; 1.
+DR   Pfam; PF01043; SecA_PP_bind; 1.
+DR   Pfam; PF07516; SecA_SW; 1.
+DR   PRINTS; PR00906; SECA.
+DR   SMART; SM00957; SecA_DEAD; 1.
+DR   SMART; SM00958; SecA_PP_bind; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   SUPFAM; SSF81767; SSF81767; 1.
+DR   SUPFAM; SSF81886; SSF81886; 1.
+DR   TIGRFAMs; TIGR00963; secA; 1.
+DR   PROSITE; PS01312; SECA; 1.
+DR   PROSITE; PS51196; SECA_MOTOR_DEAD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Cytoplasm; Membrane; Metal-binding;
+KW   Nucleotide-binding; Protein transport; Translocation; Transport; Zinc.
+FT   CHAIN           1..836
+FT                   /note="Protein translocase subunit SecA"
+FT                   /id="PRO_1000144994"
+FT   NP_BIND         100..107
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   METAL           820
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   METAL           822
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   METAL           831
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+FT   METAL           832
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01382"
+SQ   SEQUENCE   836 AA;  94708 MW;  AF184E7E0F911BF5 CRC64;
+     MGLLSAVFGT YSEREVKRIR PIVSKINELD EVMQKLSDDE LKAKTVEFKE RLNNGETVDD
+     ILPEAFAVVR EASKRVLNMK HYDEQLIGGV VLHQGRIAEM KTGEGKTLVA TLPAYLNGLT
+     GKGVHIITVN DYLAKRDAEQ MGELYGFLGL TTGVIVHELT NEQRREAYNS DITYGTNNEF
+     GFDYLRDNMV IYKEERVQRK LNFTIVDEVD SILIDEARTP LIISGQGEKS TEFYKVADYF
+     VKTLVKEKDY TIDEKANAVM LTDEGFHKAE QTFKVENYAD AENVELQHYV TQALKANYAM
+     RRDKDYMVKD GEVIIVDEFT GRLMEGRRYS DGLHQAIEAK ENVKIARESK TLATITFQNY
+     FRMYEKLSGM TGTALTEENE FREIYGLDVI VVPTHKPVVR IDNPDLVFKS EKGKIMAVVD
+     EIAKAHEVGQ PVLVGTVSIE KSELISSMLK KKGVPHQVLN AKFHEQEAEI ITHAGEKGMV
+     TIATNMAGRG TDIKLGEGVL EIGGLKIIGT ERHESRRIDN QLRGRSGRQG DSGESTFFIS
+     LEDDLMRIFG SEKIQGVVEK LGLEEDEAIE SKLVSKSIEN AQKKVEGNNF DIRKTLLGYD
+     DVMNKQREVI YKQRSEVLEG EDVKEEILHM LRDVISDAVN THIKEDAEDY RESFLYLISY
+     LNDICIPTNE VNLPALADMS KEEIVDHLYD VAVKSYENKE AEFTPERLRE IERVVLLRSV
+     DTKWMDHINN MDNLKQGIGL RAFKQVDPVQ AYQMEGSAMF EEMIDSIKNE TVKMLFHVKV
+     ERAPERVRVA QETNAVHGDK PSAPVGPVRN LNKFGRNDVC PCGSGKKFKN CCGREA
+//

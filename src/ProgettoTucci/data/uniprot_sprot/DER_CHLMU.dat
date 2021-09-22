@@ -1,0 +1,109 @@
+ID   DER_CHLMU               Reviewed;         490 AA.
+AC   Q9PLM3;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   10-FEB-2021, entry version 117.
+DE   RecName: Full=GTPase Der {ECO:0000255|HAMAP-Rule:MF_00195};
+DE   AltName: Full=GTP-binding protein EngA {ECO:0000255|HAMAP-Rule:MF_00195};
+GN   Name=der {ECO:0000255|HAMAP-Rule:MF_00195}; Synonyms=engA;
+GN   OrderedLocusNames=TC_0076;
+OS   Chlamydia muridarum (strain MoPn / Nigg).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=243161;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MoPn / Nigg;
+RX   PubMed=10684935; DOI=10.1093/nar/28.6.1397;
+RA   Read T.D., Brunham R.C., Shen C., Gill S.R., Heidelberg J.F., White O.,
+RA   Hickey E.K., Peterson J.D., Utterback T.R., Berry K.J., Bass S.,
+RA   Linher K.D., Weidman J.F., Khouri H.M., Craven B., Bowman C., Dodson R.J.,
+RA   Gwinn M.L., Nelson W.C., DeBoy R.T., Kolonay J.F., McClarty G.,
+RA   Salzberg S.L., Eisen J.A., Fraser C.M.;
+RT   "Genome sequences of Chlamydia trachomatis MoPn and Chlamydia pneumoniae
+RT   AR39.";
+RL   Nucleic Acids Res. 28:1397-1406(2000).
+CC   -!- FUNCTION: GTPase that plays an essential role in the late steps of
+CC       ribosome biogenesis. {ECO:0000255|HAMAP-Rule:MF_00195}.
+CC   -!- SUBUNIT: Associates with the 50S ribosomal subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00195}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngA (Der) GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00195}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE002160; AAF38958.1; -; Genomic_DNA.
+DR   PIR; A81744; A81744.
+DR   RefSeq; WP_010229302.1; NZ_CP027217.1.
+DR   SMR; Q9PLM3; -.
+DR   STRING; 243161.TC_0076; -.
+DR   EnsemblBacteria; AAF38958; AAF38958; TC_0076.
+DR   GeneID; 1245605; -.
+DR   KEGG; cmu:TC_0076; -.
+DR   eggNOG; COG1160; Bacteria.
+DR   HOGENOM; CLU_016077_6_2_0; -.
+DR   OMA; GVTEQDQ; -.
+DR   OrthoDB; 263682at2; -.
+DR   Proteomes; UP000000800; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.300.20; -; 1.
+DR   HAMAP; MF_00195; GTPase_Der; 1.
+DR   InterPro; IPR031166; G_ENGA.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR016484; GTP-bd_EngA.
+DR   InterPro; IPR032859; KH_dom-like.
+DR   InterPro; IPR015946; KH_dom-like_a/b.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF14714; KH_dom-like; 1.
+DR   Pfam; PF01926; MMR_HSR1; 2.
+DR   PIRSF; PIRSF006485; GTP-binding_EngA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03594; GTPase_EngA; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 2.
+DR   PROSITE; PS51712; G_ENGA; 2.
+PE   3: Inferred from homology;
+KW   GTP-binding; Nucleotide-binding; Repeat; Ribosome biogenesis.
+FT   CHAIN           1..490
+FT                   /note="GTPase Der"
+FT                   /id="PRO_0000178979"
+FT   DOMAIN          1..165
+FT                   /note="EngA-type G 1"
+FT   DOMAIN          227..400
+FT                   /note="EngA-type G 2"
+FT   DOMAIN          401..485
+FT                   /note="KH-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         7..14
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         54..58
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         117..120
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         233..240
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         280..284
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         345..348
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+SQ   SEQUENCE   490 AA;  55440 MW;  2855572D172A61CD CRC64;
+     MRIAILGRPN VGKSSIFNRL CKRSLAIVNA QEGTTRDRLY GEIRAWDSIV HVIDTGGVDQ
+     ESTDRFQKQI HKQALAAAEE ASVLLLVVDI RCGITKQDEE LAKRLLPLKK PLILVMNKAD
+     SQQDLQRIHE FYGLGISNMI ATSASHDKHI DVLLERIRQV AEIPLPSAEE QENTQEEEFS
+     SKESSVALHT FADETLFENE SLSQEEASFL EELVAQTTTP SISNRPLKVA LIGHPNVGKS
+     SIVNALLKEE RCITDNSPGT TRDNVDVSYT YNDKEYVFID TAGLRKAKSI KNSVEWMSSS
+     RTEKAISRAD ICLLVIDATQ QLSYQDKRIL SLIARYKKPH VILVNKWDLM FGVRMEHYVQ
+     DLRKMDPYIG QARILCISAK QRRNLSQIFS AVDDVYTIAT TKLSTSLVNK VLAGAMQRHH
+     PQVINGKRLR IYYAIHKTVT PFSFLLFINS NTLLTKPYEL YLKNTLKAAF NLYGIPFDLE
+     YKAKPARKSN
+//

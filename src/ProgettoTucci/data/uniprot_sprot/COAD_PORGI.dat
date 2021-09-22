@@ -1,0 +1,118 @@
+ID   COAD_PORGI              Reviewed;         153 AA.
+AC   Q7MX47;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 107.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151}; OrderedLocusNames=PG_0369;
+OS   Porphyromonas gingivalis (strain ATCC BAA-308 / W83).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae;
+OC   Porphyromonas.
+OX   NCBI_TaxID=242619;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-308 / W83;
+RX   PubMed=12949112; DOI=10.1128/jb.185.18.5591-5601.2003;
+RA   Nelson K.E., Fleischmann R.D., DeBoy R.T., Paulsen I.T., Fouts D.E.,
+RA   Eisen J.A., Daugherty S.C., Dodson R.J., Durkin A.S., Gwinn M.L.,
+RA   Haft D.H., Kolonay J.F., Nelson W.C., Mason T.M., Tallon L., Gray J.,
+RA   Granger D., Tettelin H., Dong H., Galvin J.L., Duncan M.J., Dewhirst F.E.,
+RA   Fraser C.M.;
+RT   "Complete genome sequence of the oral pathogenic bacterium Porphyromonas
+RT   gingivalis strain W83.";
+RL   J. Bacteriol. 185:5591-5601(2003).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-pantetheine 4'-phosphate + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00151};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015924; AAQ65578.1; -; Genomic_DNA.
+DR   RefSeq; WP_005873821.1; NC_002950.2.
+DR   SMR; Q7MX47; -.
+DR   STRING; 242619.PG_0369; -.
+DR   EnsemblBacteria; AAQ65578; AAQ65578; PG_0369.
+DR   GeneID; 57239832; -.
+DR   KEGG; pgi:PG_0369; -.
+DR   eggNOG; COG0669; Bacteria.
+DR   HOGENOM; CLU_100149_1_1_10; -.
+DR   OMA; EFQMALM; -.
+DR   OrthoDB; 1846503at2; -.
+DR   UniPathway; UPA00241; UER00355.
+DR   Proteomes; UP000000588; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21342:SF1; PTHR21342:SF1; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   TIGRFAMs; TIGR01510; coaD_prev_kdtB; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..153
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_0000156252"
+FT   NP_BIND         11..12
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         90..92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         124..130
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         11
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         19
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         43
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         75
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         89
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         100
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            19
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+SQ   SEQUENCE   153 AA;  16993 MW;  745121D26BCC3002 CRC64;
+     MKKNIALFAG SFDPFTRGHA DIVERSLAIF DEVIIAIGIN EQKRTLFSAE RRQEQIARYY
+     ASRPAIGVIT YSGLTVDLVR QTGATALVRG IRSGSDFEYE RTLADLNRHL SGVDTVLLCT
+     DTRLSFISSS AVRELISFGR DVSDFLPEGF VLD
+//

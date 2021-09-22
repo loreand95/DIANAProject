@@ -1,0 +1,100 @@
+ID   MIAA_CALS4              Reviewed;         315 AA.
+AC   Q8R5S5;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   02-DEC-2020, entry version 103.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185}; OrderedLocusNames=TTE1359;
+OS   Caldanaerobacter subterraneus subsp. tengcongensis (strain DSM 15242 / JCM
+OS   11007 / NBRC 100824 / MB4) (Thermoanaerobacter tengcongensis).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+OC   Thermoanaerobacteraceae; Caldanaerobacter.
+OX   NCBI_TaxID=273068;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15242 / JCM 11007 / NBRC 100824 / MB4;
+RX   PubMed=11997336; DOI=10.1101/gr.219302;
+RA   Bao Q., Tian Y., Li W., Xu Z., Xuan Z., Hu S., Dong W., Yang J., Chen Y.,
+RA   Xue Y., Xu Y., Lai X., Huang L., Dong X., Ma Y., Ling L., Tan H., Chen R.,
+RA   Wang J., Yu J., Yang H.;
+RT   "A complete sequence of the T. tengcongensis genome.";
+RL   Genome Res. 12:689-700(2002).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate =
+CC         diphosphate + N(6)-dimethylallyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE008691; AAM24581.1; -; Genomic_DNA.
+DR   RefSeq; WP_009610803.1; NC_003869.1.
+DR   SMR; Q8R5S5; -.
+DR   STRING; 273068.TTE1359; -.
+DR   EnsemblBacteria; AAM24581; AAM24581; TTE1359.
+DR   KEGG; tte:TTE1359; -.
+DR   eggNOG; COG0324; Bacteria.
+DR   HOGENOM; CLU_032616_0_1_9; -.
+DR   OMA; YAKRQFT; -.
+DR   OrthoDB; 1069591at2; -.
+DR   Proteomes; UP000000555; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11088; PTHR11088; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Reference proteome;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..315
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_0000163999"
+FT   NP_BIND         10..17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          12..17
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          35..38
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            101
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            124
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   315 AA;  36842 MW;  61DCA4A2D5EC42D3 CRC64;
+     MAIQIVLIVG PTATGKSRLA VDVAKRFNGE VVSADSMQIY KYMDIGTAKI TKEEMQGIPH
+     HMIDIVEPNE EFSVAEYEKR AKAIIKDIHE RGKLPIIVGG TGLYINSIVY IMHFSDFEGS
+     KEFREKMKKL AETYGTSYLY EKLKEVDPEA ARKIHPNDLR RIIRALEVYE FTGKPISHYQ
+     KMSGMRKNPE YDPIMIGLNY KNRQLLYEKI NRRVDEMIKN NLVEEVVNLL KIGYNKYGTS
+     MQALGYKEIV EYLNGEISLE EAVEKIKKGT RRYAKRQITW FKAYDFIKWF FVDDYKTYEE
+     LRENIFEYLA GKLKF
+//

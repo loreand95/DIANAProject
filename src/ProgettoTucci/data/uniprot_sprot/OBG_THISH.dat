@@ -1,0 +1,116 @@
+ID   OBG_THISH               Reviewed;         347 AA.
+AC   B8GQQ3;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   10-FEB-2021, entry version 73.
+DE   RecName: Full=GTPase Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+DE            EC=3.6.5.- {ECO:0000255|HAMAP-Rule:MF_01454};
+DE   AltName: Full=GTP-binding protein Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+GN   Name=obg {ECO:0000255|HAMAP-Rule:MF_01454}; OrderedLocusNames=Tgr7_3208;
+OS   Thioalkalivibrio sulfidiphilus (strain HL-EbGR7).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;
+OC   Ectothiorhodospiraceae; Thioalkalivibrio.
+OX   NCBI_TaxID=396588;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HL-EbGR7;
+RX   PubMed=21475584; DOI=10.4056/sigs.1483693;
+RA   Muyzer G., Sorokin D.Y., Mavromatis K., Lapidus A., Clum A., Ivanova N.,
+RA   Pati A., d'Haeseleer P., Woyke T., Kyrpides N.C.;
+RT   "Complete genome sequence of 'Thioalkalivibrio sulfidophilus' HL-EbGr7.";
+RL   Stand. Genomic Sci. 4:23-35(2011).
+CC   -!- FUNCTION: An essential GTPase which binds GTP, GDP and possibly
+CC       (p)ppGpp with moderate affinity, with high nucleotide exchange rates
+CC       and a fairly low GTP hydrolysis rate. Plays a role in control of the
+CC       cell cycle, stress response, ribosome biogenesis and in those bacteria
+CC       that undergo differentiation, in morphogenesis control.
+CC       {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01454};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001339; ACL74277.1; -; Genomic_DNA.
+DR   RefSeq; WP_012639739.1; NC_011901.1.
+DR   SMR; B8GQQ3; -.
+DR   STRING; 396588.Tgr7_3208; -.
+DR   EnsemblBacteria; ACL74277; ACL74277; Tgr7_3208.
+DR   KEGG; tgr:Tgr7_3208; -.
+DR   eggNOG; COG0536; Bacteria.
+DR   HOGENOM; CLU_011747_2_0_6; -.
+DR   OMA; WVRQTDF; -.
+DR   OrthoDB; 603226at2; -.
+DR   Proteomes; UP000002383; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd01898; Obg; 1.
+DR   Gene3D; 2.70.210.12; -; 1.
+DR   HAMAP; MF_01454; GTPase_Obg; 1.
+DR   InterPro; IPR031167; G_OBG.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR035101; GTP-bd_Obg.
+DR   InterPro; IPR014100; GTP-bd_Obg/CgtA.
+DR   InterPro; IPR006074; GTP1-OBG_CS.
+DR   InterPro; IPR006169; GTP1_OBG_dom.
+DR   InterPro; IPR036726; GTP1_OBG_dom_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01018; GTP1_OBG; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF002401; GTP_bd_Obg/CgtA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF82051; SSF82051; 1.
+DR   TIGRFAMs; TIGR02729; Obg_CgtA; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+DR   PROSITE; PS00905; GTP1_OBG; 1.
+DR   PROSITE; PS51883; OBG; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..347
+FT                   /note="GTPase Obg"
+FT                   /id="PRO_0000386362"
+FT   DOMAIN          1..159
+FT                   /note="Obg"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01231"
+FT   DOMAIN          160..334
+FT                   /note="OBG-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         166..173
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         191..195
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         213..216
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         284..287
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         315..317
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   METAL           173
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   METAL           193
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+SQ   SEQUENCE   347 AA;  36956 MW;  4BAFB88F9F3373B6 CRC64;
+     MKFVDEATIK VKAGDGGNGC VSFRREKFVP FGGPDGGDGG DGGSVYLVAT HDLNTLADFR
+     FQRHYEAQRG ENGSGRNMTG ASGADLEVPV PVGTLAYDAE TEELIGDLVE HGQRLLVAQG
+     GFHGLGNTRY KTSTNRAPRQ SKPGTPGELR VLRLELKLLA DVGLLGLPNA GKSTLITQVS
+     GARPKIADYP FTTLYPGLGV VRVGPLQSFV MADIPGLIEG AAEGAGLGIQ FLKHLSRTRL
+     LLHLVDVAPA DPAEDPVAAV HTIEAELQQF SEDLASRPRW LVLNKIDLIA PDERESFTKE
+     LVARLGWEGP VYAISAATGE ACESLMQAIM KYLEEAQSHD ADTATAG
+//

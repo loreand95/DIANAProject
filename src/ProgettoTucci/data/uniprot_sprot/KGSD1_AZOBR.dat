@@ -1,0 +1,254 @@
+ID   KGSD1_AZOBR             Reviewed;         481 AA.
+AC   Q1JUP4;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   07-APR-2021, entry version 49.
+DE   RecName: Full=Alpha-ketoglutaric semialdehyde dehydrogenase 1;
+DE            Short=alphaKGSA dehydrogenase 1;
+DE            EC=1.2.1.26 {ECO:0000269|PubMed:16835232};
+DE   AltName: Full=2,5-dioxovalerate dehydrogenase 1;
+DE   AltName: Full=2-oxoglutarate semialdehyde dehydrogenase 1;
+DE   AltName: Full=KGSADH-I {ECO:0000305};
+DE   AltName: Full=Succinate-semialdehyde dehydrogenase [NAD(+)];
+DE            Short=SSDH;
+DE            EC=1.2.1.24;
+GN   Name=araE;
+OS   Azospirillum brasilense.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Azospirillum.
+OX   NCBI_TaxID=192;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-26; 93-97; 253-257
+RP   AND 339-343, FUNCTION IN ARABINOSE DEGRADATION, CATALYTIC ACTIVITY,
+RP   SUBSTRATE SPECIFICITY, BIOPHYSICOCHEMICAL PROPERTIES, INDUCTION, DISRUPTION
+RP   PHENOTYPE, PATHWAY, AND SUBUNIT.
+RC   STRAIN=ATCC 29145 / Sp7 / DSM 1690 / IMET 11303;
+RX   PubMed=16835232; DOI=10.1074/jbc.m602585200;
+RA   Watanabe S., Kodaki T., Makino K.;
+RT   "A novel alpha-ketoglutaric semialdehyde dehydrogenase: evolutionary
+RT   insight into an alternative pathway of bacterial L-arabinose metabolism.";
+RL   J. Biol. Chem. 281:28876-28888(2006).
+RN   [2]
+RP   PATHWAY.
+RC   STRAIN=ATCC 29145 / Sp7 / DSM 1690 / IMET 11303;
+RX   PubMed=6798025; DOI=10.1128/jb.149.1.364-367.1982;
+RA   Novick N.J., Tyler M.E.;
+RT   "L-arabinose metabolism in Azospirillum brasiliense.";
+RL   J. Bacteriol. 149:364-367(1982).
+CC   -!- FUNCTION: Catalyzes the NAD(P)(+)-dependent oxidation of alpha-
+CC       ketoglutaric semialdehyde (alphaKGSA) to alpha-ketoglutarate. Is
+CC       involved in a degradation pathway of L-arabinose that allows
+CC       A.brasilense to grow on L-arabinose as a sole carbon source. Prefers
+CC       NAD(+) to NADP(+) as a cosubstrate. Displays broad substrate
+CC       specificity: exhibits the highest activity with alphaKGSA and succinic
+CC       semialdehyde as substrates, but to a lesser extent, is also active with
+CC       glutaraldehyde, benzaldehyde, and a number of aldehydes from C3 to C8.
+CC       {ECO:0000269|PubMed:16835232}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,5-dioxopentanoate + H2O + NADP(+) = 2-oxoglutarate + 2 H(+)
+CC         + NADPH; Xref=Rhea:RHEA:11296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57783, ChEBI:CHEBI:58136,
+CC         ChEBI:CHEBI:58349; EC=1.2.1.26;
+CC         Evidence={ECO:0000269|PubMed:16835232};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,5-dioxopentanoate + H2O + NAD(+) = 2-oxoglutarate + 2 H(+) +
+CC         NADH; Xref=Rhea:RHEA:47152, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:58136; Evidence={ECO:0000269|PubMed:16835232};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) + succinate semialdehyde = 2 H(+) + NADH +
+CC         succinate; Xref=Rhea:RHEA:13217, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30031, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57706, ChEBI:CHEBI:57945; EC=1.2.1.24;
+CC         Evidence={ECO:0000269|PubMed:16835232};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=11.0 uM for alpha-ketoglutaric semialdehyde (in the presence of
+CC         NAD(+), at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         KM=15.9 uM for alpha-ketoglutaric semialdehyde (in the presence of
+CC         NADP(+), at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         KM=38.5 uM for succinic semialdehyde (in the presence of NAD(+), at
+CC         25 degrees Celsius and pH 7.2) {ECO:0000269|PubMed:16835232};
+CC         KM=16.3 uM for glutaraldehyde (in the presence of NAD(+), at 25
+CC         degrees Celsius and pH 7.2) {ECO:0000269|PubMed:16835232};
+CC         Vmax=42.5 umol/min/mg enzyme for the oxidation of alpha-ketoglutaric
+CC         semialdehyde with NAD(+) (at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         Vmax=9.85 umol/min/mg enzyme for the oxidation of alpha-ketoglutaric
+CC         semialdehyde with NADP(+) (at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         Vmax=24.7 umol/min/mg enzyme for the oxidation of succinic
+CC         semialdehyde with NAD(+) (at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         Vmax=13.9 umol/min/mg enzyme for the oxidation of glutaraldehyde with
+CC         NAD(+) (at 25 degrees Celsius and pH 7.2)
+CC         {ECO:0000269|PubMed:16835232};
+CC         Note=The catalytic efficiency with alphaKGSA in the presence of
+CC         NAD(+) is 5.2- and 6.2-fold higher than with succinic semialdehyde
+CC         and glutaraldehyde, respectively. When NADP(+) is used as a
+CC         cosubstrate, the catalytic efficiency with alphaKGSA drops 6-fold
+CC         compared with that in the presence of NAD(+).;
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:16835232}.
+CC   -!- INDUCTION: Induced by L-arabinose, and to a lesser extent by D-glucose
+CC       or a nutrient-rich medium. {ECO:0000269|PubMed:16835232}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene are unable to grow on L-
+CC       arabinose as a sole carbon source but grow on a nutrient-rich medium or
+CC       D-glucose at the same growth rate as the wild-type strain. Moreover,
+CC       both the wild-type and the mutant strains can grow on D-glucarate or D-
+CC       galactarate as a sole carbon source. {ECO:0000269|PubMed:16835232}.
+CC   -!- MISCELLANEOUS: A.brasilense possesses two isozymes of alphaKGSA
+CC       dehydrogenase with essential physiological roles for the L-arabinose
+CC       and D-glucarate/D-galactarate metabolisms, respectively. The L-
+CC       arabinose isozyme was isolated in PubMed:16835232 and is described in
+CC       this entry. The other NAD(+)-preferring isozyme of alphaKGSA
+CC       dehydrogenase is induced dramatically by D-glucarate or D-galactarate
+CC       but not by L-arabinose.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB241137; BAE94276.1; -; Genomic_DNA.
+DR   PDB; 5X5T; X-ray; 2.25 A; A/B=2-481.
+DR   PDB; 5X5U; X-ray; 2.30 A; A/B=2-481.
+DR   PDBsum; 5X5T; -.
+DR   PDBsum; 5X5U; -.
+DR   SMR; Q1JUP4; -.
+DR   BRENDA; 1.2.1.24; 611.
+DR   BRENDA; 1.2.1.26; 611.
+DR   SABIO-RK; Q1JUP4; -.
+DR   GO; GO:0047533; F:2,5-dioxovalerate dehydrogenase (NADP+) activity; IDA:UniProtKB.
+DR   GO; GO:0070403; F:NAD+ binding; IDA:UniProtKB.
+DR   GO; GO:0070401; F:NADP+ binding; IDA:UniProtKB.
+DR   GO; GO:0004777; F:succinate-semialdehyde dehydrogenase (NAD+) activity; IDA:UniProtKB.
+DR   GO; GO:0019570; P:L-arabinose catabolic process to 2-oxoglutarate; IDA:UniProtKB.
+DR   GO; GO:0051262; P:protein tetramerization; IDA:UniProtKB.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Arabinose catabolism; Carbohydrate metabolism;
+KW   Direct protein sequencing; NAD; NADP; Oxidoreductase.
+FT   CHAIN           1..481
+FT                   /note="Alpha-ketoglutaric semialdehyde dehydrogenase 1"
+FT                   /id="PRO_0000418508"
+FT   NP_BIND         154..155
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         178..181
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         231..232
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        253
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        287
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         254
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         384
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          11..13
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          16..18
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          25..29
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   TURN            31..33
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          36..41
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           45..62
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           67..83
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           85..96
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           100..121
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          127..129
+FT                   /evidence="ECO:0007744|PDB:5X5U"
+FT   STRAND          136..144
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          148..151
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          154..156
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           159..171
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          175..178
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           185..197
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          203..207
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           211..218
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          226..231
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           233..245
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          249..253
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          258..262
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           268..280
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           281..284
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          290..296
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           297..299
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           300..312
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           332..347
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          351..354
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          360..363
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          369..373
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           379..381
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          387..397
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           398..405
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          407..417
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           421..430
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          434..440
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   HELIX           454..456
+FT                   /evidence="ECO:0007744|PDB:5X5U"
+FT   HELIX           464..470
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+FT   STRAND          471..479
+FT                   /evidence="ECO:0007744|PDB:5X5T"
+SQ   SEQUENCE   481 AA;  50831 MW;  9AEFB070DD8D681D CRC64;
+     MANVTYTDTQ LLIDGEWVDA ASGKTIDVVN PATGKPIGRV AHAGIADLDR ALAAAQSGFE
+     AWRKVPAHER AATMRKAAAL VRERADAIAQ LMTQEQGKPL TEARVEVLSA ADIIEWFADE
+     GRRVYGRIVP PRNLGAQQTV VKEPVGPVAA FTPWNFPVNQ VVRKLSAALA TGCSFLVKAP
+     EETPASPAAL LRAFVDAGVP AGVIGLVYGD PAEISSYLIP HPVIRKVTFT GSTPVGKQLA
+     SLAGLHMKRA TMELGGHAPV IVAEDADVAL AVKAAGGAKF RNAGQVCISP TRFLVHNSIR
+     DEFTRALVKH AEGLKVGNGL EEGTTLGALA NPRRLTAMAS VIDNARKVGA SIETGGERIG
+     SEGNFFAPTV IANVPLDADV FNNEPFGPVA AIRGFDKLEE AIAEANRLPF GLAGYAFTRS
+     FANVHLLTQR LEVGMLWINQ PATPWPEMPF GGVKDSGYGS EGGPEALEPY LVTKSVTVMA
+     V
+//

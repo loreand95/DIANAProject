@@ -1,0 +1,112 @@
+ID   DAPF_HELPJ              Reviewed;         273 AA.
+AC   Q9ZLR5;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-DEC-2020, entry version 116.
+DE   RecName: Full=Diaminopimelate epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            Short=DAP epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            EC=5.1.1.7 {ECO:0000255|HAMAP-Rule:MF_00197};
+DE   AltName: Full=PLP-independent amino acid racemase {ECO:0000255|HAMAP-Rule:MF_00197};
+GN   Name=dapF {ECO:0000255|HAMAP-Rule:MF_00197}; OrderedLocusNames=jhp_0513;
+OS   Helicobacter pylori (strain J99 / ATCC 700824) (Campylobacter pylori J99).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=85963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=J99 / ATCC 700824;
+RX   PubMed=9923682; DOI=10.1038/16495;
+RA   Alm R.A., Ling L.-S.L., Moir D.T., King B.L., Brown E.D., Doig P.C.,
+RA   Smith D.R., Noonan B., Guild B.C., deJonge B.L., Carmel G., Tummino P.J.,
+RA   Caruso A., Uria-Nickelsen M., Mills D.M., Ives C., Gibson R., Merberg D.,
+RA   Mills S.D., Jiang Q., Taylor D.E., Vovis G.F., Trust T.J.;
+RT   "Genomic sequence comparison of two unrelated isolates of the human gastric
+RT   pathogen Helicobacter pylori.";
+RL   Nature 397:176-180(1999).
+CC   -!- FUNCTION: Catalyzes the stereoinversion of LL-2,6-diaminoheptanedioate
+CC       (L,L-DAP) to meso-diaminoheptanedioate (meso-DAP), a precursor of L-
+CC       lysine and an essential component of the bacterial peptidoglycan.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,6S)-2,6-diaminoheptanedioate = meso-2,6-
+CC         diaminoheptanedioate; Xref=Rhea:RHEA:15393, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:57791; EC=5.1.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00197};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; DL-2,6-diaminopimelate from LL-2,6-diaminopimelate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SIMILARITY: Belongs to the diaminopimelate epimerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE001439; AAD06089.1; -; Genomic_DNA.
+DR   PIR; G71923; G71923.
+DR   RefSeq; WP_000232432.1; NZ_CP011330.1.
+DR   SMR; Q9ZLR5; -.
+DR   STRING; 85963.jhp_0513; -.
+DR   EnsemblBacteria; AAD06089; AAD06089; jhp_0513.
+DR   KEGG; hpj:jhp_0513; -.
+DR   PATRIC; fig|85963.30.peg.483; -.
+DR   eggNOG; COG0253; Bacteria.
+DR   OMA; EWEFYNS; -.
+DR   BioCyc; HPYL85963:G1G1A-556-MONOMER; -.
+DR   UniPathway; UPA00034; UER00025.
+DR   Proteomes; UP000000804; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008837; F:diaminopimelate epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00197; DAP_epimerase; 1.
+DR   InterPro; IPR018510; DAP_epimerase_AS.
+DR   InterPro; IPR001653; DAP_epimerase_DapF.
+DR   PANTHER; PTHR31689; PTHR31689; 1.
+DR   Pfam; PF01678; DAP_epimerase; 2.
+DR   TIGRFAMs; TIGR00652; DapF; 1.
+DR   PROSITE; PS01326; DAP_EPIMERASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Isomerase; Lysine biosynthesis.
+FT   CHAIN           1..273
+FT                   /note="Diaminopimelate epimerase"
+FT                   /id="PRO_0000149844"
+FT   REGION          70..71
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   REGION          199..200
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   REGION          210..211
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        69
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        209
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         11
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         60
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         181
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            152
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            199
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+SQ   SEQUENCE   273 AA;  30661 MW;  C63F468B833841D8 CRC64;
+     MVFYKYSGSG NDFLITQSFK KKDFSNLAQQ VCHRHEGFGA DGLVVVLPSK DYDYEWDFYN
+     SDGSKAGMCG NASRCVGLFA YQHAIAPKEH VFLAGKREIS IRIEEPNIVE SNLGNYQILD
+     TIPNLRCKKF FTNNSVLENI PMFYLINTGV PHLVGFVKNK GLLNSLNTLE LRALRHEFNA
+     NINIAFIENK ETIFLQTYER GVEDFTLACG TGMAAVFIAA RLFHNTPKKA TLIPKSNEFL
+     ELSLKNDGIF YKGVARYIGM SVLGMGVFKN GCF
+//

@@ -1,0 +1,121 @@
+ID   HN_NDVC                 Reviewed;         571 AA.
+AC   P35740;
+DT   01-JUN-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1994, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Hemagglutinin-neuraminidase;
+DE            EC=3.2.1.18;
+GN   Name=HN;
+OS   Newcastle disease virus (strain Chi/85) (NDV).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina;
+OC   Monjiviricetes; Mononegavirales; Paramyxoviridae; Avulavirinae;
+OC   Orthoavulavirus; Avian orthoavulavirus 1.
+OX   NCBI_TaxID=11179;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2705297; DOI=10.1016/0042-6822(89)90151-7;
+RA   Sakaguchi T., Toyoda T., Gotoh B., Inocencio N.M., Kuma K., Miyata T.,
+RA   Nagai Y.;
+RT   "Newcastle disease virus evolution. I. Multiple lineages defined by
+RT   sequence variability of the hemagglutinin-neuraminidase gene.";
+RL   Virology 169:260-272(1989).
+CC   -!- FUNCTION: Mediates the viral entry into the host cell together with
+CC       fusion/F protein. Attaches the virus to sialic acid-containing cell
+CC       receptors and thereby initiates infection. Binding of HN protein to the
+CC       receptor induces a conformational change that allows the F protein to
+CC       trigger virion/cell membranes fusion. {ECO:0000250|UniProtKB:Q91UL0}.
+CC   -!- FUNCTION: Neuraminidase activity ensures the efficient spread of the
+CC       virus by dissociating the mature virions from the neuraminic acid
+CC       containing glycoproteins. {ECO:0000250|UniProtKB:Q91UL0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of alpha-(2->3)-, alpha-(2->6)-, alpha-
+CC         (2->8)- glycosidic linkages of terminal sialic acid residues in
+CC         oligosaccharides, glycoproteins, glycolipids, colominic acid and
+CC         synthetic substrates.; EC=3.2.1.18;
+CC         Evidence={ECO:0000250|UniProtKB:Q91UL0};
+CC   -!- SUBUNIT: Homodimer. Forms homotetramers. Interacts with fusion/F
+CC       protein. Interacts with host CG-1B; this interaction inhibits viral
+CC       adsorption and replication rather than internalization.
+CC       {ECO:0000250|UniProtKB:Q91UL0}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000250|UniProtKB:Q91UL0};
+CC       Single-pass type II membrane protein {ECO:0000250|UniProtKB:Q91UL0}.
+CC       Host cell membrane {ECO:0000250|UniProtKB:Q91UL0}; Single-pass type II
+CC       membrane protein {ECO:0000250|UniProtKB:Q91UL0}.
+CC   -!- SIMILARITY: Belongs to the paramyxoviruses hemagglutinin-neuraminidase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M24716; AAA46666.1; -; Genomic_RNA.
+DR   PIR; C36829; C36829.
+DR   SMR; P35740; -.
+DR   CAZy; GH83; Glycoside Hydrolase Family 83.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-KW.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052794; F:exo-alpha-(2->3)-sialidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052795; F:exo-alpha-(2->6)-sialidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052796; F:exo-alpha-(2->8)-sialidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046789; F:host cell surface receptor binding; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   CDD; cd15469; HN; 1.
+DR   InterPro; IPR016285; Hemagglutn-neuramid.
+DR   InterPro; IPR000665; Hemagglutn/HN.
+DR   InterPro; IPR036278; Sialidase_sf.
+DR   Pfam; PF00423; HN; 1.
+DR   PIRSF; PIRSF001072; Hemagglut-neuramid_paramyxoV; 1.
+DR   SUPFAM; SSF50939; SSF50939; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Hemagglutinin; Host cell membrane; Host membrane;
+KW   Host-virus interaction; Hydrolase; Membrane; Signal-anchor; Transmembrane;
+KW   Transmembrane helix; Viral attachment to host cell; Viral envelope protein;
+KW   Virion; Virus entry into host cell.
+FT   CHAIN           1..571
+FT                   /note="Hemagglutinin-neuraminidase"
+FT                   /id="PRO_0000142608"
+FT   TOPO_DOM        1..26
+FT                   /note="Intravirion"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        27..47
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        48..571
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   REGION          124..152
+FT                   /note="Important for interaction with fusion/F protein"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91UL0"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        341
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91UL0"
+FT   CARBOHYD        433
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91UL0"
+FT   CARBOHYD        481
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000250|UniProtKB:Q91UL0"
+FT   CARBOHYD        508
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        538
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   571 AA;  62901 MW;  3110CD668D71EF76 CRC64;
+     MDRAVNRVVL ENEEREAKNT WRLVFRIAVL LLMVMTLAIS AAALVYSMGA STPRDLAGIS
+     TVISKTEDKV TSLLSSKQDV IDRIYKQVAL ESPLALLNTE SIIMNAITSL SYQINGAANN
+     SGCGEPVHDP DYIGGIGKEL IVDDISDVTS FYPSAYQEHL NFIPAPTTGS GCTRIPSFDM
+     STTHYCYTHN VILSGCRDHS HSHQYLALGV LRTSATGRVF FSTLRSINLD DTQNRKSCSV
+     SATPLGCDML CSKVTETEEE DYKSVTPTSM VHGRLGFDGQ YHEKDLDTTV LFKDWVANYP
+     GVGGGSFIDD RVWFPVYGGL KPNSPSDTAQ EGKYVIYKRY NNTCPDEQDY QIRMAKSSYK
+     PGRFGGKRVQ QAILSIKVST SLGEDPVLTI PPNTITLMGA EGRVLTVGTS HFLYQRGSSY
+     FSPALLYPMT VNNKTATLHS PYTFNAFTRP GSVPCQASAR CPNSCITGVY TDPYPLIFHR
+     NHTLRGVFGT MLDDEQARLN PVSAVFDNIS RSRVTRVSSS STKAAYTTST CFKVVKTNKA
+     YCLSIAEISN TLFGEFRIVP LLVEILKDDR V
+//

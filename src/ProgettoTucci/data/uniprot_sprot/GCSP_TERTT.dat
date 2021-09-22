@@ -1,0 +1,108 @@
+ID   GCSP_TERTT              Reviewed;         961 AA.
+AC   C5BNY8;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   10-FEB-2021, entry version 69.
+DE   RecName: Full=Glycine dehydrogenase (decarboxylating) {ECO:0000255|HAMAP-Rule:MF_00711};
+DE            EC=1.4.4.2 {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine cleavage system P-protein {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine decarboxylase {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) {ECO:0000255|HAMAP-Rule:MF_00711};
+GN   Name=gcvP {ECO:0000255|HAMAP-Rule:MF_00711}; OrderedLocusNames=TERTU_0724;
+OS   Teredinibacter turnerae (strain ATCC 39867 / T7901).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales;
+OC   Cellvibrionaceae; Teredinibacter.
+OX   NCBI_TaxID=377629;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39867 / T7901;
+RX   PubMed=19568419; DOI=10.1371/journal.pone.0006085;
+RA   Yang J.C., Madupu R., Durkin A.S., Ekborg N.A., Pedamallu C.S.,
+RA   Hostetler J.B., Radune D., Toms B.S., Henrissat B., Coutinho P.M.,
+RA   Schwarz S., Field L., Trindade-Silva A.E., Soares C.A.G., Elshahawi S.,
+RA   Hanora A., Schmidt E.W., Haygood M.G., Posfai J., Benner J., Madinger C.,
+RA   Nove J., Anton B., Chaudhary K., Foster J., Holman A., Kumar S.,
+RA   Lessard P.A., Luyten Y.A., Slatko B., Wood N., Wu B., Teplitski M.,
+RA   Mougous J.D., Ward N., Eisen J.A., Badger J.H., Distel D.L.;
+RT   "The complete genome of Teredinibacter turnerae T7901: an intracellular
+RT   endosymbiont of marine wood-boring bivalves (shipworms).";
+RL   PLoS ONE 4:E6085-E6085(2009).
+CC   -!- FUNCTION: The glycine cleavage system catalyzes the degradation of
+CC       glycine. The P protein binds the alpha-amino group of glycine through
+CC       its pyridoxal phosphate cofactor; CO(2) is released and the remaining
+CC       methylamine moiety is then transferred to the lipoamide cofactor of the
+CC       H protein. {ECO:0000255|HAMAP-Rule:MF_00711}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine + H(+) + N(6)-lipoyl-L-lysyl-[glycine-cleavage complex
+CC         H protein] = (R)-N(6)-(S(8)-aminomethyldihydrolipoyl)-L-lysyl-
+CC         [glycine-cleavage complex H protein] + CO2; Xref=Rhea:RHEA:24304,
+CC         Rhea:RHEA-COMP:10494, Rhea:RHEA-COMP:10495, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57305, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83143; EC=1.4.4.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00711};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00711};
+CC   -!- SUBUNIT: The glycine cleavage system is composed of four proteins: P,
+CC       T, L and H. {ECO:0000255|HAMAP-Rule:MF_00711}.
+CC   -!- SIMILARITY: Belongs to the GcvP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00711}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001614; ACR13967.1; -; Genomic_DNA.
+DR   RefSeq; WP_015820082.1; NC_012997.1.
+DR   SMR; C5BNY8; -.
+DR   STRING; 377629.TERTU_0724; -.
+DR   EnsemblBacteria; ACR13967; ACR13967; TERTU_0724.
+DR   KEGG; ttu:TERTU_0724; -.
+DR   eggNOG; COG0403; Bacteria.
+DR   eggNOG; COG1003; Bacteria.
+DR   HOGENOM; CLU_004620_1_1_6; -.
+DR   OMA; DEHCHPQ; -.
+DR   OrthoDB; 70707at2; -.
+DR   BioCyc; TTUR377629:G1GVH-640-MONOMER; -.
+DR   Proteomes; UP000009080; Chromosome.
+DR   GO; GO:0004375; F:glycine dehydrogenase (decarboxylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019464; P:glycine decarboxylation via glycine cleavage system; IEA:UniProtKB-UniRule.
+DR   CDD; cd00613; GDC-P; 2.
+DR   Gene3D; 3.40.640.10; -; 2.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00711; GcvP; 1.
+DR   InterPro; IPR003437; GcvP.
+DR   InterPro; IPR020581; GDC_P.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   PANTHER; PTHR11773; PTHR11773; 1.
+DR   Pfam; PF02347; GDC-P; 2.
+DR   SUPFAM; SSF53383; SSF53383; 2.
+DR   TIGRFAMs; TIGR00461; gcvP; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..961
+FT                   /note="Glycine dehydrogenase (decarboxylating)"
+FT                   /id="PRO_1000212657"
+FT   MOD_RES         709
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00711"
+SQ   SEQUENCE   961 AA;  105239 MW;  4F241C8877C56485 CRC64;
+     MPNTDSLNNL FASDEFISRH IGPDQNQVEK MLATLEVDSL DALIEKTVPA TIREAQPLPL
+     AEPVAEHTAL EELKSLAAKN DVFTSYIGLG YHPTRVPNVI LRNVLENPGW YTAYTPYQPE
+     IAQGRLEGLL NFQQMITDLT GMEMANASML DEATAAAEAM AMAKRVGRKN SSNCFFIDKN
+     CYPQTIAVMR TRAEHFGFDI IVDAPEKALA GEDYFGAILQ YPGADGGIGD IESWIKTIQS
+     KDALAIVAAD IMSLVLLRSP GDMGADIVIG CNQRFGIPMG FGGPHAAFFA FKEKHKRSTP
+     GRIIGVSVDS RGKQALRMAM QTREQHIRRE KANSNICTSQ VLLAVMSAFY AMYHGAEGVD
+     RIARRIHILT KMLSEGLISL GYKLRHTTFF DTLCIEVGDQ QKPLLDRAQH ARINLCAMGS
+     GALSISLSEC TTLDDLTALI AVFAGGESPL DMPSLEAKAQ QKAVLSENLL RDGRALQHEI
+     FSQYHSETEM LRYLKRLESR DIALNHAMIP LGSCTMKLNA TAEMIPVTWP EFGNMHPFAP
+     ISQAAGYAEM FNQLQHMLAA CTGYDAISLQ PNAGSQGEYA GLLTIKKYFE AKGEVRSICL
+     IPQSAHGTNP ASAQMASMKV VVVNCDDDGN VDIADLDAKI AQHGENIAAI MVTYPSTHGV
+     FEENITQICD KIHAVGAQVY IDGANMNALV GIASPGHFGG DVSHLNLHKT FCIPHGGGGP
+     GMGPIGVKDH LAPYLAAHPL QEIPGTVAAN GTVSAAPWGS ASILPISWMY IRMMGAKGMK
+     MASEYAILNA NYIAKRLKNH FPILYSGKHG FVAHECLLDL RPLKEASGVS EEDIAKRLMD
+     FGFHAPTMSF PVAGTLMIEP TESENQFELD RFCDAMIQIR EEIRKIEQGE LPADDNPLVN
+     APHTLDDVCN SEWNRSYTRD QACRPLDYLK HHKVWPTVNR IDNVYGDRNL ICSCPGVDDY
+     R
+//

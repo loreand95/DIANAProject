@@ -1,0 +1,110 @@
+ID   TRF2_THEVO              Reviewed;         783 AA.
+AC   Q978U3;
+DT   31-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   02-DEC-2020, entry version 112.
+DE   RecName: Full=Tricorn protease-interacting factor F2;
+DE            EC=3.4.11.-;
+GN   Name=trf2; OrderedLocusNames=TV1322; ORFNames=TVG1363786;
+OS   Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC
+OS   15438 / GSS1).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1;
+RX   PubMed=11121031; DOI=10.1073/pnas.97.26.14257;
+RA   Kawashima T., Amano N., Koike H., Makino S., Higuchi S., Kawashima-Ohya Y.,
+RA   Watanabe K., Yamazaki M., Kanehori K., Kawamoto T., Nunoshiba T.,
+RA   Yamamoto Y., Aramaki H., Makino K., Suzuki M.;
+RT   "Archaeal adaptation to higher temperatures revealed by genomic sequence of
+RT   Thermoplasma volcanium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:14257-14262(2000).
+CC   -!- FUNCTION: Proteases F1, F2 and F3 degrade oligopeptides produced by
+CC       Tricorn (themselves probably produced by the proteasome), yielding free
+CC       amino acids. {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. Part of the Tricorn proteolytic complex (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000011; BAB60464.1; -; Genomic_DNA.
+DR   RefSeq; WP_010917557.1; NC_002689.2.
+DR   SMR; Q978U3; -.
+DR   STRING; 273116.14325561; -.
+DR   MEROPS; M01.020; -.
+DR   PRIDE; Q978U3; -.
+DR   EnsemblBacteria; BAB60464; BAB60464; BAB60464.
+DR   GeneID; 1441439; -.
+DR   KEGG; tvo:TVG1363786; -.
+DR   eggNOG; arCOG02969; Archaea.
+DR   HOGENOM; CLU_003705_0_1_2; -.
+DR   OMA; FIPCVDH; -.
+DR   OrthoDB; 3866at2157; -.
+DR   Proteomes; UP000001017; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   CDD; cd09601; M1_APN-Q_like; 1.
+DR   Gene3D; 2.60.40.1730; -; 1.
+DR   InterPro; IPR042097; Aminopeptidase_N-like_N.
+DR   InterPro; IPR024571; ERAP1-like_C_dom.
+DR   InterPro; IPR034016; M1_APN-typ.
+DR   InterPro; IPR001930; Peptidase_M1.
+DR   InterPro; IPR014782; Peptidase_M1_dom.
+DR   Pfam; PF11838; ERAP1_C; 1.
+DR   Pfam; PF01433; Peptidase_M1; 1.
+DR   PRINTS; PR00756; ALADIPTASE.
+DR   SUPFAM; SSF63737; SSF63737; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Zinc.
+FT   CHAIN           1..783
+FT                   /note="Tricorn protease-interacting factor F2"
+FT                   /id="PRO_0000095111"
+FT   REGION          236..240
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        272
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           271
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           275
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           294
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   BINDING         107
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            357
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   783 AA;  88980 MW;  57CDF0F111C31054 CRC64;
+     MDFSIEEYDL TFDFDLSEFT YRGKEKIKLS GEANELVLDS VRLSIDSVKL NGSAVDFDVN
+     DKALRIESRI KSGDVVDIDF HAKVSDTLMG LYLSKTREGT MITTQFESTG ARMAFPCIDH
+     PAYKAVFSIT LVIDKDYDAI SNMPVKKVET SDRKIVEFEK TPRMSTYLLY IGVGKFKYAS
+     ERYKDREIIL ASLKDIKSKY PIDIAKRSIE FYEGYFGIPY ALPKMHLISV PEFGAGAMEN
+     WGAITFREIA LMATEDSGSL MKQNAAITIA HEIAHQWFGD LVTMKWWNDL WLNESFATFM
+     SYKTVDSFSK QWDVFSDFIK SETGGALRSD SLKNTHPIEV DVKDPDEISQ IFDEISYGKG
+     ASILRMIEDY VGAEDFRKGI SKYLKEHAYG NAEGSDLWNA IETESGKPVN RIMEAWITKA
+     GYPVLKVNKD GNRIRLTQEQ FYLDGTSGNT EWPIPLTIIT KKGKVSMLME DEVYIDEMLK
+     LNANNSGFYR VMYDNDTFNT VISSLDKFSN LDKWGLLNDM YAFLVSGRLS VNEYVERIKN
+     FLNDEDHLVV EEIASQLTSL YLIKPSSQVV YQLAKDYLRN QVQRLGTKKK GEDDKISKLR
+     GIVYQDLVTV DEDFAKELSP QFASLSEDPD LALAKAVAKA RTDGLNELID AANKYTDDEI
+     RVRVIAAMGW CSKDQLSTIF SLIDNGTIKK QDMLYVFSFV VTNPSGRDFF FQNIDKIVSL
+     MEHAFEGTGY TSRILEGSIP YIGLEKYEEI KAKASQIRSP SYNVGIDKGL ETLEIIRKLY
+     NKL
+//

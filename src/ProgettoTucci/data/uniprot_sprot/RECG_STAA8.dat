@@ -1,0 +1,111 @@
+ID   RECG_STAA8              Reviewed;         686 AA.
+AC   O50581; Q2FZ57;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   07-APR-2021, entry version 128.
+DE   RecName: Full=ATP-dependent DNA helicase RecG;
+DE            EC=3.6.4.12;
+GN   Name=recG; OrderedLocusNames=SAOUHSC_01194;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=9257758; DOI=10.1128/aac.41.8.1770;
+RA   Niga T., Yoshida H., Hattori H., Nakamura S.;
+RT   "Cloning and sequencing of a novel gene (recG) that affects the quinolone
+RT   susceptibility of Staphylococcus aureus.";
+RL   Antimicrob. Agents Chemother. 41:1770-1774(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+CC   -!- FUNCTION: Critical role in recombination and DNA repair. Helps process
+CC       Holliday junction intermediates to mature products by catalyzing branch
+CC       migration. Has a DNA unwinding activity characteristic of a DNA
+CC       helicase with a 3'- to 5'- polarity. Unwinds branched duplex DNA (Y-
+CC       DNA) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.12;
+CC   -!- SIMILARITY: Belongs to the helicase family. RecG subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB000439; BAA24572.1; -; Genomic_DNA.
+DR   EMBL; CP000253; ABD30301.1; -; Genomic_DNA.
+DR   RefSeq; WP_001151499.1; NZ_LS483365.1.
+DR   RefSeq; YP_499733.1; NC_007795.1.
+DR   SMR; O50581; -.
+DR   STRING; 1280.SAXN108_1227; -.
+DR   EnsemblBacteria; ABD30301; ABD30301; SAOUHSC_01194.
+DR   GeneID; 3919327; -.
+DR   GeneID; 59700058; -.
+DR   KEGG; sao:SAOUHSC_01194; -.
+DR   PATRIC; fig|93061.5.peg.1097; -.
+DR   eggNOG; COG1200; Bacteria.
+DR   HOGENOM; CLU_005122_7_1_9; -.
+DR   OMA; RETNDGF; -.
+DR   PRO; PR:O50581; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003678; F:DNA helicase activity; IBA:GO_Central.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IBA:GO_Central.
+DR   InterPro; IPR004609; ATP-dep_DNA_helicase_RecG.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR033454; RecG_wedge.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF17191; RecG_wedge; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00643; recG; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA damage; DNA recombination; DNA repair; DNA-binding;
+KW   Helicase; Hydrolase; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..686
+FT                   /note="ATP-dependent DNA helicase RecG"
+FT                   /id="PRO_0000102152"
+FT   DOMAIN          279..439
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          462..618
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   NP_BIND         292..299
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOTIF           392..395
+FT                   /note="DEQH box"
+SQ   SEQUENCE   686 AA;  78343 MW;  D3405F218D45432B CRC64;
+     MAKVNLIESP YSLLQLKGIG PKKIEVLQQL NIHTVEDLVL YLPTRYEDNT VIDLNQAEDQ
+     SNVTIEGQVY TAPVVAFFGR NKSKLTVHLM VNNIAVKCIF FNQPYLKKKI ELNQTITVKG
+     KWNRVKQEIT GNRVFFNSQG TQTQENADVQ LEPVYRIKEG IKQKQIRDQI RQALNDVTIH
+     EWLTDELREK YKLETLDFTL NTLHHPKSKE DLLRARRTYA FTELFLFELR MQWLNRLEKS
+     SDEAIEIDYD IDQVKSFIDR LPFELTEAQK SSVNEIFRDL KAPIRMHRLL QGDVGSGKTV
+     VAAICMYALK TAGYQSALMV PTEILAEQHA ESLMALFGDS MNVALLTGSV KGKKRKILLE
+     QLENGTIDCL IGTHALIQDD VIFHNVGLVI TDEQHRFGVN QRQLLREKGA MTNVLFMTAT
+     PIPRTLAISV FGEMDVSSIK QLPKGRKPII TTWAKHEQYD KVLMQMTSEL KKGRQAYVIC
+     PLIESSEHLE DVQNVVALYE SLQQYYGVSR VGLLHGKLSA DEKDEVMQKF SNHEINVLVS
+     TTVVEVGVNV PNATFMMIYD ADRFGLSTLH QLRGRVGRSD QQSYCVLIAS PKTETGIERM
+     TIMTQTTDGF ELSERDLEMR GPGDFFGVKQ SGLPDFLVAN LVEDYRMLEV ARDEAAELIQ
+     SGVFFENTYQ HLRHFVEENL LHRSFD
+//

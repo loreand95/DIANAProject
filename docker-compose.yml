@@ -1,0 +1,25 @@
+version: '3.8'
+
+networks: 
+ diananet:
+
+services:
+ flask:
+  build:
+   context: .
+  ports:
+    - 5000:5000
+  networks: 
+    - diananet
+  env_file:
+    - .env
+
+ neo4j:
+  image: neo4j
+  ports:
+    - 7474:7474
+    - 7687:7687
+  environment:
+    - NEO4J_AUTH=neo4j/test
+  networks: 
+    - diananet

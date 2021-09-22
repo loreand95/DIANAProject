@@ -1,0 +1,103 @@
+ID   MUTY_MYCTO              Reviewed;         304 AA.
+AC   P9WQ08; F2GKC9; O53574; Q7D581;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 38.
+DE   RecName: Full=Adenine DNA glycosylase;
+DE            EC=3.2.2.31 {ECO:0000250|UniProtKB:A0R567};
+GN   Name=mutY; OrderedLocusNames=MT3695;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Adenine glycosylase active on G:A and C:A mispairs, as well
+CC       as processing 7,8-dihydro-8-oxoguanine:A (8-oxoG) mismatches.
+CC       {ECO:0000250|UniProtKB:A0R567}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolyzes free adenine bases from 7,8-dihydro-8-
+CC         oxoguanine:adenine mismatched double-stranded DNA, leaving an
+CC         apurinic site.; EC=3.2.2.31; Evidence={ECO:0000250|UniProtKB:A0R567};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000305};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster does not appear to play a
+CC       role in catalysis, but is probably involved in the proper positioning
+CC       of the enzyme along the DNA strand. {ECO:0000305};
+CC   -!- SIMILARITY: Belongs to the Nth/MutY family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK48053.1; -; Genomic_DNA.
+DR   PIR; F70804; F70804.
+DR   RefSeq; WP_003419495.1; NZ_KK341227.1.
+DR   SMR; P9WQ08; -.
+DR   EnsemblBacteria; AAK48053; AAK48053; MT3695.
+DR   KEGG; mtc:MT3695; -.
+DR   PATRIC; fig|83331.31.peg.3978; -.
+DR   HOGENOM; CLU_012862_2_0_11; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0016798; F:hydrolase activity, acting on glycosyl bonds; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006284; P:base-excision repair; IEA:InterPro.
+DR   CDD; cd00056; ENDO3c; 1.
+DR   Gene3D; 1.10.1670.10; -; 1.
+DR   InterPro; IPR011257; DNA_glycosylase.
+DR   InterPro; IPR003651; Endonuclease3_FeS-loop_motif.
+DR   InterPro; IPR003265; HhH-GPD_domain.
+DR   InterPro; IPR000445; HhH_motif.
+DR   InterPro; IPR023170; HTH_base_excis_C.
+DR   InterPro; IPR044298; MIG/MutY.
+DR   PANTHER; PTHR42944; PTHR42944; 1.
+DR   Pfam; PF00633; HHH; 1.
+DR   Pfam; PF00730; HhH-GPD; 1.
+DR   SMART; SM00478; ENDO3c; 1.
+DR   SMART; SM00525; FES; 1.
+DR   SUPFAM; SSF48150; SSF48150; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; DNA damage; DNA repair; Glycosidase; Hydrolase; Iron; Iron-sulfur;
+KW   Metal-binding.
+FT   CHAIN           1..304
+FT                   /note="Adenine DNA glycosylase"
+FT                   /id="PRO_0000426858"
+FT   DOMAIN          111..139
+FT                   /note="HhH"
+FT   ACT_SITE        48
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P83847"
+FT   METAL           203
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           210
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           213
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           218
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   SITE            149
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P83847"
+SQ   SEQUENCE   304 AA;  33684 MW;  89B86C2F4AA7131E CRC64;
+     MPHILPEPSV TGPRHISDTN LLAWYQRSHR DLPWREPGVS PWQILVSEFM LQQTPAARVL
+     AIWPDWVRRW PTPSATATAS TADVLRAWGK LGYPRRAKRL HECATVIARD HNDVVPDDIE
+     ILVTLPGVGS YTARAVACFA YRQRVPVVDT NVRRVVARAV HGRADAGAPS VPRDHADVLA
+     LLPHRETAPE FSVALMELGA TVCTARTPRC GLCPLDWCAW RHAGYPPSDG PPRRGQAYTG
+     TDRQVRGRLL DVLRAAEFPV TRAELDVAWL TDTAQRDRAL ESLLADALVT RTVDGRFALP
+     GEGF
+//

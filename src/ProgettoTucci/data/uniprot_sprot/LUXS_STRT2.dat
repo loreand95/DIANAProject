@@ -1,0 +1,93 @@
+ID   LUXS_STRT2              Reviewed;         160 AA.
+AC   Q5M5R0;
+DT   21-AUG-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   07-APR-2021, entry version 87.
+DE   RecName: Full=S-ribosylhomocysteine lyase {ECO:0000255|HAMAP-Rule:MF_00091};
+DE            EC=4.4.1.21 {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=AI-2 synthesis protein {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=Autoinducer-2 production protein LuxS {ECO:0000255|HAMAP-Rule:MF_00091};
+GN   Name=luxS {ECO:0000255|HAMAP-Rule:MF_00091}; OrderedLocusNames=stu0394;
+OS   Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=264199;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-250 / LMG 18311;
+RX   PubMed=15543133; DOI=10.1038/nbt1034;
+RA   Bolotin A., Quinquis B., Renault P., Sorokin A., Ehrlich S.D.,
+RA   Kulakauskas S., Lapidus A., Goltsman E., Mazur M., Pusch G.D., Fonstein M.,
+RA   Overbeek R., Kyprides N., Purnelle B., Prozzi D., Ngui K., Masuy D.,
+RA   Hancy F., Burteau S., Boutry M., Delcour J., Goffeau A., Hols P.;
+RT   "Complete sequence and comparative genome analysis of the dairy bacterium
+RT   Streptococcus thermophilus.";
+RL   Nat. Biotechnol. 22:1554-1558(2004).
+CC   -!- FUNCTION: Involved in the synthesis of autoinducer 2 (AI-2) which is
+CC       secreted by bacteria and is used to communicate both the cell density
+CC       and the metabolic potential of the environment. The regulation of gene
+CC       expression in response to changes in cell density is called quorum
+CC       sensing. Catalyzes the transformation of S-ribosylhomocysteine (RHC) to
+CC       homocysteine (HC) and 4,5-dihydroxy-2,3-pentadione (DPD).
+CC       {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-(5-deoxy-D-ribos-5-yl)-L-homocysteine = (S)-4,5-
+CC         dihydroxypentane-2,3-dione + L-homocysteine; Xref=Rhea:RHEA:17753,
+CC         ChEBI:CHEBI:29484, ChEBI:CHEBI:58195, ChEBI:CHEBI:58199; EC=4.4.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- SIMILARITY: Belongs to the LuxS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00091}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000023; AAV60112.1; -; Genomic_DNA.
+DR   RefSeq; WP_002885585.1; NC_006448.1.
+DR   SMR; Q5M5R0; -.
+DR   STRING; 264199.stu0394; -.
+DR   EnsemblBacteria; AAV60112; AAV60112; stu0394.
+DR   GeneID; 58024264; -.
+DR   KEGG; stl:stu0394; -.
+DR   eggNOG; COG1854; Bacteria.
+DR   HOGENOM; CLU_107531_2_1_9; -.
+DR   OMA; GPMGCLT; -.
+DR   BioCyc; STHE264199:G1G41-429-MONOMER; -.
+DR   Proteomes; UP000001170; Chromosome.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0043768; F:S-ribosylhomocysteine lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009372; P:quorum sensing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.80; -; 1.
+DR   HAMAP; MF_00091; LuxS; 1.
+DR   InterPro; IPR037005; LuxS_sf.
+DR   InterPro; IPR011249; Metalloenz_LuxS/M16.
+DR   InterPro; IPR003815; S-ribosylhomocysteinase.
+DR   PANTHER; PTHR35799; PTHR35799; 1.
+DR   Pfam; PF02664; LuxS; 1.
+DR   PIRSF; PIRSF006160; AI2; 1.
+DR   PRINTS; PR01487; LUXSPROTEIN.
+DR   SUPFAM; SSF63411; SSF63411; 1.
+PE   3: Inferred from homology;
+KW   Autoinducer synthesis; Iron; Lyase; Metal-binding; Quorum sensing;
+KW   Reference proteome.
+FT   CHAIN           1..160
+FT                   /note="S-ribosylhomocysteine lyase"
+FT                   /id="PRO_0000298051"
+FT   METAL           57
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           61
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           127
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+SQ   SEQUENCE   160 AA;  17965 MW;  D2D8F3B2BE7BAE41 CRC64;
+     MPKDVTVESF ELDHTIVKAP YVRLISEEVG PKGDIITNFD IRLIQPNENS IDTGGLHTIE
+     HLLAKLIRQR IDGLIDCSPF GCRTGFHMIM WGKQDPTEIA KVIKSSLEAI ANEITWEDVP
+     GTTIESCGNY KDHSLHSAKE WAKLILEQGI SDQAFERHTV
+//

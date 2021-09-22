@@ -1,0 +1,107 @@
+ID   2SS8_HELAN              Reviewed;         141 AA.
+AC   P23110;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   07-APR-2021, entry version 84.
+DE   RecName: Full=Albumin-8;
+DE   AltName: Full=Methionine-rich 2S protein;
+DE   AltName: Full=SFA8;
+DE   Flags: Precursor;
+OS   Helianthus annuus (Common sunflower).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Asterales; Asteraceae; Asteroideae;
+OC   Heliantheae alliance; Heliantheae; Helianthus.
+OX   NCBI_TaxID=4232;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 39-141.
+RC   TISSUE=Seed;
+RX   PubMed=1997318; DOI=10.1111/j.1432-1033.1991.tb15710.x;
+RA   Kortt A.A., Caldwell J.B., Lilley G.G., Higgins T.J.V.;
+RT   "Amino acid and cDNA sequences of a methionine-rich 2S protein from
+RT   sunflower seed (Helianthus annuus L.).";
+RL   Eur. J. Biochem. 195:329-334(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 39-141.
+RC   STRAIN=cv. Hybrid 246; TISSUE=Seed;
+RX   PubMed=8915004; DOI=10.1016/0014-5793(96)01117-9;
+RA   Egorov T.A., Odintsova T.I., Musolyamov A.K., Fido R., Tatham A.S.,
+RA   Shewry P.R.;
+RT   "Disulphide structure of a sunflower seed albumin: conserved and variant
+RT   disulphide bonds in the cereal prolamin superfamily.";
+RL   FEBS Lett. 396:285-288(1996).
+RN   [3]
+RP   STRUCTURE BY NMR OF 39-141, AND DISULFIDE BONDS.
+RX   PubMed=15170335; DOI=10.1021/bi0496900;
+RA   Pantoja-Uceda D., Shewry P.R., Bruix M., Tatham A.S., Santoro J., Rico M.;
+RT   "Solution structure of a methionine-rich 2S albumin from sunflower seeds:
+RT   relationship to its allergenic and emulsifying properties.";
+RL   Biochemistry 43:6976-6986(2004).
+CC   -!- FUNCTION: This is a 2S seed storage protein.
+CC   -!- SUBUNIT: Heterodimer; disulfide-linked. {ECO:0000269|PubMed:15170335}.
+CC   -!- SIMILARITY: Belongs to the 2S seed storage albumins family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X56686; CAA40015.1; -; mRNA.
+DR   PIR; S14259; S14259.
+DR   PDB; 1S6D; NMR; -; A=39-141.
+DR   PDBsum; 1S6D; -.
+DR   SMR; P23110; -.
+DR   Allergome; 772; Hel a 2S Albumin.
+DR   EvolutionaryTrace; P23110; -.
+DR   GO; GO:0045735; F:nutrient reservoir activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR036312; Bifun_inhib/LTP/seed_sf.
+DR   InterPro; IPR016140; Bifunc_inhib/LTP/seed_store.
+DR   Pfam; PF00234; Tryp_alpha_amyl; 1.
+DR   SMART; SM00499; AAI; 1.
+DR   SUPFAM; SSF47699; SSF47699; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond;
+KW   Seed storage protein; Signal; Storage protein.
+FT   SIGNAL          1..25
+FT   PROPEP          26..38
+FT                   /evidence="ECO:0000269|PubMed:1997318,
+FT                   ECO:0000269|PubMed:8915004"
+FT                   /id="PRO_0000032153"
+FT   CHAIN           39..141
+FT                   /note="Albumin-8"
+FT                   /id="PRO_0000032154"
+FT   DISULFID        49..100
+FT                   /evidence="ECO:0000269|PubMed:15170335"
+FT   DISULFID        62..89
+FT                   /evidence="ECO:0000269|PubMed:15170335"
+FT   DISULFID        90..132
+FT                   /evidence="ECO:0000269|PubMed:15170335"
+FT   DISULFID        102..139
+FT                   /evidence="ECO:0000269|PubMed:15170335"
+FT   CONFLICT        67
+FT                   /note="M -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          46..48
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           49..55
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           61..66
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   TURN            67..70
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   STRAND          77..79
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           87..95
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           98..100
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           103..108
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   HELIX           118..131
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+FT   STRAND          134..137
+FT                   /evidence="ECO:0007744|PDB:1S6D"
+SQ   SEQUENCE   141 AA;  16090 MW;  1E5723B9122C9BD4 CRC64;
+     MARFSIVFAA AGVLLLVAMA PVSEASTTTI ITTIIEENPY GRGRTESGCY QQMEEAEMLN
+     HCGMYLMKNL GERSQVSPRM REEDHKQLCC MQLKNLDEKC MCPAIMMMLN EPMWIRMRDQ
+     VMSMAHNLPI ECNLMSQPCQ M
+//

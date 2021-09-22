@@ -1,0 +1,108 @@
+ID   PANP_ALIF1              Reviewed;         547 AA.
+AC   Q5E6F9;
+DT   05-JUL-2017, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   10-FEB-2021, entry version 95.
+DE   RecName: Full=Aspartate 1-decarboxylase {ECO:0000303|PubMed:28446608};
+DE            EC=4.1.1.11 {ECO:0000269|PubMed:28446608};
+GN   Name=panP {ECO:0000303|PubMed:28446608};
+GN   OrderedLocusNames=VF_0892 {ECO:0000312|EMBL:AAW85387.1};
+OS   Aliivibrio fischeri (strain ATCC 700601 / ES114) (Vibrio fischeri).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Aliivibrio.
+OX   NCBI_TaxID=312309;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700601 / ES114;
+RX   PubMed=15703294; DOI=10.1073/pnas.0409900102;
+RA   Ruby E.G., Urbanowski M., Campbell J., Dunn A., Faini M., Gunsalus R.,
+RA   Lostroh P., Lupp C., McCann J., Millikan D., Schaefer A., Stabb E.,
+RA   Stevens A., Visick K., Whistler C., Greenberg E.P.;
+RT   "Complete genome sequence of Vibrio fischeri: a symbiotic bacterium with
+RT   pathogenic congeners.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:3004-3009(2005).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES, AND
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700601 / ES114;
+RX   PubMed=28446608; DOI=10.1074/jbc.m116.763193;
+RA   Pan S., Nikolakakis K., Adamczyk P.A., Pan M., Ruby E.G., Reed J.L.;
+RT   "Model-enabled gene search (MEGS) allows fast and direct discovery of
+RT   enzymatic and transport gene functions in the marine bacterium Vibrio
+RT   fischeri.";
+RL   J. Biol. Chem. 292:10250-10261(2017).
+CC   -!- FUNCTION: Catalyzes the pyridoxal-dependent decarboxylation of
+CC       aspartate to produce beta-alanine. Has weak activity with glutamate.
+CC       {ECO:0000269|PubMed:28446608}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-aspartate = beta-alanine + CO2; Xref=Rhea:RHEA:19497,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:29991,
+CC         ChEBI:CHEBI:57966; EC=4.1.1.11;
+CC         Evidence={ECO:0000269|PubMed:28446608};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000269|PubMed:28446608};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.44 mM for aspartate (at 28 degrees Celsius)
+CC         {ECO:0000269|PubMed:28446608};
+CC         KM=1.70 mM for aspartate (at 37 degrees Celsius)
+CC         {ECO:0000269|PubMed:28446608};
+CC         Note=kcat is 0.075 sec(-1) at 28 degrees Celsius. kcat is 0.008 sec(-
+CC         1) at 37 degrees Celsius. {ECO:0000269|PubMed:28446608};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; beta-
+CC       alanine from L-aspartate: step 1/1. {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Deletion mutant cannot grow in minimal medium.
+CC       {ECO:0000269|PubMed:28446608}.
+CC   -!- SIMILARITY: Belongs to the group II decarboxylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000020; AAW85387.1; -; Genomic_DNA.
+DR   RefSeq; WP_011261555.1; NC_006840.2.
+DR   RefSeq; YP_204275.1; NC_006840.2.
+DR   SMR; Q5E6F9; -.
+DR   STRING; 312309.VF_0892; -.
+DR   EnsemblBacteria; AAW85387; AAW85387; VF_0892.
+DR   KEGG; vfi:VF_0892; -.
+DR   PATRIC; fig|312309.11.peg.888; -.
+DR   eggNOG; COG0076; Bacteria.
+DR   HOGENOM; CLU_011856_0_4_6; -.
+DR   OMA; RHATYHA; -.
+DR   OrthoDB; 1478871at2; -.
+DR   UniPathway; UPA00028; UER00002.
+DR   Proteomes; UP000000537; Chromosome I.
+DR   GO; GO:0004068; F:aspartate 1-decarboxylase activity; IDA:UniProtKB.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   InterPro; IPR022517; Asp_decarboxylase_pyridox.
+DR   InterPro; IPR002129; PyrdxlP-dep_de-COase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00282; Pyridoxal_deC; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR03799; NOD_PanD_pyr; 1.
+PE   1: Evidence at protein level;
+KW   Decarboxylase; Lyase; Pantothenate biosynthesis; Pyridoxal phosphate;
+KW   Reference proteome.
+FT   CHAIN           1..547
+FT                   /note="Aspartate 1-decarboxylase"
+FT                   /id="PRO_0000440874"
+FT   MOD_RES         338
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y600"
+SQ   SEQUENCE   547 AA;  60953 MW;  B089F65FD9D6844C CRC64;
+     MVTDNKTADA SFESLLRIFT VPEAPDSTLG IIEKELSQNL NQFLREHIVA EEKPLTEIEK
+     DFTDSSMPES PTYVSEHTEH LLDTLVSQSV HTSAPSFIGH MTSALPYFLM PLSKIMIALN
+     QNLVKIETSK AFTPLERQVL GMLHRLIFGQ KDSFYQHWMH SADHSLGAFC SGGTIANITA
+     LWVARNRLLK PEGDFEGIAK QGLFAALMHY KCNGLAIFVS ERGHYSLKKA ADVLGIGQDG
+     VIAVKTDNNN RVCLDDLELK IAQAKAKNIK PLAIVGVAGT TETGSIDPLR ELANVAQREG
+     CHFHVDAAWG GATLMSNTYR HLLDGIDLAD SVTIDAHKQL YVPMGAGMVI FKDPELMSSI
+     QHHAEYILRK GSKDLGRHTL EGSRSGMAML LYSCFNVISR PGYELLINQS IEKAHYFADL
+     IQQQDDFELI TEPELCLLTY RYVPSNVKAA LAIATDEQKI EIYEHLDNLT KYIQKTQRET
+     GKSFVSRTRL TPEAYQHQPT IVFRVVLANP LTTKEILQNV LIEQREIASS SEISLPLLNQ
+     IVGNILH
+//

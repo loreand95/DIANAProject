@@ -1,0 +1,150 @@
+ID   CP11A_MESAU             Reviewed;         520 AA.
+AC   Q9EPT4;
+DT   04-MAY-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   12-AUG-2020, entry version 98.
+DE   RecName: Full=Cholesterol side-chain cleavage enzyme, mitochondrial {ECO:0000250|UniProtKB:P05108};
+DE            EC=1.14.15.6 {ECO:0000250|UniProtKB:P05108};
+DE   AltName: Full=CYPXIA1;
+DE   AltName: Full=Cholesterol desmolase;
+DE   AltName: Full=Cytochrome P450 11A1;
+DE   AltName: Full=Cytochrome P450(scc);
+DE   Flags: Precursor;
+GN   Name=CYP11A1; Synonyms=CYP11A;
+OS   Mesocricetus auratus (Golden hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Mesocricetus.
+OX   NCBI_TaxID=10036;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=12093115; DOI=10.1016/s0016-6480(02)00003-5;
+RA   Vilchis F., Chavez B., Larrea F., Timossi C., Montiel F.;
+RT   "The cDNA cloning and tissue expression of the cytochrome P450scc from
+RT   Syrian hamster (Mesocricetus auratus).";
+RL   Gen. Comp. Endocrinol. 126:279-286(2002).
+CC   -!- FUNCTION: A cytochrome P450 monooxygenase that catalyzes the side-chain
+CC       hydroxylation and cleavage of cholesterol to pregnenolone, the
+CC       precursor of most steroid hormones. Catalyzes three sequential
+CC       oxidation reactions of cholesterol, namely the hydroxylation at C22
+CC       followed with the hydroxylation at C20 to yield 20R,22R-
+CC       hydroxycholesterol that is further cleaved between C20 and C22 to yield
+CC       the C21-steroid pregnenolone and 4-methylpentanal. Mechanistically,
+CC       uses molecular oxygen inserting one oxygen atom into a substrate and
+CC       reducing the second into a water molecule. Two electrons are provided
+CC       by NADPH via a two-protein mitochondrial transfer system comprising
+CC       flavoprotein FDXR (adrenodoxin/ferredoxin reductase) and nonheme iron-
+CC       sulfur protein FDX1 or FDX2 (adrenodoxin/ferredoxin).
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol + 6 H(+) + 3 O2 + 6 reduced [adrenodoxin] = 4-
+CC         methylpentanal + 4 H2O + 6 oxidized [adrenodoxin] + pregnenolone;
+CC         Xref=Rhea:RHEA:35739, Rhea:RHEA-COMP:9998, Rhea:RHEA-COMP:9999,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:16581, ChEBI:CHEBI:17998,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738; EC=1.14.15.6;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35740;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholesterol + 2 H(+) + O2 + 2 reduced [adrenodoxin] = 22R-
+CC         hydroxycholesterol + H2O + 2 oxidized [adrenodoxin];
+CC         Xref=Rhea:RHEA:34335, Rhea:RHEA-COMP:9998, Rhea:RHEA-COMP:9999,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16113, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:67237; Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34336;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=22R-hydroxycholesterol + 2 H(+) + O2 + 2 reduced [adrenodoxin]
+CC         = (20R,22R)-20,22-dihydroxycholesterol + H2O + 2 oxidized
+CC         [adrenodoxin]; Xref=Rhea:RHEA:34339, Rhea:RHEA-COMP:9998, Rhea:RHEA-
+CC         COMP:9999, ChEBI:CHEBI:1294, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:67237; Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34340;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(20R,22R)-20,22-dihydroxycholesterol + 2 H(+) + O2 + 2 reduced
+CC         [adrenodoxin] = 4-methylpentanal + 2 H2O + 2 oxidized [adrenodoxin] +
+CC         pregnenolone; Xref=Rhea:RHEA:34343, Rhea:RHEA-COMP:9998, Rhea:RHEA-
+CC         COMP:9999, ChEBI:CHEBI:1294, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16581, ChEBI:CHEBI:17998,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:34344;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:P05108};
+CC   -!- PATHWAY: Lipid metabolism; C21-steroid hormone metabolism.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- PATHWAY: Steroid metabolism; cholesterol metabolism.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- SUBUNIT: Interacts with FDX1/adrenodoxin.
+CC       {ECO:0000250|UniProtKB:P05108}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:P14137}; Peripheral membrane protein
+CC       {ECO:0000305}. Note=Localizes to the matrix side of the mitochondrion
+CC       inner membrane. {ECO:0000250|UniProtKB:P14137}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF323965; AAG42320.1; -; mRNA.
+DR   RefSeq; NP_001268569.1; NM_001281640.1.
+DR   SMR; Q9EPT4; -.
+DR   STRING; 10036.XP_005069662.1; -.
+DR   PRIDE; Q9EPT4; -.
+DR   GeneID; 101827747; -.
+DR   eggNOG; KOG0159; Eukaryota.
+DR   OrthoDB; 561463at2759; -.
+DR   BRENDA; 1.14.15.6; 3239.
+DR   UniPathway; UPA00229; -.
+DR   UniPathway; UPA00296; -.
+DR   Proteomes; UP000189706; Genome assembly.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0008386; F:cholesterol monooxygenase (side-chain-cleaving) activity; ISS:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0006700; P:C21-steroid hormone biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0008203; P:cholesterol metabolic process; ISS:UniProtKB.
+DR   Gene3D; 1.10.630.10; -; 1.
+DR   InterPro; IPR033283; CYP11A1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   PANTHER; PTHR24279:SF3; PTHR24279:SF3; 1.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; SSF48264; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   2: Evidence at transcript level;
+KW   Cholesterol metabolism; Heme; Iron; Lipid metabolism; Membrane;
+KW   Metal-binding; Mitochondrion; Mitochondrion inner membrane; Monooxygenase;
+KW   Oxidoreductase; Reference proteome; Steroid metabolism; Steroidogenesis;
+KW   Sterol metabolism; Transit peptide.
+FT   TRANSIT         1..36
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:P00189"
+FT   CHAIN           37..520
+FT                   /note="Cholesterol side-chain cleavage enzyme,
+FT                   mitochondrial"
+FT                   /id="PRO_0000003586"
+FT   METAL           458
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:P05108"
+SQ   SEQUENCE   520 AA;  60271 MW;  648C5A82D0D41D1E CRC64;
+     MLAKGLSLRS VLAKGCQPFL SPTWQSSVLA TGGGANISTN SPRPFNEIPS PGDNGWLNLY
+     HFWRENGTHR IHYHHMQNFQ KYGPIYREKL GNKDSVYILD PEDAAQLFLS EGPYPERYLV
+     PPWVAYHQYY KRPIGVLFKS SEAWKKDRLV LNQEVMAPEA IKNFVPLLEG VVQDFINVLH
+     RRIKQQKSGN FSGDISDDLF RFAFESITSV VFGERLGMLE EIVDPESQRF IDAIYQMFHT
+     SVPMLNLPPE LFRFFRTKTW KEHAAAWDMI FKKADDYTQT FYWDLRQKQE FSKYPGVLYS
+     LLGGNKLPFK NIQANITEML AGGVDTTSMT LQWSLYEMAH NLKVQEMLRA EVLAARRQAQ
+     GDMVKMVQLV PLLKASIKET LRLHPISVTV QRYLVDDLVL RNYRIPAKML VQVANYAMGR
+     EPSFFPNPNK FDPTRWLEKS KNTTHFRYLS FGWGVRQCLG RRIAELEMTI FLINVLENFR
+     IELQSLHDVG TKFNLILMPE KPILFNLQPL KKDLGTTTNR
+//

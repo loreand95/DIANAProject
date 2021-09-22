@@ -1,0 +1,97 @@
+ID   PUR1_LACKL              Reviewed;         510 AA.
+AC   Q12698;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-DEC-2020, entry version 92.
+DE   RecName: Full=Amidophosphoribosyltransferase;
+DE            Short=ATase;
+DE            EC=2.4.2.14;
+DE   AltName: Full=Glutamine phosphoribosylpyrophosphate amidotransferase;
+GN   Name=ADE4;
+OS   Lachancea kluyveri (Yeast) (Saccharomyces kluyveri).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Lachancea.
+OX   NCBI_TaxID=4934;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=IH404;
+RA   Marsh L., Branda S.;
+RL   Submitted (AUG-1995) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-phospho-beta-D-ribosylamine + diphosphate + L-glutamate = 5-
+CC         phospho-alpha-D-ribose 1-diphosphate + H2O + L-glutamine;
+CC         Xref=Rhea:RHEA:14905, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:58681; EC=2.4.2.14;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Note=Binds 1 Mg(2+) ion per subunit.;
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-
+CC       (5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate: step 1/2.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the purine/pyrimidine
+CC       phosphoribosyltransferase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U32992; AAA75450.1; -; Genomic_DNA.
+DR   SMR; Q12698; -.
+DR   MEROPS; C44.001; -.
+DR   UniPathway; UPA00074; UER00124.
+DR   GO; GO:0004044; F:amidophosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009116; P:nucleoside metabolic process; IEA:InterPro.
+DR   GO; GO:0009113; P:purine nucleobase biosynthetic process; IEA:InterPro.
+DR   CDD; cd00715; GPATase_N; 1.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   HAMAP; MF_01931; PurF; 1.
+DR   InterPro; IPR017932; GATase_2_dom.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR005854; PurF.
+DR   InterPro; IPR035584; PurF_N.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   PIRSF; PIRSF000485; Amd_phspho_trans; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR01134; purF; 1.
+DR   PROSITE; PS51278; GATASE_TYPE_2; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Glutamine amidotransferase; Glycosyltransferase; Magnesium; Metal-binding;
+KW   Purine biosynthesis; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..510
+FT                   /note="Amidophosphoribosyltransferase"
+FT                   /id="PRO_0000139645"
+FT   DOMAIN          2..239
+FT                   /note="Glutamine amidotransferase type-2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00609"
+FT   ACT_SITE        2
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00609"
+FT   METAL           373
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           374
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   510 AA;  57012 MW;  C3B3580B3F460378 CRC64;
+     MCGILGIALA DQSSVVAPEL FDGSLFLQHR GQDAAGMATC GERGRLYQCK GNGMARDVFT
+     QHRMSGLVGS MGIAHLRYPT AGSCANSEAQ PFYVNSPYGI CLSHNGTLVN TLSLRSYLDE
+     VVHRHINTDS DSELLLNVFA AELERHNKYR VNNDDIFHAL EGVYRQCRGG YACVGMLAGY
+     SLFGFRDPNG IRPLLFGERV NPDGTKDYML ASESVVLKAH NFNKFRDLKP GEAVIIPKDC
+     NKQEPEFRQV VPTNSYRPDL FEYVYFARPD SVLDGISVYH TRLQMGIKLA ENVKKVVDPD
+     EIDVVVSVPD TARTCALQCA NHLNKPYREA FVKNRYVGRT FIMPNQKERV SSVRRKLNPM
+     DFEFKDKRVL IVDDSIVRGT TSKEIINMAK ESGATKVYFA SAAPAIRFNH IYGIDLADTK
+     QLVAYNRTTD EVAQELGCEK VIYQSLEDLV DCCKTDKIDK FEVGVFTGNY VTGVEDGYLQ
+     ELERVRALNK AKLTTAKAEV DIGLYNSADY
+//

@@ -1,0 +1,163 @@
+ID   DADD_METM7              Reviewed;         422 AA.
+AC   A6VH76;
+DT   04-DEC-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=5'-deoxyadenosine deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            Short=5'-dA deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            EC=3.5.4.41 {ECO:0000255|HAMAP-Rule:MF_01281};
+DE   AltName: Full=5'-methylthioadenosine deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            Short=MTA deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            EC=3.5.4.31 {ECO:0000255|HAMAP-Rule:MF_01281};
+DE   AltName: Full=Adenosine deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            EC=3.5.4.4 {ECO:0000255|HAMAP-Rule:MF_01281};
+DE   AltName: Full=S-adenosylhomocysteine deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            Short=SAH deaminase {ECO:0000255|HAMAP-Rule:MF_01281};
+DE            EC=3.5.4.28 {ECO:0000255|HAMAP-Rule:MF_01281};
+GN   Name=dadD {ECO:0000255|HAMAP-Rule:MF_01281}; OrderedLocusNames=MmarC7_0735;
+OS   Methanococcus maripaludis (strain C7 / ATCC BAA-1331).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=426368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C7 / ATCC BAA-1331;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Clum A., Schmutz J., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Anderson I., Sieprawska-Lupa M., Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus maripaludis C7.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the deamination of three SAM-derived enzymatic
+CC       products, namely 5'-deoxyadenosine, S-adenosyl-L-homocysteine, and 5'-
+CC       methylthioadenosine, to produce the inosine analogs. Can also deaminate
+CC       adenosine. The preferred substrate for this enzyme is 5'-
+CC       deoxyadenosine, but all these substrates are efficiently deaminated.
+CC       Likely functions in a S-adenosyl-L-methionine (SAM) recycling pathway
+CC       from S-adenosyl-L-homocysteine (SAH) produced from SAM-dependent
+CC       methylation reactions. May also be involved in the recycling of 5'-
+CC       deoxyadenosine, whereupon the 5'-deoxyribose moiety of 5'-deoxyinosine
+CC       is further metabolized to deoxyhexoses used for the biosynthesis of
+CC       aromatic amino acids in methanogens. {ECO:0000255|HAMAP-Rule:MF_01281}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5'-deoxyadenosine + H(+) + H2O = 5'-deoxyinosine + NH4(+);
+CC         Xref=Rhea:RHEA:42892, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17319, ChEBI:CHEBI:28938, ChEBI:CHEBI:82775; EC=3.5.4.41;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42893;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + H2O + S-adenosyl-L-homocysteine = NH4(+) + S-inosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:20716, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28938, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:57985; EC=3.5.4.28; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01281};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:20717;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + H2O + S-methyl-5'-thioadenosine = NH4(+) + S-methyl-5'-
+CC         thioinosine; Xref=Rhea:RHEA:25025, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17509, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:48595; EC=3.5.4.31; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01281};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:25026;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + H(+) + H2O = inosine + NH4(+);
+CC         Xref=Rhea:RHEA:24408, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16335, ChEBI:CHEBI:17596, ChEBI:CHEBI:28938; EC=3.5.4.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:24409;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01281};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01281};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01281}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01281}.
+CC   -!- MISCELLANEOUS: SAH is a product of SAM methyltransferases and is known
+CC       to be a feedback inhibitor of these enzymes. As a result of this
+CC       inhibition, organisms have evolved efficient enzymes to metabolize SAH
+CC       via different pathways. The pathway found in methanogens differs from
+CC       the canonical pathway, it uses the deamination of S-adenosyl-L-
+CC       homocysteine to form S-inosyl-L-homocysteine for the regeneration of
+CC       SAM from S-adenosyl-L-homocysteine. 5'-deoxyadenosine is a radical SAM
+CC       enzyme reaction product which strongly inhibits radical SAM enzymes. A
+CC       pathway for removing this product must be present in methanogens where
+CC       the MTA/SAH nucleosidase which normally metabolizes this compound is
+CC       absent. {ECO:0000255|HAMAP-Rule:MF_01281}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       MTA/SAH deaminase family. {ECO:0000255|HAMAP-Rule:MF_01281}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000745; ABR65802.1; -; Genomic_DNA.
+DR   RefSeq; WP_011977122.1; NC_009637.1.
+DR   SMR; A6VH76; -.
+DR   STRING; 426368.MmarC7_0735; -.
+DR   EnsemblBacteria; ABR65802; ABR65802; MmarC7_0735.
+DR   GeneID; 5329546; -.
+DR   KEGG; mmz:MmarC7_0735; -.
+DR   eggNOG; arCOG00695; Archaea.
+DR   HOGENOM; CLU_012358_2_1_2; -.
+DR   OMA; ASYFATN; -.
+DR   OrthoDB; 40873at2157; -.
+DR   BioCyc; MMAR426368:MMARC7_RS03735-MONOMER; -.
+DR   UniPathway; UPA00315; -.
+DR   Proteomes; UP000002298; Chromosome.
+DR   GO; GO:0090613; F:5'-deoxyadenosine deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0090614; F:5'-methylthioadenosine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004000; F:adenosine deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050270; F:S-adenosylhomocysteine deaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_01281; MTA_SAH_deamin; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR023512; Deaminase_MtaD/DadD.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; SSF51338; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Zinc.
+FT   CHAIN           1..422
+FT                   /note="5'-deoxyadenosine deaminase"
+FT                   /id="PRO_0000312474"
+FT   METAL           57
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   METAL           59
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   METAL           205
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   METAL           294
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   BINDING         86
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   BINDING         178
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   BINDING         208
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+FT   BINDING         294
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01281"
+SQ   SEQUENCE   422 AA;  46730 MW;  6EF3FBB08B127D60 CRC64;
+     MILVKDAIIN GKKQDLLVEG NIIKKIGNIS ISEVSKDETE IIDGKNCVLI PGLVNTHTHV
+     PMSLFRGVAD DIPLMEWLSG HIWPMESKLN EKIVYAGTLL GTVEMIKSGT TAFNDMYFFL
+     DSIIKAVDET GIRSTIAYGM IDLFDEEKRE KELKTARKSL ETIKNLNNSR ITGALGPHAP
+     YTCSKELLES TNTLAREYNV PIHIHMNETL DEINQVVEKT GMRPFEYLNS FGFFNDVNTI
+     CAHCVHLSDS EIQIMKEKNI FAAHNPVSNL KLASGVSPVL KLLENNVPVT LGTDGCGSNN
+     NMNLFEEIKA AALIHKGVNL NPVAVTAKEA FEFATLNGAK ALNINSGEIK EGKLADFVII
+     NMKKPYLTPK ENIESHLVYS FNGVVDTVVI DGKIVLNDGK MVTIDEEKVY ELAEEAYLEL
+     TK
+//

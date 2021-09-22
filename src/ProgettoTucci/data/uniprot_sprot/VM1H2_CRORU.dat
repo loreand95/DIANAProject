@@ -1,0 +1,107 @@
+ID   VM1H2_CRORU             Reviewed;         202 AA.
+AC   P20897;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 2.
+DT   26-FEB-2020, entry version 109.
+DE   RecName: Full=Snake venom metalloproteinase HT-2;
+DE            Short=SVMP;
+DE            EC=3.4.24.48;
+DE   AltName: Full=Hemorrhagic metalloproteinase HT-2;
+DE   AltName: Full=Hemorrhagic toxin II;
+DE   AltName: Full=Ruberlysin;
+OS   Crotalus ruber ruber (Red diamond rattlesnake).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Crotalus.
+OX   NCBI_TaxID=8736;
+RN   [1]
+RP   PROTEIN SEQUENCE, PYROGLUTAMATE FORMATION AT GLN-1, AND DISULFIDE BONDS.
+RC   TISSUE=Venom;
+RX   PubMed=2081731; DOI=10.1093/oxfordjournals.jbchem.a123270;
+RA   Takeya H., Onikura T., Sugihara H., Iwanaga S.;
+RT   "Primary structure of a hemorrhagic metalloproteinase, HT-2, isolated from
+RT   the venom of Crotalus ruber ruber.";
+RL   J. Biochem. 108:711-719(1990).
+CC   -!- FUNCTION: This protein is a zinc protease from snake venom that induces
+CC       hemorrhage.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleavage of 10-His-|-Leu-11, 14-Ala-|-Leu-15, 16-Tyr-|-Leu-17
+CC         and 23-Gly-|-Phe-24 bonds of the B chain of insulin, His-|-Pro,
+CC         Pro-|-Phe, and Trp-|-Ser of angiotensin I, and Gly-|-Phe of Met
+CC         enkephalin.; EC=3.4.24.48;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- SIMILARITY: Belongs to the venom metalloproteinase (M12B) family. P-I
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; JX0139; HYRSR.
+DR   SMR; P20897; -.
+DR   MEROPS; M12.150; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   CDD; cd04269; ZnMc_adamalysin_II_like; 1.
+DR   Gene3D; 3.40.390.10; -; 1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001590; Peptidase_M12B.
+DR   InterPro; IPR034027; Reprolysin_adamalysin.
+DR   Pfam; PF01421; Reprolysin; 1.
+DR   PROSITE; PS50215; ADAM_MEPRO; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   1: Evidence at protein level;
+KW   Calcium; Direct protein sequencing; Disulfide bond; Hemorrhagic toxin;
+KW   Hemostasis impairing toxin; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Pyrrolidone carboxylic acid; Secreted; Toxin; Zinc.
+FT   CHAIN           1..202
+FT                   /note="Snake venom metalloproteinase HT-2"
+FT                   /id="PRO_0000078191"
+FT   DOMAIN          6..202
+FT                   /note="Peptidase M12B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   ACT_SITE        143
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           9
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           93
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           142
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           146
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           152
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           197
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   METAL           200
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:2081731"
+FT   DISULFID        117..197
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276,
+FT                   ECO:0000269|PubMed:2081731"
+FT   DISULFID        157..164
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276,
+FT                   ECO:0000269|PubMed:2081731"
+SQ   SEQUENCE   202 AA;  23321 MW;  5AF5D29318A61A9B CRC64;
+     QNLPQSYIEL VVVADHRMFM KYNSDLNTIR TRVHEIVNFI NEFYRSLNIR VSLTDLEIWS
+     DQDFITVQSS AKNTLHSFGE WRKSVLLNRK RHDNAQLLTA IVLDDYTLGL AYLNSMCHPR
+     NSVGLIQDHS PINLLMGVTM AHELGHNLGM EHDGKDCLRG ASLCIMRPGL TPGRSYEFSD
+     ASMRYYQKFL DQYKPQCILN KP
+//

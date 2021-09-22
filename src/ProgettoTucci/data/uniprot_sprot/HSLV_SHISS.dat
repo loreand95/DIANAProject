@@ -1,0 +1,94 @@
+ID   HSLV_SHISS              Reviewed;         176 AA.
+AC   Q3YV46;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=ATP-dependent protease subunit HslV {ECO:0000255|HAMAP-Rule:MF_00248};
+DE            EC=3.4.25.2 {ECO:0000255|HAMAP-Rule:MF_00248};
+DE   AltName: Full=Heat shock protein HslV {ECO:0000255|HAMAP-Rule:MF_00248};
+GN   Name=hslV {ECO:0000255|HAMAP-Rule:MF_00248}; OrderedLocusNames=SSON_4101;
+OS   Shigella sonnei (strain Ss046).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Ss046;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: Protease subunit of a proteasome-like degradation complex
+CC       believed to be a general protein degrading machinery.
+CC       {ECO:0000255|HAMAP-Rule:MF_00248}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP-dependent cleavage of peptide bonds with broad
+CC         specificity.; EC=3.4.25.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00248};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by HslU binding.
+CC       {ECO:0000255|HAMAP-Rule:MF_00248}.
+CC   -!- SUBUNIT: A double ring-shaped homohexamer of HslV is capped on each
+CC       side by a ring-shaped HslU homohexamer. The assembly of the HslU/HslV
+CC       complex is dependent on binding of ATP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00248}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00248}.
+CC   -!- INDUCTION: By heat shock. {ECO:0000255|HAMAP-Rule:MF_00248}.
+CC   -!- SIMILARITY: Belongs to the peptidase T1B family. HslV subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00248}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000038; AAZ90616.1; -; Genomic_DNA.
+DR   SMR; Q3YV46; -.
+DR   MEROPS; T01.006; -.
+DR   EnsemblBacteria; AAZ90616; AAZ90616; SSON_4101.
+DR   KEGG; ssn:SSON_4101; -.
+DR   HOGENOM; CLU_093872_1_0_6; -.
+DR   OMA; IMKGNAR; -.
+DR   BioCyc; SSON300269:G1GL2-4956-MONOMER; -.
+DR   Proteomes; UP000002529; Chromosome.
+DR   GO; GO:0009376; C:HslUV protease complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005839; C:proteasome core complex; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004298; F:threonine-type endopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0051603; P:proteolysis involved in cellular protein catabolic process; IEA:InterPro.
+DR   CDD; cd01913; protease_HslV; 1.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   HAMAP; MF_00248; HslV; 1.
+DR   InterPro; IPR022281; ATP-dep_Prtase_HsIV_su.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR001353; Proteasome_sua/b.
+DR   InterPro; IPR023333; Proteasome_suB-type.
+DR   PANTHER; PTHR32194; PTHR32194; 1.
+DR   Pfam; PF00227; Proteasome; 1.
+DR   PIRSF; PIRSF039093; HslV; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR03692; ATP_dep_HslV; 1.
+DR   PROSITE; PS51476; PROTEASOME_BETA_2; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; Cytoplasm; Hydrolase; Metal-binding; Protease; Sodium;
+KW   Stress response; Threonine protease.
+FT   CHAIN           1..176
+FT                   /note="ATP-dependent protease subunit HslV"
+FT                   /id="PRO_1000012677"
+FT   ACT_SITE        2
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00248"
+FT   METAL           157
+FT                   /note="Sodium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00248"
+FT   METAL           160
+FT                   /note="Sodium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00248"
+FT   METAL           163
+FT                   /note="Sodium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00248"
+SQ   SEQUENCE   176 AA;  19093 MW;  3B35E01F51486965 CRC64;
+     MTTIVSVRRN GHVVIAGDGQ ATLGNTVMKG NVKKVRRLYN DKVIAGFAGG TADAFTLFEL
+     FERKLEMHQG HLVKAAVELA KDWRTDRMLR KLEALLAVAD ETASLIITGN GDVVQPENDL
+     IAIGSGGPYA QAAARALLEN TELSAREIAE KALDIAGDIC IYTNHFHTIE ELSYKA
+//

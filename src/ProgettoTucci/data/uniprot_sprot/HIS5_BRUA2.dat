@@ -1,0 +1,105 @@
+ID   HIS5_BRUA2              Reviewed;         216 AA.
+AC   Q2YQZ0;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            EC=4.3.2.10 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase glutaminase subunit {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            EC=3.5.1.2 {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=IGP synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE   AltName: Full=ImGP synthase subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+DE            Short=IGPS subunit HisH {ECO:0000255|HAMAP-Rule:MF_00278};
+GN   Name=hisH {ECO:0000255|HAMAP-Rule:MF_00278}; OrderedLocusNames=BAB1_2084;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to IGP,
+CC       AICAR and glutamate. The HisH subunit catalyzes the hydrolysis of
+CC       glutamine to glutamate and ammonia as part of the synthesis of IGP and
+CC       AICAR. The resulting ammonia molecule is channeled to the active site
+CC       of HisF. {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-
+CC         phospho-beta-D-ribosyl)imidazole-4-carboxamide + L-glutamine = 5-
+CC         amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide + D-
+CC         erythro-1-(imidazol-4-yl)glycerol 3-phosphate + H(+) + L-glutamate;
+CC         Xref=Rhea:RHEA:24793, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58278, ChEBI:CHEBI:58359, ChEBI:CHEBI:58475,
+CC         ChEBI:CHEBI:58525; EC=4.3.2.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00278};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-glutamine = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00278};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000255|HAMAP-
+CC       Rule:MF_00278}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00278}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM040264; CAJ12040.1; -; Genomic_DNA.
+DR   RefSeq; WP_002967037.1; NZ_KN046823.1.
+DR   EnsemblBacteria; CAJ12040; CAJ12040; BAB1_2084.
+DR   GeneID; 3788525; -.
+DR   KEGG; bmf:BAB1_2084; -.
+DR   PATRIC; fig|359391.11.peg.1318; -.
+DR   HOGENOM; CLU_071837_2_0_5; -.
+DR   OMA; WVYFVHS; -.
+DR   BioCyc; BABO359391:G1GJA-2117-MONOMER; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000002719; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01748; GATase1_IGP_Synthase; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   PANTHER; PTHR42701; PTHR42701; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01855; IMP_synth_hisH; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Glutamine amidotransferase;
+KW   Histidine biosynthesis; Hydrolase; Lyase; Reference proteome.
+FT   CHAIN           1..216
+FT                   /note="Imidazole glycerol phosphate synthase subunit HisH"
+FT                   /id="PRO_0000231708"
+FT   DOMAIN          2..216
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        88
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        196
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+FT   ACT_SITE        198
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00278"
+SQ   SEQUENCE   216 AA;  23232 MW;  E87CAEF18E2D1A09 CRC64;
+     MRVAIIDYGS GNLRSATKAF ERAAHESGIS AEIDLTCDAQ RVASADRIVL PGVGAYADCR
+     RGLDAAPGMV EALNDTVLKK ARPFLGICVG MQLMSERGLE KTVTNGLGWI AGDVREMVPS
+     DASLKIPQIG WNRIHVKHSH PIFDGIPTGD DGLHAYFVHS YMLDAKNASD VLAVTDYGGD
+     VTAAVGRDNM VGTQFHPEKS QLLGLSLIAN FLKWKP
+//

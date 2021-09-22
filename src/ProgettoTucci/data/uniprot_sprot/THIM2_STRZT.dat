@@ -1,0 +1,94 @@
+ID   THIM2_STRZT             Reviewed;         267 AA.
+AC   C1CQI9;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   07-APR-2021, entry version 62.
+DE   RecName: Full=Hydroxyethylthiazole kinase 2 {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            EC=2.7.1.50 {ECO:0000255|HAMAP-Rule:MF_00228};
+DE   AltName: Full=4-methyl-5-beta-hydroxyethylthiazole kinase 2 {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            Short=TH kinase 2 {ECO:0000255|HAMAP-Rule:MF_00228};
+DE            Short=Thz kinase 2 {ECO:0000255|HAMAP-Rule:MF_00228};
+GN   Name=thiM2 {ECO:0000255|HAMAP-Rule:MF_00228}; OrderedLocusNames=SPT_0740;
+OS   Streptococcus pneumoniae (strain Taiwan19F-14).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=487213;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Taiwan19F-14;
+RX   PubMed=21034474; DOI=10.1186/gb-2010-11-10-r107;
+RA   Donati C., Hiller N.L., Tettelin H., Muzzi A., Croucher N.J.,
+RA   Angiuoli S.V., Oggioni M., Dunning Hotopp J.C., Hu F.Z., Riley D.R.,
+RA   Covacci A., Mitchell T.J., Bentley S.D., Kilian M., Ehrlich G.D.,
+RA   Rappuoli R., Moxon E.R., Masignani V.;
+RT   "Structure and dynamics of the pan-genome of Streptococcus pneumoniae and
+RT   closely related species.";
+RL   Genome Biol. 11:R107.1-R107.19(2010).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the hydroxyl group of 4-
+CC       methyl-5-beta-hydroxyethylthiazole (THZ). {ECO:0000255|HAMAP-
+CC       Rule:MF_00228}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-(2-hydroxyethyl)-4-methylthiazole + ATP = 4-methyl-5-(2-
+CC         phosphooxyethyl)-thiazole + ADP + H(+); Xref=Rhea:RHEA:24212,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17957, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:58296, ChEBI:CHEBI:456216; EC=2.7.1.50;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00228};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00228};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis; 4-
+CC       methyl-5-(2-phosphoethyl)-thiazole from 5-(2-hydroxyethyl)-4-
+CC       methylthiazole: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00228}.
+CC   -!- SIMILARITY: Belongs to the Thz kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00228}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000921; ACO22523.1; -; Genomic_DNA.
+DR   RefSeq; WP_001155175.1; NC_012469.1.
+DR   SMR; C1CQI9; -.
+DR   KEGG; snt:SPT_0740; -.
+DR   HOGENOM; CLU_019943_0_0_9; -.
+DR   OMA; KPIMAEH; -.
+DR   BioCyc; SPNE487213:G1GAV-777-MONOMER; -.
+DR   UniPathway; UPA00060; UER00139.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004417; F:hydroxyethylthiazole kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01170; THZ_kinase; 1.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   HAMAP; MF_00228; Thz_kinase; 1.
+DR   InterPro; IPR000417; Hyethyz_kinase.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   Pfam; PF02110; HK; 1.
+DR   PIRSF; PIRSF000513; Thz_kinase; 1.
+DR   PRINTS; PR01099; HYETHTZKNASE.
+DR   SUPFAM; SSF53613; SSF53613; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..267
+FT                   /note="Hydroxyethylthiazole kinase 2"
+FT                   /id="PRO_0000383905"
+FT   BINDING         41
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         116
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         166
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+FT   BINDING         193
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00228"
+SQ   SEQUENCE   267 AA;  29194 MW;  86FAEA96D2465E78 CRC64;
+     MQEFTNPFPI DSSSLIHCMT NEISCEMLAN GILALGCKPV MADDPREVLD FTKQSQALFI
+     NLGHLSAEKE KAIRIAASYA AQVCLPMVVD AVGVTTSSIR KSLVKDLLDY RPTVLKGNMS
+     EIRSLVGLKH HGVGVDASAK DQETEDLLQV LKDWCQTYPG MSFLVTGPKD LIVSENQVAV
+     LENGCTELDW ITGTGDLVGA LTAVFLSQGK TGFEASCLAV SYLNIAAEKI VVQGMGLEEF
+     RYQVLNQLSL LRRDENWLDT IKGEAYE
+//

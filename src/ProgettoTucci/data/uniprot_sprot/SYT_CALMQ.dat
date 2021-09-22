@@ -1,0 +1,126 @@
+ID   SYT_CALMQ               Reviewed;         613 AA.
+AC   A8MBZ5;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   04-DEC-2007, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Threonine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            EC=6.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00184};
+DE   AltName: Full=Threonyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            Short=ThrRS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   Name=thrS {ECO:0000255|HAMAP-Rule:MF_00184}; OrderedLocusNames=Cmaq_0493;
+OS   Caldivirga maquilingensis (strain ATCC 700844 / DSM 13496 / JCM 10307 /
+OS   IC-167).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Caldivirga.
+OX   NCBI_TaxID=397948;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700844 / DSM 13496 / JCM 10307 / IC-167;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Saunders E., Brettin T., Bruce D., Detter J.C.,
+RA   Han C., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Ivanova N., Biddle J.F., Zhang Z., Fitz-Gibbon S.T., Lowe T.M.,
+RA   Saltikov C., House C.H., Richardson P.;
+RT   "Complete sequence of Caldivirga maquilingensis IC-167.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of threonine to tRNA(Thr) in a two-
+CC       step reaction: L-threonine is first activated by ATP to form Thr-AMP
+CC       and then transferred to the acceptor end of tRNA(Thr). Also edits
+CC       incorrectly charged L-seryl-tRNA(Thr). {ECO:0000255|HAMAP-
+CC       Rule:MF_00184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonine + tRNA(Thr) = AMP + diphosphate + H(+) + L-
+CC         threonyl-tRNA(Thr); Xref=Rhea:RHEA:24624, Rhea:RHEA-COMP:9670,
+CC         Rhea:RHEA-COMP:9704, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78534, ChEBI:CHEBI:456215; EC=6.1.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- DOMAIN: The N-terminal domain is an archaea-specific tRNA-editing
+CC       domain that hydrolyzes incorrectly charged L-seryl-tRNA(Thr). Catalysis
+CC       of tRNA editing is performed by the charged tRNA itself.
+CC       {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000852; ABW01338.1; -; Genomic_DNA.
+DR   RefSeq; WP_012185558.1; NC_009954.1.
+DR   SMR; A8MBZ5; -.
+DR   STRING; 397948.Cmaq_0493; -.
+DR   EnsemblBacteria; ABW01338; ABW01338; Cmaq_0493.
+DR   GeneID; 5709874; -.
+DR   KEGG; cma:Cmaq_0493; -.
+DR   eggNOG; arCOG00401; Archaea.
+DR   HOGENOM; CLU_029833_0_0_2; -.
+DR   OMA; SCKGHPL; -.
+DR   OrthoDB; 11656at2157; -.
+DR   BioCyc; CMAQ397948:G1GA9-508-MONOMER; -.
+DR   Proteomes; UP000001137; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004829; F:threonine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006435; P:threonyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.800; -; 1.
+DR   Gene3D; 3.50.80.10; -; 1.
+DR   HAMAP; MF_00184; Thr_tRNA_synth; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR023509; DTD-like_sf.
+DR   InterPro; IPR002320; Thr-tRNA-ligase_IIa.
+DR   InterPro; IPR015011; Threonyl-tRNA_syn_edit_dom_arc.
+DR   PANTHER; PTHR11451; PTHR11451; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   Pfam; PF08915; tRNA-Thr_ED; 1.
+DR   PRINTS; PR01047; TRNASYNTHTHR.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding;
+KW   tRNA-binding; Zinc.
+FT   CHAIN           1..613
+FT                   /note="Threonine--tRNA ligase"
+FT                   /id="PRO_1000077350"
+FT   REGION          1..147
+FT                   /note="Editing domain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   REGION          199..495
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   REGION          200..495
+FT                   /note="Catalytic"
+FT   METAL           292
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   METAL           343
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   METAL           464
+FT                   /note="Zinc; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+SQ   SEQUENCE   613 AA;  70256 MW;  1315C6CEBB75AE15 CRC64;
+     MRLLLIHARS FSFEVRDKAV ENPEPLTEEL KRGSADNTLV VFTTVEENDN DSPSFLERVA
+     DDVLDVAGKV KASSVFLYPY AHLSPNLAPP PKAITILNAL YETLKGKASI PVYRAPFGWY
+     KAFNISCLGH PLSELSRTIT PQESAPQRKP YTRDYYVIVS PDGSIHDPAS YSFSERDADL
+     KVLVDKEVFK RELEGKEQPR YIDYCLKFGF EWEPLSDVGH MRYGPYATVM LELLDDYSYQ
+     VAKSLGIPVF KVKGTNMFRL SDKAISEHAG LFGERMYITE SDEELVMRYA ACFQQFAMIK
+     DWVLSYRNLP LGMLEIADSY RYEQPGETVL CFRLRRFYMP DLHIFVKDLK EAMDVGLRLH
+     AKIFEEIRRI GRDYVSLYNV SKEFFDQNKD YLVELARREG KPILVRVLEG AKYYWVLNVE
+     YHIIDELKRP REIATFQFDI GNAQRFGIKY RDEGNNIKYP VIIHTAILGS IERFIFALLD
+     TAAINEANGK VPALPTWITP VQVRVIPVSS GYNEGAIELA RRIEEAGFRV EVDDRDETVG
+     RKIRDAETLW VPYIVVFGER EAKTGSLSVR VRGVGQVSMS IEELLNRLNE ETKGYPRKPL
+     TAPMLLSIRP PLP
+//

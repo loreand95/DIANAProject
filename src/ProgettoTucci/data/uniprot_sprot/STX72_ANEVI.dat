@@ -1,0 +1,76 @@
+ID   STX72_ANEVI             Reviewed;          71 AA.
+AC   C3TS04;
+DT   16-SEP-2015, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   11-DEC-2019, entry version 22.
+DE   RecName: Full=Delta-actitoxin-Avd2b 2 {ECO:0000303|PubMed:22683676};
+DE            Short=Delta-AITX-Avd2b 2 {ECO:0000303|PubMed:22683676};
+DE   AltName: Full=Av7 {ECO:0000303|PubMed:19609479};
+DE   AltName: Full=Neurotoxin 7 {ECO:0000312|EMBL:ACL12302.1};
+DE   Flags: Precursor;
+OS   Anemonia viridis (Snakelocks anemone).
+OC   Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria;
+OC   Actiniidae; Anemonia.
+OX   NCBI_TaxID=51769;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   TISSUE=Ovary;
+RX   PubMed=19609479; DOI=10.1007/s00239-009-9258-x;
+RA   Moran Y., Weinberger H., Lazarus N., Gur M., Kahn R., Gordon D.,
+RA   Gurevitz M.;
+RT   "Fusion and retrotransposition events in the evolution of the sea anemone
+RT   Anemonia viridis neurotoxin genes.";
+RL   J. Mol. Evol. 69:115-124(2009).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=22683676; DOI=10.1016/j.toxicon.2012.05.020;
+RA   Oliveira J.S., Fuentes-Silva D., King G.F.;
+RT   "Development of a rational nomenclature for naming peptide and protein
+RT   toxins from sea anemones.";
+RL   Toxicon 60:539-550(2012).
+CC   -!- FUNCTION: Voltage-gated sodium channel (Nav) inhibitor. 1 uM completely
+CC       inhibits insect voltage-gated sodium channel inactivation (DmNav1 from
+CC       D.melanogaster). {ECO:0000269|PubMed:19609479}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}. Nematocyst {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the sea anemone short toxin (type III) family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Opinions are divided on whether Anemonia viridis (Forsskal,
+CC       1775) and Anemonia sulcata (Pennant, 1777) are separate species.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU919727; ACL12302.1; -; Genomic_DNA.
+DR   EMBL; EU919728; ACL12303.1; -; Genomic_DNA.
+DR   SMR; C3TS04; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042151; C:nematocyst; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019871; F:sodium channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR012509; Neurotoxin_3_Anemonia.
+DR   InterPro; IPR036247; Neurotoxin_3_sf.
+DR   Pfam; PF08098; ATX_III; 1.
+DR   SUPFAM; SSF57419; SSF57419; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Ion channel impairing toxin; Nematocyst; Neurotoxin;
+KW   Secreted; Signal; Toxin; Voltage-gated sodium channel impairing toxin.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..41
+FT                   /evidence="ECO:0000250|UniProtKB:P01535"
+FT                   /id="PRO_0000433693"
+FT   PEPTIDE         44..71
+FT                   /note="Delta-actitoxin-Avd2b 2"
+FT                   /id="PRO_5000461217"
+FT   DISULFID        46..61
+FT                   /evidence="ECO:0000250|UniProtKB:P01535"
+FT   DISULFID        47..55
+FT                   /evidence="ECO:0000250|UniProtKB:P01535"
+FT   DISULFID        49..66
+FT                   /evidence="ECO:0000250|UniProtKB:P01535"
+SQ   SEQUENCE   71 AA;  7824 MW;  275DCDD5220DA7A0 CRC64;
+     MNRLLVFLML GAAFMLVVSA NDAYGDEPAF KDLNQGDESL GKRKSCCPCW LRGNCFWGQN
+     CYPEGCSGPK V
+//

@@ -1,0 +1,112 @@
+ID   CP51_ASHGO              Reviewed;         529 AA.
+AC   Q759W0;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Lanosterol 14-alpha demethylase;
+DE            EC=1.14.14.154;
+DE   AltName: Full=CYPLI;
+DE   AltName: Full=Cytochrome P450 51;
+DE   AltName: Full=Cytochrome P450-14DM;
+DE   AltName: Full=Cytochrome P450-LIA1;
+DE   AltName: Full=Sterol 14-alpha demethylase;
+GN   Name=ERG11; Synonyms=CYP51; OrderedLocusNames=ADR162W;
+OS   Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)
+OS   (Yeast) (Eremothecium gossypii).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Eremothecium.
+OX   NCBI_TaxID=284811;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=15001715; DOI=10.1126/science.1095781;
+RA   Dietrich F.S., Voegeli S., Brachat S., Lerch A., Gates K., Steiner S.,
+RA   Mohr C., Poehlmann R., Luedi P., Choi S., Wing R.A., Flavier A.,
+RA   Gaffney T.D., Philippsen P.;
+RT   "The Ashbya gossypii genome as a tool for mapping the ancient Saccharomyces
+RT   cerevisiae genome.";
+RL   Science 304:304-307(2004).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=23749448; DOI=10.1534/g3.112.002881;
+RA   Dietrich F.S., Voegeli S., Kuo S., Philippsen P.;
+RT   "Genomes of Ashbya fungi isolated from insects reveal four mating-type
+RT   loci, numerous translocations, lack of transposons, and distinct gene
+RT   duplications.";
+RL   G3 (Bethesda) 3:1225-1239(2013).
+CC   -!- FUNCTION: Catalyzes C14-demethylation of lanosterol which is critical
+CC       for ergosterol biosynthesis. It transforms lanosterol into 4,4'-
+CC       dimethyl cholesta-8,14,24-triene-3-beta-ol (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 14alpha-methyl steroid + 3 O2 + 3 reduced [NADPH--
+CC         hemoprotein reductase] = a Delta(14) steroid + formate + 4 H(+) + 4
+CC         H2O + 3 oxidized [NADPH--hemoprotein reductase];
+CC         Xref=Rhea:RHEA:54028, Rhea:RHEA-COMP:11964, Rhea:RHEA-COMP:11965,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:138029, ChEBI:CHEBI:138031; EC=1.14.14.154;
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Steroid biosynthesis; zymosterol biosynthesis; zymosterol from
+CC       lanosterol: step 1/6.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016817; AAS52083.1; -; Genomic_DNA.
+DR   RefSeq; NP_984259.1; NM_209612.1.
+DR   SMR; Q759W0; -.
+DR   STRING; 33169.AAS52083; -.
+DR   EnsemblFungi; AAS52083; AAS52083; AGOS_ADR162W.
+DR   GeneID; 4620421; -.
+DR   KEGG; ago:AGOS_ADR162W; -.
+DR   eggNOG; KOG0684; Eukaryota.
+DR   HOGENOM; CLU_001570_15_0_1; -.
+DR   InParanoid; Q759W0; -.
+DR   OMA; AWTLIEL; -.
+DR   UniPathway; UPA00770; UER00754.
+DR   Proteomes; UP000000591; Chromosome IV.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:EnsemblFungi.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IBA:GO_Central.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0008398; F:sterol 14-demethylase activity; IEA:EnsemblFungi.
+DR   GO; GO:0006696; P:ergosterol biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0016125; P:sterol metabolic process; IBA:GO_Central.
+DR   Gene3D; 1.10.630.10; -; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002403; Cyt_P450_E_grp-IV.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00465; EP450IV.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; SSF48264; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   3: Inferred from homology;
+KW   Heme; Iron; Lipid biosynthesis; Lipid metabolism; Membrane; Metal-binding;
+KW   Monooxygenase; Oxidoreductase; Reference proteome; Steroid biosynthesis;
+KW   Steroid metabolism; Sterol biosynthesis; Sterol metabolism.
+FT   CHAIN           1..529
+FT                   /note="Lanosterol 14-alpha demethylase"
+FT                   /id="PRO_0000052002"
+FT   METAL           468
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   529 AA;  60506 MW;  BE674CB09ABD67DA CRC64;
+     MSESLLQTVV AYVELVLHHF MALSWTQQLS IVIVAPFIYS LVWQTLYSFR KDRVPLVPFM
+     VPWVGSALAY GRAPYEFFGK CQQKYGDVFA FMLLGRVMTV YLGTKGHEFI LNAKLAEVSA
+     EEAYTKLTTP VFGEGVVYDC PNHRLMEQKK FCKNALSTEA FRRYVPMVMD EVRKYLRTSK
+     HFMMNERSSG VVNVMETQPE MTIFTASRSL LGAEMHSMLD ADFAYLYADL DKGFTPLNFV
+     FRDLPLDNYR RRDNAQRTIS STYMKVIERR RKNNDVQDRD LIDALMTSAQ YKDGVKMTDQ
+     QIANLLIGVL MGGQHTSAAT SAWVLLHLAE RPDIQEELYE EQMRVLDGGA KELTYELLQE
+     MPLLNQVIKE TLRMHHPLHS LFRKVTRDMP VPNTSYVIPK DHYVLASPGF CHLSEEYFPN
+     AKEFNPHRWD NDAASSVSTG EKVDYGFGAI SKGVSSPYLP FGGGRHRCIG EGFAYMQLGT
+     IFSVVVRSMK WHFPADMKGV PNPDFTSMVT LPSEPCRIAW ERRVPDQII
+//

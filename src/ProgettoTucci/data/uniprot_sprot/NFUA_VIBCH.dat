@@ -1,0 +1,93 @@
+ID   NFUA_VIBCH              Reviewed;         195 AA.
+AC   Q9KNL2;
+DT   31-AUG-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   10-FEB-2021, entry version 95.
+DE   RecName: Full=Fe/S biogenesis protein NfuA {ECO:0000255|HAMAP-Rule:MF_01637};
+GN   Name=nfuA {ECO:0000255|HAMAP-Rule:MF_01637}; OrderedLocusNames=VC_2720;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+CC   -!- FUNCTION: Involved in iron-sulfur cluster biogenesis. Binds a 4Fe-4S
+CC       cluster, can transfer this cluster to apoproteins, and thereby
+CC       intervenes in the maturation of Fe/S proteins. Could also act as a
+CC       scaffold/chaperone for damaged Fe/S proteins. {ECO:0000255|HAMAP-
+CC       Rule:MF_01637}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01637};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is presumably
+CC       bound at the interface of two monomers. {ECO:0000255|HAMAP-
+CC       Rule:MF_01637};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01637}.
+CC   -!- SIMILARITY: Belongs to the NfuA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01637}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE003852; AAF95860.1; -; Genomic_DNA.
+DR   PIR; B82040; B82040.
+DR   RefSeq; NP_232347.1; NC_002505.1.
+DR   RefSeq; WP_000070178.1; NZ_LT906614.1.
+DR   SMR; Q9KNL2; -.
+DR   STRING; 243277.VC_2720; -.
+DR   DNASU; 2615548; -.
+DR   EnsemblBacteria; AAF95860; AAF95860; VC_2720.
+DR   GeneID; 57741312; -.
+DR   KEGG; vch:VC2720; -.
+DR   PATRIC; fig|243277.26.peg.2595; -.
+DR   eggNOG; COG0316; Bacteria.
+DR   eggNOG; COG0694; Bacteria.
+DR   HOGENOM; CLU_094569_0_0_6; -.
+DR   OMA; ETCLAYC; -.
+DR   BioCyc; VCHO:VC2720-MONOMER; -.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IBA:GO_Central.
+DR   GO; GO:0005506; F:iron ion binding; IBA:GO_Central.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IBA:GO_Central.
+DR   GO; GO:0097428; P:protein maturation by iron-sulfur cluster transfer; IBA:GO_Central.
+DR   Gene3D; 2.60.300.12; -; 1.
+DR   Gene3D; 3.30.300.130; -; 1.
+DR   HAMAP; MF_01637; Fe_S_biogen_NfuA; 1.
+DR   InterPro; IPR017726; Fe/S_biogenesis_protein_NfuA.
+DR   InterPro; IPR000361; FeS_biogenesis.
+DR   InterPro; IPR034904; FSCA_dom_sf.
+DR   InterPro; IPR035903; HesB-like_dom_sf.
+DR   InterPro; IPR001075; NIF_FeS_clus_asmbl_NifU_C.
+DR   Pfam; PF01521; Fe-S_biosyn; 1.
+DR   Pfam; PF01106; NifU; 1.
+DR   SUPFAM; SSF117916; SSF117916; 1.
+DR   SUPFAM; SSF89360; SSF89360; 1.
+DR   TIGRFAMs; TIGR03341; YhgI_GntY; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Metal-binding; Reference proteome.
+FT   CHAIN           1..195
+FT                   /note="Fe/S biogenesis protein NfuA"
+FT                   /id="PRO_0000209485"
+FT   METAL           152
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01637"
+FT   METAL           155
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01637"
+SQ   SEQUENCE   195 AA;  21107 MW;  750DA6AF2BA7649A CRC64;
+     MSNPITITES AQSHFAKLLA QQPEGTNIRV FVVNPGTQNA ECGVSYCPPE AVEATDTEYP
+     FSGFSAYVDE LSLPFLEEAV IDFVTDKMGS QLTLKAPNAK MRKVSDDASL MERVEYALQT
+     QVNPQLAGHG GHVRLISISD DGVALVQFGG GCNGCSMVDV TLKEGIEKEL LAQFAGELTA
+     VRDSTEHDRG EHSYY
+//

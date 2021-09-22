@@ -1,0 +1,130 @@
+ID   KAE1_THEON              Reviewed;         325 AA.
+AC   B6YUD9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 1.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01446};
+DE            EC=2.3.1.234 {ECO:0000255|HAMAP-Rule:MF_01446};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000255|HAMAP-Rule:MF_01446};
+DE            Short=t(6)A synthase {ECO:0000255|HAMAP-Rule:MF_01446};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein Kae1 {ECO:0000255|HAMAP-Rule:MF_01446};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein Kae1 {ECO:0000255|HAMAP-Rule:MF_01446};
+GN   Name=kae1 {ECO:0000255|HAMAP-Rule:MF_01446}; OrderedLocusNames=TON_1634;
+OS   Thermococcus onnurineus (strain NA1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Thermococcus.
+OX   NCBI_TaxID=523850;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NA1;
+RX   PubMed=18790866; DOI=10.1128/jb.00746-08;
+RA   Lee H.S., Kang S.G., Bae S.S., Lim J.K., Cho Y., Kim Y.J., Jeon J.H.,
+RA   Cha S.-S., Kwon K.K., Kim H.-T., Park C.-J., Lee H.-W., Kim S.I., Chun J.,
+RA   Colwell R.R., Kim S.-J., Lee J.-H.;
+RT   "The complete genome sequence of Thermococcus onnurineus NA1 reveals a
+RT   mixed heterotrophic and carboxydotrophic metabolism.";
+RL   J. Bacteriol. 190:7491-7499(2008).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is a component of the KEOPS complex that is probably
+CC       involved in the transfer of the threonylcarbamoyl moiety of
+CC       threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37. Kae1 likely
+CC       plays a direct catalytic role in this reaction, but requires other
+CC       protein(s) of the complex to fulfill this activity. {ECO:0000255|HAMAP-
+CC       Rule:MF_01446}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + L-threonylcarbamoyladenylate = AMP +
+CC         H(+) + N(6)-L-threonylcarbamoyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01446};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01446};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01446};
+CC   -!- SUBUNIT: Monomer. Component of the KEOPS complex that consists of Kae1,
+CC       Bud32, Cgi121 and Pcc1; the whole complex dimerizes.
+CC       {ECO:0000255|HAMAP-Rule:MF_01446}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01446}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000855; ACJ17124.1; -; Genomic_DNA.
+DR   RefSeq; WP_012572596.1; NC_011529.1.
+DR   SMR; B6YUD9; -.
+DR   STRING; 523850.TON_1634; -.
+DR   EnsemblBacteria; ACJ17124; ACJ17124; TON_1634.
+DR   GeneID; 7018673; -.
+DR   KEGG; ton:TON_1634; -.
+DR   PATRIC; fig|523850.10.peg.1648; -.
+DR   eggNOG; arCOG01183; Archaea.
+DR   HOGENOM; CLU_023208_2_2_2; -.
+DR   OMA; HLEGHIY; -.
+DR   OrthoDB; 34679at2157; -.
+DR   BioCyc; TONN523850:G1GAB-1684-MONOMER; -.
+DR   Proteomes; UP000002727; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000408; C:EKC/KEOPS complex; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061711; F:N(6)-L-threonylcarbamoyladenine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01446; Kae1; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR022449; Kae1_arc.
+DR   InterPro; IPR034680; Kae1_archaea_euk.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   PANTHER; PTHR11735; PTHR11735; 1.
+DR   PANTHER; PTHR11735:SF14; PTHR11735:SF14; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; SSF53067; 1.
+DR   TIGRFAMs; TIGR03722; arch_KAE1; 1.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Iron; Metal-binding; Transferase;
+KW   tRNA processing.
+FT   CHAIN           1..325
+FT                   /note="tRNA N6-adenosine threonylcarbamoyltransferase"
+FT                   /id="PRO_1000146050"
+FT   REGION          127..131
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   METAL           107
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   METAL           111
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   METAL           127
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   METAL           285
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   BINDING         159
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   BINDING         172
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   BINDING         176
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+FT   BINDING         257
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01446"
+SQ   SEQUENCE   325 AA;  35383 MW;  0E879C5DD677D25C CRC64;
+     MIALGIEGTA HTLGIGIVTE KKVLANVFDT LTTEKGGIHP KEAAEHHARL LKPLLRKALD
+     EAGITIEDVD MIAFSQGPGL GPSLRVVATA ARALAIKHNK PIIGVNHCIA HVEIAKMFGV
+     KDPVGLYVSG GNTQVLALEG GRYRVFGETL DIGIGNAIDT FAREIGIGFP GGPKIEKLAL
+     EGEKYIELPY AVKGMDLSFS GILTEAVRKY RTGRYRVEDL AYSFQETAFA ALVEVTERAV
+     AHTGKDEVVL VGGVAANNRL REMLRIMTED RGIKFFVPPY DLCRDNGAMI AYTGLRMYLG
+     GVKFNLEETV VKQKFRTDEV EVVWS
+//

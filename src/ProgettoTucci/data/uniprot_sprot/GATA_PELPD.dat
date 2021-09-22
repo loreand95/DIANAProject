@@ -1,0 +1,99 @@
+ID   GATA_PELPD              Reviewed;         485 AA.
+AC   A1ATL3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            Short=Glu-ADT subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            EC=6.3.5.7 {ECO:0000255|HAMAP-Rule:MF_00120};
+GN   Name=gatA {ECO:0000255|HAMAP-Rule:MF_00120}; OrderedLocusNames=Ppro_3088;
+OS   Pelobacter propionicus (strain DSM 2379 / NBRC 103807 / OttBd1).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales;
+OC   Desulfuromonadaceae; Pelobacter.
+OX   NCBI_TaxID=338966;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 2379 / NBRC 103807 / OttBd1;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Saunders E., Brettin T., Bruce D., Han C., Tapia R., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Kim E., Lovley D.,
+RA   Richardson P.;
+RT   "Complete sequence of chromosome of Pelobacter propionicus DSM 2379.";
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Allows the formation of correctly charged Gln-tRNA(Gln)
+CC       through the transamidation of misacylated Glu-tRNA(Gln) in organisms
+CC       which lack glutaminyl-tRNA synthetase. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated gamma-phospho-Glu-
+CC       tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216; EC=6.3.5.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00120};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00120}.
+CC   -!- SIMILARITY: Belongs to the amidase family. GatA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000482; ABL00684.1; -; Genomic_DNA.
+DR   RefSeq; WP_011736916.1; NC_008609.1.
+DR   SMR; A1ATL3; -.
+DR   STRING; 338966.Ppro_3088; -.
+DR   EnsemblBacteria; ABL00684; ABL00684; Ppro_3088.
+DR   KEGG; ppd:Ppro_3088; -.
+DR   eggNOG; COG0154; Bacteria.
+DR   HOGENOM; CLU_009600_0_3_7; -.
+DR   OMA; MYLSDIF; -.
+DR   OrthoDB; 1239251at2; -.
+DR   Proteomes; UP000006732; Chromosome.
+DR   GO; GO:0030956; C:glutamyl-tRNA(Gln) amidotransferase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.1300.10; -; 1.
+DR   HAMAP; MF_00120; GatA; 1.
+DR   InterPro; IPR000120; Amidase.
+DR   InterPro; IPR020556; Amidase_CS.
+DR   InterPro; IPR023631; Amidase_dom.
+DR   InterPro; IPR036928; AS_sf.
+DR   InterPro; IPR004412; GatA.
+DR   PANTHER; PTHR11895; PTHR11895; 1.
+DR   Pfam; PF01425; Amidase; 1.
+DR   SUPFAM; SSF75304; SSF75304; 1.
+DR   TIGRFAMs; TIGR00132; gatA; 1.
+DR   PROSITE; PS00571; AMIDASES; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..485
+FT                   /note="Glutamyl-tRNA(Gln) amidotransferase subunit A"
+FT                   /id="PRO_1000015879"
+FT   ACT_SITE        78
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        153
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        177
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+SQ   SEQUENCE   485 AA;  52258 MW;  AAE5549DF692EC3E CRC64;
+     MDLFDLTLHE LHAKLKSKEV SSREATSAML DRIAELEPRI NAFITVTPER ALAEAEAADR
+     RIAAGEADVL TGIPLAVKDI FLTEGTLTTC GSRILNNFIP PYSATSFEKL KQRGMVLLGK
+     LNQDEFAMGS SNESSASGPC RNPWNTDCIP GGSSGGSAAA IAARQATVTL GTDTGGSIRQ
+     PASHCGCVGL KPTYGRVSRY GVIAYASSLD QVGPLTRDVT DCAIMLGALA GHDPKDSTSV
+     DRPVPDYQAA LTNDIRGLRI GLPREYFIEG LDPDVQASMD QAIETYRRLG AEFTEISLPH
+     TDYAVASYYL IATAEASANL ARYDGVRFGH RAEQAEGLLE MYSRSRSQGF GSEVKRRIML
+     GTYALSSGYY DAYYLKAQKV RTLIMADFIQ AFEGVDLILT PVAPTPAFRI GEKVNDPLQM
+     YLSDIFTIPV NLAGTCAMSL PAGISGQGLP IGVQLIGKPF GEETILRAAH AFEQATEWHS
+     LRAPL
+//

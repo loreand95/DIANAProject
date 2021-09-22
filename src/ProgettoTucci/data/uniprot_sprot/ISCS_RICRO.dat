@@ -1,0 +1,123 @@
+ID   ISCS_RICRO              Reviewed;         410 AA.
+AC   B0BXX6;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 79.
+DE   RecName: Full=Cysteine desulfurase IscS {ECO:0000255|HAMAP-Rule:MF_00331};
+DE            EC=2.8.1.7 {ECO:0000255|HAMAP-Rule:MF_00331};
+GN   Name=iscS {ECO:0000255|HAMAP-Rule:MF_00331}; OrderedLocusNames=RrIowa_0868;
+OS   Rickettsia rickettsii (strain Iowa).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=452659;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Iowa;
+RX   PubMed=18025092; DOI=10.1128/iai.00952-07;
+RA   Ellison D.W., Clark T.R., Sturdevant D.E., Virtaneva K., Porcella S.F.,
+RA   Hackstadt T.;
+RT   "Genomic comparison of virulent Rickettsia rickettsii Sheila Smith and
+RT   avirulent Rickettsia rickettsii Iowa.";
+RL   Infect. Immun. 76:542-550(2008).
+CC   -!- FUNCTION: Master enzyme that delivers sulfur to a number of partners
+CC       involved in Fe-S cluster assembly, tRNA modification or cofactor
+CC       biosynthesis. Catalyzes the removal of elemental sulfur atoms from
+CC       cysteine to produce alanine. Functions as a sulfur delivery protein for
+CC       Fe-S cluster synthesis onto IscU, an Fe-S scaffold assembly protein, as
+CC       well as other S acceptor proteins. {ECO:0000255|HAMAP-Rule:MF_00331}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00331};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00331};
+CC   -!- PATHWAY: Cofactor biosynthesis; iron-sulfur cluster biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00331}.
+CC   -!- SUBUNIT: Homodimer. Forms a heterotetramer with IscU, interacts with
+CC       other sulfur acceptors. {ECO:0000255|HAMAP-Rule:MF_00331}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00331}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. NifS/IscS subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00331}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000766; ABY72702.1; -; Genomic_DNA.
+DR   RefSeq; WP_012150913.1; NC_010263.3.
+DR   SMR; B0BXX6; -.
+DR   STRING; 452659.RrIowa_0868; -.
+DR   EnsemblBacteria; ABY72702; ABY72702; RrIowa_0868.
+DR   GeneID; 45539297; -.
+DR   KEGG; rrj:RrIowa_0868; -.
+DR   eggNOG; COG1104; Bacteria.
+DR   HOGENOM; CLU_003433_0_2_5; -.
+DR   OMA; APHIINF; -.
+DR   BioCyc; RRIC452659:G1G9G-844-MONOMER; -.
+DR   UniPathway; UPA00266; -.
+DR   Proteomes; UP000000796; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044571; P:[2Fe-2S] cluster assembly; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00331; Cys_desulf_IscS; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010240; Cys_deSase_IscS.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   PANTHER; PTHR11601:SF34; PTHR11601:SF34; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR02006; IscS; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN           1..410
+FT                   /note="Cysteine desulfurase IscS"
+FT                   /id="PRO_1000079208"
+FT   REGION          80..81
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   REGION          208..210
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   ACT_SITE        334
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   METAL           334
+FT                   /note="Iron-sulfur (2Fe-2S); via persulfide group; shared
+FT                   with IscU"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   BINDING         160
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   BINDING         188
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   BINDING         248
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+FT   MOD_RES         211
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00331"
+SQ   SEQUENCE   410 AA;  45400 MW;  3356DABDCADA0F24 CRC64;
+     MTPQLNNLTL PIYMDYQATT PIDPRVMEAM LPYFTTKFGN PHSRSHSFGW EAENAVEEAR
+     SMVAKLIGAD TKEIIFTSGA TESNNLAIKG IAKFYSNKKN HIITVVSEHK CVLDACRHLE
+     QEGIKITYLP IKPNGIIDLE TLKNAITDQT MLVSVMVVNN EIGVVQPLKE IGKICREKGV
+     FFHSDIAQGF GKIPIDVNAF NIDLASISGH KIYGPKGIGA LYVRKKPRVR ITPLINGGGQ
+     ERGMRSGTLP TPLIVGLGMA AEIAYSEMEK DTKHVNYLFD RFLNNIHKRI SEVYLNGDKN
+     QRYKGNLNLS FAGVEGESMI LAIKDLAVSS GSACTSASLE PSYVLRSIGI GEELAHTAIR
+     FGIGRFTTEQ EVDYAVNLIC SKIDKLRALS PLWEMMQEGI DLKKIKWAVH
+//

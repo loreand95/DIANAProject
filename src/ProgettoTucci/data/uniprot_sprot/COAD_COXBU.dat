@@ -1,0 +1,160 @@
+ID   COAD_COXBU              Reviewed;         159 AA.
+AC   Q83EM7;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000303|PubMed:26033498};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000303|PubMed:26033498};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000303|PubMed:26033498};
+GN   OrderedLocusNames=CBU_0288;
+OS   Coxiella burnetii (strain RSA 493 / Nine Mile phase I).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae;
+OC   Coxiella.
+OX   NCBI_TaxID=227377;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RSA 493 / Nine Mile phase I;
+RX   PubMed=12704232; DOI=10.1073/pnas.0931379100;
+RA   Seshadri R., Paulsen I.T., Eisen J.A., Read T.D., Nelson K.E., Nelson W.C.,
+RA   Ward N.L., Tettelin H., Davidsen T.M., Beanan M.J., DeBoy R.T.,
+RA   Daugherty S.C., Brinkac L.M., Madupu R., Dodson R.J., Khouri H.M.,
+RA   Lee K.H., Carty H.A., Scanlan D., Heinzen R.A., Thompson H.A., Samuel J.E.,
+RA   Fraser C.M., Heidelberg J.F.;
+RT   "Complete genome sequence of the Q-fever pathogen, Coxiella burnetii.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:5455-5460(2003).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.25 ANGSTROMS).
+RC   STRAIN=RSA 493 / Nine Mile phase I;
+RX   PubMed=26033498; DOI=10.1002/prot.24841;
+RA   Franklin M.C., Cheung J., Rudolph M.J., Burshteyn F., Cassidy M., Gary E.,
+RA   Hillerich B., Yao Z.K., Carlier P.R., Totrov M., Love J.D.;
+RT   "Structural genomics for drug design against the pathogen Coxiella
+RT   burnetii.";
+RL   Proteins 83:2124-2136(2015).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-pantetheine 4'-phosphate + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00151};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016828; AAO89846.1; -; Genomic_DNA.
+DR   RefSeq; NP_819332.1; NC_002971.3.
+DR   RefSeq; WP_005771452.1; NZ_LM994641.1.
+DR   PDB; 4F3R; X-ray; 2.25 A; A/B/C=1-159.
+DR   PDBsum; 4F3R; -.
+DR   SMR; Q83EM7; -.
+DR   STRING; 227377.CBU_0288; -.
+DR   EnsemblBacteria; AAO89846; AAO89846; CBU_0288.
+DR   GeneID; 1208170; -.
+DR   KEGG; cbu:CBU_0288; -.
+DR   PATRIC; fig|227377.7.peg.281; -.
+DR   eggNOG; COG0669; Bacteria.
+DR   HOGENOM; CLU_100149_0_1_6; -.
+DR   OMA; EFQMALM; -.
+DR   BioCyc; CBUR227377:G1G0B-292-MONOMER; -.
+DR   UniPathway; UPA00241; UER00355.
+DR   Proteomes; UP000002671; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02163; PPAT; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21342:SF1; PTHR21342:SF1; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   TIGRFAMs; TIGR01510; coaD_prev_kdtB; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..159
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_0000156200"
+FT   NP_BIND         10..11
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         88..90
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         123..129
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         10
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         18
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         42
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         73
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         87
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         98
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            18
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   STRAND          4..9
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           16..25
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           26..28
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   STRAND          30..36
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           48..58
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   STRAND          64..68
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           73..79
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   STRAND          84..89
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           92..108
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   STRAND          113..118
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           121..123
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           128..136
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   TURN            142..144
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+FT   HELIX           147..152
+FT                   /evidence="ECO:0007744|PDB:4F3R"
+SQ   SEQUENCE   159 AA;  17967 MW;  A87B74F77AA72525 CRC64;
+     MKPIAIYPGT FDPLTNGHVD IIERALPLFN KIIVACAPTS RKDPHLKLEE RVNLIADVLT
+     DERVEVLPLT GLLVDFAKTH QANFILRGLR AVSDFDYEFQ LAHMNYQLSP EIETIFLPAR
+     EGYSYVSGTM VREIVTLGGD VSPFVPPLVA RHLQKRREK
+//

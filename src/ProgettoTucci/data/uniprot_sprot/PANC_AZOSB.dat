@@ -1,0 +1,112 @@
+ID   PANC_AZOSB              Reviewed;         275 AA.
+AC   A1KAA6;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=Pantothenate synthetase {ECO:0000255|HAMAP-Rule:MF_00158};
+DE            Short=PS {ECO:0000255|HAMAP-Rule:MF_00158};
+DE            EC=6.3.2.1 {ECO:0000255|HAMAP-Rule:MF_00158};
+DE   AltName: Full=Pantoate--beta-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00158};
+DE   AltName: Full=Pantoate-activating enzyme {ECO:0000255|HAMAP-Rule:MF_00158};
+GN   Name=panC {ECO:0000255|HAMAP-Rule:MF_00158}; OrderedLocusNames=azo3145;
+OS   Azoarcus sp. (strain BH72).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Zoogloeaceae;
+OC   Azoarcus.
+OX   NCBI_TaxID=418699;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BH72;
+RX   PubMed=17057704; DOI=10.1038/nbt1243;
+RA   Krause A., Ramakumar A., Bartels D., Battistoni F., Bekel T., Boch J.,
+RA   Boehm M., Friedrich F., Hurek T., Krause L., Linke B., McHardy A.C.,
+RA   Sarkar A., Schneiker S., Syed A.A., Thauer R., Vorhoelter F.-J.,
+RA   Weidner S., Puehler A., Reinhold-Hurek B., Kaiser O., Goesmann A.;
+RT   "Complete genome of the mutualistic, N2-fixing grass endophyte Azoarcus sp.
+RT   strain BH72.";
+RL   Nat. Biotechnol. 24:1385-1391(2006).
+CC   -!- FUNCTION: Catalyzes the condensation of pantoate with beta-alanine in
+CC       an ATP-dependent reaction via a pantoyl-adenylate intermediate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + ATP + beta-alanine = (R)-pantothenate + AMP +
+CC         diphosphate + H(+); Xref=Rhea:RHEA:10912, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:29032, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57966, ChEBI:CHEBI:456215; EC=6.3.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00158};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; (R)-
+CC       pantothenate from (R)-pantoate and beta-alanine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   -!- MISCELLANEOUS: The reaction proceeds by a bi uni uni bi ping pong
+CC       mechanism. {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   -!- SIMILARITY: Belongs to the pantothenate synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00158}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM406670; CAL95762.1; -; Genomic_DNA.
+DR   RefSeq; WP_011766870.1; NC_008702.1.
+DR   SMR; A1KAA6; -.
+DR   STRING; 62928.azo3145; -.
+DR   EnsemblBacteria; CAL95762; CAL95762; azo3145.
+DR   KEGG; aoa:dqs_3277; -.
+DR   KEGG; azo:azo3145; -.
+DR   eggNOG; COG0414; Bacteria.
+DR   HOGENOM; CLU_047148_0_0_4; -.
+DR   OMA; CNHKLEP; -.
+DR   OrthoDB; 1661843at2; -.
+DR   UniPathway; UPA00028; UER00005.
+DR   Proteomes; UP000002588; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004592; F:pantoate-beta-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00560; PanC; 1.
+DR   Gene3D; 3.30.1300.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00158; PanC; 1.
+DR   InterPro; IPR003721; Pantoate_ligase.
+DR   InterPro; IPR042176; Pantoate_ligase_C.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21299:SF1; PTHR21299:SF1; 1.
+DR   Pfam; PF02569; Pantoate_ligase; 1.
+DR   TIGRFAMs; TIGR00018; panC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Pantothenate biosynthesis; Reference proteome.
+FT   CHAIN           1..275
+FT                   /note="Pantothenate synthetase"
+FT                   /id="PRO_0000305394"
+FT   NP_BIND         26..33
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   NP_BIND         144..147
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   NP_BIND         181..184
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   ACT_SITE        33
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   BINDING         57
+FT                   /note="Beta-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   BINDING         57
+FT                   /note="Pantoate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   BINDING         150
+FT                   /note="Pantoate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+FT   BINDING         173
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00158"
+SQ   SEQUENCE   275 AA;  30351 MW;  F0EE98277899FF36 CRC64;
+     MQIHTTVASL RAARARAGRV ALVPTMGNLH DGHIALMRQA AGRADCVIAS IFVNRLQFGP
+     NEDFDKYPRT LQADIERLEA AGVAHLFAPD ESEMYPQPQR YHVDPAPAQV SILDGEFRPG
+     HFRGVATVVL KLLNIVQPDV ALFGKKDYQQ LMVLSNMVRE FALPIEVLPG DTVRADDGLA
+     LSSRNGYLSA AERAEAPRLY ALLCRIRDAV RAGDHDFLKL ETEAMAQLEA HGWAPDYIAI
+     RRQADLQPPV HADDPLVVLA AARLGRTRLI DNLEI
+//

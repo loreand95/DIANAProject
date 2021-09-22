@@ -1,0 +1,82 @@
+ID   RHAM_PARPJ              Reviewed;         107 AA.
+AC   B2TFM4;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=L-rhamnose mutarotase {ECO:0000255|HAMAP-Rule:MF_01663};
+DE            EC=5.1.3.32 {ECO:0000255|HAMAP-Rule:MF_01663};
+DE   AltName: Full=Rhamnose 1-epimerase {ECO:0000255|HAMAP-Rule:MF_01663};
+DE   AltName: Full=Type-3 mutarotase {ECO:0000255|HAMAP-Rule:MF_01663};
+GN   Name=rhaM {ECO:0000255|HAMAP-Rule:MF_01663}; OrderedLocusNames=Bphyt_5686;
+OS   Paraburkholderia phytofirmans (strain DSM 17436 / LMG 22146 / PsJN)
+OS   (Burkholderia phytofirmans).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Paraburkholderia.
+OX   NCBI_TaxID=398527;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17436 / LMG 22146 / PsJN;
+RX   PubMed=21551308; DOI=10.1128/jb.05055-11;
+RA   Weilharter A., Mitter B., Shin M.V., Chain P.S., Nowak J., Sessitsch A.;
+RT   "Complete genome sequence of the plant growth-promoting endophyte
+RT   Burkholderia phytofirmans strain PsJN.";
+RL   J. Bacteriol. 193:3383-3384(2011).
+CC   -!- FUNCTION: Involved in the anomeric conversion of L-rhamnose.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-L-rhamnose = beta-L-rhamnose; Xref=Rhea:RHEA:25584,
+CC         ChEBI:CHEBI:27586, ChEBI:CHEBI:27907; EC=5.1.3.32;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01663};
+CC   -!- PATHWAY: Carbohydrate metabolism; L-rhamnose metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SIMILARITY: Belongs to the rhamnose mutarotase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001053; ACD20032.1; -; Genomic_DNA.
+DR   RefSeq; WP_012427540.1; NC_010676.1.
+DR   SMR; B2TFM4; -.
+DR   STRING; 398527.Bphyt_5686; -.
+DR   EnsemblBacteria; ACD20032; ACD20032; Bphyt_5686.
+DR   KEGG; bpy:Bphyt_5686; -.
+DR   eggNOG; COG3254; Bacteria.
+DR   HOGENOM; CLU_100689_2_0_4; -.
+DR   OMA; KRHDEIW; -.
+DR   OrthoDB; 1694303at2; -.
+DR   UniPathway; UPA00125; -.
+DR   Proteomes; UP000001739; Chromosome 2.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0062192; F:L-rhamnose mutarotase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01663; L_rham_rotase; 1.
+DR   InterPro; IPR011008; Dimeric_a/b-barrel.
+DR   InterPro; IPR013448; L-rhamnose_mutarotase.
+DR   InterPro; IPR008000; Rham/fucose_mutarotase.
+DR   Pfam; PF05336; rhaM; 1.
+DR   SUPFAM; SSF54909; SSF54909; 1.
+DR   TIGRFAMs; TIGR02625; YiiL_rotase; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cytoplasm; Isomerase; Rhamnose metabolism.
+FT   CHAIN           1..107
+FT                   /note="L-rhamnose mutarotase"
+FT                   /id="PRO_1000187212"
+FT   REGION          76..77
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   ACT_SITE        22
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   BINDING         18
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   BINDING         41
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+SQ   SEQUENCE   107 AA;  12738 MW;  66450BE03896F867 CRC64;
+     METIAFRMVL NPGMREEYER RHAQIWPELV DALHNAGVRD YRIFFDPDSN HLFAILTRNS
+     HHTMDELPQL DVMRKWWDYM ADIMHTGPDH TPVQQPLEPV FHLNSLS
+//

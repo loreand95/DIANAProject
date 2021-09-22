@@ -1,0 +1,110 @@
+ID   TYSY_PHYMT              Reviewed;         288 AA.
+AC   B3QZX0;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 62.
+DE   RecName: Full=Thymidylate synthase {ECO:0000255|HAMAP-Rule:MF_00008};
+DE            Short=TS {ECO:0000255|HAMAP-Rule:MF_00008};
+DE            Short=TSase {ECO:0000255|HAMAP-Rule:MF_00008};
+DE            EC=2.1.1.45 {ECO:0000255|HAMAP-Rule:MF_00008};
+GN   Name=thyA {ECO:0000255|HAMAP-Rule:MF_00008}; OrderedLocusNames=ATP_00320;
+OS   Phytoplasma mali (strain AT).
+OC   Bacteria; Tenericutes; Mollicutes; Acholeplasmatales; Acholeplasmataceae;
+OC   Candidatus Phytoplasma; 16SrX (Apple proliferation group).
+OX   NCBI_TaxID=482235;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AT;
+RX   PubMed=18582369; DOI=10.1186/1471-2164-9-306;
+RA   Kube M., Schneider B., Kuhl H., Dandekar T., Heitmann K., Migdoll A.M.,
+RA   Reinhardt R., Seemueller E.;
+RT   "The linear chromosome of the plant-pathogenic mycoplasma 'Candidatus
+RT   Phytoplasma mali'.";
+RL   BMC Genomics 9:306-306(2008).
+CC   -!- FUNCTION: Catalyzes the reductive methylation of 2'-deoxyuridine-5'-
+CC       monophosphate (dUMP) to 2'-deoxythymidine-5'-monophosphate (dTMP) while
+CC       utilizing 5,10-methylenetetrahydrofolate (mTHF) as the methyl donor and
+CC       reductant in the reaction, yielding dihydrofolate (DHF) as a by-
+CC       product. This enzymatic reaction provides an intracellular de novo
+CC       source of dTMP, an essential precursor for DNA biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00008}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + dUMP = 7,8-
+CC         dihydrofolate + dTMP; Xref=Rhea:RHEA:12104, ChEBI:CHEBI:15636,
+CC         ChEBI:CHEBI:57451, ChEBI:CHEBI:63528, ChEBI:CHEBI:246422;
+CC         EC=2.1.1.45; Evidence={ECO:0000255|HAMAP-Rule:MF_00008};
+CC   -!- PATHWAY: Pyrimidine metabolism; dTTP biosynthesis. {ECO:0000255|HAMAP-
+CC       Rule:MF_00008}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00008}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00008}.
+CC   -!- SIMILARITY: Belongs to the thymidylate synthase family. Bacterial-type
+CC       ThyA subfamily. {ECO:0000255|HAMAP-Rule:MF_00008}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU469464; CAP18507.1; -; Genomic_DNA.
+DR   SMR; B3QZX0; -.
+DR   STRING; 37692.ATP_00320; -.
+DR   EnsemblBacteria; CAP18507; CAP18507; ATP_00320.
+DR   KEGG; pml:ATP_00320; -.
+DR   eggNOG; COG0207; Bacteria.
+DR   HOGENOM; CLU_021669_0_0_14; -.
+DR   OMA; KQYLDLC; -.
+DR   UniPathway; UPA00575; -.
+DR   Proteomes; UP000002020; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004799; F:thymidylate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006231; P:dTMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006235; P:dTTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   CDD; cd00351; TS_Pyrimidine_HMase; 1.
+DR   Gene3D; 3.30.572.10; -; 1.
+DR   HAMAP; MF_00008; Thymidy_synth_bact; 1.
+DR   InterPro; IPR023451; Thymidate_synth/dCMP_Mease.
+DR   InterPro; IPR036926; Thymidate_synth/dCMP_Mease_sf.
+DR   InterPro; IPR000398; Thymidylate_synthase.
+DR   Pfam; PF00303; Thymidylat_synt; 1.
+DR   PRINTS; PR00108; THYMDSNTHASE.
+DR   SUPFAM; SSF55831; SSF55831; 1.
+DR   TIGRFAMs; TIGR03284; thym_sym; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Nucleotide biosynthesis; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..288
+FT                   /note="Thymidylate synthase"
+FT                   /id="PRO_1000197255"
+FT   NP_BIND         150..151
+FT                   /note="dUMP; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   NP_BIND         190..193
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   NP_BIND         231..233
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   ACT_SITE        170
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   BINDING         21
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   BINDING         51
+FT                   /note="5,10-methylenetetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   BINDING         193
+FT                   /note="5,10-methylenetetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   BINDING         201
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+FT   BINDING         287
+FT                   /note="5,10-methylenetetrahydrofolate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00008"
+SQ   SEQUENCE   288 AA;  33877 MW;  249B72FE6CE885B1 CRC64;
+     MQAYLNLCRD ILNYGKKKID RTKTGTRSIF GYQMRFNLEK GFPLLTTKKM NFKAIIHELL
+     WFIKGDTNIR YLVQNNVNIW NEWPYQKYCN SNFFQNLTLQ EFIDKIIIDE KFAKIHGDLG
+     PIYGHQWRNF QGIDQLTDLI SEIKKNPHSR RLILTAWDPT VIKDMLLPPC HVMIQCYVEK
+     NKISMQLYQR SGDVFLGIPF NIASYSLLLI IIAQCTGLKP FEFIHTIGDA HIYNNHIEQI
+     QKQIKRIPKK LPIMTLNPHI IDINQFTFND FNLEKYESYG ILKGVVAV
+//

@@ -1,0 +1,87 @@
+ID   DTDA_CALMQ              Reviewed;         269 AA.
+AC   A8MCV2;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   04-DEC-2007, sequence version 1.
+DT   02-DEC-2020, entry version 58.
+DE   RecName: Full=D-aminoacyl-tRNA deacylase {ECO:0000255|HAMAP-Rule:MF_00562};
+DE            EC=3.1.1.96 {ECO:0000255|HAMAP-Rule:MF_00562};
+DE   AltName: Full=D-tyrosyl-tRNA(Tyr) deacylase;
+GN   Name=dtdA {ECO:0000255|HAMAP-Rule:MF_00562}; OrderedLocusNames=Cmaq_0773;
+OS   Caldivirga maquilingensis (strain ATCC 700844 / DSM 13496 / JCM 10307 /
+OS   IC-167).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Caldivirga.
+OX   NCBI_TaxID=397948;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700844 / DSM 13496 / JCM 10307 / IC-167;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Saunders E., Brettin T., Bruce D., Detter J.C.,
+RA   Han C., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Ivanova N., Biddle J.F., Zhang Z., Fitz-Gibbon S.T., Lowe T.M.,
+RA   Saltikov C., House C.H., Richardson P.;
+RT   "Complete sequence of Caldivirga maquilingensis IC-167.";
+RL   Submitted (OCT-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: D-aminoacyl-tRNA deacylase with broad substrate specificity.
+CC       By recycling D-aminoacyl-tRNA to D-amino acids and free tRNA molecules,
+CC       this enzyme counteracts the toxicity associated with the formation of
+CC       D-aminoacyl-tRNA entities in vivo. {ECO:0000255|HAMAP-Rule:MF_00562}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a D-aminoacyl-tRNA + H2O = a D-alpha-amino acid + H(+) + tRNA;
+CC         Xref=Rhea:RHEA:13953, Rhea:RHEA-COMP:10123, Rhea:RHEA-COMP:10124,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:59871,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:79333; EC=3.1.1.96;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00562};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-tRNA(Ala) + H2O = glycine + H(+) + tRNA(Ala);
+CC         Xref=Rhea:RHEA:53744, Rhea:RHEA-COMP:9657, Rhea:RHEA-COMP:13640,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57305,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78522; EC=3.1.1.96;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00562};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00562};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00562};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00562}.
+CC   -!- SIMILARITY: Belongs to the DtdA deacylase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00562}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000852; ABW01608.1; -; Genomic_DNA.
+DR   RefSeq; WP_012185827.1; NC_009954.1.
+DR   SMR; A8MCV2; -.
+DR   STRING; 397948.Cmaq_0773; -.
+DR   EnsemblBacteria; ABW01608; ABW01608; Cmaq_0773.
+DR   GeneID; 5708529; -.
+DR   KEGG; cma:Cmaq_0773; -.
+DR   eggNOG; arCOG01616; Archaea.
+DR   HOGENOM; CLU_056464_1_0_2; -.
+DR   OMA; CYEATHH; -.
+DR   OrthoDB; 84039at2157; -.
+DR   BioCyc; CMAQ397948:G1GA9-796-MONOMER; -.
+DR   Proteomes; UP000001137; Chromosome.
+DR   GO; GO:0051499; F:D-aminoacyl-tRNA deacylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019478; P:D-amino acid catabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00562; Deacylase_DtdA; 1.
+DR   InterPro; IPR018033; Deacylase_DtdA_archaea.
+DR   InterPro; IPR007508; DtdA.
+DR   PANTHER; PTHR34667; PTHR34667; 1.
+DR   Pfam; PF04414; tRNA_deacylase; 1.
+DR   PIRSF; PIRSF016210; UCP016210; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Reference proteome; Zinc.
+FT   CHAIN           1..269
+FT                   /note="D-aminoacyl-tRNA deacylase"
+FT                   /id="PRO_0000345206"
+SQ   SEQUENCE   269 AA;  30373 MW;  6FB5F597DCDD6B3D CRC64;
+     MKIGLIVSRV DEASIGIWSM LKGMVKFKEI NTNEYSSDLA LALVSDKDIV YVDEADEWAR
+     VNDIDLLLFL SRHEMKNPKP LITFHTPGNW TNDVELGGKP GQVAISEPRV LTNLFREAYR
+     RIGELNGYSV TLEATHHGPF VDKPVVFVEI GSTSNEWRDP KAQEFLASLV FDLLNNTDKY
+     INDGKDAAVS IGDLHYTTLV NHIINGEYDV GHMVPKYIKP TPTIIKMAVE RNTVRPRIGI
+     IHWKSLDAES RVMSEKELSN LGLTVIKRR
+//

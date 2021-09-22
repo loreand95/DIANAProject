@@ -1,0 +1,83 @@
+ID   TX2C_EUCCO              Reviewed;          29 AA.
+AC   P0DQO7;
+DT   10-FEB-2021, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2021, sequence version 1.
+DT   07-APR-2021, entry version 2.
+DE   RecName: Full=Lambda-theraphotoxin-Ec2c {ECO:0000305};
+DE            Short=Lambda-TRTX-Ec2c {ECO:0000305};
+DE   AltName: Full=Kappa-theraphotoxin-Ec2c {ECO:0000303|PubMed:21447641};
+DE            Short=Kappa-TRTX-Ec2c {ECO:0000303|PubMed:21447641};
+OS   Eucratoscelus constrictus (African red-rump baboon spider).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida; Araneae;
+OC   Mygalomorphae; Theraphosidae; Eucratoscelus.
+OX   NCBI_TaxID=2771863;
+RN   [1]
+RP   PROTEIN SEQUENCE, FUNCTION, SUBCELLULAR LOCATION, MASS SPECTROMETRY, AND
+RP   TOXIC DOSE.
+RC   TISSUE=Venom;
+RX   PubMed=21447641; DOI=10.1124/mol.110.070540;
+RA   Windley M.J., Escoubas P., Valenzuela S.M., Nicholson G.M.;
+RT   "A novel family of insect-selective peptide neurotoxins targeting insect
+RT   large-conductance calcium-activated K+ channels isolated from the venom of
+RT   the theraphosid spider Eucratoscelus constrictus.";
+RL   Mol. Pharmacol. 80:1-13(2011).
+CC   -!- FUNCTION: Both insecticidal and vertebrate neurotoxin that potently
+CC       blocks insect calcium-activated potassium (BKCa) channels (Slo-type) in
+CC       cockroach dorsal unpaired median (DUM) neurons (IC(50)=24.6 nM)
+CC       (PubMed:21447641). This occurs in the absence of any shifts in the
+CC       voltage dependence of activation (PubMed:21447641). May interact with
+CC       the turret and/or loop region of the external entrance to the channel
+CC       and does not project deeply into the pore of the channel (Probable).
+CC       Also shows toxicity to mice by introcerebroventicular injection
+CC       (PubMed:21447641). {ECO:0000269|PubMed:21447641,
+CC       ECO:0000305|PubMed:21447641}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21447641}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:21447641}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC       {ECO:0000250|UniProtKB:P83476}.
+CC   -!- MASS SPECTROMETRY: Mass=3627.16; Method=MALDI; Note=Monoisotopic mass.;
+CC       Evidence={ECO:0000269|PubMed:21447641};
+CC   -!- TOXIC DOSE: Intrathoracical injection into juvenile crickets (Gryllus
+CC       bimaculatus) of this toxin (at a dose of ca. 1100 pmol/g (4 ug/g))
+CC       causes a rapid insecticidal activity, with complete paralysis within 5
+CC       minutes and death within 15 minutes. {ECO:0000269|PubMed:21447641}.
+CC   -!- TOXIC DOSE: Intracerebroventricular injection into mice of this toxin
+CC       (at a dose of 1.8 ug per mice) causes strong neurotoxicity symptoms,
+CC       including convulsions, tonic paralysis, general ataxia, extension of
+CC       legs and toes, tail erection, and respiratory paralysis resulting in
+CC       very marked cyanosis of the animal. These symptoms are reversible.
+CC       {ECO:0000269|PubMed:21447641}.
+CC   -!- MISCELLANEOUS: At concentrations up to 330 nM, does not show activity
+CC       on transient 'A-type' Kv, delayed-rectifier Kv, voltage-gated sodium
+CC       channel (Nav) and both HVA and M-LVA Cav channels in cockroach DUM
+CC       neurons. {ECO:0000269|PubMed:21447641}.
+CC   -!- SIMILARITY: Belongs to the neurotoxin 30 (phrixotoxin) family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: This toxin has the prefix lambda in its name (instead of
+CC       kappa), since lambda is the Greek letter attributed to calcium-
+CC       activated potassium (KCa) channel impairing toxins (according to the
+CC       nomenclature of King et al., 2008). {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Calcium-activated potassium channel impairing toxin;
+KW   Direct protein sequencing; Disulfide bond; Ion channel impairing toxin;
+KW   Neurotoxin; Potassium channel impairing toxin; Secreted; Toxin.
+FT   PEPTIDE         1..29
+FT                   /note="Lambda-theraphotoxin-Ec2c"
+FT                   /id="PRO_0000451988"
+FT   DISULFID        2..16
+FT                   /evidence="ECO:0000250|UniProtKB:P83476"
+FT   DISULFID        9..21
+FT                   /evidence="ECO:0000250|UniProtKB:P83476"
+FT   DISULFID        15..25
+FT                   /evidence="ECO:0000250|UniProtKB:P83476"
+SQ   SEQUENCE   29 AA;  3636 MW;  213FBEFD431B9B36 CRC64;
+     YCQFKMWTCD SERKCCEDMV CRLWCKLNL
+//

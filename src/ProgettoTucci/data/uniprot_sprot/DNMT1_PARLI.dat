@@ -1,0 +1,157 @@
+ID   DNMT1_PARLI             Reviewed;        1612 AA.
+AC   Q27746;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   10-FEB-2021, entry version 97.
+DE   RecName: Full=DNA (cytosine-5)-methyltransferase PliMCI;
+DE            EC=2.1.1.37;
+DE   AltName: Full=DNA methyltransferase PliMCI;
+DE            Short=DNA MTase PliMCI;
+DE            Short=M.PliMCI;
+DE   AltName: Full=Dnmt1;
+DE   AltName: Full=MCMT;
+GN   Name=DNMT; Synonyms=PLIMCIM;
+OS   Paracentrotus lividus (Common sea urchin).
+OC   Eukaryota; Metazoa; Echinodermata; Eleutherozoa; Echinozoa; Echinoidea;
+OC   Euechinoidea; Echinacea; Camarodonta; Echinidea; Echinidae; Paracentrotus.
+OX   NCBI_TaxID=7656;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Embryo;
+RX   PubMed=8921892; DOI=10.1016/0378-1119(96)00334-4;
+RA   Aniello F., Locascio A., Fucci L., Geraci G., Branno M.;
+RT   "Isolation of cDNA clones encoding DNA methyltransferase of sea urchin P.
+RT   lividus: expression during embryonic development.";
+RL   Gene 178:57-61(1996).
+CC   -!- FUNCTION: Methylates CpG residues.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxycytidine in DNA + S-adenosyl-L-methionine = a 5-
+CC         methyl-2'-deoxycytidine in DNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:13681, Rhea:RHEA-COMP:11369, Rhea:RHEA-COMP:11370,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:85452, ChEBI:CHEBI:85454; EC=2.1.1.37;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10018};
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. C5-methyltransferase family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01016}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z50183; CAA90563.1; -; mRNA.
+DR   PIR; JC5210; JC5210.
+DR   SMR; Q27746; -.
+DR   REBASE; 2961; M.PliMCDnmt1.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003682; F:chromatin binding; IEA:InterPro.
+DR   GO; GO:0003886; F:DNA (cytosine-5-)-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   Gene3D; 2.30.30.490; -; 2.
+DR   InterPro; IPR001025; BAH_dom.
+DR   InterPro; IPR043151; BAH_sf.
+DR   InterPro; IPR018117; C5_DNA_meth_AS.
+DR   InterPro; IPR001525; C5_MeTfrase.
+DR   InterPro; IPR031303; C5_meth_CS.
+DR   InterPro; IPR022702; Cytosine_MeTrfase1_RFD.
+DR   InterPro; IPR010506; DMAP1-bd.
+DR   InterPro; IPR017198; DNMT1-like.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR002857; Znf_CXXC.
+DR   Pfam; PF01426; BAH; 2.
+DR   Pfam; PF06464; DMAP_binding; 1.
+DR   Pfam; PF00145; DNA_methylase; 1.
+DR   Pfam; PF12047; DNMT1-RFD; 1.
+DR   Pfam; PF02008; zf-CXXC; 1.
+DR   PIRSF; PIRSF037404; DNMT1; 1.
+DR   PRINTS; PR00105; C5METTRFRASE.
+DR   SMART; SM00439; BAH; 2.
+DR   SMART; SM01137; DMAP_binding; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00675; dcm; 1.
+DR   PROSITE; PS51038; BAH; 2.
+DR   PROSITE; PS00094; C5_MTASE_1; 1.
+DR   PROSITE; PS00095; C5_MTASE_2; 1.
+DR   PROSITE; PS51912; DMAP1_BIND; 1.
+DR   PROSITE; PS51679; SAM_MT_C5; 1.
+DR   PROSITE; PS51058; ZF_CXXC; 1.
+PE   2: Evidence at transcript level;
+KW   DNA-binding; Metal-binding; Methyltransferase; Nucleus; Repeat;
+KW   S-adenosyl-L-methionine; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..1612
+FT                   /note="DNA (cytosine-5)-methyltransferase PliMCI"
+FT                   /id="PRO_0000088038"
+FT   DOMAIN          7..101
+FT                   /note="DMAP1-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01260"
+FT   DOMAIN          743..871
+FT                   /note="BAH 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00370"
+FT   DOMAIN          967..1089
+FT                   /note="BAH 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00370"
+FT   DOMAIN          1131..1590
+FT                   /note="SAM-dependent MTase C5-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01016"
+FT   ZN_FING         626..672
+FT                   /note="CXXC-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00509"
+FT   REGION          1142..1143
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   REGION          1160..1161
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P26358"
+FT   REGION          1182..1183
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+FT   COMPBIAS        172..178
+FT                   /note="Poly-Lys"
+FT   COMPBIAS        288..291
+FT                   /note="Poly-Glu"
+FT   COMPBIAS        303..308
+FT                   /note="Poly-Glu"
+FT   COMPBIAS        712..715
+FT                   /note="Poly-Lys"
+FT   ACT_SITE        1218
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01016,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10018"
+FT   BINDING         1183
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P26358"
+FT   BINDING         1569
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P26358"
+FT   BINDING         1571
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P13864"
+SQ   SEQUENCE   1612 AA;  181219 MW;  0CB3853FB565CF50 CRC64;
+     MPSKTICDQV IPPNVRDRVQ ELDGDLNDGL ITEKGYVKKK SKILFEHLSP DIQTKLKGLE
+     DELKDEELTE KGYLNKVQSI LAKFIETCSP VNGDTKEEAS SNGKDDEKAE STVANGTTSN
+     GSTTNGSSGS SKANGHTNGG YVQSSSQEET GTSQSEEEMD MDTPTSGKGG SKKKKKSKGS
+     GGGDAGKGRK RKVLGDDERD GVEKKEGEKK DVEGEEGEEA KEESATPDEK TLRTSKRKRS
+     PKADAKQPSI MSMFTKKPAK KEEEKMEESS SMEVDKKEME NGDNGKKEEE EPSGPGGKRI
+     KKEEEEEEKA KVEPMSPSRD LRHKANHETA ESKQPPLRCK ECRQLLDDPD LKIFPGDPED
+     AREEYITLTD PRLSLLTGDE GDAMSYDERL QHKITNFCVY DKSTHICAFD RGMIEKNKEL
+     YFSGYVKPIY DDNPSTEGGI PTKRIGPINE WYTTGFDGGH KALIGFSTAF AEYIVMSPSE
+     EYKPFWTAVQ EKIYMSKILI EFLQNNVDPV YEDLLTQIET TVPPEGCNRF TEDSLLRHAQ
+     FVVEQVESYD DAADRDEVLL ITMPCMRDLI KLAGVTLGKR RAARKAAAVK KDKKPVFTMA
+     TVTPLVSHIF DAIFKDQIAD EMKAAASERK KRCGVCEICQ APDCGKCTAC KDMIKFGGSG
+     KAKQACKDRR CPNMAVQEAD ENDIDEMDNS SNKENKDEKK AKKGRKLETP LKKKKRAKVT
+     WLDEPTEVTE ERAYYKAAML DDEKIEIGDC VLIHPDDPTK PLFMARVIYM WQESQGEMMF
+     HAQWFVYGSE TVLGETSDPL EVFPIDECQD TYLGSVNAKC TVIYKAPPND WSMIGGIDDP
+     ETDHVIKEDD GKTFFYQKWY DPELARFEDY EVLMAPDDIP AHRFCSCCLK NERAQEKETA
+     RPGAKLEDQD DSSKVLYSSW HYKGNEFQIG DGVYLLPEVF SFNIKQKVVT KKPVSKKDVD
+     EDLYPENYRK SSEYVKGSNL ECPEPFRIGK IISIYTTKSN STVRLRVNKM YRPEDTHKGR
+     TAAYQADLNV LYWSEEEAVT ELEVVQGKCS VVCAEDLNVS TDEYSAGGPH KFYFREAYDS
+     ERKCFEDPPS KSRSTRMKGK GKGKGKGKAK GKIAVEKEEE KESTETPFNK LKCLDVFAGC
+     GGLSEGFHQA GICESSWAIE KEEPAAQAYR LNNPGSTVFS DDCNELLRLV MQGEKTSRTG
+     QKLPQKGDVE LLCGGPPCQG FSGMNRFNSR EYSKFKNSLI SSYLSYCDYY RPRFFLLENV
+     RNFVSYKKNM VLKLALRCLI RMGYQCTFGI LQAGQYGVPQ TRRRAIILAA APGEKLPFYP
+     EPLHVFSSRA CSLSVMIGEK KIESNNQWCL SAPYRTITVR DTMSDLPTIN NGAQKLEISY
+     DGEPQSDFQK KIRGNQYQPI LRDHICKDMS SLVAARMKHI PLAPGSDWRD LPNIPVTLKD
+     GTTCRKLRYT HKDKKNGKSS TGALRGVCSC AEGDACDPSD RQFSTLIPWC LPHTGNRHNN
+     WAGLYGRLEW DGFFSTTVTN PEPMGKQGRV LHPEQHRVVS VRECARSQGF PDTYRFFGSI
+     LDKHRQIGNA VPPPMAAAIG MEIKVCLQTK TKRDQERAAL EPVKEETEES MD
+//

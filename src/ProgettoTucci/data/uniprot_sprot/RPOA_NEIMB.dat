@@ -1,0 +1,106 @@
+ID   RPOA_NEIMB              Reviewed;         328 AA.
+AC   P66704; Q9JR06;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   10-FEB-2021, entry version 98.
+DE   RecName: Full=DNA-directed RNA polymerase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE            Short=RNAP subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_00059};
+DE   AltName: Full=RNA polymerase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE   AltName: Full=Transcriptase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+GN   Name=rpoA {ECO:0000255|HAMAP-Rule:MF_00059}; OrderedLocusNames=NMB0168;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C., Nelson K.E.,
+RA   Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F., Dodson R.J., Nelson W.C.,
+RA   Gwinn M.L., DeBoy R.T., Peterson J.D., Hickey E.K., Haft D.H.,
+RA   Salzberg S.L., White O., Fleischmann R.D., Dougherty B.A., Mason T.M.,
+RA   Ciecko A., Parksey D.S., Blair E., Cittone H., Clark E.B., Cotton M.D.,
+RA   Utterback T.R., Khouri H.M., Qin H., Vamathevan J.J., Gill J., Scarlato V.,
+RA   Masignani V., Pizza M., Grandi G., Sun L., Smith H.O., Fraser C.M.,
+RA   Moxon E.R., Rappuoli R., Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00059};
+CC   -!- SUBUNIT: Homodimer. The RNAP catalytic core consists of 2 alpha, 1
+CC       beta, 1 beta' and 1 omega subunit. When a sigma factor is associated
+CC       with the core the holoenzyme is formed, which can initiate
+CC       transcription. {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- DOMAIN: The N-terminal domain is essential for RNAP assembly and basal
+CC       transcription, whereas the C-terminal domain is involved in interaction
+CC       with transcriptional regulators and with upstream promoter elements.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase alpha chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE002098; AAF40625.1; -; Genomic_DNA.
+DR   PIR; H81229; H81229.
+DR   RefSeq; NP_273226.1; NC_003112.2.
+DR   RefSeq; WP_002215457.1; NC_003112.2.
+DR   SMR; P66704; -.
+DR   PaxDb; P66704; -.
+DR   EnsemblBacteria; AAF40625; AAF40625; NMB0168.
+DR   KEGG; nme:NMB0168; -.
+DR   PATRIC; fig|122586.8.peg.209; -.
+DR   HOGENOM; CLU_053084_0_0_4; -.
+DR   OMA; LMKFRNF; -.
+DR   BioCyc; NMEN122586:G1G1B-166-MONOMER; -.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046983; F:protein dimerization activity; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.170.120.12; -; 1.
+DR   Gene3D; 3.30.1360.10; -; 1.
+DR   HAMAP; MF_00059; RNApol_bact_RpoA; 1.
+DR   InterPro; IPR011262; DNA-dir_RNA_pol_insert.
+DR   InterPro; IPR011263; DNA-dir_RNA_pol_RpoA/D/Rpb3.
+DR   InterPro; IPR011773; DNA-dir_RpoA.
+DR   InterPro; IPR036603; RBP11-like.
+DR   InterPro; IPR011260; RNAP_asu_C.
+DR   InterPro; IPR036643; RNApol_insert_sf.
+DR   Pfam; PF01000; RNA_pol_A_bac; 1.
+DR   Pfam; PF03118; RNA_pol_A_CTD; 1.
+DR   Pfam; PF01193; RNA_pol_L; 1.
+DR   SMART; SM00662; RPOLD; 1.
+DR   SUPFAM; SSF55257; SSF55257; 1.
+DR   SUPFAM; SSF56553; SSF56553; 1.
+DR   TIGRFAMs; TIGR02027; rpoA; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Nucleotidyltransferase; Reference proteome;
+KW   Transcription; Transferase.
+FT   CHAIN           1..328
+FT                   /note="DNA-directed RNA polymerase subunit alpha"
+FT                   /id="PRO_0000175347"
+FT   REGION          1..234
+FT                   /note="Alpha N-terminal domain (alpha-NTD)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00059"
+FT   REGION          248..328
+FT                   /note="Alpha C-terminal domain (alpha-CTD)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00059"
+SQ   SEQUENCE   328 AA;  36076 MW;  893A4C39571DD34D CRC64;
+     MQNSTTEFLK PRQIDVNTFS ATRAKVSMQP FERGFGHTLG NALRRILLSS MNGFAPTEVA
+     IAGVLHEYST VDGIQEDVVD ILLNIKGIVF KLHGRSQVQL VLKKSGSGVV SAGDIELPHD
+     VEILNPGHVI CHLADNGQIE MEIKVEQGRG YQSVSGRQVV RDENRQIGAI QLDASFSPIS
+     RVSFEVEPAR VEQRTDLDKL VLDIETDGSI DPEEAVRSAA RILIDQMSIF ADLQGTPVEE
+     VEEKAPPIDP VLLRPVDDLE LTVRSANCLK AEDIYYIGDL IQRTETELLK TPNLGRKSLN
+     EIKEVLASKG LTLGSKLEAW PPVGLEKP
+//

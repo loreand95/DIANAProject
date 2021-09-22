@@ -1,0 +1,100 @@
+ID   MURB_LEGPC              Reviewed;         308 AA.
+AC   A5IAW3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 84.
+DE   RecName: Full=UDP-N-acetylenolpyruvoylglucosamine reductase {ECO:0000255|HAMAP-Rule:MF_00037};
+DE            EC=1.3.1.98 {ECO:0000255|HAMAP-Rule:MF_00037};
+DE   AltName: Full=UDP-N-acetylmuramate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00037};
+GN   Name=murB {ECO:0000255|HAMAP-Rule:MF_00037}; OrderedLocusNames=LPC_0528;
+OS   Legionella pneumophila (strain Corby).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=400673;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Corby;
+RA   Gloeckner G., Albert-Weissenberger C., Weinmann E., Jacobi S., Schunder E.,
+RA   Steinert M., Buchrieser C., Hacker J., Heuner K.;
+RT   "Identification and characterization of a new conjugation/ type IVA
+RT   secretion system (trb/tra) of L. pneumophila Corby localized on a mobile
+RT   genomic island.";
+RL   Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + UDP-N-acetyl-alpha-D-muramate = H(+) + NADPH + UDP-
+CC         N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine;
+CC         Xref=Rhea:RHEA:12248, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:68483, ChEBI:CHEBI:70757; EC=1.3.1.98;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00037};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00037};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00037}.
+CC   -!- SIMILARITY: Belongs to the MurB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00037}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000675; ABQ54513.1; -; Genomic_DNA.
+DR   RefSeq; WP_011947532.1; NC_009494.2.
+DR   SMR; A5IAW3; -.
+DR   KEGG; lpc:LPC_0528; -.
+DR   HOGENOM; CLU_035304_1_1_6; -.
+DR   OMA; KMNAGMK; -.
+DR   UniPathway; UPA00219; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0008762; F:UDP-N-acetylmuramate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.43.10; -; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   Gene3D; 3.90.78.10; -; 1.
+DR   HAMAP; MF_00037; MurB; 1.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR003170; MurB.
+DR   InterPro; IPR011601; MurB_C.
+DR   InterPro; IPR036635; MurB_C_sf.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   PANTHER; PTHR21071; PTHR21071; 1.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   Pfam; PF02873; MurB_C; 1.
+DR   SUPFAM; SSF56176; SSF56176; 1.
+DR   SUPFAM; SSF56194; SSF56194; 1.
+DR   TIGRFAMs; TIGR00179; murB; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell shape; Cell wall biogenesis/degradation;
+KW   Cytoplasm; FAD; Flavoprotein; NADP; Oxidoreductase;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..308
+FT                   /note="UDP-N-acetylenolpyruvoylglucosamine reductase"
+FT                   /id="PRO_1000002891"
+FT   DOMAIN          32..196
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        176
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        225
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+FT   ACT_SITE        296
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00037"
+SQ   SEQUENCE   308 AA;  33419 MW;  B1B6CFBD8E55B18B CRC64;
+     MSITGMDSSH VTESQGALLF NEPLAEYTTW RVGGPAARLY KPANIDDLAL FLSRLPFDEP
+     LLWLGLGSNS LIRDGGFSGT VILTQGCLKE MTLLSDNCIR VEAGVSCASM ARFSARNNLS
+     GGEFWAGIPG TMGGALRMNA GCHGGETWQS VIEVQTINRR GEIRTRKPEE FEVAYRHVAG
+     LGDEWFISAK LQLSPGNKET SLQLIKDLLA HRAKTQPTNE YNCGSVFRNP PGDFAARLIE
+     SCGLKGVSIG GAVVSEKHAN FIINHQGTAT AANIEALIHL VQTKVREQTS IELIREVHII
+     GDANVQTR
+//

@@ -1,0 +1,129 @@
+ID   PEPT_SHIFL              Reviewed;         408 AA.
+AC   Q83RR6; Q7UCV8;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 4.
+DT   10-FEB-2021, entry version 117.
+DE   RecName: Full=Peptidase T {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            EC=3.4.11.4 {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Aminotripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            Short=Tripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Tripeptide aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+GN   Name=pepT {ECO:0000255|HAMAP-Rule:MF_00550};
+GN   OrderedLocusNames=SF1129, S1209;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H., Yang J.,
+RA   Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J., Sun L.,
+RA   Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S., Cheng H.,
+RA   Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y., Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/iai.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W., Fournier G.,
+RA   Mayhew G.F., Plunkett G. III, Rose D.J., Darling A., Mau B., Perna N.T.,
+RA   Payne S.M., Runyen-Janecky L.J., Zhou S., Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella flexneri
+RT   serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Cleaves the N-terminal amino acid of tripeptides.
+CC       {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of the N-terminal residue from a tripeptide.;
+CC         EC=3.4.11.4; Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20B family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005674; AAN42747.2; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP16636.1; -; Genomic_DNA.
+DR   RefSeq; NP_707040.2; NC_004337.2.
+DR   RefSeq; WP_000359445.1; NZ_WPGW01000001.1.
+DR   SMR; Q83RR6; -.
+DR   MEROPS; M20.003; -.
+DR   EnsemblBacteria; AAN42747; AAN42747; SF1129.
+DR   EnsemblBacteria; AAP16636; AAP16636; S1209.
+DR   GeneID; 1024052; -.
+DR   GeneID; 58388316; -.
+DR   KEGG; sfl:SF1129; -.
+DR   KEGG; sfx:S1209; -.
+DR   PATRIC; fig|198214.7.peg.1320; -.
+DR   HOGENOM; CLU_053676_0_0_6; -.
+DR   OMA; GHNFHGK; -.
+DR   OrthoDB; 1015417at2; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0045148; F:tripeptide aminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043171; P:peptide catabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00550; Aminopeptidase_M20; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR010161; Peptidase_M20B.
+DR   PANTHER; PTHR42994:SF1; PTHR42994:SF1; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF037215; Peptidase_M20B; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01882; peptidase-T; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Reference proteome; Zinc.
+FT   CHAIN           1..408
+FT                   /note="Peptidase T"
+FT                   /id="PRO_1000017851"
+FT   ACT_SITE        80
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   ACT_SITE        173
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           78
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           140
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           140
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           174
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           196
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           379
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+SQ   SEQUENCE   408 AA;  44921 MW;  18744B1DF4CC0878 CRC64;
+     MDKLLERFLN YVSLDTQSKA GVRQVPSTEG QWKLLHLLKE QLEEMGLINV TLSEKGTLMA
+     TLPANVPGDI PAIGFISHVD TSPDCSGKNV NPQIVENYRG GDIALGIGDE VLSPVMFPVL
+     HQLLGQTLIT TDGKTLLGAD DKAGIAEIMT ALAVLQQKNI PHGDIRVAFT PDEEVGKGAK
+     HFDVDAFDAR WAYTVDGGGV GELEFENFNA ASVNIKIVGN NVHPGTAKGV MVNALSLAAR
+     IHAEVPADES PEMTEGYEGF YHLASMKGTV ERADMHYIIR DFDRKQFEAR KRKMMEIAKK
+     VGKGLHPDCY IELVIEDSYY NMREKVVEHP HILDIAQQAM RDCDIEPELK PIRGGTDGAQ
+     LSFMGLPCPN LFTGGYNYHG KHEFVILEGM EKAVQVIVRI AELTAQRK
+//

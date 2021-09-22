@@ -1,0 +1,117 @@
+ID   CAPSD_PAVP9             Reviewed;         729 AA.
+AC   P33484;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=Capsid protein VP1;
+DE   AltName: Full=Coat protein VP1;
+OS   Porcine parvovirus (strain 90HS) (PPV).
+OC   Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes;
+OC   Piccovirales; Parvoviridae; Parvovirinae; Protoparvovirus.
+OX   NCBI_TaxID=33725;
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=2750278; DOI=10.1016/0168-1702(89)90088-9;
+RA   Sakurai M., Nishimori T., Ushimi C., Nakajima H.;
+RT   "Nucleotide sequence of capsid protein gene of porcine parvovirus.";
+RL   Virus Res. 13:79-86(1989).
+CC   -!- FUNCTION: Capsid protein self-assembles to form an icosahedral capsid
+CC       with a T=1 symmetry, about 22 nm in diameter, and consisting of 60
+CC       copies of two size variants of the capsid proteins, VP1 and VP2, which
+CC       differ by the presence of an N-terminal extension in the minor protein
+CC       VP1. The capsid encapsulates the genomic ssDNA. Capsid proteins are
+CC       responsible for the attachment to host cell receptors. This attachment
+CC       induces virion internalization predominantly through clathrin-dependent
+CC       endocytosis. Binding to the host receptors also induces capsid
+CC       rearrangements leading to surface exposure of VP1 N-terminus,
+CC       specifically its phospholipase A2-like region and putative nuclear
+CC       localization signal(s). VP1 N-terminus might serve as a lipolytic
+CC       enzyme to breach the endosomal membrane during entry into host cell and
+CC       might contribute to virus transport to the nucleus (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000250}. Host nucleus {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=VP1;
+CC         IsoId=P33484-1; Sequence=Displayed;
+CC       Name=VP2;
+CC         IsoId=P33484-2; Sequence=VSP_041142;
+CC   -!- DOMAIN: The N-terminus of VP1 is sequestered within the mature capsid.
+CC       It contains a phospholipase A2-like region and putative nuclear
+CC       localization signals.
+CC   -!- MISCELLANEOUS: The capsids of autonomous parvoviruses expose a
+CC       proportion of VP2 N-terminus and part of that sequence can be cleaved
+CC       of to form VP3.
+CC   -!- MISCELLANEOUS: [Isoform VP1]: Minor splicing isoform.
+CC   -!- MISCELLANEOUS: [Isoform VP2]: Major splicing isoform produced by
+CC       deletion of the initiating AUG for VP1 and downstream translation of
+CC       VP2. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the parvoviridae capsid protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A60006; A60006.
+DR   SMR; P33484; -.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0039615; C:T=1 icosahedral viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0075512; P:clathrin-dependent endocytosis of virus by host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0075521; P:microtubule-dependent intracellular transport of viral material towards nucleus; IEA:UniProtKB-KW.
+DR   GO; GO:0039665; P:permeabilization of host organelle membrane involved in viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0099008; P:viral entry via permeabilization of inner membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0075732; P:viral penetration into host nucleus; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   Gene3D; 2.170.30.10; -; 1.
+DR   InterPro; IPR016184; Capsid/spike_ssDNA_virus.
+DR   InterPro; IPR001403; Parvovirus_coat.
+DR   InterPro; IPR013607; Parvovirus_coat_VP1_N.
+DR   InterPro; IPR036952; VP1/VP2.
+DR   Pfam; PF00740; Parvo_coat; 1.
+DR   Pfam; PF08398; Parvo_coat_N; 1.
+DR   SUPFAM; SSF88645; SSF88645; 1.
+PE   3: Inferred from homology;
+KW   Alternative splicing; Capsid protein;
+KW   Clathrin-mediated endocytosis of virus by host;
+KW   Cytoplasmic inwards viral transport; Host nucleus; Host-virus interaction;
+KW   Magnesium; Metal-binding; Microtubular inwards viral transport;
+KW   T=1 icosahedral capsid protein; Viral attachment to host cell;
+KW   Viral penetration into host cytoplasm; Viral penetration into host nucleus;
+KW   Viral penetration via permeabilization of host membrane; Virion;
+KW   Virus endocytosis by host; Virus entry into host cell.
+FT   CHAIN           1..729
+FT                   /note="Capsid protein VP1"
+FT                   /id="PRO_0000039433"
+FT   REGION          18..63
+FT                   /note="Phospholipase A2-like"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           4..12
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        175..190
+FT                   /note="Gly-rich"
+FT   METAL           330
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         1..150
+FT                   /note="Missing (in isoform VP2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_041142"
+SQ   SEQUENCE   729 AA;  80938 MW;  92538BFF9A0C78E6 CRC64;
+     MAPPAKRARG LTLPGYKYLG PGNSLDQGEP TNPSDAAAKE HDEAYDKYIK SGKNPYFYFS
+     AADEKFIKET EHAKDYGGKI GHYFFRAKRA FRPKLSETDS PTTSQQPEVR RSPRKHPGSK
+     PPGKRPAPRH IFINLAKKKA KGTSNTNSNS MSENVEQHNP INAGTELSAT GNESGGGGGG
+     GGGRGAGGVG VSTGSFNNQT EFQYLGEGLV RITAHASRLI HLNMPEHETY KRIHVLNSES
+     GVAGQMVQDD AHTQMVTPWS LIDANAWGVW FNPADWQLIS NNMTEINLVS FEQEIFNVVL
+     KTITESATSP PTKIYNNDLT ASLMVALDTN NTLPYTPAAP RSETLGFYPW LPTKPTQYRY
+     YLSCTRNLNP PTYTGQSQQI TDSIQTGLHS DIMFYTIENA VPIHLLRTGD EFSTGIYHFD
+     TKPLKLTHSW QTNRSLGLPP KLLTEPTTEG DQHPGTLPAA NTRKGYHQTM NNSYTEATAI
+     RPAQVGYNTP YMNFEYSNGG PFLTPIVPTA DTQYNDDEPN GAIRFTMGYQ HGQLTTSSQE
+     LERYTFNPQS KCGRAPKQQF NQQAPLNLEN TNNGTLLPSD PIGGKPNMHF MNTLNTYGPL
+     TALNNTAPVF PNGQIWDKEL DTDLKPRLHV TAPFVCKNNP PGQLFVKIAP NLTDDFNADS
+     PQQPRIITYS NFWWKGTLTF TAKMRSSNMW NPIQQHTTTA ENIGNYIPTN IGGIKMFPEY
+     SQLIPRKLY
+//

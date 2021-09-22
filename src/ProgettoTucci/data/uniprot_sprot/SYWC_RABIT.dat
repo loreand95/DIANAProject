@@ -1,0 +1,133 @@
+ID   SYWC_RABIT              Reviewed;         475 AA.
+AC   P23612; Q28607;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   15-JUL-1998, sequence version 3.
+DT   02-DEC-2020, entry version 120.
+DE   RecName: Full=Tryptophan--tRNA ligase, cytoplasmic;
+DE            EC=6.1.1.2;
+DE   AltName: Full=Tryptophanyl-tRNA synthetase;
+DE            Short=TrpRS;
+DE   Contains:
+DE     RecName: Full=T1-TrpRS;
+DE   Contains:
+DE     RecName: Full=T2-TrpRS;
+GN   Name=WARS1; Synonyms=WARS;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2185472; DOI=10.1073/pnas.87.9.3508;
+RA   Lee C.C., Craigen W.J., Muzny D.M., Harlow E., Caskey C.T.;
+RT   "Cloning and expression of a mammalian peptide chain release factor with
+RT   sequence similarity to tryptophanyl-tRNA synthetases.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:3508-3512(1990).
+RN   [2]
+RP   SEQUENCE REVISION TO 169-174 AND 227-228, AND FUNCTION.
+RX   PubMed=8404867; DOI=10.1002/j.1460-2075.1993.tb06079.x;
+RA   Frolova L.Y., Dalphin M.E., Justesen J., Powell R.J., Drugeon G.,
+RA   McCaughan K.K., Kisselev L.L., Tate W.P., Haenni A.-L.;
+RT   "Mammalian polypeptide chain release factor and tryptophanyl-tRNA
+RT   synthetase are distinct proteins.";
+RL   EMBO J. 12:4013-4019(1993).
+CC   -!- FUNCTION: T1-TrpRS has aminoacylation activity while T2-TrpRS lacks it.
+CC       T1-TrpRS and T2-TrpRS possess angiostatic activity. T2-TrpRS inhibits
+CC       fluid shear stress-activated responses of endothelial cells. Regulates
+CC       ERK, Akt, and eNOS activation pathways that are associated with
+CC       angiogenesis, cytoskeletal reorganization and shear stress-responsive
+CC       gene expression (By similarity). {ECO:0000250,
+CC       ECO:0000269|PubMed:8404867}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tryptophan + tRNA(Trp) = AMP + diphosphate + H(+) + L-
+CC         tryptophanyl-tRNA(Trp); Xref=Rhea:RHEA:24080, Rhea:RHEA-COMP:9671,
+CC         Rhea:RHEA-COMP:9705, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57912, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78535, ChEBI:CHEBI:456215; EC=6.1.1.2;
+CC   -!- SUBUNIT: Homodimer. Interacts with oxidized form of GAPDH (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- PTM: Proteolytic cleavage generates 2 forms; T1-TrpRS and T2-TrpRS.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to be a eukaryotic release factor
+CC       (ERF). {ECO:0000305|PubMed:2185472}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33460; AAA31246.1; ALT_SEQ; mRNA.
+DR   EMBL; U02595; AAB60257.1; -; mRNA.
+DR   PIR; A35904; YWRBPR.
+DR   RefSeq; NP_001075757.1; NM_001082288.1.
+DR   SMR; P23612; -.
+DR   STRING; 9986.ENSOCUP00000013564; -.
+DR   PRIDE; P23612; -.
+DR   GeneID; 100009123; -.
+DR   KEGG; ocu:100009123; -.
+DR   CTD; 7453; -.
+DR   eggNOG; KOG2145; Eukaryota.
+DR   InParanoid; P23612; -.
+DR   OrthoDB; 817008at2759; -.
+DR   Proteomes; UP000001811; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004830; F:tryptophan-tRNA ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001525; P:angiogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0006436; P:tryptophanyl-tRNA aminoacylation; IEA:InterPro.
+DR   CDD; cd00806; TrpRS_core; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009068; S15_NS1_RNA-bd.
+DR   InterPro; IPR002306; Trp-tRNA-ligase.
+DR   InterPro; IPR000738; WHEP-TRS_dom.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   Pfam; PF00458; WHEP-TRS; 1.
+DR   PRINTS; PR01039; TRNASYNTHTRP.
+DR   SMART; SM00991; WHEP-TRS; 1.
+DR   SUPFAM; SSF47060; SSF47060; 1.
+DR   TIGRFAMs; TIGR00233; trpS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS00762; WHEP_TRS_1; 1.
+DR   PROSITE; PS51185; WHEP_TRS_2; 1.
+PE   2: Evidence at transcript level;
+KW   Aminoacyl-tRNA synthetase; Angiogenesis; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Phosphoprotein; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..475
+FT                   /note="Tryptophan--tRNA ligase, cytoplasmic"
+FT                   /id="PRO_0000136741"
+FT   CHAIN           75..475
+FT                   /note="T1-TrpRS"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000386467"
+FT   CHAIN           98..475
+FT                   /note="T2-TrpRS"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000386468"
+FT   DOMAIN          12..68
+FT                   /note="WHEP-TRS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00531"
+FT   MOTIF           168..177
+FT                   /note="'HIGH' region"
+FT   MOTIF           353..357
+FT                   /note="'KMSKS' region"
+FT   MOD_RES         158
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P32921"
+FT   MOD_RES         355
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P23381"
+SQ   SEQUENCE   475 AA;  53799 MW;  33BC9E718FF45DC4 CRC64;
+     MADVTNGERC ASPQELFSSI AAQGELVKSL KARKAPKEEI DSAVKMLLSL KTSYKEAMGE
+     DYKADCPPGN STPDSHGDPE AVDDKEDFVD PWTVRTSSAK GIDYDKLIVQ FGSSKIDKEL
+     VNRIERATGQ RPHRFLRRGI FFSHRDMNQV LDAYENKKPF YLYTGRGPSS EAMHVGHLIP
+     FIFTKWLQDV FDVPLVVQMS DDEKYLWKDL TLEQVYGYTL ENAKDIIACG FDVNKTFIFS
+     DLDYMGMSPG FYKNVVKIQK HVTFNQVKGI FGFTDSDCIG KISFPAIQAA PSFSNSFPQI
+     FHGQADIQCL IPCAIDQDPY FRMTRDVAPR IGYPKPALLH STFFPALQGA QTKMSASDPN
+     SSIFLTDTAK QIKTKVNKHA FSGGRDTIEE HRQFGGNCDV DVSFMYLTFF LEDDDKLEQI
+     RKDYSSGAML TGELKKELID VLQPLVAEHQ ARRKEVTDEM VKEFMTPRQL CFHYQ
+//

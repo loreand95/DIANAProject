@@ -1,0 +1,61 @@
+ID   PLS7_PITAZ              Reviewed;          62 AA.
+AC   Q0VKG9; P84940;
+DT   03-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   22-APR-2020, entry version 25.
+DE   RecName: Full=Phylloseptin-Az7 {ECO:0000305};
+DE            Short=PLS-Az7 {ECO:0000305};
+DE   AltName: Full=Phylloseptin-15 {ECO:0000303|PubMed:17553595};
+DE            Short=PS-15 {ECO:0000303|PubMed:17553595};
+DE   Flags: Precursor; Fragment;
+GN   Name=psn15; Synonyms=ppp-15, psn-15;
+OS   Pithecopus azureus (Orange-legged monkey tree frog) (Phyllomedusa azurea).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Hyloidea; Hylidae; Phyllomedusinae;
+OC   Pithecopus.
+OX   NCBI_TaxID=2034991;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAL23474.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Skin secretion {ECO:0000269|PubMed:17553595};
+RX   PubMed=17553595; DOI=10.1016/j.peptides.2007.05.001;
+RA   Thompson A.H., Bjourson A.J., Orr D.F., Shaw C., McClean S.;
+RT   "A combined mass spectrometric and cDNA sequencing approach to the
+RT   isolation and characterization of novel antimicrobial peptides from the
+RT   skin secretions of Phyllomedusa hypochondrialis azurea.";
+RL   Peptides 28:1331-1343(2007).
+CC   -!- FUNCTION: Has antimicrobial activity. {ECO:0000250|UniProtKB:P84572}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:17553595}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands.
+CC       {ECO:0000269|PubMed:17553595}.
+CC   -!- SIMILARITY: Belongs to the frog skin active peptide (FSAP) family.
+CC       Phylloseptin subfamily. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM292541; CAL23474.1; -; mRNA.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   InterPro; IPR004275; Frog_antimicrobial_propeptide.
+DR   Pfam; PF03032; FSAP_sig_propep; 1.
+PE   2: Evidence at transcript level;
+KW   Amidation; Amphibian defense peptide; Antibiotic; Antimicrobial;
+KW   Cleavage on pair of basic residues; Secreted; Signal.
+FT   SIGNAL          <1..19
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          20..40
+FT                   /evidence="ECO:0000250|UniProtKB:P84572"
+FT                   /id="PRO_0000250598"
+FT   PEPTIDE         43..61
+FT                   /note="Phylloseptin-Az7"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000250599"
+FT   MOD_RES         61
+FT                   /note="Phenylalanine amide"
+FT                   /evidence="ECO:0000250|UniProtKB:P84572"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000312|EMBL:CAL23474.1"
+SQ   SEQUENCE   62 AA;  7040 MW;  5098217B0140E60D CRC64;
+     LKKSLFLVLF LGLVSLSICE EEKRETEEKE NEQEDDKSEE KRLLSLVPHA INAVSAIAKH
+     FG
+//

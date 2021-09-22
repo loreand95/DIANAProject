@@ -1,0 +1,86 @@
+ID   MHPB_ECOHS              Reviewed;         314 AA.
+AC   A7ZWZ5;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic acid 1,2-dioxygenase {ECO:0000255|HAMAP-Rule:MF_01653};
+DE            EC=1.13.11.16 {ECO:0000255|HAMAP-Rule:MF_01653};
+DE   AltName: Full=3-carboxyethylcatechol 2,3-dioxygenase {ECO:0000255|HAMAP-Rule:MF_01653};
+GN   Name=mhpB {ECO:0000255|HAMAP-Rule:MF_01653}; OrderedLocusNames=EcHS_A0412;
+OS   Escherichia coli O9:H4 (strain HS).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=331112;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HS;
+RX   PubMed=18676672; DOI=10.1128/jb.00619-08;
+RA   Rasko D.A., Rosovitz M.J., Myers G.S.A., Mongodin E.F., Fricke W.F.,
+RA   Gajer P., Crabtree J., Sebaihia M., Thomson N.R., Chaudhuri R.,
+RA   Henderson I.R., Sperandio V., Ravel J.;
+RT   "The pangenome structure of Escherichia coli: comparative genomic analysis
+RT   of E. coli commensal and pathogenic isolates.";
+RL   J. Bacteriol. 190:6881-6893(2008).
+CC   -!- FUNCTION: Catalyzes the non-heme iron(II)-dependent oxidative cleavage
+CC       of 2,3-dihydroxyphenylpropionic acid and 2,3-dihydroxicinnamic acid
+CC       into 2-hydroxy-6-ketononadienedioate and 2-hydroxy-6-
+CC       ketononatrienedioate, respectively. {ECO:0000255|HAMAP-Rule:MF_01653}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-(2,3-dihydroxyphenyl)propanoate + O2 = (2Z,4E)-2-hydroxy-6-
+CC         oxonona-2,4-dienedioate + H(+); Xref=Rhea:RHEA:23840,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:46951,
+CC         ChEBI:CHEBI:66887; EC=1.13.11.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01653};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-3-(2,3-dihydroxyphenyl)prop-2-enoate + O2 = (2Z,4E,7E)-2-
+CC         hydroxy-6-oxonona-2,4,7-trienedioate + H(+); Xref=Rhea:RHEA:25054,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:58642,
+CC         ChEBI:CHEBI:66888; EC=1.13.11.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01653};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01653};
+CC   -!- PATHWAY: Aromatic compound metabolism; 3-phenylpropanoate degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_01653}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01653}.
+CC   -!- SIMILARITY: Belongs to the LigB/MhpB extradiol dioxygenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01653}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000802; ABV04799.1; -; Genomic_DNA.
+DR   RefSeq; WP_000543459.1; NC_009800.1.
+DR   KEGG; ecx:EcHS_A0412; -.
+DR   HOGENOM; CLU_078149_0_0_6; -.
+DR   OMA; MDVDHGT; -.
+DR   UniPathway; UPA00714; -.
+DR   Proteomes; UP000001123; Chromosome.
+DR   GO; GO:0047070; F:3-carboxyethylcatechol 2,3-dioxygenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008198; F:ferrous iron binding; IEA:InterPro.
+DR   GO; GO:0019380; P:3-phenylpropionate catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07365; MhpB_like; 1.
+DR   HAMAP; MF_01653; MhpB; 1.
+DR   InterPro; IPR023789; DHPP/DHXA_dioxygenase.
+DR   InterPro; IPR004183; Xdiol_dOase_suB.
+DR   Pfam; PF02900; LigB; 1.
+PE   3: Inferred from homology;
+KW   Aromatic hydrocarbons catabolism; Dioxygenase; Iron; Oxidoreductase.
+FT   CHAIN           1..314
+FT                   /note="2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic
+FT                   acid 1,2-dioxygenase"
+FT                   /id="PRO_0000337651"
+FT   ACT_SITE        115
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01653"
+FT   ACT_SITE        179
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01653"
+SQ   SEQUENCE   314 AA;  34226 MW;  8AA5A8574E5DEA54 CRC64;
+     MHAYLHCLSH SPLVGYVDPA QEVLDEVNGV IASARERIAA FSPELVVLFA PDHYNGFFYD
+     VMPPFCLGVG ATAIGDFGSA AGELPVPVEL AEACAHAVMK SGIDLAVSYC MQVDHGFAQP
+     LEFLLGGLDK VPVLPVFING VATPLPGFQR TRMLGEAIGR FTSTLNKRVL FLGSGGLSHQ
+     PPVPELAKAD AHMRDRLLGS GKDLPASERE LRQQRVISAA EKFVEDQRTL HPLNPIWDNQ
+     FMTLLEQGRI QELDAVSNEE LSAIAGKSTH EIKTWVAAFA AISTFGNWRS EGRYYRPIPE
+     WIAGFGSLSA RTEN
+//

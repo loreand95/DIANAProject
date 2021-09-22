@@ -1,0 +1,92 @@
+ID   ZNUC1_ALIF1             Reviewed;         256 AA.
+AC   Q5E6M2;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAR-2005, sequence version 1.
+DT   07-APR-2021, entry version 107.
+DE   RecName: Full=Zinc import ATP-binding protein ZnuC 1 {ECO:0000255|HAMAP-Rule:MF_01725};
+DE            EC=7.2.2.20 {ECO:0000255|HAMAP-Rule:MF_01725};
+GN   Name=znuC1 {ECO:0000255|HAMAP-Rule:MF_01725}; OrderedLocusNames=VF_0829;
+OS   Aliivibrio fischeri (strain ATCC 700601 / ES114) (Vibrio fischeri).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Aliivibrio.
+OX   NCBI_TaxID=312309;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700601 / ES114;
+RX   PubMed=15703294; DOI=10.1073/pnas.0409900102;
+RA   Ruby E.G., Urbanowski M., Campbell J., Dunn A., Faini M., Gunsalus R.,
+RA   Lostroh P., Lupp C., McCann J., Millikan D., Schaefer A., Stabb E.,
+RA   Stevens A., Visick K., Whistler C., Greenberg E.P.;
+RT   "Complete genome sequence of Vibrio fischeri: a symbiotic bacterium with
+RT   pathogenic congeners.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:3004-3009(2005).
+CC   -!- FUNCTION: Part of the ABC transporter complex ZnuABC involved in zinc
+CC       import. Responsible for energy coupling to the transport system.
+CC       {ECO:0000255|HAMAP-Rule:MF_01725}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP(in) + H2O(in) + Zn(2+)(out) = ADP(in) + H(+)(in) +
+CC         phosphate(in) + Zn(2+)(in); Xref=Rhea:RHEA:29795, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29105, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.2.2.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01725};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (ZnuC),
+CC       two transmembrane proteins (ZnuB) and a solute-binding protein (ZnuA).
+CC       {ECO:0000255|HAMAP-Rule:MF_01725}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01725}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01725}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Zinc importer
+CC       (TC 3.A.1.15.5) family. {ECO:0000255|HAMAP-Rule:MF_01725}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000020; AAW85324.1; -; Genomic_DNA.
+DR   RefSeq; WP_005418311.1; NC_006840.2.
+DR   RefSeq; YP_204212.1; NC_006840.2.
+DR   SMR; Q5E6M2; -.
+DR   STRING; 312309.VF_0829; -.
+DR   EnsemblBacteria; AAW85324; AAW85324; VF_0829.
+DR   GeneID; 58210095; -.
+DR   KEGG; vfi:VF_0829; -.
+DR   PATRIC; fig|312309.11.peg.822; -.
+DR   eggNOG; COG1121; Bacteria.
+DR   HOGENOM; CLU_000604_1_11_6; -.
+DR   OMA; GHDHVHP; -.
+DR   OrthoDB; 1721927at2; -.
+DR   Proteomes; UP000000537; Chromosome I.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015633; F:ABC-type zinc transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR017882; ZnuC.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51298; ZNUC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Ion transport; Membrane;
+KW   Nucleotide-binding; Reference proteome; Translocase; Transport; Zinc;
+KW   Zinc transport.
+FT   CHAIN           1..256
+FT                   /note="Zinc import ATP-binding protein ZnuC 1"
+FT                   /id="PRO_0000281560"
+FT   DOMAIN          5..220
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01725"
+FT   NP_BIND         37..44
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01725"
+SQ   SEQUENCE   256 AA;  28441 MW;  B537BF2C084E1C28 CRC64;
+     MTTLLTLQDV CVVFDDRHVI DNVSLSIESN KIITLIGPNG AGKSTLVKTI LGLQKPTSGT
+     IKKEKKLRIG YVPQKLHLND SLPLSVHGFL KLAGKYSQQE HLSALKLVEA EHLLNSNMHK
+     LSGGESQRVL LARALLQRPD LLVLDEPAQG VDVQGQISLY ALIESIRHRF NCAVFMVSHD
+     LHLVMAKTDE VICLQHHICC SGAPESISKH PKYIALFGQQ RDQQLAFYHH EHHHNHDLSG
+     EPSDGSCCSK NKKAHQ
+//

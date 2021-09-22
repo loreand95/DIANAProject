@@ -1,0 +1,94 @@
+ID   RADA_PYRAE              Reviewed;         333 AA.
+AC   Q8ZYR9;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 106.
+DE   RecName: Full=DNA repair and recombination protein RadA {ECO:0000255|HAMAP-Rule:MF_00348};
+GN   Name=radA {ECO:0000255|HAMAP-Rule:MF_00348}; OrderedLocusNames=PAE0654;
+OS   Pyrobaculum aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 /
+OS   NBRC 100827).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Pyrobaculum.
+OX   NCBI_TaxID=178306;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827;
+RX   PubMed=11371158; DOI=10.1006/jmbi.2001.4669;
+RA   Slupska M.M., King A.G., Fitz-Gibbon S., Besemer J., Borodovsky M.,
+RA   Miller J.H.;
+RT   "Leaderless transcripts of the crenarchaeal hyperthermophile Pyrobaculum
+RT   aerophilum.";
+RL   J. Mol. Biol. 309:347-360(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827;
+RX   PubMed=11792869; DOI=10.1073/pnas.241636498;
+RA   Fitz-Gibbon S.T., Ladner H., Kim U.-J., Stetter K.O., Simon M.I.,
+RA   Miller J.H.;
+RT   "Genome sequence of the hyperthermophilic crenarchaeon Pyrobaculum
+RT   aerophilum.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:984-989(2002).
+CC   -!- FUNCTION: Involved in DNA repair and in homologous recombination. Binds
+CC       and assemble on single-stranded DNA to form a nucleoprotein filament.
+CC       Hydrolyzes ATP in a ssDNA-dependent manner and promotes DNA strand
+CC       exchange between homologous DNA molecules. {ECO:0000255|HAMAP-
+CC       Rule:MF_00348}.
+CC   -!- SIMILARITY: Belongs to the eukaryotic RecA-like protein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00348}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF354749; AAL73354.1; -; Genomic_DNA.
+DR   EMBL; AE009441; AAL62924.1; -; Genomic_DNA.
+DR   SMR; Q8ZYR9; -.
+DR   STRING; 178306.PAE0654; -.
+DR   EnsemblBacteria; AAL62924; AAL62924; PAE0654.
+DR   KEGG; pai:PAE0654; -.
+DR   PATRIC; fig|178306.9.peg.470; -.
+DR   eggNOG; arCOG00415; Archaea.
+DR   HOGENOM; CLU_041732_0_0_2; -.
+DR   InParanoid; Q8ZYR9; -.
+DR   OMA; GFHTIEA; -.
+DR   Proteomes; UP000002439; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008094; F:DNA-dependent ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd01123; Rad51_DMC1_radA; 1.
+DR   HAMAP; MF_00348; RadA_arch; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR013632; DNA_recomb/repair_Rad51_C.
+DR   InterPro; IPR011938; DNA_recomb/repair_RadA.
+DR   InterPro; IPR016467; DNA_recomb/repair_RecA-like.
+DR   InterPro; IPR010995; DNA_repair_Rad51/TF_NusA_a-hlx.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR033925; Rad51_DMC1_RadA.
+DR   InterPro; IPR020588; RecA_ATP-bd.
+DR   InterPro; IPR020587; RecA_monomer-monomer_interface.
+DR   Pfam; PF08423; Rad51; 1.
+DR   PIRSF; PIRSF005856; Rad51; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF47794; SSF47794; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR02236; recomb_radA; 1.
+DR   PROSITE; PS50162; RECA_2; 1.
+DR   PROSITE; PS50163; RECA_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA damage; DNA recombination; DNA-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..333
+FT                   /note="DNA repair and recombination protein RadA"
+FT                   /id="PRO_0000150103"
+FT   NP_BIND         127..134
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00348"
+SQ   SEQUENCE   333 AA;  37164 MW;  C1278DB0CA0CF4C3 CRC64;
+     MSSKKKKADA EVSQTQATVE VRADVDVEEL EGIGRVTGAK LKERGYYTVR DIAFASVKEL
+     AEIIGNEDRA QQIIEAARKM LGLHSFISAL EVYERRKKIR RISTGVRSLD ELLGGGIETR
+     AVTEIVGEFG SGKTQLCHQL AVMVQLPEER GGLGAKAIYI DTENTFRPER IMQIAKARGL
+     DSDQALHNIF YARAYSSDHQ MILVEQAKSI IKQHNVALLV VDSVIAHFRS EFPGRENLAE
+     RQQKLNKHVA DLLRLADAYD VAVVITNQVM AQPDVFFGNP LRPAGGNILA HGATYRLWLR
+     KSKENIRIAK IFDSPYHPEG EVSFRITEEG LVD
+//

@@ -1,0 +1,111 @@
+ID   HUTI_ACIBC              Reviewed;         401 AA.
+AC   B2I2C1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-APR-2021, entry version 75.
+DE   RecName: Full=Imidazolonepropionase {ECO:0000255|HAMAP-Rule:MF_00372};
+DE            EC=3.5.2.7 {ECO:0000255|HAMAP-Rule:MF_00372};
+DE   AltName: Full=Imidazolone-5-propionate hydrolase {ECO:0000255|HAMAP-Rule:MF_00372};
+GN   Name=hutI {ECO:0000255|HAMAP-Rule:MF_00372}; OrderedLocusNames=ACICU_03599;
+OS   Acinetobacter baumannii (strain ACICU).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter;
+OC   Acinetobacter calcoaceticus/baumannii complex.
+OX   NCBI_TaxID=405416;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ACICU;
+RX   PubMed=18411315; DOI=10.1128/aac.01643-07;
+RA   Iacono M., Villa L., Fortini D., Bordoni R., Imperi F., Bonnal R.J.,
+RA   Sicheritz-Ponten T., De Bellis G., Visca P., Cassone A., Carattoli A.;
+RT   "Whole-genome pyrosequencing of an epidemic multidrug-resistant
+RT   Acinetobacter baumannii strain belonging to the European clone II group.";
+RL   Antimicrob. Agents Chemother. 52:2616-2625(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-imidazolone-5-propanoate + H2O = N-formimidoyl-L-glutamate;
+CC         Xref=Rhea:RHEA:23660, ChEBI:CHEBI:15377, ChEBI:CHEBI:58928,
+CC         ChEBI:CHEBI:77893; EC=3.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00372};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Note=Binds 1 zinc or iron ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00372};
+CC   -!- PATHWAY: Amino-acid degradation; L-histidine degradation into L-
+CC       glutamate; N-formimidoyl-L-glutamate from L-histidine: step 3/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       HutI family. {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000863; ACC58908.1; -; Genomic_DNA.
+DR   RefSeq; WP_000737802.1; NZ_CP031380.1.
+DR   SMR; B2I2C1; -.
+DR   KEGG; abc:ACICU_03599; -.
+DR   HOGENOM; CLU_041647_0_0_6; -.
+DR   OMA; CNPGSSF; -.
+DR   UniPathway; UPA00379; UER00551.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050480; F:imidazolonepropionase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019556; P:histidine catabolic process to glutamate and formamide; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019557; P:histidine catabolic process to glutamate and formate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01296; Imidazolone-5PH; 1.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_00372; HutI; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR005920; HutI.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   PANTHER; PTHR42752; PTHR42752; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; SSF51338; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01224; hutI; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Histidine metabolism; Hydrolase; Iron; Metal-binding; Zinc.
+FT   CHAIN           1..401
+FT                   /note="Imidazolonepropionase"
+FT                   /id="PRO_1000121525"
+FT   METAL           66
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           68
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           236
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           311
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         75
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         138
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         171
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         239
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+SQ   SEQUENCE   401 AA;  44018 MW;  A21C50868EFD4E0A CRC64;
+     MKKLWQNCHI ATMQNGQYSY IEDAAIVTEG HLIHWIGKQQ QLPTDTYSET VDLNGAWVTP
+     GFIDCHTHSV FGGNRSVEFE KRLQGVSYAE IAASGGGIAS TVRATREASE EQLLNSALKR
+     IRCMQQDGVT TIEIKSGYGL NYENERKMLR VIRQIGEKLP MTVKSTCLAA HALPPEYKDQ
+     SDAYIEHICT EMLPKLHAEG LVDAVDAFCE HLAFSPAQVE RVFKTAQSLG LPVKLHAEQL
+     SSLGGSSLAA RYHALSADHL EYMTEDDVKA MAASGTVAVL LPGAFYLLRE TQYPPIESLI
+     KHGVRIALSS DLNPGTSPAL SLRLMLNMGS TLFRLTPEQA LAGVTIHAAQ ALGLEQTHGS
+     LEQGKVADFV AWDIEHPSEI VYWLGGDLPK RVVQHGQEVI F
+//

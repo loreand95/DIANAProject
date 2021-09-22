@@ -1,0 +1,112 @@
+ID   SPEE_THET2              Reviewed;         314 AA.
+AC   Q72K55;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   10-FEB-2021, entry version 96.
+DE   RecName: Full=Polyamine aminopropyltransferase {ECO:0000255|HAMAP-Rule:MF_00198};
+DE   AltName: Full=Putrescine aminopropyltransferase {ECO:0000255|HAMAP-Rule:MF_00198};
+DE            Short=PAPT {ECO:0000255|HAMAP-Rule:MF_00198};
+DE   AltName: Full=Spermidine synthase {ECO:0000255|HAMAP-Rule:MF_00198};
+DE            Short=SPDS {ECO:0000255|HAMAP-Rule:MF_00198};
+DE            Short=SPDSY {ECO:0000255|HAMAP-Rule:MF_00198};
+DE            EC=2.5.1.16 {ECO:0000255|HAMAP-Rule:MF_00198};
+GN   Name=speE {ECO:0000255|HAMAP-Rule:MF_00198}; OrderedLocusNames=TT_C0472;
+OS   Thermus thermophilus (strain HB27 / ATCC BAA-163 / DSM 7039).
+OC   Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus.
+OX   NCBI_TaxID=262724;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HB27 / ATCC BAA-163 / DSM 7039;
+RX   PubMed=15064768; DOI=10.1038/nbt956;
+RA   Henne A., Brueggemann H., Raasch C., Wiezer A., Hartsch T., Liesegang H.,
+RA   Johann A., Lienard T., Gohl O., Martinez-Arias R., Jacobi C.,
+RA   Starkuviene V., Schlenczeck S., Dencker S., Huber R., Klenk H.-P.,
+RA   Kramer W., Merkl R., Gottschalk G., Fritz H.-J.;
+RT   "The genome sequence of the extreme thermophile Thermus thermophilus.";
+RL   Nat. Biotechnol. 22:547-553(2004).
+CC   -!- FUNCTION: Catalyzes the irreversible transfer of a propylamine group
+CC       from the amino donor S-adenosylmethioninamine (decarboxy-AdoMet) to
+CC       putrescine (1,4-diaminobutane) to yield spermidine. {ECO:0000255|HAMAP-
+CC       Rule:MF_00198}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=putrescine + S-adenosyl 3-(methylsulfanyl)propylamine = H(+) +
+CC         S-methyl-5'-thioadenosine + spermidine; Xref=Rhea:RHEA:12721,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17509, ChEBI:CHEBI:57443,
+CC         ChEBI:CHEBI:57834, ChEBI:CHEBI:326268; EC=2.5.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00198};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; spermidine biosynthesis;
+CC       spermidine from putrescine: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00198}.
+CC   -!- SUBUNIT: Homodimer or homotetramer. {ECO:0000255|HAMAP-Rule:MF_00198}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00198}.
+CC   -!- SIMILARITY: Belongs to the spermidine/spermine synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00198}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017221; AAS80820.1; -; Genomic_DNA.
+DR   RefSeq; WP_011172918.1; NC_005835.1.
+DR   SMR; Q72K55; -.
+DR   STRING; 262724.TT_C0472; -.
+DR   EnsemblBacteria; AAS80820; AAS80820; TT_C0472.
+DR   GeneID; 3168303; -.
+DR   KEGG; tth:TT_C0472; -.
+DR   eggNOG; COG0421; Bacteria.
+DR   HOGENOM; CLU_048199_0_1_0; -.
+DR   OMA; SDMWPGQ; -.
+DR   OrthoDB; 1613081at2; -.
+DR   UniPathway; UPA00248; UER00314.
+DR   Proteomes; UP000000592; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004766; F:spermidine synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.30.140.10; -; 1.
+DR   HAMAP; MF_00198; Spermidine_synth; 1.
+DR   InterPro; IPR030374; PABS.
+DR   InterPro; IPR030373; PABS_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR001045; Spermi_synthase.
+DR   InterPro; IPR035246; Spermidine_synt_N.
+DR   InterPro; IPR037163; Spermidine_synt_N_sf.
+DR   Pfam; PF17284; Spermine_synt_N; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS01330; PABS_1; 1.
+DR   PROSITE; PS51006; PABS_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Polyamine biosynthesis; Spermidine biosynthesis; Transferase.
+FT   CHAIN           1..314
+FT                   /note="Polyamine aminopropyltransferase"
+FT                   /id="PRO_1000012027"
+FT   DOMAIN          4..241
+FT                   /note="PABS"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   REGION          140..141
+FT                   /note="S-methyl-5'-thioadenosine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   ACT_SITE        158
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   BINDING         33
+FT                   /note="S-methyl-5'-thioadenosine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   BINDING         64
+FT                   /note="Spermidine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   BINDING         88
+FT                   /note="Spermidine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   BINDING         108
+FT                   /note="S-methyl-5'-thioadenosine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+FT   BINDING         168
+FT                   /note="S-methyl-5'-thioadenosine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00198"
+SQ   SEQUENCE   314 AA;  36006 MW;  4B6E438CFE60552A CRC64;
+     MDYGMYFFEH VTPYETLVRR MERVIASGKT PFQDYFLFES KGFGKVLILD KDVQSTERDE
+     YIYHETLVHP AMLTHPEPKR VLIVGGGEGA TLREVLKHPT VEKAVMVDID GELVEVAKRH
+     MPEWHQGAFD DPRAVLVIDD ARAYLERTEE RYDVVIIDLT DPVGEDNPAR LLYTVEFYRL
+     VKAHLNPGGV MGMQAGMILL THHRVHPVVH RTVREAFRYV RSYKNHIPGF FLNFGFLLAS
+     DAFDPAAFSE GVIEARIRER NLALRHLTAP YLEAMFVLPK DLLEALEKET MVSTDQNPFY
+     VTPEGEARQA PYKG
+//

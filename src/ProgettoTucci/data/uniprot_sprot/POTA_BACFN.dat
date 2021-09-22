@@ -1,0 +1,99 @@
+ID   POTA_BACFN              Reviewed;         461 AA.
+AC   Q5LBT4;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUN-2005, sequence version 1.
+DT   07-APR-2021, entry version 111.
+DE   RecName: Full=Spermidine/putrescine import ATP-binding protein PotA {ECO:0000255|HAMAP-Rule:MF_01726};
+DE            EC=7.6.2.11 {ECO:0000255|HAMAP-Rule:MF_01726};
+GN   Name=potA {ECO:0000255|HAMAP-Rule:MF_01726}; OrderedLocusNames=BF2738;
+OS   Bacteroides fragilis (strain ATCC 25285 / DSM 2151 / JCM 11019 / NCTC
+OS   9343).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=272559;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25285 / DSM 2151 / JCM 11019 / NCTC 9343;
+RX   PubMed=15746427; DOI=10.1126/science.1107008;
+RA   Cerdeno-Tarraga A.-M., Patrick S., Crossman L.C., Blakely G., Abratt V.,
+RA   Lennard N., Poxton I., Duerden B., Harris B., Quail M.A., Barron A.,
+RA   Clark L., Corton C., Doggett J., Holden M.T.G., Larke N., Line A., Lord A.,
+RA   Norbertczak H., Ormond D., Price C., Rabbinowitsch E., Woodward J.,
+RA   Barrell B.G., Parkhill J.;
+RT   "Extensive DNA inversions in the B. fragilis genome control variable gene
+RT   expression.";
+RL   Science 307:1463-1465(2005).
+CC   -!- FUNCTION: Part of the ABC transporter complex PotABCD involved in
+CC       spermidine/putrescine import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(2)O + polyamine-[polyamine-binding protein](Side 1) =
+CC         ADP + phosphate + polyamine(Side 2) + [polyamine-binding
+CC         protein](Side 1).; EC=7.6.2.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01726};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (PotA),
+CC       two transmembrane proteins (PotB and PotC) and a solute-binding protein
+CC       (PotD). {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01726}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01726}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Spermidine/putrescine importer (TC 3.A.1.11.1) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01726}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR626927; CAH08434.1; -; Genomic_DNA.
+DR   SMR; Q5LBT4; -.
+DR   STRING; 272559.BF9343_2653; -.
+DR   EnsemblBacteria; CAH08434; CAH08434; BF9343_2653.
+DR   KEGG; bfs:BF9343_2653; -.
+DR   eggNOG; COG3842; Bacteria.
+DR   HOGENOM; CLU_000604_1_1_10; -.
+DR   OMA; HVMRFNE; -.
+DR   Proteomes; UP000006731; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0015594; F:ABC-type putrescine transporter activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR017879; ABC_Sperm/Put_ATP-bd_PotA.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005893; Sp_pt_ABC_ATP-bd.
+DR   InterPro; IPR013611; Transp-assoc_OB_typ2.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF08402; TOBE_2; 2.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 2.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01187; potA; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51305; POTA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Reference proteome; Translocase; Transport.
+FT   CHAIN           1..461
+FT                   /note="Spermidine/putrescine import ATP-binding protein
+FT                   PotA"
+FT                   /id="PRO_0000286198"
+FT   DOMAIN          10..240
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01726"
+FT   NP_BIND         42..49
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01726"
+SQ   SEQUENCE   461 AA;  51538 MW;  36F0B5EF94A87593 CRC64;
+     MNMQESKSII EVNGVSKFFG EKTALDHVTL NVKKGEFVTI LGPSGCGKTT LLRLIAGFQT
+     ASEGEIKISG KEITQTPPHK RPVNTVFQKY ALFPHLNVYD NIAFGLKLKK MPKQTIEKKV
+     KAALKMVGMT DYEYRDVDSL SGGQQQRVAI ARAIVNEPEV LLLDEPLAAL DLKMRKDMQM
+     ELKEMHKSLG ITFVYVTHDQ EEALTLSDTI VVMSEGRIQQ IGTPIDIYNE PINSFVADFI
+     GESNILNGVM IHDKLVCFCN TEFECVDEGF GENMPVDVVI RPEDLYIFPV SEAAQLTGVV
+     QSSVFKGVHY EMTVLCNGYE FLVQDYHHFE VGALVGLLVK PFDIHIMKKE RVCNTFEGKL
+     IDETHVEFLG CNFECAPVTG IEAGSEVKVE VGFDNVILQD NEEDGALTGE VKFILYKGDH
+     YHLTVLSDWD ENVFVDTNDV WDDGDRVGIT IPPDGIRVIK N
+//

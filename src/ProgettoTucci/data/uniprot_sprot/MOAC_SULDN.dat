@@ -1,0 +1,87 @@
+ID   MOAC_SULDN              Reviewed;         156 AA.
+AC   Q30NY7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   10-FEB-2021, entry version 89.
+DE   RecName: Full=Cyclic pyranopterin monophosphate synthase {ECO:0000255|HAMAP-Rule:MF_01224};
+DE            EC=4.6.1.17 {ECO:0000255|HAMAP-Rule:MF_01224};
+DE   AltName: Full=Molybdenum cofactor biosynthesis protein C {ECO:0000255|HAMAP-Rule:MF_01224};
+GN   Name=moaC {ECO:0000255|HAMAP-Rule:MF_01224}; OrderedLocusNames=Suden_2020;
+OS   Sulfurimonas denitrificans (strain ATCC 33889 / DSM 1251) (Thiomicrospira
+OS   denitrificans (strain ATCC 33889 / DSM 1251)).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Thiovulaceae; Sulfurimonas.
+OX   NCBI_TaxID=326298;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33889 / DSM 1251;
+RX   PubMed=18065616; DOI=10.1128/aem.01844-07;
+RA   Sievert S.M., Scott K.M., Klotz M.G., Chain P.S.G., Hauser L.J., Hemp J.,
+RA   Huegler M., Land M., Lapidus A., Larimer F.W., Lucas S., Malfatti S.A.,
+RA   Meyer F., Paulsen I.T., Ren Q., Simon J., Bailey K., Diaz E.,
+RA   Fitzpatrick K.A., Glover B., Gwatney N., Korajkic A., Long A.,
+RA   Mobberley J.M., Pantry S.N., Pazder G., Peterson S., Quintanilla J.D.,
+RA   Sprinkle R., Stephens J., Thomas P., Vaughn R., Weber M.J., Wooten L.L.;
+RT   "Genome of the epsilonproteobacterial chemolithoautotroph Sulfurimonas
+RT   denitrificans.";
+RL   Appl. Environ. Microbiol. 74:1145-1156(2008).
+CC   -!- FUNCTION: Catalyzes the conversion of (8S)-3',8-cyclo-7,8-
+CC       dihydroguanosine 5'-triphosphate to cyclic pyranopterin monophosphate
+CC       (cPMP). {ECO:0000255|HAMAP-Rule:MF_01224}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(8S)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate = cyclic
+CC         pyranopterin phosphate + diphosphate; Xref=Rhea:RHEA:49580,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:59648, ChEBI:CHEBI:131766;
+CC         EC=4.6.1.17; Evidence={ECO:0000255|HAMAP-Rule:MF_01224};
+CC   -!- PATHWAY: Cofactor biosynthesis; molybdopterin biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01224}.
+CC   -!- SUBUNIT: Homohexamer; trimer of dimers. {ECO:0000255|HAMAP-
+CC       Rule:MF_01224}.
+CC   -!- SIMILARITY: Belongs to the MoaC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01224}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000153; ABB45294.1; -; Genomic_DNA.
+DR   RefSeq; WP_011373634.1; NC_007575.1.
+DR   SMR; Q30NY7; -.
+DR   STRING; 326298.Suden_2020; -.
+DR   EnsemblBacteria; ABB45294; ABB45294; Suden_2020.
+DR   KEGG; tdn:Suden_2020; -.
+DR   eggNOG; COG0315; Bacteria.
+DR   HOGENOM; CLU_074693_1_1_7; -.
+DR   OMA; IWDMVKS; -.
+DR   OrthoDB; 1595361at2; -.
+DR   BioCyc; SDEN326298:G1G5D-2107-MONOMER; -.
+DR   UniPathway; UPA00344; -.
+DR   Proteomes; UP000002714; Chromosome.
+DR   GO; GO:0061799; F:cyclic pyranopterin monophosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01420; MoaC_PE; 1.
+DR   Gene3D; 3.30.70.640; -; 1.
+DR   HAMAP; MF_01224_B; MoaC_B; 1.
+DR   InterPro; IPR023045; Mo_CF_biosynth-C.
+DR   InterPro; IPR036522; MoaC_sf.
+DR   InterPro; IPR002820; Mopterin_CF_biosynth-C_dom.
+DR   Pfam; PF01967; MoaC; 1.
+DR   SUPFAM; SSF55040; SSF55040; 1.
+DR   TIGRFAMs; TIGR00581; moaC; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Molybdenum cofactor biosynthesis; Reference proteome.
+FT   CHAIN           1..156
+FT                   /note="Cyclic pyranopterin monophosphate synthase"
+FT                   /id="PRO_1000054157"
+FT   REGION          74..76
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01224"
+FT   REGION          112..113
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01224"
+FT   ACT_SITE        127
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01224"
+SQ   SEQUENCE   156 AA;  16863 MW;  247AF84ED528D6B9 CRC64;
+     MKLTHLDEKD RPKMVDVSDK EQTTRVAVAS GIIEMSQDAY DAIVTQKTKK GPVLQTAVIA
+     AIMGSKKTSE LIPMCHPINL SGINCDVEEL PELPGFKLSV TAKLTGQTGV EMEALTGTSI
+     GLLTIYDMVK AIDKGMVIRN IQLEEKAGGK SGDFKR
+//

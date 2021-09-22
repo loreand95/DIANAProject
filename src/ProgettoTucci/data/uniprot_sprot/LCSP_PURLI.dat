@@ -1,0 +1,143 @@
+ID   LCSP_PURLI              Reviewed;         387 AA.
+AC   A0A179HME7;
+DT   10-APR-2019, integrated into UniProtKB/Swiss-Prot.
+DT   07-SEP-2016, sequence version 1.
+DT   02-DEC-2020, entry version 18.
+DE   RecName: Full=Aminotransferase lcsP {ECO:0000303|PubMed:27416025};
+DE            EC=2.6.1.- {ECO:0000305|PubMed:27416025};
+DE   AltName: Full=Leucinostatins biosynthesis cluster protein P {ECO:0000303|PubMed:27416025};
+GN   Name=lcsP {ECO:0000303|PubMed:27416025};
+GN   ORFNames=PCL_01820, VFPBJ_02530, VFPFJ_04702;
+OS   Purpureocillium lilacinum (Paecilomyces lilacinus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Purpureocillium.
+OX   NCBI_TaxID=33203;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=36-1;
+RX   PubMed=27486440; DOI=10.3389/fmicb.2016.01084;
+RA   Xie J., Li S., Mo C., Xiao X., Peng D., Wang G., Xiao Y.;
+RT   "Genome and transcriptome sequences reveal the specific parasitism of the
+RT   nematophagous Purpureocillium lilacinum 36-1.";
+RL   Front. Microbiol. 7:1084-1084(2016).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA], IDENTIFICATION, FUNCTION,
+RP   INDUCTION, AND PATHWAY.
+RC   STRAIN=PLBJ-1;
+RX   PubMed=27416025; DOI=10.1371/journal.ppat.1005685;
+RA   Wang G., Liu Z., Lin R., Li E., Mao Z., Ling J., Yang Y., Yin W.B., Xie B.;
+RT   "Biosynthesis of antibiotic leucinostatins in bio-control fungus
+RT   Purpureocillium lilacinum and their inhibition on phytophthora revealed by
+RT   genome mining.";
+RL   PLoS Pathog. 12:E1005685-E1005685(2016).
+CC   -!- FUNCTION: Aminotransferase; part of the gene cluster that mediates the
+CC       biosynthesis of the lipopeptide antibiotics leucinostatins that show
+CC       extensive biological activities, including antimalarial, antiviral,
+CC       antibacterial, antifungal, and antitumor activities, as well as
+CC       phytotoxic (PubMed:27416025). Leucinostatin A contains nine amino acid
+CC       residues, including the unusual amino acid 4-methyl-L-proline (MePro),
+CC       2-amino-6-hydroxy-4-methyl-8-oxodecanoic acid (AHyMeOA), 3-
+CC       hydroxyleucine (HyLeu), alpha-aminoisobutyric acid (AIB), beta-Ala, a
+CC       4-methylhex-2-enoic acid at the N-terminus as well as a N1,N1-
+CC       dimethylpropane-1,2-diamine (DPD) at the C-terminus (Probable). The
+CC       biosynthesis of leucinostatins is probably initiated with the assembly
+CC       of 4-methylhex-2-enoic acid by a reducing PKS. Two reducing polyketide
+CC       synthases, lcsB and lcsC, have been identified in the cluster and it is
+CC       not clear which is the one that assembles 4-methylhex-2-enoic acid
+CC       since both contain KS, AT, DH, cMT, ER, KR and ACP domains (Probable).
+CC       The polyketide residue might be transferred to the NRPS lcsA, mediated
+CC       by two additional enzymes, the acyl-CoA ligase lcsD and the
+CC       thioesterase lcsE. The linear polyketide carboxylic acid, which is
+CC       released from PKS, is converted to a CoA thioester by lcsD, and then
+CC       lcsE hydrolyzes the thiol bond and shuttles the polyketide intermediate
+CC       to lcsA (Probable). The C domain of the first module catalyzed the
+CC       condensation of 4-methylhex-2-enoic acid and MePro carried by domain
+CC       A1, followed by successive condensations of nine amino acids to trigger
+CC       the elongation of the linear peptide. A5 and A6 domains of lcsA are
+CC       proposed to incorporate leucine, A2 AHyMeOA, and A3 incorporates HyLeu.
+CC       A4, A7 and A8 incorporate AIB (Probable). The AHyMeOA in leucinostatin
+CC       A activated by the A2 might be produced by the second PKS (lcsB or
+CC       lcsC) present within the cluster (Probable). The MePro is probably
+CC       produced via leucine cyclization and may originate from a separate
+CC       pathway, independent of the cluster. Another nonproteinogenic amino
+CC       acid, beta-Ala, could be produced by an aspartic acid decarboxylase
+CC       also localized outside of the cluster. Two candidates are VFPBJ_01400
+CC       and VFPBJ_10476 (Probable). The final peptide scaffold may be released
+CC       by the NAD(P)H-dependent thioester reductase (TE) at the C-terminal
+CC       region of lcsA (Probable). Transamination of the lcsA product by the
+CC       transaminase lcsP may produce DPD at the C-terminus (Probable). Further
+CC       hydroxylation steps performed alternatively by the cytochrome P450
+CC       monooxygenases lcsI, lcsK and lcsN then yield the non-methylated
+CC       leucinostatins precursor. It is also possible that leucines can be
+CC       hydroxylated prior to their incorporation into the peptide (Probable).
+CC       Varying extents of methylation then lead to the formation of
+CC       leucinostatins A and B (Probable). {ECO:0000269|PubMed:27416025,
+CC       ECO:0000305|PubMed:27416025}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P19938};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis.
+CC       {ECO:0000305|PubMed:27416025}.
+CC   -!- INDUCTION: Expression is negatively regulated by the leucinostatins
+CC       biosynthesis cluster-specific transcription regulator lcsF.
+CC       {ECO:0000269|PubMed:27416025}.
+CC   -!- SIMILARITY: Belongs to the class-IV pyridoxal-phosphate-dependent
+CC       aminotransferase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; LSBH01000002; OAQ83763.1; -; Genomic_DNA.
+DR   EMBL; LSBI01000004; OAQ90543.1; -; Genomic_DNA.
+DR   EMBL; LCWV01000014; PWI68731.1; -; Genomic_DNA.
+DR   RefSeq; XP_018179262.1; XM_018321782.1.
+DR   SMR; A0A179HME7; -.
+DR   EnsemblFungi; OAQ83763; OAQ83763; VFPBJ_02530.
+DR   EnsemblFungi; OAQ90543; OAQ90543; VFPFJ_04702.
+DR   GeneID; 28886831; -.
+DR   KEGG; plj:VFPFJ_04702; -.
+DR   OrthoDB; 853728at2759; -.
+DR   Proteomes; UP000078240; Unassembled WGS sequence.
+DR   Proteomes; UP000078340; Unassembled WGS sequence.
+DR   Proteomes; UP000245956; Unassembled WGS sequence.
+DR   GO; GO:0004084; F:branched-chain-amino-acid transaminase activity; IEA:InterPro.
+DR   GO; GO:0009081; P:branched-chain amino acid metabolic process; IEA:InterPro.
+DR   Gene3D; 3.20.10.10; -; 1.
+DR   Gene3D; 3.30.470.10; -; 1.
+DR   InterPro; IPR001544; Aminotrans_IV.
+DR   InterPro; IPR036038; Aminotransferase-like.
+DR   InterPro; IPR005786; B_amino_transII.
+DR   InterPro; IPR043132; BCAT-like_C.
+DR   InterPro; IPR043131; BCAT-like_N.
+DR   Pfam; PF01063; Aminotran_4; 1.
+DR   PIRSF; PIRSF006468; BCAT1; 1.
+DR   SUPFAM; SSF56752; SSF56752; 1.
+PE   2: Evidence at transcript level;
+KW   Aminotransferase; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..387
+FT                   /note="Aminotransferase lcsP"
+FT                   /id="PRO_0000446612"
+FT   ACT_SITE        189
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P19938"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19938"
+FT   BINDING         88
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19938"
+FT   BINDING         225
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19938"
+FT   MOD_RES         189
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|PIRSR:PIRSR006468-1"
+SQ   SEQUENCE   387 AA;  42951 MW;  DF2F88AA2D7C21BB CRC64;
+     MAFPPPPRTG LDWGKTSAET HVHGHVECRW TRETGKWSEP EFVHDPYLRV HGLSPVFHYG
+     QEAYEGLKAF RAPDGEIHVV RPDYHARRLI HSSSLVSIPP VPEELFLSCV NSAVGMNADI
+     VPPHDAQGML YIRPVVFGMG AWLRLEPPNE YLFCVFVTTA GAFHGSEPLD ALILEDFDRA
+     APRGTGSGKV GGNYSPVIRW SQQAKQDGYD ITLHLDSQTR TEIEEFSTSA FVGAHVDGED
+     ITLVVPDTTN VVSSVTCDSV QQLAKSLGWT VEKRSVKYEE LSCFSEVMAC GTAVTLVSIK
+     SITRKSTSDK FLYQSAAETM GPCAKQLSTL LHDIYKGKIE DEFGWCVKVQ DPVSLRKRKA
+     VDDEMRQVKK TTLNGHTRGE QTVQEVN
+//

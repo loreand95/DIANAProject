@@ -1,0 +1,329 @@
+ID   ACOT3_MOUSE             Reviewed;         432 AA.
+AC   Q9QYR7; Q6Q2Z7;
+DT   08-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   07-APR-2021, entry version 148.
+DE   RecName: Full=Acyl-coenzyme A thioesterase 3;
+DE            Short=Acyl-CoA thioesterase 3;
+DE            EC=3.1.2.2 {ECO:0000269|PubMed:15007068};
+DE   AltName: Full=PTE-Ia;
+DE   AltName: Full=Peroxisomal acyl-coenzyme A thioester hydrolase 2a;
+DE   AltName: Full=Peroxisomal long-chain acyl-CoA thioesterase 2;
+GN   Name=Acot3; Synonyms=Pte1a, Pte2, Pte2a;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1), AND TISSUE SPECIFICITY.
+RC   STRAIN=C57BL/6J;
+RX   PubMed=10567408; DOI=10.1074/jbc.274.48.34317;
+RA   Hunt M.C., Nousiainen S.E.B., Huttunen M.K., Orii K.E., Svensson L.T.,
+RA   Alexson S.E.H.;
+RT   "Peroxisome proliferator-induced long chain acyl-CoA thioesterases comprise
+RT   a highly conserved novel multi-gene family involved in lipid metabolism.";
+RL   J. Biol. Chem. 274:34317-34326(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, PATHWAY, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   STRAIN=129/Sv;
+RX   PubMed=15007068; DOI=10.1074/jbc.m313863200;
+RA   Westin M.A.K., Alexson S.E.H., Hunt M.C.;
+RT   "Molecular cloning and characterization of two mouse peroxisome
+RT   proliferator-activated receptor alpha (PPARalpha)-regulated peroxisomal
+RT   acyl-CoA thioesterases.";
+RL   J. Biol. Chem. 279:21841-21848(2004).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND PATHWAY.
+RX   PubMed=16940157; DOI=10.1096/fj.06-6042com;
+RA   Hunt M.C., Rautanen A., Westin M.A.K., Svensson L.T., Alexson S.E.H.;
+RT   "Analysis of the mouse and human acyl-CoA thioesterase (ACOT) gene clusters
+RT   shows that convergent, functional evolution results in a reduced number of
+RT   human peroxisomal ACOTs.";
+RL   FASEB J. 20:1855-1864(2006).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Kidney;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Acyl-CoA thioesterases are a group of enzymes that catalyze
+CC       the hydrolysis of acyl-CoAs to the free fatty acid and coenzyme A
+CC       (CoASH), providing the potential to regulate intracellular levels of
+CC       acyl-CoAs, free fatty acids and CoASH (PubMed:16940157). Acyl-CoA
+CC       thioesterase 3/ACOT3 is mainly active on long-chain acyl-CoAs
+CC       (PubMed:15007068, PubMed:16940157). May have a function in termination
+CC       of beta-oxidation of fatty acids (PubMed:16940157).
+CC       {ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157,
+CC       ECO:0000303|PubMed:16940157}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + hexadecanoyl-CoA = CoA + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:16645, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379; EC=3.1.2.2;
+CC         Evidence={ECO:0000269|PubMed:15007068};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16646;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=decanoyl-CoA + H2O = CoA + decanoate + H(+);
+CC         Xref=Rhea:RHEA:40059, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:27689, ChEBI:CHEBI:57287, ChEBI:CHEBI:61430;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40060;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dodecanoyl-CoA + H2O = CoA + dodecanoate + H(+);
+CC         Xref=Rhea:RHEA:30135, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:18262, ChEBI:CHEBI:57287, ChEBI:CHEBI:57375;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30136;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + tetradecanoyl-CoA = CoA + H(+) + tetradecanoate;
+CC         Xref=Rhea:RHEA:40119, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30807, ChEBI:CHEBI:57287, ChEBI:CHEBI:57385;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40120;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + octadecanoyl-CoA = CoA + H(+) + octadecanoate;
+CC         Xref=Rhea:RHEA:30139, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:25629, ChEBI:CHEBI:57287, ChEBI:CHEBI:57394;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30140;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=eicosanoyl-CoA + H2O = CoA + eicosanoate + H(+);
+CC         Xref=Rhea:RHEA:40147, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32360, ChEBI:CHEBI:57287, ChEBI:CHEBI:57380;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40148;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-octadecenoyl-CoA + H2O = (9Z)-octadecenoate + CoA + H(+);
+CC         Xref=Rhea:RHEA:40139, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30823, ChEBI:CHEBI:57287, ChEBI:CHEBI:57387;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40140;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z,12Z)-octadecadienoyl-CoA + H2O = (9Z,12Z)-octadecadienoate
+CC         + CoA + H(+); Xref=Rhea:RHEA:40143, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30245, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57383; Evidence={ECO:0000269|PubMed:15007068,
+CC         ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40144;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + H2O = (5Z,8Z,11Z,14Z)-
+CC         eicosatetraenoate + CoA + H(+); Xref=Rhea:RHEA:40151,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:32395,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57368;
+CC         Evidence={ECO:0000269|PubMed:15007068, ECO:0000269|PubMed:16940157};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40152;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + tetracosanoyl-CoA = CoA + H(+) + tetracosanoate;
+CC         Xref=Rhea:RHEA:40787, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:31014, ChEBI:CHEBI:57287, ChEBI:CHEBI:65052;
+CC         Evidence={ECO:0000269|PubMed:15007068};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40788;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + hexacosanoyl-CoA = CoA + H(+) + hexacosanoate;
+CC         Xref=Rhea:RHEA:40791, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:31013, ChEBI:CHEBI:57287, ChEBI:CHEBI:64868;
+CC         Evidence={ECO:0000269|PubMed:15007068};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40792;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=docosanoyl-CoA + H2O = CoA + docosanoate + H(+);
+CC         Xref=Rhea:RHEA:40783, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:23858, ChEBI:CHEBI:57287, ChEBI:CHEBI:65059;
+CC         Evidence={ECO:0000269|PubMed:15007068};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40784;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(9Z)-hexadecenoyl-CoA + H2O = (9Z)-hexadecenoate + CoA + H(+);
+CC         Xref=Rhea:RHEA:40131, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:32372, ChEBI:CHEBI:57287, ChEBI:CHEBI:61540;
+CC         Evidence={ECO:0000269|PubMed:15007068};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:40132;
+CC         Evidence={ECO:0000305|PubMed:15007068};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=10.9 uM for hexanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=46.2 uM for octanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=7.7 uM for decanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=7.6 uM for dodecanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=3.8 uM for tetradecanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=4.0 uM for hexadecanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=2.8 uM for (9Z)-hexadecenoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=4.2 uM for octadecanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=4.6 uM for (9Z)-octadecenoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=2.6 uM for (9Z,12Z)-octadecadienoyl-coA
+CC         {ECO:0000269|PubMed:15007068};
+CC         KM=2.2 uM for eicosanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=7.2 uM for (5Z,8Z,11Z,14Z)-eicosatetraenoyl-coA
+CC         {ECO:0000269|PubMed:15007068};
+CC         KM=2.3 uM for docosanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=6.3 uM for tetracosanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         KM=4.5 uM for hexacosanoyl-coA {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.02 umol/min/mg enzyme with hexanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.23 umol/min/mg enzyme with octanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.87 umol/min/mg enzyme with decanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=1.40 umol/min/mg enzyme with dodecanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=1.60 umol/min/mg enzyme with tetradecanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=1.85 umol/min/mg enzyme with hexadecanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.93 umol/min/mg enzyme with (9Z)-hexadecenoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=1.43 umol/min/mg enzyme with octadecanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.85 umol/min/mg enzyme with (9Z)-octadecenoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.63 umol/min/mg enzyme with (9Z,12Z)-octadecadienoyl-coA as
+CC         substrate {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.71 umol/min/mg enzyme with eicosanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.70 umol/min/mg enzyme with (5Z,8Z,11Z,14Z)-eicosatetraenoyl-
+CC         coA as substrate {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.37 umol/min/mg enzyme with docosanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.20 umol/min/mg enzyme with tetracosanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC         Vmax=0.22 umol/min/mg enzyme with hexacosanoyl-coA as substrate
+CC         {ECO:0000269|PubMed:15007068};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid metabolism.
+CC       {ECO:0000305|PubMed:15007068, ECO:0000305|PubMed:16940157}.
+CC   -!- SUBCELLULAR LOCATION: Peroxisome {ECO:0000269|PubMed:15007068}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=PTE-Ia 5':1;
+CC         IsoId=Q9QYR7-1; Sequence=Displayed;
+CC       Name=2; Synonyms=PTE-Ia 5':2;
+CC         IsoId=Q9QYR7-2; Sequence=VSP_010994;
+CC   -!- TISSUE SPECIFICITY: Widely expressed. Highly expressed in the kidney,
+CC       expressed at low level in the liver. Isoform 2 is expressed in the
+CC       kidney, but not in the liver. Isoform 1 is liver-specific
+CC       (PubMed:10567408). Highly expressed in kidney (at protein level)
+CC       (PubMed:15007068). {ECO:0000269|PubMed:10567408,
+CC       ECO:0000269|PubMed:15007068}.
+CC   -!- INDUCTION: In the liver and kidney, by peroxisome proliferator (such as
+CC       Clofibrate) treatment, via the peroxisome proliferator-activated
+CC       receptors (PPARs) or fasting for 24 hours.
+CC   -!- SIMILARITY: Belongs to the C/M/P thioester hydrolase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF180804; AAF13873.1; -; Genomic_DNA.
+DR   EMBL; AF180802; AAF13873.1; JOINED; Genomic_DNA.
+DR   EMBL; AF180803; AAF13873.1; JOINED; Genomic_DNA.
+DR   EMBL; AY563098; AAS75456.1; -; mRNA.
+DR   CCDS; CCDS26036.1; -. [Q9QYR7-1]
+DR   CCDS; CCDS83985.1; -. [Q9QYR7-2]
+DR   RefSeq; NP_001333630.1; NM_001346701.1. [Q9QYR7-2]
+DR   RefSeq; NP_599007.1; NM_134246.3. [Q9QYR7-1]
+DR   SMR; Q9QYR7; -.
+DR   IntAct; Q9QYR7; 4.
+DR   MINT; Q9QYR7; -.
+DR   STRING; 10090.ENSMUSP00000021653; -.
+DR   SwissLipids; SLP:000000530; -.
+DR   ESTHER; mouse-acot3; Acyl-CoA_Thioesterase.
+DR   MEROPS; S09.A51; -.
+DR   iPTMnet; Q9QYR7; -.
+DR   PhosphoSitePlus; Q9QYR7; -.
+DR   jPOST; Q9QYR7; -.
+DR   PaxDb; Q9QYR7; -.
+DR   PRIDE; Q9QYR7; -.
+DR   ProteomicsDB; 285649; -. [Q9QYR7-1]
+DR   ProteomicsDB; 285650; -. [Q9QYR7-2]
+DR   Ensembl; ENSMUST00000021653; ENSMUSP00000021653; ENSMUSG00000021228. [Q9QYR7-1]
+DR   Ensembl; ENSMUST00000120927; ENSMUSP00000112678; ENSMUSG00000021228. [Q9QYR7-2]
+DR   GeneID; 171281; -.
+DR   KEGG; mmu:171281; -.
+DR   UCSC; uc007oef.1; mouse. [Q9QYR7-1]
+DR   CTD; 171281; -.
+DR   MGI; MGI:2159619; Acot3.
+DR   eggNOG; ENOG502QQ8Z; Eukaryota.
+DR   GeneTree; ENSGT01010000222504; -.
+DR   HOGENOM; CLU_029849_4_0_1; -.
+DR   InParanoid; Q9QYR7; -.
+DR   PhylomeDB; Q9QYR7; -.
+DR   TreeFam; TF314911; -.
+DR   Reactome; R-MMU-77289; Mitochondrial Fatty Acid Beta-Oxidation.
+DR   Reactome; R-MMU-9033241; Peroxisomal protein import.
+DR   SABIO-RK; Q9QYR7; -.
+DR   UniPathway; UPA00199; -.
+DR   BioGRID-ORCS; 171281; 0 hits in 45 CRISPR screens.
+DR   PRO; PR:Q9QYR7; -.
+DR   Proteomes; UP000000589; Chromosome 12.
+DR   RNAct; Q9QYR7; protein.
+DR   Bgee; ENSMUSG00000021228; Expressed in liver and 99 other tissues.
+DR   ExpressionAtlas; Q9QYR7; baseline and differential.
+DR   Genevisible; Q9QYR7; MM.
+DR   GO; GO:0005829; C:cytosol; IDA:MGI.
+DR   GO; GO:0005777; C:peroxisome; IDA:UniProtKB.
+DR   GO; GO:0047617; F:acyl-CoA hydrolase activity; IDA:HGNC-UCL.
+DR   GO; GO:0052689; F:carboxylic ester hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0102991; F:myristoyl-CoA hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016290; F:palmitoyl-CoA hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006637; P:acyl-CoA metabolic process; IDA:HGNC-UCL.
+DR   GO; GO:0006631; P:fatty acid metabolic process; IBA:GO_Central.
+DR   GO; GO:0001676; P:long-chain fatty acid metabolic process; IDA:HGNC-UCL.
+DR   GO; GO:0032788; P:saturated monocarboxylic acid metabolic process; IDA:HGNC-UCL.
+DR   GO; GO:0032789; P:unsaturated monocarboxylic acid metabolic process; IDA:HGNC-UCL.
+DR   GO; GO:0000038; P:very long-chain fatty acid metabolic process; IDA:HGNC-UCL.
+DR   Gene3D; 2.60.40.2240; -; 1.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR016662; Acyl-CoA_thioEstase_long-chain.
+DR   InterPro; IPR014940; BAAT_C.
+DR   InterPro; IPR006862; Thio_Ohase/aa_AcTrfase.
+DR   InterPro; IPR042490; Thio_Ohase/BAAT_N.
+DR   Pfam; PF08840; BAAT_C; 1.
+DR   Pfam; PF04775; Bile_Hydr_Trans; 1.
+DR   PIRSF; PIRSF016521; Acyl-CoA_hydro; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Fatty acid metabolism; Hydrolase; Lipid metabolism;
+KW   Peroxisome; Reference proteome; Serine esterase.
+FT   CHAIN           1..432
+FT                   /note="Acyl-coenzyme A thioesterase 3"
+FT                   /id="PRO_0000202148"
+FT   MOTIF           430..432
+FT                   /note="Microbody targeting signal"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        243
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        337
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        371
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         1..11
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:15007068"
+FT                   /id="VSP_010994"
+SQ   SEQUENCE   432 AA;  47490 MW;  BF5888C59C015359 CRC64;
+     MHAFTTQNPN RMAPTVILEP AGGCLCDQPV HIAVRGLAPE QPVTLRSVLR DEKGALFRAH
+     ARYRADSHGE LDLARTPALG GSFSGLEPMG LLWAMEPDRP FWRLIKRDVQ TPFVVELEVL
+     DGHEPDGGQR LARAVHERHF MAPGVRRVPV REGRVRATLF LPPGTGPFPG IIDLFGIGSG
+     LLEYRASLLA GKGFAVMALA YNNYEDLPKD MDIIHLEYFE EAVTYLLSHP QVTGSGVGVL
+     GISKGGELGF AMASFLKNIT AAVIINGSIS NIGGNLQYKD ETVPSVGINT KRVKRTKDGL
+     KDIVDLLNNP LEGPDQKSLI PVERSDTAFL FLVGQDDHNW KSEFYAREAS KRLQAHGKEK
+     PQIICYPETG HHIEPPYFPL CKASLNSLVG GPVIWGGEPR AHAMAQVDAW QQLQTFFHNH
+     LDGKKKTIPA KL
+//

@@ -1,0 +1,107 @@
+ID   COAX_MYCMM              Reviewed;         272 AA.
+AC   B2HJ44;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000255|HAMAP-Rule:MF_01274}; OrderedLocusNames=MMAR_5103;
+OS   Mycobacterium marinum (strain ATCC BAA-535 / M).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=216594;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-535 / M;
+RX   PubMed=18403782; DOI=10.1101/gr.075069.107;
+RA   Stinear T.P., Seemann T., Harrison P.F., Jenkin G.A., Davies J.K.,
+RA   Johnson P.D., Abdellah Z., Arrowsmith C., Chillingworth T., Churcher C.,
+RA   Clarke K., Cronin A., Davis P., Goodhead I., Holroyd N., Jagels K.,
+RA   Lord A., Moule S., Mungall K., Norbertczak H., Quail M.A.,
+RA   Rabbinowitsch E., Walker D., White B., Whitehead S., Small P.L., Brosch R.,
+RA   Ramakrishnan L., Fischbach M.A., Parkhill J., Cole S.T.;
+RT   "Insights from the complete genome sequence of Mycobacterium marinum on the
+RT   evolution of Mycobacterium tuberculosis.";
+RL   Genome Res. 18:729-741(2008).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantothenate + ATP = (R)-4'-phosphopantothenate + ADP +
+CC         H(+); Xref=Rhea:RHEA:16373, ChEBI:CHEBI:10986, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29032, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.33; Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC       Note=A monovalent cation. Ammonium or potassium. {ECO:0000255|HAMAP-
+CC       Rule:MF_01274};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 1/5. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000854; ACC43507.1; -; Genomic_DNA.
+DR   RefSeq; WP_012396623.1; NC_010612.1.
+DR   SMR; B2HJ44; -.
+DR   STRING; 216594.MMAR_5103; -.
+DR   EnsemblBacteria; ACC43507; ACC43507; MMAR_5103.
+DR   GeneID; 34339964; -.
+DR   KEGG; mmi:MMAR_5103; -.
+DR   eggNOG; COG1521; Bacteria.
+DR   HOGENOM; CLU_066627_1_0_11; -.
+DR   OMA; HEPWLTL; -.
+DR   OrthoDB; 2039419at2; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000001190; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   PANTHER; PTHR34265; PTHR34265; 1.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Kinase; Metal-binding;
+KW   Nucleotide-binding; Potassium; Reference proteome; Transferase.
+FT   CHAIN           1..272
+FT                   /note="Type III pantothenate kinase"
+FT                   /id="PRO_1000140250"
+FT   NP_BIND         6..13
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   REGION          109..112
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   ACT_SITE        111
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   METAL           131
+FT                   /note="Monovalent cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         134
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+FT   BINDING         186
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01274"
+SQ   SEQUENCE   272 AA;  29139 MW;  3135AB31CDE75601 CRC64;
+     MLLAIDVRNT HTVVGLLSGA KQHAKVVQQW RIRTESEVTA DELALTIDGL IGEDSERLTG
+     ATGLSTVPSV LHEVRIMLEQ YWPSVPHVLI EPGVRTGIPL LVDNPKEVGA DRIVNCLAAY
+     QQFAKAAIVV DFGSSICVDV VSAKGEFLGG AIAPGVQVSS DAAAARSAAL RRVELARPRS
+     VVGKNTVECM QAGAVFGFAG LVDGLVARIR EDVKGFSADD DVAVVATGHT APLLLPELHS
+     VEHFDEHLTL HGLRLVFERN REAQRGRLKP AR
+//

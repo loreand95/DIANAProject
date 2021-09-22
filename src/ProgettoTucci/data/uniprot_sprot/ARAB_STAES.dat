@@ -1,0 +1,88 @@
+ID   ARAB_STAES              Reviewed;         536 AA.
+AC   Q8CRC6;
+DT   30-APR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=Ribulokinase {ECO:0000255|HAMAP-Rule:MF_00520};
+DE            EC=2.7.1.16 {ECO:0000255|HAMAP-Rule:MF_00520};
+GN   Name=araB {ECO:0000255|HAMAP-Rule:MF_00520}; OrderedLocusNames=SE_1914;
+OS   Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=176280;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12228 / FDA PCI 1200;
+RX   PubMed=12950922; DOI=10.1046/j.1365-2958.2003.03671.x;
+RA   Zhang Y.-Q., Ren S.-X., Li H.-L., Wang Y.-X., Fu G., Yang J., Qin Z.-Q.,
+RA   Miao Y.-G., Wang W.-Y., Chen R.-S., Shen Y., Chen Z., Yuan Z.-H.,
+RA   Zhao G.-P., Qu D., Danchin A., Wen Y.-M.;
+RT   "Genome-based analysis of virulence genes in a non-biofilm-forming
+RT   Staphylococcus epidermidis strain (ATCC 12228).";
+RL   Mol. Microbiol. 49:1577-1593(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-ribulose = ADP + D-ribulose 5-phosphate + H(+);
+CC         Xref=Rhea:RHEA:17601, ChEBI:CHEBI:15378, ChEBI:CHEBI:17173,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58121, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.16; Evidence={ECO:0000255|HAMAP-Rule:MF_00520};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-ribulose = ADP + H(+) + L-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:22072, ChEBI:CHEBI:15378, ChEBI:CHEBI:16880,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58226, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.16; Evidence={ECO:0000255|HAMAP-Rule:MF_00520};
+CC   -!- PATHWAY: Carbohydrate degradation; L-arabinose degradation via L-
+CC       ribulose; D-xylulose 5-phosphate from L-arabinose (bacterial route):
+CC       step 2/3. {ECO:0000255|HAMAP-Rule:MF_00520}.
+CC   -!- SIMILARITY: Belongs to the ribulokinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00520}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015929; AAO05555.1; -; Genomic_DNA.
+DR   RefSeq; NP_765469.1; NC_004461.1.
+DR   RefSeq; WP_002456635.1; NZ_WBME01000027.1.
+DR   SMR; Q8CRC6; -.
+DR   STRING; 176280.SE_1914; -.
+DR   EnsemblBacteria; AAO05555; AAO05555; SE_1914.
+DR   GeneID; 50017985; -.
+DR   KEGG; sep:SE1914; -.
+DR   PATRIC; fig|176280.10.peg.1872; -.
+DR   eggNOG; COG1069; Bacteria.
+DR   HOGENOM; CLU_009281_9_1_9; -.
+DR   OMA; YSDATGC; -.
+DR   BioCyc; SEPI176280:G1G05-1973-MONOMER; -.
+DR   UniPathway; UPA00145; UER00566.
+DR   Proteomes; UP000001411; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019150; F:D-ribulokinase activity; IEA:RHEA.
+DR   GO; GO:0008741; F:ribulokinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019569; P:L-arabinose catabolic process to xylulose 5-phosphate; IEA:UniProtKB-UniRule.
+DR   CDD; cd07781; FGGY_RBK; 1.
+DR   HAMAP; MF_00520; Ribulokinase; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000577; Carb_kinase_FGGY.
+DR   InterPro; IPR018485; Carb_kinase_FGGY_C.
+DR   InterPro; IPR018484; Carb_kinase_FGGY_N.
+DR   InterPro; IPR005929; Ribulokinase.
+DR   Pfam; PF02782; FGGY_C; 1.
+DR   Pfam; PF00370; FGGY_N; 1.
+DR   PIRSF; PIRSF000538; GlpK; 1.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+PE   3: Inferred from homology;
+KW   Arabinose catabolism; ATP-binding; Carbohydrate metabolism; Kinase;
+KW   Nucleotide-binding; Transferase.
+FT   CHAIN           1..536
+FT                   /note="Ribulokinase"
+FT                   /id="PRO_0000198372"
+SQ   SEQUENCE   536 AA;  60052 MW;  3E5A71EAB682F45B CRC64;
+     MSYSIGIDFG TASGRVILAD TSNGHIISRY EEDYANGTYM NSLYDKPLPE NYFLQNADDY
+     LQILEQGVQF VLEDSKVNKN DVVGIGVDFT SSTIIFLDEQ FEPLHRHEDL KTNPHAYVKL
+     WKHHGAQDEA NYMIQMSKNK NWLDYYGSSV NSEWMIPKIL EVKHEAPEIL RRARYIMEAG
+     DYITSILTNS NIRSNCGIGF KGFWDNEAGF NYDFFHSVDP DLPKIVKEKC EAPIISIGES
+     AGRLCKDYQQ IWGLSQDVQV SPFIIDAHSG VLGVGAIEAG EFTAVIGTST CHLMLDSRQV
+     PISSITGSVK NAIIPGLYAY EAGQPAVGDL FEYSKNQAPK HIVDQANEHH MPVLNYLEEL
+     ASHIRIEEQH VVVLDWLNGN RSILSNSHLT GSIFGLTLQT PYEMIHRAYI EATAFGTKLI
+     MKQFEDNHIP VHTVYASGGI PQKSKLLVEI YANVLNKRVV VIDSSNASAL GAAMLGANVG
+     NAYSTLKEAA LSMKQPIAYI QEPEIQKVQA YKPLYHKYCE LHDLLGRQYP ELSYLI
+//

@@ -1,0 +1,116 @@
+ID   THI4_FUSSH              Reviewed;         324 AA.
+AC   P23617;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=Thiamine thiazole synthase {ECO:0000255|HAMAP-Rule:MF_03158};
+DE            EC=2.4.2.60 {ECO:0000255|HAMAP-Rule:MF_03158};
+DE   AltName: Full=Stress-inducible protein sti35;
+DE   AltName: Full=Thiazole biosynthetic enzyme {ECO:0000255|HAMAP-Rule:MF_03158};
+GN   Name=sti35;
+OS   Fusarium solani subsp. phaseoli (Nectria haematococca).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Nectriaceae; Fusarium;
+OC   Fusarium solani species complex.
+OX   NCBI_TaxID=120645;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 60860 / FB;
+RX   PubMed=2376567; DOI=10.1128/jb.172.8.4522-4528.1990;
+RA   Choi G.H., Marek E.T., Schardl C.L., Richey M.G., Chang S., Smith D.A.;
+RT   "sti35, a stress-responsive gene in Fusarium spp.";
+RL   J. Bacteriol. 172:4522-4528(1990).
+CC   -!- FUNCTION: Involved in biosynthesis of the thiamine precursor thiazole.
+CC       Catalyzes the conversion of NAD and glycine to adenosine diphosphate 5-
+CC       (2-hydroxyethyl)-4-methylthiazole-2-carboxylic acid (ADT), an
+CC       adenylated thiazole intermediate. The reaction includes an iron-
+CC       dependent sulfide transfer from a conserved cysteine residue of the
+CC       protein to a thiazole intermediate. The enzyme can only undergo a
+CC       single turnover, which suggests it is a suicide enzyme. May have
+CC       additional roles in adaptation to various stress conditions and in DNA
+CC       damage tolerance. {ECO:0000255|HAMAP-Rule:MF_03158}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[ADP-thiazole synthase]-L-cysteine + glycine + NAD(+) = [ADP-
+CC         thiazole synthase]-dehydroalanine + ADP-5-ethyl-4-methylthiazole-2-
+CC         carboxylate + 2 H(+) + 3 H2O + nicotinamide; Xref=Rhea:RHEA:55708,
+CC         Rhea:RHEA-COMP:14264, Rhea:RHEA-COMP:14265, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17154, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57540, ChEBI:CHEBI:90873,
+CC         ChEBI:CHEBI:139151; EC=2.4.2.60; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03158};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03158};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000255|HAMAP-Rule:MF_03158};
+CC   -!- SUBUNIT: Homooctamer. {ECO:0000255|HAMAP-Rule:MF_03158}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03158}.
+CC       Nucleus {ECO:0000255|HAMAP-Rule:MF_03158}.
+CC   -!- INDUCTION: By ethanol, Cu(2+) chloride, and by phaseollinisoflavan (an
+CC       antifungal isoflavonoid).
+CC   -!- PTM: During the catalytic reaction, a sulfide is transferred from Cys-
+CC       213 to a reaction intermediate, generating a dehydroalanine residue.
+CC       {ECO:0000255|HAMAP-Rule:MF_03158}.
+CC   -!- SIMILARITY: Belongs to the THI4 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03158}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33642; AAA33340.1; -; Genomic_DNA.
+DR   PIR; A37767; A37767.
+DR   SMR; P23617; -.
+DR   PRIDE; P23617; -.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016763; F:transferase activity, transferring pentosyl groups; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052837; P:thiazole biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; -; 1.
+DR   HAMAP; MF_03158; THI4; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR027495; Sti35.
+DR   InterPro; IPR002922; Thi4_fam.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00292; TIGR00292; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Iron; Metal-binding; NAD; Nucleus; Stress response;
+KW   Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..324
+FT                   /note="Thiamine thiazole synthase"
+FT                   /id="PRO_0000034055"
+FT   REGION          107..108
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   REGION          292..294
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         86
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         115
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         180
+FT                   /note="Substrate; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         215
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         230
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   BINDING         282
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+FT   MOD_RES         213
+FT                   /note="2,3-didehydroalanine (Cys)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03158"
+SQ   SEQUENCE   324 AA;  34702 MW;  AB8D94AAD3A2B712 CRC64;
+     MSPPAAVSPP ARSAELASAP AVKLPVGLSK NSAAATTVEE MEGKWDDFKF APIRESQVSR
+     AMTRRYFQDL DNYAESDIVI VGAGSCGLST RYILGKKRPD LKIAIIEASV SPGGGAWLGG
+     QLFSAMVMRK PADAFLREVG VPYEDEGNYV VVKHAALFTS TIMSKVLQLP NCKLFNATCV
+     EDLITRPSKE GVRISGVVTN WTLVSMHHDD QSCMDPNTIN APLVISTTGH DAPMGAFCVK
+     RLVSMGRIEK LGGMRGLDMN VAEDAIVKGT REIVPGLIVG GMELSEVDGA NRMGPTFGAM
+     VLSGLKAAEE ALKVIDIRQK QNSF
+//

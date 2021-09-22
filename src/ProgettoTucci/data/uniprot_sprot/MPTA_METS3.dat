@@ -1,0 +1,80 @@
+ID   MPTA_METS3              Reviewed;         311 AA.
+AC   A5UM10;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=GTP cyclohydrolase MptA {ECO:0000255|HAMAP-Rule:MF_01527};
+DE            EC=3.5.4.39 {ECO:0000255|HAMAP-Rule:MF_01527};
+DE   AltName: Full=GTP cyclohydrolase IV {ECO:0000255|HAMAP-Rule:MF_01527};
+GN   Name=mptA {ECO:0000255|HAMAP-Rule:MF_01527}; OrderedLocusNames=Msm_1033;
+OS   Methanobrevibacter smithii (strain ATCC 35061 / DSM 861 / OCM 144 / PS).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanobacteria;
+OC   Methanobacteriales; Methanobacteriaceae; Methanobrevibacter.
+OX   NCBI_TaxID=420247;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35061 / DSM 861 / OCM 144 / PS;
+RX   PubMed=17563350; DOI=10.1073/pnas.0704189104;
+RA   Samuel B.S., Hansen E.E., Manchester J.K., Coutinho P.M., Henrissat B.,
+RA   Fulton R., Latreille P., Kim K., Wilson R.K., Gordon J.I.;
+RT   "Genomic and metabolic adaptations of Methanobrevibacter smithii to the
+RT   human gut.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:10643-10648(2007).
+CC   -!- FUNCTION: Converts GTP to 7,8-dihydro-D-neopterin 2',3'-cyclic
+CC       phosphate, the first intermediate in the biosynthesis of coenzyme
+CC       methanopterin. {ECO:0000255|HAMAP-Rule:MF_01527}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = 7,8-dihydroneopterin 2',3'-cyclic phosphate +
+CC         diphosphate + formate + H(+); Xref=Rhea:RHEA:25860,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:58854; EC=3.5.4.39;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01527};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01527};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01527};
+CC   -!- PATHWAY: Cofactor biosynthesis; 5,6,7,8-tetrahydromethanopterin
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01527}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01527}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase IV family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01527}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000678; ABQ87238.1; -; Genomic_DNA.
+DR   RefSeq; WP_004035824.1; NC_009515.1.
+DR   STRING; 420247.Msm_1033; -.
+DR   EnsemblBacteria; ABQ87238; ABQ87238; Msm_1033.
+DR   GeneID; 5215852; -.
+DR   KEGG; msi:Msm_1033; -.
+DR   PATRIC; fig|420247.28.peg.1031; -.
+DR   eggNOG; arCOG04301; Archaea.
+DR   HOGENOM; CLU_062816_1_0_2; -.
+DR   OMA; PCSQGMS; -.
+DR   UniPathway; UPA00065; -.
+DR   Proteomes; UP000001992; Chromosome.
+DR   GO; GO:0003933; F:GTP cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01527_A; GTP_cyclohydrol_A; 1.
+DR   InterPro; IPR003801; GTP_cyclohydrolase_FolE2/MptA.
+DR   InterPro; IPR022840; GTP_cyclohydrolase_MptA.
+DR   PANTHER; PTHR36445; PTHR36445; 1.
+DR   Pfam; PF02649; GCHY-1; 1.
+DR   TIGRFAMs; TIGR00294; TIGR00294; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Iron; Metal-binding.
+FT   CHAIN           1..311
+FT                   /note="GTP cyclohydrolase MptA"
+FT                   /id="PRO_0000300165"
+FT   SITE            161
+FT                   /note="May be catalytically important"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01527"
+SQ   SEQUENCE   311 AA;  35092 MW;  762E71DFB193154A CRC64;
+     MAVCLPDTQD DTPSIPIKLT RVGVTGVKKL LQLERNNKRP IILVPTFDAF VDLPNDQKGV
+     HMSRNPEAIS EVLDEVANDS SVEVETLCAK IVSKMMSKHE YAKRVEISMT TDYMFMKESP
+     VTKNKTQEMA KLKAKAVGYR EDGEIKIRKS IGAEVIGMTV CPCAQESVKE SDKNKLLEFL
+     DEETTQKVLD TVTFASHNQR GVGTLLIEVP EDREVKGEDI IEIIEESMSS PVCELLKRPD
+     ENATVLNAHK KPVFVEDCVR NMMEKIAKKY ADFPEDTIIT SRQENHESIH RHNAFAEKVT
+     TMGELKEELR I
+//

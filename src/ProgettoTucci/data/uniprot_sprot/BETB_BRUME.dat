@@ -1,0 +1,151 @@
+ID   BETB_BRUME              Reviewed;         487 AA.
+AC   Q8YFY0;
+DT   01-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 2.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Betaine aldehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00804};
+DE            Short=BADH {ECO:0000255|HAMAP-Rule:MF_00804};
+DE            EC=1.2.1.8 {ECO:0000255|HAMAP-Rule:MF_00804};
+GN   Name=betB {ECO:0000255|HAMAP-Rule:MF_00804}; OrderedLocusNames=BMEI1382;
+OS   Brucella melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=224914;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=16M / ATCC 23456 / NCTC 10094;
+RX   PubMed=11756688; DOI=10.1073/pnas.221575398;
+RA   DelVecchio V.G., Kapatral V., Redkar R.J., Patra G., Mujer C., Los T.,
+RA   Ivanova N., Anderson I., Bhattacharyya A., Lykidis A., Reznik G.,
+RA   Jablonski L., Larsen N., D'Souza M., Bernal A., Mazur M., Goltsman E.,
+RA   Selkov E., Elzer P.H., Hagius S., O'Callaghan D., Letesson J.-J.,
+RA   Haselkorn R., Kyrpides N.C., Overbeek R.;
+RT   "The genome sequence of the facultative intracellular pathogen Brucella
+RT   melitensis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:443-448(2002).
+CC   -!- FUNCTION: Involved in the biosynthesis of the osmoprotectant glycine
+CC       betaine. Catalyzes the irreversible oxidation of betaine aldehyde to
+CC       the corresponding acid. {ECO:0000255|HAMAP-Rule:MF_00804}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=betaine aldehyde + H2O + NAD(+) = glycine betaine + 2 H(+) +
+CC         NADH; Xref=Rhea:RHEA:15305, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15710, ChEBI:CHEBI:17750, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00804};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15306;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00804};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00804};
+CC       Note=Binds 2 potassium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00804};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; betaine biosynthesis via
+CC       choline pathway; betaine from betaine aldehyde: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00804}.
+CC   -!- SUBUNIT: Dimer of dimers. {ECO:0000255|HAMAP-Rule:MF_00804}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00804}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAL52563.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE008917; AAL52563.1; ALT_INIT; Genomic_DNA.
+DR   PIR; AH3424; AH3424.
+DR   RefSeq; WP_002963701.1; NZ_GG703778.1.
+DR   SMR; Q8YFY0; -.
+DR   STRING; 224914.BMEI1382; -.
+DR   EnsemblBacteria; AAL52563; AAL52563; BMEI1382.
+DR   GeneID; 45124015; -.
+DR   GeneID; 58776299; -.
+DR   KEGG; bme:BMEI1382; -.
+DR   KEGG; bmel:DK63_21; -.
+DR   PATRIC; fig|224914.52.peg.23; -.
+DR   eggNOG; COG1012; Bacteria.
+DR   OMA; IMRERNR; -.
+DR   BioCyc; BMEL224914:G1FZL-1493-MONOMER; -.
+DR   UniPathway; UPA00529; UER00386.
+DR   Proteomes; UP000000419; Chromosome I.
+DR   GO; GO:0008802; F:betaine-aldehyde dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019285; P:glycine betaine biosynthetic process from choline; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   HAMAP; MF_00804; BADH; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR011264; BADH.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR01804; BADH; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   3: Inferred from homology;
+KW   Metal-binding; NAD; NADP; Oxidation; Oxidoreductase; Potassium.
+FT   CHAIN           1..487
+FT                   /note="Betaine aldehyde dehydrogenase"
+FT                   /id="PRO_0000056537"
+FT   NP_BIND         149..151
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   NP_BIND         175..178
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   NP_BIND         228..231
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   ACT_SITE        161
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   ACT_SITE        249
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   ACT_SITE        283
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   ACT_SITE        461
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   METAL           27
+FT                   /note="Potassium 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   METAL           93
+FT                   /note="Potassium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   METAL           243
+FT                   /note="Potassium 2; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   METAL           454
+FT                   /note="Potassium 2; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   METAL           457
+FT                   /note="Potassium 2; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   BINDING         251
+FT                   /note="NAD; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   BINDING         283
+FT                   /note="NAD; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   BINDING         384
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+FT   MOD_RES         283
+FT                   /note="Cysteine sulfenic acid (-SOH)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00804"
+SQ   SEQUENCE   487 AA;  52035 MW;  E4B8F2DFC983A654 CRC64;
+     MKAQPKASHF IGGAFVEDKA GKPLPVIYPA TGEEIASLYS ATPGIIEAAY AAALKAQGEW
+     AALKPVERGR ILRRTAEILR EKNRKLSKLE TLDTGKALQE TLVADAASAA DALEFFGGII
+     SGFNGEFVEL GGSFAYTRRE ALGICVGIGA WNYPIQIAAW KSAPALAMGN AFIFKPSENT
+     PLSALALAEA YKEAGLPDGL FNVVQGYGDV GAALVNHRLT AKVSLTGSVP TGRRIMAQAG
+     EQLKHVTMEL GGKSPLIVFD DADLESAIGG AMLGNFYSTG QVCSNGTRVF VHKNIRERFI
+     ERLVERTRKI RIGDPFDEAT QMGPLISAAQ RDKVLSYIKK GKAEGATLAC GGGVPKLQGF
+     DKGFFIEPTV FADVTDTMTI AREEIFGPVM SVLEFSDEDE VIARANDSEF GLAAGVFTAD
+     LSRGHHVIGQ IKAGTCWINA YNLTPVEVPF GGYKQSGIGR ENGIAALAHY SQIKTVYVEM
+     GKVDSPY
+//

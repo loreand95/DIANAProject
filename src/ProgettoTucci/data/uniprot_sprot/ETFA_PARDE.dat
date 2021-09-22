@@ -1,0 +1,173 @@
+ID   ETFA_PARDE              Reviewed;         308 AA.
+AC   P38974;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Electron transfer flavoprotein subunit alpha;
+DE            Short=Alpha-ETF;
+DE   AltName: Full=Electron transfer flavoprotein large subunit;
+DE            Short=ETFLS;
+GN   Name=etfA;
+OS   Paracoccus denitrificans.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Paracoccus.
+OX   NCBI_TaxID=266;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 2-8.
+RC   STRAIN=ATCC 13543 / NRRL B-3784 / NRC 449;
+RX   PubMed=8376381;
+RA   Bedzyk L.A., Escudero K.W., Gill R.E., Griffin K.J., Frerman F.E.;
+RT   "Cloning, sequencing, and expression of the genes encoding subunits of
+RT   Paracoccus denitrificans electron transfer flavoprotein.";
+RL   J. Biol. Chem. 268:20211-20217(1993).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-22; 215-250; 252-270 AND 274-287.
+RC   STRAIN=ATCC 13543 / NRRL B-3784 / NRC 449;
+RX   PubMed=1576992; DOI=10.1111/j.1432-1033.1992.tb16877.x;
+RA   Watmough N.J., Kiss J., Frerman F.E.;
+RT   "Structural and redox relationships between Paracoccus denitrificans,
+RT   porcine and human electron-transferring flavoproteins.";
+RL   Eur. J. Biochem. 205:1089-1097(1992).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS).
+RX   PubMed=10026281; DOI=10.1021/bi9820917;
+RA   Roberts D.L., Salazar D., Fulmer J.P., Frerman F.E., Kim J.-J.P.;
+RT   "Crystal structure of Paracoccus denitrificans electron transfer
+RT   flavoprotein: structural and electrostatic analysis of a conserved flavin
+RT   binding domain.";
+RL   Biochemistry 38:1977-1989(1999).
+CC   -!- FUNCTION: The electron transfer flavoprotein serves as a specific
+CC       electron acceptor for other dehydrogenases. It transfers the electrons
+CC       to the main respiratory chain via ETF-ubiquinone oxidoreductase (ETF
+CC       dehydrogenase).
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC       Note=Binds 1 FAD per dimer.;
+CC   -!- SUBUNIT: Heterodimer of an alpha and a beta subunit.
+CC   -!- SIMILARITY: Belongs to the ETF alpha-subunit/FixB family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L14864; AAA03072.1; -; Unassigned_DNA.
+DR   PIR; B48008; B48008.
+DR   RefSeq; WP_011748831.1; NZ_FOYK01000007.1.
+DR   PDB; 1EFP; X-ray; 2.60 A; A/C=2-308.
+DR   PDBsum; 1EFP; -.
+DR   SMR; P38974; -.
+DR   DIP; DIP-6157N; -.
+DR   IntAct; P38974; 1.
+DR   EvolutionaryTrace; P38974; -.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   CDD; cd01715; ETF_alpha; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR014730; ETF_a/b_N.
+DR   InterPro; IPR001308; ETF_a/FixB.
+DR   InterPro; IPR033947; ETF_alpha_N.
+DR   InterPro; IPR014731; ETF_asu_C.
+DR   InterPro; IPR018206; ETF_asu_C_CS.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF01012; ETF; 1.
+DR   Pfam; PF00766; ETF_alpha; 1.
+DR   PIRSF; PIRSF000089; Electra_flavoP_a; 1.
+DR   SMART; SM00893; ETF; 1.
+DR   SUPFAM; SSF52467; SSF52467; 1.
+DR   PROSITE; PS00696; ETF_ALPHA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Electron transport; FAD;
+KW   Flavoprotein; Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:1576992,
+FT                   ECO:0000269|PubMed:8376381"
+FT   CHAIN           2..308
+FT                   /note="Electron transfer flavoprotein subunit alpha"
+FT                   /id="PRO_0000167854"
+FT   NP_BIND         252..280
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        220
+FT                   /note="G -> H (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        281
+FT                   /note="Missing (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          3..6
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          9..12
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           16..26
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           27..29
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          32..38
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           42..49
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          54..61
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           63..65
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           70..81
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          85..92
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           93..105
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          110..117
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          119..127
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   TURN            128..131
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          132..138
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          140..147
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           149..151
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          174..182
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   TURN            190..192
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          194..199
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           201..203
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          205..207
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           210..218
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          222..225
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           227..231
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           237..239
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          240..246
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          251..257
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           262..265
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   TURN            266..270
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          272..279
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           284..287
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   STRAND          290..295
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+FT   HELIX           297..306
+FT                   /evidence="ECO:0007744|PDB:1EFP"
+SQ   SEQUENCE   308 AA;  31294 MW;  445B57680098BFA1 CRC64;
+     MAVLLLGEVT NGALNRDATA KAVAAVKALG DVTVLCAGAS AKAAAEEAAK IAGVAKVLVA
+     EDALYGHRLA EPTAALIVGL AGDYSHIAAP ATTDAKNVMP RVAALLDVMV LSDVSAILDA
+     DTFERPIYAG NAIQVVKSKD AKKVFTIRTA SFDAAGEGGT APVTETAAAA DPGLSSWVAD
+     EVAESDRPEL TSARRVVSGG RGLGSKESFA IIEELADKLG AAVGASRAAV DSGYAPNDWQ
+     VGQTGKVVAP ELYVAVGISG AIQHLAGMKD SKVIVAINKD EEAPIFQIAD YGLVGDLFSV
+     VPELTGKL
+//

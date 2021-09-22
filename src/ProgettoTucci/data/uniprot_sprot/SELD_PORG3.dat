@@ -1,0 +1,122 @@
+ID   SELD_PORG3              Reviewed;         348 AA.
+AC   B2RLG7;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=Selenide, water dikinase {ECO:0000255|HAMAP-Rule:MF_00625};
+DE            EC=2.7.9.3 {ECO:0000255|HAMAP-Rule:MF_00625};
+DE   AltName: Full=Selenium donor protein {ECO:0000255|HAMAP-Rule:MF_00625};
+DE   AltName: Full=Selenophosphate synthase {ECO:0000255|HAMAP-Rule:MF_00625};
+GN   Name=selD {ECO:0000255|HAMAP-Rule:MF_00625}; OrderedLocusNames=PGN_1693;
+OS   Porphyromonas gingivalis (strain ATCC 33277 / DSM 20709 / CIP 103683 / JCM
+OS   12257 / NCTC 11834 / 2561).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae;
+OC   Porphyromonas.
+OX   NCBI_TaxID=431947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33277 / DSM 20709 / CIP 103683 / JCM 12257 / NCTC 11834 / 2561;
+RX   PubMed=18524787; DOI=10.1093/dnares/dsn013;
+RA   Naito M., Hirakawa H., Yamashita A., Ohara N., Shoji M., Yukitake H.,
+RA   Nakayama K., Toh H., Yoshimura F., Kuhara S., Hattori M., Hayashi T.,
+RA   Nakayama K.;
+RT   "Determination of the genome sequence of Porphyromonas gingivalis strain
+RT   ATCC 33277 and genomic comparison with strain W83 revealed extensive genome
+RT   rearrangements in P. gingivalis.";
+RL   DNA Res. 15:215-225(2008).
+CC   -!- FUNCTION: Synthesizes selenophosphate from selenide and ATP.
+CC       {ECO:0000255|HAMAP-Rule:MF_00625}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + hydrogenselenide = AMP + 2 H(+) + phosphate +
+CC         selenophosphate; Xref=Rhea:RHEA:18737, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16144, ChEBI:CHEBI:29317,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456215; EC=2.7.9.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00625};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00625};
+CC       Note=Binds 1 Mg(2+) ion per monomer. {ECO:0000255|HAMAP-Rule:MF_00625};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00625}.
+CC   -!- SIMILARITY: Belongs to the selenophosphate synthase 1 family. Class I
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00625}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009380; BAG34212.1; -; Genomic_DNA.
+DR   RefSeq; WP_012458463.1; NZ_CP025930.1.
+DR   SMR; B2RLG7; -.
+DR   STRING; 431947.PGN_1693; -.
+DR   DNASU; 6330824; -.
+DR   EnsemblBacteria; BAG34212; BAG34212; PGN_1693.
+DR   GeneID; 29256858; -.
+DR   KEGG; pgn:PGN_1693; -.
+DR   eggNOG; COG0709; Bacteria.
+DR   HOGENOM; CLU_032859_0_1_10; -.
+DR   OMA; MNIVCFP; -.
+DR   BioCyc; PGIN431947:G1G2V-1901-MONOMER; -.
+DR   Proteomes; UP000008842; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004756; F:selenide, water dikinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016260; P:selenocysteine biosynthetic process; IEA:InterPro.
+DR   CDD; cd02195; SelD; 1.
+DR   Gene3D; 3.30.1330.10; -; 1.
+DR   Gene3D; 3.90.650.10; -; 1.
+DR   HAMAP; MF_00625; SelD; 1.
+DR   InterPro; IPR010918; PurM-like_C_dom.
+DR   InterPro; IPR036676; PurM-like_C_sf.
+DR   InterPro; IPR016188; PurM-like_N.
+DR   InterPro; IPR036921; PurM-like_N_sf.
+DR   InterPro; IPR023061; SelD_I.
+DR   InterPro; IPR004536; SPS/SelD.
+DR   PANTHER; PTHR10256; PTHR10256; 1.
+DR   Pfam; PF00586; AIRS; 1.
+DR   Pfam; PF02769; AIRS_C; 1.
+DR   PIRSF; PIRSF036407; Selenphspht_syn; 1.
+DR   SUPFAM; SSF55326; SSF55326; 1.
+DR   SUPFAM; SSF56042; SSF56042; 1.
+DR   TIGRFAMs; TIGR00476; selD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Selenium; Transferase.
+FT   CHAIN           1..348
+FT                   /note="Selenide, water dikinase"
+FT                   /id="PRO_1000130521"
+FT   NP_BIND         47..49
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   NP_BIND         138..140
+FT                   /note="ATP; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   ACT_SITE        17
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   METAL           50
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   METAL           90
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   METAL           226
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   BINDING         20
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   BINDING         67
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   BINDING         90
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+FT   SITE            20
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00625"
+SQ   SEQUENCE   348 AA;  36904 MW;  642E546C222075E4 CRC64;
+     MNRSSFDLLS TVEYGGCSAK LDPAKLSELL HDIPLPVDSR IMVDVSTHDD AGVYRLNDDT
+     ALIVTTDFFP PVCSDPYTFG RIAAANALSD VYAMGGRPLL VLNLTMFPSE GIPVEVLADI
+     LRGGQQTIDE SGAFTMGGHT IDDPIPKYGL AVTGIVHPEH LVTNAGVRAG QCLVLTKPLG
+     IGVAMAAHRL GLIGSEVYEA AIGQMCLLNR AGAELMQKYG IRGATDITGF GLLGHAKELA
+     EASDVCLHID SRSVPVLPEC LSLLRDGCIP GATFRNLRFV GDMLRADCPT EYKMLLADAQ
+     TSGGLLMAVD ADRAEDLVAD LHRTGLHPFA AIIGYATDAE DAAKLIVT
+//

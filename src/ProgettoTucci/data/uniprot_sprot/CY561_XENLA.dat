@@ -1,0 +1,157 @@
+ID   CY561_XENLA             Reviewed;         247 AA.
+AC   Q91577;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-APR-2021, entry version 89.
+DE   RecName: Full=Transmembrane ascorbate-dependent reductase CYB561 {ECO:0000305};
+DE            EC=7.2.1.- {ECO:0000250|UniProtKB:P10897};
+DE   AltName: Full=Cytochrome b-561;
+DE   AltName: Full=Cytochrome b561;
+GN   Name=cyb561; Synonyms=xcyt;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Brain;
+RX   PubMed=8985121; DOI=10.1089/dna.1996.15.1075;
+RA   Srivastava M.;
+RT   "Xenopus cytochrome b561: molecular confirmation of a general five
+RT   transmembrane structure and developmental regulation at the gastrula
+RT   stage.";
+RL   DNA Cell Biol. 15:1075-1080(1996).
+CC   -!- FUNCTION: Transmembrane reductase that uses ascorbate as an electron
+CC       donor in the cytoplasm and transfers electrons across membranes to
+CC       reduce monodehydro-L-ascorbate radical in the lumen of secretory
+CC       vesicles. It is therefore involved the regeneration and homeostasis
+CC       within secretory vesicles of ascorbate which in turn provides reducing
+CC       equivalents needed to support the activity of intravesicular enzymes.
+CC       {ECO:0000250|UniProtKB:P10897}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-ascorbate(in) + monodehydro-L-ascorbate radical(out) = L-
+CC         ascorbate(out) + monodehydro-L-ascorbate radical(in);
+CC         Xref=Rhea:RHEA:66524, ChEBI:CHEBI:38290, ChEBI:CHEBI:59513;
+CC         Evidence={ECO:0000250|UniProtKB:P10897};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:66525;
+CC         Evidence={ECO:0000250|UniProtKB:P10897};
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344;
+CC         Evidence={ECO:0000250|UniProtKB:P10897};
+CC       Note=Binds 2 heme b groups non-covalently.
+CC       {ECO:0000250|UniProtKB:P10897};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasmic vesicle, secretory vesicle,
+CC       chromaffin granule membrane {ECO:0000250|UniProtKB:P10897}; Multi-pass
+CC       membrane protein {ECO:0000255}. Note=Secretory vesicle containing
+CC       catecholamines and amidated peptides. {ECO:0000250|UniProtKB:P10897}.
+CC   -!- TISSUE SPECIFICITY: Specific to neuroendocrine tissues.
+CC   -!- DEVELOPMENTAL STAGE: Developmentally regulated at the gastrula stage.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U16364; AAA65644.1; -; mRNA.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030658; C:transport vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000293; F:ferric-chelate reductase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0022900; P:electron transport chain; IEA:InterPro.
+DR   InterPro; IPR043205; CYB561/CYBRD1-like.
+DR   InterPro; IPR006593; Cyt_b561/ferric_Rdtase_TM.
+DR   InterPro; IPR028837; Cytochrome_b561.
+DR   PANTHER; PTHR10106; PTHR10106; 1.
+DR   PANTHER; PTHR10106:SF14; PTHR10106:SF14; 1.
+DR   Pfam; PF03188; Cytochrom_B561; 1.
+DR   SMART; SM00665; B561; 1.
+DR   PROSITE; PS50939; CYTOCHROME_B561; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasmic vesicle; Electron transport; Heme; Iron; Membrane;
+KW   Metal-binding; Translocase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..247
+FT                   /note="Transmembrane ascorbate-dependent reductase CYB561"
+FT                   /id="PRO_0000151032"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..51
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        52..72
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        73..84
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        85..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        106..124
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        125..145
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        146..158
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        180..194
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   TRANSMEM        195..215
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        216..247
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   DOMAIN          19..216
+FT                   /note="Cytochrome b561"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00242"
+FT   REGION          116..119
+FT                   /note="Heme b 1 binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   METAL           53
+FT                   /note="Iron 1 (heme b 1 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   METAL           87
+FT                   /note="Iron 2 (heme b 2 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   METAL           121
+FT                   /note="Iron 1 (heme b 1 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   METAL           160
+FT                   /note="Iron 2 (heme b 2 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         73
+FT                   /note="Heme b 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         80
+FT                   /note="Ascorbate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         80
+FT                   /note="Heme b 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         84
+FT                   /note="Ascorbate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         153
+FT                   /note="Ascorbate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         181
+FT                   /note="Heme b 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+FT   BINDING         221
+FT                   /note="Heme b 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53TN4"
+SQ   SEQUENCE   247 AA;  27712 MW;  959D6DA963350C8C CRC64;
+     MENALSSQNL GFMPYLVAGS QILGIANLAI TGAWLAQLQR RFLWSGPLQF NVHPLCMVLG
+     MVFLCGEALL VYRVFRHETK RSTKILHGVL HIMALVISLV GVIAVFQYHQ ANGYPDMYSL
+     HSWCGIVTFT LYILQWIIGF SLFFIPGVAF TYRSQFKPLH EFFGRALFLS SIATSLLGLT
+     EKMFSEYSSH PAEGILVNSL GVLLVVFGAV IAYILTREDW RRPPLPEEQA LSMDFKTLTE
+     GDSPTDQ
+//

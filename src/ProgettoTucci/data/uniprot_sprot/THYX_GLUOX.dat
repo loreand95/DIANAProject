@@ -1,0 +1,128 @@
+ID   THYX_GLUOX              Reviewed;         303 AA.
+AC   Q5FR18;
+DT   26-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=Flavin-dependent thymidylate synthase {ECO:0000255|HAMAP-Rule:MF_01408};
+DE            Short=FDTS {ECO:0000255|HAMAP-Rule:MF_01408};
+DE            EC=2.1.1.148 {ECO:0000255|HAMAP-Rule:MF_01408};
+DE   AltName: Full=FAD-dependent thymidylate synthase {ECO:0000255|HAMAP-Rule:MF_01408};
+DE   AltName: Full=Thymidylate synthase ThyX {ECO:0000255|HAMAP-Rule:MF_01408};
+DE            Short=TS {ECO:0000255|HAMAP-Rule:MF_01408};
+DE            Short=TSase {ECO:0000255|HAMAP-Rule:MF_01408};
+GN   Name=thyX {ECO:0000255|HAMAP-Rule:MF_01408}; OrderedLocusNames=GOX1427;
+OS   Gluconobacter oxydans (strain 621H) (Gluconobacter suboxydans).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Gluconobacter.
+OX   NCBI_TaxID=290633;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=621H;
+RX   PubMed=15665824; DOI=10.1038/nbt1062;
+RA   Prust C., Hoffmeister M., Liesegang H., Wiezer A., Fricke W.F.,
+RA   Ehrenreich A., Gottschalk G., Deppenmeier U.;
+RT   "Complete genome sequence of the acetic acid bacterium Gluconobacter
+RT   oxydans.";
+RL   Nat. Biotechnol. 23:195-200(2005).
+CC   -!- FUNCTION: Catalyzes the reductive methylation of 2'-deoxyuridine-5'-
+CC       monophosphate (dUMP) to 2'-deoxythymidine-5'-monophosphate (dTMP) while
+CC       utilizing 5,10-methylenetetrahydrofolate (mTHF) as the methyl donor,
+CC       and NADPH and FADH(2) as the reductant. {ECO:0000255|HAMAP-
+CC       Rule:MF_01408}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + dUMP + H(+) +
+CC         NADPH = (6S)-5,6,7,8-tetrahydrofolate + dTMP + NADP(+);
+CC         Xref=Rhea:RHEA:29043, ChEBI:CHEBI:15378, ChEBI:CHEBI:15636,
+CC         ChEBI:CHEBI:57453, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:63528, ChEBI:CHEBI:246422; EC=2.1.1.148;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01408};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01408};
+CC       Note=Binds 4 FAD per tetramer. Each FAD binding site is formed by three
+CC       monomers. {ECO:0000255|HAMAP-Rule:MF_01408};
+CC   -!- PATHWAY: Pyrimidine metabolism; dTTP biosynthesis. {ECO:0000255|HAMAP-
+CC       Rule:MF_01408}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01408}.
+CC   -!- SIMILARITY: Belongs to the thymidylate synthase ThyX family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01408}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000009; AAW61178.1; -; Genomic_DNA.
+DR   RefSeq; WP_011252965.1; NZ_LT900338.1.
+DR   SMR; Q5FR18; -.
+DR   STRING; 290633.GOX1427; -.
+DR   EnsemblBacteria; AAW61178; AAW61178; GOX1427.
+DR   KEGG; gox:GOX1427; -.
+DR   eggNOG; COG1351; Bacteria.
+DR   HOGENOM; CLU_067790_0_0_5; -.
+DR   OMA; QQGRPGK; -.
+DR   UniPathway; UPA00575; -.
+DR   Proteomes; UP000006375; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0050797; F:thymidylate synthase (FAD) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006231; P:dTMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006235; P:dTTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1360.170; -; 1.
+DR   HAMAP; MF_01408; ThyX; 1.
+DR   InterPro; IPR003669; Thymidylate_synthase_ThyX.
+DR   InterPro; IPR036098; Thymidylate_synthase_ThyX_sf.
+DR   PANTHER; PTHR34934; PTHR34934; 1.
+DR   Pfam; PF02511; Thy1; 1.
+DR   SUPFAM; SSF69796; SSF69796; 1.
+DR   TIGRFAMs; TIGR02170; thyX; 1.
+DR   PROSITE; PS51331; THYX; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Methyltransferase; NADP; Nucleotide biosynthesis;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..303
+FT                   /note="Flavin-dependent thymidylate synthase"
+FT                   /id="PRO_0000175565"
+FT   DOMAIN          43..256
+FT                   /note="ThyX"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00661"
+FT   NP_BIND         109..112
+FT                   /note="dUMP; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   NP_BIND         112..114
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   NP_BIND         120..124
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   NP_BIND         211..213
+FT                   /note="FAD; shared with neighboring subunits"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   MOTIF           112..122
+FT                   /note="ThyX motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   ACT_SITE        222
+FT                   /note="Involved in ionization of N3 of dUMP, leading to its
+FT                   activation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   BINDING         89
+FT                   /note="FAD; shared with neighboring subunits"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   BINDING         120
+FT                   /note="FAD; shared with neighboring subunits"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   BINDING         195
+FT                   /note="dUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   BINDING         217
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+FT   BINDING         222
+FT                   /note="dUMP; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01408"
+SQ   SEQUENCE   303 AA;  34609 MW;  98E4392721F9DA72 CRC64;
+     MALTSEQRAE IEAQRSEPQL TSRPTVAAME NLLFTPFEVL DHGFLRVVDY MGDDGAVVQA
+     ARVSYGRGTK KVSEDAGLIR YLMRHRHSTP FEMCEIKFHV KLPVFVARQW IRHRMASVNE
+     YSARYSILDR EFYLPAMDQV AAQSSSNRQG RSDALDADTA HQVLEILRRD ASQCYDDYES
+     LLNPEGRGLA RELARINLTL NTYTQWYWKI DLHNLMHFLA LRADPHAQYE IRVYAEKMIE
+     ILKAWVPATA AAFEEYRLGA FTLSAGMLKV VRRRLAGETV TQENSGLTKR EWSEMAAVLD
+     GAS
+//

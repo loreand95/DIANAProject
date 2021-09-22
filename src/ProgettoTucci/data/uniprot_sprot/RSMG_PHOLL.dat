@@ -1,0 +1,90 @@
+ID   RSMG_PHOLL              Reviewed;         206 AA.
+AC   Q7NA87;
+DT   23-NOV-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.170 {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+GN   Name=rsmG {ECO:0000255|HAMAP-Rule:MF_00074}; OrderedLocusNames=plu0048;
+OS   Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 /
+OS   TT01).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Photorhabdus.
+OX   NCBI_TaxID=243265;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15139 / CIP 105565 / TT01;
+RX   PubMed=14528314; DOI=10.1038/nbt886;
+RA   Duchaud E., Rusniok C., Frangeul L., Buchrieser C., Givaudan A.,
+RA   Taourit S., Bocs S., Boursaux-Eude C., Chandler M., Charles J.-F.,
+RA   Dassa E., Derose R., Derzelle S., Freyssinet G., Gaudriault S., Medigue C.,
+RA   Lanois A., Powell K., Siguier P., Vincent R., Wingate V., Zouine M.,
+RA   Glaser P., Boemare N., Danchin A., Kunst F.;
+RT   "The genome sequence of the entomopathogenic bacterium Photorhabdus
+RT   luminescens.";
+RL   Nat. Biotechnol. 21:1307-1313(2003).
+CC   -!- FUNCTION: Specifically methylates the N7 position of guanine in
+CC       position 527 of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(527) in 16S rRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(527) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42732, Rhea:RHEA-COMP:10209, Rhea:RHEA-COMP:10210,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.170; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00074};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571859; CAE12343.1; -; Genomic_DNA.
+DR   RefSeq; WP_011144460.1; NC_005126.1.
+DR   SMR; Q7NA87; -.
+DR   STRING; 243265.plu0048; -.
+DR   EnsemblBacteria; CAE12343; CAE12343; plu0048.
+DR   GeneID; 57251820; -.
+DR   KEGG; plu:plu0048; -.
+DR   eggNOG; COG0357; Bacteria.
+DR   HOGENOM; CLU_065341_2_2_6; -.
+DR   OMA; YPRKAGI; -.
+DR   OrthoDB; 1590629at2; -.
+DR   BioCyc; PLUM243265:PLU_RS00220-MONOMER; -.
+DR   Proteomes; UP000002514; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR31760; PTHR31760; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   PIRSF; PIRSF003078; GidB; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00138; rsmG_gidB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..206
+FT                   /note="Ribosomal RNA small subunit methyltransferase G"
+FT                   /id="PRO_0000184300"
+FT   REGION          124..125
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         73
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         78
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         139
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   206 AA;  23253 MW;  FF8B9088462E64A2 CRC64;
+     MLNKLELLLT KAGIELSLQQ KQQLVAYVDM LNKWNKAYNL TSVREPEQML VRHIMDSIVV
+     SPYLQGHRFI DVGTGPGLPG IPLAIVRPDS HFTLLDSLGK RVRFLRQVQH ELDLVNIEPV
+     QSRVEAYSSE PPFDGVISRA FASLKDMVSW CSHLPEPIHG RFYALKGVLP EEELTILPFG
+     ISIDSVIKLN VPELEGQRHL VILKSN
+//

@@ -1,0 +1,127 @@
+ID   LEU3_PROMM              Reviewed;         357 AA.
+AC   Q7V842;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=3-isopropylmalate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01033};
+DE            EC=1.1.1.85 {ECO:0000255|HAMAP-Rule:MF_01033};
+DE   AltName: Full=3-IPM-DH {ECO:0000255|HAMAP-Rule:MF_01033};
+DE   AltName: Full=Beta-IPM dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01033};
+DE            Short=IMDH {ECO:0000255|HAMAP-Rule:MF_01033};
+GN   Name=leuB {ECO:0000255|HAMAP-Rule:MF_01033}; OrderedLocusNames=PMT_0531;
+OS   Prochlorococcus marinus (strain MIT 9313).
+OC   Bacteria; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus.
+OX   NCBI_TaxID=74547;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MIT 9313;
+RX   PubMed=12917642; DOI=10.1038/nature01947;
+RA   Rocap G., Larimer F.W., Lamerdin J.E., Malfatti S., Chain P., Ahlgren N.A.,
+RA   Arellano A., Coleman M., Hauser L., Hess W.R., Johnson Z.I., Land M.L.,
+RA   Lindell D., Post A.F., Regala W., Shah M., Shaw S.L., Steglich C.,
+RA   Sullivan M.B., Ting C.S., Tolonen A., Webb E.A., Zinser E.R.,
+RA   Chisholm S.W.;
+RT   "Genome divergence in two Prochlorococcus ecotypes reflects oceanic niche
+RT   differentiation.";
+RL   Nature 424:1042-1047(2003).
+CC   -!- FUNCTION: Catalyzes the oxidation of 3-carboxy-2-hydroxy-4-
+CC       methylpentanoate (3-isopropylmalate) to 3-carboxy-4-methyl-2-
+CC       oxopentanoate. The product decarboxylates to 4-methyl-2 oxopentanoate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01033}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate + NAD(+) = 4-methyl-2-oxopentanoate
+CC         + CO2 + NADH; Xref=Rhea:RHEA:32271, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:17865, ChEBI:CHEBI:35121, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.85; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01033};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01033};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01033};
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01033};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01033}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01033}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01033}.
+CC   -!- SIMILARITY: Belongs to the isocitrate and isopropylmalate
+CC       dehydrogenases family. LeuB type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01033}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX548175; CAE20706.1; -; Genomic_DNA.
+DR   RefSeq; WP_011129910.1; NC_005071.1.
+DR   SMR; Q7V842; -.
+DR   STRING; 74547.PMT_0531; -.
+DR   EnsemblBacteria; CAE20706; CAE20706; PMT_0531.
+DR   KEGG; pmt:PMT_0531; -.
+DR   eggNOG; COG0473; Bacteria.
+DR   HOGENOM; CLU_031953_0_3_3; -.
+DR   OMA; EYDLGAR; -.
+DR   OrthoDB; 1551125at2; -.
+DR   UniPathway; UPA00048; UER00072.
+DR   Proteomes; UP000001423; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003862; F:3-isopropylmalate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0009082; P:branched-chain amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01033; LeuB_type1; 1.
+DR   InterPro; IPR019818; IsoCit/isopropylmalate_DH_CS.
+DR   InterPro; IPR024084; IsoPropMal-DH-like_dom.
+DR   InterPro; IPR004429; Isopropylmalate_DH.
+DR   PANTHER; PTHR42979; PTHR42979; 1.
+DR   Pfam; PF00180; Iso_dh; 1.
+DR   SMART; SM01329; Iso_dh; 1.
+DR   TIGRFAMs; TIGR00169; leuB; 1.
+DR   PROSITE; PS00470; IDH_IMDH; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Branched-chain amino acid biosynthesis; Cytoplasm;
+KW   Leucine biosynthesis; Magnesium; Manganese; Metal-binding; NAD;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN           1..357
+FT                   /note="3-isopropylmalate dehydrogenase"
+FT                   /id="PRO_0000083723"
+FT   NP_BIND         282..294
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   METAL           224
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   METAL           248
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   METAL           252
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   BINDING         97
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   BINDING         107
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   BINDING         135
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   BINDING         224
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   SITE            142
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+FT   SITE            192
+FT                   /note="Important for catalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01033"
+SQ   SEQUENCE   357 AA;  37956 MW;  A1256EE81368AD3F CRC64;
+     MRQHRIVLLP GDGIGPEITA VAKLLLDALG HQHGFKLNFE QHPIGGVAID ASGSPLPAST
+     LEACQASDAV LLAAIGSPRF DALPREQRPE TGLLSLRAGL KLFANLRPVT ILPALIDASS
+     LKANVIKGVD LMVVRELTGG IYFGQPKGRI EADGDERAFN TMTYSRTEVD RIAKVAFELA
+     RDRSGKLCSV DKANVLDVSQ LWRDRVDALA ANYGDVELSH MYVDNAAMQL VRNPRQFDVL
+     LTGNLFGDIL SDEAAMLTGS IGMLPSASLG SEGPGLFEPV HGSAPDIAGQ DLANPMAMVL
+     CAAMMLRIGL KENDAARALE GSVERVLAAG FRTGDLMSEG CTQLGCAEMG EQLLQAL
+//

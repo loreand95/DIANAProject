@@ -1,0 +1,108 @@
+ID   CLSA_ECOSM              Reviewed;         486 AA.
+AC   B1LH51;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 72.
+DE   RecName: Full=Cardiolipin synthase A {ECO:0000255|HAMAP-Rule:MF_00190};
+DE            Short=CL synthase {ECO:0000255|HAMAP-Rule:MF_00190};
+DE            EC=2.7.8.- {ECO:0000255|HAMAP-Rule:MF_00190};
+GN   Name=clsA {ECO:0000255|HAMAP-Rule:MF_00190}; Synonyms=cls;
+GN   OrderedLocusNames=EcSMS35_1891;
+OS   Escherichia coli (strain SMS-3-5 / SECEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=439855;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SMS-3-5 / SECEC;
+RX   PubMed=18708504; DOI=10.1128/jb.00661-08;
+RA   Fricke W.F., Wright M.S., Lindell A.H., Harkins D.M., Baker-Austin C.,
+RA   Ravel J., Stepanauskas R.;
+RT   "Insights into the environmental resistance gene pool from the genome
+RT   sequence of the multidrug-resistant environmental isolate Escherichia coli
+RT   SMS-3-5.";
+RL   J. Bacteriol. 190:6779-6794(2008).
+CC   -!- FUNCTION: Catalyzes the reversible phosphatidyl group transfer from one
+CC       phosphatidylglycerol molecule to another to form cardiolipin (CL)
+CC       (diphosphatidylglycerol) and glycerol. {ECO:0000255|HAMAP-
+CC       Rule:MF_00190}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) = a
+CC         cardiolipin + glycerol; Xref=Rhea:RHEA:31451, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:62237, ChEBI:CHEBI:64716; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00190};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00190}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00190}.
+CC   -!- SIMILARITY: Belongs to the phospholipase D family. Cardiolipin synthase
+CC       subfamily. ClsA sub-subfamily. {ECO:0000255|HAMAP-Rule:MF_00190}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000970; ACB19274.1; -; Genomic_DNA.
+DR   RefSeq; WP_000214516.1; NC_010498.1.
+DR   SMR; B1LH51; -.
+DR   EnsemblBacteria; ACB19274; ACB19274; EcSMS35_1891.
+DR   GeneID; 58463018; -.
+DR   KEGG; ecm:EcSMS35_1891; -.
+DR   HOGENOM; CLU_038053_1_0_6; -.
+DR   OMA; FVYWATL; -.
+DR   Proteomes; UP000007011; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008808; F:cardiolipin synthase activity; IEA:InterPro.
+DR   GO; GO:0032049; P:cardiolipin biosynthetic process; IEA:InterPro.
+DR   HAMAP; MF_00190; Cardiolipin_synth_ClsA; 1.
+DR   InterPro; IPR022924; Cardiolipin_synthase.
+DR   InterPro; IPR030840; CL_synthase_A.
+DR   InterPro; IPR027379; CLS_N.
+DR   InterPro; IPR025202; PLD-like_dom.
+DR   InterPro; IPR001736; PLipase_D/transphosphatidylase.
+DR   Pfam; PF13091; PLDc_2; 2.
+DR   Pfam; PF13396; PLDc_N; 1.
+DR   SMART; SM00155; PLDc; 2.
+DR   TIGRFAMs; TIGR04265; bac_cardiolipin; 1.
+DR   PROSITE; PS50035; PLD; 2.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Lipid biosynthesis; Lipid metabolism;
+KW   Membrane; Phospholipid biosynthesis; Phospholipid metabolism; Repeat;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..486
+FT                   /note="Cardiolipin synthase A"
+FT                   /id="PRO_1000118590"
+FT   TRANSMEM        3..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   TRANSMEM        38..58
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   DOMAIN          219..246
+FT                   /note="PLD phosphodiesterase 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   DOMAIN          399..426
+FT                   /note="PLD phosphodiesterase 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        224
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        226
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        231
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        404
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        406
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+FT   ACT_SITE        411
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00190"
+SQ   SEQUENCE   486 AA;  54822 MW;  C8BDD69AA5AA37DB CRC64;
+     MTTVYTLVSW LAILGYWLLI AGVTLRILMK RRAVPSAMAW LLIIYILPLV GIIAYLAVGE
+     LHLGKRRAER ARAMWPSTAK WLNDLKACKH IFAEENSSVA APLFKLCERR QGIAGVKGNQ
+     LQLMTESDDV MQALIRDIQL ARHNIEMVFY IWQPGGMADQ VAESLMAAAR RGIHCRLMLD
+     SAGSVAFFRS PWPELMRNAG IEVVEALKVN LMRVFLRRMD LRQHRKMIMI DNYIAYTGSM
+     NMVDPRYFKQ DAGVGQWIDL MARMEGPIAT AMGIIYSCDW EIETGKRILP PPPDVNIMPF
+     EQASGHTIHT IASGPGFPED LIHQALLTAA YSAREYLIMT TPYFVPSDDL LHAICTAAQR
+     GVDVSIILPR KNDSMLVGWA SRAFFTELLA AGVKIYQFEG GLLHTKSVLV DGELSLVGTV
+     NLDMRSLWLN FEITLAIDDK GFGADLAAVQ DDYISRSRLL DARLWLKRPL WQRVAERLFY
+     FFSPLL
+//

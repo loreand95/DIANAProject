@@ -1,0 +1,144 @@
+ID   HDRE_METTT              Reviewed;         264 AA.
+AC   A0A0E3NFS5;
+DT   25-APR-2018, integrated into UniProtKB/Swiss-Prot.
+DT   25-APR-2018, sequence version 2.
+DT   02-DEC-2020, entry version 23.
+DE   RecName: Full=Dihydromethanophenazine:CoB--CoM heterodisulfide reductase subunit E {ECO:0000305};
+DE            EC=1.8.98.1 {ECO:0000269|PubMed:11034998, ECO:0000269|PubMed:9654152, ECO:0000305|PubMed:9665708};
+DE   AltName: Full=CoB--CoM heterodisulfide reductase subunit E {ECO:0000305};
+DE   AltName: Full=Coenzyme B:coenzyme M:methanophenazine oxidoreductase subunit E {ECO:0000305};
+GN   Name=hdrE; ORFNames=MSTHT_2243 {ECO:0000312|EMBL:AKB14001.1};
+OS   Methanosarcina thermophila (strain ATCC 43570 / DSM 1825 / OCM 12 / VKM
+OS   B-1830 / TM-1).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=523844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43570 / DSM 1825 / OCM 12 / VKM B-1830 / TM-1;
+RA   Henriksen J.R., Luke J., Reinhart S., Benedict M.N., Youngblut N.D.,
+RA   Metcalf M.E., Whitaker R.J., Metcalf W.W.;
+RT   "Methanogenic archaea and the global carbon cycle.";
+RL   Submitted (JUL-2014) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-21, FUNCTION, CATALYTIC ACTIVITY, COFACTOR, AND
+RP   SUBUNIT.
+RC   STRAIN=ATCC 43570 / DSM 1825 / OCM 12 / VKM B-1830 / TM-1;
+RX   PubMed=9665708; DOI=10.1021/bi9726483;
+RA   Simianu M., Murakami E., Brewer J.M., Ragsdale S.W.;
+RT   "Purification and properties of the heme- and iron-sulfur-containing
+RT   heterodisulfide reductase from Methanosarcina thermophila.";
+RL   Biochemistry 37:10027-10039(1998).
+RN   [3]
+RP   FUNCTION, SOURCE OF ELECTRONS, AND CATALYTIC ACTIVITY.
+RC   STRAIN=ATCC 43570 / DSM 1825 / OCM 12 / VKM B-1830 / TM-1;
+RX   PubMed=9654152; DOI=10.1016/s0014-5793(98)00555-9;
+RA   Baeumer S., Murakami E., Brodersen J., Gottschalk G., Ragsdale S.W.,
+RA   Deppenmeier U.;
+RT   "The F420H2:heterodisulfide oxidoreductase system from Methanosarcina
+RT   species. 2-Hydroxyphenazine mediates electron transfer from F420H2
+RT   dehydrogenase to heterodisulfide reductase.";
+RL   FEBS Lett. 428:295-298(1998).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND PATHWAY.
+RC   STRAIN=ATCC 43570 / DSM 1825 / OCM 12 / VKM B-1830 / TM-1;
+RX   PubMed=11034998; DOI=10.1074/jbc.m004809200;
+RA   Murakami E., Deppenmeier U., Ragsdale S.W.;
+RT   "Characterization of the intramolecular electron transfer pathway from 2-
+RT   hydroxyphenazine to the heterodisulfide reductase from Methanosarcina
+RT   thermophila.";
+RL   J. Biol. Chem. 276:2432-2439(2001).
+CC   -!- FUNCTION: Part of a complex that catalyzes the reversible reduction of
+CC       CoM-S-S-CoB to the thiol-coenzymes H-S-CoM (coenzyme M) and H-S-CoB
+CC       (coenzyme B). HdrE may be responsible for anchoring the complex to the
+CC       membrane (PubMed:9654152, PubMed:9665708, PubMed:11034998). Electrons
+CC       probably transfer from phenazine to the high potential 4Fe cluster in
+CC       HdrD subunit, then to the low potential heme in HdrE subunit and
+CC       finally to CoM-S-S-CoB (PubMed:11034998). {ECO:0000269|PubMed:11034998,
+CC       ECO:0000269|PubMed:9654152, ECO:0000269|PubMed:9665708}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=coenzyme B + coenzyme M + methanophenazine = coenzyme M-
+CC         coenzyme B heterodisulfide + dihydromethanophenazine;
+CC         Xref=Rhea:RHEA:18085, ChEBI:CHEBI:29118, ChEBI:CHEBI:50375,
+CC         ChEBI:CHEBI:58319, ChEBI:CHEBI:58411, ChEBI:CHEBI:58596; EC=1.8.98.1;
+CC         Evidence={ECO:0000269|PubMed:11034998, ECO:0000269|PubMed:9654152,
+CC         ECO:0000305|PubMed:9665708};
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344;
+CC         Evidence={ECO:0000269|PubMed:9665708};
+CC       Note=Binds 2 heme b (iron(II)-protoporphyrin IX) groups per subunit.
+CC       {ECO:0000269|PubMed:9665708};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=92 uM for reduced 2-hydroxyphenazine
+CC         {ECO:0000269|PubMed:11034998};
+CC         KM=144 uM for CoM-S-S-CoB {ECO:0000269|PubMed:11034998};
+CC         Note=kcat is 74 sec(-1) at 25 degrees Celsius.
+CC         {ECO:0000269|PubMed:11034998};
+CC   -!- PATHWAY: Cofactor metabolism; coenzyme M-coenzyme B heterodisulfide
+CC       reduction; coenzyme B and coenzyme M from coenzyme M-coenzyme B
+CC       heterodisulfide: step 1/1. {ECO:0000305|PubMed:11034998}.
+CC   -!- SUBUNIT: The dihydromethanophenazine:CoB--CoM heterodisulfide reductase
+CC       is composed of two subunits; HdrD and HdrE.
+CC       {ECO:0000269|PubMed:9665708}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- MISCELLANEOUS: Methanophenazine seems to mediate electron transfer from
+CC       F(420)H(2) dehydrogenase to the dihydromethanophenazine:CoB--CoM
+CC       heterodisulfide reductase. {ECO:0000305|PubMed:9654152}.
+CC   -!- SIMILARITY: Belongs to the HdrE family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AKB14001.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP009501; AKB14001.1; ALT_INIT; Genomic_DNA.
+DR   EnsemblBacteria; AKB14001; AKB14001; MSTHT_2243.
+DR   KEGG; mthr:MSTHT_2243; -.
+DR   PATRIC; fig|523844.20.peg.2747; -.
+DR   HOGENOM; CLU_1072042_0_0_2; -.
+DR   UniPathway; UPA00647; UER00700.
+DR   Proteomes; UP000066529; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051912; F:CoB--CoM heterodisulfide reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015948; P:methanogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR023234; NarG-like_domain.
+DR   InterPro; IPR036197; NarG-like_sf.
+DR   Pfam; PF02665; Nitrate_red_gam; 1.
+DR   SUPFAM; SSF103501; SSF103501; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Direct protein sequencing; Heme; Iron; Membrane;
+KW   Metal-binding; Methanogenesis; Oxidoreductase; Transmembrane;
+KW   Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:9665708"
+FT   CHAIN           2..264
+FT                   /note="Dihydromethanophenazine:CoB--CoM heterodisulfide
+FT                   reductase subunit E"
+FT                   /id="PRO_0000443857"
+FT   TRANSMEM        19..39
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        109..129
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        152..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        185..205
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        222..242
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   264 AA;  29753 MW;  1055ED85E35809FD CRC64;
+     MSEEMVYFSG LSDALRITFV QMMILSAIAI VIFLYGMIIT LQKWGSGATG YALEPQEGKR
+     GSAITFLKTW WKQVTEKSPH GHGKPILEIL ILDILFQRRI LKRSGLRWVM HILIFAGWMT
+     LFALSGLMFS VELTHMIGIE LPFTPHMFRE WLSIPNYIFG YILLIGVLIA IVRRLFVSEV
+     REASIMYDWV LIGVVFLVTI SGFLADGIRT GLIWDFGLDP SLAPPAALFH SVISLLFCIA
+     FIPYSKYIHI IAIPLALLAN KGGE
+//

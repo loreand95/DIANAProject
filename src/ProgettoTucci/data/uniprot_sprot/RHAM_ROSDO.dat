@@ -1,0 +1,86 @@
+ID   RHAM_ROSDO              Reviewed;         105 AA.
+AC   Q164K6;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2006, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=L-rhamnose mutarotase {ECO:0000255|HAMAP-Rule:MF_01663};
+DE            EC=5.1.3.32 {ECO:0000255|HAMAP-Rule:MF_01663};
+DE   AltName: Full=Rhamnose 1-epimerase {ECO:0000255|HAMAP-Rule:MF_01663};
+DE   AltName: Full=Type-3 mutarotase {ECO:0000255|HAMAP-Rule:MF_01663};
+GN   Name=rhaM {ECO:0000255|HAMAP-Rule:MF_01663}; OrderedLocusNames=RD1_3076;
+OS   Roseobacter denitrificans (strain ATCC 33942 / OCh 114) (Erythrobacter sp.
+OS   (strain OCh 114)) (Roseobacter denitrificans).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Roseobacter.
+OX   NCBI_TaxID=375451;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33942 / OCh 114;
+RX   PubMed=17098896; DOI=10.1128/jb.01390-06;
+RA   Swingley W.D., Sadekar S., Mastrian S.D., Matthies H.J., Hao J., Ramos H.,
+RA   Acharya C.R., Conrad A.L., Taylor H.L., Dejesa L.C., Shah M.K.,
+RA   O'Huallachain M.E., Lince M.T., Blankenship R.E., Beatty J.T.,
+RA   Touchman J.W.;
+RT   "The complete genome sequence of Roseobacter denitrificans reveals a
+RT   mixotrophic rather than photosynthetic metabolism.";
+RL   J. Bacteriol. 189:683-690(2007).
+CC   -!- FUNCTION: Involved in the anomeric conversion of L-rhamnose.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-L-rhamnose = beta-L-rhamnose; Xref=Rhea:RHEA:25584,
+CC         ChEBI:CHEBI:27586, ChEBI:CHEBI:27907; EC=5.1.3.32;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01663};
+CC   -!- PATHWAY: Carbohydrate metabolism; L-rhamnose metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   -!- SIMILARITY: Belongs to the rhamnose mutarotase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01663}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000362; ABG32587.1; -; Genomic_DNA.
+DR   RefSeq; WP_011569203.1; NC_008209.1.
+DR   SMR; Q164K6; -.
+DR   STRING; 375451.RD1_3076; -.
+DR   EnsemblBacteria; ABG32587; ABG32587; RD1_3076.
+DR   KEGG; rde:RD1_3076; -.
+DR   eggNOG; COG3254; Bacteria.
+DR   HOGENOM; CLU_100689_2_0_5; -.
+DR   OMA; KRHDEIW; -.
+DR   OrthoDB; 1694303at2; -.
+DR   BioCyc; RDEN375451:G1G6J-2843-MONOMER; -.
+DR   UniPathway; UPA00125; -.
+DR   Proteomes; UP000007029; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0062192; F:L-rhamnose mutarotase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01663; L_rham_rotase; 1.
+DR   InterPro; IPR011008; Dimeric_a/b-barrel.
+DR   InterPro; IPR013448; L-rhamnose_mutarotase.
+DR   InterPro; IPR008000; Rham/fucose_mutarotase.
+DR   Pfam; PF05336; rhaM; 1.
+DR   SUPFAM; SSF54909; SSF54909; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cytoplasm; Isomerase; Reference proteome;
+KW   Rhamnose metabolism.
+FT   CHAIN           1..105
+FT                   /note="L-rhamnose mutarotase"
+FT                   /id="PRO_0000344597"
+FT   REGION          77..78
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   ACT_SITE        23
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   BINDING         19
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+FT   BINDING         42
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01663"
+SQ   SEQUENCE   105 AA;  12187 MW;  C9AA91610D3520FD CRC64;
+     MSERYVFRMR LNPGKQAEYQ RRHDEIWPEL VDLLRAAKIS DYSIHLDPDT HVLIGVLIRP
+     QDHGMAALPD HPIMRKWWAH MADIMETGPD DAPIAVPLTP VFHMP
+//

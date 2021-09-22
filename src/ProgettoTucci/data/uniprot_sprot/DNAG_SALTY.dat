@@ -1,0 +1,140 @@
+ID   DNAG_SALTY              Reviewed;         581 AA.
+AC   P07362;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1988, sequence version 1.
+DT   07-APR-2021, entry version 140.
+DE   RecName: Full=DNA primase {ECO:0000255|HAMAP-Rule:MF_00974};
+DE            EC=2.7.7.101 {ECO:0000255|HAMAP-Rule:MF_00974};
+GN   Name=dnaG {ECO:0000255|HAMAP-Rule:MF_00974}; OrderedLocusNames=STM3210;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3005129; DOI=10.1016/0378-1119(85)90025-3;
+RA   Erickson B.D., Burton Z.F., Watanabe K.K., Burgess R.R.;
+RT   "Nucleotide sequence of the rpsU-dnaG-rpoD operon from Salmonella
+RT   typhimurium and a comparison of this sequence with the homologous operon of
+RT   Escherichia coli.";
+RL   Gene 40:67-78(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: RNA polymerase that catalyzes the synthesis of short RNA
+CC       molecules used as primers for DNA polymerase during DNA replication.
+CC       {ECO:0000255|HAMAP-Rule:MF_00974}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=SsDNA + n NTP = ssDNA/pppN(pN)(n-1) hybrid + (n-1)
+CC         diphosphate.; EC=2.7.7.101; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00974};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00974};
+CC       Note=Binds 1 zinc ion per monomer. {ECO:0000255|HAMAP-Rule:MF_00974};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00974};
+CC       Note=Binds two Mg(2+) per subunit. {ECO:0000255|HAMAP-Rule:MF_00974};
+CC   -!- SUBUNIT: Monomer. Interacts with DnaB. {ECO:0000255|HAMAP-
+CC       Rule:MF_00974}.
+CC   -!- DOMAIN: Contains an N-terminal zinc-binding domain, a central core
+CC       domain that contains the primase activity, and a C-terminal DnaB-
+CC       binding domain. {ECO:0000255|HAMAP-Rule:MF_00974}.
+CC   -!- SIMILARITY: Belongs to the DnaG primase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00974}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M14427; AAA27241.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL22084.1; -; Genomic_DNA.
+DR   PIR; B23985; RYEBT.
+DR   RefSeq; NP_462125.1; NC_003197.2.
+DR   RefSeq; WP_000918865.1; NC_003197.2.
+DR   SMR; P07362; -.
+DR   PaxDb; P07362; -.
+DR   EnsemblBacteria; AAL22084; AAL22084; STM3210.
+DR   GeneID; 1254733; -.
+DR   KEGG; stm:STM3210; -.
+DR   PATRIC; fig|99287.12.peg.3406; -.
+DR   HOGENOM; CLU_013501_5_1_6; -.
+DR   OMA; RIMFPIY; -.
+DR   PhylomeDB; P07362; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:1990077; C:primosome complex; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003896; F:DNA primase activity; IBA:GO_Central.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006269; P:DNA replication, synthesis of RNA primer; IBA:GO_Central.
+DR   CDD; cd03364; TOPRIM_DnaG_primases; 1.
+DR   Gene3D; 1.10.860.10; -; 1.
+DR   Gene3D; 3.90.580.10; -; 1.
+DR   Gene3D; 3.90.980.10; -; 1.
+DR   HAMAP; MF_00974; DNA_primase_DnaG; 1.
+DR   InterPro; IPR016136; DNA_helicase_N/primase_C.
+DR   InterPro; IPR013264; DNA_primase_core_N.
+DR   InterPro; IPR037068; DNA_primase_core_N_sf.
+DR   InterPro; IPR019475; DNA_primase_DnaB-bd.
+DR   InterPro; IPR006295; DNA_primase_DnaG.
+DR   InterPro; IPR013173; DNA_primase_DnaG_DnaB-bd_dom.
+DR   InterPro; IPR036977; DNA_primase_Znf_CHC2.
+DR   InterPro; IPR030846; DnaG_bac.
+DR   InterPro; IPR034151; TOPRIM_DnaG_bac.
+DR   InterPro; IPR006171; TOPRIM_domain.
+DR   InterPro; IPR002694; Znf_CHC2.
+DR   Pfam; PF10410; DnaB_bind; 1.
+DR   Pfam; PF08278; DnaG_DnaB_bind; 1.
+DR   Pfam; PF08275; Toprim_N; 1.
+DR   Pfam; PF01807; zf-CHC2; 1.
+DR   SMART; SM00766; DnaG_DnaB_bind; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SMART; SM00400; ZnF_CHCC; 1.
+DR   TIGRFAMs; TIGR01391; dnaG; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   DNA replication; DNA-binding; DNA-directed RNA polymerase; Magnesium;
+KW   Metal-binding; Nucleotidyltransferase; Primosome; Reference proteome;
+KW   Transcription; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..581
+FT                   /note="DNA primase"
+FT                   /id="PRO_0000180516"
+FT   DOMAIN          259..341
+FT                   /note="Toprim"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+FT   ZN_FING         40..64
+FT                   /note="CHC2-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+FT   METAL           265
+FT                   /note="Magnesium 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+FT   METAL           309
+FT                   /note="Magnesium 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+FT   METAL           309
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+FT   METAL           311
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00974"
+SQ   SEQUENCE   581 AA;  65363 MW;  011B6E10AA55632F CRC64;
+     MAGRIPRVFI NDLLARTDIV DLIDVRVKLK KQGKNYHACC PFHNEKTPSF TVNGEKQFYH
+     CFGCGAHGNA IDFLMNYDKL EFVETVEELA AMHNLEIPYE AGTGLSQIER HQRQNLYQLM
+     NGLNDFYQQS LTHPAAKPAR DYLQKRGLSA EIIQRFAIGF APPGWDNALK RFGNNSDNKA
+     LLLDAGMLVN NEQGSTYDRF RNRVMFPIRD KRGRVIGFGG RVLGNDTPKY LNSPETDIFH
+     KGRQLYGLYE AQQYSAEPQR LLVVEGYMDV VALAQYDINY AVASLGTSTT ADHMHMLFRA
+     TNNVICCYDG DRAGRDAAWR ALETAMPYMT DGRQVRFMFL PDGEDPDTLV RKEGKAAFEA
+     RMEQAQPLST FLFNSLLPQV DLSSPDGSTQ LAALALPLIN QVPGDAHRIQ LRQTLGLKLG
+     IFDDSQLDRL VPKQAESGVS RPAPQLKRTT MRILIGLLVQ NPDLAPLVPP LDALDQNKLP
+     GLGLFKELVK TCLAQPGLTT GQLLELYRGT NDAATLEKLS MWDDIADKAI AEKTFTDSLN
+     HMFDSLLQLR QEELIARDRT HGLSSEERRE LWTLNQELAR K
+//

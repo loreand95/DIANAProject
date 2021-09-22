@@ -1,0 +1,93 @@
+ID   RNH_FRAT1               Reviewed;         152 AA.
+AC   Q14IN1;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 2.
+DT   07-APR-2021, entry version 76.
+DE   RecName: Full=Ribonuclease H {ECO:0000255|HAMAP-Rule:MF_00042};
+DE            Short=RNase H {ECO:0000255|HAMAP-Rule:MF_00042};
+DE            EC=3.1.26.4 {ECO:0000255|HAMAP-Rule:MF_00042};
+GN   Name=rnhA {ECO:0000255|HAMAP-Rule:MF_00042}; OrderedLocusNames=FTF0590;
+OS   Francisella tularensis subsp. tularensis (strain FSC 198).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=393115;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=FSC 198;
+RX   PubMed=17406676; DOI=10.1371/journal.pone.0000352;
+RA   Chaudhuri R.R., Ren C.-P., Desmond L., Vincent G.A., Silman N.J.,
+RA   Brehm J.K., Elmore M.J., Hudson M.J., Forsman M., Isherwood K.E.,
+RA   Gurycova D., Minton N.P., Titball R.W., Pallen M.J., Vipond R.;
+RT   "Genome sequencing shows that European isolates of Francisella tularensis
+RT   subspecies tularensis are almost identical to US laboratory strain Schu
+RT   S4.";
+RL   PLoS ONE 2:E352-E352(2007).
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00042};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00042};
+CC       Note=Binds 1 Mg(2+) ion per subunit. May bind a second metal ion at a
+CC       regulatory site, or after substrate binding. {ECO:0000255|HAMAP-
+CC       Rule:MF_00042};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00042}.
+CC   -!- SIMILARITY: Belongs to the RNase H family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00042}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAL08606.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286280; CAL08606.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_003015471.1; NC_008245.1.
+DR   SMR; Q14IN1; -.
+DR   KEGG; ftf:FTF0590; -.
+DR   HOGENOM; CLU_030894_6_0_6; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006401; P:RNA catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd09278; RNase_HI_prokaryote_like; 1.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00042; RNase_H; 1.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR002156; RNaseH_domain.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   InterPro; IPR022892; RNaseHI.
+DR   Pfam; PF00075; RNase_H; 1.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   PROSITE; PS50879; RNASE_H; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Magnesium; Metal-binding; Nuclease.
+FT   CHAIN           1..152
+FT                   /note="Ribonuclease H"
+FT                   /id="PRO_0000332602"
+FT   DOMAIN          6..147
+FT                   /note="RNase H"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   METAL           15
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   METAL           15
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   METAL           53
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   METAL           75
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+FT   METAL           139
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00042"
+SQ   SEQUENCE   152 AA;  16976 MW;  227BC97A79CCFD80 CRC64;
+     MEIFKKKNRV IAYTDGACKG NPGIGGWGAI LSYNGVDKEI YGSEKDTTNN RMELMAAIKT
+     LQALKRKCDI TIYTDSKYLQ NGINEWLANW KANGWKTAAK KEVKNKDLWQ ELDSLTNKHN
+     VTWGWVKGHS GNAGNEKADE LANKAIAELI GK
+//

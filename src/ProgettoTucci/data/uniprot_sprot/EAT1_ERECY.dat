@@ -1,0 +1,109 @@
+ID   EAT1_ERECY              Reviewed;         358 AA.
+AC   G8JVR4;
+DT   16-JAN-2019, integrated into UniProtKB/Swiss-Prot.
+DT   25-JAN-2012, sequence version 1.
+DT   02-DEC-2020, entry version 37.
+DE   RecName: Full=Ethanol acetyltransferase 1;
+DE            EC=2.3.1.268;
+DE   AltName: Full=Acetyl-CoA hydrolase;
+DE            EC=3.1.2.1;
+DE   AltName: Full=Acetyl-CoA thioesterase;
+DE   AltName: Full=Alcohol acetyltransferase;
+DE            Short=AAT;
+DE   AltName: Full=Ethyl acetate esterase;
+DE            EC=3.1.1.-;
+GN   Name=EAT1; OrderedLocusNames=Ecym_7076;
+OS   Eremothecium cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 /
+OS   NRRL Y-17582) (Yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Eremothecium.
+OX   NCBI_TaxID=931890;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL Y-17582;
+RX   PubMed=22384365; DOI=10.1534/g3.111.001032;
+RA   Wendland J., Walther A.;
+RT   "Genome evolution in the Eremothecium clade of the Saccharomyces complex
+RT   revealed by comparative genomics.";
+RL   G3 (Bethesda) 1:539-548(2011).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL Y-17582;
+RX   PubMed=28356220; DOI=10.1016/j.ymben.2017.03.004;
+RA   Kruis A.J., Levisson M., Mars A.E., van der Ploeg M., Garces Daza F.,
+RA   Ellena V., Kengen S.W.M., van der Oost J., Weusthuis R.A.;
+RT   "Ethyl acetate production by the elusive alcohol acetyltransferase from
+RT   yeast.";
+RL   Metab. Eng. 41:92-101(2017).
+CC   -!- FUNCTION: Alcohol acetyltransferase that catalyzes the synthesis of
+CC       ethyl acetate from ethanol and acetyl-CoA (PubMed:28356220). Can also
+CC       function as a thioesterase by hydrolyzing acetyl-CoA in the absence of
+CC       ethanol, as well as esterase hydrolyzing ethyl acetate (By similarity).
+CC       {ECO:0000250|UniProtKB:A0A1E3P8S6, ECO:0000269|PubMed:28356220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + ethanol = CoA + ethyl acetate;
+CC         Xref=Rhea:RHEA:55972, ChEBI:CHEBI:16236, ChEBI:CHEBI:27750,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.1.268;
+CC         Evidence={ECO:0000269|PubMed:28356220};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + H2O = acetate + CoA + H(+); Xref=Rhea:RHEA:20289,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30089,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=3.1.2.1;
+CC         Evidence={ECO:0000250|UniProtKB:A0A1E3P8S6};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ethyl acetate + H2O = acetate + ethanol + H(+);
+CC         Xref=Rhea:RHEA:58148, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16236, ChEBI:CHEBI:27750, ChEBI:CHEBI:30089;
+CC         Evidence={ECO:0000250|UniProtKB:A0A1E3P8S6};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:A0A1E3P8S6}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002503; AET40929.1; -; Genomic_DNA.
+DR   RefSeq; XP_003647746.1; XM_003647698.1.
+DR   STRING; 45285.XP_003647746.1; -.
+DR   ESTHER; erecy-g8jvr4; ABHD11-Acetyl_transferase.
+DR   EnsemblFungi; AET40929; AET40929; Ecym_7076.
+DR   GeneID; 11469347; -.
+DR   KEGG; erc:Ecym_7076; -.
+DR   eggNOG; KOG2382; Eukaryota.
+DR   HOGENOM; CLU_020336_53_0_1; -.
+DR   InParanoid; G8JVR4; -.
+DR   OrthoDB; 1268438at2759; -.
+DR   Proteomes; UP000006790; Chromosome 7.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003986; F:acetyl-CoA hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000073; AB_hydrolase_1.
+DR   Pfam; PF00561; Abhydrolase_1; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+PE   1: Evidence at protein level;
+KW   Hydrolase; Mitochondrion; Reference proteome; Transferase.
+FT   CHAIN           1..358
+FT                   /note="Ethanol acetyltransferase 1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000446177"
+FT   DOMAIN          59..166
+FT                   /note="AB hydrolase-1"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        132
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A1E3P8S6"
+FT   ACT_SITE        156
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A1E3P8S6"
+FT   ACT_SITE        305
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A1E3P8S6"
+SQ   SEQUENCE   358 AA;  40864 MW;  3E35975A7B9CADAF CRC64;
+     MKMLQGVRAF QKLKKSCAYS TAAKELKPLP VKETVNMAYD LHLPERSVIG KMPYHSPEPI
+     VFIHGLFGWK RFYRNDCKTL ATALQTPVYA VDMRNHGDTE HAMPFDYNTL MDDLVLLLRK
+     LDIKKVNLIG YSMGGKMSML TALNYPELVS SACIIDNAPI NQPHISPFLK VFSKSCQHVE
+     NMKIRATDKE WRSKVAVGLK RYIPNPGIRS YLLQNVSGTP PKKYRSPVID WNDGNVHFVN
+     PVNHLFQCVV KDASAWPVEQ VAGKQFLGPV NFIRGTKSEF VNADGEKAIA EYFPYHKIQS
+     INTTHNVLHE RPQEYLRSVI DFFKTTRYVL ERKRDSERVT MIAKPKPLTS SQNAAEYS
+//

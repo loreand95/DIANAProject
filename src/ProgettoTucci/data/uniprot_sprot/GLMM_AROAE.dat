@@ -1,0 +1,107 @@
+ID   GLMM_AROAE              Reviewed;         450 AA.
+AC   Q5P1F7;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   04-JAN-2005, sequence version 1.
+DT   02-DEC-2020, entry version 90.
+DE   RecName: Full=Phosphoglucosamine mutase {ECO:0000255|HAMAP-Rule:MF_01554};
+DE            EC=5.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01554};
+GN   Name=glmM {ECO:0000255|HAMAP-Rule:MF_01554}; OrderedLocusNames=AZOSEA27320;
+GN   ORFNames=ebA4825;
+OS   Aromatoleum aromaticum (strain EbN1) (Azoarcus sp. (strain EbN1)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales;
+OC   Rhodocyclaceae; Aromatoleum.
+OX   NCBI_TaxID=76114;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=EbN1;
+RX   PubMed=15551059; DOI=10.1007/s00203-004-0742-9;
+RA   Rabus R., Kube M., Heider J., Beck A., Heitmann K., Widdel F.,
+RA   Reinhardt R.;
+RT   "The genome sequence of an anaerobic aromatic-degrading denitrifying
+RT   bacterium, strain EbN1.";
+RL   Arch. Microbiol. 183:27-36(2005).
+CC   -!- FUNCTION: Catalyzes the conversion of glucosamine-6-phosphate to
+CC       glucosamine-1-phosphate. {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 1-phosphate = D-glucosamine 6-phosphate;
+CC         Xref=Rhea:RHEA:23424, ChEBI:CHEBI:58516, ChEBI:CHEBI:58725;
+CC         EC=5.4.2.10; Evidence={ECO:0000255|HAMAP-Rule:MF_01554};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01554};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01554};
+CC   -!- PTM: Activated by phosphorylation. {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   -!- SIMILARITY: Belongs to the phosphohexose mutase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR555306; CAI08857.1; -; Genomic_DNA.
+DR   RefSeq; WP_011238540.1; NC_006513.1.
+DR   SMR; Q5P1F7; -.
+DR   STRING; 76114.ebA4825; -.
+DR   EnsemblBacteria; CAI08857; CAI08857; ebA4825.
+DR   KEGG; eba:ebA4825; -.
+DR   eggNOG; COG1109; Bacteria.
+DR   HOGENOM; CLU_016950_7_0_4; -.
+DR   OMA; MFGEEYT; -.
+DR   OrthoDB; 1265792at2; -.
+DR   BioCyc; AARO76114:EB_RS13420-MONOMER; -.
+DR   Proteomes; UP000006552; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008966; F:phosphoglucosamine mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd05802; GlmM; 1.
+DR   HAMAP; MF_01554_B; GlmM_B; 1.
+DR   InterPro; IPR005844; A-D-PHexomutase_a/b/a-I.
+DR   InterPro; IPR016055; A-D-PHexomutase_a/b/a-I/II/III.
+DR   InterPro; IPR005845; A-D-PHexomutase_a/b/a-II.
+DR   InterPro; IPR005846; A-D-PHexomutase_a/b/a-III.
+DR   InterPro; IPR005843; A-D-PHexomutase_C.
+DR   InterPro; IPR036900; A-D-PHexomutase_C_sf.
+DR   InterPro; IPR016066; A-D-PHexomutase_CS.
+DR   InterPro; IPR005841; Alpha-D-phosphohexomutase_SF.
+DR   InterPro; IPR006352; GlmM_bact.
+DR   Pfam; PF02878; PGM_PMM_I; 1.
+DR   Pfam; PF02879; PGM_PMM_II; 1.
+DR   Pfam; PF02880; PGM_PMM_III; 1.
+DR   Pfam; PF00408; PGM_PMM_IV; 1.
+DR   PRINTS; PR00509; PGMPMM.
+DR   SUPFAM; SSF53738; SSF53738; 3.
+DR   SUPFAM; SSF55957; SSF55957; 1.
+DR   TIGRFAMs; TIGR01455; glmM; 1.
+DR   PROSITE; PS00710; PGM_PMM; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Magnesium; Metal-binding; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..450
+FT                   /note="Phosphoglucosamine mutase"
+FT                   /id="PRO_0000147838"
+FT   ACT_SITE        107
+FT                   /note="Phosphoserine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           107
+FT                   /note="Magnesium; via phosphate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           246
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           248
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           250
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   MOD_RES         107
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+SQ   SEQUENCE   450 AA;  48302 MW;  74C2799C1E78491E CRC64;
+     MGRKYFGTDG VRGRVGDSTI TPEFVMRLGY AAGVTLVGRE QLPPGERPAI LIGKDTRISG
+     YMLEAALEAG FAAAGVDVML AGPVPTPAVA YLTRALRLQA GVVISASHNP YDDNGIKFFS
+     ANGTKLPDAL EEEIEFRVDQ PMVCAEASRL GKARRIVDAA GRYVEFCKSA FPNEFDLRGY
+     RIVLDCAHGA AYHIGPSVFH ELGAEVIPLG VEPNGLNIND QVGATHPQTL RSAVLANKAD
+     FGIALDGDGD RVVMVDGDGE LYDGDKLLYV IAASRQAEGR LEGVVGTLMS NLGLERAIGR
+     LGLAFARAKV GDRYVLETMH ERGWRLGGEN SGHIICLDRH TTGDGIVSAL QVIAALIKGQ
+     CTLATACADL VFYPQKLINV PLAAGFDWRS DERIDQARSD AELELGEQGR VLLRPSGTEP
+     LLRVMVEGKD GSQVERLARH IADCVRHASV
+//

@@ -1,0 +1,101 @@
+ID   UVRC_ECOL6              Reviewed;         610 AA.
+AC   P0A8G1; P07028; P76311; Q8XBD5;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=UvrABC system protein C;
+DE            Short=Protein UvrC;
+DE   AltName: Full=Excinuclease ABC subunit C;
+GN   Name=uvrC; OrderedLocusNames=c2326;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P., Rasko D.,
+RA   Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D., Mayhew G.F.,
+RA   Rose D.J., Zhou S., Schwartz D.C., Perna N.T., Mobley H.L.T.,
+RA   Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence of
+RT   uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides of the
+CC       lesion. The N-terminal half is responsible for the 3' incision and the
+CC       C-terminal half is responsible for the 5' incision (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014075; AAN80785.1; -; Genomic_DNA.
+DR   RefSeq; WP_001283421.1; NC_004431.1.
+DR   SMR; P0A8G1; -.
+DR   STRING; 199310.c2326; -.
+DR   EnsemblBacteria; AAN80785; AAN80785; c2326.
+DR   GeneID; 57731310; -.
+DR   KEGG; ecc:c2326; -.
+DR   eggNOG; COG0322; Bacteria.
+DR   HOGENOM; CLU_014841_3_0_6; -.
+DR   OMA; LFPIRQC; -.
+DR   BioCyc; ECOL199310:C2326-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.420.340; -; 1.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR000305; GIY-YIG_endonuc.
+DR   InterPro; IPR035901; GIY-YIG_endonuc_sf.
+DR   InterPro; IPR003583; Hlx-hairpin-Hlx_DNA-bd_motif.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR036876; UVR_dom_sf.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   InterPro; IPR038476; UvrC_homol_region_sf.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SMART; SM00278; HhH1; 2.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA excision; DNA repair; Excision nuclease;
+KW   SOS response.
+FT   CHAIN           1..610
+FT                   /note="UvrABC system protein C"
+FT                   /id="PRO_0000138302"
+FT   DOMAIN          16..94
+FT                   /note="GIY-YIG"
+FT   DOMAIN          204..239
+FT                   /note="UVR"
+SQ   SEQUENCE   610 AA;  68188 MW;  F76766477C9ABCB6 CRC64;
+     MSDQFDAKAF LKTVTSQPGV YRMYDAGGTV IYVGKAKDLK KRLSSYFRSN LASRKTEALV
+     AQIQQIDVTV THTETEALLL EHNYIKLYQP RYNVLLRDDK SYPFIFLSGD THPRLAMHRG
+     AKHAKGEYFG PFPNGYAVRE TLALLQKIFP IRQCENSVYR NRSRPCLQYQ IGRCLGPCVE
+     GLVSEEEYAQ QVEYVRLFLS GKDDQVLTQL ISRMETASQN LEFEEAARIR DQIQAVRRVT
+     EKQFVSNTGD DLDVIGVAFD AGMACVHVLF IRQGKVLGSR SYFPKVPGGT ELSEVVETFV
+     GQFYLQGSQM RTLPGEILLD FNLSDKTLLA DSLSELAGRK INVQTKPRGD RARYLKLART
+     NAATALTSKL SQQSTVHQRL TALASVLKLP EVKRMECFDI SHTMGEQTVA SCVVFDANGP
+     LRAEYRRYNI TGITPGDDYA AMNQVLRRRY GKAIDDSKIP DVILIDGGKG QLAQAKNVFA
+     ELDVSWDKNH PLLLGVAKGA DRKAGLETLF FEPEGEGFSL PPDSPALHVI QHIRDESHDH
+     AIGGHRKKRA KVKNTSSLET IEGVGPKRRQ MLLKYMGGLQ GLRNASVEEI AKVPGISQGL
+     AEKIFWSLKH
+//

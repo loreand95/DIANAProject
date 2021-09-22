@@ -1,0 +1,121 @@
+ID   ACES_RABIT              Reviewed;         584 AA.
+AC   Q29499;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-OCT-2020, entry version 86.
+DE   RecName: Full=Acetylcholinesterase;
+DE            Short=AChE;
+DE            EC=3.1.1.7;
+DE   Flags: Precursor; Fragment;
+GN   Name=ACHE;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Muscle;
+RX   PubMed=7925428; DOI=10.1111/j.1432-1033.1994.00115.x;
+RA   Jbilo O., L'Hermite Y., Talesa V., Toutant J.-P., Chatonnet A.;
+RT   "Acetylcholinesterase and butyrylcholinesterase expression in adult rabbit
+RT   tissues and during development.";
+RL   Eur. J. Biochem. 225:115-124(1994).
+CC   -!- FUNCTION: Terminates signal transduction at the neuromuscular junction
+CC       by rapid hydrolysis of the acetylcholine released into the synaptic
+CC       cleft.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetylcholine + H2O = acetate + choline + H(+);
+CC         Xref=Rhea:RHEA:17561, ChEBI:CHEBI:15354, ChEBI:CHEBI:15355,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30089; EC=3.1.1.7;
+CC   -!- SUBUNIT: Homotetramer; composed of disulfide-linked homodimers.
+CC       Interacts with PRIMA1. The interaction with PRIMA1 is required to
+CC       anchor it to the basal lamina of cells and organize into tetramers (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell junction, synapse. Secreted. Cell membrane
+CC       {ECO:0000250}; Peripheral membrane protein {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Synapses usually contain asymmetric molecules of
+CC       cholinesterase, with a collagen-like part disulfide-bonded to the
+CC       catalytic part. A different, globular type of cholinesterase occurs on
+CC       the outer surfaces of cell membranes, including those of erythrocytes.
+CC   -!- MISCELLANEOUS: This is the catalytic subunit of an asymmetric or
+CC       soluble form of ACHE.
+CC   -!- SIMILARITY: Belongs to the type-B carboxylesterase/lipase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U05036; AAA53235.1; -; mRNA.
+DR   PIR; S48724; S48724.
+DR   SMR; Q29499; -.
+DR   ESTHER; rabit-ACHE; AChE.
+DR   MEROPS; S09.979; -.
+DR   InParanoid; Q29499; -.
+DR   Proteomes; UP000001811; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045202; C:synapse; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003990; F:acetylcholinesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0042135; P:neurotransmitter catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR014788; AChE_tetra.
+DR   InterPro; IPR002018; CarbesteraseB.
+DR   InterPro; IPR019826; Carboxylesterase_B_AS.
+DR   InterPro; IPR019819; Carboxylesterase_B_CS.
+DR   InterPro; IPR000997; Cholinesterase.
+DR   Pfam; PF08674; AChE_tetra; 1.
+DR   Pfam; PF00135; COesterase; 1.
+DR   PRINTS; PR00878; CHOLNESTRASE.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   PROSITE; PS00122; CARBOXYLESTERASE_B_1; 1.
+DR   PROSITE; PS00941; CARBOXYLESTERASE_B_2; 1.
+PE   2: Evidence at transcript level;
+KW   Cell junction; Cell membrane; Disulfide bond; Glycoprotein; Hydrolase;
+KW   Membrane; Neurotransmitter degradation; Reference proteome; Secreted;
+KW   Serine esterase; Signal; Synapse.
+FT   SIGNAL          <1..1
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           2..584
+FT                   /note="Acetylcholinesterase"
+FT                   /id="PRO_0000008589"
+FT   ACT_SITE        204
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10039"
+FT   ACT_SITE        335
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        448
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        266
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        351
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        465
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        70..97
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        258..273
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        410..530
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        581
+FT                   /note="Interchain"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   584 AA;  64630 MW;  2AE157F3063649FE CRC64;
+     AEGREDPELL VTVRGGRLRG LRLKAPGGPV SAFLGIPFEE PPVGPRRFLP PEPKRPWAGV
+     LDATAFQSVC YQYVDTLYPG FEGTEMWNPN RELSEDCLYL NVWTPYPRPT SPTPVLVWIY
+     GGGFYSGASS LDVYYGRFLV QAEGTVLVAM NYRVGAFGFT CLPGSREAPG NVGLLDQRLA
+     LQWVQENVAA FGGDPASVTL FGESAGAASV GLHLLSPPSR GLFHRAVLQS GAPNGPWATV
+     GVGEARRRAT LLARLVVCPP GGAGGNDTEL VACLRTRPAQ DLVDHEWRVL PQESIFRFSF
+     VPVVDGDFLS DTPEALINAG DFQGLQVLVG VVKDEGTYFL VYGAPGFSKD NESFISRAQF
+     LAGVRVGVPQ ASDLAAEAVV LHYTDWLHPE DPARLRDALS DVVGDHNVVC PVAQLAGRLA
+     AQGARVYAYV FEHRASTLSW PLWMGVPHGY EIEFIFGLPL EPSLNYTEEE RIFAQRLMRY
+     WANFARTGDP NEPRDAKAPQ WPPYTAGAQQ YVSLNLRPLE VRRGLRAQAC AFWNRFLPKL
+     LSATDTLDEA ERQWKAEFHR WSSYMVHWKN QFDHYSKQDR CSDL
+//

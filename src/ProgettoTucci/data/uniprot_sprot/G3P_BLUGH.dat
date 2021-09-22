@@ -1,0 +1,107 @@
+ID   G3P_BLUGH               Reviewed;         338 AA.
+AC   Q00640;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   11-DEC-2019, entry version 95.
+DE   RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase;
+DE            Short=GAPDH;
+DE            EC=1.2.1.12;
+GN   Name=GPD;
+OS   Blumeria graminis f. sp. hordei (Barley powdery mildew) (Oidium monilioides
+OS   f. sp. hordei).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Leotiomycetes;
+OC   Erysiphales; Erysiphaceae; Blumeria.
+OX   NCBI_TaxID=62688;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Race I;
+RX   PubMed=9211797; DOI=10.1007/s002940050240;
+RA   Christiansen S.K., Justesen A.F., Giese H.;
+RT   "Disparate sequence characteristics of the Erysiphe graminis f.sp. hordei
+RT   glyceraldehyde-3-phosphate dehydrogenase gene.";
+RL   Curr. Genet. 31:525-529(1997).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + NAD(+) + phosphate = (2R)-3-
+CC         phospho-glyceroyl phosphate + H(+) + NADH; Xref=Rhea:RHEA:10300,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:57945, ChEBI:CHEBI:59776; EC=1.2.1.12;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10009};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 1/5.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the glyceraldehyde-3-phosphate dehydrogenase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X99732; CAA68068.1; -; Genomic_DNA.
+DR   SMR; Q00640; -.
+DR   PRIDE; Q00640; -.
+DR   EnsemblFungi; BLGH_00691-mRNA-1; BLGH_00691-mRNA-1; BLGH_00691.
+DR   UniPathway; UPA00109; UER00184.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004365; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR020831; GlycerAld/Erythrose_P_DH.
+DR   InterPro; IPR020830; GlycerAld_3-P_DH_AS.
+DR   InterPro; IPR020829; GlycerAld_3-P_DH_cat.
+DR   InterPro; IPR020828; GlycerAld_3-P_DH_NAD(P)-bd.
+DR   InterPro; IPR006424; Glyceraldehyde-3-P_DH_1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR10836; PTHR10836; 1.
+DR   Pfam; PF02800; Gp_dh_C; 1.
+DR   Pfam; PF00044; Gp_dh_N; 1.
+DR   PIRSF; PIRSF000149; GAP_DH; 1.
+DR   PRINTS; PR00078; G3PDHDRGNASE.
+DR   SMART; SM00846; Gp_dh_N; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR01534; GAPDH-I; 1.
+DR   PROSITE; PS00071; GAPDH; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Glycolysis; NAD; Oxidoreductase.
+FT   CHAIN           1..338
+FT                   /note="Glyceraldehyde-3-phosphate dehydrogenase"
+FT                   /id="PRO_0000145555"
+FT   NP_BIND         13..14
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   REGION          151..153
+FT                   /note="Glyceraldehyde 3-phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          211..212
+FT                   /note="Glyceraldehyde 3-phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        152
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10009"
+FT   BINDING         35
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         80
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         182
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         234
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         316
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   SITE            179
+FT                   /note="Activates thiol group during catalysis"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   338 AA;  36542 MW;  69D5307B60BBD63D CRC64;
+     MAPIKVGING FGRIGRIVFR NAAQSCEVEV VAVNDPFIEP EYAAYMLKYD STHGQFNGDI
+     QTVEDGLVVN SRNVKFYNKR NPEEIPWAET GAEYIVESTG VFTTTEKAKA HLKGGAKKVI
+     ISAPSADAPM FVMGVNHKSY TTDLEVISNA SCTTNCLAPL AKVINDEFTI IEGLMTTIHS
+     YTATQKTVDG PSAKDWRGGR TAAQNIIPSS TGAAKAVGKV IPALNGKLTG MAMRVPTANV
+     SVVDLTCRIE KSATYDEIKK AIKIAAGNEL QGILSYTEDE IVSTDLIGNN HSSIFDAKAG
+     ISLNDNFVKL VAWYDNEWAY SRRVIDLISY IAGKDGSK
+//

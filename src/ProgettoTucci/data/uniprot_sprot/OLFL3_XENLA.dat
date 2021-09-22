@@ -1,0 +1,99 @@
+ID   OLFL3_XENLA             Reviewed;         392 AA.
+AC   B5MFE9; Q5U5B5;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2009, sequence version 2.
+DT   12-AUG-2020, entry version 45.
+DE   RecName: Full=Olfactomedin-like protein 3;
+DE   AltName: Full=Olfactomedin-noelin-tiarin factor 1;
+DE   Flags: Precursor;
+GN   Name=olfml3; Synonyms=ont1;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND INTERACTION WITH CHRD AND BMP1.
+RX   PubMed=18775317; DOI=10.1016/j.cell.2008.07.008;
+RA   Inomata H., Haraguchi T., Sasai Y.;
+RT   "Robust stability of the embryonic axial pattern requires a secreted
+RT   scaffold for chordin degradation.";
+RL   Cell 134:854-865(2008).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (OCT-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Secreted scaffold protein that plays an essential role in
+CC       dorsoventral patterning during early development. Stabilizes axial
+CC       formation by restricting chordin (CHRD) activity on the dorsal side.
+CC       Acts by facilitating the association between the tolloid protease BMP1
+CC       and its substrate chordin (CHRD), leading to enhance chordin (CHRD)
+CC       degradation by BMP1. {ECO:0000269|PubMed:18775317}.
+CC   -!- SUBUNIT: Interacts (via coiled coil domain) with BMP1 and (via
+CC       olfactomedin-like domain) CHRD. {ECO:0000269|PubMed:18775317}.
+CC   -!- INTERACTION:
+CC       B5MFE9; P98070: bmp1; NbExp=3; IntAct=EBI-1997734, EBI-1997775;
+CC       B5MFE9; Q91713: chrd; NbExp=6; IntAct=EBI-1997734, EBI-1997746;
+CC       B5MFE9; B5MFE9: olfml3; NbExp=2; IntAct=EBI-1997734, EBI-1997734;
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the OLFML3 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH84769.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB440138; BAG71407.1; -; mRNA.
+DR   EMBL; BC084769; AAH84769.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001088445.1; NM_001094976.1.
+DR   SMR; B5MFE9; -.
+DR   IntAct; B5MFE9; 4.
+DR   GeneID; 495309; -.
+DR   KEGG; xla:495309; -.
+DR   CTD; 495309; -.
+DR   Xenbase; XB-GENE-6022244; olfml3.L.
+DR   OrthoDB; 421994at2759; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0007275; P:multicellular organism development; IEA:UniProtKB-KW.
+DR   InterPro; IPR011043; Gal_Oxase/kelch_b-propeller.
+DR   InterPro; IPR003112; Olfac-like_dom.
+DR   InterPro; IPR031230; OLFML3.
+DR   PANTHER; PTHR23192:SF8; PTHR23192:SF8; 1.
+DR   Pfam; PF02191; OLF; 1.
+DR   SMART; SM00284; OLF; 1.
+DR   SUPFAM; SSF50965; SSF50965; 1.
+DR   PROSITE; PS51132; OLF; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Developmental protein; Disulfide bond; Glycoprotein; Secreted;
+KW   Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..392
+FT                   /note="Olfactomedin-like protein 3"
+FT                   /id="PRO_0000361565"
+FT   DOMAIN          131..387
+FT                   /note="Olfactomedin-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   COILED          52..100
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        174
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        234
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        132..314
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00446"
+FT   CONFLICT        113
+FT                   /note="S -> T (in Ref. 1; BAG71407)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   392 AA;  45110 MW;  14466FFBBD41A7A8 CRC64;
+     MMAGIVACIL LVFVTVITAQ PQAVFLEYIQ GRMGVLEERI AQWHDQSSRF SGELRDFKNQ
+     VLKMLENIEK ERDSLRNEME NTNVRVNRLE REVDYIETQN PAPPCVEIDE KLSDHHGAKK
+     KKKEKYQKIT DCSDTISQVT AMKILKRFGS SAGLWTKDLA GNSDRIYVFD GAGNDTVYMY
+     PRMKEFTLSS PTRKAAKIRL PFPWIGTGHI VYDGNLYYIR QDNEFQVIKF SLANKTIIDS
+     AVLPIEQQVP VYGLSKFNYI DIVADEEGLW VIYATKENEK NICLAKLDPS SLSIEQMWDT
+     PCPIENAESA FVVCGSLYVV YNTKLPSRSR IQCVFDVSGT ISSENVPIVY FPKRYGSHSS
+     MKYNPREKQI YAWDDGYQII YKLNMKHRDE LY
+//

@@ -1,0 +1,166 @@
+ID   MSMA_METHY              Reviewed;         414 AA.
+AC   Q9X404;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   02-DEC-2020, entry version 72.
+DE   RecName: Full=Methanesulfonate monooxygenase hydroxylase subunit alpha {ECO:0000305};
+DE            EC=1.14.13.111 {ECO:0000269|PubMed:10903510, ECO:0000269|PubMed:17169571, ECO:0000269|PubMed:8932698};
+DE   AltName: Full=Methanesulfonic acid monooxygenase hydroxylase large subunit {ECO:0000303|PubMed:10094704};
+DE   AltName: Full=Methanesulfonic acid monooxygenase hydroxylase subunit alpha {ECO:0000303|PubMed:10903510};
+DE            Short=MSA monooxygenase hydroxylase subunit alpha {ECO:0000303|PubMed:10903510};
+DE            Short=MSAMO hydroxylase subunit alpha {ECO:0000303|PubMed:10903510};
+GN   Name=msmA {ECO:0000303|PubMed:10094704};
+OS   Methylosulfonomonas methylovora.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Methylosulfonomonas.
+OX   NCBI_TaxID=50057 {ECO:0000312|EMBL:AAD26619.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND SUBUNIT.
+RC   STRAIN=M2 {ECO:0000312|EMBL:AAD26619.1};
+RX   PubMed=10094704; DOI=10.1128/jb.181.7.2244-2251.1999;
+RA   de Marco P., Moradas-Ferreira P., Higgins T.P., McDonald I., Kenna E.M.,
+RA   Murrell J.C.;
+RT   "Molecular analysis of a novel methanesulfonic acid monooxygenase from the
+RT   methylotroph Methylosulfonomonas methylovora.";
+RL   J. Bacteriol. 181:2244-2251(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND INDUCTION.
+RC   STRAIN=M2 {ECO:0000312|EMBL:AAD26619.1};
+RX   PubMed=16391054; DOI=10.1128/aem.72.1.276-283.2006;
+RA   Jamshad M., De Marco P., Pacheco C.C., Hanczar T., Murrell J.C.;
+RT   "Identification, mutagenesis, and transcriptional analysis of the
+RT   methanesulfonate transport operon of Methylosulfonomonas methylovora.";
+RL   Appl. Environ. Microbiol. 72:276-283(2006).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 1-21, SUBUNIT, CATALYTIC ACTIVITY, SUBCELLULAR
+RP   LOCATION, AND COFACTOR.
+RX   PubMed=10903510; DOI=10.1046/j.1432-1327.2000.01538.x;
+RA   Reichenbecher W., Murrell J.C.;
+RT   "Purification and partial characterization of the hydroxylase component of
+RT   the methanesulfonic acid mono-oxygenase from methylosulfonomonas
+RT   methylovora strain M2.";
+RL   Eur. J. Biochem. 267:4763-4769(2000).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 5-17; 25-38; 61-95; 108-112; 228-238; 331-365 AND
+RP   397-414, CATALYTIC ACTIVITY, AND COFACTOR.
+RX   PubMed=17169571; DOI=10.1016/j.pep.2006.11.001;
+RA   Jamshad M., Murrell J.C., Fueloep V.;
+RT   "Purification and crystallization of the hydroxylase component of the
+RT   methanesulfonate monooxygenase from Methylosulfonomonas methylovora strain
+RT   M2.";
+RL   Protein Expr. Purif. 52:472-477(2007).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, INDUCTION, ACTIVITY REGULATION, SUBCELLULAR
+RP   LOCATION, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=8932698; DOI=10.1099/13500872-142-2-251;
+RA   Higgins T.P., Davey M., Trickett J., Kelly D.P., Murrell J.C.;
+RT   "Metabolism of methanesulfonic acid involves a multicomponent monooxygenase
+RT   enzyme.";
+RL   Microbiology 142:251-260(1996).
+CC   -!- FUNCTION: Methanesulfonate monooxygenase (MSAMO) mediates the primary
+CC       degradation of methanesulfonic acid (MSA) to produce formaldehyd and
+CC       inorganic sulfite by initial hydroxylation of the carbon atom prior to
+CC       spontaneous cleavage of the unstable hydroxymethanesulfonic acid. MSAMO
+CC       has a restricted substrate range that includes only the short-chain
+CC       aliphatic sulfonates (methane- to butanesulfonate) and excludes all
+CC       larger molecules, such as arylsulfonates and aromatic sulfonates. All
+CC       MSAMO components are required for enzyme activity.
+CC       {ECO:0000269|PubMed:8932698}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=methanesulfonate + NADH + O2 = formaldehyde + H2O + NAD(+) +
+CC         sulfite; Xref=Rhea:RHEA:26077, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16842, ChEBI:CHEBI:17359, ChEBI:CHEBI:25224,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.14.13.111;
+CC         Evidence={ECO:0000269|PubMed:10903510, ECO:0000269|PubMed:17169571,
+CC         ECO:0000269|PubMed:8932698};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00628,
+CC         ECO:0000303|PubMed:17169571};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00628, ECO:0000303|PubMed:17169571};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000303|PubMed:10903510};
+CC   -!- ACTIVITY REGULATION: MSAMO is inhibited by metal chelators (such as
+CC       bathophenanthroline, bathocuprione, neocuprione, alpha-alpha-dipyridil
+CC       and sodium EDTA) and by sodium azide, sodium arsenate and potassium
+CC       cyanide. {ECO:0000269|PubMed:8932698}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=48 uM for NADH {ECO:0000269|PubMed:8932698};
+CC         KM=61.5 uM for ethane sulfonic acid {ECO:0000269|PubMed:8932698};
+CC         Vmax=65.5 nmol/min/mg enzyme with NADH as substrate
+CC         {ECO:0000269|PubMed:8932698};
+CC         Vmax=38.7 nmol/min/mg enzyme with ethane sulfonic acid as substrate
+CC         {ECO:0000269|PubMed:8932698};
+CC         Note=Cell-free extracts of MSA-grown strain M2 have been used. Vmax
+CC         of a cytoplasmic fraction has shown to be lower as was that of a
+CC         reconstituted enzyme from partially purified fractions which was
+CC         increased by addition of FAD and Fe(2+).
+CC         {ECO:0000269|PubMed:8932698};
+CC   -!- SUBUNIT: The MSA monooxygenase system consists of 4 proteins: the 2
+CC       subunits of the hydroxylase component (MsmA and MsmB), a ferredoxin
+CC       (MsmC) and a ferredoxin reductase (MsmD). The hydroxylase component
+CC       consists of a 3 alpha (MsmA) and 3 beta (MsmB) subunits.
+CC       {ECO:0000303|PubMed:10094704, ECO:0000303|PubMed:10903510}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:10903510,
+CC       ECO:0000269|PubMed:8932698}.
+CC   -!- INDUCTION: The msmABCD operon is induced by methanesulfonic acid (MSA).
+CC       {ECO:0000269|PubMed:16391054}.
+CC   -!- SIMILARITY: Belongs to the bacterial ring-hydroxylating dioxygenase
+CC       alpha subunit family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF091716; AAD26619.1; -; Genomic_DNA.
+DR   KEGG; ag:AAD26619; -.
+DR   BioCyc; MetaCyc:MONOMER-14211; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0018648; F:methanesulfonate monooxygenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044237; P:cellular metabolic process; IEA:InterPro.
+DR   Gene3D; 2.102.10.10; -; 1.
+DR   InterPro; IPR017941; Rieske_2Fe-2S.
+DR   InterPro; IPR036922; Rieske_2Fe-2S_sf.
+DR   InterPro; IPR001663; Rng_hydr_dOase-A.
+DR   Pfam; PF00355; Rieske; 1.
+DR   PRINTS; PR00090; RNGDIOXGNASE.
+DR   SUPFAM; SSF50022; SSF50022; 1.
+DR   PROSITE; PS51296; RIESKE; 1.
+PE   1: Evidence at protein level;
+KW   2Fe-2S; Cytoplasm; Direct protein sequencing; Iron; Iron-sulfur;
+KW   Metal-binding; Monooxygenase; NAD; Oxidoreductase.
+FT   CHAIN           1..414
+FT                   /note="Methanesulfonate monooxygenase hydroxylase subunit
+FT                   alpha"
+FT                   /id="PRO_0000430801"
+FT   DOMAIN          44..163
+FT                   /note="Rieske"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           86
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A110"
+FT   METAL           88
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A110"
+FT   METAL           115
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A110"
+FT   METAL           118
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A110"
+FT   METAL           225
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A110"
+SQ   SEQUENCE   414 AA;  48474 MW;  71B5952A4E6D4135 CRC64;
+     MPARNHTQWM ATPPLQKGEW VDSRVYTDQE IFDEELEKIF KKAWVPFRHE SELPKAYDFR
+     TTSIANEPII VTRGPDNEVR AFLNVCPHRG MLIERRPSGS LYEGQPSGNP KRMTCMFHAW
+     QFDMKGNCVY ISREKEGYQD RLPKESVGLR RLRCEVKFGG FVWVNLDDNP ISLEDWAGEP
+     FQCLRKTLEA EPMEVFHYHK AIVDTNYKLW HDTNCEFYHD FMHYHNRVTG FNDAYFARKN
+     ESFEHGHILV GTFEVNYDQY EGFESRAGLS FPHLPPNQWY MIDLFPGMNF NLRGSALRCD
+     VVTPLGPNKV MIEFRGLGLK SDTPEERQTR INHHNSIWGP FGRNLHEDLI GVQGQGTTMR
+     PGQESRRILH GRQENQTIHD ENGMRHYYDK WGKWMNRMPS NPELPYNAPA IAAE
+//

@@ -1,0 +1,95 @@
+ID   ALR_COXB2               Reviewed;         364 AA.
+AC   B6J0J1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 1.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=Alanine racemase {ECO:0000255|HAMAP-Rule:MF_01201};
+DE            EC=5.1.1.1 {ECO:0000255|HAMAP-Rule:MF_01201};
+GN   Name=alr; OrderedLocusNames=CbuG_1133;
+OS   Coxiella burnetii (strain CbuG_Q212) (Coxiella burnetii (strain Q212)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae;
+OC   Coxiella.
+OX   NCBI_TaxID=434923;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CbuG_Q212;
+RX   PubMed=19047403; DOI=10.1128/iai.01141-08;
+RA   Beare P.A., Unsworth N., Andoh M., Voth D.E., Omsland A., Gilk S.D.,
+RA   Williams K.P., Sobral B.W., Kupko J.J. III, Porcella S.F., Samuel J.E.,
+RA   Heinzen R.A.;
+RT   "Comparative genomics reveal extensive transposon-mediated genomic
+RT   plasticity and diversity among potential effector proteins within the genus
+RT   Coxiella.";
+RL   Infect. Immun. 77:642-656(2009).
+CC   -!- FUNCTION: Catalyzes the interconversion of L-alanine and D-alanine. May
+CC       also act on other amino acids. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine = D-alanine; Xref=Rhea:RHEA:20249,
+CC         ChEBI:CHEBI:57416, ChEBI:CHEBI:57972; EC=5.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- PATHWAY: Amino-acid biosynthesis; D-alanine biosynthesis; D-alanine
+CC       from L-alanine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- SIMILARITY: Belongs to the alanine racemase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01201}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001019; ACJ18469.1; -; Genomic_DNA.
+DR   RefSeq; WP_012570109.1; NC_011527.1.
+DR   SMR; B6J0J1; -.
+DR   KEGG; cbg:CbuG_1133; -.
+DR   HOGENOM; CLU_028393_1_0_6; -.
+DR   OMA; WEILCGF; -.
+DR   BioCyc; CBUR434923:G1GBN-1195-MONOMER; -.
+DR   UniPathway; UPA00042; UER00497.
+DR   GO; GO:0008784; F:alanine racemase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030632; P:D-alanine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.40.37.10; -; 1.
+DR   Gene3D; 3.20.20.10; -; 1.
+DR   HAMAP; MF_01201; Ala_racemase; 1.
+DR   InterPro; IPR000821; Ala_racemase.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR011079; Ala_racemase_C.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   Pfam; PF00842; Ala_racemase_C; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   PRINTS; PR00992; ALARACEMASE.
+DR   SMART; SM01005; Ala_racemase_C; 1.
+DR   SUPFAM; SSF50621; SSF50621; 1.
+DR   SUPFAM; SSF51419; SSF51419; 1.
+DR   TIGRFAMs; TIGR00492; alr; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Pyridoxal phosphate.
+FT   CHAIN           1..364
+FT                   /note="Alanine racemase"
+FT                   /id="PRO_1000138592"
+FT   ACT_SITE        34
+FT                   /note="Proton acceptor; specific for D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   ACT_SITE        259
+FT                   /note="Proton acceptor; specific for L-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         129
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         307
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   MOD_RES         34
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+SQ   SEQUENCE   364 AA;  39962 MW;  FF70A1F28247F4A4 CRC64;
+     MNRATATINV TALKHNLSQI KALAPKSLAW AMIKSNGYGH GLVRVAKALS DANAFGVACI
+     DEALTLREVG IKSPIIVMKG FYNEAELSQF ARHRLGAVIH CSDQVSLLKK TNLTSSLSVW
+     LKIDTGMNRL GFSVEQSPAV YNQLKTSSSI QKPIGLMTHL ADADNENKTF TELQIKRFFS
+     VTEKMIGPKS IVNSAGFFAY PNALVDWIRP GIILYGISPF GINYNSFKEK IEKKFRPVMT
+     LSAKIIAIKN RRKNDSVGYG CTWSCPEDMP IAIVSIGYGD GYPRHAPSGT PVLLNGKICP
+     LIGRVSMDMI AIDLRSQPNA QVGDDVILWG EGLPVEIIAE KAGTIAYELL CKITQRVQFI
+     EIEK
+//

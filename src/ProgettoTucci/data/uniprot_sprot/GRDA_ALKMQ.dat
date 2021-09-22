@@ -1,0 +1,101 @@
+ID   GRDA_ALKMQ              Reviewed;         158 AA.
+AC   A6TU46;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 2.
+DT   07-APR-2021, entry version 63.
+DE   RecName: Full=Glycine/sarcosine/betaine reductase complex component A {ECO:0000255|HAMAP-Rule:MF_00826};
+DE            EC=1.21.4.2 {ECO:0000255|HAMAP-Rule:MF_00826};
+DE            EC=1.21.4.3 {ECO:0000255|HAMAP-Rule:MF_00826};
+DE            EC=1.21.4.4 {ECO:0000255|HAMAP-Rule:MF_00826};
+DE   AltName: Full=Selenoprotein PA {ECO:0000255|HAMAP-Rule:MF_00826};
+DE   AltName: Full=Thioredoxin reductase complex selenoprotein A {ECO:0000255|HAMAP-Rule:MF_00826};
+GN   Name=grdA {ECO:0000255|HAMAP-Rule:MF_00826}; OrderedLocusNames=Amet_3592;
+OS   Alkaliphilus metalliredigens (strain QYMF).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Alkaliphilus.
+OX   NCBI_TaxID=293826;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=QYMF;
+RX   PubMed=27811105; DOI=10.1128/genomea.01226-16;
+RA   Hwang C., Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina Del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Schmutz J., Larimer F.,
+RA   Land M.L., Hauser L., Kyrpides N., Mikhailova N., Ye Q., Zhou J.,
+RA   Richardson P., Fields M.W.;
+RT   "Complete genome sequence of Alkaliphilus metalliredigens strain QYMF, an
+RT   alkaliphilic and metal-reducing bacterium isolated from borax-contaminated
+RT   leachate ponds.";
+RL   Genome Announc. 4:0-0(2016).
+CC   -!- FUNCTION: In the first step of glycine, betaine and sarcosine
+CC       reductases, the substrate is bound to component PB via a Schiff base
+CC       intermediate. Then the PB-activated substrate is nucleophilically
+CC       attacked by the selenol anion of component PA to transform it to a
+CC       carboxymethylated selenoether and the respective amine. By action of
+CC       component PC, acetyl phosphate is formed, leaving component PA in its
+CC       oxidized state. Finally component PA becomes reduced by the thioredoxin
+CC       system to start a new catalytic cycle of reductive deamination.
+CC       {ECO:0000255|HAMAP-Rule:MF_00826}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + acetyl phosphate + H2O + NH4(+) =
+CC         [thioredoxin]-dithiol + glycine + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:12232, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:22191,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29950, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:50058, ChEBI:CHEBI:57305; EC=1.21.4.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00826};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + acetyl phosphate + H2O + methylamine
+CC         = [thioredoxin]-dithiol + H(+) + phosphate + sarcosine;
+CC         Xref=Rhea:RHEA:12825, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:22191,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:43474, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57433, ChEBI:CHEBI:59338; EC=1.21.4.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00826};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + acetyl phosphate + H2O +
+CC         trimethylamine = [thioredoxin]-dithiol + glycine betaine + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:11848, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17750,
+CC         ChEBI:CHEBI:22191, ChEBI:CHEBI:29950, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:50058, ChEBI:CHEBI:58389; EC=1.21.4.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00826};
+CC   -!- SUBUNIT: Monomer. Component of the glycine, sarcosine and betaine
+CC       reductase complexes, together with components B and C.
+CC       {ECO:0000255|HAMAP-Rule:MF_00826}.
+CC   -!- SIMILARITY: Belongs to the GrdA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00826}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000724; ABR49714.1; -; Genomic_DNA.
+DR   STRING; 293826.Amet_3592; -.
+DR   KEGG; amt:Amet_3592; -.
+DR   eggNOG; ENOG50313TT; Bacteria.
+DR   HOGENOM; CLU_142275_0_0_9; -.
+DR   Proteomes; UP000001572; Chromosome.
+DR   GO; GO:0030700; C:glycine reductase complex; IEA:InterPro.
+DR   GO; GO:0033795; F:betaine reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030699; F:glycine reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033794; F:sarcosine reductase activity; IEA:UniProtKB-EC.
+DR   HAMAP; MF_00826; GRDA; 1.
+DR   InterPro; IPR006812; GRDA.
+DR   Pfam; PF04723; GRDA; 1.
+DR   PIRSF; PIRSF000181; Grc_selenoprot_A; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase; Reference proteome; Selenocysteine.
+FT   CHAIN           1..158
+FT                   /note="Glycine/sarcosine/betaine reductase complex
+FT                   component A"
+FT                   /id="PRO_1000062704"
+FT   ACT_SITE        44
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00826"
+FT   NON_STD         44
+FT                   /note="Selenocysteine"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   158 AA;  16991 MW;  C12515841284C79D CRC64;
+     MSLFDGKKVI IIGDRDGIPG PAMEECLKGT GAEVVYSSTE CFVUTAAGAM DLENQKRVMD
+     LTEKHNAENV VVILGAAEAE AAGLAAETVT NGDPTFAGPL AGVQLGLRVY HAVEPQFKDA
+     VNAEVYEDQI GMMEMVLEVD AIIEEMSNIR NEFGKFKD
+//

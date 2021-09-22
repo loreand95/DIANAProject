@@ -1,0 +1,98 @@
+ID   DIS_MACLB               Reviewed;         107 AA.
+AC   Q3BK14;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   26-FEB-2020, entry version 56.
+DE   RecName: Full=Disintegrin lebestatin;
+DE   AltName: Full=ML-(6,9,10);
+DE   AltName: Full=ML-4;
+DE   Flags: Precursor;
+OS   Macrovipera lebetina (Levantine viper) (Vipera lebetina).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Viperinae; Macrovipera.
+OX   NCBI_TaxID=8709;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland;
+RX   PubMed=16411889; DOI=10.1042/bj20051678;
+RA   Sanz L., Bazaa A., Marrakchi N., Perez A., Chenik M., Bel Lasfer Z.,
+RA   El Ayeb M., Calvete J.J.;
+RT   "Molecular cloning of disintegrins from Cerastes vipera and Macrovipera
+RT   lebetina transmediterranea venom gland cDNA libraries: insight into the
+RT   evolution of the snake venom integrin-inhibition system.";
+RL   Biochem. J. 395:385-392(2006).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 65-105, FUNCTION, SUBUNIT, AND MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=16200076; DOI=10.1038/labinvest.3700350;
+RA   Kallech-Ziri O., Luis J., Daoud S., Bazaa A., Srairi Abid N., Andreotti N.,
+RA   Lehmann M., Zouari R., Mabrouk K., Marvaldi J., Sabatier J.-M., El Ayeb M.,
+RA   Marrakchi N.;
+RT   "Lebestatin, a disintegrin from Macrovipera venom, inhibits integrin-
+RT   mediated cell adhesion, migration and angiogenesis.";
+RL   Lab. Invest. 85:1507-1516(2005).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 65-76, AND MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=16206329; DOI=10.1002/pmic.200402024;
+RA   Bazaa A., Marrakchi N., El Ayeb M., Sanz L., Calvete J.J.;
+RT   "Snake venomics: comparative analysis of the venom proteomes of the
+RT   Tunisian snakes Cerastes cerastes, Cerastes vipera and Macrovipera
+RT   lebetina.";
+RL   Proteomics 5:4223-4235(2005).
+CC   -!- FUNCTION: Specifically interacts with the alpha-1/beta-1 integrin
+CC       (ITGA1/ITGB1). Exhibits highly inhibitory effects on cell adhesion and
+CC       cell migration to collagens I and IV. Also shows in vivo anti-
+CC       angiogenic activity. {ECO:0000269|PubMed:16200076}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:16200076}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- MASS SPECTROMETRY: Mass=4408.8; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:16206329};
+CC   -!- MASS SPECTROMETRY: Mass=4411.52; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:16200076};
+CC   -!- SIMILARITY: Belongs to the disintegrin family. Short disintegrin
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM114015; CAJ34939.1; -; mRNA.
+DR   SMR; Q3BK14; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0001525; P:angiogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0030154; P:cell differentiation; IEA:UniProtKB-KW.
+DR   Gene3D; 4.10.70.10; -; 1.
+DR   InterPro; IPR036436; Disintegrin_dom_sf.
+DR   SUPFAM; SSF57552; SSF57552; 1.
+PE   1: Evidence at protein level;
+KW   Angiogenesis; Cell adhesion impairing toxin; Developmental protein;
+KW   Differentiation; Direct protein sequencing; Disulfide bond; Secreted;
+KW   Signal; Toxin.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..64
+FT                   /id="PRO_0000318187"
+FT   CHAIN           65..105
+FT                   /note="Disintegrin lebestatin"
+FT                   /id="PRO_0000318188"
+FT   PROPEP          106..107
+FT                   /id="PRO_0000318189"
+FT   DOMAIN          65..105
+FT                   /note="Disintegrin"
+FT   MOTIF           85..87
+FT                   /note="Cell attachment site; atypical (KTS)"
+FT   DISULFID        65..74
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        70..93
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        71..98
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        83..100
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   107 AA;  11498 MW;  A0143385AF6D713C CRC64;
+     MIQVLLVIIC LAVFPFQGSS KTLKSGNVND YEVVNPGTVT GLPKGAVEEK HEPMKGNTLQ
+     KFPLCTTGPC CRQCKLKPAG TTCWKTSRTS HYCTGKSCDC PSYPGNG
+//

@@ -1,0 +1,100 @@
+ID   AUNE_ASPNA              Reviewed;         347 AA.
+AC   G3XSI6;
+DT   17-JUN-2020, integrated into UniProtKB/Swiss-Prot.
+DT   14-DEC-2011, sequence version 1.
+DT   02-DEC-2020, entry version 32.
+DE   RecName: Full=O-methyltransferase aunE {ECO:0000303|PubMed:31067027};
+DE            EC=2.1.1.- {ECO:0000305|PubMed:31067027};
+DE   AltName: Full=Aurasperone B biosynthesis cluster protein E {ECO:0000303|PubMed:31067027};
+DE   Flags: Fragment;
+GN   Name=aunE {ECO:0000303|PubMed:31067027}; ORFNames=ASPNIDRAFT_124971;
+OS   Aspergillus niger (strain ATCC 1015 / CBS 113.46 / FGSC A1144 / LSHB Ac4 /
+OS   NCTC 3858a / NRRL 328 / USDA 3528.7).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=380704;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 1015 / CBS 113.46 / FGSC A1144 / LSHB Ac4 / NCTC 3858a / NRRL
+RC   328 / USDA 3528.7;
+RX   PubMed=21543515; DOI=10.1101/gr.112169.110;
+RA   Andersen M.R., Salazar M.P., Schaap P.J., van de Vondervoort P.J.I.,
+RA   Culley D., Thykaer J., Frisvad J.C., Nielsen K.F., Albang R., Albermann K.,
+RA   Berka R.M., Braus G.H., Braus-Stromeyer S.A., Corrochano L.M., Dai Z.,
+RA   van Dijck P.W.M., Hofmann G., Lasure L.L., Magnuson J.K., Menke H.,
+RA   Meijer M., Meijer S.L., Nielsen J.B., Nielsen M.L., van Ooyen A.J.J.,
+RA   Pel H.J., Poulsen L., Samson R.A., Stam H., Tsang A., van den Brink J.M.,
+RA   Atkins A., Aerts A., Shapiro H., Pangilinan J., Salamov A., Lou Y.,
+RA   Lindquist E., Lucas S., Grimwood J., Grigoriev I.V., Kubicek C.P.,
+RA   Martinez D., van Peij N.N.M.E., Roubos J.A., Nielsen J., Baker S.E.;
+RT   "Comparative genomics of citric-acid-producing Aspergillus niger ATCC 1015
+RT   versus enzyme-producing CBS 513.88.";
+RL   Genome Res. 21:885-897(2011).
+RN   [2]
+RP   FUNCTION, AND PATHWAY.
+RX   PubMed=31067027; DOI=10.1021/acs.biochem.9b00291;
+RA   Obermaier S., Mueller M.;
+RT   "Biaryl-forming enzymes from Aspergilli exhibit substrate-dependent
+RT   stereoselectivity.";
+RL   Biochemistry 58:2589-2593(2019).
+CC   -!- FUNCTION: O-methyltransferase; part of the gene cluster that mediates
+CC       the biosynthesis of aurasperone B, a dimeric gamma-naphthopyrone
+CC       (PubMed:31067027). The first step in the biosynthesis of aurasperone B
+CC       is the production of gamma-naphthopyrone precursor YWA1 by the non-
+CC       reducing polyketide synthase albA, via condensation of one acetyl-CoA
+CC       starter unit with 6 malonyl-CoA units (PubMed:31067027). YWA1 is then
+CC       methylated by aunE at position C-6 to yield foncesin which is further
+CC       methylated at position C-8 by aunD to produce fonsecin B (Probable). A
+CC       key enzyme in the biosynthetic pathway is the cytochrome P450
+CC       monooxygenase aunB which catalyzes the oxidative dimerization of
+CC       fonsecin B to aurasperone B (PubMed:31067027). AunB also catalyzes the
+CC       oxidative dimerization of rubrofusarin B into aurasperone A
+CC       (PubMed:31067027). {ECO:0000269|PubMed:31067027,
+CC       ECO:0000305|PubMed:31067027}.
+CC   -!- PATHWAY: Secondary metabolite biosynthesis.
+CC       {ECO:0000305|PubMed:31067027}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. Cation-independent O-methyltransferase family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01020}.
+CC   -!- CAUTION: The sequence misses the N-terminal part. The correct gene
+CC       model with the complete protein sequence could not be recovered from
+CC       the submitted genomic sequence. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ACJE01000004; EHA27207.1; -; Genomic_DNA.
+DR   EnsemblFungi; EHA27207; EHA27207; ASPNIDRAFT_124971.
+DR   HOGENOM; CLU_064550_0_0_1; -.
+DR   Proteomes; UP000009038; Unassembled WGS sequence.
+DR   GO; GO:0008171; F:O-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   InterPro; IPR016461; COMT-like.
+DR   InterPro; IPR001077; O_MeTrfase_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF00891; Methyltransf_2; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS51683; SAM_OMT_II; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           <1..347
+FT                   /note="O-methyltransferase aunE"
+FT                   /id="PRO_0000449891"
+FT   ACT_SITE        265
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+FT   BINDING         166
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000312|EMBL:EHA27207.1"
+SQ   SEQUENCE   347 AA;  38727 MW;  D8A4F1E7A0ECFAD6 CRC64;
+     APALGFVPIA VHFDLFGCLQ EIGKPATAQD VCISITFLHK KSMFAKVNRS SDDTLFLMGG
+     LGFLDLLPDD VYQANAVTRF LVDTPSAQHG AMHFTSEGLL ASAFLMRRLM DTKFEYPFQE
+     CDTPFQYAHK LMGNEHLARE HVYSVMHETG RLDSFNTFMT GKFGRWGTMP DRVRKLGYDL
+     DGLLQSTAPE RIRVVDIGGG RGELLLEMQA TYPHLLKKEN LILQEYNADI GVVPEVTEMG
+     WNYKEDASEQ PVKGALLYSM AHVLHNLSDI ESIKLLTKVA RVMAPSSRLL IQEFTKNAAS
+     STTHAAMILM HAGRERTSAE WRDLAAFAGL EITFEAYPPN GECVVEM
+//

@@ -1,0 +1,98 @@
+ID   PCRA_STAAS              Reviewed;         730 AA.
+AC   Q6G828;
+DT   01-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 89.
+DE   RecName: Full=ATP-dependent DNA helicase PcrA;
+DE            EC=3.6.4.12;
+GN   Name=pcrA; OrderedLocusNames=SAS1828;
+OS   Staphylococcus aureus (strain MSSA476).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=282459;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MSSA476;
+RX   PubMed=15213324; DOI=10.1073/pnas.0402521101;
+RA   Holden M.T.G., Feil E.J., Lindsay J.A., Peacock S.J., Day N.P.J.,
+RA   Enright M.C., Foster T.J., Moore C.E., Hurst L., Atkin R., Barron A.,
+RA   Bason N., Bentley S.D., Chillingworth C., Chillingworth T., Churcher C.,
+RA   Clark L., Corton C., Cronin A., Doggett J., Dowd L., Feltwell T., Hance Z.,
+RA   Harris B., Hauser H., Holroyd S., Jagels K., James K.D., Lennard N.,
+RA   Line A., Mayes R., Moule S., Mungall K., Ormond D., Quail M.A.,
+RA   Rabbinowitsch E., Rutherford K.M., Sanders M., Sharp S., Simmonds M.,
+RA   Stevens K., Whitehead S., Barrell B.G., Spratt B.G., Parkhill J.;
+RT   "Complete genomes of two clinical Staphylococcus aureus strains: evidence
+RT   for the rapid evolution of virulence and drug resistance.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9786-9791(2004).
+CC   -!- FUNCTION: Essential helicase. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.12;
+CC   -!- SIMILARITY: Belongs to the helicase family. UvrD subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571857; CAG43633.1; -; Genomic_DNA.
+DR   RefSeq; WP_000992921.1; NC_002953.3.
+DR   SMR; Q6G828; -.
+DR   GeneID; 59700702; -.
+DR   KEGG; sas:SAS1828; -.
+DR   HOGENOM; CLU_004585_5_2_9; -.
+DR   OMA; YQDTNRT; -.
+DR   BioCyc; SAUR282459:G1G3P-2046-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003678; F:DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006268; P:DNA unwinding involved in DNA replication; IEA:InterPro.
+DR   Gene3D; 1.10.10.160; -; 1.
+DR   InterPro; IPR005751; ATP-dep_DNA_helicase_PcrA.
+DR   InterPro; IPR013986; DExx_box_DNA_helicase_dom_sf.
+DR   InterPro; IPR014017; DNA_helicase_UvrD-like_C.
+DR   InterPro; IPR000212; DNA_helicase_UvrD/REP.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR014016; UvrD-like_ATP-bd.
+DR   InterPro; IPR034739; UvrD/AddA_N.
+DR   PANTHER; PTHR11070; PTHR11070; 1.
+DR   Pfam; PF00580; UvrD-helicase; 1.
+DR   Pfam; PF13361; UvrD_C; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01073; pcrA; 1.
+DR   PROSITE; PS51198; UVRD_HELICASE_ATP_BIND; 1.
+DR   PROSITE; PS51217; UVRD_HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA-binding; Helicase; Hydrolase; Nucleotide-binding.
+FT   CHAIN           1..730
+FT                   /note="ATP-dependent DNA helicase PcrA"
+FT                   /id="PRO_0000102060"
+FT   DOMAIN          6..285
+FT                   /note="UvrD-like helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00560"
+FT   DOMAIN          286..560
+FT                   /note="UvrD-like helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00617"
+FT   NP_BIND         30..35
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00560"
+FT   BINDING         283
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   730 AA;  84074 MW;  3C7D6A9501BC3251 CRC64;
+     MNALLNHMNT EQSEAVKTTE GPLLIMAGAG SGKTRVLTHR IAYLLDEKDV SPYNVLAITF
+     TNKAAREMKE RVQKLVGDQA EVIWMSTFHS MCVRILRRDA DRIGIERNFT IIDPTDQKSV
+     IKDVLKNENI DSKKFEPRMF IGAISNLKNE LKTPADAQKE ATDYHSQMVA TVYSGYQRQL
+     SRNEALDFDD LIMTTINLFE RVPEVLEYYQ NKFQYIHVDE YQDTNKAQYT LVKLLASKFK
+     NLCVVGDSDQ SIYGWRGADI QNILSFEKDY PEANTIFLEQ NYRSTKTILN AANEVIKNNS
+     ERKPKGLWTA NTNGEKIHYY EAMTERDEAE FVIREIMKHQ RNGKKYQDMA ILYRTNAQSR
+     VLEETFMKSN MPYTMVGGQK FYDRKEIKDL LSYLRIIANS NDDISLQRII NVPKRGVGPS
+     SVEKVQNYAL QNNISMFDAL GEADFIGLSK KVTQECLNFY ELIQSLIKEQ EFLEIHEIVD
+     EVLQKSGYRE MLERENTLES RSRLENIDEF MSVPKDYEEN TPLEEQSLIN FLTDLSLVAD
+     IDEADTENGV TLMTMHSAKG LEFPIVFIMG MEESLFPHIR AIKSEDDHEM QEERRICYVA
+     ITRAEEVLYI THATSRMLFG RPQSNMPSRF LKEIPESLLE NHSSGKRQTI QPKAKPFAKR
+     GFSQRTTSTK KQVLSSDWNV GDKVMHKAWG EGMVSNVNEK NGSIELDIIF KSQGPKRLLA
+     QFAPIEKKED
+//

@@ -1,0 +1,103 @@
+ID   MOBA_BRUA2              Reviewed;         221 AA.
+AC   Q2YNR6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   07-APR-2021, entry version 72.
+DE   RecName: Full=Molybdenum cofactor guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE            Short=MoCo guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE            EC=2.7.7.77 {ECO:0000255|HAMAP-Rule:MF_00316};
+DE   AltName: Full=GTP:molybdopterin guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE   AltName: Full=Mo-MPT guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE   AltName: Full=Molybdopterin guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE   AltName: Full=Molybdopterin-guanine dinucleotide synthase {ECO:0000255|HAMAP-Rule:MF_00316};
+DE            Short=MGD synthase {ECO:0000255|HAMAP-Rule:MF_00316};
+GN   Name=mobA {ECO:0000255|HAMAP-Rule:MF_00316}; OrderedLocusNames=BAB1_0972;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- FUNCTION: Transfers a GMP moiety from GTP to Mo-molybdopterin (Mo-MPT)
+CC       cofactor (Moco or molybdenum cofactor) to form Mo-molybdopterin guanine
+CC       dinucleotide (Mo-MGD) cofactor. {ECO:0000255|HAMAP-Rule:MF_00316}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H(+) + Mo-molybdopterin = diphosphate + Mo-molybdopterin
+CC         guanine dinucleotide; Xref=Rhea:RHEA:34243, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:71302,
+CC         ChEBI:CHEBI:71310; EC=2.7.7.77; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00316};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00316};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00316}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00316}.
+CC   -!- DOMAIN: The N-terminal domain determines nucleotide recognition and
+CC       specific binding, while the C-terminal domain determines the specific
+CC       binding to the target protein. {ECO:0000255|HAMAP-Rule:MF_00316}.
+CC   -!- SIMILARITY: Belongs to the MobA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00316}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM040264; CAJ10928.1; -; Genomic_DNA.
+DR   RefSeq; WP_002964077.1; NZ_KN046823.1.
+DR   EnsemblBacteria; CAJ10928; CAJ10928; BAB1_0972.
+DR   GeneID; 45124375; -.
+DR   GeneID; 55590655; -.
+DR   KEGG; bmf:BAB1_0972; -.
+DR   HOGENOM; CLU_055597_5_0_5; -.
+DR   OMA; FVPCDVP; -.
+DR   BioCyc; BABO359391:G1GJA-995-MONOMER; -.
+DR   Proteomes; UP000002719; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061603; F:molybdenum cofactor guanylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd02503; MobA; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_00316; MobA; 1.
+DR   InterPro; IPR025877; MobA-like_NTP_Trfase.
+DR   InterPro; IPR013482; Molybde_CF_guanTrfase.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   Pfam; PF12804; NTP_transf_3; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Magnesium; Metal-binding;
+KW   Molybdenum cofactor biosynthesis; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..221
+FT                   /note="Molybdenum cofactor guanylyltransferase"
+FT                   /id="PRO_1000019105"
+FT   NP_BIND         18..20
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+FT   METAL           112
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+FT   BINDING         35
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+FT   BINDING         63
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+FT   BINDING         81
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+FT   BINDING         112
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00316"
+SQ   SEQUENCE   221 AA;  23735 MW;  BC68362E9B96D1BA CRC64;
+     MRAGQPKITG AKITGAIIAG GQSSRMQAGG VSGDKFLQPL GSAPVIAHVI ARLQPQVDTL
+     FINSKGDLSR FAAFGLPAVK DIAMNHGGPL VGLLTCLAHA SPCRLLLTSA ADTPFLPCDL
+     ASNLIRKQAE TGARIILACS NERVHPIVGL WHTDLVPDLE KWLQHAEKAS IFWFAKHIGF
+     EVVNIPLAHA PRLAESYDPF FNINLPDDLL KAREINEALQ A
+//

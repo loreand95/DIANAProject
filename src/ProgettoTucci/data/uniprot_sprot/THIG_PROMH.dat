@@ -1,0 +1,98 @@
+ID   THIG_PROMH              Reviewed;         259 AA.
+AC   B4EYU5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=Thiazole synthase {ECO:0000255|HAMAP-Rule:MF_00443};
+DE            EC=2.8.1.10 {ECO:0000255|HAMAP-Rule:MF_00443};
+GN   Name=thiG {ECO:0000255|HAMAP-Rule:MF_00443}; OrderedLocusNames=PMI2781;
+OS   Proteus mirabilis (strain HI4320).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Proteus.
+OX   NCBI_TaxID=529507;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HI4320;
+RX   PubMed=18375554; DOI=10.1128/jb.01981-07;
+RA   Pearson M.M., Sebaihia M., Churcher C., Quail M.A., Seshasayee A.S.,
+RA   Luscombe N.M., Abdellah Z., Arrosmith C., Atkin B., Chillingworth T.,
+RA   Hauser H., Jagels K., Moule S., Mungall K., Norbertczak H.,
+RA   Rabbinowitsch E., Walker D., Whithead S., Thomson N.R., Rather P.N.,
+RA   Parkhill J., Mobley H.L.T.;
+RT   "Complete genome sequence of uropathogenic Proteus mirabilis, a master of
+RT   both adherence and motility.";
+RL   J. Bacteriol. 190:4027-4037(2008).
+CC   -!- FUNCTION: Catalyzes the rearrangement of 1-deoxy-D-xylulose 5-phosphate
+CC       (DXP) to produce the thiazole phosphate moiety of thiamine. Sulfur is
+CC       provided by the thiocarboxylate moiety of the carrier protein ThiS. In
+CC       vitro, sulfur can be provided by H(2)S. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-deoxy-D-xylulose 5-phosphate + 2-iminoacetate + [sulfur-
+CC         carrier protein ThiS]-C-terminal Gly-NH-CH2-C(O)SH = 2-[(2R,5Z)-2-
+CC         carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + [sulfur-
+CC         carrier protein ThiS]-C-terminal Gly-Gly + 2 H(+) + 2 H2O;
+CC         Xref=Rhea:RHEA:26297, Rhea:RHEA-COMP:12908, Rhea:RHEA-COMP:12909,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:62899, ChEBI:CHEBI:77846, ChEBI:CHEBI:90619,
+CC         ChEBI:CHEBI:90778; EC=2.8.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00443};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBUNIT: Homotetramer. Forms heterodimers with either ThiH or ThiS.
+CC       {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00443}.
+CC   -!- SIMILARITY: Belongs to the ThiG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00443}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM942759; CAR45487.1; -; Genomic_DNA.
+DR   RefSeq; WP_012368506.1; NC_010554.1.
+DR   SMR; B4EYU5; -.
+DR   STRING; 529507.PMI2781; -.
+DR   EnsemblBacteria; CAR45487; CAR45487; PMI2781.
+DR   GeneID; 6801090; -.
+DR   KEGG; pmr:PMI2781; -.
+DR   eggNOG; COG2022; Bacteria.
+DR   HOGENOM; CLU_062233_1_0_6; -.
+DR   OMA; PHNFQLI; -.
+DR   BioCyc; PMIR529507:G1GJY-2895-MONOMER; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000008319; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:1990107; F:thiazole synthase activity; IEA:RHEA.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04728; ThiG; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00443; ThiG; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR033983; Thiazole_synthase_ThiG.
+DR   InterPro; IPR008867; ThiG.
+DR   PANTHER; PTHR34266; PTHR34266; 1.
+DR   Pfam; PF05690; ThiG; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Schiff base; Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..259
+FT                   /note="Thiazole synthase"
+FT                   /id="PRO_1000196885"
+FT   REGION          182..183
+FT                   /note="DXP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   REGION          204..205
+FT                   /note="DXP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   ACT_SITE        95
+FT                   /note="Schiff-base intermediate with DXP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+FT   BINDING         156
+FT                   /note="DXP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00443"
+SQ   SEQUENCE   259 AA;  27449 MW;  887F3A886711D9E9 CRC64;
+     MLKIADTTFT SRLFTGTGKF ATPTLMAEAI KASGSQLVTM AMKRVDLKNG NDDLIAPLKS
+     LGIKLLPNTS GAKTAQEAVF AARLAKEAFD THWIKLEIHP DTKYLLPDPI ETLKAAELLV
+     KEGFVVLPYC SADPVLCRRL EEVGCAAVMP LGSPIGSNQG LQTRDFLRII IEQTSIPVVV
+     DAGIGAPSHA LEALELGADA VLVNTAIAVA KNPVLMAQAF KAAIDAGELA RQSGLAVPTS
+     ITHMQAQASS PLTQYLEAF
+//

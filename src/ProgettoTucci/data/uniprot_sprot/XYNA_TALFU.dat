@@ -1,0 +1,150 @@
+ID   XYNA_TALFU              Reviewed;         529 AA.
+AC   Q8WZJ4;
+DT   09-JUL-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 72.
+DE   RecName: Full=1,4-beta-D-glucan cellobiohydrolase xynA;
+DE            EC=3.2.1.91;
+DE   AltName: Full=Beta-glucancellobiohydrolase xynA;
+DE   AltName: Full=Exocellobiohydrolase xynA;
+DE   AltName: Full=Exoglucanase xynA;
+DE   Flags: Precursor;
+GN   Name=xynA;
+OS   Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium
+OS   funiculosum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Trichocomaceae; Talaromyces;
+OC   Talaromyces sect. Talaromyces.
+OX   NCBI_TaxID=28572;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 118-129 AND 274-288,
+RP   AND SUBCELLULAR LOCATION.
+RC   STRAIN=IMI 134756;
+RX   PubMed=12664153; DOI=10.1007/s00253-002-1184-4;
+RA   Alcocer M.J., Furniss C.S.M., Kroon P.A., Campbell M., Archer D.B.;
+RT   "Comparison of modular and non-modular xylanases as carrier proteins for
+RT   the efficient secretion of heterologous proteins from Penicillium
+RT   funiculosum.";
+RL   Appl. Microbiol. Biotechnol. 60:726-732(2003).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND ACTIVITY
+RP   REGULATION.
+RX   PubMed=22776993; DOI=10.1007/s10295-012-1166-1;
+RA   Texier H., Dumon C., Neugnot-Roux V., Maestracci M., O'Donohue M.J.;
+RT   "Redefining XynA from Penicillium funiculosum IMI 378536 as a GH7
+RT   cellobiohydrolase.";
+RL   J. Ind. Microbiol. Biotechnol. 39:1569-1576(2012).
+CC   -!- FUNCTION: The biological conversion of cellulose to glucose generally
+CC       requires three types of hydrolytic enzymes: (1) Endoglucanases which
+CC       cut internal beta-1,4-glucosidic bonds; (2) Exocellobiohydrolases that
+CC       cut the disaccharide cellobiose from the non-reducing end of the
+CC       cellulose polymer chain; (3) Beta-1,4-glucosidases which hydrolyze the
+CC       cellobiose and other short cello-oligosaccharides to glucose.
+CC       {ECO:0000269|PubMed:22776993}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->4)-beta-D-glucosidic linkages in cellulose
+CC         and cellotetraose, releasing cellobiose from the non-reducing ends of
+CC         the chains.; EC=3.2.1.91; Evidence={ECO:0000269|PubMed:22776993};
+CC   -!- ACTIVITY REGULATION: Cellobiose inhibits xynA at high concentrations.
+CC       {ECO:0000269|PubMed:22776993}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.238 mM for 4-nitrophenyl-beta-D-cellobioside
+CC         {ECO:0000269|PubMed:22776993};
+CC         KM=0.57 mM for 4-nitrophenyl-beta-D-lactopyranoside
+CC         {ECO:0000269|PubMed:22776993};
+CC       pH dependence:
+CC         Optimum pH is 3.0-4.5. {ECO:0000269|PubMed:22776993};
+CC       Temperature dependence:
+CC         Optimum temperature is 55 degrees Celsius.
+CC         {ECO:0000269|PubMed:22776993};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:12664153}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 7 (cellulase C) family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Was originally identified as a 1,4-beta-D-xylan
+CC       xylanohydrolase (PubMed:12664153). However, further sequence
+CC       comparisons and enzymatic studies showed that xynA was principally an
+CC       1,4-beta-D-glucan cellobiohydrolase (PubMed:22776993).
+CC       {ECO:0000305|PubMed:12664153, ECO:0000305|PubMed:22776993}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ312295; CAC85737.1; -; Genomic_DNA.
+DR   SMR; Q8WZJ4; -.
+DR   CAZy; CBM1; Carbohydrate-Binding Module Family 1.
+DR   CAZy; GH7; Glycoside Hydrolase Family 7.
+DR   CLAE; CBH7A_PENFN; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016162; F:cellulose 1,4-beta-cellobiosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030248; F:cellulose binding; IEA:InterPro.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd07999; GH7_CBH_EG; 1.
+DR   Gene3D; 2.70.100.10; -; 1.
+DR   InterPro; IPR035971; CBD_sf.
+DR   InterPro; IPR000254; Cellulose-bd_dom_fun.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR001722; Glyco_hydro_7.
+DR   InterPro; IPR037019; Glyco_hydro_7_sf.
+DR   PANTHER; PTHR33753; PTHR33753; 1.
+DR   Pfam; PF00734; CBM_1; 1.
+DR   Pfam; PF00840; Glyco_hydro_7; 1.
+DR   PRINTS; PR00734; GLHYDRLASE7.
+DR   SMART; SM00236; fCBD; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF57180; SSF57180; 1.
+DR   PROSITE; PS00562; CBM1_1; 1.
+DR   PROSITE; PS51164; CBM1_2; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cellulose degradation; Direct protein sequencing;
+KW   Disulfide bond; Glycoprotein; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Secreted; Signal.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..529
+FT                   /note="1,4-beta-D-glucan cellobiohydrolase xynA"
+FT                   /id="PRO_5000067499"
+FT   DOMAIN          493..529
+FT                   /note="CBM1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00597"
+FT   REGION          26..456
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000250"
+FT   REGION          457..493
+FT                   /note="Thr-rich linker"
+FT                   /evidence="ECO:0000250"
+FT   COMPBIAS        457..519
+FT                   /note="Thr-rich"
+FT   ACT_SITE        234
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        239
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        70
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        413
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        455
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        501..518
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        512..528
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   529 AA;  55048 MW;  95232F53577B6416 CRC64;
+     MSALNSFNMY KSALILGSLL ATAGAQQIGT YTAETHPSLS WSTCKSGGSC TTNSGAITLD
+     ANWRWVHGVN TSTNCYTGNT WNTAICDTDA SCAQDCALDG ADYSGTYGIT TSGNSLRLNF
+     VTGSNVGSRT YLMADNTHYQ IFDLLNQEFT FTVDVSNLPC GLNGALYFVT MDADGGVSKY
+     PNNKAGAQYG VGYCDSQCPR DLKFIAGQAN VEGWTPSTNN SNTGIGNHGS CCAELDIWEA
+     NSISEALTPH PCDTPGLTVC TADDCGGTYS SNRYAGTCDP DGCDFNPYRL GVTDFYGSGK
+     TVDTTKPFTV VTQFVTDDGT SSGSLSEIRR YYVQNGVVIP QPSSKISGIS GNVINSDFCA
+     AELSAFGETA SFTNHGGLKN MGSALEAGMV LVMSLWDDYS VNMLWLDSTY PANETGTPGA
+     ARGSCPTTSG NPKTVESQSG SSYVVFSDIK VGPFNSTFSG GTSTGGSTTT TASGTTSTKA
+     STTSTSSTST GTGVAAHWGQ CGGQGWTGPT TCASGTTCTV VNPYYSQCL
+//

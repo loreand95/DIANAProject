@@ -1,0 +1,113 @@
+ID   NRL4B_TOBAC             Reviewed;         348 AA.
+AC   Q42966;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Bifunctional nitrilase/nitrile hydratase NIT4B;
+DE            Short=TNIT4B;
+DE            EC=3.5.5.1;
+DE            EC=3.5.5.4;
+DE   AltName: Full=Cyanoalanine nitrilase B;
+DE   AltName: Full=Nitrilase 4B;
+GN   Name=NIT4B;
+OS   Nicotiana tabacum (Common tobacco).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Solanaceae; Nicotianoideae; Nicotianeae;
+OC   Nicotiana.
+OX   NCBI_TaxID=4097;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. SR1; TISSUE=Leaf;
+RA   Tsunoda H.;
+RL   Submitted (JAN-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, TISSUE SPECIFICITY, AND INDUCTION.
+RX   PubMed=10574458; DOI=10.1093/dnares/6.5.313;
+RA   Dohmoto M., Sano J., Tsunoda H., Yamaguchi K.;
+RT   "Structural analysis of the TNIT4 genes encoding nitrilase-like protein
+RT   from tobacco.";
+RL   DNA Res. 6:313-317(1999).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=11060302; DOI=10.1074/jbc.m007890200;
+RA   Piotrowski M., Schoenfelder S., Weiler E.W.;
+RT   "The Arabidopsis thaliana isogene NIT4 and its orthologs in tobacco encode
+RT   beta-cyano-L-alanine hydratase/nitrilase.";
+RL   J. Biol. Chem. 276:2616-2621(2001).
+CC   -!- FUNCTION: Highly specific for beta-cyano-L-alanine (Ala(CN)). Low
+CC       activity with 3-phenylpropionitrile (PPN). Not associated with auxin
+CC       production but may be involved in cyanide detoxification.
+CC       {ECO:0000269|PubMed:10574458, ECO:0000269|PubMed:11060302}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a nitrile + 2 H2O = a carboxylate + NH4(+);
+CC         Xref=Rhea:RHEA:21724, ChEBI:CHEBI:15377, ChEBI:CHEBI:18379,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29067; EC=3.5.5.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10105};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-cyano-L-alanine + 2 H2O = L-aspartate + NH4(+);
+CC         Xref=Rhea:RHEA:11188, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29991, ChEBI:CHEBI:77860; EC=3.5.5.4;
+CC   -!- TISSUE SPECIFICITY: Expressed in roots, stems, cotyledons, leaves and
+CC       flowers. {ECO:0000269|PubMed:10574458}.
+CC   -!- INDUCTION: Not induced by abscisic acid or by 1-aminocyclopropane-1-
+CC       carboxylic acid (ACC). {ECO:0000269|PubMed:10574458}.
+CC   -!- SIMILARITY: Belongs to the carbon-nitrogen hydrolase superfamily.
+CC       Nitrilase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D83078; BAA11770.1; -; mRNA.
+DR   PIR; T03739; T03739.
+DR   RefSeq; NP_001313199.1; NM_001326270.1.
+DR   SMR; Q42966; -.
+DR   GeneID; 107832013; -.
+DR   KEGG; nta:107832013; -.
+DR   OMA; TMRHIAL; -.
+DR   Proteomes; UP000084051; Genome assembly.
+DR   GO; GO:0047427; F:cyanoalanine nitrilase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080061; F:indole-3-acetonitrile nitrilase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000257; F:nitrilase activity; IBA:GO_Central.
+DR   GO; GO:0018822; F:nitrile hydratase activity; IBA:GO_Central.
+DR   GO; GO:0051410; P:detoxification of nitrogen compound; IBA:GO_Central.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IEA:InterPro.
+DR   CDD; cd07564; nitrilases_CHs; 1.
+DR   Gene3D; 3.60.110.10; -; 1.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   InterPro; IPR036526; C-N_Hydrolase_sf.
+DR   InterPro; IPR000132; Nitrilase/CN_hydratase_CS.
+DR   InterPro; IPR044149; Nitrilases_CHs.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; SSF56317; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+DR   PROSITE; PS00920; NITRIL_CHT_1; 1.
+DR   PROSITE; PS00921; NITRIL_CHT_2; 1.
+PE   2: Evidence at transcript level;
+KW   Hydrolase; Reference proteome.
+FT   CHAIN           1..348
+FT                   /note="Bifunctional nitrilase/nitrile hydratase NIT4B"
+FT                   /id="PRO_0000352512"
+FT   DOMAIN          29..300
+FT                   /note="CN hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   COMPBIAS        249..252
+FT                   /note="Poly-Pro"
+FT   ACT_SITE        69
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        156
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        190
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054,
+FT                   ECO:0000255|PROSITE-ProRule:PRU10105"
+SQ   SEQUENCE   348 AA;  37534 MW;  C60EE246CB87D793 CRC64;
+     MALVPTPVVN EGPMFAEVDM GDNSSTPTVR ATVVQASTIF YDTPATLDKA ERLLAEAASY
+     GAQLVVFPEA FIGGYPRGST FGVSIGNRTA KGKEEFRKYH ASAIDVPGPE VDRLAAMAGK
+     YKVYLVMGVI ERDGYTLYCT VLFFDSQGHY LGKHRKIMPT ALERIIWGFG DGSTIPVYDT
+     PLGKIGAAIC WENRMPLLRT AMYAKGIEIY CAPTADSRDV WQASMTHIAL EGGCFVLSAN
+     QFCRRKDYPP PPEYVFSGTE DLTPDSIVCA GGSVIISPSG AVLAGPNYEG EALISADLDL
+     GEIARAKFDF DVVGHYARPE VLSLIVRDHA VSPVSFTSTS SKAESSPK
+//

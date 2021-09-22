@@ -1,0 +1,114 @@
+ID   ASTB_SALTY              Reviewed;         447 AA.
+AC   Q8ZPU9;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 99.
+DE   RecName: Full=N-succinylarginine dihydrolase {ECO:0000255|HAMAP-Rule:MF_01172};
+DE            EC=3.5.3.23 {ECO:0000255|HAMAP-Rule:MF_01172};
+GN   Name=astB {ECO:0000255|HAMAP-Rule:MF_01172}; OrderedLocusNames=STM1306;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2]
+RP   INDUCTION.
+RX   PubMed=10074092; DOI=10.1128/jb.181.6.1934-1938.1999;
+RA   Lu C.-D., Abdelal A.T.;
+RT   "Role of ArgR in activation of the ast operon, encoding enzymes of the
+RT   arginine succinyltransferase pathway in Salmonella typhimurium.";
+RL   J. Bacteriol. 181:1934-1938(1999).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of N(2)-succinylarginine into N(2)-
+CC       succinylornithine, ammonia and CO(2). {ECO:0000255|HAMAP-
+CC       Rule:MF_01172}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + 2 H2O + N(2)-succinyl-L-arginine = CO2 + N(2)-
+CC         succinyl-L-ornithine + 2 NH4(+); Xref=Rhea:RHEA:19533,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:58241, ChEBI:CHEBI:58514; EC=3.5.3.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01172};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via AST
+CC       pathway; L-glutamate and succinate from L-arginine: step 2/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   -!- INDUCTION: By nitrogen and carbon starvation, and arginine, via the
+CC       ArgR and Crp transcriptional regulators. {ECO:0000269|PubMed:10074092}.
+CC   -!- SIMILARITY: Belongs to the succinylarginine dihydrolase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL20231.1; -; Genomic_DNA.
+DR   RefSeq; NP_460272.1; NC_003197.2.
+DR   RefSeq; WP_000123950.1; NC_003197.2.
+DR   SMR; Q8ZPU9; -.
+DR   PaxDb; Q8ZPU9; -.
+DR   EnsemblBacteria; AAL20231; AAL20231; STM1306.
+DR   GeneID; 1252824; -.
+DR   KEGG; stm:STM1306; -.
+DR   PATRIC; fig|99287.12.peg.1388; -.
+DR   HOGENOM; CLU_053835_0_0_6; -.
+DR   OMA; TLNDWVD; -.
+DR   PhylomeDB; Q8ZPU9; -.
+DR   UniPathway; UPA00185; UER00280.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0009015; F:N-succinylarginine dihydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019544; P:arginine catabolic process to glutamate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019545; P:arginine catabolic process to succinate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.75.10.20; -; 1.
+DR   HAMAP; MF_01172; AstB; 1.
+DR   InterPro; IPR037031; AstB_sf.
+DR   InterPro; IPR007079; SuccinylArg_d-Hdrlase_AstB.
+DR   Pfam; PF04996; AstB; 1.
+DR   TIGRFAMs; TIGR03241; arg_catab_astB; 1.
+PE   2: Evidence at transcript level;
+KW   Arginine metabolism; Hydrolase; Reference proteome.
+FT   CHAIN           1..447
+FT                   /note="N-succinylarginine dihydrolase"
+FT                   /id="PRO_0000262373"
+FT   REGION          19..28
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   REGION          137..138
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        174
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        248
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        365
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         110
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         212
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         250
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         359
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+SQ   SEQUENCE   447 AA;  49192 MW;  B1C7296EBD1D7C9C CRC64;
+     MTAHEVNFDG LVGLTHHYAG LSFGNEASTR HRFQVSNPRL AVKQGLLKMK ALADAGFPQA
+     VIPPHERPFI PALRQLGFTG SDEQILDKVA RQAPRWLSSV SSASPMWVAN AATVCPSADA
+     LDGKVHLTVA NLNNKFHRAL EAPVTEALLR AIFRDESQFS VHSALPQVAL LGDEGAANHN
+     RLGGEYGSAG VQLFVYGREE ENEIRPARYP ARQSREASEA VARLNQVNPQ QVIFAQQNPE
+     VIDQGVFHND VIAVSNRQVL FCHEAAFARQ KVLINQLRTR VDGFMAIEVP AGEVSVSDAV
+     ATYLFNSQLL SRNDGLMLLV LPRECQDHVG VWRYLNKLVA EDNPISAMQV FDLRESMANG
+     GGPACLRLRV VLTEEERRAV NPAVMMNDAL FTALNAWADR YYRDRLTAAD LADPLLLREG
+     REALDVLTRL LDLGSVYPFQ QTGAADG
+//

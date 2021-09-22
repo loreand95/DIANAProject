@@ -1,0 +1,91 @@
+ID   DGTP_SALEP              Reviewed;         505 AA.
+AC   B5R3H2;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   04-NOV-2008, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Deoxyguanosinetriphosphate triphosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00030};
+DE            Short=dGTP triphosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00030};
+DE            Short=dGTPase {ECO:0000255|HAMAP-Rule:MF_00030};
+DE            EC=3.1.5.1 {ECO:0000255|HAMAP-Rule:MF_00030};
+GN   Name=dgt {ECO:0000255|HAMAP-Rule:MF_00030}; OrderedLocusNames=SEN0213;
+OS   Salmonella enteritidis PT4 (strain P125109).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=550537;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=P125109;
+RX   PubMed=18583645; DOI=10.1101/gr.077404.108;
+RA   Thomson N.R., Clayton D.J., Windhorst D., Vernikos G., Davidson S.,
+RA   Churcher C., Quail M.A., Stevens M., Jones M.A., Watson M., Barron A.,
+RA   Layton A., Pickard D., Kingsley R.A., Bignell A., Clark L., Harris B.,
+RA   Ormond D., Abdellah Z., Brooks K., Cherevach I., Chillingworth T.,
+RA   Woodward J., Norberczak H., Lord A., Arrowsmith C., Jagels K., Moule S.,
+RA   Mungall K., Saunders M., Whitehead S., Chabalgoity J.A., Maskell D.,
+RA   Humphreys T., Roberts M., Barrow P.A., Dougan G., Parkhill J.;
+RT   "Comparative genome analysis of Salmonella enteritidis PT4 and Salmonella
+RT   gallinarum 287/91 provides insights into evolutionary and host adaptation
+RT   pathways.";
+RL   Genome Res. 18:1624-1637(2008).
+CC   -!- FUNCTION: dGTPase preferentially hydrolyzes dGTP over the other
+CC       canonical NTPs. {ECO:0000255|HAMAP-Rule:MF_00030}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dGTP + H2O = 2'-deoxyguanosine + H(+) + triphosphate;
+CC         Xref=Rhea:RHEA:15193, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17172, ChEBI:CHEBI:18036, ChEBI:CHEBI:61429; EC=3.1.5.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00030};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00030};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00030}.
+CC   -!- SIMILARITY: Belongs to the dGTPase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00030}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM933172; CAR31801.1; -; Genomic_DNA.
+DR   RefSeq; WP_000146451.1; NC_011294.1.
+DR   SMR; B5R3H2; -.
+DR   KEGG; set:SEN0213; -.
+DR   HOGENOM; CLU_028163_2_1_6; -.
+DR   OMA; HSGEKAI; -.
+DR   BioCyc; SENT550537:G1G1W-224-MONOMER; -.
+DR   Proteomes; UP000000613; Chromosome.
+DR   GO; GO:0008832; F:dGTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006203; P:dGTP catabolic process; IEA:InterPro.
+DR   CDD; cd00077; HDc; 1.
+DR   Gene3D; 1.10.3410.10; -; 1.
+DR   HAMAP; MF_00030; dGTPase_type1; 1.
+DR   InterPro; IPR023293; dGTP_triP_hydro_central_sf.
+DR   InterPro; IPR006261; dNTPase.
+DR   InterPro; IPR020779; dNTPase_1.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR026875; PHydrolase_assoc_dom.
+DR   PANTHER; PTHR11373:SF32; PTHR11373:SF32; 1.
+DR   Pfam; PF01966; HD; 1.
+DR   Pfam; PF13286; HD_assoc; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   TIGRFAMs; TIGR01353; dGTP_triPase; 1.
+DR   PROSITE; PS51831; HD; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium.
+FT   CHAIN           1..505
+FT                   /note="Deoxyguanosinetriphosphate triphosphohydrolase"
+FT                   /id="PRO_1000090262"
+FT   DOMAIN          66..273
+FT                   /note="HD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01175"
+SQ   SEQUENCE   505 AA;  59417 MW;  64DE68C60ACD7E20 CRC64;
+     MASIDFRNKI NWHRRYRSPQ GVKTEHEILR IFESDRGRII NSPAIRRLQQ KTQVFPLERN
+     AAVRTRLTHS MEVQQVGRYI AKEILSRLKE QNRLEEYGLD ALTGPFESIV EMACLMHDIG
+     NPPFGHFGEA AINDWFRQRL HPEDAESQPL THDRCVVSSL RLQEGEENLN DIRRKVRQDI
+     CHFEGNAQGI RLVHTLMRMN LTWAQVGGIL KYTRPAWWRG PVPDSHRYLM KKPGYYLSEE
+     KYIARLRKEL QLAPYSRFPL TWIMEAADDI SYCVADLEDA VEKRIFSVEQ LYHHLYHAWG
+     HHEKDSLFEL VVGNAWEKSR ANTLSRSTED QFFMYLRVNT LNKLVPYAAQ RFIDNLPQIF
+     AGTFNQALLE DASGFSRLLG LYKNVAVEHV FSHPDVEQLE LQGYRVISGL LDIYQPLLSL
+     SLNDFRELVE KERLKRFPIE SRLFQKLSTR HRLAYVEVVS KLPTDSAEYP VLEYYYRCRL
+     IQDYISGMTD LYAWDEYRRL MAVEQ
+//

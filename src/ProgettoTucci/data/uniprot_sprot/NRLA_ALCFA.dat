@@ -1,0 +1,94 @@
+ID   NRLA_ALCFA              Reviewed;         356 AA.
+AC   P20960;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 2.
+DT   10-FEB-2021, entry version 87.
+DE   RecName: Full=Nitrilase, arylacetone-specific;
+DE            EC=3.5.5.1;
+DE   AltName: Full=Arylacetonitrilase;
+OS   Alcaligenes faecalis.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Alcaligenes.
+OX   NCBI_TaxID=511;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PARTIAL PROTEIN SEQUENCE, AND
+RP   MUTAGENESIS OF CYS-162 AND CYS-163.
+RC   STRAIN=JM3;
+RX   PubMed=8419930; DOI=10.1073/pnas.90.1.247;
+RA   Kobayashi M., Izui H., Nagasawa T., Yamada H.;
+RT   "Nitrilase in biosynthesis of the plant hormone indole-3-acetic acid from
+RT   indole-3-acetonitrile: cloning of the Alcaligenes gene and site-directed
+RT   mutagenesis of cysteine residues.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 90:247-251(1993).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 1-33.
+RC   STRAIN=JM3;
+RX   PubMed=2269298; DOI=10.1111/j.1432-1033.1990.tb19467.x;
+RA   Nagasawa T., Mauger J., Yamada H.;
+RT   "A novel nitrilase, arylacetonitrilase, of Alcaligenes faecalis JM3.
+RT   Purification and characterization.";
+RL   Eur. J. Biochem. 194:765-772(1990).
+CC   -!- FUNCTION: Nitrilase that acts mostly on arylacetonitriles.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a nitrile + 2 H2O = a carboxylate + NH4(+);
+CC         Xref=Rhea:RHEA:21724, ChEBI:CHEBI:15377, ChEBI:CHEBI:18379,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:29067; EC=3.5.5.1;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10105};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the carbon-nitrogen hydrolase superfamily.
+CC       Nitrilase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D13419; BAA02684.1; -; Genomic_DNA.
+DR   PIR; A47181; A47181.
+DR   RefSeq; WP_042484030.1; NZ_CYTB01000001.1.
+DR   STRING; 511.JT27_09845; -.
+DR   KEGG; ag:BAA02684; -.
+DR   eggNOG; COG0388; Bacteria.
+DR   BioCyc; MetaCyc:MONOMER-11587; -.
+DR   BRENDA; 3.5.5.1; 232.
+DR   GO; GO:0080061; F:indole-3-acetonitrile nitrilase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IEA:InterPro.
+DR   CDD; cd07564; nitrilases_CHs; 1.
+DR   Gene3D; 3.60.110.10; -; 1.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   InterPro; IPR036526; C-N_Hydrolase_sf.
+DR   InterPro; IPR000132; Nitrilase/CN_hydratase_CS.
+DR   InterPro; IPR044149; Nitrilases_CHs.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; SSF56317; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+DR   PROSITE; PS00920; NITRIL_CHT_1; 1.
+DR   PROSITE; PS00921; NITRIL_CHT_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hydrolase.
+FT   CHAIN           1..356
+FT                   /note="Nitrilase, arylacetone-specific"
+FT                   /id="PRO_0000204042"
+FT   DOMAIN          7..280
+FT                   /note="CN hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        47
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        129
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00054"
+FT   ACT_SITE        163
+FT                   /note="Nucleophile"
+FT   MUTAGEN         162
+FT                   /note="C->N: Increase of activity."
+FT                   /evidence="ECO:0000269|PubMed:8419930"
+FT   MUTAGEN         163
+FT                   /note="C->A: 100% loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:8419930"
+SQ   SEQUENCE   356 AA;  38908 MW;  2195465A38D40FF8 CRC64;
+     MQTRKIVRAA AVQAASPNYD LATGVDKTIE LARQARDEGC DLIVFGETWL PGYPFHVWLG
+     APAWSLKYSA RYYANSLSLD SAEFQRIAQA ARTLGIFIAL GYSERSGGSL YLGQCLIDDK
+     GQMLWSRRKL KPTHVERTVF GEGYARDLIV SDTELGRVGA LCCWEHLSPL SKYALYSQHE
+     AIHIAAWPSF SLYSEQAHAL SAKVNMAASQ IYSVEGQCFT IAASSVVTQE TLDMLEVGEH
+     NASLLKVGGG SSMIFAPDGR TLAPYLPHDA EGLIIADLNM EEIAFAKAIN DPVGHYSKPE
+     ATRLVLDLGH REPMTRVHSK SVIQEEAPEP HVQSTAAPVA VSQTQDSDTL LVQEPS
+//

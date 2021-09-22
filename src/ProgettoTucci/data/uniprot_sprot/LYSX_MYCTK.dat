@@ -1,0 +1,169 @@
+ID   LYSX_MYCTK              Reviewed;        1174 AA.
+AC   C6DS31;
+DT   18-MAY-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-SEP-2009, sequence version 1.
+DT   07-APR-2021, entry version 73.
+DE   RecName: Full=Lysylphosphatidylglycerol biosynthesis bifunctional protein LysX;
+DE   Includes:
+DE     RecName: Full=Lysine--tRNA ligase;
+DE              EC=6.1.1.6;
+DE     AltName: Full=Lysyl-tRNA synthetase;
+DE              Short=LysRS;
+DE   Includes:
+DE     RecName: Full=Phosphatidylglycerol lysyltransferase;
+DE              EC=2.3.2.3;
+DE     AltName: Full=Lysylphosphatidylglycerol synthetase;
+DE              Short=LPG synthetase;
+GN   Name=lysX; OrderedLocusNames=TBMG_02353;
+OS   Mycobacterium tuberculosis (strain KZN 1435 / MDR).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=478434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KZN 1435 / MDR;
+RA   Murray M., Pillay M., Borowsky M.L., Young S.K., Zeng Q., Koehrsen M.,
+RA   Alvarado L., Berlin A.M., Borenstein D., Chen Z., Engels R., Freedman E.,
+RA   Gellesch M., Goldberg J., Griggs A., Gujja S., Heiman D.I., Hepburn T.A.,
+RA   Howarth C., Jen D., Larson L., Lewis B., Mehta T., Park D., Pearson M.,
+RA   Roberts A., Saif S., Shea T.D., Shenoy N., Sisk P., Stolte C., Sykes S.N.,
+RA   Walk T., White J., Yandava C., Haas B., Nusbaum C., Galagan J., Birren B.;
+RT   "The genome sequence of Mycobacterium tuberculosis strain KZN 1435.";
+RL   Submitted (JUL-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the production of L-lysyl-tRNA(Lys)transfer and the
+CC       transfer of a lysyl group from L-lysyl-tRNA(Lys) to membrane-bound
+CC       phosphatidylglycerol (PG), which produces lysylphosphatidylglycerol
+CC       (LPG), one of the components of the bacterial membrane with a positive
+CC       net charge. LPG synthesis contributes to the resistance to cationic
+CC       antimicrobial peptides (CAMPs) and likely protects M.tuberculosis
+CC       against the CAMPs produced by competiting microorganisms
+CC       (bacteriocins). In fact, the modification of anionic
+CC       phosphatidylglycerol with positively charged L-lysine results in
+CC       repulsion of the peptides (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-lysine + tRNA(Lys) = AMP + diphosphate + L-lysyl-
+CC         tRNA(Lys); Xref=Rhea:RHEA:20792, Rhea:RHEA-COMP:9696, Rhea:RHEA-
+CC         COMP:9697, ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529, ChEBI:CHEBI:456215; EC=6.1.1.6;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + L-lysyl-
+CC         tRNA(Lys) = 1,2-diacyl-sn-glycero-3-phospho-1'-(3'-O-L-lysyl)-sn-
+CC         glycerol + tRNA(Lys); Xref=Rhea:RHEA:10668, Rhea:RHEA-COMP:9696,
+CC         Rhea:RHEA-COMP:9697, ChEBI:CHEBI:64716, ChEBI:CHEBI:75792,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529; EC=2.3.2.3;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the LPG synthetase
+CC       family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the class-II
+CC       aminoacyl-tRNA synthetase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001658; ACT25426.1; -; Genomic_DNA.
+DR   SMR; C6DS31; -.
+DR   KEGG; mtb:TBMG_02353; -.
+DR   HOGENOM; CLU_008255_2_0_11; -.
+DR   OMA; DISGEWP; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004824; F:lysine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050071; F:lysyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006430; P:lysyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   CDD; cd04322; LysRS_N; 1.
+DR   HAMAP; MF_00252; Lys_tRNA_synth_class2; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR024320; LPG_synthase_C.
+DR   InterPro; IPR002313; Lys-tRNA-ligase_II.
+DR   InterPro; IPR044136; Lys-tRNA-ligase_II_N.
+DR   InterPro; IPR018149; Lys-tRNA-synth_II_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   InterPro; IPR031553; tRNA-synt_2_TM.
+DR   Pfam; PF09924; DUF2156; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF16995; tRNA-synt_2_TM; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR00982; TRNASYNTHLYS.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00499; lysS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; Antibiotic resistance; ATP-binding;
+KW   Cell membrane; DNA-binding; Ligase; Lipid metabolism; Magnesium; Membrane;
+KW   Metal-binding; Multifunctional enzyme; Nucleotide-binding; Transferase;
+KW   Transmembrane; Transmembrane helix; Virulence.
+FT   CHAIN           1..1174
+FT                   /note="Lysylphosphatidylglycerol biosynthesis bifunctional
+FT                   protein LysX"
+FT                   /id="PRO_0000394330"
+FT   TRANSMEM        82..102
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        124..144
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        148..168
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        179..199
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        216..236
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        274..294
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        614..634
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DNA_BIND        728..806
+FT                   /note="OB"
+FT   REGION          1..665
+FT                   /note="Phosphatidylglycerol lysyltransferase"
+FT   REGION          666..1174
+FT                   /note="Lysine--tRNA ligase"
+FT   METAL           1086
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           1093
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           1093
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1174 AA;  128396 MW;  C674E65773AF1266 CRC64;
+     MGVGLHLTVP GLRRDGRGVQ SNSHDTSSKT TADISRCPQH TDAGLQRAAT PGISRLLGIS
+     SRSVTLTKPR SATRGNSRYH WVPAAAGWTV GVIATLSLLA SVSPLIRWII KVPREFINDY
+     LFNFPDTNFA WSFVLALLAA ALTARKRIAW LVLLANMVLA AVVNAAEIAA GGNTAAESFG
+     ENLGFAVHVV AIVVLVLGYR EFWAKVRRGA LFRAAAVWLA GAVVGIVASW GLVELFPGSL
+     APDERLGYAA NRVVGFALAD PDLFTGRPHV FLNAIFGLFG AFALIGAAIV LFLSQRADNA
+     LTGEDESAIR GLLDLYGKDD SLGYFATRRD KSVVFASSGR ACITYRVEVG VCLASGDPVG
+     DHRAWPQAVD AWLRLCQTYG WAPGVMGASS QGAQTYREAG LTALELGDEA ILRPADFKLS
+     GPEMRGVRQA VTRARRAGLT VRIRRHRDIA EDEMAQTITR ADSWRDTETE RGFSMALGRL
+     GDPADSDCLL VEAIDPHNQV LAMLSLVPWG TTGVSLDLMR RSPQSPNGTI ELMVSELALH
+     AESLGITRIS LNFAVFRAAF EQGAQLGAGP VARLWRGLLV FFSRWWQLET LYRSNMKYQP
+     EWVPRYACYE DARVIPRVGV ASVIAEGFLV LPFSRRNRVH TGHHPAVPER LAATGLLHHD
+     GSAPDVSGLR QVGLTNGDGV ERRLPEQVRV RFDKLEKLRS SGIDAFPVGR PPSHTVAQAL
+     AADHQASVSV SGRIMRIRNY GGVLFAQLRD WSGEMQVLLD NSRLDQGCAA DFNAATDLGD
+     LVEMTGHMGA SKTGTPSLIV SGWRLIGKCL RPLPNKWKGL LDPEARVRTR YLDLAVNAES
+     RALITARSSV LRAVRETLFA KGFVEVETPI LQQLHGGATA RPFVTHINTY SMDLFLRIAP
+     ELYLKRLCVG GVERVFELGR AFRNEGVDFS HNPEFTLLEA YQAHADYLEW IDGCRELIQN
+     AAQAANGAPI AMRPRTDKGS DGTRHHLEPV DISGIWPVRT VHDAISEALG ERIDADTGLT
+     TLRKLCDAAG VPYRTQWDAG AVVLELYEHL VECRTEQPTF YIDFPTSVSP LTRPHRSKRG
+     VAERWDLVAW GIELGTAYSE LTDPVEQRRR LQEQSLLAAG GDPEAMELDE DFLQAMEYAM
+     PPTGGLGMGI DRVVMLITGR SIRETLPFPL AKPH
+//

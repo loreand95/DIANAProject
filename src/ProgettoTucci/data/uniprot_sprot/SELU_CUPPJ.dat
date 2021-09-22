@@ -1,0 +1,92 @@
+ID   SELU_CUPPJ              Reviewed;         366 AA.
+AC   Q476K0;
+DT   06-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   10-FEB-2021, entry version 95.
+DE   RecName: Full=tRNA 2-selenouridine synthase {ECO:0000255|HAMAP-Rule:MF_01622};
+DE            EC=2.9.1.3 {ECO:0000255|HAMAP-Rule:MF_01622};
+GN   Name=selU {ECO:0000255|HAMAP-Rule:MF_01622}; OrderedLocusNames=Reut_A0301;
+OS   Cupriavidus pinatubonensis (strain JMP 134 / LMG 1197) (Cupriavidus necator
+OS   (strain JMP 134)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Cupriavidus.
+OX   NCBI_TaxID=264198;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JMP134 / LMG 1197;
+RX   PubMed=20339589; DOI=10.1371/journal.pone.0009729;
+RA   Lykidis A., Perez-Pantoja D., Ledger T., Mavromatis K., Anderson I.J.,
+RA   Ivanova N.N., Hooper S.D., Lapidus A., Lucas S., Gonzalez B.,
+RA   Kyrpides N.C.;
+RT   "The complete multipartite genome sequence of Cupriavidus necator JMP134, a
+RT   versatile pollutant degrader.";
+RL   PLoS ONE 5:E9729-E9729(2010).
+CC   -!- FUNCTION: Involved in the post-transcriptional modification of the
+CC       uridine at the wobble position (U34) of tRNA(Lys), tRNA(Glu) and
+CC       tRNA(Gln). Catalyzes the conversion of 2-thiouridine (S2U-RNA) to 2-
+CC       selenouridine (Se2U-RNA). Acts in a two-step process involving
+CC       geranylation of 2-thiouridine (S2U) to S-geranyl-2-thiouridine (geS2U)
+CC       and subsequent selenation of the latter derivative to 2-selenouridine
+CC       (Se2U) in the tRNA chain. {ECO:0000255|HAMAP-Rule:MF_01622}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-geranyl diphosphate + 5-methylaminomethyl-2-
+CC         thiouridine(34) in tRNA + H(+) + H2O + selenophosphate = (2E)-
+CC         thiogeraniol + 5-methylaminomethyl-2-selenouridine(34) in tRNA +
+CC         diphosphate + phosphate; Xref=Rhea:RHEA:42716, Rhea:RHEA-COMP:10195,
+CC         Rhea:RHEA-COMP:10196, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16144, ChEBI:CHEBI:33019, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58057, ChEBI:CHEBI:74455, ChEBI:CHEBI:82743,
+CC         ChEBI:CHEBI:143703; EC=2.9.1.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01622};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:42717;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01622};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01622}.
+CC   -!- SIMILARITY: Belongs to the SelU family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01622}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000090; AAZ59683.1; -; Genomic_DNA.
+DR   RefSeq; WP_011296491.1; NC_007347.1.
+DR   SMR; Q476K0; -.
+DR   STRING; 264198.Reut_A0301; -.
+DR   EnsemblBacteria; AAZ59683; AAZ59683; Reut_A0301.
+DR   KEGG; reu:Reut_A0301; -.
+DR   eggNOG; COG2603; Bacteria.
+DR   HOGENOM; CLU_043456_1_0_4; -.
+DR   OMA; RPLVYCW; -.
+DR   OrthoDB; 1052499at2; -.
+DR   Proteomes; UP000002697; Chromosome 1.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043828; F:tRNA 2-selenouridine synthase activity; IEA:InterPro.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.250.10; -; 1.
+DR   HAMAP; MF_01622; tRNA_sel_U_synth; 1.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   InterPro; IPR036873; Rhodanese-like_dom_sf.
+DR   InterPro; IPR017582; SelU.
+DR   SMART; SM00450; RHOD; 1.
+DR   SUPFAM; SSF52821; SSF52821; 1.
+DR   TIGRFAMs; TIGR03167; tRNA_sel_U_synt; 1.
+DR   PROSITE; PS50206; RHODANESE_3; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome; Selenium; Transferase.
+FT   CHAIN           1..366
+FT                   /note="tRNA 2-selenouridine synthase"
+FT                   /id="PRO_0000210870"
+FT   DOMAIN          12..136
+FT                   /note="Rhodanese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01622"
+FT   ACT_SITE        95
+FT                   /note="S-selanylcysteine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01622"
+SQ   SEQUENCE   366 AA;  41128 MW;  16C3FE71414FC7DD CRC64;
+     MREDTGDFRR LFLSGTPMMD VRAPLEFARG AFPGTVNLPL MDDEERHQVG LCYAEKGQHA
+     AIELGHRLVW GALKATRIAQ WADFARAHPD GYLYCFRGGL RSQIVQQWLR DEAGIDYPRV
+     TGGYKAMRGF LIDVIEQAAA KQDFLVLGGL TGTGKTDVIA EVPAAVDLEG LACHRGSAFG
+     RRAQPQPQQI DFENSLAIDV LQRAEAGYRA LVVEDEGRFI GGRDLPKVLW QRMQASPMVW
+     LEASFEERVE RVLRDYVLGL AAEHIEQLGP VAGFEAYATR LRDAMAAISP RLGSERYGRL
+     SALLEQALTS QSERGETAPH RAWIEVLLRD YYDPMYAYQE EKRAARVVFR GDRAAVTDWL
+     RERSAR
+//

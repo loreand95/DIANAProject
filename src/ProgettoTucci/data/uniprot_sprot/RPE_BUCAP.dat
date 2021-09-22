@@ -1,0 +1,109 @@
+ID   RPE_BUCAP               Reviewed;         228 AA.
+AC   Q8K940;
+DT   15-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Ribulose-phosphate 3-epimerase {ECO:0000255|HAMAP-Rule:MF_02227};
+DE            EC=5.1.3.1 {ECO:0000255|HAMAP-Rule:MF_02227};
+GN   Name=rpe {ECO:0000255|HAMAP-Rule:MF_02227}; OrderedLocusNames=BUsg_518;
+OS   Buchnera aphidicola subsp. Schizaphis graminum (strain Sg).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Erwiniaceae; Buchnera.
+OX   NCBI_TaxID=198804;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sg;
+RX   PubMed=12089438; DOI=10.1126/science.1071278;
+RA   Tamas I., Klasson L., Canbaeck B., Naeslund A.K., Eriksson A.-S.,
+RA   Wernegreen J.J., Sandstroem J.P., Moran N.A., Andersson S.G.E.;
+RT   "50 million years of genomic stasis in endosymbiotic bacteria.";
+RL   Science 296:2376-2379(2002).
+CC   -!- FUNCTION: Catalyzes the reversible epimerization of D-ribulose 5-
+CC       phosphate to D-xylulose 5-phosphate. {ECO:0000255|HAMAP-Rule:MF_02227}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribulose 5-phosphate = D-xylulose 5-phosphate;
+CC         Xref=Rhea:RHEA:13677, ChEBI:CHEBI:57737, ChEBI:CHEBI:58121;
+CC         EC=5.1.3.1; Evidence={ECO:0000255|HAMAP-Rule:MF_02227};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02227};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_02227};
+CC   -!- PATHWAY: Carbohydrate degradation. {ECO:0000255|HAMAP-Rule:MF_02227}.
+CC   -!- SIMILARITY: Belongs to the ribulose-phosphate 3-epimerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_02227}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE013218; AAM68061.1; -; Genomic_DNA.
+DR   RefSeq; WP_011054027.1; NC_004061.1.
+DR   SMR; Q8K940; -.
+DR   STRING; 198804.BUsg_518; -.
+DR   EnsemblBacteria; AAM68061; AAM68061; BUsg_518.
+DR   KEGG; bas:BUsg_518; -.
+DR   eggNOG; COG0036; Bacteria.
+DR   HOGENOM; CLU_054856_2_1_6; -.
+DR   OMA; WLQVDGG; -.
+DR   OrthoDB; 1697639at2; -.
+DR   BioCyc; BAPH198804:G1FZU-548-MONOMER; -.
+DR   Proteomes; UP000000416; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004750; F:ribulose-phosphate 3-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019323; P:pentose catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:InterPro.
+DR   CDD; cd00429; RPE; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_02227; RPE; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR026019; Ribul_P_3_epim.
+DR   InterPro; IPR000056; Ribul_P_3_epim-like.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   PANTHER; PTHR11749; PTHR11749; 1.
+DR   Pfam; PF00834; Ribul_P_3_epim; 1.
+DR   PIRSF; PIRSF001461; RPE; 1.
+DR   SUPFAM; SSF51366; SSF51366; 1.
+DR   TIGRFAMs; TIGR01163; rpe; 1.
+DR   PROSITE; PS01085; RIBUL_P_3_EPIMER_1; 1.
+DR   PROSITE; PS01086; RIBUL_P_3_EPIMER_2; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Isomerase; Metal-binding.
+FT   CHAIN           1..228
+FT                   /note="Ribulose-phosphate 3-epimerase"
+FT                   /id="PRO_0000171563"
+FT   REGION          177..179
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   REGION          199..200
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   ACT_SITE        36
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   ACT_SITE        177
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   METAL           34
+FT                   /note="Divalent metal cation; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   METAL           36
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   METAL           68
+FT                   /note="Divalent metal cation; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   METAL           177
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   BINDING         9
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+FT   BINDING         68
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02227"
+SQ   SEQUENCE   228 AA;  25399 MW;  01B1BACA88C902D5 CRC64;
+     MKKFFLASSI LSADFARLGE DTKKAIDAGS DWIHFDVMDN HYVPNLTMGP MILKALRNYN
+     ITVPIDVHLM VKPVDNLIPQ FAEAGADFIT FHPESTDHID RTLNLIKECG CKAGLALNPA
+     TSLNFLDYVM EKLDLILLMS VNPGFGNQSF LPTSFNKLRE VRKKIELNSS NILLEVDGGV
+     KLENISEVAF SGANVFVIGS GIFGYTDYNV IIKKIRKKLK NVYSTSIH
+//

@@ -1,0 +1,104 @@
+ID   ARGB_ECOK1              Reviewed;         258 AA.
+AC   A1AID7;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 2.
+DT   10-FEB-2021, entry version 81.
+DE   RecName: Full=Acetylglutamate kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            EC=2.7.2.8 {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=N-acetyl-L-glutamate 5-phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=NAG kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            Short=NAGK {ECO:0000255|HAMAP-Rule:MF_00082};
+GN   Name=argB {ECO:0000255|HAMAP-Rule:MF_00082}; OrderedLocusNames=Ecok1_39330;
+GN   ORFNames=APECO1_2508;
+OS   Escherichia coli O1:K1 / APEC.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=405955;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17293413; DOI=10.1128/jb.01726-06;
+RA   Johnson T.J., Kariyawasam S., Wannemuehler Y., Mangiamele P., Johnson S.J.,
+RA   Doetkott C., Skyberg J.A., Lynne A.M., Johnson J.R., Nolan L.K.;
+RT   "The genome sequence of avian pathogenic Escherichia coli strain O1:K1:H7
+RT   shares strong similarities with human extraintestinal pathogenic E. coli
+RT   genomes.";
+RL   J. Bacteriol. 189:3228-3236(2007).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent phosphorylation of N-acetyl-L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamyl 5-
+CC         phosphate; Xref=Rhea:RHEA:14629, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57936, ChEBI:CHEBI:456216; EC=2.7.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00082};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00082}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- SIMILARITY: Belongs to the acetylglutamate kinase family. ArgB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABJ03427.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000468; ABJ03427.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_001302318.1; NC_008563.1.
+DR   SMR; A1AID7; -.
+DR   EnsemblBacteria; ABJ03427; ABJ03427; APECO1_2508.
+DR   GeneID; 57732201; -.
+DR   KEGG; ecv:APECO1_2508; -.
+DR   HOGENOM; CLU_053680_1_1_6; -.
+DR   UniPathway; UPA00068; UER00107.
+DR   Proteomes; UP000008216; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003991; F:acetylglutamate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:UniProtKB-UniRule.
+DR   CDD; cd04249; AAK_NAGK-NC; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_00082; ArgB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR004662; AcgluKinase_fam.
+DR   InterPro; IPR037528; ArgB.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR041731; NAGK-NC.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF000728; NAGK; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR00761; argB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding; Cytoplasm;
+KW   Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..258
+FT                   /note="Acetylglutamate kinase"
+FT                   /id="PRO_0000335631"
+FT   NP_BIND         181..186
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   NP_BIND         209..211
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   REGION          44..45
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         66
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         158
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            8
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            217
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+SQ   SEQUENCE   258 AA;  27160 MW;  8B916B8CBC143738 CRC64;
+     MMNPLIIKLG GVLLDSEEAL ERLFSALVNY RESHQRPLVI VHGGGCVVDE LMKGLNLPVK
+     KKNGLRVTPA DQIDIITGAL AGTANKTLLA WAKKHQIAAV GLFLGDGDSV KVTQLDEELG
+     HVGLAQPGSP KLINSLLENG YLPVVSSIGV TDEGQLMNVN ADQAATALAA TLGADLILLS
+     DVSGILDGKG QRIAEMTAAK AEQLIEQGII TDGMIVKVNA ALDAARTLGR PVDIASWRHA
+     EQLPALFNGM PMGTRILA
+//

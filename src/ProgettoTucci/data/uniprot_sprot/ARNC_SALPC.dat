@@ -1,0 +1,107 @@
+ID   ARNC_SALPC              Reviewed;         327 AA.
+AC   C0Q070;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 67.
+DE   RecName: Full=Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase {ECO:0000255|HAMAP-Rule:MF_01164};
+DE            EC=2.4.2.53 {ECO:0000255|HAMAP-Rule:MF_01164};
+DE   AltName: Full=Undecaprenyl-phosphate Ara4FN transferase {ECO:0000255|HAMAP-Rule:MF_01164};
+DE            Short=Ara4FN transferase {ECO:0000255|HAMAP-Rule:MF_01164};
+GN   Name=arnC {ECO:0000255|HAMAP-Rule:MF_01164}; OrderedLocusNames=SPC_1413;
+OS   Salmonella paratyphi C (strain RKS4594).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=476213;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RKS4594;
+RX   PubMed=19229335; DOI=10.1371/journal.pone.0004510;
+RA   Liu W.-Q., Feng Y., Wang Y., Zou Q.-H., Chen F., Guo J.-T., Peng Y.-H.,
+RA   Jin Y., Li Y.-G., Hu S.-N., Johnston R.N., Liu G.-R., Liu S.-L.;
+RT   "Salmonella paratyphi C: genetic divergence from Salmonella choleraesuis
+RT   and pathogenic convergence with Salmonella typhi.";
+RL   PLoS ONE 4:E4510-E4510(2009).
+CC   -!- FUNCTION: Catalyzes the transfer of 4-deoxy-4-formamido-L-arabinose
+CC       from UDP to undecaprenyl phosphate. The modified arabinose is attached
+CC       to lipid A and is required for resistance to polymyxin and cationic
+CC       antimicrobial peptides. {ECO:0000255|HAMAP-Rule:MF_01164}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl phosphate + UDP-4-deoxy-4-
+CC         formamido-beta-L-arabinose = 4-deoxy-4-formamido-alpha-L-
+CC         arabinopyranosyl di-trans,octa-cis-undecaprenyl phosphate + UDP;
+CC         Xref=Rhea:RHEA:27722, ChEBI:CHEBI:58223, ChEBI:CHEBI:58709,
+CC         ChEBI:CHEBI:58909, ChEBI:CHEBI:60392; EC=2.4.2.53;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01164};
+CC   -!- PATHWAY: Glycolipid biosynthesis; 4-amino-4-deoxy-alpha-L-arabinose
+CC       undecaprenyl phosphate biosynthesis; 4-amino-4-deoxy-alpha-L-arabinose
+CC       undecaprenyl phosphate from UDP-4-deoxy-4-formamido-beta-L-arabinose
+CC       and undecaprenyl phosphate: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_01164}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01164}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01164}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01164}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01164}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000857; ACN45574.1; -; Genomic_DNA.
+DR   RefSeq; WP_000458895.1; NC_012125.1.
+DR   CAZy; GT2; Glycosyltransferase Family 2.
+DR   EnsemblBacteria; ACN45574; ACN45574; SPC_1413.
+DR   KEGG; sei:SPC_1413; -.
+DR   HOGENOM; CLU_033536_0_0_6; -.
+DR   OMA; DLVSGWK; -.
+DR   UniPathway; UPA00030; -.
+DR   UniPathway; UPA00036; UER00495.
+DR   Proteomes; UP000001599; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016780; F:phosphotransferase activity, for other substituted phosphate groups; IEA:UniProtKB-UniRule.
+DR   GO; GO:0099621; F:undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036108; P:4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009103; P:lipopolysaccharide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_01164; ArnC_transfer; 1.
+DR   InterPro; IPR022857; ArnC_tfrase.
+DR   InterPro; IPR001173; Glyco_trans_2-like.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   Pfam; PF00535; Glycos_transf_2; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell inner membrane; Cell membrane;
+KW   Glycosyltransferase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Lipopolysaccharide biosynthesis; Membrane; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..327
+FT                   /note="Undecaprenyl-phosphate 4-deoxy-4-formamido-L-
+FT                   arabinose transferase"
+FT                   /id="PRO_1000164351"
+FT   TOPO_DOM        1..235
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01164"
+FT   TRANSMEM        236..256
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01164"
+FT   TOPO_DOM        257..269
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01164"
+FT   TRANSMEM        270..290
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01164"
+FT   TOPO_DOM        291..327
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01164"
+SQ   SEQUENCE   327 AA;  36546 MW;  CE739B5B498808AF CRC64;
+     MFDAAPIKKV SVVIPVYNEQ ESLPELIRRT TTACESLGKA WEILLIDDGS SDSSAELMVK
+     ASQEADSHII SILLNRNYGQ HAAIMAGFSH VSGDLIITLD ADLQNPPEEI PRLVAKADEG
+     FDVVGTVRQN RQDSLFRKSA SKIINLLIQR TTGKAMGDYG CMLRAYRRPI IDTMLRCHER
+     STFIPILANI FARRATEIPV HHAEREFGDS KYSFMRLINL MYDLVTCLTT TPLRLLSLLG
+     SVIAISGFSL SVLLIVLRLA LGPQWAAEGV FMLFAVLFTF IGAQFIGMGL LGEYIGRIYN
+     DVRARPRYFV QQVIYPESTP FTEESHQ
+//

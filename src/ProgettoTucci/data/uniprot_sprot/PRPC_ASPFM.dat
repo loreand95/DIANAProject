@@ -1,0 +1,229 @@
+ID   PRPC_ASPFM              Reviewed;         465 AA.
+AC   Q50I20; Q4WD58;
+DT   29-APR-2015, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=2-methylcitrate synthase, mitochondrial {ECO:0000305};
+DE            Short=Methylcitrate synthase {ECO:0000303|PubMed:16008561};
+DE            EC=2.3.3.5 {ECO:0000269|PubMed:16008561};
+DE   AltName: Full=(2S,3S)-2-methylcitrate synthase {ECO:0000250|UniProtKB:P31660};
+DE   AltName: Full=Citrate synthase 1 {ECO:0000305};
+DE            EC=2.3.3.16 {ECO:0000269|PubMed:16008561};
+DE   Flags: Precursor;
+GN   Name=mcsA {ECO:0000303|PubMed:16008561};
+GN   Synonyms=cit1 {ECO:0000303|PubMed:20507060};
+OS   Neosartorya fumigata (Aspergillus fumigatus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=746128 {ECO:0000312|EMBL:CAI61947.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 34-55, TRANSIT PEPTIDE,
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND DISRUPTION
+RP   PHENOTYPE.
+RC   STRAIN=ATCC 46645 / NCPF 2109;
+RX   PubMed=16008561; DOI=10.1111/j.1742-4658.2005.04784.x;
+RA   Maerker C., Rohde M., Brakhage A.A., Brock M.;
+RT   "Methylcitrate synthase from Aspergillus fumigatus. Propionyl-CoA affects
+RT   polyketide synthesis, growth and morphology of conidia.";
+RL   FEBS J. 272:3615-3630(2005).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND DEVELOPMENTAL STAGE.
+RC   STRAIN=ATCC 46645 / NCPF 2109;
+RX   PubMed=20507060; DOI=10.1021/pr9010684;
+RA   Teutschbein J., Albrecht D., Potsch M., Guthke R., Aimanianda V.,
+RA   Clavaud C., Latge J.P., Brakhage A.A., Kniemeyer O.;
+RT   "Proteome profiling and functional classification of intracellular proteins
+RT   from conidia of the human-pathogenic mold Aspergillus fumigatus.";
+RL   J. Proteome Res. 9:3427-3442(2010).
+CC   -!- FUNCTION: Component of the methylcitrate cycle that catalyzes the
+CC       synthesis of (2S,3S)-2-methylcitrate from propionyl-CoA and
+CC       oxaloacetate. Plays an important role in detoxification of propionyl-
+CC       CoA, an inhibitor of both primary and secondary metabolism. Has also
+CC       citrate synthase activity using as substrates acetyl-CoA and
+CC       oxaloacetate. May play a role in virulence.
+CC       {ECO:0000269|PubMed:16008561}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + oxaloacetate + propanoyl-CoA = (2S,3S)-2-methylcitrate +
+CC         CoA + H(+); Xref=Rhea:RHEA:23780, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16452, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57392, ChEBI:CHEBI:58853; EC=2.3.3.5;
+CC         Evidence={ECO:0000269|PubMed:16008561};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + H2O + oxaloacetate = citrate + CoA + H(+);
+CC         Xref=Rhea:RHEA:16845, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16452, ChEBI:CHEBI:16947, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288; EC=2.3.3.16;
+CC         Evidence={ECO:0000269|PubMed:16008561};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.9 uM for propionyl-CoA {ECO:0000269|PubMed:16008561};
+CC         KM=2.6 uM for acetyl-CoA {ECO:0000269|PubMed:16008561};
+CC         KM=2.7 uM for oxaloacetate {ECO:0000269|PubMed:16008561};
+CC       pH dependence:
+CC         Optimum pH is 8.0-9.0. {ECO:0000269|PubMed:16008561};
+CC       Temperature dependence:
+CC         Optimum temperature is 50-60 degrees Celsius.
+CC         {ECO:0000269|PubMed:16008561};
+CC   -!- PATHWAY: Organic acid metabolism; propanoate degradation.
+CC       {ECO:0000305}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion matrix {ECO:0000305}.
+CC   -!- DEVELOPMENTAL STAGE: Highly expressed in conidia.
+CC       {ECO:0000269|PubMed:20507060}.
+CC   -!- DISRUPTION PHENOTYPE: Leads to the inability to grow on propionate as
+CC       the sole carbon source, a strong reduction of growth rate and spore
+CC       color formation on media containing both glucose and propionate, and an
+CC       accumulation of propionyl-CoA. Leads also to an attenuation of
+CC       virulence in an insect infection model. {ECO:0000269|PubMed:16008561}.
+CC   -!- SIMILARITY: Belongs to the citrate synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ888885; CAI61947.1; -; mRNA.
+DR   PDB; 5UQO; X-ray; 2.50 A; A/B=29-465.
+DR   PDB; 5UQQ; X-ray; 2.30 A; A/B/C/D/E/F=29-465.
+DR   PDB; 5UQR; X-ray; 1.75 A; A/B=29-465.
+DR   PDB; 5UQU; X-ray; 1.70 A; A/B=29-465.
+DR   PDB; 6BOP; X-ray; 2.71 A; A/B/C/D=29-465.
+DR   PDBsum; 5UQO; -.
+DR   PDBsum; 5UQQ; -.
+DR   PDBsum; 5UQR; -.
+DR   PDBsum; 5UQU; -.
+DR   PDBsum; 6BOP; -.
+DR   SMR; Q50I20; -.
+DR   BRENDA; 2.3.3.5; 508.
+DR   UniPathway; UPA00946; -.
+DR   GO; GO:0005759; C:mitochondrial matrix; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050440; F:2-methylcitrate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036440; F:citrate synthase activity; IEA:RHEA.
+DR   GO; GO:0019543; P:propionate catabolic process; IMP:AspGD.
+DR   Gene3D; 1.10.230.10; -; 1.
+DR   Gene3D; 1.10.580.10; -; 1.
+DR   InterPro; IPR016142; Citrate_synth-like_lrg_a-sub.
+DR   InterPro; IPR016143; Citrate_synth-like_sm_a-sub.
+DR   InterPro; IPR002020; Citrate_synthase.
+DR   InterPro; IPR019810; Citrate_synthase_AS.
+DR   InterPro; IPR036969; Citrate_synthase_sf.
+DR   PANTHER; PTHR11739; PTHR11739; 1.
+DR   Pfam; PF00285; Citrate_synt; 1.
+DR   PRINTS; PR00143; CITRTSNTHASE.
+DR   SUPFAM; SSF48256; SSF48256; 1.
+DR   PROSITE; PS00480; CITRATE_SYNTHASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Direct protein sequencing; Mitochondrion;
+KW   Transferase; Transit peptide.
+FT   TRANSIT         1..28
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000269|PubMed:16008561"
+FT   CHAIN           29..465
+FT                   /note="2-methylcitrate synthase, mitochondrial"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5000074390"
+FT   REGION          345..349
+FT                   /note="Coenzyme A binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O34002"
+FT   ACT_SITE        305
+FT                   /evidence="ECO:0000250|UniProtKB:O34002"
+FT   ACT_SITE        351
+FT                   /evidence="ECO:0000250|UniProtKB:O34002"
+FT   ACT_SITE        408
+FT                   /evidence="ECO:0000250|UniProtKB:O34002"
+FT   BINDING         269
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:I6Y9Q3"
+FT   BINDING         360
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:I6Y9Q3"
+FT   BINDING         434
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:I6Y9Q3"
+FT   HELIX           35..54
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   TURN            55..58
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          60..65
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           66..70
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   TURN            71..75
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          77..80
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          83..87
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   TURN            88..90
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          91..94
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           99..105
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          110..115
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           117..126
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           132..144
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           150..157
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           165..175
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           176..179
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           181..188
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           192..194
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           196..218
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           220..222
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           223..228
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           237..244
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           250..252
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           253..265
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           274..284
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           289..300
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   TURN            303..307
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           308..323
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           329..341
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           359..369
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           372..375
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           378..397
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          400..402
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           408..417
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           423..425
+FT                   /evidence="ECO:0007744|PDB:5UQR"
+FT   HELIX           426..433
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           436..448
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   STRAND          456..458
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+FT   HELIX           460..464
+FT                   /evidence="ECO:0007744|PDB:5UQU"
+SQ   SEQUENCE   465 AA;  51412 MW;  B4A4C5903B04E125 CRC64;
+     MAMTMRSTRH ASKLAQTARL ALTNSRRYST AEPDLKTALK AVIPAKRELF KQVKERSDEV
+     IGEVKVANVI GGMRGLKSML WEGSVLDPEE GIRFHGKTIK DCQKELPKGT SGTEMLPEAM
+     FWLLLTGQVP STNQVRAFSR ELAEQSHLPQ HILDLIKSFP RSMHPMTQLS IAVAALNTES
+     KFAKAYEKGL SKADYWEPTF DDSISLLAKI PRVAALVFRP DEVDQVGTQA LDASQDWSYN
+     FAELLGKGGK ENQDFHDLLR LYLALHGDHE GGNVSAHATH LVGSALSDPF LSYSAGLLGL
+     AGPLHGLAAQ EVLRWILAMQ DKIGTKFTDD DVRNYLWDTL KSGRVVPGYG HGVLRKPDPR
+     FQALMDFAAT RPDVLANPVF QLVKKNSEIA PAVLTEHGKT KNPHPNVDAA SGVLFYHYGF
+     QQPLYYTVTF GVSRALGPLV QLIWDRALGL PIERPKSINL LGLKK
+//

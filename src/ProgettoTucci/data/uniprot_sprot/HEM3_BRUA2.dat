@@ -1,0 +1,94 @@
+ID   HEM3_BRUA2              Reviewed;         314 AA.
+AC   Q2YLM5;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Porphobilinogen deaminase {ECO:0000255|HAMAP-Rule:MF_00260};
+DE            Short=PBG {ECO:0000255|HAMAP-Rule:MF_00260};
+DE            EC=2.5.1.61 {ECO:0000255|HAMAP-Rule:MF_00260};
+DE   AltName: Full=Hydroxymethylbilane synthase {ECO:0000255|HAMAP-Rule:MF_00260};
+DE            Short=HMBS {ECO:0000255|HAMAP-Rule:MF_00260};
+DE   AltName: Full=Pre-uroporphyrinogen synthase {ECO:0000255|HAMAP-Rule:MF_00260};
+GN   Name=hemC {ECO:0000255|HAMAP-Rule:MF_00260}; OrderedLocusNames=BAB1_1887;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- FUNCTION: Tetrapolymerization of the monopyrrole PBG into the
+CC       hydroxymethylbilane pre-uroporphyrinogen in several discrete steps.
+CC       {ECO:0000255|HAMAP-Rule:MF_00260}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + 4 porphobilinogen = hydroxymethylbilane + 4 NH4(+);
+CC         Xref=Rhea:RHEA:13185, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57845, ChEBI:CHEBI:58126; EC=2.5.1.61;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00260};
+CC   -!- COFACTOR:
+CC       Name=dipyrromethane; Xref=ChEBI:CHEBI:60342;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00260};
+CC       Note=Binds 1 dipyrromethane group covalently. {ECO:0000255|HAMAP-
+CC       Rule:MF_00260};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 2/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00260}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00260}.
+CC   -!- MISCELLANEOUS: The porphobilinogen subunits are added to the
+CC       dipyrromethane group. {ECO:0000255|HAMAP-Rule:MF_00260}.
+CC   -!- SIMILARITY: Belongs to the HMBS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00260}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM040264; CAJ11843.1; -; Genomic_DNA.
+DR   RefSeq; WP_002964957.1; NZ_KN046823.1.
+DR   SMR; Q2YLM5; -.
+DR   EnsemblBacteria; CAJ11843; CAJ11843; BAB1_1887.
+DR   GeneID; 3788370; -.
+DR   KEGG; bmf:BAB1_1887; -.
+DR   HOGENOM; CLU_019704_1_2_5; -.
+DR   OMA; LWQANHI; -.
+DR   BioCyc; BABO359391:G1GJA-1921-MONOMER; -.
+DR   UniPathway; UPA00251; UER00319.
+DR   Proteomes; UP000002719; Chromosome I.
+DR   GO; GO:0004418; F:hydroxymethylbilane synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0018160; P:peptidyl-pyrromethane cofactor linkage; IEA:InterPro.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.30.160.40; -; 1.
+DR   HAMAP; MF_00260; Porphobil_deam; 1.
+DR   InterPro; IPR000860; HemC.
+DR   InterPro; IPR022419; Porphobilin_deaminase_cofac_BS.
+DR   InterPro; IPR022417; Porphobilin_deaminase_N.
+DR   InterPro; IPR022418; Porphobilinogen_deaminase_C.
+DR   InterPro; IPR036803; Porphobilinogen_deaminase_C_sf.
+DR   PANTHER; PTHR11557; PTHR11557; 1.
+DR   Pfam; PF01379; Porphobil_deam; 1.
+DR   Pfam; PF03900; Porphobil_deamC; 1.
+DR   PIRSF; PIRSF001438; 4pyrrol_synth_OHMeBilane_synth; 1.
+DR   PRINTS; PR00151; PORPHBDMNASE.
+DR   SUPFAM; SSF54782; SSF54782; 1.
+DR   TIGRFAMs; TIGR00212; hemC; 1.
+DR   PROSITE; PS00533; PORPHOBILINOGEN_DEAM; 1.
+PE   3: Inferred from homology;
+KW   Porphyrin biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..314
+FT                   /note="Porphobilinogen deaminase"
+FT                   /id="PRO_0000304217"
+FT   MOD_RES         249
+FT                   /note="S-(dipyrrolylmethanemethyl)cysteine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00260"
+SQ   SEQUENCE   314 AA;  33838 MW;  D4F34A01D72322B6 CRC64;
+     MQTASFKNGT LKIGTRGSKL ALAQAYLTRR LLQEAHGLPE DAIEILPMST AGDRIQDRPL
+     SEVGGKGLFT EEIEQALKDG RIDIAVHSTK DMPTALPEGL HLSVFLERED PRDAFIGRSA
+     RRFMDLPQGA TVGSSSLRRQ ALIRRLRPDI EVVMYRGNVD TRLRKLDAGE VDGTFLACAG
+     LRRLGLADVI TDVLDPSVFP PAPGQGAIGI ESRIGDERID VLLAPLAHRE TQIALACERA
+     FLGALDGSCR TPIAGLATVE GDRLSFRGMI LTPDGRQAHE VTAEGVVSDA AALGTDAANR
+     VRAMAGPHFF DGWQ
+//

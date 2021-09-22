@@ -1,0 +1,65 @@
+ID   NIFD_METIV              Reviewed;          27 AA.
+AC   P51605;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   11-DEC-2019, entry version 54.
+DE   RecName: Full=Nitrogenase molybdenum-iron protein alpha chain;
+DE            EC=1.18.6.1;
+DE   AltName: Full=Dinitrogenase;
+DE   AltName: Full=Nitrogenase component I;
+DE   Flags: Fragment;
+GN   Name=nifD;
+OS   Methanobacterium ivanovii.
+OC   Archaea; Euryarchaeota; Methanomada group; Methanobacteria;
+OC   Methanobacteriales; Methanobacteriaceae; Methanobacterium.
+OX   NCBI_TaxID=2163;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2068380; DOI=10.1016/0923-2508(91)90091-n;
+RA   Sibold L., Henriquet M., Possot O., Aubert J.-P.;
+RT   "Nucleotide sequence of nifH regions from Methanobacterium ivanovii and
+RT   Methanosarcina barkeri 227 and characterization of glnB-like genes.";
+RL   Res. Microbiol. 142:5-12(1991).
+CC   -!- FUNCTION: This molybdenum-iron protein is part of the nitrogenase
+CC       complex that catalyzes the key enzymatic reactions in nitrogen
+CC       fixation.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16 ATP + 16 H2O + N2 + 8 reduced [2Fe-2S]-[ferredoxin] = 16
+CC         ADP + 6 H(+) + H2 + 2 NH4(+) + 8 oxidized [2Fe-2S]-[ferredoxin] + 16
+CC         phosphate; Xref=Rhea:RHEA:21448, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17997,
+CC         ChEBI:CHEBI:18276, ChEBI:CHEBI:28938, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456216; EC=1.18.6.1;
+CC   -!- COFACTOR:
+CC       Name=[8Fe-7S] cluster; Xref=ChEBI:CHEBI:21143; Evidence={ECO:0000250};
+CC       Note=Binds 1 [8Fe-7S] cluster per heterodimer. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=[7Fe-Mo-9S-C-homocitryl] cluster; Xref=ChEBI:CHEBI:30409;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 [7Fe-Mo-9S-C-homocitryl] cluster per subunit.
+CC       {ECO:0000250};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta chains. Forms complex with
+CC       the iron protein (nitrogenase component 2).
+CC   -!- SIMILARITY: Belongs to the NifD/NifK/NifE/NifN family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X56071; CAA39551.1; -; Genomic_DNA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0018697; F:carbonyl sulfide nitrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016163; F:nitrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009399; P:nitrogen fixation; IEA:UniProtKB-KW.
+PE   3: Inferred from homology;
+KW   ATP-binding; Iron; Iron-sulfur; Metal-binding; Molybdenum;
+KW   Nitrogen fixation; Nucleotide-binding; Oxidoreductase.
+FT   CHAIN           1..>27
+FT                   /note="Nitrogenase molybdenum-iron protein alpha chain"
+FT                   /id="PRO_0000153070"
+FT   NON_TER         27
+SQ   SEQUENCE   27 AA;  3200 MW;  371EFCCA9DCFCEA1 CRC64;
+     MPFKLFDVSK PIPERKEHTY VKHCGDP
+//

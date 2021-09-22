@@ -1,0 +1,278 @@
+ID   V5NTD_NAJAT             Reviewed;         529 AA.
+AC   A0A2I4HXH5;
+DT   16-OCT-2019, integrated into UniProtKB/Swiss-Prot.
+DT   28-FEB-2018, sequence version 1.
+DT   07-APR-2021, entry version 8.
+DE   RecName: Full=Snake venom 5'-nucleotidase {ECO:0000303|Ref.1};
+DE            Short=5'-NT;
+DE            EC=3.1.3.5;
+DE   AltName: Full=Ecto-5'-nucleotidase;
+DE   Flags: Precursor; Fragment;
+OS   Naja atra (Chinese cobra).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Elapidae; Elapinae; Naja.
+OX   NCBI_TaxID=8656;
+RN   [1] {ECO:0000312|PDB:5H7W}
+RP   X-RAY CRYSTALLOGRAPHY (1.90 ANGSTROMS) IN COMPLEX WITH ZINC, GLYCOSYLATION
+RP   AT ASN-308 AND ASN-322, AND DISULFIDE BOND.
+RA   Chang C., Lin C.-C., Wu W.-G.;
+RT   "Crystal strucuture of Taiwan cobra (Naja atra) venom 5'-nucleotidase at
+RT   1.9 Angstroms resolution.";
+RL   Submitted (NOV-2016) to the PDB data bank.
+RN   [2]
+RP   REVIEW, AND FUNCTION.
+RX   PubMed=20186872; DOI=10.1002/cbf.1637;
+RA   Dhananjaya B.L., D'Souza C.J.;
+RT   "The pharmacological role of nucleotidases in snake venoms.";
+RL   Cell Biochem. Funct. 28:171-177(2010).
+CC   -!- FUNCTION: Hydrolyzes nucleotides into nucleosides (By similarity).
+CC       Snake venom 5'-nucleotidases are widely distributed among venomous
+CC       snake taxa, but there is a lack of information about their biological
+CC       activities. They have been shown to inhibit platelet aggregation. This
+CC       effect may be due to the liberation of inhibitory AMP or adenosine by
+CC       its action on ADP released upon initiation of aggregation. Venom 5'-
+CC       nucleotidases are also known to synergistically act in vivo with other
+CC       toxins like ADPases, phospholipases, and disintegrins to exert a more
+CC       pronounced anti-coagulant effect. {ECO:0000250,
+CC       ECO:0000305|PubMed:20186872}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250, ECO:0000305|Ref.1};
+CC   -!- SUBUNIT: Trimer or tetramer.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000250}; Lipid-anchor, GPI-anchor
+CC       {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland. {ECO:0000305|Ref.1}.
+CC   -!- PTM: Venom 5'-nucleotidases (or a part thereof) may be released into
+CC       the venom via exosome-like vesicles. They may be attached via a GPI
+CC       anchor to the membrane of these vesicles. Soluble forms of 5'-
+CC       nucleotidase might be released by cleavage of the ectodomain in the
+CC       exosome-like vesicles or venom gland cells.
+CC   -!- SIMILARITY: Belongs to the 5'-nucleotidase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 5H7W; X-ray; 1.90 A; A/B=1-529.
+DR   PDBsum; 5H7W; -.
+DR   SMR; A0A2I4HXH5; -.
+DR   GO; GO:0031225; C:anchored component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008253; F:5'-nucleotidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009166; P:nucleotide catabolic process; IEA:InterPro.
+DR   Gene3D; 3.60.21.10; -; 1.
+DR   Gene3D; 3.90.780.10; -; 1.
+DR   InterPro; IPR008334; 5'-Nucleotdase_C.
+DR   InterPro; IPR036907; 5'-Nucleotdase_C_sf.
+DR   InterPro; IPR006146; 5'-Nucleotdase_CS.
+DR   InterPro; IPR006179; 5_nucleotidase/apyrase.
+DR   InterPro; IPR004843; Calcineurin-like_PHP_ApaH.
+DR   InterPro; IPR029052; Metallo-depent_PP-like.
+DR   PANTHER; PTHR11575; PTHR11575; 1.
+DR   Pfam; PF02872; 5_nucleotid_C; 1.
+DR   Pfam; PF00149; Metallophos; 1.
+DR   PRINTS; PR01607; APYRASEFAMLY.
+DR   SUPFAM; SSF55816; SSF55816; 1.
+DR   PROSITE; PS00785; 5_NUCLEOTIDASE_1; 1.
+DR   PROSITE; PS00786; 5_NUCLEOTIDASE_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Glycoprotein; GPI-anchor; Hydrolase;
+KW   Lipoprotein; Membrane; Metal-binding; Nucleotide-binding; Signal; Zinc.
+FT   SIGNAL          <1..1
+FT                   /evidence="ECO:0000305"
+FT   CHAIN           2..525
+FT                   /note="Snake venom 5'-nucleotidase"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJJ5"
+FT                   /id="PRO_0000448287"
+FT   PROPEP          526..529
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000448288"
+FT   REGION          476..482
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   METAL           12
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           14
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           60
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           60
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           92
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           195
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   METAL           218
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   BINDING         220
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   BINDING         329
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   BINDING         365
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   BINDING         370
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   BINDING         393
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   SITE            93
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   SITE            96
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   LIPID           525
+FT                   /note="GPI-anchor amidated serine"
+FT                   /evidence="ECO:0000250|UniProtKB:P21589"
+FT   CARBOHYD        308
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   CARBOHYD        322
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   DISULFID        27..32
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   DISULFID        328..333
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   DISULFID        340..362
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   DISULFID        452..455
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         529
+FT                   /evidence="ECO:0000305"
+FT   STRAND          2..10
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          24..26
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          29..31
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           36..49
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          51..57
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          62..65
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           66..71
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           74..82
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          86..89
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           92..95
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           98..103
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           106..109
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          119..121
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           123..125
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           126..132
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          133..141
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          144..152
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           156..159
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           171..184
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          190..196
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           198..207
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          213..215
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          225..227
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          229..231
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          238..243
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          249..253
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          260..270
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          275..280
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           293..310
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          315..319
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           325..328
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           334..346
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          362..365
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           366..368
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   TURN            375..380
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           384..390
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          396..403
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           404..415
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   TURN            416..419
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          426..435
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          445..451
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          453..457
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          459..462
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          467..474
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           475..478
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           481..483
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           485..487
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   TURN            491..493
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          494..499
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   HELIX           500..511
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          512..514
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+FT   STRAND          520..524
+FT                   /evidence="ECO:0007744|PDB:5H7W"
+SQ   SEQUENCE   529 AA;  58198 MW;  C149948EF728490D CRC64;
+     GSFELTILHT NDVHARLEQT SRDSGKCTGE DCYGGVARRA TKIRQIRASH RNVLLLDAGD
+     QYQGTIWFNY YKGREVVHFM NSLRYDAMAL GNHEFDNGLN GLLDPLLKNV KFPILSANIR
+     PKGPIASNIS GYILPYKIIN VGSEKVGIIG YTTKETPVLS NPGPYLEFRD EVEELQKHAD
+     KLTTLGVNKI IALGHSGFME DCRIAQKVKG VDVVVGGHTN TFLYTGSPPS NEVAAGNYPF
+     MQLSDDGRQV PVVQAYAFGK YLGYLNVTFD DKGKVIKASG NPILLNKSIQ EDPAVKAEIS
+     RMKVQLQNYS SQEIGRTIVY LNGTTHACRF HECNLGNLIC DAVVYNNLRH PDDNEWNHVS
+     MCIVNGGGIR SPIDEQANNG IITLEELTAV LPFGGTFDLL QIKGSTLRQA FEHSVHRHGQ
+     GTGELLQVSG IKVVYDLSQK PGKRVVSLNV LCTECRVPTY VPLEMEKTYK VLLPSFLAAG
+     GDGYYMLKGD SSNHSSGDLD ISIVGDYIKR MGKVFPAMEG RMVFSAGSL
+//

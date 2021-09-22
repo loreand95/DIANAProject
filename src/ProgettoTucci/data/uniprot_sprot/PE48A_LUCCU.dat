@@ -1,0 +1,102 @@
+ID   PE48A_LUCCU             Reviewed;         375 AA.
+AC   P91745;
+DT   15-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   07-APR-2021, entry version 75.
+DE   RecName: Full=Peritrophin-48;
+DE   Flags: Precursor;
+OS   Lucilia cuprina (Green bottle fly) (Australian sheep blowfly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Diptera; Brachycera; Muscomorpha; Oestroidea;
+OC   Calliphoridae; Luciliinae; Lucilia.
+OX   NCBI_TaxID=7375 {ECO:0000312|EMBL:AAB38414.1};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 21-47; 60-68; 93-101;
+RP   185-196 AND 239-256, AND TISSUE SPECIFICITY.
+RC   TISSUE=Larval peritrophic membrane;
+RX   PubMed=9639876; DOI=10.1016/s0965-1748(97)00103-3;
+RA   Schorderet S., Pearson R.D., Vuocolo T., Eisemann C.H., Riding G.A.,
+RA   Tellam R.L.;
+RT   "cDNA and deduced amino acid sequences of a peritrophic membrane
+RT   glycoprotein, 'peritrophin-48', from the larvae of Lucilia cuprina.";
+RL   Insect Biochem. Mol. Biol. 28:99-111(1998).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 21-49.
+RC   TISSUE=Larval peritrophic membrane;
+RX   PubMed=8621536; DOI=10.1074/jbc.271.15.8925;
+RA   Elvin C.M., Vuocolo T., Pearson R.D., East I.J., Riding G.A.,
+RA   Eisemann C.H., Tellam R.L.;
+RT   "Characterization of a major peritrophic membrane protein, peritrophin-44,
+RT   from the larvae of Lucilia cuprina. cDNA and deduced amino acid
+RT   sequences.";
+RL   J. Biol. Chem. 271:8925-8935(1996).
+CC   -!- FUNCTION: May bind chitin or related oligosaccharide structures.
+CC       {ECO:0000303|PubMed:9639876}.
+CC   -!- TISSUE SPECIFICITY: Cardia and midgut peritrophic membrane.
+CC       {ECO:0000269|PubMed:9639876}.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in all 3 larval instars and adults, but
+CC       not pupae or eggs.
+CC   -!- PTM: Glycosylated. {ECO:0000269|PubMed:9639876}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U79715; AAB38414.1; -; mRNA.
+DR   OMA; TERFSCA; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:InterPro.
+DR   GO; GO:0008061; F:chitin binding; IDA:UniProtKB.
+DR   InterPro; IPR002557; Chitin-bd_dom.
+DR   InterPro; IPR036508; Chitin-bd_dom_sf.
+DR   Pfam; PF01607; CBM_14; 4.
+DR   SMART; SM00494; ChtBD2; 5.
+DR   SUPFAM; SSF57625; SSF57625; 4.
+DR   PROSITE; PS50940; CHIT_BIND_II; 5.
+PE   1: Evidence at protein level;
+KW   Chitin-binding; Direct protein sequencing; Disulfide bond; Glycoprotein;
+KW   Repeat; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000269|PubMed:8621536,
+FT                   ECO:0000269|PubMed:9639876"
+FT   CHAIN           21..375
+FT                   /note="Peritrophin-48"
+FT                   /id="PRO_0000023615"
+FT   DOMAIN          25..83
+FT                   /note="Chitin-binding type-2 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DOMAIN          86..143
+FT                   /note="Chitin-binding type-2 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DOMAIN          153..210
+FT                   /note="Chitin-binding type-2 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DOMAIN          224..292
+FT                   /note="Chitin-binding type-2 4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DOMAIN          294..360
+FT                   /note="Chitin-binding type-2 5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   CARBOHYD        117
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        360
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        60..73
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DISULFID        120..133
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DISULFID        187..200
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DISULFID        265..278
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+FT   DISULFID        330..343
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00144"
+SQ   SEQUENCE   375 AA;  41318 MW;  459082BF0AF6C7AF CRC64;
+     MIIKTLLASV AIMLIATVNA EYNVAKYCEL VKIGTLMPSM ISCQDYYICR LNNQPIPVKC
+     GANTVFDKDT QGCVPEAQAN CILSLDNPCE NKDRTFAPSS KACNEWHYCL NGNIVANGSC
+     QPGQIFDASK NSCIYGACNS DDDDSNSDFT PVLNICDIMQ NGQFFGDFEN CQNWQKCNNG
+     RLQKGICLGN LVYDTKNGMC LQNDGTMCER TNGMVSEDGG APDETLCTSS NDGPLPDKLT
+     CSVYYICEQD TTSTPTTYKW IKTSCPNGQY FDVFGDGCLD RAKRRVYTGC NRCEYTTGST
+     TYWVNAVSND CTKFSTCRNG RKITNEDGSC NSGYYFNEAD QYCNMGDFTN YAETNGACQN
+     YSCNGYDCTT KPSAT
+//

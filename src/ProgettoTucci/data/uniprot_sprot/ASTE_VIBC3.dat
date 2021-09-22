@@ -1,0 +1,97 @@
+ID   ASTE_VIBC3              Reviewed;         342 AA.
+AC   A5F1U8; C3M003;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 76.
+DE   RecName: Full=Succinylglutamate desuccinylase {ECO:0000255|HAMAP-Rule:MF_00767};
+DE            EC=3.5.1.96 {ECO:0000255|HAMAP-Rule:MF_00767};
+GN   Name=astE {ECO:0000255|HAMAP-Rule:MF_00767};
+GN   OrderedLocusNames=VC0395_A0863, VC395_1361;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 /
+OS   O395).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=345073;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RA   Heidelberg J.;
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RX   PubMed=19115014; DOI=10.1371/journal.pone.0004053;
+RA   Feng L., Reeves P.R., Lan R., Ren Y., Gao C., Zhou Z., Ren Y., Cheng J.,
+RA   Wang W., Wang J., Qian W., Li D., Wang L.;
+RT   "A recalibrated molecular clock and independent origins for the cholera
+RT   pandemic clones.";
+RL   PLoS ONE 3:E4053-E4053(2008).
+CC   -!- FUNCTION: Transforms N(2)-succinylglutamate into succinate and
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_00767}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-succinyl-L-glutamate = L-glutamate + succinate;
+CC         Xref=Rhea:RHEA:15169, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30031, ChEBI:CHEBI:58763; EC=3.5.1.96;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00767};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00767};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00767};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via AST
+CC       pathway; L-glutamate and succinate from L-arginine: step 5/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_00767}.
+CC   -!- SIMILARITY: Belongs to the AspA/AstE family. Succinylglutamate
+CC       desuccinylase subfamily. {ECO:0000255|HAMAP-Rule:MF_00767}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000627; ABQ19642.1; -; Genomic_DNA.
+DR   EMBL; CP001235; ACP09369.1; -; Genomic_DNA.
+DR   RefSeq; WP_000167428.1; NZ_JAACZH010000002.1.
+DR   SMR; A5F1U8; -.
+DR   STRING; 345073.VC395_1361; -.
+DR   EnsemblBacteria; ABQ19642; ABQ19642; VC0395_A0863.
+DR   KEGG; vco:VC0395_A0863; -.
+DR   KEGG; vcr:VC395_1361; -.
+DR   PATRIC; fig|345073.21.peg.1322; -.
+DR   eggNOG; COG2988; Bacteria.
+DR   HOGENOM; CLU_071608_0_0_6; -.
+DR   OMA; FIIAHPE; -.
+DR   UniPathway; UPA00185; UER00283.
+DR   Proteomes; UP000000249; Chromosome 2.
+DR   GO; GO:0016788; F:hydrolase activity, acting on ester bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009017; F:succinylglutamate desuccinylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019544; P:arginine catabolic process to glutamate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019545; P:arginine catabolic process to succinate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd03855; M14_ASTE; 1.
+DR   HAMAP; MF_00767; Arg_catab_AstE; 1.
+DR   InterPro; IPR007036; Aste_AspA.
+DR   InterPro; IPR016681; SuccinylGlu_desuccinylase.
+DR   Pfam; PF04952; AstE_AspA; 1.
+DR   PIRSF; PIRSF017020; AstE; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; Hydrolase; Metal-binding; Zinc.
+FT   CHAIN           1..342
+FT                   /note="Succinylglutamate desuccinylase"
+FT                   /id="PRO_1000072833"
+FT   ACT_SITE        219
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00767"
+FT   METAL           63
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00767"
+FT   METAL           66
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00767"
+FT   METAL           155
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00767"
+SQ   SEQUENCE   342 AA;  39033 MW;  F5B2C58B0842239E CRC64;
+     MTKSLFRQSF LFDSLDLDHP MVAQTVRTEQ GVTLKLHQRG VLEVIPAQTD AATKNMVISC
+     GVHGDETAPM ELLDKWIDDI VSGFQPVAER CLFILAHPQA TVRHVRFIEQ NLNRLFDDKP
+     HTPSTELAIA DNLKVLLKQF FANTDEHSRW HLDLHCAIRG SKHYSFAVSP KARHPVRSRS
+     LMQFIEQAHI EAVMLSNAPS STFSWYSAEH YAAQALTLEL GQVARLGENL LDRLLAFDLA
+     MRDLISRHKP EHLPRKSVMY RVSRTIVRLH DDFDFRFSDD VENFTAFMHG EVFGHDGDKP
+     LMAKNEGEAI VFPNRKVAIG QRAALMVCKV NTRYEDDQLV YD
+//

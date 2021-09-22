@@ -1,0 +1,101 @@
+ID   TCPI_VIBCH              Reviewed;         620 AA.
+AC   P0C6D8; P29486; Q9KTR5;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   10-FEB-2021, entry version 62.
+DE   RecName: Full=Toxin coregulated pilus biosynthesis protein I;
+DE   AltName: Full=TCP pilus biosynthesis protein TcpI;
+GN   Name=tcpI; Synonyms=tagB; OrderedLocusNames=VC_0825;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-406.
+RC   STRAIN=Classical Inaba Z17561 / Serotype O1;
+RX   PubMed=8621096; DOI=10.1016/0378-1119(95)00744-x;
+RA   Ogierman M.A., Voss E., Meaney C., Faast R., Attridge S.R., Manning P.A.;
+RT   "Comparison of the promoter proximal regions of the toxin-co-regulated tcp
+RT   gene cluster in classical and El Tor strains of Vibrio cholerae O1.";
+RL   Gene 170:9-16(1996).
+CC   -!- FUNCTION: May function as an environmental regulator of TCP biogenesis.
+CC       Negatively regulates the synthesis of the major pilin subunit of TCP
+CC       (TcpA) (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Peripheral
+CC       membrane protein {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE003852; AAF93988.1; -; Genomic_DNA.
+DR   EMBL; X64098; CAA45452.1; -; Genomic_DNA.
+DR   PIR; D82274; D82274.
+DR   RefSeq; NP_230473.1; NC_002505.1.
+DR   RefSeq; WP_000591844.1; NZ_LT906614.1.
+DR   SMR; P0C6D8; -.
+DR   STRING; 243277.VC_0825; -.
+DR   DNASU; 2614492; -.
+DR   EnsemblBacteria; AAF93988; AAF93988; VC_0825.
+DR   GeneID; 57739528; -.
+DR   KEGG; vch:VC0825; -.
+DR   PATRIC; fig|243277.26.peg.786; -.
+DR   eggNOG; COG0840; Bacteria.
+DR   HOGENOM; CLU_000445_107_19_6; -.
+DR   OMA; HAENETQ; -.
+DR   BioCyc; VCHO:VC0825-MONOMER; -.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0007165; P:signal transduction; IEA:UniProtKB-KW.
+DR   InterPro; IPR004089; MCPsignal_dom.
+DR   InterPro; IPR029151; Sensor-like_sf.
+DR   Pfam; PF00015; MCPsignal; 1.
+DR   SMART; SM00283; MA; 1.
+DR   SUPFAM; SSF103190; SSF103190; 1.
+DR   PROSITE; PS50111; CHEMOTAXIS_TRANSDUC_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; Methylation;
+KW   Reference proteome; Transducer.
+FT   CHAIN           1..620
+FT                   /note="Toxin coregulated pilus biosynthesis protein I"
+FT                   /id="PRO_0000110563"
+FT   DOMAIN          344..580
+FT                   /note="Methyl-accepting transducer"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00284"
+FT   CONFLICT        18
+FT                   /note="L -> S (in Ref. 2; CAA45452)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        63
+FT                   /note="T -> I (in Ref. 2; CAA45452)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        302
+FT                   /note="A -> S (in Ref. 2; CAA45452)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        402..406
+FT                   /note="ETAQK -> RRPKN (in Ref. 2; CAA45452)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   620 AA;  69028 MW;  9DBEF34A042BBF91 CRC64;
+     MIKKIISVFL LLACIITLAF TAFFYHSKLS DQTKSISSLS SQQAQERLQS YQDSLDFYKK
+     LNTSLSVAIA NSLRDKAVEE LNAIALRIQE NHGFIGVTFA SLDGTMFTDI GTLDWNAKTL
+     RRDWFVKTVE LGTKHYTAFD IDKTTGQHVL TIATPVYVGN DIVGSVALDI AGDQIASPNG
+     SGMFMMTDRN FNVFASDLTH STLIGKDLTK EKPLFKNLVS GQYVTFSDAD SHWFAVSQTE
+     IDGENKLFTI IDIQQIVQTY KRDIQLIIAG FSGFSCVMLI GLYWVLSKEL SGVRQIREWI
+     LALSDGQIKE RRPIKFHNEL DTIAQSLENL QFRLLDVVRN SHRTMNDLSI KQTDITYSIE
+     GNTNNSQQEL GLIEQVATAT TQLSCTSFDV MQQAQSAELN AETAQKLIAE SHDIIDSSSK
+     QTEMVTLSIH ESQQIINQLR EFSDNISSVT DVINNISDQT NLLALNAAIE AARAGEQGRG
+     FAVVADEVRS LAVKTQQSTI DIQGIILKLQ EQSQLADQVM TRNVSLIHET QVANRALIAS
+     FNLISDKVLE ISNINSIVST AANEQKIVTE DVAKQMEDIR YLVQENLSAM ERTKQANQNI
+     SDLTTNLNDA LSFFKIELTS
+//

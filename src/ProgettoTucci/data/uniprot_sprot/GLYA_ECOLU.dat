@@ -1,0 +1,167 @@
+ID   GLYA_ECOLU              Reviewed;         417 AA.
+AC   B7N6D8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 67.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000255|HAMAP-Rule:MF_00051}; OrderedLocusNames=ECUMN_2871;
+OS   Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=585056;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UMN026 / ExPEC;
+RX   PubMed=19165319; DOI=10.1371/journal.pgen.1000344;
+RA   Touchon M., Hoede C., Tenaillon O., Barbe V., Baeriswyl S., Bidet P.,
+RA   Bingen E., Bonacorsi S., Bouchier C., Bouvet O., Calteau A., Chiapello H.,
+RA   Clermont O., Cruveiller S., Danchin A., Diard M., Dossat C., Karoui M.E.,
+RA   Frapy E., Garry L., Ghigo J.M., Gilles A.M., Johnson J., Le Bouguenec C.,
+RA   Lescat M., Mangenot S., Martinez-Jehanne V., Matic I., Nassif X., Oztas S.,
+RA   Petit M.A., Pichon C., Rouy Z., Ruf C.S., Schneider D., Tourret J.,
+RA   Vacherie B., Vallenet D., Medigue C., Rocha E.P.C., Denamur E.;
+RT   "Organised genome dynamics in the Escherichia coli species results in
+RT   highly diverse adaptive paths.";
+RL   PLoS Genet. 5:E1000344-E1000344(2009).
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon carrier.
+CC       This reaction serves as the major source of one-carbon groups required
+CC       for the biosynthesis of purines, thymidylate, methionine, and other
+CC       important biomolecules. Also exhibits THF-independent aldolase activity
+CC       toward beta-hydroxyamino acids, producing glycine and aldehydes, via a
+CC       retro-aldol mechanism. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + glycine + H2O =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-serine; Xref=Rhea:RHEA:15481,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15636, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57453; EC=2.1.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine from L-
+CC       serine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU928163; CAR14047.1; -; Genomic_DNA.
+DR   RefSeq; WP_000919149.1; NC_011751.1.
+DR   RefSeq; YP_002413573.1; NC_011751.1.
+DR   SMR; B7N6D8; -.
+DR   EnsemblBacteria; CAR14047; CAR14047; ECUMN_2871.
+DR   KEGG; eum:ECUMN_2871; -.
+DR   PATRIC; fig|585056.7.peg.3058; -.
+DR   HOGENOM; CLU_022477_2_1_6; -.
+DR   OMA; PLEHIIA; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000007097; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00378; SHMT; 1.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   InterPro; IPR039429; SHMT-like_dom.
+DR   PANTHER; PTHR11680; PTHR11680; 1.
+DR   Pfam; PF00464; SHMT; 1.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; Amino-acid biosynthesis; Cytoplasm; One-carbon metabolism;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..417
+FT                   /note="Serine hydroxymethyltransferase"
+FT                   /id="PRO_1000116831"
+FT   REGION          125..127
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   REGION          355..357
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         35
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         55
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         57
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         65
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         99
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         121
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         175
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         203
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         228
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         235
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         263
+FT                   /note="Pyridoxal phosphate; via amide nitrogen and carbonyl
+FT                   oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         363
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         54
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         229
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         250
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         285
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         354
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         375
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+SQ   SEQUENCE   417 AA;  45303 MW;  B3C2558F32E4853A CRC64;
+     MLKREMNIAD YDAELWQAME QEKVRQEEHI ELIASENYTS PRVMQAQGSQ LTNKYAEGYP
+     GKRYYGGCEY VDIVEQLAID RAKELFGADY ANVQPHSGSQ ANFAVYTALL EPGDTVLGMN
+     LAHGGHLTHG SPVNFSGKLY NIVPYGIDAS GHIDYADLEK QAKEHKPKMI IGGFSAYSGV
+     VDWAKMREIA DSIGAYLFVD MAHVAGLVAA GVYPNPVPHA HVVTTTTHKT LAGPRGGLIL
+     AKGGSEELYK KLNSAVFPGG QGGPLMHVIA GKAVALKEAM EPEFKTYQQQ VAKNAKAMVE
+     VFLERGYKVV SGGTDNHLFL VDLVDKNLTG KEADAALGRA NITVNKNSVP NDPKSPFVTS
+     GIRVGTPAIT RRGFKEAEAK ELAGWMCDVL DSINDEAVIE RIKGKVLDIC ARYPVYA
+//

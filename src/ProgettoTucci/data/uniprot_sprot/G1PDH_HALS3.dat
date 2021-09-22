@@ -1,0 +1,118 @@
+ID   G1PDH_HALS3             Reviewed;         352 AA.
+AC   B0R3A6;
+DT   23-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Glycerol-1-phosphate dehydrogenase [NAD(P)+] {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            Short=G1P dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            Short=G1PDH {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            EC=1.1.1.261 {ECO:0000255|HAMAP-Rule:MF_00497};
+DE   AltName: Full=Enantiomeric glycerophosphate synthase {ECO:0000255|HAMAP-Rule:MF_00497};
+DE   AltName: Full=sn-glycerol-1-phosphate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00497};
+GN   Name=egsA {ECO:0000255|HAMAP-Rule:MF_00497}; OrderedLocusNames=OE_1602F;
+OS   Halobacterium salinarum (strain ATCC 29341 / DSM 671 / R1).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Halobacteriales;
+OC   Halobacteriaceae; Halobacterium.
+OX   NCBI_TaxID=478009;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29341 / DSM 671 / R1;
+RX   PubMed=18313895; DOI=10.1016/j.ygeno.2008.01.001;
+RA   Pfeiffer F., Schuster S.C., Broicher A., Falb M., Palm P., Rodewald K.,
+RA   Ruepp A., Soppa J., Tittor J., Oesterhelt D.;
+RT   "Evolution in the laboratory: the genome of Halobacterium salinarum strain
+RT   R1 compared to that of strain NRC-1.";
+RL   Genomics 91:335-346(2008).
+CC   -!- FUNCTION: Catalyzes the NAD(P)H-dependent reduction of
+CC       dihydroxyacetonephosphate (DHAP or glycerone phosphate) to glycerol 1-
+CC       phosphate (G1P). The G1P thus generated is used as the glycerophosphate
+CC       backbone of phospholipids in the cellular membranes of Archaea.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate
+CC         + H(+) + NADH; Xref=Rhea:RHEA:21412, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57642, ChEBI:CHEBI:57685,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.261; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate
+CC         + H(+) + NADPH; Xref=Rhea:RHEA:21416, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:57685, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.1.1.261; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00497};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00497};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00497};
+CC   -!- PATHWAY: Membrane lipid metabolism; glycerophospholipid metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- SIMILARITY: Belongs to the glycerol-1-phosphate dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM774415; CAP13220.1; -; Genomic_DNA.
+DR   RefSeq; WP_010902254.1; NC_010364.1.
+DR   SMR; B0R3A6; -.
+DR   EnsemblBacteria; CAP13220; CAP13220; OE_1602F.
+DR   GeneID; 5952519; -.
+DR   KEGG; hsl:OE_1602F; -.
+DR   HOGENOM; CLU_038362_0_0_2; -.
+DR   OMA; AEHLFSH; -.
+DR   UniPathway; UPA00940; -.
+DR   Proteomes; UP000001321; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050492; F:glycerol-1-phosphate dehydrogenase [NAD(P)+] activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00497_A; G1P_dehydrogenase_A; 1.
+DR   InterPro; IPR023002; G1P_dehydrogenase_arc.
+DR   InterPro; IPR032837; G1PDH.
+DR   InterPro; IPR016205; Glycerol_DH.
+DR   PANTHER; PTHR43616; PTHR43616; 1.
+DR   Pfam; PF13685; Fe-ADH_2; 1.
+DR   PIRSF; PIRSF000112; Glycerol_dehydrogenase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lipid biosynthesis; Lipid metabolism; Metal-binding; NAD; NADP;
+KW   Oxidoreductase; Phospholipid biosynthesis; Phospholipid metabolism; Zinc.
+FT   CHAIN           1..352
+FT                   /note="Glycerol-1-phosphate dehydrogenase [NAD(P)+]"
+FT                   /id="PRO_0000350644"
+FT   NP_BIND         98..102
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   NP_BIND         120..123
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           172
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           252
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           268
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         125
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         129
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         172
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         256
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+SQ   SEQUENCE   352 AA;  36711 MW;  93F3917D26790E15 CRC64;
+     MFEKSTWIRL PRNVVVGHGV LDDAVEVVRD THLTGRPLVV TSPTPKTVAA ENVVAQFEAV
+     GDDPAVVVVE EATFNSVERV LGEAEAVDPG YLVGVGGGKA IDIAKLASDH LNVGFVSVPT
+     AASHDGIVSG RGSVPEGDTR HSVSAAPPLA VIADTGVIAD APWELTTAGC ADIISNYTAV
+     KDWRLANRLQ HVPYSEYAGA LSQMTAEMLV DNAANIKPEL EESAWVVVKA LVSSGVAMSI
+     ADSSRPASGS EHLFSHQLDR IAPGKALHGH QVGVGSILAE YLHSGQEGQW MAVRDALASL
+     DAPTTADELG VADDEVLAAL TSAHEIRDRY TILGGGISEV AAREAASRTG VI
+//

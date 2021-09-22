@@ -1,0 +1,113 @@
+ID   NNRE_PARTE              Reviewed;         233 AA.
+AC   A0E3W6;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2006, sequence version 1.
+DT   02-DEC-2020, entry version 59.
+DE   RecName: Full=NAD(P)H-hydrate epimerase {ECO:0000255|HAMAP-Rule:MF_03159};
+DE            EC=5.1.99.6;
+DE   AltName: Full=NAD(P)HX epimerase {ECO:0000255|HAMAP-Rule:MF_03159};
+GN   ORFNames=GSPATT00023156001;
+OS   Paramecium tetraurelia.
+OC   Eukaryota; Sar; Alveolata; Ciliophora; Intramacronucleata;
+OC   Oligohymenophorea; Peniculida; Parameciidae; Paramecium.
+OX   NCBI_TaxID=5888;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Stock d4-2;
+RX   PubMed=17086204; DOI=10.1038/nature05230;
+RA   Aury J.-M., Jaillon O., Duret L., Noel B., Jubin C., Porcel B.M.,
+RA   Segurens B., Daubin V., Anthouard V., Aiach N., Arnaiz O., Billaut A.,
+RA   Beisson J., Blanc I., Bouhouche K., Camara F., Duharcourt S., Guigo R.,
+RA   Gogendeau D., Katinka M., Keller A.-M., Kissmehl R., Klotz C., Koll F.,
+RA   Le Mouel A., Lepere G., Malinsky S., Nowacki M., Nowak J.K., Plattner H.,
+RA   Poulain J., Ruiz F., Serrano V., Zagulski M., Dessen P., Betermier M.,
+RA   Weissenbach J., Scarpelli C., Schaechter V., Sperling L., Meyer E.,
+RA   Cohen J., Wincker P.;
+RT   "Global trends of whole-genome duplications revealed by the ciliate
+RT   Paramecium tetraurelia.";
+RL   Nature 444:171-178(2006).
+CC   -!- FUNCTION: Catalyzes the epimerization of the S- and R-forms of
+CC       NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or
+CC       heat-dependent hydration. This is a prerequisite for the S-specific
+CC       NAD(P)H-hydrate dehydratase to allow the repair of both epimers of
+CC       NAD(P)HX. {ECO:0000255|HAMAP-Rule:MF_03159}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-NADHX = (6S)-NADHX; Xref=Rhea:RHEA:32215,
+CC         ChEBI:CHEBI:64074, ChEBI:CHEBI:64075; EC=5.1.99.6;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-NADPHX = (6S)-NADPHX; Xref=Rhea:RHEA:32227,
+CC         ChEBI:CHEBI:64076, ChEBI:CHEBI:64077; EC=5.1.99.6;
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03159};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_03159};
+CC   -!- SIMILARITY: Belongs to the NnrE/AIBP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CT868657; CAK89983.1; -; Genomic_DNA.
+DR   RefSeq; XP_001457380.1; XM_001457343.1.
+DR   SMR; A0E3W6; -.
+DR   STRING; 5888.CAK89983; -.
+DR   EnsemblProtists; CAK89983; CAK89983; GSPATT00023156001.
+DR   GeneID; 5043165; -.
+DR   KEGG; ptm:GSPATT00023156001; -.
+DR   eggNOG; KOG2585; Eukaryota.
+DR   HOGENOM; CLU_024853_3_0_1; -.
+DR   InParanoid; A0E3W6; -.
+DR   OMA; FKGRHFI; -.
+DR   Proteomes; UP000000600; Partially assembled WGS sequence.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052856; F:NADHX epimerase activity; IBA:GO_Central.
+DR   GO; GO:0052857; F:NADPHX epimerase activity; IBA:GO_Central.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.10260; -; 1.
+DR   HAMAP; MF_01966; NADHX_epimerase; 1.
+DR   InterPro; IPR004443; YjeF_N_dom.
+DR   InterPro; IPR036652; YjeF_N_dom_sf.
+DR   InterPro; IPR032976; YJEFN_prot_NAXE-like.
+DR   PANTHER; PTHR13232; PTHR13232; 1.
+DR   Pfam; PF03853; YjeF_N; 1.
+DR   SUPFAM; SSF64153; SSF64153; 1.
+DR   TIGRFAMs; TIGR00197; yjeF_nterm; 1.
+DR   PROSITE; PS51385; YJEF_N; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Metal-binding; NAD; NADP; Nucleotide-binding; Potassium;
+KW   Reference proteome.
+FT   CHAIN           1..233
+FT                   /note="NAD(P)H-hydrate epimerase"
+FT                   /id="PRO_0000416324"
+FT   DOMAIN          15..218
+FT                   /note="YjeF N-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   REGION          67..71
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   REGION          132..138
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   METAL           68
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   METAL           128
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   METAL           164
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   BINDING         143
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+FT   BINDING         161
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03159"
+SQ   SEQUENCE   233 AA;  26540 MW;  9C1277F3BE67111E CRC64;
+     MQQLNKISYL NQIQSQQFDV ELMSEEVGFT LDQLMELAGQ SIANTVVQLN KEGKSYNKIL
+     VLCGPGNNGG DGIVSARHLK QFGLQPEIAL FREVKNPFFN RLLNQCKYNL IPIHYELQDL
+     EKYDLLIDAI LGFSFKPPLR EPYDKPIQQL KTTKTPILSV DIPSGWDVEQ GNAQDFFTPQ
+     YLISLTLPKL GVKSFKGRHF IGGRFIPLKL QEKYNFIVPE YQGSDTILEL SNL
+//

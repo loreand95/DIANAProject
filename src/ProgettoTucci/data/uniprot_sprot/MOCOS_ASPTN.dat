@@ -1,0 +1,111 @@
+ID   MOCOS_ASPTN             Reviewed;         828 AA.
+AC   Q0CLW8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Molybdenum cofactor sulfurase {ECO:0000255|HAMAP-Rule:MF_03050};
+DE            Short=MCS {ECO:0000255|HAMAP-Rule:MF_03050};
+DE            Short=MOS {ECO:0000255|HAMAP-Rule:MF_03050};
+DE            Short=MoCo sulfurase {ECO:0000255|HAMAP-Rule:MF_03050};
+DE            EC=2.8.1.9 {ECO:0000255|HAMAP-Rule:MF_03050};
+DE   AltName: Full=Molybdenum cofactor sulfurtransferase {ECO:0000255|HAMAP-Rule:MF_03050};
+GN   Name=hxB {ECO:0000255|HAMAP-Rule:MF_03050}; ORFNames=ATEG_05316;
+OS   Aspergillus terreus (strain NIH 2624 / FGSC A1156).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=341663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NIH 2624 / FGSC A1156;
+RA   Birren B.W., Lander E.S., Galagan J.E., Nusbaum C., Devon K., Henn M.,
+RA   Ma L.-J., Jaffe D.B., Butler J., Alvarez P., Gnerre S., Grabherr M.,
+RA   Kleber M., Mauceli E.W., Brockman W., Rounsley S., Young S.K., LaButti K.,
+RA   Pushparaj V., DeCaprio D., Crawford M., Koehrsen M., Engels R.,
+RA   Montgomery P., Pearson M., Howarth C., Larson L., Luoma S., White J.,
+RA   Alvarado L., Kodira C.D., Zeng Q., Oleary S., Yandava C., Denning D.W.,
+RA   Nierman W.C., Milne T., Madden K.;
+RT   "Annotation of the Aspergillus terreus NIH2624 genome.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Sulfurates the molybdenum cofactor. Sulfation of molybdenum
+CC       is essential for xanthine dehydrogenase (XDH) and aldehyde oxidase
+CC       (ADO) enzymes in which molybdenum cofactor is liganded by 1 oxygen and
+CC       1 sulfur atom in active form. {ECO:0000255|HAMAP-Rule:MF_03050}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + L-cysteine + Mo-molybdopterin = A + H2O + L-alanine +
+CC         thio-Mo-molybdopterin; Xref=Rhea:RHEA:42636, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17499, ChEBI:CHEBI:35235,
+CC         ChEBI:CHEBI:57972, ChEBI:CHEBI:71302, ChEBI:CHEBI:82685; EC=2.8.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03050};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03050};
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. MOCOS subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_03050}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH476600; EAU34385.1; -; Genomic_DNA.
+DR   RefSeq; XP_001214494.1; XM_001214494.1.
+DR   STRING; 33178.CADATEAP00004397; -.
+DR   EnsemblFungi; EAU34385; EAU34385; ATEG_05316.
+DR   GeneID; 4321216; -.
+DR   VEuPathDB; FungiDB:ATEG_05316; -.
+DR   eggNOG; KOG2142; Eukaryota.
+DR   HOGENOM; CLU_010913_0_0_1; -.
+DR   OMA; EWCLVHQ; -.
+DR   OrthoDB; 394559at2759; -.
+DR   Proteomes; UP000007963; Unassembled WGS sequence.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008265; F:Mo-molybdopterin cofactor sulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0102867; F:molybdenum cofactor sulfurtransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030151; F:molybdenum ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_03050; MOCOS; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR005302; MoCF_Sase_C.
+DR   InterPro; IPR028886; MoCo_sulfurase.
+DR   InterPro; IPR005303; MOSC_N.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   Pfam; PF03473; MOSC; 1.
+DR   Pfam; PF03476; MOSC_N; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS51340; MOSC; 1.
+PE   3: Inferred from homology;
+KW   Molybdenum cofactor biosynthesis; Pyridoxal phosphate; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..828
+FT                   /note="Molybdenum cofactor sulfurase"
+FT                   /id="PRO_0000369381"
+FT   DOMAIN          652..825
+FT                   /note="MOSC"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03050"
+FT   ACT_SITE        402
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03050"
+FT   MOD_RES         239
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03050"
+SQ   SEQUENCE   828 AA;  91321 MW;  752809D440122372 CRC64;
+     MTEAIINEGS PLGYSQGYSE DIDAIRQREY PMLSDTTYLD HAGTTLYAKS LIDSFSRDLT
+     TNLFGNPHSL SASSQRTTQR VDDIRLRALR FFNADPEHFD LVFVANATSA IKLVADALRD
+     SAHGFWYGYH VDAHTSLVGA RELAQAGSRC FTTDEEVEAW IAQLDADRTG AAQLFAFPAQ
+     SNMNGRRLPL RWCGRIRDRT KETATTYTLL DAASLVATSP LDLSDVSAAS DFTVLSFYKI
+     FGFPDLGALI VRKSAGHIFA QRRFFGGGTV DMVLTQDTQW HAKKRSVHEI LEDGTLPFHN
+     IIALDSALDT HARLYGSMGN VSTHTRFLAR TLYDRLAALR HFNGERVVHF YMGRSPDFAD
+     ASAQGPILAF NLRSSQGGWI GKSEVERLAS VKSLQIRSGT LCNPGGTASQ LGWSGADMLR
+     HFSAGLRCGD DHDVMDGRPT GILRVSLGAM SNLRDVEAFV AFVEEFYVEK TPNVCSVVPS
+     AADDSLQAGF YVESLAVYPI KSCGAFKVPD GQRWEIRREG LAWDREWCLV HQGTGAALNQ
+     KRYPRMALIR PHIDLARGVL RVVCGEASSE QKTLEISLRR EDASLVTTSL CQNAAKPSTV
+     CGDQVVVQVY SSTAVSSFFS TFLDVPCTLA RFPPQSTTRY TRRSLHSRSS TAALRRQRPV
+     EESSMPGSFP SDTPLSRTPE PPPILLANES PILLISRSSV NRLNETIKAS AKKAVAADVF
+     RANIVVAENL PHQLANTERP YIEDRWESFT VGPDRLQFDV LGSCQRCQMV CIDQCSGERR
+     DEPFSTLAKT RKVGSQIVFG RHAAVADGVD GISRTVMVGD VVRPWYPE
+//

@@ -1,0 +1,159 @@
+ID   RBL_SHEAR               Reviewed;         453 AA.
+AC   Q33062;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Ribulose bisphosphate carboxylase large chain {ECO:0000255|HAMAP-Rule:MF_01338};
+DE            Short=RuBisCO large subunit {ECO:0000255|HAMAP-Rule:MF_01338};
+DE            EC=4.1.1.39 {ECO:0000255|HAMAP-Rule:MF_01338};
+DE   Flags: Precursor; Fragment;
+GN   Name=rbcL {ECO:0000255|HAMAP-Rule:MF_01338};
+OS   Sherardia arvensis (Blue field-madder).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Gentianales; Rubiaceae; Rubioideae; Rubieae; Sherardia.
+OX   NCBI_TaxID=29803;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8587137; DOI=10.1007/bf00173172;
+RA   Manen J.F., Natali A.;
+RT   "Comparison of the evolution of ribulose-1, 5-biphosphate carboxylase
+RT   (rbcL) and atpB-rbcL noncoding spacer sequences in a recent plant group,
+RT   the tribe Rubieae (Rubiaceae).";
+RL   J. Mol. Evol. 41:920-927(1995).
+CC   -!- FUNCTION: RuBisCO catalyzes two reactions: the carboxylation of D-
+CC       ribulose 1,5-bisphosphate, the primary event in carbon dioxide
+CC       fixation, as well as the oxidative fragmentation of the pentose
+CC       substrate in the photorespiration process. Both reactions occur
+CC       simultaneously and in competition at the same active site.
+CC       {ECO:0000255|HAMAP-Rule:MF_01338}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (2R)-3-phosphoglycerate + 2 H(+) = CO2 + D-ribulose 1,5-
+CC         bisphosphate + H2O; Xref=Rhea:RHEA:23124, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57870,
+CC         ChEBI:CHEBI:58272; EC=4.1.1.39; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01338};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribulose 1,5-bisphosphate + O2 = (2R)-3-phosphoglycerate +
+CC         2-phosphoglycolate + 2 H(+); Xref=Rhea:RHEA:36631, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:57870, ChEBI:CHEBI:58033,
+CC         ChEBI:CHEBI:58272; Evidence={ECO:0000255|HAMAP-Rule:MF_01338};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01338};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01338};
+CC   -!- SUBUNIT: Heterohexadecamer of 8 large chains and 8 small chains;
+CC       disulfide-linked. The disulfide link is formed within the large subunit
+CC       homodimers. {ECO:0000255|HAMAP-Rule:MF_01338}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- PTM: The disulfide bond which can form in the large chain dimeric
+CC       partners within the hexadecamer appears to be associated with oxidative
+CC       stress and protein turnover. {ECO:0000255|HAMAP-Rule:MF_01338}.
+CC   -!- MISCELLANEOUS: The basic functional RuBisCO is composed of a large
+CC       chain homodimer in a 'head-to-tail' conformation. In form I RuBisCO
+CC       this homodimer is arranged in a barrel-like tetramer with the small
+CC       subunits forming a tetrameric 'cap' on each end of the 'barrel'.
+CC       {ECO:0000255|HAMAP-Rule:MF_01338}.
+CC   -!- SIMILARITY: Belongs to the RuBisCO large chain family. Type I
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01338}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X81106; CAA57012.1; -; Genomic_DNA.
+DR   PIR; S47237; S47237.
+DR   SMR; Q33062; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016984; F:ribulose-bisphosphate carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009853; P:photorespiration; IEA:UniProtKB-KW.
+DR   GO; GO:0019253; P:reductive pentose-phosphate cycle; IEA:UniProtKB-KW.
+DR   CDD; cd08212; RuBisCO_large_I; 1.
+DR   Gene3D; 3.20.20.110; -; 1.
+DR   Gene3D; 3.30.70.150; -; 1.
+DR   HAMAP; MF_01338; RuBisCO_L_type1; 1.
+DR   InterPro; IPR033966; RuBisCO.
+DR   InterPro; IPR020878; RuBisCo_large_chain_AS.
+DR   InterPro; IPR000685; RuBisCO_lsu_C.
+DR   InterPro; IPR036376; RuBisCO_lsu_C_sf.
+DR   InterPro; IPR017443; RuBisCO_lsu_fd_N.
+DR   InterPro; IPR036422; RuBisCO_lsu_N_sf.
+DR   InterPro; IPR020888; RuBisCO_lsuI.
+DR   PANTHER; PTHR42704; PTHR42704; 1.
+DR   Pfam; PF00016; RuBisCO_large; 1.
+DR   Pfam; PF02788; RuBisCO_large_N; 1.
+DR   SFLD; SFLDS00014; RuBisCO; 1.
+DR   SUPFAM; SSF51649; SSF51649; 1.
+DR   SUPFAM; SSF54966; SSF54966; 1.
+DR   PROSITE; PS00157; RUBISCO_LARGE; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; Calvin cycle; Carbon dioxide fixation; Chloroplast;
+KW   Disulfide bond; Lyase; Magnesium; Metal-binding; Methylation;
+KW   Monooxygenase; Oxidoreductase; Photorespiration; Photosynthesis; Plastid.
+FT   PROPEP          1..2
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT                   /id="PRO_0000031405"
+FT   CHAIN           3..>453
+FT                   /note="Ribulose bisphosphate carboxylase large chain"
+FT                   /id="PRO_0000031406"
+FT   ACT_SITE        175
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   ACT_SITE        294
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   METAL           201
+FT                   /note="Magnesium; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   METAL           203
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   METAL           204
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         123
+FT                   /note="Substrate; in homodimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         173
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         177
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         295
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         327
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   BINDING         379
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   SITE            334
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   MOD_RES         3
+FT                   /note="N-acetylproline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   MOD_RES         14
+FT                   /note="N6,N6,N6-trimethyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   MOD_RES         201
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   DISULFID        247
+FT                   /note="Interchain; in linked form"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01338"
+FT   NON_TER         453
+SQ   SEQUENCE   453 AA;  50452 MW;  9DC223CF38AFA8F3 CRC64;
+     MSPQTETKAG VGFKAGVKEY KLTYYTPEYE TKDTDILAAF RVTPQPGVPP EERGAAVAAE
+     SSTGTWTTVW TDGLTSLDRY KGRCYHIEPV PGEEEQFIAY VAYPLDLFEE GSVTNMFTSI
+     VGNVFGFKAL RALRLEDLRI PVAYVKTFQG PPHGIQVERD KLNKYGRPLL GCTIKPKLGL
+     SAKNYGRAVY ECLRGGLDFT KDDENVNSQP FMRWRDRFLF CAEAIYKSQA ETGEIKGHYL
+     NATAGTCEDM MKRAVFAREL EVPIVMHDYL TGGFTANTTL SHYCRDNGLL LHIHRAMHAV
+     IDRQKNHGMH FRVLAKALRM SGGDHIHSGT VVGKLEGERD ITLGFVDLLR DDYIEKDRSR
+     GIYFTQDWVS LPGVLPVASR GIHVWHMPAL TEIFGDDSVL QFGGGTLGHP WGNAPGAVAN
+     RVALEACVKA RNEGRDLARE GGEIIREACK WSP
+//

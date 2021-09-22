@@ -1,0 +1,118 @@
+ID   RPOC2_SYNS3             Reviewed;        1365 AA.
+AC   Q0I7L9;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 88.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE            Short=RNAP subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=Transcriptase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+GN   Name=rpoC2 {ECO:0000255|HAMAP-Rule:MF_01324}; OrderedLocusNames=sync_2356;
+OS   Synechococcus sp. (strain CC9311).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus;
+OC   unclassified Synechococcus.
+OX   NCBI_TaxID=64471;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CC9311;
+RX   PubMed=16938853; DOI=10.1073/pnas.0602963103;
+RA   Palenik B., Ren Q., Dupont C.L., Myers G.S., Heidelberg J.F., Badger J.H.,
+RA   Madupu R., Nelson W.C., Brinkac L.M., Dodson R.J., Durkin A.S.,
+RA   Daugherty S.C., Sullivan S.A., Khouri H., Mohamoud Y., Halpin R.,
+RA   Paulsen I.T.;
+RT   "Genome sequence of Synechococcus CC9311: insights into adaptation to a
+RT   coastal environment.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:13555-13559(2006).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01324};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01324};
+CC       Note=Binds 1 Zn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01324};
+CC   -!- SUBUNIT: In cyanobacteria the RNAP catalytic core is composed of 2
+CC       alpha, 1 beta, 1 beta', 1 gamma and 1 omega subunit. When a sigma
+CC       factor is associated with the core the holoenzyme is formed, which can
+CC       initiate transcription. {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta' chain family. RpoC2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000435; ABI46015.1; -; Genomic_DNA.
+DR   RefSeq; WP_011620263.1; NC_008319.1.
+DR   STRING; 64471.sync_2356; -.
+DR   EnsemblBacteria; ABI46015; ABI46015; sync_2356.
+DR   KEGG; syg:sync_2356; -.
+DR   eggNOG; COG0086; Bacteria.
+DR   HOGENOM; CLU_000524_1_0_3; -.
+DR   OMA; IEGKSDW; -.
+DR   OrthoDB; 4373at2; -.
+DR   Proteomes; UP000001961; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.132.30; -; 1.
+DR   Gene3D; 1.10.274.100; -; 1.
+DR   HAMAP; MF_01324; RNApol_bact_RpoC2; 1.
+DR   InterPro; IPR012756; DNA-dir_RpoC2_beta_pp.
+DR   InterPro; IPR007066; RNA_pol_Rpb1_3.
+DR   InterPro; IPR042102; RNA_pol_Rpb1_3_sf.
+DR   InterPro; IPR007083; RNA_pol_Rpb1_4.
+DR   InterPro; IPR007081; RNA_pol_Rpb1_5.
+DR   InterPro; IPR038120; Rpb1_funnel_sf.
+DR   Pfam; PF04983; RNA_pol_Rpb1_3; 1.
+DR   Pfam; PF05000; RNA_pol_Rpb1_4; 1.
+DR   Pfam; PF04998; RNA_pol_Rpb1_5; 1.
+DR   TIGRFAMs; TIGR02388; rpoC2_cyan; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Metal-binding; Nucleotidyltransferase;
+KW   Reference proteome; Transcription; Transferase; Zinc.
+FT   CHAIN           1..1365
+FT                   /note="DNA-directed RNA polymerase subunit beta'"
+FT                   /id="PRO_0000353534"
+FT   METAL           249
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           316
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           323
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           326
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+SQ   SEQUENCE   1365 AA;  148213 MW;  031F0E2942B53AB9 CRC64;
+     MTSTPSKSRK SAKAAKAAKA EAAAFAKSRA LSKTPPPFRN RVVDKKVLKE LVAWAFKNHG
+     TAATASMADQ LKDLGFKYAT QAAVSISVND LKVPAAKKDL LDQAEELITE TEESYRLGVI
+     TEVERHTKVI DTWTETNERL VDAVKKNFND NDPLNSVWMM ANSGARGNMS QVRQLVGMRG
+     LMANPQGEII DLPIRTNFRE GLTVTEYVIS SYGARKGLVD TALRTADSGY LTRRLVDVAQ
+     DVIVREDDCG TMRSIMVKAE DGRFGNRLVG RLTADQVLGA DGEVIAERNS EIDPPLSKRF
+     EAAGVSALMV RSPLTCEANR SVCRKCYGWA LAHNQLVDLG EAVGIIAAQS IGEPGTQLTM
+     RTFHTGGVST AESGVVRSKF EGTVEFGSKA KVRPYRTPHG VNAQQSDVDF SLTIKPSGSG
+     KPQKIEITNG SLLFVDDGQK IASDVTVATI AAGAVQKSVE KATKDVICDL AGQVSYDPTI
+     QPREVTDRQG NITHKAQRLG RMWVLAGDVY NLPPNARPVV SSGGSVIESQ VLAEASQASE
+     YGGAIRLREA LGDSREVQIV TTSMTLRDFK LLGESTHAGE IWNLEAKDGT RYRLNTIPGS
+     KIGNAEVIAE LADDRFRTQT GGLVKFAPGL AIKKARSAKN GYEVNKGGTL LWIPQETHEI
+     NKDISLLMIT DGQWIEAGTE VVKDIFSQTA GIVSVTQKND ILREIIVRSG SFHLCTEKKA
+     LERFQGDGVM VNPGEAIAKG ISSDAMVFVQ AVETPEGTGL LLRPVEEYTI PNEAQLPDLG
+     HVKQPNGPHL GIKATQRLAF KDNELVKSVE GVELLRTQLM LETFDTTPQM TVDVEAVPDK
+     RAKTIERLQL VILESILVRR DTISDSSHGS THTELQVEDG QSIKAGDVVA TTQILCKQAG
+     VAEMPEATED EPVRRLIVER PEDTITINTS GAPVVTVGQR VVDGEELAQG QPSDCCGEVE
+     QVSANSVTMR LGRPYMISPD SLLHVRDGDL VQRGDGLALL VFERQKTGDI VQGLPRIEEL
+     LEARRPRESS ILCKKPGTVE IKQGEDDEFT TVTVIESDDA IAEYPILLGR NVMVSDGQQV
+     NAGELLTDGP INPHELLECF FEDLRSRKPL MDAAQEAIAK LQHRLVTEVQ NVYKSQGVSI
+     HDKHIEVIVR QMTSKVRIED AGDTTLLPGE LIELRQVENT NQAMSITGGA PAEFTPVLLG
+     ITKASLNTDS FISAASFQET TRVLTEAAIE GKSDWLRGLK ENVIIGRLIP AGTGFSGFEE
+     ELRAEAGPHP DILSEDPAGY RRMQNLRPDY TVDMPAAPAA KSTALLDDPS AADLEATRSR
+     HGIEAEASNF AAFTRPDADN ELAEEQVLDP AAVENLQEQG LLSDE
+//

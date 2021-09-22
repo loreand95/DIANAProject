@@ -1,0 +1,95 @@
+ID   MNMG_MYXXD              Reviewed;         615 AA.
+AC   Q1CVH6;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2006, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Synonyms=gidA {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   OrderedLocusNames=MXAN_7494;
+OS   Myxococcus xanthus (strain DK 1622).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales;
+OC   Cystobacterineae; Myxococcaceae; Myxococcus.
+OX   NCBI_TaxID=246197;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DK 1622;
+RX   PubMed=17015832; DOI=10.1073/pnas.0607335103;
+RA   Goldman B.S., Nierman W.C., Kaiser D., Slater S.C., Durkin A.S., Eisen J.,
+RA   Ronning C.M., Barbazuk W.B., Blanchard M., Field C., Halling C., Hinkle G.,
+RA   Iartchuk O., Kim H.S., Mackenzie C., Madupu R., Miller N., Shvartsbeyn A.,
+RA   Sullivan S.A., Vaudin M., Wiegand R., Kaplan H.B.;
+RT   "Evolution of sensory complexity recorded in a myxobacterial genome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15200-15205(2006).
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000113; ABF88025.1; -; Genomic_DNA.
+DR   RefSeq; WP_011557396.1; NC_008095.1.
+DR   SMR; Q1CVH6; -.
+DR   STRING; 246197.MXAN_7494; -.
+DR   EnsemblBacteria; ABF88025; ABF88025; MXAN_7494.
+DR   GeneID; 41364627; -.
+DR   KEGG; mxa:MXAN_7494; -.
+DR   eggNOG; COG0445; Bacteria.
+DR   HOGENOM; CLU_007831_2_2_7; -.
+DR   OMA; FRPGYAI; -.
+DR   OrthoDB; 146811at2; -.
+DR   BioCyc; MXAN246197:G1G53-7332-MONOMER; -.
+DR   Proteomes; UP000002402; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR026904; GidA-assoc_3.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR040131; MnmG_N.
+DR   PANTHER; PTHR11806; PTHR11806; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_assoc; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00136; gidA; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; tRNA processing.
+FT   CHAIN           1..615
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme MnmG"
+FT                   /id="PRO_0000345303"
+FT   NP_BIND         11..16
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   NP_BIND         278..292
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   615 AA;  66133 MW;  EDDAE87E73286E26 CRC64;
+     MGLRYDVIVV GLGHAGSEAA LACARMGLAT LGLTLKRERS AVLSCNPAVG GTAKGHLVRE
+     LDALGGEMGR AADQVGTHFK TLNASKGPAV QASRLLCDRD AYAVGMQAVL FSQPNLTVRE
+     GEVAALVAGG GRVEGVVLGD GTQVSASAVL LTTGTFLQAL MHVGEQKEVG GRLGDDAARG
+     LSESLRALGF TLGRFKTGTP ARLARASIDW DALEPQPGDT RVRPFSWRTK VEGEGGMPFP
+     RQPSVTCALT ETTPRTHAVL RDNLHRSPLY QGDIVGRGPR YCPSLEDKVV RFASRERHQV
+     FLEPEGPTSP LVYPAGLSTS LPADVQLTFL HTIRGLEQVE VVRFGYAVEY DYAPPTQLKA
+     TLETKAIAGL YFAGQLNGTS GYEEAAFQGL WAGINAALQL KGEPPLLPGR DEAHGAVLVD
+     DLVTKGVDEP FRMFTSRSEH RLKLREGNAD LRLARHGHRV GLLPREALER VEARGRAVTE
+     EVARLKRTGL AARLRRPEVT YAQLGEGRED WPVLSPDVAE EVEVEVKYEG YVAQAARAAA
+     REAESTDRWR IPEGYCFHEV RGLSSEAVEK LTAHRPGTVG QARRIPGLTP AAVSLLLVAL
+     KRGTEAPAVC AQPED
+//

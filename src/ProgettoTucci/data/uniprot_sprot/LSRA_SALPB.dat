@@ -1,0 +1,94 @@
+ID   LSRA_SALPB              Reviewed;         511 AA.
+AC   A9MZG1;
+DT   14-OCT-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   07-APR-2021, entry version 69.
+DE   RecName: Full=Autoinducer 2 import ATP-binding protein LsrA {ECO:0000250|UniProtKB:P77257};
+DE            Short=AI-2 import ATP-binding protein LsrA {ECO:0000250|UniProtKB:P77257};
+DE            EC=7.6.2.13 {ECO:0000250|UniProtKB:P77257};
+GN   Name=lsrA; OrderedLocusNames=SPAB_05047;
+OS   Salmonella paratyphi B (strain ATCC BAA-1250 / SPB7).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=1016998;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1250 / SPB7;
+RG   The Salmonella enterica serovar Paratyphi B Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Porwollik S., Spieth J., Clifton W.S.,
+RA   Fulton R., Cordes M., Wollam A., Shah N., Pepin K., Bhonagiri V., Nash W.,
+RA   Johnson M., Thiruvilangam P., Wilson R.;
+RL   Submitted (NOV-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Part of the ABC transporter complex LsrABCD involved in
+CC       autoinducer 2 (AI-2) import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000250|UniProtKB:P77257}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(2)O + (2R,4S)-2-methyl-2,3,3,4-
+CC         tetrahydroxytetrahydrofuran-[AI-2-binding protein](Side 1) = ADP +
+CC         phosphate + (2R,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran(Side
+CC         2) + [AI-2-binding protein](Side 1).; EC=7.6.2.13;
+CC         Evidence={ECO:0000250|UniProtKB:P77257};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (LsrA),
+CC       two transmembrane proteins (LsrC and LsrD) and a solute-binding protein
+CC       (LsrB). {ECO:0000250|UniProtKB:P77257}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:P77257}; Peripheral membrane protein
+CC       {ECO:0000250|UniProtKB:P77257}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. AI-2
+CC       autoinducer porter (TC 3.A.1.2.8) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000886; ABX70338.1; -; Genomic_DNA.
+DR   RefSeq; WP_001167248.1; NC_010102.1.
+DR   SMR; A9MZG1; -.
+DR   KEGG; spq:SPAB_05047; -.
+DR   PATRIC; fig|1016998.12.peg.4738; -.
+DR   HOGENOM; CLU_000604_92_3_6; -.
+DR   OMA; ITHRFPE; -.
+DR   BioCyc; SENT1016998:SPAB_RS20540-MONOMER; -.
+DR   Proteomes; UP000008556; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:1905887; P:autoinducer AI-2 transmembrane transport; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR030281; LsrA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43790:SF2; PTHR43790:SF2; 1.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Repeat; Translocase; Transport.
+FT   CHAIN           1..511
+FT                   /note="Autoinducer 2 import ATP-binding protein LsrA"
+FT                   /id="PRO_0000351302"
+FT   DOMAIN          12..240
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          263..503
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   NP_BIND         44..51
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   511 AA;  55518 MW;  AA0041672ECD80DD CRC64;
+     MQISHNTASP LICVQNIYKS YSGVEVLKGI DFTLHAGEVH ALLGGNGAGK STLMKIIAGI
+     VPPDGGTIDI AGVRCSHLTP LKAHQYGIYL VPQEPLLFPS LSVRENILFG LQGRQASTEK
+     MQQLLKAMGC QLDPASAAGT LDVADRQIVE IMRGLMRDSR ILILDEPTAS LTPAETDRLF
+     TRLQELLKKG VGIVFISHKL PEIRQLAHCV SVMRDGKIAL FGKTHDLSTD EIIQAITPAT
+     QGVSLSANQK LWLELPGSRP QNERGATVLA LESLTGEGFM NINLEVRAGE ILGLAGLVGA
+     GRTELAETLY GIRPVNAGRM LFNGEEINAL TTQQRLQLGL VYLPEDRQSS GLYLDASLAW
+     NVCSLTHNQK GFWIKPQRDN ATLERYHRAL NIKLNNAEQA ARTLSGGNQQ KVLIAKCLEA
+     SPQLLIVDEP TRGVDVSARS DIYQLLRSIA QQNVAVLFIS SDLEEIEQMA DRVYVMHQGE
+     LGGPALCGEE INVDTIMHVA FGEHGASEAT C
+//

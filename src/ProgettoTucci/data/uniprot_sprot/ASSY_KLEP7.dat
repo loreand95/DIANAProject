@@ -1,0 +1,136 @@
+ID   ASSY_KLEP7              Reviewed;         447 AA.
+AC   A6TEJ0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   10-FEB-2021, entry version 79.
+DE   RecName: Full=Argininosuccinate synthase {ECO:0000255|HAMAP-Rule:MF_00581};
+DE            EC=6.3.4.5 {ECO:0000255|HAMAP-Rule:MF_00581};
+DE   AltName: Full=Citrulline--aspartate ligase {ECO:0000255|HAMAP-Rule:MF_00581};
+GN   Name=argG {ECO:0000255|HAMAP-Rule:MF_00581};
+GN   OrderedLocusNames=KPN78578_35500; ORFNames=KPN_03580;
+OS   Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=272620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578;
+RG   The Klebsiella pneumonia Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Spieth J., Clifton W.S., Latreille P.,
+RA   Sabo A., Pepin K., Bhonagiri V., Porwollik S., Ali J., Wilson R.K.;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-aspartate + L-citrulline = 2-(N(omega)-L-
+CC         arginino)succinate + AMP + diphosphate + H(+); Xref=Rhea:RHEA:10932,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57472, ChEBI:CHEBI:57743,
+CC         ChEBI:CHEBI:456215; EC=6.3.4.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00581};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 2/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00581}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00581}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00581}.
+CC   -!- SIMILARITY: Belongs to the argininosuccinate synthase family. Type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00581}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000647; ABR78974.1; -; Genomic_DNA.
+DR   RefSeq; WP_004144895.1; NC_009648.1.
+DR   SMR; A6TEJ0; -.
+DR   jPOST; A6TEJ0; -.
+DR   EnsemblBacteria; ABR78974; ABR78974; KPN_03580.
+DR   GeneID; 57003062; -.
+DR   KEGG; kpn:KPN_03580; -.
+DR   HOGENOM; CLU_032784_4_1_6; -.
+DR   OMA; GVGRIDM; -.
+DR   BioCyc; KPNE272620:G1G8J-3865-MONOMER; -.
+DR   UniPathway; UPA00068; UER00113.
+DR   Proteomes; UP000000265; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004055; F:argininosuccinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042803; F:protein homodimerization activity; IEA:InterPro.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.287.400; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   Gene3D; 3.90.1260.10; -; 1.
+DR   HAMAP; MF_00581; Arg_succ_synth_type2; 1.
+DR   InterPro; IPR023437; Arg_succ_synth_type2_subfam.
+DR   InterPro; IPR001518; Arginosuc_synth.
+DR   InterPro; IPR018223; Arginosuc_synth_CS.
+DR   InterPro; IPR024074; AS_cat/multimer_dom_body.
+DR   InterPro; IPR024073; AS_multimer_C_tail.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR11587; PTHR11587; 1.
+DR   Pfam; PF00764; Arginosuc_synth; 1.
+DR   SUPFAM; SSF69864; SSF69864; 1.
+DR   TIGRFAMs; TIGR00032; argG; 1.
+DR   PROSITE; PS00564; ARGININOSUCCIN_SYN_1; 1.
+DR   PROSITE; PS00565; ARGININOSUCCIN_SYN_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..447
+FT                   /note="Argininosuccinate synthase"
+FT                   /id="PRO_1000025429"
+FT   NP_BIND         17..25
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         43
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         99
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         129
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         131
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         131
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         135
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         135
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         136
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         136
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         139
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         192
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         194
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         201
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         203
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+FT   BINDING         280
+FT                   /note="Citrulline"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00581"
+SQ   SEQUENCE   447 AA;  49812 MW;  D375CE18987130DC CRC64;
+     MTTILKHLPV GQRIGIAFSG GLDTSAALLW MRKKGAVPYA YTANLGQPDE DDYDAIPRRA
+     KEYGAEGARL IDCRKQLVAE GIAAIQCGAF HNTTGGLTYF NTTPLGRAVT GTMLVAAMKE
+     DGVNIWGDGS TYKGNDIERF YRYGLLTNAE LQIYKPWLDS DFINELGGRH EMSEFMIACG
+     FDYKMSVEKA YSTDSNMLGA THEAKDLEFL NSSVKIVNPI MGVKFWDENV KIPAEEVTVR
+     FEQGHPVALN GKTFADDVEM MLEANRIGGR HGLGMSDQIE NRIIEAKSRG IYEAPGMALL
+     HIAYERLLTG IHNEDTIEQY HAHGRQLGRL LYQGRWFDSQ ALMLRDSLQR WVASQITGEV
+     TLELRRGNDY SILNTVSDNL TYKAERLTME KGDSMFTAED RIGQLTMRNL DITDTREKLF
+     GYAQSGLLSA SSATGLPQVE NLENKGK
+//

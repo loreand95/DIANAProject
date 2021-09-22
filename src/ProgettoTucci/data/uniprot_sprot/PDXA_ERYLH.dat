@@ -1,0 +1,114 @@
+ID   PDXA_ERYLH              Reviewed;         336 AA.
+AC   Q2N8X0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   07-APR-2021, entry version 89.
+DE   RecName: Full=4-hydroxythreonine-4-phosphate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00536};
+DE            EC=1.1.1.262 {ECO:0000255|HAMAP-Rule:MF_00536};
+DE   AltName: Full=4-(phosphohydroxy)-L-threonine dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00536};
+GN   Name=pdxA {ECO:0000255|HAMAP-Rule:MF_00536}; OrderedLocusNames=ELI_08895;
+OS   Erythrobacter litoralis (strain HTCC2594).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales;
+OC   Erythrobacteraceae; Erythrobacter/Porphyrobacter group; Erythrobacter.
+OX   NCBI_TaxID=314225;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HTCC2594;
+RX   PubMed=19168610; DOI=10.1128/jb.00026-09;
+RA   Oh H.M., Giovannoni S.J., Ferriera S., Johnson J., Cho J.C.;
+RT   "Complete genome sequence of Erythrobacter litoralis HTCC2594.";
+RL   J. Bacteriol. 191:2419-2420(2009).
+CC   -!- FUNCTION: Catalyzes the NAD(P)-dependent oxidation of 4-(phosphooxy)-L-
+CC       threonine (HTP) into 2-amino-3-oxo-4-(phosphooxy)butyric acid which
+CC       spontaneously decarboxylates to form 3-amino-2-oxopropyl phosphate
+CC       (AHAP). {ECO:0000255|HAMAP-Rule:MF_00536}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-(phosphooxy)-L-threonine + NAD(+) = 3-amino-2-oxopropyl
+CC         phosphate + CO2 + NADH; Xref=Rhea:RHEA:32275, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57279, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:58452; EC=1.1.1.262; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00536};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00536};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00536};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00536};
+CC       Note=Binds 1 divalent metal cation per subunit. Can use ions such as
+CC       Zn(2+), Mg(2+) or Co(2+). {ECO:0000255|HAMAP-Rule:MF_00536};
+CC   -!- PATHWAY: Cofactor biosynthesis; pyridoxine 5'-phosphate biosynthesis;
+CC       pyridoxine 5'-phosphate from D-erythrose 4-phosphate: step 4/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_00536}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00536}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00536}.
+CC   -!- MISCELLANEOUS: The active site is located at the dimer interface.
+CC       {ECO:0000255|HAMAP-Rule:MF_00536}.
+CC   -!- SIMILARITY: Belongs to the PdxA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00536}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000157; ABC63871.1; -; Genomic_DNA.
+DR   RefSeq; WP_011414701.1; NC_007722.1.
+DR   SMR; Q2N8X0; -.
+DR   STRING; 314225.ELI_08895; -.
+DR   EnsemblBacteria; ABC63871; ABC63871; ELI_08895.
+DR   KEGG; eli:ELI_08895; -.
+DR   eggNOG; COG1995; Bacteria.
+DR   HOGENOM; CLU_040168_2_0_5; -.
+DR   OMA; KIIAVTM; -.
+DR   OrthoDB; 1414545at2; -.
+DR   BioCyc; ELIT314225:G1G5F-1772-MONOMER; -.
+DR   UniPathway; UPA00244; UER00312.
+DR   Proteomes; UP000008808; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050570; F:4-hydroxythreonine-4-phosphate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042823; P:pyridoxal phosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008615; P:pyridoxine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00536; PdxA; 1.
+DR   InterPro; IPR037510; PdxA.
+DR   InterPro; IPR005255; PdxA_fam.
+DR   PANTHER; PTHR30004; PTHR30004; 1.
+DR   Pfam; PF04166; PdxA; 1.
+DR   TIGRFAMs; TIGR00557; pdxA; 1.
+PE   3: Inferred from homology;
+KW   Cobalt; Cytoplasm; Magnesium; Metal-binding; NAD; NADP; Oxidoreductase;
+KW   Pyridoxine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..336
+FT                   /note="4-hydroxythreonine-4-phosphate dehydrogenase"
+FT                   /id="PRO_1000051500"
+FT   METAL           171
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   METAL           216
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   METAL           271
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   BINDING         140
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   BINDING         279
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   BINDING         288
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+FT   BINDING         297
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00536"
+SQ   SEQUENCE   336 AA;  34465 MW;  213B605C1BF17B80 CRC64;
+     MGEPQRPLAV SLGDPAGIGP EIIVHAWRMR DSANLAPFAV AGGANVLRSA TEALGVPCPI
+     QEIDDIAEAN SAFLEALPVI KGLDGAYLPG APDPIGAKLA LKSLEMATRL ATAGHASGVV
+     TAPIAKGLLE QVGFTHPGQT EFLAAACGLP EDASVMMLAG PSLRAVPLTV HCPLAEVPGL
+     LSIGLIVERG RIVASALQRD FGIERPRLAV TGLNPHAGED GKFGNEEQDV IAPAIAELLA
+     DGITATGPHP ADALFSPHSR AGFDAALCMY HDQALIPVKA LDFDQGVNVT LGLPIVRTSP
+     DHGTAFDIAG RGTAHPGAMV FALLMAGECA ARRADA
+//

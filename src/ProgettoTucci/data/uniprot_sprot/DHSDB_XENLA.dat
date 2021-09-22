@@ -1,0 +1,100 @@
+ID   DHSDB_XENLA             Reviewed;         152 AA.
+AC   Q6AZV0;
+DT   22-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=Succinate dehydrogenase [ubiquinone] cytochrome b small subunit B, mitochondrial;
+DE            Short=CybS-B;
+DE   AltName: Full=Succinate dehydrogenase complex subunit D-B;
+DE   AltName: Full=Succinate-ubiquinone oxidoreductase cytochrome b small subunit B;
+DE   AltName: Full=Succinate-ubiquinone reductase membrane anchor subunit B;
+DE   Flags: Precursor;
+GN   Name=sdhd-b;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo;
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (JUL-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Membrane-anchoring subunit of succinate dehydrogenase (SDH)
+CC       that is involved in complex II of the mitochondrial electron transport
+CC       chain and is responsible for transferring electrons from succinate to
+CC       ubiquinone (coenzyme Q). {ECO:0000250}.
+CC   -!- SUBUNIT: Component of complex II composed of four subunits: the
+CC       flavoprotein (FP) sdha, iron-sulfur protein (IP) sdhb, and a cytochrome
+CC       b560 composed of sdhc and sdhd. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane {ECO:0000250};
+CC       Multi-pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CybS family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BC077199; AAH77199.1; -; mRNA.
+DR   RefSeq; NP_001088989.1; NM_001095520.1.
+DR   SMR; Q6AZV0; -.
+DR   GeneID; 496372; -.
+DR   KEGG; xla:496372; -.
+DR   CTD; 496372; -.
+DR   Xenbase; XB-GENE-5855323; sdhd.L.
+DR   OMA; IKRFWSI; -.
+DR   OrthoDB; 1511215at2759; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005749; C:mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone); ISS:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048039; F:ubiquinone binding; ISS:UniProtKB.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-KW.
+DR   CDD; cd03496; SQR_TypeC_CybS; 1.
+DR   Gene3D; 1.20.1300.10; -; 1.
+DR   InterPro; IPR007992; CybS.
+DR   InterPro; IPR034804; SQR/QFR_C/D.
+DR   PANTHER; PTHR13337; PTHR13337; 1.
+DR   SUPFAM; SSF81343; SSF81343; 1.
+PE   2: Evidence at transcript level;
+KW   Electron transport; Heme; Iron; Membrane; Metal-binding; Mitochondrion;
+KW   Mitochondrion inner membrane; Transit peptide; Transmembrane;
+KW   Transmembrane helix; Transport; Tricarboxylic acid cycle.
+FT   TRANSIT         1..21
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..152
+FT                   /note="Succinate dehydrogenase [ubiquinone] cytochrome b
+FT                   small subunit B, mitochondrial"
+FT                   /id="PRO_0000343809"
+FT   TOPO_DOM        22..56
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        57..78
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        79..83
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        84..104
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        105..113
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        114..135
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        136..152
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250"
+FT   METAL           95
+FT                   /note="Iron (heme axial ligand); shared with sdhc"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         107
+FT                   /note="Ubiquinone; shared with IP/sdhb"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   152 AA;  16398 MW;  42D40BC48F72B947 CRC64;
+     MATLLRVSSL CRANRASAFK SLLIRPLPCL SQDLHMVQTS QIHTSPNHHA GSKAASMHWT
+     GERALSVALL GLLPAAYLYP GAAMDYSLAA ALTLHGHWGL GQVVTDYVHG ETKIKMANTS
+     LFALSALTFA GLCYFNYHDV GICKAVAMLW SL
+//

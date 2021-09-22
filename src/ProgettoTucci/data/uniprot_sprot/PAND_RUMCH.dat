@@ -1,0 +1,116 @@
+ID   PAND_RUMCH              Reviewed;         128 AA.
+AC   B8I2Z2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 68.
+DE   RecName: Full=Aspartate 1-decarboxylase {ECO:0000255|HAMAP-Rule:MF_00446};
+DE            EC=4.1.1.11 {ECO:0000255|HAMAP-Rule:MF_00446};
+DE   AltName: Full=Aspartate alpha-decarboxylase {ECO:0000255|HAMAP-Rule:MF_00446};
+DE   Contains:
+DE     RecName: Full=Aspartate 1-decarboxylase beta chain {ECO:0000255|HAMAP-Rule:MF_00446};
+DE   Contains:
+DE     RecName: Full=Aspartate 1-decarboxylase alpha chain {ECO:0000255|HAMAP-Rule:MF_00446};
+DE   Flags: Precursor;
+GN   Name=panD {ECO:0000255|HAMAP-Rule:MF_00446}; OrderedLocusNames=Ccel_1785;
+OS   Ruminiclostridium cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 /
+OS   H10) (Clostridium cellulolyticum).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae;
+OC   Ruminiclostridium.
+OX   NCBI_TaxID=394503;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35319 / DSM 5812 / JCM 6584 / H10;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Chertkov O., Saunders E., Brettin T.,
+RA   Detter J.C., Han C., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Ivanova N., Zhou J., Richardson P.;
+RT   "Complete sequence of Clostridium cellulolyticum H10.";
+RL   Submitted (JAN-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the pyruvoyl-dependent decarboxylation of aspartate
+CC       to produce beta-alanine. {ECO:0000255|HAMAP-Rule:MF_00446}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-aspartate = beta-alanine + CO2; Xref=Rhea:RHEA:19497,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:29991,
+CC         ChEBI:CHEBI:57966; EC=4.1.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00446};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00446};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00446};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; beta-
+CC       alanine from L-aspartate: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00446}.
+CC   -!- SUBUNIT: Heterooctamer of four alpha and four beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00446}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00446}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme, which is
+CC       activated by self-cleavage at a specific serine bond to produce a beta-
+CC       subunit with a hydroxyl group at its C-terminus and an alpha-subunit
+CC       with a pyruvoyl group at its N-terminus. {ECO:0000255|HAMAP-
+CC       Rule:MF_00446}.
+CC   -!- SIMILARITY: Belongs to the PanD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00446}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001348; ACL76135.1; -; Genomic_DNA.
+DR   RefSeq; WP_015925250.1; NC_011898.1.
+DR   SMR; B8I2Z2; -.
+DR   STRING; 394503.Ccel_1785; -.
+DR   EnsemblBacteria; ACL76135; ACL76135; Ccel_1785.
+DR   KEGG; cce:Ccel_1785; -.
+DR   eggNOG; COG0853; Bacteria.
+DR   HOGENOM; CLU_115305_2_0_9; -.
+DR   OMA; MLYSKIH; -.
+DR   OrthoDB; 1751990at2; -.
+DR   BioCyc; CCEL394503:G1GUL-1818-MONOMER; -.
+DR   UniPathway; UPA00028; UER00002.
+DR   Proteomes; UP000001349; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004068; F:aspartate 1-decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006523; P:alanine biosynthetic process; IEA:InterPro.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06919; Asp_decarbox; 1.
+DR   HAMAP; MF_00446; PanD; 1.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom_sf.
+DR   InterPro; IPR003190; Asp_decarbox.
+DR   PANTHER; PTHR21012; PTHR21012; 1.
+DR   Pfam; PF02261; Asp_decarbox; 1.
+DR   PIRSF; PIRSF006246; Asp_decarbox; 1.
+DR   SUPFAM; SSF50692; SSF50692; 1.
+DR   TIGRFAMs; TIGR00223; panD; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; Cytoplasm; Decarboxylase; Lyase;
+KW   Pantothenate biosynthesis; Pyruvate; Reference proteome; Schiff base;
+KW   Zymogen.
+FT   CHAIN           1..24
+FT                   /note="Aspartate 1-decarboxylase beta chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT                   /id="PRO_1000191960"
+FT   CHAIN           25..128
+FT                   /note="Aspartate 1-decarboxylase alpha chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT                   /id="PRO_1000191961"
+FT   REGION          73..75
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT   ACT_SITE        25
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT   ACT_SITE        58
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT   BINDING         57
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+FT   MOD_RES         25
+FT                   /note="Pyruvic acid (Ser)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00446"
+SQ   SEQUENCE   128 AA;  14186 MW;  7FBB7F61CCC53C8E CRC64;
+     MNITLLSGKI HRATVTQAEL NYVGSITIDQ DLLEAAGIME YEKVCVVNIN NGIRLETYTI
+     AGEKGSGIIC LNGAAARYAQ VSDKVIIMAY AQMTKEEAQK HKPNVVFVDD NNRITRKTNY
+     EKHGQIVE
+//

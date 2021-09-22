@@ -1,0 +1,93 @@
+ID   DEF_RICPR               Reviewed;         175 AA.
+AC   Q9ZDV8;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   10-FEB-2021, entry version 104.
+DE   RecName: Full=Peptide deformylase;
+DE            Short=PDF;
+DE            EC=3.5.1.88;
+DE   AltName: Full=Polypeptide deformylase;
+GN   Name=def; OrderedLocusNames=RP208;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O., Sicheritz-Ponten T.,
+RA   Alsmark U.C.M., Podowski R.M., Naeslund A.K., Eriksson A.-S., Winkler H.H.,
+RA   Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+CC   -!- FUNCTION: Removes the formyl group from the N-terminal Met of newly
+CC       synthesized proteins. Requires at least a dipeptide for an efficient
+CC       rate of reaction. N-terminal L-methionine is a prerequisite for
+CC       activity but the enzyme has broad specificity at other positions (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-terminal N-formyl-L-methionyl-[peptide] = formate + N-
+CC         terminal L-methionyl-[peptide]; Xref=Rhea:RHEA:24420, Rhea:RHEA-
+CC         COMP:10639, Rhea:RHEA-COMP:10640, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:49298, ChEBI:CHEBI:64731; EC=3.5.1.88;
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC       Note=Binds 1 Fe(2+) ion. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the polypeptide deformylase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ235270; CAA14673.1; -; Genomic_DNA.
+DR   PIR; B71732; B71732.
+DR   RefSeq; NP_220596.1; NC_000963.1.
+DR   RefSeq; WP_004595989.1; NC_000963.1.
+DR   SMR; Q9ZDV8; -.
+DR   STRING; 272947.RP208; -.
+DR   EnsemblBacteria; CAA14673; CAA14673; CAA14673.
+DR   GeneID; 57569336; -.
+DR   KEGG; rpr:RP208; -.
+DR   PATRIC; fig|272947.5.peg.217; -.
+DR   eggNOG; COG0242; Bacteria.
+DR   HOGENOM; CLU_061901_2_2_5; -.
+DR   OMA; VCIQHEI; -.
+DR   BioCyc; RPRO272947:G1GT0-211-MONOMER; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042586; F:peptide deformylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00487; Pep_deformylase; 1.
+DR   Gene3D; 3.90.45.10; -; 1.
+DR   HAMAP; MF_00163; Pep_deformylase; 1.
+DR   InterPro; IPR023635; Peptide_deformylase.
+DR   InterPro; IPR036821; Peptide_deformylase_sf.
+DR   PANTHER; PTHR10458; PTHR10458; 1.
+DR   Pfam; PF01327; Pep_deformylase; 1.
+DR   PIRSF; PIRSF004749; Pep_def; 1.
+DR   PRINTS; PR01576; PDEFORMYLASE.
+DR   SUPFAM; SSF56420; SSF56420; 1.
+DR   TIGRFAMs; TIGR00079; pept_deformyl; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Iron; Metal-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..175
+FT                   /note="Peptide deformylase"
+FT                   /id="PRO_0000082831"
+FT   ACT_SITE        142
+FT                   /evidence="ECO:0000250"
+FT   METAL           99
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+FT   METAL           141
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+FT   METAL           145
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   175 AA;  20270 MW;  2400553B491ABED9 CRC64;
+     MSIFSIVTAP DERLKQKSKP VLECTDQTRK FMHDMLETMY NADGAGLAAV QVGILLRILV
+     IDIKEYDPVE RPKDFYPLFI VNPEIIEKST ELVTANEGCI SLPKQRIEVT RPESVKIRYL
+     DYHGKSQELK ANDWLARVIQ HEYDHLEGKL MVDYLSNLKR DVVLRKLKKL KNNIV
+//

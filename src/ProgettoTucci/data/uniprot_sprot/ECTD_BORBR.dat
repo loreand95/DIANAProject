@@ -1,0 +1,103 @@
+ID   ECTD_BORBR              Reviewed;         308 AA.
+AC   Q7WHJ0;
+DT   01-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   10-FEB-2021, entry version 78.
+DE   RecName: Full=Ectoine dioxygenase {ECO:0000250|UniProtKB:Q2TDY4};
+DE            EC=1.14.11.55 {ECO:0000250|UniProtKB:Q2TDY4};
+DE   AltName: Full=Ectoine hydroxylase {ECO:0000250|UniProtKB:Q2TDY4};
+GN   Name=ectD {ECO:0000250|UniProtKB:Q2TDY4}; OrderedLocusNames=BB3217;
+OS   Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50)
+OS   (Alcaligenes bronchisepticus).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Bordetella.
+OX   NCBI_TaxID=257310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-588 / NCTC 13252 / RB50;
+RX   PubMed=12910271; DOI=10.1038/ng1227;
+RA   Parkhill J., Sebaihia M., Preston A., Murphy L.D., Thomson N.R.,
+RA   Harris D.E., Holden M.T.G., Churcher C.M., Bentley S.D., Mungall K.L.,
+RA   Cerdeno-Tarraga A.-M., Temple L., James K.D., Harris B., Quail M.A.,
+RA   Achtman M., Atkin R., Baker S., Basham D., Bason N., Cherevach I.,
+RA   Chillingworth T., Collins M., Cronin A., Davis P., Doggett J., Feltwell T.,
+RA   Goble A., Hamlin N., Hauser H., Holroyd S., Jagels K., Leather S.,
+RA   Moule S., Norberczak H., O'Neil S., Ormond D., Price C., Rabbinowitsch E.,
+RA   Rutter S., Sanders M., Saunders D., Seeger K., Sharp S., Simmonds M.,
+RA   Skelton J., Squares R., Squares S., Stevens K., Unwin L., Whitehead S.,
+RA   Barrell B.G., Maskell D.J.;
+RT   "Comparative analysis of the genome sequences of Bordetella pertussis,
+RT   Bordetella parapertussis and Bordetella bronchiseptica.";
+RL   Nat. Genet. 35:32-40(2003).
+CC   -!- FUNCTION: Involved in the biosynthesis of 5-hydroxyectoine, called
+CC       compatible solute, which helps organisms to survive extreme osmotic
+CC       stress by acting as a highly soluble organic osmolyte. Catalyzes the 2-
+CC       oxoglutarate-dependent selective hydroxylation of L-ectoine to yield
+CC       (4S,5S)-5-hydroxyectoine. {ECO:0000250|UniProtKB:Q2TDY4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-ectoine + O2 = 5-hydroxyectoine + CO2 +
+CC         succinate; Xref=Rhea:RHEA:45740, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:58515, ChEBI:CHEBI:85413; EC=1.14.11.55;
+CC         Evidence={ECO:0000250|UniProtKB:Q2TDY4};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000250|UniProtKB:Q2TDY4};
+CC       Note=Binds 1 Fe(2+) ion. {ECO:0000250|UniProtKB:Q2TDY4};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q2TDY4}.
+CC   -!- SIMILARITY: Belongs to the PhyH family. EctD subfamily.
+CC       {ECO:0000250|UniProtKB:Q2TDY4}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX640446; CAE33709.1; -; Genomic_DNA.
+DR   RefSeq; WP_003818667.1; NC_002927.3.
+DR   SMR; Q7WHJ0; -.
+DR   STRING; 257310.BB3217; -.
+DR   EnsemblBacteria; CAE33709; CAE33709; BB3217.
+DR   KEGG; bbr:BB3217; -.
+DR   eggNOG; COG5285; Bacteria.
+DR   HOGENOM; CLU_048953_5_0_4; -.
+DR   OMA; MQDAGTP; -.
+DR   OrthoDB; 1070946at2; -.
+DR   BioCyc; BBRO257310:G1GSX-3265-MONOMER; -.
+DR   Proteomes; UP000001027; Chromosome.
+DR   GO; GO:0016706; F:2-oxoglutarate-dependent dioxygenase activity; ISS:UniProtKB.
+DR   GO; GO:0005506; F:iron ion binding; ISS:UniProtKB.
+DR   GO; GO:0042400; P:ectoine catabolic process; ISS:UniProtKB.
+DR   InterPro; IPR012774; EctD.
+DR   InterPro; IPR008775; Phytyl_CoA_dOase.
+DR   Pfam; PF05721; PhyH; 1.
+DR   TIGRFAMs; TIGR02408; ectoine_ThpD; 1.
+PE   3: Inferred from homology;
+KW   Dioxygenase; Iron; Metal-binding; Oxidoreductase.
+FT   CHAIN           1..308
+FT                   /note="Ectoine dioxygenase"
+FT                   /id="PRO_0000215238"
+FT   METAL           148
+FT                   /note="Iron; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2TDY4"
+FT   METAL           150
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2TDY4"
+FT   METAL           249
+FT                   /note="Iron; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q2TDY4"
+FT   BINDING         131
+FT                   /note="Ectoine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q1GNW5"
+FT   BINDING         137
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q1GNW5"
+FT   SITE            154
+FT                   /note="Important for ectoine stabilization"
+FT                   /evidence="ECO:0000250|UniProtKB:Q1GNW5"
+SQ   SEQUENCE   308 AA;  34382 MW;  B9A105865BDF354D CRC64;
+     MISPAQDPYA SRTDRSSAII ARQDPVVYGE GKFADALSAD QVQSYERDGF LLLENLFSDE
+     EVAALLAEVE RMTRDPAIVR REEAITEPGS NAVRSIFMVH VLSPILGRLV RDPRLANAAR
+     QILGSEVYVH QSRANMKPGF KGKEFYWHSD FETWHVEDGM PSMRALSCSV LLTDNNETNG
+     PLMLVPGSHR QFISCVGETP RDHYKQSLKK QEYGVPDPVS LQLLAEQGGI STMTGKAGSV
+     VFFDCNTMHG SNSNISPWPR ANVFMVYNSM ENTLNPPKYG LNPRPEHIAT RQAFKAVRPL
+     DSLKLVER
+//

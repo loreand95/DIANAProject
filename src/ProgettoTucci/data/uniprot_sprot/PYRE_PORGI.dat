@@ -1,0 +1,106 @@
+ID   PYRE_PORGI              Reviewed;         210 AA.
+AC   Q7MUX4;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   02-DEC-2020, entry version 110.
+DE   RecName: Full=Orotate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRT {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            Short=OPRTase {ECO:0000255|HAMAP-Rule:MF_01208};
+DE            EC=2.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01208};
+GN   Name=pyrE {ECO:0000255|HAMAP-Rule:MF_01208}; OrderedLocusNames=PG_1353;
+OS   Porphyromonas gingivalis (strain ATCC BAA-308 / W83).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae;
+OC   Porphyromonas.
+OX   NCBI_TaxID=242619;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-308 / W83;
+RX   PubMed=12949112; DOI=10.1128/jb.185.18.5591-5601.2003;
+RA   Nelson K.E., Fleischmann R.D., DeBoy R.T., Paulsen I.T., Fouts D.E.,
+RA   Eisen J.A., Daugherty S.C., Dodson R.J., Durkin A.S., Gwinn M.L.,
+RA   Haft D.H., Kolonay J.F., Nelson W.C., Mason T.M., Tallon L., Gray J.,
+RA   Granger D., Tettelin H., Dong H., Galvin J.L., Duncan M.J., Dewhirst F.E.,
+RA   Fraser C.M.;
+RT   "Complete genome sequence of the oral pathogenic bacterium Porphyromonas
+RT   gingivalis strain W83.";
+RL   J. Bacteriol. 185:5591-5601(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of a ribosyl phosphate group from 5-
+CC       phosphoribose 1-diphosphate to orotate, leading to the formation of
+CC       orotidine monophosphate (OMP). {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + orotidine 5'-phosphate = 5-phospho-alpha-D-
+CC         ribose 1-diphosphate + orotate; Xref=Rhea:RHEA:10380,
+CC         ChEBI:CHEBI:30839, ChEBI:CHEBI:33019, ChEBI:CHEBI:57538,
+CC         ChEBI:CHEBI:58017; EC=2.4.2.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01208};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01208};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. PyrE subfamily. {ECO:0000255|HAMAP-Rule:MF_01208}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015924; AAQ66417.1; -; Genomic_DNA.
+DR   RefSeq; WP_005873430.1; NC_002950.2.
+DR   SMR; Q7MUX4; -.
+DR   STRING; 242619.PG_1353; -.
+DR   EnsemblBacteria; AAQ66417; AAQ66417; PG_1353.
+DR   KEGG; pgi:PG_1353; -.
+DR   PATRIC; fig|242619.8.peg.1256; -.
+DR   eggNOG; COG0461; Bacteria.
+DR   HOGENOM; CLU_074878_1_1_10; -.
+DR   OMA; HGRQNQI; -.
+DR   OrthoDB; 1280396at2; -.
+DR   BioCyc; PGIN242619:G1G02-1259-MONOMER; -.
+DR   UniPathway; UPA00070; UER00119.
+DR   Proteomes; UP000000588; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004588; F:orotate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009116; P:nucleoside metabolic process; IEA:InterPro.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01208; PyrE; 1.
+DR   InterPro; IPR023031; OPRT.
+DR   InterPro; IPR004467; Or_phspho_trans_dom.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR00336; pyrE; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase; Magnesium; Pyrimidine biosynthesis;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..210
+FT                   /note="Orotate phosphoribosyltransferase"
+FT                   /id="PRO_0000110721"
+FT   REGION          123..131
+FT                   /note="5-phosphoribose 1-diphosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         97
+FT                   /note="5-phosphoribose 1-diphosphate; shared with dimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         101
+FT                   /note="5-phosphoribose 1-diphosphate; shared with dimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         103
+FT                   /note="5-phosphoribose 1-diphosphate; shared with dimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+FT   BINDING         127
+FT                   /note="Orotate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01208"
+SQ   SEQUENCE   210 AA;  23021 MW;  86E75BC055A68215 CRC64;
+     MKTLGKLIAS KLIEVKAIKL QPNNPFTWAS GWKAPIYCDN RKTLSYPQIR SLIKLELARV
+     ISETFGDVEA IAGVATGAIA QGALVADLLG LPFVYVRSSP KDHGLENLVE GELKPNSKVV
+     VIEDLISTGG SSLKAAEAIR NFGCEVLGMV AVYTHGFPMA EQNFEKAEVK LVTLTDYDQV
+     IEEALRTGYI SAENVELLRE WRKSPETWGI
+//

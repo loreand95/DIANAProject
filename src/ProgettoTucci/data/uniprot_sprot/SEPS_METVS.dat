@@ -1,0 +1,101 @@
+ID   SEPS_METVS              Reviewed;         537 AA.
+AC   A6USJ0;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 79.
+DE   RecName: Full=O-phosphoserine--tRNA(Cys) ligase {ECO:0000255|HAMAP-Rule:MF_01674};
+DE            Short=O-phosphoserine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_01674};
+DE            EC=6.1.1.27 {ECO:0000255|HAMAP-Rule:MF_01674};
+DE   AltName: Full=Non-canonical O-phosphoseryl-tRNA(Cys) synthetase {ECO:0000255|HAMAP-Rule:MF_01674};
+DE   AltName: Full=O-phosphoseryl-tRNA(Cys) synthetase {ECO:0000255|HAMAP-Rule:MF_01674};
+DE            Short=SepRS {ECO:0000255|HAMAP-Rule:MF_01674};
+GN   Name=sepS {ECO:0000255|HAMAP-Rule:MF_01674}; OrderedLocusNames=Mevan_1570;
+OS   Methanococcus vannielii (strain ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148
+OS   / SB).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=406327;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148 / SB;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Chain P., Malfatti S., Shin M., Vergez L., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Anderson I.,
+RA   Sieprawska-Lupa M., Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus vannielii SB.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of O-phosphoserine (Sep) to
+CC       tRNA(Cys). {ECO:0000255|HAMAP-Rule:MF_01674}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + O-phospho-L-serine + tRNA(Cys) = AMP + diphosphate + O-
+CC         phospho-L-seryl-tRNA(Cys); Xref=Rhea:RHEA:25678, Rhea:RHEA-COMP:9661,
+CC         Rhea:RHEA-COMP:9719, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57524, ChEBI:CHEBI:78442, ChEBI:CHEBI:78551,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.27; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01674};
+CC   -!- SUBUNIT: Homotetramer. Interacts with SepCysS. {ECO:0000255|HAMAP-
+CC       Rule:MF_01674}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       O-phosphoseryl-tRNA(Cys) synthetase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01674}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000742; ABR55462.1; -; Genomic_DNA.
+DR   RefSeq; WP_012066376.1; NC_009634.1.
+DR   STRING; 406327.Mevan_1570; -.
+DR   EnsemblBacteria; ABR55462; ABR55462; Mevan_1570.
+DR   GeneID; 5325555; -.
+DR   KEGG; mvn:Mevan_1570; -.
+DR   eggNOG; arCOG00411; Archaea.
+DR   HOGENOM; CLU_506822_0_0_2; -.
+DR   OMA; RSHMTSG; -.
+DR   OrthoDB; 6499at2157; -.
+DR   BioCyc; MVAN406327:G1G99-1620-MONOMER; -.
+DR   Proteomes; UP000001107; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043816; F:phosphoserine-tRNA(Cys) ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-KW.
+DR   GO; GO:0043039; P:tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01674; Sep_tRNA_synth; 1.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR005246; O-Pseryl-tRNA(Cys)_ligase.
+DR   InterPro; IPR002319; Phenylalanyl-tRNA_Synthase.
+DR   InterPro; IPR041590; SepRS_C.
+DR   PANTHER; PTHR11538:SF38; PTHR11538:SF38; 1.
+DR   Pfam; PF18006; SepRS_C; 1.
+DR   Pfam; PF01409; tRNA-synt_2d; 1.
+DR   TIGRFAMs; TIGR00470; sepS; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Ligase; Nucleotide-binding;
+KW   Protein biosynthesis.
+FT   CHAIN           1..537
+FT                   /note="O-phosphoserine--tRNA(Cys) ligase"
+FT                   /id="PRO_0000363754"
+FT   REGION          186..188
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01674"
+FT   REGION          231..233
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01674"
+FT   REGION          273..274
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01674"
+FT   BINDING         317
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01674"
+SQ   SEQUENCE   537 AA;  61380 MW;  D449FB3910D6C918 CRC64;
+     MFKREEIIEM ANKDFEKAWI ETKGLIKSKR VNESYPRIKP IFGKTHPVND TIENLRQAYL
+     RMGFEEYINP VIVDERDIYK QFGPEAMAVL DRCFYLAGLP RPDVGLSDEK ISQIEKLGIN
+     VSCHKESLQK ILHGYKKGTL DGDDLVLEIS KALEISSEMG LKILEEVFPE FKDLIAVSSK
+     LTLRSHMTSG WFITLSELNG KKPLPFKLFS IDRCFRREQK EDKSHLMTYH SASCVIAGKD
+     VDINDGKAVA EGLLSQFGFT NFKFIPDEKK SKYYTPETQT EVYAYHPKLK EWLEVATFGV
+     YSPVALSKYG IDVPVMNLGL GVERLSMISG NFEDVREMVY PQFYEQSLSD RAISSMVKFD
+     KVPVLDEIYD LTKELIDLCV KNKDITSPCN LKLEKTFIFG KTKKNVKIIV FEKEENKKLL
+     GPSILNEIYV YDGNIIGIPE TFEGVKEEFK EFLEKGKVEG VTTGIRYIDA LCFKITSKVE
+     EAFVSNTSEF KLKVPIVRSL SDINLKIEEI ALKQIMSKNK VIDVRGPVFL NVEVKIE
+//

@@ -1,0 +1,90 @@
+ID   PHNC1_BACHD             Reviewed;         257 AA.
+AC   Q9KFN9;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-APR-2021, entry version 123.
+DE   RecName: Full=Phosphonates import ATP-binding protein PhnC 1 {ECO:0000255|HAMAP-Rule:MF_01713};
+DE            EC=7.3.2.2 {ECO:0000255|HAMAP-Rule:MF_01713};
+GN   Name=phnC1 {ECO:0000255|HAMAP-Rule:MF_01713}; OrderedLocusNames=BH0440;
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153
+OS   / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- FUNCTION: Part of the ABC transporter complex PhnCDE involved in
+CC       phosphonates import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + phosphonate(out) = ADP + H(+) + phosphate +
+CC         phosphonate(in); Xref=Rhea:RHEA:18065, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16215, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.3.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01713};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (PhnC),
+CC       two transmembrane proteins (PhnE) and a solute-binding protein (PhnD).
+CC       {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01713};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Phosphonates
+CC       importer (TC 3.A.1.9.1) family. {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB04159.1; -; Genomic_DNA.
+DR   PIR; H83704; H83704.
+DR   RefSeq; WP_010896618.1; NC_002570.2.
+DR   SMR; Q9KFN9; -.
+DR   STRING; 272558.10173053; -.
+DR   PRIDE; Q9KFN9; -.
+DR   EnsemblBacteria; BAB04159; BAB04159; BAB04159.
+DR   KEGG; bha:BH0440; -.
+DR   eggNOG; COG3638; Bacteria.
+DR   HOGENOM; CLU_000604_1_22_9; -.
+DR   OMA; GRMPRWR; -.
+DR   OrthoDB; 1181903at2; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015416; F:ABC-type phosphonate transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   CDD; cd03256; ABC_PhnC_transporter; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR012693; ABC_transpr_PhnC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR02315; ABC_phnC; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51249; PHNC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding;
+KW   Phosphonate transport; Reference proteome; Translocase; Transport.
+FT   CHAIN           1..257
+FT                   /note="Phosphonates import ATP-binding protein PhnC 1"
+FT                   /id="PRO_0000092692"
+FT   DOMAIN          2..246
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01713"
+FT   NP_BIND         35..42
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01713"
+SQ   SEQUENCE   257 AA;  28669 MW;  E7BAD86CAE63F13E CRC64;
+     MIELKNVSKV YPNGVIGLDN INLTIEKGEF VAIVGLSGAG KSTLLRAMNR LIDISDGDIM
+     INRRSITSAS GKELRMMRRD IGMIFQNFNL VKRSTVLRNV LSGRVAHNHT FRTLFNLFPQ
+     KDVDLALQSL ERVNILEKAY TRSSQLSGGQ QQRVSIARAL AQEAKMILAD EPTASLDPVT
+     TKQVMDDLKK INTEDQVTVV INLHFVDLAR EYATRIIGLR DGKVVFDGPA QRATDEVFKD
+     IYGRPLKEDE LLGKEVG
+//

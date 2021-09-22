@@ -1,0 +1,86 @@
+ID   SCNA1_TITDI             Reviewed;          80 AA.
+AC   C9X4J9;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   24-NOV-2009, sequence version 1.
+DT   02-DEC-2020, entry version 23.
+DE   RecName: Full=Toxin TdNa1;
+DE   AltName: Full=PT-Arthr*-beta* NaTx2.2;
+DE   Flags: Precursor;
+OS   Tityus discrepans (Venezuelan scorpion).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Tityus.
+OX   NCBI_TaxID=57059;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 21-46.
+RC   TISSUE=Venom, and Venom gland;
+RX   PubMed=19470401; DOI=10.1016/j.biochi.2009.05.005;
+RA   D'Suze G., Schwartz E.F., Garcia-Gomez B.I., Sevcik C., Possani L.D.;
+RT   "Molecular cloning and nucleotide sequence analysis of genes from a cDNA
+RT   library of the scorpion Tityus discrepans.";
+RL   Biochimie 91:1010-1019(2009).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=22355312; DOI=10.1371/journal.pone.0030478;
+RA   Guerrero-Vargas J.A., Mourao C.B., Quintero-Hernandez V., Possani L.D.,
+RA   Schwartz E.F.;
+RT   "Identification and phylogenetic analysis of Tityus pachyurus and Tityus
+RT   obscurus novel putative Na+-channel scorpion toxins.";
+RL   PLoS ONE 7:E30478-E30478(2012).
+CC   -!- FUNCTION: Inhibits the sodium (Nav) currents in an apparent
+CC       irreversible manner. Produces small depolarization and induces
+CC       repetitive firing in squid axons. Is specific for arthropods (crickets,
+CC       triatomides, crabs and squids), but is non-toxic to mice (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- DOMAIN: Has the structural arrangement of an alpha-helix connected to
+CC       antiparallel beta-sheets by disulfide bonds (CS-alpha/beta).
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the long (4 C-C) scorpion toxin superfamily.
+CC       Sodium channel inhibitor family. Beta subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FN392277; CAY61927.1; -; mRNA.
+DR   SMR; C9X4J9; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019871; F:sodium channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   Gene3D; 3.30.30.10; -; 1.
+DR   InterPro; IPR044062; LCN-type_CS_alpha_beta_dom.
+DR   InterPro; IPR003614; Scorpion_toxin-like.
+DR   InterPro; IPR036574; Scorpion_toxin-like_sf.
+DR   InterPro; IPR018218; Scorpion_toxinL.
+DR   InterPro; IPR002061; Scorpion_toxinL/defensin.
+DR   Pfam; PF00537; Toxin_3; 1.
+DR   PRINTS; PR00285; SCORPNTOXIN.
+DR   SMART; SM00505; Knot1; 1.
+DR   SUPFAM; SSF57095; SSF57095; 1.
+DR   PROSITE; PS51863; LCN_CSAB; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Ion channel impairing toxin;
+KW   Neurotoxin; Secreted; Signal; Toxin;
+KW   Voltage-gated sodium channel impairing toxin.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000269|PubMed:19470401"
+FT   CHAIN           21..80
+FT                   /note="Toxin TdNa1"
+FT                   /id="PRO_5000525366"
+FT   DOMAIN          21..79
+FT                   /note="LCN-type CS-alpha/beta"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        31..78
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        35..57
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        43..62
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        47..64
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+SQ   SEQUENCE   80 AA;  9067 MW;  42382873612F89BA CRC64;
+     MKGIILFISC LMLIDVVVES RDAYPADWRG CKFSCFWGSS SWCNEECTSL GGSSGYCAWP
+     ACWCYGLPDS VRYYNNKCHK
+//

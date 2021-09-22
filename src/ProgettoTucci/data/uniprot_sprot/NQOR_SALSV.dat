@@ -1,0 +1,101 @@
+ID   NQOR_SALSV              Reviewed;         198 AA.
+AC   B4TSN0;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 73.
+DE   RecName: Full=NAD(P)H dehydrogenase (quinone) {ECO:0000255|HAMAP-Rule:MF_01017};
+DE            EC=1.6.5.2 {ECO:0000255|HAMAP-Rule:MF_01017};
+DE   AltName: Full=Flavoprotein WrbA;
+DE   AltName: Full=NAD(P)H:quinone oxidoreductase {ECO:0000255|HAMAP-Rule:MF_01017};
+DE            Short=NQO {ECO:0000255|HAMAP-Rule:MF_01017};
+GN   OrderedLocusNames=SeSA_A1183;
+OS   Salmonella schwarzengrund (strain CVM19633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=439843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CVM19633;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + H(+) + NADH = a quinol + NAD(+);
+CC         Xref=Rhea:RHEA:46160, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124; EC=1.6.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01017};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + H(+) + NADPH = a quinol + NADP(+);
+CC         Xref=Rhea:RHEA:46164, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:132124; EC=1.6.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01017};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01017};
+CC       Note=Binds 1 FMN per monomer. {ECO:0000255|HAMAP-Rule:MF_01017};
+CC   -!- SIMILARITY: Belongs to the WrbA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01017}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001127; ACF89851.1; -; Genomic_DNA.
+DR   RefSeq; WP_001062898.1; NC_011094.1.
+DR   SMR; B4TSN0; -.
+DR   EnsemblBacteria; ACF89851; ACF89851; SeSA_A1183.
+DR   KEGG; sew:SeSA_A1183; -.
+DR   HOGENOM; CLU_051402_0_2_6; -.
+DR   OMA; KFADGNP; -.
+DR   Proteomes; UP000001865; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050136; F:NADH dehydrogenase (quinone) activity; IEA:RHEA.
+DR   GO; GO:0050661; F:NADP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008753; F:NADPH dehydrogenase (quinone) activity; IEA:RHEA.
+DR   Gene3D; 3.40.50.360; -; 1.
+DR   HAMAP; MF_01017; NQOR; 1.
+DR   InterPro; IPR008254; Flavodoxin/NO_synth.
+DR   InterPro; IPR029039; Flavoprotein-like_sf.
+DR   InterPro; IPR010089; Flavoprotein_WrbA-like.
+DR   InterPro; IPR005025; FMN_Rdtase-like.
+DR   InterPro; IPR037513; NQO.
+DR   Pfam; PF03358; FMN_red; 1.
+DR   SUPFAM; SSF52218; SSF52218; 1.
+DR   TIGRFAMs; TIGR01755; flav_wrbA; 1.
+DR   PROSITE; PS50902; FLAVODOXIN_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein; FMN; NAD; NADP; Nucleotide-binding; Oxidoreductase.
+FT   CHAIN           1..198
+FT                   /note="NAD(P)H dehydrogenase (quinone)"
+FT                   /id="PRO_1000200647"
+FT   DOMAIN          4..189
+FT                   /note="Flavodoxin-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   NP_BIND         10..15
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   NP_BIND         78..80
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   NP_BIND         113..118
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   BINDING         12
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+FT   BINDING         133
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01017"
+SQ   SEQUENCE   198 AA;  20852 MW;  1A71FF5FF7D8D46F CRC64;
+     MAKILVLYYS MYGHIETMAH AVAEGAKKVD GAEVIIKRVP ETMPPEIFAK AGGKTQNAPV
+     ATPQELADYD AIIFGTPTRF GNMSGQMRTF LDQTGGLWAS GALYGKLGSV FSSTGTGGGQ
+     EQTITSTWTT LAHHGMVIVP IGYAAQELFD VSQVRGGTPY GATTIAGGDG SRQPSQEELS
+     IARYQGEYVA GLAVKLNG
+//

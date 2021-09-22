@@ -1,0 +1,116 @@
+ID   RPOB_AERS4              Reviewed;        1342 AA.
+AC   A4SHU9;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 2.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE            Short=RNAP subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01321};
+DE   AltName: Full=RNA polymerase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE   AltName: Full=Transcriptase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+GN   Name=rpoB {ECO:0000255|HAMAP-Rule:MF_01321}; OrderedLocusNames=ASA_0283;
+OS   Aeromonas salmonicida (strain A449).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Aeromonas.
+OX   NCBI_TaxID=382245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A449;
+RX   PubMed=18801193; DOI=10.1186/1471-2164-9-427;
+RA   Reith M.E., Singh R.K., Curtis B., Boyd J.M., Bouevitch A., Kimball J.,
+RA   Munholland J., Murphy C., Sarty D., Williams J., Nash J.H., Johnson S.C.,
+RA   Brown L.L.;
+RT   "The genome of Aeromonas salmonicida subsp. salmonicida A449: insights into
+RT   the evolution of a fish pathogen.";
+RL   BMC Genomics 9:427-427(2008).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01321};
+CC   -!- SUBUNIT: The RNAP catalytic core consists of 2 alpha, 1 beta, 1 beta'
+CC       and 1 omega subunit. When a sigma factor is associated with the core
+CC       the holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABO88471.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000644; ABO88471.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_005318568.1; NC_009348.1.
+DR   SMR; A4SHU9; -.
+DR   STRING; 382245.ASA_0283; -.
+DR   EnsemblBacteria; ABO88471; ABO88471; ASA_0283.
+DR   GeneID; 58143918; -.
+DR   KEGG; asa:ASA_0283; -.
+DR   eggNOG; COG0085; Bacteria.
+DR   HOGENOM; CLU_000524_4_0_6; -.
+DR   Proteomes; UP000000225; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032549; F:ribonucleoside binding; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   CDD; cd00653; RNA_pol_B_RPB2; 1.
+DR   Gene3D; 2.40.270.10; -; 2.
+DR   Gene3D; 2.40.50.150; -; 1.
+DR   Gene3D; 3.90.1110.10; -; 1.
+DR   HAMAP; MF_01321; RNApol_bact_RpoB; 1.
+DR   InterPro; IPR019462; DNA-dir_RNA_pol_bsu_external_1.
+DR   InterPro; IPR015712; DNA-dir_RNA_pol_su2.
+DR   InterPro; IPR007120; DNA-dir_RNAP_su2_dom.
+DR   InterPro; IPR037033; DNA-dir_RNAP_su2_hyb_sf.
+DR   InterPro; IPR010243; RNA_pol_bsu_bac.
+DR   InterPro; IPR007121; RNA_pol_bsu_CS.
+DR   InterPro; IPR007644; RNA_pol_bsu_protrusion.
+DR   InterPro; IPR007642; RNA_pol_Rpb2_2.
+DR   InterPro; IPR037034; RNA_pol_Rpb2_2_sf.
+DR   InterPro; IPR007645; RNA_pol_Rpb2_3.
+DR   InterPro; IPR007641; RNA_pol_Rpb2_7.
+DR   InterPro; IPR014724; RNA_pol_RPB2_OB-fold.
+DR   PANTHER; PTHR20856; PTHR20856; 1.
+DR   Pfam; PF04563; RNA_pol_Rpb2_1; 1.
+DR   Pfam; PF04561; RNA_pol_Rpb2_2; 2.
+DR   Pfam; PF04565; RNA_pol_Rpb2_3; 1.
+DR   Pfam; PF10385; RNA_pol_Rpb2_45; 1.
+DR   Pfam; PF00562; RNA_pol_Rpb2_6; 1.
+DR   Pfam; PF04560; RNA_pol_Rpb2_7; 1.
+DR   TIGRFAMs; TIGR02013; rpoB; 1.
+DR   PROSITE; PS01166; RNA_POL_BETA; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Nucleotidyltransferase; Transcription;
+KW   Transferase.
+FT   CHAIN           1..1342
+FT                   /note="DNA-directed RNA polymerase subunit beta"
+FT                   /id="PRO_0000300274"
+SQ   SEQUENCE   1342 AA;  150252 MW;  200AF1BC1ECAB2D8 CRC64;
+     MVYSYTEKKR IRKDFGKRDQ VLDTPYLLSI QLDSFKQFIE ADPEGEYGLE AAFRSVFPIT
+     SYSGSAELQY VSYRLGEPVF DVKECQIRGV TYSAPLRVKL RMVLYDREAA AGTVKDIKEQ
+     EVYMGEIPLM TENGTFVING TERVIVSQLH RSPGVFFDHD KGKTHSSGKV LYNARVIPYR
+     GSWLDFEFDA KDNLFVRIDR RRKLPASIIL RALDFSSEEI LANFFETIGF EVKDGKLMMD
+     LVPERLRGET ATFDIVANGA VVVETGRRVT ARHIRQLEKD AVTQIEVPVE YVVGKVAAKN
+     YTHPQTGEMV VTANQALSLE AVANLSQAGF KHFEVLFTNE LDHGAYMSET LRIDSSSSRL
+     EALVEIYRMM RPGEPPTREA AEQLFENLFF SSERYDLSTV GRMKFNRRLS REDETGAGTL
+     TKDDIVEVMK RLIDIRNGND EVDDIDHLGN RRIRSVGEMA ENQFRVGLVR VERAVKERLS
+     LGDLDTLMPQ DLINAKPISA AVKEFFGSSQ LSQFMDQNNP LSEVTHKRRI SALGPGGLTR
+     ERAGFEVRDV HPTHYGRLCP IETPEGPNIG LINSLSVYSR TNEYGFLETP YRKVIDGVIT
+     DEVDYLSAIE EGKYVIAQAN AATTEDGRLK DELIPCRHKG ESTFMNADQI QYMDVSPQQI
+     VSVAAALIPF LEHDDANRAL MGSNMQRQAV PTLRADKPLV GTGMERAVAV DSGVTVVAKR
+     GGMIDYVDAS RIVIKVNEDE LLPGEAGIDI YSLTKYTRSN QNTCINQRPC VMLGEPVMAG
+     DVVADGPSTD LGELALGQNL RVAFMPWNGY NFEDSILVNE RVVQEDRLTT IHIQELACIS
+     RDTKLGPEEI TADIPNVGEA ALSKLDESGI VYVGAEVKGG DILVGKVTPK GETQLTPEEK
+     LLRAIFGEKA SDVKDSSLRV PNGVYGTVVD VQVFTRDGVE KDKRAKEIEE MQLKEAKKDL
+     TEEFKILEDG IFGRSRNLLL AAGYSEDRLN KLDRTKWFEL AIEDEAKQIE LEQIAEQHIE
+     LKADFDKKFE NKRRKIIQGD DLAPGVLKIV KVYLAVKRRI QPGDKMAGRH GNKGVISKIC
+     PVEDMPHDEY GRPVDIVLNP LGVPSRMNIG QILEVHLGLA AKGIGEKIDR MIKEQRALHE
+     MRDFLQQVYD LGEKDTKQVD IAELSDDDVR TLVGNLRKGL PVATPVFDGA KEHEIKALLK
+     LADLPESGQI SLFDGRTGNV FERKVTVGYM YMLKLNHLVD DKMHARSTGS YSLVTQQPLG
+     GKAQFGGQRF GEMEVWALEA YGAAYTLQEM LTVKSDDVNG RTKMYKNIVD GDHRMEPGMP
+     ESFNVLLKEI RSLGINIELD EE
+//

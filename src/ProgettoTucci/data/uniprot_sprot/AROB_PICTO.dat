@@ -1,0 +1,117 @@
+ID   AROB_PICTO              Reviewed;         338 AA.
+AC   Q6L1G8;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=3-dehydroquinate synthase {ECO:0000250|UniProtKB:P07639};
+DE            Short=DHQS {ECO:0000250|UniProtKB:P07639};
+DE            EC=4.2.3.4 {ECO:0000250|UniProtKB:P07639};
+GN   Name=aroB {ECO:0000250|UniProtKB:P07639}; OrderedLocusNames=PTO0599;
+OS   Picrophilus torridus (strain ATCC 700027 / DSM 9790 / JCM 10055 / NBRC
+OS   100828).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Picrophilaceae; Picrophilus.
+OX   NCBI_TaxID=263820;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700027 / DSM 9790 / JCM 10055 / NBRC 100828;
+RX   PubMed=15184674; DOI=10.1073/pnas.0401356101;
+RA   Fuetterer O., Angelov A., Liesegang H., Gottschalk G., Schleper C.,
+RA   Schepers B., Dock C., Antranikian G., Liebl W.;
+RT   "Genome sequence of Picrophilus torridus and its implications for life
+RT   around pH 0.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9091-9096(2004).
+CC   -!- FUNCTION: Catalyzes the conversion of 3-deoxy-D-arabino-heptulosonate
+CC       7-phosphate (DAHP) to dehydroquinate (DHQ).
+CC       {ECO:0000250|UniProtKB:P07639}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-phospho-2-dehydro-3-deoxy-D-arabino-heptonate = 3-
+CC         dehydroquinate + phosphate; Xref=Rhea:RHEA:21968, ChEBI:CHEBI:32364,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58394; EC=4.2.3.4;
+CC         Evidence={ECO:0000250|UniProtKB:P07639};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000250|UniProtKB:P07639};
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000250|UniProtKB:P07639};
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P07639};
+CC       Note=Binds 1 divalent metal cation per subunit. Can use either Co(2+)
+CC       or Zn(2+). {ECO:0000250|UniProtKB:P07639};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       2/7. {ECO:0000250|UniProtKB:P07639}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P07639}.
+CC   -!- SIMILARITY: Belongs to the sugar phosphate cyclases superfamily.
+CC       Dehydroquinate synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017261; AAT43184.1; -; Genomic_DNA.
+DR   RefSeq; WP_011177400.1; NC_005877.1.
+DR   SMR; Q6L1G8; -.
+DR   STRING; 263820.PTO0599; -.
+DR   PRIDE; Q6L1G8; -.
+DR   EnsemblBacteria; AAT43184; AAT43184; PTO0599.
+DR   GeneID; 2844923; -.
+DR   KEGG; pto:PTO0599; -.
+DR   PATRIC; fig|263820.9.peg.630; -.
+DR   eggNOG; arCOG00983; Archaea.
+DR   HOGENOM; CLU_001201_0_1_2; -.
+DR   OMA; YGVIWDA; -.
+DR   OrthoDB; 45841at2157; -.
+DR   BioCyc; PTOR263820:G1G0U-648-MONOMER; -.
+DR   UniPathway; UPA00053; UER00085.
+DR   Proteomes; UP000000438; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003856; F:3-dehydroquinate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR030963; DHQ_synth_fam.
+DR   InterPro; IPR030960; DHQS/DOIS.
+DR   Pfam; PF01761; DHQ_synthase; 1.
+DR   PIRSF; PIRSF001455; DHQ_synth; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Cobalt;
+KW   Cytoplasm; Lyase; Metal-binding; NAD; Nucleotide-binding;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..338
+FT                   /note="3-dehydroquinate synthase"
+FT                   /id="PRO_0000140816"
+FT   NP_BIND         58..63
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   NP_BIND         92..96
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   NP_BIND         116..117
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   METAL           169
+FT                   /note="Cobalt or zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   METAL           229
+FT                   /note="Cobalt or zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   METAL           245
+FT                   /note="Cobalt or zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   BINDING         129
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WPX9"
+FT   BINDING         138
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q6GGU4"
+SQ   SEQUENCE   338 AA;  37756 MW;  F1C727567986D0F9 CRC64;
+     MDLKYKLGND VIRIVTGKNI LKDFACELNS GGNISIISRN VYKKYDLSFI KNRIIIDDGE
+     RAKSMEYLTL IINELLNKRV ERGDSIIYIG GGTTGDLSGF AASIYKRGMG LIAVPTTLLA
+     QVDSSIGGKN GINYMNIKNL IGTFYNPKLI IDDISFIDDK KLMMDGLAES LKMGITIEPE
+     LFNIINNDPD YIIENIERII TLSINAKLSI VSKDFHDKKH LRYVLNFGHT IGHALESYFN
+     NNISHGEAVA NGMIIEAYIS KCLGNADISN EIRSIIKRLG FKIIDFRSVD INRLLEYIKN
+     DKKSESGYIN IVAVNGIGRY KIEALSPEEM LKILGGMP
+//

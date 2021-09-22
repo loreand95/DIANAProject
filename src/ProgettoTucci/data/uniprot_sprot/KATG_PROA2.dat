@@ -1,0 +1,120 @@
+ID   KATG_PROA2              Reviewed;         732 AA.
+AC   B4S3B3;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 72.
+DE   RecName: Full=Catalase-peroxidase {ECO:0000255|HAMAP-Rule:MF_01961};
+DE            Short=CP {ECO:0000255|HAMAP-Rule:MF_01961};
+DE            EC=1.11.1.21 {ECO:0000255|HAMAP-Rule:MF_01961};
+DE   AltName: Full=Peroxidase/catalase {ECO:0000255|HAMAP-Rule:MF_01961};
+GN   Name=katG {ECO:0000255|HAMAP-Rule:MF_01961}; OrderedLocusNames=Paes_0148;
+OS   Prosthecochloris aestuarii (strain DSM 271 / SK 413).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae;
+OC   Prosthecochloris.
+OX   NCBI_TaxID=290512;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 271 / SK 413;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Anderson I., Liu Z., Li T., Zhao F., Overmann J.,
+RA   Bryant D.A., Richardson P.;
+RT   "Complete sequence of chromosome of Prosthecochloris aestuarii DSM 271.";
+RL   Submitted (JUN-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Bifunctional enzyme with both catalase and broad-spectrum
+CC       peroxidase activity. {ECO:0000255|HAMAP-Rule:MF_01961}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + H2O2 = A + 2 H2O; Xref=Rhea:RHEA:30275,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15377, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:17499; EC=1.11.1.21; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01961};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H2O2 = 2 H2O + O2; Xref=Rhea:RHEA:20309, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240; EC=1.11.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01961};
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01961};
+CC       Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group per dimer.
+CC       {ECO:0000255|HAMAP-Rule:MF_01961};
+CC   -!- SUBUNIT: Homodimer or homotetramer. {ECO:0000255|HAMAP-Rule:MF_01961}.
+CC   -!- PTM: Formation of the three residue Trp-Tyr-Met cross-link is important
+CC       for the catalase, but not the peroxidase activity of the enzyme.
+CC       {ECO:0000255|HAMAP-Rule:MF_01961}.
+CC   -!- SIMILARITY: Belongs to the peroxidase family. Peroxidase/catalase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01961}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001108; ACF45207.1; -; Genomic_DNA.
+DR   RefSeq; WP_012504744.1; NC_011059.1.
+DR   SMR; B4S3B3; -.
+DR   STRING; 290512.Paes_0148; -.
+DR   PeroxiBase; 2534; PaeCP01.
+DR   EnsemblBacteria; ACF45207; ACF45207; Paes_0148.
+DR   KEGG; paa:Paes_0148; -.
+DR   eggNOG; COG0376; Bacteria.
+DR   HOGENOM; CLU_025424_2_0_10; -.
+DR   OMA; GPETTWL; -.
+DR   OrthoDB; 49441at2; -.
+DR   BioCyc; PAES290512:G1GCD-148-MONOMER; -.
+DR   Proteomes; UP000002725; Chromosome.
+DR   GO; GO:0004096; F:catalase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042744; P:hydrogen peroxide catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006979; P:response to oxidative stress; IEA:InterPro.
+DR   HAMAP; MF_01961; Catal_peroxid; 1.
+DR   InterPro; IPR000763; Catalase_peroxidase.
+DR   InterPro; IPR002016; Haem_peroxidase.
+DR   InterPro; IPR010255; Haem_peroxidase_sf.
+DR   InterPro; IPR019794; Peroxidases_AS.
+DR   InterPro; IPR019793; Peroxidases_heam-ligand_BS.
+DR   PANTHER; PTHR30555; PTHR30555; 1.
+DR   Pfam; PF00141; peroxidase; 2.
+DR   PRINTS; PR00460; BPEROXIDASE.
+DR   PRINTS; PR00458; PEROXIDASE.
+DR   SUPFAM; SSF48113; SSF48113; 2.
+DR   TIGRFAMs; TIGR00198; cat_per_HPI; 1.
+DR   PROSITE; PS00435; PEROXIDASE_1; 1.
+DR   PROSITE; PS00436; PEROXIDASE_2; 1.
+DR   PROSITE; PS50873; PEROXIDASE_4; 1.
+PE   3: Inferred from homology;
+KW   Heme; Hydrogen peroxide; Iron; Metal-binding; Oxidoreductase; Peroxidase.
+FT   CHAIN           1..732
+FT                   /note="Catalase-peroxidase"
+FT                   /id="PRO_0000354861"
+FT   ACT_SITE        98
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01961"
+FT   METAL           261
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01961"
+FT   SITE            94
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01961"
+FT   CROSSLNK        97..220
+FT                   /note="Tryptophyl-tyrosyl-methioninium (Trp-Tyr) (with M-
+FT                   246)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01961"
+FT   CROSSLNK        220..246
+FT                   /note="Tryptophyl-tyrosyl-methioninium (Tyr-Met) (with W-
+FT                   97)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01961"
+SQ   SEQUENCE   732 AA;  81510 MW;  3ED0316D308D412C CRC64;
+     MSEQSRCPVT GRTADSPATG SGLSNRDWWP NQLHLDMLHQ HSSLVNPMGE GFRYKEEFGK
+     LDLKEVKKDL YALMTDSQEW WPADYGHYGG LFIRMAWHSA GTYRTSDGRG GGGTGNQRFA
+     PLNSWPDNAN LDKARRLLWP IKQKYGKKIS WADLMILAGN CALESMGFKT FGFGGGRVDI
+     WEPEEDIYWG KEVEWLGNKR YSGERDLENP LAAVQMGLIY VNPEGPDGKP DPVAAGRDIR
+     ETFARMAMND EETVALVAGG HTFGKCHGVG DPKLVGPEPE AADIEEQGLG WKSGYGIGKG
+     DETMTSGLEG AWTPDPIHWD MGYLGMLFRY EWELTKSPAG AWQWKPKDVA EEDLAPAAHD
+     PSKRVPTMMT TADLAMRMDP IYGPISQRYY EHPDQFADAF ARAWFKLTHR DMGPHSRYLG
+     AEVPAEELIW QDPVPALDHD LIDAEEIAEL KKRLLASGLS IPELVSTAWA SASTFRGSDK
+     RGGANGARIR LAPQKDWEVN QPEQLQRVLH KLEEIRNTFN GEQSGNKQVS LADMIVLGGC
+     AAVEEAAGKA GTGVTVPFTP GRTDALQEQT DTESFSVLEP LADGFRNYMK KKYSVSAEEM
+     LVDRSQLLTL TAPEMTVLLG GLRVLGANFQ QSPHGVFTTQ PETLTNDYFV NLLDMGTEWK
+     PLSKEQDTFE GRDRKTGEPR WTATRVDLIF GSNSRLRAIA EVYGSDDAQE KFVHDFVAAW
+     DKVMNLDRFD LG
+//

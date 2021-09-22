@@ -1,0 +1,83 @@
+ID   GNTR_PAENI              Reviewed;         226 AA.
+AC   Q8GAL4;
+DT   11-JUN-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Probable D-xylose utilization operon transcriptional repressor;
+DE   AltName: Full=HTH-type transcriptional regulator GntR;
+GN   Name=gntR; ORFNames=ORF32;
+OS   Paenarthrobacter nicotinovorans (Arthrobacter nicotinovorans).
+OG   Plasmid pAO1.
+OC   Bacteria; Actinobacteria; Micrococcales; Micrococcaceae; Paenarthrobacter.
+OX   NCBI_TaxID=29320;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 49919 / DSM 420 / JCM 3874 / NBRC 15511; PLASMID=pAO1;
+RX   PubMed=12618462; DOI=10.1128/jb.185.6.1976-1986.2003;
+RA   Igloi G.L., Brandsch R.;
+RT   "Sequence of the 165-kilobase catabolic plasmid pAO1 from Arthrobacter
+RT   nicotinovorans and identification of a pAO1-dependent nicotine uptake
+RT   system.";
+RL   J. Bacteriol. 185:1976-1986(2003).
+RN   [2]
+RP   FUNCTION, INDUCTION, AND PATHWAY.
+RC   STRAIN=ATCC 49919 / DSM 420 / JCM 3874 / NBRC 15511; PLASMID=pAO1;
+RX   PubMed=23063486; DOI=10.1016/j.resmic.2012.10.003;
+RA   Mihasan M., Stefan M., Hritcu L., Artenie V., Brandsch R.;
+RT   "Evidence of a plasmid-encoded oxidative xylose-catabolic pathway in
+RT   Arthrobacter nicotinovorans pAO1.";
+RL   Res. Microbiol. 164:22-30(2013).
+CC   -!- FUNCTION: Transcriptional regulator involved in the regulation of the
+CC       entire oxidative D-xylose degradation pathway via repression of the
+CC       corresponding genes. {ECO:0000305|PubMed:23063486}.
+CC   -!- PATHWAY: Carbohydrate metabolism; D-xylose degradation [regulation].
+CC       {ECO:0000269|PubMed:23063486}.
+CC   -!- INDUCTION: Is constitutively expressed at low levels regardless of the
+CC       presence or absence of D-xylose. {ECO:0000269|PubMed:23063486}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ507836; CAD47890.1; -; Genomic_DNA.
+DR   RefSeq; WP_016359401.1; NC_021229.1.
+DR   RefSeq; YP_007988716.1; NC_021229.1.
+DR   SMR; Q8GAL4; -.
+DR   UniPathway; UPA00810; -.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; TAS:UniProtKB.
+DR   GO; GO:0042843; P:D-xylose catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0043469; P:regulation of D-xylose catabolic process; TAS:UniProtKB.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; TAS:UniProtKB.
+DR   CDD; cd07377; WHTH_GntR; 1.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   Gene3D; 1.20.120.530; -; 1.
+DR   InterPro; IPR011711; GntR_C.
+DR   InterPro; IPR008920; TF_FadR/GntR_C.
+DR   InterPro; IPR000524; Tscrpt_reg_HTH_GntR.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   Pfam; PF07729; FCD; 1.
+DR   Pfam; PF00392; GntR; 1.
+DR   SMART; SM00895; FCD; 1.
+DR   SMART; SM00345; HTH_GNTR; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+DR   SUPFAM; SSF48008; SSF48008; 1.
+DR   PROSITE; PS50949; HTH_GNTR; 1.
+PE   2: Evidence at transcript level;
+KW   DNA-binding; Plasmid; Repressor; Transcription; Transcription regulation.
+FT   CHAIN           1..226
+FT                   /note="Probable D-xylose utilization operon transcriptional
+FT                   repressor"
+FT                   /id="PRO_0000429426"
+FT   DOMAIN          11..78
+FT                   /note="HTH gntR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00307"
+FT   DNA_BIND        38..57
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00307"
+SQ   SEQUENCE   226 AA;  24154 MW;  DD6DDC94E3BD7ADE CRC64;
+     MDATSKRLTR TTVASQVRDF IVMEIAQGRL PLGAPVREME IAAQLGTSQT PVREAFRELA
+     ALGLLESRIH VGTRVRQLAE KDLVEAVPIR SALEGIAGRL AANNYHKHAE EVRGSFEAMK
+     EVAEGGDRRV FAAASTTFHR SVVRAAENAS LLRAWNALGI EVMTILAMAS SDIPLDDAAE
+     SHRPIVDALE AGDPELAEHA LTHHVAAYLP ATAHSNGGVD AAVQAS
+//

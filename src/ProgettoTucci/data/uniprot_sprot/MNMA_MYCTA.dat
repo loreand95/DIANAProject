@@ -1,0 +1,108 @@
+ID   MNMA_MYCTA              Reviewed;         367 AA.
+AC   A5U737;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   07-APR-2021, entry version 81.
+DE   RecName: Full=tRNA-specific 2-thiouridylase MnmA {ECO:0000255|HAMAP-Rule:MF_00144};
+DE            EC=2.8.1.13 {ECO:0000255|HAMAP-Rule:MF_00144};
+GN   Name=mnmA {ECO:0000255|HAMAP-Rule:MF_00144}; Synonyms=trmU;
+GN   OrderedLocusNames=MRA_3055;
+OS   Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=419947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25177 / H37Ra;
+RX   PubMed=18584054; DOI=10.1371/journal.pone.0002375;
+RA   Zheng H., Lu L., Wang B., Pu S., Zhang X., Zhu G., Shi W., Zhang L.,
+RA   Wang H., Wang S., Zhao G., Zhang Y.;
+RT   "Genetic basis of virulence attenuation revealed by comparative genomic
+RT   analysis of Mycobacterium tuberculosis strain H37Ra versus H37Rv.";
+RL   PLoS ONE 3:E2375-E2375(2008).
+CC   -!- FUNCTION: Catalyzes the 2-thiolation of uridine at the wobble position
+CC       (U34) of tRNA, leading to the formation of s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00144}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + ATP + S-sulfanyl-L-cysteinyl-[protein] + uridine(34) in
+CC         tRNA = 2-thiouridine(34) in tRNA + A + AMP + diphosphate + H(+) + L-
+CC         cysteinyl-[protein]; Xref=Rhea:RHEA:47032, Rhea:RHEA-COMP:10131,
+CC         Rhea:RHEA-COMP:11726, Rhea:RHEA-COMP:11727, Rhea:RHEA-COMP:11728,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:61963, ChEBI:CHEBI:65315, ChEBI:CHEBI:87170,
+CC         ChEBI:CHEBI:456215; EC=2.8.1.13; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00144};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00144}.
+CC   -!- SIMILARITY: Belongs to the MnmA/TRMU family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00144}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000611; ABQ74837.1; -; Genomic_DNA.
+DR   RefSeq; WP_003415909.1; NZ_CP016972.1.
+DR   SMR; A5U737; -.
+DR   STRING; 419947.MRA_3055; -.
+DR   EnsemblBacteria; ABQ74837; ABQ74837; MRA_3055.
+DR   KEGG; mra:MRA_3055; -.
+DR   eggNOG; COG0482; Bacteria.
+DR   HOGENOM; CLU_035188_0_2_11; -.
+DR   OMA; AVCTGHY; -.
+DR   OrthoDB; 1054741at2; -.
+DR   Proteomes; UP000001988; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:InterPro.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd01998; tRNA_Me_trans; 1.
+DR   Gene3D; 2.30.30.280; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00144; tRNA_thiouridyl_MnmA; 1.
+DR   InterPro; IPR023382; Adenine_a_hdrlase_dom.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR004506; tRNA-specific_2-thiouridylase.
+DR   TIGRFAMs; TIGR00420; trmU; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Disulfide bond; Nucleotide-binding; RNA-binding;
+KW   Transferase; tRNA processing; tRNA-binding.
+FT   CHAIN           1..367
+FT                   /note="tRNA-specific 2-thiouridylase MnmA"
+FT                   /id="PRO_1000009544"
+FT   NP_BIND         6..13
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   REGION          143..145
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   ACT_SITE        101
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   ACT_SITE        193
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   BINDING         32
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   BINDING         125
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   SITE            126
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   SITE            333
+FT                   /note="Interaction with tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+FT   DISULFID        101..193
+FT                   /note="Alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00144"
+SQ   SEQUENCE   367 AA;  38120 MW;  043ECC2D5D690C79 CRC64;
+     MKVLAAMSGG VDSSVAAARM VDAGHEVVGV HMALSTAPGT LRTGSRGCCS KEDAADARRV
+     ADVLGIPFYV WDFAEKFKED VINDFVSSYA RGETPNPCVR CNQQIKFAAL SARAVALGFD
+     TVATGHYARL SGGRLRRAVD RDKDQSYVLA VLTAQQLRHA AFPIGDTPKR QIRAEAARRG
+     LAVANKPDSH DICFIPSGNT KAFLGERIGV RRGVVVDADG VVLASHDGVH GFTIGQRRGL
+     GIAGPGPNGR PRYVTAIDAD TATVHVGDVT DLDVQTLTGR APVFTAGAAP SGPVDCVVQV
+     RAHGETVSAV AELIGDALFV QLHAPLRGVA RGQTLVLYRP DPAGDEVLGS ATIAGASGLS
+     TGGNPGA
+//

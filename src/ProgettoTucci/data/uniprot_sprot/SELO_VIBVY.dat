@@ -1,0 +1,117 @@
+ID   SELO_VIBVY              Reviewed;         490 AA.
+AC   Q7MMI2;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 83.
+DE   RecName: Full=Protein adenylyltransferase SelO {ECO:0000255|HAMAP-Rule:MF_00692};
+DE            EC=2.7.7.- {ECO:0000255|HAMAP-Rule:MF_00692};
+DE            EC=2.7.7.n1 {ECO:0000255|HAMAP-Rule:MF_00692};
+GN   Name=selO {ECO:0000255|HAMAP-Rule:MF_00692}; OrderedLocusNames=VV1089;
+OS   Vibrio vulnificus (strain YJ016).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=196600;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YJ016;
+RX   PubMed=14656965; DOI=10.1101/gr.1295503;
+RA   Chen C.-Y., Wu K.-M., Chang Y.-C., Chang C.-H., Tsai H.-C., Liao T.-L.,
+RA   Liu Y.-M., Chen H.-J., Shen A.B.-T., Li J.-C., Su T.-L., Shao C.-P.,
+RA   Lee C.-T., Hor L.-I., Tsai S.-F.;
+RT   "Comparative genome analysis of Vibrio vulnificus, a marine pathogen.";
+RL   Genome Res. 13:2577-2587(2003).
+CC   -!- FUNCTION: Catalyzes the transfer of adenosine 5'-monophosphate (AMP) to
+CC       Ser, Thr or Tyr residues of target proteins (AMPylation).
+CC       {ECO:0000255|HAMAP-Rule:MF_00692}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosyl-[protein] = diphosphate + O-(5'-adenylyl)-L-
+CC         tyrosyl-[protein]; Xref=Rhea:RHEA:54288, Rhea:RHEA-COMP:10136,
+CC         Rhea:RHEA-COMP:13846, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:46858, ChEBI:CHEBI:83624; EC=2.7.7.n1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54289;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = 3-O-(5'-adenylyl)-L-threonyl-
+CC         [protein] + diphosphate; Xref=Rhea:RHEA:54292, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:13847, ChEBI:CHEBI:30013, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:138113; EC=2.7.7.n1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:54293;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = 3-O-(5'-adenylyl)-L-seryl-[protein]
+CC         + diphosphate; Xref=Rhea:RHEA:58120, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:15073, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:142516; Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:58121;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00692};
+CC   -!- SIMILARITY: Belongs to the SELO family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00692}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000037; BAC93853.1; -; Genomic_DNA.
+DR   RefSeq; WP_011149834.1; NC_005139.1.
+DR   SMR; Q7MMI2; -.
+DR   STRING; 672.VV93_v1c10100; -.
+DR   EnsemblBacteria; BAC93853; BAC93853; BAC93853.
+DR   KEGG; vvy:VV1089; -.
+DR   PATRIC; fig|196600.6.peg.1085; -.
+DR   eggNOG; COG0397; Bacteria.
+DR   HOGENOM; CLU_010245_4_0_6; -.
+DR   OMA; RMHAVNP; -.
+DR   OrthoDB; 130048at2; -.
+DR   Proteomes; UP000002675; Chromosome I.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00692; SelO; 1.
+DR   InterPro; IPR003846; SelO.
+DR   PANTHER; PTHR32057; PTHR32057; 1.
+DR   Pfam; PF02696; UPF0061; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..490
+FT                   /note="Protein adenylyltransferase SelO"
+FT                   /id="PRO_0000121437"
+FT   NP_BIND         89..92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   NP_BIND         124..125
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   ACT_SITE        251
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   METAL           252
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   METAL           261
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   BINDING         112
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   BINDING         175
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+FT   BINDING         182
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00692"
+SQ   SEQUENCE   490 AA;  55624 MW;  A0F6B5C44A8C72D4 CRC64;
+     MSLWSSVKFA QRYAQLPKVF YRLVTPQPLD NSRWVIWNGE LAQGFALPKH ADDPQLLSVF
+     SGAEPFSAFK PLAMKYAGHQ FGVYNPDLGD GRGLLLGEMQ NQQGQWFDIH LKGAGLTPFS
+     RMGDGRAVLR STIREYLCSE AMAALGIETT RALGMTVSDT PVYREQVEQG ACLIRLAQTH
+     IRFGHFEHFF YTEQYDELRL LADNVIEWYM PECTAHDKPY LAMFEQVVAR TATMIAQWQA
+     VGFAHGVMNT DNMSILGQTF DYGPFGFLDD YEPGYICNHS DYQGRYAFDQ QPRVALWNLS
+     ALAHALSPLV ERDDLELALA QYEPTLGKVF SQLMRQKLGL LSQQEGDSEL FNAMFTLLAE
+     NHTDYTRFFR TLSQLDSEGA QTVIDLFIDR DAARGWLSRY LERVALEQTA SGEAKSAQQR
+     CEQMRAVNPK YILRNYLAQQ AIDKAQQGDF SEVHTLAKLL KNPYDEQAEM EAYAHLPPEW
+     GKKMVISCSS
+//

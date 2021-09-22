@@ -1,0 +1,114 @@
+ID   THBB_XENLA              Reviewed;         414 AA.
+AC   P18119; P18118;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   07-APR-2021, entry version 129.
+DE   RecName: Full=Thyroid hormone receptor beta-B;
+DE            Short=TRbetaB;
+DE   AltName: Full=Nuclear receptor subfamily 1 group A member 2-B;
+GN   Name=thrb-b; Synonyms=nr1a2-b, thrb2;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS BETA-B1 AND BETA-B2), DEVELOPMENTAL
+RP   STAGE, AND INDUCTION.
+RC   TISSUE=Tadpole;
+RX   PubMed=2402492; DOI=10.1073/pnas.87.18.7090;
+RA   Yaoita Y., Shi Y.-B., Brown D.D.;
+RT   "Xenopus laevis alpha and beta thyroid hormone receptors.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:7090-7094(1990).
+RN   [2]
+RP   ERRATUM OF PUBMED:2402492.
+RX   PubMed=2236080; DOI=10.1073/pnas.87.21.8685a;
+RA   Yaoita Y., Shi Y.-B., Brown D.D.;
+RL   Proc. Natl. Acad. Sci. U.S.A. 87:8684-8684(1990).
+CC   -!- FUNCTION: High affinity receptor for triiodothyronine (T3).
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC         Comment=Additional isoforms seem to exist.;
+CC       Name=Beta-B2; Synonyms=BetaB-II;
+CC         IsoId=P18119-1; Sequence=Displayed;
+CC       Name=Beta-B1; Synonyms=BetaB-I;
+CC         IsoId=P18119-2; Sequence=VSP_003628;
+CC   -!- DEVELOPMENTAL STAGE: Expression peaks at the climax of metamorphosis.
+CC       {ECO:0000269|PubMed:2402492}.
+CC   -!- INDUCTION: By thyroid hormone. {ECO:0000269|PubMed:2402492}.
+CC   -!- DOMAIN: Composed of three domains: a modulating N-terminal domain, a
+CC       DNA-binding domain and a C-terminal ligand-binding domain.
+CC   -!- SIMILARITY: Belongs to the nuclear hormone receptor family. NR1
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M35362; AAA49658.1; -; mRNA.
+DR   EMBL; M35361; AAA49657.1; -; mRNA.
+DR   PIR; D36067; D36067.
+DR   RefSeq; NP_001081250.1; NM_001087781.1. [P18119-1]
+DR   RefSeq; XP_018124099.1; XM_018268610.1. [P18119-1]
+DR   RefSeq; XP_018124100.1; XM_018268611.1.
+DR   SMR; P18119; -.
+DR   GeneID; 397734; -.
+DR   KEGG; xla:397734; -.
+DR   CTD; 397734; -.
+DR   Xenbase; XB-GENE-6252616; thrb.S.
+DR   OMA; SHNIYME; -.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004879; F:nuclear receptor activity; TAS:UniProtKB.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   Gene3D; 1.10.565.10; -; 1.
+DR   Gene3D; 3.30.50.10; -; 1.
+DR   InterPro; IPR035500; NHR-like_dom_sf.
+DR   InterPro; IPR000536; Nucl_hrmn_rcpt_lig-bd.
+DR   InterPro; IPR001723; Nuclear_hrmn_rcpt.
+DR   InterPro; IPR001728; ThyrH_rcpt.
+DR   InterPro; IPR001628; Znf_hrmn_rcpt.
+DR   InterPro; IPR013088; Znf_NHR/GATA.
+DR   Pfam; PF00104; Hormone_recep; 1.
+DR   Pfam; PF00105; zf-C4; 1.
+DR   PRINTS; PR00398; STRDHORMONER.
+DR   PRINTS; PR00047; STROIDFINGER.
+DR   PRINTS; PR00546; THYROIDHORMR.
+DR   SMART; SM00430; HOLI; 1.
+DR   SMART; SM00399; ZnF_C4; 1.
+DR   SUPFAM; SSF48508; SSF48508; 1.
+DR   PROSITE; PS51843; NR_LBD; 1.
+DR   PROSITE; PS00031; NUCLEAR_REC_DBD_1; 1.
+DR   PROSITE; PS51030; NUCLEAR_REC_DBD_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; DNA-binding; Metal-binding; Nucleus; Receptor;
+KW   Transcription; Transcription regulation; Zinc; Zinc-finger.
+FT   CHAIN           1..414
+FT                   /note="Thyroid hormone receptor beta-B"
+FT                   /id="PRO_0000053459"
+FT   DOMAIN          170..414
+FT                   /note="NR LBD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01189"
+FT   DNA_BIND        60..134
+FT                   /note="Nuclear receptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         60..80
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   ZN_FING         98..122
+FT                   /note="NR C4-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00407"
+FT   REGION          1..59
+FT                   /note="Modulating"
+FT   VAR_SEQ         7..46
+FT                   /note="Missing (in isoform Beta-B1)"
+FT                   /evidence="ECO:0000303|PubMed:2402492"
+FT                   /id="VSP_003628"
+SQ   SEQUENCE   414 AA;  46706 MW;  F136F8380B2494BE CRC64;
+     MPSSMSVRLF TASAAQRKKI QEGDCCVVLA GKTQGRFILI GAVARVSGYI PSYLDKDELC
+     VVCGDKATGY HYRCITCEGC KGFFRRTIQK NLHPSYSCKY EGKCVIDKVT RNQCQECRFK
+     KCKTVGMATD LVLDDSKRLA KRKLIEENRE KRRKDEIQKS IVQRPEPTQE EWELIQVVTE
+     AHVATNAQGS HWKQKRKFLP EDIGQAPIVN APEGGKVDLE AFSQFTKIIT PAITRVVDFA
+     KKLPMFCELP CEDQIILLKG CCMEIMSLRA AVRYDPESET LTLNGEMAVT RGQLKNGGLG
+     VVSDAIFDLG VSLSSFSLDD TEVALLQAVL LMSSDRPGLS SVERIEKCQE GFLLAFEHYI
+     NYRKHNIAHF WPKLLMKVTD LRMIGACHAS RFLHMKVECP TELFPPLFLE VFED
+//

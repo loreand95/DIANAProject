@@ -1,0 +1,110 @@
+ID   CPFC_STAEQ              Reviewed;         307 AA.
+AC   Q5HNA5;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Coproporphyrin III ferrochelatase {ECO:0000255|HAMAP-Rule:MF_00323};
+DE            EC=4.99.1.9 {ECO:0000255|HAMAP-Rule:MF_00323};
+GN   Name=cpfC {ECO:0000255|HAMAP-Rule:MF_00323}; OrderedLocusNames=SERP1367;
+OS   Staphylococcus epidermidis (strain ATCC 35984 / RP62A).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=176279;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35984 / RP62A;
+RX   PubMed=15774886; DOI=10.1128/jb.187.7.2426-2438.2005;
+RA   Gill S.R., Fouts D.E., Archer G.L., Mongodin E.F., DeBoy R.T., Ravel J.,
+RA   Paulsen I.T., Kolonay J.F., Brinkac L.M., Beanan M.J., Dodson R.J.,
+RA   Daugherty S.C., Madupu R., Angiuoli S.V., Durkin A.S., Haft D.H.,
+RA   Vamathevan J.J., Khouri H., Utterback T.R., Lee C., Dimitrov G., Jiang L.,
+RA   Qin H., Weidman J., Tran K., Kang K.H., Hance I.R., Nelson K.E.,
+RA   Fraser C.M.;
+RT   "Insights on evolution of virulence and resistance from the complete genome
+RT   analysis of an early methicillin-resistant Staphylococcus aureus strain and
+RT   a biofilm-producing methicillin-resistant Staphylococcus epidermidis
+RT   strain.";
+RL   J. Bacteriol. 187:2426-2438(2005).
+CC   -!- FUNCTION: Involved in coproporphyrin-dependent heme b biosynthesis.
+CC       Catalyzes the insertion of ferrous iron into coproporphyrin III to form
+CC       Fe-coproporphyrin III. {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Fe-coproporphyrin III + 2 H(+) = coproporphyrin III + Fe(2+);
+CC         Xref=Rhea:RHEA:49572, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:68438, ChEBI:CHEBI:131725; EC=4.99.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00323};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49573;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00323};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoheme
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00323}.
+CC   -!- SIMILARITY: Belongs to the ferrochelatase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00323}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000029; AAW54744.1; -; Genomic_DNA.
+DR   RefSeq; WP_001829846.1; NC_002976.3.
+DR   SMR; Q5HNA5; -.
+DR   STRING; 176279.SERP1367; -.
+DR   EnsemblBacteria; AAW54744; AAW54744; SERP1367.
+DR   GeneID; 50018413; -.
+DR   KEGG; ser:SERP1367; -.
+DR   eggNOG; COG0276; Bacteria.
+DR   HOGENOM; CLU_018884_2_1_9; -.
+DR   OMA; LGDPYHC; -.
+DR   OrthoDB; 780534at2; -.
+DR   BioCyc; SEPI176279:G1G46-1406-MONOMER; -.
+DR   UniPathway; UPA00252; -.
+DR   Proteomes; UP000000531; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004325; F:ferrochelatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006783; P:heme biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00419; Ferrochelatase_C; 1.
+DR   CDD; cd03411; Ferrochelatase_N; 1.
+DR   HAMAP; MF_00323; Ferrochelatase; 1.
+DR   InterPro; IPR001015; Ferrochelatase.
+DR   InterPro; IPR019772; Ferrochelatase_AS.
+DR   InterPro; IPR033644; Ferrochelatase_C.
+DR   InterPro; IPR033659; Ferrochelatase_N.
+DR   PANTHER; PTHR11108; PTHR11108; 1.
+DR   Pfam; PF00762; Ferrochelatase; 1.
+DR   TIGRFAMs; TIGR00109; hemH; 1.
+DR   PROSITE; PS00534; FERROCHELATASE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Heme biosynthesis; Iron; Lyase; Metal-binding;
+KW   Porphyrin biosynthesis; Reference proteome.
+FT   CHAIN           1..307
+FT                   /note="Coproporphyrin III ferrochelatase"
+FT                   /id="PRO_0000175208"
+FT   REGION          45..46
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   METAL           12
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   METAL           181
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   METAL           263
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         29
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         53
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+FT   BINDING         124
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00323"
+SQ   SEQUENCE   307 AA;  35429 MW;  0A8B9B6DB549B06B CRC64;
+     MTKTIGLLVM AYGTPYKESD IEPYYTDIRR GKKPTEEELQ DLKDRYEFIG GLSPLAGTTD
+     RQAEALLEAL NKEQDDVNFK LYLGLKHISP YIEEAVEQMH NDGIKEAVTV VLAPHYSSFS
+     VGSYDQRAQE KADEYGIQLT HIKHYYQQPK FIKYWTEKIN ETLEQIPNQE HDETVLVVSA
+     HSLPKGLIER NNDPYPHELH ETAEILKQES NIIHVAEGWQ SEGNTGTPWL GPDVQDLTRD
+     LYKEHQFKHF IYTPVGFVCE HLEVLYDNDY ECKVVCDDIG VNYYRPEMPN THPLFIGAIV
+     DEIQSHI
+//

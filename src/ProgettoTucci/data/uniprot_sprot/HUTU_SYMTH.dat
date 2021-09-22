@@ -1,0 +1,127 @@
+ID   HUTU_SYMTH              Reviewed;         551 AA.
+AC   Q67JH5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-DEC-2020, entry version 98.
+DE   RecName: Full=Urocanate hydratase {ECO:0000255|HAMAP-Rule:MF_00577};
+DE            Short=Urocanase {ECO:0000255|HAMAP-Rule:MF_00577};
+DE            EC=4.2.1.49 {ECO:0000255|HAMAP-Rule:MF_00577};
+DE   AltName: Full=Imidazolonepropionate hydrolase {ECO:0000255|HAMAP-Rule:MF_00577};
+GN   Name=hutU {ECO:0000255|HAMAP-Rule:MF_00577}; OrderedLocusNames=STH3193;
+OS   Symbiobacterium thermophilum (strain T / IAM 14863).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Symbiobacteriaceae;
+OC   Symbiobacterium.
+OX   NCBI_TaxID=292459;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=T / IAM 14863;
+RX   PubMed=15383646; DOI=10.1093/nar/gkh830;
+RA   Ueda K., Yamashita A., Ishikawa J., Shimada M., Watsuji T., Morimura K.,
+RA   Ikeda H., Hattori M., Beppu T.;
+RT   "Genome sequence of Symbiobacterium thermophilum, an uncultivable bacterium
+RT   that depends on microbial commensalism.";
+RL   Nucleic Acids Res. 32:4937-4944(2004).
+CC   -!- FUNCTION: Catalyzes the conversion of urocanate to 4-imidazolone-5-
+CC       propionate. {ECO:0000255|HAMAP-Rule:MF_00577}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-imidazolone-5-propanoate = H2O + trans-urocanate;
+CC         Xref=Rhea:RHEA:13101, ChEBI:CHEBI:15377, ChEBI:CHEBI:17771,
+CC         ChEBI:CHEBI:77893; EC=4.2.1.49; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00577};
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00577};
+CC       Note=Binds 1 NAD(+) per subunit. {ECO:0000255|HAMAP-Rule:MF_00577};
+CC   -!- PATHWAY: Amino-acid degradation; L-histidine degradation into L-
+CC       glutamate; N-formimidoyl-L-glutamate from L-histidine: step 2/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_00577}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00577}.
+CC   -!- SIMILARITY: Belongs to the urocanase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00577}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006840; BAD42175.1; -; Genomic_DNA.
+DR   RefSeq; WP_011197306.1; NC_006177.1.
+DR   SMR; Q67JH5; -.
+DR   STRING; 292459.STH3193; -.
+DR   EnsemblBacteria; BAD42175; BAD42175; STH3193.
+DR   KEGG; sth:STH3193; -.
+DR   eggNOG; COG2987; Bacteria.
+DR   HOGENOM; CLU_018868_0_1_9; -.
+DR   OMA; LVGDWAN; -.
+DR   OrthoDB; 100619at2; -.
+DR   BioCyc; STHE292459:G1G28-3187-MONOMER; -.
+DR   UniPathway; UPA00379; UER00550.
+DR   Proteomes; UP000000417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016153; F:urocanate hydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019556; P:histidine catabolic process to glutamate and formamide; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019557; P:histidine catabolic process to glutamate and formate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.10730; -; 1.
+DR   HAMAP; MF_00577; HutU; 1.
+DR   InterPro; IPR023637; Urocanase.
+DR   InterPro; IPR035401; Urocanase_C.
+DR   InterPro; IPR038364; Urocanase_central_sf.
+DR   InterPro; IPR023636; Urocanase_CS.
+DR   InterPro; IPR035400; Urocanase_N.
+DR   InterPro; IPR035085; Urocanase_Rossmann-like.
+DR   InterPro; IPR036190; Urocanase_sf.
+DR   PANTHER; PTHR12216; PTHR12216; 1.
+DR   Pfam; PF01175; Urocanase; 1.
+DR   Pfam; PF17392; Urocanase_C; 1.
+DR   Pfam; PF17391; Urocanase_N; 1.
+DR   PIRSF; PIRSF001423; Urocanate_hydrat; 1.
+DR   SUPFAM; SSF111326; SSF111326; 1.
+DR   TIGRFAMs; TIGR01228; hutU; 1.
+DR   PROSITE; PS01233; UROCANASE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Histidine metabolism; Lyase; NAD; Reference proteome.
+FT   CHAIN           1..551
+FT                   /note="Urocanate hydratase"
+FT                   /id="PRO_1000025158"
+FT   NP_BIND         48..49
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   NP_BIND         172..174
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   NP_BIND         238..239
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   NP_BIND         259..263
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   NP_BIND         269..270
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   ACT_SITE        406
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   BINDING         126
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   BINDING         192
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   BINDING         197
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   BINDING         318
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+FT   BINDING         488
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00577"
+SQ   SEQUENCE   551 AA;  60753 MW;  9C2DE5B1AA0BD511 CRC64;
+     MEMTRTVRAP RGTQLSCKGW QQEAALRMLM NNLDPEVAER PEELVVYGGS GKAARSWEAF
+     DAIVKALRSL EDDETLLVQS GKPVAIFRTH RMAPRVLIAN SNLVARWATW EHFWELERKG
+     LMMFGQMTAG SWIYIGTQGI LQGTYETFAE AARQHFGGSL KGRLALTAGL GGMGGAQPLA
+     VTMNEGVAIV VEVDEARIQR RLDHRYLDRM TRSLDEALAW ARESMAKGEP LSIGLLGNAA
+     TIYPEIVRRG VIPDVVTDQT SAHDPLNGYI PEGLSVQEAA KLRKADPDEY IRRAKASIVK
+     HVQAMLDMQK AGAVVFDYGN NIRQQAYEEG LKDAFAFPGF VPAFIRPLFC EGKGPFRWVA
+     LSGDPEDIYK TDRAIMELFP ENQSLRRWLE MAQKKVHFQG LPARICWLGY GERVKAGLKF
+     NEMVASGELK APIVIGRDHL DAGSVASPNR ETEAMKDGSD AVADWPLLNA LVNTAAGATW
+     VSIHHGGGVG IGYSQHAGMV VVADGTEEAR VRLERVLTTD PGMGVVRHVD AGYEKALQVA
+     RERGIRLPMY E
+//

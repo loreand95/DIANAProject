@@ -1,0 +1,113 @@
+ID   LLDD_ECOK1              Reviewed;         396 AA.
+AC   A1AHE2;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=L-lactate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01559};
+DE            EC=1.1.-.- {ECO:0000255|HAMAP-Rule:MF_01559};
+GN   Name=lldD {ECO:0000255|HAMAP-Rule:MF_01559}; OrderedLocusNames=Ecok1_35880;
+GN   ORFNames=APECO1_2850;
+OS   Escherichia coli O1:K1 / APEC.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=405955;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17293413; DOI=10.1128/jb.01726-06;
+RA   Johnson T.J., Kariyawasam S., Wannemuehler Y., Mangiamele P., Johnson S.J.,
+RA   Doetkott C., Skyberg J.A., Lynne A.M., Johnson J.R., Nolan L.K.;
+RT   "The genome sequence of avian pathogenic Escherichia coli strain O1:K1:H7
+RT   shares strong similarities with human extraintestinal pathogenic E. coli
+RT   genomes.";
+RL   J. Bacteriol. 189:3228-3236(2007).
+CC   -!- FUNCTION: Catalyzes the conversion of L-lactate to pyruvate. Is coupled
+CC       to the respiratory chain. {ECO:0000255|HAMAP-Rule:MF_01559}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate + A = AH2 + pyruvate; Xref=Rhea:RHEA:45816,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15361, ChEBI:CHEBI:16651,
+CC         ChEBI:CHEBI:17499; Evidence={ECO:0000255|HAMAP-Rule:MF_01559};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01559};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01559}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01559}.
+CC   -!- SIMILARITY: Belongs to the FMN-dependent alpha-hydroxy acid
+CC       dehydrogenase family. {ECO:0000255|HAMAP-Rule:MF_01559}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000468; ABJ03082.1; -; Genomic_DNA.
+DR   RefSeq; WP_000586967.1; NC_008563.1.
+DR   SMR; A1AHE2; -.
+DR   EnsemblBacteria; ABJ03082; ABJ03082; APECO1_2850.
+DR   KEGG; ecv:APECO1_2850; -.
+DR   HOGENOM; CLU_020639_0_0_6; -.
+DR   OMA; RIWFRPQ; -.
+DR   Proteomes; UP000008216; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0004457; F:lactate dehydrogenase activity; IEA:InterPro.
+DR   GO; GO:0019516; P:lactate oxidation; IEA:UniProtKB-UniRule.
+DR   CDD; cd02809; alpha_hydroxyacid_oxid_FMN; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01559; L_lact_dehydr; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR012133; Alpha-hydoxy_acid_DH_FMN.
+DR   InterPro; IPR000262; FMN-dep_DH.
+DR   InterPro; IPR037396; FMN_HAD.
+DR   InterPro; IPR008259; FMN_hydac_DH_AS.
+DR   InterPro; IPR020920; LldD.
+DR   Pfam; PF01070; FMN_dh; 1.
+DR   PIRSF; PIRSF000138; Al-hdrx_acd_dh; 1.
+DR   PROSITE; PS00557; FMN_HYDROXY_ACID_DH_1; 1.
+DR   PROSITE; PS51349; FMN_HYDROXY_ACID_DH_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Flavoprotein; FMN; Membrane;
+KW   Oxidoreductase.
+FT   CHAIN           1..396
+FT                   /note="L-lactate dehydrogenase"
+FT                   /id="PRO_1000068981"
+FT   DOMAIN          1..380
+FT                   /note="FMN hydroxy acid dehydrogenase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   NP_BIND         306..330
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   ACT_SITE        275
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         24
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         106
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         127
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         129
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         155
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         164
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         251
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+FT   BINDING         278
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01559"
+SQ   SEQUENCE   396 AA;  42717 MW;  B980B97EF347007A CRC64;
+     MIISAASDYR AAAQRILPPF LFHYMDGGAY SEYTLRRNVE DLSEVALRQR ILKNMSDLSL
+     ETTLFNEKLS MPVALGPVGL CGMYARRGEV QAAKAADAHG IPFTLSTVSV CPIEEVAPAI
+     KRPMWFQLYV LRDRGFMRNA LERAKAAGCS TLVFTVDMPT PGARYRDAHS GMSGPNAAMR
+     RYLQAVTHPQ WAWDVGLNGR PHDLGNISAY LGKPTGLEDY IGWLANNFDP SISWKDLEWI
+     RDFWDGPMVI KGILDPEDAR DAVRFGADGI VVSNHGGRQL DGVLSSACAL PAIADAVKGD
+     IAILADSGIR NGLDVVRMIA LGADTVLLGR AFLYALATAG QAGVANLLNL IEKEMKVAMT
+     LTGAKSISEI TQDSLVQVLG KELPAALAPM AKGNAA
+//

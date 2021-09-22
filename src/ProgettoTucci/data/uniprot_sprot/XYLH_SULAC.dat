@@ -1,0 +1,113 @@
+ID   XYLH_SULAC              Reviewed;         356 AA.
+AC   Q4J711;
+DT   22-APR-2020, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   02-DEC-2020, entry version 63.
+DE   RecName: Full=Xylose/arabinose import permease protein XylH {ECO:0000305};
+GN   Name=xylH {ECO:0000303|PubMed:29150511};
+GN   OrderedLocusNames=Saci_2121 {ECO:0000312|EMBL:AAY81414.1};
+OS   Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC
+OS   15157 / NCIMB 11770).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Sulfolobus.
+OX   NCBI_TaxID=330779;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770;
+RX   PubMed=15995215; DOI=10.1128/jb.187.14.4992-4999.2005;
+RA   Chen L., Bruegger K., Skovgaard M., Redder P., She Q., Torarinsson E.,
+RA   Greve B., Awayez M., Zibat A., Klenk H.-P., Garrett R.A.;
+RT   "The genome of Sulfolobus acidocaldarius, a model organism of the
+RT   Crenarchaeota.";
+RL   J. Bacteriol. 187:4992-4999(2005).
+RN   [2]
+RP   FUNCTION, SUBUNIT, INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=MW001;
+RX   PubMed=29150511; DOI=10.1128/aem.01273-17;
+RA   Wagner M., Shen L., Albersmeier A., van der Kolk N., Kim S., Cha J.,
+RA   Braesen C., Kalinowski J., Siebers B., Albers S.V.;
+RT   "Sulfolobus acidocaldarius transports pentoses via a carbohydrate uptake
+RT   transporter 2 (CUT2)-type ABC transporter and metabolizes them through the
+RT   aldolase-independent Weimberg pathway.";
+RL   Appl. Environ. Microbiol. 84:0-0(2018).
+CC   -!- FUNCTION: Part of the ABC transporter complex XylFGH involved in the
+CC       uptake of xylose and arabinose (PubMed:29150511). Responsible for the
+CC       translocation of the substrate across the membrane (Probable).
+CC       {ECO:0000269|PubMed:29150511, ECO:0000305}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (XylG),
+CC       two transmembrane proteins (XylH) and a solute-binding protein (XylF).
+CC       {ECO:0000305|PubMed:29150511}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- INDUCTION: Up-regulated in the presence of D-xylose, L-arabinose and D-
+CC       arabinose. {ECO:0000269|PubMed:29150511}.
+CC   -!- DISRUPTION PHENOTYPE: Deletion of the gene results in a growth defect
+CC       on D-xylose and L-arabinose. {ECO:0000269|PubMed:29150511}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000077; AAY81414.1; -; Genomic_DNA.
+DR   RefSeq; WP_011278916.1; NC_007181.1.
+DR   STRING; 330779.Saci_2121; -.
+DR   EnsemblBacteria; AAY81414; AAY81414; Saci_2121.
+DR   GeneID; 3472850; -.
+DR   KEGG; sai:Saci_2121; -.
+DR   PATRIC; fig|330779.12.peg.2126; -.
+DR   eggNOG; arCOG00263; Archaea.
+DR   HOGENOM; CLU_028880_0_1_2; -.
+DR   OMA; KMAPFIA; -.
+DR   BioCyc; SACI330779:G1G4L-2100-MONOMER; -.
+DR   Proteomes; UP000001018; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0022857; F:transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0008643; P:carbohydrate transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR001851; ABC_transp_permease.
+DR   Pfam; PF02653; BPD_transp_2; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Membrane; Reference proteome; Sugar transport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..356
+FT                   /note="Xylose/arabinose import permease protein XylH"
+FT                   /id="PRO_0000449395"
+FT   TRANSMEM        14..34
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        41..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        70..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        96..116
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        126..146
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        161..181
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        211..231
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        242..262
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        266..286
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        287..307
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   356 AA;  38179 MW;  61871C8202BF30F4 CRC64;
+     MNILNVVRRF EFQLFLVNVI IALFFYFENS AYFSSNNITT IFQYLAEIGI IAIGEAMLML
+     CGEIDLSPPA LANFVPLITL TIYNSIYQAI SPTPAIVVSI LLSLGLASLI GLMNGLITTK
+     AKVNSLITTV GTLFLFNGIA LIYSGGYPES FPYFRFLGGT VSILPVPFIW SLGALVFLIL
+     LLHYTKIGVW TIAAGSNPTG ASEVGVPVDR VKIINFIIMA NIGALVGIIQ GSRVLTIGAT
+     NFTADVVLEG IAAAVIGGTS LVGGKGSLVG AFLGSVFISE LLNGFNILGI NAYEFDAILG
+     GAIVVVMVLS YYAKRASYKL KSIATATSSS PEGKDRITKI LKFKIQKIYR RVEENE
+//

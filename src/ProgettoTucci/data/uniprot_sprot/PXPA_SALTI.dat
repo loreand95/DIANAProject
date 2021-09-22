@@ -1,0 +1,91 @@
+ID   PXPA_SALTI              Reviewed;         244 AA.
+AC   Q8Z8D9;
+DT   04-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 95.
+DE   RecName: Full=5-oxoprolinase subunit A {ECO:0000255|HAMAP-Rule:MF_00691};
+DE            Short=5-OPase subunit A {ECO:0000255|HAMAP-Rule:MF_00691};
+DE            EC=3.5.2.9 {ECO:0000255|HAMAP-Rule:MF_00691};
+DE   AltName: Full=5-oxoprolinase (ATP-hydrolyzing) subunit A {ECO:0000255|HAMAP-Rule:MF_00691};
+GN   Name=pxpA {ECO:0000255|HAMAP-Rule:MF_00691}; Synonyms=ybgL;
+GN   OrderedLocusNames=STY0754, t2162;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the cleavage of 5-oxoproline to form L-glutamate
+CC       coupled to the hydrolysis of ATP to ADP and inorganic phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00691}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-oxo-L-proline + ATP + 2 H2O = ADP + H(+) + L-glutamate +
+CC         phosphate; Xref=Rhea:RHEA:10348, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58402, ChEBI:CHEBI:456216; EC=3.5.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00691};
+CC   -!- SUBUNIT: Forms a complex composed of PxpA, PxpB and PxpC.
+CC       {ECO:0000255|HAMAP-Rule:MF_00691}.
+CC   -!- SIMILARITY: Belongs to the LamB/PxpA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00691}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD05176.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO69773.1; -; Genomic_DNA.
+DR   RefSeq; NP_455273.1; NC_003198.1.
+DR   RefSeq; WP_001017910.1; NZ_WSUR01000015.1.
+DR   SMR; Q8Z8D9; -.
+DR   STRING; 220341.16501948; -.
+DR   EnsemblBacteria; AAO69773; AAO69773; t2162.
+DR   KEGG; stt:t2162; -.
+DR   KEGG; sty:STY0754; -.
+DR   PATRIC; fig|220341.7.peg.762; -.
+DR   eggNOG; COG1540; Bacteria.
+DR   HOGENOM; CLU_069535_0_0_6; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0017168; F:5-oxoprolinase (ATP-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   HAMAP; MF_00691; PxpA; 1.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR005501; LamB/YcsF/PxpA-like.
+DR   PANTHER; PTHR30292; PTHR30292; 1.
+DR   Pfam; PF03746; LamB_YcsF; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Hydrolase; Nucleotide-binding.
+FT   CHAIN           1..244
+FT                   /note="5-oxoprolinase subunit A"
+FT                   /id="PRO_0000185039"
+SQ   SEQUENCE   244 AA;  26077 MW;  5084CE42D795D2EB CRC64;
+     MNIDLNADLG EGCASDSELL TLVSSANIAC GFHAGDAQTM LTCVREALKN GVAIGAHPSF
+     PDRDNFGRTA MVLPPETVYA QTLYQIGALG AIVQAQGGVM RHVKPHGMLY NQAAKDPHLA
+     QAIAKAVHDY DPSLILVGLA GSELIRAGER HRLVTRQEVF ADRGYQADGS LVPRMQPGAL
+     IHDEEQALAQ TLDMVQAGRV KSVTGVWTTV TAQTVCIHGD GEYALAFARR LRAAFNARNV
+     HVIA
+//

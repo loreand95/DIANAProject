@@ -1,0 +1,121 @@
+ID   AROE_NITMU              Reviewed;         275 AA.
+AC   Q2YBM5;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAR-2008, sequence version 2.
+DT   07-APR-2021, entry version 101.
+DE   RecName: Full=Shikimate dehydrogenase (NADP(+)) {ECO:0000255|HAMAP-Rule:MF_00222};
+DE            Short=SDH {ECO:0000255|HAMAP-Rule:MF_00222};
+DE            EC=1.1.1.25 {ECO:0000255|HAMAP-Rule:MF_00222};
+GN   Name=aroE {ECO:0000255|HAMAP-Rule:MF_00222}; OrderedLocusNames=Nmul_A0538;
+OS   Nitrosospira multiformis (strain ATCC 25196 / NCIMB 11849 / C 71).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosospira.
+OX   NCBI_TaxID=323848;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25196 / NCIMB 11849 / C 71;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Chain P., Malfatti S., Shin M.,
+RA   Vergez L., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Nitrosospira multiformis ATCC
+RT   25196.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the biosynthesis of the chorismate, which leads
+CC       to the biosynthesis of aromatic amino acids. Catalyzes the reversible
+CC       NADPH linked reduction of 3-dehydroshikimate (DHSA) to yield shikimate
+CC       (SA). {ECO:0000255|HAMAP-Rule:MF_00222}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + shikimate = 3-dehydroshikimate + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:17737, ChEBI:CHEBI:15378, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:36208, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.25;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00222};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       4/7. {ECO:0000255|HAMAP-Rule:MF_00222}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00222}.
+CC   -!- SIMILARITY: Belongs to the shikimate dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00222}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABB73846.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000103; ABB73846.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_041352350.1; NZ_FNVK01000001.1.
+DR   SMR; Q2YBM5; -.
+DR   STRING; 323848.Nmul_A0538; -.
+DR   EnsemblBacteria; ABB73846; ABB73846; Nmul_A0538.
+DR   GeneID; 41369357; -.
+DR   KEGG; nmu:Nmul_A0538; -.
+DR   eggNOG; COG0169; Bacteria.
+DR   HOGENOM; CLU_044063_2_1_4; -.
+DR   OrthoDB; 1054867at2; -.
+DR   BioCyc; NMUL323848:G1GTI-565-MONOMER; -.
+DR   UniPathway; UPA00053; UER00087.
+DR   Proteomes; UP000002718; Chromosome.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0004764; F:shikimate 3-dehydrogenase (NADP+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019632; P:shikimate metabolic process; IEA:InterPro.
+DR   HAMAP; MF_00222; Shikimate_DH_AroE; 1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR041121; SDH_C.
+DR   InterPro; IPR011342; Shikimate_DH.
+DR   InterPro; IPR013708; Shikimate_DH-bd_N.
+DR   InterPro; IPR022893; Shikimate_DH_fam.
+DR   InterPro; IPR006151; Shikm_DH/Glu-tRNA_Rdtase.
+DR   Pfam; PF18317; SDH_C; 1.
+DR   Pfam; PF01488; Shikimate_DH; 1.
+DR   Pfam; PF08501; Shikimate_dh_N; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00507; aroE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; NADP;
+KW   Oxidoreductase; Reference proteome.
+FT   CHAIN           1..275
+FT                   /note="Shikimate dehydrogenase (NADP(+))"
+FT                   /id="PRO_0000325140"
+FT   NP_BIND         127..131
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   NP_BIND         151..156
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   REGION          15..17
+FT                   /note="Shikimate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   ACT_SITE        66
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         62
+FT                   /note="Shikimate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         78
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         87
+FT                   /note="Shikimate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         102
+FT                   /note="Shikimate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         215
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         217
+FT                   /note="Shikimate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+FT   BINDING         239
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00222"
+SQ   SEQUENCE   275 AA;  28997 MW;  52098A1B2919E7CF CRC64;
+     MSDLYAVIGN PVAHSKSPLI HAGFARQSGQ DVRYEAILAP LDGFVETVAA FRQRGGKGAN
+     VTVPFKLEAH TLSSCLTERA KAAGAVNTLV FGADDILGDN TDGAGLVRDV AVNLGYALDD
+     RRVLLMGAGG AARGVIRPLL EHEPAALVIA NRTPQKADDL QRLFASSGNV LSAAYEDLRG
+     QEFDLVINAT SASLQGDLPP LPKGIFAGAS LAYDMMYGKG LTSFLQFAQQ QGAARLADGI
+     GMLVEQAAES FFLWRGIRPE TEPVIGMLRS SLGSP
+//

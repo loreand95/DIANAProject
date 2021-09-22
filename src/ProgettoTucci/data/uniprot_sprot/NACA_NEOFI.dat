@@ -1,0 +1,95 @@
+ID   NACA_NEOFI              Reviewed;         204 AA.
+AC   A1DLM0;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   10-FEB-2021, entry version 77.
+DE   RecName: Full=Nascent polypeptide-associated complex subunit alpha;
+DE            Short=NAC-alpha;
+DE   AltName: Full=Alpha-NAC;
+GN   Name=egd2; ORFNames=NFIA_050340;
+OS   Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164
+OS   / JCM 1740 / NRRL 181 / WB 181) (Aspergillus fischerianus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Fumigati.
+OX   NCBI_TaxID=331117;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181
+RC   / WB 181;
+RX   PubMed=18404212; DOI=10.1371/journal.pgen.1000046;
+RA   Fedorova N.D., Khaldi N., Joardar V.S., Maiti R., Amedeo P., Anderson M.J.,
+RA   Crabtree J., Silva J.C., Badger J.H., Albarraq A., Angiuoli S., Bussey H.,
+RA   Bowyer P., Cotty P.J., Dyer P.S., Egan A., Galens K., Fraser-Liggett C.M.,
+RA   Haas B.J., Inman J.M., Kent R., Lemieux S., Malavazi I., Orvis J.,
+RA   Roemer T., Ronning C.M., Sundaram J.P., Sutton G., Turner G., Venter J.C.,
+RA   White O.R., Whitty B.R., Youngman P., Wolfe K.H., Goldman G.H.,
+RA   Wortman J.R., Jiang B., Denning D.W., Nierman W.C.;
+RT   "Genomic islands in the pathogenic filamentous fungus Aspergillus
+RT   fumigatus.";
+RL   PLoS Genet. 4:E1000046-E1000046(2008).
+CC   -!- FUNCTION: Component of the nascent polypeptide-associated complex
+CC       (NAC), a dynamic component of the ribosomal exit tunnel, protecting the
+CC       emerging polypeptides from interaction with other cytoplasmic proteins
+CC       to ensure appropriate nascent protein targeting. The NAC complex also
+CC       promotes mitochondrial protein import by enhancing productive ribosome
+CC       interactions with the outer mitochondrial membrane and blocks the
+CC       inappropriate interaction of ribosomes translating non-secretory
+CC       nascent polypeptides with translocation sites in the membrane of the
+CC       endoplasmic reticulum. Egd2 may also be involved in transcription
+CC       regulation (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Part of the nascent polypeptide-associated complex (NAC),
+CC       consisting of egd2 and egd1. NAC associates with ribosomes via egd1 (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}. Nucleus {ECO:0000250}.
+CC       Note=Predominantly cytoplasmic, may also transiently localize to the
+CC       nucleus. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NAC-alpha family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS027698; EAW15691.1; -; Genomic_DNA.
+DR   RefSeq; XP_001257588.1; XM_001257587.1.
+DR   SMR; A1DLM0; -.
+DR   STRING; 36630.CADNFIAP00004818; -.
+DR   EnsemblFungi; EAW15691; EAW15691; NFIA_050340.
+DR   GeneID; 4584103; -.
+DR   KEGG; nfi:NFIA_050340; -.
+DR   VEuPathDB; FungiDB:NFIA_050340; -.
+DR   eggNOG; KOG2239; Eukaryota.
+DR   HOGENOM; CLU_057806_2_0_1; -.
+DR   OMA; LVMCQAN; -.
+DR   OrthoDB; 1331328at2759; -.
+DR   Proteomes; UP000006702; Unassembled WGS sequence.
+DR   GO; GO:0005854; C:nascent polypeptide-associated complex; IEA:InterPro.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   Gene3D; 2.20.70.30; -; 1.
+DR   InterPro; IPR016641; EGD2/NACA.
+DR   InterPro; IPR044034; NAC-like_UBA.
+DR   InterPro; IPR038187; NAC_A/B_dom_sf.
+DR   InterPro; IPR002715; Nas_poly-pep-assoc_cplx_dom.
+DR   PANTHER; PTHR21713; PTHR21713; 1.
+DR   Pfam; PF19026; HYPK_UBA; 1.
+DR   Pfam; PF01849; NAC; 1.
+DR   PIRSF; PIRSF015901; NAC_alpha; 1.
+DR   SMART; SM01407; NAC; 1.
+DR   PROSITE; PS51151; NAC_AB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Nucleus; Protein transport; Reference proteome; Transport.
+FT   CHAIN           1..204
+FT                   /note="Nascent polypeptide-associated complex subunit
+FT                   alpha"
+FT                   /id="PRO_0000282682"
+FT   DOMAIN          46..111
+FT                   /note="NAC-A/B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00507"
+FT   DOMAIN          165..204
+FT                   /note="UBA"
+SQ   SEQUENCE   204 AA;  21972 MW;  D79A4D8EE4764EFA CRC64;
+     MADPRVEELP DEEVPKANVE DAGSDSESEA GEESSIPAGA AVTIHSRNEK KARKAIGKLG
+     LKHVPGITRV TLRRPKNILF VINQPDVYRS PSSNTWIIFG EAKIEDLNSQ AQASAAQQLA
+     AAEAAAGEHA GHDHDHDHGK GKAPETEAKK EEEEDDGEEV DETGLEAKDI ELVMAQANVS
+     RKKAVKALRE NDNDIVNSIM ALSI
+//

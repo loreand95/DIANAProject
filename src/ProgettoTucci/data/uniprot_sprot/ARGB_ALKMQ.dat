@@ -1,0 +1,105 @@
+ID   ARGB_ALKMQ              Reviewed;         316 AA.
+AC   A6TTJ1;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Acetylglutamate kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            EC=2.7.2.8 {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=N-acetyl-L-glutamate 5-phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=NAG kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            Short=NAGK {ECO:0000255|HAMAP-Rule:MF_00082};
+GN   Name=argB {ECO:0000255|HAMAP-Rule:MF_00082}; OrderedLocusNames=Amet_3381;
+OS   Alkaliphilus metalliredigens (strain QYMF).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Alkaliphilus.
+OX   NCBI_TaxID=293826;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=QYMF;
+RX   PubMed=27811105; DOI=10.1128/genomea.01226-16;
+RA   Hwang C., Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina Del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Schmutz J., Larimer F.,
+RA   Land M.L., Hauser L., Kyrpides N., Mikhailova N., Ye Q., Zhou J.,
+RA   Richardson P., Fields M.W.;
+RT   "Complete genome sequence of Alkaliphilus metalliredigens strain QYMF, an
+RT   alkaliphilic and metal-reducing bacterium isolated from borax-contaminated
+RT   leachate ponds.";
+RL   Genome Announc. 4:0-0(2016).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent phosphorylation of N-acetyl-L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamyl 5-
+CC         phosphate; Xref=Rhea:RHEA:14629, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57936, ChEBI:CHEBI:456216; EC=2.7.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00082};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00082}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- SIMILARITY: Belongs to the acetylglutamate kinase family. ArgB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000724; ABR49509.1; -; Genomic_DNA.
+DR   RefSeq; WP_012064472.1; NC_009633.1.
+DR   SMR; A6TTJ1; -.
+DR   STRING; 293826.Amet_3381; -.
+DR   EnsemblBacteria; ABR49509; ABR49509; Amet_3381.
+DR   KEGG; amt:Amet_3381; -.
+DR   eggNOG; COG0548; Bacteria.
+DR   HOGENOM; CLU_053680_0_0_9; -.
+DR   OMA; GRVQHSI; -.
+DR   OrthoDB; 901370at2; -.
+DR   BioCyc; AMET293826:G1G94-3384-MONOMER; -.
+DR   UniPathway; UPA00068; UER00107.
+DR   Proteomes; UP000001572; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003991; F:acetylglutamate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:UniProtKB-UniRule.
+DR   CDD; cd04250; AAK_NAGK-C; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_00082; ArgB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR004662; AcgluKinase_fam.
+DR   InterPro; IPR037528; ArgB.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR001057; Glu/AcGlu_kinase.
+DR   InterPro; IPR041727; NAGK-C.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF000728; NAGK; 1.
+DR   PRINTS; PR00474; GLU5KINASE.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR00761; argB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding; Cytoplasm;
+KW   Kinase; Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..316
+FT                   /note="Acetylglutamate kinase"
+FT                   /id="PRO_1000057536"
+FT   REGION          65..66
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         87
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         179
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            30
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            242
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+SQ   SEQUENCE   316 AA;  34334 MW;  273F726C4371E2CC CRC64;
+     MNLSPNQKAD VLIESLPYIK KFYNEIVVIK YGGSAMVNDE LKESIIKDIV LMKYVGMHPV
+     VVHGGGPEIT NMLKVFDKES KFVDGLRVTD QATMEITEMV LLGKVCQEIV TRINQNGVRS
+     IGICGKDGSM IKTVPKDPEL GLVGGITSID TDLIKTIIEK GYIPVISPIG CGPAGESHNI
+     NADEVAGKLA AALGAKKLML ITDVAGVLRD QHDEASLISD IKTNEIEEYI ETGVIKGGMI
+     PKISCCFDAV ANGVERAHII DGRKSHSMLL EIFTDQGVGT MITHGGDQNG NSKNNKQWKS
+     IFNEHLWENA YSLPGR
+//

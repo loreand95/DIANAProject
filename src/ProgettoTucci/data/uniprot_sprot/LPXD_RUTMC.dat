@@ -1,0 +1,84 @@
+ID   LPXD_RUTMC              Reviewed;         332 AA.
+AC   A1AWJ9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD {ECO:0000255|HAMAP-Rule:MF_00523}; OrderedLocusNames=Rmag_0554;
+OS   Ruthia magnifica subsp. Calyptogena magnifica.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; sulfur-oxidizing symbionts;
+OC   Candidatus Ruthia.
+OX   NCBI_TaxID=413404;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17303757; DOI=10.1126/science.1138438;
+RA   Newton I.L.G., Woyke T., Auchtung T.A., Dilly G.F., Dutton R.J.,
+RA   Fisher M.C., Fontanez K.M., Lau E., Stewart F.J., Richardson P.M.,
+RA   Barry K.W., Saunders E., Detter J.C., Wu D., Eisen J.A., Cavanaugh C.M.;
+RT   "The Calyptogena magnifica chemoautotrophic symbiont genome.";
+RL   Science 315:998-1000(2007).
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine using 3-
+CC       hydroxyacyl-ACP as the acyl donor. Is involved in the biosynthesis of
+CC       lipid A, a phosphorylated glycolipid that anchors the
+CC       lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3R)-hydroxyacyl-[ACP] + a UDP-3-O-acyl-alpha-D-glucosamine
+CC         = a UDP-2-N,3-O-bis((3R)-3-hydroxyacyl)-alpha-D-glucosamine + H(+) +
+CC         holo-[ACP]; Xref=Rhea:RHEA:53836, Rhea:RHEA-COMP:9685, Rhea:RHEA-
+CC         COMP:9945, ChEBI:CHEBI:15378, ChEBI:CHEBI:64479, ChEBI:CHEBI:78827,
+CC         ChEBI:CHEBI:137740, ChEBI:CHEBI:137748; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00523};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family. LpxD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000488; ABL02306.1; -; Genomic_DNA.
+DR   RefSeq; WP_011737931.1; NC_008610.1.
+DR   SMR; A1AWJ9; -.
+DR   STRING; 413404.Rmag_0554; -.
+DR   EnsemblBacteria; ABL02306; ABL02306; Rmag_0554.
+DR   KEGG; rma:Rmag_0554; -.
+DR   eggNOG; COG1044; Bacteria.
+DR   HOGENOM; CLU_049865_0_1_6; -.
+DR   OMA; QIQIAHN; -.
+DR   OrthoDB; 1602061at2; -.
+DR   BioCyc; CRUT413404:G1G7M-566-MONOMER; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000002587; Chromosome.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:InterPro.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd03352; LbH_LpxD; 1.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR007691; LpxD.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   PANTHER; PTHR43378; PTHR43378; 1.
+DR   Pfam; PF00132; Hexapep; 3.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Reference proteome; Repeat; Transferase.
+FT   CHAIN           1..332
+FT                   /note="UDP-3-O-acylglucosamine N-acyltransferase"
+FT                   /id="PRO_1000050960"
+FT   ACT_SITE        231
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00523"
+SQ   SEQUENCE   332 AA;  35555 MW;  65A3A43B2D99F69E CRC64;
+     MYTLGEIAKT INAKLVGDAN IEITGIATSL SANQTQLTYI NGNKYKQMLI NSKAGVVILN
+     NNLLKNCPTN ALVVDNVYLA FAKATHLFKK QTVHCQGTHS SAKINYAKIA PNCIIGKNVV
+     IGNHCTIAPN VVIEDDVIIG NYTLIQPNVS ILQGCSIGNN VVISPGVVIG SEGFGNAQDQ
+     QKHWYSIAHL GYVIIGSNVS IGANTTIDRG TIEDTQIHNG VQIDNLVHIA HNVIIGQDSA
+     IAATVTIGGS CTIGKRCMIG GGATIASHIS LVDDIIVTGA STVDKNLSEQ GHYTGFTSIN
+     KHQKWKKIQV WLLNLDKIAH YLNIKLKELK GK
+//

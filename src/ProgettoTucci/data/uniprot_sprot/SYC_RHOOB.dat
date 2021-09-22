@@ -1,0 +1,106 @@
+ID   SYC_RHOOB               Reviewed;         464 AA.
+AC   C1BAC4;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Cysteine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            EC=6.1.1.16 {ECO:0000255|HAMAP-Rule:MF_00041};
+DE   AltName: Full=Cysteinyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            Short=CysRS {ECO:0000255|HAMAP-Rule:MF_00041};
+GN   Name=cysS {ECO:0000255|HAMAP-Rule:MF_00041}; OrderedLocusNames=ROP_43800;
+OS   Rhodococcus opacus (strain B4).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae; Rhodococcus.
+OX   NCBI_TaxID=632772;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B4;
+RA   Takarada H., Sekine M., Hosoyama A., Yamada R., Fujisawa T., Omata S.,
+RA   Shimizu A., Tsukatani N., Tanikawa S., Fujita N., Harayama S.;
+RT   "Comparison of the complete genome sequences of Rhodococcus erythropolis
+RT   PR4 and Rhodococcus opacus B4.";
+RL   Submitted (MAR-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-
+CC         cysteinyl-tRNA(Cys); Xref=Rhea:RHEA:17773, Rhea:RHEA-COMP:9661,
+CC         Rhea:RHEA-COMP:9679, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:78442, ChEBI:CHEBI:78517,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00041};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00041};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00041};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP011115; BAH52627.1; -; Genomic_DNA.
+DR   RefSeq; WP_012691552.1; NC_012522.1.
+DR   SMR; C1BAC4; -.
+DR   EnsemblBacteria; BAH52627; BAH52627; ROP_43800.
+DR   KEGG; rop:ROP_43800; -.
+DR   PATRIC; fig|632772.20.peg.4587; -.
+DR   HOGENOM; CLU_013528_0_1_11; -.
+DR   OMA; AKYWMHN; -.
+DR   OrthoDB; 952207at2; -.
+DR   Proteomes; UP000002212; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004817; F:cysteine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006423; P:cysteinyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00672; CysRS_core; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00041; Cys_tRNA_synth; 1.
+DR   InterPro; IPR015803; Cys-tRNA-ligase.
+DR   InterPro; IPR015273; Cys-tRNA-synt_Ia_DALR.
+DR   InterPro; IPR024909; Cys-tRNA/MSH_ligase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR032678; tRNA-synt_1_cat_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   PANTHER; PTHR10890; PTHR10890; 1.
+DR   Pfam; PF09190; DALR_2; 1.
+DR   Pfam; PF01406; tRNA-synt_1e; 1.
+DR   PRINTS; PR00983; TRNASYNTHCYS.
+DR   SMART; SM00840; DALR_2; 1.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   TIGRFAMs; TIGR00435; cysS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..464
+FT                   /note="Cysteine--tRNA ligase"
+FT                   /id="PRO_1000199085"
+FT   MOTIF           31..41
+FT                   /note="'HIGH' region"
+FT   MOTIF           263..267
+FT                   /note="'KMSKS' region"
+FT   METAL           29
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           207
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           232
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           236
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   BINDING         266
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+SQ   SEQUENCE   464 AA;  51569 MW;  D6E7555304645297 CRC64;
+     MTLRLFDTET RALRDFAPLA PGHASVYLCG ATVQGDPHIG HVRSGVAFDV LRRWLLAHDY
+     DVAFVRNVTD IEDKILNKAA EAGRPWWEWA ATFERSFTWA YQQLGVLPPS VEPRATGHIT
+     QMVEMMQRLI DNGHAYAAGG DVYFDVRSYP RYGSLSGHKL DDVHQGESAG ECKRDPRDFT
+     LWKAEKPGEP SWPTPWGRGR PGWHLECSAM AEFYLGAAFD IHCGGLDLVF PHHENEIAQA
+     KCAGDDFAQY WLHNGWVTMG GEKMSKSLGN VLSVPNVLKK VRPQELRYYL GSAHYRSMLE
+     YSDTALDEGA AAYRRIESFV MRTQERAGEV TIGRWTDAFA RALDDDLAVP AALAEVHGKV
+     REGNIALDGG DLEGARAIAS QVRAMLGILG VDPLDEHWTQ ETADASAATD ALDVLVRAEL
+     ERRQTARAEK NWAVADEVRD RLIRAGIEVT DTPNGPEWSL KAGQ
+//

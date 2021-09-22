@@ -1,0 +1,83 @@
+ID   RNPA_CHLTE              Reviewed;         154 AA.
+AC   Q8KGG4;
+DT   28-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=Ribonuclease P protein component {ECO:0000255|HAMAP-Rule:MF_00227};
+DE            Short=RNase P protein {ECO:0000255|HAMAP-Rule:MF_00227};
+DE            Short=RNaseP protein {ECO:0000255|HAMAP-Rule:MF_00227};
+DE            EC=3.1.26.5 {ECO:0000255|HAMAP-Rule:MF_00227};
+DE   AltName: Full=Protein C5 {ECO:0000255|HAMAP-Rule:MF_00227};
+GN   Name=rnpA {ECO:0000255|HAMAP-Rule:MF_00227}; OrderedLocusNames=CT0004;
+OS   Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)
+OS   (Chlorobium tepidum).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum.
+OX   NCBI_TaxID=194439;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49652 / DSM 12025 / NBRC 103806 / TLS;
+RX   PubMed=12093901; DOI=10.1073/pnas.132181499;
+RA   Eisen J.A., Nelson K.E., Paulsen I.T., Heidelberg J.F., Wu M., Dodson R.J.,
+RA   DeBoy R.T., Gwinn M.L., Nelson W.C., Haft D.H., Hickey E.K., Peterson J.D.,
+RA   Durkin A.S., Kolonay J.F., Yang F., Holt I.E., Umayam L.A., Mason T.M.,
+RA   Brenner M., Shea T.P., Parksey D.S., Nierman W.C., Feldblyum T.V.,
+RA   Hansen C.L., Craven M.B., Radune D., Vamathevan J.J., Khouri H.M.,
+RA   White O., Gruber T.M., Ketchum K.A., Venter J.C., Tettelin H., Bryant D.A.,
+RA   Fraser C.M.;
+RT   "The complete genome sequence of Chlorobium tepidum TLS, a photosynthetic,
+RT   anaerobic, green-sulfur bacterium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:9509-9514(2002).
+CC   -!- FUNCTION: RNaseP catalyzes the removal of the 5'-leader sequence from
+CC       pre-tRNA to produce the mature 5'-terminus. It can also cleave other
+CC       RNA substrates such as 4.5S RNA. The protein component plays an
+CC       auxiliary but essential role in vivo by binding to the 5'-leader
+CC       sequence and broadening the substrate specificity of the ribozyme.
+CC       {ECO:0000255|HAMAP-Rule:MF_00227}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage of RNA, removing 5'-extranucleotides
+CC         from tRNA precursor.; EC=3.1.26.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00227};
+CC   -!- SUBUNIT: Consists of a catalytic RNA component (M1 or rnpB) and a
+CC       protein subunit. {ECO:0000255|HAMAP-Rule:MF_00227}.
+CC   -!- SIMILARITY: Belongs to the RnpA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00227}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006470; AAM71252.1; -; Genomic_DNA.
+DR   RefSeq; NP_660910.1; NC_002932.3.
+DR   RefSeq; WP_010931698.1; NC_002932.3.
+DR   STRING; 194439.CT0004; -.
+DR   EnsemblBacteria; AAM71252; AAM71252; CT0004.
+DR   KEGG; cte:CT0004; -.
+DR   PATRIC; fig|194439.7.peg.4; -.
+DR   eggNOG; COG0594; Bacteria.
+DR   HOGENOM; CLU_117179_1_1_10; -.
+DR   OMA; MREAYRH; -.
+DR   OrthoDB; 2014742at2; -.
+DR   BioCyc; CTEP194439:G1FZE-4-MONOMER; -.
+DR   Proteomes; UP000001007; Chromosome.
+DR   GO; GO:0004526; F:ribonuclease P activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0001682; P:tRNA 5'-leader removal; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   HAMAP; MF_00227; RNase_P; 1.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR000100; RNase_P.
+DR   InterPro; IPR020539; RNase_P_CS.
+DR   Pfam; PF00825; Ribonuclease_P; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   PROSITE; PS00648; RIBONUCLEASE_P; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease; Hydrolase; Nuclease; Reference proteome; RNA-binding;
+KW   tRNA processing.
+FT   CHAIN           1..154
+FT                   /note="Ribonuclease P protein component"
+FT                   /id="PRO_0000198447"
+SQ   SEQUENCE   154 AA;  17584 MW;  F6D5112EA43686DD CRC64;
+     MYPGMLSEKR TNALPRGEIA RGKSAVSRLF SQGGRLKGGF LLLIYSASRP VEQAPRIPVR
+     VLFTVGKKLV PRAVDRNRIK RLMREAYRLE KNILTRALAF DAGKGDHQVM LAFLYRARAD
+     AIPSLERFRA EIRHMLKNLL SNRLPQTREG DRIE
+//

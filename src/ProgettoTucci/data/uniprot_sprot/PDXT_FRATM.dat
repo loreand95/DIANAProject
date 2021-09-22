@@ -1,0 +1,104 @@
+ID   PDXT_FRATM              Reviewed;         179 AA.
+AC   B2SDL4;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   07-APR-2021, entry version 63.
+DE   RecName: Full=Pyridoxal 5'-phosphate synthase subunit PdxT {ECO:0000255|HAMAP-Rule:MF_01615};
+DE            EC=4.3.3.6 {ECO:0000255|HAMAP-Rule:MF_01615};
+DE   AltName: Full=Pdx2 {ECO:0000255|HAMAP-Rule:MF_01615};
+DE   AltName: Full=Pyridoxal 5'-phosphate synthase glutaminase subunit {ECO:0000255|HAMAP-Rule:MF_01615};
+DE            EC=3.5.1.2 {ECO:0000255|HAMAP-Rule:MF_01615};
+GN   Name=pdxT {ECO:0000255|HAMAP-Rule:MF_01615}; OrderedLocusNames=FTM_1392;
+OS   Francisella tularensis subsp. mediasiatica (strain FSC147).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=441952;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=FSC147;
+RX   PubMed=19521508; DOI=10.1371/journal.ppat.1000472;
+RA   Larsson P., Elfsmark D., Svensson K., Wikstroem P., Forsman M., Brettin T.,
+RA   Keim P., Johansson A.;
+RT   "Molecular evolutionary consequences of niche restriction in Francisella
+RT   tularensis, a facultative intracellular pathogen.";
+RL   PLoS Pathog. 5:E1000472-E1000472(2009).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of glutamine to glutamate and
+CC       ammonia as part of the biosynthesis of pyridoxal 5'-phosphate. The
+CC       resulting ammonia molecule is channeled to the active site of PdxS.
+CC       {ECO:0000255|HAMAP-Rule:MF_01615}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-ribose 5-phosphate + D-glyceraldehyde 3-phosphate +
+CC         L-glutamine = H(+) + 3 H2O + L-glutamate + phosphate + pyridoxal 5'-
+CC         phosphate; Xref=Rhea:RHEA:31507, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58273, ChEBI:CHEBI:58359, ChEBI:CHEBI:59776,
+CC         ChEBI:CHEBI:597326; EC=4.3.3.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01615};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-glutamine = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01615};
+CC   -!- PATHWAY: Cofactor biosynthesis; pyridoxal 5'-phosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01615}.
+CC   -!- SUBUNIT: In the presence of PdxS, forms a dodecamer of heterodimers.
+CC       Only shows activity in the heterodimer. {ECO:0000255|HAMAP-
+CC       Rule:MF_01615}.
+CC   -!- SIMILARITY: Belongs to the glutaminase PdxT/SNO family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01615}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000915; ACD31228.1; -; Genomic_DNA.
+DR   SMR; B2SDL4; -.
+DR   MEROPS; C26.A32; -.
+DR   KEGG; ftm:FTM_1392; -.
+DR   HOGENOM; CLU_069674_2_0_6; -.
+DR   OMA; PVYGTCA; -.
+DR   UniPathway; UPA00245; -.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036381; F:pyridoxal 5'-phosphate synthase (glutamine hydrolysing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006543; P:glutamine catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042823; P:pyridoxal phosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01749; GATase1_PB; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_01615; PdxT; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR002161; PdxT/SNO.
+DR   InterPro; IPR021196; PdxT/SNO_CS.
+DR   PANTHER; PTHR31559; PTHR31559; 1.
+DR   Pfam; PF01174; SNO; 1.
+DR   PIRSF; PIRSF005639; Glut_amidoT_SNO; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR03800; PLP_synth_Pdx2; 1.
+DR   PROSITE; PS01236; PDXT_SNO_1; 1.
+DR   PROSITE; PS51130; PDXT_SNO_2; 1.
+PE   3: Inferred from homology;
+KW   Glutamine amidotransferase; Hydrolase; Lyase; Pyridoxal phosphate.
+FT   CHAIN           1..179
+FT                   /note="Pyridoxal 5'-phosphate synthase subunit PdxT"
+FT                   /id="PRO_1000185889"
+FT   REGION          48..50
+FT                   /note="L-glutamine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+FT   REGION          127..128
+FT                   /note="L-glutamine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+FT   ACT_SITE        79
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+FT   ACT_SITE        163
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+FT   ACT_SITE        165
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+FT   BINDING         101
+FT                   /note="L-glutamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01615"
+SQ   SEQUENCE   179 AA;  19975 MW;  B94111BE55E20EA8 CRC64;
+     MTQKVGVLAI QGGYQKHADM FKSLGVEVKL VKFNNDFDSI DRLVIPGGES TTLLNLLNKH
+     QIFDKLYNFC SSKPVFGTCA GSIILSKGEG YLNLLDLEVQ RNAYGRQVDS FVADISFNDK
+     NITGVFIRAP KFIVVGNQVD ILSKYQNSPV LLRQANILVS SFHPELTQDP TIHEYFLAM
+//

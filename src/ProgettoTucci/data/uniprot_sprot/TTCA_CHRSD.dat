@@ -1,0 +1,108 @@
+ID   TTCA_CHRSD              Reviewed;         284 AA.
+AC   Q1QZ76;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=tRNA-cytidine(32) 2-sulfurtransferase {ECO:0000255|HAMAP-Rule:MF_01850};
+DE            EC=2.8.1.- {ECO:0000255|HAMAP-Rule:MF_01850};
+DE   AltName: Full=Two-thiocytidine biosynthesis protein A {ECO:0000255|HAMAP-Rule:MF_01850};
+DE   AltName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA {ECO:0000255|HAMAP-Rule:MF_01850};
+GN   Name=ttcA {ECO:0000255|HAMAP-Rule:MF_01850}; OrderedLocusNames=Csal_0875;
+OS   Chromohalobacter salexigens (strain ATCC BAA-138 / DSM 3043 / CIP 106854 /
+OS   NCIMB 13768 / 1H11).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Halomonadaceae; Chromohalobacter.
+OX   NCBI_TaxID=290398;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-138 / DSM 3043 / CIP 106854 / NCIMB 13768 / 1H11;
+RX   PubMed=22675587; DOI=10.4056/sigs.2285059;
+RA   Copeland A., O'Connor K., Lucas S., Lapidus A., Berry K.W., Detter J.C.,
+RA   Del Rio T.G., Hammon N., Dalin E., Tice H., Pitluck S., Bruce D.,
+RA   Goodwin L., Han C., Tapia R., Saunders E., Schmutz J., Brettin T.,
+RA   Larimer F., Land M., Hauser L., Vargas C., Nieto J.J., Kyrpides N.C.,
+RA   Ivanova N., Goker M., Klenk H.P., Csonka L.N., Woyke T.;
+RT   "Complete genome sequence of the halophilic and highly halotolerant
+RT   Chromohalobacter salexigens type strain (1H11(T)).";
+RL   Stand. Genomic Sci. 5:379-388(2011).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent 2-thiolation of cytidine in
+CC       position 32 of tRNA, to form 2-thiocytidine (s(2)C32). The sulfur atoms
+CC       are provided by the cysteine/cysteine desulfurase (IscS) system.
+CC       {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01850};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01850};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is chelated by
+CC       three Cys residues, the fourth Fe has a free coordination site that may
+CC       bind a sulfur atom transferred from the persulfide of IscS.
+CC       {ECO:0000255|HAMAP-Rule:MF_01850};
+CC   -!- PATHWAY: tRNA modification. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- MISCELLANEOUS: The thiolation reaction likely consists of two steps: a
+CC       first activation step by ATP to form an adenylated intermediate of the
+CC       target base of tRNA, and a second nucleophilic substitution step of the
+CC       sulfur (S) atom supplied by the hydrosulfide attached to the Fe-S
+CC       cluster. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SIMILARITY: Belongs to the TtcA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01850}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000285; ABE58232.1; -; Genomic_DNA.
+DR   RefSeq; WP_011506178.1; NC_007963.1.
+DR   SMR; Q1QZ76; -.
+DR   STRING; 290398.Csal_0875; -.
+DR   EnsemblBacteria; ABE58232; ABE58232; Csal_0875.
+DR   KEGG; csa:Csal_0875; -.
+DR   eggNOG; COG0037; Bacteria.
+DR   HOGENOM; CLU_026481_0_0_6; -.
+DR   OMA; PCKACVL; -.
+DR   OrthoDB; 1051352at2; -.
+DR   BioCyc; CSAL290398:G1GJB-901-MONOMER; -.
+DR   Proteomes; UP000000239; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034227; P:tRNA thio-modification; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01850; TtcA; 1.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012089; tRNA_Cyd_32_2_STrfase.
+DR   InterPro; IPR035107; tRNA_thiolation_TtcA_Ctu1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   PIRSF; PIRSF004976; ATPase_YdaO; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; ATP-binding; Cytoplasm; Iron; Iron-sulfur; Magnesium;
+KW   Metal-binding; Nucleotide-binding; RNA-binding; Transferase;
+KW   tRNA processing; tRNA-binding.
+FT   CHAIN           1..284
+FT                   /note="tRNA-cytidine(32) 2-sulfurtransferase"
+FT                   /id="PRO_0000348700"
+FT   MOTIF           44..49
+FT                   /note="PP-loop motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           119
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           122
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           210
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+SQ   SEQUENCE   284 AA;  32436 MW;  44F6DE30858796B8 CRC64;
+     MHELTGKDKL AFNKLQKRLR RQVGNAIVDY GMIRDGDKVM VCLSGGKDSY TMLDILMNLQ
+     RNAPVAFELV AVNLDQKQPG FPEHVLPEYL ERVGVPYHIV ERDTYSVVKE KTPEGKTTCA
+     LCSRLRRGTL YGFAEEIGAN KVALGHHRED MLETLFLNMF FGGSLKSMPP KLLSDDGKHI
+     VIRPLAYCRE ADIAEYAEWR EFPIIPCNLC GSQPNLQRQV VKEMLTEWEE KHPGRLETMF
+     KAITNVAPSQ LADRAMFDFE GLEDKQRDFL ARRIETFDVL AREA
+//

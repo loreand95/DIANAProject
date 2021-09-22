@@ -1,0 +1,124 @@
+ID   CYSN_ECODH              Reviewed;         475 AA.
+AC   B1XCS7;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Sulfate adenylyltransferase subunit 1 {ECO:0000255|HAMAP-Rule:MF_00062};
+DE            EC=2.7.7.4 {ECO:0000255|HAMAP-Rule:MF_00062};
+DE   AltName: Full=ATP-sulfurylase large subunit {ECO:0000255|HAMAP-Rule:MF_00062};
+DE   AltName: Full=Sulfate adenylate transferase {ECO:0000255|HAMAP-Rule:MF_00062};
+DE            Short=SAT {ECO:0000255|HAMAP-Rule:MF_00062};
+GN   Name=cysN {ECO:0000255|HAMAP-Rule:MF_00062};
+GN   OrderedLocusNames=ECDH10B_2919;
+OS   Escherichia coli (strain K12 / DH10B).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=316385;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / DH10B;
+RX   PubMed=18245285; DOI=10.1128/jb.01695-07;
+RA   Durfee T., Nelson R., Baldwin S., Plunkett G. III, Burland V., Mau B.,
+RA   Petrosino J.F., Qin X., Muzny D.M., Ayele M., Gibbs R.A., Csorgo B.,
+RA   Posfai G., Weinstock G.M., Blattner F.R.;
+RT   "The complete genome sequence of Escherichia coli DH10B: insights into the
+RT   biology of a laboratory workhorse.";
+RL   J. Bacteriol. 190:2597-2606(2008).
+CC   -!- FUNCTION: May be the GTPase, regulating ATP sulfurylase activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_00062}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(+) + sulfate = adenosine 5'-phosphosulfate +
+CC         diphosphate; Xref=Rhea:RHEA:18133, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16189, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58243; EC=2.7.7.4; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00062};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; sulfite from
+CC       sulfate: step 1/3. {ECO:0000255|HAMAP-Rule:MF_00062}.
+CC   -!- SUBUNIT: Heterodimer composed of CysD, the smaller subunit, and CysN.
+CC       {ECO:0000255|HAMAP-Rule:MF_00062}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. CysN/NodQ
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00062}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000948; ACB03868.1; -; Genomic_DNA.
+DR   RefSeq; WP_001090361.1; NC_010473.1.
+DR   SMR; B1XCS7; -.
+DR   KEGG; ecd:ECDH10B_2919; -.
+DR   HOGENOM; CLU_007265_5_2_6; -.
+DR   OMA; SRGDMIC; -.
+DR   BioCyc; ECOL316385:ECDH10B_RS14825-MONOMER; -.
+DR   UniPathway; UPA00140; UER00204.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0004781; F:sulfate adenylyltransferase (ATP) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   CDD; cd04166; CysN_ATPS; 1.
+DR   CDD; cd03695; CysN_NodQ_II; 1.
+DR   CDD; cd04095; CysN_NoDQ_III; 1.
+DR   HAMAP; MF_00062; Sulf_adenylyltr_sub1; 1.
+DR   InterPro; IPR041757; CysN_GTP-bd.
+DR   InterPro; IPR044138; CysN_II.
+DR   InterPro; IPR044139; CysN_NoDQ_III.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR011779; SO4_adenylTrfase_lsu.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   InterPro; IPR009001; Transl_elong_EF1A/Init_IF2_C.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF50465; SSF50465; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR02034; CysN; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; GTP-binding; Nucleotide-binding; Nucleotidyltransferase;
+KW   Transferase.
+FT   CHAIN           1..475
+FT                   /note="Sulfate adenylyltransferase subunit 1"
+FT                   /id="PRO_1000092139"
+FT   DOMAIN          25..239
+FT                   /note="tr-type G"
+FT   NP_BIND         34..41
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00062"
+FT   NP_BIND         113..117
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00062"
+FT   NP_BIND         168..171
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00062"
+FT   REGION          34..41
+FT                   /note="G1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          92..96
+FT                   /note="G2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          113..116
+FT                   /note="G3"
+FT                   /evidence="ECO:0000250"
+FT   REGION          168..171
+FT                   /note="G4"
+FT                   /evidence="ECO:0000250"
+FT   REGION          206..208
+FT                   /note="G5"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   475 AA;  52558 MW;  91E983E49732AA15 CRC64;
+     MNTALAQQIA NEGGVEAWMI AQQHKSLLRF LTCGSVDDGK STLIGRLLHD TRQIYEDQLS
+     SLHNDSKRHG TQGEKLDLAL LVDGLQAERE QGITIDVAYR YFSTEKRKFI IADTPGHEQY
+     TRNMATGAST CELAILLIDA RKGVLDQTRR HSFISTLLGI KHLVVAINKM DLVDYSEETF
+     TRIREDYLTF AGQLPGNLDI RFVPLSALEG DNVASQSESM PWYSGPTLLE VLETVEIQRV
+     VDAQPMRFPV QYVNRPNLDF RGYAGTLASG RVEVGQRVKV LPSGVESNVA RIVTFDGDRE
+     EAFAGEAITL VLTDEIDISR GDLLLAADEA LPAVQSASVD VVWMAEQPLS PGQSYDIKIA
+     GKKTRARVDG IRYQVDINNL TQREVENLPL NGIGLVDLTF DEPLVLDRYQ QNPVTGGLIF
+     IDRLSNVTVG AGMVHEPVSQ ATAAPSEFSA FELELNALVR RHFPHWGARD LLGDK
+//

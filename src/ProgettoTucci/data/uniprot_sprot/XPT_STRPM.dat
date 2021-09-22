@@ -1,0 +1,89 @@
+ID   XPT_STRPM               Reviewed;         193 AA.
+AC   Q48TL5;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   10-FEB-2021, entry version 88.
+DE   RecName: Full=Xanthine phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01184};
+DE            Short=XPRTase {ECO:0000255|HAMAP-Rule:MF_01184};
+DE            EC=2.4.2.22 {ECO:0000255|HAMAP-Rule:MF_01184};
+GN   Name=xpt {ECO:0000255|HAMAP-Rule:MF_01184}; OrderedLocusNames=M28_Spy0832;
+OS   Streptococcus pyogenes serotype M28 (strain MGAS6180).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=319701;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MGAS6180;
+RX   PubMed=16088825; DOI=10.1086/430618;
+RA   Green N.M., Zhang S., Porcella S.F., Nagiec M.J., Barbian K.D., Beres S.B.,
+RA   Lefebvre R.B., Musser J.M.;
+RT   "Genome sequence of a serotype M28 strain of group A Streptococcus:
+RT   potential new insights into puerperal sepsis and bacterial disease
+RT   specificity.";
+RL   J. Infect. Dis. 192:760-770(2005).
+CC   -!- FUNCTION: Converts the preformed base xanthine, a product of nucleic
+CC       acid breakdown, to xanthosine 5'-monophosphate (XMP), so it can be
+CC       reused for RNA or DNA synthesis. {ECO:0000255|HAMAP-Rule:MF_01184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + XMP = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         xanthine; Xref=Rhea:RHEA:10800, ChEBI:CHEBI:17712, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:58017; EC=2.4.2.22;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01184};
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via salvage pathway; XMP
+CC       from xanthine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01184}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01184}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01184}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. Xpt subfamily. {ECO:0000255|HAMAP-Rule:MF_01184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000056; AAX71945.1; -; Genomic_DNA.
+DR   RefSeq; WP_002984677.1; NC_007296.2.
+DR   SMR; Q48TL5; -.
+DR   EnsemblBacteria; AAX71945; AAX71945; M28_Spy0832.
+DR   GeneID; 57852624; -.
+DR   KEGG; spb:M28_Spy0832; -.
+DR   HOGENOM; CLU_099015_0_0_9; -.
+DR   OMA; HQVDPVL; -.
+DR   BioCyc; SPYO319701:G1G4H-867-MONOMER; -.
+DR   UniPathway; UPA00602; UER00658.
+DR   Proteomes; UP000009292; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000310; F:xanthine phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006166; P:purine ribonucleoside salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046110; P:xanthine metabolic process; IEA:InterPro.
+DR   GO; GO:0032265; P:XMP salvage; IEA:UniProtKB-UniPathway.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01184; XPRTase; 1.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR010079; Xanthine_PRibTrfase.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   TIGRFAMs; TIGR01744; XPRTase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Glycosyltransferase; Purine salvage; Transferase.
+FT   CHAIN           1..193
+FT                   /note="Xanthine phosphoribosyltransferase"
+FT                   /id="PRO_0000339771"
+FT   REGION          128..132
+FT                   /note="5-phospho-alpha-D-ribose 1-diphosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01184"
+FT   BINDING         20
+FT                   /note="Xanthine; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01184"
+FT   BINDING         27
+FT                   /note="Xanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01184"
+FT   BINDING         156
+FT                   /note="Xanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01184"
+SQ   SEQUENCE   193 AA;  20994 MW;  18EF4E8911544286 CRC64;
+     MQLLEERILT DGNILGENIL KVDNFLTHQV DYRLMKAIGK VFAQKYAEAG ITKVVTIEAS
+     GIAPAVYAAE AMDVPMIFAK KHKNITMTEG ILTAEVYSFT KQVTSTVSIA GKFLSKEDKV
+     LIIDDFLANG QAAKGLIEII GQAGAQVVGV GIVIEKSFQD GRRLIEDMGI EVTSLARIKN
+     FENGNLNFLE ADA
+//

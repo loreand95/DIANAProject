@@ -1,0 +1,120 @@
+ID   PSAC_OLTVI              Reviewed;          81 AA.
+AC   Q20EY7;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2006, sequence version 1.
+DT   07-OCT-2020, entry version 65.
+DE   RecName: Full=Photosystem I iron-sulfur center {ECO:0000255|HAMAP-Rule:MF_01303};
+DE            EC=1.97.1.12 {ECO:0000255|HAMAP-Rule:MF_01303};
+DE   AltName: Full=9 kDa polypeptide {ECO:0000255|HAMAP-Rule:MF_01303};
+DE   AltName: Full=PSI-C {ECO:0000255|HAMAP-Rule:MF_01303};
+DE   AltName: Full=Photosystem I subunit VII {ECO:0000255|HAMAP-Rule:MF_01303};
+DE   AltName: Full=PsaC {ECO:0000255|HAMAP-Rule:MF_01303};
+GN   Name=psaC {ECO:0000255|HAMAP-Rule:MF_01303};
+OS   Oltmannsiellopsis viridis (Marine flagellate) (Oltmannsiella viridis).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Chlorophyta; Ulvophyceae; Oltmannsiellopsidales;
+OC   Oltmannsiellopsidaceae; Oltmannsiellopsis.
+OX   NCBI_TaxID=51324;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16472375; DOI=10.1186/1741-7007-4-3;
+RA   Pombert J.-F., Lemieux C., Turmel M.;
+RT   "The complete chloroplast DNA sequence of the green alga Oltmannsiellopsis
+RT   viridis reveals a distinctive quadripartite architecture in the chloroplast
+RT   genome of early diverging ulvophytes.";
+RL   BMC Biol. 4:3-3(2006).
+CC   -!- FUNCTION: Apoprotein for the two 4Fe-4S centers FA and FB of
+CC       photosystem I (PSI); essential for photochemical activity. FB is the
+CC       terminal electron acceptor of PSI, donating electrons to ferredoxin.
+CC       The C-terminus interacts with PsaA/B/D and helps assemble the protein
+CC       into the PSI complex. Required for binding of PsaD and PsaE to PSI. PSI
+CC       is a plastocyanin/cytochrome c6-ferredoxin oxidoreductase, converting
+CC       photonic excitation into a charge separation, which transfers an
+CC       electron from the donor P700 chlorophyll pair to the spectroscopically
+CC       characterized acceptors A0, A1, FX, FA and FB in turn.
+CC       {ECO:0000255|HAMAP-Rule:MF_01303}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hnu + oxidized [2Fe-2S]-[ferredoxin] + reduced [plastocyanin]
+CC         = oxidized [plastocyanin] + reduced [2Fe-2S]-[ferredoxin];
+CC         Xref=Rhea:RHEA:30407, Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001,
+CC         Rhea:RHEA-COMP:10039, Rhea:RHEA-COMP:10040, ChEBI:CHEBI:29036,
+CC         ChEBI:CHEBI:30212, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:49552; EC=1.97.1.12; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01303};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01303};
+CC       Note=Binds 2 [4Fe-4S] clusters. Cluster 2 is most probably the
+CC       spectroscopically characterized electron acceptor FA and cluster 1 is
+CC       most probably FB. {ECO:0000255|HAMAP-Rule:MF_01303};
+CC   -!- SUBUNIT: The eukaryotic PSI reaction center is composed of at least 11
+CC       subunits. {ECO:0000255|HAMAP-Rule:MF_01303}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01303}; Peripheral membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01303}; Stromal side {ECO:0000255|HAMAP-
+CC       Rule:MF_01303}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ291132; ABB81926.1; -; Genomic_DNA.
+DR   RefSeq; YP_635858.1; NC_008099.1.
+DR   SMR; Q20EY7; -.
+DR   GeneID; 4100096; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009522; C:photosystem I; IEA:UniProtKB-KW.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009773; P:photosynthetic electron transport in photosystem I; IEA:InterPro.
+DR   HAMAP; MF_01303; PSI_PsaC; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR017491; PSI_PsaC.
+DR   TIGRFAMs; TIGR03048; PS_I_psaC; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Chloroplast; Electron transport; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; Oxidoreductase; Photosynthesis; Photosystem I; Plastid;
+KW   Repeat; Thylakoid; Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..81
+FT                   /note="Photosystem I iron-sulfur center"
+FT                   /id="PRO_0000275991"
+FT   DOMAIN          2..31
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   DOMAIN          39..68
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           11
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           14
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           17
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           21
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           48
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           51
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           54
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+FT   METAL           58
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01303"
+SQ   SEQUENCE   81 AA;  8804 MW;  C7070016275317E6 CRC64;
+     MSHSVKIYDT CIGCTQCVRA CPTDVLEMVP WDGCKASQIA SAPRTEDCVG CKRCESACPT
+     DFLSVRVYLG SETTRSMGLA Y
+//

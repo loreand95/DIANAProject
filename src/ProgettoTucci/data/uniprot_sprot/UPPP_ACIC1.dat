@@ -1,0 +1,104 @@
+ID   UPPP_ACIC1              Reviewed;         276 AA.
+AC   A0LSX9;
+DT   12-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Undecaprenyl-diphosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+DE            EC=3.6.1.27 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Bacitracin resistance protein {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Undecaprenyl pyrophosphate phosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+GN   Name=uppP {ECO:0000255|HAMAP-Rule:MF_01006}; OrderedLocusNames=Acel_0766;
+OS   Acidothermus cellulolyticus (strain ATCC 43068 / 11B).
+OC   Bacteria; Actinobacteria; Acidothermales; Acidothermaceae; Acidothermus.
+OX   NCBI_TaxID=351607;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43068 / 11B;
+RX   PubMed=19270083; DOI=10.1101/gr.084848.108;
+RA   Barabote R.D., Xie G., Leu D.H., Normand P., Necsulea A., Daubin V.,
+RA   Medigue C., Adney W.S., Xu X.C., Lapidus A., Parales R.E., Detter C.,
+RA   Pujic P., Bruce D., Lavire C., Challacombe J.F., Brettin T.S., Berry A.M.;
+RT   "Complete genome of the cellulolytic thermophile Acidothermus
+RT   cellulolyticus 11B provides insights into its ecophysiological and
+RT   evolutionary adaptations.";
+RL   Genome Res. 19:1033-1043(2009).
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of undecaprenyl diphosphate
+CC       (UPP). Confers resistance to bacitracin. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-
+CC         trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:28094, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58405, ChEBI:CHEBI:60392; EC=3.6.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01006};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01006};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01006}.
+CC   -!- MISCELLANEOUS: Bacitracin is thought to be involved in the inhibition
+CC       of peptidoglycan synthesis by sequestering undecaprenyl diphosphate,
+CC       thereby reducing the pool of lipid carrier available.
+CC   -!- SIMILARITY: Belongs to the UppP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000481; ABK52539.1; -; Genomic_DNA.
+DR   RefSeq; WP_011719602.1; NC_008578.1.
+DR   STRING; 351607.Acel_0766; -.
+DR   EnsemblBacteria; ABK52539; ABK52539; Acel_0766.
+DR   KEGG; ace:Acel_0766; -.
+DR   eggNOG; COG1968; Bacteria.
+DR   HOGENOM; CLU_060296_1_0_11; -.
+DR   OMA; VFKDRIL; -.
+DR   OrthoDB; 1826154at2; -.
+DR   BioCyc; ACEL351607:G1G7K-782-MONOMER; -.
+DR   Proteomes; UP000008221; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050380; F:undecaprenyl-diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0016311; P:dephosphorylation; IEA:InterPro.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01006; Undec_diphosphatase; 1.
+DR   InterPro; IPR003824; UppP.
+DR   PANTHER; PTHR30622; PTHR30622; 1.
+DR   Pfam; PF02673; BacA; 1.
+DR   TIGRFAMs; TIGR00753; undec_PP_bacA; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Hydrolase; Membrane;
+KW   Peptidoglycan synthesis; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..276
+FT                   /note="Undecaprenyl-diphosphatase"
+FT                   /id="PRO_0000290675"
+FT   TRANSMEM        42..62
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        116..136
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        149..169
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        187..207
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        222..242
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        253..273
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+SQ   SEQUENCE   276 AA;  29501 MW;  20521CCB03EF892C CRC64;
+     MNGVSAVVLG VIEGVTEFLP VSSTAHLTIA EALMGMKTDA PAVTAFTAVI QMGAILAAIV
+     YFRRDIRTVV TAWFRGLVRA DERRSPDALL GWYVIAGTIP IGLAGYLGRN VIKHDLRSLW
+     YVVAGLVLWS IAIVYAERTA AQRRDLRDMR LPDAVFIGVI QVLALVPGVS RSGATISAGL
+     RQGFDRVAAT RFSFLLAIPA LLAAGIFELK DAVGTSGVSM ASLVVGTGMA FLTAYASIAW
+     LLRFVAHHSL TNFVWYRVTV AVFVVAALTT GLVHAV
+//

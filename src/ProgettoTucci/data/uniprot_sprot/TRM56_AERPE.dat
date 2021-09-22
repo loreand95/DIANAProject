@@ -1,0 +1,84 @@
+ID   TRM56_AERPE             Reviewed;         183 AA.
+AC   Q9YAD3;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 2.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=tRNA (cytidine(56)-2'-O)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00077};
+DE            EC=2.1.1.206 {ECO:0000255|HAMAP-Rule:MF_00077};
+DE   AltName: Full=tRNA ribose 2'-O-methyltransferase aTrm56 {ECO:0000255|HAMAP-Rule:MF_00077};
+GN   OrderedLocusNames=APE_2006.1;
+OS   Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 /
+OS   K1).
+OC   Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+OC   Desulfurococcaceae; Aeropyrum.
+OX   NCBI_TaxID=272557;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1;
+RX   PubMed=10382966; DOI=10.1093/dnares/6.2.83;
+RA   Kawarabayasi Y., Hino Y., Horikawa H., Yamazaki S., Haikawa Y., Jin-no K.,
+RA   Takahashi M., Sekine M., Baba S., Ankai A., Kosugi H., Hosoyama A.,
+RA   Fukui S., Nagai Y., Nishijima K., Nakazawa H., Takamiya M., Masuda S.,
+RA   Funahashi T., Tanaka T., Kudoh Y., Yamazaki J., Kushida N., Oguchi A.,
+RA   Aoki K., Kubota K., Nakamura Y., Nomura N., Sako Y., Kikuchi H.;
+RT   "Complete genome sequence of an aerobic hyper-thermophilic crenarchaeon,
+RT   Aeropyrum pernix K1.";
+RL   DNA Res. 6:83-101(1999).
+CC   -!- FUNCTION: Specifically catalyzes the AdoMet-dependent 2'-O-ribose
+CC       methylation of cytidine at position 56 in tRNAs. {ECO:0000255|HAMAP-
+CC       Rule:MF_00077}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(56) in tRNA + S-adenosyl-L-methionine = 2'-O-
+CC         methylcytidine(56) in tRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42968, Rhea:RHEA-COMP:10308, Rhea:RHEA-COMP:10309,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74495, ChEBI:CHEBI:82748; EC=2.1.1.206;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00077};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00077}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00077}.
+CC   -!- SIMILARITY: Belongs to the aTrm56 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00077}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000002; BAA81016.2; -; Genomic_DNA.
+DR   PIR; H72503; H72503.
+DR   SMR; Q9YAD3; -.
+DR   STRING; 272557.APE_2006.1; -.
+DR   EnsemblBacteria; BAA81016; BAA81016; APE_2006.1.
+DR   KEGG; ape:APE_2006.1; -.
+DR   PATRIC; fig|272557.25.peg.1338; -.
+DR   eggNOG; arCOG01857; Archaea.
+DR   BioCyc; APER272557:GJD6-1353-MONOMER; -.
+DR   Proteomes; UP000002518; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008175; F:tRNA methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002128; P:tRNA nucleoside ribose methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00077; tRNA_methyltr_aTrm56; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR002845; tRNA_mtfrase_aTrm56.
+DR   PANTHER; PTHR42197; PTHR42197; 1.
+DR   Pfam; PF01994; Trm56; 1.
+DR   PIRSF; PIRSF016123; UCP016123; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..183
+FT                   /note="tRNA (cytidine(56)-2'-O)-methyltransferase"
+FT                   /id="PRO_0000146925"
+FT   REGION          117..121
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00077"
+FT   BINDING         91
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00077"
+SQ   SEQUENCE   183 AA;  20499 MW;  0A1871DEB24DF50A CRC64;
+     MKPGGPYGDV YVLRLGHRPE RDKRVTTHVA LVARAFGANG FVLEGVCDEG VVESVRRVVA
+     RWGGPFTVEC GVSGRRYVRM WREGGGEVVH LTMYGVNVDD VAPVIAASPR RKLVVVGAEK
+     VERFYYEEAD WNVSVGTQPH SEVAALALFL DRLFRGEWRF IDYSGGFLRV MESQRGKRVE
+     RKG
+//

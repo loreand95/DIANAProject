@@ -1,0 +1,90 @@
+ID   MTNB_BRASB              Reviewed;         216 AA.
+AC   A5EES6;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   10-FEB-2021, entry version 72.
+DE   RecName: Full=Methylthioribulose-1-phosphate dehydratase {ECO:0000255|HAMAP-Rule:MF_01677};
+DE            Short=MTRu-1-P dehydratase {ECO:0000255|HAMAP-Rule:MF_01677};
+DE            EC=4.2.1.109 {ECO:0000255|HAMAP-Rule:MF_01677};
+GN   Name=mtnB {ECO:0000255|HAMAP-Rule:MF_01677}; OrderedLocusNames=BBta_2510;
+OS   Bradyrhizobium sp. (strain BTAi1 / ATCC BAA-1182).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium.
+OX   NCBI_TaxID=288000;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BTAi1 / ATCC BAA-1182;
+RX   PubMed=17540897; DOI=10.1126/science.1139548;
+RA   Giraud E., Moulin L., Vallenet D., Barbe V., Cytryn E., Avarre J.-C.,
+RA   Jaubert M., Simon D., Cartieaux F., Prin Y., Bena G., Hannibal L.,
+RA   Fardoux J., Kojadinovic M., Vuillet L., Lajus A., Cruveiller S., Rouy Z.,
+RA   Mangenot S., Segurens B., Dossat C., Franck W.L., Chang W.-S., Saunders E.,
+RA   Bruce D., Richardson P., Normand P., Dreyfus B., Pignol D., Stacey G.,
+RA   Emerich D., Vermeglio A., Medigue C., Sadowsky M.;
+RT   "Legumes symbioses: absence of nod genes in photosynthetic bradyrhizobia.";
+RL   Science 316:1307-1312(2007).
+CC   -!- FUNCTION: Catalyzes the dehydration of methylthioribulose-1-phosphate
+CC       (MTRu-1-P) into 2,3-diketo-5-methylthiopentyl-1-phosphate (DK-MTP-1-P).
+CC       {ECO:0000255|HAMAP-Rule:MF_01677}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5-thio-D-ribulose 1-phosphate = 5-methylsulfanyl-2,3-
+CC         dioxopentyl phosphate + H2O; Xref=Rhea:RHEA:15549, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58548, ChEBI:CHEBI:58828; EC=4.2.1.109;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01677};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01677};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01677};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; L-methionine from S-methyl-5-thio-alpha-D-ribose 1-phosphate:
+CC       step 2/6. {ECO:0000255|HAMAP-Rule:MF_01677}.
+CC   -!- SIMILARITY: Belongs to the aldolase class II family. MtnB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01677}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000494; ABQ34670.1; -; Genomic_DNA.
+DR   RefSeq; WP_012042698.1; NC_009485.1.
+DR   SMR; A5EES6; -.
+DR   STRING; 288000.BBta_2510; -.
+DR   EnsemblBacteria; ABQ34670; ABQ34670; BBta_2510.
+DR   KEGG; bbt:BBta_2510; -.
+DR   eggNOG; COG0235; Bacteria.
+DR   HOGENOM; CLU_006033_4_1_5; -.
+DR   OMA; GHGLYTW; -.
+DR   OrthoDB; 599627at2; -.
+DR   UniPathway; UPA00904; UER00875.
+DR   Proteomes; UP000000246; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0046570; F:methylthioribulose 1-phosphate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.225.10; -; 1.
+DR   HAMAP; MF_01677; Salvage_MtnB; 1.
+DR   InterPro; IPR001303; Aldolase_II/adducin_N.
+DR   InterPro; IPR036409; Aldolase_II/adducin_N_sf.
+DR   InterPro; IPR017714; MethylthioRu-1-P_deHdtase_MtnB.
+DR   Pfam; PF00596; Aldolase_II; 1.
+DR   SMART; SM01007; Aldolase_II; 1.
+DR   SUPFAM; SSF53639; SSF53639; 1.
+DR   TIGRFAMs; TIGR03328; salvage_mtnB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Lyase; Metal-binding; Methionine biosynthesis;
+KW   Zinc.
+FT   CHAIN           1..216
+FT                   /note="Methylthioribulose-1-phosphate dehydratase"
+FT                   /id="PRO_0000357072"
+FT   METAL           101
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01677"
+FT   METAL           103
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01677"
+SQ   SEQUENCE   216 AA;  22941 MW;  971503876056D2B6 CRC64;
+     MSARQPAIAD TALVTAIDAV IEAGRRSAER GWVPATSGNF SVRVDAERIA VTRSGVDKGR
+     LTPNDVLCQQ LSQPLVAGSS AEAELHRRLY ADDAEIGAVF HTHAVSATVL AQLHRGERLL
+     TLSGWELQKA LAGIRSHETV VEVPVVANDQ DVVALANEVA ARLAAPVAAG AVRAPGYLIA
+     GHGLYAWGHT AVDAFRHLEA LDVLFTQILT LRRHAS
+//

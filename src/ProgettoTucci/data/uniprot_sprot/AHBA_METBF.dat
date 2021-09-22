@@ -1,0 +1,98 @@
+ID   AHBA_METBF              Reviewed;         182 AA.
+AC   Q46CH6;
+DT   12-AUG-2020, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 90.
+DE   RecName: Full=Siroheme decarboxylase alpha subunit {ECO:0000305};
+DE            EC=4.1.1.111 {ECO:0000269|PubMed:24669201, ECO:0000269|PubMed:24865947};
+DE   AltName: Full=SH decarboxylase AhbAB {ECO:0000303|PubMed:24669201};
+GN   Name=ahbA {ECO:0000303|PubMed:24669201};
+GN   OrderedLocusNames=Mbar_A1459 {ECO:0000312|EMBL:AAZ70416.1};
+OS   Methanosarcina barkeri (strain Fusaro / DSM 804).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=269797;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fusaro / DSM 804;
+RX   PubMed=16980466; DOI=10.1128/jb.00810-06;
+RA   Maeder D.L., Anderson I., Brettin T.S., Bruce D.C., Gilna P., Han C.S.,
+RA   Lapidus A., Metcalf W.W., Saunders E., Tapia R., Sowers K.R.;
+RT   "The Methanosarcina barkeri genome: comparative analysis with
+RT   Methanosarcina acetivorans and Methanosarcina mazei reveals extensive
+RT   rearrangement within methanosarcinal genomes.";
+RL   J. Bacteriol. 188:7922-7931(2006).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, PATHWAY, AND SUBUNIT.
+RX   PubMed=24669201; DOI=10.1155/2014/327637;
+RA   Kuehner M., Haufschildt K., Neumann A., Storbeck S., Streif J., Layer G.;
+RT   "The alternative route to heme in the methanogenic archaeon Methanosarcina
+RT   barkeri.";
+RL   Archaea 2014:327637-327637(2014).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, PATHWAY, AND SUBUNIT.
+RX   PubMed=24865947; DOI=10.1111/mmi.12656;
+RA   Palmer D.J., Schroeder S., Lawrence A.D., Deery E., Lobo S.A.,
+RA   Saraiva L.M., McLean K.J., Munro A.W., Ferguson S.J., Pickersgill R.W.,
+RA   Brown D.G., Warren M.J.;
+RT   "The structure, function and properties of sirohaem decarboxylase--an
+RT   enzyme with structural homology to a transcription factor family that is
+RT   part of the alternative haem biosynthesis pathway.";
+RL   Mol. Microbiol. 93:247-261(2014).
+CC   -!- FUNCTION: Involved in siroheme-dependent heme b biosynthesis. Catalyzes
+CC       the decarboxylation of siroheme into didecarboxysiroheme.
+CC       {ECO:0000269|PubMed:24669201, ECO:0000269|PubMed:24865947}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + siroheme = 12,18-didecarboxysiroheme + 2 CO2;
+CC         Xref=Rhea:RHEA:19093, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:60052, ChEBI:CHEBI:140497; EC=4.1.1.111;
+CC         Evidence={ECO:0000269|PubMed:24669201, ECO:0000269|PubMed:24865947};
+CC   -!- ACTIVITY REGULATION: Binds heme b (PubMed:24669201, PubMed:24865947).
+CC       The redox state of the heme b modulates the activity of the enzyme
+CC       (PubMed:24865947). Activity is stimulated by sodium dithionite
+CC       (PubMed:24865947). {ECO:0000269|PubMed:24669201,
+CC       ECO:0000269|PubMed:24865947}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoheme
+CC       biosynthesis. {ECO:0000269|PubMed:24669201,
+CC       ECO:0000269|PubMed:24865947}.
+CC   -!- SUBUNIT: Forms an heterodimer composed of AhbA and AhbB.
+CC       {ECO:0000269|PubMed:24669201, ECO:0000269|PubMed:24865947}.
+CC   -!- SIMILARITY: Belongs to the Ahb/Nir family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000099; AAZ70416.1; -; Genomic_DNA.
+DR   STRING; 269797.Mbar_A1459; -.
+DR   EnsemblBacteria; AAZ70416; AAZ70416; Mbar_A1459.
+DR   KEGG; mba:Mbar_A1459; -.
+DR   eggNOG; arCOG01629; Archaea.
+DR   HOGENOM; CLU_112007_1_0_2; -.
+DR   OMA; EVSHNYL; -.
+DR   BRENDA; 4.1.1.B11; 3250.
+DR   UniPathway; UPA00252; -.
+DR   Proteomes; UP000008156; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0006783; P:heme biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR000485; AsnC-type_HTH_dom.
+DR   InterPro; IPR040523; AsnC_trans_reg2.
+DR   InterPro; IPR019888; Tscrpt_reg_AsnC-like.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   Pfam; PF17805; AsnC_trans_reg2; 1.
+DR   Pfam; PF13404; HTH_AsnC-type; 1.
+DR   SMART; SM00344; HTH_ASNC; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+PE   1: Evidence at protein level;
+KW   Heme biosynthesis; Lyase.
+FT   CHAIN           1..182
+FT                   /note="Siroheme decarboxylase alpha subunit"
+FT                   /id="PRO_0000450505"
+SQ   SEQUENCE   182 AA;  20904 MW;  D3E6423878739293 CRC64;
+     MIDIDNLKDQ LKKEAADFSC DMDTNDREVP VIELDETDKK ILNLIQQEVP LEVEPFAKLG
+     EILGLSETEV IERLRELNRK GAVRRVGPVL SMRNMGGVST LVALKVPESR IEEVAIFINE
+     YPEVSHNYLR SASQYNLWFT LSAPNKNRLE RILSEIREKT GCPLLDLPTK HLFKIQVKFD
+     IR
+//

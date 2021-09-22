@@ -1,0 +1,149 @@
+ID   CCMM_SYNP2              Reviewed;         661 AA.
+AC   O30711;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   07-APR-2021, entry version 116.
+DE   RecName: Full=Carboxysome assembly protein CcmM {ECO:0000305};
+DE            Short=CcmM70 {ECO:0000305};
+DE            Short=M70 {ECO:0000305};
+DE   AltName: Full=Carbon dioxide concentrating mechanism protein CcmM {ECO:0000303|Ref.1};
+GN   Name=ccmM {ECO:0000303|Ref.1}; OrderedLocusNames=SYNPCC7002_A1800;
+OS   Synechococcus sp. (strain ATCC 27264 / PCC 7002 / PR-6) (Agmenellum
+OS   quadruplicatum).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus;
+OC   unclassified Synechococcus.
+OX   NCBI_TaxID=32049;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], DOMAIN, DISRUPTION PHENOTYPE, AND 2
+RP   FORMS OF THE PROTEIN.
+RC   STRAIN=ATCC 27264 / PCC 7002 / PR-6;
+RX   DOI=10.1046/j.1529-8817.2000.00028.x;
+RA   Ludwig M., Sultemeyer D., Price G.D.;
+RT   "Isolation of ccmKLMN genes from the marine cyanobacterium, Synechococcus
+RT   sp. PCC7002 (Cyanophyceae), and evidence that CcmM is essential for
+RT   carboxysome assembly.";
+RL   J. Phycol. 36:1109-1118(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27264 / PCC 7002 / PR-6;
+RA   Li T., Zhao J., Zhao C., Liu Z., Zhao F., Marquardt J., Nomura C.T.,
+RA   Persson S., Detter J.C., Richardson P.M., Lanz C., Schuster S.C., Wang J.,
+RA   Li S., Huang X., Cai T., Yu Z., Luo J., Zhao J., Bryant D.A.;
+RT   "Complete sequence of Synechococcus sp. PCC 7002.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   DISCUSSION OF SEQUENCE, AND ISOFORM CCMM46.
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=17675289; DOI=10.1074/jbc.m703896200;
+RA   Long B.M., Badger M.R., Whitney S.M., Price G.D.;
+RT   "Analysis of carboxysomes from Synechococcus PCC7942 reveals multiple
+RT   Rubisco complexes with carboxysomal proteins CcmM and CcaA.";
+RL   J. Biol. Chem. 282:29323-29335(2007).
+CC   -!- FUNCTION: Functions as a scaffold protein for the assembly of beta-
+CC       carboxysomes, initiates carboxysome assembly by coalescing RuBisCO
+CC       (ribulose bisphosphate carboxylase, rbcL-rbcS). Produced as a full-
+CC       length and a shorter form; both forms are required for correct
+CC       carboxysome assembly and growth. {ECO:0000250|UniProtKB:Q03513}.
+CC   -!- FUNCTION: Beta-carboxysome assembly initiates when soluble RuBisCO is
+CC       condensed into a liquid matrix in a pre-carboxysome by the RbcS-like
+CC       domains of probably both forms of CcmM. CcmN interacts with the N-
+CC       terminus of full length CcmM, and then recruits the shell proteins
+CC       (CcmK) via CcmN's encapsulation peptide. Shell formation requires both
+CC       CcmK proteins and CcmO. CcmL caps the otherwise elongated carboxysome.
+CC       Once fully encapsulated carboxysomes are formed, they migrate within
+CC       the cell probably via interactions with the cytoskeleton.
+CC       {ECO:0000250|UniProtKB:Q03513}.
+CC   -!- SUBUNIT: Probable homotrimer (By similarity). Full length protein (M70)
+CC       interacts with CcmN. The C-terminal RbcS-like domains (SSUL) bind to
+CC       holo-RuBisCO, as does the M46 short form (By similarity).
+CC       {ECO:0000250|UniProtKB:Q03513, ECO:0000250|UniProtKB:Q8DKB5}.
+CC   -!- SUBCELLULAR LOCATION: Carboxysome {ECO:0000250|UniProtKB:Q03513}.
+CC       Note=This cyanobacterium makes beta-type carboxysomes. {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC       Name=CcmM70;
+CC         IsoId=O30711-1; Sequence=Displayed;
+CC       Name=CcmM46 {ECO:0000305|PubMed:17675289, ECO:0000305|Ref.1};
+CC         IsoId=O30711-2; Sequence=VSP_060773;
+CC   -!- DOMAIN: In the N-terminus has a gamma-class carbonic anhydrase-like
+CC       domain (CA), while the C-terminus has 4 repeats that are similar to the
+CC       small subunit of RuBisCO (rbcS), called SSUL (Probable). The SSUL are
+CC       connected by flexible linkers. The N-terminal domain forms a scaffold
+CC       on which CA and other carboxysomal proteins assemble, while the C-
+CC       terminus binds RuBisCO (By similarity). {ECO:0000250|UniProtKB:Q03513,
+CC       ECO:0000305|Ref.1}.
+CC   -!- PTM: Identified as 2 proteins of 70 and 46 kDa in gels. They are
+CC       probably the result of alternative translation initiation.
+CC       {ECO:0000305|PubMed:17675289, ECO:0000305|Ref.1}.
+CC   -!- DISRUPTION PHENOTYPE: Single gene deletion does not form carboxysomes,
+CC       and does not grow in normal air but in 2% CO(2), called a high-CO(2)
+CC       requiring phenotype, HCR. {ECO:0000269|Ref.1}.
+CC   -!- SIMILARITY: Belongs to the gamma-class carbonic anhydrase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF015889; AAB66837.1; -; Genomic_DNA.
+DR   EMBL; CP000951; ACA99788.1; -; Genomic_DNA.
+DR   RefSeq; WP_012307411.1; NC_010475.1.
+DR   STRING; 32049.SYNPCC7002_A1800; -.
+DR   EnsemblBacteria; ACA99788; ACA99788; SYNPCC7002_A1800.
+DR   KEGG; syp:SYNPCC7002_A1800; -.
+DR   eggNOG; ENOG4105MXK; Bacteria.
+DR   eggNOG; COG0663; LUCA.
+DR   eggNOG; COG4451; LUCA.
+DR   HOGENOM; CLU_019008_0_0_3; -.
+DR   OMA; RFKTKSW; -.
+DR   Proteomes; UP000001688; Chromosome.
+DR   GO; GO:0031470; C:carboxysome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043886; F:structural constituent of carboxysome; IEA:InterPro.
+DR   GO; GO:0015977; P:carbon fixation; IEA:UniProtKB-KW.
+DR   GO; GO:0015979; P:photosynthesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.190.10; -; 4.
+DR   InterPro; IPR017156; CcmM.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR000894; RuBisCO_sc_dom.
+DR   InterPro; IPR036385; RuBisCO_ssu_sf.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   Pfam; PF00132; Hexapep; 1.
+DR   Pfam; PF00101; RuBisCO_small; 4.
+DR   PIRSF; PIRSF037250; CcmM; 1.
+DR   SMART; SM00961; RuBisCO_small; 4.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   SUPFAM; SSF55239; SSF55239; 4.
+PE   3: Inferred from homology;
+KW   Alternative initiation; Carbon dioxide fixation; Carboxysome;
+KW   Photosynthesis; Repeat.
+FT   CHAIN           1..661
+FT                   /note="Carboxysome assembly protein CcmM"
+FT                   /id="PRO_0000451241"
+FT   REGION          221..341
+FT                   /note="RbcS-like repeat 1, SSUL1"
+FT                   /evidence="ECO:0000305|Ref.1"
+FT   REGION          350..431
+FT                   /note="RbcS-like repeat 2, SSUL2"
+FT                   /evidence="ECO:0000305|Ref.1"
+FT   REGION          456..541
+FT                   /note="RbcS-like repeat 3, SSUL3"
+FT                   /evidence="ECO:0000305|Ref.1"
+FT   REGION          578..661
+FT                   /note="RbcS-like repeat 4, SSUL4"
+FT                   /evidence="ECO:0000305|Ref.1"
+FT   VAR_SEQ         1..227
+FT                   /note="Missing (in isoform CcmM46)"
+FT                   /id="VSP_060773"
+SQ   SEQUENCE   661 AA;  70069 MW;  5AD9D8C3BE5D0D70 CRC64;
+     MVVRSTAAPP TPWSKDLAEP KIHESAYVHS FSNLIGDVTV CEHVLISPGT SIRADEGAPF
+     HIGAATNIQD GVVIHGLEQG RVVGADGHDY SVWIGDRSCI THMALVHGPA YIGNDCFVGF
+     RSTVFNARIG DGCVIMMHAL VQDVDIPPGK YVPSGAVITN QQQVERLSNV TEADRAFAKQ
+     VVEINEALRE VSPGATNNGS RIAANQQPTP SSSTNTSGTS EHQSVGNMSL NGDLYNQVRG
+     LAAQGCTFTA EYANKRRFKT KSWLSAGFVE GHSADQIIGN LNRVLADHAG EYVQLIAVAP
+     NSKSRAAEIV VQRPGDSAPV QTSTTASYSN NGNRSNGTSA GSQAAAVGGD LTSQIHALAS
+     QGCSFTAEHA NTRRFKTQSW LSAGFVEGHS AEQIITNVNG LLGQYPNEYV QVIAVDPHSK
+     FRVAELIVQR PGETGTLSTK ATASARRSGN KVVNTASGGD VAGQIAALAS QGCSFTAEHA
+     STRRFKTQSW LGAGFVEGHS ANQILANIQA IAAQFPNEYV QLIAVDPNSK TRAAEIIIQR
+     PGNNAPVQTA TATSSFSGGT KAAPSSNGFG GHSSGSLSGD VVSKVRSLLM QGYKIGTEHA
+     DKRRFRVKSW SSCGTIDSTQ EAEVLRHLEG CLQEHSGEYV RMIGVDEAAK RRVLEEIIQR
+     P
+//

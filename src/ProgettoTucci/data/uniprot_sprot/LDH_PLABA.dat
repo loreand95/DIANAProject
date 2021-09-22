@@ -1,0 +1,193 @@
+ID   LDH_PLABA               Reviewed;         316 AA.
+AC   Q7SI97; Q4Z783;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 2.
+DT   07-APR-2021, entry version 107.
+DE   RecName: Full=L-lactate dehydrogenase;
+DE            EC=1.1.1.27;
+GN   ORFNames=PB000185.00.0;
+OS   Plasmodium berghei (strain Anka).
+OC   Eukaryota; Sar; Alveolata; Apicomplexa; Aconoidasida; Haemosporida;
+OC   Plasmodiidae; Plasmodium; Plasmodium (Vinckeia).
+OX   NCBI_TaxID=5823;
+RN   [1] {ECO:0000312|EMBL:CAH93763.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ANKA;
+RX   PubMed=15637271; DOI=10.1126/science.1103717;
+RA   Hall N., Karras M., Raine J.D., Carlton J.M., Kooij T.W.A., Berriman M.,
+RA   Florens L., Janssen C.S., Pain A., Christophides G.K., James K.,
+RA   Rutherford K., Harris B., Harris D., Churcher C.M., Quail M.A., Ormond D.,
+RA   Doggett J., Trueman H.E., Mendoza J., Bidwell S.L., Rajandream M.A.,
+RA   Carucci D.J., Yates J.R. III, Kafatos F.C., Janse C.J., Barrell B.G.,
+RA   Turner C.M.R., Waters A.P., Sinden R.S.;
+RT   "A comprehensive survey of the Plasmodium life cycle by genomic,
+RT   transcriptomic, and proteomic analyses.";
+RL   Science 307:82-86(2005).
+RN   [2] {ECO:0000305, ECO:0000312|PDB:1OC4}
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) IN COMPLEX WITH NADP AND OXAMATE,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND SUBUNIT.
+RX   PubMed=12967707; DOI=10.1016/s0166-6851(03)00170-1;
+RA   Winter V.J., Cameron A., Tranter R., Sessions R.B., Brady R.L.;
+RT   "Crystal structure of Plasmodium berghei lactate dehydrogenase indicates
+RT   the unique structural differences of these enzymes are shared across the
+RT   Plasmodium genus.";
+RL   Mol. Biochem. Parasitol. 131:1-10(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-lactate + NAD(+) = H(+) + NADH + pyruvate;
+CC         Xref=Rhea:RHEA:23444, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16651, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.27;
+CC         Evidence={ECO:0000269|PubMed:12967707};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=21 uM for NADH {ECO:0000269|PubMed:12967707};
+CC         KM=57 uM for pyruvate {ECO:0000269|PubMed:12967707};
+CC   -!- PATHWAY: Fermentation; pyruvate fermentation to lactate; (S)-lactate
+CC       from pyruvate: step 1/1.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:12967707}.
+CC   -!- SIMILARITY: Belongs to the LDH/MDH superfamily. LDH family.
+CC       {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CAAI01000126; CAH93763.1; -; Genomic_DNA.
+DR   RefSeq; XP_679401.1; XM_674309.1.
+DR   PDB; 1OC4; X-ray; 2.30 A; A/B=1-316.
+DR   PDBsum; 1OC4; -.
+DR   SMR; Q7SI97; -.
+DR   STRING; 5821.PBANKA_134010; -.
+DR   VEuPathDB; PlasmoDB:PBANKA_1340100; -.
+DR   eggNOG; KOG1495; Eukaryota.
+DR   HOGENOM; CLU_045401_2_1_1; -.
+DR   InParanoid; Q7SI97; -.
+DR   OMA; MDLMQTA; -.
+DR   SABIO-RK; Q7SI97; -.
+DR   UniPathway; UPA00554; UER00611.
+DR   EvolutionaryTrace; Q7SI97; -.
+DR   GO; GO:0004459; F:L-lactate dehydrogenase activity; IDA:UniProtKB.
+DR   GO; GO:0051287; F:NAD binding; IDA:UniProtKB.
+DR   GO; GO:0016491; F:oxidoreductase activity; IDA:UniProtKB.
+DR   GO; GO:0006096; P:glycolytic process; TAS:UniProtKB.
+DR   GO; GO:0042866; P:pyruvate biosynthetic process; IDA:UniProtKB.
+DR   CDD; cd01339; LDH-like_MDH; 1.
+DR   Gene3D; 3.90.110.10; -; 1.
+DR   InterPro; IPR001557; L-lactate/malate_DH.
+DR   InterPro; IPR022383; Lactate/malate_DH_C.
+DR   InterPro; IPR001236; Lactate/malate_DH_N.
+DR   InterPro; IPR015955; Lactate_DH/Glyco_Ohase_4_C.
+DR   InterPro; IPR011275; Malate_DH_type3.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF02866; Ldh_1_C; 1.
+DR   Pfam; PF00056; Ldh_1_N; 1.
+DR   PIRSF; PIRSF000102; Lac_mal_DH; 1.
+DR   PRINTS; PR00086; LLDHDRGNASE.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   SUPFAM; SSF56327; SSF56327; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; NAD; Oxidoreductase; Pyruvate.
+FT   CHAIN           1..316
+FT                   /note="L-lactate dehydrogenase"
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000227537"
+FT   NP_BIND         13..15
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   NP_BIND         34..36
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   NP_BIND         79..83
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   NP_BIND         125..127
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   ACT_SITE        182
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   BINDING         67
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   BINDING         95
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   BINDING         150
+FT                   /note="NAD; via amide nitrogen"
+FT   BINDING         154
+FT                   /note="NAD; via carbonyl oxygen"
+FT   BINDING         158
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   BINDING         182
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   BINDING         182
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000269|PubMed:12967707"
+FT   STRAND          6..10
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           14..25
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          30..34
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          36..39
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           40..55
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          61..65
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           67..70
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          74..78
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           90..92
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           95..98
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          99..102
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           103..116
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          121..124
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          126..128
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           129..140
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           144..146
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          147..150
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           152..167
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           171..173
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          178..180
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           190..192
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           200..205
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           211..222
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           224..231
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           237..251
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          256..266
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           267..269
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          271..282
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   STRAND          285..289
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+FT   HELIX           296..314
+FT                   /evidence="ECO:0007744|PDB:1OC4"
+SQ   SEQUENCE   316 AA;  34424 MW;  582283BBAF946F26 CRC64;
+     MAPKAKIVLV GSGMIGGVMA TLIVQKNLGD VVMFDIVKNM PHGKALDTSH TNVMAYSNCK
+     VSGSNTYDDL KDADVVIVTA GFTKAPGKSD KEWNRDDLLP LNNKIMIEIG GHIKNNCPNA
+     FIIVVTNPVD VMVQLLHQHS GVPKNKIVGL GGVLDTSRLK YYISQKLNVC PRDVNAHIVG
+     AHGNKMVLLK RYITVGGIPL QEFINNKKIT DQELDAIFDR TINTALEIVN LHASPYVAPA
+     AAIIEMAESY IRDLRKVLIC STLLEGQYGH KDIFAGTPLV IGGNGVEQVI ELQLNADEKK
+     KFDEAVAETS RMKALI
+//

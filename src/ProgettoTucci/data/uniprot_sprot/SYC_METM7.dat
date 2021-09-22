@@ -1,0 +1,109 @@
+ID   SYC_METM7               Reviewed;         476 AA.
+AC   A6VG07;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Cysteine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            EC=6.1.1.16 {ECO:0000255|HAMAP-Rule:MF_00041};
+DE   AltName: Full=Cysteinyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            Short=CysRS {ECO:0000255|HAMAP-Rule:MF_00041};
+GN   Name=cysS {ECO:0000255|HAMAP-Rule:MF_00041}; OrderedLocusNames=MmarC7_0313;
+OS   Methanococcus maripaludis (strain C7 / ATCC BAA-1331).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=426368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C7 / ATCC BAA-1331;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Clum A., Schmutz J., Larimer F., Land M., Hauser L.,
+RA   Kyrpides N., Anderson I., Sieprawska-Lupa M., Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus maripaludis C7.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-
+CC         cysteinyl-tRNA(Cys); Xref=Rhea:RHEA:17773, Rhea:RHEA-COMP:9661,
+CC         Rhea:RHEA-COMP:9679, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:78442, ChEBI:CHEBI:78517,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00041};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00041};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00041};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000745; ABR65383.1; -; Genomic_DNA.
+DR   RefSeq; WP_011976719.1; NC_009637.1.
+DR   STRING; 426368.MmarC7_0313; -.
+DR   EnsemblBacteria; ABR65383; ABR65383; MmarC7_0313.
+DR   GeneID; 5328488; -.
+DR   KEGG; mmz:MmarC7_0313; -.
+DR   eggNOG; arCOG00486; Archaea.
+DR   HOGENOM; CLU_013528_0_1_2; -.
+DR   OMA; AKYWMHN; -.
+DR   OrthoDB; 20883at2157; -.
+DR   BioCyc; MMAR426368:MMARC7_RS01585-MONOMER; -.
+DR   Proteomes; UP000002298; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004817; F:cysteine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006423; P:cysteinyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00672; CysRS_core; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00041; Cys_tRNA_synth; 1.
+DR   InterPro; IPR015803; Cys-tRNA-ligase.
+DR   InterPro; IPR015273; Cys-tRNA-synt_Ia_DALR.
+DR   InterPro; IPR024909; Cys-tRNA/MSH_ligase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR032678; tRNA-synt_1_cat_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   PANTHER; PTHR10890; PTHR10890; 1.
+DR   Pfam; PF09190; DALR_2; 1.
+DR   Pfam; PF01406; tRNA-synt_1e; 1.
+DR   PRINTS; PR00983; TRNASYNTHCYS.
+DR   SMART; SM00840; DALR_2; 1.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   TIGRFAMs; TIGR00435; cysS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Zinc.
+FT   CHAIN           1..476
+FT                   /note="Cysteine--tRNA ligase"
+FT                   /id="PRO_1000006592"
+FT   MOTIF           30..40
+FT                   /note="'HIGH' region"
+FT   MOTIF           265..269
+FT                   /note="'KMSKS' region"
+FT   METAL           28
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           208
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           233
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           237
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   BINDING         268
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+SQ   SEQUENCE   476 AA;  55327 MW;  80CEC4725E8F563E CRC64;
+     MLKVYNTLTR KEEEFKPLNE NEVKMYVCGP TVYDHTHLGH GRTYVSFDII RRYLEHIGYT
+     VNLVINFTDI DDKIIKRSQE KGKNPKELSE TFVNVFLNDM ATLKVKPADI YPKVTEHIPE
+     IIAFIEKLIE KGFAYKTENG VYFEVKKFEN YGKLSNINLE DLISGARIEP SDEKKNPEDF
+     ALWKTAKPGE PKWESPFGEG RPGWHIECSA MSSKYLGEQF DIHGGGRDLS FPHHENEIAQ
+     SVAYSGKDWV NYWLHTGFVM VNGEKMSKSL GNFITIEDIS KEYDPEILRF FFIQRHYRSP
+     IDYTAESMSH VKNNLEKIYN VIENIRISLE KSEKSGIWNE NEFLLYDILK NSKHNFYEAM
+     NSDFNTVEAL KSVFEVSNGV NKYLSLVKTP SEGLLLKAFD FFKIVGEIFG LFENYFKESS
+     ESNDEGFVKF LIELRSDLRL QKNYEMSDKI RDGLKELGYQ IEDNPKEGTV FKKINI
+//

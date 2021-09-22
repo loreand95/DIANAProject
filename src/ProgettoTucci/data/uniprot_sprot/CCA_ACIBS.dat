@@ -1,0 +1,152 @@
+ID   CCA_ACIBS               Reviewed;         412 AA.
+AC   B0VUU0;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Multifunctional CCA protein {ECO:0000255|HAMAP-Rule:MF_01261};
+DE   Includes:
+DE     RecName: Full=CCA-adding enzyme {ECO:0000255|HAMAP-Rule:MF_01261};
+DE              EC=2.7.7.72 {ECO:0000255|HAMAP-Rule:MF_01261};
+DE     AltName: Full=CCA tRNA nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE     AltName: Full=tRNA CCA-pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE     AltName: Full=tRNA adenylyl-/cytidylyl-transferase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE     AltName: Full=tRNA nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE     AltName: Full=tRNA-NT {ECO:0000255|HAMAP-Rule:MF_01261};
+DE   Includes:
+DE     RecName: Full=2'-nucleotidase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE              EC=3.1.3.- {ECO:0000255|HAMAP-Rule:MF_01261};
+DE   Includes:
+DE     RecName: Full=2',3'-cyclic phosphodiesterase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE              EC=3.1.4.- {ECO:0000255|HAMAP-Rule:MF_01261};
+DE   Includes:
+DE     RecName: Full=Phosphatase {ECO:0000255|HAMAP-Rule:MF_01261};
+DE              EC=3.1.3.- {ECO:0000255|HAMAP-Rule:MF_01261};
+GN   Name=cca {ECO:0000255|HAMAP-Rule:MF_01261}; OrderedLocusNames=ABSDF1182;
+OS   Acinetobacter baumannii (strain SDF).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter;
+OC   Acinetobacter calcoaceticus/baumannii complex.
+OX   NCBI_TaxID=509170;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SDF;
+RX   PubMed=18350144; DOI=10.1371/journal.pone.0001805;
+RA   Vallenet D., Nordmann P., Barbe V., Poirel L., Mangenot S., Bataille E.,
+RA   Dossat C., Gas S., Kreimeyer A., Lenoble P., Oztas S., Poulain J.,
+RA   Segurens B., Robert C., Abergel C., Claverie J.-M., Raoult D., Medigue C.,
+RA   Weissenbach J., Cruveiller S.;
+RT   "Comparative analysis of Acinetobacters: three genomes for three
+RT   lifestyles.";
+RL   PLoS ONE 3:E1805-E1805(2008).
+CC   -!- FUNCTION: Catalyzes the addition and repair of the essential 3'-
+CC       terminal CCA sequence in tRNAs without using a nucleic acid template.
+CC       Adds these three nucleotides in the order of C, C, and A to the tRNA
+CC       nucleotide-73, using CTP and ATP as substrates and producing inorganic
+CC       pyrophosphate. Also shows phosphatase, 2'-nucleotidase and 2',3'-cyclic
+CC       phosphodiesterase activities. These phosphohydrolase activities are
+CC       probably involved in the repair of the tRNA 3'-CCA terminus degraded by
+CC       intracellular RNases. {ECO:0000255|HAMAP-Rule:MF_01261}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a tRNA precursor + ATP + 2 CTP = a tRNA with a 3' CCA end + 3
+CC         diphosphate; Xref=Rhea:RHEA:14433, Rhea:RHEA-COMP:10465, Rhea:RHEA-
+CC         COMP:10468, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:74896, ChEBI:CHEBI:83071; EC=2.7.7.72;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01261};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01261};
+CC       Note=Magnesium is required for nucleotidyltransferase activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_01261};
+CC   -!- COFACTOR:
+CC       Name=Ni(2+); Xref=ChEBI:CHEBI:49786;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01261};
+CC       Note=Nickel for phosphatase activity. {ECO:0000255|HAMAP-
+CC       Rule:MF_01261};
+CC   -!- SUBUNIT: Monomer. Can also form homodimers and oligomers.
+CC       {ECO:0000255|HAMAP-Rule:MF_01261}.
+CC   -!- DOMAIN: Comprises two domains: an N-terminal domain containing the
+CC       nucleotidyltransferase activity and a C-terminal HD domain associated
+CC       with both phosphodiesterase and phosphatase activities.
+CC       {ECO:0000255|HAMAP-Rule:MF_01261}.
+CC   -!- MISCELLANEOUS: A single active site specifically recognizes both ATP
+CC       and CTP and is responsible for their addition. {ECO:0000255|HAMAP-
+CC       Rule:MF_01261}.
+CC   -!- SIMILARITY: Belongs to the tRNA nucleotidyltransferase/poly(A)
+CC       polymerase family. Bacterial CCA-adding enzyme type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01261}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU468230; CAP00532.1; -; Genomic_DNA.
+DR   EnsemblBacteria; CAP00532; CAP00532; ABSDF1182.
+DR   KEGG; abm:ABSDF1182; -.
+DR   HOGENOM; CLU_015961_1_1_6; -.
+DR   OMA; GWTFHGH; -.
+DR   Proteomes; UP000001741; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052929; F:ATP:3'-cytidine-cytidine-tRNA adenylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052928; F:CTP:3'-cytidine-tRNA cytidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052927; F:CTP:tRNA cytidylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004112; F:cyclic-nucleotide phosphodiesterase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016791; F:phosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016437; F:tRNA cytidylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042245; P:RNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0001680; P:tRNA 3'-terminal CCA addition; IEA:UniProtKB-UniRule.
+DR   CDD; cd00077; HDc; 1.
+DR   CDD; cd05398; NT_ClassII-CCAase; 1.
+DR   Gene3D; 3.30.460.10; -; 1.
+DR   HAMAP; MF_01261; CCA_bact_type1; 1.
+DR   HAMAP; MF_01262; CCA_bact_type2; 1.
+DR   InterPro; IPR012006; CCA_bact.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR002646; PolA_pol_head_dom.
+DR   InterPro; IPR032828; PolyA_RNA-bd.
+DR   Pfam; PF01743; PolyA_pol; 1.
+DR   Pfam; PF12627; PolyA_pol_RNAbd; 1.
+DR   PIRSF; PIRSF000813; CCA_bact; 1.
+DR   SUPFAM; SSF81301; SSF81301; 1.
+DR   PROSITE; PS51831; HD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Hydrolase; Magnesium; Metal-binding; Multifunctional enzyme;
+KW   Nickel; Nucleotide-binding; Nucleotidyltransferase; RNA repair;
+KW   RNA-binding; Transferase; tRNA processing.
+FT   CHAIN           1..412
+FT                   /note="Multifunctional CCA protein"
+FT                   /id="PRO_1000140018"
+FT   DOMAIN          228..329
+FT                   /note="HD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01175"
+FT   METAL           21
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   METAL           23
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   BINDING         8
+FT                   /note="ATP or CTP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   BINDING         11
+FT                   /note="ATP or CTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   BINDING         91
+FT                   /note="ATP or CTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   BINDING         137
+FT                   /note="ATP or CTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+FT   BINDING         140
+FT                   /note="ATP or CTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01261"
+SQ   SEQUENCE   412 AA;  47178 MW;  243AD706F13EDE23 CRC64;
+     MQVYLVGGAV RDYLLGHSYQ EKDYVVVGAT PEHMLAQGFQ PVGKDFPVFL HPETKEEYAL
+     ARTERKSGQG YHGFQFFTDT TVSLEDDLIR RDLTINAIAM DQDGKIYDPY GGQNDLENKI
+     LRHVSEAFAE DPLRVLRVAR FAARYFPYGF QIAPETLQLM QTMADSGELD ALTPERVWKE
+     TSRALMENHA DIYFQTLRDC GALKHLFPEI DALFGVPQRP EYHPEVDCGI HTLMSLQQAC
+     KSNYSLDVRF AVLVHDLGKA LTPAKELPRH IMHEERGIKP VTQLCERLRV PTQTKQLALS
+     VCKEHLKCHQ IMSLKPGTLW RLLQRLDVLR RPERVEAFVQ ACECDAKGRL GLEDRPYPQA
+     QYMREAMQIV RSIKVQDLPE NIKGAEIGEM LIQYRIEALA EFKNQHQSLS HS
+//

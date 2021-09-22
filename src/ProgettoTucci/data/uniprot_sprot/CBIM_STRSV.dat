@@ -1,0 +1,97 @@
+ID   CBIM_STRSV              Reviewed;         244 AA.
+AC   A3CL70;
+DT   27-JUL-2011, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 2.
+DT   10-FEB-2021, entry version 82.
+DE   RecName: Full=Cobalt transport protein CbiM {ECO:0000255|HAMAP-Rule:MF_01462};
+DE   AltName: Full=Energy-coupling factor transporter probable substrate-capture protein CbiM {ECO:0000255|HAMAP-Rule:MF_01462};
+DE            Short=ECF transporter S component CbiM {ECO:0000255|HAMAP-Rule:MF_01462};
+DE   Flags: Precursor;
+GN   Name=cbiM {ECO:0000255|HAMAP-Rule:MF_01462}; OrderedLocusNames=SSA_0477;
+OS   Streptococcus sanguinis (strain SK36).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=388919;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SK36;
+RX   PubMed=17277061; DOI=10.1128/jb.01808-06;
+RA   Xu P., Alves J.M., Kitten T., Brown A., Chen Z., Ozaki L.S., Manque P.,
+RA   Ge X., Serrano M.G., Puiu D., Hendricks S., Wang Y., Chaplin M.D., Akan D.,
+RA   Paik S., Peterson D.L., Macrina F.L., Buck G.A.;
+RT   "Genome of the opportunistic pathogen Streptococcus sanguinis.";
+RL   J. Bacteriol. 189:3166-3175(2007).
+CC   -!- FUNCTION: Part of the energy-coupling factor (ECF) transporter complex
+CC       CbiMNOQ involved in cobalt import. {ECO:0000255|HAMAP-Rule:MF_01462}.
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01462}.
+CC   -!- SUBUNIT: Forms an energy-coupling factor (ECF) transporter complex
+CC       composed of an ATP-binding protein (A component, CbiO), a transmembrane
+CC       protein (T component, CbiQ) and 2 possible substrate-capture proteins
+CC       (S components, CbiM and CbiN) of unknown stoichimetry.
+CC       {ECO:0000255|HAMAP-Rule:MF_01462}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01462};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01462}.
+CC   -!- SIMILARITY: Belongs to the CbiM family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01462}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABN43925.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000387; ABN43925.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_002901131.1; NC_009009.1.
+DR   RefSeq; YP_001034475.1; NC_009009.1.
+DR   STRING; 388919.SSA_0477; -.
+DR   EnsemblBacteria; ABN43925; ABN43925; SSA_0477.
+DR   KEGG; ssa:SSA_0477; -.
+DR   PATRIC; fig|388919.9.peg.461; -.
+DR   eggNOG; COG0310; Bacteria.
+DR   HOGENOM; CLU_052508_3_0_9; -.
+DR   OrthoDB; 1632785at2; -.
+DR   UniPathway; UPA00148; -.
+DR   Proteomes; UP000002148; Chromosome.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0015087; F:cobalt ion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01462; CbiM; 1.
+DR   InterPro; IPR018024; CbiM.
+DR   InterPro; IPR002751; CbiM/NikMN.
+DR   PANTHER; PTHR43627; PTHR43627; 1.
+DR   Pfam; PF01891; CbiM; 1.
+DR   TIGRFAMs; TIGR00123; cbiM; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Cobalamin biosynthesis; Cobalt; Cobalt transport;
+KW   Ion transport; Membrane; Reference proteome; Signal; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   CHAIN           29..244
+FT                   /note="Cobalt transport protein CbiM"
+FT                   /id="PRO_0000411148"
+FT   TRANSMEM        36..56
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   TRANSMEM        71..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   TRANSMEM        108..128
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   TRANSMEM        135..155
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   TRANSMEM        166..186
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+FT   TRANSMEM        208..228
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01462"
+SQ   SEQUENCE   244 AA;  26031 MW;  C58ED0FD60F8D643 CRC64;
+     MKLLKNKKVT FVALLAILAV LSTQSVSAMH IMEGYLPLFW CIFWFAVFLP FFVVGLMRIK
+     KIVAEDPNSK TMLALSGAFI FILSSLKIPS VTGSSSHPTG VGLGTAMFGP SVISVLGTIC
+     LLFQALLLAH GGLTTLGANA FSMAVVGPFV GYFVYKFAKS IKLSTPVSIF ICAVIADLAT
+     YATTSIQLGL VFPDANSGFV GSALKFMGVF LTTQIPIAIV EGLLTVVLYN LISENVKERA
+     GLFK
+//

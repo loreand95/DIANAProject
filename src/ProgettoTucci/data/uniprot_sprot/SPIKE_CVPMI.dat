@@ -1,0 +1,160 @@
+ID   SPIKE_CVPMI             Reviewed;        1449 AA.
+AC   P33470;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 2.
+DT   02-DEC-2020, entry version 97.
+DE   RecName: Full=Spike glycoprotein {ECO:0000255|HAMAP-Rule:MF_04200};
+DE            Short=S glycoprotein {ECO:0000255|HAMAP-Rule:MF_04200};
+DE   AltName: Full=E2 {ECO:0000255|HAMAP-Rule:MF_04200};
+DE   AltName: Full=Peplomer protein {ECO:0000255|HAMAP-Rule:MF_04200};
+DE   Flags: Precursor;
+GN   Name=S {ECO:0000255|HAMAP-Rule:MF_04200}; ORFNames=2;
+OS   Porcine transmissible gastroenteritis coronavirus (strain Miller) (TGEV).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+OC   Alphacoronavirus; Tegacovirus.
+OX   NCBI_TaxID=33737;
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=1966416; DOI=10.1007/978-1-4684-5823-7_41;
+RA   Wesley R.D.;
+RT   "Nucleotide sequence of the E2-peplomer protein gene and partial nucleotide
+RT   sequence of the upstream polymerase gene of transmissible gas
+RT   gastroenteritis virus (Miller strain).";
+RL   Adv. Exp. Med. Biol. 276:301-306(1990).
+CC   -!- FUNCTION: S1 region attaches the virion to the cell membrane by
+CC       interacting with host ANPEP/aminopeptidase N, initiating the infection.
+CC       Binding to the receptor probably induces conformational changes in the
+CC       S glycoprotein unmasking the fusion peptide of S2 region and activating
+CC       membranes fusion. S2 region belongs to the class I viral fusion
+CC       protein. Under the current model, the protein has at least 3
+CC       conformational states: pre-fusion native state, pre-hairpin
+CC       intermediate state, and post-fusion hairpin state. During viral and
+CC       target cell membrane fusion, the coiled coil regions (heptad repeats)
+CC       regions assume a trimer-of-hairpins structure, positioning the fusion
+CC       peptide in close proximity to the C-terminal region of the ectodomain.
+CC       The formation of this structure appears to drive apposition and
+CC       subsequent fusion of viral and target cell membranes.
+CC       {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC   -!- SUBUNIT: Homotrimer. During virus morphogenesis, found in a complex
+CC       with M and HE proteins. Interacts with host ANPEP. {ECO:0000255|HAMAP-
+CC       Rule:MF_04200}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_04200}; Single-pass type I membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_04200}. Host endoplasmic reticulum-Golgi intermediate
+CC       compartment membrane {ECO:0000255|HAMAP-Rule:MF_04200}; Single-pass
+CC       type I membrane protein {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC       Note=Accumulates in the endoplasmic reticulum-Golgi intermediate
+CC       compartment, where it participates in virus particle assembly.
+CC       {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC   -!- DOMAIN: The KxHxx motif seems to function as an ER retrieval signal.
+CC       {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC   -!- SIMILARITY: Belongs to the alphacoronaviruses spike protein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC   -!- CAUTION: In contrast to beta- and gammacoronaviruses, S glycoprotein is
+CC       not cleaved into S1 and S2. {ECO:0000255|HAMAP-Rule:MF_04200}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; S51223; AAB19567.2; -; Genomic_RNA.
+DR   PIR; A43573; A43573.
+DR   SMR; P33470; -.
+DR   GO; GO:0044173; C:host cell endoplasmic reticulum-Golgi intermediate compartment membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0075509; P:endocytosis involved in viral entry into host cell; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0046813; P:receptor-mediated virion attachment to host cell; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_04200; ALPHA_CORONA_SPIKE; 1.
+DR   InterPro; IPR042552; ALPHA_CORONA_SPIKE.
+DR   InterPro; IPR043607; CoV_S1_C.
+DR   InterPro; IPR043473; S2_sf_CoV.
+DR   InterPro; IPR002551; Spike_S1_CoV.
+DR   InterPro; IPR002552; Spike_S2_CoV.
+DR   InterPro; IPR043614; Spike_S2_CoV_C.
+DR   Pfam; PF01600; CoV_S1; 1.
+DR   Pfam; PF19209; CoV_S1_C; 1.
+DR   Pfam; PF01601; CoV_S2; 1.
+DR   Pfam; PF19214; CoV_S2_C; 1.
+DR   SUPFAM; SSF111474; SSF111474; 2.
+DR   PROSITE; PS51923; COV_S2_HR1; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil; Glycoprotein; Host membrane; Host-virus interaction; Membrane;
+KW   Signal; Transmembrane; Transmembrane helix; Viral attachment to host cell;
+KW   Viral envelope protein; Virion; Virulence; Virus entry into host cell.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   CHAIN           29..1449
+FT                   /note="Spike glycoprotein"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT                   /id="PRO_0000037224"
+FT   TOPO_DOM        29..1390
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   TRANSMEM        1391..1410
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   TOPO_DOM        1411..1449
+FT                   /note="Intravirion"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   REGION          17..776
+FT                   /note="S1"
+FT   REGION          29..776
+FT                   /note="S1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   REGION          657..801
+FT                   /note="Interaction with host ANPEP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   REGION          777..1449
+FT                   /note="S2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   REGION          1022..1043
+FT                   /note="Fusion peptide"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   REGION          1037..1156
+FT                   /note="Heptad repeat 1 (HR1)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01271"
+FT   REGION          1305..1402
+FT                   /note="Heptad repeat 2 (HR2)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01272"
+FT   COILED          1104..1148
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   COILED          1338..1380
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   MOTIF           1445..1449
+FT                   /note="KxHxx"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04200"
+FT   COMPBIAS        1411..1432
+FT                   /note="Cys-rich"
+SQ   SEQUENCE   1449 AA;  159916 MW;  FFC3CB8A4C9FB655 CRC64;
+     MKKLFVVLVV MPLIYGDNFP CSKLTNRTIG NHWNLIETFL LNYSSRLSPN SDVVLGDYFP
+     TVQPWFNCIR NNSNDLYVTL ENLKALYWDY ATENITLNHK QRLNVVVNGY PYSITVTTTR
+     NFNSAEGAII CICKGSPPTT TTESSLTCNW GSECRLNHKF PICPSNSEAN CGNMLYGLQW
+     FADAVVAYLH GASYRISFEN QWSGTVTLGD MRATTLETAG TLVDLWWFNP VYDVSYYRVN
+     NKNGTTVVSN CTDQCASYVA NVFTTQPGGF IPSDFSFNNW FLLTNSSTLV SGKLVTKQPL
+     LVNCLWPVPS FEEAASTLCF EGAGFDQCNG PVLNNTVDVI RFNLNFTTNV QSGKGATVFS
+     LNTTGGVTLE ISCYNDTVSD SSFSSYGEMP FGVTDGPRYC YVLYNGTALK YLGTLPPSVK
+     EIAISKWGHF YINGYNFFST FPIDCISFNL TTGDSDVFWT IAYTSYTEAL VQVENTAITK
+     VTYCNSYVNN IKCSQLTANL NNGFYPVSSS EVGLVNKSVV LLPSFYTHTI VNITIGLGMK
+     RSGYGQPIAS TLSNITLPMQ DNNTDVYCIR SDQFSVYVHS TCKSSLWDNV FKRNCTDVLD
+     ATAVIKTGTC PFSFDKLNNY LTFNKFCLSL SPVGANCKFD VAARTRTNDQ VVRSLYVIYE
+     EGDNIVGVPS DNSGLHDLSV LHLDSCTDYN IYGRTGVGII RQTNRTLLSG LYYTSLSGDL
+     LGFKNVSDGV IYSVTPCDVS AQAAVIDGTI VGAITSINSE LLGLTHWTTT PNFYYYSIYN
+     YTNDRTRGTA IDSNDVDCEP VITYSNIGVC KNGALVFINV THSDGDVQPI STGNVTIPTN
+     FTISVQVEYI QVYTTPVSID CSRYVCNGNP RCNKLLTQYV SACQTIEQAL AMGARLENME
+     VGSMLFVSEN ALKLASVEAF NSSETLDPIY KEWPNIGGSW LEGLKYILPS DNSKRKYRSA
+     IEDLLFAKVV TSGLGTVDED YKRCTGGYDI ADLVCAQYYN GIMVLPGVAN ADKMTMYTAS
+     LAGGITLGAL GGGAVAIPFA VAVQARLNYV ALQTDVLNKN QQILASAFNQ AIGNITQSFG
+     KVNDAIHQTS RGLATVAKAL AKVQDVVNTQ GQALSHLTVQ LQNNFQAISS SISDIYNRLD
+     ELSADAQVDR LITGRLTALN AFVSQTLTRQ AEVRASRQLA KDKVNECVRS QSQRFGFCGN
+     GTHLFSLANA APNGMIFFHT VLLPTAYETV TAWAGICALD GDRTFGLVVK DVQLTLFRNL
+     DDKFYLTPRT MYQPRVATSS DFVQIEGCDV LFVNATVSDL PSIIPDYIDI NQTVQDILEN
+     FRPNWTVPEL TFDIFNATYL NLTGEIDDLE FRSEKLHNTT VELAILIDNI NNTLVNLEWL
+     NRIETYVKWP WYVWLLIGLV VIFCIPLLLF CCCSTGCCGC IGCLGSCCHS ICSRRQFENY
+     EPIEKVHVH
+//

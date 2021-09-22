@@ -1,0 +1,85 @@
+ID   KHSE_CLOBJ              Reviewed;         297 AA.
+AC   C1FNA5;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=Homoserine kinase {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            Short=HK {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            Short=HSK {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            EC=2.7.1.39 {ECO:0000255|HAMAP-Rule:MF_00384};
+GN   Name=thrB {ECO:0000255|HAMAP-Rule:MF_00384}; OrderedLocusNames=CLM_1880;
+OS   Clostridium botulinum (strain Kyoto / Type A2).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=536232;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Kyoto / Type A2;
+RA   Shrivastava S., Brinkac L.M., Brown J.L., Bruce D., Detter C.C.,
+RA   Johnson E.A., Munk C.A., Smith L.A., Smith T.J., Sutton G., Brettin T.S.;
+RT   "Genome sequence of Clostridium botulinum A2 Kyoto.";
+RL   Submitted (OCT-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the ATP-dependent phosphorylation of L-homoserine
+CC       to L-homoserine phosphate. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-homoserine = ADP + H(+) + O-phospho-L-homoserine;
+CC         Xref=Rhea:RHEA:13985, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57476, ChEBI:CHEBI:57590, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.39; Evidence={ECO:0000255|HAMAP-Rule:MF_00384};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-threonine biosynthesis; L-threonine
+CC       from L-aspartate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- SIMILARITY: Belongs to the GHMP kinase family. Homoserine kinase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001581; ACO86693.1; -; Genomic_DNA.
+DR   RefSeq; WP_012705461.1; NC_012563.1.
+DR   SMR; C1FNA5; -.
+DR   STRING; 536232.CLM_1880; -.
+DR   EnsemblBacteria; ACO86693; ACO86693; CLM_1880.
+DR   KEGG; cby:CLM_1880; -.
+DR   eggNOG; COG0083; Bacteria.
+DR   HOGENOM; CLU_041243_0_2_9; -.
+DR   OMA; CANRIPH; -.
+DR   UniPathway; UPA00050; UER00064.
+DR   Proteomes; UP000001374; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004413; F:homoserine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009088; P:threonine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.890; -; 1.
+DR   HAMAP; MF_00384; Homoser_kinase; 1.
+DR   InterPro; IPR013750; GHMP_kinase_C_dom.
+DR   InterPro; IPR036554; GHMP_kinase_C_sf.
+DR   InterPro; IPR006204; GHMP_kinase_N_dom.
+DR   InterPro; IPR006203; GHMP_knse_ATP-bd_CS.
+DR   InterPro; IPR000870; Homoserine_kinase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   Pfam; PF08544; GHMP_kinases_C; 1.
+DR   Pfam; PF00288; GHMP_kinases_N; 1.
+DR   PIRSF; PIRSF000676; Homoser_kin; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55060; SSF55060; 1.
+DR   TIGRFAMs; TIGR00191; thrB; 1.
+DR   PROSITE; PS00627; GHMP_KINASES_ATP; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Threonine biosynthesis; Transferase.
+FT   CHAIN           1..297
+FT                   /note="Homoserine kinase"
+FT                   /id="PRO_1000134245"
+FT   NP_BIND         82..92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00384"
+SQ   SEQUENCE   297 AA;  32704 MW;  7DA72310D17A3B23 CRC64;
+     MVEVRVPATS ANIGPGFDCL GVAVNIYNKF FVEEIEEGLI FEGCADKFKN ENNLIYVAMK
+     KCFDKIGYKP TGLRIKIESD IPVSRGLGSS AACVVGGIVS ANELAGGVLN KKELLDLAVG
+     VEGHPDNVNP AFCGGMTASI SDNREVIYSK VKVSEGIKFC ALIPDFTLST EKARAVLPKS
+     IDYKDGIFNV GRTALMISAL NNGDFHLIKY ACKDKLHQDY RAKLIENFYS IKEECEKLNS
+     LGVFLSGAGP TIMVMLKEED KRFSKNIKSF LETLKNKWEV RELKIDKLGT VVNNRKV
+//

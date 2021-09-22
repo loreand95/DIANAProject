@@ -1,0 +1,105 @@
+ID   GBH_ARTS8               Reviewed;         353 AA.
+AC   Q8KZT5;
+DT   29-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-OCT-2020, entry version 69.
+DE   RecName: Full=Guanidinobutyrase;
+DE            Short=GBase;
+DE            EC=3.5.3.7;
+DE   AltName: Full=D-arginase;
+DE            EC=3.5.3.10;
+GN   Name=gbh;
+OS   Arthrobacter sp. (strain KUJ 8602).
+OC   Bacteria; Actinobacteria; Micrococcales; Micrococcaceae; Arthrobacter.
+OX   NCBI_TaxID=196628;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-13; 41-54; 237-252
+RP   AND 312-325, AND CHARACTERIZATION.
+RX   PubMed=12761196; DOI=10.1093/jb/mvg016;
+RA   Arakawa N., Igarashi M., Kazuoka T., Oikawa T., Soda K.;
+RT   "D-arginase of Arthrobacter sp. KUJ 8602: characterization and its identity
+RT   with Zn(2+)-guanidinobutyrase.";
+RL   J. Biochem. 133:33-42(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-guanidinobutanoate + H2O = 4-aminobutanoate + urea;
+CC         Xref=Rhea:RHEA:19501, ChEBI:CHEBI:15377, ChEBI:CHEBI:16199,
+CC         ChEBI:CHEBI:57486, ChEBI:CHEBI:59888; EC=3.5.3.7;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-arginine + H2O = D-ornithine + urea; Xref=Rhea:RHEA:12901,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:16199, ChEBI:CHEBI:32689,
+CC         ChEBI:CHEBI:57668; EC=3.5.3.10;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC       Note=Binds 1 zinc ion per subunit.;
+CC   -!- ACTIVITY REGULATION: Inhibited by 5-aminovalerate, mercaptoacetate, 3-
+CC       mercaptopropionate and 2-mercaptoethanol.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 7.5-9.5 with 4-guanidinobutyrate as substrate, and 9.5-
+CC         10 with D-arginine or L-arginine as substrate.;
+CC   -!- SUBUNIT: Homohexamer.
+CC   -!- MISCELLANEOUS: Acts in decreasing order on 4-guanidinobutyrate, D-
+CC       arginine, 3-guanidinopropionate, 5-guanidinovalerate and L-arginine.
+CC   -!- SIMILARITY: Belongs to the arginase family. Agmatinase subfamily.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00742}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB085822; BAB96819.1; -; Genomic_DNA.
+DR   SMR; Q8KZT5; -.
+DR   PRIDE; Q8KZT5; -.
+DR   BioCyc; MetaCyc:MONOMER-11569; -.
+DR   BRENDA; 3.5.3.10; 457.
+DR   BRENDA; 3.5.3.7; 457.
+DR   GO; GO:0047817; F:D-arginase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047971; F:guanidinobutyrase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR005925; Agmatinase-rel.
+DR   InterPro; IPR006035; Ureohydrolase.
+DR   InterPro; IPR023696; Ureohydrolase_dom_sf.
+DR   InterPro; IPR020855; Ureohydrolase_Mn_BS.
+DR   Pfam; PF00491; Arginase; 1.
+DR   PIRSF; PIRSF036979; Arginase; 1.
+DR   PRINTS; PR00116; ARGINASE.
+DR   SUPFAM; SSF52768; SSF52768; 1.
+DR   TIGRFAMs; TIGR01230; agmatinase; 1.
+DR   PROSITE; PS01053; ARGINASE_1; 1.
+DR   PROSITE; PS51409; ARGINASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Hydrolase; Manganese; Metal-binding; Zinc.
+FT   CHAIN           1..353
+FT                   /note="Guanidinobutyrase"
+FT                   /id="PRO_0000173747"
+FT   METAL           132
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           156
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           156
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           158
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           160
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           247
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           247
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+FT   METAL           249
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P0DJQ3"
+SQ   SEQUENCE   353 AA;  37933 MW;  EB2CE94AD6D42D8D CRC64;
+     MEELRIEANG NLGPIDSSRI PRYAGAATYA RLPRLDQVSK ADVTVVGVPF DSGVSYRPGA
+     RFGANHVREA SRLLRPYNPA WDVSPFENIQ VADAGDMAVN PFNINEAIET IQQNALDLTA
+     NGSKLVTLGG DHTIALPLLR AAAERAGEPI AMLHFDAHLD TWDTYFGAEY THGTPFRRAV
+     EEGILDTEAI SHVGTRGPLY GKKDLDDDHR FGFGIVTSAD VYYQGVLETV AKIRDRIGNR
+     PLYISVDIDV LDPAHAPGTG TPEAGGITSR ELLEIIRGFR GMNLVGADVV EVAPAYDHAE
+     ITGVAGSHVA YELVTLMADN AVEGDRHGAP NGYAQQALGA RIQEVAQAIG GQR
+//

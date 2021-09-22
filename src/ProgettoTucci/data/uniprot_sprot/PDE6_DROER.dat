@@ -1,0 +1,142 @@
+ID   PDE6_DROER              Reviewed;        1131 AA.
+AC   B3P3K2;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 65.
+DE   RecName: Full=cGMP-specific 3',5'-cyclic phosphodiesterase {ECO:0000250|UniProtKB:Q9VFI9};
+DE            EC=3.1.4.35;
+DE   Flags: Precursor;
+GN   Name=Pde6 {ECO:0000250|UniProtKB:Q9VFI9}; ORFNames=GG21262;
+OS   Drosophila erecta (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7220;
+RN   [1] {ECO:0000312|EMBL:EDV48890.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tucson 14021-0224.01 {ECO:0000312|EMBL:EDV48890.1};
+RX   PubMed=17994087; DOI=10.1038/nature06341;
+RG   Drosophila 12 genomes consortium;
+RT   "Evolution of genes and genomes on the Drosophila phylogeny.";
+RL   Nature 450:203-218(2007).
+CC   -!- FUNCTION: Has a role regulating cGMP transport in Malpighian tubule
+CC       principal cells. {ECO:0000250|UniProtKB:Q9VFI9}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic GMP + H2O = GMP + H(+); Xref=Rhea:RHEA:16957,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57746,
+CC         ChEBI:CHEBI:58115; EC=3.1.4.35;
+CC         Evidence={ECO:0000250|UniProtKB:Q9VFI9};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 2 divalent metal cations per subunit. Site 1 may
+CC       preferentially bind zinc ions, while site 2 has a preference for
+CC       magnesium and/or manganese ions. {ECO:0000250};
+CC   -!- SUBUNIT: Interacts with PrBP. {ECO:0000250|UniProtKB:Q9VFI9}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q9VFI9};
+CC       Lipid-anchor {ECO:0000250|UniProtKB:Q9VFI9}; Cytoplasmic side
+CC       {ECO:0000250|UniProtKB:Q9VFI9}.
+CC   -!- SIMILARITY: Belongs to the cyclic nucleotide phosphodiesterase family.
+CC       {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH954181; EDV48890.1; -; Genomic_DNA.
+DR   RefSeq; XP_001979932.2; XM_001979896.2.
+DR   STRING; 7220.FBpp0139808; -.
+DR   GeneID; 6552139; -.
+DR   KEGG; der:6552139; -.
+DR   eggNOG; KOG3689; Eukaryota.
+DR   HOGENOM; CLU_006980_0_2_1; -.
+DR   OMA; ATIRMFK; -.
+DR   PhylomeDB; B3P3K2; -.
+DR   ChiTaRS; Pde6; fly.
+DR   Proteomes; UP000008711; Unassembled WGS sequence.
+DR   GO; GO:0016020; C:membrane; ISS:UniProtKB.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047555; F:3',5'-cyclic-GMP phosphodiesterase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046068; P:cGMP metabolic process; ISS:UniProtKB.
+DR   GO; GO:0007165; P:signal transduction; IEA:InterPro.
+DR   CDD; cd00077; HDc; 1.
+DR   Gene3D; 1.10.1300.10; -; 1.
+DR   Gene3D; 3.30.450.40; -; 1.
+DR   InterPro; IPR003018; GAF.
+DR   InterPro; IPR029016; GAF-like_dom_sf.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR023088; PDEase.
+DR   InterPro; IPR002073; PDEase_catalytic_dom.
+DR   InterPro; IPR036971; PDEase_catalytic_dom_sf.
+DR   InterPro; IPR023174; PDEase_CS.
+DR   Pfam; PF01590; GAF; 2.
+DR   Pfam; PF00233; PDEase_I; 1.
+DR   PRINTS; PR00387; PDIESTERASE1.
+DR   SMART; SM00065; GAF; 2.
+DR   SMART; SM00471; HDc; 1.
+DR   PROSITE; PS00126; PDEASE_I_1; 1.
+DR   PROSITE; PS51845; PDEASE_I_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; cGMP; Hydrolase; Lipoprotein; Membrane; Metal-binding;
+KW   Methylation; Prenylation; Repeat.
+FT   CHAIN           1..1128
+FT                   /note="cGMP-specific 3',5'-cyclic phosphodiesterase"
+FT                   /id="PRO_0000363686"
+FT   PROPEP          1129..1131
+FT                   /note="Removed in mature form"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9VFI9"
+FT                   /id="PRO_0000363687"
+FT   DOMAIN          255..412
+FT                   /note="GAF 1"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          444..625
+FT                   /note="GAF 2"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          655..978
+FT                   /note="PDEase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01192"
+FT   ACT_SITE        731
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   METAL           735
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           771
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           772
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           772
+FT                   /note="Divalent metal cation 2"
+FT                   /evidence="ECO:0000250"
+FT   METAL           882
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         1128
+FT                   /note="Cysteine methyl ester"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9VFI9"
+FT   LIPID           1128
+FT                   /note="S-farnesyl cysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9VFI9"
+SQ   SEQUENCE   1131 AA;  125578 MW;  D63B518C430CAE35 CRC64;
+     MTDVSSPAGG AASPVEMATS SSSAATTLTN GANKTAISTA AGVAPGAVPG PGSAAIPASS
+     SSGNQVKLEH HHRQSNNNRP AATNRSSETK LRSPAGESDG ASRLMTPAGS SSTPSQSPSP
+     SQSPSQASIQ TQTSQQDRLA KASTTASQQD VDEVARLFEE KPEAFEKWLT ERAPPEALSR
+     LQEFIENRKP HKRPSVTSDL FQQWMAASPT VQQKSPRSLS NSSASSIPEC RRHLMDLDEG
+     ELFMELIRDV ANELDIDVLC HKILVNVGLL THADRGSLFL AKGTPTNKYL VAKLFDVTQK
+     TALKDAVTRA SAEEIIIPFG IGIAGMVAQT KQMINIKEAY KDARFNCEID LKTGYKTNAI
+     LCMPICNYEG DIIGVAQIIN KTNGGCFKGC MEFDEHDVEI FRRYLTFCGI GIQNAQLFEM
+     SVQEYRRNQI LLNLARSIFE EQNNLECLVT KIMTEARELL KCERCSVFLV DLDCCEASHL
+     EKIIEKPNQP ATRAIKSADS FEEKKMRNRF TVLFELGGEY QAANVSRPSV SELSSSTLAQ
+     IAQFVATTGQ TVNICDVIEW VRDHNQIRAE DEIDSTQAIL CMPIMNAQKK VIGVAQLINK
+     ANGVPFTDSD ASIFEAFAIF CGLGIHNTQM YENACKLMAK QKVALECLSY HATASQDQTE
+     KLTQDVIAEA ESYNLYSFTF TDFELVDDDT CRAVLRMFMQ CNLVSQFQIP YDVLCRWVLS
+     VRKNYRPVKY HNWRHALNVA QTMFAMLKTG KMERFMTDLE ILGLLVACLC HDLDHRGTNN
+     AFQTKTESPL AILYTTSTME HHHFDQCVMI LNSEGNNIFQ ALSPEDYRSV MKTVESAILS
+     TDLAMYFKKR NAFLELVENG EFDWQGEEKK DLLCGMMMTA CDVSAIAKPW EVQHKVAKLV
+     ADEFFDQGDL EKLQLNTQPV AMMDRERKDE LPKMQVGFID VICLPLYRVL CDTFPWITPL
+     YEGTLENRRN WQDLAEKVEM GLTWIDHDTI DKPVEEFAAC ADEEIKDIEF TVTTLNCNQQ
+     SQHGSEDSHT PEHQRSGSRL SMKKTGALGK AVRSKLSKTL YNSMDGSKPK TSLKLLESHV
+     SEDMDDKSPT SPSQPQASGS MGRMSASSST SSAGGQMVDK SKKRSKLCAL L
+//

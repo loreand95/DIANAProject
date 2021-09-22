@@ -1,0 +1,88 @@
+ID   ISPD_TRIV2              Reviewed;         228 AA.
+AC   Q3MAF5;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2005, sequence version 1.
+DT   02-DEC-2020, entry version 87.
+DE   RecName: Full=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase {ECO:0000255|HAMAP-Rule:MF_00108};
+DE            EC=2.7.7.60 {ECO:0000255|HAMAP-Rule:MF_00108};
+DE   AltName: Full=4-diphosphocytidyl-2C-methyl-D-erythritol synthase {ECO:0000255|HAMAP-Rule:MF_00108};
+DE   AltName: Full=MEP cytidylyltransferase {ECO:0000255|HAMAP-Rule:MF_00108};
+DE            Short=MCT {ECO:0000255|HAMAP-Rule:MF_00108};
+GN   Name=ispD {ECO:0000255|HAMAP-Rule:MF_00108}; OrderedLocusNames=Ava_2414;
+OS   Trichormus variabilis (strain ATCC 29413 / PCC 7937) (Anabaena variabilis).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Trichormus.
+OX   NCBI_TaxID=240292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29413 / PCC 7937;
+RX   PubMed=25197444; DOI=10.4056/sigs.3899418;
+RA   Thiel T., Pratte B.S., Zhong J., Goodwin L., Copeland A., Lucas S., Han C.,
+RA   Pitluck S., Land M.L., Kyrpides N.C., Woyke T.;
+RT   "Complete genome sequence of Anabaena variabilis ATCC 29413.";
+RL   Stand. Genomic Sci. 9:562-573(2014).
+CC   -!- FUNCTION: Catalyzes the formation of 4-diphosphocytidyl-2-C-methyl-D-
+CC       erythritol from CTP and 2-C-methyl-D-erythritol 4-phosphate (MEP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00108}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-C-methyl-D-erythritol 4-phosphate + CTP + H(+) = 4-CDP-2-C-
+CC         methyl-D-erythritol + diphosphate; Xref=Rhea:RHEA:13429,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:57823, ChEBI:CHEBI:58262; EC=2.7.7.60;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00108};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 2/6. {ECO:0000255|HAMAP-Rule:MF_00108}.
+CC   -!- SIMILARITY: Belongs to the IspD/TarI cytidylyltransferase family. IspD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00108}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000117; ABA22031.1; -; Genomic_DNA.
+DR   SMR; Q3MAF5; -.
+DR   STRING; 240292.Ava_2414; -.
+DR   EnsemblBacteria; ABA22031; ABA22031; Ava_2414.
+DR   KEGG; ava:Ava_2414; -.
+DR   eggNOG; COG1211; Bacteria.
+DR   HOGENOM; CLU_061281_1_0_3; -.
+DR   OMA; VPGHEEA; -.
+DR   UniPathway; UPA00056; UER00093.
+DR   Proteomes; UP000002533; Chromosome.
+DR   GO; GO:0050518; F:2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02516; CDP-ME_synthetase; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_00108; IspD; 1.
+DR   InterPro; IPR001228; IspD.
+DR   InterPro; IPR034683; IspD/TarI.
+DR   InterPro; IPR018294; ISPD_synthase_CS.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   Pfam; PF01128; IspD; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR00453; ispD; 1.
+DR   PROSITE; PS01295; ISPD; 1.
+PE   3: Inferred from homology;
+KW   Isoprene biosynthesis; Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..228
+FT                   /note="2-C-methyl-D-erythritol 4-phosphate
+FT                   cytidylyltransferase"
+FT                   /id="PRO_0000237768"
+FT   SITE            13
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00108"
+FT   SITE            20
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00108"
+FT   SITE            152
+FT                   /note="Positions MEP for the nucleophilic attack"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00108"
+FT   SITE            208
+FT                   /note="Positions MEP for the nucleophilic attack"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00108"
+SQ   SEQUENCE   228 AA;  24854 MW;  5C5E43365179F7FF CRC64;
+     MYLLIPAAGV GKRMGCDRNK LLLEVRSQPI IAWTLLAAQA ASEISWIGII SQPTDWPDFK
+     SILANLQLTK PVEFILGGST RQESVYNGLQ ALPKAAEQVL IHDGARCLAT PNLLNSCAQA
+     IRHCSGLIAA VPVKDTIKVA DEDGIIQSTP DRRNLWAAQT PQGFNVELLK QCHAEGVRQG
+     WEVTDDAALF EKCGIEVQIV EGEETNLKVT TPQDLAIAEF ILNSRDNS
+//

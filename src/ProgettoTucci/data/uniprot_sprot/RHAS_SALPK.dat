@@ -1,0 +1,89 @@
+ID   RHAS_SALPK              Reviewed;         278 AA.
+AC   B5BJG8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 80.
+DE   RecName: Full=HTH-type transcriptional activator RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+DE   AltName: Full=L-rhamnose operon regulatory protein RhaS {ECO:0000255|HAMAP-Rule:MF_01534};
+GN   Name=rhaS {ECO:0000255|HAMAP-Rule:MF_01534}; OrderedLocusNames=SSPA3619;
+OS   Salmonella paratyphi A (strain AKU_12601).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=554290;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AKU_12601;
+RX   PubMed=19159446; DOI=10.1186/1471-2164-10-36;
+RA   Holt K.E., Thomson N.R., Wain J., Langridge G.C., Hasan R., Bhutta Z.A.,
+RA   Quail M.A., Norbertczak H., Walker D., Simmonds M., White B., Bason N.,
+RA   Mungall K., Dougan G., Parkhill J.;
+RT   "Pseudogene accumulation in the evolutionary histories of Salmonella
+RT   enterica serovars Paratyphi A and Typhi.";
+RL   BMC Genomics 10:36-36(2009).
+CC   -!- FUNCTION: Activates expression of the rhaBAD and rhaT operons.
+CC       {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBUNIT: Binds DNA as a dimer. {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01534}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM200053; CAR61901.1; -; Genomic_DNA.
+DR   RefSeq; WP_000217109.1; NC_011147.1.
+DR   SMR; B5BJG8; -.
+DR   KEGG; sek:SSPA3619; -.
+DR   HOGENOM; CLU_000445_88_5_6; -.
+DR   OMA; GHYPSHW; -.
+DR   BioCyc; SENT554290:G1GIG-4137-MONOMER; -.
+DR   Proteomes; UP000001869; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043565; F:sequence-specific DNA binding; IEA:InterPro.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019299; P:rhamnose metabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01534; HTH_type_RhaS; 1.
+DR   InterPro; IPR003313; AraC-bd.
+DR   InterPro; IPR009057; Homeobox-like_sf.
+DR   InterPro; IPR037923; HTH-like.
+DR   InterPro; IPR018060; HTH_AraC.
+DR   InterPro; IPR018062; HTH_AraC-typ_CS.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR020449; Tscrpt_reg_HTH_AraC-type.
+DR   InterPro; IPR023609; Tscrpt_reg_HTH_RhaS.
+DR   Pfam; PF02311; AraC_binding; 1.
+DR   Pfam; PF12833; HTH_18; 1.
+DR   PRINTS; PR00032; HTHARAC.
+DR   SMART; SM00342; HTH_ARAC; 1.
+DR   SUPFAM; SSF46689; SSF46689; 2.
+DR   SUPFAM; SSF51215; SSF51215; 1.
+DR   PROSITE; PS00041; HTH_ARAC_FAMILY_1; 1.
+DR   PROSITE; PS01124; HTH_ARAC_FAMILY_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Cytoplasm; DNA-binding; Repeat; Rhamnose metabolism;
+KW   Transcription; Transcription regulation.
+FT   CHAIN           1..278
+FT                   /note="HTH-type transcriptional activator RhaS"
+FT                   /id="PRO_1000200964"
+FT   DOMAIN          174..272
+FT                   /note="HTH araC/xylS-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01534"
+FT   DNA_BIND        191..212
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01534"
+FT   DNA_BIND        239..262
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01534"
+FT   SITE            241
+FT                   /note="Interaction with sigma-70"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01534"
+FT   SITE            250
+FT                   /note="Interaction with sigma-70"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01534"
+SQ   SEQUENCE   278 AA;  32070 MW;  09F46038D67F4287 CRC64;
+     MTVLHSVDFF PSGKAPVAIE PRLPQAAFPE HHHDFHEIVI VEHGTGIHVF NGQPYTISGG
+     TVCFVRDHDR HLYEHTDNLC LTNVLWRSPD AFQFLAGLDQ LLPQEQDGYY PSHWRVNQSV
+     LQQVRQLVGL MEHAGDGMDA PAVANREILF MQLLVLLRRS SLMEGATNND AKLNQLMAWL
+     EDHFAEEVCW EAVAEQFSLS LRTLHRQLKQ HTGLTPQRYL NRLRLIKARH LLRHSDHSVT
+     EIAYRCGFGD SNHFSTLFRR EFNWSPRDIR QGRDAIIQ
+//

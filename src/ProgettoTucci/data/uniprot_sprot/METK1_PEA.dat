@@ -1,0 +1,144 @@
+ID   METK1_PEA               Reviewed;         366 AA.
+AC   P49612;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   02-DEC-2020, entry version 93.
+DE   RecName: Full=S-adenosylmethionine synthase 1;
+DE            Short=AdoMet synthase 1;
+DE            EC=2.5.1.6 {ECO:0000250|UniProtKB:Q96551};
+DE   AltName: Full=Methionine adenosyltransferase 1;
+DE            Short=MAT 1;
+DE   Flags: Fragment;
+GN   Name=SAMS1;
+OS   Pisum sativum (Garden pea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Fabeae; Pisum.
+OX   NCBI_TaxID=3888;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Alaska; TISSUE=Ovary;
+RX   PubMed=8624412; DOI=10.1007/bf00019014;
+RA   Gomez-Gomez L., Carrasco P.;
+RT   "Hormonal regulation of S-adenosylmethionine synthase transcripts in pea
+RT   ovaries.";
+RL   Plant Mol. Biol. 30:821-832(1996).
+CC   -!- FUNCTION: Catalyzes the formation of S-adenosylmethionine from
+CC       methionine and ATP. The reaction comprises two steps that are both
+CC       catalyzed by the same enzyme: formation of S-adenosylmethionine
+CC       (AdoMet) and triphosphate, and subsequent hydrolysis of the
+CC       triphosphate. {ECO:0000250|UniProtKB:Q96551}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-methionine = diphosphate + phosphate + S-
+CC         adenosyl-L-methionine; Xref=Rhea:RHEA:21080, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:59789; EC=2.5.1.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q96551};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q96551};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q96551};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000250|UniProtKB:Q96551};
+CC       Note=Binds 2 divalent ions per subunit. The metal ions interact
+CC       primarily with the substrate (By similarity). Can utilize magnesium,
+CC       manganese or cobalt (in vitro) (By similarity).
+CC       {ECO:0000250|UniProtKB:P13444, ECO:0000250|UniProtKB:Q96551};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:Q96551};
+CC       Note=Binds 1 potassium ion per subunit. The potassium ion interacts
+CC       primarily with the substrate (By similarity).
+CC       {ECO:0000250|UniProtKB:P13444};
+CC   -!- PATHWAY: Amino-acid biosynthesis; S-adenosyl-L-methionine biosynthesis;
+CC       S-adenosyl-L-methionine from L-methionine: step 1/1.
+CC       {ECO:0000250|UniProtKB:Q96551}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the AdoMet synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X82076; CAA57580.1; -; mRNA.
+DR   EMBL; L36680; AAA58772.1; ALT_SEQ; mRNA.
+DR   PIR; S66351; S66351.
+DR   PIR; T06592; T06592.
+DR   SMR; P49612; -.
+DR   UniPathway; UPA00315; UER00080.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004478; F:methionine adenosyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006556; P:S-adenosylmethionine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR022631; ADOMET_SYNTHASE_CS.
+DR   InterPro; IPR022630; S-AdoMet_synt_C.
+DR   InterPro; IPR022629; S-AdoMet_synt_central.
+DR   InterPro; IPR022628; S-AdoMet_synt_N.
+DR   InterPro; IPR002133; S-AdoMet_synthetase.
+DR   InterPro; IPR022636; S-AdoMet_synthetase_sfam.
+DR   PANTHER; PTHR11964; PTHR11964; 1.
+DR   Pfam; PF02773; S-AdoMet_synt_C; 1.
+DR   Pfam; PF02772; S-AdoMet_synt_M; 1.
+DR   Pfam; PF00438; S-AdoMet_synt_N; 1.
+DR   PIRSF; PIRSF000497; MAT; 1.
+DR   SUPFAM; SSF55973; SSF55973; 3.
+DR   TIGRFAMs; TIGR01034; metK; 1.
+DR   PROSITE; PS00376; ADOMET_SYNTHASE_1; 1.
+DR   PROSITE; PS00377; ADOMET_SYNTHASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Cobalt; Cytoplasm; Magnesium; Metal-binding;
+KW   Nucleotide-binding; One-carbon metabolism; Potassium; Transferase.
+FT   CHAIN           <1..366
+FT                   /note="S-adenosylmethionine synthase 1"
+FT                   /id="PRO_0000174472"
+FT   NP_BIND         142..144
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q00266"
+FT   NP_BIND         210..213
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q00266"
+FT   NP_BIND         227..228
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   METAL           18
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         31
+FT                   /note="Methionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         74
+FT                   /note="Methionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         221
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q00266"
+FT   BINDING         221
+FT                   /note="Methionine; shared with neighboring subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         244
+FT                   /note="ATP; via amide nitrogen; shared with neighboring
+FT                   subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         248
+FT                   /note="ATP; shared with neighboring subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   BINDING         252
+FT                   /note="ATP; shared with neighboring subunit"
+FT                   /evidence="ECO:0000250|UniProtKB:P13444"
+FT   BINDING         252
+FT                   /note="Methionine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A817"
+FT   NON_TER         1
+SQ   SEQUENCE   366 AA;  39940 MW;  EDB446F65D407627 CRC64;
+     VAVDACLEQD SDSKVACETC TKTNLVMVFG EITTKANVDY EKIVRNTCRN IGFVSADVGL
+     DADNCKVLVN IEQQSPDIAQ GVHGHFTKKP EEIGAGDQGH MFGYATDETP ELMPLSHVLA
+     TKLGARLTEV RKNGTCAWLR PDGNTQVTVE YYNDKGAMVP IRVHTVLIST QHDETVTNDE
+     IAADLKEHVI KPVIPEKYLD SKTICHLNPS GRFVIGGPHG DAGLTGRKII IDTYGGWGAH
+     GGGAFSGKDP TKVDRRGAYI VRQAAKSIVA SGLARRAIVQ LLRAIGVPEP LSVFVDTYGT
+     GKIPDREILK IVKETFDFRP GMISINLDLL RGGNGRFLKT AAYGHFGRED PDFTWEVVKP
+     LKWEKA
+//

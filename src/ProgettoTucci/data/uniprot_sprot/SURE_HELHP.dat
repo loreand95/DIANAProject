@@ -1,0 +1,91 @@
+ID   SURE_HELHP              Reviewed;         264 AA.
+AC   Q7VJA8;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   02-DEC-2020, entry version 95.
+DE   RecName: Full=5'-nucleotidase SurE {ECO:0000255|HAMAP-Rule:MF_00060};
+DE            EC=3.1.3.5 {ECO:0000255|HAMAP-Rule:MF_00060};
+DE   AltName: Full=Nucleoside 5'-monophosphate phosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00060};
+GN   Name=surE {ECO:0000255|HAMAP-Rule:MF_00060}; OrderedLocusNames=HH_0335;
+OS   Helicobacter hepaticus (strain ATCC 51449 / 3B1).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=235279;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51449 / 3B1;
+RX   PubMed=12810954; DOI=10.1073/pnas.1332093100;
+RA   Suerbaum S., Josenhans C., Sterzenbach T., Drescher B., Brandt P., Bell M.,
+RA   Droege M., Fartmann B., Fischer H.-P., Ge Z., Hoerster A., Holland R.,
+RA   Klein K., Koenig J., Macko L., Mendz G.L., Nyakatura G., Schauer D.B.,
+RA   Shen Z., Weber J., Frosch M., Fox J.G.;
+RT   "The complete genome sequence of the carcinogenic bacterium Helicobacter
+RT   hepaticus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:7901-7906(2003).
+CC   -!- FUNCTION: Nucleotidase that shows phosphatase activity on nucleoside
+CC       5'-monophosphates. {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-phosphate + H2O = a ribonucleoside +
+CC         phosphate; Xref=Rhea:RHEA:12484, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18254, ChEBI:CHEBI:43474, ChEBI:CHEBI:58043; EC=3.1.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00060};
+CC       Note=Binds 1 divalent metal cation per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00060};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   -!- SIMILARITY: Belongs to the SurE nucleotidase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00060}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017125; AAP76932.1; -; Genomic_DNA.
+DR   RefSeq; WP_011115178.1; NC_004917.1.
+DR   SMR; Q7VJA8; -.
+DR   STRING; 235279.HH_0335; -.
+DR   EnsemblBacteria; AAP76932; AAP76932; HH_0335.
+DR   KEGG; hhe:HH_0335; -.
+DR   eggNOG; COG0496; Bacteria.
+DR   HOGENOM; CLU_045192_1_3_7; -.
+DR   OMA; DCVHIAL; -.
+DR   OrthoDB; 1909278at2; -.
+DR   Proteomes; UP000002495; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008253; F:5'-nucleotidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1210.10; -; 1.
+DR   HAMAP; MF_00060; SurE; 1.
+DR   InterPro; IPR030048; SurE.
+DR   InterPro; IPR002828; SurE-like_Pase/nucleotidase.
+DR   InterPro; IPR036523; SurE-like_sf.
+DR   Pfam; PF01975; SurE; 1.
+DR   SUPFAM; SSF64167; SSF64167; 1.
+DR   TIGRFAMs; TIGR00087; surE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN           1..264
+FT                   /note="5'-nucleotidase SurE"
+FT                   /id="PRO_0000111816"
+FT   METAL           9
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           10
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           40
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+FT   METAL           95
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00060"
+SQ   SEQUENCE   264 AA;  29538 MW;  E7AA136E0B2820F9 CRC64;
+     MKRILLTNDD GFDSSGLLAL KDALKDIAHV MVVAPASEKS ACGHGLTLTR PLSFVQLDDD
+     FYKLEDGTPS DCVYLALNTL YKASCKPDLV ISGINLGSNM GEDITYSGTA AGAMEGCIQG
+     VPSIAISQLM PDKNCSKHFD FSLAKECIYK ITQLIFAKGF PLGERKFLNI NIPHIKPKEC
+     KGYKITQMGY RIYADNAHLH RNPRGQEYYW LGLHPLEWEE RNDMPHSYGS DFKATHEHYV
+     SITPIKLDMT SYEDSSSLCE WIQL
+//

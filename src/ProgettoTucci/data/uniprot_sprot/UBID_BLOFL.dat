@@ -1,0 +1,109 @@
+ID   UBID_BLOFL              Reviewed;         499 AA.
+AC   Q7VRJ3;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   02-DEC-2020, entry version 103.
+DE   RecName: Full=3-octaprenyl-4-hydroxybenzoate carboxy-lyase {ECO:0000255|HAMAP-Rule:MF_01636};
+DE            EC=4.1.1.98 {ECO:0000255|HAMAP-Rule:MF_01636};
+DE   AltName: Full=Polyprenyl p-hydroxybenzoate decarboxylase {ECO:0000255|HAMAP-Rule:MF_01636};
+GN   Name=ubiD {ECO:0000255|HAMAP-Rule:MF_01636}; OrderedLocusNames=Bfl620;
+OS   Blochmannia floridanus.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; ant endosymbionts; Candidatus Blochmannia.
+OX   NCBI_TaxID=203907;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=12886019; DOI=10.1073/pnas.1533499100;
+RA   Gil R., Silva F.J., Zientz E., Delmotte F., Gonzalez-Candelas F.,
+RA   Latorre A., Rausell C., Kamerbeek J., Gadau J., Hoelldobler B.,
+RA   van Ham R.C.H.J., Gross R., Moya A.;
+RT   "The genome sequence of Blochmannia floridanus: comparative analysis of
+RT   reduced genomes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:9388-9393(2003).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of 3-octaprenyl-4-hydroxy
+CC       benzoate to 2-octaprenylphenol, an intermediate step in ubiquinone
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01636}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 4-hydroxy-3-all-trans-polyprenylbenzoate + H(+) = a 2-all-
+CC         trans-polyprenylphenol + CO2; Xref=Rhea:RHEA:41680, Rhea:RHEA-
+CC         COMP:9514, Rhea:RHEA-COMP:9516, ChEBI:CHEBI:1269, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:78396; EC=4.1.1.98;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01636};
+CC   -!- COFACTOR:
+CC       Name=prenyl-FMN; Xref=ChEBI:CHEBI:87746;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01636};
+CC       Note=Binds 1 prenylated FMN (prenyl-FMN) per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_01636};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01636};
+CC   -!- PATHWAY: Cofactor biosynthesis; ubiquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01636}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01636}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01636};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01636}.
+CC   -!- SIMILARITY: Belongs to the UbiD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01636}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX248583; CAD83295.1; -; Genomic_DNA.
+DR   RefSeq; WP_011126871.1; NC_005061.1.
+DR   SMR; Q7VRJ3; -.
+DR   STRING; 203907.Bfl620; -.
+DR   PRIDE; Q7VRJ3; -.
+DR   EnsemblBacteria; CAD83295; CAD83295; Bfl620.
+DR   KEGG; bfl:Bfl620; -.
+DR   eggNOG; COG0043; Bacteria.
+DR   HOGENOM; CLU_023348_4_1_6; -.
+DR   OMA; HLDHASY; -.
+DR   OrthoDB; 1012819at2; -.
+DR   BioCyc; CBLO203907:G1GJ5-623-MONOMER; -.
+DR   UniPathway; UPA00232; -.
+DR   Proteomes; UP000002192; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008694; F:3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006744; P:ubiquinone biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01636; UbiD; 1.
+DR   InterPro; IPR002830; UbiD.
+DR   InterPro; IPR023677; UbiD_bacteria.
+DR   PANTHER; PTHR30108; PTHR30108; 1.
+DR   Pfam; PF01977; UbiD; 1.
+DR   TIGRFAMs; TIGR00148; TIGR00148; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Decarboxylase; Flavoprotein; FMN; Lyase; Manganese;
+KW   Membrane; Metal-binding; Reference proteome; Ubiquinone biosynthesis.
+FT   CHAIN           1..499
+FT                   /note="3-octaprenyl-4-hydroxybenzoate carboxy-lyase"
+FT                   /id="PRO_0000267647"
+FT   REGION          176..178
+FT                   /note="Prenyl-FMN binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+FT   REGION          190..192
+FT                   /note="Prenyl-FMN binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+FT   REGION          195..196
+FT                   /note="Prenyl-FMN binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+FT   ACT_SITE        288
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+FT   METAL           173
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+FT   METAL           239
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01636"
+SQ   SEQUENCE   499 AA;  56606 MW;  04D33D352BF6685D CRC64;
+     MTYKDLRNFI KTLEYQGELK KIDFPVDPNL EITEIAHRTL KSQGPALLFT NPIGHSIPIL
+     CNLFGTISRI ELGIGIKNIL SLRDIGKLLA FLKEPQIPTG FRDFLSKIPN FRQILNMPIK
+     HVSNAVCQEN IWNNAQDIDI TQMPIMKSWP GDISIAITWG ITITQGFTNK RQNLGIYRHQ
+     VLSKNKIIIR WLAHRGGALD FQEWYTHSSE KKFPIAIALG ADPATLIGAA IPIPNTLSEY
+     AFSGLLRGSK TAVTKCISSN LYVPAYSEII LEGYINRDDI AVEGPFGDHT GYYNSTEKFP
+     VCTITHITHR NNPIYHSTYT GRPPDEPSIL GMAMNELFIP IIQKQFPEII DFYLPPEGCS
+     YRLAIVTIKK QFLGHAKKII FGVWSCLNQF MYTKFILVCD DDINARDWKD VIWAISTRMD
+     PARDIIIAEN TPIDYLDFSS PISGLGSKMG IDATNKWPGE TQRTWGKPIQ MNNSIQSRIN
+     DIWDQLHIPC NEKPFKHKN
+//

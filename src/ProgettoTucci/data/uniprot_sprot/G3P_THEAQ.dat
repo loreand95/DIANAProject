@@ -1,0 +1,240 @@
+ID   G3P_THEAQ               Reviewed;         331 AA.
+AC   P00361;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 2.
+DT   07-APR-2021, entry version 124.
+DE   RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase {ECO:0000303|PubMed:8611563};
+DE            Short=GAPDH {ECO:0000303|PubMed:8611563};
+DE            EC=1.2.1.12 {ECO:0000250|UniProtKB:P09124};
+DE   AltName: Full=NAD-dependent glyceraldehyde-3-phosphate dehydrogenase {ECO:0000303|PubMed:8611563};
+GN   Name=gap;
+OS   Thermus aquaticus.
+OC   Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus.
+OX   NCBI_TaxID=271;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 25104 / DSM 625 / JCM 10724 / NBRC 103206 / NCIMB 11243 / YT-1;
+RX   PubMed=2602126; DOI=10.1093/nar/17.23.10123;
+RA   Hecht R.M., Garza A., Lee Y.H., Miller M.D., Pisegna M.A.;
+RT   "Nucleotide sequence of the glyceraldehyde-3-phosphate dehydrogenase gene
+RT   from Thermus aquaticus YT1.";
+RL   Nucleic Acids Res. 17:10123-10123(1989).
+RN   [2]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=6773768; DOI=10.1111/j.1432-1033.1980.tb04752.x;
+RA   Hocking J.D., Harris J.I.;
+RT   "D-glyceraldehyde-3-phosphate dehydrogenase. Amino-acid sequence of the
+RT   enzyme from the extreme thermophile Thermus aquaticus.";
+RL   Eur. J. Biochem. 108:567-579(1980).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) IN COMPLEX WITH NAD,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND SUBUNIT.
+RX   PubMed=8611563; DOI=10.1021/bi951988q;
+RA   Tanner J.J., Hecht R.M., Krause K.L.;
+RT   "Determinants of enzyme thermostability observed in the molecular structure
+RT   of Thermus aquaticus D-glyceraldehyde-3-phosphate dehydrogenase at 2.5-A
+RT   resolution.";
+RL   Biochemistry 35:2597-2609(1996).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) IN COMPLEX WITH NAD, AND SUBUNIT.
+RA   Jenkins J.L., Buencamino R., Tanner J.J.;
+RT   "High resolution structures of Thermus aquaticus glyceraldehyde-3-phosphate
+RT   dehydrogenase: role of 220's loop motion in catalysis.";
+RL   Submitted (MAR-2006) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the oxidative phosphorylation of glyceraldehyde 3-
+CC       phosphate (G3P) to 1,3-bisphosphoglycerate (BPG) using the cofactor
+CC       NAD. The first reaction step involves the formation of a hemiacetal
+CC       intermediate between G3P and a cysteine residue, and this hemiacetal
+CC       intermediate is then oxidized to a thioester, with concomitant
+CC       reduction of NAD to NADH. The reduced NADH is then exchanged with the
+CC       second NAD, and the thioester is attacked by a nucleophilic inorganic
+CC       phosphate to produce BPG. {ECO:0000250|UniProtKB:P00362}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + NAD(+) + phosphate = (2R)-3-
+CC         phospho-glyceroyl phosphate + H(+) + NADH; Xref=Rhea:RHEA:10300,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:57945, ChEBI:CHEBI:59776; EC=1.2.1.12;
+CC         Evidence={ECO:0000250|UniProtKB:P09124};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Thermostable. {ECO:0000269|PubMed:8611563};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 1/5. {ECO:0000305}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:8611563, ECO:0000269|Ref.4}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glyceraldehyde-3-phosphate dehydrogenase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X16595; CAA34605.1; -; Genomic_DNA.
+DR   PIR; S06930; DETWG3.
+DR   RefSeq; WP_053768084.1; NZ_LHCI01000106.1.
+DR   PDB; 1CER; X-ray; 2.50 A; A/B/C/D/O/P/Q/R=1-331.
+DR   PDB; 2G82; X-ray; 1.65 A; A/B/C/D/O/P/Q/R=1-331.
+DR   PDBsum; 1CER; -.
+DR   PDBsum; 2G82; -.
+DR   SMR; P00361; -.
+DR   PRIDE; P00361; -.
+DR   UniPathway; UPA00109; UER00184.
+DR   EvolutionaryTrace; P00361; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004365; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity; ISS:UniProtKB.
+DR   GO; GO:0051287; F:NAD binding; IDA:UniProtKB.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR020831; GlycerAld/Erythrose_P_DH.
+DR   InterPro; IPR020830; GlycerAld_3-P_DH_AS.
+DR   InterPro; IPR020829; GlycerAld_3-P_DH_cat.
+DR   InterPro; IPR020828; GlycerAld_3-P_DH_NAD(P)-bd.
+DR   InterPro; IPR006424; Glyceraldehyde-3-P_DH_1.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF02800; Gp_dh_C; 1.
+DR   Pfam; PF00044; Gp_dh_N; 1.
+DR   PIRSF; PIRSF000149; GAP_DH; 1.
+DR   PRINTS; PR00078; G3PDHDRGNASE.
+DR   SMART; SM00846; Gp_dh_N; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR01534; GAPDH-I; 1.
+DR   PROSITE; PS00071; GAPDH; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Direct protein sequencing; Glycolysis; NAD;
+KW   Nucleotide-binding; Oxidoreductase.
+FT   CHAIN           1..331
+FT                   /note="Glyceraldehyde-3-phosphate dehydrogenase"
+FT                   /id="PRO_0000145710"
+FT   NP_BIND         10..11
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:8611563, ECO:0000269|Ref.4"
+FT   REGION          148..150
+FT                   /note="Glyceraldehyde 3-phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P00362"
+FT   REGION          207..208
+FT                   /note="Glyceraldehyde 3-phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P00362"
+FT   ACT_SITE        149
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000305|PubMed:8611563"
+FT   BINDING         31
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:8611563, ECO:0000269|Ref.4"
+FT   BINDING         75
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000269|Ref.4"
+FT   BINDING         117
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|Ref.4"
+FT   BINDING         179
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00362"
+FT   BINDING         180
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|Ref.4"
+FT   BINDING         194
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00362"
+FT   BINDING         230
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00362"
+FT   BINDING         311
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000269|PubMed:8611563, ECO:0000269|Ref.4"
+FT   SITE            176
+FT                   /note="Activates thiol group during catalysis"
+FT                   /evidence="ECO:0000305|PubMed:8611563"
+FT   CONFLICT        34..35
+FT                   /note="DN -> ND (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        127
+FT                   /note="I -> L (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          2..6
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           10..22
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          26..30
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           35..43
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            46..48
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          55..57
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          59..64
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          67..72
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           77..79
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            82..86
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          87..92
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          94..96
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           100..103
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           105..108
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          112..118
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          124..126
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            129..131
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           133..135
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            138..140
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          143..145
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           149..164
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          167..177
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          182..186
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            192..195
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           198..200
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          203..205
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           209..213
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            214..216
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           218..220
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          223..232
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          237..247
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           251..263
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   TURN            264..269
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          270..273
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           279..282
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          288..292
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           293..295
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          297..299
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   STRAND          302..309
+FT                   /evidence="ECO:0007744|PDB:2G82"
+FT   HELIX           313..329
+FT                   /evidence="ECO:0007744|PDB:2G82"
+SQ   SEQUENCE   331 AA;  35892 MW;  01946C1AB2A84D3F CRC64;
+     MKVGINGFGR IGRQVFRILH SRGVEVALIN DLTDNKTLAH LLKYDSIYHR FPGEVAYDDQ
+     YLYVDGKAIR ATAVKDPKEI PWAEAGVGVV IESTGVFTDA DKAKAHLEGG AKKVIITAPA
+     KGEDITIVMG VNHEAYDPSR HHIISNASCT TNSLAPVMKV LEEAFGVEKA LMTTVHSYTN
+     DQRLLDLPHK DLRRARAAAI NIIPTTTGAA KATALVLPSL KGRFDGMALR VPTATGSISD
+     ITALLKREVT AEEVNAALKA AAEGPLKGIL AYTEDEIVLQ DIVMDPHSSI VDAKLTKALG
+     NMVKVFAWYD NEWGYANRVA DLVELVLRKG V
+//

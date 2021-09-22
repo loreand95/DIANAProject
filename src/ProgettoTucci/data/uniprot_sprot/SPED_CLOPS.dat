@@ -1,0 +1,124 @@
+ID   SPED_CLOPS              Reviewed;         271 AA.
+AC   Q0SVK9;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=S-adenosylmethionine decarboxylase proenzyme {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            Short=AdoMetDC {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            Short=SAMDC {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            EC=4.1.1.50 {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase beta chain {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase alpha chain {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Flags: Precursor;
+GN   Name=speD {ECO:0000255|HAMAP-Rule:MF_00465}; OrderedLocusNames=CPR_0513;
+OS   Clostridium perfringens (strain SM101 / Type A).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=289380;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SM101 / Type A;
+RX   PubMed=16825665; DOI=10.1101/gr.5238106;
+RA   Myers G.S.A., Rasko D.A., Cheung J.K., Ravel J., Seshadri R., DeBoy R.T.,
+RA   Ren Q., Varga J., Awad M.M., Brinkac L.M., Daugherty S.C., Haft D.H.,
+RA   Dodson R.J., Madupu R., Nelson W.C., Rosovitz M.J., Sullivan S.A.,
+RA   Khouri H., Dimitrov G.I., Watkins K.L., Mulligan S., Benton J., Radune D.,
+RA   Fisher D.J., Atkins H.S., Hiscox T., Jost B.H., Billington S.J.,
+RA   Songer J.G., McClane B.A., Titball R.W., Rood J.I., Melville S.B.,
+RA   Paulsen I.T.;
+RT   "Skewed genomic variability in strains of the toxigenic bacterial pathogen,
+RT   Clostridium perfringens.";
+RL   Genome Res. 16:1031-1040(2006).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of S-adenosylmethionine to S-
+CC       adenosylmethioninamine (dcAdoMet), the propylamine donor required for
+CC       the synthesis of the polyamines spermine and spermidine from the
+CC       diamine putrescine. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + S-adenosyl-L-methionine = CO2 + S-adenosyl 3-
+CC         (methylsulfanyl)propylamine; Xref=Rhea:RHEA:15981, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57443, ChEBI:CHEBI:59789; EC=4.1.1.50;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00465};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00465};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00465};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; S-adenosylmethioninamine
+CC       biosynthesis; S-adenosylmethioninamine from S-adenosyl-L-methionine:
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- SUBUNIT: Heterooctamer of four alpha and four beta chains arranged as a
+CC       tetramer of alpha/beta heterodimers. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme. Formation of
+CC       the active enzyme involves a self-maturation process in which the
+CC       active site pyruvoyl group is generated from an internal serine residue
+CC       via an autocatalytic post-translational modification. Two non-identical
+CC       subunits are generated from the proenzyme in this reaction, and the
+CC       pyruvate is formed at the N-terminus of the alpha chain, which is
+CC       derived from the carboxyl end of the proenzyme. The post-translation
+CC       cleavage follows an unusual pathway, termed non-hydrolytic serinolysis,
+CC       in which the side chain hydroxyl group of the serine supplies its
+CC       oxygen atom to form the C-terminus of the beta chain, while the
+CC       remainder of the serine residue undergoes an oxidative deamination to
+CC       produce ammonia and the pyruvoyl group blocking the N-terminus of the
+CC       alpha chain. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic AdoMetDC family. Type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000312; ABG85383.1; -; Genomic_DNA.
+DR   EnsemblBacteria; ABG85383; ABG85383; CPR_0513.
+DR   KEGG; cpr:CPR_0513; -.
+DR   OMA; HVTVHTY; -.
+DR   UniPathway; UPA00331; UER00451.
+DR   Proteomes; UP000001824; Chromosome.
+DR   GO; GO:0004014; F:adenosylmethionine decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006557; P:S-adenosylmethioninamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00465; AdoMetDC_2; 1.
+DR   InterPro; IPR003826; AdoMetDC_fam_prok.
+DR   InterPro; IPR009165; S-AdoMet_deCO2ase_bac.
+DR   InterPro; IPR016067; S-AdoMet_deCO2ase_core.
+DR   PANTHER; PTHR33866; PTHR33866; 1.
+DR   Pfam; PF02675; AdoMet_dc; 1.
+DR   PIRSF; PIRSF001356; SAM_decarboxylas; 1.
+DR   SUPFAM; SSF56276; SSF56276; 1.
+DR   TIGRFAMs; TIGR03331; SAM_DCase_Eco; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; Decarboxylase; Lyase; Polyamine biosynthesis;
+KW   Pyruvate; S-adenosyl-L-methionine; Schiff base; Spermidine biosynthesis;
+KW   Zymogen.
+FT   CHAIN           1..120
+FT                   /note="S-adenosylmethionine decarboxylase beta chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT                   /id="PRO_0000364367"
+FT   CHAIN           121..271
+FT                   /note="S-adenosylmethionine decarboxylase alpha chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT                   /id="PRO_0000364368"
+FT   ACT_SITE        121
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   ACT_SITE        126
+FT                   /note="Proton acceptor; for processing activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   ACT_SITE        149
+FT                   /note="Proton donor; for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   SITE            120..121
+FT                   /note="Cleavage (non-hydrolytic); by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   MOD_RES         121
+FT                   /note="Pyruvic acid (Ser); by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+SQ   SEQUENCE   271 AA;  31352 MW;  B3D0A0EF768418B0 CRC64;
+     MLGLKEKICL YGFNNLTKTL SFNIYDICYA KTEREKEDYI KYIDEQYNSE RLTKILCDVT
+     EMIGAHVLNI SKQDYEPQGA SVNVLITEEA LPVALIDPSC NKGELSYLEL RDSVVGHLDK
+     SHLTVHTYPE FHPNNDIISF RVDIDVSTCG KISPLNALDY LIGSFDSDVI TIDYRVRGFT
+     RDVDGRKCYI DHDIKSIQDY IDEETLKKYD AMDVNVYQSN IFHTKMMLKD IGLNNYLFNS
+     DPYELSPNDR REIRDRISKE MIEIYGGVNI Y
+//

@@ -1,0 +1,124 @@
+ID   TRPD_PSEAB              Reviewed;         349 AA.
+AC   Q02TB6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   10-FEB-2021, entry version 77.
+DE   RecName: Full=Anthranilate phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00211};
+DE            EC=2.4.2.18 {ECO:0000255|HAMAP-Rule:MF_00211};
+GN   Name=trpD {ECO:0000255|HAMAP-Rule:MF_00211}; OrderedLocusNames=PA14_08350;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L., Grills G.,
+RA   Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+CC   -!- FUNCTION: Catalyzes the transfer of the phosphoribosyl group of 5-
+CC       phosphorylribose-1-pyrophosphate (PRPP) to anthranilate to yield N-(5'-
+CC       phosphoribosyl)-anthranilate (PRA). {ECO:0000255|HAMAP-Rule:MF_00211}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + N-(5-phospho-beta-D-ribosyl)anthranilate = 5-
+CC         phospho-alpha-D-ribose 1-diphosphate + anthranilate;
+CC         Xref=Rhea:RHEA:11768, ChEBI:CHEBI:16567, ChEBI:CHEBI:18277,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017; EC=2.4.2.18;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00211};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00211};
+CC       Note=Binds 2 magnesium ions per monomer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00211};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 2/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_00211}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00211}.
+CC   -!- SIMILARITY: Belongs to the anthranilate phosphoribosyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00211}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ15611.1; -; Genomic_DNA.
+DR   RefSeq; WP_003085203.1; NZ_CP034244.1.
+DR   SMR; Q02TB6; -.
+DR   PRIDE; Q02TB6; -.
+DR   EnsemblBacteria; ABJ15611; ABJ15611; PA14_08350.
+DR   KEGG; pau:PA14_08350; -.
+DR   HOGENOM; CLU_034315_2_1_6; -.
+DR   OMA; LYHQSFK; -.
+DR   BioCyc; PAER208963:G1G74-691-MONOMER; -.
+DR   UniPathway; UPA00035; UER00041.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0004048; F:anthranilate phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.970.10; -; 1.
+DR   Gene3D; 3.40.1030.10; -; 1.
+DR   HAMAP; MF_00211; TrpD; 1.
+DR   InterPro; IPR005940; Anthranilate_Pribosyl_Tfrase.
+DR   InterPro; IPR000312; Glycosyl_Trfase_fam3.
+DR   InterPro; IPR017459; Glycosyl_Trfase_fam3_N_dom.
+DR   InterPro; IPR036320; Glycosyl_Trfase_fam3_N_dom)sf.
+DR   InterPro; IPR035902; Nuc_phospho_transferase.
+DR   Pfam; PF02885; Glycos_trans_3N; 1.
+DR   Pfam; PF00591; Glycos_transf_3; 1.
+DR   SUPFAM; SSF47648; SSF47648; 1.
+DR   SUPFAM; SSF52418; SSF52418; 1.
+DR   TIGRFAMs; TIGR01245; trpD; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis;
+KW   Glycosyltransferase; Magnesium; Metal-binding; Transferase;
+KW   Tryptophan biosynthesis.
+FT   CHAIN           1..349
+FT                   /note="Anthranilate phosphoribosyltransferase"
+FT                   /id="PRO_1000043048"
+FT   REGION          85..86
+FT                   /note="Phosphoribosylpyrophosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   REGION          92..95
+FT                   /note="Phosphoribosylpyrophosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   REGION          110..118
+FT                   /note="Phosphoribosylpyrophosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   METAL           94
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   METAL           227
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   METAL           228
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   METAL           228
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   BINDING         82
+FT                   /note="Anthranilate 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   BINDING         82
+FT                   /note="Phosphoribosylpyrophosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   BINDING         113
+FT                   /note="Anthranilate 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   BINDING         122
+FT                   /note="Phosphoribosylpyrophosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+FT   BINDING         168
+FT                   /note="Anthranilate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00211"
+SQ   SEQUENCE   349 AA;  37384 MW;  CAC05F684969BA4B CRC64;
+     MDIKGALNRI VNQLDLTTEE MQAVMRQIMT GQCTDAQIGA FLMGMRMKSE TIDEIVGAVA
+     VMRELADGVQ LPTLKHVVDV VGTGGDGANI FNVSSAASFV VAAAGGKVAK HGNRAVSGKS
+     GSADLLEAAG IYLELTSEQV ARCIDTVGVG FMFAQVHHKA MKYAAGPRRE LGLRTLFNML
+     GPLTNPAGVR HQVVGVFTQE LCKPLAEVLK RLGSEHVLVV HSRDGLDEFS LAAATHIAEL
+     KDGEVREYEV RPEDFGIKSQ TLMGLEVDSP QASLELIRDA LGRRKTEAGQ KAAELIVMNA
+     GPALYAADLA TSLHEGIQLA HDALHTGLAR EKMDELVAFT AVYREENAQ
+//

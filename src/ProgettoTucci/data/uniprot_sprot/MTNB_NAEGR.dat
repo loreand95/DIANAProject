@@ -1,0 +1,98 @@
+ID   MTNB_NAEGR              Reviewed;         240 AA.
+AC   D2VN51;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 1.
+DT   07-APR-2021, entry version 55.
+DE   RecName: Full=Probable methylthioribulose-1-phosphate dehydratase {ECO:0000255|HAMAP-Rule:MF_03116};
+DE            Short=MTRu-1-P dehydratase {ECO:0000255|HAMAP-Rule:MF_03116};
+DE            EC=4.2.1.109 {ECO:0000255|HAMAP-Rule:MF_03116};
+GN   ORFNames=NAEGRDRAFT_70372;
+OS   Naegleria gruberi (Amoeba).
+OC   Eukaryota; Discoba; Heterolobosea; Tetramitia; Eutetramitia;
+OC   Vahlkampfiidae; Naegleria.
+OX   NCBI_TaxID=5762;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 30224 / NEG-M;
+RX   PubMed=20211133; DOI=10.1016/j.cell.2010.01.032;
+RA   Fritz-Laylin L.K., Prochnik S.E., Ginger M.L., Dacks J.B., Carpenter M.L.,
+RA   Field M.C., Kuo A., Paredez A., Chapman J., Pham J., Shu S., Neupane R.,
+RA   Cipriano M., Mancuso J., Tu H., Salamov A., Lindquist E., Shapiro H.,
+RA   Lucas S., Grigoriev I.V., Cande W.Z., Fulton C., Rokhsar D.S., Dawson S.C.;
+RT   "The genome of Naegleria gruberi illuminates early eukaryotic
+RT   versatility.";
+RL   Cell 140:631-642(2010).
+CC   -!- FUNCTION: Catalyzes the dehydration of methylthioribulose-1-phosphate
+CC       (MTRu-1-P) into 2,3-diketo-5-methylthiopentyl-1-phosphate (DK-MTP-1-P).
+CC       {ECO:0000255|HAMAP-Rule:MF_03116}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5-thio-D-ribulose 1-phosphate = 5-methylsulfanyl-2,3-
+CC         dioxopentyl phosphate + H2O; Xref=Rhea:RHEA:15549, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58548, ChEBI:CHEBI:58828; EC=4.2.1.109;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03116};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03116};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03116};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; L-methionine from S-methyl-5-thio-alpha-D-ribose 1-phosphate:
+CC       step 2/6. {ECO:0000255|HAMAP-Rule:MF_03116}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03116}.
+CC   -!- SIMILARITY: Belongs to the aldolase class II family. MtnB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_03116}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GG738884; EFC41682.1; -; Genomic_DNA.
+DR   SMR; D2VN51; -.
+DR   STRING; 5762.XP_002674426.1; -.
+DR   EnsemblProtists; EFC41682; EFC41682; NAEGRDRAFT_70372.
+DR   VEuPathDB; AmoebaDB:NAEGRDRAFT_70372; -.
+DR   eggNOG; KOG2631; Eukaryota.
+DR   InParanoid; D2VN51; -.
+DR   UniPathway; UPA00904; UER00875.
+DR   Proteomes; UP000006671; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046570; F:methylthioribulose 1-phosphate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.225.10; -; 1.
+DR   HAMAP; MF_03116; Salvage_MtnB_euk; 1.
+DR   InterPro; IPR001303; Aldolase_II/adducin_N.
+DR   InterPro; IPR036409; Aldolase_II/adducin_N_sf.
+DR   InterPro; IPR017714; MethylthioRu-1-P_deHdtase_MtnB.
+DR   InterPro; IPR027514; Salvage_MtnB_euk.
+DR   PANTHER; PTHR10640; PTHR10640; 1.
+DR   Pfam; PF00596; Aldolase_II; 1.
+DR   SMART; SM01007; Aldolase_II; 1.
+DR   SUPFAM; SSF53639; SSF53639; 1.
+DR   TIGRFAMs; TIGR03328; salvage_mtnB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Lyase; Metal-binding;
+KW   Methionine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..240
+FT                   /note="Probable methylthioribulose-1-phosphate dehydratase"
+FT                   /id="PRO_0000393859"
+FT   ACT_SITE        150
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03116"
+FT   METAL           127
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03116"
+FT   METAL           129
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03116"
+FT   METAL           200
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03116"
+FT   BINDING         109
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03116"
+SQ   SEQUENCE   240 AA;  27164 MW;  A2EBEBA42D5D22C1 CRC64;
+     MSQQSTAVKV FDHTQLNDTH TPQQVIVELM KLYYTQGWVS GTGGGISMKK DGKIYIAPSG
+     IHKERIKEDQ IFVMEQDPEV QVVDIQSCQH LKTVYSPNDN GYNFKISACQ PLFQLCYDVR
+     GAGAVIHSHA LSAMLATLIY DKEFKVTHLE MIKGIRGHGF YDELVVPIIE NTAFENELAG
+     SLKEALEKYP NTFAVLVKRH GVYIWGKDWV EAKTHAEVYH YLFDCAVRMK QLGFDASSKQ
+//

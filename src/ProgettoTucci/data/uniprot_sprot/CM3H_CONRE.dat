@@ -1,0 +1,76 @@
+ID   CM3H_CONRE              Reviewed;          52 AA.
+AC   A0A2I6EDL4;
+DT   18-JUL-2018, integrated into UniProtKB/Swiss-Prot.
+DT   28-MAR-2018, sequence version 1.
+DT   10-FEB-2021, entry version 7.
+DE   RecName: Full=Conotoxin reg3h {ECO:0000303|PubMed:29283511};
+DE   AltName: Full=Reg3.3 {ECO:0000303|PubMed:29283511};
+DE            Short=Rg3.3 {ECO:0000312|EMBL:AUJ88061.1};
+DE   Flags: Precursor; Fragment;
+OS   Conus regius (Crown cone).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Stephanoconus.
+OX   NCBI_TaxID=101314;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 34-52, MASS SPECTROMETRY,
+RP   SUBCELLULAR LOCATION, HYDROXYLATION AT PRO-38; PRO-48 AND PRO-51, AND
+RP   AMIDATION AT ASN-52.
+RC   TISSUE=Venom, and Venom duct;
+RX   PubMed=29283511; DOI=10.1111/febs.14372;
+RA   Franco A., Dovell S., Moller C., Grandal M., Clark E., Mari F.;
+RT   "Structural plasticity of Mini-M conotoxins: expression of all mini-M
+RT   subtypes by Conus regius.";
+RL   FEBS J. 285:887-902(2017).
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:29283511}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:29283511}.
+CC   -!- DOMAIN: The cysteine framework is III (CC-C-C-CC). Classified in the M-
+CC       1 branch, since 1 residue stands between the fourth and the fifth
+CC       cysteine residues. {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=2111.8; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:29283511};
+CC   -!- SIMILARITY: Belongs to the conotoxin M superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; MF588937; AUJ88061.1; -; mRNA.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Amidation; Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Disulfide bond; Hydroxylation; Secreted; Signal; Toxin.
+FT   SIGNAL          <1..1
+FT                   /evidence="ECO:0000305"
+FT   PROPEP          2..33
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT                   /id="PRO_0000444764"
+FT   PEPTIDE         34..52
+FT                   /note="Conotoxin reg3h"
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT                   /id="PRO_0000444765"
+FT   MOD_RES         38
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT   MOD_RES         48
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT   MOD_RES         51
+FT                   /note="4-hydroxyproline"
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT   MOD_RES         52
+FT                   /note="Asparagine amide"
+FT                   /evidence="ECO:0000269|PubMed:29283511"
+FT   DISULFID        35..49
+FT                   /evidence="ECO:0000250|UniProtKB:Q5EHP3"
+FT   DISULFID        36..47
+FT                   /evidence="ECO:0000250|UniProtKB:Q5EHP3"
+FT   DISULFID        41..50
+FT                   /evidence="ECO:0000250|UniProtKB:Q5EHP3"
+FT   NON_TER         1
+FT                   /evidence="ECO:0000312|EMBL:AUJ88061.1"
+FT   NON_TER         52
+FT                   /evidence="ECO:0000312|EMBL:AUJ88061.1"
+SQ   SEQUENCE   52 AA;  5747 MW;  C8321FF1DF2A2AD4 CRC64;
+     ALPLDGDQPA DQPAERMQDI SPELNPLFHP VKRGCCSPWN CIQLRACPCC PN
+//

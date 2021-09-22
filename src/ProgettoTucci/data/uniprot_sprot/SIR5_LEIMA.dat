@@ -1,0 +1,161 @@
+ID   SIR5_LEIMA              Reviewed;         243 AA.
+AC   Q4Q2Y6;
+DT   16-MAY-2012, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   10-FEB-2021, entry version 89.
+DE   RecName: Full=NAD-dependent protein deacylase SIR2rp3 {ECO:0000255|HAMAP-Rule:MF_03160};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_03160};
+DE   AltName: Full=Regulatory protein SIR2 homolog 5 {ECO:0000255|HAMAP-Rule:MF_03160};
+DE   AltName: Full=SIR2-related protein 3;
+GN   Name=SIR2rp3; ORFNames=LMJF_34_2140;
+OS   Leishmania major.
+OC   Eukaryota; Discoba; Euglenozoa; Kinetoplastea; Metakinetoplastina;
+OC   Trypanosomatida; Trypanosomatidae; Leishmaniinae; Leishmania.
+OX   NCBI_TaxID=5664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MHOM/IL/81/Friedlin;
+RX   PubMed=16020728; DOI=10.1126/science.1112680;
+RA   Ivens A.C., Peacock C.S., Worthey E.A., Murphy L., Aggarwal G.,
+RA   Berriman M., Sisk E., Rajandream M.A., Adlem E., Aert R., Anupama A.,
+RA   Apostolou Z., Attipoe P., Bason N., Bauser C., Beck A., Beverley S.M.,
+RA   Bianchettin G., Borzym K., Bothe G., Bruschi C.V., Collins M., Cadag E.,
+RA   Ciarloni L., Clayton C., Coulson R.M.R., Cronin A., Cruz A.K., Davies R.M.,
+RA   De Gaudenzi J., Dobson D.E., Duesterhoeft A., Fazelina G., Fosker N.,
+RA   Frasch A.C., Fraser A., Fuchs M., Gabel C., Goble A., Goffeau A.,
+RA   Harris D., Hertz-Fowler C., Hilbert H., Horn D., Huang Y., Klages S.,
+RA   Knights A., Kube M., Larke N., Litvin L., Lord A., Louie T., Marra M.,
+RA   Masuy D., Matthews K., Michaeli S., Mottram J.C., Mueller-Auer S.,
+RA   Munden H., Nelson S., Norbertczak H., Oliver K., O'neil S., Pentony M.,
+RA   Pohl T.M., Price C., Purnelle B., Quail M.A., Rabbinowitsch E.,
+RA   Reinhardt R., Rieger M., Rinta J., Robben J., Robertson L., Ruiz J.C.,
+RA   Rutter S., Saunders D., Schaefer M., Schein J., Schwartz D.C., Seeger K.,
+RA   Seyler A., Sharp S., Shin H., Sivam D., Squares R., Squares S., Tosato V.,
+RA   Vogt C., Volckaert G., Wambutt R., Warren T., Wedler H., Woodward J.,
+RA   Zhou S., Zimmermann W., Smith D.F., Blackwell J.M., Stuart K.D.,
+RA   Barrell B.G., Myler P.J.;
+RT   "The genome of the kinetoplastid parasite, Leishmania major.";
+RL   Science 309:436-442(2005).
+CC   -!- FUNCTION: NAD-dependent lysine demalonylase, desuccinylase and
+CC       deglutarylase that specifically removes malonyl, succinyl and glutaryl
+CC       groups on target proteins. Has weak NAD-dependent protein deacetylase
+CC       activity; however this activity may not be physiologically relevant in
+CC       vivo. {ECO:0000255|HAMAP-Rule:MF_03160}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-malonyl-L-lysyl-[protein] + NAD(+) = 2''-O-malonyl-
+CC         ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:47672, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:11878,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:87831, ChEBI:CHEBI:87833;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-succinyl-L-lysyl-[protein] + NAD(+) = 2''-O-
+CC         succinyl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:47668, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:11877,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:87830, ChEBI:CHEBI:87832;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03160};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(6)-glutaryl-L-lysyl-[protein] + NAD(+) = 2''-O-
+CC         glutaryl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide;
+CC         Xref=Rhea:RHEA:47664, Rhea:RHEA-COMP:9752, Rhea:RHEA-COMP:11875,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:17154, ChEBI:CHEBI:29969,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:87828, ChEBI:CHEBI:87829;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03160};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03160};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03160};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000255|HAMAP-Rule:MF_03160}.
+CC   -!- DOMAIN: In contrast to class I sirtuins, class III sirtuins have only
+CC       weak deacetylase activity. Difference in substrate specificity is
+CC       probably due to a larger hydrophobic pocket with 2 residues (Tyr-56 and
+CC       Arg-59) that bind to malonylated and succinylated substrates and define
+CC       the specificity. {ECO:0000255|HAMAP-Rule:MF_03160}.
+CC   -!- MISCELLANEOUS: This protein may be expected to contain an N-terminal
+CC       transit peptide but none has been predicted. {ECO:0000255|HAMAP-
+CC       Rule:MF_03160}.
+CC   -!- SIMILARITY: Belongs to the sirtuin family. Class III subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_03160}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FR796430; CAJ07927.1; -; Genomic_DNA.
+DR   RefSeq; XP_001686312.1; XM_001686260.1.
+DR   SMR; Q4Q2Y6; -.
+DR   STRING; 5664.LmjF.34.2140; -.
+DR   EnsemblProtists; CAJ07927; CAJ07927; LMJF_34_2140.
+DR   GeneDB; LmjF.34.2140:pep; -.
+DR   GeneID; 5654981; -.
+DR   KEGG; lma:LMJF_34_2140; -.
+DR   VEuPathDB; TriTrypDB:LmjF.34.2140; -.
+DR   eggNOG; KOG2684; Eukaryota.
+DR   HOGENOM; CLU_023643_3_1_1; -.
+DR   InParanoid; Q4Q2Y6; -.
+DR   Proteomes; UP000000542; Chromosome 34.
+DR   GO; GO:0005739; C:mitochondrion; ISO:GeneDB.
+DR   GO; GO:0070403; F:NAD+ binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0034979; F:NAD-dependent protein deacetylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061697; F:protein-glutaryllysine deglutarylase activity; IBA:GO_Central.
+DR   GO; GO:0036054; F:protein-malonyllysine demalonylase activity; IBA:GO_Central.
+DR   GO; GO:0036055; F:protein-succinyllysine desuccinylase activity; IBA:GO_Central.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036047; P:peptidyl-lysine demalonylation; IBA:GO_Central.
+DR   GO; GO:0036049; P:peptidyl-lysine desuccinylation; IBA:GO_Central.
+DR   GO; GO:0010608; P:posttranscriptional regulation of gene expression; ISO:GeneDB.
+DR   GO; GO:0061698; P:protein deglutarylation; IBA:GO_Central.
+DR   CDD; cd01412; SIRT5_Af1_CobB; 1.
+DR   Gene3D; 3.30.1600.10; -; 1.
+DR   HAMAP; MF_01121; Sirtuin_ClassIII; 1.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR003000; Sirtuin.
+DR   InterPro; IPR026591; Sirtuin_cat_small_dom_sf.
+DR   InterPro; IPR027546; Sirtuin_class_III.
+DR   InterPro; IPR026590; Ssirtuin_cat_dom.
+DR   Pfam; PF02146; SIR2; 1.
+DR   SUPFAM; SSF52467; SSF52467; 1.
+DR   PROSITE; PS50305; SIRTUIN; 1.
+PE   3: Inferred from homology;
+KW   Metal-binding; Mitochondrion; NAD; Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..243
+FT                   /note="NAD-dependent protein deacylase SIR2rp3"
+FT                   /id="PRO_0000417425"
+FT   DOMAIN          1..241
+FT                   /note="Deacetylase sirtuin-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   NP_BIND         12..31
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   NP_BIND         95..98
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   NP_BIND         181..183
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   ACT_SITE        113
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   METAL           121
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   METAL           141
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   BINDING         56
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   BINDING         59
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+FT   BINDING         225
+FT                   /note="NAD; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03160"
+SQ   SEQUENCE   243 AA;  26775 MW;  BADA279EEA864ACD CRC64;
+     MKACRCITIL TGAGISAESG ISTFRDSNGL WCNHHVEDVA SPDAFIRNPA LVQLFYNERR
+     RNLLLSSVKP NKAHTALAKL EEELSGKGKV FIVTQNVDNL HERAGSKNVL HMHGELLKAR
+     CTATGNVFEW QKDIVGDVDR CPDCGFLGTL RPHIVWFGEM PLCMDEIESI LSTTDLFVAI
+     GTSGNVYPAA GFVKRAQFYG ATTLELNLQE GSNSTLFQES IYGKASSIVP TWVDQVLKES
+     LKK
+//

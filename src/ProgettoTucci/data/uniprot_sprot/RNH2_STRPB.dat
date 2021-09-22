@@ -1,0 +1,88 @@
+ID   RNH2_STRPB              Reviewed;         263 AA.
+AC   Q1JBP9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=Ribonuclease HII {ECO:0000255|HAMAP-Rule:MF_00052};
+DE            Short=RNase HII {ECO:0000255|HAMAP-Rule:MF_00052};
+DE            EC=3.1.26.4 {ECO:0000255|HAMAP-Rule:MF_00052};
+GN   Name=rnhB {ECO:0000255|HAMAP-Rule:MF_00052};
+GN   OrderedLocusNames=MGAS2096_Spy0957;
+OS   Streptococcus pyogenes serotype M12 (strain MGAS2096).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=370553;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MGAS2096;
+RX   PubMed=16636287; DOI=10.1073/pnas.0510279103;
+RA   Beres S.B., Richter E.W., Nagiec M.J., Sumby P., Porcella S.F., DeLeo F.R.,
+RA   Musser J.M.;
+RT   "Molecular genetic anatomy of inter- and intraserotype variation in the
+RT   human bacterial pathogen group A Streptococcus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:7059-7064(2006).
+CC   -!- FUNCTION: Endonuclease that specifically degrades the RNA of RNA-DNA
+CC       hybrids. {ECO:0000255|HAMAP-Rule:MF_00052}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00052};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00052};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00052};
+CC       Note=Manganese or magnesium. Binds 1 divalent metal ion per monomer in
+CC       the absence of substrate. May bind a second metal ion after substrate
+CC       binding. {ECO:0000255|HAMAP-Rule:MF_00052};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00052}.
+CC   -!- SIMILARITY: Belongs to the RNase HII family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00052}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000261; ABF36009.1; -; Genomic_DNA.
+DR   RefSeq; WP_002989771.1; NC_008023.1.
+DR   SMR; Q1JBP9; -.
+DR   KEGG; spj:MGAS2096_Spy0957; -.
+DR   HOGENOM; CLU_036532_2_1_9; -.
+DR   OMA; NILHASM; -.
+DR   BioCyc; SPYO370553:G1G62-918-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006401; P:RNA catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07182; RNase_HII_bacteria_HII_like; 1.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00052_B; RNase_HII_B; 1.
+DR   InterPro; IPR022898; RNase_HII.
+DR   InterPro; IPR001352; RNase_HII/HIII.
+DR   InterPro; IPR024567; RNase_HII/HIII_dom.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   PANTHER; PTHR10954; PTHR10954; 1.
+DR   PANTHER; PTHR10954:SF18; PTHR10954:SF18; 1.
+DR   Pfam; PF01351; RNase_HII; 1.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Endonuclease; Hydrolase; Manganese; Metal-binding; Nuclease.
+FT   CHAIN           1..263
+FT                   /note="Ribonuclease HII"
+FT                   /id="PRO_1000031211"
+FT   METAL           77
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+FT   METAL           78
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+FT   METAL           172
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00052"
+SQ   SEQUENCE   263 AA;  28712 MW;  E39B537ED8327D6A CRC64;
+     MSTSIKAIKE SLEAVTSLLD PLFQELATDT RSGVQKALKS RQKAIQAELA EEERLEAMLS
+     YEKALYKKGY QAIAGIDEVG RGPLAGPVVA ACVILPKYCK IKGLNDSKKI PKSKHETIYQ
+     AVKEKALAIG IGIIDNQLID EVNIYEATKL AMLEAIKQLE SQLTQPDYLL IDAMTLDIAI
+     SQQSILKGDA NSLSIAAASI VAKVTRDQMM ANYDRIFPGY GFAKNAGYGT KEHLQGLKAY
+     GITPIHRKSF EPVKSMCCDS TNP
+//

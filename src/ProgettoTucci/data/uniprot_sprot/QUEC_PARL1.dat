@@ -1,0 +1,100 @@
+ID   QUEC_PARL1              Reviewed;         236 AA.
+AC   A7HXX1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633}; OrderedLocusNames=Plav_3148;
+OS   Parvibaculum lavamentivorans (strain DS-1 / DSM 13023 / NCIMB 13966).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhodobiaceae;
+OC   Parvibaculum.
+OX   NCBI_TaxID=402881;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DS-1 / DSM 13023 / NCIMB 13966;
+RX   PubMed=22675581; DOI=10.4056/sigs.2215005;
+RA   Schleheck D., Weiss M., Pitluck S., Bruce D., Land M.L., Han S.,
+RA   Saunders E., Tapia R., Detter C., Brettin T., Han J., Woyke T., Goodwin L.,
+RA   Pennacchio L., Nolan M., Cook A.M., Kjelleberg S., Thomas T.;
+RT   "Complete genome sequence of Parvibaculum lavamentivorans type strain (DS-
+RT   1(T)).";
+RL   Stand. Genomic Sci. 5:298-310(2011).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + ATP + NH4(+) = 7-cyano-7-
+CC         deazaguanine + ADP + H(+) + H2O + phosphate; Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000774; ABS64754.1; -; Genomic_DNA.
+DR   RefSeq; WP_012112076.1; NC_009719.1.
+DR   SMR; A7HXX1; -.
+DR   STRING; 402881.Plav_3148; -.
+DR   EnsemblBacteria; ABS64754; ABS64754; Plav_3148.
+DR   KEGG; pla:Plav_3148; -.
+DR   eggNOG; COG0603; Bacteria.
+DR   HOGENOM; CLU_081854_0_0_5; -.
+DR   OMA; CESCMRR; -.
+DR   OrthoDB; 1681374at2; -.
+DR   BioCyc; PLAV402881:G1G9L-3212-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000006377; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR42914; PTHR42914; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..236
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_0000336927"
+FT   NP_BIND         13..23
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           200
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           215
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           218
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           221
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   236 AA;  25573 MW;  FA1364336757A128 CRC64;
+     MATTEKTKAL VLFSGGQDST VCLASVLARY DEVETVGFDY GQAHAVELGC RAKLRDALTR
+     FPGWGAKLGP DHMIALPELG RISETALTRD VEIEMGENGL PTTFVPGRNL LFFTYAAALG
+     YRRGASVIVG GMCETDYSGY PDCRADTIAA LERAICLGMD RAFTLETPLM RIDKAATWAL
+     AHELGGDALV DLIIEETHSC YRGDRSKRHD WGYGCGTCPA CELRARGYTA YLAGKA
+//

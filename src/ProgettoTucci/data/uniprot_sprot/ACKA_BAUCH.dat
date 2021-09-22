@@ -1,0 +1,120 @@
+ID   ACKA_BAUCH              Reviewed;         400 AA.
+AC   Q1LT88;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Acetate kinase {ECO:0000255|HAMAP-Rule:MF_00020};
+DE            EC=2.7.2.1 {ECO:0000255|HAMAP-Rule:MF_00020};
+DE   AltName: Full=Acetokinase {ECO:0000255|HAMAP-Rule:MF_00020};
+GN   Name=ackA {ECO:0000255|HAMAP-Rule:MF_00020}; OrderedLocusNames=BCI_0382;
+OS   Baumannia cicadellinicola subsp. Homalodisca coagulata.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Candidatus Baumannia.
+OX   NCBI_TaxID=374463;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16729848; DOI=10.1371/journal.pbio.0040188;
+RA   Wu D., Daugherty S.C., Van Aken S.E., Pai G.H., Watkins K.L., Khouri H.,
+RA   Tallon L.J., Zaborsky J.M., Dunbar H.E., Tran P.L., Moran N.A., Eisen J.A.;
+RT   "Metabolic complementarity and genomics of the dual bacterial symbiosis of
+RT   sharpshooters.";
+RL   PLoS Biol. 4:1079-1092(2006).
+CC   -!- FUNCTION: Catalyzes the formation of acetyl phosphate from acetate and
+CC       ATP. Can also catalyze the reverse reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetate + ATP = acetyl phosphate + ADP; Xref=Rhea:RHEA:11352,
+CC         ChEBI:CHEBI:22191, ChEBI:CHEBI:30089, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456216; EC=2.7.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00020};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00020};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00020};
+CC       Note=Mg(2+). Can also accept Mn(2+). {ECO:0000255|HAMAP-Rule:MF_00020};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; acetyl-CoA biosynthesis;
+CC       acetyl-CoA from acetate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SIMILARITY: Belongs to the acetokinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000238; ABF14191.1; -; Genomic_DNA.
+DR   RefSeq; WP_011520559.1; NC_007984.1.
+DR   SMR; Q1LT88; -.
+DR   PRIDE; Q1LT88; -.
+DR   EnsemblBacteria; ABF14191; ABF14191; BCI_0382.
+DR   KEGG; bci:BCI_0382; -.
+DR   HOGENOM; CLU_020352_0_1_6; -.
+DR   OMA; KIITCHI; -.
+DR   OrthoDB; 537106at2; -.
+DR   BioCyc; BCIC374463:G1G5N-384-MONOMER; -.
+DR   UniPathway; UPA00340; UER00458.
+DR   Proteomes; UP000002427; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008776; F:acetate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006085; P:acetyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006082; P:organic acid metabolic process; IEA:InterPro.
+DR   HAMAP; MF_00020; Acetate_kinase; 1.
+DR   InterPro; IPR004372; Ac/propionate_kinase.
+DR   InterPro; IPR000890; Aliphatic_acid_kin_short-chain.
+DR   InterPro; IPR023865; Aliphatic_acid_kinase_CS.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   PANTHER; PTHR21060; PTHR21060; 1.
+DR   Pfam; PF00871; Acetate_kinase; 1.
+DR   PIRSF; PIRSF000722; Acetate_prop_kin; 1.
+DR   PRINTS; PR00471; ACETATEKNASE.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR00016; ackA; 1.
+DR   PROSITE; PS01075; ACETATE_KINASE_1; 1.
+DR   PROSITE; PS01076; ACETATE_KINASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..400
+FT                   /note="Acetate kinase"
+FT                   /id="PRO_1000002211"
+FT   NP_BIND         210..214
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   NP_BIND         285..287
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   NP_BIND         333..337
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   ACT_SITE        150
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   METAL           10
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   METAL           387
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         91
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            182
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            243
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+SQ   SEQUENCE   400 AA;  44291 MW;  D55699336FF33D0F CRC64;
+     MSNKLVLVLN CGSSSLKFAI INPVNGEKHL FGQAECLNLP NAQIKWNLNG IQYDTELSSG
+     STHDEALNFI EKNIYNQQPE LLSQLTAIGH RIVHGRDYFT QSVIINDEVI KKIQGSIPFA
+     PLHNPANLIG IYKAKKFFPK LASKNVAVFD TAFHQTMPEQ SYLYALPYDL YQKNGIRRYG
+     AHGISHYYVT HEAAKLLNKP VEKINLITCH LGSGGSISAI YHGQCIDTSM GLTPLEGLVM
+     GTRSGDIDPA IIFHMYDILG MSIQQIYTLL TKKSGILGLT GVTSDCRYIE DNYIDKEDAR
+     RTINVYCHRL AKYIGAYSTL MDEVLDAVIF TGGIGENAAI VRQLTLSKLT LLGFQIDQNR
+     NFAARFGTSG KITTDNSRPA LVIPTNEELV IAQDTARLTA
+//

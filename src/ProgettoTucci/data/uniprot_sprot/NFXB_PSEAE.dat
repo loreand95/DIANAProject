@@ -1,0 +1,95 @@
+ID   NFXB_PSEAE              Reviewed;         187 AA.
+AC   P32265;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   08-DEC-2000, sequence version 2.
+DT   10-FEB-2021, entry version 129.
+DE   RecName: Full=HTH-type transcriptional regulator NfxB;
+GN   Name=nfxB; OrderedLocusNames=PA4600;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM
+OS   14847 / LMG 12228 / 1C / PRS 101 / PAO1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=PAO;
+RX   PubMed=1330820; DOI=10.1016/0378-1097(92)90386-3;
+RA   Okazaki T., Hirai K.;
+RT   "Cloning and nucleotide sequence of the Pseudomonas aeruginosa nfxB gene,
+RT   conferring resistance to new quinolones.";
+RL   FEMS Microbiol. Lett. 76:197-202(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C /
+RC   PRS 101 / PAO1;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T., Reizer J.,
+RA   Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic
+RT   pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Confers resistance to guinolones. May negatively regulate the
+CC       expression of genes that are associated with cell permeability to
+CC       drugs.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X65646; CAA46598.1; -; Genomic_DNA.
+DR   EMBL; AE004091; AAG07988.1; -; Genomic_DNA.
+DR   PIR; B83070; B83070.
+DR   PIR; S21466; S21466.
+DR   RefSeq; NP_253290.1; NC_002516.2.
+DR   RefSeq; WP_003094842.1; NZ_QZGE01000004.1.
+DR   SMR; P32265; -.
+DR   PaxDb; P32265; -.
+DR   PRIDE; P32265; -.
+DR   DNASU; 881079; -.
+DR   EnsemblBacteria; AAG07988; AAG07988; PA4600.
+DR   GeneID; 881079; -.
+DR   KEGG; pae:PA4600; -.
+DR   PATRIC; fig|208964.12.peg.4815; -.
+DR   PseudoCAP; PA4600; -.
+DR   HOGENOM; CLU_069356_38_3_6; -.
+DR   InParanoid; P32265; -.
+DR   OMA; FTHMIVE; -.
+DR   PhylomeDB; P32265; -.
+DR   BioCyc; PAER208964:G1FZ6-4694-MONOMER; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0032993; C:protein-DNA complex; IPI:CollecTF.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IBA:GO_Central.
+DR   GO; GO:0001217; F:DNA-binding transcription repressor activity; IPI:CollecTF.
+DR   GO; GO:0000976; F:transcription regulatory region sequence-specific DNA binding; IDA:PseudoCAP.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IMP:PseudoCAP.
+DR   GO; GO:0032410; P:negative regulation of transporter activity; IMP:PseudoCAP.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IBA:GO_Central.
+DR   InterPro; IPR009057; Homeobox-like_sf.
+DR   InterPro; IPR036271; Tet_transcr_reg_TetR-rel_C_sf.
+DR   SUPFAM; SSF46689; SSF46689; 1.
+DR   SUPFAM; SSF48498; SSF48498; 1.
+DR   PROSITE; PS00356; HTH_LACI_1; 1.
+PE   4: Predicted;
+KW   DNA-binding; Reference proteome; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..187
+FT                   /note="HTH-type transcriptional regulator NfxB"
+FT                   /id="PRO_0000108013"
+FT   DNA_BIND        26..45
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         42
+FT                   /note="R -> G (in mutant nfx13E; loss of DNA binding and
+FT                   regulator activity)"
+FT   CONFLICT        124
+FT                   /note="A -> E (in Ref. 1; CAA46598)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   187 AA;  21077 MW;  FB8C6C1D14AFACAD CRC64;
+     MTLISHDERL IKALAVAIVD RPRATLKELA EAAGVSKATL HRFCGTRDNL VQMLEDHGET
+     VLNQIIQACD LEHAEPLEAL QRLIKEHLTH RELLVFLVFQ YRPDFLDPHG EGARWQSYLE
+     ALDAFFLRGQ QKGVFRIDIT AAVFTELFIT LVYGMVDAER RGRAASSNSA HTLEQMFLHG
+     ASNPARS
+//

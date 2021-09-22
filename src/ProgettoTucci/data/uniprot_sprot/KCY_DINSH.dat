@@ -1,0 +1,85 @@
+ID   KCY_DINSH               Reviewed;         212 AA.
+AC   A8LSF1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   04-DEC-2007, sequence version 1.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=Cytidylate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CK {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            EC=2.7.4.25 {ECO:0000255|HAMAP-Rule:MF_00238};
+DE   AltName: Full=Cytidine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CMP kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   Name=cmk {ECO:0000255|HAMAP-Rule:MF_00238}; OrderedLocusNames=Dshi_1023;
+OS   Dinoroseobacter shibae (strain DSM 16493 / NCIMB 14021 / DFL 12).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Dinoroseobacter.
+OX   NCBI_TaxID=398580;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 16493 / NCIMB 14021 / DFL 12;
+RX   PubMed=19741735; DOI=10.1038/ismej.2009.94;
+RA   Wagner-Dobler I., Ballhausen B., Berger M., Brinkhoff T., Buchholz I.,
+RA   Bunk B., Cypionka H., Daniel R., Drepper T., Gerdts G., Hahnke S., Han C.,
+RA   Jahn D., Kalhoefer D., Kiss H., Klenk H.P., Kyrpides N., Liebl W.,
+RA   Liesegang H., Meincke L., Pati A., Petersen J., Piekarski T.,
+RA   Pommerenke C., Pradella S., Pukall R., Rabus R., Stackebrandt E., Thole S.,
+RA   Thompson L., Tielen P., Tomasch J., von Jan M., Wanphrut N., Wichels A.,
+RA   Zech H., Simon M.;
+RT   "The complete genome sequence of the algal symbiont Dinoroseobacter shibae:
+RT   a hitchhiker's guide to life in the sea.";
+RL   ISME J. 4:61-77(2010).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CMP = ADP + CDP; Xref=Rhea:RHEA:11600,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58069, ChEBI:CHEBI:60377,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dCMP = ADP + dCDP; Xref=Rhea:RHEA:25094,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57566, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   -!- SIMILARITY: Belongs to the cytidylate kinase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000830; ABV92765.1; -; Genomic_DNA.
+DR   RefSeq; WP_012177696.1; NC_009952.1.
+DR   SMR; A8LSF1; -.
+DR   STRING; 398580.Dshi_1023; -.
+DR   EnsemblBacteria; ABV92765; ABV92765; Dshi_1023.
+DR   KEGG; dsh:Dshi_1023; -.
+DR   eggNOG; COG0283; Bacteria.
+DR   HOGENOM; CLU_079959_0_1_5; -.
+DR   OMA; RAITWWM; -.
+DR   OrthoDB; 776861at2; -.
+DR   BioCyc; DSHI398580:G1GA2-1054-MONOMER; -.
+DR   Proteomes; UP000006833; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036430; F:CMP kinase activity; IEA:RHEA.
+DR   GO; GO:0036431; F:dCMP kinase activity; IEA:RHEA.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02020; CMPK; 1.
+DR   HAMAP; MF_00238; Cytidyl_kinase_type1; 1.
+DR   InterPro; IPR003136; Cytidylate_kin.
+DR   InterPro; IPR011994; Cytidylate_kinase_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF02224; Cytidylate_kin; 2.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..212
+FT                   /note="Cytidylate kinase"
+FT                   /id="PRO_1000078337"
+FT   NP_BIND         9..17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00238"
+SQ   SEQUENCE   212 AA;  22338 MW;  0B4ECBB58538F574 CRC64;
+     MNFAIAIDGP AAAGKGTIGR AMAAHFGFPH MDTGLLYRAV GRRVLSGMPA LEAARALTPE
+     DLQADGLRTA EVGQAASQVA ALPQVRAALL DFQRAFAQRA GGAILDGRDI GTVICPDAAV
+     KLFVTASDDV RAQRRHAELI SKGADLTLEA VLADLQARDA RDMQRADAPL KPAEDAMVLD
+     TSRLSIDEAV EKAIALATAR MAAREFSPIR PN
+//

@@ -1,0 +1,84 @@
+ID   GCSH_BACC1              Reviewed;         127 AA.
+AC   Q72Y91;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 98.
+DE   RecName: Full=Glycine cleavage system H protein {ECO:0000255|HAMAP-Rule:MF_00272};
+DE   AltName: Full=Octanoyl/lipoyl carrier protein {ECO:0000255|HAMAP-Rule:MF_00272};
+GN   Name=gcvH {ECO:0000255|HAMAP-Rule:MF_00272}; OrderedLocusNames=BCE_5130;
+OS   Bacillus cereus (strain ATCC 10987 / NRS 248).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=222523;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10987 / NRS 248;
+RX   PubMed=14960714; DOI=10.1093/nar/gkh258;
+RA   Rasko D.A., Ravel J., Oekstad O.A., Helgason E., Cer R.Z., Jiang L.,
+RA   Shores K.A., Fouts D.E., Tourasse N.J., Angiuoli S.V., Kolonay J.F.,
+RA   Nelson W.C., Kolstoe A.-B., Fraser C.M., Read T.D.;
+RT   "The genome sequence of Bacillus cereus ATCC 10987 reveals metabolic
+RT   adaptations and a large plasmid related to Bacillus anthracis pXO1.";
+RL   Nucleic Acids Res. 32:977-988(2004).
+CC   -!- FUNCTION: The glycine cleavage system catalyzes the degradation of
+CC       glycine. The H protein shuttles the methylamine group of glycine from
+CC       the P protein to the T protein. {ECO:0000255|HAMAP-Rule:MF_00272}.
+CC   -!- FUNCTION: Is also involved in protein lipoylation via its role as an
+CC       octanoyl/lipoyl carrier protein intermediate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00272}.
+CC   -!- COFACTOR:
+CC       Name=(R)-lipoate; Xref=ChEBI:CHEBI:83088;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00272};
+CC       Note=Binds 1 lipoyl cofactor covalently. {ECO:0000255|HAMAP-
+CC       Rule:MF_00272};
+CC   -!- SUBUNIT: The glycine cleavage system is composed of four proteins: P,
+CC       T, L and H. {ECO:0000255|HAMAP-Rule:MF_00272}.
+CC   -!- SIMILARITY: Belongs to the GcvH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00272}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017194; AAS44031.1; -; Genomic_DNA.
+DR   RefSeq; WP_000026900.1; NC_003909.8.
+DR   SMR; Q72Y91; -.
+DR   EnsemblBacteria; AAS44031; AAS44031; BCE_5130.
+DR   GeneID; 59157125; -.
+DR   KEGG; bca:BCE_5130; -.
+DR   HOGENOM; CLU_097408_2_2_9; -.
+DR   OMA; YRDSHEW; -.
+DR   BioCyc; BCER222523:G1G0J-5100-MONOMER; -.
+DR   Proteomes; UP000002527; Chromosome.
+DR   GO; GO:0005960; C:glycine cleavage complex; IEA:InterPro.
+DR   GO; GO:0019464; P:glycine decarboxylation via glycine cleavage system; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009249; P:protein lipoylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd06848; GCS_H; 1.
+DR   HAMAP; MF_00272; GcvH; 1.
+DR   InterPro; IPR003016; 2-oxoA_DH_lipoyl-BS.
+DR   InterPro; IPR000089; Biotin_lipoyl.
+DR   InterPro; IPR002930; GCV_H.
+DR   InterPro; IPR033753; GCV_H/Fam206.
+DR   InterPro; IPR017453; GCV_H_sub.
+DR   InterPro; IPR011053; Single_hybrid_motif.
+DR   PANTHER; PTHR11715; PTHR11715; 1.
+DR   Pfam; PF01597; GCV_H; 1.
+DR   SUPFAM; SSF51230; SSF51230; 1.
+DR   TIGRFAMs; TIGR00527; gcvH; 1.
+DR   PROSITE; PS50968; BIOTINYL_LIPOYL; 1.
+DR   PROSITE; PS00189; LIPOYL; 1.
+PE   3: Inferred from homology;
+KW   Lipoyl.
+FT   CHAIN           1..127
+FT                   /note="Glycine cleavage system H protein"
+FT                   /id="PRO_0000302347"
+FT   DOMAIN          22..104
+FT                   /note="Lipoyl-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01066"
+FT   MOD_RES         63
+FT                   /note="N6-lipoyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00272"
+SQ   SEQUENCE   127 AA;  14018 MW;  42D2AA7ED4A210D9 CRC64;
+     MSIPNNLRYS EEHEWVKTEG NEVVIGITHF AQSELGDIVF VELPEVGATI EADEPFGSVE
+     SVKTVSELYA PVSGKVVAVN EELSDQPELV NESPYEGAWM VKVELSDASQ VEKLLTAEKY
+     AEMTNQD
+//

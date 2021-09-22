@@ -1,0 +1,113 @@
+ID   PEPT_SHIDS              Reviewed;         408 AA.
+AC   Q32EY5;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   10-FEB-2021, entry version 90.
+DE   RecName: Full=Peptidase T {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            EC=3.4.11.4 {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Aminotripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            Short=Tripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Tripeptide aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+GN   Name=pepT {ECO:0000255|HAMAP-Rule:MF_00550}; OrderedLocusNames=SDY_2025;
+OS   Shigella dysenteriae serotype 1 (strain Sd197).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300267;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sd197;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: Cleaves the N-terminal amino acid of tripeptides.
+CC       {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of the N-terminal residue from a tripeptide.;
+CC         EC=3.4.11.4; Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20B family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000034; ABB62120.1; -; Genomic_DNA.
+DR   RefSeq; WP_000359446.1; NC_007606.1.
+DR   RefSeq; YP_403611.1; NC_007606.1.
+DR   SMR; Q32EY5; -.
+DR   MEROPS; M20.003; -.
+DR   EnsemblBacteria; ABB62120; ABB62120; SDY_2025.
+DR   GeneID; 58461245; -.
+DR   KEGG; sdy:SDY_2025; -.
+DR   PATRIC; fig|300267.13.peg.2438; -.
+DR   HOGENOM; CLU_053676_0_0_6; -.
+DR   OMA; GHNFHGK; -.
+DR   BioCyc; SDYS300267:G1G4A-2293-MONOMER; -.
+DR   Proteomes; UP000002716; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0045148; F:tripeptide aminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043171; P:peptide catabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00550; Aminopeptidase_M20; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR010161; Peptidase_M20B.
+DR   PANTHER; PTHR42994:SF1; PTHR42994:SF1; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF037215; Peptidase_M20B; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01882; peptidase-T; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Reference proteome; Zinc.
+FT   CHAIN           1..408
+FT                   /note="Peptidase T"
+FT                   /id="PRO_0000274019"
+FT   ACT_SITE        80
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   ACT_SITE        173
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           78
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           140
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           140
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           174
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           196
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           379
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+SQ   SEQUENCE   408 AA;  44909 MW;  35744B1DF4CC1DA2 CRC64;
+     MDKLLERFLN YVSLDTQSKA GVRQVPSTEG QWKLLHLLKE QLEEMGLINV TLSEKGTLMA
+     TLPANVPGDI PAIGFISHVD TSPDCSGKNV NPQIVENYRG GDIALGIGDE VLSPVMFPVL
+     HQLLGQTLIT TDGKTLLGAD DKAGIAEIMT ALAVLQQKNI PHGDIRVAFT PDEEVGKGAK
+     HFDVDAFDAR WAYTVDGGGV GELEFENFNA ASVNIKIVGN NVHPGTAKGV MVNALSLAAR
+     IHAEVPADES PEMTEGYEGF YHLASMKGTV ERADMHYIIR DFDRKQFEAR KRKMMEIAKK
+     VGKGLHPDCY IELVIEDSYY NMREKVVEHP HILDIAQQAM RDCDIEPELK PIRGGTDGAQ
+     LSFMGLPCPN LFTGGYNYHG KHEFVTLEGM EKAVQVIVRI AELTAQRK
+//

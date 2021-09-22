@@ -1,0 +1,94 @@
+ID   PHNC_DESAG              Reviewed;         275 AA.
+AC   Q30W28;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 102.
+DE   RecName: Full=Phosphonates import ATP-binding protein PhnC {ECO:0000255|HAMAP-Rule:MF_01713};
+DE            EC=7.3.2.2 {ECO:0000255|HAMAP-Rule:MF_01713};
+GN   Name=phnC {ECO:0000255|HAMAP-Rule:MF_01713}; OrderedLocusNames=Dde_3324;
+OS   Desulfovibrio alaskensis (strain G20) (Desulfovibrio desulfuricans (strain
+OS   G20)).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+OC   Desulfovibrionaceae; Desulfovibrio.
+OX   NCBI_TaxID=207559;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=G20;
+RX   PubMed=21685289; DOI=10.1128/jb.05400-11;
+RA   Hauser L.J., Land M.L., Brown S.D., Larimer F., Keller K.L.,
+RA   Rapp-Giles B.J., Price M.N., Lin M., Bruce D.C., Detter J.C., Tapia R.,
+RA   Han C.S., Goodwin L.A., Cheng J.F., Pitluck S., Copeland A., Lucas S.,
+RA   Nolan M., Lapidus A.L., Palumbo A.V., Wall J.D.;
+RT   "Complete genome sequence and updated annotation of Desulfovibrio
+RT   alaskensis G20.";
+RL   J. Bacteriol. 193:4268-4269(2011).
+CC   -!- FUNCTION: Part of the ABC transporter complex PhnCDE involved in
+CC       phosphonates import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + phosphonate(out) = ADP + H(+) + phosphate +
+CC         phosphonate(in); Xref=Rhea:RHEA:18065, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16215, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.3.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01713};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (PhnC),
+CC       two transmembrane proteins (PhnE) and a solute-binding protein (PhnD).
+CC       {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01713}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01713}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Phosphonates
+CC       importer (TC 3.A.1.9.1) family. {ECO:0000255|HAMAP-Rule:MF_01713}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000112; ABB40118.1; -; Genomic_DNA.
+DR   RefSeq; WP_011369050.1; NC_007519.1.
+DR   SMR; Q30W28; -.
+DR   STRING; 207559.Dde_3324; -.
+DR   EnsemblBacteria; ABB40118; ABB40118; Dde_3324.
+DR   KEGG; dde:Dde_3324; -.
+DR   eggNOG; COG3638; Bacteria.
+DR   HOGENOM; CLU_000604_1_22_7; -.
+DR   OMA; GRMPRWR; -.
+DR   OrthoDB; 1181903at2; -.
+DR   BioCyc; DALA207559:G1G52-3110-MONOMER; -.
+DR   Proteomes; UP000002710; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015416; F:ABC-type phosphonate transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   CDD; cd03256; ABC_PhnC_transporter; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR012693; ABC_transpr_PhnC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR02315; ABC_phnC; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51249; PHNC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Phosphonate transport; Reference proteome; Translocase;
+KW   Transport.
+FT   CHAIN           1..275
+FT                   /note="Phosphonates import ATP-binding protein PhnC"
+FT                   /id="PRO_0000274710"
+FT   DOMAIN          16..264
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01713"
+FT   NP_BIND         49..56
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01713"
+SQ   SEQUENCE   275 AA;  30617 MW;  BD45AA2481E9AAC1 CRC64;
+     MHNTTRPAAR LPVPAIRAHQ LNKIYPNGTR AVSDVSLTVH TNEFVSVIGS SGAGKSSLLR
+     CINRLIRPTS GTLELFGEDI TKISGRHIRQ VRGKVGMIFQ QFNLVRRLSV LENVLVSRLR
+     FNSSFIGHCC TLVRHFSRNE KEFAFECLQQ VGIEHLAFQR ADTLSGGQQQ RVAIARALAQ
+     EPEIFLADEP IASLDPHSAE VVMDTLMQIH ETRHIPVLVN LHHIDFATRY GKRIVGMRKG
+     KIIHDVPPSC LTDDLITDIY GARINEAFGE LAACA
+//

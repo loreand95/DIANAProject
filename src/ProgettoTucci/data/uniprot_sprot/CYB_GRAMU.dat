@@ -1,0 +1,136 @@
+ID   CYB_GRAMU               Reviewed;         379 AA.
+AC   Q9ZZT5;
+DT   21-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   07-OCT-2020, entry version 84.
+DE   RecName: Full=Cytochrome b;
+DE   AltName: Full=Complex III subunit 3;
+DE   AltName: Full=Complex III subunit III;
+DE   AltName: Full=Cytochrome b-c1 complex subunit 3;
+DE   AltName: Full=Ubiquinol-cytochrome-c reductase complex cytochrome b subunit;
+GN   Name=MT-CYB; Synonyms=COB, CYTB, MTCYB;
+OS   Graphiurus murinus (African pygmy dormouse) (African woodland dormouse).
+OG   Mitochondrion.
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Sciuromorpha; Gliridae;
+OC   Graphiurinae; Graphiurus.
+OX   NCBI_TaxID=51346;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Isolate E-4976;
+RA   Bentz S., Montgelard C.;
+RT   "Systematic position of the African dormouse Graphiurus (Rodentia,
+RT   Gliridae) assessed from cytochrome b and 12s rRNA mitochondrial genes.";
+RL   J. Mammal. Evol. 6:67-83(1999).
+CC   -!- FUNCTION: Component of the ubiquinol-cytochrome c reductase complex
+CC       (complex III or cytochrome b-c1 complex) that is part of the
+CC       mitochondrial respiratory chain. The b-c1 complex mediates electron
+CC       transfer from ubiquinol to cytochrome c. Contributes to the generation
+CC       of a proton gradient across the mitochondrial membrane that is then
+CC       used for ATP synthesis. {ECO:0000250|UniProtKB:P00157}.
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:P00157};
+CC       Note=Binds 2 heme groups non-covalently.
+CC       {ECO:0000250|UniProtKB:P00157};
+CC   -!- SUBUNIT: The cytochrome bc1 complex contains 11 subunits: 3 respiratory
+CC       subunits (MT-CYB, CYC1 and UQCRFS1), 2 core proteins (UQCRC1 and
+CC       UQCRC2) and 6 low-molecular weight proteins (UQCRH/QCR6, UQCRB/QCR7,
+CC       UQCRQ/QCR8, UQCR10/QCR9, UQCR11/QCR10 and a cleavage product of
+CC       UQCRFS1). This cytochrome bc1 complex then forms a dimer.
+CC       {ECO:0000250|UniProtKB:P00157}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane
+CC       {ECO:0000250|UniProtKB:P00157}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:P00157}.
+CC   -!- MISCELLANEOUS: Heme 1 (or BL or b562) is low-potential and absorbs at
+CC       about 562 nm, and heme 2 (or BH or b566) is high-potential and absorbs
+CC       at about 566 nm. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the cytochrome b family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00967, ECO:0000255|PROSITE-ProRule:PRU00968}.
+CC   -!- CAUTION: The full-length protein contains only eight transmembrane
+CC       helices, not nine as predicted by bioinformatics tools.
+CC       {ECO:0000250|UniProtKB:P00157}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ225115; CAA12402.1; -; Genomic_DNA.
+DR   SMR; Q9ZZT5; -.
+DR   PRIDE; Q9ZZT5; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045275; C:respiratory chain complex III; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008121; F:ubiquinol-cytochrome-c reductase activity; IEA:InterPro.
+DR   GO; GO:0022904; P:respiratory electron transport chain; IEA:InterPro.
+DR   CDD; cd00290; cytochrome_b_C; 1.
+DR   CDD; cd00284; Cytochrome_b_N; 1.
+DR   Gene3D; 1.20.810.10; -; 1.
+DR   InterPro; IPR005798; Cyt_b/b6_C.
+DR   InterPro; IPR036150; Cyt_b/b6_C_sf.
+DR   InterPro; IPR005797; Cyt_b/b6_N.
+DR   InterPro; IPR027387; Cytb/b6-like_sf.
+DR   InterPro; IPR030689; Cytochrome_b.
+DR   InterPro; IPR016174; Di-haem_cyt_TM.
+DR   Pfam; PF00032; Cytochrom_B_C; 1.
+DR   Pfam; PF00033; Cytochrome_B; 1.
+DR   PIRSF; PIRSF038885; COB; 1.
+DR   SUPFAM; SSF81342; SSF81342; 1.
+DR   SUPFAM; SSF81648; SSF81648; 1.
+DR   PROSITE; PS51003; CYTB_CTER; 1.
+DR   PROSITE; PS51002; CYTB_NTER; 1.
+PE   3: Inferred from homology;
+KW   Electron transport; Heme; Iron; Membrane; Metal-binding; Mitochondrion;
+KW   Mitochondrion inner membrane; Respiratory chain; Transmembrane;
+KW   Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..379
+FT                   /note="Cytochrome b"
+FT                   /id="PRO_0000227672"
+FT   TRANSMEM        33..53
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        77..98
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        113..133
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        178..198
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        226..246
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        288..308
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        320..340
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   TRANSMEM        347..367
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   METAL           83
+FT                   /note="Iron 1 (heme b562 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   METAL           97
+FT                   /note="Iron 2 (heme b566 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   METAL           182
+FT                   /note="Iron 1 (heme b562 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   METAL           196
+FT                   /note="Iron 2 (heme b566 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+FT   BINDING         201
+FT                   /note="Ubiquinone"
+FT                   /evidence="ECO:0000250|UniProtKB:P00157"
+SQ   SEQUENCE   379 AA;  42785 MW;  2C8BEB2F1D5449D5 CRC64;
+     MTNIRKSHPL IKILNHSFID LPAPSNISAW WNFGSLLGAC LGIQILTGLF LAMHYTADTA
+     TAFSSVTHIC RDVNYGWLIR YMHANGASMF FICLFLHVGR GLYYGSYMYI ETWNIGIILL
+     FTIMATAFMG YVLPWGQMSF WGATVITNLL SAIPYIGTTL VEWIWGGFSV DKATLTRFFA
+     FHFILPFIIA ALVMVHLLFL HETGSSNPSG INSDADKIPF HPYYTIKDIL GLLLLIFLLM
+     SLVLFSPDLL GDPDNYTPAN PLSTPPHIKP EWYFLFAYAI LRSIPNKLGG VLALILSILI
+     LAIFPLLQLS KQRSMMFRPL SQCLFWILTA DLLTLTWIGG QPVEHPFIII GQLASILYFS
+     IILIFLPMFS LLENKLLKW
+//

@@ -1,0 +1,94 @@
+ID   PENO_PENCR              Reviewed;         450 AA.
+AC   A0A0E3D8N6;
+DT   10-APR-2019, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUN-2015, sequence version 1.
+DT   26-FEB-2020, entry version 16.
+DE   RecName: Full=FAD-linked oxidoreductase penO {ECO:0000303|PubMed:26213965};
+DE            EC=1.1.1.- {ECO:0000305|PubMed:26213965};
+DE   AltName: Full=Penitrem biosynthesis cluster protein O {ECO:0000303|PubMed:26213965};
+GN   Name=penO {ECO:0000303|PubMed:26213965};
+OS   Penicillium crustosum (Blue mold fungus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium.
+OX   NCBI_TaxID=36656;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], IDENTIFICATION, FUNCTION, AND PATHWAY.
+RC   STRAIN=PN2402;
+RX   PubMed=26213965; DOI=10.3390/toxins7082701;
+RA   Nicholson M.J., Eaton C.J., Starkel C., Tapper B.A., Cox M.P., Scott B.;
+RT   "Molecular cloning and functional analysis of gene clusters for the
+RT   biosynthesis of indole-diterpenes in Penicillium crustosum and P.
+RT   janthinellum.";
+RL   Toxins 7:2701-2722(2015).
+CC   -!- FUNCTION: FAD-linked oxidoreductase; part of the gene cluster that
+CC       mediates the biosynthesis of the indole diterpenes penitrems
+CC       (PubMed:26213965). The geranylgeranyl diphosphate (GGPP) synthase penG
+CC       catalyzes the first step in penitrem biosynthesis via conversion of
+CC       farnesyl pyrophosphate and isopentyl pyrophosphate into geranylgeranyl
+CC       pyrophosphate (GGPP) (Probable). Condensation of indole-3-glycerol
+CC       phosphate with GGPP by the prenyl transferase penC then forms 3-
+CC       geranylgeranylindole (3-GGI) (Probable). Epoxidation by the FAD-
+CC       dependent monooxygenase penM leads to a epoxidized-GGI that is
+CC       substrate of the terpene cyclase penB for cyclization to yield
+CC       paspaline (Probable). Paspaline is subsequently converted to 13-
+CC       desoxypaxilline by the cytochrome P450 monooxygenase penP, the latter
+CC       being then converted to paxilline by the cytochrome P450 monooxygenase
+CC       penQ (PubMed:26213965). Paxilline is converted to beta-paxitriol via C-
+CC       10 ketoreduction by the short-chain dehydrogenase PC-15 which can be
+CC       monoprenylated at the C-20 by the indole diterpene prenyltransferase
+CC       penD (Probable). A two-step elimination (acetylation and elimination)
+CC       process performed by the O-acetyltransferase PC-16 and the
+CC       P.simplicissimum ptmI-ortholog not yet identified in P.crustosum, leads
+CC       to the production of the prenylated form of penijanthine (Probable).
+CC       The FAD-linked oxidoreductase ptmO then converts the prenylated form of
+CC       penijanthine into PC-M5 which is in turn transformed into PC-M4 by the
+CC       aromatic dimethylallyltransferase PC-22 (Probable). A series of
+CC       oxidation steps involving 4 cytochrome P450 monooxygenases (PC-21, PC-
+CC       05, PC-23, PC-20) and a FAD-dependent monooxygenase (PC-14) are
+CC       required for the transformation of PC-M4 to penitrems A and E.
+CC       Synthesis of these final products is proposed to proceed via penitrems
+CC       D and C (PC-21, PC-05, PC-14) and penitrems B and F (PC-21, PC-05, PC-
+CC       14, PC-23) (Probable). {ECO:0000269|PubMed:26213965,
+CC       ECO:0000305|PubMed:26213965}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000305};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis.
+CC       {ECO:0000305|PubMed:26213965}.
+CC   -!- SIMILARITY: Belongs to the oxygen-dependent FAD-linked oxidoreductase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KC963408; AGZ20199.1; -; Genomic_DNA.
+DR   SMR; A0A0E3D8N6; -.
+DR   GO; GO:0071949; F:FAD binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.43.10; -; 1.
+DR   Gene3D; 3.30.465.10; -; 1.
+DR   InterPro; IPR016166; FAD-bd_PCMH.
+DR   InterPro; IPR036318; FAD-bd_PCMH-like_sf.
+DR   InterPro; IPR016167; FAD-bd_PCMH_sub1.
+DR   InterPro; IPR016169; FAD-bd_PCMH_sub2.
+DR   InterPro; IPR006094; Oxid_FAD_bind_N.
+DR   Pfam; PF01565; FAD_binding_4; 1.
+DR   SUPFAM; SSF56176; SSF56176; 1.
+DR   PROSITE; PS51387; FAD_PCMH; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Oxidoreductase.
+FT   CHAIN           1..450
+FT                   /note="FAD-linked oxidoreductase penO"
+FT                   /id="PRO_0000446569"
+FT   DOMAIN          32..203
+FT                   /note="FAD-binding PCMH-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00718"
+SQ   SEQUENCE   450 AA;  50312 MW;  D724005851EBF046 CRC64;
+     MKHTLPSALV TLWRDSPGYE SARSRTFNQR VPPELPYAIV KPKNVEQIQQ AVQLAIDLDK
+     QIRIRSGGHS LAGWTLCADS ILIDLVDFMH LEYDATTAIA SASPSATSAQ LNDLLVPHGR
+     FVPVGHCGDV GLGGFFLQGG MGLNCRSYGW ACEYLVGVDL ITADGEYKHC SESENADLFW
+     AARGAGPEFP AIVTRFFIRT RPAAAKHEKS TFIWPVACSD AVVSWILKIL PELHADIEPL
+     VVSTIVPGPN IAAILVQFLV FLGTNETGAE KLEPSLTAMP DGTIMEFKGV STSIQQEYVS
+     QEGTMPRDSR YICDSVWFKD GIDFVAVTRR MFREFPRDRS MVYWEPKYPT SRRKLPDMAF
+     SLQADQYLAL FAIFEDSQQD QEQGIRIQEF IQEIEPYVLG TFAADGVPAV RKTQYWSAEV
+     IERLYSVCQK WDPAHRLGCT LLDPTRKMKS
+//

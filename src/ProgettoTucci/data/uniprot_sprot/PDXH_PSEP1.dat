@@ -1,0 +1,136 @@
+ID   PDXH_PSEP1              Reviewed;         215 AA.
+AC   A5VZL6;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Pyridoxine/pyridoxamine 5'-phosphate oxidase {ECO:0000255|HAMAP-Rule:MF_01629};
+DE            EC=1.4.3.5 {ECO:0000255|HAMAP-Rule:MF_01629};
+DE   AltName: Full=PNP/PMP oxidase {ECO:0000255|HAMAP-Rule:MF_01629};
+DE            Short=PNPOx {ECO:0000255|HAMAP-Rule:MF_01629};
+DE   AltName: Full=Pyridoxal 5'-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_01629};
+GN   Name=pdxH {ECO:0000255|HAMAP-Rule:MF_01629}; OrderedLocusNames=Pput_1165;
+OS   Pseudomonas putida (strain ATCC 700007 / DSM 6899 / BCRC 17059 / F1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=351746;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700007 / DSM 6899 / BCRC 17059 / F1;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chain P., Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Lykidis A., Parales R., Richardson P.;
+RT   "Complete sequence of Pseudomonas putida F1.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the oxidation of either pyridoxine 5'-phosphate
+CC       (PNP) or pyridoxamine 5'-phosphate (PMP) into pyridoxal 5'-phosphate
+CC       (PLP). {ECO:0000255|HAMAP-Rule:MF_01629}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O2 + pyridoxamine 5'-phosphate = H2O2 + NH4(+) +
+CC         pyridoxal 5'-phosphate; Xref=Rhea:RHEA:15817, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:58451, ChEBI:CHEBI:597326; EC=1.4.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01629};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=O2 + pyridoxine 5'-phosphate = H2O2 + pyridoxal 5'-phosphate;
+CC         Xref=Rhea:RHEA:15149, ChEBI:CHEBI:15379, ChEBI:CHEBI:16240,
+CC         ChEBI:CHEBI:58589, ChEBI:CHEBI:597326; EC=1.4.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01629};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01629};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000255|HAMAP-Rule:MF_01629};
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxamine 5'-phosphate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01629}.
+CC   -!- PATHWAY: Cofactor metabolism; pyridoxal 5'-phosphate salvage; pyridoxal
+CC       5'-phosphate from pyridoxine 5'-phosphate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01629}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01629}.
+CC   -!- SIMILARITY: Belongs to the pyridoxamine 5'-phosphate oxidase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01629}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000712; ABQ77326.1; -; Genomic_DNA.
+DR   RefSeq; WP_003254885.1; NC_009512.1.
+DR   SMR; A5VZL6; -.
+DR   STRING; 351746.Pput_1165; -.
+DR   EnsemblBacteria; ABQ77326; ABQ77326; Pput_1165.
+DR   KEGG; ppf:Pput_1165; -.
+DR   eggNOG; COG0259; Bacteria.
+DR   HOGENOM; CLU_032263_2_2_6; -.
+DR   OMA; PEPNAMV; -.
+DR   OrthoDB; 1542844at2; -.
+DR   BioCyc; PPUT351746:G1G90-1221-MONOMER; -.
+DR   UniPathway; UPA01068; UER00304.
+DR   UniPathway; UPA01068; UER00305.
+DR   Proteomes; UP000006553; Chromosome.
+DR   GO; GO:0010181; F:FMN binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004733; F:pyridoxamine-phosphate oxidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008615; P:pyridoxine biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.30.110.10; -; 1.
+DR   HAMAP; MF_01629; PdxH; 1.
+DR   InterPro; IPR000659; Pyridox_Oxase.
+DR   InterPro; IPR019740; Pyridox_Oxase_CS.
+DR   InterPro; IPR011576; Pyridox_Oxase_put.
+DR   InterPro; IPR019576; Pyridoxamine_oxidase_dimer_C.
+DR   InterPro; IPR012349; Split_barrel_FMN-bd.
+DR   PANTHER; PTHR10851; PTHR10851; 1.
+DR   Pfam; PF10590; PNP_phzG_C; 1.
+DR   Pfam; PF01243; Putative_PNPOx; 1.
+DR   PIRSF; PIRSF000190; Pyd_amn-ph_oxd; 1.
+DR   TIGRFAMs; TIGR00558; pdxH; 1.
+DR   PROSITE; PS01064; PYRIDOX_OXIDASE; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein; FMN; Oxidoreductase; Pyridoxine biosynthesis.
+FT   CHAIN           1..215
+FT                   /note="Pyridoxine/pyridoxamine 5'-phosphate oxidase"
+FT                   /id="PRO_1000069699"
+FT   NP_BIND         64..69
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   NP_BIND         79..80
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   NP_BIND         143..144
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   REGION          9..12
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   REGION          194..196
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         69
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         86
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         108
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         126
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         130
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         134
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         188
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+FT   BINDING         198
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01629"
+SQ   SEQUENCE   215 AA;  24537 MW;  AB0C8A38DB61F6B2 CRC64;
+     MTQSLADMRR DYTRDGLAEA QAPGEPFALF HQWFADAVKT EQVPVEANAM TLATVDGEGR
+     PHCRVLLLKG LDEQGFTFFT NYDSAKGQQL QANPFAAMTF FWPALERQVR IEGRVQKVTA
+     QESDAYYQVR PLGSRLGAWA SPQSRVIAGR EELEGLVKAT EARFSDTQPH CPEHWGGYRL
+     LPERIEFWQG RASRLHDRLN YRLVDGQWLR ERLAP
+//

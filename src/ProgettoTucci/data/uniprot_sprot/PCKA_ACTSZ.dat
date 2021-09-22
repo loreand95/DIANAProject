@@ -1,0 +1,277 @@
+ID   PCKA_ACTSZ              Reviewed;         538 AA.
+AC   A6VKV4;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=Phosphoenolpyruvate carboxykinase (ATP) {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PCK {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PEP carboxykinase {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PEPCK {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            EC=4.1.1.49 {ECO:0000255|HAMAP-Rule:MF_00453};
+GN   Name=pckA {ECO:0000255|HAMAP-Rule:MF_00453}; OrderedLocusNames=Asuc_0221;
+OS   Actinobacillus succinogenes (strain ATCC 55618 / DSM 22257 / 130Z).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=339671;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55618 / DSM 22257 / 130Z;
+RX   PubMed=21118570; DOI=10.1186/1471-2164-11-680;
+RA   McKinlay J.B., Laivenieks M., Schindler B.D., McKinlay A.A.,
+RA   Siddaramappa S., Challacombe J.F., Lowry S.R., Clum A., Lapidus A.L.,
+RA   Burkhart K.B., Harkins V., Vieille C.;
+RT   "A genomic perspective on the potential of Actinobacillus succinogenes for
+RT   industrial succinate production.";
+RL   BMC Genomics 11:680-680(2010).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS) IN COMPLEX WITH MANGANESE, SUBSTRATE
+RP   AND ATP ANALOGS, AND COFACTOR.
+RX   PubMed=15983413; DOI=10.1107/s0907444905008723;
+RA   Leduc Y.A., Prasad L., Laivenieks M., Zeikus J.G., Delbaere L.T.;
+RT   "Structure of PEP carboxykinase from the succinate-producing Actinobacillus
+RT   succinogenes: a new conserved active-site motif.";
+RL   Acta Crystallogr. D 61:903-912(2005).
+CC   -!- FUNCTION: Involved in gluconeogenesis. Catalyzes the conversion of
+CC       oxaloacetate (OAA) to phosphoenolpyruvate (PEP) through direct
+CC       phosphoryl transfer between the nucleoside triphosphate and OAA (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + oxaloacetate = ADP + CO2 + phosphoenolpyruvate;
+CC         Xref=Rhea:RHEA:18617, ChEBI:CHEBI:16452, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=4.1.1.49; Evidence={ECO:0000255|HAMAP-Rule:MF_00453};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00453,
+CC         ECO:0000269|PubMed:15983413};
+CC       Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00453,
+CC       ECO:0000269|PubMed:15983413};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- SIMILARITY: Belongs to the phosphoenolpyruvate carboxykinase (ATP)
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000746; ABR73601.1; -; Genomic_DNA.
+DR   RefSeq; WP_011978877.1; NC_009655.1.
+DR   PDB; 1YGG; X-ray; 1.85 A; A=1-538.
+DR   PDB; 1YLH; X-ray; 1.70 A; A=1-538.
+DR   PDBsum; 1YGG; -.
+DR   PDBsum; 1YLH; -.
+DR   SMR; A6VKV4; -.
+DR   STRING; 339671.Asuc_0221; -.
+DR   EnsemblBacteria; ABR73601; ABR73601; Asuc_0221.
+DR   KEGG; asu:Asuc_0221; -.
+DR   eggNOG; COG1866; Bacteria.
+DR   HOGENOM; CLU_018247_0_1_6; -.
+DR   OMA; MRYAGEM; -.
+DR   OrthoDB; 146648at2; -.
+DR   BioCyc; ASUC339671:G1G9D-234-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   EvolutionaryTrace; A6VKV4; -.
+DR   Proteomes; UP000001114; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004612; F:phosphoenolpyruvate carboxykinase (ATP) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd00484; PEPCK_ATP; 1.
+DR   Gene3D; 3.40.449.10; -; 1.
+DR   Gene3D; 3.90.228.20; -; 1.
+DR   HAMAP; MF_00453; PEPCK_ATP; 1.
+DR   InterPro; IPR001272; PEP_carboxykinase_ATP.
+DR   InterPro; IPR013035; PEP_carboxykinase_C.
+DR   InterPro; IPR008210; PEP_carboxykinase_N.
+DR   InterPro; IPR015994; PEPCK_ATP_CS.
+DR   PANTHER; PTHR30031; PTHR30031; 1.
+DR   Pfam; PF01293; PEPCK_ATP; 1.
+DR   PIRSF; PIRSF006294; PEP_crbxkin; 1.
+DR   SUPFAM; SSF68923; SSF68923; 1.
+DR   TIGRFAMs; TIGR00224; pckA; 1.
+DR   PROSITE; PS00532; PEPCK_ATP; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Cytoplasm; Decarboxylase; Gluconeogenesis;
+KW   Lyase; Manganese; Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..538
+FT                   /note="Phosphoenolpyruvate carboxykinase (ATP)"
+FT                   /id="PRO_1000072371"
+FT   NP_BIND         246..254
+FT                   /note="ATP"
+FT   NP_BIND         447..448
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   METAL           211
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453,
+FT                   ECO:0000269|PubMed:15983413"
+FT   METAL           230
+FT                   /note="Manganese; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453,
+FT                   ECO:0000269|PubMed:15983413"
+FT   METAL           267
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453,
+FT                   ECO:0000269|PubMed:15983413"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT   BINDING         152
+FT                   /note="ATP"
+FT   BINDING         205
+FT                   /note="Substrate"
+FT   BINDING         211
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         211
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         230
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         295
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         331
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         331
+FT                   /note="Substrate"
+FT   BINDING         344
+FT                   /note="ATP"
+FT   BINDING         453
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   HELIX           4..13
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          22..25
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           28..36
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           42..44
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          54..56
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          69..72
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            75..80
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          86..88
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          93..95
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           97..110
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          112..114
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          116..123
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            127..129
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          131..138
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           140..149
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           155..159
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          164..170
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            176..182
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          184..186
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          188..192
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            193..196
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          197..202
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           207..223
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          227..230
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          232..236
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          241..245
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           252..255
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          261..271
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          276..279
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          281..286
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            292..294
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           296..301
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          307..310
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          331..335
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           336..338
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          339..342
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          345..348
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          352..359
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          368..371
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           374..383
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          385..388
+FT                   /evidence="ECO:0007744|PDB:1YGG"
+FT   STRAND          400..403
+FT                   /evidence="ECO:0007744|PDB:1YGG"
+FT   HELIX           405..407
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           409..411
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           416..430
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          433..438
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          445..447
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           450..462
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           464..467
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          470..473
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            474..477
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          478..482
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   TURN            489..491
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           494..497
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   STRAND          498..500
+FT                   /evidence="ECO:0007744|PDB:1YGG"
+FT   HELIX           501..519
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           520..524
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           526..529
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+FT   HELIX           530..534
+FT                   /evidence="ECO:0007744|PDB:1YLH"
+SQ   SEQUENCE   538 AA;  59154 MW;  40205AB2A8D79871 CRC64;
+     MTDLNKLVKE LNDLGLTDVK EIVYNPSYEQ LFEEETKPGL EGFDKGTLTT LGAVAVDTGI
+     FTGRSPKDKY IVCDETTKDT VWWNSEAAKN DNKPMTQETW KSLRELVAKQ LSGKRLFVVE
+     GYCGASEKHR IGVRMVTEVA WQAHFVKNMF IRPTDEELKN FKADFTVLNG AKCTNPNWKE
+     QGLNSENFVA FNITEGIQLI GGTWYGGEMK KGMFSMMNYF LPLKGVASMH CSANVGKDGD
+     VAIFFGLSGT GKTTLSTDPK RQLIGDDEHG WDESGVFNFE GGCYAKTINL SQENEPDIYG
+     AIRRDALLEN VVVRADGSVD FDDGSKTENT RVSYPIYHID NIVRPVSKAG HATKVIFLTA
+     DAFGVLPPVS KLTPEQTEYY FLSGFTAKLA GTERGVTEPT PTFSACFGAA FLSLHPIQYA
+     DVLVERMKAS GAEAYLVNTG WNGTGKRISI KDTRGIIDAI LDGSIEKAEM GELPIFNLAI
+     PKALPGVDPA ILDPRDTYAD KAQWQVKAED LANRFVKNFV KYTANPEAAK LVGAGPKA
+//

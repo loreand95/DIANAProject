@@ -1,0 +1,127 @@
+ID   PA_I49A1                Reviewed;         716 AA.
+AC   Q0A441;
+DT   06-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 66.
+DE   RecName: Full=Polymerase acidic protein {ECO:0000255|HAMAP-Rule:MF_04063};
+DE            EC=3.1.-.- {ECO:0000255|HAMAP-Rule:MF_04063};
+DE   AltName: Full=RNA-directed RNA polymerase subunit P2 {ECO:0000255|HAMAP-Rule:MF_04063};
+GN   Name=PA {ECO:0000255|HAMAP-Rule:MF_04063};
+OS   Influenza A virus (strain A/Duck/Germany/1949 H10N7).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=382838;
+OH   NCBI_TaxID=8782; Aves.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=16439620; DOI=10.1126/science.1121586;
+RA   Obenauer J.C., Denson J., Mehta P.K., Su X., Mukatira S., Finkelstein D.B.,
+RA   Xu X., Wang J., Ma J., Fan Y., Rakestraw K.M., Webster R.G., Hoffmann E.,
+RA   Krauss S., Zheng J., Zhang Z., Naeve C.W.;
+RT   "Large-scale sequence analysis of avian influenza isolates.";
+RL   Science 311:1576-1580(2006).
+CC   -!- FUNCTION: Plays an essential role in viral RNA transcription and
+CC       replication by forming the heterotrimeric polymerase complex together
+CC       with PB1 and PB2 subunits. The complex transcribes viral mRNAs by using
+CC       a unique mechanism called cap-snatching. It consists in the hijacking
+CC       and cleavage of host capped pre-mRNAs. These short capped RNAs are then
+CC       used as primers for viral mRNAs. The PB2 subunit is responsible for the
+CC       binding of the 5' cap of cellular pre-mRNAs which are subsequently
+CC       cleaved after 10-13 nucleotides by the PA subunit that carries the
+CC       endonuclease activity. {ECO:0000255|HAMAP-Rule:MF_04063}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_04063};
+CC       Note=Binds 2 manganese ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_04063};
+CC   -!- SUBUNIT: Influenza RNA polymerase is composed of three subunits: PB1,
+CC       PB2 and PA. Interacts (via C-terminus) with PB1 (via N-terminus).
+CC       {ECO:0000250|UniProtKB:P03433, ECO:0000255|HAMAP-Rule:MF_04063}.
+CC   -!- SUBCELLULAR LOCATION: Host cytoplasm {ECO:0000255|HAMAP-Rule:MF_04063}.
+CC       Host nucleus {ECO:0000255|HAMAP-Rule:MF_04063}. Note=PB1 and PA are
+CC       transported in the host nucleus as a complex.
+CC       {ECO:0000250|UniProtKB:P03433, ECO:0000255|HAMAP-Rule:MF_04063}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Ribosomal frameshifting; Named isoforms=2;
+CC       Name=PA;
+CC         IsoId=Q0A441-1; Sequence=Displayed;
+CC       Name=PA-X;
+CC         IsoId=P0CK82-1; Sequence=External;
+CC   -!- PTM: Phosphorylated on serines and threonines by host kinases,
+CC       including human casein kinase II. {ECO:0000250|UniProtKB:P03433,
+CC       ECO:0000255|HAMAP-Rule:MF_04063}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses PA family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04063}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CY014676; ABI84541.1; -; Genomic_RNA.
+DR   SMR; Q0A441; -.
+DR   Proteomes; UP000008217; Genome.
+DR   GO; GO:0030430; C:host cell cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0075526; P:cap snatching; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039523; P:suppression by virus of host RNA polymerase II activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   Gene3D; 3.40.91.90; -; 1.
+DR   HAMAP; MF_04063; INFV_PA; 1.
+DR   InterPro; IPR037534; INFV_PA.
+DR   InterPro; IPR001009; PA/PA-X.
+DR   InterPro; IPR038372; PA/PA-X_sf.
+DR   Pfam; PF00603; Flu_PA; 1.
+PE   3: Inferred from homology;
+KW   Cap snatching; Endonuclease;
+KW   Eukaryotic host gene expression shutoff by virus;
+KW   Eukaryotic host transcription shutoff by virus; Host cytoplasm;
+KW   Host gene expression shutoff by virus; Host nucleus;
+KW   Host-virus interaction; Hydrolase;
+KW   Inhibition of host RNA polymerase II by virus; Manganese; Metal-binding;
+KW   Nuclease; Phosphoprotein; Ribosomal frameshifting.
+FT   CHAIN           1..716
+FT                   /note="Polymerase acidic protein"
+FT                   /id="PRO_0000279244"
+FT   MOTIF           124..139
+FT                   /note="Nuclear localization signal 1 (NLS1)"
+FT                   /evidence="ECO:0000250|UniProtKB:P03433, ECO:0000255|HAMAP-
+FT                   Rule:MF_04063"
+FT   MOTIF           184..247
+FT                   /note="Nuclear localization signal 2 (NLS2)"
+FT                   /evidence="ECO:0000250|UniProtKB:P03433, ECO:0000255|HAMAP-
+FT                   Rule:MF_04063"
+FT   METAL           41
+FT                   /note="Manganese 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+FT   METAL           80
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+FT   METAL           108
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+FT   METAL           108
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+FT   METAL           119
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+FT   METAL           120
+FT                   /note="Manganese 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04063"
+SQ   SEQUENCE   716 AA;  82725 MW;  D8B94DF27F6BD5C1 CRC64;
+     MEDFVRQCFN PMIVELAEKA MKEYGEDPKI ETNKFAAICT HLEVCFMYSD FHFIDERGES
+     IIVESGDPNA LLKHRFEIIE GRDRTMAWTV VNSICNTTRV EKPKFLPDLY DYKENRFIEI
+     GVTRREVHIY YLEKANKIKS EKTHIHIFSF TGEEMATKAD YTLDEESRAR IKTRLFTIRQ
+     EMASRGLWDS FRQSERGEET IEERFEITGT MRRLADQSLP PNFSSLENFR AYVDGFEPNG
+     CIEGKLSQMS KEVNARIEPF LKTTPRPLRL PDGPPCSQRS KFLLMDALKL SIEDPSHEGE
+     GIPLYDAIKC MKTFFGWKEP NIVKPHEKGI NPNYLLAWKQ VLAELQYIEN EEKIPKTKNM
+     KKTSQLKWAL GENMAPEKVD FEDCKNISDL KQYDSDEPEQ RSLASWIQSE FNKACELTDS
+     SWIELDEIGE DVAPIEHIAS MRRNYFTAEV SHCRATEYIM KGVYINTALL NASCAAMDDF
+     QLIPMISKCR TKEGRRKTNL YGFVIKGRSH LRNDTDVVNF VSMEFSLTDP RLEPYKWEKY
+     CVLEIGDMLL RTAIGQVSRP MFLYVRTNGT SKIKMKWGME MRRCLLQSLQ QIESMIEAQS
+     SVKEKDMTKE FFENKSETWP IGESPKGVEE GSIGKVCRTL LAKSVFNSLY ASPQLEGFSA
+     ESRKLLLIVQ ALRDNLEPGT FDLGGLYEAI EECLINDPWV LLNASWFNSF LTHALK
+//

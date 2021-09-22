@@ -1,0 +1,93 @@
+ID   ATPB_IPOPU              Reviewed;         499 AA.
+AC   A7Y3E6;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-OCT-2020, entry version 66.
+DE   RecName: Full=ATP synthase subunit beta, chloroplastic {ECO:0000255|HAMAP-Rule:MF_01347};
+DE            EC=7.1.2.2 {ECO:0000255|HAMAP-Rule:MF_01347};
+DE   AltName: Full=ATP synthase F1 sector subunit beta {ECO:0000255|HAMAP-Rule:MF_01347};
+DE   AltName: Full=F-ATPase subunit beta {ECO:0000255|HAMAP-Rule:MF_01347};
+GN   Name=atpB {ECO:0000255|HAMAP-Rule:MF_01347};
+OS   Ipomoea purpurea (Common morning glory) (Pharbitis purpurea).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Convolvulaceae; Ipomoeeae; Ipomoea.
+OX   NCBI_TaxID=4121;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17956636; DOI=10.1186/1471-2229-7-57;
+RA   McNeal J.R., Kuehl J.V., Boore J.L., dePamphilis C.W.;
+RT   "Complete plastid genome sequences suggest strong selection for retention
+RT   of photosynthetic genes in the parasitic plant genus Cuscuta.";
+RL   BMC Plant Biol. 7:57-57(2007).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The catalytic sites are hosted primarily by the
+CC       beta subunits. {ECO:0000255|HAMAP-Rule:MF_01347}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 4 H(+)(in) + H2O = ADP + 5 H(+)(out) + phosphate;
+CC         Xref=Rhea:RHEA:57720, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.1.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01347};
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has four main
+CC       subunits: a(1), b(1), b'(1) and c(9-12). {ECO:0000255|HAMAP-
+CC       Rule:MF_01347}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01347}; Peripheral membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01347}.
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01347}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU118126; ABV02355.1; -; Genomic_DNA.
+DR   RefSeq; YP_001468315.1; NC_009808.1.
+DR   SMR; A7Y3E6; -.
+DR   PRIDE; A7Y3E6; -.
+DR   GeneID; 5601254; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1140.10; -; 1.
+DR   HAMAP; MF_01347; ATP_synth_beta_bact; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR005722; ATP_synth_F1_bsu.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR004100; ATPase_F1/V1/A1_a/bsu_N.
+DR   InterPro; IPR036121; ATPase_F1/V1/A1_a/bsu_N_sf.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR024034; ATPase_F1/V1_b/a_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50615; SSF50615; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01039; atpD; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; ATP-binding; CF(1); Chloroplast; Hydrogen ion transport;
+KW   Ion transport; Membrane; Nucleotide-binding; Plastid; Thylakoid;
+KW   Translocase; Transport.
+FT   CHAIN           1..499
+FT                   /note="ATP synthase subunit beta, chloroplastic"
+FT                   /id="PRO_0000339622"
+FT   NP_BIND         170..177
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01347"
+SQ   SEQUENCE   499 AA;  53947 MW;  F9B29DB8B6D5ECC6 CRC64;
+     MRINPTTSGS EVSAVEKKNL GRIVKIIGPV LDVAFPPGKM PNIYNALVVQ GRDNEQTNVT
+     CEVQQLLGNN RVRAVAMSDT DGLMRGMEVI DTGAPISVPV GGSTLGRIFN VLGQPVDNLG
+     PVDTNTTSPI HRSAPAFIQL DTKLSIFETG IKVVDLLAPY RRGGKIGLFG GAGVGKTVLI
+     MELINNIAKA HGGVSVFGGV GERTREGNDL YLEMKESGVI NEENIPESKV ALVYGQMNEP
+     PGARMRVGLT ALTMAEYFRD VNEQDVLLFI DNIFRFVQAG SEVSALLGRM PSAVGYQPTL
+     STEMGSLQER ITSTKEGSIT SIQAVYVPAD DLTDPAPATT FAHLDATTVL SRGLAAKGIY
+     PAVDPLDSTS TMLQPRIVGE EHYETAQRVK QTLQRYKELQ DIIAILGLDE LSEEDRLTVA
+     RARKIERFLS QPFFVAEVFT GSPGKYVGLA ETIRGFQSIL SGELDGLPEQ AFYLVGNIDE
+     ATAKAMNLKN LEMESDLKK
+//

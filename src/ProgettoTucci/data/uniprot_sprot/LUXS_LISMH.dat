@@ -1,0 +1,83 @@
+ID   LUXS_LISMH              Reviewed;         155 AA.
+AC   B8DG43;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   07-APR-2021, entry version 56.
+DE   RecName: Full=S-ribosylhomocysteine lyase {ECO:0000255|HAMAP-Rule:MF_00091};
+DE            EC=4.4.1.21 {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=AI-2 synthesis protein {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=Autoinducer-2 production protein LuxS {ECO:0000255|HAMAP-Rule:MF_00091};
+GN   Name=luxS {ECO:0000255|HAMAP-Rule:MF_00091}; OrderedLocusNames=LMHCC_1287;
+OS   Listeria monocytogenes serotype 4a (strain HCC23).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+OX   NCBI_TaxID=552536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HCC23;
+RX   PubMed=21602330; DOI=10.1128/jb.05236-11;
+RA   Steele C.L., Donaldson J.R., Paul D., Banes M.M., Arick T., Bridges S.M.,
+RA   Lawrence M.L.;
+RT   "Genome sequence of lineage III Listeria monocytogenes strain HCC23.";
+RL   J. Bacteriol. 193:3679-3680(2011).
+CC   -!- FUNCTION: Involved in the synthesis of autoinducer 2 (AI-2) which is
+CC       secreted by bacteria and is used to communicate both the cell density
+CC       and the metabolic potential of the environment. The regulation of gene
+CC       expression in response to changes in cell density is called quorum
+CC       sensing. Catalyzes the transformation of S-ribosylhomocysteine (RHC) to
+CC       homocysteine (HC) and 4,5-dihydroxy-2,3-pentadione (DPD).
+CC       {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-(5-deoxy-D-ribos-5-yl)-L-homocysteine = (S)-4,5-
+CC         dihydroxypentane-2,3-dione + L-homocysteine; Xref=Rhea:RHEA:17753,
+CC         ChEBI:CHEBI:29484, ChEBI:CHEBI:58195, ChEBI:CHEBI:58199; EC=4.4.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- SIMILARITY: Belongs to the LuxS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00091}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001175; ACK39633.1; -; Genomic_DNA.
+DR   RefSeq; WP_012581407.1; NC_011660.1.
+DR   SMR; B8DG43; -.
+DR   KEGG; lmh:LMHCC_1287; -.
+DR   HOGENOM; CLU_107531_2_0_9; -.
+DR   OMA; QWSRDIL; -.
+DR   BioCyc; LMON552536:G1GTR-1332-MONOMER; -.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0043768; F:S-ribosylhomocysteine lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009372; P:quorum sensing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.80; -; 1.
+DR   HAMAP; MF_00091; LuxS; 1.
+DR   InterPro; IPR037005; LuxS_sf.
+DR   InterPro; IPR011249; Metalloenz_LuxS/M16.
+DR   InterPro; IPR003815; S-ribosylhomocysteinase.
+DR   PANTHER; PTHR35799; PTHR35799; 1.
+DR   Pfam; PF02664; LuxS; 1.
+DR   PIRSF; PIRSF006160; AI2; 1.
+DR   PRINTS; PR01487; LUXSPROTEIN.
+DR   SUPFAM; SSF63411; SSF63411; 1.
+PE   3: Inferred from homology;
+KW   Autoinducer synthesis; Iron; Lyase; Metal-binding; Quorum sensing.
+FT   CHAIN           1..155
+FT                   /note="S-ribosylhomocysteine lyase"
+FT                   /id="PRO_1000118540"
+FT   METAL           57
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           61
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           124
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+SQ   SEQUENCE   155 AA;  17494 MW;  216FD7D92D7D9B05 CRC64;
+     MAEKMNVESF NLDHTKVKAP FVRLAGTKVG LHGDEIYKYD VRFKQPNKEH MEMPALHSLE
+     HLMAELARNH TDKVVDISPM GCQTGFYMSF INFSDYDDAL DVLAKTLADV LEAKEVPACN
+     EVQCGWAASH SLEGAKELAE EFLAKRSEWK NVFGE
+//

@@ -1,0 +1,101 @@
+ID   TERL_BPLP2              Reviewed;         540 AA.
+AC   D3WAC1;
+DT   02-NOV-2016, integrated into UniProtKB/Swiss-Prot.
+DT   20-APR-2010, sequence version 1.
+DT   12-AUG-2020, entry version 20.
+DE   RecName: Full=Terminase large subunit {ECO:0000303|PubMed:24027307};
+DE   AltName: Full=DNA-packaging protein;
+DE   AltName: Full=Gene product 2 {ECO:0000305};
+DE            Short=gp2 {ECO:0000305};
+DE   Includes:
+DE     RecName: Full=Endonuclease;
+DE              EC=3.1.-.-;
+DE   Includes:
+DE     RecName: Full=ATPase;
+DE              EC=3.6.4.-;
+OS   Lactococcus phage p2 (Lactococcus lactis bacteriophage p2).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Siphoviridae; Skunavirus.
+OX   NCBI_TaxID=254252;
+OH   NCBI_TaxID=1358; Lactococcus lactis.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Tremblay D.M., Deveau H., Moineau S.;
+RT   "Complete genomic sequence of Lactococcus lactis phage p2.";
+RL   Submitted (FEB-2010) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION.
+RX   PubMed=24027307; DOI=10.1128/jvi.02033-13;
+RA   Bebeacua C., Tremblay D., Farenc C., Chapot-Chartier M.P., Sadovskaya I.,
+RA   van Heel M., Veesler D., Moineau S., Cambillau C.;
+RT   "Structure, adsorption to host, and infection mechanism of virulent
+RT   lactococcal phage p2.";
+RL   J. Virol. 87:12302-12312(2013).
+CC   -!- FUNCTION: Probable terminase large subunit (PubMed:24027307). The
+CC       terminase large subunit acts as an ATP driven molecular motor necessary
+CC       for viral DNA translocation into empty capsids and as an endonuclease
+CC       that cuts the viral genome to initiate and to end a packaging reaction
+CC       (By similarity). The terminase lies at a unique vertex of the procapsid
+CC       and is composed of two subunits, a small terminase subunit involved in
+CC       viral DNA recognition (packaging sequence), and a large terminase
+CC       subunit possessing endonucleolytic and ATPase activities (By
+CC       similarity). Both terminase subunits heterooligomerize and are docked
+CC       on the portal protein to form the packaging machine (By similarity).
+CC       The terminase large subunit exhibits endonuclease activity and cleaves
+CC       the viral genome concatemer (By similarity).
+CC       {ECO:0000250|UniProtKB:Q9MCT1, ECO:0000269|PubMed:24027307}.
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P54308};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P54308};
+CC       Note=Binds 2 divalent metal cations per subunit.
+CC       {ECO:0000250|UniProtKB:P54308};
+CC   -!- SUBUNIT: Interacts with the terminase small subunit; the active complex
+CC       is probably heterooligomeric. {ECO:0000250|UniProtKB:Q9MCT1}.
+CC   -!- SIMILARITY: Belongs to the skunavirus terminase large subunit family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GQ979703; ADC80078.1; -; Genomic_DNA.
+DR   Proteomes; UP000002348; Genome.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR005021; Terminase_largesu_Lambdalike.
+DR   PANTHER; PTHR41287; PTHR41287; 1.
+DR   Pfam; PF03354; Terminase_1; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease; Hydrolase; Magnesium; Manganese; Metal-binding; Nuclease;
+KW   Reference proteome; Viral genome packaging; Viral release from host cell.
+FT   CHAIN           1..540
+FT                   /note="Terminase large subunit"
+FT                   /id="PRO_0000438221"
+FT   METAL           352
+FT                   /note="Manganese or Magnesium 1; catalytic; for nuclease
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P54308"
+FT   METAL           352
+FT                   /note="Manganese or Magnesium 2; catalytic; for nuclease
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P54308"
+FT   METAL           424
+FT                   /note="Manganese or Magnesium 1; catalytic; for nuclease
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P54308"
+FT   METAL           523
+FT                   /note="Manganese or Magnesium 2; catalytic; for nuclease
+FT                   activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P54308"
+SQ   SEQUENCE   540 AA;  62935 MW;  2FA2BA647615349A CRC64;
+     MYYLNKMLEY NKENGIIINK YIRKTIQKQI RIHNKYIYRY DRVTQAIEWI EDNFYLTTGN
+     LMKIELLPTQ RWWYELMLGY DMIDEKGVQV NLINEIFLNL GRGSGKSSLM ATRVLNWMIL
+     GGQYGGESLV IAYDNTQARH VFDQVRNQTE ASDTLRVYNE NKIFKSTKQG LEFTSFKTTF
+     KKQTNDTLRA QGGNSSLNIF DEVHTYGEDI TESVNKGSRQ KQDNWQSIYI TSGGLKRDGL
+     YDKLVERFKS EEEFYNDRSF GLLYMLENHE QVKDKKNWTM ALPLIGSVPK WSGVIEEYEL
+     AQGDPALQNK FLAFNMGLPM QDTAYYFTPQ DTKLTDFNLS VFNKNRTYVG IDLSLIGDLT
+     AVSFVCELEG KTYSHTLTFS VRSQYEQLDT EQQELWTEFV DRGELILLDT EYINVNDLIP
+     HINDFRTKTG CRLRKIGYDP ARYEILKGLI ERYFFDKDGD NQRAIRQGFS MNDYIKLLKS
+     KLAENKLIHN QKVMQWALNN TAVKIGQSGD YMYTKKLEKD KIDPTVALTM ALEMAVSDEV
+//

@@ -1,0 +1,98 @@
+ID   NUOB_RICTY              Reviewed;         171 AA.
+AC   Q68X17;
+DT   15-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit B {ECO:0000255|HAMAP-Rule:MF_01356};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01356};
+DE   AltName: Full=NADH dehydrogenase I subunit B {ECO:0000255|HAMAP-Rule:MF_01356};
+DE   AltName: Full=NDH-1 subunit B {ECO:0000255|HAMAP-Rule:MF_01356};
+GN   Name=nuoB {ECO:0000255|HAMAP-Rule:MF_01356}; OrderedLocusNames=RT0345;
+OS   Rickettsia typhi (strain ATCC VR-144 / Wilmington).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=257363;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-144 / Wilmington;
+RX   PubMed=15317790; DOI=10.1128/jb.186.17.5842-5855.2004;
+RA   McLeod M.P., Qin X., Karpathy S.E., Gioia J., Highlander S.K., Fox G.E.,
+RA   McNeill T.Z., Jiang H., Muzny D., Jacob L.S., Hawes A.C., Sodergren E.,
+RA   Gill R., Hume J., Morgan M., Fan G., Amin A.G., Gibbs R.A., Hong C.,
+RA   Yu X.-J., Walker D.H., Weinstock G.M.;
+RT   "Complete genome sequence of Rickettsia typhi and comparison with sequences
+RT   of other Rickettsiae.";
+RL   J. Bacteriol. 186:5842-5855(2004).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. Couples the redox
+CC       reaction to proton translocation (for every two electrons transferred,
+CC       four hydrogen ions are translocated across the cytoplasmic membrane),
+CC       and thus conserves the redox energy in a proton gradient (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01356};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01356};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_01356};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoB, C,
+CC       D, E, F, and G constitute the peripheral sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01356}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01356}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01356}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01356}.
+CC   -!- SIMILARITY: Belongs to the complex I 20 kDa subunit family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01356}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017197; AAU03825.1; -; Genomic_DNA.
+DR   RefSeq; WP_011190809.1; NC_006142.1.
+DR   SMR; Q68X17; -.
+DR   STRING; 257363.RT0345; -.
+DR   EnsemblBacteria; AAU03825; AAU03825; RT0345.
+DR   KEGG; rty:RT0345; -.
+DR   eggNOG; COG0377; Bacteria.
+DR   HOGENOM; CLU_055737_7_3_5; -.
+DR   OMA; RIIITYE; -.
+DR   OrthoDB; 1904620at2; -.
+DR   BioCyc; RTYP257363:G1G0L-351-MONOMER; -.
+DR   Proteomes; UP000000604; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01356; NDH1_NuoB; 1.
+DR   InterPro; IPR006137; NADH_UbQ_OxRdtase-like_20kDa.
+DR   InterPro; IPR006138; NADH_UQ_OxRdtase_20Kd_su.
+DR   Pfam; PF01058; Oxidored_q6; 1.
+DR   TIGRFAMs; TIGR01957; nuoB_fam; 1.
+DR   PROSITE; PS01150; COMPLEX1_20K; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cell inner membrane; Cell membrane; Iron; Iron-sulfur; Membrane;
+KW   Metal-binding; NAD; Quinone; Translocase; Transport; Ubiquinone.
+FT   CHAIN           1..171
+FT                   /note="NADH-quinone oxidoreductase subunit B"
+FT                   /id="PRO_0000287853"
+FT   METAL           47
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01356"
+FT   METAL           48
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01356"
+FT   METAL           112
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01356"
+FT   METAL           142
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01356"
+SQ   SEQUENCE   171 AA;  19328 MW;  D1BD1DACE9008CC2 CRC64;
+     MKNDFYQEDE LLNSCLTNRG FLLSKIDEVI SWARANSLWP MTFGLACCAV EMMQAAASRY
+     DMDRFGMLFR PSPRQSDLMI VAGTLTNKMA PALRKVYDQM TEPKWVLSMG SCANGGGYYH
+     FSYSVVRGCD RIVPVDVYVP GCPPTAEALI YGLMQLQKKI KRTTGFKYDS R
+//

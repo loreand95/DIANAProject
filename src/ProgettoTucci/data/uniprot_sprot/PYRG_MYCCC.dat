@@ -1,0 +1,98 @@
+ID   PYRG_MYCCC              Reviewed;          99 AA.
+AC   Q93DW6;
+DT   19-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   11-DEC-2019, entry version 67.
+DE   RecName: Full=CTP synthase {ECO:0000250|UniProtKB:P0A7E5};
+DE            EC=6.3.4.2 {ECO:0000250|UniProtKB:P0A7E5};
+DE   AltName: Full=Cytidine 5'-triphosphate synthase {ECO:0000250|UniProtKB:P0A7E5};
+DE   AltName: Full=Cytidine triphosphate synthetase {ECO:0000250|UniProtKB:P0A7E5};
+DE            Short=CTP synthetase {ECO:0000250|UniProtKB:P0A7E5};
+DE            Short=CTPS {ECO:0000250|UniProtKB:P0A7E5};
+DE   AltName: Full=UTP--ammonia ligase {ECO:0000250|UniProtKB:P0A7E5};
+DE   Flags: Fragment;
+GN   Name=pyrG {ECO:0000250|UniProtKB:P0A7E5};
+OS   Mycoplasma capricolum subsp. capripneumoniae.
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=40480;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Gabes;
+RX   PubMed=11844618; DOI=10.1016/s0378-1135(01)00509-0;
+RA   Lorenzon S., Wesonga H., Ygesu L., Tekleghiorgis T., Maikano Y., Angaya M.,
+RA   Hendrikx P., Thiaucourt F.;
+RT   "Genetic evolution of Mycoplasma capricolum subsp. capripneumoniae strains
+RT   and molecular epidemiology of contagious caprine pleuropneumonia by
+RT   sequencing of locus H2.";
+RL   Vet. Microbiol. 85:111-123(2002).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent amination of UTP to CTP with
+CC       either L-glutamine or ammonia as the source of nitrogen. Regulates
+CC       intracellular CTP levels through interactions with the four
+CC       ribonucleotide triphosphates. {ECO:0000250|UniProtKB:P0A7E5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + UTP = ADP + CTP + 2 H(+) + L-
+CC         glutamate + phosphate; Xref=Rhea:RHEA:26426, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:37563, ChEBI:CHEBI:43474, ChEBI:CHEBI:46398,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456216; EC=6.3.4.2;
+CC         Evidence={ECO:0000250|UniProtKB:P0A7E5};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP, when glutamine is
+CC       the substrate; GTP has no effect on the reaction when ammonia is the
+CC       substrate. The allosteric effector GTP functions by stabilizing the
+CC       protein conformation that binds the tetrahedral intermediate(s) formed
+CC       during glutamine hydrolysis. Inhibited by the product CTP, via
+CC       allosteric rather than competitive inhibition.
+CC       {ECO:0000250|UniProtKB:P0A7E5}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       CTP from UDP: step 2/2. {ECO:0000250|UniProtKB:P0A7E5}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P0A7E5}.
+CC   -!- MISCELLANEOUS: CTPSs have evolved a hybrid strategy for distinguishing
+CC       between UTP and CTP. The overlapping regions of the product feedback
+CC       inhibitory and substrate sites recognize a common feature in both
+CC       compounds, the triphosphate moiety. To differentiate isosteric
+CC       substrate and product pyrimidine rings, an additional pocket far from
+CC       the expected kinase/ligase catalytic site, specifically recognizes the
+CC       cytosine and ribose portions of the product inhibitor.
+CC       {ECO:0000250|UniProtKB:P0A7E5}.
+CC   -!- SIMILARITY: Belongs to the CTP synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF378157; AAK96434.1; -; Genomic_DNA.
+DR   SMR; Q93DW6; -.
+DR   UniPathway; UPA00159; UER00277.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003883; F:CTP synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR004468; CTP_synthase.
+DR   InterPro; IPR017926; GATASE.
+DR   PANTHER; PTHR11550; PTHR11550; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Pyrimidine biosynthesis.
+FT   CHAIN           <1..99
+FT                   /note="CTP synthase"
+FT                   /id="PRO_0000138200"
+FT   DOMAIN          <1..99
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00605"
+FT   ACT_SITE        73
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7E5"
+FT   ACT_SITE        75
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7E5"
+FT   BINDING         28
+FT                   /note="L-glutamine; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7E5"
+FT   NON_TER         1
+SQ   SEQUENCE   99 AA;  11635 MW;  F6F0BB50FB084F0D CRC64;
+     TMVTKLEKDS LVSKLYNSDV ALERHRHRYE FNNKYKKDLE SVGLRFSGIY EEKNLVEVIE
+     IPSLKFFVAS QFHPEFTSRP NKPTPLFKGF IKAIIENNK
+//

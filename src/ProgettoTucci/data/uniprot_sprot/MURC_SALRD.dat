@@ -1,0 +1,99 @@
+ID   MURC_SALRD              Reviewed;         475 AA.
+AC   Q2S527;
+DT   27-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 105.
+DE   RecName: Full=UDP-N-acetylmuramate--L-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00046};
+DE            EC=6.3.2.8 {ECO:0000255|HAMAP-Rule:MF_00046};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   Name=murC {ECO:0000255|HAMAP-Rule:MF_00046}; OrderedLocusNames=SRU_0561;
+OS   Salinibacter ruber (strain DSM 13855 / M31).
+OC   Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis;
+OC   Rhodothermaceae; Salinibacter.
+OX   NCBI_TaxID=309807;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 13855 / CECT 5946 / M31;
+RX   PubMed=16330755; DOI=10.1073/pnas.0509073102;
+RA   Mongodin E.F., Nelson K.E., Daugherty S., DeBoy R.T., Wister J., Khouri H.,
+RA   Weidman J., Walsh D.A., Papke R.T., Sanchez Perez G., Sharma A.K.,
+RA   Nesbo C.L., MacLeod D., Bapteste E., Doolittle W.F., Charlebois R.L.,
+RA   Legault B., Rodriguez-Valera F.;
+RT   "The genome of Salinibacter ruber: convergence and gene exchange among
+RT   hyperhalophilic bacteria and archaea.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:18147-18152(2005).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-alanine + UDP-N-acetyl-alpha-D-muramate = ADP + H(+) +
+CC         phosphate + UDP-N-acetyl-alpha-D-muramoyl-L-alanine;
+CC         Xref=Rhea:RHEA:23372, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57972, ChEBI:CHEBI:70757,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:456216; EC=6.3.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00046};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000159; ABC45658.1; -; Genomic_DNA.
+DR   RefSeq; WP_011403337.1; NC_007677.1.
+DR   RefSeq; YP_444704.1; NC_007677.1.
+DR   SMR; Q2S527; -.
+DR   STRING; 309807.SRU_0561; -.
+DR   EnsemblBacteria; ABC45658; ABC45658; SRU_0561.
+DR   GeneID; 3850553; -.
+DR   KEGG; sru:SRU_0561; -.
+DR   PATRIC; fig|309807.25.peg.584; -.
+DR   eggNOG; COG0773; Bacteria.
+DR   HOGENOM; CLU_028104_2_2_10; -.
+DR   OMA; DITYQLR; -.
+DR   BioCyc; SRUB309807:G1G5H-560-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000008674; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008763; F:UDP-N-acetylmuramate-L-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_00046; MurC; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005758; UDP-N-AcMur_Ala_ligase_MurC.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   TIGRFAMs; TIGR01082; murC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..475
+FT                   /note="UDP-N-acetylmuramate--L-alanine ligase"
+FT                   /id="PRO_0000242592"
+FT   NP_BIND         121..127
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00046"
+SQ   SEQUENCE   475 AA;  51609 MW;  B6B4E5044EFDD356 CRC64;
+     MAELRTQPAL GRIRQVHMVG IGGIGMSSIA EVLLNRGYDV TGSDLERSDV TERLEAEGAT
+     IHEGHAAEQV GTADVVVYSS AVDPDENPET REAERRRISL IPRAEMLGEL IRMKFGVGVA
+     GTHGKTTTTS MAGLVVAEGG FDPTVIVGGK VTAFGSNAIT GEGDVLVIEA DEYDRTFLRL
+     TPSLAVITSI EEDHLDVYED LAAIQASFTQ YANSVPFFGA AILCLDDPNV QAIVGDVERR
+     VVTYGTTRQA EVRGENVRRE GMTTRFDVVV RGERLGTIEL HVPGMHNVRN ALAAVAVGQE
+     LEISFERVRD GLGTFTGVRR RFEKKGEVGG ITVLDDYAHH PTEIEATLDA AHQGFPDRRV
+     VAVFQPHMYS RTQNFMDEFA CSFFNADMLV LTDVYGAREA PIEGVTGGRL AERAEQFGHR
+     AVHYVPEKTD LPGRLQELVG PGDVVLMLGA GDIWRASEAF VELLENDGGT AIERD
+//

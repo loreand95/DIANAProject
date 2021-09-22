@@ -1,0 +1,130 @@
+ID   ABEC1_RABIT             Reviewed;         236 AA.
+AC   P47855;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=C->U-editing enzyme APOBEC-1;
+DE            EC=3.5.4.36 {ECO:0000269|PubMed:8063816};
+DE   AltName: Full=Apolipoprotein B mRNA-editing enzyme 1;
+DE   AltName: Full=mRNA(cytosine(6666)) deaminase 1;
+GN   Name=APOBEC1;
+OS   Oryctolagus cuniculus (Rabbit).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae; Oryctolagus.
+OX   NCBI_TaxID=9986;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, COFACTOR, AND
+RP   MUTAGENESIS OF HIS-61; VAL-62; GLU-63; PRO-92; CYS-93 AND CYS-96.
+RC   STRAIN=New Zealand white; TISSUE=Small intestine;
+RX   PubMed=8063816;
+RA   Yamanaka S., Poksay K.S., Balestra M.E., Zeng G.-Q., Innerarity T.L.;
+RT   "Cloning and mutagenesis of the rabbit ApoB mRNA editing protein. A zinc
+RT   motif is essential for catalytic activity, and noncatalytic auxiliary
+RT   factor(s) of the editing complex are widely distributed.";
+RL   J. Biol. Chem. 269:21725-21734(1994).
+CC   -!- FUNCTION: Catalytic component of the apolipoprotein B mRNA editing
+CC       enzyme complex which is responsible for the postranscriptional editing
+CC       of a CAA codon for Gln to a UAA codon for stop in the APOB mRNA. Also
+CC       involved in CGA (Arg) to UGA (Stop) editing in the NF1 mRNA. May also
+CC       play a role in the epigenetic regulation of gene expression through the
+CC       process of active DNA demethylation. {ECO:0000269|PubMed:8063816}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(6666) in apoB mRNA + H(+) + H2O = NH4(+) +
+CC         uridine(6666) in apoB mRNA; Xref=Rhea:RHEA:21772, Rhea:RHEA-
+CC         COMP:13888, Rhea:RHEA-COMP:13889, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:28938, ChEBI:CHEBI:65315,
+CC         ChEBI:CHEBI:82748; EC=3.5.4.36;
+CC         Evidence={ECO:0000269|PubMed:8063816};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:8063816};
+CC       Note=Binds 1 Zn(2+) ion per subunit. {ECO:0000250|UniProtKB:Q9Y235};
+CC   -!- SUBUNIT: Homodimer. Part of the apolipoprotein B mRNA editing complex
+CC       with A1CF. Interacts with HNRPAB and SYNCRIP.
+CC       {ECO:0000250|UniProtKB:P41238}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P41238}.
+CC   -!- TISSUE SPECIFICITY: Expressed exclusively in the intestine.
+CC   -!- SIMILARITY: Belongs to the cytidine and deoxycytidylate deaminase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U10695; AAA56718.1; -; mRNA.
+DR   PIR; A53853; A53853.
+DR   RefSeq; NP_001075810.1; NM_001082341.1.
+DR   SMR; P47855; -.
+DR   STRING; 9986.ENSOCUP00000021115; -.
+DR   GeneID; 100009191; -.
+DR   KEGG; ocu:100009191; -.
+DR   CTD; 339; -.
+DR   eggNOG; ENOG502SNW2; Eukaryota.
+DR   InParanoid; P47855; -.
+DR   OMA; VNYPPGK; -.
+DR   OrthoDB; 1246623at2759; -.
+DR   BRENDA; 3.5.4.36; 1749.
+DR   Proteomes; UP000001811; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0080111; P:DNA demethylation; ISS:UniProtKB.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0090310; P:negative regulation of DNA methylation-dependent heterochromatin assembly; ISS:UniProtKB.
+DR   InterPro; IPR016192; APOBEC/CMP_deaminase_Zn-bd.
+DR   InterPro; IPR041547; APOBEC1.
+DR   InterPro; IPR002125; CMP_dCMP_dom.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   Pfam; PF18774; APOBEC4_like; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   PROSITE; PS00903; CYT_DCMP_DEAMINASES_1; 1.
+DR   PROSITE; PS51747; CYT_DCMP_DEAMINASES_2; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Hydrolase; Metal-binding; mRNA processing; Reference proteome;
+KW   Zinc.
+FT   CHAIN           1..236
+FT                   /note="C->U-editing enzyme APOBEC-1"
+FT                   /id="PRO_0000171747"
+FT   DOMAIN          10..134
+FT                   /note="CMP/dCMP-type deaminase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01083"
+FT   COMPBIAS        180..193
+FT                   /note="Leu-rich"
+FT   ACT_SITE        63
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y235"
+FT   METAL           61
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y235"
+FT   METAL           93
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y235"
+FT   METAL           96
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9Y235"
+FT   MUTAGEN         61
+FT                   /note="H->A: None or little editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         61
+FT                   /note="H->C: Retains most editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         62
+FT                   /note="V->A: Retains most editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         63
+FT                   /note="E->A: None or little editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         92
+FT                   /note="P->A: Retains most editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         93
+FT                   /note="C->A: None or little editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+FT   MUTAGEN         96
+FT                   /note="C->A: None or little editing activity."
+FT                   /evidence="ECO:0000269|PubMed:8063816"
+SQ   SEQUENCE   236 AA;  27719 MW;  AB3041CA5102F1F3 CRC64;
+     MASEKGPSNK DYTLRRRIEP WEFEVFFDPQ ELRKEACLLY EIKWGASSKT WRSSGKNTTN
+     HVEVNFLEKL TSEGRLGPST CCSITWFLSW SPCWECSMAI REFLSQHPGV TLIIFVARLF
+     QHMDRRNRQG LKDLVTSGVT VRVMSVSEYC YCWENFVNYP PGKAAQWPRY PPRWMLMYAL
+     ELYCIILGLP PCLKISRRHQ KQLTFFSLTP QYCHYKMIPP YILLATGLLQ PSVPWR
+//

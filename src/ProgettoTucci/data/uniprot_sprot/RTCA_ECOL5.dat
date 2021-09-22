@@ -1,0 +1,99 @@
+ID   RTCA_ECOL5              Reviewed;         338 AA.
+AC   Q0TC48;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=RNA 3'-terminal phosphate cyclase {ECO:0000255|HAMAP-Rule:MF_00200};
+DE            Short=RNA cyclase {ECO:0000255|HAMAP-Rule:MF_00200};
+DE            Short=RNA-3'-phosphate cyclase {ECO:0000255|HAMAP-Rule:MF_00200};
+DE            EC=6.5.1.4 {ECO:0000255|HAMAP-Rule:MF_00200};
+GN   Name=rtcA {ECO:0000255|HAMAP-Rule:MF_00200}; OrderedLocusNames=ECP_3505;
+OS   Escherichia coli O6:K15:H31 (strain 536 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=362663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=536 / UPEC;
+RX   PubMed=16879640; DOI=10.1111/j.1365-2958.2006.05255.x;
+RA   Hochhut B., Wilde C., Balling G., Middendorf B., Dobrindt U.,
+RA   Brzuszkiewicz E., Gottschalk G., Carniel E., Hacker J.;
+RT   "Role of pathogenicity island-associated integrases in the genome
+RT   plasticity of uropathogenic Escherichia coli strain 536.";
+RL   Mol. Microbiol. 61:584-595(2006).
+CC   -!- FUNCTION: Catalyzes the conversion of 3'-phosphate to a 2',3'-cyclic
+CC       phosphodiester at the end of RNA. The mechanism of action of the enzyme
+CC       occurs in 3 steps: (A) adenylation of the enzyme by ATP; (B) transfer
+CC       of adenylate to an RNA-N3'P to produce RNA-N3'PP5'A; (C) and attack of
+CC       the adjacent 2'-hydroxyl on the 3'-phosphorus in the diester linkage to
+CC       produce the cyclic end product. The biological role of this enzyme is
+CC       unknown but it is likely to function in some aspects of cellular RNA
+CC       processing. {ECO:0000255|HAMAP-Rule:MF_00200}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(RNA)-3'-(3'-phosphooxy-ribonucleotide) + ATP = (RNA)-3'-
+CC         (2',3'-cyclophosphooxy)-ribonucleotide + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:23976, Rhea:RHEA-COMP:10463, Rhea:RHEA-COMP:10464,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:83062,
+CC         ChEBI:CHEBI:83064, ChEBI:CHEBI:456215; EC=6.5.1.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00200};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00200}.
+CC   -!- SIMILARITY: Belongs to the RNA 3'-terminal cyclase family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00200}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000247; ABG71481.1; -; Genomic_DNA.
+DR   RefSeq; WP_011579219.1; NC_008253.1.
+DR   SMR; Q0TC48; -.
+DR   EnsemblBacteria; ABG71481; ABG71481; ECP_3505.
+DR   KEGG; ecp:ECP_3505; -.
+DR   HOGENOM; CLU_027882_0_0_6; -.
+DR   OMA; RHNGCVD; -.
+DR   Proteomes; UP000009182; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003963; F:RNA-3'-phosphate cyclase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   Gene3D; 3.30.360.20; -; 1.
+DR   Gene3D; 3.65.10.20; -; 1.
+DR   HAMAP; MF_00200; RTC; 1.
+DR   InterPro; IPR013791; RNA3'-term_phos_cycl_insert.
+DR   InterPro; IPR023797; RNA3'_phos_cyclase_dom.
+DR   InterPro; IPR037136; RNA3'_phos_cyclase_dom_sf.
+DR   InterPro; IPR000228; RNA3'_term_phos_cyc.
+DR   InterPro; IPR017770; RNA3'_term_phos_cyc_type_1.
+DR   InterPro; IPR020719; RNA3'_term_phos_cycl-like_CS.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR036553; RPTC_insert.
+DR   PANTHER; PTHR11096; PTHR11096; 1.
+DR   PANTHER; PTHR11096:SF0; PTHR11096:SF0; 1.
+DR   Pfam; PF01137; RTC; 1.
+DR   Pfam; PF05189; RTC_insert; 1.
+DR   PIRSF; PIRSF005378; RNA3'_term_phos_cycl_euk; 1.
+DR   SUPFAM; SSF52913; SSF52913; 1.
+DR   SUPFAM; SSF55205; SSF55205; 2.
+DR   TIGRFAMs; TIGR03399; RNA_3prim_cycl; 1.
+DR   PROSITE; PS01287; RTC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding.
+FT   CHAIN           1..338
+FT                   /note="RNA 3'-terminal phosphate cyclase"
+FT                   /id="PRO_0000264795"
+FT   NP_BIND         283..287
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00200"
+FT   ACT_SITE        308
+FT                   /note="Tele-AMP-histidine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00200"
+FT   BINDING         103
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00200"
+SQ   SEQUENCE   338 AA;  35826 MW;  B9E51039B6B7F27B CRC64;
+     MKRMIALDGA QGEGGGQILR SALSLSMITG QPFTITGIRA GRAKPGLLRQ HLTAVKAAAE
+     ICRATVEGAE LGSQRLVFRP GTVRGGDYRF AIGSAGSCTL VLQTVLPALW FADGPSRVEV
+     SGGTDNPSAP PADFIRRVLE PLLAKIGVHQ QTTLLRHGFY PAGGGVVATE VSPVASFNSL
+     QLGERGNIVQ MRGEVLLAGV PRHVAEREIA TLAASFSLHE QAVHSLPRDQ GPGNTVSLEV
+     ESENITERFF VVGEKRVSAE VVAAQLVKEV KRYLASPAAV GEYLADQLVL PMALAGTGEF
+     TVAHPSCHLL TNIAVVERFL PVRFGLIETD GVTRVSIE
+//

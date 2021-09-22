@@ -1,0 +1,92 @@
+ID   DCD_DESA1               Reviewed;         181 AA.
+AC   B8D5T1;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 69.
+DE   RecName: Full=dCTP deaminase {ECO:0000255|HAMAP-Rule:MF_00146};
+DE            EC=3.5.4.13 {ECO:0000255|HAMAP-Rule:MF_00146};
+DE   AltName: Full=Deoxycytidine triphosphate deaminase {ECO:0000255|HAMAP-Rule:MF_00146};
+GN   Name=dcd {ECO:0000255|HAMAP-Rule:MF_00146}; OrderedLocusNames=DKAM_1136;
+OS   Desulfurococcus amylolyticus (strain DSM 18924 / JCM 16383 / VKM B-2413 /
+OS   1221n) (Desulfurococcus kamchatkensis).
+OC   Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+OC   Desulfurococcaceae; Desulfurococcus.
+OX   NCBI_TaxID=490899;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 18924 / JCM 16383 / VKM B-2413 / 1221n;
+RX   PubMed=19114480; DOI=10.1128/jb.01525-08;
+RA   Ravin N.V., Mardanov A.V., Beletsky A.V., Kublanov I.V., Kolganova T.V.,
+RA   Lebedinsky A.V., Chernyh N.A., Bonch-Osmolovskaya E.A., Skryabin K.G.;
+RT   "Complete genome sequence of the anaerobic, protein-degrading
+RT   hyperthermophilic crenarchaeon Desulfurococcus kamchatkensis.";
+RL   J. Bacteriol. 191:2371-2379(2009).
+CC   -!- FUNCTION: Catalyzes the deamination of dCTP to dUTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_00146}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dCTP + H(+) + H2O = dUTP + NH4(+); Xref=Rhea:RHEA:22680,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:61481, ChEBI:CHEBI:61555; EC=3.5.4.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00146};
+CC   -!- PATHWAY: Pyrimidine metabolism; dUMP biosynthesis; dUMP from dCTP (dUTP
+CC       route): step 1/2. {ECO:0000255|HAMAP-Rule:MF_00146}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00146}.
+CC   -!- SIMILARITY: Belongs to the dCTP deaminase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00146}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001140; ACL11462.1; -; Genomic_DNA.
+DR   RefSeq; WP_012608803.1; NC_011766.1.
+DR   SMR; B8D5T1; -.
+DR   STRING; 490899.DKAM_1136; -.
+DR   EnsemblBacteria; ACL11462; ACL11462; DKAM_1136.
+DR   GeneID; 7171228; -.
+DR   KEGG; dka:DKAM_1136; -.
+DR   eggNOG; arCOG04048; Archaea.
+DR   HOGENOM; CLU_087476_3_0_2; -.
+DR   OMA; FENHRYP; -.
+DR   BioCyc; DKAM490899:G1GCN-1114-MONOMER; -.
+DR   UniPathway; UPA00610; UER00665.
+DR   Proteomes; UP000006903; Chromosome.
+DR   GO; GO:0008829; F:dCTP deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006226; P:dUMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006229; P:dUTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07557; trimeric_dUTPase; 1.
+DR   Gene3D; 2.70.40.10; -; 1.
+DR   HAMAP; MF_00146; dCTP_deaminase; 1.
+DR   InterPro; IPR011962; dCTP_deaminase.
+DR   InterPro; IPR029054; dUTPase-like.
+DR   InterPro; IPR036157; dUTPase-like_sf.
+DR   InterPro; IPR033704; dUTPase_trimeric.
+DR   Pfam; PF00692; dUTPase; 1.
+DR   SUPFAM; SSF51283; SSF51283; 1.
+DR   TIGRFAMs; TIGR02274; dCTP_deam; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Nucleotide metabolism; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..181
+FT                   /note="dCTP deaminase"
+FT                   /id="PRO_1000123142"
+FT   NP_BIND         100..105
+FT                   /note="dCTP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00146"
+FT   ACT_SITE        126
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00146"
+FT   BINDING         116
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00146"
+FT   BINDING         158
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00146"
+FT   BINDING         165
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00146"
+SQ   SEQUENCE   181 AA;  20561 MW;  BADAC8807D182653 CRC64;
+     MILSDWDIRV YIEKKLLIID PLFDDTVREN GVDLRFGDEF CRFKRENSVV DTSRDGVDNV
+     LECYRVRGDG FVINPLEHVL TTTLEYVEFP HDLVGLVNLR STFARFGLYI PPTVIDAGFK
+     GNITIELVGS TVPVKVYPGQ RFLHLILART SSPVYKPYTG KYQGQRGVTP PKLDNSSSKN
+     F
+//

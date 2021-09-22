@@ -1,0 +1,101 @@
+ID   LPXC_PSEE4              Reviewed;         303 AA.
+AC   Q1I5C4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 88.
+DE   RecName: Full=UDP-3-O-acyl-N-acetylglucosamine deacetylase {ECO:0000255|HAMAP-Rule:MF_00388};
+DE            Short=UDP-3-O-acyl-GlcNAc deacetylase {ECO:0000255|HAMAP-Rule:MF_00388};
+DE            EC=3.5.1.108 {ECO:0000255|HAMAP-Rule:MF_00388};
+DE   AltName: Full=UDP-3-O-[R-3-hydroxymyristoyl]-N-acetylglucosamine deacetylase {ECO:0000255|HAMAP-Rule:MF_00388};
+GN   Name=lpxC {ECO:0000255|HAMAP-Rule:MF_00388}; OrderedLocusNames=PSEEN4479;
+OS   Pseudomonas entomophila (strain L48).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=384676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L48;
+RX   PubMed=16699499; DOI=10.1038/nbt1212;
+RA   Vodovar N., Vallenet D., Cruveiller S., Rouy Z., Barbe V., Acosta C.,
+RA   Cattolico L., Jubin C., Lajus A., Segurens B., Vacherie B., Wincker P.,
+RA   Weissenbach J., Lemaitre B., Medigue C., Boccard F.;
+RT   "Complete genome sequence of the entomopathogenic and metabolically
+RT   versatile soil bacterium Pseudomonas entomophila.";
+RL   Nat. Biotechnol. 24:673-679(2006).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of UDP-3-O-myristoyl-N-
+CC       acetylglucosamine to form UDP-3-O-myristoylglucosamine and acetate, the
+CC       committed step in lipid A biosynthesis. {ECO:0000255|HAMAP-
+CC       Rule:MF_00388}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-N-acetyl-alpha-D-
+CC         glucosamine = acetate + UDP-3-O-[(3R)-3-hydroxytetradecanoyl]-alpha-
+CC         D-glucosamine; Xref=Rhea:RHEA:25209, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30089, ChEBI:CHEBI:61494, ChEBI:CHEBI:71573;
+CC         EC=3.5.1.108; Evidence={ECO:0000255|HAMAP-Rule:MF_00388};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00388};
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid IV(A)
+CC       from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and UDP-N-
+CC       acetyl-alpha-D-glucosamine: step 2/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00388}.
+CC   -!- SIMILARITY: Belongs to the LpxC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00388}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CT573326; CAK17161.1; -; Genomic_DNA.
+DR   RefSeq; WP_011535531.1; NC_008027.1.
+DR   SMR; Q1I5C4; -.
+DR   STRING; 384676.PSEEN4479; -.
+DR   EnsemblBacteria; CAK17161; CAK17161; PSEEN4479.
+DR   KEGG; pen:PSEEN4479; -.
+DR   eggNOG; COG0774; Bacteria.
+DR   HOGENOM; CLU_046528_1_0_6; -.
+DR   OMA; IVFYRSD; -.
+DR   OrthoDB; 428602at2; -.
+DR   BioCyc; PENT384676:PSEEN_RS20755-MONOMER; -.
+DR   UniPathway; UPA00359; UER00478.
+DR   Proteomes; UP000000658; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008759; F:UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0103117; F:UDP-3-O-acyl-N-acetylglucosamine deacetylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1700.10; -; 1.
+DR   Gene3D; 3.30.230.20; -; 1.
+DR   HAMAP; MF_00388; LpxC; 1.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR004463; UDP-acyl_GlcNac_deAcase.
+DR   InterPro; IPR011334; UDP-acyl_GlcNac_deAcase_C.
+DR   InterPro; IPR015870; UDP-acyl_N-AcGlcN_deAcase_N.
+DR   PANTHER; PTHR33694; PTHR33694; 1.
+DR   Pfam; PF03331; LpxC; 1.
+DR   SUPFAM; SSF54211; SSF54211; 2.
+DR   TIGRFAMs; TIGR00325; lpxC; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Lipid A biosynthesis; Lipid biosynthesis; Lipid metabolism;
+KW   Metal-binding; Zinc.
+FT   CHAIN           1..303
+FT                   /note="UDP-3-O-acyl-N-acetylglucosamine deacetylase"
+FT                   /id="PRO_1000013219"
+FT   ACT_SITE        264
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00388"
+FT   METAL           78
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00388"
+FT   METAL           237
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00388"
+FT   METAL           241
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00388"
+SQ   SEQUENCE   303 AA;  33142 MW;  0380E109ECA0EE1F CRC64;
+     MIRQRTLKNT IRATGVGLHS GEKVYLTLKP APVDTGIVFR RADLSPVVEI PARAANVGET
+     TMSTTLVNGD VKVDTVEHLL SAMAGLGIDN AYVELSASEV PIMDGSAGPF VFLIQSAGLE
+     EQDAPKKFIR ILREVTVEDG DKRATFLPFD GFKVSFEIDF DHPVLKGQTQ SASVDFSSTS
+     FVKEVSRART FGFMRDIEYL RKHNLALGGS VENAIVVDET GVLNEDGLRS EDEFVKHKIL
+     DAIGDLYLLG NSLIGEFKGY KSGHSLNNQL LRKLIAETDA WEVVFFEDAS TAPISYMRPV
+     AAV
+//

@@ -1,0 +1,105 @@
+ID   GIP2_NICBE              Reviewed;         439 AA.
+AC   P0DO21;
+DT   18-SEP-2019, integrated into UniProtKB/Swiss-Prot.
+DT   18-SEP-2019, sequence version 1.
+DT   10-FEB-2021, entry version 5.
+DE   RecName: Full=Probable aspartic proteinase GIP2 {ECO:0000305};
+DE            EC=3.4.23.- {ECO:0000305};
+DE   AltName: Full=Glucanase inhibitor protein 2 {ECO:0000303|PubMed:28082413};
+DE            Short=NbGIP2 {ECO:0000303|PubMed:28082413};
+DE   Flags: Precursor;
+GN   Name=GIP2 {ECO:0000303|PubMed:28082413};
+GN   ORFNames=Niben101Scf03191g04002 {ECO:0000305};
+OS   Nicotiana benthamiana.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Solanaceae; Nicotianoideae; Nicotianeae;
+OC   Nicotiana.
+OX   NCBI_TaxID=4100;
+RN   [1]
+RP   FUNCTION, INTERACTION WITH PHYTOPHTORA PARASITICA XYLOGLUCANASE XEG1 AND
+RP   XLP1, AND SUBCELLULAR LOCATION.
+RX   PubMed=28082413; DOI=10.1126/science.aai7919;
+RA   Ma Z., Zhu L., Song T., Wang Y., Zhang Q., Xia Y., Qiu M., Lin Y., Li H.,
+RA   Kong L., Fang Y., Ye W., Wang Y., Dong S., Zheng X., Tyler B.M., Wang Y.;
+RT   "A paralogous decoy protects Phytophthora sojae apoplastic effector PsXEG1
+RT   from a host inhibitor.";
+RL   Science 355:710-714(2017).
+CC   -!- FUNCTION: Involved in plant defense against Phytophtora parasitica
+CC       (PubMed:28082413). Contributes positively to Nicotiana resistance
+CC       against P.parasitica (PubMed:28082413). Binds the P.parasitica
+CC       xyloglucanase XEG1 and inhibits its cell wall degrading enzyme activity
+CC       and its contribution as P.parasitica virulence factor
+CC       (PubMed:28082413). XEG1 acts as an important virulence factor during
+CC       P.parasitica infection but also acts as a pathogen-associated molecular
+CC       pattern (PAMP) in Nictotiana species, where it can trigger defense
+CC       responses including cell death (PubMed:28082413).
+CC       {ECO:0000269|PubMed:28082413}.
+CC   -!- FUNCTION: (Microbial infection) Possesses stronger binding affinity
+CC       with XLP1, a truncated paralog of P.parasitica XEG1 which has no enzyme
+CC       activity. Is impaired in its inhibitor activity towards the
+CC       P.parasitica xyloglucanase XEG1 when hijacked by XLP1 binding.
+CC       {ECO:0000269|PubMed:28082413}.
+CC   -!- SUBUNIT: Interacts with the Phytophtora parasitica xyloglucanase XEG1
+CC       and xyloglucanase-like XLP1 (PubMed:28082413). Possesses stronger
+CC       binding affinity with XLP1, a truncated paralog of P.parasitica XEG1
+CC       which has no enzyme activity (PubMed:28082413).
+CC       {ECO:0000269|PubMed:28082413}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, apoplast
+CC       {ECO:0000305|PubMed:28082413}.
+CC   -!- SIMILARITY: Belongs to the peptidase A1 family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01103, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P0DO21; -.
+DR   GO; GO:0048046; C:apoplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   CDD; cd05489; xylanase_inhibitor_I_like; 1.
+DR   Gene3D; 2.40.70.10; -; 2.
+DR   InterPro; IPR001461; Aspartic_peptidase_A1.
+DR   InterPro; IPR033121; PEPTIDASE_A1.
+DR   InterPro; IPR021109; Peptidase_aspartic_dom_sf.
+DR   InterPro; IPR032799; TAXi_C.
+DR   InterPro; IPR032861; TAXi_N.
+DR   InterPro; IPR033868; Xylanase_inhibitor_I-like.
+DR   PANTHER; PTHR47965; PTHR47965; 1.
+DR   Pfam; PF14541; TAXi_C; 1.
+DR   Pfam; PF14543; TAXi_N; 1.
+DR   SUPFAM; SSF50630; SSF50630; 1.
+DR   PROSITE; PS51767; PEPTIDASE_A1; 1.
+PE   1: Evidence at protein level;
+KW   Apoplast; Aspartyl protease; Glycoprotein; Hydrolase; Plant defense;
+KW   Protease; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..439
+FT                   /note="Probable aspartic proteinase GIP2"
+FT                   /id="PRO_0000447892"
+FT   DOMAIN          47..420
+FT                   /note="Peptidase A1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01103"
+FT   CARBOHYD        116
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        280
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        323
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   CARBOHYD        434
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+SQ   SEQUENCE   439 AA;  47214 MW;  6958435973D96D57 CRC64;
+     MASSCCLHAI LLCSLLFITS TTAQSETSFR PKGLILPITK DALTLQYLTQ IQQRTPLVPV
+     SLTLDLGGQF LWVDCDQGYV SSTYRPARCR SAQCSLAGAG SGCGQCFSPP KPGCNNNTCG
+     LLPDNTITRT ATSGELASDT VQVQSSNGKN PGRHVSDKDF LFVCGSTFLL EGLASGVKGM
+     AGLGRTRISL PSQFSAEFSF PRKFAVCLSS STNSKGVVLF GDGPYTFLPN REFANNDFSY
+     TPLFINPVST ASAFSSREPS SEYFIGVKSI KINEKVVPIN TTLLSIDNQG VGGTKISTVN
+     PYTILETSIY NAVTNFFVKE LVNITRVASV APFRACFDSR NIASTRVGPA VPSIDLVLQN
+     ENVFWRIFGA NSMVQVSENV LCLGFVDGGV SPRTSIVVGG YTIEDNLLQF DLARSRLGFT
+     SSILFRQTTC ANFNFTSIA
+//

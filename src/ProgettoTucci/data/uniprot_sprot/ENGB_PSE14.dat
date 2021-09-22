@@ -1,0 +1,99 @@
+ID   ENGB_PSE14              Reviewed;         211 AA.
+AC   Q48PV6;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   10-FEB-2021, entry version 87.
+DE   RecName: Full=Probable GTP-binding protein EngB {ECO:0000255|HAMAP-Rule:MF_00321};
+GN   Name=engB {ECO:0000255|HAMAP-Rule:MF_00321}; OrderedLocusNames=PSPPH_0258;
+OS   Pseudomonas savastanoi pv. phaseolicola (strain 1448A / Race 6)
+OS   (Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=264730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1448A / Race 6;
+RX   PubMed=16159782; DOI=10.1128/jb.187.18.6488-6498.2005;
+RA   Joardar V., Lindeberg M., Jackson R.W., Selengut J., Dodson R.,
+RA   Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S., Gwinn Giglio M.,
+RA   Madupu R., Nelson W.C., Rosovitz M.J., Sullivan S.A., Crabtree J.,
+RA   Creasy T., Davidsen T.M., Haft D.H., Zafar N., Zhou L., Halpin R.,
+RA   Holley T., Khouri H.M., Feldblyum T.V., White O., Fraser C.M.,
+RA   Chatterjee A.K., Cartinhour S., Schneider D., Mansfield J.W., Collmer A.,
+RA   Buell R.;
+RT   "Whole-genome sequence analysis of Pseudomonas syringae pv. phaseolicola
+RT   1448A reveals divergence among pathovars in genes involved in virulence and
+RT   transposition.";
+RL   J. Bacteriol. 187:6488-6498(2005).
+CC   -!- FUNCTION: Necessary for normal cell division and for the maintenance of
+CC       normal septation. {ECO:0000255|HAMAP-Rule:MF_00321}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00321};
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngB GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000058; AAZ36510.1; -; Genomic_DNA.
+DR   RefSeq; WP_004655245.1; NC_005773.3.
+DR   SMR; Q48PV6; -.
+DR   STRING; 264730.PSPPH_0258; -.
+DR   EnsemblBacteria; AAZ36510; AAZ36510; PSPPH_0258.
+DR   KEGG; psp:PSPPH_0258; -.
+DR   eggNOG; COG0218; Bacteria.
+DR   HOGENOM; CLU_033732_1_0_6; -.
+DR   OMA; LMMDIRH; -.
+DR   OrthoDB; 1746051at2; -.
+DR   Proteomes; UP000000551; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000917; P:division septum assembly; IEA:UniProtKB-KW.
+DR   CDD; cd01876; YihA_EngB; 1.
+DR   HAMAP; MF_00321; GTPase_EngB; 1.
+DR   InterPro; IPR030393; G_ENGB_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR019987; GTP-bd_ribosome_bio_YsxC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR03598; GTPase_YsxC; 1.
+DR   PROSITE; PS51706; G_ENGB; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; GTP-binding; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Septation.
+FT   CHAIN           1..211
+FT                   /note="Probable GTP-binding protein EngB"
+FT                   /id="PRO_0000266921"
+FT   DOMAIN          30..204
+FT                   /note="EngB-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   NP_BIND         38..45
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   NP_BIND         64..68
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   NP_BIND         82..85
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   NP_BIND         149..152
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   NP_BIND         182..185
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   METAL           45
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+FT   METAL           66
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00321"
+SQ   SEQUENCE   211 AA;  23522 MW;  58C375144590253E CRC64;
+     MQLKNPILGL CQQATFMLSA AKVDQCPDDE GFEVAFAGRS NAGKSSALNT LTHASLARTS
+     KTPGRTQLLN FFGLDEDRRL VDLPGYGYAK VPIPLKLHWQ RHLEAYLGSR ESLKGLILMM
+     DIRHPMTDFD LLMLDWAIAS NMPMHILLTK ADKLTYGAAK NTLLKVQTEI RKGWGDAVSI
+     QLFSAPKRMG LEEAYTVLAD WMELEDKAPA E
+//

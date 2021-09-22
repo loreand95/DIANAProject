@@ -1,0 +1,101 @@
+ID   MENC_ECOSE              Reviewed;         320 AA.
+AC   B6I7K5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=o-succinylbenzoate synthase {ECO:0000255|HAMAP-Rule:MF_00470};
+DE            Short=OSB synthase {ECO:0000255|HAMAP-Rule:MF_00470};
+DE            Short=OSBS {ECO:0000255|HAMAP-Rule:MF_00470};
+DE            EC=4.2.1.113 {ECO:0000255|HAMAP-Rule:MF_00470};
+DE   AltName: Full=4-(2'-carboxyphenyl)-4-oxybutyric acid synthase {ECO:0000255|HAMAP-Rule:MF_00470};
+DE   AltName: Full=o-succinylbenzoic acid synthase {ECO:0000255|HAMAP-Rule:MF_00470};
+GN   Name=menC {ECO:0000255|HAMAP-Rule:MF_00470}; OrderedLocusNames=ECSE_2521;
+OS   Escherichia coli (strain SE11).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=409438;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SE11;
+RX   PubMed=18931093; DOI=10.1093/dnares/dsn026;
+RA   Oshima K., Toh H., Ogura Y., Sasamoto H., Morita H., Park S.-H., Ooka T.,
+RA   Iyoda S., Taylor T.D., Hayashi T., Itoh K., Hattori M.;
+RT   "Complete genome sequence and comparative analysis of the wild-type
+RT   commensal Escherichia coli strain SE11 isolated from a healthy adult.";
+RL   DNA Res. 15:375-386(2008).
+CC   -!- FUNCTION: Converts 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-
+CC       carboxylate (SHCHC) to 2-succinylbenzoate (OSB). {ECO:0000255|HAMAP-
+CC       Rule:MF_00470}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(1R,6R)-6-hydroxy-2-succinyl-cyclohexa-2,4-diene-1-carboxylate
+CC         = 2-succinylbenzoate + H2O; Xref=Rhea:RHEA:10196, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:18325, ChEBI:CHEBI:58689; EC=4.2.1.113;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00470};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00470};
+CC   -!- PATHWAY: Quinol/quinone metabolism; 1,4-dihydroxy-2-naphthoate
+CC       biosynthesis; 1,4-dihydroxy-2-naphthoate from chorismate: step 4/7.
+CC       {ECO:0000255|HAMAP-Rule:MF_00470}.
+CC   -!- PATHWAY: Quinol/quinone metabolism; menaquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00470}.
+CC   -!- SIMILARITY: Belongs to the mandelate racemase/muconate lactonizing
+CC       enzyme family. MenC type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00470}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009240; BAG78045.1; -; Genomic_DNA.
+DR   RefSeq; WP_001255609.1; NC_011415.1.
+DR   SMR; B6I7K5; -.
+DR   EnsemblBacteria; BAG78045; BAG78045; ECSE_2521.
+DR   KEGG; ecy:ECSE_2521; -.
+DR   HOGENOM; CLU_030273_0_1_6; -.
+DR   OMA; YEANRDG; -.
+DR   UniPathway; UPA00079; -.
+DR   UniPathway; UPA01057; UER00165.
+DR   Proteomes; UP000008199; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043748; F:O-succinylbenzoate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009234; P:menaquinone biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.20.20.120; -; 1.
+DR   Gene3D; 3.30.390.10; -; 1.
+DR   HAMAP; MF_00470; MenC_1; 1.
+DR   InterPro; IPR036849; Enolase-like_C_sf.
+DR   InterPro; IPR029017; Enolase-like_N.
+DR   InterPro; IPR029065; Enolase_C-like.
+DR   InterPro; IPR013342; Mandelate_racemase_C.
+DR   InterPro; IPR010196; OSB_synthase_MenC1.
+DR   Pfam; PF13378; MR_MLE_C; 1.
+DR   SMART; SM00922; MR_MLE; 1.
+DR   SUPFAM; SSF51604; SSF51604; 1.
+DR   SUPFAM; SSF54826; SSF54826; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Magnesium; Menaquinone biosynthesis; Metal-binding.
+FT   CHAIN           1..320
+FT                   /note="o-succinylbenzoate synthase"
+FT                   /id="PRO_1000125572"
+FT   ACT_SITE        133
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00470"
+FT   ACT_SITE        235
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00470"
+FT   METAL           161
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00470"
+FT   METAL           190
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00470"
+FT   METAL           213
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00470"
+SQ   SEQUENCE   320 AA;  35469 MW;  0E25A1A00E77AD79 CRC64;
+     MRSAQVYRWQ IPMDAGVVLR DRRLKTRDGL YVCLREGERE GWGEISPLPG FSQETWEEAQ
+     SVLLAWVNNW LAGDCELPQM PSVAFGVSCA LAELADTLPQ AANYRAAPLC NGDPDDLILK
+     LADMPGEKVA KVKVGLYEAV RDGMVVNLLL EAIPDLHLRL DANRAWTPLK GQQFAKYVNP
+     DYRHRIAFLE EPCKTRDDSR AFARETGIAI AWDESLREPD FAFVAEEGVR AVVIKPTLTG
+     SLEKVREQVQ AAHALGLTAV ISSSIESSLG LTQLARIAAW LTPDTIPGLD TLDLMQAQQV
+     RRWPGSTLPV VEVDALERLL
+//

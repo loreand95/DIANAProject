@@ -1,0 +1,87 @@
+ID   NORW_ECO55              Reviewed;         377 AA.
+AC   B7LEC2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 66.
+DE   RecName: Full=Nitric oxide reductase FlRd-NAD(+) reductase {ECO:0000255|HAMAP-Rule:MF_01313};
+DE            EC=1.18.1.- {ECO:0000255|HAMAP-Rule:MF_01313};
+DE   AltName: Full=Flavorubredoxin reductase {ECO:0000255|HAMAP-Rule:MF_01313};
+DE            Short=FlRd-reductase {ECO:0000255|HAMAP-Rule:MF_01313};
+DE            Short=FlavoRb reductase {ECO:0000255|HAMAP-Rule:MF_01313};
+GN   Name=norW {ECO:0000255|HAMAP-Rule:MF_01313};
+GN   Synonyms=flrR {ECO:0000255|HAMAP-Rule:MF_01313};
+GN   OrderedLocusNames=EC55989_2973;
+OS   Escherichia coli (strain 55989 / EAEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=585055;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=55989 / EAEC;
+RX   PubMed=19165319; DOI=10.1371/journal.pgen.1000344;
+RA   Touchon M., Hoede C., Tenaillon O., Barbe V., Baeriswyl S., Bidet P.,
+RA   Bingen E., Bonacorsi S., Bouchier C., Bouvet O., Calteau A., Chiapello H.,
+RA   Clermont O., Cruveiller S., Danchin A., Diard M., Dossat C., Karoui M.E.,
+RA   Frapy E., Garry L., Ghigo J.M., Gilles A.M., Johnson J., Le Bouguenec C.,
+RA   Lescat M., Mangenot S., Martinez-Jehanne V., Matic I., Nassif X., Oztas S.,
+RA   Petit M.A., Pichon C., Rouy Z., Ruf C.S., Schneider D., Tourret J.,
+RA   Vacherie B., Vallenet D., Medigue C., Rocha E.P.C., Denamur E.;
+RT   "Organised genome dynamics in the Escherichia coli species results in
+RT   highly diverse adaptive paths.";
+RL   PLoS Genet. 5:E1000344-E1000344(2009).
+CC   -!- FUNCTION: One of at least two accessory proteins for anaerobic nitric
+CC       oxide (NO) reductase. Reduces the rubredoxin moiety of NO reductase.
+CC       {ECO:0000255|HAMAP-Rule:MF_01313}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + NAD(+) + 2 reduced [nitric oxide reductase rubredoxin
+CC         domain] = NADH + 2 oxidized [nitric oxide reductase rubredoxin
+CC         domain]; Xref=Rhea:RHEA:42960, Rhea:RHEA-COMP:10304, Rhea:RHEA-
+CC         COMP:10305, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01313};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01313};
+CC   -!- PATHWAY: Nitrogen metabolism; nitric oxide reduction.
+CC       {ECO:0000255|HAMAP-Rule:MF_01313}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01313}.
+CC   -!- SIMILARITY: Belongs to the FAD-dependent oxidoreductase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01313}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU928145; CAU98859.1; -; Genomic_DNA.
+DR   RefSeq; WP_000064748.1; NC_011748.1.
+DR   SMR; B7LEC2; -.
+DR   EnsemblBacteria; CAU98859; CAU98859; EC55989_2973.
+DR   KEGG; eck:EC55989_2973; -.
+DR   HOGENOM; CLU_003291_4_4_6; -.
+DR   OMA; IHHFWTF; -.
+DR   UniPathway; UPA00638; -.
+DR   Proteomes; UP000000746; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016731; F:oxidoreductase activity, acting on iron-sulfur proteins as donors, NAD or NADP as acceptor; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_01313; NorW; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR023961; NO_rdtase_NorW.
+DR   InterPro; IPR041364; Rbx-bd.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF18113; Rbx_binding; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; Oxidoreductase.
+FT   CHAIN           1..377
+FT                   /note="Nitric oxide reductase FlRd-NAD(+) reductase"
+FT                   /id="PRO_1000165584"
+SQ   SEQUENCE   377 AA;  41332 MW;  764673D37A748015 CRC64;
+     MSNGIVIIGS GFAARQLVKN IRKQDATIPL TLIAADSMDE YNKPDLSHVI SQGQRADDLT
+     RQTAGEFAEQ FNLHLFPQTW VTDIDAEARV VKSQNNQWQY DKLVLATGAS AFVPPVPGRE
+     LMLTLNSQQE YRACETQLRD ARRVLIVGGG LIGSELAMDF CRAGKAVTLI DNAASILASL
+     MPPEVSSRLQ HRLTEMGVHL LLKSQLQGLE KTDSGILATL DRQRSIEVDA VIAATGLRPE
+     TALARRAGLT INRGVCVDSY LQTSNADIYA LGDCAEINGQ VLPFLQPIQL SAMVLAKNLL
+     GNNTPLKLPA MLVKIKTPEL PLHLAGETQR QDLRWQINTE RQGMVARGVD DADQLRAFVV
+     SEDRMKEAFG LLKTLPM
+//

@@ -1,0 +1,213 @@
+ID   CTR2_CHICK              Reviewed;         654 AA.
+AC   B3TP03; B3TP04; B3TP05;
+DT   26-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   07-OCT-2020, entry version 66.
+DE   RecName: Full=Cationic amino acid transporter 2;
+DE            Short=CAT-2;
+DE            Short=CAT2;
+DE            Short=cCAT-2;
+DE   AltName: Full=Low affinity cationic amino acid transporter 2;
+DE   AltName: Full=Solute carrier family 7 member 2;
+GN   Name=SLC7A2; Synonyms=ATRC2, CAT2;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2 AND 3), IDENTIFICATION OF ISOFORM
+RP   3 AS POTENTIAL NMD TARGET, AND TISSUE SPECIFICITY.
+RC   TISSUE=Pectoralis muscle;
+RX   PubMed=18495509; DOI=10.1016/j.cbpb.2008.03.018;
+RA   Humphrey B.D., Kirsch S., Morris D.;
+RT   "Molecular cloning and characterization of the chicken cationic amino acid
+RT   transporter-2 gene.";
+RL   Comp. Biochem. Physiol. 150B:301-311(2008).
+CC   -!- FUNCTION: Low-affinity, high capacity permease involved in the
+CC       transport of the cationic amino acids (arginine, lysine and ornithine).
+CC       {ECO:0000250|UniProtKB:P18581}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P18581};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:P18581}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=cCAT-2A;
+CC         IsoId=B3TP03-1; Sequence=Displayed;
+CC       Name=2; Synonyms=cCAT-2B;
+CC         IsoId=B3TP03-2; Sequence=VSP_037357;
+CC       Name=3; Synonyms=cCAT-2C;
+CC         IsoId=B3TP03-3; Sequence=VSP_037356, VSP_037358;
+CC   -!- TISSUE SPECIFICITY: Expressed in liver, pectoralis and gastrocnemius.
+CC       {ECO:0000269|PubMed:18495509}.
+CC   -!- MISCELLANEOUS: [Isoform 3]: May be produced at very low levels due to a
+CC       premature stop codon in the mRNA, leading to nonsense-mediated mRNA
+CC       decay. Lacks the domain responsible for mediating amino acids
+CC       transport. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the amino acid-polyamine-organocation (APC)
+CC       superfamily. Cationic amino acid transporter (CAT) (TC 2.A.3.3) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU360448; ACA61195.1; -; mRNA.
+DR   EMBL; EU360449; ACA61196.1; -; mRNA.
+DR   EMBL; EU360450; ACA61197.1; -; mRNA.
+DR   STRING; 9031.ENSGALP00000041429; -.
+DR   PaxDb; B3TP03; -.
+DR   PRIDE; B3TP03; -.
+DR   eggNOG; KOG1286; Eukaryota.
+DR   InParanoid; B3TP03; -.
+DR   PhylomeDB; B3TP03; -.
+DR   SABIO-RK; B3TP03; -.
+DR   Proteomes; UP000000539; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IDA:AgBase.
+DR   GO; GO:0031410; C:cytoplasmic vesicle; IDA:AgBase.
+DR   GO; GO:0005794; C:Golgi apparatus; IDA:AgBase.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IDA:AgBase.
+DR   GO; GO:0015171; F:amino acid transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015181; F:arginine transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0061459; F:L-arginine transmembrane transporter activity; IDA:AgBase.
+DR   GO; GO:0015189; F:L-lysine transmembrane transporter activity; IDA:AgBase.
+DR   GO; GO:0000064; F:L-ornithine transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0006865; P:amino acid transport; IBA:GO_Central.
+DR   GO; GO:0097638; P:L-arginine import across plasma membrane; IDA:AgBase.
+DR   GO; GO:0097639; P:L-lysine import across plasma membrane; IDA:AgBase.
+DR   GO; GO:1903352; P:L-ornithine transmembrane transport; IBA:GO_Central.
+DR   InterPro; IPR002293; AA/rel_permease1.
+DR   InterPro; IPR004755; Cat_AA_permease.
+DR   InterPro; IPR029485; CAT_C.
+DR   Pfam; PF13520; AA_permease_2; 1.
+DR   Pfam; PF13906; AA_permease_C; 1.
+DR   TIGRFAMs; TIGR00906; 2A0303; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Amino-acid transport; Cell membrane; Glycoprotein;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..654
+FT                   /note="Cationic amino acid transporter 2"
+FT                   /id="PRO_0000375228"
+FT   TOPO_DOM        1..37
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        38..58
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        59..65
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        66..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        87..103
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        104..124
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        125..162
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        163..183
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        184..191
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        192..212
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        213..248
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        249..269
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        270..289
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        290..310
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        311..339
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        340..360
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        361..385
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        386..406
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        407..409
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        410..430
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        431..489
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        490..510
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        511..522
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        523..543
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        544..554
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        555..575
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        576..581
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        582..602
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        603..654
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        226
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        233
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        239
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         353..358
+FT                   /note="LLGSMF -> YYGISV (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:18495509"
+FT                   /id="VSP_037356"
+FT   VAR_SEQ         357..397
+FT                   /note="MFPLPRIVFAMARDGLLFSFLAKVSKRQAPLLATLTAGVIS -> IFPMPRV
+FT                   IYAMAKDGLLFKCLAQINSKTKTPLVATPSSGAVA (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:18495509"
+FT                   /id="VSP_037357"
+FT   VAR_SEQ         359..654
+FT                   /note="Missing (in isoform 3)"
+FT                   /evidence="ECO:0000303|PubMed:18495509"
+FT                   /id="VSP_037358"
+SQ   SEQUENCE   654 AA;  71216 MW;  AB262A5B8ADC5B27 CRC64;
+     MLPCGPALTF VRCLVRKKNI KGEGLEDSLC RCLSTLDLIA LGVGSTLGAG VYVLAGEVAK
+     SDSGPSIVVS FLIAALASVM AGLCYAEFGA RVPKTGSAYL YTYVAVGELW AFITGWNLIL
+     SYVIGTSSVA RAWSGTFDEL LGKQISHFFK TYFKMNYPGL AEYPDFFAVF LILLLSGLLS
+     FGVKESAWVN KIFTAINILV LLFVMISGFV KGDVDNWRIS EEYLINLSEI AENFSSYKNV
+     TSIYGSGGFM PYGFTGTLAG AATCFYAFVG FDCIATTGEE VRNPQKAIPI GIVVSLLVCF
+     MAYFGVSAAL TLMMPYYLLD EKSPLPVAFA YVGWGPAKYV VAVGSLCALS TSLLGSMFPL
+     PRIVFAMARD GLLFSFLAKV SKRQAPLLAT LTAGVISAIM AFLFDLKALV DIMSIGTLLA
+     YSLVATCVLI LRYQPSLTYE QPKYSPEKAT LAASKRESAV SESQINMIQE SHFSLQTLIN
+     PSSLPTEQTA TTVNCFVGLL AFLVCGLSAL TTYGTHFIAN LEPWSICLLA TLVVSFIVTI
+     LLIQRQPQNQ QKVAFMVPLL PFLPSLSILV NIYLMVQLSA DTWIRFSIWM ALGFIIYFTY
+     GIRHSLEGRH SDGDGDSCSE NSGLQEKNPV EEVDEPENAN ESDKFLARER TSEC
+//

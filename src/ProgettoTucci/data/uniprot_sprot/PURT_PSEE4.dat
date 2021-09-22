@@ -1,0 +1,139 @@
+ID   PURT_PSEE4              Reviewed;         393 AA.
+AC   Q1I5Y3;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 100.
+DE   RecName: Full=Formate-dependent phosphoribosylglycinamide formyltransferase {ECO:0000255|HAMAP-Rule:MF_01643};
+DE   AltName: Full=5'-phosphoribosylglycinamide transformylase 2 {ECO:0000255|HAMAP-Rule:MF_01643};
+DE   AltName: Full=Formate-dependent GAR transformylase {ECO:0000255|HAMAP-Rule:MF_01643};
+DE            EC=2.1.2.- {ECO:0000255|HAMAP-Rule:MF_01643};
+DE   AltName: Full=GAR transformylase 2 {ECO:0000255|HAMAP-Rule:MF_01643};
+DE            Short=GART 2 {ECO:0000255|HAMAP-Rule:MF_01643};
+DE   AltName: Full=Non-folate glycinamide ribonucleotide transformylase {ECO:0000255|HAMAP-Rule:MF_01643};
+DE   AltName: Full=Phosphoribosylglycinamide formyltransferase 2 {ECO:0000255|HAMAP-Rule:MF_01643};
+GN   Name=purT {ECO:0000255|HAMAP-Rule:MF_01643}; OrderedLocusNames=PSEEN4265;
+OS   Pseudomonas entomophila (strain L48).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=384676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L48;
+RX   PubMed=16699499; DOI=10.1038/nbt1212;
+RA   Vodovar N., Vallenet D., Cruveiller S., Rouy Z., Barbe V., Acosta C.,
+RA   Cattolico L., Jubin C., Lajus A., Segurens B., Vacherie B., Wincker P.,
+RA   Weissenbach J., Lemaitre B., Medigue C., Boccard F.;
+RT   "Complete genome sequence of the entomopathogenic and metabolically
+RT   versatile soil bacterium Pseudomonas entomophila.";
+RL   Nat. Biotechnol. 24:673-679(2006).
+CC   -!- FUNCTION: Involved in the de novo purine biosynthesis. Catalyzes the
+CC       transfer of formate to 5-phospho-ribosyl-glycinamide (GAR), producing
+CC       5-phospho-ribosyl-N-formylglycinamide (FGAR). Formate is provided by
+CC       PurU via hydrolysis of 10-formyl-tetrahydrofolate. {ECO:0000255|HAMAP-
+CC       Rule:MF_01643}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + formate + N(1)-(5-phospho-beta-D-ribosyl)glycinamide =
+CC         ADP + H(+) + N(2)-formyl-N(1)-(5-phospho-beta-D-ribosyl)glycinamide +
+CC         phosphate; Xref=Rhea:RHEA:24829, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:143788, ChEBI:CHEBI:147286, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01643};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; N(2)-
+CC       formyl-N(1)-(5-phospho-D-ribosyl)glycinamide from N(1)-(5-phospho-D-
+CC       ribosyl)glycinamide (formate route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01643}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01643}.
+CC   -!- SIMILARITY: Belongs to the PurK/PurT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01643}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CT573326; CAK16952.1; -; Genomic_DNA.
+DR   RefSeq; WP_011535323.1; NC_008027.1.
+DR   SMR; Q1I5Y3; -.
+DR   STRING; 384676.PSEEN4265; -.
+DR   EnsemblBacteria; CAK16952; CAK16952; PSEEN4265.
+DR   KEGG; pen:PSEEN4265; -.
+DR   eggNOG; COG0027; Bacteria.
+DR   HOGENOM; CLU_011534_1_3_6; -.
+DR   OMA; GMVTMIT; -.
+DR   OrthoDB; 1677960at2; -.
+DR   BioCyc; PENT384676:PSEEN_RS19720-MONOMER; -.
+DR   UniPathway; UPA00074; UER00127.
+DR   Proteomes; UP000000658; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0043815; F:phosphoribosylglycinamide formyltransferase 2 activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004644; F:phosphoribosylglycinamide formyltransferase activity; IEA:InterPro.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   HAMAP; MF_01643; PurT; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR003135; ATP-grasp_carboxylate-amine.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   InterPro; IPR005862; PurT.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   Pfam; PF02222; ATP-grasp; 1.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR01142; purT; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Purine biosynthesis; Transferase.
+FT   CHAIN           1..393
+FT                   /note="Formate-dependent phosphoribosylglycinamide
+FT                   formyltransferase"
+FT                   /id="PRO_0000319210"
+FT   DOMAIN          119..308
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   NP_BIND         160..165
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   NP_BIND         195..198
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   REGION          22..23
+FT                   /note="5'-phosphoribosylglycinamide binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   REGION          363..364
+FT                   /note="5'-phosphoribosylglycinamide binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   METAL           267
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   METAL           279
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         82
+FT                   /note="5'-phosphoribosylglycinamide"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         114
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         155
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         203
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         286
+FT                   /note="5'-phosphoribosylglycinamide"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+FT   BINDING         356
+FT                   /note="5'-phosphoribosylglycinamide"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01643"
+SQ   SEQUENCE   393 AA;  42573 MW;  F512F1558B171346 CRC64;
+     MTRIGTPLSP TATRVLLCGC GELGKEVVIE LQRLGVEVIA VDRYANAPAM QVAHRSHVIN
+     MLDGVALRAV IEAEKPHYIV PEIEAIATAT LVELENEGFN VVPTARATQL TMNREGIRRL
+     AAEELDLPTS PYHFADTFED YSKAVADLGY PCVVKPVMSS SGKGQSLLRS ADDLQKAWDY
+     AQEGGRAGKG RVIIEGFIDF EYEITLLTVR HVGGTTFLEP VGHRQEKGDY QESWQPQAMS
+     PKALAESQRV AQAVTDALGG RGLFGVELFV KGDQVWFSEV SPRPHDTGLV TLISQELSQF
+     ALHARAILGL PIPVVRQFGP SASAVILPEG QSQQTSFANL GAALSEPDTA IRLFGKPEIN
+     GTRRMGVCLA RDESVEAARA KATRASQAVK VEF
+//

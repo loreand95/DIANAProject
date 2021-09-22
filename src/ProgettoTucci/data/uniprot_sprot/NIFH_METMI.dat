@@ -1,0 +1,97 @@
+ID   NIFH_METMI              Reviewed;         275 AA.
+AC   P0CW56; Q50218;
+DT   03-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAY-2011, sequence version 1.
+DT   10-FEB-2021, entry version 44.
+DE   RecName: Full=Nitrogenase iron protein;
+DE            EC=1.18.6.1;
+DE   AltName: Full=Nitrogenase Fe protein;
+DE   AltName: Full=Nitrogenase component II;
+DE   AltName: Full=Nitrogenase reductase;
+GN   Name=nifH;
+OS   Methanococcus maripaludis (Methanococcus deltae).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=39152;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 43000 / DSM 2067 / JCM 10722 / JJ;
+RX   PubMed=7592322; DOI=10.1128/jb.177.20.5773-5777.1995;
+RA   Blank C.E., Kessler P.S., Leigh J.A.;
+RT   "Genetics in methanogens: transposon insertion mutagenesis of a
+RT   Methanococcus maripaludis nifH gene.";
+RL   J. Bacteriol. 177:5773-5777(1995).
+CC   -!- FUNCTION: The key enzymatic reactions in nitrogen fixation are
+CC       catalyzed by the nitrogenase complex, which has 2 components: the iron
+CC       protein and the molybdenum-iron protein. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=16 ATP + 16 H2O + N2 + 8 reduced [2Fe-2S]-[ferredoxin] = 16
+CC         ADP + 6 H(+) + H2 + 2 NH4(+) + 8 oxidized [2Fe-2S]-[ferredoxin] + 16
+CC         phosphate; Xref=Rhea:RHEA:21448, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17997,
+CC         ChEBI:CHEBI:18276, ChEBI:CHEBI:28938, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:456216; EC=1.18.6.1;
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster per dimer. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- PTM: The reversible ADP-ribosylation of Arg-100 inactivates the
+CC       nitrogenase reductase and regulates nitrogenase activity.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NifH/BchL/ChlL family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U75887; AAC45512.1; -; Genomic_DNA.
+DR   PIR; T10090; T10090.
+DR   RefSeq; WP_011170797.1; NZ_CP026606.1.
+DR   SMR; P0CW56; -.
+DR   GeneID; 36101236; -.
+DR   GeneID; 58497638; -.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0018697; F:carbonyl sulfide nitrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016163; F:nitrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009399; P:nitrogen fixation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00533; NifH; 1.
+DR   InterPro; IPR030655; NifH/chlL_CS.
+DR   InterPro; IPR000392; NifH/frxC.
+DR   InterPro; IPR005977; Nitrogenase_Fe_NifH.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR42864; PTHR42864; 1.
+DR   Pfam; PF00142; Fer4_NifH; 1.
+DR   PIRSF; PIRSF000363; Nitrogenase_iron; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01287; nifH; 1.
+DR   PROSITE; PS00746; NIFH_FRXC_1; 1.
+DR   PROSITE; PS00692; NIFH_FRXC_2; 1.
+DR   PROSITE; PS51026; NIFH_FRXC_3; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; ADP-ribosylation; ATP-binding; Iron; Iron-sulfur; Metal-binding;
+KW   Nitrogen fixation; Nucleotide-binding; Oxidoreductase.
+FT   CHAIN           1..275
+FT                   /note="Nitrogenase iron protein"
+FT                   /id="PRO_0000139541"
+FT   NP_BIND         9..16
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+FT   METAL           97
+FT                   /note="Iron-sulfur (4Fe-4S); shared with dimeric partner"
+FT                   /evidence="ECO:0000250"
+FT   METAL           132
+FT                   /note="Iron-sulfur (4Fe-4S); shared with dimeric partner"
+FT                   /evidence="ECO:0000250"
+FT   MOD_RES         100
+FT                   /note="ADP-ribosylarginine; by dinitrogenase reductase ADP-
+FT                   ribosyltransferase"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   275 AA;  30146 MW;  ACDCB22AED7195FD CRC64;
+     MVRKIAIYGK GGIGKSTTTQ NTVAAMAHFH DKKVFIHGCD PKADSTRLIL HGKQQVTMMD
+     TLREKGEDEC TPDKVIEVGF GGVKCVESGG PEPGVGCAGR GVITAITLME QHGVYEDDLD
+     FVFFDVLGDV VCGGFAMPVR DGKADEIYVV ASGEMMALYA ANNICKGMVK YAEQSGVRLG
+     GIICNSRNVD GELDLLQEFC DKIGTQLIHF VPRDNIVQKA EFQKKAVVDY DDTCNQALEY
+     KELARKIIEN ENLVIPTPMT MDELEELTSK YGFLD
+//

@@ -1,0 +1,109 @@
+ID   FADI_PSET1              Reviewed;         436 AA.
+AC   Q3IEE3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   10-FEB-2021, entry version 93.
+DE   RecName: Full=3-ketoacyl-CoA thiolase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE            EC=2.3.1.16 {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=ACSs {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Acetyl-CoA acyltransferase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Acyl-CoA ligase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Beta-ketothiolase {ECO:0000255|HAMAP-Rule:MF_01618};
+DE   AltName: Full=Fatty acid oxidation complex subunit beta {ECO:0000255|HAMAP-Rule:MF_01618};
+GN   Name=fadI {ECO:0000255|HAMAP-Rule:MF_01618}; OrderedLocusNames=PSHAa0966;
+OS   Pseudoalteromonas translucida (strain TAC 125).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Pseudoalteromonadaceae; Pseudoalteromonas.
+OX   NCBI_TaxID=326442;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TAC 125;
+RX   PubMed=16169927; DOI=10.1101/gr.4126905;
+RA   Medigue C., Krin E., Pascal G., Barbe V., Bernsel A., Bertin P.N.,
+RA   Cheung F., Cruveiller S., D'Amico S., Duilio A., Fang G., Feller G., Ho C.,
+RA   Mangenot S., Marino G., Nilsson J., Parrilli E., Rocha E.P.C., Rouy Z.,
+RA   Sekowska A., Tutino M.L., Vallenet D., von Heijne G., Danchin A.;
+RT   "Coping with cold: the genome of the versatile marine Antarctica bacterium
+RT   Pseudoalteromonas haloplanktis TAC125.";
+RL   Genome Res. 15:1325-1335(2005).
+CC   -!- FUNCTION: Catalyzes the final step of fatty acid oxidation in which
+CC       acetyl-CoA is released and the CoA ester of a fatty acid two carbons
+CC       shorter is formed. {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + an acyl-CoA = a 3-oxoacyl-CoA + CoA;
+CC         Xref=Rhea:RHEA:21564, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:58342, ChEBI:CHEBI:90726; EC=2.3.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01618};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid beta-oxidation.
+CC       {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha chains (FadJ) and two beta chains
+CC       (FadI). {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Thiolase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01618}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR954246; CAI86044.1; -; Genomic_DNA.
+DR   RefSeq; WP_011327655.1; NC_007481.1.
+DR   SMR; Q3IEE3; -.
+DR   STRING; 326442.PSHAa0966; -.
+DR   EnsemblBacteria; CAI86044; CAI86044; PSHAa0966.
+DR   KEGG; pha:PSHAa0966; -.
+DR   PATRIC; fig|326442.8.peg.926; -.
+DR   eggNOG; COG0183; Bacteria.
+DR   HOGENOM; CLU_031026_2_0_6; -.
+DR   OMA; MTAFPEP; -.
+DR   OrthoDB; 330994at2; -.
+DR   BioCyc; PHAL326442:PSHA_RS04710-MONOMER; -.
+DR   UniPathway; UPA00659; -.
+DR   Proteomes; UP000006843; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003988; F:acetyl-CoA C-acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006635; P:fatty acid beta-oxidation; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00751; thiolase; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   HAMAP; MF_01618; FadI; 1.
+DR   InterPro; IPR012806; Ac-CoA_C-AcTrfase_FadI.
+DR   InterPro; IPR002155; Thiolase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   InterPro; IPR020615; Thiolase_acyl_enz_int_AS.
+DR   InterPro; IPR020610; Thiolase_AS.
+DR   InterPro; IPR020617; Thiolase_C.
+DR   InterPro; IPR020613; Thiolase_CS.
+DR   InterPro; IPR020616; Thiolase_N.
+DR   Pfam; PF02803; Thiolase_C; 1.
+DR   Pfam; PF00108; Thiolase_N; 1.
+DR   PIRSF; PIRSF000429; Ac-CoA_Ac_transf; 1.
+DR   SUPFAM; SSF53901; SSF53901; 2.
+DR   TIGRFAMs; TIGR01930; AcCoA-C-Actrans; 1.
+DR   TIGRFAMs; TIGR02446; FadI; 1.
+DR   PROSITE; PS00098; THIOLASE_1; 1.
+DR   PROSITE; PS00737; THIOLASE_2; 1.
+DR   PROSITE; PS00099; THIOLASE_3; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Fatty acid metabolism; Lipid degradation;
+KW   Lipid metabolism; Reference proteome; Transferase.
+FT   CHAIN           1..436
+FT                   /note="3-ketoacyl-CoA thiolase"
+FT                   /id="PRO_1000069504"
+FT   ACT_SITE        99
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+FT   ACT_SITE        392
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+FT   ACT_SITE        422
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01618"
+SQ   SEQUENCE   436 AA;  46356 MW;  49E302CBF8A909DA CRC64;
+     MSEQNILKTP KGDRIAIVSG LRTPFAKQAT AFHHVPALDM GKLVVNEMLE RLNFNKSEID
+     QLVFGQVVQM PEAPNIAREI VLGTGMPVSV DAYSVSRACA TSFQAIANVA ESIMAGSVTV
+     GIAGGADSSS VLPIGVSKKL AGSLVDLNKA RTLGQRLKIF SKLRLKDLLP VPPAVAEYST
+     GLSMGQTAEQ MAKTHNISRE DQDALAHRSH SLATQAWADG KLKDEVMTAH LPPYKSFIEE
+     DNNIRKNSTV EGYAKLKPVF DRQHGTVTAA NATPLTDGAA AVLMMSESKA KALGYEILGY
+     VRSFAFSAIG VEKDMLMGPA HATPIALDRA GITLADLDLI EMHEAFASQT LANMKMFASD
+     KFAQEHLGRS KAIGEINMDK FNVLGGSLAY GHPFAATGAR LITQSLYELK RRGGGLALTT
+     ACAAGGLGAA FVLESA
+//

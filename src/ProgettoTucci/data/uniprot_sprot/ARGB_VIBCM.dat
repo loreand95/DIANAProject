@@ -1,0 +1,94 @@
+ID   ARGB_VIBCM              Reviewed;         262 AA.
+AC   C3LRV4;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   02-DEC-2020, entry version 60.
+DE   RecName: Full=Acetylglutamate kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            EC=2.7.2.8 {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=N-acetyl-L-glutamate 5-phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE   AltName: Full=NAG kinase {ECO:0000255|HAMAP-Rule:MF_00082};
+DE            Short=NAGK {ECO:0000255|HAMAP-Rule:MF_00082};
+GN   Name=argB {ECO:0000255|HAMAP-Rule:MF_00082}; OrderedLocusNames=VCM66_2563;
+OS   Vibrio cholerae serotype O1 (strain M66-2).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=579112;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=M66-2;
+RX   PubMed=19115014; DOI=10.1371/journal.pone.0004053;
+RA   Feng L., Reeves P.R., Lan R., Ren Y., Gao C., Zhou Z., Ren Y., Cheng J.,
+RA   Wang W., Wang J., Qian W., Li D., Wang L.;
+RT   "A recalibrated molecular clock and independent origins for the cholera
+RT   pandemic clones.";
+RL   PLoS ONE 3:E4053-E4053(2008).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent phosphorylation of N-acetyl-L-
+CC       glutamate. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamyl 5-
+CC         phosphate; Xref=Rhea:RHEA:14629, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57936, ChEBI:CHEBI:456216; EC=2.7.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00082};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00082}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   -!- SIMILARITY: Belongs to the acetylglutamate kinase family. ArgB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00082}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001233; ACP06859.1; -; Genomic_DNA.
+DR   RefSeq; WP_001281558.1; NC_012578.1.
+DR   SMR; C3LRV4; -.
+DR   EnsemblBacteria; ACP06859; ACP06859; VCM66_2563.
+DR   KEGG; vcm:VCM66_2563; -.
+DR   HOGENOM; CLU_053680_1_1_6; -.
+DR   OMA; GRVQHSI; -.
+DR   UniPathway; UPA00068; UER00107.
+DR   Proteomes; UP000001217; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003991; F:acetylglutamate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:UniProtKB-UniRule.
+DR   CDD; cd04249; AAK_NAGK-NC; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_00082; ArgB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR004662; AcgluKinase_fam.
+DR   InterPro; IPR037528; ArgB.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR041731; NAGK-NC.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF000728; NAGK; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR00761; argB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding; Cytoplasm;
+KW   Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..262
+FT                   /note="Acetylglutamate kinase"
+FT                   /id="PRO_1000118365"
+FT   REGION          48..49
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         70
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   BINDING         162
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            12
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+FT   SITE            221
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00082"
+SQ   SEQUENCE   262 AA;  27012 MW;  096FCC0CC19BB238 CRC64;
+     MSDLKLSPLV IKLGGAALDC AETLSKLFGA IAQYQNQAQR RIVIVHGGGY LVDDLMAKLQ
+     LKSVKKDGLR VTPYDQIPII AGALAGTANK MLQGQAIKDG INAVGLSLAD GGLCHVEELD
+     PELGAVGKAT PGDSTLLQAI LATGAMPIIS SIGLTAQGQM MNVNADQAAV AVAGALDAEL
+     VLLSDVSGVL DGKGHLIATL DAKQADALIA GKVITDGMIV KVKAALEAAQ DLGRPIEVAT
+     WRYPEKLAKL FGGESIGTRF LP
+//

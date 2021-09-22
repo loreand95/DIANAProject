@@ -1,0 +1,100 @@
+ID   C7192_ESCCA             Reviewed;         495 AA.
+AC   Q50LH3;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=(S)-stylopine synthase 1 {ECO:0000305};
+DE            Short=STS {ECO:0000303|PubMed:17250743};
+DE            EC=1.14.19.64 {ECO:0000269|PubMed:17250743};
+DE   AltName: Full=Cytochrome P450 719A2 {ECO:0000303|PubMed:17250743};
+DE            Short=EcCYP719A2 {ECO:0000303|PubMed:17250743};
+DE            Short=EcCYPB {ECO:0000303|PubMed:17250743};
+GN   Name=CYP719A2 {ECO:0000303|PubMed:17250743};
+OS   Eschscholzia californica (California poppy).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Ranunculales; Papaveraceae;
+OC   Eschscholzioideae; Eschscholzia.
+OX   NCBI_TaxID=3467;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, TISSUE SPECIFICITY, AND INDUCTION BY METHYL
+RP   JASMONATE.
+RX   PubMed=17250743; DOI=10.1111/j.1742-4658.2007.05652.x;
+RA   Ikezawa N., Iwasa K., Sato F.;
+RT   "Molecular cloning and characterization of methylenedioxy bridge-forming
+RT   enzymes involved in stylopine biosynthesis in Eschscholzia californica.";
+RL   FEBS J. 274:1019-1035(2007).
+CC   -!- FUNCTION: Methylenedioxy bridge-forming cytochrome P450 involved in the
+CC       biosynthesis of isoquinoline alkaloids. Converts (R,S)-cheilanthifoline
+CC       to (S)-stylopine with a high substrate specificity. Catalyzes an
+CC       oxidative reaction that does not incorporate oxygen into the product.
+CC       {ECO:0000269|PubMed:17250743}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-cheilanthifoline + O2 + reduced [NADPH--hemoprotein
+CC         reductase] = (S)-stylopine + H(+) + 2 H2O + oxidized [NADPH--
+CC         hemoprotein reductase]; Xref=Rhea:RHEA:13773, Rhea:RHEA-COMP:11964,
+CC         Rhea:RHEA-COMP:11965, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16233, ChEBI:CHEBI:18285,
+CC         ChEBI:CHEBI:57618, ChEBI:CHEBI:58210; EC=1.14.19.64;
+CC         Evidence={ECO:0000269|PubMed:17250743};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:Q96242};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=32.3 uM for (R,S)-scoulerine {ECO:0000269|PubMed:17250743};
+CC   -!- PATHWAY: Alkaloid biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane {ECO:0000305};
+CC       Single-pass membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in roots and at lower levels in stems and
+CC       leaves. {ECO:0000269|PubMed:17250743}.
+CC   -!- INDUCTION: Up-regulated by methyl jasmonate treatment.
+CC       {ECO:0000269|PubMed:17250743}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB126257; BAD98250.1; -; mRNA.
+DR   SMR; Q50LH3; -.
+DR   KEGG; ag:BAD98250; -.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0047052; F:(S)-stylopine synthase activity; IDA:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0033075; P:isoquinoline alkaloid biosynthetic process; IDA:UniProtKB.
+DR   Gene3D; 1.10.630.10; -; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR002401; Cyt_P450_E_grp-I.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00463; EP450I.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; SSF48264; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Heme; Iron; Membrane; Metal-binding; Monooxygenase;
+KW   Oxidoreductase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..495
+FT                   /note="(S)-stylopine synthase 1"
+FT                   /id="PRO_0000418923"
+FT   TRANSMEM        11..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   METAL           439
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96242"
+SQ   SEQUENCE   495 AA;  56420 MW;  E197618A3DA117DC CRC64;
+     MEEMKILMMN NPWILTATAT TLLISIFLFF TRKSSKMVWP AGPKTLPIIG NMHLLGGTAL
+     QVVLHNLAKV HGSVMTIWIG SWRPVIVVSD IERAWEVLVN KSSDYSARDM PDITKIISAD
+     WKTISTSDSG PHWTNLRKGL QNVALSPHNL AAQFQFQEKD MTKMIQTLEE EARNNNGIVK
+     PLDHMKKATL RLISRLVFGQ DFNNDKYVDD MHLAIEELIR VSGYARLAEA FYYAKYLPSH
+     KKAVREVEEA QRRVQNLVSP FLSLNPPTNT YLHFLRSQKY DDEVIIFAIF EAYLLGVDST
+     SLTTAWALAF LIREPNVQEK LYQELESFAS KNDRRILKVE DINKLQYLQA VIKETMRMKP
+     IAPLAIPHKA CRDTSLMGKK IDKGTRVMVN IFALHHNKNV FNDPFKFMPE RFMKVDSQDA
+     NGKAMEQSLL PFSAGMRICA GMELGKLQFS FALANLAYAF KWSCVADGVL PDMSDQLGFV
+     LLMKTPLEAR INRRN
+//

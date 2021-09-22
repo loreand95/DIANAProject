@@ -1,0 +1,122 @@
+ID   PNP_HALOH               Reviewed;         705 AA.
+AC   B8CW78;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 65.
+DE   RecName: Full=Polyribonucleotide nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            EC=2.7.7.8 {ECO:0000255|HAMAP-Rule:MF_01595};
+DE   AltName: Full=Polynucleotide phosphorylase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            Short=PNPase {ECO:0000255|HAMAP-Rule:MF_01595};
+GN   Name=pnp {ECO:0000255|HAMAP-Rule:MF_01595}; OrderedLocusNames=Hore_07900;
+OS   Halothermothrix orenii (strain H 168 / OCM 544 / DSM 9562).
+OC   Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae;
+OC   Halothermothrix.
+OX   NCBI_TaxID=373903;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=H 168 / OCM 544 / DSM 9562;
+RX   PubMed=19145256; DOI=10.1371/journal.pone.0004192;
+RA   Mavromatis K., Ivanova N., Anderson I., Lykidis A., Hooper S.D., Sun H.,
+RA   Kunin V., Lapidus A., Hugenholtz P., Patel B., Kyrpides N.C.;
+RT   "Genome analysis of the anaerobic thermohalophilic bacterium
+RT   Halothermothrix orenii.";
+RL   PLoS ONE 4:E4192-E4192(2009).
+CC   -!- FUNCTION: Involved in mRNA degradation. Catalyzes the phosphorolysis of
+CC       single-stranded polyribonucleotides processively in the 3'- to 5'-
+CC       direction. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + RNA(n+1) = a ribonucleoside 5'-diphosphate +
+CC         RNA(n); Xref=Rhea:RHEA:22096, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.8; Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- SIMILARITY: Belongs to the polyribonucleotide nucleotidyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001098; ACL69547.1; -; Genomic_DNA.
+DR   RefSeq; WP_012635735.1; NC_011899.1.
+DR   SMR; B8CW78; -.
+DR   STRING; 373903.Hore_07900; -.
+DR   EnsemblBacteria; ACL69547; ACL69547; Hore_07900.
+DR   KEGG; hor:Hore_07900; -.
+DR   eggNOG; COG1185; Bacteria.
+DR   HOGENOM; CLU_004217_2_2_9; -.
+DR   OMA; RYMHNYN; -.
+DR   OrthoDB; 122725at2; -.
+DR   Proteomes; UP000000719; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004654; F:polyribonucleotide nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   Gene3D; 3.30.1370.10; -; 1.
+DR   Gene3D; 3.30.230.70; -; 2.
+DR   HAMAP; MF_01595; PNPase; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR012162; PNPase.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR015848; PNPase_PH_RNA-bd_bac/org-type.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR022967; S1_dom.
+DR   InterPro; IPR003029; S1_domain.
+DR   PANTHER; PTHR11252; PTHR11252; 1.
+DR   Pfam; PF00013; KH_1; 1.
+DR   Pfam; PF03726; PNPase; 1.
+DR   Pfam; PF01138; RNase_PH; 2.
+DR   Pfam; PF03725; RNase_PH_C; 2.
+DR   Pfam; PF00575; S1; 1.
+DR   PIRSF; PIRSF005499; PNPase; 1.
+DR   SMART; SM00322; KH; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF54211; SSF54211; 2.
+DR   SUPFAM; SSF54791; SSF54791; 1.
+DR   SUPFAM; SSF55666; SSF55666; 2.
+DR   TIGRFAMs; TIGR03591; polynuc_phos; 1.
+DR   PROSITE; PS50084; KH_TYPE_1; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   Reference proteome; RNA-binding; Transferase.
+FT   CHAIN           1..705
+FT                   /note="Polyribonucleotide nucleotidyltransferase"
+FT                   /id="PRO_1000185739"
+FT   DOMAIN          559..618
+FT                   /note="KH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   DOMAIN          628..696
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           492
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           498
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+SQ   SEQUENCE   705 AA;  78672 MW;  481278DC741A53AB CRC64;
+     MHKDWTIDVA GGKMKFETGK YAKQANGSVV ARYGDTTVLV TATMSEPREG IDYFPLMVNY
+     EERVYAIGKI PGSITRREGR PRDVATLAAR LIDRPLRPLF PEGFRHDVQI IATVLSVDND
+     CEPDILALNG ASVALTLSDI PFDGPIGGVK VGLVDGELVI NPDEEEREKS KLDLTVAGTR
+     DAVLMVEAGA NEVSEDVMLD AIELAHQEIK RLVLLQEEIG EEAGKKKFEF TKDEITPELD
+     EEIRKYISSD MENALRIPEK LERNAKVDEI KENTLQYFED MFENNGLDNE EKNKQLKMVE
+     RTIEKVMKEK VRKMIIEEGI RPDGRKPDEI RPIWCEVGTL PRVHGSGVFT RGQTQALSVV
+     TLGATSDEQI LFGLGEEETK RYMHHYNFPP YSVGETSPLR SPGRREIGHG ALGERALQPV
+     IPDQEEFPYT IRVVSEVLES NGSTSQASIC GSTLALMDAG VPIKEPVAGI AMGLLKEDEK
+     VVILSDIQGL EDFYGDMDFK VAGTRNGITA LQMDIKIHGI SKEILKKALK RAREGRLYIL
+     DKMLQVIDKP RPELSPYAPL MITMKVSPDK IRHIIGPGGK IINKIIDETG VEIDIDDDGS
+     VYILAQDQES GNRAKEIINK LTKEVEVGDI YEGRVKKITN FGAFVEILPG REGLVHISEL
+     ADHHVKKVED IVKIGDRIPV KVIEIDELGR INLSRKRALK EQKKE
+//

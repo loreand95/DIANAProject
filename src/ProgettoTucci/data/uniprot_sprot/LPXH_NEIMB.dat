@@ -1,0 +1,141 @@
+ID   LPXH_NEIMB              Reviewed;         240 AA.
+AC   Q9K0P2;
+DT   02-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 107.
+DE   RecName: Full=UDP-2,3-diacylglucosamine hydrolase {ECO:0000255|HAMAP-Rule:MF_00575};
+DE            EC=3.6.1.54 {ECO:0000255|HAMAP-Rule:MF_00575};
+DE   AltName: Full=UDP-2,3-diacylglucosamine diphosphatase {ECO:0000255|HAMAP-Rule:MF_00575};
+GN   Name=lpxH {ECO:0000255|HAMAP-Rule:MF_00575}; OrderedLocusNames=NMB0544;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C., Nelson K.E.,
+RA   Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F., Dodson R.J., Nelson W.C.,
+RA   Gwinn M.L., DeBoy R.T., Peterson J.D., Hickey E.K., Haft D.H.,
+RA   Salzberg S.L., White O., Fleischmann R.D., Dougherty B.A., Mason T.M.,
+RA   Ciecko A., Parksey D.S., Blair E., Cittone H., Clark E.B., Cotton M.D.,
+RA   Utterback T.R., Khouri H.M., Qin H., Vamathevan J.J., Gill J., Scarlato V.,
+RA   Masignani V., Pizza M., Grandi G., Sun L., Smith H.O., Fraser C.M.,
+RA   Moxon E.R., Rappuoli R., Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- FUNCTION: Hydrolyzes the pyrophosphate bond of UDP-2,3-
+CC       diacylglucosamine to yield 2,3-diacylglucosamine 1-phosphate (lipid X)
+CC       and UMP by catalyzing the attack of water at the alpha-P atom. Involved
+CC       in the biosynthesis of lipid A, a phosphorylated glycolipid that
+CC       anchors the lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00575}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + UDP-2-N,3-O-bis[(3R)-3-hydroxytetradecanoyl]-alpha-D-
+CC         glucosamine = 2-N,3-O-bis(3-hydroxytetradecanoyl)-alpha-D-
+CC         glucosaminyl 1-phosphate + 2 H(+) + UMP; Xref=Rhea:RHEA:25213,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57865,
+CC         ChEBI:CHEBI:57957, ChEBI:CHEBI:78847; EC=3.6.1.54;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00575};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00575};
+CC       Note=Binds 2 Mn(2+) ions per subunit in a binuclear metal center.
+CC       {ECO:0000255|HAMAP-Rule:MF_00575};
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid IV(A)
+CC       from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and UDP-N-
+CC       acetyl-alpha-D-glucosamine: step 4/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00575}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00575}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00575}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_00575}.
+CC   -!- SIMILARITY: Belongs to the LpxH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00575}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE002098; AAF40973.1; -; Genomic_DNA.
+DR   PIR; F81186; F81186.
+DR   RefSeq; NP_273589.1; NC_003112.2.
+DR   RefSeq; WP_002225581.1; NC_003112.2.
+DR   SMR; Q9K0P2; -.
+DR   PaxDb; Q9K0P2; -.
+DR   EnsemblBacteria; AAF40973; AAF40973; NMB0544.
+DR   KEGG; nme:NMB0544; -.
+DR   PATRIC; fig|122586.8.peg.692; -.
+DR   HOGENOM; CLU_074586_0_0_4; -.
+DR   OMA; FDFWFEY; -.
+DR   BioCyc; NMEN122586:G1G1B-529-MONOMER; -.
+DR   UniPathway; UPA00359; UER00480.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0019897; C:extrinsic component of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008758; F:UDP-2,3-diacylglucosamine hydrolase activity; IBA:GO_Central.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IBA:GO_Central.
+DR   HAMAP; MF_00575; LpxH; 1.
+DR   InterPro; IPR024654; Calcineurin-like_PHP_lpxH.
+DR   InterPro; IPR043461; LpxH-like.
+DR   InterPro; IPR010138; UDP-diacylglucosamine_Hdrlase.
+DR   PANTHER; PTHR34990; PTHR34990; 1.
+DR   PANTHER; PTHR34990:SF1; PTHR34990:SF1; 1.
+DR   Pfam; PF12850; Metallophos_2; 1.
+DR   TIGRFAMs; TIGR01854; lipid_A_lpxH; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Hydrolase; Lipid A biosynthesis;
+KW   Lipid biosynthesis; Lipid metabolism; Manganese; Membrane; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN           1..240
+FT                   /note="UDP-2,3-diacylglucosamine hydrolase"
+FT                   /id="PRO_0000214114"
+FT   REGION          81..82
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           9
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           11
+FT                   /note="Manganese 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           43
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           43
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           81
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           116
+FT                   /note="Manganese 2; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           197
+FT                   /note="Manganese 2; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   METAL           199
+FT                   /note="Manganese 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   BINDING         124
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   BINDING         162
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   BINDING         166
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   BINDING         169
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+FT   BINDING         197
+FT                   /note="Substrate; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00575"
+SQ   SEQUENCE   240 AA;  27661 MW;  281B15453A2A078F CRC64;
+     MKPAYFISDL HLSEKQPELT ALLLRFLRSS AAGQARAIYI LGDLFDFWVG DDEVSELNTS
+     VAREIRKLSD KGVAVFFVRG NRDFLIGQDF CRQAGMTLLP DYSVLDLFGC KTLICHGDTL
+     CTDDRAYQRF RKIVHRKRLQ KLFLMLPLKW RTRLATKIRR VSKMEKQVKP ADIMDVNAAF
+     TARQVRAFGA ERLIHGHTHR EHIHHENGFT RIVLGDWHND YASILRVDGD GAVFVPLEKY
+//

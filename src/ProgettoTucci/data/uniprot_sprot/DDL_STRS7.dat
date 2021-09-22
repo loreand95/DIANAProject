@@ -1,0 +1,114 @@
+ID   DDL_STRS7               Reviewed;         348 AA.
+AC   C0MCV8;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=D-alanine--D-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE            EC=6.3.2.4 {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-Ala-D-Ala ligase {ECO:0000255|HAMAP-Rule:MF_00047};
+DE   AltName: Full=D-alanylalanine synthetase {ECO:0000255|HAMAP-Rule:MF_00047};
+GN   Name=ddl {ECO:0000255|HAMAP-Rule:MF_00047}; OrderedLocusNames=SZO_13560;
+OS   Streptococcus equi subsp. zooepidemicus (strain H70).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=553483;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=H70;
+RX   PubMed=19325880; DOI=10.1371/journal.ppat.1000346;
+RA   Holden M.T.G., Heather Z., Paillot R., Steward K.F., Webb K., Ainslie F.,
+RA   Jourdan T., Bason N.C., Holroyd N.E., Mungall K., Quail M.A., Sanders M.,
+RA   Simmonds M., Willey D., Brooks K., Aanensen D.M., Spratt B.G., Jolley K.A.,
+RA   Maiden M.C.J., Kehoe M., Chanter N., Bentley S.D., Robinson C.,
+RA   Maskell D.J., Parkhill J., Waller A.S.;
+RT   "Genomic evidence for the evolution of Streptococcus equi: host
+RT   restriction, increased virulence, and genetic exchange with human
+RT   pathogens.";
+RL   PLoS Pathog. 5:E1000346-E1000346(2009).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 2 D-alanine = ADP + D-alanyl-D-alanine + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:11224, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:57416,
+CC         ChEBI:CHEBI:57822, ChEBI:CHEBI:456216; EC=6.3.2.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00047};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium or manganese ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   -!- SIMILARITY: Belongs to the D-alanine--D-alanine ligase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00047}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM204884; CAW99921.1; -; Genomic_DNA.
+DR   SMR; C0MCV8; -.
+DR   STRING; 40041.SZO_13560; -.
+DR   EnsemblBacteria; CAW99921; CAW99921; SZO_13560.
+DR   KEGG; seq:SZO_13560; -.
+DR   eggNOG; COG1181; Bacteria.
+DR   HOGENOM; CLU_039268_0_0_9; -.
+DR   OMA; FEAKYID; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001368; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008716; F:D-alanine-D-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   HAMAP; MF_00047; Dala_Dala_lig; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR000291; D-Ala_lig_Van_CS.
+DR   InterPro; IPR005905; D_ala_D_ala.
+DR   InterPro; IPR011095; Dala_Dala_lig_C.
+DR   InterPro; IPR011127; Dala_Dala_lig_N.
+DR   InterPro; IPR016185; PreATP-grasp_dom_sf.
+DR   Pfam; PF07478; Dala_Dala_lig_C; 1.
+DR   Pfam; PF01820; Dala_Dala_lig_N; 1.
+DR   PIRSF; PIRSF039102; Ddl/VanB; 1.
+DR   SUPFAM; SSF52440; SSF52440; 1.
+DR   TIGRFAMs; TIGR01205; D_ala_D_alaTIGR; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+DR   PROSITE; PS00843; DALA_DALA_LIGASE_1; 1.
+DR   PROSITE; PS00844; DALA_DALA_LIGASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell shape; Cell wall biogenesis/degradation; Cytoplasm;
+KW   Ligase; Magnesium; Manganese; Metal-binding; Nucleotide-binding;
+KW   Peptidoglycan synthesis.
+FT   CHAIN           1..348
+FT                   /note="D-alanine--D-alanine ligase"
+FT                   /id="PRO_1000202206"
+FT   DOMAIN          132..334
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   NP_BIND         162..217
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           288
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           301
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           301
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+FT   METAL           303
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00047"
+SQ   SEQUENCE   348 AA;  38931 MW;  46FFE280C461ABA1 CRC64;
+     MSKQTLILLY GGRSAEREVS VLSAESVMRA VDYTKFFVKT YFISQTGQFI KTQEFSSRPT
+     LTERLMTNDT IRLEQQIRPS DIYEEGAVVF PVLHGPMGED GSIQGFLEVL RMPYVGTNIL
+     SSSVAMDKIT TKRVLESAGI PQVAYTVYIE GQDLDRCLAE TEAALSYPVF VKPANMGSSV
+     GISKAESEEE LRAAILLALT YDSRILIEQG VLAREIEVGL LGNTDVKSTL PGEVVKNVDF
+     YDYQAKYIDN EITMAIPATI DESAMTSMRI YAETAFKAIG ACGLSRCDFF LGQDGQIYLN
+     ELNTMPGFTQ WSMYPLLWEH MGLNYAELIE ELVRLAQEMF EKREGHLI
+//

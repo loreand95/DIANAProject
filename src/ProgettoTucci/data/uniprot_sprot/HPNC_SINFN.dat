@@ -1,0 +1,89 @@
+ID   HPNC_SINFN              Reviewed;         292 AA.
+AC   P55351;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-APR-2021, entry version 118.
+DE   RecName: Full=Hydroxysqualene synthase {ECO:0000250|UniProtKB:Q6N3F1};
+DE            Short=HSQ synthase {ECO:0000250|UniProtKB:Q6N3F1};
+DE            Short=HSQase {ECO:0000250|UniProtKB:Q6N3F1};
+DE            EC=4.2.3.156 {ECO:0000250|UniProtKB:Q6N3F1};
+GN   OrderedLocusNames=NGR_a00430; ORFNames=y4aD;
+OS   Sinorhizobium fredii (strain NBRC 101917 / NGR234).
+OG   Plasmid sym pNGR234a.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae;
+OC   Sinorhizobium/Ensifer group; Sinorhizobium.
+OX   NCBI_TaxID=394;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NBRC 101917 / NGR234;
+RX   PubMed=9163424; DOI=10.1038/387394a0;
+RA   Freiberg C.A., Fellay R., Bairoch A., Broughton W.J., Rosenthal A.,
+RA   Perret X.;
+RT   "Molecular basis of symbiosis between Rhizobium and legumes.";
+RL   Nature 387:394-401(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NBRC 101917 / NGR234;
+RX   PubMed=19376903; DOI=10.1128/aem.00515-09;
+RA   Schmeisser C., Liesegang H., Krysciak D., Bakkou N., Le Quere A.,
+RA   Wollherr A., Heinemeyer I., Morgenstern B., Pommerening-Roeser A.,
+RA   Flores M., Palacios R., Brenner S., Gottschalk G., Schmitz R.A.,
+RA   Broughton W.J., Perret X., Strittmatter A.W., Streit W.R.;
+RT   "Rhizobium sp. strain NGR234 possesses a remarkable number of secretion
+RT   systems.";
+RL   Appl. Environ. Microbiol. 75:4035-4045(2009).
+CC   -!- FUNCTION: Involved in the biosynthesis of the hopanoid precursor
+CC       squalene (SQ) from farnesyl diphosphate (FPP). Catalyzes the second
+CC       step, the conversion of presqualene diphosphate (PSPP) to
+CC       hydroxysqualene (HSQ). {ECO:0000250|UniProtKB:Q6N3F1}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + presqualene diphosphate = diphosphate + hydroxysqualene;
+CC         Xref=Rhea:RHEA:47984, ChEBI:CHEBI:15377, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57310, ChEBI:CHEBI:88123; EC=4.2.3.156;
+CC         Evidence={ECO:0000250|UniProtKB:Q6N3F1};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis; hopanoid biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q6N3F1}.
+CC   -!- SIMILARITY: Belongs to the phytoene/squalene synthase family. HpnC
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U00090; AAB91602.1; -; Genomic_DNA.
+DR   RefSeq; NP_443764.1; NC_000914.2.
+DR   RefSeq; WP_010875085.1; NC_000914.2.
+DR   SMR; P55351; -.
+DR   STRING; 394.NGR_a00430; -.
+DR   EnsemblBacteria; AAB91602; AAB91602; NGR_a00430.
+DR   KEGG; rhi:NGR_a00430; -.
+DR   PATRIC; fig|394.7.peg.40; -.
+DR   eggNOG; COG1562; Bacteria.
+DR   HOGENOM; CLU_037269_0_1_5; -.
+DR   OMA; VDHYENF; -.
+DR   OrthoDB; 1449625at2; -.
+DR   UniPathway; UPA00337; -.
+DR   Proteomes; UP000001054; Plasmid sym pNGR234a.
+DR   GO; GO:0004310; F:farnesyl-diphosphate farnesyltransferase activity; IEA:InterPro.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0051996; F:squalene synthase activity; IEA:InterPro.
+DR   GO; GO:0019746; P:hopanoid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00683; Trans_IPPS_HH; 1.
+DR   Gene3D; 1.10.600.10; -; 1.
+DR   InterPro; IPR017827; HSQ_synthase_HpnC.
+DR   InterPro; IPR008949; Isoprenoid_synthase_dom_sf.
+DR   InterPro; IPR033904; Trans_IPPS_HH.
+DR   PANTHER; PTHR31480:SF17; PTHR31480:SF17; 1.
+DR   SUPFAM; SSF48576; SSF48576; 1.
+DR   TIGRFAMs; TIGR03464; HpnC; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Plasmid.
+FT   CHAIN           1..292
+FT                   /note="Hydroxysqualene synthase"
+FT                   /id="PRO_0000200798"
+SQ   SEQUENCE   292 AA;  32540 MW;  1055E5E7F3614379 CRC64;
+     MTSGSGPRSD AMHREKNFPV ASWIIHPRHR ALILAFYRFV RMADDIADHA TLAPDEKLLY
+     LDLLEAELLG KGETRAEAVH LRTALDRRGM PPRHALDLLT AFRMDVTKQR YENWDEVIDY
+     CRYSAMPVGR FVLDVHGESA ATWPASDVLC AGLQVCNHLQ DCGKDFLNLN RVYIPRDALS
+     ASGASIEELG AAKSSLQMLQ CLRSLAAKAE VLLNGGGALV SQVKDFRLRF EVSVILSFAD
+     KIVSMLKMRD PLRERVHLSP LELLLHGVGA MANEAARRAF GRGTRFKTTV DV
+//

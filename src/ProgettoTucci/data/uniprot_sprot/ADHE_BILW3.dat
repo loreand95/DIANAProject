@@ -1,0 +1,104 @@
+ID   ADHE_BILW3              Reviewed;         484 AA.
+AC   E5Y379;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   02-DEC-2020, entry version 38.
+DE   RecName: Full=Acetaldehyde dehydrogenase (acetylating) {ECO:0000305|PubMed:30718429};
+DE            EC=1.2.1.10 {ECO:0000269|PubMed:30718429};
+DE   AltName: Full=CoA-acylating acetaldehyde dehydrogenase {ECO:0000303|PubMed:30718429};
+GN   Name=adhE {ECO:0000303|PubMed:30718429};
+GN   ORFNames=HMPREF0179_00640 {ECO:0000312|EMBL:EFV45545.1};
+OS   Bilophila wadsworthia (strain 3_1_6).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+OC   Desulfovibrionaceae; Bilophila.
+OX   NCBI_TaxID=563192;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=3_1_6;
+RG   The Broad Institute Genomics Platform;
+RA   Earl A., Ward D., Feldgarden M., Gevers D., Sibley C., Strauss J.,
+RA   Allen-Vercoe E., Walker B., Young S., Zeng Q., Gargeya S., Fitzgerald M.,
+RA   Haas B., Abouelleil A., Allen A.W., Alvarado L., Arachchi H.M.,
+RA   Berlin A.M., Chapman S.B., Gainer-Dewar J., Goldberg J., Griggs A.,
+RA   Gujja S., Hansen M., Howarth C., Imamovic A., Ireland A., Larimer J.,
+RA   McCowan C., Murphy C., Pearson M., Poon T.W., Priest M., Roberts A.,
+RA   Saif S., Shea T., Sisk P., Sykes S., Wortman J., Nusbaum C., Birren B.;
+RT   "The Genome Sequence of Bilophila wadsworthia 3_1_6.";
+RL   Submitted (APR-2013) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, INDUCTION, AND PATHWAY.
+RC   STRAIN=3_1_6;
+RX   PubMed=30718429; DOI=10.1073/pnas.1815661116;
+RA   Peck S.C., Denger K., Burrichter A., Irwin S.M., Balskus E.P.,
+RA   Schleheck D.;
+RT   "A glycyl radical enzyme enables hydrogen sulfide production by the human
+RT   intestinal bacterium Bilophila wadsworthia.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 116:3171-3176(2019).
+CC   -!- FUNCTION: Involved in an anaerobic respiration pathway that converts
+CC       the sulfonate taurine (2-aminoethanesulfonate) to ammonia, acetate and
+CC       sulfide. Catalyzes the oxidation of acetaldehyde to acetyl-CoA in the
+CC       presence of CoASH and NAD(+). Highly prefers NAD(+) over NADP(+).
+CC       {ECO:0000269|PubMed:30718429}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetaldehyde + CoA + NAD(+) = acetyl-CoA + H(+) + NADH;
+CC         Xref=Rhea:RHEA:23288, ChEBI:CHEBI:15343, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.10;
+CC         Evidence={ECO:0000269|PubMed:30718429};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:23289;
+CC         Evidence={ECO:0000305|PubMed:30718429};
+CC   -!- PATHWAY: Organosulfur degradation; alkanesulfonate degradation.
+CC       {ECO:0000305|PubMed:30718429}.
+CC   -!- INDUCTION: Highly up-regulated in the presence of taurine or
+CC       isethionate. {ECO:0000269|PubMed:30718429}.
+CC   -!- MISCELLANEOUS: Taurine is an abundant dietary and host-derived molecule
+CC       whose metabolism to hydrogen sulfide (H2S) by members of the human gut
+CC       microbiota has many prominent connections to host health and disease.
+CC       The human gut bacterium and opportunistic pathogen Bilophila
+CC       wadsworthia produces H2S when respiring sulfite (HSO3-) released from
+CC       organosulfonate substrates such as taurine and isethionate.
+CC       {ECO:0000305|PubMed:30718429}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ADCP02000001; EFV45545.1; -; Genomic_DNA.
+DR   STRING; 563192.HMPREF0179_00640; -.
+DR   EnsemblBacteria; EFV45545; EFV45545; HMPREF0179_00640.
+DR   eggNOG; ENOG4108EKI; Bacteria.
+DR   eggNOG; COG1012; LUCA.
+DR   HOGENOM; CLU_028794_1_0_7; -.
+DR   BioCyc; MetaCyc:MONOMER-20853; -.
+DR   UniPathway; UPA00338; -.
+DR   Proteomes; UP000006034; Unassembled WGS sequence.
+DR   GO; GO:0008774; F:acetaldehyde dehydrogenase (acetylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046306; P:alkanesulfonate catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07121; ALDH_EutE; 1.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   InterPro; IPR012408; Acetald_propionald_DH-rel.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   PIRSF; PIRSF036410; EutE_PduP; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+PE   1: Evidence at protein level;
+KW   NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..484
+FT                   /note="Acetaldehyde dehydrogenase (acetylating)"
+FT                   /id="PRO_0000450949"
+SQ   SEQUENCE   484 AA;  51386 MW;  8EE50C860BDDCA16 CRC64;
+     MDVRQQDVER IVVEVLKKMM SDQPTAAATT VVAASGCDCG DFGLFDRLED AVQAAEAAQK
+     KISTVAMRDK IIAAIRKAGL ENAKAFAEIA HNETGMGRVS DKIAKNILVC ERTPGTECLS
+     PMAISGDMGL TLIENAPWGV IASVTPSTNP TATVINNAIS MIAGGNSVIF APHPNAKRAS
+     QTAIQVLNKA IIEATGVANL LVAVKEPTIE VAQELFSHPR IKLLVVTGGE AVVAQARKVA
+     TMRLIAAGAG NPPVVVDETA NIARAARSIY DGASFDNNII CADEKEIIAV DSIADQLKAE
+     MKAIGAVEIS LEQADAVARV VLRNYPQVEG GKAPNPNPKW VGRDAALIAK AAGIDVPDSC
+     RLLIVDVKRD INHVFARVEQ LMPVIPLLRA ANVDEAIEWA LILERGLSHT AGMHSRNIDN
+     MDKMARAMNT SLFVKNGPHL AALGAGGEGW TTMTISTPTG EGVTCARSFV RLRRCCVVDN
+     FRIV
+//

@@ -1,0 +1,177 @@
+ID   SOXA2_HYDTT             Reviewed;         259 AA.
+AC   D3DJG5;
+DT   18-SEP-2013, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAR-2010, sequence version 1.
+DT   07-APR-2021, entry version 55.
+DE   RecName: Full=L-cysteine S-thiosulfotransferase subunit SoxA {ECO:0000305};
+DE            EC=2.8.5.2 {ECO:0000269|PubMed:20378963};
+DE   AltName: Full=Cytochrome c551 subunit diheme {ECO:0000250|UniProtKB:O33434, ECO:0000312|EMBL:BAI69967.1};
+DE   AltName: Full=Protein SoxA2 {ECO:0000303|PubMed:20378963};
+DE   AltName: Full=SoxAX cytochrome complex subunit A2;
+DE   AltName: Full=Sulfur oxidizing protein A2 {ECO:0000303|PubMed:20378963, ECO:0000312|EMBL:ADO45890.1};
+DE   AltName: Full=Thiosulfate-oxidizing multienzyme system protein SoxA2;
+DE            Short=TOMES protein SoxA2;
+DE   Flags: Precursor;
+GN   Name=soxA2 {ECO:0000312|EMBL:BAI69967.1};
+GN   OrderedLocusNames=HTH_1518, Hydth_1506;
+OS   Hydrogenobacter thermophilus (strain DSM 6534 / IAM 12695 / TK-6).
+OC   Bacteria; Aquificae; Aquificales; Aquificaceae; Hydrogenobacter.
+OX   NCBI_TaxID=608538;
+RN   [1] {ECO:0000312|EMBL:BAI69967.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 6534 / IAM 12695 / TK-6;
+RX   PubMed=20348262; DOI=10.1128/jb.00158-10;
+RA   Arai H., Kanbe H., Ishii M., Igarashi Y.;
+RT   "Complete genome sequence of the thermophilic, obligately
+RT   chemolithoautotrophic hydrogen-oxidizing bacterium Hydrogenobacter
+RT   thermophilus TK-6.";
+RL   J. Bacteriol. 192:2651-2652(2010).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 6534 / IAM 12695 / TK-6;
+RX   PubMed=21677850; DOI=10.4056/sigs.1463589;
+RG   US DOE Joint Genome Institute (JGI-PGF);
+RA   Zeytun A., Sikorski J., Nolan M., Lapidus A., Lucas S., Han J., Tice H.,
+RA   Cheng J.F., Tapia R., Goodwin L., Pitluck S., Liolios K., Ivanova N.,
+RA   Mavromatis K., Mikhailova N., Ovchinnikova G., Pati A., Chen A.,
+RA   Palaniappan K., Ngatchou-Djao O.D., Land M., Hauser L., Jeffries C.D.,
+RA   Han C., Detter J.C., Ubler S., Rohde M., Tindall B.J., Goker M., Wirth R.,
+RA   Woyke T., Bristow J., Eisen J.A., Markowitz V., Hugenholtz P., Klenk H.P.,
+RA   Kyrpides N.C.;
+RT   "Complete genome sequence of Hydrogenobacter thermophilus type strain (TK-
+RT   6).";
+RL   Stand. Genomic Sci. 4:131-143(2011).
+RN   [3] {ECO:0000305}
+RP   PROBABLE FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=DSM 6534 / IAM 12695 / TK-6 {ECO:0000269|PubMed:20378963};
+RX   PubMed=20378963; DOI=10.1271/bbb.90948;
+RA   Sano R., Kameya M., Wakai S., Arai H., Igarashi Y., Ishii M., Sambongi Y.;
+RT   "Thiosulfate oxidation by a thermo-neutrophilic hydrogen-oxidizing
+RT   bacterium, Hydrogenobacter thermophilus.";
+RL   Biosci. Biotechnol. Biochem. 74:892-894(2010).
+CC   -!- FUNCTION: C-type diheme cytochrome, which is part of the SoxAX
+CC       cytochrome complex involved in sulfur oxidation. The SoxAX complex
+CC       catalyzes the formation of a heterodisulfide bond between the conserved
+CC       cysteine residue on a sulfur carrier SoxYZ complex subunit SoxY and
+CC       thiosulfate or other inorganic sulfur substrates. This leads to the
+CC       liberation of two electrons, which may be transferred from the SoxAX
+CC       complex to another cytochrome c that then channels them into the
+CC       respiratory electron transport chain. Some electrons may be used for
+CC       reductive CO(2) fixation. {ECO:0000250|UniProtKB:O33434,
+CC       ECO:0000269|PubMed:20378963}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(III)cytochrome c] + L-cysteinyl-[SoxY protein] +
+CC         thiosulfate = 2 [Fe(II)cytochrome c] + 2 H(+) + S-sulfosulfanyl-L-
+CC         cysteinyl-[SoxY protein]; Xref=Rhea:RHEA:56720, Rhea:RHEA-COMP:10350,
+CC         Rhea:RHEA-COMP:14328, Rhea:RHEA-COMP:14399, Rhea:RHEA-COMP:14691,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:29950, ChEBI:CHEBI:33542, ChEBI:CHEBI:139321; EC=2.8.5.2;
+CC         Evidence={ECO:0000269|PubMed:20378963};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(III)cytochrome c] + S-sulfanyl-L-cysteinyl-[SoxY
+CC         protein] + thiosulfate = 2 [Fe(II)cytochrome c] + 2 H(+) + S-(2-
+CC         sulfodisulfanyl)-L-cysteinyl-[SoxY protein]; Xref=Rhea:RHEA:51224,
+CC         Rhea:RHEA-COMP:10350, Rhea:RHEA-COMP:14399, Rhea:RHEA-COMP:14689,
+CC         Rhea:RHEA-COMP:14690, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034, ChEBI:CHEBI:33542, ChEBI:CHEBI:61963,
+CC         ChEBI:CHEBI:140664; EC=2.8.5.2;
+CC         Evidence={ECO:0000269|PubMed:20378963};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:O33434};
+CC       Note=Binds 2 heme groups per subunit. {ECO:0000250|UniProtKB:O33434};
+CC   -!- SUBUNIT: Heterodimer of SoxA and SoxX. {ECO:0000250|UniProtKB:O33434}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250|UniProtKB:O33434}.
+CC   -!- PTM: Cysteine persulfide at Cys-220. {ECO:0000250|UniProtKB:O33434}.
+CC   -!- SIMILARITY: Belongs to the SoxA family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP011112; BAI69967.1; -; Genomic_DNA.
+DR   EMBL; CP002221; ADO45890.1; -; Genomic_DNA.
+DR   RefSeq; WP_012964147.1; NC_017161.1.
+DR   SMR; D3DJG5; -.
+DR   STRING; 608538.HTH_1518; -.
+DR   EnsemblBacteria; BAI69967; BAI69967; HTH_1518.
+DR   KEGG; hte:Hydth_1506; -.
+DR   KEGG; hth:HTH_1518; -.
+DR   eggNOG; COG3258; Bacteria.
+DR   HOGENOM; CLU_079910_1_0_0; -.
+DR   OMA; NCHEDNY; -.
+DR   OrthoDB; 1297285at2; -.
+DR   BioCyc; HTHE608538:G1GOC-1537-MONOMER; -.
+DR   Proteomes; UP000002574; Chromosome.
+DR   GO; GO:0070069; C:cytochrome complex; IEA:InterPro.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron transfer activity; IGC:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IGC:UniProtKB.
+DR   GO; GO:0016669; F:oxidoreductase activity, acting on a sulfur group of donors, cytochrome as acceptor; IGC:UniProtKB.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0019417; P:sulfur oxidation; IGC:UniProtKB.
+DR   Gene3D; 1.10.760.10; -; 2.
+DR   InterPro; IPR009056; Cyt_c-like_dom.
+DR   InterPro; IPR036909; Cyt_c-like_dom_sf.
+DR   InterPro; IPR025710; SoxA.
+DR   PIRSF; PIRSF038455; SoxA; 1.
+DR   SUPFAM; SSF46626; SSF46626; 2.
+DR   TIGRFAMs; TIGR04484; thiosulf_SoxA; 1.
+DR   PROSITE; PS51007; CYTC; 1.
+PE   1: Evidence at protein level;
+KW   Electron transport; Heme; Iron; Metal-binding; Periplasm;
+KW   Reference proteome; Signal; Transferase; Transport.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..259
+FT                   /note="L-cysteine S-thiosulfotransferase subunit SoxA"
+FT                   /id="PRO_5000650632"
+FT   DOMAIN          50..135
+FT                   /note="Cytochrome c"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   ACT_SITE        220
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1"
+FT   METAL           74
+FT                   /note="Iron (heme 1 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   METAL           108
+FT                   /note="Iron (heme 1 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   METAL           175
+FT                   /note="Iron (heme 2 axial ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   METAL           220
+FT                   /note="Iron (heme 2 axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   BINDING         70
+FT                   /note="Heme 1; covalent"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   BINDING         73
+FT                   /note="Heme 1; covalent"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   BINDING         171
+FT                   /note="Heme 2; covalent"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   BINDING         174
+FT                   /note="Heme 2; covalent"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00433"
+FT   BINDING         216
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q939U1"
+SQ   SEQUENCE   259 AA;  29659 MW;  EF553CAFD2A83846 CRC64;
+     MRKLWFLPIL LGAVGGVSLY AIAQQENPAE EVKKQKELLL KEMGILPGDV YAEQGRDMFN
+     KPMGNAGKSC SSCHGQDGRY LRGAYAHMPR YYKDMDAVAD LDTRIKYCME KYMGVGNVKH
+     DLNFKSIATY VATLSNGMKM DVKLTHPKER EMYEKGRELW YARVGKMDFS CAICHDTFGG
+     QRIRLQTLAK VKEDKVATHW PAYRFSNDQL WTMEDRIRGC YNQIRVTPPP HFSWPQIALS
+     LYMAYESKGG TIETPGFVR
+//

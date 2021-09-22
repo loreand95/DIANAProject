@@ -1,0 +1,138 @@
+ID   XGPT_SHIBS              Reviewed;         152 AA.
+AC   Q325P8;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=Xanthine-guanine phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01903};
+DE            Short=XGPRT {ECO:0000255|HAMAP-Rule:MF_01903};
+DE            EC=2.4.2.- {ECO:0000255|HAMAP-Rule:MF_01903};
+DE            EC=2.4.2.22 {ECO:0000255|HAMAP-Rule:MF_01903};
+DE   AltName: Full=Xanthine phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01903};
+GN   Name=gpt {ECO:0000255|HAMAP-Rule:MF_01903}; OrderedLocusNames=SBO_0244;
+OS   Shigella boydii serotype 4 (strain Sb227).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300268;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sb227;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: Purine salvage pathway enzyme that catalyzes the transfer of
+CC       the ribosyl-5-phosphate group from 5-phospho-alpha-D-ribose 1-
+CC       diphosphate (PRPP) to the N9 position of the 6-oxopurines guanine and
+CC       xanthine to form the corresponding ribonucleotides GMP (guanosine 5'-
+CC       monophosphate) and XMP (xanthosine 5'-monophosphate), with the release
+CC       of PPi. To a lesser extent, also acts on hypoxanthine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01903}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + GMP = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         guanine; Xref=Rhea:RHEA:25424, ChEBI:CHEBI:16235, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58017, ChEBI:CHEBI:58115; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01903};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:25426;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + XMP = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         xanthine; Xref=Rhea:RHEA:10800, ChEBI:CHEBI:17712, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57464, ChEBI:CHEBI:58017; EC=2.4.2.22;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:10802;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + IMP = 5-phospho-alpha-D-ribose 1-diphosphate +
+CC         hypoxanthine; Xref=Rhea:RHEA:17973, ChEBI:CHEBI:17368,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58017, ChEBI:CHEBI:58053;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:17975;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01903};
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis via salvage pathway; GMP
+CC       from guanine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01903}.
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via salvage pathway; XMP
+CC       from xanthine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01903}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01903}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01903}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01903}.
+CC   -!- SIMILARITY: Belongs to the purine/pyrimidine phosphoribosyltransferase
+CC       family. XGPT subfamily. {ECO:0000255|HAMAP-Rule:MF_01903}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000036; ABB64960.1; -; Genomic_DNA.
+DR   RefSeq; WP_001291990.1; NC_007613.1.
+DR   SMR; Q325P8; -.
+DR   EnsemblBacteria; ABB64960; ABB64960; SBO_0244.
+DR   GeneID; 58461060; -.
+DR   KEGG; sbo:SBO_0244; -.
+DR   HOGENOM; CLU_080904_3_0_6; -.
+DR   OMA; FHRDCRA; -.
+DR   UniPathway; UPA00602; UER00658.
+DR   UniPathway; UPA00909; UER00887.
+DR   Proteomes; UP000007067; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052657; F:guanine phosphoribosyltransferase activity; IEA:RHEA.
+DR   GO; GO:0004422; F:hypoxanthine phosphoribosyltransferase activity; IEA:RHEA.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000310; F:xanthine phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032263; P:GMP salvage; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0032265; P:XMP salvage; IEA:UniProtKB-UniPathway.
+DR   CDD; cd06223; PRTases_typeI; 1.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   HAMAP; MF_01903; XGPRT; 1.
+DR   InterPro; IPR000836; PRibTrfase_dom.
+DR   InterPro; IPR029057; PRTase-like.
+DR   InterPro; IPR023747; Xanthine_Guanine_PRibTrfase.
+DR   PANTHER; PTHR39563; PTHR39563; 1.
+DR   Pfam; PF00156; Pribosyltran; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+DR   PROSITE; PS00103; PUR_PYR_PR_TRANSFER; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Glycosyltransferase; Magnesium;
+KW   Membrane; Metal-binding; Purine salvage; Transferase.
+FT   CHAIN           1..152
+FT                   /note="Xanthine-guanine phosphoribosyltransferase"
+FT                   /id="PRO_0000261019"
+FT   NP_BIND         92..96
+FT                   /note="GMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   NP_BIND         134..135
+FT                   /note="GMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   REGION          37..38
+FT                   /note="5-phospho-alpha-D-ribose 1-diphosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   REGION          88..96
+FT                   /note="5-phospho-alpha-D-ribose 1-diphosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   METAL           89
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   BINDING         69
+FT                   /note="5-phospho-alpha-D-ribose 1-diphosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   BINDING         69
+FT                   /note="GMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   BINDING         92
+FT                   /note="Xanthine or guanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+FT   BINDING         135
+FT                   /note="Xanthine or guanine; via amide nitrogen and carbonyl
+FT                   oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01903"
+SQ   SEQUENCE   152 AA;  16971 MW;  F0AD813127E7200D CRC64;
+     MSEKYIVTWD MLQIHARKLA SRLMPSEQWK GIIAVSRGGL VPGALLAREL GIRHVDTVCI
+     SSYDHDNQRE LKVLKRAEGD GEGFIVIDDL VDTGGTAVAI REMYPKAHFV TIFAKPAGRP
+     LVDDYVVDIP QDTWIEQPWD MGVVFVPPIS GR
+//

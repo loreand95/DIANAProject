@@ -1,0 +1,119 @@
+ID   REDM_STRCO              Reviewed;         532 AA.
+AC   O54154;
+DT   11-DEC-2019, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   07-APR-2021, entry version 114.
+DE   RecName: Full=L-proline--[L-prolyl-carrier protein] ligase {ECO:0000305};
+DE            EC=6.2.1.53 {ECO:0000269|PubMed:11880032};
+DE   AltName: Full=L-prolyl-AMP ligase {ECO:0000303|PubMed:11880032};
+GN   Name=redM {ECO:0000303|PubMed:11514230};
+GN   OrderedLocusNames=SCO5891 {ECO:0000312|EMBL:CAA16182.1};
+GN   ORFNames=FHV98_107150;
+OS   Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145).
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces; Streptomyces albidoflavus group.
+OX   NCBI_TaxID=100226;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-471 / A3(2) / M145;
+RX   PubMed=12000953; DOI=10.1038/417141a;
+RA   Bentley S.D., Chater K.F., Cerdeno-Tarraga A.-M., Challis G.L.,
+RA   Thomson N.R., James K.D., Harris D.E., Quail M.A., Kieser H., Harper D.,
+RA   Bateman A., Brown S., Chandra G., Chen C.W., Collins M., Cronin A.,
+RA   Fraser A., Goble A., Hidalgo J., Hornsby T., Howarth S., Huang C.-H.,
+RA   Kieser T., Larke L., Murphy L.D., Oliver K., O'Neil S., Rabbinowitsch E.,
+RA   Rajandream M.A., Rutherford K.M., Rutter S., Seeger K., Saunders D.,
+RA   Sharp S., Squares R., Squares S., Taylor K., Warren T., Wietzorrek A.,
+RA   Woodward J.R., Barrell B.G., Parkhill J., Hopwood D.A.;
+RT   "Complete genome sequence of the model actinomycete Streptomyces coelicolor
+RT   A3(2).";
+RL   Nature 417:141-147(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A3(2) / ICSSB 1010;
+RA   Yuzawa S.;
+RT   "Genome sequencing of Streptomyces strains engineered using actinophage
+RT   integration system.";
+RL   Submitted (JUL-2019) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   GENE CLUSTER, AND FUNCTION.
+RX   PubMed=11514230; DOI=10.1016/s1074-5521(01)00054-0;
+RA   Cerdeno A.M., Bibb M.J., Challis G.L.;
+RT   "Analysis of the prodiginine biosynthesis gene cluster of Streptomyces
+RT   coelicolor A3(2): new mechanisms for chain initiation and termination in
+RT   modular multienzymes.";
+RL   Chem. Biol. 8:817-829(2001).
+RN   [4]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=11880032; DOI=10.1016/s1074-5521(02)00100-x;
+RA   Thomas M.G., Burkart M.D., Walsh C.T.;
+RT   "Conversion of L-proline to pyrrolyl-2-carboxyl-S-PCP during
+RT   undecylprodigiosin and pyoluteorin biosynthesis.";
+RL   Chem. Biol. 9:171-184(2002).
+CC   -!- FUNCTION: Involved in the biosynthesis of undecylprodigiosin
+CC       (PubMed:11514230, PubMed:11880032). Catalyzes the conversion of L-
+CC       proline to L-prolyl-AMP and the transfer of the L-prolyl group to acyl
+CC       carrier protein RedO (PubMed:11880032). {ECO:0000269|PubMed:11514230,
+CC       ECO:0000269|PubMed:11880032}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + holo-[peptidyl-carrier protein] + L-proline = AMP +
+CC         diphosphate + L-prolyl-[peptidyl-carrier protein];
+CC         Xref=Rhea:RHEA:11656, Rhea:RHEA-COMP:11480, Rhea:RHEA-COMP:14109,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:64479, ChEBI:CHEBI:138622, ChEBI:CHEBI:456215;
+CC         EC=6.2.1.53; Evidence={ECO:0000269|PubMed:11880032};
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL939125; CAA16182.1; -; Genomic_DNA.
+DR   EMBL; VNID01000007; TYP13356.1; -; Genomic_DNA.
+DR   PIR; T34917; T34917.
+DR   RefSeq; NP_630012.1; NC_003888.3.
+DR   RefSeq; WP_011030516.1; NZ_VNID01000007.1.
+DR   SMR; O54154; -.
+DR   STRING; 100226.SCO5891; -.
+DR   GeneID; 1101333; -.
+DR   KEGG; sco:SCO5891; -.
+DR   PATRIC; fig|100226.15.peg.5990; -.
+DR   eggNOG; COG1020; Bacteria.
+DR   HOGENOM; CLU_000022_2_12_11; -.
+DR   InParanoid; O54154; -.
+DR   OMA; RTLYPIG; -.
+DR   PhylomeDB; O54154; -.
+DR   Proteomes; UP000001973; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0000036; F:acyl carrier activity; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016874; F:ligase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IBA:GO_Central.
+DR   CDD; cd05945; DltA; 1.
+DR   Gene3D; 3.40.50.12780; -; 1.
+DR   InterPro; IPR010071; AA_adenyl_domain.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR042099; AMP-dep_Synthh-like_sf.
+DR   InterPro; IPR044507; DltA-like.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   TIGRFAMs; TIGR01733; AA-adenyl-dom; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Ligase; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..532
+FT                   /note="L-proline--[L-prolyl-carrier protein] ligase"
+FT                   /id="PRO_0000448664"
+SQ   SEQUENCE   532 AA;  56886 MW;  FCA459F5CBDE24C0 CRC64;
+     MSAATPSVIR LPRDTSAQHA ARPAFVGSDP LTYGEFTARV EAVAARLLSL GTRTGDRIAV
+     WMDKQPRYAE AIVAALEAGC AYVPLDGGQP VSRVRTILAD AEPVVLFTDA HHAALLGDDD
+     LPASVTTVVA VGDALPDTVG GIPVAPWESW EQGRAGRVTL LPSLTPGDLA ALLYTSGSTG
+     TPKGVQISHG ALANFVAWAR DELDVGPDDV FAGHASFNFD LSTFDLFTAL SCGAAVWIVP
+     DAATKDVTAL AEGIRRHRIT VWYSVPSVLH LLTTSAALTP EHAASLRYVL FAGEVFPVPQ
+     LRALRELLPP GTPLYNLYGP TETNVCTYHR VRPEDLHRAT PVPIGLPITG AGTTVVDDAG
+     RTVREPGAIG ELHVSGVCVT PGYWRRAEEP VSTAHCRGVH PTGDLVSYEE DGRLVYRGRK
+     DRMVKLSGYR VELGEIEAAA LRHPGIAEAA VLVDGSGPKA RLRLYYTLCE GAERIGLVEL
+     KQHCARHLPT YMVPHGAVRL DRMPLNPNGK TDYRRLGLDA PPRPAAPLGT AR
+//

@@ -1,0 +1,137 @@
+ID   THIC_ECO27              Reviewed;         631 AA.
+AC   B7UPE9;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 69.
+DE   RecName: Full=Phosphomethylpyrimidine synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            EC=4.1.99.17 {ECO:0000255|HAMAP-Rule:MF_00089};
+DE   AltName: Full=Hydroxymethylpyrimidine phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMP-P synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMP-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE            Short=HMPP synthase {ECO:0000255|HAMAP-Rule:MF_00089};
+DE   AltName: Full=Thiamine biosynthesis protein ThiC {ECO:0000255|HAMAP-Rule:MF_00089};
+GN   Name=thiC {ECO:0000255|HAMAP-Rule:MF_00089}; OrderedLocusNames=E2348C_4301;
+OS   Escherichia coli O127:H6 (strain E2348/69 / EPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=574521;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=E2348/69 / EPEC;
+RX   PubMed=18952797; DOI=10.1128/jb.01238-08;
+RA   Iguchi A., Thomson N.R., Ogura Y., Saunders D., Ooka T., Henderson I.R.,
+RA   Harris D., Asadulghani M., Kurokawa K., Dean P., Kenny B., Quail M.A.,
+RA   Thurston S., Dougan G., Hayashi T., Parkhill J., Frankel G.;
+RT   "Complete genome sequence and comparative genome analysis of
+RT   enteropathogenic Escherichia coli O127:H6 strain E2348/69.";
+RL   J. Bacteriol. 191:347-354(2009).
+CC   -!- FUNCTION: Catalyzes the synthesis of the hydroxymethylpyrimidine
+CC       phosphate (HMP-P) moiety of thiamine from aminoimidazole ribotide (AIR)
+CC       in a radical S-adenosyl-L-methionine (SAM)-dependent reaction.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-amino-1-(5-phospho-beta-D-ribosyl)imidazole + S-adenosyl-L-
+CC         methionine = 4-amino-2-methyl-5-(phosphooxymethyl)pyrimidine + 5'-
+CC         deoxyadenosine + CO + formate + 3 H(+) + L-methionine;
+CC         Xref=Rhea:RHEA:24840, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:17245, ChEBI:CHEBI:17319, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:58354, ChEBI:CHEBI:59789, ChEBI:CHEBI:137981;
+CC         EC=4.1.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00089};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00089};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is coordinated
+CC       with 3 cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00089}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00089}.
+CC   -!- SIMILARITY: Belongs to the ThiC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00089}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM180568; CAS11849.1; -; Genomic_DNA.
+DR   RefSeq; WP_001276888.1; NC_011601.1.
+DR   SMR; B7UPE9; -.
+DR   EnsemblBacteria; CAS11849; CAS11849; E2348C_4301.
+DR   KEGG; ecg:E2348C_4301; -.
+DR   HOGENOM; CLU_013181_2_1_6; -.
+DR   OMA; TWELFRD; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000008205; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016830; F:carbon-carbon lyase activity; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009228; P:thiamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.540; -; 1.
+DR   HAMAP; MF_00089; ThiC; 1.
+DR   InterPro; IPR037509; ThiC.
+DR   InterPro; IPR025747; ThiC-associated_dom.
+DR   InterPro; IPR038521; ThiC/Bza_sf.
+DR   InterPro; IPR002817; ThiC/BzaA/B.
+DR   PANTHER; PTHR30557; PTHR30557; 1.
+DR   Pfam; PF13667; ThiC-associated; 1.
+DR   Pfam; PF01964; ThiC_Rad_SAM; 1.
+DR   SFLD; SFLDF00407; phosphomethylpyrimidine_syntha; 1.
+DR   TIGRFAMs; TIGR00190; thiC; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Lyase; Metal-binding; S-adenosyl-L-methionine;
+KW   Thiamine biosynthesis; Zinc.
+FT   CHAIN           1..631
+FT                   /note="Phosphomethylpyrimidine synthase"
+FT                   /id="PRO_1000118509"
+FT   REGION          353..355
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   REGION          394..397
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   METAL           437
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   METAL           501
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   METAL           581
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   METAL           584
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   METAL           589
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         239
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         268
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         297
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         333
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         433
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+FT   BINDING         460
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00089"
+SQ   SEQUENCE   631 AA;  70756 MW;  956D553ECFE84343 CRC64;
+     MSATKLTRRE QRAQAQHFID TLEGSAFPNS KRIYITGTQP GVRVPMREIQ LSPTLIGGSK
+     EQPQYEENEA IPVYDTSGPY GDPQIAINVQ QGLAKLRQPW IDARGDTEEL TVRSSDYTKA
+     RLADDGLDEL RFSGVLTPKR AKAGRRVTQL HYARKGIITP EMEFIAIREN MGRERIRSEV
+     LRHQHPGMSF GARLPENITA EFVRDEVAAG RAIIPANINH PESEPMIIGR NFLVKVNANI
+     GNSAVTSSIE EEVEKLVWST RWGADTVMDL STGRYIHETR EWILRNSPVP IGTVPIYQAL
+     EKVNGIAEDL TWEAFRDTLL EQAEQGVDYF TIHAGVLLRY VPMTAKRLTG IVSRGGSIMA
+     KWCLSHHQEN FLYQHFREIC EICAAYDVSL SLGDGLRPGS IQDANDEAQF AELHTLGELT
+     KIAWEYDVQV MIEGPGHVPM QMIRRNMTEE LEHCHEAPFY TLGPLTTDIA PGYDHFTSGI
+     GAAMIGWFGC AMLCYVTPKE HLGLPNKEDV KQGLITYKIA AHAADLAKGH PGAQIRDNAM
+     SKARFEFRWE DQFNLALDPF TARAYHDETL PQESGKVAHF CSMCGPKFCS MKISQEVRDY
+     AAAQTIEVGM ADMSENFRAR GGEIYLRKEE A
+//

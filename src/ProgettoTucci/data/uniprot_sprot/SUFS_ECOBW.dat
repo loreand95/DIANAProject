@@ -1,0 +1,108 @@
+ID   SUFS_ECOBW              Reviewed;         406 AA.
+AC   C4ZYE2;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   07-APR-2021, entry version 63.
+DE   RecName: Full=Cysteine desulfurase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            EC=2.8.1.7 {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine beta-lyase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            Short=SCL {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine lyase {ECO:0000255|HAMAP-Rule:MF_01831};
+DE            EC=4.4.1.16 {ECO:0000255|HAMAP-Rule:MF_01831};
+DE   AltName: Full=Selenocysteine reductase {ECO:0000255|HAMAP-Rule:MF_01831};
+GN   Name=sufS {ECO:0000255|HAMAP-Rule:MF_01831}; OrderedLocusNames=BWG_1494;
+OS   Escherichia coli (strain K12 / MC4100 / BW2952).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=595496;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MC4100 / BW2952;
+RX   PubMed=19376874; DOI=10.1128/jb.00118-09;
+RA   Ferenci T., Zhou Z., Betteridge T., Ren Y., Liu Y., Feng L., Reeves P.R.,
+RA   Wang L.;
+RT   "Genomic sequencing reveals regulatory mutations and recombinational events
+RT   in the widely used MC4100 lineage of Escherichia coli K-12.";
+RL   J. Bacteriol. 191:4025-4029(2009).
+CC   -!- FUNCTION: Cysteine desulfurases mobilize the sulfur from L-cysteine to
+CC       yield L-alanine, an essential step in sulfur metabolism for
+CC       biosynthesis of a variety of sulfur-containing biomolecules. Component
+CC       of the suf operon, which is activated and required under specific
+CC       conditions such as oxidative stress and iron limitation. Acts as a
+CC       potent selenocysteine lyase in vitro, that mobilizes selenium from L-
+CC       selenocysteine. Selenocysteine lyase activity is however unsure in
+CC       vivo. {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01831};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=AH2 + L-selenocysteine = A + H(+) + hydrogenselenide + L-
+CC         alanine; Xref=Rhea:RHEA:11632, ChEBI:CHEBI:13193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:29317, ChEBI:CHEBI:57843,
+CC         ChEBI:CHEBI:57972; EC=4.4.1.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01831};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01831};
+CC   -!- PATHWAY: Cofactor biosynthesis; iron-sulfur cluster biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SUBUNIT: Homodimer. Interacts with SufE and the SufBCD complex composed
+CC       of SufB, SufC and SufD. The interaction with SufE is required to
+CC       mediate the direct transfer of the sulfur atom from the S-
+CC       sulfanylcysteine. {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01831}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. Csd subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01831}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001396; ACR65514.1; -; Genomic_DNA.
+DR   RefSeq; WP_000577988.1; NC_012759.1.
+DR   SMR; C4ZYE2; -.
+DR   KEGG; ebw:BWG_1494; -.
+DR   HOGENOM; CLU_003433_2_5_6; -.
+DR   OMA; HKLCGPT; -.
+DR   UniPathway; UPA00266; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0009000; F:selenocysteine lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006534; P:cysteine metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01831; SufS_aminotrans_5; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010970; Cys_dSase_SufS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR01979; sufS; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lyase; Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..406
+FT                   /note="Cysteine desulfurase"
+FT                   /id="PRO_1000216075"
+FT   ACT_SITE        364
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01831"
+FT   MOD_RES         226
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01831"
+SQ   SEQUENCE   406 AA;  44434 MW;  9374C43C3AD9D8E3 CRC64;
+     MIFSVDKVRA DFPVLSREVN GLPLAYLDSA ASAQKPSQVI DAEAEFYRHG YAAVHRGIHT
+     LSAQATEKME NVRKRASLFI NARSAEELVF VRGTTEGINL VANSWGNSNV RAGDNIIISQ
+     MEHHANIVPW QMLCARVGAE LRVIPLNPDG TLQLETLPTL FDEKTRLLAI THVSNVLGTE
+     NPLAEMITLA HQHGAKVLVD GAQAVMHHPV DVQALDCDFY VFSGHKLYGP TGIGILYVKE
+     ALLQEMPPWE GGGSMIATVS LSEGTTWTKA PWRFEAGTPN TGGIIGLGAA LEYVSALGLN
+     NIAEYEQNLM HYALSQLESV PDLTLYGPQN RLGVIAFNLG KHHAYDVGSF LDNYGIAVRT
+     GHHCAMPLMA YYNVPAMCRA SLAMYNTHEE VDRLVTGLQR IHRLLG
+//

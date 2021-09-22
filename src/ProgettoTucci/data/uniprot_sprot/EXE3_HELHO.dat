@@ -1,0 +1,104 @@
+ID   EXE3_HELHO              Reviewed;          87 AA.
+AC   P20394; Q7SZU6;
+DT   01-FEB-1991, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 2.
+DT   26-FEB-2020, entry version 73.
+DE   RecName: Full=Exendin-3;
+DE   AltName: Full=Glucagon-like 3;
+DE   Flags: Precursor;
+OS   Heloderma horridum horridum (Mexican beaded lizard).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Anguimorpha; Neoanguimorpha; Helodermatidae; Heloderma.
+OX   NCBI_TaxID=8552;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 48-86, AND MASS
+RP   SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=16386282; DOI=10.1016/j.toxicon.2005.11.004;
+RA   Chen T., Kwok H., Ivanyi C., Shaw C.;
+RT   "Isolation and cloning of exendin precursor cDNAs from single samples of
+RT   venom from the Mexican beaded lizard (Heloderma horridum) and the Gila
+RT   monster (Heloderma suspectum).";
+RL   Toxicon 47:288-295(2006).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 48-86, AND AMIDATION AT SER-86.
+RC   TISSUE=Venom;
+RX   PubMed=1700785;
+RA   Eng J., Andrew P.C., Kleinman W.A., Singh L., Raufman J.-P.;
+RT   "Purification and structure of exendin-3, a new pancreatic secretagogue
+RT   isolated from Heloderma horridum venom.";
+RL   J. Biol. Chem. 265:20259-20262(1990).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=1704369;
+RA   Raufman J.P., Singh L., Eng J.;
+RT   "Exendin-3, a novel peptide from Heloderma horridum venom, interacts with
+RT   vasoactive intestinal peptide receptors and a newly described receptor on
+RT   dispersed acini from guinea pig pancreas. Description of exendin-3(9-39)
+RT   amide, a specific exendin receptor antagonist.";
+RL   J. Biol. Chem. 266:2897-2902(1991).
+RN   [4]
+RP   SYNTHESIS OF 48-86, AND FUNCTION.
+RX   PubMed=19837656; DOI=10.1093/molbev/msp251;
+RA   Fry B.G., Roelants K., Winter K., Hodgson W.C., Griesman L., Kwok H.F.,
+RA   Scanlon D., Karas J., Shaw C., Wong L., Norman J.A.;
+RT   "Novel venom proteins produced by differential domain-expression strategies
+RT   in beaded lizards and gila monsters (genus Heloderma).";
+RL   Mol. Biol. Evol. 27:395-407(2010).
+RN   [5]
+RP   BIOTECHNOLOGY.
+RX   PubMed=20111963; DOI=10.1007/s00259-009-1363-y;
+RA   Brom M., Oyen W.J., Joosten L., Gotthardt M., Boerman O.C.;
+RT   "68Ga-labelled exendin-3, a new agent for the detection of insulinomas with
+RT   PET.";
+RL   Eur. J. Nucl. Med. Mol. Imaging 37:1345-1355(2010).
+CC   -!- FUNCTION: Stimulates vasoactive intestinal peptide (VIP) receptors in
+CC       high concentrations (>100 nM), resulting in both an increase in cAMP
+CC       and amylase secretion from pancreatic acini, although at low
+CC       concentrations (between 0.3 and 3 nM) it increases cAMP without
+CC       stimulating amylase release. Stimulates the GLP-1 receptor (GLP1R).
+CC       Induces hypotension that is mediated by relaxation of cardiac smooth
+CC       muscle. {ECO:0000269|PubMed:1704369, ECO:0000269|PubMed:19837656}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- MASS SPECTROMETRY: Mass=4203.2; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:16386282};
+CC   -!- BIOTECHNOLOGY: [Lys(40)((68)Ga-DOTA)]exendin-3 is a promising tracer to
+CC       visualize insulinomas (neuroendocrine tumors derived from pancreatic
+CC       beta-cells in which GLP1R is expressed at >90%) with PET imaging.
+CC       {ECO:0000269|PubMed:20111963}.
+CC   -!- SIMILARITY: Belongs to the glucagon family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ580309; CAE30483.1; -; mRNA.
+DR   PIR; A23674; HWGH3Z.
+DR   SMR; P20394; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005179; F:hormone activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008217; P:regulation of blood pressure; IEA:UniProtKB-KW.
+DR   InterPro; IPR000532; Glucagon_GIP_secretin_VIP.
+DR   Pfam; PF00123; Hormone_2; 1.
+DR   SMART; SM00070; GLUCA; 1.
+DR   PROSITE; PS00260; GLUCAGON; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Cleavage on pair of basic residues; Direct protein sequencing;
+KW   G-protein coupled receptor impairing toxin; Hypotensive agent; Secreted;
+KW   Signal; Toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..45
+FT                   /id="PRO_0000271136"
+FT   PEPTIDE         48..86
+FT                   /note="Exendin-3"
+FT                   /id="PRO_0000044748"
+FT   MOD_RES         86
+FT                   /note="Serine amide"
+FT                   /evidence="ECO:0000269|PubMed:1700785"
+SQ   SEQUENCE   87 AA;  9481 MW;  E66FA6F15AE5F127 CRC64;
+     MKIILWLCVF GLFLATLFPV SWQMPVESGL SSEDSASSES FASKIKRHSD GTFTSDLSKQ
+     MEEEAVRLFI EWLKNGGPSS GAPPPSG
+//

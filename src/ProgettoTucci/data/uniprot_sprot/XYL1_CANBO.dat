@@ -1,0 +1,181 @@
+ID   XYL1_CANBO              Reviewed;         321 AA.
+AC   Q8X195;
+DT   03-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 2.
+DT   07-APR-2021, entry version 65.
+DE   RecName: Full=NADPH-dependent D-xylose reductase;
+DE            Short=XR;
+DE            EC=1.1.1.307;
+GN   Name=XYL1; Synonyms=cbXR;
+OS   Candida boidinii (Yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Pichiaceae; Ogataea; Ogataea/Candida clade.
+OX   NCBI_TaxID=5477;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND SUBSTRATE SPECIFICITY.
+RC   STRAIN=NRRL Y-17213;
+RX   PubMed=12721450; DOI=10.1385/abab:106:1-3:265;
+RA   Kang M.H., Ni H., Jeffries T.W.;
+RT   "Molecular characterization of a gene for aldose reductase (CbXYL1) from
+RT   Candida boidinii and its expression in Saccharomyces cerevisiae.";
+RL   Appl. Biochem. Biotechnol. 106:265-276(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=NRRL Y-17213;
+RX   PubMed=16838379; DOI=10.1002/bit.21082;
+RA   Cirino P.C., Chin J.W., Ingram L.O.;
+RT   "Engineering Escherichia coli for xylitol production from glucose-xylose
+RT   mixtures.";
+RL   Biotechnol. Bioeng. 95:1167-1176(2006).
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=18359531; DOI=10.1016/j.jbiotec.2008.02.003;
+RA   Khankal R., Chin J.W., Cirino P.C.;
+RT   "Role of xylose transporters in xylitol production from engineered
+RT   Escherichia coli.";
+RL   J. Biotechnol. 134:246-252(2008).
+RN   [4]
+RP   FUNCTION.
+RX   PubMed=18698648; DOI=10.1002/bit.22060;
+RA   Chin J.W., Khankal R., Monroe C.A., Maranas C.D., Cirino P.C.;
+RT   "Analysis of NADPH supply during xylitol production by engineered
+RT   Escherichia coli.";
+RL   Biotechnol. Bioeng. 102:209-220(2009).
+RN   [5]
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE SPECIFICITY, DOMAIN, AND
+RP   MUTAGENESIS OF 272-LYS--ASN-274.
+RX   PubMed=19693930; DOI=10.1002/pro.227;
+RA   Khoury G.A., Fazelinia H., Chin J.W., Pantazes R.J., Cirino P.C.,
+RA   Maranas C.D.;
+RT   "Computational design of Candida boidinii xylose reductase for altered
+RT   cofactor specificity.";
+RL   Protein Sci. 18:2125-2138(2009).
+CC   -!- FUNCTION: Reduces D-xylose into xylitol. Preferentially utilizes NADPH
+CC       as a cosubstrate. {ECO:0000269|PubMed:12721450,
+CC       ECO:0000269|PubMed:16838379, ECO:0000269|PubMed:18359531,
+CC       ECO:0000269|PubMed:18698648, ECO:0000269|PubMed:19693930}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + xylitol = D-xylose + H(+) + NADH;
+CC         Xref=Rhea:RHEA:27441, ChEBI:CHEBI:15378, ChEBI:CHEBI:17151,
+CC         ChEBI:CHEBI:53455, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         EC=1.1.1.307;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + xylitol = D-xylose + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:27445, ChEBI:CHEBI:15378, ChEBI:CHEBI:17151,
+CC         ChEBI:CHEBI:53455, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.307;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=307 uM for NADPH {ECO:0000269|PubMed:19693930};
+CC         Vmax=152 nmol/min/mg enzyme (in the presence of NADPH)
+CC         {ECO:0000269|PubMed:19693930};
+CC         Note=Mutations at positions 272 to 274 modify the cofactor
+CC         specificity and increase specificity for NADH over NADPH.;
+CC   -!- PATHWAY: Carbohydrate metabolism; D-xylose degradation.
+CC   -!- DOMAIN: The Lys-Ser-Asn motif at positions 272 to 274 is important for
+CC       the cofactor specificity for NADPH over NADH.
+CC       {ECO:0000269|PubMed:19693930}.
+CC   -!- SIMILARITY: Belongs to the aldo/keto reductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF451326; AAL47846.2; -; Genomic_DNA.
+DR   SMR; Q8X195; -.
+DR   OrthoDB; 1016440at2759; -.
+DR   UniPathway; UPA00810; -.
+DR   GO; GO:0047834; F:D-threo-aldose 1-dehydrogenase activity; IEA:InterPro.
+DR   GO; GO:0032866; F:D-xylose:NADP reductase activity; IEA:InterPro.
+DR   GO; GO:0042843; P:D-xylose catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd19113; AKR_AKR2B1-10; 1.
+DR   Gene3D; 3.20.20.100; -; 1.
+DR   InterPro; IPR020471; AKR.
+DR   InterPro; IPR044486; AKR2B1.
+DR   InterPro; IPR018170; Aldo/ket_reductase_CS.
+DR   InterPro; IPR023210; NADP_OxRdtase_dom.
+DR   InterPro; IPR036812; NADP_OxRdtase_dom_sf.
+DR   Pfam; PF00248; Aldo_ket_red; 1.
+DR   PIRSF; PIRSF000097; AKR; 1.
+DR   PRINTS; PR00069; ALDKETRDTASE.
+DR   SUPFAM; SSF51430; SSF51430; 1.
+DR   PROSITE; PS00798; ALDOKETO_REDUCTASE_1; 1.
+DR   PROSITE; PS00062; ALDOKETO_REDUCTASE_2; 1.
+DR   PROSITE; PS00063; ALDOKETO_REDUCTASE_3; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; NAD; NADP; Oxidoreductase; Xylose metabolism.
+FT   CHAIN           1..321
+FT                   /note="NADPH-dependent D-xylose reductase"
+FT                   /id="PRO_0000407987"
+FT   NP_BIND         167..168
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         216..225
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         272..282
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        50
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         112
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            79
+FT                   /note="Lowers pKa of active site Tyr"
+FT                   /evidence="ECO:0000250"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->EDR: Increases cofactor specificity for NADH
+FT                   over NADPH 240 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->EDR: Increases cofactor specificity for NADH
+FT                   over NADPH more than 1900 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->EDS: Increases cofactor specificity for NADH
+FT                   over NADPH 240 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->EQR: Increases cofactor specificity for NADH
+FT                   over NADPH 6 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->GGD: Increases cofactor specificity for NADH
+FT                   over NADPH 440 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->MAE: Increases cofactor specificity for NADH
+FT                   over NADPH more than 5400 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->MES: Increases cofactor specificity for NADH
+FT                   over NADPH more than 1800 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->MGD: Increases cofactor specificity for NADH
+FT                   over NADPH 890 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->REG: Increases cofactor specificity for NADH
+FT                   over NADPH more than 11200 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->RSE: Increases cofactor specificity for NADH
+FT                   over NADPH 37 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272..274
+FT                   /note="KSN->RTT: Increases cofactor specificity for NADH
+FT                   over NADPH 13 times."
+FT                   /evidence="ECO:0000269|PubMed:19693930"
+FT   MUTAGEN         272
+FT                   /note="K->R: Increases cofactor specificity for NADH over
+FT                   NADPH 50 times."
+SQ   SEQUENCE   321 AA;  36470 MW;  FCFA8F2A900C86EB CRC64;
+     MSSPLLTLNN GLKMPQIGFG CWKVDNATCA ETIYEAIKVG YRLFDGAMDY GNEKEVGEGV
+     NKAIKDGLVK REELFIVSKL WNNFHHPDSV KLAIKKVLSD LNLEYIDLFY MHFPIAQKFV
+     PIEKKYPPNF YCGDGDKWSF EDVPLLTTWR AMEELVEEGL VKSIGISNFV GALIQDLLRG
+     CKIRPAVLEI EHHPYLVQPR LIEYAKTEGI HVTAYSSFGP QSFVELDHPK VKDCTTLFKH
+     ETITSIASAH DVPPAKVLLR WATQRGLAVI PKSNKKERLL GNLKINDFDL TEAELEKIEA
+     LDIGLRFNDP WTWGYNIPTF I
+//

@@ -1,0 +1,78 @@
+ID   PLS3_PITHY              Reviewed;          19 AA.
+AC   P84568;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   07-APR-2021, entry version 29.
+DE   RecName: Full=Phyllospetin-H3 {ECO:0000303|PubMed:18644413};
+DE            Short=PLS-H3 {ECO:0000303|PubMed:18644413};
+DE   AltName: Full=Phylloseptin-3 {ECO:0000303|PubMed:15752569};
+DE            Short=PS-3 {ECO:0000303|PubMed:15752569};
+GN   Name=psn3; Synonyms=psn-3;
+OS   Pithecopus hypochondrialis (Orange-legged leaf frog) (Phyllomedusa
+OS   hypochondrialis).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Hyloidea; Hylidae; Phyllomedusinae;
+OC   Pithecopus.
+OX   NCBI_TaxID=317381;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, MASS
+RP   SPECTROMETRY, AND AMIDATION AT GLY-19.
+RC   TISSUE=Skin secretion {ECO:0000269|PubMed:15752569};
+RX   PubMed=15752569; DOI=10.1016/j.peptides.2004.11.002;
+RA   Leite J.R.S.A., Silva L.P., Rodrigues M.I.S., Prates M.V., Brand G.D.,
+RA   Lacava B.M., Azevedo R.B., Bocca A.L., Albuquerque S., Bloch C. Jr.;
+RT   "Phylloseptins: a novel class of anti-bacterial and anti-protozoan peptides
+RT   from the Phyllomedusa genus.";
+RL   Peptides 26:565-573(2005).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=18644413; DOI=10.1016/j.peptides.2008.06.017;
+RA   Amiche M., Ladram A., Nicolas P.;
+RT   "A consistent nomenclature of antimicrobial peptides isolated from frogs of
+RT   the subfamily Phyllomedusinae.";
+RL   Peptides 29:2074-2082(2008).
+RN   [3]
+RP   STRUCTURE BY NMR, AND AMIDATION AT GLY-19.
+RX   PubMed=18656510; DOI=10.1016/j.peptides.2008.06.022;
+RA   Resende J.M., Moraes C.M., Prates M.V., Cesar A., Almeida F.C.,
+RA   Mundim N.C., Valente A.P., Bemquerer M.P., Pilo-Veloso D., Bechinger B.;
+RT   "Solution NMR structures of the antimicrobial peptides phylloseptin-1, -2,
+RT   and -3 and biological activity: the role of charges and hydrogen bonding
+RT   interactions in stabilizing helix conformations.";
+RL   Peptides 29:1633-1644(2008).
+CC   -!- FUNCTION: Has antimicrobial activity. {ECO:0000250|UniProtKB:P84566}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15752569}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands.
+CC       {ECO:0000269|PubMed:15752569}.
+CC   -!- MASS SPECTROMETRY: Mass=1944.05; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:15752569};
+CC   -!- SIMILARITY: Belongs to the frog skin active peptide (FSAP) family.
+CC       Phylloseptin subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=The antimicrobial peptide database;
+CC       URL="http://aps.unmc.edu/AP/database/query_output.php?ID=00758";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 2JQ1; NMR; -; A=1-19.
+DR   PDBsum; 2JQ1; -.
+DR   SMR; P84568; -.
+DR   EvolutionaryTrace; P84568; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amidation; Amphibian defense peptide; Antimicrobial;
+KW   Direct protein sequencing; Secreted.
+FT   PEPTIDE         1..19
+FT                   /note="Phyllospetin-H3"
+FT                   /evidence="ECO:0000269|PubMed:15752569"
+FT                   /id="PRO_0000043824"
+FT   MOD_RES         19
+FT                   /note="Glycine amide"
+FT                   /evidence="ECO:0000269|PubMed:15752569,
+FT                   ECO:0000269|PubMed:18656510"
+FT   HELIX           5..15
+FT                   /evidence="ECO:0007744|PDB:2JQ1"
+SQ   SEQUENCE   19 AA;  1945 MW;  F511C077A9008FD1 CRC64;
+     FLSLIPHAIN AVSALANHG
+//

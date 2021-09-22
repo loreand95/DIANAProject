@@ -1,0 +1,84 @@
+ID   PAR1_ROSHC              Reviewed;         322 AA.
+AC   A0A0B6VQ48; A0A0B6VNC0; B1B610;
+DT   12-AUG-2020, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-2015, sequence version 1.
+DT   02-DEC-2020, entry version 16.
+DE   RecName: Full=Phenylacetaldehyde reductase {ECO:0000303|PubMed:20650544};
+DE            EC=1.1.1.- {ECO:0000269|PubMed:20650544};
+DE   AltName: Full=2-phenylethanol synthase {ECO:0000305};
+GN   Name=PAR {ECO:0000303|PubMed:20650544};
+OS   Rosa hybrid cultivar.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Rosales; Rosaceae; Rosoideae; Rosoideae incertae sedis;
+OC   Rosa.
+OX   NCBI_TaxID=128735;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], IDENTIFICATION BY MASS SPECTROMETRY, FUNCTION,
+RP   CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=20650544; DOI=10.1016/j.jplph.2010.06.011;
+RA   Chen X.M., Kobayashi H., Sakai M., Hirata H., Asai T., Ohnishi T.,
+RA   Baldermann S., Watanabe N.;
+RT   "Functional characterization of rose phenylacetaldehyde reductase (PAR), an
+RT   enzyme involved in the biosynthesis of the scent compound 2-
+RT   phenylethanol.";
+RL   J. Plant Physiol. 168:88-95(2011).
+CC   -!- FUNCTION: Catalyzes the reduction of 2-phenylethylamine to produce 2-
+CC       phenylethanol, a constituent of floral scent in petals.
+CC       {ECO:0000269|PubMed:20650544}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-phenylacetaldehyde + H(+) + NADPH = 2-phenylethanol +
+CC         NADP(+); Xref=Rhea:RHEA:63736, ChEBI:CHEBI:15378, ChEBI:CHEBI:16424,
+CC         ChEBI:CHEBI:49000, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000269|PubMed:20650544};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63737;
+CC         Evidence={ECO:0000269|PubMed:20650544};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-phenylacetaldehyde + H(+) + NADH = 2-phenylethanol + NAD(+);
+CC         Xref=Rhea:RHEA:63740, ChEBI:CHEBI:15378, ChEBI:CHEBI:16424,
+CC         ChEBI:CHEBI:49000, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000269|PubMed:20650544};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:63741;
+CC         Evidence={ECO:0000269|PubMed:20650544};
+CC   -!- TISSUE SPECIFICITY: Highly expressed in petals (PubMed:20650544).
+CC       Expressed in calyxes and leaves (PubMed:20650544).
+CC       {ECO:0000269|PubMed:20650544}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. Dihydroflavonol-4-reductase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB426519; BAG13450.2; -; mRNA.
+DR   EMBL; AB972811; BAQ20438.1; -; mRNA.
+DR   EMBL; AB972812; BAQ20439.1; -; mRNA.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR001509; Epimerase_deHydtase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF01370; Epimerase; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+PE   1: Evidence at protein level;
+KW   NADP; Oxidoreductase.
+FT   CHAIN           1..322
+FT                   /note="Phenylacetaldehyde reductase"
+FT                   /id="PRO_0000450479"
+FT   BINDING         42
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A059TC02"
+FT   BINDING         161
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:A0A059TC02"
+FT   CONFLICT        116
+FT                   /note="P -> T (in Ref. 1; BAQ20438)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        225
+FT                   /note="I -> V (in Ref. 1; BAQ20438)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   322 AA;  35386 MW;  614F90377E923EB3 CRC64;
+     MSNKVVCVTG ASGYIASWLV KLLLQRGYTV KASVRNPNDP TKTEHLLALD GAKERLQLFK
+     ADLLEEGSFD SAVEGCEGVF HTASPFYHDV TDPKAELLDP AVKGTLNVLN SCSKSPSIKR
+     VVLTSSIAAV AYNGKPRTPD VVVDETWFTD PDVCKESKLW YVLSKTLAED AAWKFVKEKG
+     IDMVTINPAM VIGPLLQPTL NTSAAAILNI IKGARTYPNA SFGWINVKDV ANAHVQAFEI
+     PSASGRYCLV ERVAHFTEVL QIIHELYPDL QLPEKCSDDK PFVPTYQVSK EKAKSLGIEF
+     IPLDISLKET IESLKEKSIV SF
+//

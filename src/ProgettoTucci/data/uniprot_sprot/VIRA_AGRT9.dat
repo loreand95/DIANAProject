@@ -1,0 +1,110 @@
+ID   VIRA_AGRT9              Reviewed;         829 AA.
+AC   P10799;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   17-JUN-2020, entry version 113.
+DE   RecName: Full=Wide host range VirA protein;
+DE            Short=WHR VirA;
+DE            EC=2.7.13.3;
+GN   Name=virA;
+OS   Agrobacterium tumefaciens (strain 15955).
+OG   Plasmid pTi15955.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae;
+OC   Rhizobium/Agrobacterium group; Agrobacterium;
+OC   Agrobacterium tumefaciens complex.
+OX   NCBI_TaxID=190386;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   AGRICOLA=IND92000074; DOI=10.1007/BF00015676;
+RA   Melchers L.S., Thompson D.V., Idler K.B., Neuteboom S.T.C., Maagd R.A.,
+RA   Schilperoort R.A., Hooykaas P.J.J.;
+RT   "Molecular characterization of the virulence gene virA of the Agrobacterium
+RT   tumefaciens octopine Ti plasmid.";
+RL   Plant Mol. Biol. 11:227-237(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2796735; DOI=10.1111/j.1365-2958.1989.tb00274.x;
+RA   Morel P., Powell B.S., Rogowsky P.M., Kado C.I.;
+RT   "Characterization of the virA virulence gene of the nopaline plasmid,
+RT   pTiC58, of Agrobacterium tumefaciens.";
+RL   Mol. Microbiol. 3:1237-1246(1989).
+CC   -!- FUNCTION: Activates VirG, by phosphorylating it, in the presence of
+CC       acetosyringone or hydroxysyringone.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + protein L-histidine = ADP + protein N-phospho-L-
+CC         histidine.; EC=2.7.13.3;
+CC   -!- INTERACTION:
+CC       P10799; P10799: virA; NbExp=2; IntAct=EBI-6452433, EBI-6452433;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X16905; CAA34777.1; ALT_SEQ; Genomic_DNA.
+DR   SMR; P10799; -.
+DR   BRENDA; 2.7.13.3; 200.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   CDD; cd00082; HisKA; 1.
+DR   Gene3D; 3.30.565.10; -; 1.
+DR   InterPro; IPR003594; HATPase_C.
+DR   InterPro; IPR036890; HATPase_C_sf.
+DR   InterPro; IPR005467; His_kinase_dom.
+DR   InterPro; IPR003661; HisK_dim/P.
+DR   InterPro; IPR036097; HisK_dim/P_sf.
+DR   InterPro; IPR004358; Sig_transdc_His_kin-like_C.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF02518; HATPase_c; 1.
+DR   Pfam; PF00512; HisKA; 1.
+DR   PRINTS; PR00344; BCTRLSENSOR.
+DR   SMART; SM00387; HATPase_c; 1.
+DR   SMART; SM00388; HisKA; 1.
+DR   SUPFAM; SSF47384; SSF47384; 1.
+DR   SUPFAM; SSF55874; SSF55874; 1.
+DR   PROSITE; PS50109; HIS_KIN; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Crown gall tumor; Kinase; Membrane;
+KW   Nucleotide-binding; Phosphoprotein; Plasmid; Transferase; Transmembrane;
+KW   Transmembrane helix; Two-component regulatory system.
+FT   CHAIN           1..829
+FT                   /note="Wide host range VirA protein"
+FT                   /id="PRO_0000074897"
+FT   TRANSMEM        19..39
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        260..280
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          471..694
+FT                   /note="Histidine kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00107"
+FT   DOMAIN          716..827
+FT                   /note="Response regulatory"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+FT   MOD_RES         474
+FT                   /note="Phosphohistidine; by autocatalysis"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00107"
+FT   MOD_RES         766
+FT                   /note="4-aspartylphosphate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+SQ   SEQUENCE   829 AA;  91640 MW;  9D1150B84A889809 CRC64;
+     MNGRYSPTRQ DFKTGAKPWS ILALIVAAMI FAFMAVASWQ DNATTQAILS QLRSINADSA
+     SLQRDVLRAH TGTVANYRPI ISRLGALRKN LEDLKQLFRQ SHIVSESNAA QLLRQLEVSL
+     NSADAAVAAF GAQNVRLQDS LASFTRALSS LPGKASTDQT LEKPTELASM MLQFLRQPSP
+     AISFEISLEL ERLQKQRGLD EAPVRILARE GPIILSLLPQ VKDLVNMIQT SDTAEIAEML
+     QRECLEVYSL KNVEERSARI FLGSASVGLC LYIITLVYRL RKKTDWLARR LDYEELIKEI
+     GVCFEGEAAT TSSAQAALRI IQRFFDADTC ALALVDHDRR WAVETFGAKH PKPVWDDSVL
+     REIVSRTKAD ERATVFRIIS SKKIVHLPLE IPGLSILLAH KSTDKLIAVC SLGYQSYRPR
+     PCQGEIQLLE LATACLCHYI DVRRKQTQCD VLARRLEHAQ RLEAVGTLAG GIAHEFNNIL
+     GSILGHAELA QNSVSRTSVT RRYIDYIISS GDRAMLIIDQ ILTLSRKQER MIKPFSVSEL
+     VTEIAPLLRM ALPPNIELSF RFDQMQSVIE GSPLELQQVL INICKNASQA MTANGQIDII
+     ISQAFLPVKK ILAHGVMPPG DYVLLSISDN GGGIPEAVLP HIFEPFFTTR ARNGGTGLGL
+     ASVHGHISAF AGYIDVSSTV GHGTRFDIYL PPSSKEPVNP DSFFGRNKAP RGNGEIVALV
+     EPDDLLREAY EDKIAALGYE PVGFRTFNEI RDWISKGNEA DLVMVDQASL PEDQSPNSVD
+     LVLKTASIII GGNDLKMTLS REDVTRDLYL PKPISSRTMA HAILTKIKT
+//

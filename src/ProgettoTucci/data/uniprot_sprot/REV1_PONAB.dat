@@ -1,0 +1,164 @@
+ID   REV1_PONAB              Reviewed;        1250 AA.
+AC   Q5R4N7;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   02-DEC-2020, entry version 72.
+DE   RecName: Full=DNA repair protein REV1;
+DE            EC=2.7.7.-;
+DE   AltName: Full=Rev1-like terminal deoxycytidyl transferase;
+GN   Name=REV1; Synonyms=REV1L;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Brain cortex;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Deoxycytidyl transferase involved in DNA repair. Transfers a
+CC       dCMP residue from dCTP to the 3'-end of a DNA primer in a template-
+CC       dependent reaction. May assist in the first step in the bypass of
+CC       abasic lesions by the insertion of a nucleotide opposite the lesion.
+CC       Required for normal induction of mutations by physical and chemical
+CC       agents (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Monomer. Interacts with the DNA polymerase zeta which is
+CC       composed of REV3L and MAD2L2; the interaction with MAD2L2 is direct and
+CC       requires that REV3L is in its closed conformation. Interacts with POLH,
+CC       POLI and POLK. Interacts with FAAP20 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   -!- DOMAIN: The C-terminal domain is necessary for protein interactions.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-Y family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR861208; CAH93279.1; -; mRNA.
+DR   RefSeq; NP_001126930.1; NM_001133458.1.
+DR   BMRB; Q5R4N7; -.
+DR   SMR; Q5R4N7; -.
+DR   STRING; 9601.ENSPPYP00000013486; -.
+DR   GeneID; 100173947; -.
+DR   KEGG; pon:100173947; -.
+DR   CTD; 51455; -.
+DR   eggNOG; KOG2093; Eukaryota.
+DR   InParanoid; Q5R4N7; -.
+DR   OrthoDB; 299766at2759; -.
+DR   Proteomes; UP000001595; Unplaced.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0042276; P:error-prone translesion synthesis; IEA:InterPro.
+DR   Gene3D; 1.20.58.1280; -; 1.
+DR   Gene3D; 3.30.1490.100; -; 1.
+DR   Gene3D; 3.30.70.270; -; 2.
+DR   Gene3D; 3.40.50.10190; -; 1.
+DR   InterPro; IPR001357; BRCT_dom.
+DR   InterPro; IPR036420; BRCT_dom_sf.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR036775; DNA_pol_Y-fam_lit_finger_sf.
+DR   InterPro; IPR017961; DNA_pol_Y-fam_little_finger.
+DR   InterPro; IPR012112; REV1.
+DR   InterPro; IPR031991; Rev1_C.
+DR   InterPro; IPR038401; Rev1_C_sf.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR001126; UmuC.
+DR   Pfam; PF16589; BRCT_2; 1.
+DR   Pfam; PF00817; IMS; 1.
+DR   Pfam; PF11799; IMS_C; 1.
+DR   Pfam; PF16727; REV1_C; 1.
+DR   PIRSF; PIRSF036573; REV1; 1.
+DR   SMART; SM00292; BRCT; 1.
+DR   SUPFAM; SSF100879; SSF100879; 1.
+DR   SUPFAM; SSF52113; SSF52113; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50172; BRCT; 1.
+DR   PROSITE; PS50173; UMUC; 1.
+PE   2: Evidence at transcript level;
+KW   DNA damage; DNA repair; DNA synthesis; DNA-binding; Magnesium;
+KW   Metal-binding; Nucleotidyltransferase; Nucleus; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..1250
+FT                   /note="DNA repair protein REV1"
+FT                   /id="PRO_0000284127"
+FT   DOMAIN          44..131
+FT                   /note="BRCT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00033"
+FT   DOMAIN          419..652
+FT                   /note="UmuC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00216"
+FT   NP_BIND         423..427
+FT                   /note="dCTP binding"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         509..515
+FT                   /note="dCTP binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          352..362
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          652..655
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          708..716
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1151..1250
+FT                   /note="Protein interaction domain; mediates interaction
+FT                   with DNA polymerase zeta"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           1071..1077
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   METAL           423
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00216"
+FT   METAL           423
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00216"
+FT   METAL           569
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00216"
+FT   METAL           570
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00216"
+FT   BINDING         357
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         521
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         569
+FT                   /note="dCTP"
+FT                   /evidence="ECO:0000250"
+FT   SITE            769
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+FT   SITE            782
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1250 AA;  138304 MW;  62B55F77603E0551 CRC64;
+     MRRGGWRKRA ENDGWETWGG YMAAKVQKLE EQFRSDAAMQ KDGTSSTIFS GVAIYVNGYT
+     DPSAEELRKL MMLHGGQYHV YYSRSKTTHI IATNLPNAKI KELKGEKVIR PEWIVESIKA
+     GRLLSYIPYQ LYTKQSSVQK GLSFNPICRP EDPLPGPSNI AKQLNNRVNH IVKKIETENE
+     VKVNGMNSWN EEDENNDFSF VDLEQTSPGR KQNGIPHPRG STAIFNGHTP SSNGALKTQD
+     CLVPMVNSVA SRLSPASSQE EDKAEKSSTD FRDCTLQQLQ QSTRNTDALR NPHRTNSFSL
+     SPLHSNTKIN GAHHSTVQGP SSTKSTSSVS TFSKAAPSVP SKPSDCNFIS NFYSHSRLHH
+     ISMWKCELTE FVNTLQRQSN GIFPGREKLK KMKTGRSALV VTDTGDMSLL NSPRHQSCIM
+     HVDMDCFFVS VGIRNRPDLK GKPVAVTSNR GTGRAPLRPG ANPQLEWQYY QNKILKGKAD
+     IPDSSLWENP DSAQADGSDS VLSRAEIASC SYEARQLGIK NGMFFGHAKQ LCPNLQAVPY
+     DFHAYKEVAR TLYETLASYT HNIEAVSCDE ALVDITEILA ETKLTPDEFA NAVRMEIKDQ
+     TKCTASVGIG SNILLARMAT RKAKPDGQYH LKPEEVDDFI RGQLVTNLPG VGHSMESKLA
+     SLGIKTCGDL QYMTMAKLQK EFGPKTGQML YRFCRGLDDR PVRTEKERKS VSAEINYGIR
+     FTQPKEAEAF LLSLSEEIQR RLEATGMKGK RLTLKIMVRK PGAPVETAKF GGHGICDNIA
+     RTVTLDQATD NAKIIGKAML NMFHTMKLNI SDMRGVGIHV NQLVPTNLNP STCPSRPSVQ
+     SSHFPGGSYS VRDVFQVQKA KKSTEEEHKE VFRAAVDLEI SPVSRTCTFL PPFPAHLPTS
+     PDTNKAESSG KWNGLHSPVS VQSRLNLSIE VPSPSQLDQS VLEALLPDLR EQVEQVCAVQ
+     QAESHGDKKK EPVNGCNTGI LPQPVGTVLL QIPEPQESNS DTGINVIALP AFSQVDPEVF
+     AALPAELQRE LKAAYDQRQR QDENSTHQQS ASASVPKNPL LHLKAAVKEK KRNKKKKTIG
+     SPKRIQSPLK NRLLNSPAKT LPGACGSPQK LIDGFLKHEG PPAEKPLEEL SASTSGVPGL
+     SSLQSDPAGC VRPPAPNLAG AVEFNDVKTL LREWITTISD PMEEDILQVV KYCTDLIEEK
+     DLEKLDLVIK YMKRLMQQSV ESVWNMAFDF ILDNVQVVLQ QTYGSTLKVT
+//

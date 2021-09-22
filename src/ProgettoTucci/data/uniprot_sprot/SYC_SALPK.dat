@@ -1,0 +1,107 @@
+ID   SYC_SALPK               Reviewed;         461 AA.
+AC   B5BCZ8;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 69.
+DE   RecName: Full=Cysteine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            EC=6.1.1.16 {ECO:0000255|HAMAP-Rule:MF_00041};
+DE   AltName: Full=Cysteinyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00041};
+DE            Short=CysRS {ECO:0000255|HAMAP-Rule:MF_00041};
+GN   Name=cysS {ECO:0000255|HAMAP-Rule:MF_00041}; OrderedLocusNames=SSPA2032;
+OS   Salmonella paratyphi A (strain AKU_12601).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=554290;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AKU_12601;
+RX   PubMed=19159446; DOI=10.1186/1471-2164-10-36;
+RA   Holt K.E., Thomson N.R., Wain J., Langridge G.C., Hasan R., Bhutta Z.A.,
+RA   Quail M.A., Norbertczak H., Walker D., Simmonds M., White B., Bason N.,
+RA   Mungall K., Dougan G., Parkhill J.;
+RT   "Pseudogene accumulation in the evolutionary histories of Salmonella
+RT   enterica serovars Paratyphi A and Typhi.";
+RL   BMC Genomics 10:36-36(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-
+CC         cysteinyl-tRNA(Cys); Xref=Rhea:RHEA:17773, Rhea:RHEA-COMP:9661,
+CC         Rhea:RHEA-COMP:9679, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:78442, ChEBI:CHEBI:78517,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.16; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00041};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00041};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00041};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00041}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM200053; CAR60239.1; -; Genomic_DNA.
+DR   RefSeq; WP_000912377.1; NC_011147.1.
+DR   SMR; B5BCZ8; -.
+DR   KEGG; sek:SSPA2032; -.
+DR   HOGENOM; CLU_013528_0_1_6; -.
+DR   OMA; AKYWMHN; -.
+DR   BioCyc; SENT554290:G1GIG-2311-MONOMER; -.
+DR   Proteomes; UP000001869; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004817; F:cysteine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006423; P:cysteinyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00672; CysRS_core; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00041; Cys_tRNA_synth; 1.
+DR   InterPro; IPR015803; Cys-tRNA-ligase.
+DR   InterPro; IPR015273; Cys-tRNA-synt_Ia_DALR.
+DR   InterPro; IPR024909; Cys-tRNA/MSH_ligase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR032678; tRNA-synt_1_cat_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   PANTHER; PTHR10890; PTHR10890; 1.
+DR   Pfam; PF09190; DALR_2; 1.
+DR   Pfam; PF01406; tRNA-synt_1e; 1.
+DR   PRINTS; PR00983; TRNASYNTHCYS.
+DR   SMART; SM00840; DALR_2; 1.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   TIGRFAMs; TIGR00435; cysS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Zinc.
+FT   CHAIN           1..461
+FT                   /note="Cysteine--tRNA ligase"
+FT                   /id="PRO_1000090871"
+FT   MOTIF           30..40
+FT                   /note="'HIGH' region"
+FT   MOTIF           266..270
+FT                   /note="'KMSKS' region"
+FT   METAL           28
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           209
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           234
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   METAL           238
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+FT   BINDING         269
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00041"
+SQ   SEQUENCE   461 AA;  52287 MW;  26809FF8859AC5DD CRC64;
+     MLKIFNTLTR QKEEFKPIHA GEVGMYVCGI TVYDLCHIGH GRTFVAFDVV ARYLRFLGYK
+     LKYVRNITDI DDKIIKRANE NGESFVALVD RMIAEMHQDF DALNILRPDS EPRATHHIQE
+     IIELTRTLIE KGHAYVADNG DVMFDVPTDP TYGQLSRQDL EQLQAGARVD VVDVKRNPMD
+     FVLWKMSKEG EPSWPSPWGE GRPGWHIECS AMNCKQLGNH FDIHGGGSDL MFPHHENEIA
+     QSTCAHDGEY VNYWMHSGMV MVDREKMSKS LGNFFTVRDV LKYYDAETVR YFLMSGHYRS
+     QLNYSEENLK QARASLERLY TALRGTDKSA APAGGEAFEA RFVEAMNDDF NTPEAYSVLF
+     DMAREVNRLK GEDMTAANAM ASHLRKISGV LGLLEQEPDV FLQSGAQADD GEVAEIEALI
+     QQRLDARKAK DWAAADAARD RLTEMGIILE DGPQGTTWRR K
+//

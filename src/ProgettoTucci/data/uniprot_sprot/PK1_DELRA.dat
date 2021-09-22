@@ -1,0 +1,65 @@
+ID   PK1_DELRA               Reviewed;          15 AA.
+AC   B3EWL1; B3EWL2;
+DT   03-OCT-2012, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2012, sequence version 1.
+DT   11-DEC-2019, entry version 9.
+DE   RecName: Full=CAPA-Pyrokinin {ECO:0000303|PubMed:22848525};
+DE            Short=CAPA-PK {ECO:0000303|PubMed:22848525};
+DE   Contains:
+DE     RecName: Full=CAPA-Pyrokinin(2-15) {ECO:0000303|PubMed:22848525};
+DE              Short=CAPA-PK(2-15) {ECO:0000303|PubMed:22848525};
+OS   Delia radicum (Cabbage root fly) (Anthomyia brassicae).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Diptera; Brachycera; Muscomorpha; Muscoidea;
+OC   Anthomyiidae; Anthomyiinae; Delia.
+OX   NCBI_TaxID=30064;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, TISSUE SPECIFICITY, DEVELOPMENTAL STAGE, MASS
+RP   SPECTROMETRY, AND AMIDATION AT LEU-15.
+RC   TISSUE=CNS {ECO:0000269|PubMed:22848525};
+RX   PubMed=22848525; DOI=10.1371/journal.pone.0041543;
+RA   Zoephel J., Reiher W., Rexer K.-H., Kahnt J., Wegener C.;
+RT   "Peptidomics of the agriculturally damaging larval stage of the cabbage
+RT   root fly Delia radicum (Diptera: Anthomyiidae).";
+RL   PLoS ONE 7:E41543-E41543(2012).
+CC   -!- FUNCTION: Mediates visceral muscle contractile activity (myotropic
+CC       activity). {ECO:0000250|UniProtKB:P41489}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P41489}.
+CC   -!- TISSUE SPECIFICITY: Both CAPA-pyrokinin and CAPA-pyrokinin(2-15) are
+CC       expressed in CNS, ring gland and abdominal perisympathetic organs
+CC       (aPSO) but not in midgut or thoracic perisympathetic organs (tPSO) (at
+CC       protein level). {ECO:0000269|PubMed:22848525}.
+CC   -!- DEVELOPMENTAL STAGE: Detected in larvae. {ECO:0000269|PubMed:22848525}.
+CC   -!- MASS SPECTROMETRY: [CAPA-Pyrokinin]: Mass=1515.81; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:22848525};
+CC   -!- MASS SPECTROMETRY: [CAPA-Pyrokinin(2-15)]: Mass=1444.78; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:22848525};
+CC   -!- SIMILARITY: Belongs to the pyrokinin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005184; F:neuropeptide hormone activity; IEA:InterPro.
+DR   GO; GO:0007218; P:neuropeptide signaling pathway; IEA:UniProtKB-KW.
+DR   InterPro; IPR001484; Pyrokinin_CS.
+DR   PROSITE; PS00539; PYROKININ; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Direct protein sequencing; Neuropeptide; Secreted.
+FT   PEPTIDE         1..15
+FT                   /note="CAPA-Pyrokinin"
+FT                   /evidence="ECO:0000269|PubMed:22848525"
+FT                   /id="PRO_0000419730"
+FT   PEPTIDE         2..15
+FT                   /note="CAPA-Pyrokinin(2-15)"
+FT                   /evidence="ECO:0000269|PubMed:22848525"
+FT                   /id="PRO_0000419731"
+FT   MOD_RES         15
+FT                   /note="Leucine amide"
+FT                   /evidence="ECO:0000269|PubMed:22848525"
+FT   UNSURE          15
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:22848525"
+SQ   SEQUENCE   15 AA;  1517 MW;  3C70432BE394A9CD CRC64;
+     AGPSATTGVW FGPRL
+//

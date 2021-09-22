@@ -1,0 +1,108 @@
+ID   XYLA_BURTA              Reviewed;         440 AA.
+AC   Q2SW40;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-MAY-2006, sequence version 2.
+DT   07-APR-2021, entry version 87.
+DE   RecName: Full=Xylose isomerase {ECO:0000255|HAMAP-Rule:MF_00455};
+DE            EC=5.3.1.5 {ECO:0000255|HAMAP-Rule:MF_00455};
+GN   Name=xylA {ECO:0000255|HAMAP-Rule:MF_00455}; OrderedLocusNames=BTH_I2338;
+OS   Burkholderia thailandensis (strain ATCC 700388 / DSM 13276 / CIP 106301 /
+OS   E264).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=271848;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700388 / DSM 13276 / CIP 106301 / E264;
+RX   PubMed=16336651; DOI=10.1186/1471-2164-6-174;
+RA   Kim H.S., Schell M.A., Yu Y., Ulrich R.L., Sarria S.H., Nierman W.C.,
+RA   DeShazer D.;
+RT   "Bacterial genome adaptation to niches: divergence of the potential
+RT   virulence genes in three Burkholderia species of different survival
+RT   strategies.";
+RL   BMC Genomics 6:174-174(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-xylose = D-xylulose; Xref=Rhea:RHEA:22816,
+CC         ChEBI:CHEBI:17140, ChEBI:CHEBI:53455; EC=5.3.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00455};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00455};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00455};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00455}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00455}.
+CC   -!- SIMILARITY: Belongs to the xylose isomerase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00455}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABC39030.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000086; ABC39030.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_009891030.1; NZ_CP008785.1.
+DR   SMR; Q2SW40; -.
+DR   EnsemblBacteria; ABC39030; ABC39030; BTH_I2338.
+DR   GeneID; 45122056; -.
+DR   KEGG; bte:BTH_I2338; -.
+DR   HOGENOM; CLU_037261_1_0_4; -.
+DR   OMA; TLAMYEI; -.
+DR   OrthoDB; 481478at2; -.
+DR   Proteomes; UP000001930; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009045; F:xylose isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042732; P:D-xylose metabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00455; Xylose_isom_A; 1.
+DR   InterPro; IPR036237; Xyl_isomerase-like_sf.
+DR   InterPro; IPR013452; Xylose_isom_bac.
+DR   InterPro; IPR001998; Xylose_isomerase.
+DR   PRINTS; PR00688; XYLOSISMRASE.
+DR   SUPFAM; SSF51658; SSF51658; 1.
+DR   TIGRFAMs; TIGR02630; xylose_isom_A; 1.
+DR   PROSITE; PS51415; XYLOSE_ISOMERASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cytoplasm; Isomerase; Magnesium; Metal-binding;
+KW   Xylose metabolism.
+FT   CHAIN           1..440
+FT                   /note="Xylose isomerase"
+FT                   /id="PRO_0000236960"
+FT   ACT_SITE        100
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   ACT_SITE        103
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           231
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           267
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           267
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           270
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           295
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           306
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           308
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+FT   METAL           338
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00455"
+SQ   SEQUENCE   440 AA;  49424 MW;  B5D02E609DD74C54 CRC64;
+     MSYFEHIPAI RYEGPQSDNP LAYRHYDRTK RVLGKTLEEH LRIAVCYWHT FVWPGQDVFG
+     QGALRRPWQQ PGEPLERARQ KADAAFAFFT KLGTPFYTFH DTDVAPEGAN LHEYVENFAR
+     MVDYLGEHQQ ASGVRLLWGT ANLFSHPRFA AGAATSPNPD AFAWAATQVC HALDATHRLG
+     GENYVLWGGR EGYETLLNTD LAREREQLAR FLAMVVEHKH RIGFTGALLI EPKPQEPTKH
+     QYDYDVATVH GLLTQYGLQN EIRVNIEANH ATLAGHSFHH EIANAFALGV FGSVDANRGD
+     PQNGWDTDQF PNSVEELTLA FYEILRHGGF TTGGMNFDAK VRRQSVDPED LFHGHIGAID
+     VLALALERAA VLVENDRLDA LRRRRYAQWD SEFGRKILAG GYSLQSLAAD ALARGVNPQH
+     ASGAQERLEN IVNQAIYALR
+//

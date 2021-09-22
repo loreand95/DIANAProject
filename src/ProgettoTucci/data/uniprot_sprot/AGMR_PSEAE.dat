@@ -1,0 +1,105 @@
+ID   AGMR_PSEAE              Reviewed;         221 AA.
+AC   P29369;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   07-APR-2021, entry version 134.
+DE   RecName: Full=Glycerol metabolism activator;
+DE   AltName: Full=Protein AgmR;
+GN   Name=agmR; Synonyms=glpR; OrderedLocusNames=PA1978;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM
+OS   14847 / LMG 12228 / 1C / PRS 101 / PAO1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C /
+RC   PRS 101 / PAO1;
+RX   PubMed=1938886; DOI=10.1128/jb.173.21.6798-6806.1991;
+RA   Schweizer H.P.;
+RT   "The agmR gene, an environmentally responsive gene, complements defective
+RT   glpR, which encodes the putative activator for glycerol metabolism in
+RT   Pseudomonas aeruginosa.";
+RL   J. Bacteriol. 173:6798-6806(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C /
+RC   PRS 101 / PAO1;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T., Reizer J.,
+RA   Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic
+RT   pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Positive activator for glycerol metabolism.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M60805; AAA25827.1; -; Genomic_DNA.
+DR   EMBL; AE004091; AAG05366.1; -; Genomic_DNA.
+DR   PIR; A41333; A41333.
+DR   RefSeq; NP_250668.1; NC_002516.2.
+DR   RefSeq; WP_003107754.1; NZ_QZGE01000030.1.
+DR   SMR; P29369; -.
+DR   PaxDb; P29369; -.
+DR   PRIDE; P29369; -.
+DR   DNASU; 880879; -.
+DR   EnsemblBacteria; AAG05366; AAG05366; PA1978.
+DR   GeneID; 880879; -.
+DR   KEGG; pae:PA1978; -.
+DR   PATRIC; fig|208964.12.peg.2061; -.
+DR   PseudoCAP; PA1978; -.
+DR   HOGENOM; CLU_000445_90_8_6; -.
+DR   InParanoid; P29369; -.
+DR   OMA; DHQVVRR; -.
+DR   BioCyc; PAER208964:G1FZ6-2016-MONOMER; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006071; P:glycerol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   CDD; cd06170; LuxR_C_like; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR016032; Sig_transdc_resp-reg_C-effctor.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR000792; Tscrpt_reg_LuxR_C.
+DR   Pfam; PF00196; GerE; 1.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   PRINTS; PR00038; HTHLUXR.
+DR   SMART; SM00421; HTH_LUXR; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF46894; SSF46894; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS00622; HTH_LUXR_1; 1.
+DR   PROSITE; PS50043; HTH_LUXR_2; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Activator; DNA-binding; Glycerol metabolism; Phosphoprotein;
+KW   Reference proteome; Transcription; Transcription regulation;
+KW   Two-component regulatory system.
+FT   CHAIN           1..221
+FT                   /note="Glycerol metabolism activator"
+FT                   /id="PRO_0000080994"
+FT   DOMAIN          3..120
+FT                   /note="Response regulatory"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+FT   DOMAIN          149..214
+FT                   /note="HTH luxR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00411"
+FT   DNA_BIND        173..192
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00411"
+FT   MOD_RES         55
+FT                   /note="4-aspartylphosphate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+SQ   SEQUENCE   221 AA;  24424 MW;  1366B243D18B72C7 CRC64;
+     MYKILIADDH PLFREAIHNV IADGFPGSEV METADLDSAL GLTQEHDDLD LILLDLNMPG
+     MHGLNGLMNL RNEAPTIPVV IVSAEQDKQV VLQAITYGAV GFITKSSPRA QMTEAIEQIL
+     NGNVYLPSDV IRTQKSSPRR SGHEEHGISP ELLQALTRKQ LLVLERMTKG ESNKQIAYNL
+     DIAETTVKAH VSAILRKLKV HNRVQAILSA GDIDFAAYLR R
+//

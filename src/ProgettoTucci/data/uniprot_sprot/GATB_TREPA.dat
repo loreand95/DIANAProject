@@ -1,0 +1,107 @@
+ID   GATB_TREPA              Reviewed;         509 AA.
+AC   O83984;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B;
+DE            Short=Asp/Glu-ADT subunit B;
+DE            EC=6.3.5.-;
+GN   Name=gatB; OrderedLocusNames=TP_1021;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M., Utterback T.R.,
+RA   McDonald L.A., Artiach P., Bowman C., Cotton M.D., Fujii C., Garland S.A.,
+RA   Hatch B., Horst K., Roberts K.M., Sandusky M., Weidman J.F., Smith H.O.,
+RA   Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Allows the formation of correctly charged Asn-tRNA(Asn) or
+CC       Gln-tRNA(Gln) through the transamidation of misacylated Asp-tRNA(Asn)
+CC       or Glu-tRNA(Gln) in organisms which lack either or both of asparaginyl-
+CC       tRNA or glutaminyl-tRNA synthetases. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated phospho-Asp-
+CC       tRNA(Asn) or phospho-Glu-tRNA(Gln) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-aspartyl-tRNA(Asn) + L-glutamine = ADP + 2 H(+)
+CC         + L-asparaginyl-tRNA(Asn) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:14513, Rhea:RHEA-COMP:9674, Rhea:RHEA-COMP:9677,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78515, ChEBI:CHEBI:78516, ChEBI:CHEBI:456216;
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the GatB/GatE family. GatB subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65971.1; -; Genomic_DNA.
+DR   PIR; A71254; A71254.
+DR   RefSeq; WP_010882465.1; NC_021490.2.
+DR   SMR; O83984; -.
+DR   STRING; 243276.TPANIC_1021; -.
+DR   EnsemblBacteria; AAC65971; AAC65971; TP_1021.
+DR   GeneID; 57879533; -.
+DR   KEGG; tpa:TP_1021; -.
+DR   eggNOG; COG0064; Bacteria.
+DR   HOGENOM; CLU_019240_0_0_12; -.
+DR   OMA; ARKWWMG; -.
+DR   OrthoDB; 497127at2; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0050566; F:asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.10.410; -; 1.
+DR   Gene3D; 1.10.150.380; -; 1.
+DR   HAMAP; MF_00121; GatB; 1.
+DR   InterPro; IPR004413; Apn/Gln-ADT_bsu.
+DR   InterPro; IPR017959; Asn/Gln-tRNA_amidoTrfase_suB/E.
+DR   InterPro; IPR006075; Asn/Gln-tRNA_Trfase_suB/E_cat.
+DR   InterPro; IPR018027; Asn/Gln_amidotransferase.
+DR   InterPro; IPR003789; Asn/Gln_tRNA_amidoTrase-B-like.
+DR   InterPro; IPR042114; GatB_C_1.
+DR   InterPro; IPR023168; GatB_Yqey_C_2.
+DR   InterPro; IPR017958; Gln-tRNA_amidoTrfase_suB_CS.
+DR   InterPro; IPR014746; Gln_synth/guanido_kin_cat_dom.
+DR   PANTHER; PTHR11659; PTHR11659; 1.
+DR   Pfam; PF02934; GatB_N; 1.
+DR   Pfam; PF02637; GatB_Yqey; 1.
+DR   SMART; SM00845; GatB_Yqey; 1.
+DR   SUPFAM; SSF55931; SSF55931; 1.
+DR   SUPFAM; SSF89095; SSF89095; 1.
+DR   TIGRFAMs; TIGR00133; gatB; 1.
+DR   PROSITE; PS01234; GATB; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..509
+FT                   /note="Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase
+FT                   subunit B"
+FT                   /id="PRO_0000148861"
+SQ   SEQUENCE   509 AA;  56865 MW;  C28B90122236BF52 CRC64;
+     MSDLQTGTVP SIAGATDDTH AAPFFYEVII GCEIHCQLLT KTKAFCACAN RSGGMPNSRV
+     CPVCLGLPGA LPVVSEEYVR LGVRAGLALG CTIQLWSAFD RKHYFYPDLP KGYQITQYDA
+     PLCTDGAVDV QGVDMPVQRR VRIERIHLEE DAGKSLHAAD AYSYIDFNRC GVPLIEIVSR
+     PDLRSAEEAA CFMQTIREIL TFIEVTDGNL EEGALRCDAN VNVRILYKGQ EHHTPISEIK
+     NMNSYRMVRD ACTYEVQRQL QEFWQKGPAS KEEMQRKRTM GWDPVEGVTL LQRTKHSLRD
+     YRFMRDPDLP DLHLTPAYVQ HLSYTVGELP AARRARFKLD LGLSAFAAQT LTGSRMLADW
+     FEKAAHASKN ARRVANWILS EVLAVVNEKN ICIAELNLSP EAIAELMDAV EDQRITGKQA
+     KDIFAQMLAT GARAQDIISA QGLAQLSDEE EIATLVQTVF QEHPKALRDW QHGKTNVAAW
+     LMGQVMKRSR GRAHPARVAT LVHQALSQL
+//

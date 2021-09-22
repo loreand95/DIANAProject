@@ -1,0 +1,96 @@
+ID   ISPG_TROW8              Reviewed;         380 AA.
+AC   Q83NE4;
+DT   19-JUL-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) {ECO:0000255|HAMAP-Rule:MF_00159};
+DE            EC=1.17.7.3 {ECO:0000255|HAMAP-Rule:MF_00159};
+DE   AltName: Full=1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase {ECO:0000255|HAMAP-Rule:MF_00159};
+GN   Name=ispG {ECO:0000255|HAMAP-Rule:MF_00159}; OrderedLocusNames=TW586;
+OS   Tropheryma whipplei (strain TW08/27) (Whipple's bacillus).
+OC   Bacteria; Actinobacteria; Micrococcales; Tropheryma.
+OX   NCBI_TaxID=218496;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TW08/27;
+RX   PubMed=12606174; DOI=10.1016/s0140-6736(03)12597-4;
+RA   Bentley S.D., Maiwald M., Murphy L.D., Pallen M.J., Yeats C.A., Dover L.G.,
+RA   Norbertczak H.T., Besra G.S., Quail M.A., Harris D.E., von Herbay A.,
+RA   Goble A., Rutter S., Squares R., Squares S., Barrell B.G., Parkhill J.,
+RA   Relman D.A.;
+RT   "Sequencing and analysis of the genome of the Whipple's disease bacterium
+RT   Tropheryma whipplei.";
+RL   Lancet 361:637-644(2003).
+CC   -!- FUNCTION: Converts 2C-methyl-D-erythritol 2,4-cyclodiphosphate (ME-
+CC       2,4cPP) into 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00159}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-4-hydroxy-3-methylbut-2-enyl diphosphate + 2 H(+) + H2O +
+CC         oxidized [flavodoxin] = 2-C-methyl-D-erythritol 2,4-cyclic
+CC         diphosphate + reduced [flavodoxin]; Xref=Rhea:RHEA:43604, Rhea:RHEA-
+CC         COMP:10622, Rhea:RHEA-COMP:10623, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57618, ChEBI:CHEBI:58210,
+CC         ChEBI:CHEBI:58483, ChEBI:CHEBI:128753; EC=1.17.7.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00159};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00159};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_00159};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 5/6. {ECO:0000255|HAMAP-Rule:MF_00159}.
+CC   -!- SIMILARITY: Belongs to the IspG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX251412; CAD67252.1; -; Genomic_DNA.
+DR   SMR; Q83NE4; -.
+DR   KEGG; tws:TW586; -.
+DR   HOGENOM; CLU_042258_0_0_11; -.
+DR   OMA; PTCGRTE; -.
+DR   UniPathway; UPA00056; UER00096.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046429; F:4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.20.20.20; -; 1.
+DR   HAMAP; MF_00159; IspG; 1.
+DR   InterPro; IPR011005; Dihydropteroate_synth-like.
+DR   InterPro; IPR016425; IspG_bac.
+DR   InterPro; IPR004588; IspG_bac-typ.
+DR   PANTHER; PTHR30454; PTHR30454; 1.
+DR   Pfam; PF04551; GcpE; 1.
+DR   PIRSF; PIRSF004640; IspG; 1.
+DR   SUPFAM; SSF51717; SSF51717; 1.
+DR   TIGRFAMs; TIGR00612; ispG_gcpE; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Isoprene biosynthesis; Metal-binding;
+KW   Oxidoreductase.
+FT   CHAIN           1..380
+FT                   /note="4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase
+FT                   (flavodoxin)"
+FT                   /id="PRO_0000190649"
+FT   METAL           279
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00159"
+FT   METAL           282
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00159"
+FT   METAL           314
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00159"
+FT   METAL           321
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00159"
+SQ   SEQUENCE   380 AA;  40809 MW;  06901FCF91812587 CRC64;
+     MSIDLGLPKV REVLSPRRKT RRIKLGKVFV GGDSPILVQS MTTTQTTNID ATLQQIAELT
+     AAGCDIVRVA VPSRDDAQVL HIIAKKSQIP VIADIHFQPN YVYAAIDAGC AAVRVNPGNI
+     RKFDDQIGKI AEKAKAAGVS IRIGVNAGSL DPRLLEKYGR PTAQALVDSA VWEAGLFEEY
+     DFHDFKISVK HHDPVTMVKA YRLLAERGDW PLHLGVTEAG PAFQGTIKSS TAFAVLLAEG
+     IGDTIRVSLS APPVEEVKVG LEILRSLGLR ERRLEIVSCP SCGRAQVDVY RLAEEVTKGL
+     EKLTVPLRVA VMGCIVNGPG EAREADLGVA SGNGKGQIFV RGQVIKTVPE SEIVPTLLEE
+     ANRLAGEMPF SSGSPTIAIV
+//

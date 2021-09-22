@@ -1,0 +1,106 @@
+ID   CAPP_NOSS1              Reviewed;        1026 AA.
+AC   P28594;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2002, sequence version 2.
+DT   02-DEC-2020, entry version 118.
+DE   RecName: Full=Phosphoenolpyruvate carboxylase;
+DE            Short=PEPC;
+DE            Short=PEPCase;
+DE            EC=4.1.1.31;
+GN   Name=ppc; Synonyms=pepC; OrderedLocusNames=all4861;
+OS   Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.
+OX   NCBI_TaxID=103690;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1588304; DOI=10.1099/00221287-138-4-685;
+RA   Luinenburg I., Coleman J.R.;
+RT   "Identification, characterization and sequence analysis of the gene
+RT   encoding phosphoenolpyruvate carboxylase in Anabaena sp. PCC 7120.";
+RL   J. Gen. Microbiol. 138:685-691(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7120 / SAG 25.82 / UTEX 2576;
+RX   PubMed=11759840; DOI=10.1093/dnares/8.5.205;
+RA   Kaneko T., Nakamura Y., Wolk C.P., Kuritz T., Sasamoto S., Watanabe A.,
+RA   Iriguchi M., Ishikawa A., Kawashima K., Kimura T., Kishida Y., Kohara M.,
+RA   Matsumoto M., Matsuno A., Muraki A., Nakazaki N., Shimpo S., Sugimoto M.,
+RA   Takazawa M., Yamada M., Yasuda M., Tabata S.;
+RT   "Complete genomic sequence of the filamentous nitrogen-fixing
+RT   cyanobacterium Anabaena sp. strain PCC 7120.";
+RL   DNA Res. 8:205-213(2001).
+CC   -!- FUNCTION: Forms oxaloacetate, a four-carbon dicarboxylic acid source
+CC       for the tricarboxylic acid cycle. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=oxaloacetate + phosphate = hydrogencarbonate +
+CC         phosphoenolpyruvate; Xref=Rhea:RHEA:28370, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:43474, ChEBI:CHEBI:58702; EC=4.1.1.31;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the PEPCase type 1 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA22023.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=BAB76560.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M80541; AAA22023.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; BA000019; BAB76560.1; ALT_INIT; Genomic_DNA.
+DR   PIR; A44831; A44831.
+DR   PIR; AE2413; AE2413.
+DR   RefSeq; WP_010998989.1; NZ_RSCN01000037.1.
+DR   SMR; P28594; -.
+DR   STRING; 103690.17133998; -.
+DR   EnsemblBacteria; BAB76560; BAB76560; BAB76560.
+DR   KEGG; ana:all4861; -.
+DR   eggNOG; COG2352; Bacteria.
+DR   OMA; PWVFGWT; -.
+DR   OrthoDB; 398146at2; -.
+DR   Proteomes; UP000002483; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008964; F:phosphoenolpyruvate carboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015977; P:carbon fixation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006107; P:oxaloacetate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:InterPro.
+DR   HAMAP; MF_00595; PEPcase_type1; 1.
+DR   InterPro; IPR021135; PEP_COase.
+DR   InterPro; IPR022805; PEP_COase_bac/pln-type.
+DR   InterPro; IPR018129; PEP_COase_Lys_AS.
+DR   InterPro; IPR033129; PEPCASE_His_AS.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   PANTHER; PTHR30523; PTHR30523; 1.
+DR   Pfam; PF00311; PEPcase; 1.
+DR   PRINTS; PR00150; PEPCARBXLASE.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   PROSITE; PS00781; PEPCASE_1; 1.
+DR   PROSITE; PS00393; PEPCASE_2; 1.
+PE   3: Inferred from homology;
+KW   Carbon dioxide fixation; Lyase; Magnesium; Reference proteome.
+FT   CHAIN           1..1026
+FT                   /note="Phosphoenolpyruvate carboxylase"
+FT                   /id="PRO_0000166578"
+FT   ACT_SITE        199
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        672
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1026 AA;  117758 MW;  333C350254EC87CE CRC64;
+     MGSVLYSLSE SANLYPASEL FLRHRLQIVE ELWESVLRQE CGQNMVDLLR QLRDLCSPEG
+     QATKDQAVSA VKLIEQLNIN EAIRAARAFA LYFQLINIIE QEYEQRQQLT RYSDLEAETA
+     PLNGSENITS SSNHNEDDVI FNRGLGTDFL GKNWTNRGQG KQKGTFAALF PLLSKLNVPP
+     QQIQRLISQL DVRLVFTAHP TEIVRHTIRD KQRQVVDLLQ QLDEVENRAK DGGGYPWEAG
+     EIREKLLEEI RLWWRTDELH QFKPTVLDEV DYALHYFQEV LFDGIPQLYK RFKYALNQTF
+     SWLEPPSKDF CSFGSWVGSD RDGNPSVTPE ITWQTACYQR KMVLERYIKS VTQLIELLSI
+     SMHWSDVLPD LLESLELDQS QLSEVYDALA LRYRQEPYRL KLAYVLKRLE NTRDRNLALY
+     KGETPTNEDS PMYRSGSEFL AELRLIQHNL TETGLSCREL DNLICQVEIF DFNLTKLDIR
+     QESTRHSDAL NEILDYLQLL PQPYNDLSEE QRVAWLTTEL QTRRPLISSE LPFSDKTNDV
+     IKTFRVVRSL QQEFGINICQ TYIISMCRQV SDVLEVLLLA KEARLFDPAI AVGTIQVVPL
+     FETVEDLQRS RSVMRQLFEL PLYRALLAGG YKNTEVKVPN TELTPQSPAP SPQSVLTPDL
+     QEVMLGYSDS NKDSGFLSSN WEIHKAQKSL QQIAEEYGVN LRIFHGRGGS VGRGGGPAHE
+     AILAQPGHSI NGRIKITEQG EVLASKYSLL DLALYNLETI TTAVIQASLL RTGFDDIEPW
+     NEIMEELAAR SRQHYRGLIY EQPDFIDFFH QVTPIEEISQ LQISSRPARR PSGKKDLSSL
+     RAIPWVFSWT QTRFLLPSWY GVGTALQEFF NEEPEEHLKL MRYFYVKWPF FKMVISKVEM
+     TLAKVDMQMA GHYVQELSDP EDKPRFEKVF EQIANEYYLT RDLVLKITDH GRLLDGDPVL
+     QRSVQLRNGT IVPLGFIQVS LLKRLRQSKN NTATSGVIHS RYSKGELLRG ALLTINGIAA
+     GMRNTG
+//

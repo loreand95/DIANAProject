@@ -1,0 +1,69 @@
+ID   ADO1_AGRDO              Reviewed;          35 AA.
+AC   P58608;
+DT   23-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 1.
+DT   07-APR-2021, entry version 73.
+DE   RecName: Full=Toxin Ado1;
+OS   Agriosphodrus dohrni (Japanese assassin-bug).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Paraneoptera; Hemiptera; Heteroptera; Panheteroptera;
+OC   Cimicomorpha; Reduviidae; Harpactorinae; Harpactorini; Agriosphodrus.
+OX   NCBI_TaxID=184613;
+RN   [1]
+RP   PROTEIN SEQUENCE, AND MASS SPECTROMETRY.
+RC   TISSUE=Saliva;
+RX   PubMed=11423127; DOI=10.1016/s0014-5793(01)02558-3;
+RA   Corzo G., Adachi-Akahane S., Nagao T., Kusui Y., Nakajima T.;
+RT   "Novel peptides from assassin bugs (Hemiptera: Reduviidae): isolation,
+RT   chemical and biological characterization.";
+RL   FEBS Lett. 499:256-261(2001).
+RN   [2]
+RP   STRUCTURE BY NMR, AND FUNCTION.
+RX   PubMed=14696181; DOI=10.1002/prot.10513;
+RA   Bernard C., Corzo G., Adachi-Akahane S., Foures G., Kanemaru K.,
+RA   Furukawa Y., Nakajima T., Darbon H.;
+RT   "Solution structure of ADO1, a toxin extracted from the saliva of the
+RT   assassin bug, Agriosphodrus dohrni.";
+RL   Proteins 54:195-205(2004).
+CC   -!- FUNCTION: Binds reversibly and blocks P/Q-type voltage-gated calcium
+CC       channels (Cav). {ECO:0000269|PubMed:14696181}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC   -!- MASS SPECTROMETRY: Mass=3781.3; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:11423127};
+CC   -!- SIMILARITY: Belongs to the assassin bug toxin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PDB; 1LMR; NMR; -; A=1-35.
+DR   PDBsum; 1LMR; -.
+DR   SMR; P58608; -.
+DR   EvolutionaryTrace; P58608; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019855; F:calcium channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR012325; Assassin_bug_toxin.
+DR   Pfam; PF08117; Toxin_30; 1.
+DR   PROSITE; PS60010; ASSASSIN_BUG_TOXIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium channel impairing toxin; Direct protein sequencing;
+KW   Disulfide bond; Ion channel impairing toxin; Knottin; Neurotoxin; Secreted;
+KW   Toxin; Voltage-gated calcium channel impairing toxin.
+FT   PEPTIDE         1..35
+FT                   /note="Toxin Ado1"
+FT                   /id="PRO_0000044889"
+FT   DISULFID        5..20
+FT   DISULFID        12..25
+FT   DISULFID        19..32
+FT   STRAND          23..26
+FT                   /evidence="ECO:0007744|PDB:1LMR"
+FT   TURN            27..30
+FT                   /evidence="ECO:0007744|PDB:1LMR"
+FT   STRAND          31..34
+FT                   /evidence="ECO:0007744|PDB:1LMR"
+SQ   SEQUENCE   35 AA;  3787 MW;  3E83D94C6D614E88 CRC64;
+     ADDDCLPRGS KCLGENKQCC KGTTCMFYAN RCVGV
+//

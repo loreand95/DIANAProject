@@ -1,0 +1,126 @@
+ID   GLPK5_BOVIN             Reviewed;         528 AA.
+AC   Q08D86; Q58DK9;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 74.
+DE   RecName: Full=Putative glycerol kinase 5;
+DE            Short=GK 5;
+DE            Short=Glycerokinase 5;
+DE            EC=2.7.1.30;
+DE   AltName: Full=ATP:glycerol 3-phosphotransferase 5;
+GN   Name=GK5;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2).
+RX   PubMed=16305752; DOI=10.1186/1471-2164-6-166;
+RA   Harhay G.P., Sonstegard T.S., Keele J.W., Heaton M.P., Clawson M.L.,
+RA   Snelling W.M., Wiedmann R.T., Van Tassell C.P., Smith T.P.L.;
+RT   "Characterization of 954 bovine full-CDS cDNA sequences.";
+RL   BMC Genomics 6:166-166(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).
+RC   STRAIN=Hereford; TISSUE=Fetal skin;
+RG   NIH - Mammalian Gene Collection (MGC) project;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + glycerol = ADP + H(+) + sn-glycerol 3-phosphate;
+CC         Xref=Rhea:RHEA:21644, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57597, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.30;
+CC   -!- PATHWAY: Polyol metabolism; glycerol degradation via glycerol kinase
+CC       pathway; sn-glycerol 3-phosphate from glycerol: step 1/1.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=Q08D86-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q08D86-2; Sequence=VSP_032119, VSP_032120;
+CC   -!- SIMILARITY: Belongs to the FGGY kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BT021588; AAX46435.1; -; mRNA.
+DR   EMBL; BC123888; AAI23889.1; -; mRNA.
+DR   RefSeq; NP_001030550.2; NM_001035473.2. [Q08D86-1]
+DR   SMR; Q08D86; -.
+DR   STRING; 9913.ENSBTAP00000024143; -.
+DR   Ensembl; ENSBTAT00000024143; ENSBTAP00000024143; ENSBTAG00000018138. [Q08D86-1]
+DR   Ensembl; ENSBTAT00000034692; ENSBTAP00000034578; ENSBTAG00000018138. [Q08D86-2]
+DR   GeneID; 616031; -.
+DR   KEGG; bta:616031; -.
+DR   CTD; 256356; -.
+DR   VGNC; VGNC:54783; GK5.
+DR   eggNOG; KOG2517; Eukaryota.
+DR   GeneTree; ENSGT01000000214434; -.
+DR   InParanoid; Q08D86; -.
+DR   OrthoDB; 519426at2759; -.
+DR   UniPathway; UPA00618; UER00672.
+DR   Proteomes; UP000009136; Chromosome 1.
+DR   ExpressionAtlas; Q08D86; baseline.
+DR   GO; GO:0005739; C:mitochondrion; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004370; F:glycerol kinase activity; IBA:GO_Central.
+DR   GO; GO:0016773; F:phosphotransferase activity, alcohol group as acceptor; IBA:GO_Central.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006071; P:glycerol metabolic process; IBA:GO_Central.
+DR   GO; GO:0046167; P:glycerol-3-phosphate biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0016310; P:phosphorylation; IBA:GO_Central.
+DR   GO; GO:0006641; P:triglyceride metabolic process; IBA:GO_Central.
+DR   CDD; cd07793; FGGY_GK5_metazoa; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000577; Carb_kinase_FGGY.
+DR   InterPro; IPR018485; Carb_kinase_FGGY_C.
+DR   InterPro; IPR018483; Carb_kinase_FGGY_CS.
+DR   InterPro; IPR018484; Carb_kinase_FGGY_N.
+DR   InterPro; IPR037444; GK5_FGGY.
+DR   Pfam; PF02782; FGGY_C; 1.
+DR   Pfam; PF00370; FGGY_N; 1.
+DR   PIRSF; PIRSF000538; GlpK; 1.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   PROSITE; PS00445; FGGY_KINASES_2; 1.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; ATP-binding; Glycerol metabolism; Kinase;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..528
+FT                   /note="Putative glycerol kinase 5"
+FT                   /id="PRO_0000323753"
+FT   NP_BIND         439..444
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         28
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         275
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         297
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+FT   VAR_SEQ         350..409
+FT                   /note="DLFTDAAETEKMAQSLEDSEGVYFVPSFSGLQAPLNDPCACASFMGLKPSTN
+FT                   KYHLVRAI -> GRMKKHSKNKNKGIISPLSVL (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16305752"
+FT                   /id="VSP_032119"
+FT   VAR_SEQ         410..528
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:16305752"
+FT                   /id="VSP_032120"
+SQ   SEQUENCE   528 AA;  58765 MW;  4616C70AE1ECF649 CRC64;
+     MSEQSTVPEQ SASDSRRAGF VLGVDVGSSM IRCHVYDRAA RICGSSAQKV ESLYPQPGWV
+     EIDPDVLWLQ FVAVIKESVK AAGIETNQIV GLGISTQRAT FITWDKKTGK HFHNFISWQD
+     LRATELVKSW NGSLLMKLIH SSCRVLHFFT RSKQFLAASL FTFTTQHVSL RLAWILQNLT
+     EVQKAVEEEN CCFGTVDTWL LHKLTKGSEF ATDFSNASTT GLFDPYEMCW SKIVTSLLSI
+     PLSLLPPVKD TSHNFGSVDE EIFGVPIPIV ALVADQQAAM FGECCFQTGD VKLTMGTGTF
+     LDINTGNNPQ QSVGGFYPLI GWKIGQEVVC LAESNAGDTG TAIEWAQQLD LFTDAAETEK
+     MAQSLEDSEG VYFVPSFSGL QAPLNDPCAC ASFMGLKPST NKYHLVRAIL ESIAFRNKQL
+     YETMQKEIHI PVRKIRADGG VCKNSFVMQM TSDLINETID RPVHIDMSCS GAASLAGLAV
+     GFWSDKEELK KLRQSEMVFK PQKKWQEYEV NMGNWVKAVK RSMNWYKT
+//

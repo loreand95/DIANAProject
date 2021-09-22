@@ -1,0 +1,97 @@
+ID   CMOB_SALHS              Reviewed;         323 AA.
+AC   B4T804;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 70.
+DE   RecName: Full=tRNA U34 carboxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_01590};
+DE            EC=2.5.1.- {ECO:0000255|HAMAP-Rule:MF_01590};
+GN   Name=cmoB {ECO:0000255|HAMAP-Rule:MF_01590}; OrderedLocusNames=SeHA_C2120;
+OS   Salmonella heidelberg (strain SL476).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=454169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL476;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: Catalyzes carboxymethyl transfer from carboxy-S-adenosyl-L-
+CC       methionine (Cx-SAM) to 5-hydroxyuridine (ho5U) to form 5-
+CC       carboxymethoxyuridine (cmo5U) at position 34 in tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_01590}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-hydroxyuridine(34) in tRNA + carboxy-S-adenosyl-L-methionine
+CC         = 5-carboxymethoxyuridine(34) in tRNA + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:52848, Rhea:RHEA-COMP:13381, Rhea:RHEA-
+CC         COMP:13383, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:134278,
+CC         ChEBI:CHEBI:136877, ChEBI:CHEBI:136879; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01590};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01590}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. CmoB family. {ECO:0000255|HAMAP-Rule:MF_01590}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001120; ACF68562.1; -; Genomic_DNA.
+DR   RefSeq; WP_000569035.1; NC_011083.1.
+DR   SMR; B4T804; -.
+DR   KEGG; seh:SeHA_C2120; -.
+DR   HOGENOM; CLU_052665_0_0_6; -.
+DR   OMA; CEWRSDF; -.
+DR   Proteomes; UP000001866; Chromosome.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   HAMAP; MF_01590; tRNA_carboxymethyltr_CmoB; 1.
+DR   InterPro; IPR010017; CmoB.
+DR   InterPro; IPR027555; Mo5U34_MeTrfas-like.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF08003; Methyltransf_9; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00452; TIGR00452; 1.
+PE   3: Inferred from homology;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..323
+FT                   /note="tRNA U34 carboxymethyltransferase"
+FT                   /id="PRO_1000201308"
+FT   REGION          152..154
+FT                   /note="Carboxy-S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   REGION          181..182
+FT                   /note="Carboxy-S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         91
+FT                   /note="Carboxy-S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         105
+FT                   /note="Carboxy-S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         110
+FT                   /note="Carboxy-S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         130
+FT                   /note="Carboxy-S-adenosyl-L-methionine; via carbonyl
+FT                   oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         196
+FT                   /note="Carboxy-S-adenosyl-L-methionine; via carbonyl
+FT                   oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         200
+FT                   /note="Carboxy-S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+FT   BINDING         315
+FT                   /note="Carboxy-S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01590"
+SQ   SEQUENCE   323 AA;  37081 MW;  4025A6BC04A8F48A CRC64;
+     MIEFGNFYQL IAKNHLSHWL ETLPAQIAAW QREQQHGLFK QWSNAVEFLP EMTPWRLDLL
+     HSVTAESETP LSEGQLKRID TLLRNLMPWR KGPFSLYGVD IDTEWRSDWK WDRVLPHLSD
+     LTGRTILDVG CGSGYHLWRM IGAGAHLAVG IDPTQLFLCQ FEAVRKLLGN DQRAHLLPLG
+     IEQLPALKAF DTVFSMGVLY HRRSPLEHLW QLKDQLVNEG ELVLETLVVD GDENTVLVPG
+     DRYAQMRNVY FIPSAPALKK WLEKCGFIDV RIADVCVTTT EEQRRTEWMV TESLADFLDP
+     NDRSKTVEGY PAPQRAVLIA RKP
+//

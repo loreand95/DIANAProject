@@ -1,0 +1,118 @@
+ID   PDC1_MAIZE              Reviewed;         610 AA.
+AC   P28516;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   07-APR-2021, entry version 114.
+DE   RecName: Full=Pyruvate decarboxylase 1;
+DE            Short=PDC;
+DE            EC=4.1.1.1;
+GN   Name=PDC1; Synonyms=PDC;
+OS   Zea mays (Maize).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD clade;
+OC   Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae; Zea.
+OX   NCBI_TaxID=4577;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Wisconsin 22;
+RX   PubMed=1932699; DOI=10.1007/bf00028743;
+RA   Kelley P.M., Godfrey K., Lal S.K., Alleman M.;
+RT   "Characterization of the maize pyruvate decarboxylase gene.";
+RL   Plant Mol. Biol. 17:1259-1261(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE.
+RX   PubMed=2519113; DOI=10.1007/bf00016139;
+RA   Kelley P.M.;
+RT   "Maize pyruvate decarboxylase mRNA is induced anaerobically.";
+RL   Plant Mol. Biol. 13:213-222(1989).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2-oxocarboxylate + H(+) = an aldehyde + CO2;
+CC         Xref=Rhea:RHEA:11628, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:35179; EC=4.1.1.1;
+CC   -!- COFACTOR:
+CC       Name=a metal cation; Xref=ChEBI:CHEBI:25213;
+CC       Note=Binds 1 metal ion per subunit.;
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC       Note=Binds 1 thiamine pyrophosphate per subunit.;
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000305}.
+CC   -!- INDUCTION: By hypoxic stress.
+CC   -!- SIMILARITY: Belongs to the TPP enzyme family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59546; CAA42120.1; -; Genomic_DNA.
+DR   EMBL; X17555; CAA35589.1; -; mRNA.
+DR   PIR; S18347; DCZMP.
+DR   SMR; P28516; -.
+DR   STRING; 4577.AC197705.4_FGP001; -.
+DR   PaxDb; P28516; -.
+DR   PRIDE; P28516; -.
+DR   MaizeGDB; 25417; -.
+DR   eggNOG; KOG1184; Eukaryota.
+DR   Proteomes; UP000007305; Unplaced.
+DR   ExpressionAtlas; P28516; baseline and differential.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0016831; F:carboxy-lyase activity; IBA:GO_Central.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0004737; F:pyruvate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:InterPro.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR012000; Thiamin_PyroP_enz_cen_dom.
+DR   InterPro; IPR012001; Thiamin_PyroP_enz_TPP-bd_dom.
+DR   InterPro; IPR012110; TPP_enzyme.
+DR   InterPro; IPR011766; TPP_enzyme-bd_C.
+DR   PANTHER; PTHR43452; PTHR43452; 1.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   Pfam; PF00205; TPP_enzyme_M; 1.
+DR   Pfam; PF02776; TPP_enzyme_N; 1.
+DR   PIRSF; PIRSF036565; Pyruvt_ip_decrb; 1.
+DR   SUPFAM; SSF52467; SSF52467; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+PE   2: Evidence at transcript level;
+KW   Decarboxylase; Lyase; Magnesium; Metal-binding; Reference proteome;
+KW   Stress response; Thiamine pyrophosphate.
+FT   CHAIN           1..610
+FT                   /note="Pyruvate decarboxylase 1"
+FT                   /id="PRO_0000090774"
+FT   REGION          437..519
+FT                   /note="Thiamine pyrophosphate binding"
+FT   METAL           487
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           514
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           516
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         72
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         159
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         520
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        567..568
+FT                   /note="TV -> MA (in Ref. 2; CAA35589)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        571
+FT                   /note="A -> D (in Ref. 2; CAA35589)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   610 AA;  65428 MW;  42A8C2B0E7208E93 CRC64;
+     METLLAGNPA NGVAKPTCNG VGALPVANSH AIIATPAAAA ATLAPAGATL GRHLARRLVQ
+     IGASDVFAVP GDFNLTLLDY LIAEPGLTLV GCCNELNAGY AADGYARSRG VGACAVTFTV
+     GGLSVLNAIA GAYSENLPVV CIVGGPNSND YGTNRILHHT IGLPDFSQEL RCFQTITCYQ
+     AIINNLDDAH EQIDTAIATA LRESKPVYIS VSCNLAGLSH PTFSRDPVPM FISPRLSNKA
+     NLEYAVEAAA DFLNKAVKPV MVGGPKIRVA KAREAFAAVA DASGYPFAVM PAAKGLVPEH
+     HPRFIGTYWG AVSTTFCAEI VESADAYLFA GPIFNDYSSV GYSLLLKREK AVIVQPDRMV
+     VGDGPAFGCI LMPEFLRALA KRLRRNTTAY DNYRRIFVPD REPPNGKPNE PLRVNVLFKH
+     IKGMLSGDSA VVAETGDSWF NCQKLRLPEG CGYEFQMQYG SIGWSVGATL GYAQAAKDKR
+     VIACIGDGSF QVTAQDVSTM LRCGQKSIIF LINNGGYTIE VEIHDGPYNV IKNWDYTGLV
+     NAIHNSEGNC WTMKVRTEEQ LKEAIATVTG AKKDCLCFIE VIVHKDDTSK ELLEWGSRVS
+     AANSRPPNPQ
+//

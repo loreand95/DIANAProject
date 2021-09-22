@@ -1,0 +1,90 @@
+ID   VATA_CHLT2              Reviewed;         591 AA.
+AC   B0B7M4;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=V-type ATP synthase alpha chain {ECO:0000255|HAMAP-Rule:MF_00309};
+DE            EC=7.1.2.2 {ECO:0000255|HAMAP-Rule:MF_00309};
+DE   AltName: Full=V-ATPase subunit A {ECO:0000255|HAMAP-Rule:MF_00309};
+GN   Name=atpA {ECO:0000255|HAMAP-Rule:MF_00309}; OrderedLocusNames=CTL0560;
+OS   Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=471472;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=434/Bu / ATCC VR-902B;
+RX   PubMed=18032721; DOI=10.1101/gr.7020108;
+RA   Thomson N.R., Holden M.T.G., Carder C., Lennard N., Lockey S.J., Marsh P.,
+RA   Skipp P., O'Connor C.D., Goodhead I., Norbertzcak H., Harris B., Ormond D.,
+RA   Rance R., Quail M.A., Parkhill J., Stephens R.S., Clarke I.N.;
+RT   "Chlamydia trachomatis: genome sequence analysis of lymphogranuloma
+RT   venereum isolates.";
+RL   Genome Res. 18:161-171(2008).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The V-type alpha chain is a catalytic subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_00309}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 4 H(+)(in) + H2O = ADP + 5 H(+)(out) + phosphate;
+CC         Xref=Rhea:RHEA:57720, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.1.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00309};
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00309}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM884176; CAP04000.1; -; Genomic_DNA.
+DR   RefSeq; WP_009873713.1; NC_010287.1.
+DR   RefSeq; YP_001654636.1; NC_010287.1.
+DR   SMR; B0B7M4; -.
+DR   EnsemblBacteria; CAP04000; CAP04000; CTL0560.
+DR   KEGG; ctb:CTL0560; -.
+DR   PATRIC; fig|471472.4.peg.601; -.
+DR   HOGENOM; CLU_008162_1_1_0; -.
+DR   OMA; QQLAKWS; -.
+DR   BioCyc; CTRA471472:G1GJT-586-MONOMER; -.
+DR   Proteomes; UP000000795; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:UniProtKB-EC.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.1140.10; -; 1.
+DR   Gene3D; 2.40.30.20; -; 1.
+DR   HAMAP; MF_00309; ATP_synth_A_arch; 1.
+DR   InterPro; IPR031686; ATP-synth_a_Xtn.
+DR   InterPro; IPR023366; ATP_synth_asu-like_sf.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR004100; ATPase_F1/V1/A1_a/bsu_N.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR024034; ATPase_F1/V1_b/a_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR022878; V-ATPase_asu.
+DR   PANTHER; PTHR43607; PTHR43607; 1.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   Pfam; PF16886; ATP-synt_ab_Xtn; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; ATP-binding; Hydrogen ion transport; Ion transport;
+KW   Nucleotide-binding; Translocase; Transport.
+FT   CHAIN           1..591
+FT                   /note="V-type ATP synthase alpha chain"
+FT                   /id="PRO_1000115634"
+FT   NP_BIND         242..249
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00309"
+SQ   SEQUENCE   591 AA;  65495 MW;  7DB64F8A33901723 CRC64;
+     MVATSKQTTQ GYVVEAYGNL LRVHVDGHVR QGEVAYVSVD NTWLKAEIIE VVGDEVKIQV
+     FEETQGISRG ALVTFSGHLL EAELGPGLLQ GIFDGLQNRL EILADTSLFL RRGEYVNAIC
+     RETVWAYTQK ASVGSVLSRG DVLGTVKEGR FDHKIMVPFS CFEEVTITWV ISSGNYTVDT
+     VVAKGRTSTG EELEFTMVQK WPIKQAFLEG EKVPSHEIMD VGLRVLDTQI PVLKGGTFCT
+     PGPFGAGKTV LQHHLSKYAA VDIVVLCACG ERAGEVVEIL QEFPHLKDPH TGQSLMHRTC
+     IICNTSSMPV AARESSIYLG ITIAEYYRQM GLHILLLADS TSRWAQALRE ISGRLEEIPG
+     EEAFPAYLAS RIAAFYERGG AVKMKDGSEG SLTICGAVSP AGGNFEEPVT QATLSVVGAF
+     CGLSKARADA RRYPSIDPMI SWSKYLDSVA EILEKKVPGW GESVKQASRF LEEGAEIGKR
+     IEVVGEEGIS MEDMEIFLKS ELYDFCYLQQ NAFDAEDCYC PFDRQIELFS LMNHIFNSRF
+     CFDCPDNARS FFLELQSKIK TLNGQKFLSE EYQKGLEVIY KLLESKMVQT A
+//

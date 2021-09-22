@@ -1,0 +1,124 @@
+ID   RSXB_ECOL5              Reviewed;         192 AA.
+AC   Q0THJ9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   02-DEC-2020, entry version 101.
+DE   RecName: Full=Ion-translocating oxidoreductase complex subunit B {ECO:0000255|HAMAP-Rule:MF_00463};
+DE            EC=7.-.-.- {ECO:0000255|HAMAP-Rule:MF_00463};
+DE   AltName: Full=Rsx electron transport complex subunit B {ECO:0000255|HAMAP-Rule:MF_00463};
+GN   Name=rsxB {ECO:0000255|HAMAP-Rule:MF_00463}; OrderedLocusNames=ECP_1573;
+OS   Escherichia coli O6:K15:H31 (strain 536 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=362663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=536 / UPEC;
+RX   PubMed=16879640; DOI=10.1111/j.1365-2958.2006.05255.x;
+RA   Hochhut B., Wilde C., Balling G., Middendorf B., Dobrindt U.,
+RA   Brzuszkiewicz E., Gottschalk G., Carniel E., Hacker J.;
+RT   "Role of pathogenicity island-associated integrases in the genome
+RT   plasticity of uropathogenic Escherichia coli strain 536.";
+RL   Mol. Microbiol. 61:584-595(2006).
+CC   -!- FUNCTION: Part of a membrane-bound complex that couples electron
+CC       transfer with translocation of ions across the membrane. Required to
+CC       maintain the reduced state of SoxR. {ECO:0000255|HAMAP-Rule:MF_00463}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00463};
+CC       Note=Binds 3 [4Fe-4S] clusters. {ECO:0000255|HAMAP-Rule:MF_00463};
+CC   -!- SUBUNIT: The complex is composed of six subunits: RsxA, RsxB, RsxC,
+CC       RsxD, RsxE and RsxG. {ECO:0000255|HAMAP-Rule:MF_00463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00463}.
+CC   -!- SIMILARITY: Belongs to the 4Fe4S bacterial-type ferredoxin family. RnfB
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00463}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000247; ABG69580.1; -; Genomic_DNA.
+DR   RefSeq; WP_000991823.1; NC_008253.1.
+DR   SMR; Q0THJ9; -.
+DR   EnsemblBacteria; ABG69580; ABG69580; ECP_1573.
+DR   KEGG; ecp:ECP_1573; -.
+DR   HOGENOM; CLU_063448_2_0_6; -.
+DR   OMA; CIDMLPV; -.
+DR   Proteomes; UP000009182; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00463; RsxB_RnfB; 1.
+DR   InterPro; IPR007202; 4Fe-4S_dom.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR010207; Elect_transpt_cplx_RnfB/RsxB.
+DR   InterPro; IPR016463; RnfB/RsxB_Proteobac.
+DR   PANTHER; PTHR42859:SF3; PTHR42859:SF3; 1.
+DR   Pfam; PF04060; FeS; 1.
+DR   PIRSF; PIRSF005784; Elect_transpt_RnfB; 1.
+DR   TIGRFAMs; TIGR01944; rnfB; 1.
+DR   PROSITE; PS51656; 4FE4S; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cell inner membrane; Cell membrane; Electron transport; Iron;
+KW   Iron-sulfur; Membrane; Metal-binding; Repeat; Translocase; Transport.
+FT   CHAIN           1..192
+FT                   /note="Ion-translocating oxidoreductase complex subunit B"
+FT                   /id="PRO_1000013641"
+FT   DOMAIN          32..91
+FT                   /note="4Fe-4S"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   DOMAIN          108..137
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   DOMAIN          138..167
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   REGION          1..26
+FT                   /note="Hydrophobic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           49
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           52
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           57
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           74
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           117
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           120
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           123
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           127
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           147
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           150
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           153
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+FT   METAL           157
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00463"
+SQ   SEQUENCE   192 AA;  20574 MW;  28E570400EF9B2FD CRC64;
+     MNAIWIAVAA VSLLGLAFGA ILGYASRRFA VEDDPVVEKI DEILPQSQCG QCGYPGCRPY
+     AETISCNGEK INRCAPGGEA VMLKIAELLN VEPQPLDGEA QELTPARMVA VIDENNCIGC
+     TKCIQACPVD AIVGATRAMH TVMSDLCTGC NLCVDPCPTH CISLQPVAET PDSWKWDLNT
+     IPVRIIPVEH HA
+//

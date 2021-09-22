@@ -1,0 +1,89 @@
+ID   NUOA_SHISS              Reviewed;         147 AA.
+AC   Q3YZS2;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit A {ECO:0000255|HAMAP-Rule:MF_01394};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01394};
+DE   AltName: Full=NADH dehydrogenase I subunit A {ECO:0000255|HAMAP-Rule:MF_01394};
+DE   AltName: Full=NDH-1 subunit A {ECO:0000255|HAMAP-Rule:MF_01394};
+DE   AltName: Full=NUO1 {ECO:0000255|HAMAP-Rule:MF_01394};
+GN   Name=nuoA {ECO:0000255|HAMAP-Rule:MF_01394}; OrderedLocusNames=SSON_2345;
+OS   Shigella sonnei (strain Ss046).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Ss046;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01394};
+CC   -!- SUBUNIT: NDH-1 is composed of 13 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01394}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01394}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 3 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000038; AAZ88990.1; -; Genomic_DNA.
+DR   SMR; Q3YZS2; -.
+DR   EnsemblBacteria; AAZ88990; AAZ88990; SSON_2345.
+DR   KEGG; ssn:SSON_2345; -.
+DR   HOGENOM; CLU_119549_2_0_6; -.
+DR   OMA; YECGVDP; -.
+DR   BioCyc; SSON300269:G1GL2-2847-MONOMER; -.
+DR   Proteomes; UP000002529; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.58.1610; -; 1.
+DR   HAMAP; MF_01394; NDH1_NuoA; 1.
+DR   InterPro; IPR023043; NAD(P)H_OxRDtase_bac/plastid.
+DR   InterPro; IPR000440; NADH_UbQ/plastoQ_OxRdtase_su3.
+DR   InterPro; IPR038430; NDAH_ubi_oxred_su3_sf.
+DR   PANTHER; PTHR11058; PTHR11058; 1.
+DR   Pfam; PF00507; Oxidored_q4; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..147
+FT                   /note="NADH-quinone oxidoreductase subunit A"
+FT                   /id="PRO_0000362782"
+FT   TRANSMEM        16..36
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+FT   TRANSMEM        68..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+FT   TRANSMEM        98..118
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+SQ   SEQUENCE   147 AA;  16457 MW;  1F9E0804B2B0D1B5 CRC64;
+     MSMSTSTEVI AHHWAFAIFL IVAIGLCCLM LVGGWFLGGR ARARSKNVPF ESGIDSVGSA
+     RLRLSAKFYL VAMFFVIFDV EALYLFAWST SIRESGWVGF VEAAIFIFVL LAGLVYLVRI
+     GALDWTPARS RRERMNPETN SIANRQR
+//

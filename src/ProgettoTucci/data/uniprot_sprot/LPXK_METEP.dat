@@ -1,0 +1,83 @@
+ID   LPXK_METEP              Reviewed;         327 AA.
+AC   A9W6S6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   10-FEB-2021, entry version 72.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409}; OrderedLocusNames=Mext_2969;
+OS   Methylorubrum extorquens (strain PA1) (Methylobacterium extorquens).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Methylobacteriaceae; Methylorubrum.
+OX   NCBI_TaxID=419610;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PA1;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Saunders E., Brettin T., Bruce D., Detter J.C.,
+RA   Han C., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N., Kim E.,
+RA   Marx C., Richardson P.;
+RT   "Complete sequence of Methylobacterium extorquens PA1.";
+RL   Submitted (DEC-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position of a
+CC       tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-P) to form
+CC       tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-beta-D-
+CC         glucosaminyl)-(1->6)-(2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-alpha-
+CC         D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis((3R)-3-
+CC         hydroxytetradecanoyl)-4-O-phospho-beta-D-glucosaminyl)-(1->6)-(2-N,3-
+CC         O-bis((3R)-3-hydroxytetradecanoyl)-alpha-D-glucosaminyl phosphate).;
+CC         EC=2.7.1.130; Evidence={ECO:0000255|HAMAP-Rule:MF_00409};
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid IV(A)
+CC       from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and UDP-N-
+CC       acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000908; ABY31358.1; -; Genomic_DNA.
+DR   RefSeq; WP_012254296.1; NC_010172.1.
+DR   SMR; A9W6S6; -.
+DR   STRING; 419610.Mext_2969; -.
+DR   EnsemblBacteria; ABY31358; ABY31358; Mext_2969.
+DR   KEGG; mex:Mext_2969; -.
+DR   eggNOG; COG1663; Bacteria.
+DR   HOGENOM; CLU_038816_0_0_5; -.
+DR   OMA; MDDGFQN; -.
+DR   BioCyc; MEXT419610:MEXT_RS14950-MONOMER; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000008546; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   PANTHER; PTHR42724; PTHR42724; 2.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Nucleotide-binding; Transferase.
+FT   CHAIN           1..327
+FT                   /note="Tetraacyldisaccharide 4'-kinase"
+FT                   /id="PRO_1000134744"
+FT   NP_BIND         52..59
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00409"
+SQ   SEQUENCE   327 AA;  34027 MW;  9CC9A98D52106623 CRC64;
+     MRPPGFWSRP PTHPLARLLA PAGRVYGGLT ANRMDRPGAT PPCPVLCVGN FTLGGAGKTP
+     TALSLVRLLR ELGRTPALLS RGYGGRLAGP LVVDPARHAA AEVGDEPLLL AQAAPTIVAR
+     DRPAGARLCA ASGADVIVMD DGLQNPSLTK TLSLAVVDGG AGLGNGLPFP AGPLRAPLAR
+     QWPHVAGLVL VGEGGPGEAM AAEAERRGLP VHRARLVPET GSDWAGRRVV AFAGIGRPQK
+     FFETLRSLGA EIVAEGAFPD HHPYRPGDWT ALSALAAREG ASLVTTEKDA VRLPAEARAV
+     VDVLRVTLAF ANETRLRQQL AAAFPHA
+//

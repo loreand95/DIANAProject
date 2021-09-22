@@ -1,0 +1,104 @@
+ID   DPMPH_MACPH             Reviewed;         203 AA.
+AC   K2RU68;
+DT   02-DEC-2020, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2012, sequence version 1.
+DT   10-FEB-2021, entry version 21.
+DE   RecName: Full=Short chain dehydrogenase/reductase dpmpH {ECO:0000303|PubMed:32286350};
+DE            EC=1.1.1.- {ECO:0000269|PubMed:32286350};
+DE   AltName: Full=Diterpenoid pyrone biosynthesis cluster protein H {ECO:0000303|PubMed:32286350};
+GN   Name=dpmpH {ECO:0000303|PubMed:32286350}; ORFNames=MPH_09200;
+OS   Macrophomina phaseolina (strain MS6) (Charcoal rot fungus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Dothideomycetes;
+OC   Dothideomycetes incertae sedis; Botryosphaeriales; Botryosphaeriaceae;
+OC   Macrophomina.
+OX   NCBI_TaxID=1126212;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MS6;
+RX   PubMed=22992219; DOI=10.1186/1471-2164-13-493;
+RA   Islam M.S., Haque M.S., Islam M.M., Emdad E.M., Halim A., Hossen Q.M.M.,
+RA   Hossain M.Z., Ahmed B., Rahim S., Rahman M.S., Alam M.M., Hou S., Wan X.,
+RA   Saito J.A., Alam M.;
+RT   "Tools to kill: Genome of one of the most destructive plant pathogenic
+RT   fungi Macrophomina phaseolina.";
+RL   BMC Genomics 13:493-493(2012).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND BIOTECHNOLOGY.
+RX   PubMed=32286350; DOI=10.1038/s41467-020-15664-4;
+RA   Tsukada K., Shinki S., Kaneko A., Murakami K., Irie K., Murai M.,
+RA   Miyoshi H., Dan S., Kawaji K., Hayashi H., Kodama E.N., Hori A., Salim E.,
+RA   Kuraishi T., Hirata N., Kanda Y., Asai T.;
+RT   "Synthetic biology based construction of biological activity-related
+RT   library of fungal decalin-containing diterpenoid pyrones.";
+RL   Nat. Commun. 11:1830-1830(2020).
+CC   -!- FUNCTION: Short chain dehydrogenase/reductase; part of the gene cluster
+CC       that mediates the biosynthesis of diterpenoid pyrones
+CC       (PubMed:32286350). The first step of the pathway is the synthesis of
+CC       the alpha-pyrone moiety by the polyketide synthase dpmpA via
+CC       condensation of one acetyl-CoA starter unit with 3 malonyl-CoA units
+CC       and 2 methylations (Probable). The alpha-pyrone is then combined with
+CC       geranylgeranyl pyrophosphate (GGPP) formed by the GGPP synthase dpmpD
+CC       through the action of the prenyltransferase dpmpC to yield a linear
+CC       alpha-pyrone diterpenoid (Probable). Subsequent steps in the
+CC       diterpenoid pyrone biosynthetic pathway involve the decalin core
+CC       formation, which is initiated by the epoxidation of the C10-C11 olefin
+CC       by the FAD-dependent oxidoreductase dpmpE, and is followed by a
+CC       cyclization cascade catalyzed by the terpene cyclase dpmpB (Probable).
+CC       The short chain dehydrogenase/reductase dpmpG then oxidizes the 8S
+CC       hydroxy group to a ketone and the short chain dehydrogenase/reductase
+CC       dpmpH reduces the ketone to the 8R hydroxy group to yield higginsianin
+CC       B (PubMed:32286350). Higginsianin B is further methylated by the
+CC       methyltransferase dpmpI to produce the intermediate named FDDP B
+CC       (PubMed:32286350). The cytochrome P450 monooxygenase dpmpJ then
+CC       oxidizes the C-26 methyl to primary alcohol, producing the final
+CC       diterpenoid pyrone with a C-26 primary alcohol on the gamma-pyrone
+CC       moiety named FDDP C (PubMed:32286350). {ECO:0000269|PubMed:32286350,
+CC       ECO:0000305|PubMed:32286350}.
+CC   -!- PATHWAY: Secondary metabolite biosynthesis; terpenoid biosynthesis.
+CC       {ECO:0000269|PubMed:32286350}.
+CC   -!- BIOTECHNOLOGY: Diterpenoid pyrones display various biological
+CC       activities and FDDP C shows anti-cancer and anti-HIV activities
+CC       (PubMed:32286350). FDDP C shows also inhibitory activity of 42-mer-
+CC       amyloid beta aggregation that is involved in the pathogenesis of
+CC       Alzheimer's disease (PubMed:32286350). {ECO:0000269|PubMed:32286350}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AHHD01000387; EKG13734.1; -; Genomic_DNA.
+DR   EnsemblFungi; EKG13734; EKG13734; MPH_09200.
+DR   eggNOG; KOG1208; Eukaryota.
+DR   HOGENOM; CLU_1349169_0_0_1; -.
+DR   InParanoid; K2RU68; -.
+DR   OrthoDB; 921996at2759; -.
+DR   UniPathway; UPA00213; -.
+DR   Proteomes; UP000007129; Unassembled WGS sequence.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+PE   1: Evidence at protein level;
+KW   NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..203
+FT                   /note="Short chain dehydrogenase/reductase dpmpH"
+FT                   /id="PRO_0000451552"
+FT   NP_BIND         6..8
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92506"
+FT   NP_BIND         77..81
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92506"
+FT   NP_BIND         110..112
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q92506"
+FT   ACT_SITE        77
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+SQ   SEQUENCE   203 AA;  22081 MW;  717E3AB7F7BC9A1B CRC64;
+     MSAIGHSPTA CSRCSRPRLR RKDLTSVLSP RLPCFKVSSS GEAFATDKAD FITPKDLDDP
+     CASPGWEASS LAQAKRYGKS KMANVLFAAE LQRRMDAEGV DIISISLNPG PVKTQGAADV
+     LPFMVRPMVW LFFKDPAEGA QTTLFAAAAA EIREEKERWK GGYLDGPGKL KSPSPRARDP
+     QVAYNLWHTT ESAVRAIGVL DKS
+//

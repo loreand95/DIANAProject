@@ -1,0 +1,140 @@
+ID   SSPA_STAAN              Reviewed;         342 AA.
+AC   Q7A6A6;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Glutamyl endopeptidase;
+DE            EC=3.4.21.19;
+DE   AltName: Full=Endoproteinase Glu-C;
+DE   AltName: Full=Staphylococcal serine proteinase;
+DE   AltName: Full=V8 protease;
+DE   AltName: Full=V8 proteinase;
+DE   Flags: Precursor;
+GN   Name=sspA; OrderedLocusNames=SA0901;
+OS   Staphylococcus aureus (strain N315).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=158879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=N315;
+RX   PubMed=11418146; DOI=10.1016/s0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I., Cui L.,
+RA   Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K., Hirakawa H.,
+RA   Kuhara S., Goto S., Yabuzaki J., Kanehisa M., Yamashita A., Oshima K.,
+RA   Furuya K., Yoshino C., Shiba T., Hattori M., Ogasawara N., Hayashi H.,
+RA   Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus aureus.";
+RL   Lancet 357:1225-1240(2001).
+CC   -!- FUNCTION: Preferentially cleaves peptide bonds on the carboxyl-terminal
+CC       side of aspartate and glutamate. Along with other extracellular
+CC       proteases it is involved in colonization and infection of human
+CC       tissues. Required for proteolytic maturation of thiol protease SspB and
+CC       inactivation of SspC, an inhibitor of SspB. It is the most important
+CC       protease for degradation of fibronectin-binding protein (FnBP) and
+CC       surface protein A, which are involved in adherence to host cells. May
+CC       also protect bacteria against host defense mechanism by cleaving the
+CC       immunoglobulin classes IgG, IgA and IgM. May be involved in the
+CC       stability of secreted lipases (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential cleavage: Glu-|-Xaa, Asp-|-Xaa.; EC=3.4.21.19;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10083};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- PTM: Proteolytically cleaved by aureolysin (aur). This cleavage leads
+CC       to the activation of SspA (By similarity). {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The cascade of activation of extracellular proteases
+CC       proceeds from the metalloprotease aureolysin (aur), through SspA to
+CC       SspB. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S1B family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000018; BAB42146.1; -; Genomic_DNA.
+DR   PIR; G89873; G89873.
+DR   RefSeq; WP_000676539.1; NC_002745.2.
+DR   SMR; Q7A6A6; -.
+DR   MEROPS; S01.269; -.
+DR   EnsemblBacteria; BAB42146; BAB42146; BAB42146.
+DR   KEGG; sau:SA0901; -.
+DR   HOGENOM; CLU_073589_1_0_9; -.
+DR   OMA; NFANDDQ; -.
+DR   BioCyc; SAUR158879:G1G21-1028-MONOMER; -.
+DR   PRO; PR:Q7A6A6; -.
+DR   Proteomes; UP000000751; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.10.10; -; 2.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043504; Peptidase_S1_PA_chymotrypsin.
+DR   InterPro; IPR008256; Peptidase_S1B.
+DR   InterPro; IPR008353; Peptidase_S1B_tx.
+DR   InterPro; IPR028301; V8_his_AS.
+DR   InterPro; IPR000126; V8_ser_AS.
+DR   PRINTS; PR01774; EXFOLTOXIN.
+DR   PRINTS; PR00839; V8PROTEASE.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   PROSITE; PS00672; V8_HIS; 1.
+DR   PROSITE; PS00673; V8_SER; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Protease; Repeat; Secreted; Serine protease; Signal; Virulence;
+KW   Zymogen.
+FT   SIGNAL          1..29
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          30..68
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000026888"
+FT   CHAIN           69..342
+FT                   /note="Glutamyl endopeptidase"
+FT                   /id="PRO_0000026889"
+FT   REPEAT          289..291
+FT                   /note="1"
+FT   REPEAT          292..294
+FT                   /note="2"
+FT   REPEAT          295..297
+FT                   /note="3"
+FT   REPEAT          298..300
+FT                   /note="4"
+FT   REPEAT          301..303
+FT                   /note="5"
+FT   REPEAT          304..306
+FT                   /note="6"
+FT   REPEAT          307..309
+FT                   /note="7"
+FT   REPEAT          310..312
+FT                   /note="8"
+FT   REPEAT          316..318
+FT                   /note="9"
+FT   REPEAT          319..321
+FT                   /note="10"
+FT   REPEAT          322..324
+FT                   /note="11"
+FT   REPEAT          325..327
+FT                   /note="12"
+FT   REPEAT          328..330
+FT                   /note="13"
+FT   REGION          289..330
+FT                   /note="13 X 3 AA repeats of P-[DN]-N"
+FT   ACT_SITE        119
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10083"
+FT   ACT_SITE        161
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10083"
+FT   ACT_SITE        237
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10083"
+FT   SITE            68..69
+FT                   /note="Cleavage; by aureolysin"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   342 AA;  36977 MW;  5AEF42DCE01C4B24 CRC64;
+     MKGKFLKVSS LFVATLTTAT LVSSPAANAL SSKAMDNHPQ QTQSSKQQTP KIKKGGNLKP
+     LEQREHANVI LPNNDRHQIT DTTNGHYAPV TYIQVEAPTG TFIASGVVVG KDTLLTNKHV
+     VDATHGDPHA LKAFPSAINQ DNYPNGGFTA EQITKYSGEG DLAIVKFSPN EQNKHIGEVV
+     KPATMSNNAE TQVNQNITVT GYPGDKPVAT MWESKGKITY LKGEAMQYDL STTGGNSGSP
+     VFNEKNEVIG IHWGGVPNEF NGAVFINENV RNFLKQNIED IHFANDDQPN NPDNPDNPNN
+     PDNPNNPDNP NNPDEPNNPD NPNNPDNPDN GDNNNSDNPD AA
+//

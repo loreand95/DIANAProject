@@ -1,0 +1,122 @@
+ID   NIFS2_TRIV2             Reviewed;         398 AA.
+AC   Q44482; Q3M592;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   04-APR-2006, sequence version 2.
+DT   02-DEC-2020, entry version 118.
+DE   RecName: Full=Cysteine desulfurase 2 {ECO:0000250|UniProtKB:P05341};
+DE            EC=2.8.1.7 {ECO:0000250|UniProtKB:P05341};
+DE   AltName: Full=Nitrogenase metalloclusters biosynthesis protein nifS2 {ECO:0000250|UniProtKB:P05341};
+GN   Name=nifS2 {ECO:0000250|UniProtKB:P05341}; OrderedLocusNames=Ava_4245;
+OS   Trichormus variabilis (strain ATCC 29413 / PCC 7937) (Anabaena variabilis).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Trichormus.
+OX   NCBI_TaxID=240292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RX   PubMed=7568132; DOI=10.1073/pnas.92.20.9358;
+RA   Thiel T., Lyons E.M., Erker J.C., Ernst A.;
+RT   "A second nitrogenase in vegetative cells of a heterocyst-forming
+RT   cyanobacterium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:9358-9362(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29413 / PCC 7937;
+RX   PubMed=25197444; DOI=10.4056/sigs.3899418;
+RA   Thiel T., Pratte B.S., Zhong J., Goodwin L., Copeland A., Lucas S., Han C.,
+RA   Pitluck S., Land M.L., Kyrpides N.C., Woyke T.;
+RT   "Complete genome sequence of Anabaena variabilis ATCC 29413.";
+RL   Stand. Genomic Sci. 9:562-573(2014).
+CC   -!- FUNCTION: Catalyzes the removal of elemental sulfur atoms from cysteine
+CC       to produce alanine. Seems to participate in the biosynthesis of the
+CC       nitrogenase metalloclusters by providing the inorganic sulfur required
+CC       for the Fe-S core formation. {ECO:0000269|PubMed:7568132}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000250|UniProtKB:P05341};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P05341};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P05341}.
+CC   -!- MISCELLANEOUS: Belongs to NIF2 gene cluster which is expressed in
+CC       vegetative cells and heterocysts under anaerobic conditions only. This
+CC       second system appears to serve as an auxiliary system that does not
+CC       suppress expression of the first system. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. NifS/IscS subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U49859; AAA93018.1; -; Genomic_DNA.
+DR   EMBL; CP000117; ABA23844.1; -; Genomic_DNA.
+DR   SMR; Q44482; -.
+DR   STRING; 240292.Ava_4245; -.
+DR   EnsemblBacteria; ABA23844; ABA23844; Ava_4245.
+DR   KEGG; ava:Ava_4245; -.
+DR   eggNOG; COG1104; Bacteria.
+DR   HOGENOM; CLU_003433_0_0_3; -.
+DR   Proteomes; UP000002533; Chromosome.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0006520; P:cellular amino acid metabolic process; IEA:InterPro.
+DR   GO; GO:0009399; P:nitrogen fixation; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR017772; Cys_deSase_NifS_bac/arc.
+DR   InterPro; IPR016454; Cysteine_dSase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   PIRSF; PIRSF005572; NifS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR03402; FeS_nifS; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Iron; Iron-sulfur; Metal-binding; Nitrogen fixation; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN           1..398
+FT                   /note="Cysteine desulfurase 2"
+FT                   /id="PRO_0000150249"
+FT   REGION          71..72
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   REGION          198..200
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   ACT_SITE        323
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P05341"
+FT   METAL           323
+FT                   /note="Iron-sulfur (2Fe-2S); via persulfide group"
+FT                   /evidence="ECO:0000250|UniProtKB:O29689"
+FT   BINDING         150
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:O29689"
+FT   BINDING         178
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   BINDING         236
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   MOD_RES         201
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   CONFLICT        291..293
+FT                   /note="SNT -> PTP (in Ref. 1; AAA93018)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   398 AA;  42955 MW;  31AF52AFC41858C8 CRC64;
+     MSVIYLDNNA TTQVDAEVLA AMLPYLTEFY GNPSSMHTFG GQVGKAVQQA RGQVAFLLGA
+     EESEIIFTSC GTEGNNAAIK AALAAQPEKR HIITTQVEHA AIINVCKQLE KQGYKVTYLS
+     VDSQGQIDLL ELEAALTGDT ALVSTMYANN ETGVVFPIEQ IGLRAKDAGA IFHVDAVQAV
+     GKVPLNLKTS SIDMLTLSGH KLHAPKGIGA LYIRRGVRFR PLLVGGHQER GRRAGTENVP
+     GMIALGKAAE LAQIHLKDVK REKALRDRLE QGLLSAIPNT EVNGHPTSRL SNTTNIGFKY
+     IEGEAILLSL NKYGICASSG SACTSGSLES SHVLRAMGLP YTILHGSIRF SLSRYTTEAE
+     IDKVLQLMPP IVERLRAISP FSNDQADWLQ GREEALAH
+//

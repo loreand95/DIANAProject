@@ -1,0 +1,98 @@
+ID   FTRC2_SPIOL             Reviewed;         148 AA.
+AC   P41349;
+DT   01-FEB-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1995, sequence version 1.
+DT   07-APR-2021, entry version 89.
+DE   RecName: Full=Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic;
+DE            Short=FTR-C;
+DE            EC=1.8.7.2;
+DE   AltName: Full=B1;
+DE   AltName: Full=Ferredoxin-thioredoxin reductase subunit B;
+DE            Short=FTR-B;
+DE   Flags: Precursor;
+OS   Spinacia oleracea (Spinach).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   Caryophyllales; Chenopodiaceae; Chenopodioideae; Anserineae; Spinacia.
+OX   NCBI_TaxID=3562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Green leaf;
+RX   PubMed=8167141; DOI=10.1016/0005-2728(94)90218-6;
+RA   Falkenstein E., von Schaewen A., Scheibe R.;
+RT   "Full-length cDNA sequences for both ferredoxin-thioredoxin reductase
+RT   subunits from spinach (Spinacia oleracea L.).";
+RL   Biochim. Biophys. Acta 1185:252-254(1994).
+CC   -!- FUNCTION: Catalytic subunit of the ferredoxin-thioredoxin reductase
+CC       (FTR), which catalyzes the two-electron reduction of thioredoxins by
+CC       the electrons provided by reduced ferredoxin.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + 2 H(+) + 2 reduced [2Fe-2S]-
+CC         [ferredoxin] = [thioredoxin]-dithiol + 2 oxidized [2Fe-2S]-
+CC         [ferredoxin]; Xref=Rhea:RHEA:42336, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, Rhea:RHEA-COMP:10698, Rhea:RHEA-COMP:10700,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:50058; EC=1.8.7.2;
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC       Note=Binds 1 [4Fe-4S] cluster.;
+CC   -!- SUBUNIT: Heterodimer of subunit A (variable subunit) and subunit B
+CC       (catalytic subunit). Heterodimeric FTR forms a complex with ferredoxin
+CC       and thioredoxin.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- SIMILARITY: Belongs to the ferredoxin thioredoxin reductase beta
+CC       subunit family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X77164; CAA54409.1; -; mRNA.
+DR   PIR; T09150; T09150.
+DR   SMR; P41349; -.
+DR   PRIDE; P41349; -.
+DR   OrthoDB; 1530745at2759; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; ISS:UniProtKB.
+DR   GO; GO:0009055; F:electron transfer activity; ISS:UniProtKB.
+DR   GO; GO:0103012; F:ferredoxin-thioredoxin reductase activity; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016730; F:oxidoreductase activity, acting on iron-sulfur proteins as donors; IEA:InterPro.
+DR   Gene3D; 3.90.460.10; -; 1.
+DR   InterPro; IPR004209; FTR_bsu.
+DR   InterPro; IPR036644; FTR_bsu_sf.
+DR   PANTHER; PTHR35113; PTHR35113; 1.
+DR   Pfam; PF02943; FeThRed_B; 1.
+DR   SUPFAM; SSF57662; SSF57662; 1.
+PE   2: Evidence at transcript level;
+KW   4Fe-4S; Chloroplast; Disulfide bond; Iron; Iron-sulfur; Metal-binding;
+KW   Oxidoreductase; Plastid; Redox-active center; Transit peptide.
+FT   TRANSIT         1..35
+FT                   /note="Chloroplast"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           36..148
+FT                   /note="Ferredoxin-thioredoxin reductase catalytic chain,
+FT                   chloroplastic"
+FT                   /id="PRO_0000019429"
+FT   ACT_SITE        89
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   METAL           87
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT   METAL           106
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT   METAL           108
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT   METAL           117
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT   SITE            118
+FT                   /note="Increases the nucleophilicity of the active site
+FT                   Cys"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        89..119
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   148 AA;  16676 MW;  7AAEEB67608D6D66 CRC64;
+     MKALQASTSY SFFSKSSSAT LQRRTHRPQC VILSKVEPSD KSVEIMRKFS EQYARKSGTY
+     FCVDKGVTSV VIKGLAEHKD SLGAPLCPCR YYDDKAAEAT QGFWNCPCVP MRERKECHCM
+     LFLTPENDFA GKDQTIGLDE IREVTANM
+//

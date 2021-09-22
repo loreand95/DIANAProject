@@ -1,0 +1,95 @@
+ID   DPS_SALPC               Reviewed;         167 AA.
+AC   C0PX17;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 60.
+DE   RecName: Full=DNA protection during starvation protein {ECO:0000255|HAMAP-Rule:MF_01441};
+DE            EC=1.16.-.- {ECO:0000255|HAMAP-Rule:MF_01441};
+GN   Name=dps {ECO:0000255|HAMAP-Rule:MF_01441}; OrderedLocusNames=SPC_0827;
+OS   Salmonella paratyphi C (strain RKS4594).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=476213;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RKS4594;
+RX   PubMed=19229335; DOI=10.1371/journal.pone.0004510;
+RA   Liu W.-Q., Feng Y., Wang Y., Zou Q.-H., Chen F., Guo J.-T., Peng Y.-H.,
+RA   Jin Y., Li Y.-G., Hu S.-N., Johnston R.N., Liu G.-R., Liu S.-L.;
+RT   "Salmonella paratyphi C: genetic divergence from Salmonella choleraesuis
+RT   and pathogenic convergence with Salmonella typhi.";
+RL   PLoS ONE 4:E4510-E4510(2009).
+CC   -!- FUNCTION: During stationary phase, binds the chromosome non-
+CC       specifically, forming a highly ordered and stable dps-DNA co-crystal
+CC       within which chromosomal DNA is condensed and protected from diverse
+CC       damages. It protects DNA from oxidative damage by sequestering
+CC       intracellular Fe(2+) ion and storing it in the form of Fe(3+)
+CC       oxyhydroxide mineral, which can be released after reduction. One
+CC       hydrogen peroxide oxidizes two Fe(2+) ions, which prevents hydroxyl
+CC       radical production by the Fenton reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_01441}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 Fe(2+) + 2 H(+) + H2O2 = 2 Fe(3+) + 2 H2O;
+CC         Xref=Rhea:RHEA:48712, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01441};
+CC   -!- SUBUNIT: Homododecamer. The 12 subunits form a hollow sphere into which
+CC       the mineral iron core of up to 500 Fe(3+) can be deposited.
+CC       {ECO:0000255|HAMAP-Rule:MF_01441}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01441}.
+CC   -!- SIMILARITY: Belongs to the Dps family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01441}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000857; ACN44999.1; -; Genomic_DNA.
+DR   RefSeq; WP_000100805.1; NC_012125.1.
+DR   SMR; C0PX17; -.
+DR   EnsemblBacteria; ACN44999; ACN44999; SPC_0827.
+DR   KEGG; sei:SPC_0827; -.
+DR   HOGENOM; CLU_098183_1_2_6; -.
+DR   OMA; DDYSIGR; -.
+DR   Proteomes; UP000001599; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008199; F:ferric iron binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016722; F:oxidoreductase activity, oxidizing metal ions; IEA:InterPro.
+DR   GO; GO:0006879; P:cellular iron ion homeostasis; IEA:UniProtKB-KW.
+DR   GO; GO:0030261; P:chromosome condensation; IEA:UniProtKB-KW.
+DR   CDD; cd01043; DPS; 1.
+DR   Gene3D; 1.20.1260.10; -; 1.
+DR   HAMAP; MF_01441; Dps; 1.
+DR   InterPro; IPR002177; DPS_DNA-bd.
+DR   InterPro; IPR023188; DPS_DNA-bd_CS.
+DR   InterPro; IPR023067; Dps_gammaproteobac.
+DR   InterPro; IPR012347; Ferritin-like.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR008331; Ferritin_DPS_dom.
+DR   PANTHER; PTHR42932; PTHR42932; 1.
+DR   Pfam; PF00210; Ferritin; 1.
+DR   PIRSF; PIRSF005900; Dps; 1.
+DR   PRINTS; PR01346; HELNAPAPROT.
+DR   SUPFAM; SSF47240; SSF47240; 1.
+DR   PROSITE; PS00818; DPS_1; 1.
+DR   PROSITE; PS00819; DPS_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA condensation; DNA-binding; Iron; Iron storage;
+KW   Metal-binding; Oxidoreductase.
+FT   CHAIN           1..167
+FT                   /note="DNA protection during starvation protein"
+FT                   /id="PRO_1000184934"
+FT   METAL           51
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01441"
+FT   METAL           78
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01441"
+FT   METAL           82
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01441"
+SQ   SEQUENCE   167 AA;  18717 MW;  C5732F4D1F667C14 CRC64;
+     MSTAKLVKTK ASNLLYTRND VSESDKKATV ELLNRQVIQF IDLSLITKQA HWNMRGANFI
+     AVHEMLDGFR TALTDHLDTM AERAVQLGGV ALGTTQVINS KTPLKSYPLD IHNVQDHLKE
+     LADRYAVVAN DVRKAIGEAK DEDTADIFTA ASRDLDKFLW FIESNIE
+//

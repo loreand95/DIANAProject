@@ -1,0 +1,90 @@
+ID   NAGB_STRZJ              Reviewed;         235 AA.
+AC   C1CF03;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=Glucosamine-6-phosphate deaminase {ECO:0000255|HAMAP-Rule:MF_01241};
+DE            EC=3.5.99.6 {ECO:0000255|HAMAP-Rule:MF_01241};
+DE   AltName: Full=GlcN6P deaminase {ECO:0000255|HAMAP-Rule:MF_01241};
+DE            Short=GNPDA {ECO:0000255|HAMAP-Rule:MF_01241};
+DE   AltName: Full=Glucosamine-6-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_01241};
+GN   Name=nagB {ECO:0000255|HAMAP-Rule:MF_01241}; OrderedLocusNames=SPJ_1314;
+OS   Streptococcus pneumoniae (strain JJA).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=488222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JJA;
+RX   PubMed=21034474; DOI=10.1186/gb-2010-11-10-r107;
+RA   Donati C., Hiller N.L., Tettelin H., Muzzi A., Croucher N.J.,
+RA   Angiuoli S.V., Oggioni M., Dunning Hotopp J.C., Hu F.Z., Riley D.R.,
+RA   Covacci A., Mitchell T.J., Bentley S.D., Kilian M., Ehrlich G.D.,
+RA   Rappuoli R., Moxon E.R., Masignani V.;
+RT   "Structure and dynamics of the pan-genome of Streptococcus pneumoniae and
+RT   closely related species.";
+RL   Genome Biol. 11:R107.1-R107.19(2010).
+CC   -!- FUNCTION: Catalyzes the reversible isomerization-deamination of
+CC       glucosamine 6-phosphate (GlcN6P) to form fructose 6-phosphate (Fru6P)
+CC       and ammonium ion. {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 6-phosphate + H2O = beta-D-fructose 6-
+CC         phosphate + NH4(+); Xref=Rhea:RHEA:12172, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57634, ChEBI:CHEBI:75989; EC=3.5.99.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01241};
+CC   -!- PATHWAY: Amino-sugar metabolism; N-acetylneuraminate degradation; D-
+CC       fructose 6-phosphate from N-acetylneuraminate: step 5/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   -!- SIMILARITY: Belongs to the glucosamine/galactosamine-6-phosphate
+CC       isomerase family. NagB subfamily. {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000919; ACO18109.1; -; Genomic_DNA.
+DR   RefSeq; WP_000864617.1; NC_012466.1.
+DR   SMR; C1CF03; -.
+DR   EnsemblBacteria; ACO18109; ACO18109; SPJ_1314.
+DR   KEGG; sjj:SPJ_1314; -.
+DR   HOGENOM; CLU_049611_1_0_9; -.
+DR   OMA; FNEPCSS; -.
+DR   BioCyc; SPNE488222:G1GAT-1346-MONOMER; -.
+DR   UniPathway; UPA00629; UER00684.
+DR   Proteomes; UP000002206; Chromosome.
+DR   GO; GO:0004342; F:glucosamine-6-phosphate deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006044; P:N-acetylglucosamine metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019262; P:N-acetylneuraminate catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01399; GlcN6P_deaminase; 1.
+DR   HAMAP; MF_01241; GlcN6P_deamin; 1.
+DR   InterPro; IPR006148; Glc/Gal-6P_isomerase.
+DR   InterPro; IPR004547; Glucosamine6P_isomerase.
+DR   InterPro; IPR018321; Glucosamine6P_isomerase_CS.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   PANTHER; PTHR11280; PTHR11280; 1.
+DR   Pfam; PF01182; Glucosamine_iso; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   PROSITE; PS01161; GLC_GALNAC_ISOMERASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Hydrolase.
+FT   CHAIN           1..235
+FT                   /note="Glucosamine-6-phosphate deaminase"
+FT                   /id="PRO_1000165029"
+FT   ACT_SITE        62
+FT                   /note="Proton acceptor; for enolization step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        128
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        130
+FT                   /note="Proton acceptor; for ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        135
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+SQ   SEQUENCE   235 AA;  25730 MW;  95D0B7605F46EFFD CRC64;
+     MKVIKVENQV QGGKVAFEIL KEKLANGAQT LGLATGSSPL EFYKEIVESD LDFSNLTSVN
+     LDEYVGLDGD NPQSYRYFMQ ENLFNQKPFK ESFLPRGVKD NAEAEVERYN QILADHPVDL
+     QILGIGRNGH IGFNEPGTPF DSQTHLVELD QSTIEANARF FAKIEDVPTQ AISMGIKNIL
+     DAKSIILFAY GESKAEAIAG TVSGPVTENL PASSLQNHPD VTIIADAEAL SLLEK
+//

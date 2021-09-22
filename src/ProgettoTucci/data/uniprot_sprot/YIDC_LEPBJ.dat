@@ -1,0 +1,96 @@
+ID   YIDC_LEPBJ              Reviewed;         622 AA.
+AC   Q04W30;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Membrane protein insertase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Foldase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Membrane integrase YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+DE   AltName: Full=Membrane protein YidC {ECO:0000255|HAMAP-Rule:MF_01810};
+GN   Name=yidC {ECO:0000255|HAMAP-Rule:MF_01810}; OrderedLocusNames=LBJ_0147;
+OS   Leptospira borgpetersenii serovar Hardjo-bovis (strain JB197).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=355277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JB197;
+RX   PubMed=16973745; DOI=10.1073/pnas.0603979103;
+RA   Bulach D.M., Zuerner R.L., Wilson P., Seemann T., McGrath A., Cullen P.A.,
+RA   Davis J., Johnson M., Kuczek E., Alt D.P., Peterson-Burch B., Coppel R.L.,
+RA   Rood J.I., Davies J.K., Adler B.;
+RT   "Genome reduction in Leptospira borgpetersenii reflects limited
+RT   transmission potential.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:14560-14565(2006).
+CC   -!- FUNCTION: Required for the insertion and/or proper folding and/or
+CC       complex formation of integral membrane proteins into the membrane.
+CC       Involved in integration of membrane proteins that insert both
+CC       dependently and independently of the Sec translocase complex, as well
+CC       as at least some lipoproteins. Aids folding of multispanning membrane
+CC       proteins. {ECO:0000255|HAMAP-Rule:MF_01810}.
+CC   -!- SUBUNIT: Interacts with the Sec translocase complex via SecD.
+CC       Specifically interacts with transmembrane segments of nascent integral
+CC       membrane proteins during membrane integration. {ECO:0000255|HAMAP-
+CC       Rule:MF_01810}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01810}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01810}.
+CC   -!- SIMILARITY: Belongs to the OXA1/ALB3/YidC family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01810}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000350; ABJ74890.1; -; Genomic_DNA.
+DR   RefSeq; WP_011671159.1; NC_008510.1.
+DR   SMR; Q04W30; -.
+DR   EnsemblBacteria; ABJ74890; ABJ74890; LBJ_0147.
+DR   KEGG; lbj:LBJ_0147; -.
+DR   HOGENOM; CLU_016535_3_0_12; -.
+DR   OMA; LWAICER; -.
+DR   BioCyc; LBOR355277:G1G6G-173-MONOMER; -.
+DR   Proteomes; UP000000656; Chromosome 1.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0032977; F:membrane insertase activity; IEA:InterPro.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01810; YidC_type1; 1.
+DR   InterPro; IPR019998; Membr_insert_YidC.
+DR   InterPro; IPR028055; Membr_insert_YidC/Oxa1_C.
+DR   InterPro; IPR001708; YidC/ALB3/OXA1/COX18.
+DR   PANTHER; PTHR12428; PTHR12428; 1.
+DR   Pfam; PF02096; 60KD_IMP; 1.
+DR   TIGRFAMs; TIGR03592; yidC_oxa1_cterm; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Chaperone; Membrane; Protein transport;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..622
+FT                   /note="Membrane protein insertase YidC"
+FT                   /id="PRO_1000070116"
+FT   TRANSMEM        8..28
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        413..433
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        484..504
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        532..552
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+FT   TRANSMEM        571..591
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01810"
+SQ   SEQUENCE   622 AA;  70798 MW;  DA2FE8F5313DDF8D CRC64;
+     MEDRQSRLFL ALILSMGIWM GVNYFFFPPT PKKTSETKEV KVDKPSDDKQ DQIQKEKKES
+     RTTIPSKGTK IIPSESKKTL VVTESYIVEF SSLGGRISKF YVKDFTGPNG ELVQVARKDP
+     ETLIVDGKTY YGVELSREKG FDFNFTDSLN ELPHSEWNRI PFSLAENKAD HSVVFSAFSP
+     DKTYQLKKTF RFFDRENYFK VTVSVINLTK EKLSFASQKN VQYLRTFGSL GPFPKDRPLN
+     DRDTANFFRF YHLDGSFNDT LDGSSSVGFW SSIVNFFTGN SGVDESFSLK TSTGGVDFAG
+     TGSRYFIAVA DPLDHKPQGI ILDNRPKNES GAVLVYNNIT LGPGEVYNLD FASYVGIRES
+     IGMVFHDPEL DPSQTKNSPF AGLSSDLNKS FNQGITTPFR NGIIWVLKQI YRFTIPNYGW
+     SIIIFAILFK LVFYPLNQKQ AESMKKMQEL SPQLKTINEK FANDPKMRQQ KTMELYKKNN
+     VNPVGGCLPM VIQIPIFIAL YTAFSDTIDL WNSPFLWVKD LSEPDVIWTS PAIPYFTQTG
+     IGLNLLALLM VGTQIFQTRM TSVSMDPNQK MLMYVMPVMM LYIFWNMPSG VTLYWTFQNV
+     LSIGQQWVTN HLKKTEAKKK AV
+//

@@ -1,0 +1,157 @@
+ID   SCX1_CENSC              Reviewed;          87 AA.
+AC   P01492; Q95WB7; Q95WB8; Q95WC6; Q95WC7;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 3.
+DT   07-APR-2021, entry version 115.
+DE   RecName: Full=Toxin CsEv1;
+DE            Short=CsE v1;
+DE   AltName: Full=Neurotoxin 1;
+DE   Flags: Precursor;
+OS   Centruroides sculpturatus (Arizona bark scorpion).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Centruroides.
+OX   NCBI_TaxID=218467;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland;
+RX   PubMed=11600153; DOI=10.1016/s0041-0101(01)00174-x;
+RA   Corona M., Valdez-Cruz N.A., Merino E., Zurita M., Possani L.D.;
+RT   "Genes and peptides from the scorpion Centruroides sculpturatus Ewing, that
+RT   recognize Na(+)-channels.";
+RL   Toxicon 39:1893-1898(2001).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 20-84, AMIDATION AT CYS-84, FUNCTION, SUBCELLULAR
+RP   LOCATION, TISSUE SPECIFICITY, AND TOXIC DOSE.
+RC   TISSUE=Venom;
+RX   PubMed=4460885; DOI=10.1016/0003-9861(74)90082-4;
+RA   Babin D.R., Watt D.D., Goos S.M., Mlejnek R.V.;
+RT   "Amino acid sequences of neurotoxic protein variants from the venom of
+RT   Centruroides sculpturatus Ewing.";
+RL   Arch. Biochem. Biophys. 164:694-706(1974).
+RN   [3]
+RP   SEQUENCE REVISION TO 44-46 AND 83-84, STRUCTURE BY NMR, AND DISULFIDE
+RP   BONDS.
+RC   TISSUE=Venom;
+RX   PubMed=8117707; DOI=10.1021/bi00175a015;
+RA   Lee W., Jablonsky M.J., Watt D.D., Krishna N.R.;
+RT   "Proton nuclear magnetic resonance and distance geometry/simulated
+RT   annealing studies on the variant-1 neurotoxin from the New World scorpion
+RT   Centruroides sculpturatus Ewing.";
+RL   Biochemistry 33:2468-2475(1994).
+CC   -!- FUNCTION: Beta toxins bind voltage-independently at site-4 of sodium
+CC       channels (Nav) and shift the voltage of activation toward more negative
+CC       potentials thereby affecting sodium channel activation and promoting
+CC       spontaneous and repetitive firing (By similarity). Induces immediate
+CC       paralysis in crickets after injection, with a total paralysis occurring
+CC       within 15-30 minutes and lasting for 1-2 hours. Is also lethal to
+CC       vertebrate (chicks) when injected in very high dosages (more than 100
+CC       mg/kg). {ECO:0000250, ECO:0000269|PubMed:4460885}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:4460885}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000269|PubMed:4460885}.
+CC   -!- DOMAIN: Has the structural arrangement of an alpha-helix connected to
+CC       antiparallel beta-sheets by disulfide bonds (CS-alpha/beta).
+CC       {ECO:0000305}.
+CC   -!- TOXIC DOSE: PD(50) is 11.0 mg/kg of insects (crickets).
+CC       {ECO:0000269|PubMed:4460885}.
+CC   -!- SIMILARITY: Belongs to the long (4 C-C) scorpion toxin superfamily.
+CC       Sodium channel inhibitor family. Beta subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF338454; AAL23422.1; -; mRNA.
+DR   EMBL; AF338455; AAL23423.1; -; mRNA.
+DR   EMBL; AF338463; AAL23431.1; -; mRNA.
+DR   EMBL; AF338464; AAL23432.1; -; mRNA.
+DR   PIR; A01752; NTSR1C.
+DR   PDB; 1VNA; NMR; -; A=20-84.
+DR   PDB; 1VNB; NMR; -; A=20-84.
+DR   PDBsum; 1VNA; -.
+DR   PDBsum; 1VNB; -.
+DR   SMR; P01492; -.
+DR   EvolutionaryTrace; P01492; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019871; F:sodium channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   Gene3D; 3.30.30.10; -; 1.
+DR   InterPro; IPR044062; LCN-type_CS_alpha_beta_dom.
+DR   InterPro; IPR003614; Scorpion_toxin-like.
+DR   InterPro; IPR036574; Scorpion_toxin-like_sf.
+DR   InterPro; IPR018218; Scorpion_toxinL.
+DR   InterPro; IPR002061; Scorpion_toxinL/defensin.
+DR   Pfam; PF00537; Toxin_3; 1.
+DR   PRINTS; PR00285; SCORPNTOXIN.
+DR   SMART; SM00505; Knot1; 1.
+DR   SUPFAM; SSF57095; SSF57095; 1.
+DR   PROSITE; PS51863; LCN_CSAB; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amidation; Direct protein sequencing; Disulfide bond;
+KW   Ion channel impairing toxin; Neurotoxin; Secreted; Signal; Toxin;
+KW   Voltage-gated sodium channel impairing toxin.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:4460885"
+FT   PEPTIDE         20..84
+FT                   /note="Toxin CsEv1"
+FT                   /id="PRO_0000035288"
+FT   DOMAIN          20..85
+FT                   /note="LCN-type CS-alpha/beta"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   MOD_RES         84
+FT                   /note="Cysteine amide"
+FT                   /evidence="ECO:0000269|PubMed:4460885"
+FT   DISULFID        31..84
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210,
+FT                   ECO:0000269|PubMed:8117707"
+FT   DISULFID        35..60
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210,
+FT                   ECO:0000269|PubMed:8117707"
+FT   DISULFID        44..65
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210,
+FT                   ECO:0000269|PubMed:8117707"
+FT   DISULFID        48..67
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210,
+FT                   ECO:0000269|PubMed:8117707"
+FT   VARIANT         6
+FT                   /note="I -> M (in CsEv1C and CsEv1E)"
+FT   VARIANT         9..14
+FT                   /note="ACFALV -> VCLFLI (in CsEv1D)"
+FT   VARIANT         26
+FT                   /note="K -> N (in CsEv1D)"
+FT   VARIANT         29
+FT                   /note="D -> T (in CsEv1D)"
+FT   VARIANT         40
+FT                   /note="K -> E (in CsEv1E)"
+FT   VARIANT         43
+FT                   /note="H -> G (in CsEv1E)"
+FT   VARIANT         46
+FT                   /note="T -> K (in CsEv1E)"
+FT   VARIANT         46
+FT                   /note="T -> L (in CsEv1C and CsEv1D)"
+FT   CONFLICT        45
+FT                   /note="D -> N (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          21..23
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   TURN            27..29
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   STRAND          30..32
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   STRAND          36..40
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   HELIX           43..48
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   TURN            51..53
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   STRAND          56..68
+FT                   /evidence="ECO:0007744|PDB:1VNA"
+FT   STRAND          72..74
+FT                   /evidence="ECO:0007744|PDB:1VNB"
+FT   STRAND          77..79
+FT                   /evidence="ECO:0007744|PDB:1VNB"
+SQ   SEQUENCE   87 AA;  9636 MW;  9237B1FCBBF0E658 CRC64;
+     MNSLLIITAC FALVGTVWAK EGYLVKKSDG CKYDCFWLGK NEHCDTECKA KNQGGSYGYC
+     YAFACWCEGL PESTPTYPLP NKSCGKK
+//

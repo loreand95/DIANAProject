@@ -1,0 +1,122 @@
+ID   G1PDH_PYRNV             Reviewed;         342 AA.
+AC   B1YCY7;
+DT   23-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   02-DEC-2020, entry version 75.
+DE   RecName: Full=Glycerol-1-phosphate dehydrogenase [NAD(P)+] {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            Short=G1P dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            Short=G1PDH {ECO:0000255|HAMAP-Rule:MF_00497};
+DE            EC=1.1.1.261 {ECO:0000255|HAMAP-Rule:MF_00497};
+DE   AltName: Full=Enantiomeric glycerophosphate synthase {ECO:0000255|HAMAP-Rule:MF_00497};
+DE   AltName: Full=sn-glycerol-1-phosphate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00497};
+GN   Name=egsA {ECO:0000255|HAMAP-Rule:MF_00497}; OrderedLocusNames=Tneu_0711;
+OS   Pyrobaculum neutrophilum (strain DSM 2338 / JCM 9278 / NBRC 100436 /
+OS   V24Sta) (Thermoproteus neutrophilus).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Pyrobaculum.
+OX   NCBI_TaxID=444157;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Sims D., Brettin T., Detter J.C., Han C.,
+RA   Kuske C.R., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Mikhailova N., Biddle J.F., Zhang Z., Fitz-Gibbon S.T., Lowe T.M.,
+RA   Saltikov C., House C.H., Richardson P.;
+RT   "Complete sequence of Thermoproteus neutrophilus V24Sta.";
+RL   Submitted (MAR-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the NAD(P)H-dependent reduction of
+CC       dihydroxyacetonephosphate (DHAP or glycerone phosphate) to glycerol 1-
+CC       phosphate (G1P). The G1P thus generated is used as the glycerophosphate
+CC       backbone of phospholipids in the cellular membranes of Archaea.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate
+CC         + H(+) + NADH; Xref=Rhea:RHEA:21412, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57642, ChEBI:CHEBI:57685,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.261; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00497};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + sn-glycerol 1-phosphate = dihydroxyacetone phosphate
+CC         + H(+) + NADPH; Xref=Rhea:RHEA:21416, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:57685, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.1.1.261; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00497};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00497};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00497};
+CC   -!- PATHWAY: Membrane lipid metabolism; glycerophospholipid metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   -!- SIMILARITY: Belongs to the glycerol-1-phosphate dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00497}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001014; ACB39650.1; -; Genomic_DNA.
+DR   SMR; B1YCY7; -.
+DR   STRING; 444157.Tneu_0711; -.
+DR   EnsemblBacteria; ACB39650; ACB39650; Tneu_0711.
+DR   KEGG; tne:Tneu_0711; -.
+DR   eggNOG; arCOG00982; Archaea.
+DR   HOGENOM; CLU_038362_0_0_2; -.
+DR   OMA; AEHLFSH; -.
+DR   UniPathway; UPA00940; -.
+DR   Proteomes; UP000001694; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050492; F:glycerol-1-phosphate dehydrogenase [NAD(P)+] activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00497_A; G1P_dehydrogenase_A; 1.
+DR   InterPro; IPR023002; G1P_dehydrogenase_arc.
+DR   InterPro; IPR032837; G1PDH.
+DR   InterPro; IPR016205; Glycerol_DH.
+DR   PANTHER; PTHR43616; PTHR43616; 1.
+DR   Pfam; PF13685; Fe-ADH_2; 1.
+DR   PIRSF; PIRSF000112; Glycerol_dehydrogenase; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lipid biosynthesis; Lipid metabolism; Metal-binding; NAD; NADP;
+KW   Oxidoreductase; Phospholipid biosynthesis; Phospholipid metabolism; Zinc.
+FT   CHAIN           1..342
+FT                   /note="Glycerol-1-phosphate dehydrogenase [NAD(P)+]"
+FT                   /id="PRO_0000350662"
+FT   NP_BIND         84..88
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   NP_BIND         106..109
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           160
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           241
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   METAL           260
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         111
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         115
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         160
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+FT   BINDING         245
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00497"
+SQ   SEQUENCE   342 AA;  36475 MW;  C75634FE8AF756A8 CRC64;
+     MKQLESFEIP RTVVFGPGAI LKIPDIVSGL RVGKVLIISG KSATQQYAKT VASLLSGYSA
+     EILKYDEVEL EKSGFDLIIG VGGGRPLDMA KVYSYVHKRP LIVVPTSASH DGIASPYISY
+     ILAEKVKRYG KVVASPIAIV ADTSIILSAP RRLLRAGVGD LLGKVVAVRD WQLAHRLKGE
+     EYSEYAALLS LSSYRIVVAN AGKIGNFVRE EDVRALVKAL IGCGVAMGIA GSSRPCSGSE
+     HLFAHAIERR LEGAEGEAIH GELVALGAIV MAYLHGINWR RIKKAAGAVG LPTTLKQAGI
+     DLDLAIEALT TAHTLRPDRY TILGDGLSAS AARKALEDTE LI
+//

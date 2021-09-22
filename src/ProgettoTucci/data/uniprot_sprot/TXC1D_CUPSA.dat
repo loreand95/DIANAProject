@@ -1,0 +1,69 @@
+ID   TXC1D_CUPSA             Reviewed;          35 AA.
+AC   P83622;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   19-SEP-2003, sequence version 1.
+DT   02-DEC-2020, entry version 57.
+DE   RecName: Full=Cupiennin-1d {ECO:0000303|PubMed:11792701};
+DE            Short=Cu-1d {ECO:0000305};
+DE   AltName: Full=M-ctenitoxin-Cs1d;
+DE            Short=M-CNTX-Cs1d;
+OS   Cupiennius salei (American wandering spider).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida; Araneae;
+OC   Araneomorphae; Entelegynae; Lycosoidea; Ctenidae; Cupiennius.
+OX   NCBI_TaxID=6928;
+RN   [1]
+RP   PROTEIN SEQUENCE, SYNTHESIS, FUNCTION, MASS SPECTROMETRY, TOXIC DOSE, AND
+RP   AMIDATION AT GLU-35.
+RC   TISSUE=Venom;
+RX   PubMed=11792701; DOI=10.1074/jbc.m111099200;
+RA   Kuhn-Nentwig L., Mueller J., Schaller J., Walz A., Dathe M., Nentwig W.;
+RT   "Cupiennin 1, a new family of highly basic antimicrobial peptides in the
+RT   venom of the spider Cupiennius salei (Ctenidae).";
+RL   J. Biol. Chem. 277:11208-11216(2002).
+RN   [2]
+RP   FUNCTION, AND MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=10669026; DOI=10.1016/s0041-0101(99)00167-1;
+RA   Haeberli S., Kuhn-Nentwig L., Schaller J., Nentwig W.;
+RT   "Characterisation of antibacterial activity of peptides isolated from the
+RT   venom of the spider Cupiennius salei (Araneae: Ctenidae).";
+RL   Toxicon 38:373-380(2000).
+CC   -!- FUNCTION: Has antimicrobial activity against B.subtilis, E.coli,
+CC       E.faecalis, P.aeruginosa, and S.aureus. Has insecticidal and hemolytic
+CC       activities. Probably acts by disturbing membrane function with its
+CC       amphipathic structure. {ECO:0000269|PubMed:10669026,
+CC       ECO:0000269|PubMed:11792701, ECO:0000303|PubMed:11792701}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland. {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=3795.13; Mass_error=0.79; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:11792701};
+CC   -!- MASS SPECTROMETRY: Mass=3794.89; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:10669026};
+CC   -!- TOXIC DOSE: LD(50) is 6.4 pmol/mg on Drosophila.
+CC       {ECO:0000269|PubMed:11792701}.
+CC   -!- SIMILARITY: Belongs to the cationic peptide 04 (cupiennin) family. 01
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P83622; -.
+DR   ArachnoServer; AS000293; M-ctenitoxin-Cs1d.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   InterPro; IPR035164; Cupiennin.
+DR   Pfam; PF17563; Cu; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Antibiotic; Antimicrobial; Cytolysis; Direct protein sequencing;
+KW   Hemolysis; Neurotoxin; Secreted; Toxin.
+FT   PEPTIDE         1..35
+FT                   /note="Cupiennin-1d"
+FT                   /id="PRO_0000045041"
+FT   MOD_RES         35
+FT                   /note="Glutamic acid 1-amide"
+FT                   /evidence="ECO:0000269|PubMed:11792701"
+SQ   SEQUENCE   35 AA;  3797 MW;  AE1677338BA73894 CRC64;
+     GFGSLFKFLA KKVAKTVAKQ AAKQGAKYVA NKHME
+//

@@ -1,0 +1,108 @@
+ID   CPDA_PSEU9              Reviewed;         261 AA.
+AC   E6RHP9;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   07-APR-2021, entry version 56.
+DE   RecName: Full=3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA {ECO:0000255|HAMAP-Rule:MF_00905};
+DE            Short=3',5'-cyclic AMP phosphodiesterase {ECO:0000255|HAMAP-Rule:MF_00905};
+DE            Short=cAMP phosphodiesterase {ECO:0000255|HAMAP-Rule:MF_00905};
+DE            EC=3.1.4.53 {ECO:0000255|HAMAP-Rule:MF_00905};
+GN   Name=cpdA {ECO:0000255|HAMAP-Rule:MF_00905}; OrderedLocusNames=PSM_A2567;
+OS   Pseudoalteromonas sp. (strain SM9913).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Pseudoalteromonadaceae; Pseudoalteromonas.
+OX   NCBI_TaxID=234831;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SM9913;
+RX   PubMed=20703316; DOI=10.1038/ismej.2010.103;
+RA   Qin Q.L., Li Y., Zhang Y.J., Zhou Z.M., Zhang W.X., Chen X.L., Zhang X.Y.,
+RA   Zhou B.C., Wang L., Zhang Y.Z.;
+RT   "Comparative genomics reveals a deep-sea sediment-adapted life style of
+RT   Pseudoalteromonas sp. SM9913.";
+RL   ISME J. 5:274-284(2011).
+CC   -!- FUNCTION: Hydrolyzes cAMP to 5'-AMP. Plays an important regulatory role
+CC       in modulating the intracellular concentration of cAMP, thereby
+CC       influencing cAMP-dependent processes. {ECO:0000255|HAMAP-
+CC       Rule:MF_00905}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3',5'-cyclic AMP + H2O = AMP + H(+); Xref=Rhea:RHEA:25277,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:58165,
+CC         ChEBI:CHEBI:456215; EC=3.1.4.53; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00905};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00905};
+CC       Note=Binds 2 Fe(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00905};
+CC   -!- SIMILARITY: Belongs to the cAMP phosphodiesterase class-III family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00905}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001796; ADT69481.1; -; Genomic_DNA.
+DR   RefSeq; WP_013465837.1; NC_014803.1.
+DR   SMR; E6RHP9; -.
+DR   KEGG; psm:PSM_A2567; -.
+DR   HOGENOM; CLU_070320_0_0_6; -.
+DR   OMA; IPVFWIP; -.
+DR   OrthoDB; 1242748at2; -.
+DR   GO; GO:0004115; F:3',5'-cyclic-AMP phosphodiesterase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.60.21.10; -; 1.
+DR   HAMAP; MF_00905; cAMP_phosphodiest_CpdA; 1.
+DR   InterPro; IPR004843; Calcineurin-like_PHP_ApaH.
+DR   InterPro; IPR026575; cAMP_Pdiest_CpdA.
+DR   InterPro; IPR029052; Metallo-depent_PP-like.
+DR   Pfam; PF00149; Metallophos; 1.
+PE   3: Inferred from homology;
+KW   cAMP; Hydrolase; Iron; Metal-binding; Nucleotide-binding.
+FT   CHAIN           1..261
+FT                   /note="3',5'-cyclic adenosine monophosphate
+FT                   phosphodiesterase CpdA"
+FT                   /id="PRO_0000413372"
+FT   NP_BIND         94..95
+FT                   /note="cAMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           22
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           24
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           62
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           62
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           94
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           160
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           198
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   METAL           200
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   BINDING         24
+FT                   /note="cAMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   BINDING         62
+FT                   /note="cAMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+FT   BINDING         200
+FT                   /note="cAMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00905"
+SQ   SEQUENCE   261 AA;  29827 MW;  7198C0473A20180E CRC64;
+     MAWFDDTYYF EQAQLRIAHI TDCHLFSDKQ GEYFGVNTAE HFTRALTDIA KQQPDALIFG
+     GDLTQDHSFN SYLLFAELIH NSDLDCPVFW VPGNHDEIDQ LNLISGGQIQ RAKHIVAQGF
+     ELILINSKGN TPAGWVTPSH LEEIMACLVD SDNRHIAFCH HNPLPINGYL DKHMLENGPQ
+     LLNLLVNNGR VDALFHGHVH NDYQQQFREL DIYATPASSV QFTKHSATWQ QEDKGAAYRM
+     LHLNAEQQKV HIRTDVVWLN E
+//

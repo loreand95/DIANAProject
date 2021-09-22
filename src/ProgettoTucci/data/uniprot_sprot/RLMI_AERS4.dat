@@ -1,0 +1,88 @@
+ID   RLMI_AERS4              Reviewed;         396 AA.
+AC   A4SML8;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 1.
+DT   10-FEB-2021, entry version 80.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase I {ECO:0000255|HAMAP-Rule:MF_01857};
+DE            EC=2.1.1.191 {ECO:0000255|HAMAP-Rule:MF_01857};
+DE   AltName: Full=23S rRNA m5C1962 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01857};
+DE   AltName: Full=rRNA (cytosine-C(5)-)-methyltransferase RlmI {ECO:0000255|HAMAP-Rule:MF_01857};
+GN   Name=rlmI {ECO:0000255|HAMAP-Rule:MF_01857}; OrderedLocusNames=ASA_2074;
+OS   Aeromonas salmonicida (strain A449).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Aeromonas.
+OX   NCBI_TaxID=382245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A449;
+RX   PubMed=18801193; DOI=10.1186/1471-2164-9-427;
+RA   Reith M.E., Singh R.K., Curtis B., Boyd J.M., Bouevitch A., Kimball J.,
+RA   Munholland J., Murphy C., Sarty D., Williams J., Nash J.H., Johnson S.C.,
+RA   Brown L.L.;
+RT   "The genome of Aeromonas salmonicida subsp. salmonicida A449: insights into
+RT   the evolution of a fish pathogen.";
+RL   BMC Genomics 9:427-427(2008).
+CC   -!- FUNCTION: Specifically methylates the cytosine at position 1962
+CC       (m5C1962) of 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1962) in 23S rRNA + S-adenosyl-L-methionine = 5-
+CC         methylcytidine(1962) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42912, Rhea:RHEA-COMP:10382, Rhea:RHEA-COMP:10386,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74483, ChEBI:CHEBI:82748; EC=2.1.1.191;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01857};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RlmI family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000644; ABO90140.1; -; Genomic_DNA.
+DR   RefSeq; WP_005311453.1; NC_009348.1.
+DR   SMR; A4SML8; -.
+DR   STRING; 382245.ASA_2074; -.
+DR   EnsemblBacteria; ABO90140; ABO90140; ASA_2074.
+DR   KEGG; asa:ASA_2074; -.
+DR   PATRIC; fig|382245.13.peg.2039; -.
+DR   eggNOG; COG1092; Bacteria.
+DR   HOGENOM; CLU_014042_0_0_6; -.
+DR   OMA; VMDVFDY; -.
+DR   OrthoDB; 468283at2; -.
+DR   Proteomes; UP000000225; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016434; F:rRNA (cytosine) methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.30.130.10; -; 1.
+DR   HAMAP; MF_01857; 23SrRNA_methyltr_I; 1.
+DR   InterPro; IPR002478; PUA.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   InterPro; IPR041532; RlmI_PUA-like.
+DR   InterPro; IPR023542; rRNA_lsu_MeTfrase_I.
+DR   InterPro; IPR019614; SAM-dep_methyl-trfase.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF10672; Methyltrans_SAM; 1.
+DR   Pfam; PF17785; PUA_3; 1.
+DR   SMART; SM00359; PUA; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   SUPFAM; SSF88697; SSF88697; 1.
+DR   PROSITE; PS50890; PUA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..396
+FT                   /note="Ribosomal RNA large subunit methyltransferase I"
+FT                   /id="PRO_0000366215"
+FT   DOMAIN          2..79
+FT                   /note="PUA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01857"
+SQ   SEQUENCE   396 AA;  44382 MW;  6234AD2CEB55AF22 CRC64;
+     MSVFIYLVKG REKSLLRRHP WIFSKGIERV EGNPVDGDTV EIYANDGRWL ARGAWSGSSQ
+     IRARVWTFDK EETVDLDFFL RRLKYAQESR DPLIKRQGLT GYRLCAAESD GLPGLTIDSY
+     ADFLVCQILS AGAEFQRELI TQALRTLYPE CSIYERSDVA VRKKEGLKER TGVIHGETPT
+     EPVVIEENGV KILVDIRNGH KTGFYLDQRD NRQAVSKYTS AKRVLNCFSY TGGFGIYALK
+     GGAKEVVNVD LSQTALDMAR QNAELNGLDI SNTQFIRHDV FKLLREYREK GEKFDVIVLD
+     PPKFAESKAQ LLGACRGYKD INMLAFQLLA PGGVLLTYSC SGLMEQSLFQ KIVADAALDA
+     GRDAQILELL SQASDHPIGT AYPEGFYLKG LVVRAR
+//

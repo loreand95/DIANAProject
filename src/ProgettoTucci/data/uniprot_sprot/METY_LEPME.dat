@@ -1,0 +1,101 @@
+ID   METY_LEPME              Reviewed;         442 AA.
+AC   P94890;
+DT   10-OCT-2018, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=O-acetyl-L-homoserine sulfhydrylase {ECO:0000303|PubMed:9440513};
+DE            Short=OAH-sulfhydrylase {ECO:0000303|PubMed:12832650};
+DE            EC=2.5.1.- {ECO:0000269|PubMed:12832650, ECO:0000269|PubMed:9440513};
+GN   Name=metY {ECO:0000303|PubMed:9209059};
+OS   Leptospira meyeri.
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=29508;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Serovar Semaranga / isolate Veldrat S 173;
+RX   PubMed=9209059; DOI=10.1128/jb.179.13.4396-4398.1997;
+RA   Bourhy P., Martel A., Margarita D., Saint Girons I., Belfaiza J.;
+RT   "Homoserine O-acetyltransferase, involved in the Leptospira meyeri
+RT   methionine biosynthetic pathway, is not feedback inhibited.";
+RL   J. Bacteriol. 179:4396-4398(1997).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, AND PATHWAY.
+RC   STRAIN=Serovar Semaranga / isolate Veldrat S 173;
+RX   PubMed=9440513; DOI=10.1128/jb.180.2.250-255.1998;
+RA   Belfaiza J., Martel A., Margarita D., Saint Girons I.;
+RT   "Direct sulfhydrylation for methionine biosynthesis in Leptospira meyeri.";
+RL   J. Bacteriol. 180:250-255(1998).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=12832650; DOI=10.1093/molbev/msg169;
+RA   Hacham Y., Gophna U., Amir R.;
+RT   "In vivo analysis of various substrates utilized by cystathionine gamma-
+RT   synthase and O-acetylhomoserine sulfhydrylase in methionine biosynthesis.";
+RL   Mol. Biol. Evol. 20:1513-1520(2003).
+CC   -!- FUNCTION: Catalyzes the conversion of O-acetyl-L-homoserine (OAH) into
+CC       homocysteine in the methionine biosynthesis pathway (PubMed:9440513,
+CC       PubMed:12832650). Can also use O-succinyl-homoserine (OSH), although at
+CC       low efficiency (PubMed:12832650). {ECO:0000269|PubMed:12832650,
+CC       ECO:0000269|PubMed:9440513}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogen sulfide + O-acetyl-L-homoserine = acetate + L-
+CC         homocysteine; Xref=Rhea:RHEA:27822, ChEBI:CHEBI:29919,
+CC         ChEBI:CHEBI:30089, ChEBI:CHEBI:57716, ChEBI:CHEBI:58199;
+CC         Evidence={ECO:0000269|PubMed:12832650, ECO:0000269|PubMed:9440513};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:Q5SK88};
+CC   -!- ACTIVITY REGULATION: Feedback inhibited at very high concentrations of
+CC       methionine or S-adenosylmethionine. {ECO:0000269|PubMed:9440513}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; L-homocysteine from O-acetyl-L-homoserine: step 1/1.
+CC       {ECO:0000305|PubMed:9440513}.
+CC   -!- SIMILARITY: Belongs to the trans-sulfuration enzymes family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y10744; CAA71732.1; -; Genomic_DNA.
+DR   PIR; T44655; T44655.
+DR   SMR; P94890; -.
+DR   BioCyc; MetaCyc:MONOMER-9366; -.
+DR   BRENDA; 2.5.1.49; 2987.
+DR   UniPathway; UPA00051; UER00079.
+DR   GO; GO:0051009; F:O-acetylhomoserine sulfhydrylase activity; IEA:RHEA.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IEA:InterPro.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0019346; P:transsulfuration; IEA:InterPro.
+DR   CDD; cd00614; CGS_like; 1.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   InterPro; IPR000277; Cys/Met-Metab_PyrdxlP-dep_enz.
+DR   InterPro; IPR006235; OAc-hSer/O-AcSer_sulfhydrylase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF01053; Cys_Met_Meta_PP; 1.
+DR   PIRSF; PIRSF001434; CGS; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR01326; OAH_OAS_sulfhy; 1.
+DR   PROSITE; PS00868; CYS_MET_METAB_PP; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Methionine biosynthesis; Pyridoxal phosphate;
+KW   Transferase.
+FT   CHAIN           1..442
+FT                   /note="O-acetyl-L-homoserine sulfhydrylase"
+FT                   /id="PRO_0000445419"
+FT   MOD_RES         216
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5SK88"
+SQ   SEQUENCE   442 AA;  47961 MW;  75685C484E11F80A CRC64;
+     MVGPSGESMP RNFKPETIAL HGGQEPDPTT TSRAVPLYQT TSYVFKDTDH AARLFGLQEF
+     GNIYTRLMNP TTDVLEKRVA ALEGGVAALA TASGQSAEML ALLNIVEAGQ EIVASSSLYG
+     GTYNLLHYTF PKLGIKVHFV DQSDPENFRK ASNDKTRAFY AETLGNPKLD TLDIAAVSKV
+     AKEVGVPLVI DNTMPSPYLV NPLKHGADIV VHSLTKFLGG HGTSIGGIII DGGSFNWGNG
+     KFKNFTEPDP SYHGLKFWEV FGKFEPFGGV NIAFILKARV QGLRDLGPAI SPFNAWQILQ
+     GVETLPLRME RHSGNALKVA EFLQKHPKIE WVNYPGLSTD KNYATAKKYH ERGLFGAIVG
+     FEIKGGVEKA KKFIDGLELF SLLANIGDAK SLAIHPASTT HQQLTGPEQI SAGVTPGFVR
+     LSVGLENIDD ILVDLEEALK NI
+//

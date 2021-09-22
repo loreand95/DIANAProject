@@ -1,0 +1,116 @@
+ID   CHI_PINMA               Reviewed;         466 AA.
+AC   P86955;
+DT   19-OCT-2011, integrated into UniProtKB/Swiss-Prot.
+DT   19-OCT-2011, sequence version 1.
+DT   10-FEB-2021, entry version 26.
+DE   RecName: Full=Putative chitinase;
+DE            EC=3.2.1.14;
+DE   AltName: Full=Chitinase-like protein 3;
+DE            Short=Clp3;
+DE   Flags: Precursor;
+OS   Pinctada maxima (Silver-lipped pearl oyster) (White-lipped pearl oyster).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Bivalvia;
+OC   Autobranchia; Pteriomorphia; Pterioida; Pterioidea; Pteriidae; Pinctada.
+OX   NCBI_TaxID=104660;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND IDENTIFICATION.
+RC   TISSUE=Mantle {ECO:0000269|PubMed:19915030};
+RX   PubMed=19915030; DOI=10.1093/molbev/msp278;
+RA   Jackson D.J., McDougall C., Woodcroft B., Moase P., Rose R.A., Kube M.,
+RA   Reinhardt R., Rokhsar D.S., Montagnani C., Joubert C., Piquemal D.,
+RA   Degnan B.M.;
+RT   "Parallel evolution of nacre building gene sets in molluscs.";
+RL   Mol. Biol. Evol. 27:591-608(2010).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 115-129; 179-192; 205-211; 257-266 AND 444-452,
+RP   SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Shell;
+RX   PubMed=23213212; DOI=10.1073/pnas.1210552109;
+RA   Marie B., Joubert C., Tayale A., Zanella-Cleon I., Belliard C.,
+RA   Piquemal D., Cochennec-Laureau N., Marin F., Gueguen Y., Montagnani C.;
+RT   "Different secretory repertoires control the biomineralization processes of
+RT   prism and nacre deposition of the pearl oyster shell.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:20986-20991(2012).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Random endo-hydrolysis of N-acetyl-beta-D-glucosaminide
+CC         (1->4)-beta-linkages in chitin and chitodextrins.; EC=3.2.1.14;
+CC         Evidence={ECO:0000255};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:23213212}.
+CC   -!- TISSUE SPECIFICITY: Prismatic layer of shell (at protein level).
+CC       Expressed primarily in the mantle with highest level in the mantle edge
+CC       and lower level in the mantle pallium. {ECO:0000269|PubMed:23213212}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 18 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=GT281452; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GT278709; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; GT280136; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; GT281452; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; GT281952; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; GT282837; -; NOT_ANNOTATED_CDS; mRNA.
+DR   EMBL; EZ420284; -; NOT_ANNOTATED_CDS; mRNA.
+DR   SMR; P86955; -.
+DR   PRIDE; P86955; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008061; F:chitin binding; IEA:InterPro.
+DR   GO; GO:0004568; F:chitinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   Gene3D; 3.10.50.10; -; 1.
+DR   InterPro; IPR011583; Chitinase_II.
+DR   InterPro; IPR029070; Chitinase_insertion_sf.
+DR   InterPro; IPR001223; Glyco_hydro18_cat.
+DR   InterPro; IPR001579; Glyco_hydro_18_chit_AS.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF00704; Glyco_hydro_18; 1.
+DR   SMART; SM00636; Glyco_18; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   SUPFAM; SSF54556; SSF54556; 1.
+DR   PROSITE; PS01095; GH18_1; 1.
+DR   PROSITE; PS51910; GH18_2; 1.
+PE   1: Evidence at protein level;
+KW   Coiled coil; Direct protein sequencing; Disulfide bond; Glycosidase;
+KW   Hydrolase; Secreted; Signal.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..466
+FT                   /note="Putative chitinase"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000413069"
+FT   DOMAIN          20..380
+FT                   /note="GH18"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   COILED          408..442
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        141
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   DISULFID        24..49
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01258"
+FT   CONFLICT        135
+FT                   /note="G -> C (in Ref. 1; GT282837)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        148
+FT                   /note="S -> N (in Ref. 1; GT278709)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        263..264
+FT                   /note="FF -> LL (in Ref. 1; GT282837)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        279..281
+FT                   /note="GSP -> RIA (in Ref. 1; GT282837)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        402
+FT                   /note="A -> S (in Ref. 1; GT281452)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   466 AA;  53984 MW;  C1563E0E9C18068B CRC64;
+     MYLTIWLVSI LALGTWGQKF NRFCHYNSWA LSRNPQHGLV PEDIDPFLCT HLILGFAEID
+     ESGLRLKDPN HYQQEYLYQR IVRLRRINPR LNMILSVGGW DKSQEGYSKL VSSRENILFF
+     TKWIITYLRR HDFDGLDLDW EYPTFKGSPM GDKKKFVDLV ENLAYEFDIE EIPDIKWKLT
+     LTWTADPLES VRTSAYDIKG IASKVHNVNL KMYDFHGHWD DPLQVNHHSP LTSPNSPRNV
+     NELAKSWVKA GVRIEKLILG IPFFGRSFTL KTANMSVPGS PAVGPGSDFG DGIPIHNLCH
+     IIRGGTKELY LPEKKVPYIV SGSEWIGYDN PRSVMEKAQL VFNNALAGVM IYSLDMDDHH
+     GTCGRKWPMM MAVIHGLNAY MEYIDSKHKS LELTFNKKIL RARVSLRNYR RRNQQEKVAE
+     MEQRIRHLEQ ELQQSMGNMA YERQQAQAML NRGVSLPPIE QQSWSW
+//

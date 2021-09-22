@@ -1,0 +1,101 @@
+ID   NPIIB_ARTGP             Reviewed;         375 AA.
+AC   E5R1Z3;
+DT   05-APR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   08-FEB-2011, sequence version 1.
+DT   07-APR-2021, entry version 34.
+DE   RecName: Full=Neutral protease 2 homolog MGYG_00813;
+DE            EC=3.4.24.39;
+DE   AltName: Full=Deuterolysin MGYG_00813;
+DE   Flags: Precursor;
+GN   ORFNames=MGYG_00813;
+OS   Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) (Microsporum
+OS   gypseum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Arthrodermataceae; Nannizzia.
+OX   NCBI_TaxID=535722;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4604 / CBS 118893;
+RX   PubMed=22951933; DOI=10.1128/mbio.00259-12;
+RA   Martinez D.A., Oliver B.G., Graeser Y., Goldberg J.M., Li W.,
+RA   Martinez-Rossi N.M., Monod M., Shelest E., Barton R.C., Birch E.,
+RA   Brakhage A.A., Chen Z., Gurr S.J., Heiman D., Heitman J., Kosti I.,
+RA   Rossi A., Saif S., Samalova M., Saunders C.W., Shea T., Summerbell R.C.,
+RA   Xu J., Young S., Zeng Q., Birren B.W., Cuomo C.A., White T.C.;
+RT   "Comparative genome analysis of Trichophyton rubrum and related
+RT   dermatophytes reveals candidate genes involved in infection.";
+RL   MBio 3:E259-E259(2012).
+CC   -!- FUNCTION: Secreted metalloproteinase that allows assimilation of
+CC       proteinaceous substrates. Shows high activities on basic nuclear
+CC       substrates such as histone and protamine. May be involved in virulence
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Preferential cleavage of bonds with hydrophobic residues in
+CC         P1'. Also 3-Asn-|-Gln-4 and 8-Gly-|-Ser-9 bonds in insulin B chain.;
+CC         EC=3.4.24.39;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase M35 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS989822; EFQ97772.1; -; Genomic_DNA.
+DR   RefSeq; XP_003176724.1; XM_003176676.1.
+DR   SMR; E5R1Z3; -.
+DR   MEROPS; M35.001; -.
+DR   EnsemblFungi; EFQ97772; EFQ97772; MGYG_00813.
+DR   GeneID; 10032046; -.
+DR   eggNOG; ENOG502SGF5; Eukaryota.
+DR   HOGENOM; CLU_039313_1_0_1; -.
+DR   InParanoid; E5R1Z3; -.
+DR   OrthoDB; 1038868at2759; -.
+DR   Proteomes; UP000002669; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.390.10; -; 1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001384; Peptidase_M35.
+DR   Pfam; PF02102; Peptidase_M35; 1.
+DR   PRINTS; PR00768; DEUTEROLYSIN.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Cleavage on pair of basic residues; Disulfide bond; Hydrolase;
+KW   Metal-binding; Metalloprotease; Protease; Reference proteome; Secreted;
+KW   Signal; Virulence; Zinc; Zymogen.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          20..190
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000407120"
+FT   CHAIN           191..375
+FT                   /note="Neutral protease 2 homolog MGYG_00813"
+FT                   /id="PRO_0000407121"
+FT   ACT_SITE        319
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           318
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           322
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   METAL           333
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10095"
+FT   DISULFID        198..268
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        275..293
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   375 AA;  40677 MW;  37CEE6E5580BD521 CRC64;
+     MQVIVALAAL SSLAAPALGF SIPRGVPVSQ SMIDVKLSAA GNSMVKATIT NNGDRALNLL
+     KFHTIMDSNP TRKVTIESQD GKEVQFTGMM PRYKHTDLKP TYFISLPPKG TVEHSFDIAS
+     THDLSRGGKF TLKAEGMVPL AEENGTTITG AAKYNSNELH MDIDGNKAAS VERAMGIVKR
+     SGPLTRIGKR TSIDMQSCSN RQELQALTAA LRASAQLSSM AAQAVQQNQE KYMEYFKDPQ
+     YAQTVQSRFQ SVAQESSSTS GGGTTYHCTD LMNGCEQGVL AYTLPSQNEV FNCPIYYSDL
+     PPLSNECHAQ DQATTTLHEL THNPAVQEPF CEDNGYGYER ATALSAEKAV QNADSYALFA
+     NGKFLPMSSM LVTQD
+//

@@ -1,0 +1,110 @@
+ID   PAC1_PSES3              Reviewed;         558 AA.
+AC   P15557;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   17-JUN-2020, entry version 76.
+DE   RecName: Full=Acylase ACY 1 proenzyme;
+DE   Includes:
+DE     RecName: Full=Cephalosporin acylase;
+DE              EC=3.5.1.93;
+DE     AltName: Full=GL-7ACA acylase;
+DE   Includes:
+DE     RecName: Full=Gamma-glutamyltranspeptidase;
+DE              Short=GGT;
+DE              EC=2.3.2.2;
+DE     AltName: Full=Glutathione hydrolase;
+DE              EC=3.4.19.13;
+DE   Contains:
+DE     RecName: Full=Acylase ACY 1 large subunit;
+DE   Contains:
+DE     RecName: Full=Acylase ACY 1 small subunit;
+GN   Name=acyI;
+OS   Pseudomonas sp. (strain SE83).
+OC   Bacteria; Proteobacteria.
+OX   NCBI_TaxID=309;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-22 AND 368-388,
+RP   AND SUBUNIT.
+RC   STRAIN=SE83;
+RX   PubMed=3680178; DOI=10.1128/jb.169.12.5821-5826.1987;
+RA   Matsuda A., Toma K., Komatsu K.;
+RT   "Nucleotide sequences of the genes for two distinct cephalosporin acylases
+RT   from a Pseudomonas strain.";
+RL   J. Bacteriol. 169:5821-5826(1987).
+CC   -!- FUNCTION: Besides the cephalosporin acylase I activity which converts
+CC       GL-7ACA into 7-ACA; this enzyme displays some gamma
+CC       glutamyltranspeptidase activity.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(7R)-7-(4-carboxybutanamido)cephalosporanate + H2O = (7R)-7-
+CC         aminocephalosporanate + glutarate; Xref=Rhea:RHEA:23508,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30921, ChEBI:CHEBI:58501,
+CC         ChEBI:CHEBI:58693; EC=3.5.1.93;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alpha-amino acid + an N-terminal (5-L-glutamyl)-[peptide] =
+CC         5-L-glutamyl amino acid + N-terminal L-alpha-aminoacyl-[peptide];
+CC         Xref=Rhea:RHEA:23904, Rhea:RHEA-COMP:9780, Rhea:RHEA-COMP:9795,
+CC         ChEBI:CHEBI:77644, ChEBI:CHEBI:78597, ChEBI:CHEBI:78599,
+CC         ChEBI:CHEBI:78608; EC=2.3.2.2;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glutathione + H2O = L-cysteinylglycine + L-glutamate;
+CC         Xref=Rhea:RHEA:28807, ChEBI:CHEBI:15377, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:61694; EC=3.4.19.13;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an S-substituted glutathione + H2O = an S-substituted L-
+CC         cysteinylglycine + L-glutamate; Xref=Rhea:RHEA:59468,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:29985, ChEBI:CHEBI:90779,
+CC         ChEBI:CHEBI:143103; EC=3.4.19.13;
+CC   -!- SUBUNIT: Dimer of two non-identical chains processed from the same
+CC       precursor. {ECO:0000269|PubMed:3680178}.
+CC   -!- SIMILARITY: Belongs to the gamma-glutamyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M18279; AAA88424.1; -; Genomic_DNA.
+DR   PIR; B28392; B28392.
+DR   SMR; P15557; -.
+DR   MEROPS; T03.001; -.
+DR   GO; GO:0033968; F:glutaryl-7-aminocephalosporanic-acid acylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0036374; F:glutathione hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102953; F:hypoglycin A gamma-glutamyl transpeptidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0103068; F:leukotriene C4 gamma-glutamyl transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006751; P:glutathione catabolic process; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.246.130; -; 1.
+DR   Gene3D; 3.60.20.40; -; 1.
+DR   InterPro; IPR043138; GGT_lsub_C.
+DR   InterPro; IPR000101; GGT_peptidase.
+DR   InterPro; IPR043137; GGT_ssub.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR00066; g_glut_trans; 1.
+DR   PROSITE; PS00462; G_GLU_TRANSPEPTIDASE; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Antibiotic resistance; Direct protein sequencing;
+KW   Hydrolase; Transferase; Zymogen.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:3680178"
+FT   CHAIN           2..?367
+FT                   /note="Acylase ACY 1 large subunit"
+FT                   /id="PRO_0000011080"
+FT   CHAIN           368..558
+FT                   /note="Acylase ACY 1 small subunit"
+FT                   /id="PRO_0000011081"
+FT   ACT_SITE        368
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   558 AA;  58095 MW;  9659691DE0DC528B CRC64;
+     MNAPVPVPRV ADFTCEKKPA SGSRGMVVTN HPLASAAGAQ ILLAGGNAID AAVASLFALT
+     VAEPMMVGIL GGGLSHIRLA DGRHVVIDNL STAPGKATAE MYECLSDEIG KQRDTRDRQN
+     VVGAKAVAVP GALKGWCEAL ARFGTLPLAE VLQPAIGLAE RGFVVTPYLS NCITDNAGDL
+     ARDPGLAAML LPGGKPLQPG MRLVQSDYAA SLKLIAAEGP DALYGGKLGR ALTDYMAANG
+     GLIDQADLAN YRIELREPIR GSYRGYEIIG PPPPSSSGVH ITQMLNILEG YDIGSLGFGS
+     TDAVHLLAEA LKIAFADRAV ATADPAFVKV PVARLIDKAY ADERRALIEM EQAKSWTAGL
+     SGGESADTTH VTVADAMGNV VSATQTINGL FGACVQIPGT GMIANNYMYN FDPHPGRALS
+     IAPGKRVFTS MAPMMALKEG RIAFALGLPG ALRIFPSALQ AIVNLIDHRM SLQEAVEAPR
+     VWTEGGVLEL EEAIPEAVAQ ALIARGHKVV RSPRVAGGMN AIAFNPDGTL TGAACWRADG
+     TPVAISGGLA RAGARFTI
+//

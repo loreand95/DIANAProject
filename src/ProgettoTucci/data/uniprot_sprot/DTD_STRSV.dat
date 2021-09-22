@@ -1,0 +1,98 @@
+ID   DTD_STRSV               Reviewed;         147 AA.
+AC   A3CKK5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 87.
+DE   RecName: Full=D-aminoacyl-tRNA deacylase {ECO:0000255|HAMAP-Rule:MF_00518};
+DE            Short=DTD {ECO:0000255|HAMAP-Rule:MF_00518};
+DE            EC=3.1.1.96 {ECO:0000255|HAMAP-Rule:MF_00518};
+DE   AltName: Full=Gly-tRNA(Ala) deacylase {ECO:0000255|HAMAP-Rule:MF_00518};
+GN   Name=dtd {ECO:0000255|HAMAP-Rule:MF_00518}; OrderedLocusNames=SSA_0251;
+OS   Streptococcus sanguinis (strain SK36).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=388919;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SK36;
+RX   PubMed=17277061; DOI=10.1128/jb.01808-06;
+RA   Xu P., Alves J.M., Kitten T., Brown A., Chen Z., Ozaki L.S., Manque P.,
+RA   Ge X., Serrano M.G., Puiu D., Hendricks S., Wang Y., Chaplin M.D., Akan D.,
+RA   Paik S., Peterson D.L., Macrina F.L., Buck G.A.;
+RT   "Genome of the opportunistic pathogen Streptococcus sanguinis.";
+RL   J. Bacteriol. 189:3166-3175(2007).
+CC   -!- FUNCTION: An aminoacyl-tRNA editing enzyme that deacylates mischarged
+CC       D-aminoacyl-tRNAs. Also deacylates mischarged glycyl-tRNA(Ala),
+CC       protecting cells against glycine mischarging by AlaRS. Acts via tRNA-
+CC       based rather than protein-based catalysis; rejects L-amino acids rather
+CC       than detecting D-amino acids in the active site. By recycling D-
+CC       aminoacyl-tRNA to D-amino acids and free tRNA molecules, this enzyme
+CC       counteracts the toxicity associated with the formation of D-aminoacyl-
+CC       tRNA entities in vivo and helps enforce protein L-homochirality.
+CC       {ECO:0000255|HAMAP-Rule:MF_00518}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-tRNA(Ala) + H2O = glycine + H(+) + tRNA(Ala);
+CC         Xref=Rhea:RHEA:53744, Rhea:RHEA-COMP:9657, Rhea:RHEA-COMP:13640,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57305,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78522; EC=3.1.1.96;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00518};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a D-aminoacyl-tRNA + H2O = a D-alpha-amino acid + H(+) + tRNA;
+CC         Xref=Rhea:RHEA:13953, Rhea:RHEA-COMP:10123, Rhea:RHEA-COMP:10124,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:59871,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:79333; EC=3.1.1.96;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00518};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00518}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00518}.
+CC   -!- DOMAIN: A Gly-cisPro motif from one monomer fits into the active site
+CC       of the other monomer to allow specific chiral rejection of L-amino
+CC       acids. {ECO:0000255|HAMAP-Rule:MF_00518}.
+CC   -!- SIMILARITY: Belongs to the DTD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00518}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000387; ABN43710.1; -; Genomic_DNA.
+DR   RefSeq; WP_002910787.1; NC_009009.1.
+DR   RefSeq; YP_001034260.1; NC_009009.1.
+DR   SMR; A3CKK5; -.
+DR   STRING; 388919.SSA_0251; -.
+DR   EnsemblBacteria; ABN43710; ABN43710; SSA_0251.
+DR   KEGG; ssa:SSA_0251; -.
+DR   PATRIC; fig|388919.9.peg.243; -.
+DR   eggNOG; COG1490; Bacteria.
+DR   HOGENOM; CLU_076901_1_0_9; -.
+DR   OMA; GVFQAHM; -.
+DR   OrthoDB; 1862614at2; -.
+DR   BioCyc; SSAN388919:SSA_0251-MONOMER; -.
+DR   Proteomes; UP000002148; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051499; F:D-aminoacyl-tRNA deacylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0106026; F:Gly-tRNA(Ala) hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043908; F:Ser(Gly)-tRNA(Ala) hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019478; P:D-amino acid catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00563; Dtyr_deacylase; 1.
+DR   Gene3D; 3.50.80.10; -; 1.
+DR   HAMAP; MF_00518; Deacylase_Dtd; 1.
+DR   InterPro; IPR003732; Daa-tRNA_deacyls_DTD.
+DR   InterPro; IPR023509; DTD-like_sf.
+DR   PANTHER; PTHR10472; PTHR10472; 1.
+DR   Pfam; PF02580; Tyr_Deacylase; 1.
+DR   SUPFAM; SSF69500; SSF69500; 1.
+DR   TIGRFAMs; TIGR00256; TIGR00256; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Reference proteome; RNA-binding; tRNA-binding.
+FT   CHAIN           1..147
+FT                   /note="D-aminoacyl-tRNA deacylase"
+FT                   /id="PRO_1000050896"
+FT   MOTIF           136..137
+FT                   /note="Gly-cisPro motif, important for rejection of L-amino
+FT                   acids"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00518"
+SQ   SEQUENCE   147 AA;  16250 MW;  F52EB54DF8DB5226 CRC64;
+     MKIVIQRVKR AQVSIDQQLR SSIGQGLLLL VGVGPDDSQE DMDYAVRKIV NMRIFSDAEG
+     KMNLSIKDID GEILSISQFT LHADTKKGNR PAFVKAAPPE MASNFYDAFN LALQQEVPTR
+     TGIFGADMQV ELVNDGPVTI ILDTKNR
+//

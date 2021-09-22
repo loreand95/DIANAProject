@@ -1,0 +1,88 @@
+ID   TRMD_RUMCH              Reviewed;         233 AA.
+AC   B8I7T5;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   07-APR-2021, entry version 71.
+DE   RecName: Full=tRNA (guanine-N(1)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE            EC=2.1.1.228 {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=M1G-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+DE   AltName: Full=tRNA [GM37] methyltransferase {ECO:0000255|HAMAP-Rule:MF_00605};
+GN   Name=trmD {ECO:0000255|HAMAP-Rule:MF_00605}; OrderedLocusNames=Ccel_0713;
+OS   Ruminiclostridium cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 /
+OS   H10) (Clostridium cellulolyticum).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae;
+OC   Ruminiclostridium.
+OX   NCBI_TaxID=394503;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35319 / DSM 5812 / JCM 6584 / H10;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Chertkov O., Saunders E., Brettin T.,
+RA   Detter J.C., Han C., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Ivanova N., Zhou J., Richardson P.;
+RT   "Complete sequence of Clostridium cellulolyticum H10.";
+RL   Submitted (JAN-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates guanosine-37 in various tRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(37) in tRNA + S-adenosyl-L-methionine = H(+) + N(1)-
+CC         methylguanosine(37) in tRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:36899, Rhea:RHEA-COMP:10145, Rhea:RHEA-COMP:10147,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:73542, ChEBI:CHEBI:74269; EC=2.1.1.228;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00605};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   -!- SIMILARITY: Belongs to the RNA methyltransferase TrmD family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00605}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001348; ACL75092.1; -; Genomic_DNA.
+DR   RefSeq; WP_015924259.1; NC_011898.1.
+DR   SMR; B8I7T5; -.
+DR   STRING; 394503.Ccel_0713; -.
+DR   EnsemblBacteria; ACL75092; ACL75092; Ccel_0713.
+DR   KEGG; cce:Ccel_0713; -.
+DR   eggNOG; COG0336; Bacteria.
+DR   HOGENOM; CLU_047363_0_1_9; -.
+DR   OMA; ILCGHYK; -.
+DR   OrthoDB; 525632at2; -.
+DR   BioCyc; CCEL394503:G1GUL-729-MONOMER; -.
+DR   Proteomes; UP000001349; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052906; F:tRNA (guanine(37)-N(1))-methyltransferase activity; IEA:UniProtKB-EC.
+DR   CDD; cd18080; TrmD-like; 1.
+DR   Gene3D; 1.10.1270.20; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   HAMAP; MF_00605; TrmD; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR002649; tRNA_m1G_MeTrfase_bac.
+DR   InterPro; IPR023148; tRNA_m1G_MeTrfase_C_sf.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   InterPro; IPR016009; tRNA_MeTrfase_TRMD/TRM10.
+DR   PANTHER; PTHR46417; PTHR46417; 1.
+DR   Pfam; PF01746; tRNA_m1G_MT; 1.
+DR   PIRSF; PIRSF000386; tRNA_mtase; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+DR   TIGRFAMs; TIGR00088; trmD; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..233
+FT                   /note="tRNA (guanine-N(1)-)-methyltransferase"
+FT                   /id="PRO_1000198564"
+FT   REGION          133..138
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00605"
+FT   BINDING         113
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00605"
+SQ   SEQUENCE   233 AA;  26432 MW;  CEB40CB1E10D873B CRC64;
+     MKFDVLTLFP ELFNTVMGES IIGRAQKNRL VEVNAVNIRD YSKDKHKKVD DYPFGGGNGM
+     VMMCQPVIDA YKAISEGMEQ KPKVIYMSPQ GKVLTQEMAK ELSKQEHLIL LCGHYEGIDE
+     RIIEEIIDEE ISIGDYVLTG GELPAMVLID CVSRLIPGVL STEGSFSDES HFNGLLEYPQ
+     YTRPADYNGN KVPEVLLSGH HANIEKWRMQ QSLDRTRDKR PDLFNKLPNK NLL
+//

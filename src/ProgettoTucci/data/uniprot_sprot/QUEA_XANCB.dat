@@ -1,0 +1,81 @@
+ID   QUEA_XANCB              Reviewed;         356 AA.
+AC   B0RRR0;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=S-adenosylmethionine:tRNA ribosyltransferase-isomerase {ECO:0000255|HAMAP-Rule:MF_00113};
+DE            EC=2.4.99.17 {ECO:0000255|HAMAP-Rule:MF_00113};
+DE   AltName: Full=Queuosine biosynthesis protein QueA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   Name=queA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   OrderedLocusNames=xcc-b100_1793;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J., Sidhu V.K.,
+RA   Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A., Niehaus K.,
+RA   Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use for
+RT   the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- FUNCTION: Transfers and isomerizes the ribose moiety from AdoMet to the
+CC       7-aminomethyl group of 7-deazaguanine (preQ1-tRNA) to give
+CC       epoxyqueuosine (oQ-tRNA). {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanosine(34) in tRNA + S-adenosyl-L-
+CC         methionine = adenine + epoxyqueuosine(34) in tRNA + H(+) + L-
+CC         methionine; Xref=Rhea:RHEA:32155, Rhea:RHEA-COMP:10342, Rhea:RHEA-
+CC         COMP:10346, ChEBI:CHEBI:15378, ChEBI:CHEBI:16708, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:82833, ChEBI:CHEBI:82834;
+CC         EC=2.4.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00113};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SIMILARITY: Belongs to the QueA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM920689; CAP51145.1; -; Genomic_DNA.
+DR   KEGG; xca:xcc-b100_1793; -.
+DR   HOGENOM; CLU_039110_1_0_6; -.
+DR   OMA; YSYGDGM; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.40.10.240; -; 1.
+DR   Gene3D; 3.40.1780.10; -; 1.
+DR   HAMAP; MF_00113; QueA; 1.
+DR   InterPro; IPR003699; QueA.
+DR   InterPro; IPR042118; QueA_dom1.
+DR   InterPro; IPR042119; QueA_dom2.
+DR   InterPro; IPR036100; QueA_sf.
+DR   PANTHER; PTHR30307; PTHR30307; 1.
+DR   Pfam; PF02547; Queuosine_synth; 1.
+DR   SUPFAM; SSF111337; SSF111337; 1.
+DR   TIGRFAMs; TIGR00113; queA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Queuosine biosynthesis; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..356
+FT                   /note="S-adenosylmethionine:tRNA ribosyltransferase-
+FT                   isomerase"
+FT                   /id="PRO_1000094829"
+SQ   SEQUENCE   356 AA;  39305 MW;  6FF547575D379FC8 CRC64;
+     MKKSDFHYDL PEELIAQAPL AERAASRLLV VPPTPAAFSD RQVRDLPELL QPGDLLIFND
+     TRVIPARLFG QKASGGRVEI LIERLLGGQQ ARAQIGASKS PKAGSVIALD AGGQAEVLGR
+     DGEFYLLRFD IPAPLEHWLL DAGRLPLPPY IRREPGLDDR ERYQTVFARE VGAVAAPTAG
+     LHFDEALLAR LRERGVEFGH VTLHVGAGTF QPVRVDALDK HVMHTEWLNV GAALVEQVRR
+     TRARGGRVIA VGTTVVRSLE SAWRKTDDAP HGELQPFAGE TQIFILPGYR IRSVDAMVTN
+     FHLPESTLLM MVSAFAGCDR IFAAYAHAIA QRYRFFSYGD AMLLWSREWG IGNGES
+//

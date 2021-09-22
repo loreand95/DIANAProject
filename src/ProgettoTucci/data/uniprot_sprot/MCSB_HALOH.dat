@@ -1,0 +1,102 @@
+ID   MCSB_HALOH              Reviewed;         349 AA.
+AC   B8D093;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Protein-arginine kinase {ECO:0000255|HAMAP-Rule:MF_00602};
+DE            EC=2.7.14.1 {ECO:0000255|HAMAP-Rule:MF_00602};
+GN   Name=mcsB {ECO:0000255|HAMAP-Rule:MF_00602}; OrderedLocusNames=Hore_00860;
+OS   Halothermothrix orenii (strain H 168 / OCM 544 / DSM 9562).
+OC   Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halanaerobiaceae;
+OC   Halothermothrix.
+OX   NCBI_TaxID=373903;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=H 168 / OCM 544 / DSM 9562;
+RX   PubMed=19145256; DOI=10.1371/journal.pone.0004192;
+RA   Mavromatis K., Ivanova N., Anderson I., Lykidis A., Hooper S.D., Sun H.,
+RA   Kunin V., Lapidus A., Hugenholtz P., Patel B., Kyrpides N.C.;
+RT   "Genome analysis of the anaerobic thermohalophilic bacterium
+RT   Halothermothrix orenii.";
+RL   PLoS ONE 4:E4192-E4192(2009).
+CC   -!- FUNCTION: Catalyzes the specific phosphorylation of arginine residues
+CC       in proteins. {ECO:0000255|HAMAP-Rule:MF_00602}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-arginyl-[protein] = ADP + H(+) + N(omega)-phospho-L-
+CC         arginyl-[protein]; Xref=Rhea:RHEA:43384, Rhea:RHEA-COMP:10532,
+CC         Rhea:RHEA-COMP:10533, ChEBI:CHEBI:15378, ChEBI:CHEBI:29965,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:83226, ChEBI:CHEBI:456216;
+CC         EC=2.7.14.1; Evidence={ECO:0000255|HAMAP-Rule:MF_00602};
+CC   -!- ACTIVITY REGULATION: Appears to be allosterically activated by the
+CC       binding of pArg-containing polypeptides to the pArg-binding pocket
+CC       localized in the C-terminal domain of McsB. {ECO:0000255|HAMAP-
+CC       Rule:MF_00602}.
+CC   -!- SIMILARITY: Belongs to the ATP:guanido phosphotransferase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00602}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001098; ACL68847.1; -; Genomic_DNA.
+DR   RefSeq; WP_012635046.1; NC_011899.1.
+DR   SMR; B8D093; -.
+DR   STRING; 373903.Hore_00860; -.
+DR   EnsemblBacteria; ACL68847; ACL68847; Hore_00860.
+DR   KEGG; hor:Hore_00860; -.
+DR   eggNOG; COG3869; Bacteria.
+DR   HOGENOM; CLU_066591_1_0_9; -.
+DR   OMA; NMREVFR; -.
+DR   OrthoDB; 904915at2; -.
+DR   Proteomes; UP000000719; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004111; F:creatine kinase activity; IEA:InterPro.
+DR   GO; GO:0004672; F:protein kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046314; P:phosphocreatine biosynthetic process; IEA:InterPro.
+DR   CDD; cd07930; bacterial_phosphagen_kinase; 1.
+DR   HAMAP; MF_00602; Prot_Arg_kinase; 1.
+DR   InterPro; IPR023660; Arg_Kinase.
+DR   InterPro; IPR000749; ATP-guanido_PTrfase.
+DR   InterPro; IPR022415; ATP-guanido_PTrfase_AS.
+DR   InterPro; IPR022414; ATP-guanido_PTrfase_cat.
+DR   InterPro; IPR014746; Gln_synth/guanido_kin_cat_dom.
+DR   PANTHER; PTHR11547; PTHR11547; 1.
+DR   Pfam; PF00217; ATP-gua_Ptrans; 1.
+DR   SUPFAM; SSF55931; SSF55931; 1.
+DR   PROSITE; PS00112; PHOSPHAGEN_KINASE; 1.
+DR   PROSITE; PS51510; PHOSPHAGEN_KINASE_C; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; ATP-binding; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..349
+FT                   /note="Protein-arginine kinase"
+FT                   /id="PRO_1000147062"
+FT   DOMAIN          24..252
+FT                   /note="Phosphagen kinase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   NP_BIND         27..31
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   NP_BIND         174..178
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   NP_BIND         205..210
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   MOTIF           335..340
+FT                   /note="RDXXRA motif of the pArg binding pocket involved in
+FT                   allosteric regulation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   BINDING         89
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+FT   BINDING         123
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00602"
+SQ   SEQUENCE   349 AA;  39109 MW;  73E22A40C69F4EC8 CRC64;
+     MSLKDLINKN LSHWVAGQGP ERDIVLSSRI RLARNLDTIP YPNRADKDSK EEVTKRVLDA
+     TSKQGKIKLH YIKMDDLPEV EREVLVEKHL ISPAHAKAGE GKGVLLNDNE TISIMINEED
+     HLRLQVLIPG LQLEGAWETA SELDDLLEEK LDFAFSQKWG YLSACPTNVG TGLRASVMVH
+     LPALNLTNNI NKMLGAISKV GLTVRGIYGE GSEYVGNLYQ ISNQVTLGHT EKEIIANLKS
+     VTSQIIEQER QARNLLLKEK EIEVRDRVNR SFGILSHAYQ ISSEEALRML SNVKLGIDMG
+     IITDVDTGVL SELMVLIRPA HLQKLEGKEL TPTERDIKRA ELIKTRLNM
+//

@@ -1,0 +1,112 @@
+ID   RNZ_MYCMM               Reviewed;         279 AA.
+AC   B2HMC3;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Ribonuclease Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            Short=RNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            EC=3.1.26.11 {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNA 3 endonuclease {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+GN   Name=rnz {ECO:0000255|HAMAP-Rule:MF_01818}; OrderedLocusNames=MMAR_3727;
+OS   Mycobacterium marinum (strain ATCC BAA-535 / M).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=216594;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-535 / M;
+RX   PubMed=18403782; DOI=10.1101/gr.075069.107;
+RA   Stinear T.P., Seemann T., Harrison P.F., Jenkin G.A., Davies J.K.,
+RA   Johnson P.D., Abdellah Z., Arrowsmith C., Chillingworth T., Churcher C.,
+RA   Clarke K., Cronin A., Davis P., Goodhead I., Holroyd N., Jagels K.,
+RA   Lord A., Moule S., Mungall K., Norbertczak H., Quail M.A.,
+RA   Rabbinowitsch E., Walker D., White B., Whitehead S., Small P.L., Brosch R.,
+RA   Ramakrishnan L., Fischbach M.A., Parkhill J., Cole S.T.;
+RT   "Insights from the complete genome sequence of Mycobacterium marinum on the
+RT   evolution of Mycobacterium tuberculosis.";
+RL   Genome Res. 18:729-741(2008).
+CC   -!- FUNCTION: Zinc phosphodiesterase, which displays some tRNA 3'-
+CC       processing endonuclease activity. Probably involved in tRNA maturation,
+CC       by removing a 3'-trailer from precursor tRNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage of RNA, removing extra 3' nucleotides
+CC         from tRNA precursor, generating 3' termini of tRNAs. A 3'-hydroxy
+CC         group is left at the tRNA terminus and a 5'-phosphoryl group is left
+CC         at the trailer molecule.; EC=3.1.26.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01818};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01818};
+CC       Note=Binds 2 Zn(2+) ions. {ECO:0000255|HAMAP-Rule:MF_01818};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01818}.
+CC   -!- SIMILARITY: Belongs to the RNase Z family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000854; ACC42143.1; -; Genomic_DNA.
+DR   RefSeq; WP_012395339.1; NC_010612.1.
+DR   SMR; B2HMC3; -.
+DR   STRING; 216594.MMAR_3727; -.
+DR   EnsemblBacteria; ACC42143; ACC42143; MMAR_3727.
+DR   KEGG; mmi:MMAR_3727; -.
+DR   eggNOG; COG1234; Bacteria.
+DR   HOGENOM; CLU_031317_0_0_11; -.
+DR   OMA; DHNADYG; -.
+DR   OrthoDB; 1712770at2; -.
+DR   Proteomes; UP000001190; Chromosome.
+DR   GO; GO:0042781; F:3'-tRNA processing endoribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   CDD; cd07719; arylsulfatase_AtsA-like_MBL-fold; 1.
+DR   Gene3D; 3.60.15.10; -; 1.
+DR   HAMAP; MF_01818; RNase_Z_BN; 1.
+DR   InterPro; IPR044094; AtsA-like_MBL-fold.
+DR   InterPro; IPR001279; Metallo-B-lactamas.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   InterPro; IPR013471; RNase_Z/BN.
+DR   Pfam; PF12706; Lactamase_B_2; 1.
+DR   SMART; SM00849; Lactamase_B; 1.
+DR   SUPFAM; SSF56281; SSF56281; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease; Hydrolase; Metal-binding; Nuclease; Reference proteome;
+KW   tRNA processing; Zinc.
+FT   CHAIN           1..279
+FT                   /note="Ribonuclease Z"
+FT                   /id="PRO_1000187973"
+FT   ACT_SITE        65
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           61
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           63
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           65
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           66
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           153
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           176
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           176
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           240
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+SQ   SEQUENCE   279 AA;  29291 MW;  22C5EDFD4A5D7391 CRC64;
+     MIEITLLGTG SPIPDPDRAG PSTLVRAGGQ VFLVDCGRGV LQRAAAVGVG AAGLSAVLLT
+     HLHSDHIAEL GDVLITSWVT NFAADPAPLQ VIGPPGTAET VDAMLKAFGR DIGYRIAHHA
+     DLNAPPPIEV HEYTDGTVWD RDGVAIRVAP TDHRPVAPTI GFRVEFDGAS AVLAGDTVPC
+     PSLDELAAGA GALVHTVIRK DIITNFPQQR VKDICDYHSS VQEAAATAAR AGVGTLVMTH
+     YVPAIIAGQE DQWRALAATE FGGRIELGND LHRVEVHAR
+//

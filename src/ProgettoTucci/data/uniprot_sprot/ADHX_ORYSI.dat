@@ -1,0 +1,189 @@
+ID   ADHX_ORYSI              Reviewed;         381 AA.
+AC   A2XAZ3; P93436; Q6K6C1;
+DT   12-JUN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAR-2007, sequence version 1.
+DT   10-FEB-2021, entry version 89.
+DE   RecName: Full=Alcohol dehydrogenase class-3;
+DE            EC=1.1.1.1 {ECO:0000250|UniProtKB:Q96533};
+DE   AltName: Full=Alcohol dehydrogenase class-III;
+DE   AltName: Full=Glutathione-dependent formaldehyde dehydrogenase;
+DE            Short=FALDH;
+DE            Short=FDH;
+DE            Short=GSH-FDH;
+DE            EC=1.1.1.-;
+DE   AltName: Full=S-(hydroxymethyl)glutathione dehydrogenase;
+DE            EC=1.1.1.284 {ECO:0000250|UniProtKB:Q96533};
+GN   Name=ADHIII; ORFNames=OsI_009236;
+OS   Oryza sativa subsp. indica (Rice).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+OX   NCBI_TaxID=39946;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. IR36;
+RX   PubMed=9215914;
+RA   Dolferus R., Osterman J.C., Peacock W.J., Dennis E.S.;
+RT   "Cloning of the Arabidopsis and rice formaldehyde dehydrogenase genes:
+RT   implications for the origin of plant ADH enzymes.";
+RL   Genetics 146:1131-1141(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. 93-11;
+RX   PubMed=15685292; DOI=10.1371/journal.pbio.0030038;
+RA   Yu J., Wang J., Lin W., Li S., Li H., Zhou J., Ni P., Dong W., Hu S.,
+RA   Zeng C., Zhang J., Zhang Y., Li R., Xu Z., Li S., Li X., Zheng H., Cong L.,
+RA   Lin L., Yin J., Geng J., Li G., Shi J., Liu J., Lv H., Li J., Wang J.,
+RA   Deng Y., Ran L., Shi X., Wang X., Wu Q., Li C., Ren X., Wang J., Wang X.,
+RA   Li D., Liu D., Zhang X., Ji Z., Zhao W., Sun Y., Zhang Z., Bao J., Han Y.,
+RA   Dong L., Ji J., Chen P., Wu S., Liu J., Xiao Y., Bu D., Tan J., Yang L.,
+RA   Ye C., Zhang J., Xu J., Zhou Y., Yu Y., Zhang B., Zhuang S., Wei H.,
+RA   Liu B., Lei M., Yu H., Li Y., Xu H., Wei S., He X., Fang L., Zhang Z.,
+RA   Zhang Y., Huang X., Su Z., Tong W., Li J., Tong Z., Li S., Ye J., Wang L.,
+RA   Fang L., Lei T., Chen C.-S., Chen H.-C., Xu Z., Li H., Huang H., Zhang F.,
+RA   Xu H., Li N., Zhao C., Li S., Dong L., Huang Y., Li L., Xi Y., Qi Q.,
+RA   Li W., Zhang B., Hu W., Zhang Y., Tian X., Jiao Y., Liang X., Jin J.,
+RA   Gao L., Zheng W., Hao B., Liu S.-M., Wang W., Yuan L., Cao M.,
+RA   McDermott J., Samudrala R., Wang J., Wong G.K.-S., Yang H.;
+RT   "The genomes of Oryza sativa: a history of duplications.";
+RL   PLoS Biol. 3:266-281(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a primary alcohol + NAD(+) = an aldehyde + H(+) + NADH;
+CC         Xref=Rhea:RHEA:10736, ChEBI:CHEBI:15378, ChEBI:CHEBI:15734,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:Q96533};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a secondary alcohol + NAD(+) = a ketone + H(+) + NADH;
+CC         Xref=Rhea:RHEA:10740, ChEBI:CHEBI:15378, ChEBI:CHEBI:17087,
+CC         ChEBI:CHEBI:35681, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.1;
+CC         Evidence={ECO:0000250|UniProtKB:Q96533};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + S-(hydroxymethyl)glutathione = H(+) + NADPH + S-
+CC         formylglutathione; Xref=Rhea:RHEA:19981, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57688, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:58758; EC=1.1.1.284;
+CC         Evidence={ECO:0000250|UniProtKB:Q96533};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + S-(hydroxymethyl)glutathione = H(+) + NADH + S-
+CC         formylglutathione; Xref=Rhea:RHEA:19985, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57688, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:58758; EC=1.1.1.284;
+CC         Evidence={ECO:0000250|UniProtKB:Q96533};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q96533};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000250|UniProtKB:Q96533};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q96533}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P06525}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. Class-III subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U77637; AAB19117.1; -; Genomic_DNA.
+DR   EMBL; CM000127; EAY88003.1; -; Genomic_DNA.
+DR   PIR; T04164; T04164.
+DR   SMR; A2XAZ3; -.
+DR   PRIDE; A2XAZ3; -.
+DR   EnsemblPlants; BGIOSGA009283-TA; BGIOSGA009283-PA; BGIOSGA009283.
+DR   Gramene; BGIOSGA009283-TA; BGIOSGA009283-PA; BGIOSGA009283.
+DR   HOGENOM; CLU_026673_14_0_1; -.
+DR   OMA; ATHKGWG; -.
+DR   Proteomes; UP000007015; Chromosome 2.
+DR   GO; GO:0005829; C:cytosol; IEA:EnsemblPlants.
+DR   GO; GO:0005777; C:peroxisome; IEA:EnsemblPlants.
+DR   GO; GO:0004022; F:alcohol dehydrogenase (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106322; F:S-(hydroxymethyl)glutathione dehydrogenase NAD activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106321; F:S-(hydroxymethyl)glutathione dehydrogenase NADP activity; IEA:UniProtKB-EC.
+DR   GO; GO:0080007; F:S-nitrosoglutathione reductase activity; IEA:EnsemblPlants.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0008219; P:cell death; IEA:EnsemblPlants.
+DR   GO; GO:0006069; P:ethanol oxidation; IEA:InterPro.
+DR   GO; GO:0046292; P:formaldehyde metabolic process; IEA:EnsemblPlants.
+DR   GO; GO:0010286; P:heat acclimation; IEA:EnsemblPlants.
+DR   GO; GO:0048316; P:seed development; IEA:EnsemblPlants.
+DR   CDD; cd08300; alcohol_DH_class_III; 1.
+DR   InterPro; IPR014183; ADH_3.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_N.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 2.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR02818; adh_III_F_hyde; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Metal-binding; NAD; Oxidoreductase; Reference proteome; Zinc.
+FT   CHAIN           1..381
+FT                   /note="Alcohol dehydrogenase class-3"
+FT                   /id="PRO_0000291457"
+FT   NP_BIND         204..209
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   NP_BIND         297..299
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   NP_BIND         322..324
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           49
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           71
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           72
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           101
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           104
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           107
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           115
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   METAL           179
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   BINDING         50
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   BINDING         51
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P06525"
+FT   BINDING         71
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P00327"
+FT   BINDING         228
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   BINDING         233
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   BINDING         274
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   BINDING         374
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q96533"
+FT   CONFLICT        48
+FT                   /note="L -> F (in Ref. 1; AAB19117)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   381 AA;  40795 MW;  5B8A11601EDB30CE CRC64;
+     MASSTQGQVI TCKAAVAWEA NKPMTIEDVQ VAPPQAGEVR VKILFTALCH TDHYTWSGKD
+     PEGLFPCILG HEAAGIVESV GEGVTEVQPG DHVIPCYQAE CRECKFCKSG KTNLCGKVRA
+     ATGVGVMMND RKSRFSINGK PIYHFMGTST FSQYTVVHDV SVAKINPQAP LDKVCLLGCG
+     VSTGLGAVWN TAKVEAGSIV AIFGLGTVGL AVAEGAKSAG ASRIIGIDID SKKFDVAKNF
+     GVTEFVNPKD HDKPIQQVIV DLTDGGVDYS FECIGNVSVM RSALECCHKG WGTSVIVGVA
+     ASGQEISTRP FQLVTGRVWK GTAFGGFKSR SQVPWLVEKY LNKEIKVDEY VTHSMNLTDI
+     NKAFDLLHEG GCLRCVLATD K
+//

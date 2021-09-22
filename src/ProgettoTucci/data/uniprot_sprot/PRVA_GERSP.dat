@@ -1,0 +1,80 @@
+ID   PRVA_GERSP              Reviewed;         110 AA.
+AC   P80080;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   11-DEC-2019, entry version 88.
+DE   RecName: Full=Parvalbumin alpha;
+GN   Name=PVALB;
+OS   Gerbillus sp. (Gerbil).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Gerbillinae; Gerbillus; unclassified Gerbillus.
+OX   NCBI_TaxID=10187;
+RN   [1]
+RP   PROTEIN SEQUENCE OF 2-110, AND ACETYLATION AT SER-2.
+RC   TISSUE=Skeletal muscle;
+RX   PubMed=1420326; DOI=10.1016/0167-4838(92)90032-9;
+RA   Hauer C.R., Staudenmann W., Kuster T., Neuheiser F., Hughes G.J.,
+RA   Seto-Ohshima A., Tanokura M., Heizmann C.W.;
+RT   "Protein sequence determination by ESI-MS and LSI-MS tandem mass
+RT   spectrometry: parvalbumin primary structures from cat, gerbil and monkey
+RT   skeletal muscle.";
+RL   Biochim. Biophys. Acta 1160:1-7(1992).
+CC   -!- FUNCTION: In muscle, parvalbumin is thought to be involved in
+CC       relaxation after contraction. It binds two calcium ions (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the parvalbumin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P80080; -.
+DR   iPTMnet; P80080; -.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR008080; Parvalbumin.
+DR   PANTHER; PTHR11653; PTHR11653; 1.
+DR   Pfam; PF13499; EF-hand_7; 1.
+DR   SMART; SM00054; EFh; 2.
+DR   SUPFAM; SSF47473; SSF47473; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 2.
+DR   PROSITE; PS50222; EF_HAND_2; 2.
+PE   1: Evidence at protein level;
+KW   Acetylation; Calcium; Direct protein sequencing; Metal-binding;
+KW   Muscle protein; Phosphoprotein; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:1420326"
+FT   CHAIN           2..110
+FT                   /note="Parvalbumin alpha"
+FT                   /id="PRO_0000073587"
+FT   DOMAIN          39..74
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          78..110
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         52..63
+FT                   /note="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         91..102
+FT                   /note="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   MOD_RES         2
+FT                   /note="N-acetylserine"
+FT                   /evidence="ECO:0000269|PubMed:1420326"
+FT   MOD_RES         2
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02625"
+FT   MOD_RES         8
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02625"
+FT   MOD_RES         24
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P02625"
+SQ   SEQUENCE   110 AA;  11994 MW;  AF72CD528A4AC09D CRC64;
+     MSMTDLLSAE DIKKAIGAFA AADSFDHKKF FQMVGLKKKT PDDVKKVFHI LDKDKSGFIE
+     EDELGFILKG FSSDARDLSA KETKTLLAAG DKDGDGKIGV EEFSTLVSES
+//

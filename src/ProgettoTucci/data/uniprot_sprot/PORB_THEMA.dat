@@ -1,0 +1,105 @@
+ID   PORB_THEMA              Reviewed;         324 AA.
+AC   Q56317;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   02-DEC-2020, entry version 117.
+DE   RecName: Full=Pyruvate synthase subunit PorB;
+DE            EC=1.2.7.1;
+DE   AltName: Full=Pyruvate oxidoreductase beta chain;
+DE            Short=POR;
+DE   AltName: Full=Pyruvic-ferredoxin oxidoreductase subunit beta;
+GN   Name=porB; OrderedLocusNames=TM_0018;
+OS   Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PROTEIN SEQUENCE OF 2-17 AND 20-44.
+RC   STRAIN=ATCC 43589 / MSB8 / DSM 3109 / JCM 10099;
+RX   PubMed=8550425; DOI=10.1128/jb.178.1.248-257.1996;
+RA   Kletzin A., Adams M.W.W.;
+RT   "Molecular and phylogenetic characterization of pyruvate and 2-
+RT   ketoisovalerate ferredoxin oxidoreductases from Pyrococcus furiosus and
+RT   pyruvate ferredoxin oxidoreductase from Thermotoga maritima.";
+RL   J. Bacteriol. 178:248-257(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / MSB8 / DSM 3109 / JCM 10099;
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CoA + 2 oxidized [2Fe-2S]-[ferredoxin] + pyruvate = acetyl-CoA
+CC         + CO2 + H(+) + 2 reduced [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:12765,
+CC         Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15361,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=1.2.7.1;
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250|UniProtKB:P94692};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit.
+CC       {ECO:0000250|UniProtKB:P94692};
+CC   -!- SUBUNIT: Heterotetramer of one alpha, one beta, one delta and one gamma
+CC       chain.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X85171; CAA59458.1; -; Genomic_DNA.
+DR   EMBL; AE000512; AAD35112.1; -; Genomic_DNA.
+DR   PIR; B59427; D72427.
+DR   RefSeq; NP_227834.1; NC_000853.1.
+DR   RefSeq; WP_004082462.1; NZ_CP011107.1.
+DR   SMR; Q56317; -.
+DR   STRING; 243274.THEMA_04710; -.
+DR   EnsemblBacteria; AAD35112; AAD35112; TM_0018.
+DR   KEGG; tma:TM0018; -.
+DR   eggNOG; COG1013; Bacteria.
+DR   InParanoid; Q56317; -.
+DR   OMA; ATGCMEV; -.
+DR   OrthoDB; 981516at2; -.
+DR   BioCyc; MetaCyc:MONOMER-424; -.
+DR   Proteomes; UP000008183; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019164; F:pyruvate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:InterPro.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR011766; TPP_enzyme-bd_C.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   SUPFAM; SSF52518; SSF52518; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Direct protein sequencing; Iron; Iron-sulfur; Metal-binding;
+KW   Oxidoreductase; Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:8550425"
+FT   CHAIN           2..324
+FT                   /note="Pyruvate synthase subunit PorB"
+FT                   /id="PRO_0000099909"
+FT   METAL           26
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P94692"
+FT   METAL           29
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P94692"
+FT   METAL           57
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P94692"
+FT   METAL           228
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:P94692"
+SQ   SEQUENCE   324 AA;  36385 MW;  2425239D778A6A0E CRC64;
+     MPVNIKQLAQ EFDKKEIGIT QGHRLCPGCG APITVKFVMM IARHLGYEPV VGLATGCLEV
+     STSIYPYTAW SVPYIHNAFE NVAATMSGVE TAYKALKNKG KIPEDKKYAF IAFGGDGGTY
+     DIGLQSLSGM LERGHKVLYV LYDNEGYMNT GNQRSGSTPP GSDTTTAPVG KKLPGKVQLK
+     KNIVEIVAAH ENVYAATASL SEPMDFFAKV EKALNFDGPS FLAVFSPCVR FWRVNDDKTV
+     EISKLAVETK YWPLYEVERG VYRVTRKPRQ FKPVEEFLKA QGRFRKLLSR PDAKEIVDEL
+     QEYVDRRWER LLTLEEVTKD KPIR
+//

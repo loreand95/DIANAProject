@@ -1,0 +1,115 @@
+ID   DER_BURPS               Reviewed;         445 AA.
+AC   Q63US9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 105.
+DE   RecName: Full=GTPase Der {ECO:0000255|HAMAP-Rule:MF_00195};
+DE   AltName: Full=GTP-binding protein EngA {ECO:0000255|HAMAP-Rule:MF_00195};
+GN   Name=der {ECO:0000255|HAMAP-Rule:MF_00195}; Synonyms=engA;
+GN   OrderedLocusNames=BPSL1517;
+OS   Burkholderia pseudomallei (strain K96243).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=272560;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K96243;
+RX   PubMed=15377794; DOI=10.1073/pnas.0403302101;
+RA   Holden M.T.G., Titball R.W., Peacock S.J., Cerdeno-Tarraga A.-M.,
+RA   Atkins T., Crossman L.C., Pitt T., Churcher C., Mungall K.L., Bentley S.D.,
+RA   Sebaihia M., Thomson N.R., Bason N., Beacham I.R., Brooks K., Brown K.A.,
+RA   Brown N.F., Challis G.L., Cherevach I., Chillingworth T., Cronin A.,
+RA   Crossett B., Davis P., DeShazer D., Feltwell T., Fraser A., Hance Z.,
+RA   Hauser H., Holroyd S., Jagels K., Keith K.E., Maddison M., Moule S.,
+RA   Price C., Quail M.A., Rabbinowitsch E., Rutherford K., Sanders M.,
+RA   Simmonds M., Songsivilai S., Stevens K., Tumapa S., Vesaratchavest M.,
+RA   Whitehead S., Yeats C., Barrell B.G., Oyston P.C.F., Parkhill J.;
+RT   "Genomic plasticity of the causative agent of melioidosis, Burkholderia
+RT   pseudomallei.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14240-14245(2004).
+CC   -!- FUNCTION: GTPase that plays an essential role in the late steps of
+CC       ribosome biogenesis. {ECO:0000255|HAMAP-Rule:MF_00195}.
+CC   -!- SUBUNIT: Associates with the 50S ribosomal subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00195}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. EngA (Der) GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00195}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571965; CAH35518.1; -; Genomic_DNA.
+DR   RefSeq; WP_004192452.1; NZ_CP009538.1.
+DR   RefSeq; YP_108137.1; NC_006350.1.
+DR   SMR; Q63US9; -.
+DR   STRING; 272560.BPSL1517; -.
+DR   EnsemblBacteria; CAH35518; CAH35518; BPSL1517.
+DR   GeneID; 56595744; -.
+DR   KEGG; bps:BPSL1517; -.
+DR   PATRIC; fig|272560.51.peg.3555; -.
+DR   eggNOG; COG1160; Bacteria.
+DR   OMA; GVTEQDQ; -.
+DR   BioCyc; BPSE272560:G1G3Q-1579-MONOMER; -.
+DR   Proteomes; UP000000605; Chromosome 1.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.300.20; -; 1.
+DR   HAMAP; MF_00195; GTPase_Der; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR031166; G_ENGA.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR016484; GTP-bd_EngA.
+DR   InterPro; IPR032859; KH_dom-like.
+DR   InterPro; IPR015946; KH_dom-like_a/b.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF14714; KH_dom-like; 1.
+DR   Pfam; PF01926; MMR_HSR1; 2.
+DR   PIRSF; PIRSF006485; GTP-binding_EngA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR03594; GTPase_EngA; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 2.
+DR   PROSITE; PS51712; G_ENGA; 2.
+PE   3: Inferred from homology;
+KW   GTP-binding; Nucleotide-binding; Reference proteome; Repeat;
+KW   Ribosome biogenesis.
+FT   CHAIN           1..445
+FT                   /note="GTPase Der"
+FT                   /id="PRO_1000011585"
+FT   DOMAIN          3..167
+FT                   /note="EngA-type G 1"
+FT   DOMAIN          180..353
+FT                   /note="EngA-type G 2"
+FT   DOMAIN          354..438
+FT                   /note="KH-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         9..16
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         56..60
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         119..122
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         186..193
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         233..237
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+FT   NP_BIND         298..301
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00195"
+SQ   SEQUENCE   445 AA;  49077 MW;  D0648A3F30D69612 CRC64;
+     MKPVIALVGR PNVGKSTLFN RLTRSRDALV ADLPGLTRDR HYGEGRVGAR PYLVVDTGGF
+     EPVAKDGILH EMARQTRQAV EEADVVVFIV DGRNGLAPQD KSIADYLRKT GRPIFLVVNK
+     AEGMKYTAVA SDFYELGLGD PRAISAAHGD GVNDMINEAL EVAYAGEPQE SEEAAAARGI
+     KIAIVGRPNV GKSTLVNTLI GEDRVIAFDM PGTTRDSIYV DFERNGKHYT LIDTAGLRRR
+     GKVFEAIEKF SVVKTLQSIS DANVVILLLD ARQDISDQDA HIAGFVVEQG RALVVGVNKW
+     DGLDPHVRER TKADLARKLK FLEFAKFHFI SAAEKTGIGA LMRSVDDAYA AAMKKLPTPK
+     LTRALIEAVE FQQPRRRGPV RPKLRYAHQG GQNPPIIVIH GNALDAVTET YKRYLENRFR
+     ETFSLTGTPL RIEFRSSTNP YADKD
+//

@@ -1,0 +1,194 @@
+ID   BREF7_EUPBR             Reviewed;        2373 AA.
+AC   A0A068ABB7;
+DT   18-JUL-2018, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2014, sequence version 1.
+DT   07-APR-2021, entry version 33.
+DE   RecName: Full=Highly reducing polyketide synthase {ECO:0000303|PubMed:24845309};
+DE            Short=HRPKS {ECO:0000303|PubMed:24845309};
+DE            EC=2.3.1.- {ECO:0000269|PubMed:24845309};
+DE   AltName: Full=Brefeldin A biosynthesis cluster protein {ECO:0000303|PubMed:24845309};
+GN   Name=Bref-PKS {ECO:0000303|PubMed:24845309};
+GN   Synonyms=orf7 {ECO:0000303|PubMed:24845309};
+OS   Eupenicillium brefeldianum (Penicillium brefeldianum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium.
+OX   NCBI_TaxID=1131482;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], INDUCTION, FUNCTION, CATALYTIC ACTIVITY,
+RP   DOMAIN, AND PATHWAY.
+RC   STRAIN=ATCC 58665;
+RX   PubMed=24845309; DOI=10.1021/cb500284t;
+RA   Zabala A.O., Chooi Y.H., Choi M.S., Lin H.C., Tang Y.;
+RT   "Fungal polyketide synthase product chain-length control by partnering
+RT   thiohydrolase.";
+RL   ACS Chem. Biol. 9:1576-1586(2014).
+CC   -!- FUNCTION: Highly reducing polyketide synthase; part of the gene cluster
+CC       that mediates the biosynthesis of brefeldin A (BFA), a protein
+CC       transport inhibitor that shows antiviral, antifungal, and antitumor
+CC       properties (PubMed:24845309). The proposed biosynthesis of BFA involves
+CC       formation of an acyclic polyketide chain that is differentially
+CC       tailored throughout the backbone (PubMed:24845309). The highly reducing
+CC       polyketide synthase Bref-PKS is proposed to synthesize the precisely
+CC       reduced octaketide precursor, which could then be directly offloaded by
+CC       the thiohydrolase enzyme Bref-TH followed by a cytochrome P450
+CC       monooxygenase-mediated formation of the cyclopentane ring and
+CC       macrocyclization to afford 7-deoxy BFA. Alternatively, the first ring
+CC       annulation can also occur on the ACP-tethered intermediate before the
+CC       thiohydrolase release and lactonization (PubMed:24845309). The C7-
+CC       hydroxylation by another cytochrome P450 monooxygenase is believed to
+CC       be the final step in the process to obtain the final structure of BFA
+CC       (PubMed:24845309). In addition to the HRPKS Bref-PKS and the
+CC       thiohydrolase Bref-TH, the brefeldin A biosynthesis cluster contains 4
+CC       cytochrome p450 monooxygenases (called orf3 to orf6), as well a the
+CC       probable cluster-specific transcription regulator orf8
+CC       (PubMed:24845309). {ECO:0000269|PubMed:24845309}.
+CC   -!- COFACTOR:
+CC       Name=pantetheine 4'-phosphate; Xref=ChEBI:CHEBI:47942;
+CC         Evidence={ECO:0000250|UniProtKB:Q9Y8A5};
+CC       Note=Binds 1 phosphopantetheine covalently.
+CC       {ECO:0000250|UniProtKB:Q9Y8A5};
+CC   -!- PATHWAY: Mycotoxin biosynthesis. {ECO:0000269|PubMed:24845309}.
+CC   -!- INDUCTION: Coexpressed with the other cluster genes on brefeldin A
+CC       production optimized medium. {ECO:0000269|PubMed:24845309}.
+CC   -!- DOMAIN: Multidomain protein; including a ketosynthase (KS) that
+CC       catalyzes repeated decarboxylative condensation to elongate the
+CC       polyketide backbone; a malonyl-CoA:ACP transacylase (MAT) that selects
+CC       and transfers the extender unit malonyl-CoA; a dehydratase (DH) domain
+CC       that reduces hydroxyl groups to enoyl groups; an enoylreductase (ER)
+CC       domain that reduces enoyl groups to alkyl group; a ketoreductase (KR)
+CC       domain that catalyzes beta-ketoreduction steps; and an acyl-carrier
+CC       protein (ACP) that serves as the tether of the growing and completed
+CC       polyketide via its phosphopantetheinyl arm.
+CC       {ECO:0000305|PubMed:24845309}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KJ728786; AIA58899.1; -; Genomic_DNA.
+DR   SMR; A0A068ABB7; -.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IEA:InterPro.
+DR   GO; GO:0016746; F:transferase activity, transferring acyl groups; IEA:UniProtKB-KW.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.129.110; -; 1.
+DR   Gene3D; 3.40.366.10; -; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR014043; Acyl_transferase.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR013154; ADH_N.
+DR   InterPro; IPR011032; GroES-like_sf.
+DR   InterPro; IPR014031; Ketoacyl_synth_C.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR032821; PKS_assoc.
+DR   InterPro; IPR020841; PKS_Beta-ketoAc_synthase_dom.
+DR   InterPro; IPR020807; PKS_dehydratase.
+DR   InterPro; IPR042104; PKS_dehydratase_sf.
+DR   InterPro; IPR020843; PKS_ER.
+DR   InterPro; IPR013968; PKS_KR.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF16197; KAsynt_C_assoc; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 1.
+DR   Pfam; PF02801; Ketoacyl-synt_C; 1.
+DR   Pfam; PF08659; KR; 1.
+DR   Pfam; PF14765; PS-DH; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SMART; SM00826; PKS_DH; 1.
+DR   SMART; SM00829; PKS_ER; 1.
+DR   SMART; SM00825; PKS_KS; 1.
+DR   SMART; SM00823; PKS_PP; 1.
+DR   SUPFAM; SSF47336; SSF47336; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   SUPFAM; SSF51735; SSF51735; 3.
+DR   SUPFAM; SSF52151; SSF52151; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   SUPFAM; SSF55048; SSF55048; 1.
+DR   PROSITE; PS50075; CARRIER; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Multifunctional enzyme; NADP; Oxidoreductase;
+KW   Phosphopantetheine; Phosphoprotein; Transferase.
+FT   CHAIN           1..2373
+FT                   /note="Highly reducing polyketide synthase"
+FT                   /id="PRO_0000444935"
+FT   DOMAIN          2294..2370
+FT                   /note="Carrier"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258,
+FT                   ECO:0000305|PubMed:24845309"
+FT   REGION          22..449
+FT                   /note="Ketosynthase (KS) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:24845309"
+FT   REGION          560..874
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:24845309"
+FT   REGION          942..1241
+FT                   /note="Dehydrogenase (DH) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:24845309"
+FT   REGION          1669..1985
+FT                   /note="Enoyl reductase (ER) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:24845309"
+FT   REGION          2010..2187
+FT                   /note="Ketoreductase (KR) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:24845309"
+FT   ACT_SITE        192
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        192
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        652
+FT                   /note="For malonyltransferase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        974
+FT                   /note="For beta-hydroxyacyl dehydratase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   MOD_RES         2330
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+SQ   SEQUENCE   2373 AA;  257334 MW;  0E684BC86CF00D14 CRC64;
+     MAPHNSLDDT PLSSRTFIQE PIAVVGIACR LPGHSSTPKK LWDFLERGGI AANDTPSTRF
+     NLAAHHDGSK KPKTMRTPGG MFIEDADPRD FDAGFFGISG ADAAAMDPQQ RQLMEVVYEC
+     LENSGVPFEK LYGAQVACHV GSYAVDYDAI QARDPEDRAP GAVVGIGRAM LSNRISHFFN
+     FKGPSMTIDT ACSGSLVGLD VACRYLHTGE VDGAIIGGAN MYFSPEHNLN TGAMSVANSL
+     SGRCHTFDVK ADGYCKAEAI NCVYLKRLSD AVRDGDPIRA VIRGSATNSD GNTPGIASPN
+     SAAQAAAIRS AYANAGITNL NDTSYLEFHG TGTQAGDPLE AGGVASVFSA SRKPEAPLYI
+     GSVKSNIGHS EPAAGISGLI KAILSIEKDL IPGNPTFITP TPKIDFEGLK LQPSRANRRW
+     PAAPFKRASV NSFGYGGSNA HVIVEEPKVL LPDMESTYVS SYQTEADLFA DDEEVAGGRL
+     QLLVLSANDE ASLRANATTL KNYLTNPNVK ISLGDLSHTL SERRSHHFHR GYLITDKASI
+     DENALVIGKK STNEPRVGFI FTGQGAQWPQ MGKAIIDTFP EARAVVLELD EFLQSSSLPP
+     SWSLLGELTE PREAEHLRKP EFSQPLVTAL QIALFDILQR WGISPRAVAG HSSGEIAAAY
+     AAGLLSKKAA IRAAYYRGQA AALAEKGTAD QNQQAFGMMA TGIGAEGITP YLQGLGQSVQ
+     IACYNSPSSL TLSGTVDALA KVQKQLSEDS IFARMLQVNL AYHSTFMREI SQGYTDLLNK
+     DFEHLPFKQD SVRMFSSVTG EQLAGPTDSE YWKSNMVCPV RFDAALSNML TASDAPDFLI
+     ELGPAGALKG PISQVLKSLE GTKAQYTSAM ARGAADMQSI FAVAGSLYVA GGKVDLAQVN
+     KVDGIKPKVV IDLPNYSWNH STKYWYESES SKDWRNRLFP PHDLLGSKVL GSPWRSPAFM
+     RSLNVQDLPW IADHKMGPDT VFPATGYISM AMEAIYQRSE ALHMLEGEKK VENPRYRLRD
+     VQFKKALVLP DNQSTRMSLT LSAYTGVGDW FEFKVSSLAG TTWIEHVRGL IRIDEDVPQV
+     ASAEEIKPLS HQVDASLWHK CMLDAGYSFG PKFLKQLQIE ARPGSRRSRS ILGLEVPESK
+     YPQSKYPMHP AAMDGCFQTC APSLWKGNRH AVNAVLVPAM IDSLTITSSK ADRGLSLTSA
+     AYVGLGRPTD NKNYMSNASV YDPETGNLLL RLSGLRYTRI DTGPSVYDAH TFSALISKPD
+     VSLLSSQSLE NLAEREQGLN DRSFGVATEL VRLAAHKKPA QRVLELNFVP GLSQSIWASA
+     IEGQDNIGKT YRQFVYRLTD PKALVEAGQQ YTSEKMEISL LDPEGMTLAE DEFDLVVVRL
+     SPAADNVEHV ATQLKKVVKE GGQVLFIRQR SVQNSEVIVN GEAEQFDNGS YADLLKSAGL
+     TFAGHVAFEE GNEFASLSLC RVQPEPDCTG KDVAIYHFVE PSTSALKVIT ALKARGWNVT
+     TYRAEEASTS PKRFLVLDEL DTALLPTLSP AHWDSLKILL SLDKRVLWVT NGSQTVISEP
+     NKAMIHGLGR TVRAEDPLVQ LTTLDVSASS TDATVDSVEV ILERLALPEV FHHVESEFIE
+     RNGLLHINRI QPDDQVNAVA SDSYEGSEPV EQSLHDSPNM IRLRCERVGT TDSLIYSEVS
+     PYELPLDDNK VEVEVYAAGL NYKDVVITMG IVPENEHILG LEGAGIVRRL GKNVHKVRKL
+     DIGQRVLVFK KGAFANRVHA EAERVYPIQD SMTFEETCTL ASSYLTGIHS LFNLADTKAG
+     SKVLIHSASG GLGLACIQLC QYVGAEVFAT CGNKEKRDFL VKHAGIPADH IFNSRDTSFG
+     AAIMAATNGY GVDTILNSLT GDLLDESWRC IAAEGTMVEL GKRDMLDRKG LSMEPFGRNA
+     SYRCFDMGHD IVSDAMINNL LKRLFALLEA GHVKPVHVAT TFGWDNVSGA MRYMRSANHI
+     GKIVISSGDK PIIVPVRPSR APLQLRGEAG YLLIGGLKGL CGSVAVNLAS LGAKHIVVMA
+     RSGYDDEVSQ RVITDLAALG CTITLGQGDV SKADDVRRVI KQSPVPIGGV IQGAMVLRDR
+     VFTDMSIEEY HAAVDCKVAG TWNIHNALIE ENMKVEFFTM LSSVSGVVGQ KGQANYAAAN
+     AFLDAFAIYR HNLGLAGNSV DLGAIQDVGY MSHHVDLLEN LSSDAWTPIN EALMLKIVEF
+     SLKQQLTPIS KASAGQLITS IAVPQRENSS LLRDARFSTL SFSDGEDVGA GSDGKDAGIQ
+     ALQLLVKNKA AVSAIHDAVI DVTVRQFTTM LSLSEPMEPA KAPSSYGLDS LAAVEFRNWV
+     RLELKAEVTT LDIISATSLE QLAQKIVARL TAV
+//

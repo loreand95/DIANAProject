@@ -1,0 +1,104 @@
+ID   UVRC_SHESA              Reviewed;         609 AA.
+AC   A0KVM4;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 1.
+DT   02-DEC-2020, entry version 83.
+DE   RecName: Full=UvrABC system protein C {ECO:0000255|HAMAP-Rule:MF_00203};
+DE            Short=Protein UvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   OrderedLocusNames=Shewana3_1609;
+OS   Shewanella sp. (strain ANA-3).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=94122;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ANA-3;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Kim E., Newman D.,
+RA   Salticov C., Konstantinidis K., Klappenback J., Tiedje J., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Shewanella sp. ANA-3.";
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides of the
+CC       lesion. The N-terminal half is responsible for the 3' incision and the
+CC       C-terminal half is responsible for the 5' incision. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000469; ABK47843.1; -; Genomic_DNA.
+DR   RefSeq; WP_011716647.1; NC_008577.1.
+DR   SMR; A0KVM4; -.
+DR   STRING; 94122.Shewana3_1609; -.
+DR   EnsemblBacteria; ABK47843; ABK47843; Shewana3_1609.
+DR   KEGG; shn:Shewana3_1609; -.
+DR   eggNOG; COG0322; Bacteria.
+DR   HOGENOM; CLU_014841_3_0_6; -.
+DR   OMA; LFPIRQC; -.
+DR   OrthoDB; 1036075at2; -.
+DR   Proteomes; UP000002589; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.420.340; -; 1.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR000305; GIY-YIG_endonuc.
+DR   InterPro; IPR035901; GIY-YIG_endonuc_sf.
+DR   InterPro; IPR003583; Hlx-hairpin-Hlx_DNA-bd_motif.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR036876; UVR_dom_sf.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   InterPro; IPR038476; UvrC_homol_region_sf.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SMART; SM00278; HhH1; 2.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA excision; DNA repair; Excision nuclease;
+KW   SOS response.
+FT   CHAIN           1..609
+FT                   /note="UvrABC system protein C"
+FT                   /id="PRO_1000077841"
+FT   DOMAIN          16..94
+FT                   /note="GIY-YIG"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+FT   DOMAIN          203..238
+FT                   /note="UVR"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+SQ   SEQUENCE   609 AA;  68871 MW;  93F6C3C8DFCA4A53 CRC64;
+     MSTGFNAQSF LRMVSSSAGV YRMYDVKGDV IYVGKAKDLK KRLSSYFRKN LGNVKTQALV
+     SHIHHIDVTL THSETDALLL ENDYIKQYMP KYNVLLRDDK SYPYIFLSQH EHPRLAYHRG
+     PQREKGYYFG PYPNGGAVRE SLHLMQKLFP IRQCDDLYYK SRTRPCLQYQ LSRCSAPCVG
+     KVSNAEYDEQ VKLASLFLKG KDKQVISELV AKMEEAAGQQ AYEQAARFRD QIMALRRVAE
+     QQEVSGNTGD MDVIGVHYAS GIACFHLLFI REGKIFGSRS YYPTVPAQTD IEEVLRSFLL
+     QFYLNADIQR TIPKEVVISH HFEELHELEA AVSEALNKKF SIKTNVRADR ASFLRLALTN
+     ATNAVMTRLS HKNTVEQRFV LLEEILELNA PIQRMECFDI SHTMGESTVA SCVVFNREGP
+     HKAEYRRYNI EGITPGDDYA AMKQAISRRF DKIDASGKIP DILFIDGGLG QLRIAQQIVD
+     EKFVNLDKAP QLIGVAKGES RKPGLETLIF GDTETSFSLE DDSPALHLIQ HIRDESHRFA
+     ITGHRNRRQK TRNTSTLESI PGIGPKRRKA LLQHLGGLQE VKGASVAELA KVPGISIEMA
+     QTIHDALRG
+//

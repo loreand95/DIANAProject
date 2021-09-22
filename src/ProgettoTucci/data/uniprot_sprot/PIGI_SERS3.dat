@@ -1,0 +1,103 @@
+ID   PIGI_SERS3              Reviewed;         491 AA.
+AC   Q5W263;
+DT   11-MAY-2016, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   02-DEC-2020, entry version 40.
+DE   RecName: Full=L-proline--[L-prolyl-carrier protein] ligase {ECO:0000305};
+DE            EC=6.2.1.53 {ECO:0000269|PubMed:17002325};
+DE   AltName: Full=L-prolyl-AMP ligase {ECO:0000303|PubMed:17002325};
+GN   Name=pigI {ECO:0000303|PubMed:15528645};
+OS   Serratia sp. (strain ATCC 39006).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Serratia; unclassified Serratia.
+OX   NCBI_TaxID=104623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 39006 / SC 11482;
+RX   PubMed=15528645; DOI=10.1099/mic.0.27222-0;
+RA   Harris A.K., Williamson N.R., Slater H., Cox A., Abbasi S., Foulds I.,
+RA   Simonsen H.T., Leeper F.J., Salmond G.P.;
+RT   "The Serratia gene cluster encoding biosynthesis of the red antibiotic,
+RT   prodigiosin, shows species- and strain-dependent genome context
+RT   variation.";
+RL   Microbiology 150:3547-3560(2004).
+RN   [2]
+RP   FUNCTION, DISRUPTION PHENOTYPE, AND PATHWAY.
+RC   STRAIN=ATCC 39006 / SC 11482;
+RX   PubMed=15853884; DOI=10.1111/j.1365-2958.2005.04602.x;
+RA   Williamson N.R., Simonsen H.T., Ahmed R.A., Goldet G., Slater H.,
+RA   Woodley L., Leeper F.J., Salmond G.P.;
+RT   "Biosynthesis of the red antibiotic, prodigiosin, in Serratia:
+RT   identification of a novel 2-methyl-3-n-amyl-pyrrole (MAP) assembly pathway,
+RT   definition of the terminal condensing enzyme, and implications for
+RT   undecylprodigiosin biosynthesis in Streptomyces.";
+RL   Mol. Microbiol. 56:971-989(2005).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RC   STRAIN=ATCC 39006 / SC 11482;
+RX   PubMed=17002325; DOI=10.1021/ja063611l;
+RA   Garneau-Tsodikova S., Dorrestein P.C., Kelleher N.L., Walsh C.T.;
+RT   "Protein assembly line components in prodigiosin biosynthesis:
+RT   characterization of PigA,G,H,I,J.";
+RL   J. Am. Chem. Soc. 128:12600-12601(2006).
+CC   -!- FUNCTION: Involved in the biosynthesis of 4-methoxy-2,2'-bipyrrole-5-
+CC       carbaldehyde (MBC), one of the terminal products involved in the
+CC       biosynthesis of the red antibiotic prodigiosin (Pig) (PubMed:15853884,
+CC       PubMed:17002325). Catalyzes the conversion of L-proline to L-prolyl-AMP
+CC       and the transfer of the L-prolyl group to acyl carrier protein PigG
+CC       (PubMed:17002325). {ECO:0000269|PubMed:15853884,
+CC       ECO:0000269|PubMed:17002325}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + holo-[peptidyl-carrier protein] + L-proline = AMP +
+CC         diphosphate + L-prolyl-[peptidyl-carrier protein];
+CC         Xref=Rhea:RHEA:11656, Rhea:RHEA-COMP:11480, Rhea:RHEA-COMP:14109,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:64479, ChEBI:CHEBI:138622, ChEBI:CHEBI:456215;
+CC         EC=6.2.1.53; Evidence={ECO:0000269|PubMed:17002325};
+CC   -!- PATHWAY: Antibiotic biosynthesis; prodigiosin biosynthesis.
+CC       {ECO:0000269|PubMed:15853884, ECO:0000269|PubMed:17002325}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene show a white phenotype
+CC       and produce 2-methyl-3-n-amyl-pyrrole (MAP).
+CC       {ECO:0000269|PubMed:15853884}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ833001; CAH55637.1; -; Genomic_DNA.
+DR   RefSeq; WP_021014647.1; NZ_CP025085.1.
+DR   SMR; Q5W263; -.
+DR   STRING; 104623.Ser39006_01377; -.
+DR   PRIDE; Q5W263; -.
+DR   KEGG; ag:CAH55637; -.
+DR   eggNOG; COG1020; Bacteria.
+DR   OrthoDB; 377638at2; -.
+DR   UniPathway; UPA01072; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016874; F:ligase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IMP:UniProtKB.
+DR   Gene3D; 3.40.50.12780; -; 1.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR042099; AMP-dep_Synthh-like_sf.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; ATP-binding; Ligase; Nucleotide-binding.
+FT   CHAIN           1..491
+FT                   /note="L-proline--[L-prolyl-carrier protein] ligase"
+FT                   /id="PRO_0000436245"
+SQ   SEQUENCE   491 AA;  53701 MW;  AB99D957D31FE475 CRC64;
+     MTISTPVIID SLIRHAQRTP EQTALLCGDQ HWNYRQLVTR AHVMASALRQ AGLSGQAILL
+     NLPKSLDAVA AIYATWLSGN HYIPIDYSQP SSRIERIIAA AAPALIIDTA WLATLDSQPS
+     FDAEQPVGRM VYHNPIAAIL YTSGSTGTPK GVQISHEMLG FFIQWAVRDT QLTARDVLSN
+     HASFAFDLST FDLFASAYVG AATWIIRESE QKDCAALAQG LQRHAVSVWY SVPSILAMLE
+     KSTLLNPTLG QSLRQVIFAG EPYPVTALKR LLPCLPQPCR VSNWYGPTET NVCVAYAIDR
+     ARLAMLKQVP IGLPLEGLTA QLEDENGDRH PLTAQLRLSG ELLISGPCVT PGYSNVVVPR
+     QAALHPHQCH ATGDWVEMTP EGLVFRGRID DMVKINGYRV ELGEIESVLH QHPAIDRAAL
+     CVELGDLRQT LIMVISLQTG AVPPGLLELK QFLQQKLPSY MIPNKLVITE SLPVNANGKV
+     DRKQLAGVVA V
+//

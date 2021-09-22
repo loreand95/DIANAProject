@@ -1,0 +1,65 @@
+ID   KA132_ORTSC             Reviewed;          28 AA.
+AC   P83244;
+DT   28-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2003, sequence version 2.
+DT   07-APR-2021, entry version 57.
+DE   RecName: Full=Potassium channel toxin alpha-KTx 13.2;
+DE            Short=OsK-2;
+DE            Short=OsK2;
+OS   Orthochirus scrobiculosus (Central Asian scorpion).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Orthochirus.
+OX   NCBI_TaxID=6892 {ECO:0000305};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, AND MASS SPECTROMETRY.
+RC   TISSUE=Venom;
+RX   PubMed=11527374; DOI=10.1006/bbrc.2001.5492;
+RA   Dudina E.E., Korolkova Y.V., Bocharova N.E., Koshelev S.G., Egorov T.A.,
+RA   Huys I., Tytgat J., Grishin E.V.;
+RT   "OsK2, a new selective inhibitor of Kv1.2 potassium channels purified from
+RT   the venom of the scorpion Orthochirus scrobiculosus.";
+RL   Biochem. Biophys. Res. Commun. 286:841-847(2001).
+CC   -!- FUNCTION: Potent and selective inhibitor of Kv1.2/KCNA2 potassium
+CC       channels. {ECO:0000269|PubMed:11527374}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- MASS SPECTROMETRY: Mass=2892.14; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:11527374};
+CC   -!- MISCELLANEOUS: Does not block Kv1.1/KCNA1 and Kv1.3/KCNA3 potassium
+CC       channels. {ECO:0000305|PubMed:11527374}.
+CC   -!- SIMILARITY: Belongs to the short scorpion toxin superfamily. Potassium
+CC       channel inhibitor family. Alpha-KTx 13 subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P83244; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019870; F:potassium channel inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0090729; F:toxin activity; IDA:UniProtKB.
+DR   GO; GO:0044361; P:negative regulation of voltage-gated potassium channel activity in other organism; IDA:UniProtKB.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Ion channel impairing toxin;
+KW   Neurotoxin; Potassium channel impairing toxin; Secreted; Toxin;
+KW   Voltage-gated potassium channel impairing toxin.
+FT   PEPTIDE         1..28
+FT                   /note="Potassium channel toxin alpha-KTx 13.2"
+FT                   /id="PRO_0000044910"
+FT   REGION          17..24
+FT                   /note="Interaction with Ca(2+)-activated K(+) channels"
+FT                   /evidence="ECO:0000255"
+FT   SITE            18
+FT                   /note="Basic residue of the functional dyad"
+FT                   /evidence="ECO:0000250"
+FT   SITE            27
+FT                   /note="Aromatic residue of the functional dyad"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        2..19
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        6..24
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        10..26
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   28 AA;  2901 MW;  A9BD3332061F99E5 CRC64;
+     ACGPGCSGSC RQKGDRIKCI NGSCHCYP
+//

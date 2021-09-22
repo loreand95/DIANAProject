@@ -1,0 +1,83 @@
+ID   MNO_RHOER               Reviewed;         423 AA.
+AC   Q53062; P81938;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2006, sequence version 2.
+DT   12-AUG-2020, entry version 63.
+DE   RecName: Full=Methanol:N,N-dimethyl-4-nitrosoaniline oxidoreductase {ECO:0000303|PubMed:7575099};
+DE            Short=MNO {ECO:0000303|PubMed:7575099};
+DE            EC=1.1.99.37 {ECO:0000250|UniProtKB:C5MRT8};
+DE   AltName: Full=Methanol dehydrogenase (nicotinoprotein) {ECO:0000305};
+DE   AltName: Full=Methanol:NDMA oxidoreductase {ECO:0000250|UniProtKB:C5MRT8};
+GN   Name=thcE;
+OS   Rhodococcus erythropolis (Arthrobacter picolinophilus).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae; Rhodococcus.
+OX   NCBI_TaxID=1833;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-19; 88-105 AND
+RP   180-195, AND INDUCTION.
+RC   STRAIN=NI86/21;
+RX   PubMed=7575099; DOI=10.1007/bf00272133;
+RA   Nagy I., Verheijen S., De Schrijver A., Van Damme J., Proost P.,
+RA   Schoofs G., Vanderleyden J., De Mot R.;
+RT   "Characterization of the Rhodococcus sp. NI86/21 gene encoding
+RT   alcohol:N,N'-dimethyl-4-nitrosoaniline oxidoreductase inducible by atrazine
+RT   and thiocarbamate herbicides.";
+RL   Arch. Microbiol. 163:439-446(1995).
+CC   -!- FUNCTION: Catalyzes the oxidation of methanol to yield formaldehyde.
+CC       While the in vivo electron acceptor is not known, N,N-dimethyl-4-
+CC       nitrosoaniline (NDMA) can serve this function in vitro and is reduced
+CC       to 4-(hydroxylamino)-N,N-dimethylaniline.
+CC       {ECO:0000250|UniProtKB:C5MRT8}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=A + methanol = AH2 + formaldehyde; Xref=Rhea:RHEA:33571,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:16842, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:17790; EC=1.1.99.37;
+CC         Evidence={ECO:0000250|UniProtKB:C5MRT8};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9RCG0};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:Q9RCG0};
+CC   -!- COFACTOR:
+CC       Name=NADPH; Xref=ChEBI:CHEBI:57783;
+CC         Evidence={ECO:0000250|UniProtKB:Q9RCG0};
+CC   -!- SUBUNIT: Homodecamer. {ECO:0000250|UniProtKB:Q9RCG0}.
+CC   -!- INDUCTION: Expressed during degradation of thiocarbamates and atrazine.
+CC       {ECO:0000269|PubMed:7575099}.
+CC   -!- SIMILARITY: Belongs to the iron-containing alcohol dehydrogenase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U21071; AAB80771.1; -; Genomic_DNA.
+DR   SMR; Q53062; -.
+DR   GO; GO:0000287; F:magnesium ion binding; ISS:UniProtKB.
+DR   GO; GO:0070402; F:NADPH binding; ISS:UniProtKB.
+DR   GO; GO:0016491; F:oxidoreductase activity; ISS:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0015946; P:methanol oxidation; ISS:UniProtKB.
+DR   InterPro; IPR001670; ADH_Fe/GldA.
+DR   InterPro; IPR039697; Alcohol_dehydrogenase_Fe.
+DR   InterPro; IPR026338; NDMA_methanol_DH.
+DR   PANTHER; PTHR11496; PTHR11496; 1.
+DR   Pfam; PF00465; Fe-ADH; 1.
+DR   TIGRFAMs; TIGR04266; NDMA_methanol; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Magnesium; Methanol utilization; NADP;
+KW   Oxidoreductase; Zinc.
+FT   CHAIN           1..423
+FT                   /note="Methanol:N,N-dimethyl-4-nitrosoaniline
+FT                   oxidoreductase"
+FT                   /id="PRO_0000247755"
+SQ   SEQUENCE   423 AA;  46356 MW;  5DB811D6BFDDA820 CRC64;
+     AIELNQIWDF PIKEFHPFPR ALMGVGAHDI IGVEAKNLGF KRTLLMTTGL RGSGIIEELV
+     GKIEYQGVEV VLYDKVESNP KDYNVMEAAA LYQKEKCDSI ISIGGGSSHD AAKGARVVIA
+     HDGRNINEFE GFAKSTNKEN PPHIAVSTTA GTGSETSWAY VITDTSDMNN PHKWVGFDEA
+     TIVTLAIDDP LLYYTCPQHF TAYCGFDVLA HGSEPFVSRL DFAPSLGNAI YSVELVAKNL
+     REAVFEPRNL KAREGMMNAQ YIAGQAFNSG GLGIVHSISH AVSAFFDSHH GLNNAIALPR
+     VWEYNLPSRY ERYAQLAGAL GVDTRNLTTV QAADAAVEAA IRLAKDVGIP DNFGQVRTDS
+     YAKNQMNTKK YEGRGDVIKG DEKTVRAISE HIQDDWCTPG NPREVTVESM IPVVDHAINK
+     SYF
+//

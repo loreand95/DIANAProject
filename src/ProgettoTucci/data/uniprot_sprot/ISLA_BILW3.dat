@@ -1,0 +1,145 @@
+ID   ISLA_BILW3              Reviewed;         830 AA.
+AC   E5Y378;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAR-2011, sequence version 1.
+DT   02-DEC-2020, entry version 40.
+DE   RecName: Full=Isethionate sulfite-lyase {ECO:0000303|PubMed:30718429};
+DE            EC=4.4.1.- {ECO:0000269|PubMed:30718429};
+DE   AltName: Full=Glycyl radical enzyme IslA {ECO:0000303|PubMed:30718429};
+DE            Short=GRE IslA {ECO:0000303|PubMed:30718429};
+GN   Name=islA {ECO:0000303|PubMed:30718429}; Synonyms=iseG;
+GN   ORFNames=HMPREF0179_00639 {ECO:0000312|EMBL:EFV45544.1};
+OS   Bilophila wadsworthia (strain 3_1_6).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+OC   Desulfovibrionaceae; Bilophila.
+OX   NCBI_TaxID=563192;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=3_1_6;
+RG   The Broad Institute Genomics Platform;
+RA   Earl A., Ward D., Feldgarden M., Gevers D., Sibley C., Strauss J.,
+RA   Allen-Vercoe E., Walker B., Young S., Zeng Q., Gargeya S., Fitzgerald M.,
+RA   Haas B., Abouelleil A., Allen A.W., Alvarado L., Arachchi H.M.,
+RA   Berlin A.M., Chapman S.B., Gainer-Dewar J., Goldberg J., Griggs A.,
+RA   Gujja S., Hansen M., Howarth C., Imamovic A., Ireland A., Larimer J.,
+RA   McCowan C., Murphy C., Pearson M., Poon T.W., Priest M., Roberts A.,
+RA   Saif S., Shea T., Sisk P., Sykes S., Wortman J., Nusbaum C., Birren B.;
+RT   "The Genome Sequence of Bilophila wadsworthia 3_1_6.";
+RL   Submitted (APR-2013) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE
+RP   SPECIFICITY, INDUCTION, AND PATHWAY.
+RC   STRAIN=3_1_6;
+RX   PubMed=30718429; DOI=10.1073/pnas.1815661116;
+RA   Peck S.C., Denger K., Burrichter A., Irwin S.M., Balskus E.P.,
+RA   Schleheck D.;
+RT   "A glycyl radical enzyme enables hydrogen sulfide production by the human
+RT   intestinal bacterium Bilophila wadsworthia.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 116:3171-3176(2019).
+CC   -!- FUNCTION: Involved in an anaerobic respiration pathway that converts
+CC       the sulfonate taurine (2-aminoethanesulfonate) to ammonia, acetate and
+CC       sulfide. Catalyzes the radical-mediated C-S bond cleavage of
+CC       isethionate (2-hydroxyethanesulfonate) to form sulfite and
+CC       acetaldehyde. Is not able to use any alternate organosulfonate or (S)-
+CC       1,2-propanediol or choline as a substrate, showing that this enzyme is
+CC       highly specific for isethionate. {ECO:0000269|PubMed:30718429}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hydroxyethane-1-sulfonate = acetaldehyde + H(+) + sulfite;
+CC         Xref=Rhea:RHEA:60452, ChEBI:CHEBI:15343, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17359, ChEBI:CHEBI:61904;
+CC         Evidence={ECO:0000269|PubMed:30718429};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60453;
+CC         Evidence={ECO:0000305|PubMed:30718429};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=8.1 mM for 2-hydroxyethane-1-sulfonate
+CC         {ECO:0000269|PubMed:30718429};
+CC         Note=kcat is 14 sec(-1). {ECO:0000269|PubMed:30718429};
+CC   -!- PATHWAY: Organosulfur degradation; alkanesulfonate degradation.
+CC       {ECO:0000305|PubMed:30718429}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q727N1}.
+CC   -!- INDUCTION: Highly up-regulated in the presence of taurine or
+CC       isethionate. {ECO:0000269|PubMed:30718429}.
+CC   -!- PTM: Requires the activating protein IslB to generate the key active
+CC       site glycyl radical on Gly-805 that is involved in catalysis.
+CC       {ECO:0000269|PubMed:30718429}.
+CC   -!- MISCELLANEOUS: Taurine is an abundant dietary and host-derived molecule
+CC       whose metabolism to hydrogen sulfide (H2S) by members of the human gut
+CC       microbiota has many prominent connections to host health and disease.
+CC       The human gut bacterium and opportunistic pathogen Bilophila
+CC       wadsworthia produces H2S when respiring sulfite (HSO3-) released from
+CC       organosulfonate substrates such as taurine and isethionate.
+CC       {ECO:0000305|PubMed:30718429}.
+CC   -!- SIMILARITY: Belongs to the glycyl radical enzyme (GRE) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ADCP02000001; EFV45544.1; -; Genomic_DNA.
+DR   RefSeq; WP_005024906.1; NZ_KE150238.1.
+DR   STRING; 563192.HMPREF0179_00639; -.
+DR   EnsemblBacteria; EFV45544; EFV45544; HMPREF0179_00639.
+DR   eggNOG; ENOG4105C6N; Bacteria.
+DR   eggNOG; COG1882; LUCA.
+DR   HOGENOM; CLU_009096_0_1_7; -.
+DR   UniPathway; UPA00338; -.
+DR   Proteomes; UP000006034; Unassembled WGS sequence.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046306; P:alkanesulfonate catabolic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR019777; Form_AcTrfase_GR_CS.
+DR   InterPro; IPR001150; Gly_radical.
+DR   InterPro; IPR004184; PFL_dom.
+DR   Pfam; PF01228; Gly_radical; 1.
+DR   Pfam; PF02901; PFL-like; 1.
+DR   PROSITE; PS00850; GLY_RADICAL_1; 1.
+DR   PROSITE; PS51149; GLY_RADICAL_2; 1.
+DR   PROSITE; PS51554; PFL; 1.
+PE   1: Evidence at protein level;
+KW   Lyase; Organic radical; Reference proteome.
+FT   CHAIN           1..830
+FT                   /note="Isethionate sulfite-lyase"
+FT                   /id="PRO_0000450941"
+FT   DOMAIN          31..700
+FT                   /note="PFL"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00887"
+FT   DOMAIN          707..830
+FT                   /note="Glycine radical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00493"
+FT   REGION          468..470
+FT                   /note="2-hydroxyethane-1-sulfonate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q727N1"
+FT   ACT_SITE        468
+FT                   /note="Cysteine radical intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q30W70"
+FT   ACT_SITE        470
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q30W70"
+FT   BINDING         189
+FT                   /note="2-hydroxyethane-1-sulfonate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q727N1"
+FT   BINDING         193
+FT                   /note="2-hydroxyethane-1-sulfonate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q727N1"
+FT   BINDING         678
+FT                   /note="2-hydroxyethane-1-sulfonate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q727N1"
+FT   MOD_RES         805
+FT                   /note="Glycine radical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00493"
+SQ   SEQUENCE   830 AA;  93965 MW;  A0F49549EB008727 CRC64;
+     MTQVAEIKSP HEQRLEDNIA GKEDIYRESH KRVFKLLERF DGQKPAIDVE RALYFTQSMA
+     ETVGQPLVLR WAKALMNVAK NITVMVQDDQ LLLGRCGGHD GRYGILYPEL DGDFLDIAVR
+     DLPTRPQSPA SISPEDAKIV VEQIAPFWKG RTYHEALNKA LPAEVHKLTY DDPDGLISRF
+     IVNETSSFRS SIQWVHDYEV VLKRGFNGLK QEMEEKLAAL DPASPVDQVD KRPFIEATIL
+     VCDAIVLWAK RHADAARKAA EACADPVRKA ELIRMAENAE HVPANPARDF YEAVQSQYFT
+     QMFSRLEQKT GTTISNGRMD QYFYPFYKKD MEAGILTDEK TLEYLECMWV GMAEFIDMYI
+     SPAGGAFNEG YAHWEAVTIG GQTPDGRDAT NDLTYLFLKS KREFPLHYPD LAARIHSRAP
+     ERYLWDVAET IKFGSGFPKL CNDEECIPLY VSKGATFEEA LDYAVSGCIE IRMPNRDTYT
+     SGGAYTNFAS AVEMALYDGK MKKYGDVQLG IQTGDARKFK SWDEFWNAYV QQHMLLLRTT
+     FIQQYIVIQT RAKHFAQPMG SVLHALCRKH CIDLHQPQIP EGLNFGYFEF MGLGTVIDSL
+     AAIKKLVFED KKLTMDQLID ALEANFEGYE DIQQLLRTAP CYGNDDEYAD EIGRELDRMA
+     VSFAAKYGKE MGINNDARYV PFTSHVPFGK VVSATPNGRV AWFPLADGSS PSHGADHNGP
+     TAILLSNHNT KNYGMRARAA RLINVKFTPK CVEGDAGTEK LVQFIRTWCD LKLWHIQFNV
+     INADTLKKAQ KDPQKYRNLI VRIAGYSAYF VDLTPDLQND LIARTGHDQM
+//

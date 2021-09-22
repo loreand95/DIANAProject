@@ -1,0 +1,92 @@
+ID   SP2AA_GEOSE             Reviewed;         116 AA.
+AC   O32726;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Anti-sigma F factor antagonist;
+DE   AltName: Full=Stage II sporulation protein AA;
+GN   Name=spoIIAA;
+OS   Geobacillus stearothermophilus (Bacillus stearothermophilus).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus.
+OX   NCBI_TaxID=1422;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 12980 / DSM 22 / CCM 2062 / JCM 2501 / NBRC 12550 / NCIMB 8923
+RC   / NCTC 10339 / R-35646 / VKM B-510;
+RX   PubMed=9266669; DOI=10.1016/s0378-1119(97)00096-6;
+RA   Park S.G., Yudkin M.D.;
+RT   "Sequencing and phylogenetic analysis of the spoIIA operon from diverse
+RT   Bacillus and Paenibacillus species.";
+RL   Gene 194:25-33(1997).
+CC   -!- FUNCTION: In the phosphorylated form it could act as an anti-anti-sigma
+CC       factor that counteracts SpoIIAB and thus releases sigma f from
+CC       inhibition. {ECO:0000250}.
+CC   -!- INTERACTION:
+CC       O32726; O32727: spoIIAB; NbExp=4; IntAct=EBI-1039369, EBI-1033242;
+CC   -!- PTM: Phosphorylated by SpoIIAB on a serine residue. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the anti-sigma-factor antagonist family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L47360; AAB81192.1; -; Genomic_DNA.
+DR   PDB; 1TH8; X-ray; 2.40 A; B=1-116.
+DR   PDB; 1THN; X-ray; 2.50 A; B/D=1-116.
+DR   PDB; 1TID; X-ray; 2.50 A; B/D=1-116.
+DR   PDB; 1TIL; X-ray; 2.70 A; B/D/F=1-116.
+DR   PDBsum; 1TH8; -.
+DR   PDBsum; 1THN; -.
+DR   PDBsum; 1TID; -.
+DR   PDBsum; 1TIL; -.
+DR   SMR; O32726; -.
+DR   IntAct; O32726; 1.
+DR   EvolutionaryTrace; O32726; -.
+DR   GO; GO:0043856; F:anti-sigma factor antagonist activity; IEA:InterPro.
+DR   GO; GO:0045152; F:antisigma factor binding; IEA:InterPro.
+DR   GO; GO:0030435; P:sporulation resulting in formation of a cellular spore; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.750.24; -; 1.
+DR   InterPro; IPR003658; Anti-sigma_ant.
+DR   InterPro; IPR014237; Anti-sigma_F_ant.
+DR   InterPro; IPR002645; STAS_dom.
+DR   InterPro; IPR036513; STAS_dom_sf.
+DR   Pfam; PF01740; STAS; 1.
+DR   SUPFAM; SSF52091; SSF52091; 1.
+DR   TIGRFAMs; TIGR00377; ant_ant_sig; 1.
+DR   TIGRFAMs; TIGR02886; spore_II_AA; 1.
+DR   PROSITE; PS50801; STAS; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Phosphoprotein; Sporulation.
+FT   CHAIN           1..116
+FT                   /note="Anti-sigma F factor antagonist"
+FT                   /id="PRO_0000194203"
+FT   DOMAIN          3..113
+FT                   /note="STAS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00198"
+FT   MOD_RES         58
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250"
+FT   STRAND          3..10
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   STRAND          13..23
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   HELIX           24..39
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   STRAND          45..56
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   HELIX           58..73
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   STRAND          78..82
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   HELIX           85..93
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   HELIX           96..98
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   STRAND          100..105
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+FT   HELIX           106..112
+FT                   /evidence="ECO:0007744|PDB:1TH8"
+SQ   SEQUENCE   116 AA;  12859 MW;  A6E2EAB055B27C93 CRC64;
+     MSLAIDLEVK QDELIVRLSG ELDHHTAENC MNKCRMCLEK RAIRHIVLNL GQLTFMDSSG
+     LGVILGRYKQ IKNVGGQMVV CAVSPAVKRL FDMSGLFKII RVEADEQFAL QALGVA
+//

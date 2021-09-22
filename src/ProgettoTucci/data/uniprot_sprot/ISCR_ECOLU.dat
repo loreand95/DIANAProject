@@ -1,0 +1,97 @@
+ID   ISCR_ECOLU              Reviewed;         162 AA.
+AC   B7N6B8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   07-APR-2021, entry version 76.
+DE   RecName: Full=HTH-type transcriptional regulator IscR {ECO:0000255|HAMAP-Rule:MF_01176};
+GN   Name=iscR {ECO:0000255|HAMAP-Rule:MF_01176}; OrderedLocusNames=ECUMN_2851;
+OS   Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=585056;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UMN026 / ExPEC;
+RX   PubMed=19165319; DOI=10.1371/journal.pgen.1000344;
+RA   Touchon M., Hoede C., Tenaillon O., Barbe V., Baeriswyl S., Bidet P.,
+RA   Bingen E., Bonacorsi S., Bouchier C., Bouvet O., Calteau A., Chiapello H.,
+RA   Clermont O., Cruveiller S., Danchin A., Diard M., Dossat C., Karoui M.E.,
+RA   Frapy E., Garry L., Ghigo J.M., Gilles A.M., Johnson J., Le Bouguenec C.,
+RA   Lescat M., Mangenot S., Martinez-Jehanne V., Matic I., Nassif X., Oztas S.,
+RA   Petit M.A., Pichon C., Rouy Z., Ruf C.S., Schneider D., Tourret J.,
+RA   Vacherie B., Vallenet D., Medigue C., Rocha E.P.C., Denamur E.;
+RT   "Organised genome dynamics in the Escherichia coli species results in
+RT   highly diverse adaptive paths.";
+RL   PLoS Genet. 5:E1000344-E1000344(2009).
+CC   -!- FUNCTION: Regulates the transcription of several operons and genes
+CC       involved in the biogenesis of Fe-S clusters and Fe-S-containing
+CC       proteins. {ECO:0000255|HAMAP-Rule:MF_01176}.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01176};
+CC       Note=Binds 1 [2Fe-2S] cluster. {ECO:0000255|HAMAP-Rule:MF_01176};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU928163; CAR14027.1; -; Genomic_DNA.
+DR   RefSeq; WP_001241357.1; NC_011751.1.
+DR   RefSeq; YP_002413553.1; NC_011751.1.
+DR   SMR; B7N6B8; -.
+DR   EnsemblBacteria; CAR14027; CAR14027; ECUMN_2851.
+DR   GeneID; 58460717; -.
+DR   KEGG; eum:ECUMN_2851; -.
+DR   PATRIC; fig|585056.7.peg.3038; -.
+DR   HOGENOM; CLU_107144_0_0_6; -.
+DR   OMA; TRGHYSV; -.
+DR   Proteomes; UP000007097; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   HAMAP; MF_01176; HTH_type_IscR; 1.
+DR   InterPro; IPR010242; TF_HTH_IscR.
+DR   InterPro; IPR030489; TR_Rrf2-type_CS.
+DR   InterPro; IPR000944; Tscrpt_reg_Rrf2.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR33221; PTHR33221; 1.
+DR   Pfam; PF02082; Rrf2; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+DR   TIGRFAMs; TIGR02010; IscR; 1.
+DR   TIGRFAMs; TIGR00738; rrf2_super; 1.
+DR   PROSITE; PS01332; HTH_RRF2_1; 1.
+DR   PROSITE; PS51197; HTH_RRF2_2; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Activator; DNA-binding; Iron; Iron-sulfur; Metal-binding;
+KW   Repressor; Transcription; Transcription regulation.
+FT   CHAIN           1..162
+FT                   /note="HTH-type transcriptional regulator IscR"
+FT                   /id="PRO_1000138098"
+FT   DOMAIN          2..131
+FT                   /note="HTH rrf2-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   DNA_BIND        28..51
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           92
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           92
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           98
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           98
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           104
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+FT   METAL           104
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01176"
+SQ   SEQUENCE   162 AA;  17337 MW;  DE82977C3774E3BD CRC64;
+     MRLTSKGRYA VTAMLDVALN SEAGPVPLAD ISERQGISLS YLEQLFSRLR KNGLVSSVRG
+     PGGGYLLGKD ASSIAVGEVI SAVDESVDAT RCQGKGGCQG GDKCLTHALW RDLSDRLTGF
+     LNNITLGELV NNQEVLDVSG RQHTHDAPRT RTQDAIDVKL RA
+//

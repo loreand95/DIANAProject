@@ -1,0 +1,144 @@
+ID   FUS_PI2H                Reviewed;         551 AA.
+AC   P25467;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 1.
+DT   07-APR-2021, entry version 98.
+DE   RecName: Full=Fusion glycoprotein F0;
+DE   Contains:
+DE     RecName: Full=Fusion glycoprotein F2;
+DE   Contains:
+DE     RecName: Full=Fusion glycoprotein F1;
+DE   Flags: Precursor;
+GN   Name=F;
+OS   Human parainfluenza 2 virus (HPIV-2).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina;
+OC   Monjiviricetes; Mononegavirales; Paramyxoviridae; Rubulavirinae;
+OC   Orthorubulavirus.
+OX   NCBI_TaxID=2560525;
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2173268; DOI=10.1016/0042-6822(90)90168-q;
+RA   Hu X., Compans R.W., Matsuoka Y., Ray R.;
+RT   "Molecular cloning and sequence analysis of the fusion glycoprotein gene of
+RT   human parainfluenza virus type 2.";
+RL   Virology 179:915-920(1990).
+CC   -!- FUNCTION: Class I viral fusion protein. Under the current model, the
+CC       protein has at least 3 conformational states: pre-fusion native state,
+CC       pre-hairpin intermediate state, and post-fusion hairpin state. During
+CC       viral and plasma cell membrane fusion, the heptad repeat (HR) regions
+CC       assume a trimer-of-hairpins structure, positioning the fusion peptide
+CC       in close proximity to the C-terminal region of the ectodomain. The
+CC       formation of this structure appears to drive apposition and subsequent
+CC       fusion of viral and plasma cell membranes. Directs fusion of viral and
+CC       cellular membranes leading to delivery of the nucleocapsid into the
+CC       cytoplasm. This fusion is pH independent and occurs directly at the
+CC       outer cell membrane. The trimer of F1-F2 (F protein) probably interacts
+CC       with HN at the virion surface. Upon HN binding to its cellular
+CC       receptor, the hydrophobic fusion peptide is unmasked and interacts with
+CC       the cellular membrane, inducing the fusion between cell and virion
+CC       membranes. Later in infection, F proteins expressed at the plasma
+CC       membrane of infected cells could mediate fusion with adjacent cells to
+CC       form syncytia, a cytopathic effect that could lead to tissue necrosis
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotrimer of disulfide-linked F1-F2. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000250}; Single-pass type I
+CC       membrane protein {ECO:0000250}. Host cell membrane {ECO:0000250};
+CC       Single-pass membrane protein {ECO:0000250}.
+CC   -!- PTM: The inactive precursor F0 is glycosylated and proteolytically
+CC       cleaved into F1 and F2 to be functionally active. The cleavage is
+CC       mediated by cellular proteases during the transport and maturation of
+CC       the polypeptide (By similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the paramyxoviruses fusion glycoprotein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M60182; AAA46843.1; -; mRNA.
+DR   SMR; P25467; -.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019031; C:viral envelope; IEA:UniProtKB-KW.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019064; P:fusion of virus membrane with host plasma membrane; IEA:UniProtKB-KW.
+DR   InterPro; IPR000776; Fusion_F0_Paramyxovir.
+DR   Pfam; PF00523; Fusion_gly; 1.
+PE   2: Evidence at transcript level;
+KW   Cleavage on pair of basic residues; Coiled coil; Disulfide bond;
+KW   Fusion of virus membrane with host cell membrane;
+KW   Fusion of virus membrane with host membrane; Glycoprotein;
+KW   Host cell membrane; Host membrane; Membrane; Signal; Transmembrane;
+KW   Transmembrane helix; Viral envelope protein;
+KW   Viral penetration into host cytoplasm; Virion; Virus entry into host cell.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..551
+FT                   /note="Fusion glycoprotein F0"
+FT                   /id="PRO_0000039333"
+FT   CHAIN           24..106
+FT                   /note="Fusion glycoprotein F2"
+FT                   /id="PRO_0000039334"
+FT   CHAIN           107..551
+FT                   /note="Fusion glycoprotein F1"
+FT                   /id="PRO_0000039335"
+FT   TOPO_DOM        24..492
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        493..513
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        514..551
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250"
+FT   REGION          107..131
+FT                   /note="Fusion peptide"
+FT                   /evidence="ECO:0000250"
+FT   COILED          132..160
+FT                   /evidence="ECO:0000255"
+FT   COILED          456..481
+FT                   /evidence="ECO:0000255"
+FT   SITE            106..107
+FT                   /note="Cleavage; by host"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        65
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        69
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        77
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        431
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        461
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        68..189
+FT                   /note="Interchain (between F2 and F1 chains)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        328..337
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        352..360
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        384..389
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        391..414
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   551 AA;  59668 MW;  0003A2635A3AA0C8 CRC64;
+     MHHLHPMIVC IFVMYTGIVG SDAIAGDQLL NIGVIQSKIR SLMYYTDGGA SFIVVKLLPN
+     LPPSNGTCNI TSLDAYNVTL FKLLTPLIEN LSKISTVTDT KTRQKRFAGV VVGLAALGVA
+     TAAQITAAVA IVKANANAAA INNLASSIQS TNKAVSDVID ASRTIATAVQ AIQDHINGAI
+     VNGITSASCR AHDALIGSIL NLYLTELTTI FHNQITNPAL TPLSIQALRI LLGSTLPIVI
+     ESKLNTNLNT AELLSSGLLT GQIISISPMY MQMLIQINVP TFIMQPGAKV IDLIAISANH
+     KLQEVVVQVP NRILEYANEL QNYPANDCVV TPNSVFCRYN EGSPIPESQY QCLRGNLNSC
+     TFTPIIGNFL KRFAFANGVL YANCKSLLCR CADPPHVVSQ DDTQGISIID IKRCSEMMLD
+     TFSFRITSTF NATYVTDFSM INANIVHLSP LDLSNQINSI NKSLKSAEDW IADSNFFANQ
+     ARTAKTLYSL SAIALILSVI TLVVVGLLIA YIIKLVSQIH QFRSLAATTM FHRENPAFFS
+     KNNHGNIYGI S
+//

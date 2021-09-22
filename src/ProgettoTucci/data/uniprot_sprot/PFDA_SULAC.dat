@@ -1,0 +1,95 @@
+ID   PFDA_SULAC              Reviewed;         146 AA.
+AC   P38617; P27339; Q4J8U6;
+DT   01-OCT-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1994, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Prefoldin subunit alpha;
+DE   AltName: Full=GimC subunit alpha;
+GN   Name=pfdA; OrderedLocusNames=Saci_1463;
+OS   Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC
+OS   15157 / NCIMB 11770).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Sulfolobus.
+OX   NCBI_TaxID=330779;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1658539; DOI=10.1111/j.1365-2958.1991.tb01916.x;
+RA   Ramirez C., Matheson A.T.;
+RT   "A gene in the archaebacterium Sulfolobus solfataricus that codes for a
+RT   protein equivalent to the alpha subunits of the signal recognition particle
+RT   receptor in eukaryotes.";
+RL   Mol. Microbiol. 5:1687-1693(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770;
+RX   PubMed=7711082; DOI=10.1016/0167-4781(95)00024-b;
+RA   Moll R., Schmidtke S., Schaefer G.;
+RT   "Nucleotide sequence of a gene cluster encoding ribosomal proteins in the
+RT   thermoacidophilic crenarchaeon Sulfolobus acidocaldarius.";
+RL   Biochim. Biophys. Acta 1261:315-318(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770;
+RX   PubMed=15995215; DOI=10.1128/jb.187.14.4992-4999.2005;
+RA   Chen L., Bruegger K., Skovgaard M., Redder P., She Q., Torarinsson E.,
+RA   Greve B., Awayez M., Zibat A., Klenk H.-P., Garrett R.A.;
+RT   "The genome of Sulfolobus acidocaldarius, a model organism of the
+RT   Crenarchaeota.";
+RL   J. Bacteriol. 187:4992-4999(2005).
+CC   -!- FUNCTION: Molecular chaperone capable of stabilizing a range of
+CC       proteins. Seems to fulfill an ATP-independent, HSP70-like function in
+CC       archaeal de novo protein folding (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Heterohexamer of two alpha and four beta subunits.
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the prefoldin subunit alpha family.
+CC       {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to originate from S.solfataricus strain
+CC       P1, but the culture was contaminated with S.acidocaldarius.
+CC       {ECO:0000305|PubMed:1658539}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X58538; CAA41428.1; -; Genomic_DNA.
+DR   EMBL; X77509; CAA54642.1; -; Genomic_DNA.
+DR   EMBL; CP000077; AAY80784.1; -; Genomic_DNA.
+DR   PIR; S16481; S16481.
+DR   PIR; S53702; S53702.
+DR   RefSeq; WP_011278286.1; NC_007181.1.
+DR   SMR; P38617; -.
+DR   STRING; 330779.Saci_1463; -.
+DR   EnsemblBacteria; AAY80784; AAY80784; Saci_1463.
+DR   GeneID; 14551958; -.
+DR   GeneID; 3474657; -.
+DR   KEGG; sai:Saci_1463; -.
+DR   PATRIC; fig|330779.12.peg.1407; -.
+DR   eggNOG; arCOG01341; Archaea.
+DR   HOGENOM; CLU_1792160_0_0_2; -.
+DR   OMA; GYYAEIE; -.
+DR   Proteomes; UP000001018; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016272; C:prefoldin complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006457; P:protein folding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.287.370; -; 1.
+DR   HAMAP; MF_00308; PfdA; 1.
+DR   InterPro; IPR011599; PFD_alpha_archaea.
+DR   InterPro; IPR009053; Prefoldin.
+DR   InterPro; IPR004127; Prefoldin_subunit_alpha.
+DR   Pfam; PF02996; Prefoldin; 1.
+DR   TIGRFAMs; TIGR00293; TIGR00293; 1.
+PE   3: Inferred from homology;
+KW   Chaperone; Cytoplasm; Reference proteome.
+FT   CHAIN           1..146
+FT                   /note="Prefoldin subunit alpha"
+FT                   /id="PRO_0000153687"
+FT   CONFLICT        97..146
+FT                   /note="DPQAAKKILDDREQQLAEVSKNIQGELSKSIDAYNQIAEILSQVQGKKGE
+FT                   -> IHKQLRKFWMIESNSWLKYLKIYKVNYLSQ (in Ref. 1)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   146 AA;  16411 MW;  5EA1BE0BFA208790 CRC64;
+     MSEEAEQQQA AEYIAYLYDQ ASALRQYIDT LQKNLAEVLE SLEAVRASKS AVDEIGKENQ
+     EYLLFGDRKG NIVFKVNSVD KNKVLIHLGL NYYAEVDPQA AKKILDDREQ QLAEVSKNIQ
+     GELSKSIDAY NQIAEILSQV QGKKGE
+//

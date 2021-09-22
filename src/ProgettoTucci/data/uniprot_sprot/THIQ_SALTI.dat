@@ -1,0 +1,106 @@
+ID   THIQ_SALTI              Reviewed;         235 AA.
+AC   Q8Z9I6; Q7CBU6;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 132.
+DE   RecName: Full=Thiamine import ATP-binding protein ThiQ {ECO:0000255|HAMAP-Rule:MF_01723};
+DE            EC=7.6.2.15 {ECO:0000255|HAMAP-Rule:MF_01723};
+GN   Name=thiQ {ECO:0000255|HAMAP-Rule:MF_01723};
+GN   OrderedLocusNames=STY0123, t0110;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Part of the ABC transporter complex ThiBPQ involved in
+CC       thiamine import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01723}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + thiamine(out) = ADP + H(+) + phosphate +
+CC         thiamine(in); Xref=Rhea:RHEA:29811, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:18385, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.6.2.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01723};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (ThiQ),
+CC       two transmembrane proteins (ThiP) and a solute-binding protein (ThiB).
+CC       {ECO:0000255|HAMAP-Rule:MF_01723}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01723}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01723}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Thiamine
+CC       importer (TC 3.A.1.19.1) family. {ECO:0000255|HAMAP-Rule:MF_01723}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD01263.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO67842.1; -; Genomic_DNA.
+DR   RefSeq; NP_454718.1; NC_003198.1.
+DR   RefSeq; WP_000915973.1; NZ_WSUR01000028.1.
+DR   STRING; 220341.16501391; -.
+DR   EnsemblBacteria; AAO67842; AAO67842; t0110.
+DR   KEGG; stt:t0110; -.
+DR   KEGG; sty:STY0123; -.
+DR   PATRIC; fig|220341.7.peg.123; -.
+DR   eggNOG; COG3840; Bacteria.
+DR   HOGENOM; CLU_000604_1_22_6; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0048502; F:ABC-type thiamine transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005968; Thiamine_ABC_ThiQ.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01277; thiQ; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51288; THIQ; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Translocase; Transport.
+FT   CHAIN           1..235
+FT                   /note="Thiamine import ATP-binding protein ThiQ"
+FT                   /id="PRO_0000274456"
+FT   DOMAIN          2..230
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01723"
+FT   NP_BIND         32..39
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01723"
+SQ   SEQUENCE   235 AA;  25574 MW;  72B7D8646E7D301B CRC64;
+     MLKLIDITWL YHHLPMRFTL AVERGEQVAI LGPSGAGKST LLNLIAGFLA PASGTLLIAG
+     EDHTLTPPSR RPVSMLFQEN NLFSHLNVQQ NIGLGLNPGL TLNASQREKR DAIARQMGIE
+     SLMARLPGEL SGGQRQRVAL ARCLVREQPV LLLDEPFSAL DPALRQEMLT LVSDICRERQ
+     LTLLMVSHSV EDAARIAPRS IVVADGRIAW QGKTDELLSG QASASALLGI KSHIL
+//

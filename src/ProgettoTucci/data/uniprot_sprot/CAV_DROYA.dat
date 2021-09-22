@@ -1,0 +1,108 @@
+ID   CAV_DROYA               Reviewed;         319 AA.
+AC   B4PKZ7; B6UW57; O16047;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 46.
+DE   RecName: Full=Telomere-binding protein cav {ECO:0000250|UniProtKB:Q95RV2};
+DE   AltName: Full=Anon-EST:fe1G5 {ECO:0000312|EMBL:EDW98982.1};
+GN   Name=cav {ECO:0000250|UniProtKB:Q95RV2};
+GN   Synonyms=anon-EST:fe1G5 {ECO:0000312|EMBL:EDW98982.1}; ORFNames=GE23460;
+OS   Drosophila yakuba (Fruit fly).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Diptera; Brachycera; Muscomorpha; Ephydroidea;
+OC   Drosophilidae; Drosophila; Sophophora.
+OX   NCBI_TaxID=7245;
+RN   [1] {ECO:0000312|EMBL:AAB81483.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9275195; DOI=10.1073/pnas.94.18.9746;
+RA   Schmid K.J., Tautz D.;
+RT   "A screen for fast evolving genes from Drosophila.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 94:9746-9750(1997).
+RN   [2] {ECO:0000312|EMBL:EDW98982.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Tai18E2 / Tucson 14021-0261.01 {ECO:0000312|EMBL:EDW98982.1};
+RX   PubMed=17994087; DOI=10.1038/nature06341;
+RG   Drosophila 12 genomes consortium;
+RT   "Evolution of genes and genomes on the Drosophila phylogeny.";
+RL   Nature 450:203-218(2007).
+RN   [3] {ECO:0000312|EMBL:ACI96380.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-141.
+RX   PubMed=18984573; DOI=10.1534/genetics.108.093807;
+RA   Anderson J.A., Gilliland W.D., Langley C.H.;
+RT   "Molecular population genetics and evolution of Drosophila meiosis genes.";
+RL   Genetics 181:177-185(2009).
+CC   -!- FUNCTION: Binds to chromosome ends in a sequence-dependent manner and
+CC       is required for telomere capping. {ECO:0000250|UniProtKB:Q95RV2}.
+CC   -!- SUBUNIT: Interacts (via C-terminus) with Su(var)205 dimer (via hinge
+CC       and chromoshadow domain) and with moi to form the terminin, telomere-
+CC       capping, complex. Interacts with HP6, which is also part of the
+CC       terminin complex (By similarity). {ECO:0000250|UniProtKB:Q95RV2}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250|UniProtKB:Q95RV2}.
+CC       Chromosome, telomere {ECO:0000250|UniProtKB:Q95RV2}.
+CC   -!- MISCELLANEOUS: Multiple telomeric associations (TAs) in the same
+CC       metaphase spread often result in multicentric linear chromosomes that
+CC       resemble little 'trains' of chromosomes, hence the name 'caravaggio',
+CC       an Italian train.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF005852; AAB81483.1; -; mRNA.
+DR   EMBL; CM000160; EDW98982.1; -; Genomic_DNA.
+DR   EMBL; FJ218755; ACI96380.1; -; Genomic_DNA.
+DR   RefSeq; XP_002099270.1; XM_002099234.2.
+DR   STRING; 7245.FBpp0268470; -.
+DR   EnsemblMetazoa; FBtr0269978; FBpp0268470; FBgn0022414.
+DR   GeneID; 6538756; -.
+DR   KEGG; dya:Dyak_GE23460; -.
+DR   eggNOG; ENOG502RN8H; Eukaryota.
+DR   HOGENOM; CLU_059636_0_0_1; -.
+DR   OMA; QINSESM; -.
+DR   OrthoDB; 1158010at2759; -.
+DR   PhylomeDB; B4PKZ7; -.
+DR   ChiTaRS; cav; fly.
+DR   Proteomes; UP000002282; Chromosome 3R.
+DR   Proteomes; UP000002282; Unassembled WGS sequence.
+DR   Bgee; FBgn0022414; Expressed in adult organism and 1 other tissue.
+DR   GO; GO:0000775; C:chromosome, centromeric region; IEA:EnsemblMetazoa.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000782; C:telomere cap complex; ISS:UniProtKB.
+DR   GO; GO:0042162; F:telomeric DNA binding; ISS:UniProtKB.
+DR   GO; GO:0016233; P:telomere capping; ISS:UniProtKB.
+PE   2: Evidence at transcript level;
+KW   Chromosome; DNA-binding; Nucleus; Repeat; Telomere.
+FT   CHAIN           1..319
+FT                   /note="Telomere-binding protein cav"
+FT                   /id="PRO_0000379492"
+FT   REGION          107..312
+FT                   /note="Required for binding to Su(var)205"
+FT                   /evidence="ECO:0000250|UniProtKB:Q95RV2"
+FT   MOTIF           220..224
+FT                   /note="Su(var)205-binding Pro-containing repeat 1"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           273..279
+FT                   /note="Su(var)205-binding Pro-containing repeat 2"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        81
+FT                   /note="K -> R (in Ref. 1; AAB81483)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        232
+FT                   /note="G -> A (in Ref. 1; AAB81483)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        244
+FT                   /note="D -> E (in Ref. 1; AAB81483)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        302
+FT                   /note="G -> A (in Ref. 1; AAB81483)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        318
+FT                   /note="V -> ARDV (in Ref. 1; AAB81483)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   319 AA;  36929 MW;  A013F8AB188D8D6B CRC64;
+     MSGMQISSYL RKYLADEDKK IREEFKESDP NNEMILWMHE KTRITEEDLA RPYTEDEVRE
+     LCLRTKVKVN MTAWNCLWEA KKRFDAKGRF ERKSEEFINL MYLKAVRRKM VQPYPEDYVA
+     QRREIAAAET KKDNISRLDR WQKQKRRNQS AHATQPDSQD NEVVEIHDDT NRYSVSQAVA
+     LPVLTPSDLS GIGDDEDEQQ QQHHHHKHRS GFQNEHADCP ETQMRCDQAD SGRLPNGPTN
+     SESDPDYYMF GTQLSRSIQP TSTQEADDQL ACPETEMNES WVRCDQINSE SMSIGPSINS
+     DGSISFQNSG SEPIDVDVN
+//

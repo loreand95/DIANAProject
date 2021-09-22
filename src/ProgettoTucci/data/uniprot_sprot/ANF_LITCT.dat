@@ -1,0 +1,79 @@
+ID   ANF_LITCT               Reviewed;         145 AA.
+AC   P18909;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 2.
+DT   26-FEB-2020, entry version 81.
+DE   RecName: Full=Natriuretic peptides A;
+DE   Contains:
+DE     RecName: Full=Atrial natriuretic factor;
+DE              Short=ANF;
+DE     AltName: Full=Atrial natriuretic peptide;
+DE              Short=ANP;
+DE   Contains:
+DE     RecName: Full=ANP-24;
+DE   Flags: Precursor;
+OS   Lithobates catesbeianus (American bullfrog) (Rana catesbeiana).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Ranoidea; Ranidae; Lithobates.
+OX   NCBI_TaxID=8400;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RA   Kojima M.;
+RL   Submitted (JUL-1992) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 122-145.
+RC   TISSUE=Heart;
+RX   PubMed=2972279; DOI=10.1016/s0006-291x(88)81288-9;
+RA   Sakata J., Kangawa K., Matsuo H.;
+RT   "Identification of new atrial natriuretic peptides in frog heart.";
+RL   Biochem. Biophys. Res. Commun. 155:1338-1345(1988).
+CC   -!- FUNCTION: Hormone playing a key role in cardiovascular homeostasis
+CC       through regulation of natriuresis, diuresis, and vasodilation. Has a
+CC       cGMP-stimulating activity (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- PTM: Cleaved upon secretion to produce the functional hormone.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the natriuretic peptide family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D01043; BAA00850.1; -; mRNA.
+DR   PIR; JQ0947; JQ0947.
+DR   SMR; P18909; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005179; F:hormone activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006182; P:cGMP biosynthetic process; ISS:GO_Central.
+DR   GO; GO:0007168; P:receptor guanylyl cyclase signaling pathway; ISS:UniProtKB.
+DR   InterPro; IPR000663; Natr_peptide.
+DR   InterPro; IPR030480; Natr_peptide_CS.
+DR   InterPro; IPR002407; Natriuretic_peptide_atrial.
+DR   Pfam; PF00212; ANP; 1.
+DR   PRINTS; PR00711; ANATPEPTIDE.
+DR   PRINTS; PR00710; NATPEPTIDES.
+DR   SMART; SM00183; NAT_PEP; 1.
+DR   PROSITE; PS00263; NATRIURETIC_PEPTIDE; 1.
+PE   1: Evidence at protein level;
+KW   Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Disulfide bond; Hormone; Secreted; Signal; Vasoactive.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          24..117
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000001515"
+FT   PEPTIDE         118..145
+FT                   /note="Atrial natriuretic factor"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000391788"
+FT   PEPTIDE         122..145
+FT                   /note="ANP-24"
+FT                   /id="PRO_0000001516"
+FT   SITE            117..118
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        125..141
+SQ   SEQUENCE   145 AA;  15934 MW;  01EB3B9779529405 CRC64;
+     MGTSFVGYLT FVLLLLALTK VRGGPAYNSP LSSDLSDLKG LLERLEDRLP VEEVETPVQD
+     IFAPNYDSAD SSNSAPSLTV EAARPGADMM YNRGSWTQQE KSSPLRNKLR ELLNAPRSMR
+     RSSDCFGSRI DRIGAQSGMG CGRRF
+//

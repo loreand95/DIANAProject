@@ -1,0 +1,172 @@
+ID   PPAC_STRGC              Reviewed;         311 AA.
+AC   P95765; A8AYR5;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   07-APR-2021, entry version 130.
+DE   RecName: Full=Probable manganese-dependent inorganic pyrophosphatase;
+DE            EC=3.6.1.1;
+DE   AltName: Full=Pyrophosphate phospho-hydrolase;
+DE            Short=PPase;
+GN   Name=ppaC; OrderedLocusNames=SGO_1648;
+OS   Streptococcus gordonii (strain Challis / ATCC 35105 / BCRC 15272 / CH1 /
+OS   DL1 / V288).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=467705;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8926080; DOI=10.1128/iai.64.10.4137-4142.1996;
+RA   Whittaker C.J., Clemans D.L., Kolenbrander P.E.;
+RT   "Insertional inactivation of an intrageneric coaggregation-relevant adhesin
+RT   locus from Streptococcus gordonii DL1 (Challis).";
+RL   Infect. Immun. 64:4137-4142(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Challis / ATCC 35105 / BCRC 15272 / CH1 / DL1 / V288;
+RX   PubMed=17720781; DOI=10.1128/jb.01023-07;
+RA   Vickerman M.M., Iobst S., Jesionowski A.M., Gill S.R.;
+RT   "Genome-wide transcriptional changes in Streptococcus gordonii in response
+RT   to competence signaling peptide.";
+RL   J. Bacteriol. 189:7799-7807(2007).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS).
+RX   PubMed=11697905; DOI=10.1006/jmbi.2001.5070;
+RA   Ahn S., Milner A.J., Fuetterer K., Konopka M., Ilias M., Young T.W.,
+RA   White S.A.;
+RT   "The 'open' and 'closed' structures of the type-C inorganic
+RT   pyrophosphatases from Bacillus subtilis and Streptococcus gordonii.";
+RL   J. Mol. Biol. 313:797-811(2001).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + H2O = H(+) + 2 phosphate; Xref=Rhea:RHEA:24576,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474; EC=3.6.1.1;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC       Note=Binds 2 manganese ions per subunit.;
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PPase class C family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U57759; AAB39104.1; -; Genomic_DNA.
+DR   EMBL; CP000725; ABV09962.1; -; Genomic_DNA.
+DR   RefSeq; WP_012130706.1; NC_009785.1.
+DR   PDB; 1K20; X-ray; 1.50 A; A/B=2-311.
+DR   PDB; 1WPP; X-ray; 2.05 A; A/B=1-311.
+DR   PDBsum; 1K20; -.
+DR   PDBsum; 1WPP; -.
+DR   SMR; P95765; -.
+DR   STRING; 467705.SGO_1648; -.
+DR   EnsemblBacteria; ABV09962; ABV09962; SGO_1648.
+DR   GeneID; 25051201; -.
+DR   KEGG; sgo:SGO_1648; -.
+DR   eggNOG; COG1227; Bacteria.
+DR   HOGENOM; CLU_025243_0_1_9; -.
+DR   OMA; STPLECW; -.
+DR   BioCyc; SGOR467705:G1G95-1638-MONOMER; -.
+DR   BRENDA; 3.6.1.1; 5934.
+DR   EvolutionaryTrace; P95765; -.
+DR   Proteomes; UP000001131; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004427; F:inorganic diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.10.310.20; -; 1.
+DR   HAMAP; MF_00207; PPase_C; 1.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR038763; DHH_sf.
+DR   InterPro; IPR004097; DHHA2.
+DR   InterPro; IPR038222; DHHA2_dom_sf.
+DR   InterPro; IPR022934; Mn-dep_inorganic_PyrPase.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02833; DHHA2; 1.
+DR   SMART; SM01131; DHHA2; 1.
+DR   SUPFAM; SSF64182; SSF64182; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Hydrolase; Manganese; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN           1..311
+FT                   /note="Probable manganese-dependent inorganic
+FT                   pyrophosphatase"
+FT                   /id="PRO_0000158589"
+FT   METAL           9
+FT                   /note="Manganese 1"
+FT   METAL           13
+FT                   /note="Manganese 1"
+FT   METAL           15
+FT                   /note="Manganese 2"
+FT   METAL           77
+FT                   /note="Manganese 1"
+FT   METAL           77
+FT                   /note="Manganese 2"
+FT   METAL           99
+FT                   /note="Manganese 2"
+FT   METAL           151
+FT                   /note="Manganese 2"
+FT   STRAND          4..7
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           14..31
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          35..37
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          39..41
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           45..54
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           66..68
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          71..77
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           81..83
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           88..90
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          91..98
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          112..115
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          117..119
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           121..131
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           138..152
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   TURN            153..156
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           162..175
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           179..188
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           198..201
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          204..211
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          214..224
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           226..230
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           233..247
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          250..258
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   TURN            259..262
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          263..271
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           273..280
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   STRAND          288..292
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           297..300
+FT                   /evidence="ECO:0007744|PDB:1K20"
+FT   HELIX           302..310
+FT                   /evidence="ECO:0007744|PDB:1K20"
+SQ   SEQUENCE   311 AA;  33541 MW;  610A704B681E2889 CRC64;
+     MSKILVFGHQ NPDSDAIGSS YAFAYLAREA YGLDTEAVAL GEPNEETAFV LDYFGVAAPR
+     VITSAKAEGA EQVILTDHNE FQQSVADIAE VEVYGVVDHH RVANFETANP LYMRLEPVGS
+     ASSIVYRMFK EHSVAVSKEI AGLMLSGLIS DTLLLKSPTT HPTDKAIAPE LAELAGVNLE
+     EYGLAMLKAG TNLASKSAEE LIDIDAKTFE LNGNNVRVAQ VNTVDIAEVL ERQAEIEAAI
+     EKAIADNGYS DFVLMITDII NSNSEILAIG SNMDKVEAAF NFVLENNHAF LAGAVSRKKQ
+     VVPQLTESFN A
+//

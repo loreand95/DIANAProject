@@ -1,0 +1,110 @@
+ID   PYRK_PYRFU              Reviewed;         247 AA.
+AC   P58888;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2002, sequence version 1.
+DT   02-DEC-2020, entry version 108.
+DE   RecName: Full=Probable dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit {ECO:0000255|HAMAP-Rule:MF_01211};
+DE   AltName: Full=Dihydroorotate oxidase B, electron transfer subunit {ECO:0000255|HAMAP-Rule:MF_01211};
+GN   Name=pyrK {ECO:0000255|HAMAP-Rule:MF_01211}; OrderedLocusNames=PF0188;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P.
+RT   horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+CC   -!- FUNCTION: Responsible for channeling the electrons from the oxidation
+CC       of dihydroorotate from the FMN redox center in the PyrD type B subunit
+CC       to the ultimate electron acceptor NAD(+). {ECO:0000255|HAMAP-
+CC       Rule:MF_01211}.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01211};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01211};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01211};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_01211};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       orotate from (S)-dihydroorotate (NAD(+) route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01211}.
+CC   -!- SUBUNIT: Heterotetramer of 2 PyrK and 2 PyrD type B subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01211}.
+CC   -!- SIMILARITY: Belongs to the PyrK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01211}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009950; AAL80312.1; -; Genomic_DNA.
+DR   RefSeq; WP_011011301.1; NZ_CP023154.1.
+DR   SMR; P58888; -.
+DR   STRING; 186497.PF0188; -.
+DR   EnsemblBacteria; AAL80312; AAL80312; PF0188.
+DR   GeneID; 41711979; -.
+DR   KEGG; pfu:PF0188; -.
+DR   PATRIC; fig|186497.12.peg.195; -.
+DR   eggNOG; arCOG02199; Archaea.
+DR   HOGENOM; CLU_003827_1_1_2; -.
+DR   OMA; RYMKCGI; -.
+DR   OrthoDB; 67226at2157; -.
+DR   BioCyc; PFUR186497:G1FZR-196-MONOMER; -.
+DR   UniPathway; UPA00070; UER00945.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.80; -; 1.
+DR   HAMAP; MF_01211; DHODB_Fe_S_bind; 1.
+DR   InterPro; IPR012165; Cyt_c3_hydrogenase_gsu.
+DR   InterPro; IPR019480; Dihydroorotate_DH_Fe-S-bd.
+DR   InterPro; IPR023455; Dihydroorotate_DHASE_ETsu.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR001433; OxRdtase_FAD/NAD-bd.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   Pfam; PF10418; DHODB_Fe-S_bind; 1.
+DR   Pfam; PF00175; NAD_binding_1; 1.
+DR   PIRSF; PIRSF006816; Cyc3_hyd_g; 1.
+DR   SUPFAM; SSF52343; SSF52343; 1.
+DR   SUPFAM; SSF63380; SSF63380; 1.
+DR   PROSITE; PS00197; 2FE2S_FER_1; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Electron transport; FAD; Flavoprotein; Iron; Iron-sulfur;
+KW   Metal-binding; Pyrimidine biosynthesis; Reference proteome; Transport.
+FT   CHAIN           1..247
+FT                   /note="Probable dihydroorotate dehydrogenase B (NAD(+)),
+FT                   electron transfer subunit"
+FT                   /id="PRO_0000148380"
+FT   DOMAIN          1..87
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           201
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           206
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           209
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+FT   METAL           217
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01211"
+SQ   SEQUENCE   247 AA;  27690 MW;  21AE5CD0CCBCC7C7 CRC64;
+     MLRRVSIEET WEVAKNIKAF RLSEKLEFTP GQFIMLWLPG VEEKPLSLAD KNLIMVKKVG
+     RFTNELFKLK EGDYVWIRGP YGHGFSGKGK SVALIAGGIG IPPIYALAKY GNFKRSILIY
+     GARTKEEIAL PKDIESYVDE VIITTDDGSY GIKGFPTDVL MERRSEFDYV YACGPEIMLA
+     KILEIMEFEN VEVSAERYMK CGIGVCGSCA LGPYLVCRDG PVFSGKQLIN TEFGKYSRTP
+     DGRIKPL
+//

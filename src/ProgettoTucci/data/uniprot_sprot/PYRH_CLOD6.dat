@@ -1,0 +1,122 @@
+ID   PYRH_CLOD6              Reviewed;         234 AA.
+AC   Q185S7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-JUL-2006, sequence version 1.
+DT   07-APR-2021, entry version 92.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220}; OrderedLocusNames=CD630_21380;
+OS   Clostridioides difficile (strain 630) (Peptoclostridium difficile).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae;
+OC   Clostridioides.
+OX   NCBI_TaxID=272563;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=630;
+RX   PubMed=16804543; DOI=10.1038/ng1830;
+RA   Sebaihia M., Wren B.W., Mullany P., Fairweather N.F., Minton N.,
+RA   Stabler R., Thomson N.R., Roberts A.P., Cerdeno-Tarraga A.M., Wang H.,
+RA   Holden M.T.G., Wright A., Churcher C., Quail M.A., Baker S., Bason N.,
+RA   Brooks K., Chillingworth T., Cronin A., Davis P., Dowd L., Fraser A.,
+RA   Feltwell T., Hance Z., Holroyd S., Jagels K., Moule S., Mungall K.,
+RA   Price C., Rabbinowitsch E., Sharp S., Simmonds M., Stevens K., Unwin L.,
+RA   Whithead S., Dupuy B., Dougan G., Barrell B., Parkhill J.;
+RT   "The multidrug-resistant human pathogen Clostridium difficile has a highly
+RT   mobile, mosaic genome.";
+RL   Nat. Genet. 38:779-786(2006).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + UMP = ADP + UDP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Allosterically activated by GTP. Inhibited by UTP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM180355; CAJ69023.1; -; Genomic_DNA.
+DR   RefSeq; WP_003430597.1; NZ_CP010905.2.
+DR   RefSeq; YP_001088652.1; NC_009089.1.
+DR   SMR; Q185S7; -.
+DR   STRING; 272563.CD630_21380; -.
+DR   PRIDE; Q185S7; -.
+DR   EnsemblBacteria; CAJ69023; CAJ69023; CD630_21380.
+DR   GeneID; 57298004; -.
+DR   KEGG; cdf:CD630_21380; -.
+DR   KEGG; pdc:CDIF630_02369; -.
+DR   PATRIC; fig|272563.120.peg.2258; -.
+DR   eggNOG; COG0528; Bacteria.
+DR   OMA; PIIVFDM; -.
+DR   BioCyc; PDIF272563:G12WB-2295-MONOMER; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000001978; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR02075; pyrH_bact; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..234
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_1000053912"
+FT   NP_BIND         12..15
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   NP_BIND         133..140
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   REGION          20..25
+FT                   /note="Involved in allosteric activation by GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         54
+FT                   /note="UMP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         55
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         59
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         72
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         161
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         166
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   234 AA;  25828 MW;  24C90BBF3CE595B4 CRC64;
+     MDKPMYKRVL LKLSGEALAG ERGFGINNDV VNDIAIAIKK IQEIGVEVAV VVGGGNFWRG
+     RTSEGMDRTT ADYIGMLATV MNAMALQDAL ENIDVATRVQ TAIDMRQIAE PYIRRRAVRH
+     LEKERVVIFG AGTGNPYFTT DTTAALRAAE MEAEVILLAK NVDAVYDKDP KVHADAKKFT
+     ELSYMEVIQK ELKVMDSTAT SLCMDNKIPI KVFELTTENI IRAVKGENIG TTVK
+//

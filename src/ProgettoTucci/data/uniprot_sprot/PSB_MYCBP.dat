@@ -1,0 +1,100 @@
+ID   PSB_MYCBP               Reviewed;         291 AA.
+AC   A1KKF3;
+DT   10-AUG-2010, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-APR-2021, entry version 78.
+DE   RecName: Full=Proteasome subunit beta {ECO:0000255|HAMAP-Rule:MF_02113};
+DE            EC=3.4.25.1 {ECO:0000255|HAMAP-Rule:MF_02113};
+DE   AltName: Full=20S proteasome beta subunit {ECO:0000255|HAMAP-Rule:MF_02113};
+DE   AltName: Full=Proteasome core protein PrcB {ECO:0000255|HAMAP-Rule:MF_02113};
+DE   Flags: Precursor;
+GN   Name=prcB {ECO:0000255|HAMAP-Rule:MF_02113}; OrderedLocusNames=BCG_2127c;
+OS   Mycobacterium bovis (strain BCG / Pasteur 1173P2).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=410289;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BCG / Pasteur 1173P2;
+RX   PubMed=17372194; DOI=10.1073/pnas.0700869104;
+RA   Brosch R., Gordon S.V., Garnier T., Eiglmeier K., Frigui W., Valenti P.,
+RA   Dos Santos S., Duthoy S., Lacroix C., Garcia-Pelayo C., Inwald J.K.,
+RA   Golby P., Garcia J.N., Hewinson R.G., Behr M.A., Quail M.A., Churcher C.,
+RA   Barrell B.G., Parkhill J., Cole S.T.;
+RT   "Genome plasticity of BCG and impact on vaccine efficacy.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:5596-5601(2007).
+CC   -!- FUNCTION: Component of the proteasome core, a large protease complex
+CC       with broad specificity involved in protein degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_02113}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Cleavage of peptide bonds with very broad specificity.;
+CC         EC=3.4.25.1; Evidence={ECO:0000255|HAMAP-Rule:MF_02113};
+CC   -!- ACTIVITY REGULATION: The formation of the proteasomal ATPase ARC-20S
+CC       proteasome complex, likely via the docking of the C-termini of ARC into
+CC       the intersubunit pockets in the alpha-rings, may trigger opening of the
+CC       gate for substrate entry. Interconversion between the open-gate and
+CC       close-gate conformations leads to a dynamic regulation of the 20S
+CC       proteasome proteolysis activity. {ECO:0000255|HAMAP-Rule:MF_02113}.
+CC   -!- PATHWAY: Protein degradation; proteasomal Pup-dependent pathway.
+CC       {ECO:0000255|HAMAP-Rule:MF_02113}.
+CC   -!- SUBUNIT: The 20S proteasome core is composed of 14 alpha and 14 beta
+CC       subunits that assemble into four stacked heptameric rings, resulting in
+CC       a barrel-shaped structure. The two inner rings, each composed of seven
+CC       catalytic beta subunits, are sandwiched by two outer rings, each
+CC       composed of seven alpha subunits. The catalytic chamber with the active
+CC       sites is on the inside of the barrel. Has a gated structure, the ends
+CC       of the cylinder being occluded by the N-termini of the alpha-subunits.
+CC       Is capped by the proteasome-associated ATPase, ARC. {ECO:0000255|HAMAP-
+CC       Rule:MF_02113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02113}.
+CC   -!- SIMILARITY: Belongs to the peptidase T1B family. {ECO:0000255|HAMAP-
+CC       Rule:MF_02113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM408590; CAL72115.1; -; Genomic_DNA.
+DR   RefSeq; WP_003411023.1; NC_008769.1.
+DR   SMR; A1KKF3; -.
+DR   MEROPS; T01.005; -.
+DR   KEGG; mbb:BCG_2127c; -.
+DR   HOGENOM; CLU_035750_2_0_11; -.
+DR   OMA; NLGMAMQ; -.
+DR   BioCyc; MBOV410289:G1G1S-2291-MONOMER; -.
+DR   UniPathway; UPA00997; -.
+DR   Proteomes; UP000001472; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019774; C:proteasome core complex, beta-subunit complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004298; F:threonine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019941; P:modification-dependent protein catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010498; P:proteasomal protein catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.60.20.10; -; 1.
+DR   HAMAP; MF_02113_B; Proteasome_B_B; 1.
+DR   InterPro; IPR029055; Ntn_hydrolases_N.
+DR   InterPro; IPR022483; Pept_T1A_Psome_suB_actinobac.
+DR   InterPro; IPR001353; Proteasome_sua/b.
+DR   InterPro; IPR023333; Proteasome_suB-type.
+DR   Pfam; PF00227; Proteasome; 1.
+DR   SUPFAM; SSF56235; SSF56235; 1.
+DR   TIGRFAMs; TIGR03690; 20S_bact_beta; 1.
+DR   PROSITE; PS51476; PROTEASOME_BETA_2; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; Cytoplasm; Hydrolase; Protease; Proteasome;
+KW   Threonine protease; Zymogen.
+FT   PROPEP          1..57
+FT                   /note="Removed in mature form; by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02113"
+FT                   /id="PRO_0000397526"
+FT   CHAIN           58..291
+FT                   /note="Proteasome subunit beta"
+FT                   /id="PRO_0000397527"
+FT   ACT_SITE        58
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02113"
+SQ   SEQUENCE   291 AA;  30305 MW;  3FC3FCD81231E129 CRC64;
+     MTWPLPDRLS INSLSGTPAV DLSSFTDFLR RQAPELLPAS ISGGAPLAGG DAQLPHGTTI
+     VALKYPGGVV MAGDRRSTQG NMISGRDVRK VYITDDYTAT GIAGTAAVAV EFARLYAVEL
+     EHYEKLEGVP LTFAGKINRL AIMVRGNLAA AMQGLLALPL LAGYDIHASD PQSAGRIVSF
+     DAAGGWNIEE EGYQAVGSGS LFAKSSMKKL YSQVTDGDSG LRVAVEALYD AADDDSATGG
+     PDLVRGIFPT AVIIDADGAV DVPESRIAEL ARAIIESRSG ADTFGSDGGE K
+//

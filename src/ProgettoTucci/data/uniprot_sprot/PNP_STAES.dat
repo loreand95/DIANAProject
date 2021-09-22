@@ -1,0 +1,194 @@
+ID   PNP_STAES               Reviewed;         701 AA.
+AC   Q8CST1;
+DT   28-NOV-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Polyribonucleotide nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            EC=2.7.7.8 {ECO:0000255|HAMAP-Rule:MF_01595};
+DE   AltName: Full=Polynucleotide phosphorylase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            Short=PNPase {ECO:0000255|HAMAP-Rule:MF_01595};
+GN   Name=pnp {ECO:0000255|HAMAP-Rule:MF_01595}; Synonyms=pnpA;
+GN   OrderedLocusNames=SE_0951;
+OS   Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=176280;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 12228 / FDA PCI 1200;
+RX   PubMed=12950922; DOI=10.1046/j.1365-2958.2003.03671.x;
+RA   Zhang Y.-Q., Ren S.-X., Li H.-L., Wang Y.-X., Fu G., Yang J., Qin Z.-Q.,
+RA   Miao Y.-G., Wang W.-Y., Chen R.-S., Shen Y., Chen Z., Yuan Z.-H.,
+RA   Zhao G.-P., Qu D., Danchin A., Wen Y.-M.;
+RT   "Genome-based analysis of virulence genes in a non-biofilm-forming
+RT   Staphylococcus epidermidis strain (ATCC 12228).";
+RL   Mol. Microbiol. 49:1577-1593(2003).
+CC   -!- FUNCTION: Involved in mRNA degradation. Catalyzes the phosphorolysis of
+CC       single-stranded polyribonucleotides processively in the 3'- to 5'-
+CC       direction. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + RNA(n+1) = a ribonucleoside 5'-diphosphate +
+CC         RNA(n); Xref=Rhea:RHEA:22096, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.8; Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- SIMILARITY: Belongs to the polyribonucleotide nucleotidyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015929; AAO04548.1; -; Genomic_DNA.
+DR   RefSeq; NP_764506.1; NC_004461.1.
+DR   RefSeq; WP_001832554.1; NZ_WBME01000001.1.
+DR   PDB; 5YJJ; X-ray; 2.20 A; A/B/C/D/E/F=1-701.
+DR   PDBsum; 5YJJ; -.
+DR   SMR; Q8CST1; -.
+DR   STRING; 176280.SE_0951; -.
+DR   EnsemblBacteria; AAO04548; AAO04548; SE_0951.
+DR   GeneID; 50018914; -.
+DR   KEGG; sep:SE0951; -.
+DR   PATRIC; fig|176280.10.peg.925; -.
+DR   eggNOG; COG1185; Bacteria.
+DR   HOGENOM; CLU_004217_2_2_9; -.
+DR   OMA; RYMHNYN; -.
+DR   BioCyc; SEPI176280:G1G05-957-MONOMER; -.
+DR   Proteomes; UP000001411; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004654; F:polyribonucleotide nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   Gene3D; 3.30.230.70; -; 2.
+DR   HAMAP; MF_01595; PNPase; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR012162; PNPase.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR015848; PNPase_PH_RNA-bd_bac/org-type.
+DR   InterPro; IPR036456; PNPase_PH_RNA-bd_sf.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR022967; S1_dom.
+DR   InterPro; IPR003029; S1_domain.
+DR   PANTHER; PTHR11252; PTHR11252; 1.
+DR   Pfam; PF00013; KH_1; 1.
+DR   Pfam; PF03726; PNPase; 1.
+DR   Pfam; PF01138; RNase_PH; 2.
+DR   Pfam; PF03725; RNase_PH_C; 2.
+DR   Pfam; PF00575; S1; 1.
+DR   PIRSF; PIRSF005499; PNPase; 1.
+DR   SMART; SM00322; KH; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF46915; SSF46915; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF54211; SSF54211; 2.
+DR   SUPFAM; SSF54791; SSF54791; 1.
+DR   SUPFAM; SSF55666; SSF55666; 2.
+DR   TIGRFAMs; TIGR03591; polynuc_phos; 1.
+DR   PROSITE; PS50084; KH_TYPE_1; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   RNA-binding; Transferase.
+FT   CHAIN           1..701
+FT                   /note="Polyribonucleotide nucleotidyltransferase"
+FT                   /id="PRO_0000260062"
+FT   DOMAIN          557..616
+FT                   /note="KH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   DOMAIN          626..694
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           490
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           496
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   STRAND          6..12
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          15..24
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          28..36
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          39..47
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          59..65
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           67..69
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           87..99
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          111..119
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           126..139
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          141..143
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          150..157
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          160..164
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           167..171
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          174..181
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          183..196
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           198..226
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           298..314
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          331..335
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          341..349
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          352..361
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          380..385
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           388..391
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           402..416
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   TURN            422..424
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          427..437
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           442..456
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          466..475
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          478..484
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           487..492
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          493..502
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   STRAND          505..516
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+FT   HELIX           520..544
+FT                   /evidence="ECO:0007744|PDB:5YJJ"
+SQ   SEQUENCE   701 AA;  77444 MW;  ED6B9F1674F6ED20 CRC64;
+     MSQEKKVFKT EWAGRSLTIE TGQLAKQANG AVLVRYGDTV VLSTATASKE PRDGDFFPLT
+     VNYEEKMYAA GKIPGGFKKR EGRPGDEATL TARLIDRPIR PLFPKGYRHD VQIMNIVLSA
+     DPDCSPEMAA MIGSSMALSV SDIPFQGPIA GVNVGYIDGK YVINPSVADK EISRLDLEVA
+     GHKDAVNMVE AGASEITESE MLEAIFFGHE EIKRLVAFQQ EIIDHIQPIK QEFVPVERDE
+     DLVEKVKSLT EDKGLKDTVL TFDKQQRDEN LDALKEEVVG HFLDEEDPEN ETLVKEVYAI
+     LNDLIKEEVR RLIADEKIRP DGRKVDEIRP LESEVGLLPR AHGSGLFTRG QTQALSVLTL
+     GALGDYQLID GLGPEVEKRF MHHYNFPNFS VGETGPVRAP GRREIGHGAL GERALRYIIP
+     DTQDFPYTIR IVSEVLESNG SSSQASICGS TLALMDAGVP IKAPVAGIAM GLVTRDDSYT
+     ILTDIQGMED ALGDMDFKVA GTKDGITAIQ MDIKIDGLTR EVIEEALEQA RQGRLAIMDH
+     MLHTIEQPRE ELSAYAPKVV TMSINPDKIR DVIGPGGKKI NEIIDETGVK LDIEQDGTIF
+     IGAVDQAMIN RAKEIIEDIT REAEVGQVYH AKVKRIEKYG AFVELFPGKD ALLHISQISQ
+     ERINKVEDVL KIGDTIEVKI TEIDKQGRVN ASHKVLEQSK N
+//

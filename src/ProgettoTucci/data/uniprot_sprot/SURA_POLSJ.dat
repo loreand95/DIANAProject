@@ -1,0 +1,106 @@
+ID   SURA_POLSJ              Reviewed;         473 AA.
+AC   Q121Q4;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   02-DEC-2020, entry version 74.
+DE   RecName: Full=Chaperone SurA {ECO:0000255|HAMAP-Rule:MF_01183};
+DE   AltName: Full=Peptidyl-prolyl cis-trans isomerase SurA {ECO:0000255|HAMAP-Rule:MF_01183};
+DE            Short=PPIase SurA {ECO:0000255|HAMAP-Rule:MF_01183};
+DE            EC=5.2.1.8 {ECO:0000255|HAMAP-Rule:MF_01183};
+DE   AltName: Full=Rotamase SurA {ECO:0000255|HAMAP-Rule:MF_01183};
+DE   Flags: Precursor;
+GN   Name=surA {ECO:0000255|HAMAP-Rule:MF_01183}; OrderedLocusNames=Bpro_4862;
+OS   Polaromonas sp. (strain JS666 / ATCC BAA-500).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Polaromonas; unclassified Polaromonas.
+OX   NCBI_TaxID=296591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JS666 / ATCC BAA-500;
+RX   PubMed=18723656; DOI=10.1128/aem.00197-08;
+RA   Mattes T.E., Alexander A.K., Richardson P.M., Munk A.C., Han C.S.,
+RA   Stothard P., Coleman N.V.;
+RT   "The genome of Polaromonas sp. strain JS666: insights into the evolution of
+RT   a hydrocarbon- and xenobiotic-degrading bacterium, and features of
+RT   relevance to biotechnology.";
+RL   Appl. Environ. Microbiol. 74:6405-6416(2008).
+CC   -!- FUNCTION: Chaperone involved in the correct folding and assembly of
+CC       outer membrane proteins. Recognizes specific patterns of aromatic
+CC       residues and the orientation of their side chains, which are found more
+CC       frequently in integral outer membrane proteins. May act in both early
+CC       periplasmic and late outer membrane-associated steps of protein
+CC       maturation. {ECO:0000255|HAMAP-Rule:MF_01183}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01183};
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01183}.
+CC       Note=Is capable of associating with the outer membrane.
+CC       {ECO:0000255|HAMAP-Rule:MF_01183}.
+CC   -!- DOMAIN: The PPIase activity resides only in the second parvulin domain.
+CC       The N-terminal region and the C-terminal tail are necessary and
+CC       sufficient for the chaperone activity of SurA. The PPIase activity is
+CC       dispensable for SurA to function as a chaperone. The N-terminal region
+CC       and the C-terminal tail are also required for porin recognition.
+CC       {ECO:0000255|HAMAP-Rule:MF_01183}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000316; ABE46738.1; -; Genomic_DNA.
+DR   RefSeq; WP_011485723.1; NC_007948.1.
+DR   SMR; Q121Q4; -.
+DR   STRING; 296591.Bpro_4862; -.
+DR   EnsemblBacteria; ABE46738; ABE46738; Bpro_4862.
+DR   KEGG; pol:Bpro_4862; -.
+DR   eggNOG; COG0760; Bacteria.
+DR   HOGENOM; CLU_034646_11_0_4; -.
+DR   OMA; EGGDMGW; -.
+DR   OrthoDB; 1838755at2; -.
+DR   BioCyc; PSP296591:G1G6E-4920-MONOMER; -.
+DR   Proteomes; UP000001983; Chromosome.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:InterPro.
+DR   GO; GO:0042277; F:peptide binding; IEA:InterPro.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043165; P:Gram-negative-bacterium-type cell outer membrane assembly; IEA:InterPro.
+DR   GO; GO:0060274; P:maintenance of stationary phase; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050821; P:protein stabilization; IEA:InterPro.
+DR   HAMAP; MF_01183; Chaperone_SurA; 1.
+DR   InterPro; IPR000297; PPIase_PpiC.
+DR   InterPro; IPR023058; PPIase_PpiC_CS.
+DR   InterPro; IPR023034; PPIase_SurA.
+DR   InterPro; IPR015391; SurA_N.
+DR   InterPro; IPR027304; Trigger_fact/SurA_dom_sf.
+DR   Pfam; PF00639; Rotamase; 1.
+DR   Pfam; PF09312; SurA_N; 1.
+DR   SUPFAM; SSF109998; SSF109998; 1.
+DR   PROSITE; PS01096; PPIC_PPIASE_1; 2.
+DR   PROSITE; PS50198; PPIC_PPIASE_2; 2.
+PE   3: Inferred from homology;
+KW   Chaperone; Isomerase; Periplasm; Reference proteome; Repeat; Rotamase;
+KW   Signal.
+FT   SIGNAL          1..36
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01183"
+FT   CHAIN           37..473
+FT                   /note="Chaperone SurA"
+FT                   /id="PRO_5000117339"
+FT   DOMAIN          214..315
+FT                   /note="PpiC 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01183"
+FT   DOMAIN          326..425
+FT                   /note="PpiC 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01183"
+SQ   SEQUENCE   473 AA;  51442 MW;  6152460B7A94C2E6 CRC64;
+     MTNDRLFAGI ARVLSVRPLA AALALLLTLP LIGVQAQSLR PSSGLRLPTP AASAGAAAGS
+     ASGQRQADFI VAVVNSEPIT NSEVRTKLVR TEQQIIQQGS PLPPRRELVP QVLERLISDK
+     AQLQLARSAG MRVDDNAVEA AVQTVARQNQ ISVDELRRRL KADGIAYSQF ESDLRDELLV
+     SRLRQREVDL RVTVTEQDID QFLREQEGGT ELSSLALNLA QILVAVPENA TPGQVAALQA
+     KAQQVMDKAR GGADFAALAN EFSDSPTRGT GGLMGLREAD RYPPLFVEST KSLKVGGLAG
+     PIRSGAGFHI LKVIEKRQAG MPGSVITQTH ARHILLRLSP KQGETAATEK LAALRKRILA
+     GQADFAALAR ENSEDASAKQ GGDLGWANPG MFVPEFEKVM NGLAPNQISD PLVSRFGVHL
+     IQVLERREAQ MSQRDQREMA RNVLRGKKQE EAYVLWAQEV RGRAYVEYRE SPQ
+//

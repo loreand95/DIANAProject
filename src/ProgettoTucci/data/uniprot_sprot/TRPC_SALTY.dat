@@ -1,0 +1,120 @@
+ID   TRPC_SALTY              Reviewed;         452 AA.
+AC   P00910;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   02-DEC-2020, entry version 135.
+DE   RecName: Full=Tryptophan biosynthesis protein TrpCF;
+DE   Includes:
+DE     RecName: Full=Indole-3-glycerol phosphate synthase;
+DE              Short=IGPS;
+DE              EC=4.1.1.48;
+DE   Includes:
+DE     RecName: Full=N-(5'-phospho-ribosyl)anthranilate isomerase;
+DE              Short=PRAI;
+DE              EC=5.3.1.24;
+GN   Name=trpC; OrderedLocusNames=STM1725;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6355484; DOI=10.1016/s0022-2836(83)80136-3;
+RA   Horowitz H., van Arsdell J., Platt T.;
+RT   "Nucleotide sequence of the trpD and trpC genes of Salmonella
+RT   typhimurium.";
+RL   J. Mol. Biol. 169:775-797(1983).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes two sequential steps of
+CC       tryptophan biosynthetic pathway. The first reaction is catalyzed by the
+CC       isomerase, coded by the TrpF domain; the second reaction is catalyzed
+CC       by the synthase, coded by the TrpC domain (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-(5-phospho-beta-D-ribosyl)anthranilate = 1-(2-
+CC         carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:21540, ChEBI:CHEBI:18277, ChEBI:CHEBI:58613;
+CC         EC=5.3.1.24;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate + H(+)
+CC         = (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + CO2 + H2O;
+CC         Xref=Rhea:RHEA:23476, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:58613, ChEBI:CHEBI:58866; EC=4.1.1.48;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 3/5.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 4/5.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the TrpC family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the TrpF family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M30286; AAA27237.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL20643.1; -; Genomic_DNA.
+DR   PIR; A01132; GWEBT.
+DR   RefSeq; NP_460684.1; NC_003197.2.
+DR   RefSeq; WP_001195296.1; NC_003197.2.
+DR   SMR; P00910; -.
+DR   PaxDb; P00910; -.
+DR   EnsemblBacteria; AAL20643; AAL20643; STM1725.
+DR   GeneID; 1253244; -.
+DR   KEGG; stm:STM1725; -.
+DR   PATRIC; fig|99287.12.peg.1821; -.
+DR   HOGENOM; CLU_007713_0_0_6; -.
+DR   OMA; YDIIGIN; -.
+DR   PhylomeDB; P00910; -.
+DR   UniPathway; UPA00035; UER00042.
+DR   UniPathway; UPA00035; UER00043.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0004425; F:indole-3-glycerol-phosphate synthase activity; IBA:GO_Central.
+DR   GO; GO:0004640; F:phosphoribosylanthranilate isomerase activity; IBA:GO_Central.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IBA:GO_Central.
+DR   CDD; cd00331; IGPS; 1.
+DR   CDD; cd00405; PRAI; 1.
+DR   Gene3D; 3.20.20.70; -; 2.
+DR   HAMAP; MF_00134_B; IGPS_B; 1.
+DR   HAMAP; MF_00135; PRAI; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR013798; Indole-3-glycerol_P_synth.
+DR   InterPro; IPR001468; Indole-3-GlycerolPSynthase_CS.
+DR   InterPro; IPR001240; PRAI.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   Pfam; PF00218; IGPS; 1.
+DR   Pfam; PF00697; PRAI; 1.
+DR   SUPFAM; SSF51366; SSF51366; 2.
+DR   PROSITE; PS00614; IGPS; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Decarboxylase;
+KW   Isomerase; Lyase; Multifunctional enzyme; Reference proteome;
+KW   Tryptophan biosynthesis.
+FT   CHAIN           1..452
+FT                   /note="Tryptophan biosynthesis protein TrpCF"
+FT                   /id="PRO_0000154284"
+FT   REGION          1..256
+FT                   /note="Indole-3-glycerol phosphate synthase"
+FT   REGION          257..452
+FT                   /note="N-(5'-phosphoribosyl)anthranilate isomerase"
+SQ   SEQUENCE   452 AA;  49202 MW;  AF0DC781A2F75859 CRC64;
+     MQTVLAKIVA DKAIWVEARK QQQPLASFQN EIQPSTRHFY DALQGARTAF ILECKKASPS
+     KGVIRDDFDP ARIASIYQHY ASAISVLTDE KYFQGSFDFL PVVSQSAPQP ILCKDFIIDP
+     YQIYLARYYQ ADACLLMLSV LDDEQYRQLS AVAHSLKMGV LTEVSNDEER ERAIALGAKV
+     VGINNRDLRD LSIDLNRTRQ LAPKLGHGVT VISESGINTY GQVRELSHFA NGFLIGSALM
+     AHDDLNAAVR RVLLGENKVC GLTRAQDAKA ACDAGAIYGG LIFVPSSPRA VSVEQAREVI
+     SGAPLQYVGV FKNADIADVC QKAAVLSLSA VQLHGSEDQA YVNALREALP KQVQIWKALS
+     VSDALPARDY HHVDKYIFDN GQGGSGQRFD WSLLQGQPLD NVLLAGGLAA DNCVQAAQVG
+     CAGLDFNSGV ESQPGIKDAR LLASVFQTLR AY
+//

@@ -1,0 +1,83 @@
+ID   KDSA_WOLSU              Reviewed;         263 AA.
+AC   Q7MAF1;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   02-DEC-2020, entry version 90.
+DE   RecName: Full=2-dehydro-3-deoxyphosphooctonate aldolase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            EC=2.5.1.55 {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=3-deoxy-D-manno-octulosonic acid 8-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=KDO-8-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            Short=KDO 8-P synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            Short=KDOPS {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=Phospho-2-dehydro-3-deoxyoctonate aldolase {ECO:0000255|HAMAP-Rule:MF_00056};
+GN   Name=kdsA {ECO:0000255|HAMAP-Rule:MF_00056}; OrderedLocusNames=WS0294;
+OS   Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC
+OS   11488 / FDC 602W) (Vibrio succinogenes).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Wolinella.
+OX   NCBI_TaxID=273121;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W;
+RX   PubMed=14500908; DOI=10.1073/pnas.1932838100;
+RA   Baar C., Eppinger M., Raddatz G., Simon J., Lanz C., Klimmek O.,
+RA   Nandakumar R., Gross R., Rosinus A., Keller H., Jagtap P., Linke B.,
+RA   Meyer F., Lederer H., Schuster S.C.;
+RT   "Complete genome sequence and analysis of Wolinella succinogenes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:11690-11695(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-arabinose 5-phosphate + H2O + phosphoenolpyruvate = 3-deoxy-
+CC         alpha-D-manno-2-octulosonate-8-phosphate + phosphate;
+CC         Xref=Rhea:RHEA:14053, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57693, ChEBI:CHEBI:58702, ChEBI:CHEBI:85985; EC=2.5.1.55;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00056};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; 3-deoxy-D-manno-octulosonate
+CC       biosynthesis; 3-deoxy-D-manno-octulosonate from D-ribulose 5-phosphate:
+CC       step 2/3. {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- SIMILARITY: Belongs to the KdsA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00056}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571657; CAE09445.1; -; Genomic_DNA.
+DR   RefSeq; WP_011138246.1; NC_005090.1.
+DR   SMR; Q7MAF1; -.
+DR   STRING; 273121.WS0294; -.
+DR   EnsemblBacteria; CAE09445; CAE09445; WS0294.
+DR   KEGG; wsu:WS0294; -.
+DR   eggNOG; COG2877; Bacteria.
+DR   HOGENOM; CLU_036666_0_0_7; -.
+DR   OMA; FRGIPTM; -.
+DR   OrthoDB; 687380at2; -.
+DR   BioCyc; WSUC273121:G1GTD-289-MONOMER; -.
+DR   UniPathway; UPA00030; -.
+DR   UniPathway; UPA00357; UER00474.
+DR   Proteomes; UP000000422; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008676; F:3-deoxy-8-phosphooctulonate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019294; P:keto-3-deoxy-D-manno-octulosonic acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00056; KDO8P_synth; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006218; DAHP1/KDSA.
+DR   InterPro; IPR006269; KDO8P_synthase.
+DR   PANTHER; PTHR21057; PTHR21057; 1.
+DR   Pfam; PF00793; DAHP_synth_1; 1.
+DR   TIGRFAMs; TIGR01362; KDO8P_synth; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lipopolysaccharide biosynthesis; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..263
+FT                   /note="2-dehydro-3-deoxyphosphooctonate aldolase"
+FT                   /id="PRO_0000187172"
+SQ   SEQUENCE   263 AA;  28660 MW;  454D4045375511AF CRC64;
+     MILIAGPCVI ESQEMLRKIA SELQPLSEDA RIDFYFKASF DKANRTSLES YRGPGLEKGL
+     EMLGRIKEEF GYKLLTDIHE TQQVAKAAQV VDILQIPAFL CRQTDLIVEA AKSQSIVNIK
+     KGQFMNPADM SHSVLKAIKT RGGSEASYEE AKRLGIWLTE RGSSFGYGNL VVDMRSLMIM
+     RQFAPVIFDA THAVQMPGAA GGKSGGDSRF VAPLSRAAAA VGVDGFFTET HVSPKEALSD
+     GPNMITPQAL KVLVHQLLAL SEI
+//

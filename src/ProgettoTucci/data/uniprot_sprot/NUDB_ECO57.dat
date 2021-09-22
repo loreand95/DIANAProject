@@ -1,0 +1,129 @@
+ID   NUDB_ECO57              Reviewed;         150 AA.
+AC   P0AFC1; P24236;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=Dihydroneopterin triphosphate diphosphatase;
+DE            EC=3.6.1.67;
+DE   AltName: Full=Dihydroneopterin triphosphate pyrophosphatase;
+DE   AltName: Full=dATP pyrophosphohydrolase;
+GN   Name=nudB; OrderedLocusNames=Z2917, ECs2575;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D., Rose D.J.,
+RA   Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A., Posfai G.,
+RA   Hackett J., Klink S., Boutin A., Shao Y., Miller L., Grotbeck E.J.,
+RA   Davis N.W., Lim A., Dimalanta E.T., Potamousis K., Apodaca J.,
+RA   Anantharaman T.S., Lin J., Yen G., Schwartz D.C., Welch R.A.,
+RA   Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T., Iida T.,
+RA   Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T., Kuhara S.,
+RA   Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli O157:H7 and
+RT   genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of dihydroneopterin triphosphate to
+CC       dihydroneopterin monophosphate and pyrophosphate. Required for
+CC       efficient folate biosynthesis. Can also hydrolyze nucleoside
+CC       triphosphates with a preference for dATP.
+CC       {ECO:0000250|UniProtKB:P0AFC0}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7,8-dihydroneopterin 3'-triphosphate + H2O = 7,8-
+CC         dihydroneopterin 3'-phosphate + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:25302, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58462, ChEBI:CHEBI:58762; EC=3.6.1.67;
+CC         Evidence={ECO:0000250|UniProtKB:P0AFC0};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P0AFC0};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250|UniProtKB:P0AFC0};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005174; AAG56855.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB35998.1; -; Genomic_DNA.
+DR   PIR; C85799; C85799.
+DR   PIR; G90950; G90950.
+DR   RefSeq; NP_310602.1; NC_002695.1.
+DR   RefSeq; WP_001300367.1; NZ_SEKU01000012.1.
+DR   SMR; P0AFC1; -.
+DR   STRING; 155864.EDL933_2839; -.
+DR   EnsemblBacteria; AAG56855; AAG56855; Z2917.
+DR   EnsemblBacteria; BAB35998; BAB35998; ECs_2575.
+DR   GeneID; 58389836; -.
+DR   GeneID; 914189; -.
+DR   KEGG; ece:Z2917; -.
+DR   KEGG; ecs:ECs2575; -.
+DR   PATRIC; fig|386585.9.peg.2699; -.
+DR   eggNOG; COG0494; Bacteria.
+DR   HOGENOM; CLU_128620_0_0_6; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0008828; F:dATP pyrophosphohydrolase activity; IEA:InterPro.
+DR   GO; GO:0019177; F:dihydroneopterin triphosphate pyrophosphohydrolase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046656; P:folic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR003564; DHNTPase.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR01404; NPPPHYDRLASE.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Folate biosynthesis; Hydrolase; Magnesium; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN           1..150
+FT                   /note="Dihydroneopterin triphosphate diphosphatase"
+FT                   /id="PRO_0000056953"
+FT   DOMAIN          5..146
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00794"
+FT   REGION          81..84
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           41..62
+FT                   /note="Nudix box"
+FT   METAL           56
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           60
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           117
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         7
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         29
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         40
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         135
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   150 AA;  17306 MW;  B4F05FA056F3BA07 CRC64;
+     MKDKVYKRPV SILVVIYAQD TKRVLMLQRR DDPDFWQSVT GSVEEGETAP QAAMREVKEE
+     VTIDVVAEQL TLIDCQRTVE FEIFSHLRHR YAPGVTRNTE SWFCLALPHE RQIVFTEHLA
+     YKWLDAPAAA ALTKSWSNRQ AIEQFVINAA
+//

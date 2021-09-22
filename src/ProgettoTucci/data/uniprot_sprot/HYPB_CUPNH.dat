@@ -1,0 +1,111 @@
+ID   HYPB_CUPNH              Reviewed;         361 AA.
+AC   P31902;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 2.
+DT   07-APR-2021, entry version 125.
+DE   RecName: Full=Hydrogenase maturation factor HypB {ECO:0000250|UniProtKB:P0AAN3};
+GN   Name=hypB; OrderedLocusNames=PHG013;
+OS   Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442
+OS   / H16 / Stanier 337) (Ralstonia eutropha).
+OG   Plasmid megaplasmid pHG1.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Cupriavidus.
+OX   NCBI_TaxID=381666;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8352644; DOI=10.1007/bf00249034;
+RA   Dernedde J., Eitinger M., Friedrich B.;
+RT   "Analysis of a pleiotropic gene region involved in formation of
+RT   catalytically active hydrogenases in Alcaligenes eutrophus H16.";
+RL   Arch. Microbiol. 159:545-553(1993).
+RN   [2]
+RP   SEQUENCE REVISION.
+RX   PubMed=8631353; DOI=10.1111/j.1432-1033.1996.00351.x;
+RA   Dernedde J., Eitinger T., Patenge N., Friedrich B.;
+RT   "hyp gene products in Alcaligenes eutrophus are part of a hydrogenase-
+RT   maturation system.";
+RL   Eur. J. Biochem. 235:351-358(1996).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442 / H16 / Stanier 337;
+RX   PubMed=12948488; DOI=10.1016/s0022-2836(03)00894-5;
+RA   Schwartz E., Henne A., Cramm R., Eitinger T., Friedrich B., Gottschalk G.;
+RT   "Complete nucleotide sequence of pHG1: a Ralstonia eutropha H16 megaplasmid
+RT   encoding key enzymes of H(2)-based lithoautotrophy and anaerobiosis.";
+RL   J. Mol. Biol. 332:369-383(2003).
+CC   -!- FUNCTION: Involved in the maturation of [NiFe] hydrogenases. Required
+CC       for nickel insertion into the metal center of the hydrogenase. Exhibits
+CC       a low intrinsic GTPase activity, which is essential for nickel
+CC       insertion. {ECO:0000250|UniProtKB:P0AAN3}.
+CC   -!- SIMILARITY: Belongs to the SIMIBI class G3E GTPase family. HypB/HupM
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X70183; CAA49732.1; -; Genomic_DNA.
+DR   EMBL; AY305378; AAP85769.1; -; Genomic_DNA.
+DR   PIR; I39529; I39529.
+DR   RefSeq; WP_011153938.1; NZ_CP039289.1.
+DR   SMR; P31902; -.
+DR   STRING; 381666.PHG013; -.
+DR   EnsemblBacteria; AAP85769; AAP85769; PHG013.
+DR   GeneID; 39976468; -.
+DR   KEGG; reh:PHG013; -.
+DR   PATRIC; fig|381666.6.peg.9; -.
+DR   eggNOG; COG0378; Bacteria.
+DR   HOGENOM; CLU_056148_1_0_4; -.
+DR   OMA; ECHLDAH; -.
+DR   OrthoDB; 1134430at2; -.
+DR   Proteomes; UP000008210; Plasmid megaplasmid pHG1.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:InterPro.
+DR   GO; GO:0051604; P:protein maturation; IEA:InterPro.
+DR   CDD; cd05390; HypB; 1.
+DR   InterPro; IPR003495; CobW/HypB/UreG_dom.
+DR   InterPro; IPR004392; Hyd_mat_HypB.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR30134; PTHR30134; 2.
+DR   Pfam; PF02492; cobW; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00073; hypB; 2.
+PE   3: Inferred from homology;
+KW   GTP-binding; Hydrolase; Metal-binding; Nickel; Nucleotide-binding; Plasmid;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..361
+FT                   /note="Hydrogenase maturation factor HypB"
+FT                   /id="PRO_0000201434"
+FT   REGION          99..300
+FT                   /note="G-domain"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   COMPBIAS        179..212
+FT                   /note="His-rich"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00009"
+FT   METAL           2
+FT                   /note="Nickel 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   METAL           5
+FT                   /note="Nickel 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   METAL           7
+FT                   /note="Nickel 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   METAL           162
+FT                   /note="Nickel 2 or zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   METAL           163
+FT                   /note="Nickel 2 or zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+FT   METAL           231
+FT                   /note="Nickel 2 or zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AAN3"
+SQ   SEQUENCE   361 AA;  38483 MW;  BC42976B7C5F75C4 CRC64;
+     MCVICGCNTN HETARQDENK GEHAPGRGLV DTGTEPPGAA HVRIDASTGD LHYGAGPAHV
+     SVPGLSQARA IKLEQDVLGH NNRLAAHNRQ HFVAHGVLAL NLVSSPGSGK TTLLCTTIEA
+     LRRCRADLQL AVIEGDQQTS HDAERIRATG VPAIQINTGK GCHLDALMVA NAYERLPLHA
+     AAHAHTHEHR QEDGQHSHHH DHEHARHDHH DHRSSGIGSV LFIENVGNLV CPAMWDLGES
+     AKVAILSVTE GEDKPLKYPD MFAAASLMIL NKIDLLPHLR FDVARCIEYA RQVNPHLQVL
+     QLSAATGEGV DEWLDWMLAG GAAAGAAAAT DGARMRIAAP EAGIAALGTQ LAPGPAVSKE
+     M
+//

@@ -1,0 +1,88 @@
+ID   ATPG_RUMA7              Reviewed;         286 AA.
+AC   O50141; E6UDM1;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   10-FEB-2021, entry version 98.
+DE   RecName: Full=ATP synthase gamma chain {ECO:0000255|HAMAP-Rule:MF_00815};
+DE   AltName: Full=ATP synthase F1 sector gamma subunit {ECO:0000255|HAMAP-Rule:MF_00815};
+DE   AltName: Full=F-ATPase gamma subunit {ECO:0000255|HAMAP-Rule:MF_00815};
+GN   Name=atpG {ECO:0000255|HAMAP-Rule:MF_00815}; OrderedLocusNames=Rumal_0292;
+OS   Ruminococcus albus (strain ATCC 27210 / DSM 20455 / JCM 14654 / NCDO 2250 /
+OS   7).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae;
+OC   Ruminococcus.
+OX   NCBI_TaxID=697329;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 27210 / DSM 20455 / JCM 14654 / NCDO 2250 / 7;
+RA   Umemori J., Miwa T., Nagamine T., Ogata K., Takenaka A., Hino T.;
+RT   "Sequence analysis of the gene coding proton-translocating ATPase of
+RT   Ruminococcus albus.";
+RL   Submitted (JUL-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27210 / DSM 20455 / JCM 14654 / NCDO 2250 / 7;
+RX   PubMed=21914885; DOI=10.1128/jb.05621-11;
+RA   Suen G., Stevenson D.M., Bruce D.C., Chertkov O., Copeland A., Cheng J.F.,
+RA   Detter C., Detter J.C., Goodwin L.A., Han C.S., Hauser L.J., Ivanova N.N.,
+RA   Kyrpides N.C., Land M.L., Lapidus A., Lucas S., Ovchinnikova G.,
+RA   Pitluck S., Tapia R., Woyke T., Boyum J., Mead D., Weimer P.J.;
+RT   "Complete genome of the cellulolytic ruminal bacterium Ruminococcus albus
+RT   7.";
+RL   J. Bacteriol. 193:5574-5575(2011).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The gamma chain is believed to be important in
+CC       regulating ATPase activity and the flow of protons through the CF(0)
+CC       complex. {ECO:0000255|HAMAP-Rule:MF_00815}.
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main
+CC       subunits: a, b and c. {ECO:0000255|HAMAP-Rule:MF_00815}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_00815};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_00815}.
+CC   -!- SIMILARITY: Belongs to the ATPase gamma chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00815}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB006151; BAA23687.1; -; Genomic_DNA.
+DR   EMBL; CP002403; ADU20849.1; -; Genomic_DNA.
+DR   RefSeq; WP_013497041.1; NZ_JHYT01000020.1.
+DR   SMR; O50141; -.
+DR   STRING; 697329.Rumal_0292; -.
+DR   PRIDE; O50141; -.
+DR   EnsemblBacteria; ADU20849; ADU20849; Rumal_0292.
+DR   KEGG; ral:Rumal_0292; -.
+DR   eggNOG; COG0224; Bacteria.
+DR   HOGENOM; CLU_050669_0_1_9; -.
+DR   OMA; MQITSAM; -.
+DR   OrthoDB; 1701531at2; -.
+DR   Proteomes; UP000006919; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-UniRule.
+DR   CDD; cd12151; F1-ATPase_gamma; 1.
+DR   HAMAP; MF_00815; ATP_synth_gamma_bact; 1.
+DR   InterPro; IPR035968; ATP_synth_F1_ATPase_gsu.
+DR   InterPro; IPR000131; ATP_synth_F1_gsu.
+DR   PANTHER; PTHR11693; PTHR11693; 2.
+DR   Pfam; PF00231; ATP-synt; 1.
+DR   PRINTS; PR00126; ATPASEGAMMA.
+DR   SUPFAM; SSF52943; SSF52943; 1.
+DR   TIGRFAMs; TIGR01146; ATPsyn_F1gamma; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; Cell membrane; CF(1); Hydrogen ion transport; Ion transport;
+KW   Membrane; Transport.
+FT   CHAIN           1..286
+FT                   /note="ATP synthase gamma chain"
+FT                   /id="PRO_0000073364"
+SQ   SEQUENCE   286 AA;  31970 MW;  D9563A3CB85E7FCA CRC64;
+     MANMKDVKRR IKSVESTMQI TKAMQLVASS KMRKAKERAE AVHPFFEGVF QVMADISRDH
+     EFTSVFTKKK FKNSVLLIVI AGDRGLAGGF NTNVLKLAKA KADAITESGG EAVIMAIGKK
+     AVEYFEKREY KLIDGFPQIA EGIELIDAMM IANKVIERFK IGDFDAVELV YTTFVSVMTQ
+     EPQHLRILPV ENLEYLGQKH PMTIYDPSPE EVFDSLIPEY MGGMLYSAIV DSFASEQAAR
+     RTAMESASDN ANEMIEKLSL LYNRARQAQI TQEITEISSA SLNDNS
+//

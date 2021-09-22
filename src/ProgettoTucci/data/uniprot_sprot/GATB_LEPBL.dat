@@ -1,0 +1,101 @@
+ID   GATB_LEPBL              Reviewed;         486 AA.
+AC   Q055U6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   07-APR-2021, entry version 76.
+DE   RecName: Full=Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B {ECO:0000255|HAMAP-Rule:MF_00121};
+DE            Short=Asp/Glu-ADT subunit B {ECO:0000255|HAMAP-Rule:MF_00121};
+DE            EC=6.3.5.- {ECO:0000255|HAMAP-Rule:MF_00121};
+GN   Name=gatB {ECO:0000255|HAMAP-Rule:MF_00121}; OrderedLocusNames=LBL_0287;
+OS   Leptospira borgpetersenii serovar Hardjo-bovis (strain L550).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=355276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L550;
+RX   PubMed=16973745; DOI=10.1073/pnas.0603979103;
+RA   Bulach D.M., Zuerner R.L., Wilson P., Seemann T., McGrath A., Cullen P.A.,
+RA   Davis J., Johnson M., Kuczek E., Alt D.P., Peterson-Burch B., Coppel R.L.,
+RA   Rood J.I., Davies J.K., Adler B.;
+RT   "Genome reduction in Leptospira borgpetersenii reflects limited
+RT   transmission potential.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:14560-14565(2006).
+CC   -!- FUNCTION: Allows the formation of correctly charged Asn-tRNA(Asn) or
+CC       Gln-tRNA(Gln) through the transamidation of misacylated Asp-tRNA(Asn)
+CC       or Glu-tRNA(Gln) in organisms which lack either or both of asparaginyl-
+CC       tRNA or glutaminyl-tRNA synthetases. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated phospho-Asp-
+CC       tRNA(Asn) or phospho-Glu-tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00121}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00121};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-aspartyl-tRNA(Asn) + L-glutamine = ADP + 2 H(+)
+CC         + L-asparaginyl-tRNA(Asn) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:14513, Rhea:RHEA-COMP:9674, Rhea:RHEA-COMP:9677,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78515, ChEBI:CHEBI:78516, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00121};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00121}.
+CC   -!- SIMILARITY: Belongs to the GatB/GatE family. GatB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00121}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000348; ABJ77899.1; -; Genomic_DNA.
+DR   RefSeq; WP_011669338.1; NC_008508.1.
+DR   SMR; Q055U6; -.
+DR   KEGG; lbl:LBL_0287; -.
+DR   HOGENOM; CLU_019240_0_0_12; -.
+DR   OMA; ARKWWMG; -.
+DR   OrthoDB; 497127at2; -.
+DR   BioCyc; LBOR355276:G1G6F-337-MONOMER; -.
+DR   GO; GO:0050566; F:asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.10.410; -; 1.
+DR   Gene3D; 1.10.150.380; -; 1.
+DR   HAMAP; MF_00121; GatB; 1.
+DR   InterPro; IPR004413; Apn/Gln-ADT_bsu.
+DR   InterPro; IPR017959; Asn/Gln-tRNA_amidoTrfase_suB/E.
+DR   InterPro; IPR006075; Asn/Gln-tRNA_Trfase_suB/E_cat.
+DR   InterPro; IPR018027; Asn/Gln_amidotransferase.
+DR   InterPro; IPR003789; Asn/Gln_tRNA_amidoTrase-B-like.
+DR   InterPro; IPR042114; GatB_C_1.
+DR   InterPro; IPR023168; GatB_Yqey_C_2.
+DR   InterPro; IPR017958; Gln-tRNA_amidoTrfase_suB_CS.
+DR   InterPro; IPR014746; Gln_synth/guanido_kin_cat_dom.
+DR   PANTHER; PTHR11659; PTHR11659; 1.
+DR   Pfam; PF02934; GatB_N; 1.
+DR   Pfam; PF02637; GatB_Yqey; 1.
+DR   SMART; SM00845; GatB_Yqey; 1.
+DR   SUPFAM; SSF55931; SSF55931; 1.
+DR   SUPFAM; SSF89095; SSF89095; 1.
+DR   TIGRFAMs; TIGR00133; gatB; 1.
+DR   PROSITE; PS01234; GATB; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..486
+FT                   /note="Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase
+FT                   subunit B"
+FT                   /id="PRO_1000015987"
+SQ   SEQUENCE   486 AA;  54137 MW;  57A9FB45ACDC4846 CRC64;
+     MAEFETIIGL EVHAQLNTES KIFSTSATKF GSPPNSQTNP VCLGLPGALP VLNESALEKA
+     IMAGIAFGCD ISLFTKFDRK NYFYPDLPKG YQISQFDKPI CTGGGVTFTI KGEESSRYVR
+     LTRIHMEEDA GKLIHSADPN IPQSYVDLNR AGTPLIEIVS EPDMRSSDEA YYYLNSLKSI
+     LKYIRVSDCN MEEGSLRCDA NVSIRPKGSD KFGTRVEIKN LNSFKAVKAA IDYEVEWQTE
+     MALEGKTFQQ QTKLWDSVAN KTVTMRTKEM SHDYRYFPDP DLPVIILQKE TVESVRSKLP
+     ELPNERKNRF VEKLGLPKYD AEVLTAEREI ADYFEDALKV SGDAKKTSNW VKDEVLGVVN
+     KESITISEFS VSAQRIGGLV KLIADGKISG KIAKTVFEEL LISDKDAETI VTEKNLIVVR
+     DDKEIERIVN EAIANNQDAV AKYKSGKDRA LGAIVGYVMK VSKGKADPEL VNQMLLDKLG
+     SLPPKE
+//

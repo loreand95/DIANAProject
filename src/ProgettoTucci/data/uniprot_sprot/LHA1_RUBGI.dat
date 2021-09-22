@@ -1,0 +1,103 @@
+ID   LHA1_RUBGI              Reviewed;          67 AA.
+AC   I0HUL6; P51756; P95615;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2012, sequence version 1.
+DT   02-DEC-2020, entry version 37.
+DE   RecName: Full=Light-harvesting protein B-870 alpha chain;
+DE   AltName: Full=Antenna pigment protein alpha chain;
+DE   AltName: Full=Light-harvesting protein B-875 alpha chain;
+GN   Name=pufA; OrderedLocusNames=RGE_33640;
+OS   Rubrivivax gelatinosus (strain NBRC 100245 / IL144).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Rubrivivax.
+OX   NCBI_TaxID=983917;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=NBRC 100245 / IL144;
+RX   PubMed=8300574;
+RA   Nagashima K.V.P., Matsuura K., Ohyama S., Shimada K.;
+RT   "Primary structure and transcription of genes encoding B870 and
+RT   photosynthetic reaction center apoproteins from Rubrivivax gelatinosus.";
+RL   J. Biol. Chem. 269:2477-2484(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NBRC 100245 / IL144;
+RX   PubMed=22689232; DOI=10.1128/jb.00511-12;
+RA   Nagashima S., Kamimura A., Shimizu T., Nakamura-Isaki S., Aono E.,
+RA   Sakamoto K., Ichikawa N., Nakazawa H., Sekine M., Yamazaki S., Fujita N.,
+RA   Shimada K., Hanada S., Nagashima K.V.;
+RT   "Complete genome sequence of phototrophic betaproteobacterium Rubrivivax
+RT   gelatinosus IL144.";
+RL   J. Bacteriol. 194:3541-3542(2012).
+CC   -!- FUNCTION: Antenna complexes are light-harvesting systems, which
+CC       transfer the excitation energy to the reaction centers.
+CC   -!- SUBUNIT: An alpha/beta heterodimer. The core complex is formed by
+CC       different alpha and beta chains, binding bacteriochlorophyll molecules,
+CC       and arranged most probably in tetrameric structures disposed around the
+CC       reaction center. The non-pigmented gamma chains may constitute
+CC       additional components (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane; Single-pass type II membrane
+CC       protein.
+CC   -!- SIMILARITY: Belongs to the antenna complex alpha subunit family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16822; BAA04099.1; -; Genomic_DNA.
+DR   EMBL; AP012320; BAL96703.1; -; Genomic_DNA.
+DR   PIR; D49964; D49964.
+DR   PIR; T50888; T50888.
+DR   RefSeq; WP_014429564.1; NC_017075.1.
+DR   SMR; I0HUL6; -.
+DR   STRING; 983917.RGE_33640; -.
+DR   EnsemblBacteria; BAL96703; BAL96703; RGE_33640.
+DR   KEGG; rge:RGE_33640; -.
+DR   PATRIC; fig|983917.3.peg.3291; -.
+DR   eggNOG; ENOG50302TE; Bacteria.
+DR   HOGENOM; CLU_205201_0_0_4; -.
+DR   OMA; NWLEGPR; -.
+DR   OrthoDB; 2077221at2; -.
+DR   BioCyc; RGEL983917:G1H8K-3302-MONOMER; -.
+DR   Proteomes; UP000007883; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019866; C:organelle inner membrane; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030077; C:plasma membrane light-harvesting complex; IEA:InterPro.
+DR   GO; GO:0042314; F:bacteriochlorophyll binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045156; F:electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019684; P:photosynthesis, light reaction; IEA:InterPro.
+DR   GO; GO:0018298; P:protein-chromophore linkage; IEA:UniProtKB-KW.
+DR   Gene3D; 4.10.220.20; -; 1.
+DR   InterPro; IPR000066; Antenna_a/b.
+DR   InterPro; IPR018332; Antenna_alpha.
+DR   InterPro; IPR002361; Antenna_alpha_CS.
+DR   InterPro; IPR035889; Light-harvesting_complex.
+DR   Pfam; PF00556; LHC; 1.
+DR   PRINTS; PR00673; LIGHTHARVSTA.
+DR   SUPFAM; SSF56918; SSF56918; 1.
+DR   PROSITE; PS00968; ANTENNA_COMP_ALPHA; 1.
+PE   3: Inferred from homology;
+KW   Antenna complex; Bacteriochlorophyll; Cell inner membrane; Cell membrane;
+KW   Chlorophyll; Chromophore; Light-harvesting polypeptide; Magnesium;
+KW   Membrane; Metal-binding; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..67
+FT                   /note="Light-harvesting protein B-870 alpha chain"
+FT                   /id="PRO_0000418666"
+FT   TOPO_DOM        1..12
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        13..33
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        34..67
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   METAL           29
+FT                   /note="Magnesium (bacteriochlorophyll axial ligand)"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   67 AA;  7376 MW;  121143F12F30135C CRC64;
+     MWRIWRLFDP MRAMVAQAVF LLGLAVLIHL MLLGTNKYNW LDGAKKAPVA TAVAPVPAEV
+     TSLAQAK
+//

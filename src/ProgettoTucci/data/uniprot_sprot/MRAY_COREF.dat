@@ -1,0 +1,129 @@
+ID   MRAY_COREF              Reviewed;         366 AA.
+AC   Q8FNT7;
+DT   25-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=Phospho-N-acetylmuramoyl-pentapeptide-transferase {ECO:0000255|HAMAP-Rule:MF_00038};
+DE            EC=2.7.8.13 {ECO:0000255|HAMAP-Rule:MF_00038};
+DE   AltName: Full=UDP-MurNAc-pentapeptide phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00038};
+GN   Name=mraY {ECO:0000255|HAMAP-Rule:MF_00038}; OrderedLocusNames=CE2056;
+OS   Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189
+OS   / NBRC 100395).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;
+OC   Corynebacterium.
+OX   NCBI_TaxID=196164;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395;
+RX   PubMed=12840036; DOI=10.1101/gr.1285603;
+RA   Nishio Y., Nakamura Y., Kawarabayasi Y., Usuda Y., Kimura E., Sugimoto S.,
+RA   Matsui K., Yamagishi A., Kikuchi H., Ikeo K., Gojobori T.;
+RT   "Comparative complete genome sequence analysis of the amino acid
+RT   replacements responsible for the thermostability of Corynebacterium
+RT   efficiens.";
+RL   Genome Res. 13:1572-1579(2003).
+CC   -!- FUNCTION: Catalyzes the initial step of the lipid cycle reactions in
+CC       the biosynthesis of the cell wall peptidoglycan: transfers
+CC       peptidoglycan precursor phospho-MurNAc-pentapeptide from UDP-MurNAc-
+CC       pentapeptide onto the lipid carrier undecaprenyl phosphate, yielding
+CC       undecaprenyl-pyrophosphoryl-MurNAc-pentapeptide, known as lipid I.
+CC       {ECO:0000255|HAMAP-Rule:MF_00038}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl phosphate + UDP-N-acetyl-alpha-
+CC         D-muramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-
+CC         alanyl-D-alanine = di-trans-octa-cis-undecaprenyl diphospho-N-acetyl-
+CC         alpha-D-muramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-
+CC         alanyl-D-alanine + UMP; Xref=Rhea:RHEA:28386, ChEBI:CHEBI:57865,
+CC         ChEBI:CHEBI:60392, ChEBI:CHEBI:61386, ChEBI:CHEBI:61387; EC=2.7.8.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00038};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00038};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00038}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_00038};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_00038}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 4 family. MraY
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00038}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000035; BAC18866.1; -; Genomic_DNA.
+DR   RefSeq; WP_006768056.1; NZ_GG700683.1.
+DR   STRING; 196164.23493898; -.
+DR   EnsemblBacteria; BAC18866; BAC18866; BAC18866.
+DR   KEGG; cef:CE2056; -.
+DR   eggNOG; COG0472; Bacteria.
+DR   HOGENOM; CLU_023982_0_1_11; -.
+DR   OMA; LMSPLHH; -.
+DR   OrthoDB; 1151822at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001409; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008963; F:phospho-N-acetylmuramoyl-pentapeptide-transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051992; F:UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine:undecaprenyl-phosphate transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   CDD; cd06852; GT_MraY; 1.
+DR   HAMAP; MF_00038; MraY; 1.
+DR   InterPro; IPR000715; Glycosyl_transferase_4.
+DR   InterPro; IPR003524; PNAcMuramoyl-5peptid_Trfase.
+DR   InterPro; IPR018480; PNAcMuramoyl-5peptid_Trfase_CS.
+DR   PANTHER; PTHR22926; PTHR22926; 1.
+DR   Pfam; PF00953; Glycos_transf_4; 1.
+DR   Pfam; PF10555; MraY_sig1; 1.
+DR   TIGRFAMs; TIGR00445; mraY; 1.
+DR   PROSITE; PS01347; MRAY_1; 1.
+DR   PROSITE; PS01348; MRAY_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Magnesium; Membrane; Metal-binding;
+KW   Peptidoglycan synthesis; Reference proteome; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..366
+FT                   /note="Phospho-N-acetylmuramoyl-pentapeptide-transferase"
+FT                   /id="PRO_0000108814"
+FT   TRANSMEM        3..23
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        55..75
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        118..138
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        161..181
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        197..217
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        238..258
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        262..282
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        290..310
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+FT   TRANSMEM        341..361
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00038"
+SQ   SEQUENCE   366 AA;  39221 MW;  59C5EDDAD267B4E9 CRC64;
+     MQQIIISGSV AFLVSIFLTP ILIRYFTNRQ MGQEIREEGL QSHLRKRGTP TMGGIAIIAG
+     ITIGYLVTNI YSYFAGYGSF TASGLLVLGL MLGLGATGFA DDFIKLYKER NLGLNKTAKL
+     ISQLAIALVF GLLVLRFPDE NGLTPASTHL SFIRDIDTID IAFGGGVLGT IVFLIFIYVV
+     VSAWSNAVNI TDGLDGLAAG ATAFVMGAYT LIAFWQFRNS CDTAVEAGCY TVRDPLDIAV
+     LAAGGLGATL GFLWWNAAPA KIFMGDTGSL ALGGLVAGIS VVSRTELLMV IIGALFVIEV
+     ASVAIQIAVF KTRGKRVFRM APIHHHFEAV GWAETTVVVR FWLIAIMAVI AGMAVFYGDW
+     LTLAEV
+//

@@ -1,0 +1,123 @@
+ID   DNLI1_METBF             Reviewed;         549 AA.
+AC   Q46C04;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=DNA ligase 1 {ECO:0000255|HAMAP-Rule:MF_00407};
+DE            EC=6.5.1.1 {ECO:0000255|HAMAP-Rule:MF_00407};
+DE   AltName: Full=Polydeoxyribonucleotide synthase [ATP] 1 {ECO:0000255|HAMAP-Rule:MF_00407};
+GN   Name=lig1 {ECO:0000255|HAMAP-Rule:MF_00407}; OrderedLocusNames=Mbar_A1643;
+OS   Methanosarcina barkeri (strain Fusaro / DSM 804).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=269797;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fusaro / DSM 804;
+RX   PubMed=16980466; DOI=10.1128/jb.00810-06;
+RA   Maeder D.L., Anderson I., Brettin T.S., Bruce D.C., Gilna P., Han C.S.,
+RA   Lapidus A., Metcalf W.W., Saunders E., Tapia R., Sowers K.R.;
+RT   "The Methanosarcina barkeri genome: comparative analysis with
+RT   Methanosarcina acetivorans and Methanosarcina mazei reveals extensive
+RT   rearrangement within methanosarcinal genomes.";
+RL   J. Bacteriol. 188:7922-7931(2006).
+CC   -!- FUNCTION: DNA ligase that seals nicks in double-stranded DNA during DNA
+CC       replication, DNA recombination and DNA repair. {ECO:0000255|HAMAP-
+CC       Rule:MF_00407}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (deoxyribonucleotide)(n)-3'-hydroxyl + 5'-phospho-
+CC         (deoxyribonucleotide)(m) = (deoxyribonucleotide)(n+m) + AMP +
+CC         diphosphate.; EC=6.5.1.1; Evidence={ECO:0000255|HAMAP-Rule:MF_00407};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00407};
+CC   -!- SIMILARITY: Belongs to the ATP-dependent DNA ligase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00407}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000099; AAZ70588.1; -; Genomic_DNA.
+DR   RefSeq; WP_011306634.1; NC_007355.1.
+DR   SMR; Q46C04; -.
+DR   STRING; 269797.Mbar_A1643; -.
+DR   PRIDE; Q46C04; -.
+DR   EnsemblBacteria; AAZ70588; AAZ70588; Mbar_A1643.
+DR   GeneID; 3625441; -.
+DR   KEGG; mba:Mbar_A1643; -.
+DR   eggNOG; arCOG01347; Archaea.
+DR   HOGENOM; CLU_005138_6_0_2; -.
+DR   OMA; WLFEESY; -.
+DR   OrthoDB; 52275at2157; -.
+DR   Proteomes; UP000008156; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003910; F:DNA ligase (ATP) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071897; P:DNA biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.3260.10; -; 1.
+DR   HAMAP; MF_00407; DNA_ligase; 1.
+DR   InterPro; IPR022865; DNA_ligae_ATP-dep_bac/arc.
+DR   InterPro; IPR000977; DNA_ligase_ATP-dep.
+DR   InterPro; IPR012309; DNA_ligase_ATP-dep_C.
+DR   InterPro; IPR012310; DNA_ligase_ATP-dep_cent.
+DR   InterPro; IPR016059; DNA_ligase_ATP-dep_CS.
+DR   InterPro; IPR012308; DNA_ligase_ATP-dep_N.
+DR   InterPro; IPR036599; DNA_ligase_N_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   Pfam; PF04679; DNA_ligase_A_C; 1.
+DR   Pfam; PF01068; DNA_ligase_A_M; 1.
+DR   Pfam; PF04675; DNA_ligase_A_N; 1.
+DR   SUPFAM; SSF117018; SSF117018; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00574; dnl1; 1.
+DR   PROSITE; PS00697; DNA_LIGASE_A1; 1.
+DR   PROSITE; PS50160; DNA_LIGASE_A3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; DNA damage; DNA recombination;
+KW   DNA repair; DNA replication; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding.
+FT   CHAIN           1..549
+FT                   /note="DNA ligase 1"
+FT                   /id="PRO_0000365258"
+FT   ACT_SITE        214
+FT                   /note="N6-AMP-lysine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         212
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         219
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         234
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         264
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         310
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         387
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+FT   BINDING         393
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00407"
+SQ   SEQUENCE   549 AA;  61905 MW;  AFEDB817138AF856 CRC64;
+     MERKEIKDSA YLFLGSIGPA FENITLGIGD KLALKAIAGA YRVSEEEVKK RYSRTGDLGD
+     VAFELNQGEE KSLAIDEVFG SLKEIKEASG KGSQEEKTGL LSSILQRASP KEGKYIVRIV
+     LGKLRLGFGD QFLLEAFSIA FTGDKKYVVK IKESYSVCTD IGELAESLAE QGPKALGHFS
+     IKLGRPVRSM LAQRVKTFEE LEERIPGKKA AEEKYDGERV QIHKNGEEIK AFSRRLEDIT
+     AQYPDVIEAV RKGILAKKIV LDGEIIAYVE GGKANDSTGE FYSFQRLMKR RRKYEVQKYT
+     EICPVAVFFF DILYLEGNSL LKKPYPERRA ILEEHVKESE ILHLARRIVT DNLEEIEDFF
+     NEALEKRLEG IIIKSMGRNS AYEAGKRSWF WLKWKEEYAS GMRETFDLAI IGKYYGRGKR
+     KGSFGALLCA ILNGEEQRFE TFTKVGTGFT EADAKEIDSL LSEHIISEVP KNVLIKSRML
+     PDIFVEPSLV IEVLGSEITE SPSHTAGQGE GDTGLALRFP RFLRIRHDKG PYDITTLTEV
+     RNLKEGKSI
+//

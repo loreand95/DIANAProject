@@ -1,0 +1,89 @@
+ID   SIGI_BACAN              Reviewed;         240 AA.
+AC   P0DO98;
+DT   08-JUN-2016, integrated into UniProtKB/Swiss-Prot.
+DT   08-JUN-2016, sequence version 1.
+DT   07-APR-2021, entry version 27.
+DE   RecName: Full=RNA polymerase sigma factor SigI {ECO:0000255|HAMAP-Rule:MF_02064, ECO:0000305};
+GN   Name=sigI {ECO:0000255|HAMAP-Rule:MF_02064, ECO:0000303|PubMed:26744224};
+GN   OrderedLocusNames=BAS3231 {ECO:0000312|EMBL:AAT55539.1};
+OS   Bacillus anthracis.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=1392;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sterne;
+RA   Brettin T.S., Bruce D., Challacombe J.F., Gilna P., Han C., Hill K.,
+RA   Hitchcock P., Jackson P., Keim P., Longmire J., Lucas S., Okinaka R.,
+RA   Richardson P., Rubin E., Tice H.;
+RT   "Complete genome sequence of Bacillus anthracis Sterne.";
+RL   Submitted (JAN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, ACTIVITY REGULATION, INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=Sterne;
+RX   PubMed=26744224; DOI=10.1099/mic.0.000236;
+RA   Kim J.G., Wilson A.C.;
+RT   "Loss of sigmaI affects heat-shock response and virulence gene expression
+RT   in Bacillus anthracis.";
+RL   Microbiology 162:564-574(2016).
+CC   -!- FUNCTION: Sigma factors are initiation factors that promote the
+CC       attachment of RNA polymerase to specific initiation sites and are then
+CC       released. This sigma factor contributes to both stress response and
+CC       virulence gene expression. {ECO:0000269|PubMed:26744224}.
+CC   -!- ACTIVITY REGULATION: Negatively regulated by the anti-sigma-I factor
+CC       RsgI. {ECO:0000255|HAMAP-Rule:MF_02064, ECO:0000269|PubMed:26744224}.
+CC   -!- SUBUNIT: Interacts with RsgI. {ECO:0000255|HAMAP-Rule:MF_02064}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02064}.
+CC   -!- INDUCTION: Part of the sigI-rsgI operon, which is induced by heat
+CC       shock. Expressed from both the sigma I and sigma A promoters.
+CC       Transcription from the sigma A promoter is likely more significant to
+CC       virulence regulation. {ECO:0000269|PubMed:26744224}.
+CC   -!- DISRUPTION PHENOTYPE: Disruption results in increased sensitivity to
+CC       heat shock. Loss of SigI results in a coordinated decrease in
+CC       expression of all three toxin subunits. {ECO:0000269|PubMed:26744224}.
+CC   -!- SIMILARITY: Belongs to the sigma-70 factor family. SigI subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_02064}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017225; AAT55539.1; -; Genomic_DNA.
+DR   RefSeq; WP_003160074.1; NZ_WXXJ01000014.1.
+DR   RefSeq; YP_029488.1; NC_005945.1.
+DR   STRING; 260799.BAS3231; -.
+DR   GeneID; 45023230; -.
+DR   KEGG; bat:BAS3231; -.
+DR   PATRIC; fig|260799.14.peg.3461; -.
+DR   eggNOG; COG1191; Bacteria.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0016987; F:sigma factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0001123; P:transcription initiation from bacterial-type RNA polymerase promoter; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_02064; Sigma70_SigI; 1.
+DR   InterPro; IPR014244; RNA_pol_sigma-I.
+DR   InterPro; IPR007627; RNA_pol_sigma70_r2.
+DR   InterPro; IPR013325; RNA_pol_sigma_r2.
+DR   PANTHER; PTHR30385:SF6; PTHR30385:SF6; 1.
+DR   Pfam; PF04542; Sigma70_r2; 1.
+DR   PIRSF; PIRSF038953; SigI; 1.
+DR   SUPFAM; SSF88946; SSF88946; 1.
+DR   TIGRFAMs; TIGR02895; spore_sigI; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; DNA-binding; Sigma factor; Stress response; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..240
+FT                   /note="RNA polymerase sigma factor SigI"
+FT                   /id="PRO_0000436443"
+FT   DNA_BIND        194..213
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02064"
+FT   MOTIF           56..69
+FT                   /note="Polymerase core binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02064"
+SQ   SEQUENCE   240 AA;  28822 MW;  18555689A4875271 CRC64;
+     MLSLVMKILR KPKIEDIVCN IQNNEEDKEA FIVQYQPFIR KSISSVCRRY ITEQDDEYSI
+     GLFAFNEAIE QYSYKKGKSF LAFADLLIKR DVIDYIRKES KHNLVFLKED EQEEMLEMQV
+     SLTEYMKEIE NGNRKEEILH FQSVLADFKI TFSELAKESP KHRDTREHLI EIVKVIIKEE
+     EMMEELFRKK KLPLKHIEPR VRVSRKTLER HRKYIIAMCI IFANNYTYIL DYIRGGKHDE
+//

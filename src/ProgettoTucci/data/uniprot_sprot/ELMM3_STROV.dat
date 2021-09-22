@@ -1,0 +1,109 @@
+ID   ELMM3_STROV             Reviewed;         261 AA.
+AC   Q9AJU0;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-DEC-2020, entry version 54.
+DE   RecName: Full=8-demethyl-8-(2,3-dimethoxy-alpha-L-rhamnosyl)-tetracenomycin-C 4'-O-methyltransferase {ECO:0000305};
+DE            EC=2.1.1.307 {ECO:0000269|PubMed:11376004};
+DE   AltName: Full=O-methyltransferase III {ECO:0000303|PubMed:11376004};
+GN   Name=elmMIII {ECO:0000303|PubMed:11376004};
+OS   Streptomyces olivaceus.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=47716;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Tu 2353;
+RX   PubMed=11376004; DOI=10.1074/jbc.m101225200;
+RA   Patallo E.P., Blanco G., Fischer C., Brana A.F., Rohr J., Mendez C.,
+RA   Salas J.A.;
+RT   "Deoxysugar methylation during biosynthesis of the antitumor polyketide
+RT   elloramycin by Streptomyces olivaceus. Characterization of three
+RT   methyltransferase genes.";
+RL   J. Biol. Chem. 276:18765-18774(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Tu 2353;
+RX   PubMed=18310024; DOI=10.1099/mic.0.2007/014035-0;
+RA   Ramos A., Lombo F., Brana A.F., Rohr J., Mendez C., Salas J.A.;
+RT   "Biosynthesis of elloramycin in Streptomyces olivaceus requires
+RT   glycosylation by enzymes encoded outside the aglycon cluster.";
+RL   Microbiology 154:781-788(2008).
+CC   -!- FUNCTION: O-methyltransferase involved in the biosynthesis of the
+CC       permethylated L-rhamnose moiety of elloramycin, an antitumor
+CC       polyketide. Mediates the methylation of the hydroxy groups at the 4'-
+CC       position after the sugar moiety has been attached to the aglycon.
+CC       {ECO:0000269|PubMed:11376004}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=8-demethyl-8-(2,3-di-O-methyl-alpha-L-rhamnosyl)-
+CC         tetracenomycin C + S-adenosyl-L-methionine = 8-demethyl-8-(2,3,4-tri-
+CC         O-methyl-alpha-L-rhamnosyl)-tetracenomycin C + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:41548, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:78286,
+CC         ChEBI:CHEBI:78287; EC=2.1.1.307;
+CC         Evidence={ECO:0000269|PubMed:11376004};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC   -!- PATHWAY: Antibiotic biosynthesis. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase TylF/MycF family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ300305; CAD57141.1; -; Genomic_DNA.
+DR   EMBL; AM900040; CAP12609.1; -; Genomic_DNA.
+DR   SMR; Q9AJU0; -.
+DR   KEGG; ag:CAP12609; -.
+DR   BioCyc; MetaCyc:MONOMER-18591; -.
+DR   BRENDA; 2.1.1.307; 6068.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008168; F:methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IDA:UniProtKB.
+DR   GO; GO:0032259; P:methylation; IDA:UniProtKB.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR008884; TylF_MeTrfase.
+DR   PANTHER; PTHR40036; PTHR40036; 1.
+DR   Pfam; PF05711; TylF; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; Magnesium; Metal-binding; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..261
+FT                   /note="8-demethyl-8-(2,3-dimethoxy-alpha-L-rhamnosyl)-
+FT                   tetracenomycin-C 4'-O-methyltransferase"
+FT                   /id="PRO_0000430715"
+FT   REGION          53..54
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+FT   REGION          81..85
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+FT   REGION          111..115
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+FT   REGION          185..186
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+FT   METAL           185
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255"
+FT   METAL           212
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255"
+FT   METAL           213
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         167
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+FT   BINDING         191
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9L9F2"
+SQ   SEQUENCE   261 AA;  29044 MW;  7DEC0B29EBD72CA6 CRC64;
+     MTEDARDLYL DLMKKVLTNL IYRDAPIQTF VYDGEPDADP RLLGRDWPSV AHTMVGLKRL
+     DNLQYCVETV LADGVPGDLV ETGVWRGGSS IFMRAVLRAH GDTARRVWVA DSFEGMPEVG
+     ADSHAVDREM RLHEHNGVLA VPLEQVRANF ERYGLLDDQV RFLPGWFKDT LPGAPTGRLA
+     VIRLDGDLYE STTDALENLM PRLSPGGFVI IDDYAIDACR DAVHDYRGRY GISDPISEID
+     GTGVFWRHTA ASARSLQPAT V
+//

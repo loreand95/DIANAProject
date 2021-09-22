@@ -1,0 +1,111 @@
+ID   LMX1B_CHICK             Reviewed;         400 AA.
+AC   P53413;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2013, sequence version 2.
+DT   02-DEC-2020, entry version 132.
+DE   RecName: Full=LIM/homeobox protein LMX-1.2;
+DE            Short=Homeobox protein LMX-1;
+DE            Short=LIM/homeobox protein 1;
+DE            Short=LMX;
+GN   Name=LMX1B; Synonyms=LMX, LMX1;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Spinal cord;
+RX   PubMed=7585966; DOI=10.1016/0092-8674(95)90103-5;
+RA   Riddle R.D., Ensini M., Nelson C., Tsuchida T., Jessell T.M., Tabin C.;
+RT   "Induction of the LIM homeobox gene Lmx1 by WNT7a establishes dorsoventral
+RT   pattern in the vertebrate limb.";
+RL   Cell 83:631-640(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 24-400.
+RC   STRAIN=White leghorn; TISSUE=Limb bud;
+RX   PubMed=7501017; DOI=10.1038/378716a0;
+RA   Vogel A., Rodriguez C., Warnken W., Izpisua-Belmonte J.-C.;
+RT   "Dorsal cell fate specified by chick Lmx1 during vertebrate limb
+RT   development.";
+RL   Nature 378:716-720(1995).
+CC   -!- FUNCTION: Specifies dorsal cell fate during limb development.
+CC   -!- SUBCELLULAR LOCATION: Nucleus.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA84995.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAA96240.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L39880; AAA96240.1; ALT_INIT; mRNA.
+DR   EMBL; U41823; AAA84995.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_990689.2; NM_205358.1.
+DR   SMR; P53413; -.
+DR   STRING; 9031.ENSGALP00000001374; -.
+DR   PaxDb; P53413; -.
+DR   Ensembl; ENSGALT00000078478; ENSGALP00000054070; ENSGALG00000040582.
+DR   GeneID; 396312; -.
+DR   KEGG; gga:396312; -.
+DR   CTD; 4010; -.
+DR   eggNOG; KOG0490; Eukaryota.
+DR   GeneTree; ENSGT00940000157955; -.
+DR   InParanoid; P53413; -.
+DR   OrthoDB; 737134at2759; -.
+DR   PRO; PR:P53413; -.
+DR   Proteomes; UP000000539; Chromosome 17.
+DR   GO; GO:0005634; C:nucleus; IBA:GO_Central.
+DR   GO; GO:0000981; F:DNA-binding transcription factor activity, RNA polymerase II-specific; IBA:GO_Central.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000977; F:RNA polymerase II transcription regulatory region sequence-specific DNA binding; IBA:GO_Central.
+DR   GO; GO:0072164; P:mesonephric tubule development; IEP:AgBase.
+DR   GO; GO:0030182; P:neuron differentiation; IBA:GO_Central.
+DR   GO; GO:0006357; P:regulation of transcription by RNA polymerase II; IBA:GO_Central.
+DR   CDD; cd00086; homeodomain; 1.
+DR   InterPro; IPR009057; Homeobox-like_sf.
+DR   InterPro; IPR017970; Homeobox_CS.
+DR   InterPro; IPR001356; Homeobox_dom.
+DR   InterPro; IPR001781; Znf_LIM.
+DR   Pfam; PF00046; Homeodomain; 1.
+DR   Pfam; PF00412; LIM; 2.
+DR   SMART; SM00389; HOX; 1.
+DR   SMART; SM00132; LIM; 2.
+DR   SUPFAM; SSF46689; SSF46689; 1.
+DR   PROSITE; PS00027; HOMEOBOX_1; 1.
+DR   PROSITE; PS50071; HOMEOBOX_2; 1.
+DR   PROSITE; PS00478; LIM_DOMAIN_1; 2.
+DR   PROSITE; PS50023; LIM_DOMAIN_2; 2.
+PE   2: Evidence at transcript level;
+KW   Activator; Developmental protein; DNA-binding; Homeobox; LIM domain;
+KW   Metal-binding; Nucleus; Reference proteome; Repeat; Transcription;
+KW   Transcription regulation; Zinc.
+FT   CHAIN           1..400
+FT                   /note="LIM/homeobox protein LMX-1.2"
+FT                   /id="PRO_0000075831"
+FT   DOMAIN          56..106
+FT                   /note="LIM zinc-binding 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00125"
+FT   DOMAIN          115..168
+FT                   /note="LIM zinc-binding 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00125"
+FT   DNA_BIND        218..277
+FT                   /note="Homeobox"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00108"
+FT   COMPBIAS        281..287
+FT                   /note="Poly-Gln"
+FT   CONFLICT        279
+FT                   /note="R -> S (in Ref. 2; AAA84995)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        389
+FT                   /note="R -> S (in Ref. 2; AAA84995)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   400 AA;  45027 MW;  C67D4BA324ABF06C CRC64;
+     MDIASGPESL ERCFPRGPTD CAKMLDGIKM EDHPLRSGPA TLGVLLGSEC PHQAVCEGCQ
+     RPISDRFLMR VNESSWHEEC LQCAVCQQAL TTSCYFRDRK LYCKQDYQQL FAAKCSGCME
+     KIAPTEFVMR ALECVYHLSC FCCCVCERQL RKGDEFVLKE GQLLCKSDYE KEKDLLSSVS
+     PDDSDSVKSD DEDGDVKPTK GQVTQGKGSD DGKDPRRPKR PRTILTTQQR RAFKASFEVS
+     SKPCRKVRET LAAETGLSVR VVQVWFQNQR AKMKKLARRH QQQQEQQNSQ RLGQEVMSNR
+     MEGMMTSYTP LAPPQQQIVA MDQSSYGTDP FQQGLTPPQM PGDHMNPYGN DSIFHDIDSD
+     TSLTSLSDCF LASSEVNSMQ ARVGNPIDRL YSMQSSYFAS
+//

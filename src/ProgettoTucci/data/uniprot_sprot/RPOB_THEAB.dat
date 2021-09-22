@@ -1,0 +1,108 @@
+ID   RPOB_THEAB              Reviewed;        1172 AA.
+AC   B7ICR3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   07-APR-2021, entry version 86.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE            Short=RNAP subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01321};
+DE   AltName: Full=RNA polymerase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+DE   AltName: Full=Transcriptase subunit beta {ECO:0000255|HAMAP-Rule:MF_01321};
+GN   Name=rpoB {ECO:0000255|HAMAP-Rule:MF_01321}; OrderedLocusNames=THA_1345;
+OS   Thermosipho africanus (strain TCF52B).
+OC   Bacteria; Thermotogae; Thermotogales; Fervidobacteriaceae; Thermosipho.
+OX   NCBI_TaxID=484019;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TCF52B;
+RX   PubMed=19124572; DOI=10.1128/jb.01448-08;
+RA   Nesboe C.L., Bapteste E., Curtis B., Dahle H., Lopez P., Macleod D.,
+RA   Dlutek M., Bowman S., Zhaxybayeva O., Birkeland N.-K., Doolittle W.F.;
+RT   "The genome of Thermosipho africanus TCF52B: lateral genetic connections to
+RT   the Firmicutes and Archaea.";
+RL   J. Bacteriol. 191:1974-1978(2009).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01321};
+CC   -!- SUBUNIT: The RNAP catalytic core consists of 2 alpha, 1 beta, 1 beta'
+CC       and 1 omega subunit. When a sigma factor is associated with the core
+CC       the holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01321}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001185; ACJ75790.1; -; Genomic_DNA.
+DR   RefSeq; WP_012580163.1; NC_011653.1.
+DR   STRING; 484019.THA_1345; -.
+DR   EnsemblBacteria; ACJ75790; ACJ75790; THA_1345.
+DR   KEGG; taf:THA_1345; -.
+DR   eggNOG; COG0085; Bacteria.
+DR   HOGENOM; CLU_000524_4_3_0; -.
+DR   OMA; FMTWEGY; -.
+DR   OrthoDB; 9601at2; -.
+DR   BioCyc; TAFR484019:G1GTU-1359-MONOMER; -.
+DR   Proteomes; UP000002453; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032549; F:ribonucleoside binding; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   CDD; cd00653; RNA_pol_B_RPB2; 1.
+DR   Gene3D; 2.40.270.10; -; 2.
+DR   Gene3D; 2.40.50.150; -; 1.
+DR   Gene3D; 3.90.1110.10; -; 2.
+DR   HAMAP; MF_01321; RNApol_bact_RpoB; 1.
+DR   InterPro; IPR019462; DNA-dir_RNA_pol_bsu_external_1.
+DR   InterPro; IPR015712; DNA-dir_RNA_pol_su2.
+DR   InterPro; IPR007120; DNA-dir_RNAP_su2_dom.
+DR   InterPro; IPR037033; DNA-dir_RNAP_su2_hyb_sf.
+DR   InterPro; IPR010243; RNA_pol_bsu_bac.
+DR   InterPro; IPR007121; RNA_pol_bsu_CS.
+DR   InterPro; IPR007644; RNA_pol_bsu_protrusion.
+DR   InterPro; IPR037034; RNA_pol_Rpb2_2_sf.
+DR   InterPro; IPR007645; RNA_pol_Rpb2_3.
+DR   InterPro; IPR007641; RNA_pol_Rpb2_7.
+DR   InterPro; IPR014724; RNA_pol_RPB2_OB-fold.
+DR   PANTHER; PTHR20856; PTHR20856; 1.
+DR   Pfam; PF04563; RNA_pol_Rpb2_1; 1.
+DR   Pfam; PF04565; RNA_pol_Rpb2_3; 1.
+DR   Pfam; PF10385; RNA_pol_Rpb2_45; 1.
+DR   Pfam; PF00562; RNA_pol_Rpb2_6; 1.
+DR   Pfam; PF04560; RNA_pol_Rpb2_7; 1.
+DR   TIGRFAMs; TIGR02013; rpoB; 1.
+DR   PROSITE; PS01166; RNA_POL_BETA; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Nucleotidyltransferase; Transcription;
+KW   Transferase.
+FT   CHAIN           1..1172
+FT                   /note="DNA-directed RNA polymerase subunit beta"
+FT                   /id="PRO_1000141745"
+SQ   SEQUENCE   1172 AA;  132196 MW;  3FF4E81F5FB0D67E CRC64;
+     MKEIKSGKRT RFSFGRVQAP IPVPNLVEIQ TKSYQDFLEN GILKVLKKFS PITSSKSDLR
+     KEKGFSLEFV SVRVGEPQNT VQECKERLLT YTVPVYTTVR ITDNSTNEMI EEEAFLGYLP
+     YMTPRTTFII NGAERVVVNQ LVRSPGIYFV EEPRKTSGTR PIYVAHFLPV RGAWLEILLN
+     LNDEVFYARI DRKRRVNLFL LLKALGYSDD LKLLSLFPQW IDVDDEYTLM HSEGLVVLED
+     VKTKSGELIA KRGDVITQGL IEKLANSEIE KIKVAHRYAV NTLEKLKHTY GDDVEENRAY
+     IEIFRKLRPG ELPRINAAKI FLNNLYFNEE RFELSEVGRF KMNNRLEEAY RKYLIDVEGK
+     SPEEVEGVKY TETSNVLTPM DIVLASRNLI EIDKHPGTMD TKDHLGNKRV RTVGELIRIE
+     FERAFSKAVF MIQEKLATYT SLDKISVQSL INVRSIIATI NSFFATNPLS QFMDQTNPLA
+     ELTHKRRLTA VGPGGLKRER ARFEVRDVHH SHYGRMCPIE TPEGANIGLI TSLSVYSTID
+     KYGFLITPYV KVVKGKVTDE IVYLTADEEE NYKIAPSTTP VDEEGNIIPE NVTVRYEEKV
+     LYVSKYDVQF LDVAPNQIVS VSTSLIPFLE HDDANRALMG SNMQRQGVPL IETEAPRVGT
+     GMEWEAAKYS GTLVLAKHDG IVKKVDANKI IIHRIDENGK EMYDSMGNPV LDTYELLKFT
+     RTNQDTCINQ RPIVNVGEVV KKDDPIADGP ATDMGELALG KNVLVAFVPW EGYNFEDAIL
+     ISEELLEKET YTSVHIEVYE TTARDTRLGP EEITPDIPNV SKEKLRNLDE DGIIRIGAYV
+     QETDILVGKV TPKSESDTTP EEKIIRSVFG EKGKEVKDSS LRVPHGIEGR VIAVHVFDKE
+     KDGDLGPGVN KLIRVYVAIR KPLEVGDKLA GRHGNKGVVS KILPKEDMPF LPDGTPVQVV
+     LSPLGVPSRM NVGQILETSL GWLAMLTNKW FATPVFDGAK EKDILPELYK ARKKLGLEVG
+     DDENNPTGKV TLRDGRTGLE FDHPILVGYM YVMKLIHIAR DKIHARSTGP YSLIHQQPLG
+     GKAQFGGQRF GEMEVWALEA YGAAHTLNEM LTVKSDDIMG RNEVYKAIMK GKNIPDPGLP
+     ESFKVLVREL RGIALDVRVY DSEGNEIDIE KL
+//

@@ -1,0 +1,107 @@
+ID   CCD80_CHICK             Reviewed;         958 AA.
+AC   Q8AXP2; Q8AXP3;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=Coiled-coil domain-containing protein 80;
+DE   AltName: Full=Equarin;
+DE   Flags: Precursor;
+GN   Name=CCDC80;
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes; Phasianidae;
+OC   Phasianinae; Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, SUBCELLULAR
+RP   LOCATION, AND DEVELOPMENTAL STAGE.
+RC   TISSUE=Lens;
+RX   PubMed=12559487; DOI=10.1016/s0925-4773(02)00423-9;
+RA   Mu H., Ohta K., Kuriyama S., Shimada N., Tanihara H., Yasuda K., Tanaka H.;
+RT   "Equarin, a novel soluble molecule expressed with polarity at chick
+RT   embryonic lens equator, is involved in eye formation.";
+RL   Mech. Dev. 120:143-155(2003).
+CC   -!- FUNCTION: Promotes cell adhesion and matrix assembly (By similarity).
+CC       May play a role in eye formation. {ECO:0000250,
+CC       ECO:0000269|PubMed:12559487}.
+CC   -!- SUBUNIT: Binds to various extracellular matrix proteins. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, extracellular space, extracellular
+CC       matrix {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1; Synonyms=Equarin-L;
+CC         IsoId=Q8AXP2-1; Sequence=Displayed;
+CC       Name=2; Synonyms=Equarin-S;
+CC         IsoId=Q8AXP2-2; Sequence=VSP_024137, VSP_024138;
+CC   -!- DEVELOPMENTAL STAGE: Isoform 2 is expressed in the lens placode at
+CC       stage 14. Isoform 1 is expressed in the lens vesicle at stage 17.
+CC       Isoform 1 and isoform 2 are expressed in the lens, isthmus, cranial
+CC       neuronal tube, dermatome and vitelin vein at stage 19. Isoform 1 and
+CC       isoform 2 are expressed in the lens equatorial region during E4.5 to
+CC       E10. {ECO:0000269|PubMed:12559487}.
+CC   -!- SIMILARITY: Belongs to the CCDC80 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAC54278.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB086823; BAC54278.1; ALT_FRAME; mRNA.
+DR   EMBL; AB086824; BAC54279.1; -; mRNA.
+DR   RefSeq; NP_989762.1; NM_204431.1. [Q8AXP2-1]
+DR   SMR; Q8AXP2; -.
+DR   STRING; 9031.ENSGALP00000024466; -.
+DR   PaxDb; Q8AXP2; -.
+DR   PRIDE; Q8AXP2; -.
+DR   GeneID; 395074; -.
+DR   KEGG; gga:395074; -.
+DR   CTD; 151887; -.
+DR   eggNOG; ENOG502QRG7; Eukaryota.
+DR   InParanoid; Q8AXP2; -.
+DR   OMA; CGSEPHP; -.
+DR   OrthoDB; 244706at2759; -.
+DR   PhylomeDB; Q8AXP2; -.
+DR   PRO; PR:Q8AXP2; -.
+DR   Proteomes; UP000000539; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   InterPro; IPR025232; DUF4174.
+DR   Pfam; PF13778; DUF4174; 3.
+PE   2: Evidence at transcript level;
+KW   Alternative splicing; Extracellular matrix; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..958
+FT                   /note="Coiled-coil domain-containing protein 80"
+FT                   /id="PRO_0000282421"
+FT   COMPBIAS        328..395
+FT                   /note="Thr-rich"
+FT   COMPBIAS        495..610
+FT                   /note="Lys-rich"
+FT   VAR_SEQ         635..640
+FT                   /note="LITTPK -> VSNLFI (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12559487"
+FT                   /id="VSP_024137"
+FT   VAR_SEQ         641..958
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000303|PubMed:12559487"
+FT                   /id="VSP_024138"
+SQ   SEQUENCE   958 AA;  109323 MW;  2E2DB2907899C2B5 CRC64;
+     MNWMPALSLA LLWTAWLVCG SEKTGRLAER GSHGVRKVPQ SHRAPSSLLR RSGASLKNLS
+     PSPQHPVTKR DSSVPPKAPA NLLKEESRSQ PRSVGTRTRR LQRLTAAAKY SKSEMIKDEG
+     ISTASQSRAV RFPSGSSSPN VLASFAGKNR VWVISAPHAS EGYYRLMMSL LKNDVYCELA
+     ERHIQQIVLF HEEGEEGGKV RRITNEGKIL EQPLDPALIP KLMSFLKLEK GKFGMVLLKK
+     TLQVEERYPY PVRLEAMYEV IDQNPIRKIE KMRQKGFIQT CKAAGVEGQV VEDDNNGGST
+     QSIPGGGHVQ VSAGGRKEEP RRSSNQPTRT KTVRKPMTTT VATPLPTVRT TTLPTTTTAT
+     RATTRTVTTA SRPTTTTTPL PTTQRTWTTK SHTTTEYHRL PASPEVTTPR VMASEDFYSP
+     VWKANRRDRQ RGHPEKHLAA TRKPSKGGRY ESFTEVPTAP SVHYTKASMS RFKDNRTDRK
+     DYNHRDLNVT PGQHKPTKTK PPKKKTQEKI LSNEYEDKYD PSKPASPHLE EEIAVGSIPP
+     KKGKESKKHE RMDKPEKKKK KDRPDKLHKS EKQSKKDKAE KKSKQDKDRS KKNKKGSRTE
+     NEDFPKPNKK PFLQPPRKSV ANLLDYFEGK RRLILITTPK ADNTMYVQQR DEYLESFCKM
+     ATRKISVITI FGTMNNSSMK IDHFQLDNEK PMKVIEDEDL VDQQLISELR KEYGMTYNDF
+     FMVLTDTDMK VKQYYEVPIA MKSVFDLIDT FQSRIKDMER QKKEGIVCKE DKKQSLESFL
+     SRFRWRRRLV VISAPSDEDW AYSQQLAALS GQACNFGLRH ITILKLLGVG EDIGGVLELY
+     PINGSATVDR EDIPANLVKD IRNYFQISPE YFSMLLVGKD GNVKSWYPSP MWSMAIVYDL
+     IDSMQLRRQE MTIQQSLGMQ CPEDEYGGYG YHSYHQGYQE GYQDDYRHHG SYHHGYPY
+//

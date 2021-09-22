@@ -1,0 +1,100 @@
+ID   SSAT_CRYPI              Reviewed;         152 AA.
+AC   Q5CPU3;
+DT   03-SEP-2014, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   07-APR-2021, entry version 55.
+DE   RecName: Full=Diamine acetyltransferase {ECO:0000305|PubMed:17289169};
+DE            EC=2.3.1.57 {ECO:0000269|PubMed:17289169};
+DE   AltName: Full=Spermidine/spermine N(1)-acetyltransferase {ECO:0000303|PubMed:17289169};
+DE            Short=CpSSAT {ECO:0000303|PubMed:17289169};
+GN   Name=SSAT {ECO:0000303|PubMed:17289169}; ORFNames=cgd4_4000;
+OS   Cryptosporidium parvum (strain Iowa II).
+OC   Eukaryota; Sar; Alveolata; Apicomplexa; Conoidasida; Coccidia;
+OC   Eucoccidiorida; Eimeriorina; Cryptosporidiidae; Cryptosporidium.
+OX   NCBI_TaxID=353152;
+RN   [1] {ECO:0000312|EMBL:EAK87438.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Iowa II;
+RX   PubMed=15044751; DOI=10.1126/science.1094786;
+RA   Abrahamsen M.S., Templeton T.J., Enomoto S., Abrahante J.E., Zhu G.,
+RA   Lancto C.A., Deng M., Liu C., Widmer G., Tzipori S., Buck G.A., Xu P.,
+RA   Bankier A.T., Dear P.H., Konfortov B.A., Spriggs H.F., Iyer L.,
+RA   Anantharaman V., Aravind L., Kapur V.;
+RT   "Complete genome sequence of the apicomplexan, Cryptosporidium parvum.";
+RL   Science 304:441-445(2004).
+RN   [2] {ECO:0000305}
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, AND
+RP   SUBCELLULAR LOCATION.
+RC   STRAIN=Iowa II {ECO:0000269|PubMed:17289169};
+RX   PubMed=17289169; DOI=10.1016/j.molbiopara.2007.01.004;
+RA   Yarlett N., Wu G., Waters W.R., Harp J.A., Wannemuehler M.J., Morada M.,
+RA   Athanasopoulos D., Martinez M.P., Upton S.J., Marton L.J., Frydman B.J.;
+RT   "Cryptosporidium parvum spermidine/spermine N1-acetyltransferase exhibits
+RT   different characteristics from the host enzyme.";
+RL   Mol. Biochem. Parasitol. 152:170-180(2007).
+CC   -!- FUNCTION: Enzyme which catalyzes the acetylation of polyamines.
+CC       Displays higher substrate specificity for spermine than for spermidine.
+CC       May function to acetylate host-derived polyamines, thus alleviating the
+CC       necessity for de novo synthesis of these molecules.
+CC       {ECO:0000269|PubMed:17289169, ECO:0000303|PubMed:17289169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + an alkane-alpha,omega-diamine = an N-
+CC         acetylalkane-alpha,omega-diamine + CoA + H(+); Xref=Rhea:RHEA:11116,
+CC         Rhea:RHEA-COMP:9766, Rhea:RHEA-COMP:9767, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:70977,
+CC         ChEBI:CHEBI:70988; EC=2.3.1.57;
+CC         Evidence={ECO:0000269|PubMed:17289169};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=11 uM for spermine {ECO:0000269|PubMed:17289169};
+CC         KM=50 uM for spermidine {ECO:0000269|PubMed:17289169};
+CC         Vmax=79 umol/min/mg enzyme toward spermine
+CC         {ECO:0000269|PubMed:17289169};
+CC   -!- PATHWAY: Amine and polyamine degradation; putrescine degradation; N-
+CC       acetylputrescine from putrescine: step 1/1.
+CC       {ECO:0000305|PubMed:17289169}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:17289169}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:17289169}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAEE01000012; EAK87438.1; -; Genomic_DNA.
+DR   RefSeq; XP_625421.1; XM_625421.1.
+DR   PDB; 6YUG; X-ray; 1.95 A; A/B=1-152.
+DR   PDBsum; 6YUG; -.
+DR   SMR; Q5CPU3; -.
+DR   EnsemblProtists; EAK87438; EAK87438; cgd4_4000.
+DR   GeneID; 3372423; -.
+DR   KEGG; cpv:cgd4_4000; -.
+DR   VEuPathDB; CryptoDB:cgd4_4000; -.
+DR   InParanoid; Q5CPU3; -.
+DR   OMA; NARHIYT; -.
+DR   SABIO-RK; Q5CPU3; -.
+DR   UniPathway; UPA00188; UER00363.
+DR   Proteomes; UP000006726; Chromosome 4.
+DR   Proteomes; UP000006726; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IDA:UniProtKB.
+DR   GO; GO:0004145; F:diamine N-acetyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0009447; P:putrescine catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0032918; P:spermidine acetylation; IDA:UniProtKB.
+DR   GO; GO:0032919; P:spermine acetylation; IDA:UniProtKB.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acyltransferase; Cytoplasm; Reference proteome; Transferase.
+FT   CHAIN           1..152
+FT                   /note="Diamine acetyltransferase"
+FT                   /id="PRO_0000430034"
+FT   DOMAIN          5..152
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00532"
+SQ   SEQUENCE   152 AA;  17837 MW;  93DC5867C9B654B2 CRC64;
+     MISSFEVRKA TIDDYFELRN LICDVTRCTE TLSREQAEER FRYNTYHPYC LVDTENGRIV
+     GYAGFYIIPH LGRKNDSRIE HVIISKEYRN RGLGRLLCKQ IIEDAKNKFN CGRIDLTVES
+     HIAKKLYSSL EFEKVNTEVM RNSFLDLTPK SD
+//

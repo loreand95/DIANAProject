@@ -1,0 +1,99 @@
+ID   APA_MYCLE               Reviewed;         287 AA.
+AC   P46842; O32905; Q9R5V6;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   27-APR-2001, sequence version 2.
+DT   02-DEC-2020, entry version 93.
+DE   RecName: Full=Alanine and proline-rich secreted protein Apa;
+DE   AltName: Full=Antigen 43L;
+DE   AltName: Full=FAP-L;
+DE   AltName: Full=Fibronectin attachment protein;
+DE   Flags: Precursor;
+GN   Name=apa; Synonyms=modD; OrderedLocusNames=ML2055; ORFNames=MLCB1788.01c;
+OS   Mycobacterium leprae (strain TN).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=272631;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8262636; DOI=10.1128/iai.62.1.252-258.1994;
+RA   Wieles B., van Agterveld M., Janson A., Clark-Curtiss J.E.,
+RA   Rinke de Wit T.F., Harboe M., Thole J.;
+RT   "Characterization of a Mycobacterium leprae antigen related to the secreted
+RT   Mycobacterium tuberculosis protein MPT32.";
+RL   Infect. Immun. 62:252-258(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7790081; DOI=10.1128/iai.63.7.2652-2657.1995;
+RA   Schorey J.S., Li Q., McCourt D.W., Bong-Mastek M., Clark-Curtiss J.E.,
+RA   Ratliff T.L., Brown E.J.;
+RT   "A Mycobacterium leprae gene encoding a fibronectin binding protein is used
+RT   for efficient invasion of epithelial cells and Schwann cells.";
+RL   Infect. Immun. 63:2652-2657(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TN;
+RX   PubMed=11234002; DOI=10.1038/35059006;
+RA   Cole S.T., Eiglmeier K., Parkhill J., James K.D., Thomson N.R.,
+RA   Wheeler P.R., Honore N., Garnier T., Churcher C.M., Harris D.E.,
+RA   Mungall K.L., Basham D., Brown D., Chillingworth T., Connor R.,
+RA   Davies R.M., Devlin K., Duthoy S., Feltwell T., Fraser A., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Lacroix C., Maclean J., Moule S.,
+RA   Murphy L.D., Oliver K., Quail M.A., Rajandream M.A., Rutherford K.M.,
+RA   Rutter S., Seeger K., Simon S., Simmonds M., Skelton J., Squares R.,
+RA   Squares S., Stevens K., Taylor K., Whitehead S., Woodward J.R.,
+RA   Barrell B.G.;
+RT   "Massive gene decay in the leprosy bacillus.";
+RL   Nature 409:1007-1011(2001).
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the Apa family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X76501; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AL583924; CAC31010.1; -; Genomic_DNA.
+DR   EMBL; AL008609; CAA15433.1; -; Genomic_DNA.
+DR   PIR; B87166; B87166.
+DR   PIR; T44744; T44744.
+DR   RefSeq; NP_302372.1; NC_002677.1.
+DR   RefSeq; WP_010908692.1; NC_002677.1.
+DR   SMR; P46842; -.
+DR   STRING; 272631.ML2055; -.
+DR   EnsemblBacteria; CAC31010; CAC31010; CAC31010.
+DR   KEGG; mle:ML2055; -.
+DR   PATRIC; fig|272631.5.peg.3867; -.
+DR   Leproma; ML2055; -.
+DR   eggNOG; ENOG50346X3; Bacteria.
+DR   HOGENOM; CLU_064064_0_0_11; -.
+DR   OMA; WVESDAS; -.
+DR   BioCyc; MLEP272631:G1GT5-2252-MONOMER; -.
+DR   Proteomes; UP000000806; Chromosome.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050840; F:extracellular matrix binding; IEA:InterPro.
+DR   InterPro; IPR010801; FAP.
+DR   Pfam; PF07174; FAP; 1.
+PE   3: Inferred from homology;
+KW   Reference proteome; Repeat; Secreted; Signal.
+FT   SIGNAL          1..39
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           40..287
+FT                   /note="Alanine and proline-rich secreted protein Apa"
+FT                   /id="PRO_0000020744"
+FT   REPEAT          76..79
+FT                   /note="1"
+FT   REPEAT          83..86
+FT                   /note="2"
+FT   REPEAT          93..96
+FT                   /note="3"
+FT   REGION          76..96
+FT                   /note="3 X 4 AA repeats of D-P-N-A"
+FT   CONFLICT        33..34
+FT                   /note="LP -> FR (in Ref. 1; X76501)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   287 AA;  29559 MW;  7FC860A8B3026CFB CRC64;
+     MNQVDLDSTH RKGLWAILAI AVVASASAFT MPLPAAANAD PAPLPPSTAT AAPSPAQEII
+     TPLPGAPVSS EAQPGDPNAP SLDPNAPYPL AVDPNAGRIT NAVGGFSFVL PAGWVESEAS
+     HLDYGSVLLS KAIEQPPVLG QPTVVATDTR IVLGRLDQKL YASAEADNIK AAVRLGSDMG
+     EFYLPYPGTR INQETIPLHA NGIAGSASYY EVKFSDPNKP IGQICTSVVG SPAASTPDVG
+     PSQRWFVVWL GTSNNPVDKG AAKELAESIR SEMAPIPASV SAPAPVG
+//

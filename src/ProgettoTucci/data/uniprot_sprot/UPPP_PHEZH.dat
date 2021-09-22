@@ -1,0 +1,106 @@
+ID   UPPP_PHEZH              Reviewed;         266 AA.
+AC   B4RCI1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 67.
+DE   RecName: Full=Undecaprenyl-diphosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+DE            EC=3.6.1.27 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Bacitracin resistance protein {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Undecaprenyl pyrophosphate phosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+GN   Name=uppP {ECO:0000255|HAMAP-Rule:MF_01006}; OrderedLocusNames=PHZ_c0166;
+OS   Phenylobacterium zucineum (strain HLK1).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+OC   Caulobacteraceae; Phenylobacterium.
+OX   NCBI_TaxID=450851;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HLK1;
+RX   PubMed=18700039; DOI=10.1186/1471-2164-9-386;
+RA   Luo Y., Xu X., Ding Z., Liu Z., Zhang B., Yan Z., Sun J., Hu S., Hu X.;
+RT   "Complete genome of Phenylobacterium zucineum - a novel facultative
+RT   intracellular bacterium isolated from human erythroleukemia cell line
+RT   K562.";
+RL   BMC Genomics 9:386-386(2008).
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of undecaprenyl diphosphate
+CC       (UPP). Confers resistance to bacitracin. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-
+CC         trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:28094, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58405, ChEBI:CHEBI:60392; EC=3.6.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01006};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- MISCELLANEOUS: Bacitracin is thought to be involved in the inhibition
+CC       of peptidoglycan synthesis by sequestering undecaprenyl diphosphate,
+CC       thereby reducing the pool of lipid carrier available.
+CC   -!- SIMILARITY: Belongs to the UppP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000747; ACG76580.1; -; Genomic_DNA.
+DR   RefSeq; WP_012520728.1; NC_011144.1.
+DR   STRING; 450851.PHZ_c0166; -.
+DR   EnsemblBacteria; ACG76580; ACG76580; PHZ_c0166.
+DR   KEGG; pzu:PHZ_c0166; -.
+DR   eggNOG; COG1968; Bacteria.
+DR   HOGENOM; CLU_060296_2_0_5; -.
+DR   OMA; IEGPFRD; -.
+DR   OrthoDB; 1826154at2; -.
+DR   Proteomes; UP000001868; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050380; F:undecaprenyl-diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0016311; P:dephosphorylation; IEA:InterPro.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01006; Undec_diphosphatase; 1.
+DR   InterPro; IPR003824; UppP.
+DR   PANTHER; PTHR30622; PTHR30622; 1.
+DR   Pfam; PF02673; BacA; 1.
+DR   TIGRFAMs; TIGR00753; undec_PP_bacA; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Hydrolase; Membrane;
+KW   Peptidoglycan synthesis; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..266
+FT                   /note="Undecaprenyl-diphosphatase"
+FT                   /id="PRO_1000197387"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        41..61
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        105..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        139..159
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        182..202
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        212..232
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        245..265
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+SQ   SEQUENCE   266 AA;  28310 MW;  5548EB82DAB83AD3 CRC64;
+     MPDWVLAIIL GVVEGLTEFI PVSSTGHILL LGHFLGFHST GKVFEVMIQL GAILAVISVY
+     FGRLWSVATH LHTDPAARRF VASIVLAFLP AGFAGFLLHD YIKAVLFETP AVICVSLILG
+     GFALLAVDRI QREPVYTDAG AFPLKTAFII GLFQCLALIP GVSRSGATVA GALLMRCDKR
+     SAAEFSFFLA MPTMAGAFTV DLAKNYKLLS ADDAGIIALG FVCALVAAII TVRKVVDFVG
+     RHGFAPFAWW RIAVGALGLL GLAFIG
+//

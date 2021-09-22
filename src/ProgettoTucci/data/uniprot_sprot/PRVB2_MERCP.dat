@@ -1,0 +1,191 @@
+ID   PRVB2_MERCP             Reviewed;         108 AA.
+AC   P86757;
+DT   05-OCT-2010, integrated into UniProtKB/Swiss-Prot.
+DT   05-OCT-2010, sequence version 1.
+DT   11-DEC-2019, entry version 24.
+DE   RecName: Full=Parvalbumin beta 2 {ECO:0000303|PubMed:20586483};
+OS   Merluccius capensis (Shallow-water Cape hake) (Gadus merluccius).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Actinopterygii; Neopterygii; Teleostei; Neoteleostei; Acanthomorphata;
+OC   Zeiogadaria; Gadariae; Gadiformes; Gadoidei; Merlucciidae; Merluccius.
+OX   NCBI_TaxID=89947;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, AND ACETYLATION AT ALA-1.
+RC   TISSUE=Muscle {ECO:0000269|PubMed:20586483};
+RX   PubMed=20586483; DOI=10.1021/pr100163e;
+RA   Carrera M., Canas B., Vazquez J., Gallardo J.M.;
+RT   "Extensive de novo sequencing of new parvalbumin isoforms using a novel
+RT   combination of bottom-up proteomics, accurate molecular mass measurement by
+RT   FTICR-MS, and selected MS/MS ion monitoring.";
+RL   J. Proteome Res. 9:4393-4406(2010).
+CC   -!- FUNCTION: In muscle, parvalbumin is thought to be involved in
+CC       relaxation after contraction. It binds two calcium ions (By
+CC       similarity). {ECO:0000250|UniProtKB:P02622,
+CC       ECO:0000250|UniProtKB:P02624}.
+CC   -!- MASS SPECTROMETRY: Mass=11379.812; Mass_error=0.0272;
+CC       Method=Electrospray; Evidence={ECO:0000269|PubMed:20586483};
+CC   -!- MISCELLANEOUS: Is regarded as an important allergen.
+CC       {ECO:0000250|UniProtKB:P02622, ECO:0000269|PubMed:20586483}.
+CC   -!- MISCELLANEOUS: On the 2D-gel the determined pI of this protein is:
+CC       4.20, its MW is: 11.38 kDa. {ECO:0000269|PubMed:20586483}.
+CC   -!- SIMILARITY: Belongs to the parvalbumin family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P86757; -.
+DR   Allergome; 7645; Mer ca 1.
+DR   iPTMnet; P86757; -.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR008080; Parvalbumin.
+DR   PANTHER; PTHR11653; PTHR11653; 1.
+DR   Pfam; PF13499; EF-hand_7; 1.
+DR   SMART; SM00054; EFh; 2.
+DR   SUPFAM; SSF47473; SSF47473; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 2.
+DR   PROSITE; PS50222; EF_HAND_2; 2.
+PE   1: Evidence at protein level;
+KW   Acetylation; Allergen; Calcium; Direct protein sequencing; Metal-binding;
+KW   Muscle protein; Repeat.
+FT   CHAIN           1..108
+FT                   /note="Parvalbumin beta 2"
+FT                   /id="PRO_0000399416"
+FT   DOMAIN          38..73
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          77..108
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         51..62
+FT                   /note="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         90..101
+FT                   /note="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   METAL           51
+FT                   /note="Calcium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           53
+FT                   /note="Calcium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           55
+FT                   /note="Calcium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           57
+FT                   /note="Calcium 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           59
+FT                   /note="Calcium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           62
+FT                   /note="Calcium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           90
+FT                   /note="Calcium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           92
+FT                   /note="Calcium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           94
+FT                   /note="Calcium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           96
+FT                   /note="Calcium 2; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   METAL           101
+FT                   /note="Calcium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P02621"
+FT   MOD_RES         1
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          5
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          6
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          11
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          15
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          16
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          27
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          32
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          35
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          38
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          43
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          44
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          45
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          50
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          52
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          54
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          58
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          63
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          64
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          65
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          67
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          68
+FT                   /note="Q or K"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          77
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          83
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          86
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          87
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          97
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          105
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+FT   UNSURE          107
+FT                   /note="K or Q"
+FT                   /evidence="ECO:0000269|PubMed:20586483"
+SQ   SEQUENCE   108 AA;  11345 MW;  D6E3468745C4493C CRC64;
+     AFSGILAEAD IAAALKACEA AGTFNYKAFF AKVGLTGKSA DDIKKAFFVI DQDKSGFIEE
+     DELKLFLQVF SAGARALTDD ETKAFLKAGD SDGDGAIGVE EWAALVKA
+//

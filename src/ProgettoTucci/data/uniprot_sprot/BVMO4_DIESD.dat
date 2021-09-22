@@ -1,0 +1,115 @@
+ID   BVMO4_DIESD             Reviewed;         612 AA.
+AC   U5S003;
+DT   07-JAN-2015, integrated into UniProtKB/Swiss-Prot.
+DT   22-JAN-2014, sequence version 1.
+DT   07-APR-2021, entry version 17.
+DE   RecName: Full=Baeyer-Villiger monooxygenase 4 {ECO:0000303|PubMed:24949258};
+DE            Short=BVMO4 {ECO:0000303|PubMed:24949258};
+DE            EC=1.14.13.- {ECO:0000269|PubMed:24949258};
+OS   Dietzia sp. (strain D5).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Dietziaceae; Dietzia;
+OC   unclassified Dietzia.
+OX   NCBI_TaxID=1408143;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   SUBSTRATE SPECIFICITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=D5;
+RX   PubMed=24949258; DOI=10.1186/s13568-014-0023-1;
+RA   Bisagni S., Hatti-Kaul R., Mamo G.;
+RT   "Cloning, expression and characterization of a versatile Baeyer-Villiger
+RT   monooxygenase from Dietzia sp. D5.";
+RL   AMB Express 4:23-23(2014).
+CC   -!- FUNCTION: Catalyzes a Baeyer-Villiger oxidation reaction, i.e. the
+CC       insertion of an oxygen atom into a carbon-carbon bond adjacent to a
+CC       carbonyl, which converts ketones to esters or lactones using NADPH as
+CC       an electron donor. Has a broad substrate scope and oxidizes different
+CC       compounds including substituted and unsubstituted alicyclic, bicyclic-,
+CC       aliphatic-ketones, ketones with an aromatic moiety, and sulfides. The
+CC       highest activities are measured for 2- and 3-methylcyclohexanone,
+CC       phenylacetone, bicyclo[3.2.0]hept-2-en-6-one and menthone. Cannot use
+CC       NADH instead of NADPH. Is not active on benzaldehyde.
+CC       {ECO:0000269|PubMed:24949258}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:24949258};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.829 mM for phenylacetone {ECO:0000269|PubMed:24949258};
+CC         KM=0.507 mM for 2-methylcyclohexanone {ECO:0000269|PubMed:24949258};
+CC         KM=0.011 mM for NADPH {ECO:0000269|PubMed:24949258};
+CC         Note=kcat is 0.634 sec(-1) with phenylacetone as substrate and 0.370
+CC         sec(-1) with 2-methylcyclohexanone as substrate.
+CC         {ECO:0000269|PubMed:24949258};
+CC       pH dependence:
+CC         Optimum pH is 7.5. Exhibits more than 50% of its optimal activity
+CC         between pH 6.5 and 9.0. Displays highest stability in a pH range of
+CC         7.0-8.0. {ECO:0000269|PubMed:24949258};
+CC       Temperature dependence:
+CC         Optimum temperature is 35 degrees Celsius. At this temperature, its
+CC         half-life is about 20 hours. Retains about 50% and 20% of its initial
+CC         activity after 20 h and 48 h of incubation at 35 degrees Celsius,
+CC         respectively. {ECO:0000269|PubMed:24949258};
+CC   -!- SIMILARITY: Belongs to the FAD-binding monooxygenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KF319017; AGY78320.1; -; Genomic_DNA.
+DR   SMR; U5S003; -.
+DR   GO; GO:0071949; F:FAD binding; IDA:UniProtKB.
+DR   GO; GO:0070402; F:NADPH binding; IDA:UniProtKB.
+DR   GO; GO:0016709; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen; IDA:UniProtKB.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+PE   1: Evidence at protein level;
+KW   FAD; Flavoprotein; Monooxygenase; NADP; Oxidoreductase.
+FT   CHAIN           1..612
+FT                   /note="Baeyer-Villiger monooxygenase 4"
+FT                   /id="PRO_0000431623"
+FT   NP_BIND         107..110
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   NP_BIND         117..119
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   NP_BIND         253..259
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   NP_BIND         276..277
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   NP_BIND         393..394
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   BINDING         99
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   BINDING         119
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   BINDING         125
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   BINDING         169
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+FT   SITE            394
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000250|UniProtKB:Q47PU3"
+SQ   SEQUENCE   612 AA;  68454 MW;  13F1E417C13C4B58 CRC64;
+     MPFTLPESKI AIDIDFDPDH LRQRFEADKQ ARERKDQLAQ FQGLDDVLEV DDSDPFSEPI
+     TREPVTEELD ALVLGGGFGG LTAGAYLTQN GVENFRLVEY GGDFGGTWYW NRYPGVQCDI
+     ESHIYMPLLE ETGYVPSQRY ADGSEIFEHA QRIGRHYGLY DRTYFQTRAT HARWDEQIQR
+     WEVTTDRGDR FVTRVLLRSN GALTKPQLPK VPGIGDFEGK IFHTSRWDYG YTGGSAAGDL
+     AHLRDKRVAV VGTGATGVQV VPYLAQDAKE LVVVQRTPSV VQPRNNRKTD PEWVASLTPG
+     WQYERHDNFN GIISGHEVEG NLVDDGWTHL FPELTGQHLV DVPVGELPEG DQALVAELAD
+     MNLLMSAHAR VDSIVTDPAT ADGLKPWFGY MCKRPCFNDE YLEAFNRPNV TLAASPAGID
+     GITSSGIVVA GTHYEVDCII FATGFETGSG PAGIYGYDVI GREGHSMQEY FSEGARTFHG
+     FFTHGFPNFV ELGMSQTAYY VNFVYMLDRK ARHAARLVRH LLDSGIGTFE PTAEAEADWV
+     AEVRRSNEPR EAYWGACTPG YYNGQGEVSK AVFRDVYNSS EIDFWNMIEA WWNSGRFEGL
+     VFEPARDAVP VA
+//

@@ -1,0 +1,113 @@
+ID   RDRP_I35A3              Reviewed;         757 AA.
+AC   A4GCM7;
+DT   05-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   17-APR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 50.
+DE   RecName: Full=RNA-directed RNA polymerase catalytic subunit {ECO:0000255|HAMAP-Rule:MF_04065};
+DE            EC=2.7.7.48 {ECO:0000255|HAMAP-Rule:MF_04065};
+DE   AltName: Full=Polymerase basic protein 1 {ECO:0000255|HAMAP-Rule:MF_04065};
+DE            Short=PB1 {ECO:0000255|HAMAP-Rule:MF_04065};
+DE   AltName: Full=RNA-directed RNA polymerase subunit P1 {ECO:0000255|HAMAP-Rule:MF_04065};
+GN   Name=PB1 {ECO:0000255|HAMAP-Rule:MF_04065};
+OS   Influenza A virus (strain A/USA:Phila/1935 H1N1).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=425570;
+OH   NCBI_TaxID=8782; Aves.
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RA   Ghedin E., Spiro D., Miller N., Zaborsky J., Feldblyum T., Subbu V.,
+RA   Shumway M., Sparenborg J., Groveman L., Halpin R., Sitz J., Koo H.,
+RA   Salzberg S.L., Webster R.G., Hoffmann E., Krauss S., Naeve C., Bao Y.,
+RA   Bolotov P., Dernovoy D., Kiryutin B., Lipman D.J., Tatusova T.;
+RT   "The NIAID influenza genome sequencing project.";
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RG   The NIAID Influenza Genome Sequencing Consortium;
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: RNA-dependent RNA polymerase which is responsible for
+CC       replication and transcription of virus RNA segments. The transcription
+CC       of viral mRNAs occurs by a unique mechanism called cap-snatching. 5'
+CC       methylated caps of cellular mRNAs are cleaved after 10-13 nucleotides
+CC       by PA. In turn, these short capped RNAs are used as primers by PB1 for
+CC       transcription of viral mRNAs. During virus replication, PB1 initiates
+CC       RNA synthesis and copy vRNA into complementary RNA (cRNA) which in turn
+CC       serves as a template for the production of more vRNAs.
+CC       {ECO:0000255|HAMAP-Rule:MF_04065}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|HAMAP-Rule:MF_04065};
+CC   -!- SUBUNIT: Influenza RNA polymerase is composed of three subunits: PB1,
+CC       PB2 and PA. Interacts (via N-terminus) with PA (via C-terminus).
+CC       Interacts (via C-terminus) with PB2 (via N-terminus); this interaction
+CC       is essential for transcription initiation. {ECO:0000255|HAMAP-
+CC       Rule:MF_04065}.
+CC   -!- SUBCELLULAR LOCATION: Host nucleus {ECO:0000255|HAMAP-Rule:MF_04065}.
+CC       Host cytoplasm {ECO:0000255|HAMAP-Rule:MF_04065}.
+CC   -!- PTM: Phosphorylated by host PRKCA. {ECO:0000255|HAMAP-Rule:MF_04065}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses polymerase PB1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04065}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CY020475; ABO38392.1; -; Viral_cRNA.
+DR   Proteomes; UP000000829; Genome.
+DR   GO; GO:0030430; C:host cell cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039523; P:suppression by virus of host RNA polymerase II activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019083; P:viral transcription; IEA:UniProtKB-KW.
+DR   HAMAP; MF_04065; INFV_RDRP; 1.
+DR   InterPro; IPR007099; RNA-dir_pol_NSvirus.
+DR   InterPro; IPR001407; RNA_pol_PB1_influenza.
+DR   Pfam; PF00602; Flu_PB1; 1.
+DR   PIRSF; PIRSF000827; RdRPol_OMV; 1.
+DR   PROSITE; PS50525; RDRP_SSRNA_NEG_SEG; 1.
+PE   3: Inferred from homology;
+KW   Eukaryotic host gene expression shutoff by virus;
+KW   Eukaryotic host transcription shutoff by virus; Host cytoplasm;
+KW   Host gene expression shutoff by virus; Host nucleus;
+KW   Host-virus interaction; Inhibition of host RNA polymerase II by virus;
+KW   Nucleotide-binding; Nucleotidyltransferase; Phosphoprotein;
+KW   RNA-directed RNA polymerase; Transferase; Viral RNA replication;
+KW   Viral transcription.
+FT   CHAIN           1..757
+FT                   /note="RNA-directed RNA polymerase catalytic subunit"
+FT                   /id="PRO_0000373046"
+FT   DOMAIN          286..483
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04065"
+FT   REGION          249..256
+FT                   /note="Promoter-binding site"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04065"
+FT   MOTIF           187..195
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04065"
+FT   MOTIF           203..216
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04065"
+SQ   SEQUENCE   757 AA;  86559 MW;  8150DD668B074D93 CRC64;
+     MDVNPTLLFL KVPAQNAIST TFPYTGDPPY SHGTGTGYTM DTVNRTHQYS ERGRWTTNTE
+     TGAPQLNPID GPLPEDNEPS GYAQTDCVLE AMAFLEESHP GIFENSCIET MEVVQQTRVD
+     KLTQGRQTYD WTLNRNQPAA TALANTIEVF RSNGLTANES GRLIDFLKDV MESMNKEEME
+     ITTHFQRKRR VRDNMTKKMV TQRTIGKRKQ KLNKRSYLIR ALTLNTMTKD AERGKLKRRA
+     IATPGMQIRG FVYFVETLAR SICEKLEQSG LPVGGNEKKA KLANVVRKMM TNSQDTELSF
+     TITGDNTKWN ENQNPRMFLA MITYMTRNQP EWFRNVLSIA PIMFSNKMAR LGKGYMFESK
+     SMKLRTQIPA EMLASIDLKY FNGSTRKKIE KIRPLLIEGT ASLSPGMMMG MFNMLSTVLG
+     VSILNLGQKR YTKTTYWWDG LQSSDDFALI VNAPNHEGIQ AGVDRFYRTC KLLGINMSKK
+     KSYINRTGTF EFTSFFYRYG FVANFSMELP SFGVSGINES ADMSIGVTVI KNNMINNDLG
+     PATAQMALQL FIKDYRYTYR CHRGDTQIQT RRSFEIKKLW EQTRSKAGLL VSDGGPNLYN
+     IRNLHIPEVC LKWELMDEDY QGRLCNPLNP FVSHKEIESM NNAVMMPAHG PAKNMEYDAV
+     ATTHSWIPKR NRSILNTSQR GILEDEQMYQ RCCNLFEXFF PSSSYRRPVG ISSMVEAMVS
+     RAQIDARIDF ESGRIKKEEF TEIMKICSTI EELRRQK
+//

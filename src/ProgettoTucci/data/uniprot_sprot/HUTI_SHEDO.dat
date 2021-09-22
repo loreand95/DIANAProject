@@ -1,0 +1,118 @@
+ID   HUTI_SHEDO              Reviewed;         414 AA.
+AC   Q12T48;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=Imidazolonepropionase {ECO:0000255|HAMAP-Rule:MF_00372};
+DE            EC=3.5.2.7 {ECO:0000255|HAMAP-Rule:MF_00372};
+DE   AltName: Full=Imidazolone-5-propionate hydrolase {ECO:0000255|HAMAP-Rule:MF_00372};
+GN   Name=hutI {ECO:0000255|HAMAP-Rule:MF_00372}; OrderedLocusNames=Sden_0081;
+OS   Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=318161;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=OS217 / ATCC BAA-1090 / DSM 15013;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Brettin T., Bruce D., Han C., Tapia R., Gilna P., Kiss H., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Richardson P.;
+RT   "Complete sequence of Shewanella denitrificans OS217.";
+RL   Submitted (MAR-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-imidazolone-5-propanoate + H2O = N-formimidoyl-L-glutamate;
+CC         Xref=Rhea:RHEA:23660, ChEBI:CHEBI:15377, ChEBI:CHEBI:58928,
+CC         ChEBI:CHEBI:77893; EC=3.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00372};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Note=Binds 1 zinc or iron ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00372};
+CC   -!- PATHWAY: Amino-acid degradation; L-histidine degradation into L-
+CC       glutamate; N-formimidoyl-L-glutamate from L-histidine: step 3/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       HutI family. {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000302; ABE53378.1; -; Genomic_DNA.
+DR   RefSeq; WP_011494547.1; NC_007954.1.
+DR   SMR; Q12T48; -.
+DR   STRING; 318161.Sden_0081; -.
+DR   EnsemblBacteria; ABE53378; ABE53378; Sden_0081.
+DR   KEGG; sdn:Sden_0081; -.
+DR   eggNOG; COG1228; Bacteria.
+DR   HOGENOM; CLU_041647_0_0_6; -.
+DR   OMA; CNPGSSF; -.
+DR   OrthoDB; 785930at2; -.
+DR   BioCyc; SDEN318161:G1G6C-84-MONOMER; -.
+DR   UniPathway; UPA00379; UER00551.
+DR   Proteomes; UP000001982; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050480; F:imidazolonepropionase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019556; P:histidine catabolic process to glutamate and formamide; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019557; P:histidine catabolic process to glutamate and formate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01296; Imidazolone-5PH; 1.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_00372; HutI; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR005920; HutI.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   PANTHER; PTHR42752; PTHR42752; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; SSF51338; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01224; hutI; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Histidine metabolism; Hydrolase; Iron; Metal-binding;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..414
+FT                   /note="Imidazolonepropionase"
+FT                   /id="PRO_0000306507"
+FT   METAL           73
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           75
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           249
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           324
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         82
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         95
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         145
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         178
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         252
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+SQ   SEQUENCE   414 AA;  44638 MW;  5868750624AB732E CRC64;
+     MSWDQVWIDI NIATMDANIG EPYGAITQAA MAVKDGKIAW LGPRSELPEF DVLATPVYRG
+     KGNWVTPGLI DAHTHLVFAG SRANEFELRL KGASYEEIAR AGGGIISTVK ACREADEAEL
+     FELGRQRLNA LAKEGVTTVE IKSGYGLDIE TELKLLRVAR ELGKHHHVDI KTTFLGAHAI
+     PSEYKDAANS TERSDAYVDL VVNEMLPAVM AENLADAVDV FCEGIAFNLA QTKRVFTAAK
+     QAGLDIKLHA EQLSNIGGSQ LAAQMGALSV DHIEYLDEAG VKALSESGTC AVLLPGAFYF
+     LRETKLPPID LLRQYKVPMV VASDYNPGSS PICSSLLMLN MACTLFRLTP EEALAGMTVN
+     AAKALGIGDN VGHLAVGMQA DFCLWNISSA AELAYSYGVD RLIDVVKTGK LVHQ
+//

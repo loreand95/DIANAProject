@@ -1,0 +1,114 @@
+ID   QCRA_MYCTO              Reviewed;         429 AA.
+AC   P9WH22; L0TBK9; Q10387;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   10-FEB-2021, entry version 36.
+DE   RecName: Full=Cytochrome bc1 complex Rieske iron-sulfur subunit;
+DE   AltName: Full=Cytochrome bc1 reductase complex subunit QcrA;
+DE   AltName: Full=Rieske iron-sulfur protein;
+DE   AltName: Full=Ubiquinol--cytochrome c reductase iron-sulfur subunit;
+GN   Name=qcrA; OrderedLocusNames=MT2251;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Iron-sulfur subunit of the cytochrome bc1 complex, an
+CC       essential component of the respiratory electron transport chain
+CC       required for ATP synthesis. The bc1 complex catalyzes the oxidation of
+CC       menaquinol and the reduction of cytochrome c in the respiratory chain.
+CC       The bc1 complex operates through a Q-cycle mechanism that couples
+CC       electron transfer to generation of the proton gradient that drives ATP
+CC       synthesis. {ECO:0000250|UniProtKB:P9WH23}.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00628};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00628};
+CC   -!- SUBUNIT: The cytochrome bc1 complex is composed of a cytochrome b
+CC       (QcrB), the Rieske iron-sulfur protein (QcrA) and a diheme cytochrome c
+CC       (QcrC) subunit. {ECO:0000250|UniProtKB:P9WH23}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the Rieske iron-sulfur protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK46537.1; -; Genomic_DNA.
+DR   PIR; D70784; D70784.
+DR   RefSeq; WP_003411396.1; NZ_KK341227.1.
+DR   EnsemblBacteria; AAK46537; AAK46537; MT2251.
+DR   KEGG; mtc:MT2251; -.
+DR   PATRIC; fig|83331.31.peg.2426; -.
+DR   HOGENOM; CLU_050668_0_0_11; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070469; C:respirasome; IEA:UniProtKB-KW.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 2.102.10.10; -; 1.
+DR   InterPro; IPR017941; Rieske_2Fe-2S.
+DR   InterPro; IPR036922; Rieske_2Fe-2S_sf.
+DR   InterPro; IPR014349; Rieske_Fe-S_prot.
+DR   PANTHER; PTHR10134; PTHR10134; 1.
+DR   Pfam; PF00355; Rieske; 1.
+DR   SUPFAM; SSF50022; SSF50022; 1.
+DR   PROSITE; PS51296; RIESKE; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Cell membrane; Disulfide bond; Electron transport; Iron;
+KW   Iron-sulfur; Membrane; Metal-binding; Oxidoreductase; Respiratory chain;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..429
+FT                   /note="Cytochrome bc1 complex Rieske iron-sulfur subunit"
+FT                   /id="PRO_0000428262"
+FT   TRANSMEM        96..116
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        137..157
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        207..227
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          316..410
+FT                   /note="Rieske"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           353
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           355
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           372
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           375
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   DISULFID        358..374
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+SQ   SEQUENCE   429 AA;  46923 MW;  C22C87EC283FE0EE CRC64;
+     MSRADDDAVG VPPTCGGRSD EEERRIVPGP NPQDGAKDGA KATAVPREPD EAALAAMSNQ
+     ELLALGGKLD GVRIAYKEPR WPVEGTKAEK RAERSVAVWL LLGGVFGLAL LLIFLFWPWE
+     FKAADGESDF IYSLTTPLYG LTFGLSILSI AIGAVLYQKR FIPEEISIQE RHDGASREID
+     RKTVVANLTD AFEGSTIRRR KLIGLSFGVG MGAFGLGTLV AFAGGLIKNP WKPVVPTAEG
+     KKAVLWTSGW TPRYQGETIY LARATGTEDG PPFIKMRPED MDAGGMETVF PWRESDGDGT
+     TVESHHKLQE IAMGIRNPVM LIRIKPSDLG RVVKRKGQES FNFGEFFAFT KVCSHLGCPS
+     SLYEQQSYRI LCPCHQSQFD ALHFAKPIFG PAARALAQLP ITIDTDGYLV ANGDFVEPVG
+     PAFWERTTT
+//

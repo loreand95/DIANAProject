@@ -1,0 +1,85 @@
+ID   SYP_RICPU               Reviewed;         426 AA.
+AC   C4K2D7;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 1.
+DT   10-FEB-2021, entry version 64.
+DE   RecName: Full=Proline--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_01570};
+DE            EC=6.1.1.15 {ECO:0000255|HAMAP-Rule:MF_01570};
+DE   AltName: Full=Prolyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_01570};
+DE            Short=ProRS {ECO:0000255|HAMAP-Rule:MF_01570};
+GN   Name=proS {ECO:0000255|HAMAP-Rule:MF_01570}; OrderedLocusNames=RPR_05895;
+OS   Rickettsia peacockii (strain Rustic).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=562019;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Rustic;
+RX   PubMed=20027221; DOI=10.1371/journal.pone.0008361;
+RA   Felsheim R.F., Kurtti T.J., Munderloh U.G.;
+RT   "Genome sequence of the endosymbiont Rickettsia peacockii and comparison
+RT   with virulent Rickettsia rickettsii: identification of virulence factors.";
+RL   PLoS ONE 4:E8361-E8361(2009).
+CC   -!- FUNCTION: Catalyzes the attachment of proline to tRNA(Pro) in a two-
+CC       step reaction: proline is first activated by ATP to form Pro-AMP and
+CC       then transferred to the acceptor end of tRNA(Pro). {ECO:0000255|HAMAP-
+CC       Rule:MF_01570}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-proline + tRNA(Pro) = AMP + diphosphate + L-prolyl-
+CC         tRNA(Pro); Xref=Rhea:RHEA:14305, Rhea:RHEA-COMP:9700, Rhea:RHEA-
+CC         COMP:9702, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78532, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.15; Evidence={ECO:0000255|HAMAP-Rule:MF_01570};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01570}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01570}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       ProS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_01570}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001227; ACR47734.1; -; Genomic_DNA.
+DR   SMR; C4K2D7; -.
+DR   EnsemblBacteria; ACR47734; ACR47734; RPR_05895.
+DR   KEGG; rpk:RPR_05895; -.
+DR   HOGENOM; CLU_016739_4_2_5; -.
+DR   OMA; QESGRWD; -.
+DR   Proteomes; UP000005015; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004827; F:proline-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006433; P:prolyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00861; ProRS_anticodon_short; 1.
+DR   CDD; cd00779; ProRS_core_prok; 1.
+DR   Gene3D; 3.40.50.800; -; 1.
+DR   HAMAP; MF_01570; Pro_tRNA_synth_type2; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR002316; Pro-tRNA-ligase_IIa.
+DR   InterPro; IPR004500; Pro-tRNA-synth_IIa_bac-type.
+DR   InterPro; IPR023716; Prolyl-tRNA_ligase_IIa_type2.
+DR   InterPro; IPR044140; ProRS_anticodon_short.
+DR   InterPro; IPR033730; ProRS_core_prok.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PRINTS; PR01046; TRNASYNTHPRO.
+DR   TIGRFAMs; TIGR00409; proS_fam_II; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..426
+FT                   /note="Proline--tRNA ligase"
+FT                   /id="PRO_1000215542"
+SQ   SEQUENCE   426 AA;  48386 MW;  F2548D56E1006CB5 CRC64;
+     MLLSKYFLPV LKEEPSEAQV TSHKLMLRSG MIRQQAAGIY TWLPLGLKVL KNIENIVRLN
+     MNKAGALEVL MPCIQPAHLW MESGRFDNYG KEMLKFQDRH DNTLLFGPTN EDMITDIFRH
+     NIKSYKDLPK NLYHIQWKFR DEIRPRFGVM RGREFLMKDA YSFDINEENA VKTYNQMYKA
+     YINAFRDLGV FAIPVIADNG PIGGNLSHEF HIIAETGEST IYYDKKFKTL KDNPDIDVEE
+     IKSWYAAAEE KYEVNKLPIS EQEITSSKGI EVGHIFYIGS KYSVNMNALI NDEYGKLTPI
+     EMSSYGIGIS RLVAAIIEAN CDEKGIIWPS SVAPFKVSLI NLNIHDSKCV ELAEMAYKEL
+     SDKNIEVLYD DTEARPGSKF ATHDLIGSPH QIIIGPKKAA NNIVALKDRK SGVIEDIEVG
+     SLMSVL
+//

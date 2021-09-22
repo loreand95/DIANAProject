@@ -1,0 +1,127 @@
+ID   NDK_EHRRW               Reviewed;         143 AA.
+AC   Q5HA25; Q5FEV0;
+DT   13-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=Nucleoside diphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            Short=NDK {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            Short=NDP kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+DE            EC=2.7.4.6 {ECO:0000255|HAMAP-Rule:MF_00451};
+DE   AltName: Full=Nucleoside-2-P kinase {ECO:0000255|HAMAP-Rule:MF_00451};
+GN   Name=ndk {ECO:0000255|HAMAP-Rule:MF_00451};
+GN   OrderedLocusNames=Erum8570, ERWE_CDS_09080;
+OS   Ehrlichia ruminantium (strain Welgevonden).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Anaplasmataceae; Ehrlichia.
+OX   NCBI_TaxID=254945;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Welgevonden;
+RX   PubMed=15637156; DOI=10.1073/pnas.0406633102;
+RA   Collins N.E., Liebenberg J., de Villiers E.P., Brayton K.A., Louw E.,
+RA   Pretorius A., Faber F.E., van Heerden H., Josemans A., van Kleef M.,
+RA   Steyn H.C., van Strijp M.F., Zweygarth E., Jongejan F., Maillard J.C.,
+RA   Berthier D., Botha M., Joubert F., Corton C.H., Thomson N.R., Allsopp M.T.,
+RA   Allsopp B.A.;
+RT   "The genome of the heartwater agent Ehrlichia ruminantium contains multiple
+RT   tandem repeats of actively variable copy number.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:838-843(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Welgevonden;
+RX   PubMed=16547041; DOI=10.1128/jb.188.7.2533-2542.2006;
+RA   Frutos R., Viari A., Ferraz C., Morgat A., Eychenie S., Kandassamy Y.,
+RA   Chantal I., Bensaid A., Coissac E., Vachiery N., Demaille J., Martinez D.;
+RT   "Comparative genomic analysis of three strains of Ehrlichia ruminantium
+RT   reveals an active process of genome size plasticity.";
+RL   J. Bacteriol. 188:2533-2542(2006).
+CC   -!- FUNCTION: Major role in the synthesis of nucleoside triphosphates other
+CC       than ATP. The ATP gamma phosphate is transferred to the NDP beta
+CC       phosphate via a ping-pong mechanism, using a phosphorylated active-site
+CC       intermediate. {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-diphosphate + ATP = a 2'-
+CC         deoxyribonucleoside 5'-triphosphate + ADP; Xref=Rhea:RHEA:44640,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61560, ChEBI:CHEBI:73316,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00451};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-diphosphate + ATP = a ribonucleoside 5'-
+CC         triphosphate + ADP; Xref=Rhea:RHEA:18113, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:61557, ChEBI:CHEBI:456216; EC=2.7.4.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00451};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00451};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00451}.
+CC   -!- SIMILARITY: Belongs to the NDK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00451}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR767821; CAH58592.1; -; Genomic_DNA.
+DR   EMBL; CR925678; CAI27402.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155535.1; NC_006832.1.
+DR   SMR; Q5HA25; -.
+DR   STRING; 254945.Erum8570; -.
+DR   EnsemblBacteria; CAI27402; CAI27402; ERWE_CDS_09080.
+DR   GeneID; 56785635; -.
+DR   KEGG; eru:Erum8570; -.
+DR   KEGG; erw:ERWE_CDS_09080; -.
+DR   eggNOG; COG0105; Bacteria.
+DR   HOGENOM; CLU_060216_8_1_5; -.
+DR   OMA; KIVAMKM; -.
+DR   BioCyc; ERUM254945:ERUM_RS04625-MONOMER; -.
+DR   Proteomes; UP000001021; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004550; F:nucleoside diphosphate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006241; P:CTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006183; P:GTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006228; P:UTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.70.141; -; 1.
+DR   HAMAP; MF_00451; NDP_kinase; 1.
+DR   InterPro; IPR034907; NDK-like_dom.
+DR   InterPro; IPR036850; NDK-like_dom_sf.
+DR   InterPro; IPR001564; Nucleoside_diP_kinase.
+DR   InterPro; IPR023005; Nucleoside_diP_kinase_AS.
+DR   Pfam; PF00334; NDK; 1.
+DR   PRINTS; PR01243; NUCDPKINASE.
+DR   SMART; SM00562; NDK; 1.
+DR   SUPFAM; SSF54919; SSF54919; 1.
+DR   PROSITE; PS00469; NDP_KINASES; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide metabolism; Nucleotide-binding; Phosphoprotein; Transferase.
+FT   CHAIN           1..143
+FT                   /note="Nucleoside diphosphate kinase"
+FT                   /id="PRO_0000136982"
+FT   ACT_SITE        116
+FT                   /note="Pros-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         10
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         58
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         86
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         103
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+FT   BINDING         113
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00451"
+SQ   SEQUENCE   143 AA;  16259 MW;  BE41EA8F1E94E608 CRC64;
+     MLERTLSILK PDVVKRNIAG QVNSYIENSG LKIIIQKMCL LTRYQAEKFY EIHKSQVFFV
+     PLINFMISGP VVVQVLEGEN AISLYREIMG ATDPKKANSG TIRGDFAENI DANCVHGSDS
+     LENAIREIRF FFSEYELLSL YEC
+//

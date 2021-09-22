@@ -1,0 +1,160 @@
+ID   GALE_SALTY              Reviewed;         338 AA.
+AC   P22715;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 2.
+DT   02-DEC-2020, entry version 126.
+DE   RecName: Full=UDP-glucose 4-epimerase;
+DE            EC=5.1.3.2;
+DE   AltName: Full=Galactowaldenase;
+DE   AltName: Full=UDP-galactose 4-epimerase;
+GN   Name=galE; OrderedLocusNames=STM0776;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2198256; DOI=10.1128/jb.172.8.4392-4398.1990;
+RA   Houng H.S.H., Kopecko D.J., Baron L.S.;
+RT   "Molecular cloning and physical and functional characterization of the
+RT   Salmonella typhimurium and Salmonella typhi galactose utilization
+RT   operons.";
+RL   J. Bacteriol. 172:4392-4398(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Involved in the metabolism of galactose. Catalyzes the
+CC       conversion of UDP-galactose (UDP-Gal) to UDP-glucose (UDP-Glc) through
+CC       a mechanism involving the transient reduction of NAD (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=UDP-alpha-D-glucose = UDP-alpha-D-galactose;
+CC         Xref=Rhea:RHEA:22168, ChEBI:CHEBI:58885, ChEBI:CHEBI:66914;
+CC         EC=5.1.3.2;
+CC   -!- COFACTOR:
+CC       Name=NAD(+); Xref=ChEBI:CHEBI:57540; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Carbohydrate metabolism; galactose metabolism.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the NAD(P)-dependent epimerase/dehydratase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33681; AAA27111.1; -; Genomic_DNA.
+DR   EMBL; AE006468; AAL19714.1; -; Genomic_DNA.
+DR   PIR; A37760; A37760.
+DR   RefSeq; NP_459755.1; NC_003197.2.
+DR   RefSeq; WP_001265465.1; NC_003197.2.
+DR   SMR; P22715; -.
+DR   PaxDb; P22715; -.
+DR   EnsemblBacteria; AAL19714; AAL19714; STM0776.
+DR   GeneID; 1252296; -.
+DR   KEGG; stm:STM0776; -.
+DR   PATRIC; fig|99287.12.peg.809; -.
+DR   HOGENOM; CLU_007383_1_10_6; -.
+DR   OMA; GEHLICN; -.
+DR   PhylomeDB; P22715; -.
+DR   UniPathway; UPA00214; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0003978; F:UDP-glucose 4-epimerase activity; IBA:GO_Central.
+DR   GO; GO:0033499; P:galactose catabolic process via UDP-galactose; IBA:GO_Central.
+DR   CDD; cd05247; UDP_G4E_1_SDR_e; 1.
+DR   InterPro; IPR016040; NAD(P)-bd_dom.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR005886; UDP_G4E.
+DR   Pfam; PF16363; GDP_Man_Dehyd; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR01179; galE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Galactose metabolism; Isomerase; NAD;
+KW   Reference proteome.
+FT   CHAIN           1..338
+FT                   /note="UDP-glucose 4-epimerase"
+FT                   /id="PRO_0000183218"
+FT   NP_BIND         11..12
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         31..36
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         58..59
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         80..84
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   REGION          199..200
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          216..218
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          292..295
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        149
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         99
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         124
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         124
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         149
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         149
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         153
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         178
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         179
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         231
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         299
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        88
+FT                   /note="E -> N (in Ref. 1; AAA27111)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        144
+FT                   /note="T -> A (in Ref. 1; AAA27111)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        149
+FT                   /note="Y -> T (in Ref. 1; AAA27111)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        292
+FT                   /note="Missing (in Ref. 1; AAA27111)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        335
+FT                   /note="G -> A (in Ref. 1; AAA27111)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   338 AA;  37134 MW;  5F27201F0B3D5E65 CRC64;
+     MRVLVTGGSG YIGSHTCVQL LQNGHDVVIL DNLCNSKRSV LPVIERLGGK HPTFVEGDIR
+     NEALITEILH DHAIDTVIHF AGLKAVGESV ARPLEYYDNN VNGTLRLVSA MRAANVKNLI
+     FSSSATVYGD QPKIPYVESF PTGTPQSPYG KSKLMVEQIL TDLQKAQPEW SIALLRYFNP
+     VGAHPSGDMG EDPQGIPNNL MPYIAQVAVG RRESLAVFGN DYPTEDGTGV RDYIHVMDLA
+     DGHVVAMEKL ADKSGVHIYN LGAGVGSSVL DVVNAFSKAC GKPINYHFAP RRDGDLPAYW
+     ADASKADREL NWRVTRTLDE MAQDTWHWQS RHPQGYPD
+//

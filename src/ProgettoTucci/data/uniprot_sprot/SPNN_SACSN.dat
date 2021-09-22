@@ -1,0 +1,109 @@
+ID   SPNN_SACSN              Reviewed;         332 AA.
+AC   Q9ALN5;
+DT   23-MAY-2018, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-DEC-2020, entry version 55.
+DE   RecName: Full=dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose 3-reductase {ECO:0000303|PubMed:18345667};
+DE            EC=1.1.1.384 {ECO:0000269|PubMed:18345667};
+DE   AltName: Full=dTDP-3,4-diketo-2,6-dideoxy-D-glucose 3-ketoreductase {ECO:0000303|PubMed:18345667};
+GN   Name=spnN {ECO:0000303|PubMed:11358695};
+OS   Saccharopolyspora spinosa.
+OC   Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;
+OC   Saccharopolyspora.
+OX   NCBI_TaxID=60894;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=11358695; DOI=10.1016/s1074-5521(01)00029-1;
+RA   Waldron C., Matsushima P., Rosteck P.R. Jr., Broughton M.C., Turner J.,
+RA   Madduri K., Crawford K.P., Merlo D.J., Baltz R.H.;
+RT   "Cloning and analysis of the spinosad biosynthetic gene cluster of
+RT   Saccharopolyspora spinosa.";
+RL   Chem. Biol. 8:487-499(2001).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBSTRATE SPECIFICITY, AND SUBUNIT.
+RC   STRAIN=NRRL 18537;
+RX   PubMed=18345667; DOI=10.1021/ja0771383;
+RA   Hong L., Zhao Z., Melancon C.E. III, Zhang H., Liu H.W.;
+RT   "In vitro characterization of the enzymes involved in TDP-D-forosamine
+RT   biosynthesis in the spinosyn pathway of Saccharopolyspora spinosa.";
+RL   J. Am. Chem. Soc. 130:4954-4967(2008).
+CC   -!- FUNCTION: Involved in the biosynthesis of forosamine ((4-
+CC       dimethylamino)-2,3,4,6-tetradeoxy-alpha-D-threo-hexopyranose), a highly
+CC       deoxygenated sugar component of several bioactive natural products such
+CC       as the insecticidal spinosyns A and D (PubMed:11358695,
+CC       PubMed:18345667). Catalyzes the reduction of the C-3 keto moiety of
+CC       dTDP-3,4-diketo-2,6-dideoxy-alpha-D-glucose to yield dTDP-4-keto-2,6-
+CC       dideoxy-alpha-D-glucose (PubMed:18345667). NADPH is the better
+CC       reductant, however NADH can also be used (PubMed:18345667).
+CC       {ECO:0000269|PubMed:11358695, ECO:0000269|PubMed:18345667}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dTDP-4-dehydro-2,6-dideoxy-alpha-D-glucose + NADP(+) = dTDP-
+CC         3,4-didehydro-2,6-dideoxy-alpha-D-glucose + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:44624, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:84537, ChEBI:CHEBI:84540;
+CC         EC=1.1.1.384; Evidence={ECO:0000269|PubMed:18345667};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:18345667}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene accumulate the
+CC       pseudoaglycone (PSA) containing tri-O-methyl rhamnose, but lacking the
+CC       dimethylamino sugar forosamine. {ECO:0000269|PubMed:11358695}.
+CC   -!- SIMILARITY: Belongs to the Gfo/Idh/MocA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY007564; AAG23275.1; -; Genomic_DNA.
+DR   SMR; Q9ALN5; -.
+DR   KEGG; ag:AAG23275; -.
+DR   BioCyc; MetaCyc:MONOMER-16620; -.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR000683; Oxidoreductase_N.
+DR   Pfam; PF01408; GFO_IDH_MocA; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+PE   1: Evidence at protein level;
+KW   NADP; Oxidoreductase.
+FT   CHAIN           1..332
+FT                   /note="dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose 3-
+FT                   reductase"
+FT                   /id="PRO_0000444243"
+FT   NP_BIND         12..18
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   NP_BIND         37..38
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   ACT_SITE        97
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         19
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         58
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         74
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         79
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         165
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         177
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         235
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+FT   BINDING         255
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:B3TMR8"
+SQ   SEQUENCE   332 AA;  36133 MW;  A3A9F3561461ABCE CRC64;
+     MRKPVRIGVL GCASFAWRRM LPAMCDVAET EVVAVASRDP AKAERFAARF ECEAVLGYQR
+     LLERPDIDAV YVPLPPGMHA EWIGKALEAD KHVLAEKPLT TTASDTARLV GLARRKNLLL
+     RENYLFLHHG RHDVVRDLLQ SGEIGELREF TAVFGIPPLP DTDIRYRTEL GGGALLDIGV
+     YPARAARHFL LGPLTVLGAS SHEAQESGVD LSGSVLLQSE GGTVAHLGYG FVHHYRSAYE
+     LWGSRGRIVV DRAFTPPAEW QAVIRIERKG VVDELSLPAE DQVRKAVTAF ARDIRAGTGV
+     DDPAVAGDSG ESMIQQAALV EAIGQARRCG ST
+//

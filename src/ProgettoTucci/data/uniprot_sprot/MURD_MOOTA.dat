@@ -1,0 +1,102 @@
+ID   MURD_MOOTA              Reviewed;         455 AA.
+AC   Q2RK81;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 105.
+DE   RecName: Full=UDP-N-acetylmuramoylalanine--D-glutamate ligase {ECO:0000255|HAMAP-Rule:MF_00639};
+DE            EC=6.3.2.9 {ECO:0000255|HAMAP-Rule:MF_00639};
+DE   AltName: Full=D-glutamic acid-adding enzyme {ECO:0000255|HAMAP-Rule:MF_00639};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase {ECO:0000255|HAMAP-Rule:MF_00639};
+GN   Name=murD {ECO:0000255|HAMAP-Rule:MF_00639}; OrderedLocusNames=Moth_0841;
+OS   Moorella thermoacetica (strain ATCC 39073 / JCM 9320).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+OC   Thermoanaerobacteraceae; Moorella group; Moorella.
+OX   NCBI_TaxID=264732;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39073 / JCM 9320;
+RX   PubMed=18631365; DOI=10.1111/j.1462-2920.2008.01679.x;
+RA   Pierce E., Xie G., Barabote R.D., Saunders E., Han C.S., Detter J.C.,
+RA   Richardson P., Brettin T.S., Das A., Ljungdahl L.G., Ragsdale S.W.;
+RT   "The complete genome sequence of Moorella thermoacetica (f. Clostridium
+RT   thermoaceticum).";
+RL   Environ. Microbiol. 10:2550-2573(2008).
+CC   -!- FUNCTION: Cell wall formation. Catalyzes the addition of glutamate to
+CC       the nucleotide precursor UDP-N-acetylmuramoyl-L-alanine (UMA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00639}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-glutamate + UDP-N-acetyl-alpha-D-muramoyl-L-alanine =
+CC         ADP + H(+) + phosphate + UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-
+CC         glutamate; Xref=Rhea:RHEA:16429, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29986, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:83900, ChEBI:CHEBI:456216; EC=6.3.2.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00639};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00639}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00639}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00639}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000232; ABC19158.1; -; Genomic_DNA.
+DR   RefSeq; WP_011392360.1; NC_007644.1.
+DR   RefSeq; YP_429701.1; NC_007644.1.
+DR   SMR; Q2RK81; -.
+DR   STRING; 264732.Moth_0841; -.
+DR   EnsemblBacteria; ABC19158; ABC19158; Moth_0841.
+DR   GeneID; 45616873; -.
+DR   KEGG; mta:Moth_0841; -.
+DR   PATRIC; fig|264732.11.peg.903; -.
+DR   eggNOG; COG0771; Bacteria.
+DR   HOGENOM; CLU_032540_0_0_9; -.
+DR   OMA; ACASYDQ; -.
+DR   BioCyc; MTHE264732:G1G5J-876-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000007053; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004326; F:tetrahydrofolylpolyglutamate synthase activity; IEA:InterPro.
+DR   GO; GO:0008764; F:UDP-N-acetylmuramoylalanine-D-glutamate ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_00639; MurD; 1.
+DR   InterPro; IPR007698; AlaDH/PNT_NAD(H)-bd.
+DR   InterPro; IPR018109; Folylpolyglutamate_synth_CS.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR005762; MurD.
+DR   Pfam; PF01262; AlaDh_PNT_C; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   TIGRFAMs; TIGR01087; murD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..455
+FT                   /note="UDP-N-acetylmuramoylalanine--D-glutamate ligase"
+FT                   /id="PRO_0000257204"
+FT   NP_BIND         115..121
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00639"
+SQ   SEQUENCE   455 AA;  48687 MW;  0D9A94538776AFE7 CRC64;
+     MSWQGKSVLV VGLGRSGRAA ATELARLGAK VTACDRQALA EEELENLRKE GVHLILGGYP
+     EVNELQPDLV ITSPGVPSGE PPLARARARG IPVWSELELA YRLLPPGVKV VAITGTNGKT
+     TTTSLCGRIL QEAGWPAVVG GNIGIPLVKE LQEIAPGSYV VCEVSSFQLE AITSFHPQVA
+     AILNITPDHL DRHGSLENYI AAKARVMAYQ EARDFAILNY DDPHTRSLAG GARSRVLFFS
+     RRERPPLGAW LEDGVICCDL GAGGTVKLCH CEELSLKGSH NLENSMAAAL VALALGVDPE
+     QLTRTLKTFP AVPHRLEPVA EINGVCYIND SKGTNPEATM KAINAYSNPL VLIAGGRNKG
+     SDFTLLAQQM AGRVKHLVLV GEAARELEQA ARKAGIDSIY LAPDFASAVR EAAGAARPGD
+     IVMLSPACAS WDMFKNYEER GDVFKSLVLQ MKDDG
+//

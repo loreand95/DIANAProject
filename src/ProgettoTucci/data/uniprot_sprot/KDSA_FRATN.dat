@@ -1,0 +1,83 @@
+ID   KDSA_FRATN              Reviewed;         275 AA.
+AC   A0Q5J1;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 83.
+DE   RecName: Full=2-dehydro-3-deoxyphosphooctonate aldolase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            EC=2.5.1.55 {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=3-deoxy-D-manno-octulosonic acid 8-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=KDO-8-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            Short=KDO 8-P synthase {ECO:0000255|HAMAP-Rule:MF_00056};
+DE            Short=KDOPS {ECO:0000255|HAMAP-Rule:MF_00056};
+DE   AltName: Full=Phospho-2-dehydro-3-deoxyoctonate aldolase {ECO:0000255|HAMAP-Rule:MF_00056};
+GN   Name=kdsA {ECO:0000255|HAMAP-Rule:MF_00056}; OrderedLocusNames=FTN_0611;
+OS   Francisella tularensis subsp. novicida (strain U112).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=401614;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=U112;
+RX   PubMed=17550600; DOI=10.1186/gb-2007-8-6-r102;
+RA   Rohmer L., Fong C., Abmayr S., Wasnick M., Larson Freeman T.J., Radey M.,
+RA   Guina T., Svensson K., Hayden H.S., Jacobs M., Gallagher L.A., Manoil C.,
+RA   Ernst R.K., Drees B., Buckley D., Haugen E., Bovee D., Zhou Y., Chang J.,
+RA   Levy R., Lim R., Gillett W., Guenthener D., Kang A., Shaffer S.A.,
+RA   Taylor G., Chen J., Gallis B., D'Argenio D.A., Forsman M., Olson M.V.,
+RA   Goodlett D.R., Kaul R., Miller S.I., Brittnacher M.J.;
+RT   "Comparison of Francisella tularensis genomes reveals evolutionary events
+RT   associated with the emergence of human pathogenic strains.";
+RL   Genome Biol. 8:R102.1-R102.16(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-arabinose 5-phosphate + H2O + phosphoenolpyruvate = 3-deoxy-
+CC         alpha-D-manno-2-octulosonate-8-phosphate + phosphate;
+CC         Xref=Rhea:RHEA:14053, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57693, ChEBI:CHEBI:58702, ChEBI:CHEBI:85985; EC=2.5.1.55;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00056};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; 3-deoxy-D-manno-octulosonate
+CC       biosynthesis; 3-deoxy-D-manno-octulosonate from D-ribulose 5-phosphate:
+CC       step 2/3. {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; lipopolysaccharide
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00056}.
+CC   -!- SIMILARITY: Belongs to the KdsA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00056}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000439; ABK89506.1; -; Genomic_DNA.
+DR   RefSeq; WP_003038670.1; NC_008601.1.
+DR   SMR; A0Q5J1; -.
+DR   PRIDE; A0Q5J1; -.
+DR   EnsemblBacteria; ABK89506; ABK89506; FTN_0611.
+DR   KEGG; ftn:FTN_0611; -.
+DR   OMA; FRGIPTM; -.
+DR   OrthoDB; 687380at2; -.
+DR   BioCyc; FTUL401614:G1G75-636-MONOMER; -.
+DR   UniPathway; UPA00030; -.
+DR   UniPathway; UPA00357; UER00474.
+DR   Proteomes; UP000000762; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008676; F:3-deoxy-8-phosphooctulonate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019294; P:keto-3-deoxy-D-manno-octulosonic acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00056; KDO8P_synth; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006218; DAHP1/KDSA.
+DR   InterPro; IPR006269; KDO8P_synthase.
+DR   PANTHER; PTHR21057; PTHR21057; 1.
+DR   Pfam; PF00793; DAHP_synth_1; 1.
+DR   TIGRFAMs; TIGR01362; KDO8P_synth; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Lipopolysaccharide biosynthesis; Transferase.
+FT   CHAIN           1..275
+FT                   /note="2-dehydro-3-deoxyphosphooctonate aldolase"
+FT                   /id="PRO_1000117782"
+SQ   SEQUENCE   275 AA;  30134 MW;  FCA899BE04CFD001 CRC64;
+     MKIANFEVGN GKPFFLMSGP CVIESEQMAM DTAGYLAEVT RDLGINFVYK SSFDKANRSS
+     INSFRGLGVD KGLEILAKVK KTYNVPVVTD VHEDTPFAEV AEVVDVLQTP AFLCRQTNFI
+     LEVCKQGKPV NIKKGQFLAP WDMQHVVTKA KSTGNEQIMV CERGVSFGYN NLVSDMRSLE
+     IMKATGCPVV FDATHSVQLP GGQGSSSGGQ REFVPVLSKA AMAVGIDGLF METHPNPDEA
+     KSDGPNSFPM YKIKEFLSLL KELDHLVKSQ PKTEL
+//

@@ -1,0 +1,97 @@
+ID   MIAA_SULSY              Reviewed;         307 AA.
+AC   B2VAE4;
+DT   16-JUN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   02-DEC-2020, entry version 79.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=SYO3AOP1_1307;
+OS   Sulfurihydrogenibium sp. (strain YO3AOP1).
+OC   Bacteria; Aquificae; Aquificales; Hydrogenothermaceae;
+OC   Sulfurihydrogenibium; unclassified Sulfurihydrogenibium.
+OX   NCBI_TaxID=436114;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YO3AOP1;
+RX   PubMed=19136599; DOI=10.1128/jb.01645-08;
+RA   Reysenbach A.-L., Hamamura N., Podar M., Griffiths E., Ferreira S.,
+RA   Hochstein R., Heidelberg J., Johnson J., Mead D., Pohorille A.,
+RA   Sarmiento M., Schweighofer K., Seshadri R., Voytek M.A.;
+RT   "Complete and draft genome sequences of six members of the Aquificales.";
+RL   J. Bacteriol. 191:1992-1993(2009).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate =
+CC         diphosphate + N(6)-dimethylallyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001080; ACD66917.1; -; Genomic_DNA.
+DR   RefSeq; WP_012459977.1; NC_010730.1.
+DR   SMR; B2VAE4; -.
+DR   STRING; 436114.SYO3AOP1_1307; -.
+DR   EnsemblBacteria; ACD66917; ACD66917; SYO3AOP1_1307.
+DR   KEGG; sul:SYO3AOP1_1307; -.
+DR   eggNOG; COG0324; Bacteria.
+DR   HOGENOM; CLU_032616_0_1_0; -.
+DR   OMA; YAKRQFT; -.
+DR   OrthoDB; 1069591at2; -.
+DR   BioCyc; SSP436114:G1GC2-1360-MONOMER; -.
+DR   Proteomes; UP000001201; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11088; PTHR11088; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Transferase; tRNA processing.
+FT   CHAIN           1..307
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_0000377340"
+FT   NP_BIND         6..13
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          8..13
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          31..34
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            97
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   307 AA;  35879 MW;  572974EB78A147F1 CRC64;
+     MIVIAGATAT GKTELCIKLA KLLDGEVISA DSMMVYKYMD IGTAKPSVEE REGIEHYVID
+     VVLPSQNYSV KDYIEDFDKA VQKIREKGKI PIVVGGTWLY IQGALYGLSD APESDWTLRE
+     KLYSLVNLEL YTQLQKVDPE YANKIHVNDK RRIVRALEVY YLTGKPFSFF INQHNFKSKR
+     YNFLGFILER DRQELMDRIE IRVEKMFEKG LVEEVKKLVD MGFKDSLTSM QAIGYKEILP
+     YLDKKISLED AKKCIIENTK DFAKRQIRTF RNKTDFEKIE ASKFEVNEML DYIYRKYNQE
+     VRDVSTR
+//

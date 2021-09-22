@@ -1,0 +1,91 @@
+ID   MCAPS_PLRVW             Reviewed;         716 AA.
+AC   P11626;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=Minor capsid protein P3-RTD;
+DE   AltName: Full=P74;
+DE   AltName: Full=Readthrough protein;
+DE            Short=RT protein;
+GN   ORFNames=ORF3/ORF5;
+OS   Potato leafroll virus (strain Potato/Netherlands/Wageningen/1989) (PLrV).
+OC   Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Tolucaviricetes;
+OC   Tolivirales; Luteoviridae; Polerovirus.
+OX   NCBI_TaxID=12048;
+OH   NCBI_TaxID=4113; Solanum tuberosum (Potato).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2466700; DOI=10.1016/0014-5793(89)80190-5;
+RA   van der Wilk F., Huisman M.J., Cornelissen B.J.C., Huttinga H.,
+RA   Goldbach R.W.;
+RT   "Nucleotide sequence and organization of potato leafroll virus genomic
+RT   RNA.";
+RL   FEBS Lett. 245:51-56(1989).
+CC   -!- FUNCTION: Minor component of the viral capsid involved in aphid
+CC       transmission. The RTD domain of the protein is exposed on the surface
+CC       of the particle and determines the vector specificity and intestinal
+CC       tropism in the aphid. This domain also determines the limitation to
+CC       host phloem (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Minor capsid protein P3-RTD]: Virion
+CC       {ECO:0000305}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative promoter usage; Named isoforms=2;
+CC       Name=1; Synonyms=Minor capsid protein P3/P5;
+CC         IsoId=P11626-1; Sequence=Displayed;
+CC       Name=2; Synonyms=P7;
+CC         IsoId=P11626-2; Sequence=VSP_038674;
+CC   -!- MISCELLANEOUS: This protein is translated as a fusion protein by
+CC       episodic readthrough of the major coat protein termination codon. It is
+CC       composed of the major capsid protein fused to a long C-terminal
+CC       extension called the readthrough domain (RTD). Readthrough of the
+CC       terminator codon TAG occurs between the codons for 208-Lys and 210-Val
+CC       (By similarity). {ECO:0000250}.
+CC   -!- MISCELLANEOUS: The N-terminal region like those of many plant virus
+CC       capsid proteins is highly basic. It has been suggested that these
+CC       regions may be involved in protein-RNA interaction.
+CC   -!- SIMILARITY: Belongs to the luteoviruses readthrough protein family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA68799.1; Type=Miscellaneous discrepancy; Note=Readthrough of an in-frame TAG stop codon in position 209 translated as Tyr.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y07496; CAA68799.1; ALT_SEQ; Genomic_RNA.
+DR   PIR; S03551; S03551.
+DR   SMR; P11626; -.
+DR   Proteomes; UP000000474; Genome.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   InterPro; IPR001517; Luteo_coat.
+DR   InterPro; IPR002929; PLrV_ORF5.
+DR   Pfam; PF00894; Luteo_coat; 1.
+DR   Pfam; PF01690; PLRV_ORF5; 1.
+PE   3: Inferred from homology;
+KW   Alternative promoter usage; Capsid protein; RNA suppression of termination;
+KW   Virion.
+FT   CHAIN           1..716
+FT                   /note="Minor capsid protein P3-RTD"
+FT                   /id="PRO_0000222430"
+FT   REGION          210..716
+FT                   /note="Readthrough domain (RTD)"
+FT   COMPBIAS        18..66
+FT                   /note="Arg-rich"
+FT   VAR_SEQ         1..591
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_038674"
+SQ   SEQUENCE   716 AA;  79759 MW;  BBD2F9374542CAB0 CRC64;
+     MSTVVVKGNV NGGVQQPRRR RRQSLRRRAN RVQPVVMVTA PGQPRRRRRR RGGNRRSRRT
+     GVPRGRGSSE TFVFTKDNLM GNSQGSFTFG PSLSDCPAFK DGILKAYHEY KITSILLQFV
+     SEASSTSSGS IAYELDPHCK VSSLQSYVNQ FQIPQGGAKT YQARMINGVE WHDSSEDQCR
+     ILWKGNGKSS DTAGSFRVTI RVALQNPKYD SGPEPGPSPQ PTPTPTPQKH ERFIAYVGIP
+     MLTIQARESD DQIILGSLGS QRMKYIEDEN QNYTNVSSEY YSQSSMQAVP MYYFNVPKGQ
+     WSVDISCEGY QPTSSTSDPN RGRSDGMIAY SNADSDYWNV GEADGVKISK LRNDNTYRQG
+     HPELEINSCH FREGQLLERD ATISFHVEAP TDGRFFLVGP AIQKTAKYNY TISYGDWTDR
+     DMELGLITVV LDEHLEGTGS ANRVRRPPRE GHTYMASPRE PEGKPVGNKP RDETPIQTQE
+     RQPDQTPSDD VSDAGSVNSG GSTESLQLEF GANSDSTYDA TVDGTDWPRI PPPRHPPEPR
+     VSGNSRTVTD FSPKADLLEN WDAKHFDPGY SKEDVAAATI IAHGSIQDGR SMLEKREENV
+     KNKTSSWKPP LPKAVSPAIA KLRSIRKSQP LEGGTLKKDA TDGVSSIGSG SLTGGTLKRK
+     ETIEERLLQT LTTEQRLWYE NLKKTNPLAA TQWLFEYQPP PQVDRNLAEK PFQGRK
+//

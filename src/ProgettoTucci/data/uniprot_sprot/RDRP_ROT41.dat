@@ -1,0 +1,113 @@
+ID   RDRP_ROT41              Reviewed;        1088 AA.
+AC   Q3ZK55;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 50.
+DE   RecName: Full=RNA-directed RNA polymerase;
+DE            EC=2.7.7.48;
+DE   AltName: Full=Protein VP1;
+OS   Rotavirus A (isolate RVA/Human/Belgium/B4106/2000/G3P11[14]) (RV-A)
+OS   (Rotavirus A (isolate B4106)).
+OC   Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes;
+OC   Reovirales; Reoviridae; Sedoreovirinae; Rotavirus; Rotavirus A.
+OX   NCBI_TaxID=578843;
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=16571797; DOI=10.1128/jvi.80.8.3801-3810.2006;
+RA   Matthijnssens J., Rahman M., Martella V., Xuelei Y., De Vos S.,
+RA   De Leener K., Ciarlet M., Buonavoglia C., Van Ranst M.;
+RT   "Full genomic analysis of human rotavirus strain B4106 and lapine rotavirus
+RT   strain 30/96 provides evidence for interspecies transmission.";
+RL   J. Virol. 80:3801-3810(2006).
+CC   -!- FUNCTION: RNA-directed RNA polymerase that is involved in both
+CC       transcription and genome replication. Together with VP3 capping enzyme,
+CC       forms an enzyme complex positioned near the channels situated at each
+CC       of the five-fold vertices of the core. Following infection, the
+CC       outermost layer of the virus is lost, leaving a double-layered particle
+CC       (DLP) made up of the core and VP6 shell. VP1 then catalyzes the
+CC       transcription of fully conservative plus-strand genomic RNAs that are
+CC       extruded through the DLP's channels into the cytoplasm where they
+CC       function as mRNAs for translation of viral proteins. One copy of each
+CC       of the viral (+)RNAs is also recruited during core assembly, together
+CC       with newly synthesized polymerase complexes and VP2. The polymerase of
+CC       these novo-formed particles catalyzes the synthesis of complementary
+CC       minus-strands leading to dsRNA formation. To do so, the polymerase
+CC       specifically recognizes and binds 4 bases 5'-UGUG-3' in the conserved
+CC       3'-sequence of plus-strand RNA templates. VP2 presumably activates the
+CC       autoinhibited VP1-RNA complex to coordinate packaging and genome
+CC       replication. Once dsRNA synthesis is complete, the polymerase switches
+CC       to the transcriptional mode, thus providing secondary transcription (By
+CC       similarity). {ECO:0000255|PROSITE-ProRule:PRU00539}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC   -!- SUBUNIT: Interacts with VP3 (Potential). Interacts with VP2; this
+CC       interaction activates VP1. Interacts with NSP5; this interaction is
+CC       probably necessary for the formation of functional virus factories.
+CC       Interacts with NSP2; this interaction is weak (By similarity).
+CC       {ECO:0000250, ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000305}. Note=Attached inside the
+CC       inner capsid as a minor component. Also found in spherical cytoplasmic
+CC       structures, called virus factories, that appear early after infection
+CC       and are the site of viral replication and packaging (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the reoviridae RNA-directed RNA polymerase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY740741; AAU43799.1; -; Genomic_RNA.
+DR   SMR; Q3ZK55; -.
+DR   Proteomes; UP000008655; Genome.
+DR   GO; GO:0019012; C:virion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0019079; P:viral genome replication; IEA:InterPro.
+DR   Gene3D; 1.10.10.1990; -; 2.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR042032; RNA-dir_pol_4-hel_dom.
+DR   InterPro; IPR001795; RNA-dir_pol_luteovirus.
+DR   InterPro; IPR007097; RNA-dir_pol_reovirus.
+DR   InterPro; IPR022071; Rotavirus_VP1_C.
+DR   Pfam; PF02123; RdRP_4; 1.
+DR   Pfam; PF12289; Rotavirus_VP1; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50523; RDRP_DSRNA_REO; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Nucleotide-binding; Nucleotidyltransferase; RNA-binding;
+KW   RNA-directed RNA polymerase; Transferase; Viral RNA replication; Virion.
+FT   CHAIN           1..1088
+FT                   /note="RNA-directed RNA polymerase"
+FT                   /id="PRO_0000368032"
+FT   DOMAIN          501..687
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+SQ   SEQUENCE   1088 AA;  125047 MW;  A98D24142D6B6B16 CRC64;
+     MGKYNLILSE YLSFIYNSQS AVQIPIYYSS NSELENRCIE FHSKCLENSK NGLSLKKLFT
+     EYSDVIENAT LLSILSYSYD KYNAVERKLV KYAKGKPLEA DLTVNELDYE NNKITSELFP
+     TAEEYTDSLM DPAILTSLSS NLNAVMFWLE KHENDVAEKL KIYKRRLDLF TIVASTVNKY
+     GVPRHNAKYR YDYEVMKDKP YYLVTWANSS IEMLMSVFSH EDYLIARELI VLSYSNRSTL
+     AKLVSSPMSI LVALVDINGT FITNEELELE FSNKYVRAIV PDQTFDELKQ MIDNMRKAGL
+     TDIPKMIQDW LVDCSIEKFP LMAKIYSWSF HVGFRKQKML DAALDQLKTE YTEDVDDEMY
+     REYTMLIRDE VVKMLEEPVK HDDHLLQDSE LAGLLSMSSA SNGESRQLKF GRKTIFSTKK
+     NMHVMDDMAN GRYTPGIIPP VNVDKPIPLG RRDVPGRRTR IIFILPYEYF IAQHAVVEKM
+     LIYAKHTREY AEFYSQSNQL LSYGDVTRFL SNNAMVLYTD VSQWDSSQHN TQPFRKGIIM
+     GLDMLANMTN DARVIQTLNL YKQTQINLMD SYVQIPDGNI IKKIQYGAVA SGEKQTKAAN
+     SIANLALIKT VLSRISNKHS FVTKIIRVDG DDNYAVLQFN TEVTKQMVQD VSNDVRETYA
+     RMNAKVKALV STVGIEIAKR YIAGGKIFFR AGINLLNNEK RGQSTQWDQA AVLYSNYIVN
+     RLRGFETDRE FILTKIMQMT SVAITGSLRL FPSERVLTTN STFKVFDSED FIIEYGTTDD
+     EVYIQRAFMS LSSQKSGIAD EIAASSTFKN YVSKLSEQLL SSKNNIVSRG IALTEKAKLN
+     SYAPISLEKR RAQISALLTM LQKPVTFKSS KITINDILRD IKPFFTVSEA YLPIQYQKFM
+     PTLPDNVQYI IQCIGSRTYQ IEDDGSKSAI SRLISKYSVY KPSIEELYKV ISLHENEIQL
+     YLISLGIPKI DADTYVGSKI YSQDKYRILE SYVYNLMSIN YGCYQLFDFN SPDLEKLIRI
+     PFKGKIPAVT FILHLYAKLE VINYAIKNGS WISLFCNYPK SEMIKLWKKM WNITSLRSPY
+     TNANFFQD
+//

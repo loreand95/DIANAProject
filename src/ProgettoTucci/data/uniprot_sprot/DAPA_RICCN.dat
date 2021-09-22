@@ -1,0 +1,113 @@
+ID   DAPA_RICCN              Reviewed;         294 AA.
+AC   Q92I25;
+DT   31-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   10-FEB-2021, entry version 104.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate synthase {ECO:0000255|HAMAP-Rule:MF_00418};
+DE            Short=HTPA synthase {ECO:0000255|HAMAP-Rule:MF_00418};
+DE            EC=4.3.3.7 {ECO:0000255|HAMAP-Rule:MF_00418};
+GN   Name=dapA {ECO:0000255|HAMAP-Rule:MF_00418}; OrderedLocusNames=RC0595;
+OS   Rickettsia conorii (strain ATCC VR-613 / Malish 7).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=272944;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-613 / Malish 7;
+RX   PubMed=11557893; DOI=10.1126/science.1061471;
+RA   Ogata H., Audic S., Renesto-Audiffren P., Fournier P.-E., Barbe V.,
+RA   Samson D., Roux V., Cossart P., Weissenbach J., Claverie J.-M., Raoult D.;
+RT   "Mechanisms of evolution in Rickettsia conorii and R. prowazekii.";
+RL   Science 293:2093-2098(2001).
+CC   -!- FUNCTION: Catalyzes the condensation of (S)-aspartate-beta-semialdehyde
+CC       [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00418}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-aspartate 4-semialdehyde + pyruvate = (2S,4S)-4-hydroxy-
+CC         2,3,4,5-tetrahydrodipicolinate + H(+) + H2O; Xref=Rhea:RHEA:34171,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:67139, ChEBI:CHEBI:537519; EC=4.3.3.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00418};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 3/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00418}.
+CC   -!- SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00418}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00418}.
+CC   -!- SIMILARITY: Belongs to the DapA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00418}.
+CC   -!- CAUTION: Was originally thought to be a dihydrodipicolinate synthase
+CC       (DHDPS), catalyzing the condensation of (S)-aspartate-beta-semialdehyde
+CC       [(S)-ASA] and pyruvate to dihydrodipicolinate (DHDP). However, it was
+CC       shown in E.coli that the product of the enzymatic reaction is not
+CC       dihydrodipicolinate but in fact (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-
+CC       dipicolinic acid (HTPA), and that the consecutive dehydration reaction
+CC       leading to DHDP is not spontaneous but catalyzed by DapB.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006914; AAL03133.1; -; Genomic_DNA.
+DR   PIR; C97774; C97774.
+DR   RefSeq; WP_004995750.1; NC_003103.1.
+DR   SMR; Q92I25; -.
+DR   EnsemblBacteria; AAL03133; AAL03133; RC0595.
+DR   GeneID; 57452317; -.
+DR   KEGG; rco:RC0595; -.
+DR   HOGENOM; CLU_049343_7_1_5; -.
+DR   OMA; GMDACVP; -.
+DR   BioCyc; RCON272944:G1FZG-998-MONOMER; -.
+DR   UniPathway; UPA00034; UER00017.
+DR   Proteomes; UP000000816; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008840; F:4-hydroxy-tetrahydrodipicolinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00950; DHDPS; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00418; DapA; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005263; DapA.
+DR   InterPro; IPR002220; DapA-like.
+DR   InterPro; IPR020625; Schiff_base-form_aldolases_AS.
+DR   InterPro; IPR020624; Schiff_base-form_aldolases_CS.
+DR   PANTHER; PTHR12128; PTHR12128; 1.
+DR   Pfam; PF00701; DHDPS; 1.
+DR   PIRSF; PIRSF001365; DHDPS; 1.
+DR   PRINTS; PR00146; DHPICSNTHASE.
+DR   SMART; SM01130; DHDPS; 1.
+DR   TIGRFAMs; TIGR00674; dapA; 1.
+DR   PROSITE; PS00665; DHDPS_1; 1.
+DR   PROSITE; PS00666; DHDPS_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Diaminopimelate biosynthesis; Lyase;
+KW   Lysine biosynthesis; Schiff base.
+FT   CHAIN           1..294
+FT                   /note="4-hydroxy-tetrahydrodipicolinate synthase"
+FT                   /id="PRO_0000103143"
+FT   ACT_SITE        135
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+FT   ACT_SITE        163
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+FT   BINDING         47
+FT                   /note="Pyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+FT   BINDING         205
+FT                   /note="Pyruvate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+FT   SITE            46
+FT                   /note="Part of a proton relay during catalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+FT   SITE            109
+FT                   /note="Part of a proton relay during catalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00418"
+SQ   SEQUENCE   294 AA;  32476 MW;  F813B480E49BD0C3 CRC64;
+     MHNIFKGLIT ALITPFKDNK LDLYALERIV KHQIKHEVDA VLIAGSTGES SSLSFEEYKL
+     LLQTSVEIVN KCIPIISGCS SNNTTYARAL AAESTKIGVD GFMASPPSYV KPTQHGIYKH
+     FEALHEACNL PIMLYSAPTR SGVDFSDETI LRLSKLPRIL ALKDCGVDLE RPLRIRATVK
+     KDFNILTGND EVVLAFNAQG GVGWTSVASN IVPNICKELL EKWNKNDTKG ALEIHQKLLP
+     LYTALFVESN PIPIKYAAHY LGLCENEIRP PLTEASDSAK KQIENIITSL SIKI
+//

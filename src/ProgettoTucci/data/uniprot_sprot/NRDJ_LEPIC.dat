@@ -1,0 +1,133 @@
+ID   NRDJ_LEPIC              Reviewed;        1201 AA.
+AC   Q72S00;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   10-AUG-2010, sequence version 2.
+DT   07-APR-2021, entry version 95.
+DE   RecName: Full=Vitamin B12-dependent ribonucleotide reductase;
+DE            EC=1.17.4.1;
+DE   AltName: Full=Ribonucleoside-diphosphate reductase NrdJ;
+GN   Name=nrdJ; OrderedLocusNames=LIC_11587;
+OS   Leptospira interrogans serogroup Icterohaemorrhagiae serovar copenhageni
+OS   (strain Fiocruz L1-130).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=267671;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fiocruz L1-130;
+RX   PubMed=15028702; DOI=10.1128/jb.186.7.2164-2172.2004;
+RA   Nascimento A.L.T.O., Ko A.I., Martins E.A.L., Monteiro-Vitorello C.B.,
+RA   Ho P.L., Haake D.A., Verjovski-Almeida S., Hartskeerl R.A., Marques M.V.,
+RA   Oliveira M.C., Menck C.F.M., Leite L.C.C., Carrer H., Coutinho L.L.,
+RA   Degrave W.M., Dellagostin O.A., El-Dorry H., Ferro E.S., Ferro M.I.T.,
+RA   Furlan L.R., Gamberini M., Giglioti E.A., Goes-Neto A., Goldman G.H.,
+RA   Goldman M.H.S., Harakava R., Jeronimo S.M.B., Junqueira-de-Azevedo I.L.M.,
+RA   Kimura E.T., Kuramae E.E., Lemos E.G.M., Lemos M.V.F., Marino C.L.,
+RA   Nunes L.R., de Oliveira R.C., Pereira G.G., Reis M.S., Schriefer A.,
+RA   Siqueira W.J., Sommer P., Tsai S.M., Simpson A.J.G., Ferro J.A.,
+RA   Camargo L.E.A., Kitajima J.P., Setubal J.C., Van Sluys M.A.;
+RT   "Comparative genomics of two Leptospira interrogans serovars reveals novel
+RT   insights into physiology and pathogenesis.";
+RL   J. Bacteriol. 186:2164-2172(2004).
+CC   -!- FUNCTION: Catalyzes the reduction of ribonucleotides to
+CC       deoxyribonucleotides. May function to provide a pool of
+CC       deoxyribonucleotide precursors for DNA repair during oxygen limitation
+CC       and/or for immediate growth after restoration of oxygen (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[thioredoxin]-disulfide + a 2'-deoxyribonucleoside 5'-
+CC         diphosphate + H2O = [thioredoxin]-dithiol + a ribonucleoside 5'-
+CC         diphosphate; Xref=Rhea:RHEA:23252, Rhea:RHEA-COMP:10698, Rhea:RHEA-
+CC         COMP:10700, ChEBI:CHEBI:15377, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:73316; EC=1.17.4.1;
+CC   -!- COFACTOR:
+CC       Name=adenosylcob(III)alamin; Xref=ChEBI:CHEBI:18408;
+CC         Evidence={ECO:0000250};
+CC       Note=5'-deoxyadenosylcobalamine (coenzyme B12). {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the ribonucleoside diphosphate reductase class-2
+CC       family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAS70183.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016823; AAS70183.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_000783496.1; NC_005823.1.
+DR   PaxDb; Q72S00; -.
+DR   EnsemblBacteria; AAS70183; AAS70183; LIC_11587.
+DR   GeneID; 58394976; -.
+DR   KEGG; lic:LIC_11587; -.
+DR   HOGENOM; CLU_000404_0_1_12; -.
+DR   Proteomes; UP000007037; Chromosome I.
+DR   GO; GO:0031419; F:cobalamin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:InterPro.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004748; F:ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor; IEA:UniProtKB-EC.
+DR   GO; GO:0071897; P:DNA biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:InterPro.
+DR   CDD; cd02888; RNR_II_dimer; 1.
+DR   InterPro; IPR013678; RNR_2_N.
+DR   InterPro; IPR000788; RNR_lg_C.
+DR   InterPro; IPR013344; RNR_NrdJ/NrdZ.
+DR   InterPro; IPR029072; YebC-like.
+DR   Pfam; PF08471; Ribonuc_red_2_N; 1.
+DR   Pfam; PF02867; Ribonuc_red_lgC; 2.
+DR   PRINTS; PR01183; RIBORDTASEM1.
+DR   SUPFAM; SSF75625; SSF75625; 1.
+DR   TIGRFAMs; TIGR02504; NrdJ_Z; 1.
+PE   3: Inferred from homology;
+KW   Cobalamin; Cobalt; Disulfide bond; DNA synthesis; Nucleotide-binding;
+KW   Oxidoreductase.
+FT   CHAIN           1..1201
+FT                   /note="Vitamin B12-dependent ribonucleotide reductase"
+FT                   /id="PRO_0000231659"
+FT   REGION          198..199
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          482..486
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          683..687
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        482
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        484
+FT                   /note="Cysteine radical intermediate"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        486
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         153
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         230
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        199..495
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   1201 AA;  133918 MW;  062F88B39A9A120C CRC64;
+     MKMNRHFTVP QNGESSTIQW TKRNSKITNP DGSKVFEAND ILVPEDWSQV AVDILAQKYF
+     RRKGVPKYLK KVQEDGIPEW LQKSIPDTEK LESLKPEDRF GGETSALEVF HRLAGCWTYW
+     GYKYKYFSDE ESAKIFYDEI VYMLATQMAA PNSPQWFNTG LNWAYGIDGK SQGHYYVDPS
+     TGKLVKSTSA YEHPQPHACF IQSVDDDLVN EGGIMDLWVR EARLFKYGSG TGTNFSNLRG
+     ENEPLSGGGK SSGLMSFLKI GDRAAGAIKS GGTTRRAAKM VCLDVDHPDI ENFIDWKVTE
+     EKKVASLVTG SMLNNRHLNA IMSACYEMEG EDRFNPKKNS SLKKTIQDAK KVLIPDNYIK
+     RVIDLARQGY KEILFEELTT DWQSDAYNTV SGQNSNNSIR LTNEFMAAVE QDQPWNLYFR
+     TEKEKAKVEG RKAKPSQTLR ARELWEKISY AAWASADPGT QYHTTINEWH TCPEDGPINA
+     SNPCSEYMFL DNTACNLASA NLQKFVNLET LNFDVEGFRY LCKLWTIILE ISVTMAQFPS
+     KEIAELSYKF RTLGLGYANL GSVLMVLGIP YDSQQAMAIT GAISSIMHMT AYATSAEMAK
+     EQGPFVGYAK NQKHMLRVIR NHRRAAYNAP SGDYEGLTIT PIGINPAFCP SYMLKAAQED
+     ADLALSLGEK YGFRNAQVTV IAPTGTIGLV MDCDTTGIEP DFALVKFKKL AGGGYFKIIN
+     QSVPYGLKKL GYSPSEIEAI VNYCKGHATL NGAPVINTQA LKEKGFTNEI LEKVEASLPL
+     AFDINFAFNK FNLGENFLTK NLGISKEIFD SPGFSLLEHL GFTKEDINKA NDYVCGTMTI
+     ENAPFLKEKD YPVFDCANKC GKYGKRFLSY ESHIRIMAAA QPFISGAISK TINLPEEAVI
+     EDIKNAYFLS WKMMIKANAL YRDGSKLSQP LNSVLELLNG IEIDDQEEIR EATISKDPVQ
+     IAEKIVTKYI SHRRKLPSRR AGYTQKAIVG GHKVYLRTGE YEDGQIGEIF IDMHKEGAAF
+     RSLMNAFAIS VSLGLQHGVP LEEYVDAFTF FKFEPNGIVS GNKHIKMSTS VIDYIFRELA
+     ITYLGRYDLG QVAPEDLRGD EIGSKRATAE SNGQEKETLS SMTAVIEPTP KKEVETISYS
+     QMISKEKPSS SPSGISLLEE VKLAKIKGYT GDSCSECGSF EMVRNGSCLK CMSCGSTTGC
+     S
+//

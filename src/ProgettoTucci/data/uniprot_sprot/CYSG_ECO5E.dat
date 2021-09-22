@@ -1,0 +1,183 @@
+ID   CYSG_ECO5E              Reviewed;         457 AA.
+AC   B5YTS6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 1.
+DT   07-APR-2021, entry version 78.
+DE   RecName: Full=Siroheme synthase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Uroporphyrinogen-III C-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              Short=Urogen III methylase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=2.1.1.107 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE     AltName: Full=SUMT {ECO:0000255|HAMAP-Rule:MF_01646};
+DE     AltName: Full=Uroporphyrinogen III methylase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              Short=UROM {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Precorrin-2 dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=1.3.1.76 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Sirohydrochlorin ferrochelatase {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=4.99.1.4 {ECO:0000255|HAMAP-Rule:MF_01646};
+GN   Name=cysG {ECO:0000255|HAMAP-Rule:MF_01646};
+GN   OrderedLocusNames=ECH74115_4679;
+OS   Escherichia coli O157:H7 (strain EC4115 / EHEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=444450;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=EC4115 / EHEC;
+RX   PubMed=22135463; DOI=10.1073/pnas.1107176108;
+RA   Eppinger M., Mammel M.K., Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Genomic anatomy of Escherichia coli O157:H7 outbreaks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 108:20142-20147(2011).
+CC   -!- FUNCTION: Multifunctional enzyme that catalyzes the SAM-dependent
+CC       methylations of uroporphyrinogen III at position C-2 and C-7 to form
+CC       precorrin-2 via precorrin-1. Then it catalyzes the NAD-dependent ring
+CC       dehydrogenation of precorrin-2 to yield sirohydrochlorin. Finally, it
+CC       catalyzes the ferrochelation of sirohydrochlorin to yield siroheme.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 S-adenosyl-L-methionine + uroporphyrinogen III = H(+) +
+CC         precorrin-2 + 2 S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:32459,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57308, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:58827, ChEBI:CHEBI:59789; EC=2.1.1.107;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + precorrin-2 = 2 H(+) + NADH + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:15613, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:58351, ChEBI:CHEBI:58827; EC=1.3.1.76;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + siroheme = Fe(2+) + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:24360, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:58351, ChEBI:CHEBI:60052; EC=4.99.1.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       precorrin-2 from uroporphyrinogen III: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01646}.
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       sirohydrochlorin from precorrin-2: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; precorrin-2 from uroporphyrinogen III: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; siroheme from sirohydrochlorin: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; sirohydrochlorin from precorrin-2: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the precorrin-2
+CC       dehydrogenase / sirohydrochlorin ferrochelatase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the precorrin
+CC       methyltransferase family. {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001164; ACI36013.1; -; Genomic_DNA.
+DR   RefSeq; WP_000349846.1; NC_011353.1.
+DR   SMR; B5YTS6; -.
+DR   KEGG; ecf:ECH74115_4679; -.
+DR   HOGENOM; CLU_011276_2_0_6; -.
+DR   OMA; GRFMAQE; -.
+DR   UniPathway; UPA00148; UER00211.
+DR   UniPathway; UPA00148; UER00222.
+DR   UniPathway; UPA00262; UER00211.
+DR   UniPathway; UPA00262; UER00222.
+DR   UniPathway; UPA00262; UER00376.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0043115; F:precorrin-2 dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051266; F:sirohydrochlorin ferrochelatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004851; F:uroporphyrin-III C-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0019354; P:siroheme biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd11642; SUMT; 1.
+DR   Gene3D; 1.10.8.210; -; 1.
+DR   Gene3D; 3.30.160.110; -; 1.
+DR   Gene3D; 3.30.950.10; -; 1.
+DR   Gene3D; 3.40.1010.10; -; 1.
+DR   HAMAP; MF_01646; Siroheme_synth; 1.
+DR   InterPro; IPR000878; 4pyrrol_Mease.
+DR   InterPro; IPR035996; 4pyrrol_Methylase_sf.
+DR   InterPro; IPR014777; 4pyrrole_Mease_sub1.
+DR   InterPro; IPR014776; 4pyrrole_Mease_sub2.
+DR   InterPro; IPR006366; CobA/CysG_C.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR037115; Sirohaem_synt_dimer_dom_sf.
+DR   InterPro; IPR012409; Sirohaem_synth.
+DR   InterPro; IPR043152; Sirohaem_synthase-like_central.
+DR   InterPro; IPR028281; Sirohaem_synthase_central.
+DR   InterPro; IPR019478; Sirohaem_synthase_dimer_dom.
+DR   InterPro; IPR006367; Sirohaem_synthase_N.
+DR   InterPro; IPR003043; Uropor_MeTrfase_CS.
+DR   Pfam; PF10414; CysG_dimeriser; 1.
+DR   Pfam; PF14824; Sirohm_synth_M; 1.
+DR   Pfam; PF00590; TP_methylase; 1.
+DR   PIRSF; PIRSF036426; Sirohaem_synth; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   SUPFAM; SSF53790; SSF53790; 1.
+DR   TIGRFAMs; TIGR01469; cobA_cysG_Cterm; 1.
+DR   TIGRFAMs; TIGR01470; cysG_Nterm; 1.
+DR   PROSITE; PS00839; SUMT_1; 1.
+DR   PROSITE; PS00840; SUMT_2; 1.
+PE   3: Inferred from homology;
+KW   Cobalamin biosynthesis; Lyase; Methyltransferase; Multifunctional enzyme;
+KW   NAD; Oxidoreductase; Phosphoprotein; Porphyrin biosynthesis;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..457
+FT                   /note="Siroheme synthase"
+FT                   /id="PRO_1000186939"
+FT   NP_BIND         22..23
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   NP_BIND         43..44
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          1..204
+FT                   /note="Precorrin-2 dehydrogenase /sirohydrochlorin
+FT                   ferrochelatase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          216..457
+FT                   /note="Uroporphyrinogen-III C-methyltransferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          301..303
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          331..332
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   ACT_SITE        248
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   ACT_SITE        270
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         225
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         306
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         382
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         411
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen and
+FT                   carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   MOD_RES         128
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+SQ   SEQUENCE   457 AA;  49932 MW;  F47265E989750BAC CRC64;
+     MDHLPIFCQL RDRDCLIVGG GDVAERKARL LLDAGARLTV NALAFIPQFT AWADAGMLTL
+     VEGPFDESLL DTCWLAIAAT DDDALNQRVS EAAEARHIFC NVVDAPKAAS FIMPSIIDRS
+     PLMVAVSSGG TSPVLARLLR EKLESLLPLH LGQVAKYAGQ LRGRVKQQFA TMGERRRFWE
+     KLFVNDRLAQ SLANNDQKAI TETTEQLINE PLDHRGEVVL VGAGPGDAGL LTLKGLQQIQ
+     QADVVVYDRL VSDDIMNLVR RDADRVFVGK RAGYHCVPQE EINQILLREA QKGKRVVRLK
+     GGDPFIFGRG GEELETLCNA GIPFSVVPGI TAASGCSAYS GIPLTHRDYA QSVRLITGHL
+     KTGGELDWEN LAAEKQTLVF YMGLNQAATI QQKLIEHGMP GEMPVAIVEN GTAVTQRVID
+     GTLTQLGELA QQMNSPSLII IGRVVGLRDK LNWFSNH
+//

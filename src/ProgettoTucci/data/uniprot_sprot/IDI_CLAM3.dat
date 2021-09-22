@@ -1,0 +1,117 @@
+ID   IDI_CLAM3               Reviewed;         194 AA.
+AC   A5CV36;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=Isopentenyl-diphosphate Delta-isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE            Short=IPP isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE            EC=5.3.3.2 {ECO:0000255|HAMAP-Rule:MF_00202};
+DE   AltName: Full=IPP:DMAPP isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+DE   AltName: Full=Isopentenyl pyrophosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00202};
+GN   Name=idi {ECO:0000255|HAMAP-Rule:MF_00202}; OrderedLocusNames=CMM_2889;
+OS   Clavibacter michiganensis subsp. michiganensis (strain NCPPB 382).
+OC   Bacteria; Actinobacteria; Micrococcales; Microbacteriaceae; Clavibacter.
+OX   NCBI_TaxID=443906;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCPPB 382;
+RX   PubMed=18192381; DOI=10.1128/jb.01595-07;
+RA   Gartemann K.-H., Abt B., Bekel T., Burger A., Engemann J., Fluegel M.,
+RA   Gaigalat L., Goesmann A., Graefen I., Kalinowski J., Kaup O., Kirchner O.,
+RA   Krause L., Linke B., McHardy A., Meyer F., Pohle S., Rueckert C.,
+RA   Schneiker S., Zellermann E.-M., Puehler A., Eichenlaub R., Kaiser O.,
+RA   Bartels D.;
+RT   "The genome sequence of the tomato-pathogenic actinomycete Clavibacter
+RT   michiganensis subsp. michiganensis NCPPB382 reveals a large island involved
+RT   in pathogenicity.";
+RL   J. Bacteriol. 190:2138-2149(2008).
+CC   -!- FUNCTION: Catalyzes the 1,3-allylic rearrangement of the homoallylic
+CC       substrate isopentenyl (IPP) to its highly electrophilic allylic isomer,
+CC       dimethylallyl diphosphate (DMAPP). {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopentenyl diphosphate = dimethylallyl diphosphate;
+CC         Xref=Rhea:RHEA:23284, ChEBI:CHEBI:57623, ChEBI:CHEBI:128769;
+CC         EC=5.3.3.2; Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC       Note=Binds 1 Mg(2+) ion per subunit. The magnesium ion binds only when
+CC       substrate is bound. {ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00202};
+CC       Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00202};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; dimethylallyl diphosphate
+CC       biosynthesis; dimethylallyl diphosphate from isopentenyl diphosphate:
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   -!- SIMILARITY: Belongs to the IPP isomerase type 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00202}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM711867; CAN02975.1; -; Genomic_DNA.
+DR   RefSeq; WP_012039577.1; NC_009480.1.
+DR   SMR; A5CV36; -.
+DR   STRING; 443906.CMM_2889; -.
+DR   EnsemblBacteria; CAN02975; CAN02975; CMM_2889.
+DR   KEGG; cmi:CMM_2889; -.
+DR   eggNOG; COG1443; Bacteria.
+DR   HOGENOM; CLU_060552_2_0_11; -.
+DR   OMA; DNGLTEH; -.
+DR   OrthoDB; 1345242at2; -.
+DR   UniPathway; UPA00059; UER00104.
+DR   Proteomes; UP000001564; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   GO; GO:0004452; F:isopentenyl-diphosphate delta-isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050992; P:dimethylallyl diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008299; P:isoprenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02885; IPP_Isomerase; 1.
+DR   HAMAP; MF_00202; Idi; 1.
+DR   InterPro; IPR011876; IsopentenylPP_isomerase_typ1.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PIRSF; PIRSF018427; Isopntndiph_ism; 1.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   TIGRFAMs; TIGR02150; IPP_isom_1; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Isomerase; Isoprene biosynthesis; Magnesium; Manganese;
+KW   Metal-binding.
+FT   CHAIN           1..194
+FT                   /note="Isopentenyl-diphosphate Delta-isomerase"
+FT                   /id="PRO_0000325212"
+FT   DOMAIN          32..166
+FT                   /note="Nudix hydrolase"
+FT   ACT_SITE        69
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   ACT_SITE        118
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           27
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           34
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           71
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           89
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           116
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+FT   METAL           118
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00202"
+SQ   SEQUENCE   194 AA;  21180 MW;  0BC8F7258897A9C4 CRC64;
+     MPQHTELVVL LDDDGETIGT APKATVHTRD TALHLAFSCH VFDAQGRILV TRRAIGKLTW
+     PGVWTNSFCG HPAPDEDMRE AVHRRAEQEL GLELESVELV LPDFRYRATD AAGVVENEIC
+     PVFRAVAASP VDPRPEEVGE YQWVDPEQLI PAVAHTPWAF SPWLTLQLPL LYPEHAAHSG
+     LAETAAAAAA VPAA
+//

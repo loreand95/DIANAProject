@@ -1,0 +1,84 @@
+ID   CDH_SHISS               Reviewed;         251 AA.
+AC   Q3YV60;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   27-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=CDP-diacylglycerol pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00319};
+DE            EC=3.6.1.26 {ECO:0000255|HAMAP-Rule:MF_00319};
+DE   AltName: Full=CDP-diacylglycerol phosphatidylhydrolase {ECO:0000255|HAMAP-Rule:MF_00319};
+DE   AltName: Full=CDP-diglyceride hydrolase {ECO:0000255|HAMAP-Rule:MF_00319};
+GN   Name=cdh {ECO:0000255|HAMAP-Rule:MF_00319}; OrderedLocusNames=SSON_4087;
+OS   Shigella sonnei (strain Ss046).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Ss046;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a CDP-1,2-diacyl-sn-glycerol + H2O = a 1,2-diacyl-sn-glycero-
+CC         3-phosphate + CMP + 2 H(+); Xref=Rhea:RHEA:15221, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58332, ChEBI:CHEBI:58608,
+CC         ChEBI:CHEBI:60377; EC=3.6.1.26; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00319};
+CC   -!- PATHWAY: Phospholipid metabolism; CDP-diacylglycerol degradation;
+CC       phosphatidate from CDP-diacylglycerol: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00319}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00319}; Single-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00319}.
+CC   -!- SIMILARITY: Belongs to the Cdh family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00319}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000038; AAZ90602.1; -; Genomic_DNA.
+DR   SMR; Q3YV60; -.
+DR   EnsemblBacteria; AAZ90602; AAZ90602; SSON_4087.
+DR   KEGG; ssn:SSON_4087; -.
+DR   HOGENOM; CLU_077117_0_1_6; -.
+DR   OMA; SPFIMLA; -.
+DR   BioCyc; SSON300269:G1GL2-4941-MONOMER; -.
+DR   UniPathway; UPA00609; UER00664.
+DR   Proteomes; UP000002529; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008715; F:CDP-diacylglycerol diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046342; P:CDP-diacylglycerol catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.428.30; -; 1.
+DR   HAMAP; MF_00319; Cdh; 1.
+DR   InterPro; IPR003763; CDP-diacylglyc_Pase.
+DR   InterPro; IPR015993; CDP-diacylglyc_Pase_proteobac.
+DR   InterPro; IPR038433; CDP-diacylglyc_Pase_sf.
+DR   InterPro; IPR036265; HIT-like_sf.
+DR   Pfam; PF02611; CDH; 1.
+DR   PIRSF; PIRSF001273; CDH; 1.
+DR   SUPFAM; SSF54197; SSF54197; 1.
+DR   TIGRFAMs; TIGR00672; cdh; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Hydrolase; Lipid biosynthesis;
+KW   Lipid metabolism; Membrane; Phospholipid biosynthesis;
+KW   Phospholipid metabolism; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..251
+FT                   /note="CDP-diacylglycerol pyrophosphatase"
+FT                   /id="PRO_1000019269"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00319"
+SQ   SEQUENCE   251 AA;  28383 MW;  C987D3A4B12BE5F3 CRC64;
+     MKKAGLLFLV MIVIAVVAAG IGYWKLTGEE SDTLRKIVLE ECLPNQQQNQ NPSPCAEVKP
+     NAGYVVLKDL NGPLQYLLMP TYRINGTESP LLTDPSTPNF FWLAWQARDF MSKKYGQPVP
+     DRAVSLAINS RTGRTQNHFH IHISCIRPDV REQLDNNLAN ISSRWLPLPG GLRGHEYLAR
+     RVTESELVQR SPFMMLAEEV PEAREHMGSY GLAMVRQSDN SFVLLATQRN LLTLNRASAE
+     EIQDHQCEIL R
+//

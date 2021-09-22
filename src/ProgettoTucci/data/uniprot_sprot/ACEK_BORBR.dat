@@ -1,0 +1,109 @@
+ID   ACEK_BORBR              Reviewed;         619 AA.
+AC   Q7WDP2;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   10-FEB-2021, entry version 96.
+DE   RecName: Full=Isocitrate dehydrogenase kinase/phosphatase {ECO:0000255|HAMAP-Rule:MF_00747};
+DE            Short=IDH kinase/phosphatase {ECO:0000255|HAMAP-Rule:MF_00747};
+DE            Short=IDHK/P {ECO:0000255|HAMAP-Rule:MF_00747};
+DE            EC=2.7.11.5 {ECO:0000255|HAMAP-Rule:MF_00747};
+DE            EC=3.1.3.- {ECO:0000255|HAMAP-Rule:MF_00747};
+GN   Name=aceK {ECO:0000255|HAMAP-Rule:MF_00747}; OrderedLocusNames=BB4946;
+OS   Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50)
+OS   (Alcaligenes bronchisepticus).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Alcaligenaceae; Bordetella.
+OX   NCBI_TaxID=257310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-588 / NCTC 13252 / RB50;
+RX   PubMed=12910271; DOI=10.1038/ng1227;
+RA   Parkhill J., Sebaihia M., Preston A., Murphy L.D., Thomson N.R.,
+RA   Harris D.E., Holden M.T.G., Churcher C.M., Bentley S.D., Mungall K.L.,
+RA   Cerdeno-Tarraga A.-M., Temple L., James K.D., Harris B., Quail M.A.,
+RA   Achtman M., Atkin R., Baker S., Basham D., Bason N., Cherevach I.,
+RA   Chillingworth T., Collins M., Cronin A., Davis P., Doggett J., Feltwell T.,
+RA   Goble A., Hamlin N., Hauser H., Holroyd S., Jagels K., Leather S.,
+RA   Moule S., Norberczak H., O'Neil S., Ormond D., Price C., Rabbinowitsch E.,
+RA   Rutter S., Sanders M., Saunders D., Seeger K., Sharp S., Simmonds M.,
+RA   Skelton J., Squares R., Squares S., Stevens K., Unwin L., Whitehead S.,
+RA   Barrell B.G., Maskell D.J.;
+RT   "Comparative analysis of the genome sequences of Bordetella pertussis,
+RT   Bordetella parapertussis and Bordetella bronchiseptica.";
+RL   Nat. Genet. 35:32-40(2003).
+CC   -!- FUNCTION: Bifunctional enzyme which can phosphorylate or
+CC       dephosphorylate isocitrate dehydrogenase (IDH) on a specific serine
+CC       residue. This is a regulatory mechanism which enables bacteria to
+CC       bypass the Krebs cycle via the glyoxylate shunt in response to the
+CC       source of carbon. When bacteria are grown on glucose, IDH is fully
+CC       active and unphosphorylated, but when grown on acetate or ethanol, the
+CC       activity of IDH declines drastically concomitant with its
+CC       phosphorylation. {ECO:0000255|HAMAP-Rule:MF_00747}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[isocitrate dehydrogenase] = ADP + H(+) + O-
+CC         phospho-L-seryl-[isocitrate dehydrogenase]; Xref=Rhea:RHEA:43540,
+CC         Rhea:RHEA-COMP:10605, Rhea:RHEA-COMP:10606, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:30616, ChEBI:CHEBI:83421,
+CC         ChEBI:CHEBI:456216; EC=2.7.11.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00747};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00747}.
+CC   -!- SIMILARITY: Belongs to the AceK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00747}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX640452; CAE35310.1; -; Genomic_DNA.
+DR   RefSeq; WP_003815951.1; NC_002927.3.
+DR   SMR; Q7WDP2; -.
+DR   STRING; 257310.BB4946; -.
+DR   EnsemblBacteria; CAE35310; CAE35310; BB4946.
+DR   GeneID; 56476553; -.
+DR   KEGG; bbr:BB4946; -.
+DR   eggNOG; COG4579; Bacteria.
+DR   HOGENOM; CLU_033804_1_1_4; -.
+DR   OMA; EPWYSVG; -.
+DR   OrthoDB; 245269at2; -.
+DR   BioCyc; BBRO257310:G1GSX-5023-MONOMER; -.
+DR   Proteomes; UP000001027; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008772; F:[isocitrate dehydrogenase (NADP+)] kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004721; F:phosphoprotein phosphatase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:InterPro.
+DR   GO; GO:0006097; P:glyoxylate cycle; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00747; AceK; 1.
+DR   InterPro; IPR010452; Isocitrate_DH_AceK.
+DR   PANTHER; PTHR39559; PTHR39559; 1.
+DR   Pfam; PF06315; AceK; 1.
+DR   PIRSF; PIRSF000719; AceK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Glyoxylate bypass; Hydrolase; Kinase;
+KW   Nucleotide-binding; Protein phosphatase; Serine/threonine-protein kinase;
+KW   Transferase; Tricarboxylic acid cycle.
+FT   CHAIN           1..619
+FT                   /note="Isocitrate dehydrogenase kinase/phosphatase"
+FT                   /id="PRO_0000057894"
+FT   NP_BIND         354..360
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00747"
+FT   ACT_SITE        409
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00747"
+FT   BINDING         375
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00747"
+SQ   SEQUENCE   619 AA;  70681 MW;  F434CC157EFD9CB4 CRC64;
+     MIYSGDVQRI EPAPVAGPAP LDVAHLILAG FDRHYALFRY SAQRAKSLFE SGDWHGMQRL
+     SRERIEYYDM RVRECATQLD SALRGSDART ADGSRANGSA ALSEAQTAFW QAVKQEFVGL
+     LADHRQPECA ETFFNSVSCR ILHRDYFHND FLFVRPAIAT DYLDSRIPSY RVYYPVAEGL
+     HKSLIRMVAD FGLAVPYADL PRDARLLARA AVRQLRGQLP RHAGPRLASD CQIQVLGSLF
+     FRNTGAYIVG RLINQGTVYP FAVALRRNPA GQVCLDALLL GADDLSTLFS FTRAYFLVDM
+     ETPAAVVNFL ASLLPRKPKA ELYTMLGLQK QGKTLFYRDF LHHLTHSRDA FDIAPGIRGM
+     VMCVFTLPSY PYVFKLIKDR IDKDGMDHAT VRRKYQMVKL HDRVGRMADT WEYSQVALPR
+     SRFAPRLLEE LRRLVPSLIE ENGDTVVIRH VYIERRMMPL NLYLRHASDP LLEVAVREYG
+     DAIRQLATAN IFPGDMLYKN FGVTRLGRVV FYDYDEIQRM TEMNFRAIPP APNEEAELSS
+     EPWYAVGPND VFPEEFGRFL LGDPRVRQAF LRHHADLLAP QWWQACRARV AQGRIEEFFP
+     YDTDRRLHPQ AAPPPRTAA
+//

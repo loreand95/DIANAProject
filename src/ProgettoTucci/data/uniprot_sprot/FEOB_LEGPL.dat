@@ -1,0 +1,132 @@
+ID   FEOB_LEGPL              Reviewed;         751 AA.
+AC   Q5WTE1;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   10-FEB-2021, entry version 91.
+DE   RecName: Full=Fe(2+) transporter FeoB {ECO:0000305};
+DE   AltName: Full=Ferrous iron transport protein B;
+GN   Name=feoB; OrderedLocusNames=lpl2584;
+OS   Legionella pneumophila (strain Lens).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=297245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Lens;
+RX   PubMed=15467720; DOI=10.1038/ng1447;
+RA   Cazalet C., Rusniok C., Brueggemann H., Zidane N., Magnier A., Ma L.,
+RA   Tichit M., Jarraud S., Bouchier C., Vandenesch F., Kunst F., Etienne J.,
+RA   Glaser P., Buchrieser C.;
+RT   "Evidence in the Legionella pneumophila genome for exploitation of host
+RT   cell functions and high genome plasticity.";
+RL   Nat. Genet. 36:1165-1173(2004).
+CC   -!- FUNCTION: Probable transporter of a GTP-driven Fe(2+) uptake system.
+CC       {ECO:0000250|UniProtKB:Q8GNS3}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:P33650}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:P33650}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. FeoB GTPase (TC 9.A.8) family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01048}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR628337; CAH16825.1; -; Genomic_DNA.
+DR   RefSeq; WP_011216528.1; NC_006369.1.
+DR   SMR; Q5WTE1; -.
+DR   EnsemblBacteria; CAH16825; CAH16825; lpl2584.
+DR   KEGG; lpf:lpl2584; -.
+DR   LegioList; lpl2584; -.
+DR   HOGENOM; CLU_013350_3_0_6; -.
+DR   OMA; MEMPDYE; -.
+DR   Proteomes; UP000002517; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015093; F:ferrous iron transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0055072; P:iron ion homeostasis; IEA:UniProtKB-KW.
+DR   CDD; cd01879; FeoB; 1.
+DR   InterPro; IPR003373; Fe2_transport_prot-B.
+DR   InterPro; IPR011640; Fe2_transport_prot_B_C.
+DR   InterPro; IPR030389; G_FEOB_dom.
+DR   InterPro; IPR011642; Gate_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF07664; FeoB_C; 1.
+DR   Pfam; PF02421; FeoB_N; 1.
+DR   Pfam; PF07670; Gate; 2.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00437; feoB; 1.
+DR   PROSITE; PS51711; G_FEOB; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; GTP-binding; Ion transport; Iron;
+KW   Iron transport; Membrane; Nucleotide-binding; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..751
+FT                   /note="Fe(2+) transporter FeoB"
+FT                   /id="PRO_0000210835"
+FT   TRANSMEM        276..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        341..361
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        385..405
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        422..442
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        447..467
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        512..532
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        539..559
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        657..677
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        685..705
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        715..735
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          1..167
+FT                   /note="FeoB-type G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+FT   NP_BIND         8..15
+FT                   /note="GTP 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+FT   NP_BIND         33..37
+FT                   /note="GTP 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+FT   NP_BIND         54..57
+FT                   /note="GTP 3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+FT   NP_BIND         118..121
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+FT   NP_BIND         147..149
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01048"
+SQ   SEQUENCE   751 AA;  82468 MW;  AD03DAA946B4D585 CRC64;
+     MTHALLIGNP NCGKTTLFNA LTNANQRVGN WPGVTVEKKT GEFLLGEHLI EITDLPGVYS
+     LVANAEGISQ DEQIAAQSVI DLEYDCIINV IDACHLERHL YLTSQLFELG KPVVVALNMM
+     DIAEHRGISI DTEKLESLLG CSVIPIQAHK NIGVPALQQS LLHCSQKIKP LKLSLSVAAQ
+     QILNDLENQL ISKGYKNSFA YYFSRRLAEG DTLIGEKAFT ESLLIKLQKT EQNLDVLLAD
+     ARYQKIHEIV TLVQKKHSDA SEHFTAKLDK LVLHRFLALP IFFAMMYLMF LFAINIGGAF
+     QDFFDISTET IFVQGSGWLL QQLHAPNWVI ALVANGIGKG INTTITFIPV IAAMFFFLSL
+     LETSGYMARA AFVVDKAMRA MGLPGKSFVP MIVGFGCNVP AIMAARTLDS ERDRLLTVMM
+     SPFMSCSARL AIYAVFVAAF FPSGGHNVVF SLYLIGILMA VFTGYILRKT TLKGHASPLI
+     LELPAYHRPS LRRLLRETSL RLRFFVYRAG KLIIPICVIL GGLNAITWGG GISSGEANTD
+     SLLSIIGQWI TPLFAPMGIH QDNWPATVGL LTGMLAKEVV VGTLNSLYAQ VGHVGEITAA
+     HFDFLGGIKA AFGSIPANLS ELGSALWNPV SASAADSELS QSVYGIMSRR FDGAVGAYAY
+     LLFVLLYIPC VSTMAVIRQE ANKRFMWTSI VWSFVVAYAT SVVFYQGAKF LEHPQQSMIW
+     ILAMSLSLLF VLAVFRYSQY GMGRQNAAAN T
+//

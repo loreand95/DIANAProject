@@ -1,0 +1,152 @@
+ID   RECB_CHLTR              Reviewed;        1026 AA.
+AC   O84645;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   07-APR-2021, entry version 124.
+DE   RecName: Full=RecBCD enzyme subunit RecB {ECO:0000255|HAMAP-Rule:MF_01485};
+DE            EC=3.1.11.5 {ECO:0000255|HAMAP-Rule:MF_01485};
+DE   AltName: Full=Exonuclease V subunit RecB {ECO:0000255|HAMAP-Rule:MF_01485};
+DE            Short=ExoV subunit RecB {ECO:0000255|HAMAP-Rule:MF_01485};
+DE   AltName: Full=Helicase/nuclease RecBCD subunit RecB {ECO:0000255|HAMAP-Rule:MF_01485};
+GN   Name=recB {ECO:0000255|HAMAP-Rule:MF_01485}; OrderedLocusNames=CT_639;
+OS   Chlamydia trachomatis (strain D/UW-3/Cx).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=272561;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=D/UW-3/Cx;
+RX   PubMed=9784136; DOI=10.1126/science.282.5389.754;
+RA   Stephens R.S., Kalman S., Lammel C.J., Fan J., Marathe R., Aravind L.,
+RA   Mitchell W.P., Olinger L., Tatusov R.L., Zhao Q., Koonin E.V., Davis R.W.;
+RT   "Genome sequence of an obligate intracellular pathogen of humans: Chlamydia
+RT   trachomatis.";
+RL   Science 282:754-759(1998).
+CC   -!- FUNCTION: A helicase/nuclease that prepares dsDNA breaks (DSB) for
+CC       recombinational DNA repair. Binds to DSBs and unwinds DNA via a highly
+CC       rapid and processive ATP-dependent bidirectional helicase activity.
+CC       Unwinds dsDNA until it encounters a Chi (crossover hotspot instigator)
+CC       sequence from the 3' direction. Cuts ssDNA a few nucleotides 3' to the
+CC       Chi site. The properties and activities of the enzyme are changed at
+CC       Chi. The Chi-altered holoenzyme produces a long 3'-ssDNA overhang and
+CC       facilitates RecA-binding to the ssDNA for homologous DNA recombination
+CC       and repair. Holoenzyme degrades any linearized DNA that is unable to
+CC       undergo homologous recombination. In the holoenzyme this subunit
+CC       contributes ATPase, 3'-5' helicase, exonuclease activity and loads RecA
+CC       onto ssDNA. {ECO:0000255|HAMAP-Rule:MF_01485}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exonucleolytic cleavage (in the presence of ATP) in either
+CC         5'- to 3'- or 3'- to 5'-direction to yield 5'-
+CC         phosphooligonucleotides.; EC=3.1.11.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01485};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01485};
+CC   -!- SUBUNIT: Heterotrimer of RecB, RecC and RecD. All subunits contribute
+CC       to DNA-binding. Interacts with RecA. {ECO:0000255|HAMAP-Rule:MF_01485}.
+CC   -!- DOMAIN: The N-terminal DNA-binding domain is a ssDNA-dependent ATPase
+CC       and has ATP-dependent 3'-5' helicase function. This domain interacts
+CC       with RecC. {ECO:0000255|HAMAP-Rule:MF_01485}.
+CC   -!- DOMAIN: The C-terminal domain has nuclease activity and interacts with
+CC       RecD. It interacts with RecA, facilitating its loading onto ssDNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01485}.
+CC   -!- SIMILARITY: Belongs to the helicase family. UvrD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01485}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE001273; AAC68243.1; -; Genomic_DNA.
+DR   PIR; C71490; C71490.
+DR   RefSeq; NP_220157.1; NC_000117.1.
+DR   RefSeq; WP_009872009.1; NC_000117.1.
+DR   EnsemblBacteria; AAC68243; AAC68243; CT_639.
+DR   GeneID; 884422; -.
+DR   KEGG; ctr:CT_639; -.
+DR   PATRIC; fig|272561.5.peg.700; -.
+DR   HOGENOM; CLU_001114_6_3_0; -.
+DR   InParanoid; O84645; -.
+DR   OMA; KQSIYRW; -.
+DR   BioCyc; CTRA272561:G1G18-679-MONOMER; -.
+DR   Proteomes; UP000000431; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0009338; C:exodeoxyribonuclease V complex; IBA:GO_Central.
+DR   GO; GO:0043138; F:3'-5' DNA helicase activity; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008854; F:exodeoxyribonuclease V activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000725; P:recombinational repair; IBA:GO_Central.
+DR   Gene3D; 3.90.320.10; -; 1.
+DR   HAMAP; MF_01485; RecB; 1.
+DR   InterPro; IPR014017; DNA_helicase_UvrD-like_C.
+DR   InterPro; IPR000212; DNA_helicase_UvrD/REP.
+DR   InterPro; IPR011604; Exonuc_phg/RecB_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004586; RecB.
+DR   InterPro; IPR011335; Restrct_endonuc-II-like.
+DR   InterPro; IPR014016; UvrD-like_ATP-bd.
+DR   InterPro; IPR034739; UvrD/AddA_N.
+DR   PANTHER; PTHR11070; PTHR11070; 2.
+DR   PANTHER; PTHR11070:SF23; PTHR11070:SF23; 2.
+DR   Pfam; PF00580; UvrD-helicase; 1.
+DR   Pfam; PF13361; UvrD_C; 2.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF52980; SSF52980; 1.
+DR   TIGRFAMs; TIGR00609; recB; 1.
+DR   PROSITE; PS51198; UVRD_HELICASE_ATP_BIND; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA damage; DNA repair; DNA-binding; Exonuclease; Helicase;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN           1..1026
+FT                   /note="RecBCD enzyme subunit RecB"
+FT                   /id="PRO_0000102045"
+FT   DOMAIN          1..438
+FT                   /note="UvrD-like helicase ATP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   DOMAIN          452..700
+FT                   /note="UvrD-like helicase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   NP_BIND         21..28
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   REGION          1..773
+FT                   /note="DNA-binding and helicase activity, interacts with
+FT                   RecC"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   REGION          815..1026
+FT                   /note="Nuclease activity, interacts with RecD and RecA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   ACT_SITE        953
+FT                   /note="For nuclease activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   METAL           854
+FT                   /note="Magnesium; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   METAL           940
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+FT   METAL           953
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01485"
+SQ   SEQUENCE   1026 AA;  117829 MW;  63000D548C0F7A33 CRC64;
+     MSSFDIFSPT ASVSGKFFLE ASAGTGKTFT IEQVVLRSLL EGSIEQTKNI LVVTFTNAAT
+     NELKLRIQAS LKQALSLFSQ ALSHPGTPLP PYISSSETKV KQLYMKIRNS LATLDEMNIF
+     TIHGFCRFTL EQHFPWIQPI QPSSIFSEPQ TIQQHILDYL RKNLWDTVLS PKQYAFLSYH
+     HRATTQQTRH LIERLLQDYT STPNLALSPL SITLQKLKAW VSRYQHLAPL SLEEMQAFSL
+     RFKQSDLSIE RELPAFVQQF ETNPYSLDML FFPGMVQKFQ EENRNKKKLS APASPLDPFF
+     QDWIQLAHPF CQKEPIFHTL LKSVQQHLKT HCAQSYSHDE SIATLESLLA HNDTVVSQLR
+     KQFQLVLIDE FQDTDKRQWQ IFSKLFASPD YSGSLFLIGD PKQSIYEWRN ADLPTYLQAK
+     HSFPKEAQLI LDTNYRSTPE LMQALNHLFS LPTPFLETPQ NILYHPLHSK GSAEISYSEF
+     SPIHFFSSED IQEETLWISK TASYLRSAYS IPFGNMAVLV QDYPQALKLI THSTIPMAYC
+     KEKRIFDRTE SPYLLILLLE ALLYPENQQK IQAILMSRLF QLSSTEIHQH LKTFSSLFFT
+     LNRHLYHYSL LATFYKLMGE NVLSQTIGET LLQTPLGDII FQELEALCLY LDKTTENPHH
+     KLLHLINILI TGKYDEELSF SSQSNDENMI KITTVHSSKG LEYDVVFCSC LNKAKEKTPS
+     VHMREMYVAC TRAKKFLFIP FSPIEKRSLS TKKLSALANY ANVTKHHSVP HLVETLTSSS
+     PELFSSSFQP PESSLTPDRE RLPQQTYFSL PHLPSRTIHS FSSTVENLHF SEPIQELSPS
+     LLFPGGSLTG TLIHKLLESL AGNFAACFEE IFNKAQTLLK NTPLEGYESI IAEKICTVFS
+     TTLPFSSGSF ALRNVHPHNI RAEETFLLQE EGELWQGIVD LFFEHKDRFF IIDWKTSFLG
+     DETSCYSPDQ LHLYIQRQGL DRQERLYRKA AKRFLHQFNS LLQVEMAFVF IRGLDDKGNG
+     FLQPGR
+//

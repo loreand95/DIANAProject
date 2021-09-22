@@ -1,0 +1,125 @@
+ID   ULAF_SALTI              Reviewed;         228 AA.
+AC   Q8Z167; Q7C542;
+DT   02-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 117.
+DE   RecName: Full=L-ribulose-5-phosphate 4-epimerase UlaF {ECO:0000255|HAMAP-Rule:MF_01952};
+DE            EC=5.1.3.4 {ECO:0000255|HAMAP-Rule:MF_01952};
+DE   AltName: Full=L-ascorbate utilization protein F {ECO:0000255|HAMAP-Rule:MF_01952};
+DE   AltName: Full=Phosphoribulose isomerase {ECO:0000255|HAMAP-Rule:MF_01952};
+GN   Name=ulaF {ECO:0000255|HAMAP-Rule:MF_01952};
+GN   OrderedLocusNames=STY4744, t4439;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the isomerization of L-ribulose 5-phosphate to D-
+CC       xylulose 5-phosphate. Is involved in the anaerobic L-ascorbate
+CC       utilization. {ECO:0000255|HAMAP-Rule:MF_01952}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-ribulose 5-phosphate = D-xylulose 5-phosphate;
+CC         Xref=Rhea:RHEA:22368, ChEBI:CHEBI:57737, ChEBI:CHEBI:58226;
+CC         EC=5.1.3.4; Evidence={ECO:0000255|HAMAP-Rule:MF_01952};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01952};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01952};
+CC   -!- PATHWAY: Cofactor degradation; L-ascorbate degradation; D-xylulose 5-
+CC       phosphate from L-ascorbate: step 4/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01952}.
+CC   -!- INDUCTION: Induced by L-ascorbate. Repressed by UlaR.
+CC       {ECO:0000255|HAMAP-Rule:MF_01952}.
+CC   -!- SIMILARITY: Belongs to the aldolase class II family. AraD/FucA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01952}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; CAD06865.1; -; Genomic_DNA.
+DR   EMBL; AE014613; AAO71886.1; -; Genomic_DNA.
+DR   RefSeq; NP_458822.1; NC_003198.1.
+DR   RefSeq; WP_001170772.1; NZ_WSUR01000012.1.
+DR   SMR; Q8Z167; -.
+DR   STRING; 220341.16505513; -.
+DR   EnsemblBacteria; AAO71886; AAO71886; t4439.
+DR   KEGG; stt:t4439; -.
+DR   KEGG; sty:STY4744; -.
+DR   PATRIC; fig|220341.7.peg.4845; -.
+DR   eggNOG; COG0235; Bacteria.
+DR   HOGENOM; CLU_006033_5_0_6; -.
+DR   UniPathway; UPA00263; UER00380.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0008742; F:L-ribulose-phosphate 4-epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019854; P:L-ascorbic acid catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.225.10; -; 1.
+DR   HAMAP; MF_01952; UlaF; 1.
+DR   InterPro; IPR001303; Aldolase_II/adducin_N.
+DR   InterPro; IPR036409; Aldolase_II/adducin_N_sf.
+DR   InterPro; IPR023499; UlaF.
+DR   Pfam; PF00596; Aldolase_II; 1.
+DR   SMART; SM01007; Aldolase_II; 1.
+DR   SUPFAM; SSF53639; SSF53639; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Isomerase; Metal-binding; Zinc.
+FT   CHAIN           1..228
+FT                   /note="L-ribulose-5-phosphate 4-epimerase UlaF"
+FT                   /id="PRO_0000233246"
+FT   REGION          26..27
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   REGION          43..44
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   REGION          72..73
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   ACT_SITE        118
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   ACT_SITE        225
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   METAL           74
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   METAL           93
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   METAL           95
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+FT   METAL           167
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01952"
+SQ   SEQUENCE   228 AA;  25313 MW;  16399D60CE4E55A8 CRC64;
+     MQKLKQQVFD ANMDLPRYGL VTFTWGNVSA IDRERGLVVI KPSGVAYETM KVDDMVVVDM
+     DGKVVEGRYR PSSDTATHLA LYQRYPSLGG VVHTHSTHAT AWAQAGMAIP ALGTTHADYF
+     FGDIPCTRAL SEEEVQGEYE LNTGKVIIET LGEVEPLHTP GIVVYQHGPF AWGKDAHDAV
+     HNAVVMEEVA RMAWIARGIN PGLNPIDDYL MNKHFMRKHG PNAYYGQK
+//

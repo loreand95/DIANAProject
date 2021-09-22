@@ -1,0 +1,99 @@
+ID   NU3C_TRACE              Reviewed;         120 AA.
+AC   A9QC74;
+DT   10-FEB-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 42.
+DE   RecName: Full=NAD(P)H-quinone oxidoreductase subunit 3, chloroplastic {ECO:0000255|HAMAP-Rule:MF_01394};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01394};
+DE   AltName: Full=NAD(P)H dehydrogenase subunit 3 {ECO:0000255|HAMAP-Rule:MF_01394};
+DE   AltName: Full=NADH-plastoquinone oxidoreductase subunit 3 {ECO:0000255|HAMAP-Rule:MF_01394};
+GN   Name=ndhC {ECO:0000255|HAMAP-Rule:MF_01394};
+OS   Trachelium caeruleum (Blue throatwort).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Asterales; Campanulaceae; Trachelium.
+OX   NCBI_TaxID=28494;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=18048330; DOI=10.1073/pnas.0709121104;
+RA   Jansen R.K., Cai Z., Raubeson L.A., Daniell H., dePamphilis C.W.,
+RA   Leebens-Mack J., Muller K.F., Guisinger-Bellian M., Haberle R.C.,
+RA   Hansen A.K., Chumley T.W., Lee S.B., Peery R., McNeal J.R., Kuehl J.V.,
+RA   Boore J.L.;
+RT   "Analysis of 81 genes from 64 plastid genomes resolves relationships in
+RT   angiosperms and identifies genome-scale evolutionary patterns.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:19369-19374(2007).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=18330485; DOI=10.1007/s00239-008-9086-4;
+RA   Haberle R.C., Fourcade H.M., Boore J.L., Jansen R.K.;
+RT   "Extensive rearrangements in the chloroplast genome of Trachelium caeruleum
+RT   are associated with repeats and tRNA genes.";
+RL   J. Mol. Evol. 66:350-361(2008).
+CC   -!- FUNCTION: NDH shuttles electrons from NAD(P)H:plastoquinone, via FMN
+CC       and iron-sulfur (Fe-S) centers, to quinones in the photosynthetic chain
+CC       and possibly in a chloroplast respiratory chain. The immediate electron
+CC       acceptor for the enzyme in this species is believed to be
+CC       plastoquinone. Couples the redox reaction to proton translocation, and
+CC       thus conserves the redox energy in a proton gradient.
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADH = a plastoquinol + n
+CC         H(+)(out) + NAD(+); Xref=Rhea:RHEA:42608, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01394};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n
+CC         H(+)(out) + NADP(+); Xref=Rhea:RHEA:42612, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01394};
+CC   -!- SUBUNIT: NDH is composed of at least 16 different subunits, 5 of which
+CC       are encoded in the nucleus. {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 3 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01394}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU017260; ABU85667.1; -; Genomic_DNA.
+DR   EMBL; EU090187; ABV26499.1; -; Genomic_DNA.
+DR   RefSeq; YP_001718674.1; NC_010442.1.
+DR   GeneID; 6155918; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019684; P:photosynthesis, light reaction; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.58.1610; -; 1.
+DR   HAMAP; MF_01394; NDH1_NuoA; 1.
+DR   InterPro; IPR023043; NAD(P)H_OxRDtase_bac/plastid.
+DR   InterPro; IPR000440; NADH_UbQ/plastoQ_OxRdtase_su3.
+DR   InterPro; IPR038430; NDAH_ubi_oxred_su3_sf.
+DR   PANTHER; PTHR11058; PTHR11058; 1.
+DR   Pfam; PF00507; Oxidored_q4; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Membrane; NAD; NADP; Plastid; Plastoquinone; Quinone;
+KW   Thylakoid; Translocase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..120
+FT                   /note="NAD(P)H-quinone oxidoreductase subunit 3,
+FT                   chloroplastic"
+FT                   /id="PRO_0000362875"
+FT   TRANSMEM        9..29
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+FT   TRANSMEM        62..82
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01394"
+SQ   SEQUENCE   120 AA;  13874 MW;  913765F4D3597236 CRC64;
+     MLLLYEYDIF WAFLIISSLI PILAFFLSGV LAPISKGPEK FSSYESGIEP IGDAWLQFRI
+     RYYMFALVFV VFDVETVFLY PWSMSFDVLG VSVFIEAFIF VLILIVGLVY AWRKGALEWS
+//

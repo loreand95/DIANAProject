@@ -1,0 +1,106 @@
+ID   HSLU_BURPS              Reviewed;         447 AA.
+AC   Q63YI4;
+DT   29-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   10-FEB-2021, entry version 90.
+DE   RecName: Full=ATP-dependent protease ATPase subunit HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+DE   AltName: Full=Unfoldase HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+GN   Name=hslU {ECO:0000255|HAMAP-Rule:MF_00249}; Synonyms=htpI;
+GN   OrderedLocusNames=BPSL0203;
+OS   Burkholderia pseudomallei (strain K96243).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=272560;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K96243;
+RX   PubMed=15377794; DOI=10.1073/pnas.0403302101;
+RA   Holden M.T.G., Titball R.W., Peacock S.J., Cerdeno-Tarraga A.-M.,
+RA   Atkins T., Crossman L.C., Pitt T., Churcher C., Mungall K.L., Bentley S.D.,
+RA   Sebaihia M., Thomson N.R., Bason N., Beacham I.R., Brooks K., Brown K.A.,
+RA   Brown N.F., Challis G.L., Cherevach I., Chillingworth T., Cronin A.,
+RA   Crossett B., Davis P., DeShazer D., Feltwell T., Fraser A., Hance Z.,
+RA   Hauser H., Holroyd S., Jagels K., Keith K.E., Maddison M., Moule S.,
+RA   Price C., Quail M.A., Rabbinowitsch E., Rutherford K., Sanders M.,
+RA   Simmonds M., Songsivilai S., Stevens K., Tumapa S., Vesaratchavest M.,
+RA   Whitehead S., Yeats C., Barrell B.G., Oyston P.C.F., Parkhill J.;
+RT   "Genomic plasticity of the causative agent of melioidosis, Burkholderia
+RT   pseudomallei.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14240-14245(2004).
+CC   -!- FUNCTION: ATPase subunit of a proteasome-like degradation complex; this
+CC       subunit has chaperone activity. The binding of ATP and its subsequent
+CC       hydrolysis by HslU are essential for unfolding of protein substrates
+CC       subsequently hydrolyzed by HslV. HslU recognizes the N-terminal part of
+CC       its protein substrates and unfolds these before they are guided to HslV
+CC       for hydrolysis. {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SUBUNIT: A double ring-shaped homohexamer of HslV is capped on each
+CC       side by a ring-shaped HslU homohexamer. The assembly of the HslU/HslV
+CC       complex is dependent on binding of ATP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00249}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SIMILARITY: Belongs to the ClpX chaperone family. HslU subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571965; CAH34190.1; -; Genomic_DNA.
+DR   RefSeq; WP_004523084.1; NZ_CP009538.1.
+DR   RefSeq; YP_106831.1; NC_006350.1.
+DR   SMR; Q63YI4; -.
+DR   STRING; 272560.BPSL0203; -.
+DR   EnsemblBacteria; CAH34190; CAH34190; BPSL0203.
+DR   KEGG; bps:BPSL0203; -.
+DR   PATRIC; fig|272560.51.peg.1514; -.
+DR   eggNOG; COG1220; Bacteria.
+DR   OMA; KYGMIKT; -.
+DR   BioCyc; BPSE272560:G1G3Q-212-MONOMER; -.
+DR   Proteomes; UP000000605; Chromosome 1.
+DR   GO; GO:0009376; C:HslUV protease complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008233; F:peptidase activity; IEA:InterPro.
+DR   GO; GO:0043335; P:protein unfolding; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00249; HslU; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR019489; Clp_ATPase_C.
+DR   InterPro; IPR004491; HslU.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR48102:SF3; PTHR48102:SF3; 1.
+DR   Pfam; PF00004; AAA; 1.
+DR   Pfam; PF07724; AAA_2; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM01086; ClpB_D2-small; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00390; hslU; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chaperone; Cytoplasm; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..447
+FT                   /note="ATP-dependent protease ATPase subunit HslU"
+FT                   /id="PRO_0000160491"
+FT   NP_BIND         60..65
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         18
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         259
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         325
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         397
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+SQ   SEQUENCE   447 AA;  49710 MW;  4DCEF22246041158 CRC64;
+     MSTMTPAEIV SELDKHIIGQ AKAKKAVAVA LRNRWRRQQV AEPLRQEITP KNILMIGPTG
+     VGKTEIARRL AKLADAPFIK IEATKFTEVG YVGRDVDSIV RDLIEISVKQ TRETEMRKVR
+     SKATDLAEDR ILDVLLPQPR AVGFGASAEH ANDDNNATRQ TFRKRLREGQ LDDKEIELDI
+     EQPAVGMDIM APPGMEEMTE QIRSMFSNLG SGKKQRRKVK IKEALKLLTD EEAAKMLNDE
+     EVKTKAVQNV EQNGIVFLDE IDKITSRNHE GGGGEVSRQG VQRDLLPLVE GTTINTKYGM
+     VKTDHILFIA SGAFHLAKPS DLIPELQGRF PIRVELDSLS VKDFEAILVA TDASLVKQYQ
+     ALLATEDVKL EFADDGIRRL AEIAYAVNEK TENIGARRLY TVIEKLLEEV SFAAGNHAGQ
+     SVTIDSAYVD HALGEVSKDE DLSRYVL
+//

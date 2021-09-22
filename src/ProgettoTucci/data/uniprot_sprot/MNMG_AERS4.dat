@@ -1,0 +1,96 @@
+ID   MNMG_AERS4              Reviewed;         629 AA.
+AC   A4STQ4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-MAY-2007, sequence version 1.
+DT   10-FEB-2021, entry version 79.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Synonyms=gidA {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   OrderedLocusNames=ASA_4361;
+OS   Aeromonas salmonicida (strain A449).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Aeromonas.
+OX   NCBI_TaxID=382245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=A449;
+RX   PubMed=18801193; DOI=10.1186/1471-2164-9-427;
+RA   Reith M.E., Singh R.K., Curtis B., Boyd J.M., Bouevitch A., Kimball J.,
+RA   Munholland J., Murphy C., Sarty D., Williams J., Nash J.H., Johnson S.C.,
+RA   Brown L.L.;
+RT   "The genome of Aeromonas salmonicida subsp. salmonicida A449: insights into
+RT   the evolution of a fish pathogen.";
+RL   BMC Genomics 9:427-427(2008).
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000644; ABO92276.1; -; Genomic_DNA.
+DR   RefSeq; WP_005319602.1; NC_009348.1.
+DR   SMR; A4STQ4; -.
+DR   STRING; 382245.ASA_4361; -.
+DR   EnsemblBacteria; ABO92276; ABO92276; ASA_4361.
+DR   KEGG; asa:ASA_4361; -.
+DR   PATRIC; fig|382245.13.peg.4319; -.
+DR   eggNOG; COG0445; Bacteria.
+DR   HOGENOM; CLU_007831_2_2_6; -.
+DR   OMA; FRPGYAI; -.
+DR   OrthoDB; 146811at2; -.
+DR   Proteomes; UP000000225; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR026904; GidA-assoc_3.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR040131; MnmG_N.
+DR   PANTHER; PTHR11806; PTHR11806; 1.
+DR   PANTHER; PTHR11806:SF0; PTHR11806:SF0; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_assoc; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00136; gidA; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+DR   PROSITE; PS01281; GIDA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; tRNA processing.
+FT   CHAIN           1..629
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme MnmG"
+FT                   /id="PRO_1000016541"
+FT   NP_BIND         13..18
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   NP_BIND         273..287
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   629 AA;  69882 MW;  8E0C4C5FF3275A6F CRC64;
+     MQYHEQFDVI VVGGGHAGTE AATAAARMGL NTLLLTHNID TLGHMSCNPA IGGIGKGHLV
+     KEVDALGGIM ARATDLAGIQ FRTLNSSKGP AVRATRAQAD RLLYKAVVRQ MLENYPNLKI
+     FQQACDDLIM DGDRVAGVVT QSGIRISGKT VVLTVGTFLN GLIHIGMENY KGGRAGDPPS
+     IALAQRLREM PLRIDRLKTG TPPRIDARSV DLSVMQAQYG DDPRPVFSFI GDASQHPRQV
+     PCYVTHTNER THDVIRNNLD RSPMYAGVIE GIGPRYCPSI EDKITRFADK TAHQIFVEPE
+     GLTTHELYPN GISTSLPFDV QVQIVRSIRG FENAHITRPG YAIEYDFFDP RDLKANMESK
+     YIGNLFFAGQ INGTTGYEEA AAQGLMAGLN AGLRAQDKDP WHPRRDQAYM GVMIDDLSTL
+     GTREPYRMFT SRAEYRLLLR EDNADLRLTA IGRELGLVDD ERWGKFNIKM EQVELERQRM
+     RSTWIHPQHP SLEAVNALVN TPLTREQNLE ELLRRPEVTY DALMAIEGVG PALSDHAAAD
+     QVEIQIKYAG YIERQYDEVE KQLRNENTLL PLDMNYRDVN GLSNEVIAKL NDAKPETIGQ
+     ASRISGITPA AISILLVHLK KHGLLRKTA
+//

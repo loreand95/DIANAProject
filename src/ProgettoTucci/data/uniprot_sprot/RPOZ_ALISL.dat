@@ -1,0 +1,80 @@
+ID   RPOZ_ALISL              Reviewed;          90 AA.
+AC   B6EPJ3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=DNA-directed RNA polymerase subunit omega {ECO:0000255|HAMAP-Rule:MF_00366};
+DE            Short=RNAP omega subunit {ECO:0000255|HAMAP-Rule:MF_00366};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_00366};
+DE   AltName: Full=RNA polymerase omega subunit {ECO:0000255|HAMAP-Rule:MF_00366};
+DE   AltName: Full=Transcriptase subunit omega {ECO:0000255|HAMAP-Rule:MF_00366};
+GN   Name=rpoZ {ECO:0000255|HAMAP-Rule:MF_00366}; OrderedLocusNames=VSAL_I0211;
+OS   Aliivibrio salmonicida (strain LFI1238) (Vibrio salmonicida (strain
+OS   LFI1238)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Aliivibrio.
+OX   NCBI_TaxID=316275;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LFI1238;
+RX   PubMed=19099551; DOI=10.1186/1471-2164-9-616;
+RA   Hjerde E., Lorentzen M.S., Holden M.T., Seeger K., Paulsen S., Bason N.,
+RA   Churcher C., Harris D., Norbertczak H., Quail M.A., Sanders S.,
+RA   Thurston S., Parkhill J., Willassen N.P., Thomson N.R.;
+RT   "The genome sequence of the fish pathogen Aliivibrio salmonicida strain
+RT   LFI1238 shows extensive evidence of gene decay.";
+RL   BMC Genomics 9:616-616(2008).
+CC   -!- FUNCTION: Promotes RNA polymerase assembly. Latches the N- and C-
+CC       terminal regions of the beta' subunit thereby facilitating its
+CC       interaction with the beta and alpha subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00366}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00366};
+CC   -!- SUBUNIT: The RNAP catalytic core consists of 2 alpha, 1 beta, 1 beta'
+CC       and 1 omega subunit. When a sigma factor is associated with the core
+CC       the holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_00366}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase subunit omega family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00366}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM178379; CAQ77896.1; -; Genomic_DNA.
+DR   RefSeq; WP_012549086.1; NC_011312.1.
+DR   SMR; B6EPJ3; -.
+DR   STRING; 316275.VSAL_I0211; -.
+DR   EnsemblBacteria; CAQ77896; CAQ77896; VSAL_I0211.
+DR   KEGG; vsa:VSAL_I0211; -.
+DR   eggNOG; COG1758; Bacteria.
+DR   HOGENOM; CLU_125406_5_3_6; -.
+DR   OMA; LENVDNR; -.
+DR   OrthoDB; 1864134at2; -.
+DR   Proteomes; UP000001730; Chromosome 1.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.940.10; -; 1.
+DR   HAMAP; MF_00366; RNApol_bact_RpoZ; 1.
+DR   InterPro; IPR003716; DNA-dir_RNA_pol_omega.
+DR   InterPro; IPR006110; Pol_omega/K/RPB6.
+DR   InterPro; IPR012293; RNAP_RPB6_omega.
+DR   InterPro; IPR036161; RPB6/omega-like_sf.
+DR   PANTHER; PTHR34476; PTHR34476; 1.
+DR   Pfam; PF01192; RNA_pol_Rpb6; 1.
+DR   SMART; SM01409; RNA_pol_Rpb6; 1.
+DR   SUPFAM; SSF63562; SSF63562; 1.
+DR   TIGRFAMs; TIGR00690; rpoZ; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Nucleotidyltransferase; Transcription;
+KW   Transferase.
+FT   CHAIN           1..90
+FT                   /note="DNA-directed RNA polymerase subunit omega"
+FT                   /id="PRO_1000121183"
+SQ   SEQUENCE   90 AA;  10082 MW;  80DB13CCF3F8801A CRC64;
+     MARVTVQDTV EKIGNRFDLV LVSSRRARQL QTGGKDALVP EENDKPTVIA LREIEEGLIT
+     KDLLDARERQ EQQEQDAAEL AAVSSITHNR
+//

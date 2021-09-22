@@ -1,0 +1,102 @@
+ID   BKDB_MYCTO              Reviewed;         348 AA.
+AC   P9WIS0; F2GH62; L0T9T3; O06160; Q7D715;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 36.
+DE   RecName: Full=3-methyl-2-oxobutanoate dehydrogenase subunit beta;
+DE            EC=1.2.4.4;
+DE   AltName: Full=Branched-chain alpha-ketoacid dehydrogenase E1 component subunit beta;
+DE            Short=BCKADH E1-beta;
+GN   Name=bkdB; Synonyms=pdhB; OrderedLocusNames=MT2571;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Component of the branched-chain alpha-ketoacid dehydrogenase
+CC       (BCKADH) complex, that catalyzes the overall conversion of branched-
+CC       chain alpha-ketoacids to acyl-CoA and CO(2). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-methyl-2-oxobutanoate + [dihydrolipoyllysine-residue (2-
+CC         methylpropanoyl)transferase]-(R)-N(6)-lipoyl-L-lysine + H(+) =
+CC         [dihydrolipoyllysine-residue (2-methylpropanoyl)transferase]-(R)-
+CC         N(6)-(S(8)-2-methylpropanoyldihydrolipoyl)-L-lysine + CO2;
+CC         Xref=Rhea:RHEA:13457, Rhea:RHEA-COMP:10488, Rhea:RHEA-COMP:10489,
+CC         ChEBI:CHEBI:11851, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:83099, ChEBI:CHEBI:83142; EC=1.2.4.4;
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Heteromer of E1 alpha (BkdA) and beta (BkdB) subunits. Part of
+CC       the BCKADH complex, consisting of multiple copies of BkdA/BkdB (E1),
+CC       BkdC (E2) and Lpd (E3) (By similarity). {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK46875.1; -; Genomic_DNA.
+DR   PIR; H70549; H70549.
+DR   RefSeq; WP_003412757.1; NZ_KK341227.1.
+DR   SMR; P9WIS0; -.
+DR   EnsemblBacteria; AAK46875; AAK46875; MT2571.
+DR   GeneID; 45426490; -.
+DR   KEGG; mtc:MT2571; -.
+DR   PATRIC; fig|83331.31.peg.2773; -.
+DR   HOGENOM; CLU_012907_1_0_11; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0003863; F:3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring) activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.920; -; 1.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR009014; Transketo_C/PFOR_II.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   InterPro; IPR033248; Transketolase_C.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   Pfam; PF02780; Transketolase_C; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; SSF52518; 1.
+DR   SUPFAM; SSF52922; SSF52922; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase; Thiamine pyrophosphate.
+FT   CHAIN           1..348
+FT                   /note="3-methyl-2-oxobutanoate dehydrogenase subunit beta"
+FT                   /id="PRO_0000427956"
+FT   REGION          80..82
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          105..108
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          108..111
+FT                   /note="Thiamine pyrophosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        151
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         51
+FT                   /note="Thiamine pyrophosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         104
+FT                   /note="Thiamine pyrophosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         151
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   348 AA;  38064 MW;  71D54633EEEB9A3E CRC64;
+     MTQIADRPAR PDETLAVAVS DITQSLTMVQ AINRALYDAM AADERVLVFG EDVAVEGGVF
+     RVTEGLADTF GADRCFDTPL AESAIIGIAV GLALRGFVPV PEIQFDGFSY PAFDQVVSHL
+     AKYRTRTRGE VDMPVTVRIP SFGGIGAAEH HSDSTESYWV HTAGLKVVVP STPGDAYWLL
+     RHAIACPDPV MYLEPKRRYH GRGMVDTSRP EPPIGHAMVR RSGTDVTVVT YGNLVSTALS
+     SADTAEQQHD WSLEVIDLRS LAPLDFDTIA ASIQRTGRCV VMHEGPRSLG YGAGLAARIQ
+     EEMFYQLEAP VLRACGFDTP YPPARLEKLW LPGPDRLLDC VERVLRQP
+//

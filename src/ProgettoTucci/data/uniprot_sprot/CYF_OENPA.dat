@@ -1,0 +1,102 @@
+ID   CYF_OENPA               Reviewed;         318 AA.
+AC   B0Z5E1;
+DT   01-JUL-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 55.
+DE   RecName: Full=Cytochrome f {ECO:0000255|HAMAP-Rule:MF_00610};
+DE   Flags: Precursor;
+GN   Name=petA {ECO:0000255|HAMAP-Rule:MF_00610};
+OS   Oenothera parviflora (Small-flowered evening primrose) (Oenothera
+OS   cruciata).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Myrtales; Onagraceae; Onagroideae; Onagreae; Oenothera.
+OX   NCBI_TaxID=482429;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Atrovirens;
+RX   PubMed=18299283; DOI=10.1093/nar/gkn081;
+RA   Greiner S., Wang X., Rauwolf U., Silber M.V., Mayer K., Meurer J.,
+RA   Haberer G., Herrmann R.G.;
+RT   "The complete nucleotide sequences of the five genetically distinct plastid
+RT   genomes of Oenothera, subsection Oenothera: I. Sequence evaluation and
+RT   plastome evolution.";
+RL   Nucleic Acids Res. 36:2366-2378(2008).
+CC   -!- FUNCTION: Component of the cytochrome b6-f complex, which mediates
+CC       electron transfer between photosystem II (PSII) and photosystem I
+CC       (PSI), cyclic electron flow around PSI, and state transitions.
+CC       {ECO:0000255|HAMAP-Rule:MF_00610}.
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00610};
+CC       Note=Binds 1 heme group covalently. {ECO:0000255|HAMAP-Rule:MF_00610};
+CC   -!- SUBUNIT: The 4 large subunits of the cytochrome b6-f complex are
+CC       cytochrome b6, subunit IV (17 kDa polypeptide, petD), cytochrome f and
+CC       the Rieske protein, while the 4 small subunits are PetG, PetL, PetM and
+CC       PetN. The complex functions as a dimer (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_00610}; Single-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_00610}.
+CC   -!- SIMILARITY: Belongs to the cytochrome f family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00610}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU262891; ABX10134.1; -; Genomic_DNA.
+DR   RefSeq; YP_001687464.1; NC_010362.1.
+DR   SMR; B0Z5E1; -.
+DR   GeneID; 5955426; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031361; C:integral component of thylakoid membrane; IEA:InterPro.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0015979; P:photosynthesis; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.40.830; -; 1.
+DR   HAMAP; MF_00610; Cytb6_f_cytF; 1.
+DR   InterPro; IPR024058; Cyt-f_TM.
+DR   InterPro; IPR002325; Cyt_f.
+DR   InterPro; IPR024094; Cyt_f_lg_dom.
+DR   InterPro; IPR036826; Cyt_f_lg_dom_sf.
+DR   InterPro; IPR011054; Rudment_hybrid_motif.
+DR   Pfam; PF01333; Apocytochr_F_C; 1.
+DR   Pfam; PF16639; Apocytochr_F_N; 1.
+DR   PRINTS; PR00610; CYTOCHROMEF.
+DR   SUPFAM; SSF103431; SSF103431; 1.
+DR   SUPFAM; SSF49441; SSF49441; 1.
+DR   SUPFAM; SSF51246; SSF51246; 1.
+DR   PROSITE; PS51010; CYTF; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Electron transport; Heme; Iron; Membrane; Metal-binding;
+KW   Photosynthesis; Plastid; Signal; Thylakoid; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   SIGNAL          1..33
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+FT   CHAIN           34..318
+FT                   /note="Cytochrome f"
+FT                   /id="PRO_0000342078"
+FT   TRANSMEM        284..304
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+FT   METAL           34
+FT                   /note="Iron (heme axial ligand); via amino nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+FT   METAL           58
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+FT   BINDING         54
+FT                   /note="Heme; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+FT   BINDING         57
+FT                   /note="Heme; covalent"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00610"
+SQ   SEQUENCE   318 AA;  34928 MW;  4EDAAD56032E8F92 CRC64;
+     MKNTFSWIKK EITRSISLSL MIYIITRTSI SNAYPIFAQQ GYENPREATG RIVCANCHLA
+     NKPVDIEVPQ AVLPDTVFEA VVRIPYDRQV KQVLANGKKG GLNVGAVLIL PEGFELAPPA
+     RISPEMKERI GNPSFQSYRP TKKNILVIGP VPGQKYSEIT FPILSPDPAT NKDVHFLKYP
+     IYVGGNRGRG QIYPDGSKSN NTVYNATAAG IVSKIIRKEK GGYEITITDA SDGRQVVDII
+     PSGPELLVSE GESIKLDQPL TSNPNVGGFG QGDAEVVLQD PLRVQGLLFF LASVILAQIF
+     LVLKKKQFEK VQLSEMNF
+//

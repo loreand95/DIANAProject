@@ -1,0 +1,186 @@
+ID   L_RYSV                  Reviewed;        1967 AA.
+AC   O10378;
+DT   21-AUG-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   07-APR-2021, entry version 92.
+DE   RecName: Full=RNA-directed RNA polymerase L;
+DE            Short=Protein L;
+DE   AltName: Full=Large structural protein;
+DE   AltName: Full=Replicase;
+DE   AltName: Full=Transcriptase;
+DE   Includes:
+DE     RecName: Full=RNA-directed RNA polymerase;
+DE              EC=2.7.7.48 {ECO:0000250|UniProtKB:P28887};
+DE   Includes:
+DE     RecName: Full=GTP phosphohydrolase {ECO:0000250|UniProtKB:P03523};
+DE              EC=3.6.1.- {ECO:0000250|UniProtKB:P03523};
+DE   Includes:
+DE     RecName: Full=GDP polyribonucleotidyltransferase {ECO:0000305};
+DE              EC=2.7.7.88 {ECO:0000250|UniProtKB:P03523};
+DE     AltName: Full=PRNTase {ECO:0000305};
+DE   Includes:
+DE     RecName: Full=mRNA (nucleoside-2'-O-)-methyltransferase {ECO:0000250|UniProtKB:P03523};
+DE              Short=N1-2'-O-MTase {ECO:0000250|UniProtKB:P03523};
+DE              EC=2.1.1.- {ECO:0000250|UniProtKB:P03523};
+DE   Includes:
+DE     RecName: Full=mRNA (guanine-N(7)-)-methyltransferase {ECO:0000250|UniProtKB:P03523};
+DE              Short=G-N7-MTase {ECO:0000250|UniProtKB:P03523};
+DE              EC=2.1.1.- {ECO:0000250|UniProtKB:P03523};
+GN   Name=L;
+OS   Rice yellow stunt virus (RYSV) (Rice transitory yellowing virus).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina;
+OC   Monjiviricetes; Mononegavirales; Rhabdoviridae; Nucleorhabdovirus.
+OX   NCBI_TaxID=59380;
+OH   NCBI_TaxID=4530; Oryza sativa (Rice).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=12867659; DOI=10.1099/vir.0.19195-0;
+RA   Huang Y., Zhao H., Luo Z., Chen X., Fang R.X.;
+RT   "Novel structure of the genome of Rice yellow stunt virus: identification
+RT   of the gene 6-encoded virion protein.";
+RL   J. Gen. Virol. 84:2259-2264(2003).
+CC   -!- FUNCTION: RNA-directed RNA polymerase that catalyzes the transcription
+CC       of viral mRNAs, their capping and polyadenylation. The template is
+CC       composed of the viral RNA tightly encapsidated by the nucleoprotein
+CC       (N). The viral polymerase binds to the genomic RNA at the 3' leader
+CC       promoter, and transcribes subsequently all viral mRNAs with a
+CC       decreasing efficiency. The first gene is the most transcribed, and the
+CC       last the least transcribed. The viral phosphoprotein acts as a
+CC       processivity factor. Capping is concommitant with initiation of mRNA
+CC       transcription. Indeed, a GDP polyribonucleotidyl transferase (PRNTase)
+CC       adds the cap structure when the nascent RNA chain length has reached
+CC       few nucleotides. Ribose 2'-O methylation of viral mRNA cap precedes and
+CC       facilitates subsequent guanine-N-7 methylation, both acticities being
+CC       carried by the viral polymerase. Polyadenylation of mRNAs occur by a
+CC       stuttering mechanism at a slipery stop site present at the end viral
+CC       genes. After finishing transcription of a mRNA, the polymerase can
+CC       resume transcription of the downstream gene.
+CC       {ECO:0000250|UniProtKB:P03523}.
+CC   -!- FUNCTION: RNA-directed RNA polymerase that catalyzes the replication of
+CC       viral genomic RNA. The template is composed of the viral RNA tightly
+CC       encapsidated by the nucleoprotein (N). The replicase mode is dependent
+CC       on intracellular N protein concentration. In this mode, the polymerase
+CC       replicates the whole viral genome without recognizing transcriptional
+CC       signals, and the replicated genome is not caped or polyadenylated.
+CC       {ECO:0000250|UniProtKB:P03523}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end (5'-triphosphoguanosine)-adenylyl-adenylyl-cytidyl-
+CC         adenosine in mRNA + 2 S-adenosyl-L-methionine = a 5'-end (N(7)-methyl
+CC         5'-triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidyl-
+CC         adenosine in mRNA + H(+) + 2 S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:65376, Rhea:RHEA-COMP:16797, Rhea:RHEA-COMP:16798,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:156483, ChEBI:CHEBI:156484;
+CC         Evidence={ECO:0000250|UniProtKB:P28887};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end (5'-triphosphoguanosine)-adenylyl-adenylyl-cytidyl-
+CC         adenosine in mRNA + S-adenosyl-L-methionine = a 5'-end (5'-
+CC         triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidyl-adenosine
+CC         in mRNA + H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:65380,
+CC         Rhea:RHEA-COMP:16797, Rhea:RHEA-COMP:16801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:156482,
+CC         ChEBI:CHEBI:156484; Evidence={ECO:0000250|UniProtKB:P03523};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end triphospho-adenylyl-adenylyl-cytidyl-adenosine in
+CC         mRNA + GDP + H(+) = a 5'-end (5'-triphosphoguanosine)-adenylyl-
+CC         adenylyl-cytidyl-adenosine in mRNA + diphosphate;
+CC         Xref=Rhea:RHEA:65436, Rhea:RHEA-COMP:16797, Rhea:RHEA-COMP:16799,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:58189,
+CC         ChEBI:CHEBI:156484, ChEBI:CHEBI:156503; EC=2.7.7.88;
+CC         Evidence={ECO:0000250|UniProtKB:P28887};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end (5'-triphosphoguanosine)-(2'-O-methyladenylyl)-
+CC         adenylyl-cytidyl-adenosine in mRNA + S-adenosyl-L-methionine = a 5'-
+CC         end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyladenylyl)-
+CC         adenylyl-cytidyl-adenosine in mRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:65440, Rhea:RHEA-COMP:16798, Rhea:RHEA-COMP:16801,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:156482,
+CC         ChEBI:CHEBI:156483; Evidence={ECO:0000250|UniProtKB:P03523};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = GDP + H(+) + phosphate; Xref=Rhea:RHEA:19669,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58189;
+CC         Evidence={ECO:0000250|UniProtKB:P28887};
+CC   -!- SUBUNIT: May form homodimer. Interacts with the P protein.
+CC       {ECO:0000250|UniProtKB:P03523}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000250|UniProtKB:P03523}. Host
+CC       cytoplasm {ECO:0000250|UniProtKB:P03523}. Note=L and P are packaged
+CC       asymmetrically towards the blunt end of the virus.
+CC       {ECO:0000250|UniProtKB:P03523}.
+CC   -!- SIMILARITY: Belongs to the rhabdoviridae protein L family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB011257; BAA25160.1; -; Genomic_RNA.
+DR   RefSeq; NP_620502.1; NC_003746.1.
+DR   SMR; O10378; -.
+DR   PRIDE; O10378; -.
+DR   GeneID; 944307; -.
+DR   KEGG; vg:944307; -.
+DR   Proteomes; UP000002325; Genome.
+DR   GO; GO:0030430; C:host cell cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019012; C:virion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003924; F:GTPase activity; IEA:RHEA.
+DR   GO; GO:0004482; F:mRNA (guanine-N7-)-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR039736; L_poly_C.
+DR   InterPro; IPR026890; Mononeg_mRNAcap.
+DR   InterPro; IPR014023; Mononeg_RNA_pol_cat.
+DR   Pfam; PF14318; Mononeg_mRNAcap; 1.
+DR   Pfam; PF00946; Mononeg_RNA_pol; 1.
+DR   TIGRFAMs; TIGR04198; paramyx_RNAcap; 1.
+DR   PROSITE; PS50526; RDRP_SSRNA_NEG_NONSEG; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Host cytoplasm; Hydrolase; Methyltransferase; mRNA capping;
+KW   mRNA processing; Multifunctional enzyme; Nucleotide-binding;
+KW   Nucleotidyltransferase; Reference proteome; RNA-directed RNA polymerase;
+KW   S-adenosyl-L-methionine; Transferase; Viral RNA replication; Virion.
+FT   CHAIN           1..1967
+FT                   /note="RNA-directed RNA polymerase L"
+FT                   /id="PRO_0000297839"
+FT   DOMAIN          604..790
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+SQ   SEQUENCE   1967 AA;  223602 MW;  DE70AB80A45FC776 CRC64;
+     MDDEGHGYWQ DYDEDESWLD AENDVFDDDI FEEAEDNEHL VEGGDFHLKS ALRGEADMLT
+     NPIYEKEREK LQEDVGDLGV ALGHLNVRPF LEKMGERIST DHTNTPLIEN IKQGGFGAIH
+     HMKSTARLIV AEAATVTETM LTSGVDTTLA GAYHFFEQNH PHMKCTVNMV LMFLTILNNV
+     KNIRLNVDLH QILKNNISIK GSTVCMYITV ATVAYFSTDI VVFDIDGQKY NTPKTYFLNA
+     CDKIQERFNV ILYSYLAEGL SIPGSPPTYI VNRIIDWGDS ILYQMGNDGY DVIALYEATV
+     VGVILSRDDK DLSPTSGGGD FLENIQQDLG PVQQNHIRYL IALLHDMTPH QLADLHGLYR
+     IWAHPIIDID GGVKKLQKVT QSLKGDINSK PESQETVRSF RRLFVMDYFV KHQFYPPITL
+     PEKSNCYIGN CIRTSKKIDE SHINYNFSDW DLVELGGAFS IPYSWNVLHL AKDKAISPTR
+     SEMYTMLCKT KRVFNAELRR GVLKLMNTTL TPLREFLTEV AEHGLDIDDC IIGLFPKERE
+     LKIMARFFAL LSFKMRLYFT ATEELLGSKL LRYFPQITMS SNLLDMQEKM SSMSRDLESQ
+     NKSVTYVINM DFVKWNQQMR ESTCEGFLKN WSKLFGLPGL YSRSHQIFRD SILYIADGTR
+     DLTPDPDTGI MVDNNVCWID DGAGKEGIRQ KAWTIMTVCD IAAVARHHPG VFHLVGGGDN
+     QVLTVTYHTN QIDTDGNITE EGKSKIKAKV KKFIEALETH FAARGLPLKT SETWCSTSLF
+     MYNKFMYYKG VPLRSPLKQV SRLFPYSNNT SMTLQSMAQC LGTGLRSAAQ KEVSHIALLF
+     MRNIWGSVLG WIILYCHPML PSISSETCNS GVSTIVRGRK AINMKTHRID LVALILKILY
+     LPGQLGGPGL VNIYQMTMRG FPDPVTEAIC FLRKFKNYLI CVGSSYSSHL ARMAGVSFSA
+     SRSYEPLIED VCSLNLDTPR SGTGGKREVP RKILLKSRLG GNQHLKELLG IMKGPSEGEF
+     YRAISSGKVL DVRVMHEITS STLYAVTNTF TSRVDKTATL KRLTFKFSML ESLADAELKY
+     IRYLSVRDDK THDIMFDGCS RIIADECRTK GWGKPVLGVT VPTPFEYLQI SWTDEHICDN
+     NHITVRISNQ DRQVTTETLG PCKPYLGAYT KEKFKMTEVA AAYGDEDVLS KSLRILKIIN
+     WRYQDGSTMS EIIKAPFRAV TDIDPQRMVQ ESTVTKGDYD HRRKMDARVH GGIPNFVTTP
+     LSHISISTST WYKHARGKNE NIHFQACIIQ TMYQIIIRTM SNIHSQEKLH VHECCQTSIS
+     EIQEPRANLD LTTPQMIPTF PTLMGNPLVY IPEQSITFDY SRTQEVDYSR RVGSLDCQRS
+     TDYGWVDAYS SLSWLIMCDV IGWTKMPDSF YIMQQERVDH YLLSMYIISI WKVLKSEFDL
+     HKTMLDWGPL LKVYSSDTGV QVLSQSMGIV VLGKLEGGLS VNMMDICNSL TGLTSNQIPP
+     FSVNLALPRI HKQVATWWKL TCSDTMYCIQ CSNILKGYWE GTLINTRIDN DLRCSECADG
+     GISPRIVNAH ISNLSDHLIK IIPDREEVQL PLLAGGEDLN NLEVVLSLED EWPDSDDITI
+     LNRIGEMNDI DGRMKNYLEV MALLNPDVVI IRPEILELEI LRRVCEVVRL ASEGKLIIHI
+     LVEEPSYLES GAIYEMERAF PRHNLFHVQF SFRKPPEGLH KLWLLPQDIT LARADVGDWL
+     VIPFTQLLDF HDTITPDTRL HHQREAIRQD VFWSTKEQGG LGLVVLQHIC TKTELSYRLD
+     RSKVDVEINK MMIKDPVMGG KYVILKRRCS WAIFSTKYEL LCSAERIKGN LSADGKKITS
+     KDFSRTYKED IIIFIISVLM RSLDCDEKRV MTLSYVECLP ELLTLKPRFN KSGVISVRYL
+     DYFWFFKRVY SYNNPEVAIP YSAVIKGVNL GSPRKEGYSL ASSDGAP
+//

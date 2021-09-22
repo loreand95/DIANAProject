@@ -1,0 +1,181 @@
+ID   DPOL_DHBV1              Reviewed;         836 AA.
+AC   P03162;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 2.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Protein P;
+DE   Includes:
+DE     RecName: Full=DNA-directed DNA polymerase;
+DE              EC=2.7.7.7;
+DE   Includes:
+DE     RecName: Full=RNA-directed DNA polymerase;
+DE              EC=2.7.7.49;
+DE   Includes:
+DE     RecName: Full=Ribonuclease H;
+DE              EC=3.1.26.4;
+GN   Name=P;
+OS   Duck hepatitis B virus (strain United States/DHBV-16) (DHBV).
+OC   Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+OC   Blubervirales; Hepadnaviridae; Avihepadnavirus.
+OX   NCBI_TaxID=489543;
+OH   NCBI_TaxID=8835; Anas (ducks).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=6699938; DOI=10.1128/jvi.49.3.782-792.1984;
+RA   Mandart E., Kay A., Galibert F.;
+RT   "Nucleotide sequence of a cloned duck hepatitis B virus genome: comparison
+RT   with woodchuck and human hepatitis B virus sequences.";
+RL   J. Virol. 49:782-792(1984).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 794-836.
+RX   PubMed=6328037; DOI=10.1128/jvi.51.1.181-191.1984;
+RA   Molnar-Kimber K.L., Summers J.W., Mason W.S.;
+RT   "Mapping of the cohesive overlap of duck hepatitis B virus DNA and of the
+RT   site of initiation of reverse transcription.";
+RL   J. Virol. 51:181-191(1984).
+RN   [3]
+RP   ACTIVATION BY HOST HSC70 AND HSP40.
+RX   PubMed=12851401; DOI=10.1074/jbc.m301069200;
+RA   Beck J., Nassal M.;
+RT   "Efficient Hsp90-independent in vitro activation by Hsc70 and Hsp40 of duck
+RT   hepatitis B virus reverse transcriptase, an assumed Hsp90 client protein.";
+RL   J. Biol. Chem. 278:36128-36138(2003).
+RN   [4]
+RP   ACTIVATION BY HOST CHAPERONES.
+RX   PubMed=17913810; DOI=10.1128/jvi.01196-07;
+RA   Stahl M., Beck J., Nassal M.;
+RT   "Chaperones activate hepadnavirus reverse transcriptase by transiently
+RT   exposing a C-proximal region in the terminal protein domain that
+RT   contributes to epsilon RNA binding.";
+RL   J. Virol. 81:13354-13364(2007).
+RN   [5]
+RP   REVIEW.
+RX   PubMed=17206754; DOI=10.3748/wjg.v13.i1.48;
+RA   Beck J., Nassal M.;
+RT   "Hepatitis B virus replication.";
+RL   World J. Gastroenterol. 13:48-64(2007).
+CC   -!- FUNCTION: Multifunctional enzyme that converts the viral RNA genome
+CC       into dsDNA in viral cytoplasmic capsids. This enzyme displays a DNA
+CC       polymerase activity that can copy either DNA or RNA templates, and a
+CC       ribonuclease H (RNase H) activity that cleaves the RNA strand of RNA-
+CC       DNA heteroduplexes in a partially processive 3'- to 5'-endonucleasic
+CC       mode. Neo-synthesized pregenomic RNA (pgRNA) are encapsidated together
+CC       with the P protein, and reverse-transcribed inside the nucleocapsid.
+CC       Initiation of reverse-transcription occurs first by binding the epsilon
+CC       loop on the pgRNA genome, and is initiated by protein priming, thereby
+CC       the 5'-end of (-)DNA is covalently linked to P protein. Partial (+)DNA
+CC       is synthesized from the (-)DNA template and generates the relaxed
+CC       circular DNA (RC-DNA) genome. After budding and infection, the RC-DNA
+CC       migrates in the nucleus, and is converted into a plasmid-like
+CC       covalently closed circular DNA (cccDNA). The activity of P protein does
+CC       not seem to be necessary for cccDNA generation, and is presumably
+CC       released from (+)DNA by host nuclear DNA repair machinery (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.7; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU00405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.49; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU00405};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage to 5'-phosphomonoester.; EC=3.1.26.4;
+CC   -!- ACTIVITY REGULATION: Activated by host HSP70 and HSP40 in vitro to be
+CC       able to bind the epsilon loop of the pgRNA. Because deletion of the
+CC       RNase H region renders the protein partly chaperone-independent, the
+CC       chaperones may be needed indirectly to relieve occlusion of the RNA-
+CC       binding site by this domain.
+CC   -!- DOMAIN: Terminal protein domain (TP) is hepadnavirus-specific. Spacer
+CC       domain is highly variable and separates the TP and RT domains.
+CC       Polymerase/reverse-transcriptase domain (RT) and ribonuclease H domain
+CC       (RH) are similar to retrovirus reverse transcriptase/RNase H (By
+CC       similarity). {ECO:0000250}.
+CC   -!- DOMAIN: The polymerase/reverse transcriptase (RT) and ribonuclease H
+CC       (RH) domains are structured in five subdomains: finger, palm, thumb,
+CC       connection and RNase H. Within the palm subdomain, the 'primer grip'
+CC       region is thought to be involved in the positioning of the primer
+CC       terminus for accommodating the incoming nucleotide. The RH domain
+CC       stabilizes the association of RT with primer-template (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the hepadnaviridae P protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; K01834; AAA45742.1; -; Genomic_DNA.
+DR   Proteomes; UP000180685; Genome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003964; F:RNA-directed DNA polymerase activity; IDA:UniProtKB.
+DR   GO; GO:0004523; F:RNA-DNA hybrid ribonuclease activity; IDA:UniProtKB.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0090502; P:RNA phosphodiester bond hydrolysis, endonucleolytic; IDA:UniProtKB.
+DR   Gene3D; 3.30.70.270; -; 1.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR001462; DNApol_viral_C.
+DR   InterPro; IPR000201; DNApol_viral_N.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR000477; RT_dom.
+DR   Pfam; PF00336; DNA_pol_viral_C; 1.
+DR   Pfam; PF00242; DNA_pol_viral_N; 1.
+DR   Pfam; PF00078; RVT_1; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50878; RT_POL; 1.
+PE   3: Inferred from homology;
+KW   DNA replication; DNA-binding; DNA-directed DNA polymerase; Endonuclease;
+KW   Hydrolase; Magnesium; Metal-binding; Multifunctional enzyme; Nuclease;
+KW   Nucleotidyltransferase; RNA-directed DNA polymerase; Transferase.
+FT   CHAIN           1..836
+FT                   /note="Protein P"
+FT                   /id="PRO_0000222327"
+FT   DOMAIN          424..613
+FT                   /note="Reverse transcriptase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00405"
+FT   REGION          51..250
+FT                   /note="Terminal protein domain (TP)"
+FT                   /evidence="ECO:0000250"
+FT   REGION          251..414
+FT                   /note="Spacer"
+FT                   /evidence="ECO:0000250"
+FT   REGION          415..703
+FT                   /note="Polymerase/reverse transcriptase domain (RT)"
+FT                   /evidence="ECO:0000250"
+FT   REGION          704..836
+FT                   /note="RnaseH domain (RH)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           496
+FT                   /note="Magnesium; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00405"
+FT   METAL           563
+FT                   /note="Magnesium; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00405"
+FT   METAL           564
+FT                   /note="Magnesium; catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00405"
+FT   SITE            146
+FT                   /note="Priming of reverse-transcription by covalently
+FT                   linking the first nucleotide of the (-)DNA"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   836 AA;  95276 MW;  FFEB57CFF549A4F4 CRC64;
+     MQKLTRNHWI GLGDCFGGIT TVYCGEKLKL LTIFLVCVLG CQLLRNIEVE MPRPLKQSLD
+     QSRWLREAEK QLRVLENLVD SNLEEEKLKP QLSMGEDVQS PGKGEPLHPN VRAPLSHVVR
+     AATIDLPRLG NKLPARHHLG KLSGLYQMKG CTFNPEWKVP DISDTHFNLD VVNECPSRNW
+     KYLTPAKFWP KSISYFPVQV GVKPKYPDNV MQHESIVGKY LTRLYEAGIL YKRISKHLVT
+     FKGQPYNWEQ QHLVNQHHIY DGATSSKING RQTDRRRRNT VKPTCRKDDP KRDFDMVRQV
+     SNTRSRVRPC ANNGGDKHPP ESGSLACWGG KESRIIKSDS SRDSSAPVDS RGRPKSTRSF
+     SPLSRRKTTG NHHHSSVFPS SVEATTRGRS TPGKSVSPRD SSAIPVRTSG ASDKNSPLEE
+     ENVWYLRGNT SWPNRITGKL FLVDKNSRNT EEARLVVDFS QFSKGKNAMR FPRYWSPNLS
+     TLRRILPVGM PRISLDLSQA FYHLPLNPAS SSRLAVSDGQ RVYYFRKAPM GVGLSPFLLH
+     LFTTALGSEI SRRFNVWTFT YMDDFLLCHP NARHLNAISH AVCSFLQELG IRINFDKTTP
+     SPVNEIRFLG YQIDENFMKI EESRWKELRT VIKKIKVGEW YDWKCIQRFV GHLNFVLPFT
+     KGNIEMLKPM YAAITNQVNF SFSSSYRTLL YKLTMGVCKL RIKPKSSVPL PRVATDATPT
+     HGAISHITGG SAVFAFSKVR DIHVQELLMS CLAKIMIKPR CLLSDSTFVC HKRYQTLPWH
+     FAMLAKQLLK PIQLYFVPSK YNPADGPSRH KPPDWTAFPY TPLSKAIYIP HRLCGT
+//

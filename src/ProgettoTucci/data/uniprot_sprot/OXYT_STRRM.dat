@@ -1,0 +1,113 @@
+ID   OXYT_STRRM              Reviewed;         344 AA.
+AC   Q3S8P6;
+DT   22-NOV-2017, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   10-FEB-2021, entry version 55.
+DE   RecName: Full=N,N-dimethyltransferase OxyT {ECO:0000303|PubMed:18422316};
+DE            EC=2.1.1.335 {ECO:0000269|PubMed:18422316};
+DE   AltName: Full=4-amino-anhydrotetracycline N(4)-methyltransferase {ECO:0000305|PubMed:18422316};
+DE   AltName: Full=S-adenosylmethionine: dedimethylamino-4-aminoanhydrotetracycline N-methyltransferase {ECO:0000303|PubMed:1134373};
+DE   AltName: Full=SAM-dependent methyltransferase {ECO:0000305};
+GN   Name=oxyT {ECO:0000303|PubMed:16597959};
+OS   Streptomyces rimosus.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1927;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=16597959; DOI=10.1128/aem.72.4.2573-2580.2006;
+RA   Zhang W., Ames B.D., Tsai S.C., Tang Y.;
+RT   "Engineered biosynthesis of a novel amidated polyketide, using the
+RT   malonamyl-specific initmguPCPB_SPHCRiation module from the oxytetracycline
+RT   polyketide synthase.";
+RL   Appl. Environ. Microbiol. 72:2573-2580(2006).
+RN   [2]
+RP   FUNCTION, AND SUBSTRATE SPECIFICITY.
+RX   PubMed=1134373; DOI=10.1016/0076-6879(75)43122-6;
+RA   Miller P.A., Hash J.H.;
+RT   "S-adenosylmethionine:dedimethylamino-4-aminoanhydrotetracycline N-
+RT   methyltransferase.";
+RL   Methods Enzymol. 43:603-606(1975).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, DISRUPTION PHENOTYPE, AND PATHWAY.
+RX   PubMed=18422316; DOI=10.1021/ja800951e;
+RA   Zhang W., Watanabe K., Cai X., Jung M.E., Tang Y., Zhan J.;
+RT   "Identifying the minimal enzymes required for anhydrotetracycline
+RT   biosynthesis.";
+RL   J. Am. Chem. Soc. 130:6068-6069(2008).
+CC   -!- FUNCTION: Involved in the biosynthesis of the tetracycline antibiotic,
+CC       oxytetracycline. Catalyzes the dimethylation of 4-amino-4-
+CC       de(dimethylamino)anhydrotetracycline (4-amino-ATC) to yield
+CC       anhydrotetracycline (ATC) (PubMed:1134373, PubMed:18422316). Also able
+CC       to catalyze the dimethylation of 7-chloro-, 6-demethyl-, 2-
+CC       decarboxamido-2-nitrile-, and 4-methylamino-derivatives of 4-amino-4-
+CC       de(dimethylamino)anhydrotetracycline (PubMed:1134373).
+CC       {ECO:0000269|PubMed:1134373, ECO:0000269|PubMed:18422316}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-amino-4-dedimethylamino-anhydrotetracycline + S-adenosyl-L-
+CC         methionine = 4-methylamino-4-dedimethylamino-anhydrotetracycline +
+CC         H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:50764,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:133696, ChEBI:CHEBI:133697; EC=2.1.1.335;
+CC         Evidence={ECO:0000269|PubMed:18422316};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-methylamino-4-dedimethylamino-anhydrotetracycline + S-
+CC         adenosyl-L-methionine = anhydrotetracycline + H(+) + S-adenosyl-L-
+CC         homocysteine; Xref=Rhea:RHEA:50768, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:58032, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:133696; EC=2.1.1.335;
+CC         Evidence={ECO:0000269|PubMed:18422316};
+CC   -!- PATHWAY: Antibiotic biosynthesis; oxytetracycline biosynthesis.
+CC       {ECO:0000305|PubMed:18422316}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene are unable to produce the
+CC       tetracycline intermediate anhydrotetracycline (ATC).
+CC       {ECO:0000269|PubMed:18422316}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. Cation-independent O-methyltransferase family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01020}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ143963; AAZ78343.1; -; Genomic_DNA.
+DR   RefSeq; WP_003981037.1; NZ_SADA01000149.1.
+DR   SMR; Q3S8P6; -.
+DR   GeneID; 57895593; -.
+DR   KEGG; ag:AAZ78343; -.
+DR   UniPathway; UPA00926; -.
+DR   GO; GO:0008171; F:O-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR031725; ASMT_dimerisation.
+DR   InterPro; IPR016461; COMT-like.
+DR   InterPro; IPR001077; O_MeTrfase_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   Pfam; PF16864; Dimerisation2; 1.
+DR   Pfam; PF00891; Methyltransf_2; 1.
+DR   PIRSF; PIRSF005739; O-mtase; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS51683; SAM_OMT_II; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; Methyltransferase; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..344
+FT                   /note="N,N-dimethyltransferase OxyT"
+FT                   /id="PRO_0000442358"
+FT   REGION          231..233
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+FT   BINDING         205
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+SQ   SEQUENCE   344 AA;  37376 MW;  A1438045D1D14B48 CRC64;
+     MTTTPLAPVA QARSLLQLTT AYHQAKALHS AVELGLFDLL ADGPATAEEV KDRLRIVHPL
+     AKEFLDALVA LELLEADGDR YRNSPAAQAF LVSGASEYLG GTVLQHARKH YHVWAGLTTA
+     LQEGEAGSGA EAHGPEAYPK HYEDPERARQ VMAHFDTFSS FTAEELARRV DWSGYGSFID
+     IGGARGNLAT RVALAHPHLH GAVFDLPALA PLAGELIRER GLEGRVRFHG GDFLTDPLPS
+     ADAVVTGHVL PDWPVPQRRK LLARIHEALP SGGALVVYDL MTDPATTTVH DVLQRLNHGL
+     IRGDSSSSSV EEYRAEIEEA GFRVRQAERI DNLLGDWLIV AVKP
+//

@@ -1,0 +1,104 @@
+ID   NADK1_BACCR             Reviewed;         265 AA.
+AC   Q81GJ9;
+DT   22-AUG-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   10-FEB-2021, entry version 102.
+DE   RecName: Full=NAD kinase 1 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase 1 {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   Name=nadK1 {ECO:0000255|HAMAP-Rule:MF_00361}; OrderedLocusNames=BC_1199;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB
+OS   9373 / NRRL B-3711).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NRRL
+RC   B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance of
+CC       NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + NAD(+) = ADP + H(+) + NADP(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP08185.1; -; Genomic_DNA.
+DR   RefSeq; NP_830984.1; NC_004722.1.
+DR   RefSeq; WP_000673190.1; NZ_CP034551.1.
+DR   SMR; Q81GJ9; -.
+DR   EnsemblBacteria; AAP08185; AAP08185; BC_1199.
+DR   GeneID; 51132812; -.
+DR   GeneID; 56442067; -.
+DR   KEGG; bce:BC1199; -.
+DR   PATRIC; fig|226900.8.peg.1167; -.
+DR   HOGENOM; CLU_008831_0_3_9; -.
+DR   OMA; NGIERMS; -.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IBA:GO_Central.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; NAD; NADP; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..265
+FT                   /note="NAD kinase 1"
+FT                   /id="PRO_0000120593"
+FT   NP_BIND         45..46
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   NP_BIND         122..123
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   ACT_SITE        45
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         148
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         150
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         185
+FT                   /note="NAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+SQ   SEQUENCE   265 AA;  29766 MW;  53DA54FC1976DAB8 CRC64;
+     MKFTIMSKGD QSSDTLASTM KEYLLDFGFI MDEKEPDIVI SVGGDGTLLY AFHRYYNRLD
+     ETAFVGVHTG HLGFYADWLP TEVEKLVIAI AKTPFQVVEY PLLEVIIRYV NGSKESQYLA
+     MNEATVKSAE GTLVTEVEIR GEYFETFRGD GLCISTPSGS TAYNKALGGA IIHPSIEAIQ
+     IAEMASINNR VFRTVGSPLV LPKHHTCVLK PAAGMNLQIT VDHLTMVHQD VKSIQYRVAN
+     EKVRFVRFRP FPFWKRVRDS FVADK
+//

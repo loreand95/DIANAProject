@@ -1,0 +1,108 @@
+ID   NADK_MYCGE              Reviewed;         259 AA.
+AC   P47374; Q49458;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   02-DEC-2020, entry version 122.
+DE   RecName: Full=NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000255|HAMAP-Rule:MF_00361}; OrderedLocusNames=MG128;
+OS   Mycoplasma genitalium (strain ATCC 33530 / G-37 / NCTC 10195).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=243273;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33530 / G-37 / NCTC 10195;
+RX   PubMed=7569993; DOI=10.1126/science.270.5235.397;
+RA   Fraser C.M., Gocayne J.D., White O., Adams M.D., Clayton R.A.,
+RA   Fleischmann R.D., Bult C.J., Kerlavage A.R., Sutton G.G., Kelley J.M.,
+RA   Fritchman J.L., Weidman J.F., Small K.V., Sandusky M., Fuhrmann J.L.,
+RA   Nguyen D.T., Utterback T.R., Saudek D.M., Phillips C.A., Merrick J.M.,
+RA   Tomb J.-F., Dougherty B.A., Bott K.F., Hu P.-C., Lucier T.S.,
+RA   Peterson S.N., Smith H.O., Hutchison C.A. III, Venter J.C.;
+RT   "The minimal gene complement of Mycoplasma genitalium.";
+RL   Science 270:397-403(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 121-180.
+RC   STRAIN=ATCC 33530 / G-37 / NCTC 10195;
+RX   PubMed=8253680; DOI=10.1128/jb.175.24.7918-7930.1993;
+RA   Peterson S.N., Hu P.-C., Bott K.F., Hutchison C.A. III;
+RT   "A survey of the Mycoplasma genitalium genome by using random sequencing.";
+RL   J. Bacteriol. 175:7918-7930(1993).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance of
+CC       NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + NAD(+) = ADP + H(+) + NADP(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L43967; AAC71346.1; -; Genomic_DNA.
+DR   EMBL; U01806; AAD12334.1; -; Genomic_DNA.
+DR   PIR; B64214; B64214.
+DR   RefSeq; WP_009885682.1; NZ_AAGX01000002.1.
+DR   SMR; P47374; -.
+DR   STRING; 243273.MG_128; -.
+DR   EnsemblBacteria; AAC71346; AAC71346; MG_128.
+DR   KEGG; mge:MG_128; -.
+DR   eggNOG; COG0061; Bacteria.
+DR   HOGENOM; CLU_008831_0_3_14; -.
+DR   OMA; KDNSFWE; -.
+DR   OrthoDB; 1463423at2; -.
+DR   BioCyc; MGEN243273:G1GJ2-141-MONOMER; -.
+DR   Proteomes; UP000000807; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IBA:GO_Central.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IBA:GO_Central.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; NAD; NADP; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..259
+FT                   /note="NAD kinase"
+FT                   /id="PRO_0000120637"
+FT   NP_BIND         43..44
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   NP_BIND         111..112
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   ACT_SITE        43
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         136
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   CONFLICT        171..180
+FT                   /note="ELNPLLHPNQ -> RTKPLTYIPT (in Ref. 2; AAD12334)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   259 AA;  29200 MW;  4E225F844F4B3074 CRC64;
+     MKYKIFASTT PQTEPVLNKL RAVLKTWQAV ENGYEYVFVL GGDGFFVSTL ANYNCDSCKV
+     VGINTGHIGF YTSFNGDDLD ENFISKLTSF EFKKINLLEV KTKNHSFLVL NELAVYTNTA
+     YPINIFIDDN HWESYRGSGL LIGPRTGSTA LAKSAKGAVI FPNVDVVQII ELNPLLHPNQ
+     ITIQSPIILP MQTKVEFRIK KAFKAEQFPN FYADGIKLDL KNEDTSISFQ LVLSRSMFHA
+     SLKTKDFIDK LKSTFIKQS
+//

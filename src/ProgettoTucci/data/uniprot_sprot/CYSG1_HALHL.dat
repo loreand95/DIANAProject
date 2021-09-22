@@ -1,0 +1,193 @@
+ID   CYSG1_HALHL             Reviewed;         484 AA.
+AC   A1WWP8;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=Siroheme synthase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Uroporphyrinogen-III C-methyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              Short=Urogen III methylase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=2.1.1.107 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE     AltName: Full=SUMT 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE     AltName: Full=Uroporphyrinogen III methylase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              Short=UROM 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Precorrin-2 dehydrogenase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=1.3.1.76 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE   Includes:
+DE     RecName: Full=Sirohydrochlorin ferrochelatase 1 {ECO:0000255|HAMAP-Rule:MF_01646};
+DE              EC=4.99.1.4 {ECO:0000255|HAMAP-Rule:MF_01646};
+GN   Name=cysG1 {ECO:0000255|HAMAP-Rule:MF_01646}; OrderedLocusNames=Hhal_1343;
+OS   Halorhodospira halophila (strain DSM 244 / SL1) (Ectothiorhodospira
+OS   halophila (strain DSM 244 / SL1)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales;
+OC   Ectothiorhodospiraceae; Halorhodospira.
+OX   NCBI_TaxID=349124;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 244 / SL1;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Saunders E., Brettin T., Bruce D., Han C., Tapia R., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Hoff W.,
+RA   Richardson P.;
+RT   "Complete sequence of Halorhodospira halophila SL1.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Multifunctional enzyme that catalyzes the SAM-dependent
+CC       methylations of uroporphyrinogen III at position C-2 and C-7 to form
+CC       precorrin-2 via precorrin-1. Then it catalyzes the NAD-dependent ring
+CC       dehydrogenation of precorrin-2 to yield sirohydrochlorin. Finally, it
+CC       catalyzes the ferrochelation of sirohydrochlorin to yield siroheme.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 S-adenosyl-L-methionine + uroporphyrinogen III = H(+) +
+CC         precorrin-2 + 2 S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:32459,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57308, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:58827, ChEBI:CHEBI:59789; EC=2.1.1.107;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + precorrin-2 = 2 H(+) + NADH + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:15613, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:58351, ChEBI:CHEBI:58827; EC=1.3.1.76;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + siroheme = Fe(2+) + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:24360, ChEBI:CHEBI:15378, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:58351, ChEBI:CHEBI:60052; EC=4.99.1.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01646};
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       precorrin-2 from uroporphyrinogen III: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01646}.
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       sirohydrochlorin from precorrin-2: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; precorrin-2 from uroporphyrinogen III: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; siroheme from sirohydrochlorin: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; siroheme
+CC       biosynthesis; sirohydrochlorin from precorrin-2: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the precorrin-2
+CC       dehydrogenase / sirohydrochlorin ferrochelatase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the precorrin
+CC       methyltransferase family. {ECO:0000255|HAMAP-Rule:MF_01646}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000544; ABM62110.1; -; Genomic_DNA.
+DR   RefSeq; WP_011814132.1; NC_008789.1.
+DR   SMR; A1WWP8; -.
+DR   STRING; 349124.Hhal_1343; -.
+DR   EnsemblBacteria; ABM62110; ABM62110; Hhal_1343.
+DR   KEGG; hha:Hhal_1343; -.
+DR   eggNOG; COG0007; Bacteria.
+DR   eggNOG; COG1648; Bacteria.
+DR   HOGENOM; CLU_011276_2_2_6; -.
+DR   OMA; HQQLAWF; -.
+DR   OrthoDB; 1185397at2; -.
+DR   UniPathway; UPA00148; UER00211.
+DR   UniPathway; UPA00148; UER00222.
+DR   UniPathway; UPA00262; UER00211.
+DR   UniPathway; UPA00262; UER00222.
+DR   UniPathway; UPA00262; UER00376.
+DR   Proteomes; UP000000647; Chromosome.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0043115; F:precorrin-2 dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051266; F:sirohydrochlorin ferrochelatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004851; F:uroporphyrin-III C-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0019354; P:siroheme biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd11642; SUMT; 1.
+DR   Gene3D; 1.10.8.210; -; 1.
+DR   Gene3D; 3.30.160.110; -; 1.
+DR   Gene3D; 3.30.950.10; -; 1.
+DR   Gene3D; 3.40.1010.10; -; 1.
+DR   HAMAP; MF_01646; Siroheme_synth; 1.
+DR   InterPro; IPR000878; 4pyrrol_Mease.
+DR   InterPro; IPR035996; 4pyrrol_Methylase_sf.
+DR   InterPro; IPR014777; 4pyrrole_Mease_sub1.
+DR   InterPro; IPR014776; 4pyrrole_Mease_sub2.
+DR   InterPro; IPR006366; CobA/CysG_C.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR037115; Sirohaem_synt_dimer_dom_sf.
+DR   InterPro; IPR012409; Sirohaem_synth.
+DR   InterPro; IPR043152; Sirohaem_synthase-like_central.
+DR   InterPro; IPR028281; Sirohaem_synthase_central.
+DR   InterPro; IPR019478; Sirohaem_synthase_dimer_dom.
+DR   InterPro; IPR006367; Sirohaem_synthase_N.
+DR   InterPro; IPR003043; Uropor_MeTrfase_CS.
+DR   Pfam; PF10414; CysG_dimeriser; 1.
+DR   Pfam; PF14824; Sirohm_synth_M; 1.
+DR   Pfam; PF00590; TP_methylase; 1.
+DR   PIRSF; PIRSF036426; Sirohaem_synth; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   SUPFAM; SSF53790; SSF53790; 1.
+DR   TIGRFAMs; TIGR01469; cobA_cysG_Cterm; 1.
+DR   TIGRFAMs; TIGR01470; cysG_Nterm; 1.
+DR   PROSITE; PS00840; SUMT_2; 1.
+PE   3: Inferred from homology;
+KW   Cobalamin biosynthesis; Lyase; Methyltransferase; Multifunctional enzyme;
+KW   NAD; Oxidoreductase; Phosphoprotein; Porphyrin biosynthesis;
+KW   Reference proteome; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..484
+FT                   /note="Siroheme synthase 1"
+FT                   /id="PRO_0000330516"
+FT   NP_BIND         22..23
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   NP_BIND         43..44
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          1..205
+FT                   /note="Precorrin-2 dehydrogenase /sirohydrochlorin
+FT                   ferrochelatase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          220..484
+FT                   /note="Uroporphyrinogen-III C-methyltransferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          305..307
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   REGION          335..336
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   ACT_SITE        252
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   ACT_SITE        274
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         229
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         310
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         387
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   BINDING         416
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen and
+FT                   carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+FT   MOD_RES         130
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01646"
+SQ   SEQUENCE   484 AA;  52541 MW;  A45763C4C1213E0D CRC64;
+     MHHYPIFLKL HGCRCLVVGG GEAAARRAGD LLRAGARVEL IAPVLAAPCE QLLDTSPGEL
+     HHRAEPFAAG MEEGAALVVG ASGDEATDRT VYEACRARGI PVNVAGRPSL STYITPVQVD
+     RSPLQLAVSS GGAAPVLARQ IASRLETLLP AAYGRLARLA GRMREQVRVA LPDKDWRLRF
+     WEQIFDGAAA ESVLAGREAE GEAELLRLLE QEQARPAPQG EVFLVGAGPG DPDLLTFRAL
+     RLMQRADVVL YDRLAAPALL DLVRKEAERI PVGKRRGRHT LPQERINERL VELARAGKRV
+     LRLKGGDPFL FGRGGEEIEG LIEQDIPFQV VPGISAAQGA ASYAGIPLTH RDYAQTCRLL
+     TGHRRAGHPQ MKAHAPYRQD ETLIIYMGLV NLEAVCEQLC ECGLPPEHPA AVVAQATTPQ
+     QRVVLGNLRT LAERVRAERV ESPALVVVGP TVQLHPRLGW YRGEAEDRDA AASIDPCWTG
+     GMRD
+//

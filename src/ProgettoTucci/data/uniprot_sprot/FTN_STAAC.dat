@@ -1,0 +1,100 @@
+ID   FTN_STAAC               Reviewed;         166 AA.
+AC   Q5HEN0;
+DT   21-AUG-2007, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   07-APR-2021, entry version 92.
+DE   RecName: Full=Bacterial non-heme ferritin;
+DE            EC=1.16.3.2;
+GN   Name=ftnA; OrderedLocusNames=SACOL1952;
+OS   Staphylococcus aureus (strain COL).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93062;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=COL;
+RX   PubMed=15774886; DOI=10.1128/jb.187.7.2426-2438.2005;
+RA   Gill S.R., Fouts D.E., Archer G.L., Mongodin E.F., DeBoy R.T., Ravel J.,
+RA   Paulsen I.T., Kolonay J.F., Brinkac L.M., Beanan M.J., Dodson R.J.,
+RA   Daugherty S.C., Madupu R., Angiuoli S.V., Durkin A.S., Haft D.H.,
+RA   Vamathevan J.J., Khouri H., Utterback T.R., Lee C., Dimitrov G., Jiang L.,
+RA   Qin H., Weidman J., Tran K., Kang K.H., Hance I.R., Nelson K.E.,
+RA   Fraser C.M.;
+RT   "Insights on evolution of virulence and resistance from the complete genome
+RT   analysis of an early methicillin-resistant Staphylococcus aureus strain and
+RT   a biofilm-producing methicillin-resistant Staphylococcus epidermidis
+RT   strain.";
+RL   J. Bacteriol. 187:2426-2438(2005).
+CC   -!- FUNCTION: Iron-storage protein. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4 Fe(2+) + 6 H2O + O2 = 12 H(+) + 4 iron(III) oxide-hydroxide;
+CC         Xref=Rhea:RHEA:11972, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:29033, ChEBI:CHEBI:78619; EC=1.16.3.2;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ferritin family. Prokaryotic subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000046; AAW38393.1; -; Genomic_DNA.
+DR   RefSeq; WP_000949467.1; NC_002951.2.
+DR   SMR; Q5HEN0; -.
+DR   EnsemblBacteria; AAW38393; AAW38393; SACOL1952.
+DR   GeneID; 59700688; -.
+DR   KEGG; sac:SACOL1952; -.
+DR   HOGENOM; CLU_065681_1_2_9; -.
+DR   OMA; CEDKGFE; -.
+DR   BioCyc; SAUR93062:G1G4B-2144-MONOMER; -.
+DR   Proteomes; UP000000530; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008199; F:ferric iron binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006879; P:cellular iron ion homeostasis; IEA:UniProtKB-KW.
+DR   GO; GO:0006826; P:iron ion transport; IEA:InterPro.
+DR   CDD; cd01055; Nonheme_Ferritin; 1.
+DR   Gene3D; 1.20.1260.10; -; 1.
+DR   InterPro; IPR001519; Ferritin.
+DR   InterPro; IPR012347; Ferritin-like.
+DR   InterPro; IPR009040; Ferritin-like_diiron.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR008331; Ferritin_DPS_dom.
+DR   InterPro; IPR041719; Ferritin_prok.
+DR   PANTHER; PTHR11431; PTHR11431; 1.
+DR   Pfam; PF00210; Ferritin; 1.
+DR   SUPFAM; SSF47240; SSF47240; 1.
+DR   PROSITE; PS50905; FERRITIN_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Iron; Iron storage; Metal-binding; Oxidoreductase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..166
+FT                   /note="Bacterial non-heme ferritin"
+FT                   /id="PRO_0000298964"
+FT   DOMAIN          2..145
+FT                   /note="Ferritin-like diiron"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           17
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           50
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           50
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           53
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           94
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           127
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+SQ   SEQUENCE   166 AA;  19589 MW;  A8B3B5ECFBA82EEF CRC64;
+     MLSKNLLEAL NDQMNHEYFA AHAYMAMAAY CDKESYEGFA NFFIQQAKEE RFHGQKIYNY
+     INDRGAHAEF RAVSAPKIDF SSILETFKDS LSQEQEVTRR FYNLSEIARQ DKDYATISFL
+     NWFLDEQVEE ESMFETHINY LTRIGDDSNA LYLYEKELGA RTFDEE
+//

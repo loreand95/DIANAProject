@@ -1,0 +1,81 @@
+ID   PUP_CORA7               Reviewed;          63 AA.
+AC   C3PGA2;
+DT   19-JAN-2010, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   10-FEB-2021, entry version 51.
+DE   RecName: Full=Prokaryotic ubiquitin-like protein Pup {ECO:0000255|HAMAP-Rule:MF_02106};
+DE   AltName: Full=Bacterial ubiquitin-like modifier {ECO:0000255|HAMAP-Rule:MF_02106};
+GN   Name=pup {ECO:0000255|HAMAP-Rule:MF_02106}; OrderedLocusNames=cauri_1263;
+OS   Corynebacterium aurimucosum (strain ATCC 700975 / DSM 44827 / CIP 107346 /
+OS   CN-1) (Corynebacterium nigricans).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;
+OC   Corynebacterium.
+OX   NCBI_TaxID=548476;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700975 / DSM 44827 / CIP 107346 / CN-1;
+RX   PubMed=20137072; DOI=10.1186/1471-2164-11-91;
+RA   Trost E., Gotker S., Schneider J., Schneiker-Bekel S., Szczepanowski R.,
+RA   Tilker A., Viehoever P., Arnold W., Bekel T., Blom J., Gartemann K.H.,
+RA   Linke B., Goesmann A., Puhler A., Shukla S.K., Tauch A.;
+RT   "Complete genome sequence and lifestyle of black-pigmented Corynebacterium
+RT   aurimucosum ATCC 700975 (formerly C. nigricans CN-1) isolated from a
+RT   vaginal swab of a woman with spontaneous abortion.";
+RL   BMC Genomics 11:91-91(2010).
+CC   -!- FUNCTION: Protein modifier that is covalently attached to lysine
+CC       residues of substrate proteins, thereby targeting them for proteasomal
+CC       degradation. The tagging system is termed pupylation.
+CC       {ECO:0000255|HAMAP-Rule:MF_02106}.
+CC   -!- PATHWAY: Protein degradation; proteasomal Pup-dependent pathway.
+CC       {ECO:0000255|HAMAP-Rule:MF_02106}.
+CC   -!- SUBUNIT: Strongly interacts with the proteasome-associated ATPase ARC
+CC       through a hydrophobic interface; the interacting region of Pup lies in
+CC       its C-terminal half. There is one Pup binding site per ARC hexamer
+CC       ring. {ECO:0000255|HAMAP-Rule:MF_02106}.
+CC   -!- DOMAIN: The N-terminal unstructured half of Pup provides a signal
+CC       required to initiate unfolding and degradation by the proteasome but is
+CC       not needed for pupylation, while the C-terminal helical half of Pup
+CC       interacts with ARC to target proteins to the proteasome.
+CC       {ECO:0000255|HAMAP-Rule:MF_02106}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic ubiquitin-like protein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_02106}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001601; ACP32856.1; -; Genomic_DNA.
+DR   RefSeq; WP_010186632.1; NZ_ACLH01000002.1.
+DR   SMR; C3PGA2; -.
+DR   STRING; 548476.cauri_1263; -.
+DR   EnsemblBacteria; ACP32856; ACP32856; cauri_1263.
+DR   KEGG; car:cauri_1263; -.
+DR   eggNOG; ENOG5033BS6; Bacteria.
+DR   HOGENOM; CLU_183816_1_0_11; -.
+DR   OMA; GREDHEV; -.
+DR   UniPathway; UPA00997; -.
+DR   Proteomes; UP000002077; Chromosome.
+DR   GO; GO:0070628; F:proteasome binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0031386; F:protein tag; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019941; P:modification-dependent protein catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010498; P:proteasomal protein catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070490; P:protein pupylation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_02106; Pup; 1.
+DR   InterPro; IPR008515; Ubiquitin-like_Pup.
+DR   Pfam; PF05639; Pup; 1.
+DR   TIGRFAMs; TIGR03687; pupylate_cterm; 1.
+PE   3: Inferred from homology;
+KW   Isopeptide bond; Reference proteome; Ubl conjugation pathway.
+FT   CHAIN           1..63
+FT                   /note="Prokaryotic ubiquitin-like protein Pup"
+FT                   /id="PRO_0000390573"
+FT   REGION          19..57
+FT                   /note="ARC ATPase binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02106"
+FT   CROSSLNK        63
+FT                   /note="Isoglutamyl lysine isopeptide (Glu-Lys) (interchain
+FT                   with K-? in acceptor proteins)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02106"
+SQ   SEQUENCE   63 AA;  6462 MW;  E6096A762597AD64 CRC64;
+     MSGQQSQINA GGGNGQGGDT PEFDAGQVSI NSAGTDDLLD EIDGLLESNA EEFVRSYVQK
+     GGE
+//

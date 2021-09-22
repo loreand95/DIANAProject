@@ -1,0 +1,107 @@
+ID   SUS1_SOLTU              Reviewed;         805 AA.
+AC   P10691;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Sucrose synthase;
+DE            EC=2.4.1.13;
+DE   AltName: Full=SS16;
+DE   AltName: Full=Sucrose-UDP glucosyltransferase;
+OS   Solanum tuberosum (Potato).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Solanaceae; Solanoideae; Solaneae; Solanum.
+OX   NCBI_TaxID=4113;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Sirtema;
+RX   PubMed=2964386; DOI=10.1016/0378-1119(87)90212-5;
+RA   Salanoubat M., Belliard G.;
+RT   "Molecular cloning and sequencing of sucrose synthase cDNA from potato
+RT   (Solanum tuberosum L.): preliminary characterization of sucrose synthase
+RT   mRNA distribution.";
+RL   Gene 60:47-56(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. FL1607; TISSUE=Leaf;
+RX   PubMed=8589622; DOI=10.2307/3870128;
+RA   Fu H., Park W.D.;
+RT   "Sink- and vascular-associated sucrose synthase functions are encoded by
+RT   different gene classes in potato.";
+RL   Plant Cell 7:1369-1385(1995).
+CC   -!- FUNCTION: Sucrose-cleaving enzyme that provides UDP-glucose and
+CC       fructose for various metabolic pathways.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an NDP-alpha-D-glucose + D-fructose = a ribonucleoside 5'-
+CC         diphosphate + H(+) + sucrose; Xref=Rhea:RHEA:16241,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17992, ChEBI:CHEBI:37721,
+CC         ChEBI:CHEBI:57930, ChEBI:CHEBI:76533; EC=2.4.1.13;
+CC   -!- TISSUE SPECIFICITY: Expression is at least 10-fold higher in tubers
+CC       compared to photosynthetically active tissues.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 1 family. Plant sucrose
+CC       synthase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M18745; AAA33841.1; -; mRNA.
+DR   EMBL; U24087; AAA97571.1; -; Genomic_DNA.
+DR   PIR; A29615; YUPOS.
+DR   SMR; P10691; -.
+DR   STRING; 4113.PGSC0003DMT400007505; -.
+DR   CAZy; GT4; Glycosyltransferase Family 4.
+DR   PRIDE; P10691; -.
+DR   ProMEX; P10691; -.
+DR   eggNOG; KOG0853; Eukaryota.
+DR   BRENDA; 2.4.1.13; 5757.
+DR   SABIO-RK; P10691; -.
+DR   Proteomes; UP000011115; Unassembled WGS sequence.
+DR   ExpressionAtlas; P10691; baseline and differential.
+DR   GO; GO:0016157; F:sucrose synthase activity; IBA:GO_Central.
+DR   GO; GO:0005985; P:sucrose metabolic process; IEA:InterPro.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR000368; Sucrose_synth.
+DR   InterPro; IPR012820; Sucrose_synthase_pln/cyn.
+DR   PANTHER; PTHR45839; PTHR45839; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   Pfam; PF00862; Sucrose_synth; 1.
+DR   TIGRFAMs; TIGR02470; sucr_synth; 1.
+PE   2: Evidence at transcript level;
+KW   Glycosyltransferase; Reference proteome; Transferase.
+FT   CHAIN           1..805
+FT                   /note="Sucrose synthase"
+FT                   /id="PRO_0000204661"
+FT   REGION          275..752
+FT                   /note="GT-B glycosyltransferase"
+FT                   /evidence="ECO:0000250|UniProtKB:P49040"
+FT   CONFLICT        221
+FT                   /note="E -> D (in Ref. 2; AAA97571)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        731..732
+FT                   /note="KD -> RE (in Ref. 2; AAA97571)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        741
+FT                   /note="M -> T (in Ref. 2; AAA97571)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        748
+FT                   /note="E -> Q (in Ref. 2; AAA97571)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        759
+FT                   /note="S -> R (in Ref. 2; AAA97571)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   805 AA;  92416 MW;  C453363A7CD32809 CRC64;
+     MAERVLTRVH SLRERVDATL AAHRNEILLF LSRIESHGKG ILKPHELLAE FDAIRQDDKN
+     KLNEHAFEEL LKSTQEAIVL PPWVALAIRL RPGVWEYIRV NVNALVVEEL SVPEYLQFKE
+     ELVDGASNGN FVLELDFEPF TASFPKPTLT KSIGNGVEFL NRHLSAKMFH DKESMTPLLE
+     FLRAHHYKGK TMMLNDRIQN SNTLQNVLRK AEEYLIMLPP ETPYFEFEHK FQEIGLEKGW
+     GDTAERVLEM VCMLLDLLEA PDSCTLEKFL GRIPMVFNVV ILSPHGYFAQ ENVLGYPDTG
+     GQVVYILDQV PALEREMLKR IKEQGLDIIP RILIVTRLLP DAVGTTCGQR IEKVYGAEHS
+     HILRVPFRTE KGIVRKWISR FEVWPYMETF IEDVAKEISA ELQAKPDLII GNYSEGNLAA
+     SLLAHKLGVT QCTIAHALEK TKYPDSDIYW KKFDEKYHFS SQFTADLIAM NHTDFIITST
+     FQEIAGSKDT VGQYESHMAF TMPGLYRVVH GINVFDPKFN IVSPGADINL YFSYSETEKR
+     LTAFHPEIDE LLYSDVENDE HLCVLKDRTK PILFTMARLD RVKNLTGLVE WYAKNPRLRG
+     LVNLVVVGGD RRKESKDLEE QAEMKKMYEL IETHNLNGQF RWISSQMNRV RNGELYRYIA
+     DTKGAFVQPA FYEAFGLTVV EAMTCGLPTF ATNHGGPAEI IVHGKSGFHI DPYHGEQAAD
+     LLADFFEKCK KDPSHWETIS MGGLKRIEEK YTWQIYSESL LTLAAVYGFW KHVSKLDRLE
+     IRRYLEMFYA LKYRKMAEAV PLAAE
+//

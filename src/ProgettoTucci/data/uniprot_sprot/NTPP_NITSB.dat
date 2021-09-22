@@ -1,0 +1,89 @@
+ID   NTPP_NITSB              Reviewed;         185 AA.
+AC   A6Q573;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   07-APR-2021, entry version 63.
+DE   RecName: Full=Nucleoside triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            EC=3.6.1.9 {ECO:0000255|HAMAP-Rule:MF_00528};
+DE   AltName: Full=Nucleotide pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00528};
+DE            Short=Nucleotide PPase {ECO:0000255|HAMAP-Rule:MF_00528};
+GN   OrderedLocusNames=NIS_1525;
+OS   Nitratiruptor sp. (strain SB155-2).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Nautiliales;
+OC   Nitratiruptoraceae; Nitratiruptor; unclassified Nitratiruptor.
+OX   NCBI_TaxID=387092;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SB155-2;
+RX   PubMed=17615243; DOI=10.1073/pnas.0700687104;
+RA   Nakagawa S., Takaki Y., Shimamura S., Reysenbach A.-L., Takai K.,
+RA   Horikoshi K.;
+RT   "Deep-sea vent epsilon-proteobacterial genomes provide insights into
+RT   emergence of pathogens.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:12146-12150(2007).
+CC   -!- FUNCTION: Nucleoside triphosphate pyrophosphatase. May have a dual role
+CC       in cell division arrest and in preventing the incorporation of modified
+CC       nucleotides into cellular nucleic acids. {ECO:0000255|HAMAP-
+CC       Rule:MF_00528}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-
+CC         phosphate + diphosphate + H(+); Xref=Rhea:RHEA:23996,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:58043, ChEBI:CHEBI:61557; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + H2O = a 2'-
+CC         deoxyribonucleoside 5'-phosphate + diphosphate + H(+);
+CC         Xref=Rhea:RHEA:44644, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:61560, ChEBI:CHEBI:65317; EC=3.6.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00528};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00528}.
+CC   -!- SIMILARITY: Belongs to the Maf family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00528}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009178; BAF70632.1; -; Genomic_DNA.
+DR   RefSeq; WP_012082895.1; NC_009662.1.
+DR   SMR; A6Q573; -.
+DR   STRING; 387092.NIS_1525; -.
+DR   EnsemblBacteria; BAF70632; BAF70632; NIS_1525.
+DR   KEGG; nis:NIS_1525; -.
+DR   eggNOG; COG0424; Bacteria.
+DR   HOGENOM; CLU_040416_2_2_7; -.
+DR   OMA; EFVYLAC; -.
+DR   OrthoDB; 1469203at2; -.
+DR   BioCyc; NSP387092:G1G2O-1633-MONOMER; -.
+DR   Proteomes; UP000001118; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0036218; F:dTTP diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0035529; F:NADH pyrophosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd00555; Maf; 1.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_00528; Maf; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR003697; Maf-like.
+DR   PANTHER; PTHR43213; PTHR43213; 1.
+DR   Pfam; PF02545; Maf; 1.
+DR   PIRSF; PIRSF006305; Maf; 1.
+DR   SUPFAM; SSF52972; SSF52972; 1.
+DR   TIGRFAMs; TIGR00172; maf; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Nucleotide metabolism; Reference proteome.
+FT   CHAIN           1..185
+FT                   /note="Nucleoside triphosphate pyrophosphatase"
+FT                   /id="PRO_1000060951"
+FT   ACT_SITE        70
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00528"
+SQ   SEQUENCE   185 AA;  20838 MW;  9AA1CA7152813099 CRC64;
+     MIRLASTSET RAKLLQDTGI EFIQSPVDFD EEELLKVYKN PRDFVCAAAR GKMEAAVEKY
+     GLEIPIVAAD TVVAVSDEIL RKAKDEEEAR KILQKQSGNK VDIITCMIYK DKEKTVEDLD
+     VTSYIFAPFD EEDLQNYLKS GQWRGKAGAC MVEGFCKKYI KEVLGRESTA MGLQVERLAE
+     IAKDL
+//

@@ -1,0 +1,194 @@
+ID   DPO4_SACSO              Reviewed;         354 AA.
+AC   P96022;
+DT   02-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=DNA polymerase IV;
+DE            Short=Pol IV;
+DE            EC=2.7.7.7;
+GN   Name=dbh;
+OS   Saccharolobus solfataricus (Sulfolobus solfataricus).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Saccharolobus.
+OX   NCBI_TaxID=2287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 35091 / DSM 1616 / JCM 8930 / NBRC 15331 / P1;
+RX   PubMed=8876701; DOI=10.1016/0027-5107(96)00164-9;
+RA   Kulaeva O.I., Koonin E.V., McDonald J.P., Randall S.K., Rabinovich N.,
+RA   Connaughton J.F., Levine A.S., Woodgate R.;
+RT   "Identification of a DinB/UmuC homolog in the archeon Sulfolobus
+RT   solfataricus.";
+RL   Mutat. Res. 357:245-253(1996).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 2-216.
+RC   STRAIN=ATCC 35091 / DSM 1616 / JCM 8930 / NBRC 15331 / P1;
+RX   PubMed=11545744; DOI=10.1016/s1097-2765(01)00310-0;
+RA   Zhou B.-L., Pata J.D., Steitz T.A.;
+RT   "Crystal structure of a DinB lesion bypass DNA polymerase catalytic
+RT   fragment reveals a classic polymerase catalytic domain.";
+RL   Mol. Cell 8:427-437(2001).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS).
+RX   PubMed=11685247; DOI=10.1038/nsb1101-984;
+RA   Silvian L.F., Toth E.A., Pham P., Goodman M.F., Ellenberger T.;
+RT   "Crystal structure of a DinB family error-prone DNA polymerase from
+RT   Sulfolobus solfataricus.";
+RL   Nat. Struct. Biol. 8:984-989(2001).
+CC   -!- FUNCTION: Poorly processive, error-prone DNA polymerase involved in
+CC       untargeted mutagenesis. Copies undamaged DNA at stalled replication
+CC       forks, which arise in vivo from mismatched or misaligned primer ends.
+CC       These misaligned primers can be extended by PolIV. Exhibits no 3'-5'
+CC       exonuclease (proofreading) activity. May be involved in translesional
+CC       synthesis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.7;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Note=Binds 2 magnesium ions per subunit.;
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- DOMAIN: The catalytic core consists of fingers, palm and thumb
+CC       subdomains, but the fingers and thumb subdomains are much smaller than
+CC       in high-fidelity polymerases; residues from five sequence motifs of the
+CC       Y-family cluster around an active site cleft that can accommodate DNA
+CC       and nucleotide substrates with relaxed geometric constraints, with
+CC       consequently higher rates of misincorporation and low processivity. It
+CC       lacks the O helices present in high-fidelity DNA polymerases in the
+CC       fingers domain.
+CC   -!- SIMILARITY: Belongs to the DNA polymerase type-Y family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U52110; AAB38090.1; -; Genomic_DNA.
+DR   PIR; T46875; T46875.
+DR   PDB; 1IM4; X-ray; 2.30 A; A=2-216.
+DR   PDB; 1K1Q; X-ray; 2.80 A; A/B=1-354.
+DR   PDB; 1K1S; X-ray; 2.80 A; A=1-354.
+DR   PDBsum; 1IM4; -.
+DR   PDBsum; 1K1Q; -.
+DR   PDBsum; 1K1S; -.
+DR   SMR; P96022; -.
+DR   BRENDA; 2.7.7.7; 6163.
+DR   EvolutionaryTrace; P96022; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0003887; F:DNA-directed DNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006261; P:DNA-dependent DNA replication; IEA:UniProtKB-UniRule.
+DR   CDD; cd03586; PolY_Pol_IV_kappa; 1.
+DR   Gene3D; 3.30.1490.100; -; 1.
+DR   Gene3D; 3.30.70.270; -; 1.
+DR   HAMAP; MF_01113; DNApol_IV; 1.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR036775; DNA_pol_Y-fam_lit_finger_sf.
+DR   InterPro; IPR022880; DNApol_IV.
+DR   InterPro; IPR024728; PolY_HhH_motif.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR001126; UmuC.
+DR   Pfam; PF00817; IMS; 1.
+DR   Pfam; PF11798; IMS_HHH; 1.
+DR   SUPFAM; SSF100879; SSF100879; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50173; UMUC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; DNA damage; DNA repair; DNA replication;
+KW   DNA-binding; DNA-directed DNA polymerase; Magnesium; Metal-binding;
+KW   Mutator protein; Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..354
+FT                   /note="DNA polymerase IV"
+FT                   /id="PRO_0000173975"
+FT   DOMAIN          3..188
+FT                   /note="UmuC"
+FT   ACT_SITE        106
+FT   METAL           7
+FT                   /note="Magnesium"
+FT   METAL           105
+FT                   /note="Magnesium"
+FT   SITE            12
+FT                   /note="Substrate discrimination"
+FT   STRAND          3..8
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           11..19
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           21..23
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          24..26
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          28..33
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          41..46
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           48..51
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   TURN            52..54
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          57..59
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   HELIX           61..67
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          71..75
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           78..93
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          97..103
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          106..110
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   TURN            112..117
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           119..137
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          141..148
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           149..158
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   STRAND          164..166
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           169..171
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           172..177
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           181..183
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           189..197
+FT                   /evidence="ECO:0007744|PDB:1IM4"
+FT   HELIX           203..208
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   HELIX           211..215
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   HELIX           221..231
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          240..242
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          246..250
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   TURN            260..263
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   HELIX           264..275
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          277..279
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          281..293
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          295..301
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   HELIX           308..322
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   TURN            323..325
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+FT   STRAND          331..342
+FT                   /evidence="ECO:0007744|PDB:1K1Q"
+SQ   SEQUENCE   354 AA;  39986 MW;  0EDDAEB0F30EAD35 CRC64;
+     MIVIFVDFDY FFAQVEEVLN PQYKGKPLVV CVYSGRTKTS GAVATANYEA RKLGVKAGMP
+     IIKAMQIAPS AIYVPMRKPI YEAFSNRIMN LLNKHADKIE VASIDEAYLD VTNKVEGNFE
+     NGIELARKIK QEILEKEKIT VTVGVAPNKI LAKIIADKSK PNGLGVIRPT EVQDFLNELD
+     IDEIPGIGSV LARRLNELGI QKLRDILSKN YNELEKITGK AKALYLLKLA QNKYSEPVEN
+     KSKIPHGRYL TLPYNTRDVK VILPYLKKAI NEAYNKVNGI PMRITVIAIM EDLDILSKGK
+     KFKHGISIDN AYKVAEDLLR ELLVRDKRRN VRRIGVKLDN IIINKTNLSD FFDI
+//

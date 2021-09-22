@@ -1,0 +1,111 @@
+ID   CHLN_CHAGL              Reviewed;         458 AA.
+AC   Q8LW53;
+DT   08-NOV-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-OCT-2020, entry version 67.
+DE   RecName: Full=Light-independent protochlorophyllide reductase subunit N {ECO:0000255|HAMAP-Rule:MF_00352};
+DE            Short=DPOR subunit N {ECO:0000255|HAMAP-Rule:MF_00352};
+DE            Short=LI-POR subunit N {ECO:0000255|HAMAP-Rule:MF_00352};
+DE            EC=1.3.7.7 {ECO:0000255|HAMAP-Rule:MF_00352};
+GN   Name=chlN-1 {ECO:0000255|HAMAP-Rule:MF_00352};
+GN   and
+GN   Name=chlN-2 {ECO:0000255|HAMAP-Rule:MF_00352};
+OS   Chaetosphaeridium globosum (Charophycean green alga) (Herposteiron
+OS   globosum).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Coleochaetophyceae; Coleochaetales;
+OC   Chaetosphaeridiaceae; Chaetosphaeridium.
+OX   NCBI_TaxID=96477;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=M1311;
+RX   PubMed=12161560; DOI=10.1073/pnas.162203299;
+RA   Turmel M., Otis C., Lemieux C.;
+RT   "The chloroplast and mitochondrial genome sequences of the charophyte
+RT   Chaetosphaeridium globosum: insights into the timing of the events that
+RT   restructured organelle DNAs within the green algal lineage that led to land
+RT   plants.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:11275-11280(2002).
+CC   -!- FUNCTION: Component of the dark-operative protochlorophyllide reductase
+CC       (DPOR) that uses Mg-ATP and reduced ferredoxin to reduce ring D of
+CC       protochlorophyllide (Pchlide) to form chlorophyllide a (Chlide). This
+CC       reaction is light-independent. The NB-protein (ChlN-ChlB) is the
+CC       catalytic component of the complex. {ECO:0000255|HAMAP-Rule:MF_00352}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 ADP + chlorophyllide a + oxidized 2[4Fe-4S]-[ferredoxin] + 2
+CC         phosphate = 2 ATP + 2 H2O + protochlorophyllide a + reduced 2[4Fe-
+CC         4S]-[ferredoxin]; Xref=Rhea:RHEA:28202, Rhea:RHEA-COMP:10002,
+CC         Rhea:RHEA-COMP:10004, ChEBI:CHEBI:15377, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33722, ChEBI:CHEBI:33723, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83348, ChEBI:CHEBI:83350, ChEBI:CHEBI:456216; EC=1.3.7.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00352};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00352};
+CC       Note=Binds 1 [4Fe-4S] cluster per heterodimer. The cluster is bound at
+CC       the heterodimer interface by residues from both subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00352};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; chlorophyll
+CC       biosynthesis (light-independent). {ECO:0000255|HAMAP-Rule:MF_00352}.
+CC   -!- SUBUNIT: Protochlorophyllide reductase is composed of three subunits;
+CC       ChlL, ChlN and ChlB. Forms a heterotetramer of two ChlB and two ChlN
+CC       subunits. {ECO:0000255|HAMAP-Rule:MF_00352}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- SIMILARITY: Belongs to the BchN/ChlN family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00352}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF494278; AAM96510.1; -; Genomic_DNA.
+DR   EMBL; AF494278; AAM96590.1; -; Genomic_DNA.
+DR   RefSeq; NP_683847.1; NC_004115.1.
+DR   RefSeq; NP_683862.1; NC_004115.1.
+DR   SMR; Q8LW53; -.
+DR   GeneID; 860671; -.
+DR   GeneID; 860782; -.
+DR   UniPathway; UPA00670; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016730; F:oxidoreductase activity, acting on iron-sulfur proteins as donors; IEA:InterPro.
+DR   GO; GO:0016636; F:oxidoreductase activity, acting on the CH-CH group of donors, iron-sulfur protein as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036068; P:light-independent chlorophyll biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019685; P:photosynthesis, dark reaction; IEA:InterPro.
+DR   HAMAP; MF_00352; ChlN_BchN; 1.
+DR   InterPro; IPR000510; Nase/OxRdtase_comp1.
+DR   InterPro; IPR005970; Protochl_reductN.
+DR   Pfam; PF00148; Oxidored_nitro; 1.
+DR   PIRSF; PIRSF000162; P_chlorophyll_rd; 1.
+DR   TIGRFAMs; TIGR01279; DPOR_bchN; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; ATP-binding; Chlorophyll biosynthesis; Chloroplast; Iron;
+KW   Iron-sulfur; Metal-binding; Nucleotide-binding; Oxidoreductase;
+KW   Photosynthesis; Plastid.
+FT   CHAIN           1..458
+FT                   /note="Light-independent protochlorophyllide reductase
+FT                   subunit N"
+FT                   /id="PRO_0000208608"
+FT   METAL           22
+FT                   /note="Iron-sulfur (4Fe-4S); shared with heterodimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00352"
+FT   METAL           47
+FT                   /note="Iron-sulfur (4Fe-4S); shared with heterodimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00352"
+FT   METAL           107
+FT                   /note="Iron-sulfur (4Fe-4S); shared with heterodimeric
+FT                   partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00352"
+SQ   SEQUENCE   458 AA;  51365 MW;  000D7037708841F6 CRC64;
+     MNSAISDTLT FECETGNYHT FCPISCVAWL YQKIEDSFFL VVGTKTCGYF LQNALGVMIF
+     AEPRYAMAEL EEGDISAQLN DYQELKNICL QIKKDRNPSV IVWIGTCTTE IIKMDLEGMA
+     PRLEAEIGIP IVVARANGLD YAFTQGEDTV LAAMAQRCPE ISVASKQNQP MGSAFSQTLK
+     VSNQQDHPPL VLFGSLPSTV ASQLDLELKR QSIEVSGWLP SQRYTDLPLL GEGVHVCGVN
+     PFLSRTATTL MRRRKCKLIS APFPIGPDGT RAWIEKICSV FGIQPQGLEE RENQIWDGLK
+     DYIDLVRGKS VFFMGDNLLE VSLARFLIRC GMVVYEIGIP YMDKRYQAAE LALLQKTCQD
+     MNVPMPRIVE KPDNYNQVQR MRELQPDLAI TGMAHANPLE ARGISTKWSV EFTFAQIHGF
+     TNARDILELV TRPLRRNHSL QGLGWSSLVK EQNQLIPS
+//

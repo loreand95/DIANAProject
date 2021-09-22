@@ -1,0 +1,91 @@
+ID   COFD_HALSA              Reviewed;         336 AA.
+AC   Q9HPX4;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=2-phospho-L-lactate transferase {ECO:0000255|HAMAP-Rule:MF_01257};
+DE            EC=2.7.8.28 {ECO:0000255|HAMAP-Rule:MF_01257};
+GN   Name=cofD {ECO:0000255|HAMAP-Rule:MF_01257}; OrderedLocusNames=VNG_1429C;
+OS   Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1)
+OS   (Halobacterium halobium).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Halobacteriales;
+OC   Halobacteriaceae; Halobacterium.
+OX   NCBI_TaxID=64091;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700922 / JCM 11081 / NRC-1;
+RX   PubMed=11016950; DOI=10.1073/pnas.190337797;
+RA   Ng W.V., Kennedy S.P., Mahairas G.G., Berquist B., Pan M., Shukla H.D.,
+RA   Lasky S.R., Baliga N.S., Thorsson V., Sbrogna J., Swartzell S., Weir D.,
+RA   Hall J., Dahl T.A., Welti R., Goo Y.A., Leithauser B., Keller K., Cruz R.,
+RA   Danson M.J., Hough D.W., Maddocks D.G., Jablonski P.E., Krebs M.P.,
+RA   Angevine C.M., Dale H., Isenbarger T.A., Peck R.F., Pohlschroder M.,
+RA   Spudich J.L., Jung K.-H., Alam M., Freitas T., Hou S., Daniels C.J.,
+RA   Dennis P.P., Omer A.D., Ebhardt H., Lowe T.M., Liang P., Riley M., Hood L.,
+RA   DasSarma S.;
+RT   "Genome sequence of Halobacterium species NRC-1.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:12176-12181(2000).
+CC   -!- FUNCTION: Catalyzes the transfer of the 2-phospholactate moiety from
+CC       (2S)-lactyl-2-diphospho-5'-guanosine to 7,8-didemethyl-8-hydroxy-5-
+CC       deazariboflavin (FO) with the formation of oxidized coenzyme F420-0 and
+CC       GMP. {ECO:0000255|HAMAP-Rule:MF_01257}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S)-lactyl-2-diphospho-5'-guanosine + 7,8-didemethyl-8-
+CC         hydroxy-5-deazariboflavin = GMP + H(+) + oxidized coenzyme F420-0;
+CC         Xref=Rhea:RHEA:63444, ChEBI:CHEBI:15378, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:59435, ChEBI:CHEBI:59904, ChEBI:CHEBI:59907; EC=2.7.8.28;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01257};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01257};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme F420 biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01257}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01257}.
+CC   -!- SIMILARITY: Belongs to the CofD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01257}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004437; AAG19743.1; -; Genomic_DNA.
+DR   PIR; C84297; C84297.
+DR   RefSeq; WP_010903040.1; NC_002607.1.
+DR   SMR; Q9HPX4; -.
+DR   PaxDb; Q9HPX4; -.
+DR   EnsemblBacteria; AAG19743; AAG19743; VNG_1429C.
+DR   GeneID; 5952972; -.
+DR   KEGG; hal:VNG_1429C; -.
+DR   PATRIC; fig|64091.14.peg.1093; -.
+DR   HOGENOM; CLU_055795_1_0_2; -.
+DR   InParanoid; Q9HPX4; -.
+DR   OMA; DLDTVMY; -.
+DR   OrthoDB; 31831at2157; -.
+DR   PhylomeDB; Q9HPX4; -.
+DR   UniPathway; UPA00071; -.
+DR   Proteomes; UP000000554; Chromosome.
+DR   GO; GO:0043743; F:LPPG:FO 2-phospho-L-lactate transferase activity; IBA:GO_Central.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0052645; P:F420-0 metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07186; CofD_like; 1.
+DR   HAMAP; MF_01257; CofD; 1.
+DR   InterPro; IPR002882; CofD.
+DR   InterPro; IPR010115; FbiA/CofD.
+DR   PANTHER; PTHR43007; PTHR43007; 1.
+DR   Pfam; PF01933; UPF0052; 1.
+DR   TIGRFAMs; TIGR01819; F420_cofD; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Reference proteome; Transferase.
+FT   CHAIN           1..336
+FT                   /note="2-phospho-L-lactate transferase"
+FT                   /id="PRO_0000145770"
+FT   BINDING         49
+FT                   /note="7,8-didemethyl-8-hydroxy-5-deazariboflavin"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01257"
+SQ   SEQUENCE   336 AA;  35468 MW;  C0486EE0726BB7CD CRC64;
+     MTTFLAGGTG TPKLLAGARR VFDPAETTVV GNTGDDVALG GLLVCPDLDT VLFEGGGVLD
+     RETWWGIADD GSTTHDYLTD LAAAADIDPD TPRYLPDDAQ TAGRDIARWR RFSAASEFMF
+     IGDRDRAVHT LRAGLLDEGH TLTEVTRRLA DAFDLSVDLV PMSNDPVATI VQTPDGEQHF
+     QTFWVAEHGD PTVEDVEFRG GERATAAQPA IEAIRDGPVV VGPSNPVTSI GPMLALDGIA
+     DALRDAQVVA VSPFVEDEVF SGPAAKLMAA VGHDPSTAGV ADAYDFADAF VLDTADSTDL
+     DRPVVRTDTS LDTEADAERV ARACRDALVA ASGEVT
+//

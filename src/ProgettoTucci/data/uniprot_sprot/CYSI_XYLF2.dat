@@ -1,0 +1,119 @@
+ID   CYSI_XYLF2              Reviewed;         568 AA.
+AC   B2IA31;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-APR-2021, entry version 72.
+DE   RecName: Full=Sulfite reductase [NADPH] hemoprotein beta-component {ECO:0000255|HAMAP-Rule:MF_01540};
+DE            Short=SiR-HP {ECO:0000255|HAMAP-Rule:MF_01540};
+DE            Short=SiRHP {ECO:0000255|HAMAP-Rule:MF_01540};
+DE            EC=1.8.1.2 {ECO:0000255|HAMAP-Rule:MF_01540};
+GN   Name=cysI {ECO:0000255|HAMAP-Rule:MF_01540};
+GN   OrderedLocusNames=XfasM23_0751;
+OS   Xylella fastidiosa (strain M23).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xylella.
+OX   NCBI_TaxID=405441;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=M23;
+RX   PubMed=20601474; DOI=10.1128/jb.00651-10;
+RA   Chen J., Xie G., Han S., Chertkov O., Sims D., Civerolo E.L.;
+RT   "Whole genome sequences of two Xylella fastidiosa strains (M12 and M23)
+RT   causing almond leaf scorch disease in California.";
+RL   J. Bacteriol. 192:4534-4534(2010).
+CC   -!- FUNCTION: Component of the sulfite reductase complex that catalyzes the
+CC       6-electron reduction of sulfite to sulfide. This is one of several
+CC       activities required for the biosynthesis of L-cysteine from sulfate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01540}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3 H2O + hydrogen sulfide + 3 NADP(+) = 4 H(+) + 3 NADPH +
+CC         sulfite; Xref=Rhea:RHEA:13801, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17359, ChEBI:CHEBI:29919, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.8.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01540};
+CC   -!- COFACTOR:
+CC       Name=siroheme; Xref=ChEBI:CHEBI:60052;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01540};
+CC       Note=Binds 1 siroheme per subunit. {ECO:0000255|HAMAP-Rule:MF_01540};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01540};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01540};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; hydrogen
+CC       sulfide from sulfite (NADPH route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01540}.
+CC   -!- SUBUNIT: Alpha(8)-beta(8). The alpha component is a flavoprotein, the
+CC       beta component is a hemoprotein. {ECO:0000255|HAMAP-Rule:MF_01540}.
+CC   -!- SIMILARITY: Belongs to the nitrite and sulfite reductase 4Fe-4S domain
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01540}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001011; ACB92190.1; -; Genomic_DNA.
+DR   RefSeq; WP_004089014.1; NC_010577.1.
+DR   SMR; B2IA31; -.
+DR   PRIDE; B2IA31; -.
+DR   EnsemblBacteria; ACB92190; ACB92190; XfasM23_0751.
+DR   GeneID; 58016262; -.
+DR   KEGG; xfn:XfasM23_0751; -.
+DR   HOGENOM; CLU_001975_3_2_6; -.
+DR   OMA; GKYNMYL; -.
+DR   UniPathway; UPA00140; UER00207.
+DR   Proteomes; UP000001698; Chromosome.
+DR   GO; GO:0009337; C:sulfite reductase complex (NADPH); IEA:InterPro.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0004783; F:sulfite reductase (NADPH) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019344; P:cysteine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01540; CysI; 1.
+DR   InterPro; IPR011786; CysI.
+DR   InterPro; IPR005117; NiRdtase/SiRdtase_haem-b_fer.
+DR   InterPro; IPR036136; Nit/Sulf_reduc_fer-like_dom_sf.
+DR   InterPro; IPR006067; NO2/SO3_Rdtase_4Fe4S_dom.
+DR   InterPro; IPR006066; NO2/SO3_Rdtase_FeS/sirohaem_BS.
+DR   Pfam; PF01077; NIR_SIR; 2.
+DR   Pfam; PF03460; NIR_SIR_ferr; 2.
+DR   PRINTS; PR00397; SIROHAEM.
+DR   SUPFAM; SSF55124; SSF55124; 2.
+DR   TIGRFAMs; TIGR02041; CysI; 1.
+DR   PROSITE; PS00365; NIR_SIR; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Cysteine biosynthesis; Heme; Iron;
+KW   Iron-sulfur; Metal-binding; NADP; Oxidoreductase.
+FT   CHAIN           1..568
+FT                   /note="Sulfite reductase [NADPH] hemoprotein beta-
+FT                   component"
+FT                   /id="PRO_0000388537"
+FT   METAL           426
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01540"
+FT   METAL           432
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01540"
+FT   METAL           471
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01540"
+FT   METAL           475
+FT                   /note="Iron (siroheme axial ligand)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01540"
+FT   METAL           475
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01540"
+SQ   SEQUENCE   568 AA;  62681 MW;  CD856C55B0E88603 CRC64;
+     MSSSSIEDIK GKSHRLRGSL LESLANPTTG ALGESDQTLI KYHGSYQQDD RDLREERRRQ
+     KLEPAYQFMI RTRTPGGVIT PQQWLQLDAI ATRYANHSLR VTTRQAFQFH GVIKRELKTT
+     MQAINAALID TLAACGDVNR NVQVAANPLL SRAHADLYTD AAHLSEHLLP NTRAYYEIWL
+     DEKKVAGAGE EEEPIYGPHY LPRKFKIGFA APPINDVDVF ANDLGFIAVI VDNTLLGYNV
+     TIGGGMGTTH GDPDTWPRVG NIIGFITRAD LITISTAIVT TQRDFGNRTL RKRARFKYTI
+     DDRGLDCIVG EIQQRAGITL QPARPFVFEH NGDRYGWIEG EDGHWHLTLS LPAGRIADTE
+     GSTLLSGFRE IAQLGIGEFR MTPNQNVVIA GISPGQRAAI DALVTQYGLD TGNRAPTALG
+     RHAMACVALP TCGLAMAEAE RYLPDFNAKL QPILEKYGLA EAPILLRISG CPNGCSRPYL
+     AEIALVGKAP GRYNLMLGGD QRGQRLNTLY RENITETEIL AALEPLLGRY QQKRLPSEGF
+     GDFLHRTGII ALPPYPTHRH VISSTLQA
+//

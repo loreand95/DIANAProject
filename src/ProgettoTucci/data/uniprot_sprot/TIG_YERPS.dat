@@ -1,0 +1,102 @@
+ID   TIG_YERPS               Reviewed;         434 AA.
+AC   Q66DT5;
+DT   07-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 86.
+DE   RecName: Full=Trigger factor {ECO:0000255|HAMAP-Rule:MF_00303};
+DE            Short=TF {ECO:0000255|HAMAP-Rule:MF_00303};
+DE            EC=5.2.1.8 {ECO:0000255|HAMAP-Rule:MF_00303};
+DE   AltName: Full=PPIase {ECO:0000255|HAMAP-Rule:MF_00303};
+GN   Name=tig {ECO:0000255|HAMAP-Rule:MF_00303}; OrderedLocusNames=YPTB0958;
+OS   Yersinia pseudotuberculosis serotype I (strain IP32953).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=273123;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP32953;
+RX   PubMed=15358858; DOI=10.1073/pnas.0404012101;
+RA   Chain P.S.G., Carniel E., Larimer F.W., Lamerdin J., Stoutland P.O.,
+RA   Regala W.M., Georgescu A.M., Vergez L.M., Land M.L., Motin V.L.,
+RA   Brubaker R.R., Fowler J., Hinnebusch J., Marceau M., Medigue C.,
+RA   Simonet M., Chenal-Francisque V., Souza B., Dacheux D., Elliott J.M.,
+RA   Derbise A., Hauser L.J., Garcia E.;
+RT   "Insights into the evolution of Yersinia pestis through whole-genome
+RT   comparison with Yersinia pseudotuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13826-13831(2004).
+CC   -!- FUNCTION: Involved in protein export. Acts as a chaperone by
+CC       maintaining the newly synthesized protein in an open conformation.
+CC       Functions as a peptidyl-prolyl cis-trans isomerase. {ECO:0000255|HAMAP-
+CC       Rule:MF_00303}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00303};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Note=About half TF is bound to the
+CC       ribosome near the polypeptide exit tunnel while the other half is free
+CC       in the cytoplasm. {ECO:0000255|HAMAP-Rule:MF_00303}.
+CC   -!- DOMAIN: Consists of 3 domains; the N-terminus binds the ribosome, the
+CC       middle domain has PPIase activity, while the C-terminus has intrinsic
+CC       chaperone activity on its own. {ECO:0000255|HAMAP-Rule:MF_00303}.
+CC   -!- SIMILARITY: Belongs to the FKBP-type PPIase family. Tig subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00303}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX936398; CAH20198.1; -; Genomic_DNA.
+DR   RefSeq; WP_002208643.1; NZ_CP009712.1.
+DR   SMR; Q66DT5; -.
+DR   EnsemblBacteria; CAH20198; CAH20198; YPTB0958.
+DR   GeneID; 49786988; -.
+DR   GeneID; 57975553; -.
+DR   KEGG; ypo:BZ17_1589; -.
+DR   KEGG; yps:YPTB0958; -.
+DR   PATRIC; fig|273123.14.peg.1686; -.
+DR   OMA; MAMIEDR; -.
+DR   Proteomes; UP000001011; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0006457; P:protein folding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.3120.10; -; 1.
+DR   Gene3D; 3.30.70.1050; -; 1.
+DR   HAMAP; MF_00303; Trigger_factor_Tig; 1.
+DR   InterPro; IPR001179; PPIase_FKBP_dom.
+DR   InterPro; IPR005215; Trig_fac.
+DR   InterPro; IPR008880; Trigger_fac_C.
+DR   InterPro; IPR037041; Trigger_fac_C_sf.
+DR   InterPro; IPR008881; Trigger_fac_ribosome-bd_bac.
+DR   InterPro; IPR036611; Trigger_fac_ribosome-bd_sf.
+DR   InterPro; IPR027304; Trigger_fact/SurA_dom_sf.
+DR   PANTHER; PTHR30560; PTHR30560; 1.
+DR   Pfam; PF00254; FKBP_C; 1.
+DR   Pfam; PF05698; Trigger_C; 1.
+DR   Pfam; PF05697; Trigger_N; 1.
+DR   PIRSF; PIRSF003095; Trigger_factor; 1.
+DR   SUPFAM; SSF102735; SSF102735; 1.
+DR   SUPFAM; SSF109998; SSF109998; 1.
+DR   TIGRFAMs; TIGR00115; tig; 1.
+DR   PROSITE; PS50059; FKBP_PPIASE; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Chaperone; Cytoplasm; Isomerase; Rotamase.
+FT   CHAIN           1..434
+FT                   /note="Trigger factor"
+FT                   /id="PRO_0000179471"
+FT   DOMAIN          161..246
+FT                   /note="PPIase FKBP-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00303"
+SQ   SEQUENCE   434 AA;  48241 MW;  D44CB4FB9AB5CAEB CRC64;
+     MQVSVETTQG LGRRVTITVA ADSIEKAVKS ELVKAAKNVR IDGFRKGHVP MNIVEQRYGA
+     SVRQDVLGDL MQRNFVDAII KEKINPAGAP NYVPGEYKQG EDFTYSVEFE VYPEVELKDL
+     ESIEVEKPVV EVNDADVDTM LETLRKQQAT WKETDAAATA EDRATLDFTG SIDGEEFEGG
+     KATDFVLAMG QGRMIPGFEE GVIGHKAGEE FTIDVNFPED YHAENLKGKS AKFAIVLKKV
+     EVRELPELTE EFIKRFGVAD GSLAGLRAEV RKNMERELKG AVRNRVKTQA IDGLVSANNI
+     DVPTALVDGE IDVLRRQAAQ RFGGNEKQAA ELPRELFEEQ AKRRVVVGLL LGEVISQHEL
+     KADEDRVKAL IEEMASAYED PQEVIEFYSK NKELMNNMRN VALEEQAVET LLAKAKVTEK
+     PTTFSELMNQ TTAA
+//

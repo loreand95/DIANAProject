@@ -1,0 +1,108 @@
+ID   NUOH_RUTMC              Reviewed;         357 AA.
+AC   A1AVR9;
+DT   21-AUG-2007, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NADH dehydrogenase I subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NDH-1 subunit H {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   Name=nuoH {ECO:0000255|HAMAP-Rule:MF_01350}; OrderedLocusNames=Rmag_0244;
+OS   Ruthia magnifica subsp. Calyptogena magnifica.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; sulfur-oxidizing symbionts;
+OC   Candidatus Ruthia.
+OX   NCBI_TaxID=413404;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=17303757; DOI=10.1126/science.1138438;
+RA   Newton I.L.G., Woyke T., Auchtung T.A., Dilly G.F., Dutton R.J.,
+RA   Fisher M.C., Fontanez K.M., Lau E., Stewart F.J., Richardson P.M.,
+RA   Barry K.W., Saunders E., Detter J.C., Wu D., Eisen J.A., Cavanaugh C.M.;
+RT   "The Calyptogena magnifica chemoautotrophic symbiont genome.";
+RL   Science 315:998-1000(2007).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. This subunit may bind ubiquinone.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01350};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01350}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01350}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000488; ABL02026.1; -; Genomic_DNA.
+DR   RefSeq; WP_011737651.1; NC_008610.1.
+DR   SMR; A1AVR9; -.
+DR   STRING; 413404.Rmag_0244; -.
+DR   EnsemblBacteria; ABL02026; ABL02026; Rmag_0244.
+DR   KEGG; rma:Rmag_0244; -.
+DR   eggNOG; COG1005; Bacteria.
+DR   HOGENOM; CLU_015134_0_1_6; -.
+DR   OMA; IPVTIVW; -.
+DR   OrthoDB; 1559067at2; -.
+DR   BioCyc; CRUT413404:G1G7M-254-MONOMER; -.
+DR   Proteomes; UP000002587; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01350; NDH1_NuoH; 1.
+DR   InterPro; IPR001694; NADH_UbQ_OxRdtase_su1/FPO.
+DR   InterPro; IPR018086; NADH_UbQ_OxRdtase_su1_CS.
+DR   PANTHER; PTHR11432; PTHR11432; 1.
+DR   Pfam; PF00146; NADHdh; 1.
+DR   PROSITE; PS00668; COMPLEX1_ND1_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone;
+KW   Reference proteome; Translocase; Transmembrane; Transmembrane helix;
+KW   Ubiquinone.
+FT   CHAIN           1..357
+FT                   /note="NADH-quinone oxidoreductase subunit H"
+FT                   /id="PRO_0000298849"
+FT   TRANSMEM        25..45
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        94..114
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        130..150
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        166..186
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        201..221
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        254..274
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        294..314
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        329..349
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+SQ   SEQUENCE   357 AA;  40323 MW;  B695BE86332F85EC CRC64;
+     MELWQAFVQM VYTLTPWFDG TIASILIILI KAITLVIPLM LVVAYFTYAE RKVIGYMQLR
+     IGPNRVGPKG WLQPIADALK LMTKEIIFPT KANIYLFLLA PVLAIAPAIA VWVVIPFDED
+     IYITNLDISL LYVLAIGSIG VYGIILAGWA SNSKYPLLGA LRSASLLVSY EIVIGFALAT
+     VVMIAGSVNL NTIVQAQQGG IIYWNFIPLF PMMIIFFISA LIETNRAPFD VVEGESEIVG
+     GTHVEYSGMT FAVFFLAEYA NMILMAVLAV VMFFGGWHSP FEAIPYLESA FSWVPGIIWL
+     LAKTTFFMFL YLWVRATFPR FRYDQIMRLS WKVFLPITII WIFVVALMTQ LKLEPWF
+//

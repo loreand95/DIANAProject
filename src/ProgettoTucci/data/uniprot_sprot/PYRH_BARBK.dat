@@ -1,0 +1,122 @@
+ID   PYRH_BARBK              Reviewed;         239 AA.
+AC   Q8RT65; A1USE1;
+DT   30-AUG-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   02-DEC-2020, entry version 100.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220}; Synonyms=uka;
+GN   OrderedLocusNames=BARBAKC583_0585;
+OS   Bartonella bacilliformis (strain ATCC 35685 / NCTC 12138 / KC583).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bartonellaceae;
+OC   Bartonella.
+OX   NCBI_TaxID=360095;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   Minnick M.F., Choquette L.E.;
+RT   "Translational machinery operon from Bartonella bacilliformis.";
+RL   Submitted (JAN-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35685 / NCTC 12138 / KC583;
+RA   Hendrix L., Mohamoud Y., Radune D., Shvartsbeyn A., Daugherty S.,
+RA   Dodson R., Durkin A.S., Harkins D., Huot H., Kothari S.P., Madupu R.,
+RA   Li J., Nelson W.C., Shrivastava S., Giglio M.G., Haft D., Selengut J.,
+RA   Fraser-Ligget C., Seshadri R.;
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + UMP = ADP + UDP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Inhibited by UTP. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF469610; AAL82406.1; -; Genomic_DNA.
+DR   EMBL; CP000524; ABM44422.1; -; Genomic_DNA.
+DR   RefSeq; WP_005766751.1; NC_008783.1.
+DR   SMR; Q8RT65; -.
+DR   STRING; 360095.BARBAKC583_0585; -.
+DR   EnsemblBacteria; ABM44422; ABM44422; BARBAKC583_0585.
+DR   GeneID; 4683792; -.
+DR   KEGG; bbk:BARBAKC583_0585; -.
+DR   PATRIC; fig|360095.6.peg.570; -.
+DR   eggNOG; COG0528; Bacteria.
+DR   HOGENOM; CLU_033861_0_0_5; -.
+DR   OMA; PIIVFDM; -.
+DR   OrthoDB; 1043239at2; -.
+DR   BioCyc; BBAC360095:G1G7W-542-MONOMER; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000000643; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR02075; pyrH_bact; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..239
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_0000143826"
+FT   NP_BIND         13..16
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   NP_BIND         136..143
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         55
+FT                   /note="UMP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         56
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         60
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         75
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         163
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         164
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         172
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   239 AA;  25346 MW;  66D75668E07773E0 CRC64;
+     MTLALRYKRV LLKVSGEALM GEQSFGIDVS VADRIASDIA EVRKMGVEVA IVIGGGNIFR
+     GVAVASHGGD RVTGDHMGML ATAINSLALR TSLTKLGVET VVLSAITMPQ ICESFSQRKA
+     MSYMNQGKVV IFAGGTGNPF FTTDSAATLR AAEIGADVLL KGTQVDGIYS ADPKINSTAK
+     RFDQLTHVEI LRLGLSIMDT TAVTLARENN IPIIVYSIHE KGGLTKVLNG TGRFTVVSE
+//

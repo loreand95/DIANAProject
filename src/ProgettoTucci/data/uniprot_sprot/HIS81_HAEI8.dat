@@ -1,0 +1,86 @@
+ID   HIS81_HAEI8             Reviewed;         352 AA.
+AC   Q4QN73;
+DT   10-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   10-JAN-2006, sequence version 2.
+DT   10-FEB-2021, entry version 84.
+DE   RecName: Full=Histidinol-phosphate aminotransferase 1 {ECO:0000255|HAMAP-Rule:MF_01023};
+DE            EC=2.6.1.9 {ECO:0000255|HAMAP-Rule:MF_01023};
+DE   AltName: Full=Imidazole acetol-phosphate transaminase 1 {ECO:0000255|HAMAP-Rule:MF_01023};
+GN   Name=hisC1 {ECO:0000255|HAMAP-Rule:MF_01023}; OrderedLocusNames=NTHI0601;
+OS   Haemophilus influenzae (strain 86-028NP).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=281310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=86-028NP;
+RX   PubMed=15968074; DOI=10.1128/jb.187.13.4627-4636.2005;
+RA   Harrison A., Dyer D.W., Gillaspy A., Ray W.C., Mungur R., Carson M.B.,
+RA   Zhong H., Gipson J., Gipson M., Johnson L.S., Lewis L., Bakaletz L.O.,
+RA   Munson R.S. Jr.;
+RT   "Genomic sequence of an otitis media isolate of nontypeable Haemophilus
+RT   influenzae: comparative study with H. influenzae serotype d, strain KW20.";
+RL   J. Bacteriol. 187:4627-4636(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + L-histidinol phosphate = 3-(imidazol-4-yl)-2-
+CC         oxopropyl phosphate + L-glutamate; Xref=Rhea:RHEA:23744,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29985, ChEBI:CHEBI:57766,
+CC         ChEBI:CHEBI:57980; EC=2.6.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01023};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01023};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 7/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SIMILARITY: Belongs to the class-II pyridoxal-phosphate-dependent
+CC       aminotransferase family. Histidinol-phosphate aminotransferase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01023}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAX87524.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000057; AAX87524.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_041174737.1; NC_007146.2.
+DR   SMR; Q4QN73; -.
+DR   EnsemblBacteria; AAX87524; AAX87524; NTHI0601.
+DR   KEGG; hit:NTHI0601; -.
+DR   HOGENOM; CLU_017584_3_1_6; -.
+DR   UniPathway; UPA00031; UER00012.
+DR   Proteomes; UP000002525; Chromosome.
+DR   GO; GO:0004400; F:histidinol-phosphate transaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01023; HisC_aminotrans_2; 1.
+DR   InterPro; IPR001917; Aminotrans_II_pyridoxalP_BS.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR005861; HisP_aminotrans.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR01141; hisC; 1.
+DR   PROSITE; PS00599; AA_TRANSFER_CLASS_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aminotransferase; Histidine biosynthesis;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..352
+FT                   /note="Histidinol-phosphate aminotransferase 1"
+FT                   /id="PRO_0000153370"
+FT   MOD_RES         211
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01023"
+SQ   SEQUENCE   352 AA;  38891 MW;  FFACC8DB2C4A15C9 CRC64;
+     MTITTLSRQN IQALTPYQSA RKLGGNGTIW LNANEYPTSP EFQLSGKDLN RYPEPQPQRV
+     VQAYANYAGV STENVLVTRG GDEGIELIIH TFCEPKQDAI LFCPPTYGMY AVSAETAGVL
+     SKSVPLTDDF QLNLPEIKNH LNDVKVVFVC SPNNPTGNLL KQSDILDLLQ ITAGKAIVVV
+     DEAYIEFCPE ASVINLLKNY PHLAIIRTLS KAFALAGLRC GFVLANPELI DILSKVIAPY
+     PIPVPSADLA EQALRPANIA TVQALTQELL SNRQWLAKAL LVLHQVEKVY ESEANYLLIK
+     CQNGQAVFKA LWEQGIILRD QNKTLHLQNC IRITVGTRNE CEKVVEAIKE VK
+//

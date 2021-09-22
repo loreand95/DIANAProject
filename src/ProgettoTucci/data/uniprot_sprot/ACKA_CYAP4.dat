@@ -1,0 +1,123 @@
+ID   ACKA_CYAP4              Reviewed;         408 AA.
+AC   B8HVB6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=Acetate kinase {ECO:0000255|HAMAP-Rule:MF_00020};
+DE            EC=2.7.2.1 {ECO:0000255|HAMAP-Rule:MF_00020};
+DE   AltName: Full=Acetokinase {ECO:0000255|HAMAP-Rule:MF_00020};
+GN   Name=ackA {ECO:0000255|HAMAP-Rule:MF_00020};
+GN   OrderedLocusNames=Cyan7425_2207;
+OS   Cyanothece sp. (strain PCC 7425 / ATCC 29141).
+OC   Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales;
+OC   Cyanothecaceae; Cyanothece; unclassified Cyanothece.
+OX   NCBI_TaxID=395961;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7425 / ATCC 29141;
+RX   PubMed=21972240; DOI=10.1128/mbio.00214-11;
+RA   Bandyopadhyay A., Elvitigala T., Welsh E., Stockel J., Liberton M., Min H.,
+RA   Sherman L.A., Pakrasi H.B.;
+RT   "Novel metabolic attributes of the genus Cyanothece, comprising a group of
+RT   unicellular nitrogen-fixing Cyanobacteria.";
+RL   MBio 2:E214-E214(2011).
+CC   -!- FUNCTION: Catalyzes the formation of acetyl phosphate from acetate and
+CC       ATP. Can also catalyze the reverse reaction. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetate + ATP = acetyl phosphate + ADP; Xref=Rhea:RHEA:11352,
+CC         ChEBI:CHEBI:22191, ChEBI:CHEBI:30089, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456216; EC=2.7.2.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00020};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00020};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00020};
+CC       Note=Mg(2+). Can also accept Mn(2+). {ECO:0000255|HAMAP-Rule:MF_00020};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; acetyl-CoA biosynthesis;
+CC       acetyl-CoA from acetate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00020}.
+CC   -!- SIMILARITY: Belongs to the acetokinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00020}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001344; ACL44568.1; -; Genomic_DNA.
+DR   RefSeq; WP_012627645.1; NC_011884.1.
+DR   SMR; B8HVB6; -.
+DR   STRING; 395961.Cyan7425_2207; -.
+DR   EnsemblBacteria; ACL44568; ACL44568; Cyan7425_2207.
+DR   KEGG; cyn:Cyan7425_2207; -.
+DR   eggNOG; COG0282; Bacteria.
+DR   HOGENOM; CLU_020352_0_1_3; -.
+DR   OMA; KIITCHI; -.
+DR   OrthoDB; 537106at2; -.
+DR   UniPathway; UPA00340; UER00458.
+DR   Proteomes; UP000002511; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008776; F:acetate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006085; P:acetyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006082; P:organic acid metabolic process; IEA:InterPro.
+DR   HAMAP; MF_00020; Acetate_kinase; 1.
+DR   InterPro; IPR004372; Ac/propionate_kinase.
+DR   InterPro; IPR000890; Aliphatic_acid_kin_short-chain.
+DR   InterPro; IPR023865; Aliphatic_acid_kinase_CS.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   PANTHER; PTHR21060; PTHR21060; 1.
+DR   Pfam; PF00871; Acetate_kinase; 1.
+DR   PIRSF; PIRSF000722; Acetate_prop_kin; 1.
+DR   PRINTS; PR00471; ACETATEKNASE.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR00016; ackA; 1.
+DR   PROSITE; PS01075; ACETATE_KINASE_1; 1.
+DR   PROSITE; PS01076; ACETATE_KINASE_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..408
+FT                   /note="Acetate kinase"
+FT                   /id="PRO_1000116799"
+FT   NP_BIND         214..218
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   NP_BIND         289..291
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   NP_BIND         337..341
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   ACT_SITE        155
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   METAL           7
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   METAL           390
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         14
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            186
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+FT   SITE            247
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00020"
+SQ   SEQUENCE   408 AA;  44278 MW;  9D1699D565CA098F CRC64;
+     MKILVLNAGS SSQKSCLYEI QSEPSSQPPS PLWEGKVDWT HEQGYAEIEV KTSTGACLQE
+     KIAADSRPIV ISHLLATLWQ GDTQVIDQPN EIAVVGHRVV HGGAEYRKSV FITAEVKAAI
+     ARLASFAPVH NPANLEGIEA VETLFGNIPQ VAVFDTAFHA HLPLAAAIYP GPYEWYEQGI
+     RRYGFHGISH RYCAERAAQL LDRDLSSLRL ITCHLGNGCS LAAIQNGISI ETTMGFTPME
+     GLMMGSRSGS IDPGILIHLL RHQGYSADKL DQVLNKQSGL LGVSGISADL RRIDQAIAAG
+     NDRAKLALEI YIHRLQSAIG ACLPHLGGLD ALIFTAGVGE NSATVRAATC AGFEYLNWQI
+     DQDQNQPSAQ DRDIATPDSA VRILVIHTQE DWAIAQDCWQ LIQTNSQS
+//

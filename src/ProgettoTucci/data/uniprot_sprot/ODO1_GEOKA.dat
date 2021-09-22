@@ -1,0 +1,108 @@
+ID   ODO1_GEOKA              Reviewed;         950 AA.
+AC   Q5L172;
+DT   24-JAN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   02-DEC-2020, entry version 90.
+DE   RecName: Full=2-oxoglutarate dehydrogenase E1 component {ECO:0000255|HAMAP-Rule:MF_01169};
+DE            EC=1.2.4.2 {ECO:0000255|HAMAP-Rule:MF_01169};
+DE   AltName: Full=Alpha-ketoglutarate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01169};
+GN   Name=odhA {ECO:0000255|HAMAP-Rule:MF_01169}; OrderedLocusNames=GK1023;
+OS   Geobacillus kaustophilus (strain HTA426).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus;
+OC   Geobacillus thermoleovorans group.
+OX   NCBI_TaxID=235909;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HTA426;
+RX   PubMed=15576355; DOI=10.1093/nar/gkh970;
+RA   Takami H., Takaki Y., Chee G.-J., Nishi S., Shimamura S., Suzuki H.,
+RA   Matsui S., Uchiyama I.;
+RT   "Thermoadaptation trait revealed by the genome sequence of thermophilic
+RT   Geobacillus kaustophilus.";
+RL   Nucleic Acids Res. 32:6292-6303(2004).
+CC   -!- FUNCTION: E1 component of the 2-oxoglutarate dehydrogenase (OGDH)
+CC       complex which catalyzes the decarboxylation of 2-oxoglutarate, the
+CC       first step in the conversion of 2-oxoglutarate to succinyl-CoA and
+CC       CO(2). {ECO:0000255|HAMAP-Rule:MF_01169}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + [dihydrolipoyllysine-residue
+CC         succinyltransferase]-(R)-N(6)-lipoyl-L-lysine + H(+) =
+CC         [dihydrolipoyllysine-residue succinyltransferase]-(R)-N(6)-(S(8)-
+CC         succinyldihydrolipoyl)-L-lysine + CO2; Xref=Rhea:RHEA:12188,
+CC         Rhea:RHEA-COMP:10483, Rhea:RHEA-COMP:10484, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:16810, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83120; EC=1.2.4.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01169};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01169};
+CC   -!- SUBUNIT: Homodimer. Part of the 2-oxoglutarate dehydrogenase (OGDH)
+CC       complex composed of E1 (2-oxoglutarate dehydrogenase), E2
+CC       (dihydrolipoamide succinyltransferase) and E3 (dihydrolipoamide
+CC       dehydrogenase); the complex contains multiple copies of the three
+CC       enzymatic components (E1, E2 and E3). {ECO:0000255|HAMAP-
+CC       Rule:MF_01169}.
+CC   -!- SIMILARITY: Belongs to the alpha-ketoglutarate dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01169}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000043; BAD75308.1; -; Genomic_DNA.
+DR   RefSeq; WP_011230523.1; NC_006510.1.
+DR   SMR; Q5L172; -.
+DR   STRING; 235909.GK1023; -.
+DR   PRIDE; Q5L172; -.
+DR   EnsemblBacteria; BAD75308; BAD75308; GK1023.
+DR   KEGG; gka:GK1023; -.
+DR   PATRIC; fig|235909.7.peg.1118; -.
+DR   eggNOG; COG0567; Bacteria.
+DR   HOGENOM; CLU_004709_1_0_9; -.
+DR   OMA; RDSYCRT; -.
+DR   Proteomes; UP000001172; Chromosome.
+DR   GO; GO:0004591; F:oxoglutarate dehydrogenase (succinyl-transferring) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:InterPro.
+DR   Gene3D; 3.40.50.11610; -; 1.
+DR   HAMAP; MF_01169; SucA_OdhA; 1.
+DR   InterPro; IPR032106; 2-oxogl_dehyd_N.
+DR   InterPro; IPR011603; 2oxoglutarate_DH_E1.
+DR   InterPro; IPR023784; 2oxoglutarate_DH_E1_bac.
+DR   InterPro; IPR001017; DH_E1.
+DR   InterPro; IPR031717; KGD_C.
+DR   InterPro; IPR042179; KGD_C_sf.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR005475; Transketolase-like_Pyr-bd.
+DR   PANTHER; PTHR23152; PTHR23152; 1.
+DR   Pfam; PF16078; 2-oxogl_dehyd_N; 1.
+DR   Pfam; PF00676; E1_dh; 1.
+DR   Pfam; PF16870; OxoGdeHyase_C; 1.
+DR   Pfam; PF02779; Transket_pyr; 1.
+DR   PIRSF; PIRSF000157; Oxoglu_dh_E1; 1.
+DR   SMART; SM00861; Transket_pyr; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+DR   TIGRFAMs; TIGR00239; 2oxo_dh_E1; 1.
+PE   3: Inferred from homology;
+KW   Glycolysis; Oxidoreductase; Reference proteome; Thiamine pyrophosphate.
+FT   CHAIN           1..950
+FT                   /note="2-oxoglutarate dehydrogenase E1 component"
+FT                   /id="PRO_0000162172"
+SQ   SEQUENCE   950 AA;  107561 MW;  0A9769B6BB8BC10F CRC64;
+     MAKQTNYAQP WSQFYGPNLG YVIEMYEQYL DDPNSIDPEL KQLFEQWGAP VLEEPVSPAD
+     DETAKTHQTF RLPETPTIFS KLVAAVKLAD SIRHYGHLVA DTNPLVKKEK KLRRLELDEY
+     DLTEEDLKRI PVAFLCPHAP AHVKNGWDAI LHLRKIYTDK IAFEFSQVHN LEERNWLIQQ
+     IESGAYYPSL ANKERVALLR RLTEVEGFEK FIHRTYVGQK RFSIEGLDSM VPLLDELVRQ
+     AIEHEIDAVN IGMAHRGRLN VLAHVLGKPY EMIFAEFQHA ESKNFIPSEG SVAITYGWTG
+     DVKYHLGAAR RLRNQSAHTM RITLANNPSH LEVVNPVVLG YTRAAQEDRT KPGVPVQNTD
+     ASFAILIHGD AAFPGQGIVA ETLNLSQLRG YTTGGTIHII ANNMIGFTTE SYDSRSTTYA
+     SDMAKGFEVP IVHVNADDPE ACLAAACLAF AYRQRFKKDF VIDLIGYRRF GHNEMDEPMA
+     TNPTMYAIIN QHPTVRKLYA QKLMEKGIIT EREVDEMEQE VAERLKIAYE RVPKNEDELD
+     FIMDPPKPVV DRLPEVKTSV AKDVLHRVNE ELLQFPDGFN VFNKLERILK RRSGVFAQNG
+     KVDWAHAEIL AFATILQDGV PIRLTGQDSQ RGTFAQRHLV LHDVKTGEEY VPLHHISGAK
+     ASFVVYNSPL TEAAVLGYEY GYNVYAPETL VLWEAQFGDF ANMAQVMFDQ FISSGRAKWG
+     QKSGLVMLLP HGYEGQGPEH SSGRVERFLQ LAAENNWTVA NLSTAAQYFH ILRRQAALLT
+     REEVRPLIIM TPKSLLRHPL AASDAEVFVD GAFSPVLEQP GLGADAGKVE RIVFGTGKLM
+     IDLAEQIGKM ESLDWLHIVR IEELYPFPEE AVKDIIARYP NVKELVWVQE EPKNMGAWLY
+     MEPRLRALAP EGVDVSYIGR RRRASPAEGD PVVHRKEQER IIRCALTKHE
+//

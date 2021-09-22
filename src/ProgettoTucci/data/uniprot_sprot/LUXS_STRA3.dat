@@ -1,0 +1,89 @@
+ID   LUXS_STRA3              Reviewed;         160 AA.
+AC   P65332; Q8E1P8; Q8E763;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=S-ribosylhomocysteine lyase {ECO:0000255|HAMAP-Rule:MF_00091};
+DE            EC=4.4.1.21 {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=AI-2 synthesis protein {ECO:0000255|HAMAP-Rule:MF_00091};
+DE   AltName: Full=Autoinducer-2 production protein LuxS {ECO:0000255|HAMAP-Rule:MF_00091};
+GN   Name=luxS {ECO:0000255|HAMAP-Rule:MF_00091}; OrderedLocusNames=gbs0294;
+OS   Streptococcus agalactiae serotype III (strain NEM316).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=211110;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NEM316;
+RX   PubMed=12354221; DOI=10.1046/j.1365-2958.2002.03126.x;
+RA   Glaser P., Rusniok C., Buchrieser C., Chevalier F., Frangeul L., Msadek T.,
+RA   Zouine M., Couve E., Lalioui L., Poyart C., Trieu-Cuot P., Kunst F.;
+RT   "Genome sequence of Streptococcus agalactiae, a pathogen causing invasive
+RT   neonatal disease.";
+RL   Mol. Microbiol. 45:1499-1513(2002).
+CC   -!- FUNCTION: Involved in the synthesis of autoinducer 2 (AI-2) which is
+CC       secreted by bacteria and is used to communicate both the cell density
+CC       and the metabolic potential of the environment. The regulation of gene
+CC       expression in response to changes in cell density is called quorum
+CC       sensing. Catalyzes the transformation of S-ribosylhomocysteine (RHC) to
+CC       homocysteine (HC) and 4,5-dihydroxy-2,3-pentadione (DPD).
+CC       {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-(5-deoxy-D-ribos-5-yl)-L-homocysteine = (S)-4,5-
+CC         dihydroxypentane-2,3-dione + L-homocysteine; Xref=Rhea:RHEA:17753,
+CC         ChEBI:CHEBI:29484, ChEBI:CHEBI:58195, ChEBI:CHEBI:58199; EC=4.4.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00091};
+CC       Note=Binds 1 Fe cation per subunit. {ECO:0000255|HAMAP-Rule:MF_00091};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00091}.
+CC   -!- SIMILARITY: Belongs to the LuxS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00091}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL766844; CAD45939.1; -; Genomic_DNA.
+DR   RefSeq; WP_000159885.1; NC_004368.1.
+DR   SMR; P65332; -.
+DR   STRING; 211110.gbs0294; -.
+DR   EnsemblBacteria; CAD45939; CAD45939; CAD45939.
+DR   GeneID; 58079671; -.
+DR   KEGG; san:gbs0294; -.
+DR   eggNOG; COG1854; Bacteria.
+DR   HOGENOM; CLU_107531_2_1_9; -.
+DR   OMA; GPMGCLT; -.
+DR   Proteomes; UP000000823; Chromosome.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0043768; F:S-ribosylhomocysteine lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009372; P:quorum sensing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.80; -; 1.
+DR   HAMAP; MF_00091; LuxS; 1.
+DR   InterPro; IPR037005; LuxS_sf.
+DR   InterPro; IPR011249; Metalloenz_LuxS/M16.
+DR   InterPro; IPR003815; S-ribosylhomocysteinase.
+DR   PANTHER; PTHR35799; PTHR35799; 1.
+DR   Pfam; PF02664; LuxS; 1.
+DR   PIRSF; PIRSF006160; AI2; 1.
+DR   PRINTS; PR01487; LUXSPROTEIN.
+DR   SUPFAM; SSF63411; SSF63411; 1.
+PE   3: Inferred from homology;
+KW   Autoinducer synthesis; Iron; Lyase; Metal-binding; Quorum sensing.
+FT   CHAIN           1..160
+FT                   /note="S-ribosylhomocysteine lyase"
+FT                   /id="PRO_0000172261"
+FT   METAL           57
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           61
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+FT   METAL           127
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00091"
+SQ   SEQUENCE   160 AA;  17736 MW;  F660D88A213D31BD CRC64;
+     MTKEVVVESF ELDHTIVKAP YVRLISEEVG PVGDIITNFD IRLIQPNENA IDTAGLHTIE
+     HLLAKLIRQR INGLIDCSPF GCRTGFHMIM WGKQDATEIA KVIKSSLEAI AGGVTWEDVP
+     GTTIESCGNY KDHSLHSAQE WAKLILSQGI SDNAFERHIV
+//

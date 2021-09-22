@@ -1,0 +1,109 @@
+ID   TSAD_RICPU              Reviewed;         344 AA.
+AC   C4K157;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            EC=2.3.1.234 {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=N6-L-threonylcarbamoyladenine synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE            Short=t(6)A synthase {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+DE   AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein TsaD {ECO:0000255|HAMAP-Rule:MF_01445};
+GN   Name=tsaD {ECO:0000255|HAMAP-Rule:MF_01445}; Synonyms=gcp;
+GN   OrderedLocusNames=RPR_02360;
+OS   Rickettsia peacockii (strain Rustic).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=562019;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Rustic;
+RX   PubMed=20027221; DOI=10.1371/journal.pone.0008361;
+RA   Felsheim R.F., Kurtti T.J., Munderloh U.G.;
+RT   "Genome sequence of the endosymbiont Rickettsia peacockii and comparison
+RT   with virulent Rickettsia rickettsii: identification of virulence factors.";
+RL   PLoS ONE 4:E8361-E8361(2009).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is involved in the transfer of the threonylcarbamoyl
+CC       moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37,
+CC       together with TsaE and TsaB. TsaD likely plays a direct catalytic role
+CC       in this reaction. {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + L-threonylcarbamoyladenylate = AMP +
+CC         H(+) + N(6)-L-threonylcarbamoyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01445};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01445};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01445}.
+CC   -!- SIMILARITY: Belongs to the KAE1 / TsaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001227; ACR47308.1; -; Genomic_DNA.
+DR   SMR; C4K157; -.
+DR   EnsemblBacteria; ACR47308; ACR47308; RPR_02360.
+DR   KEGG; rpk:RPR_02360; -.
+DR   HOGENOM; CLU_023208_0_2_5; -.
+DR   OMA; HLEGHIY; -.
+DR   Proteomes; UP000005015; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0061711; F:N(6)-L-threonylcarbamoyladenine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01445; TsaD; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   InterPro; IPR022450; TsaD.
+DR   PANTHER; PTHR11735; PTHR11735; 1.
+DR   PANTHER; PTHR11735:SF6; PTHR11735:SF6; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   TIGRFAMs; TIGR03723; T6A_TsaD_YgjD; 1.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Iron; Metal-binding; Transferase;
+KW   tRNA processing.
+FT   CHAIN           1..344
+FT                   /note="tRNA N6-adenosine threonylcarbamoyltransferase"
+FT                   /id="PRO_1000215308"
+FT   REGION          134..138
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           112
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           116
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   METAL           308
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         167
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         180
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+FT   BINDING         280
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01445"
+SQ   SEQUENCE   344 AA;  37297 MW;  7D52589D9B0B6E0C CRC64;
+     MIKILGIESS CDDTAVSIIT ENREILSNII ISQNTEHAVF GGVVPEIAAR SHLSHLDKAL
+     KNVLKESNTK LTDISTIAAT SGPGLIGGVI VGSMFARSLS SALKKPFIAI NHLEGHALTA
+     RLTDNIPYPY LLLLASGGHC QFVAVLGLGK YKILGSTIDD AVGEAFDKVA KMLNLAFPGG
+     PEIEKRAKLG DPHKYKFPKP IINSGNCNMS FSGLKTAVRT LIINLKEIND TVINDIAASF
+     QFTIGEILSS KVQDAIRAYE QITNNFDKKN IVIAGGVAAN KYLQKILSSC AKTYGYRLIY
+     PPIHLCTDNA AMIAYAGLER YNNKLFTPLN FCPKARWSLE DISN
+//

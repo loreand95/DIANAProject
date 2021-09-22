@@ -1,0 +1,101 @@
+ID   MFNA_METLZ              Reviewed;         365 AA.
+AC   A2STQ3;
+DT   10-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-MAR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=Probable L-tyrosine/L-aspartate decarboxylase {ECO:0000255|HAMAP-Rule:MF_01610};
+DE            Short=TDC/ADC {ECO:0000255|HAMAP-Rule:MF_01610};
+DE            EC=4.1.1.11 {ECO:0000255|HAMAP-Rule:MF_01610};
+DE            EC=4.1.1.25 {ECO:0000255|HAMAP-Rule:MF_01610};
+GN   Name=mfnA {ECO:0000255|HAMAP-Rule:MF_01610}; OrderedLocusNames=Mlab_1545;
+OS   Methanocorpusculum labreanum (strain ATCC 43576 / DSM 4855 / Z).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanomicrobiales; Methanocorpusculaceae; Methanocorpusculum.
+OX   NCBI_TaxID=410358;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43576 / DSM 4855 / Z;
+RX   PubMed=21304657; DOI=10.4056/sigs.35575;
+RA   Anderson I.J., Sieprawska-Lupa M., Goltsman E., Lapidus A., Copeland A.,
+RA   Glavina Del Rio T., Tice H., Dalin E., Barry K., Pitluck S., Hauser L.,
+RA   Land M., Lucas S., Richardson P., Whitman W.B., Kyrpides N.C.;
+RT   "Complete genome sequence of Methanocorpusculum labreanum type strain Z.";
+RL   Stand. Genomic Sci. 1:197-203(2009).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of L-tyrosine to produce
+CC       tyramine for methanofuran biosynthesis. Can also catalyze the
+CC       decarboxylation of L-aspartate to produce beta-alanine for coenzyme A
+CC       (CoA) biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01610}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-tyrosine = CO2 + tyramine; Xref=Rhea:RHEA:14345,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:58315,
+CC         ChEBI:CHEBI:327995; EC=4.1.1.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01610};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-aspartate = beta-alanine + CO2; Xref=Rhea:RHEA:19497,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:29991,
+CC         ChEBI:CHEBI:57966; EC=4.1.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01610};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01610};
+CC   -!- PATHWAY: Cofactor biosynthesis; methanofuran biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01610}.
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01610}.
+CC   -!- SIMILARITY: Belongs to the group II decarboxylase family. MfnA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01610}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000559; ABN07709.1; -; Genomic_DNA.
+DR   RefSeq; WP_011833912.1; NC_008942.1.
+DR   SMR; A2STQ3; -.
+DR   STRING; 410358.Mlab_1545; -.
+DR   EnsemblBacteria; ABN07709; ABN07709; Mlab_1545.
+DR   GeneID; 4795948; -.
+DR   KEGG; mla:Mlab_1545; -.
+DR   eggNOG; arCOG00027; Archaea.
+DR   HOGENOM; CLU_028929_2_1_2; -.
+DR   OMA; DPHKMGL; -.
+DR   OrthoDB; 44488at2157; -.
+DR   BioCyc; MLAB410358:G1G83-1651-MONOMER; -.
+DR   UniPathway; UPA00080; -.
+DR   UniPathway; UPA00241; -.
+DR   Proteomes; UP000000365; Chromosome.
+DR   GO; GO:0004068; F:aspartate 1-decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004837; F:tyrosine decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019752; P:carboxylic acid metabolic process; IEA:InterPro.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:2001120; P:methanofuran biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01610; MfnA_decarbox; 1.
+DR   InterPro; IPR020931; MfnA.
+DR   InterPro; IPR002129; PyrdxlP-dep_de-COase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR021115; Pyridoxal-P_BS.
+DR   Pfam; PF00282; Pyridoxal_deC; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR03812; tyr_de_CO2_Arch; 1.
+DR   PROSITE; PS00392; DDC_GAD_HDC_YDC; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase; Lyase; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..365
+FT                   /note="Probable L-tyrosine/L-aspartate decarboxylase"
+FT                   /id="PRO_0000293184"
+FT   MOD_RES         225
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01610"
+SQ   SEQUENCE   365 AA;  39705 MW;  B2D57055EAAB183C CRC64;
+     MEEKGCKREE VISLLSAYRA EDLHHDHILS SMCTIPHEMA VFVHGMFSAT NLGDPGLFPG
+     TTKIEDRLVH SLGELMHHPG AGGYATSGGT ESNLQAIRIA KKLKPEIKNP NIVVPASAHF
+     SFDKTCDILG LEMRTVPYGK NYTVDCDKMA EMVDKNTISV SAIAGTTEYG MIDDVERIAK
+     IALENDLFFH VDAAFGGMVI PFLPNPAPFD FEVPGVSSIS LDPHKMGMST IPCGCLLLRE
+     PEQFGTLNVD TPYLTVKKEC TLAGTRPGAD VAGAYAVIKL LGREGFRAVV AGCMENTRRL
+     IEGMEAFGYT RAVDPVMNVA TFEAGPVPKG WIVSHTRAGH LRFVVMPHVT RDVIENFLAD
+     VAKIN
+//

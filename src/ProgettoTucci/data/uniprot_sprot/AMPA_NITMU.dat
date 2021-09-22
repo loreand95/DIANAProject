@@ -1,0 +1,126 @@
+ID   AMPA_NITMU              Reviewed;         518 AA.
+AC   Q2YB18;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Probable cytosol aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.1 {ECO:0000255|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucine aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            Short=LAP {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.10 {ECO:0000255|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucyl aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+GN   Name=pepA {ECO:0000255|HAMAP-Rule:MF_00181}; OrderedLocusNames=Nmul_A0746;
+OS   Nitrosospira multiformis (strain ATCC 25196 / NCIMB 11849 / C 71).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosospira.
+OX   NCBI_TaxID=323848;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25196 / NCIMB 11849 / C 71;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Pitluck S., Chain P., Malfatti S., Shin M.,
+RA   Vergez L., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Lykidis A., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Nitrosospira multiformis ATCC
+RT   25196.";
+RL   Submitted (AUG-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Presumably involved in the processing and regular turnover of
+CC       intracellular proteins. Catalyzes the removal of unsubstituted N-
+CC       terminal amino acids from various peptides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, Xaa-|-Yaa-, in which Xaa
+CC         is preferably Leu, but may be other amino acids including Pro
+CC         although not Arg or Lys, and Yaa may be Pro. Amino acid amides and
+CC         methyl esters are also readily hydrolyzed, but rates on arylamides
+CC         are exceedingly low.; EC=3.4.11.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00181};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, preferentially leucine,
+CC         but not glutamic or aspartic acids.; EC=3.4.11.10;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00181};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00181};
+CC       Note=Binds 2 manganese ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00181}.
+CC   -!- SIMILARITY: Belongs to the peptidase M17 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000103; ABB74053.1; -; Genomic_DNA.
+DR   RefSeq; WP_011380103.1; NZ_FNVK01000003.1.
+DR   SMR; Q2YB18; -.
+DR   STRING; 323848.Nmul_A0746; -.
+DR   MEROPS; M17.003; -.
+DR   EnsemblBacteria; ABB74053; ABB74053; Nmul_A0746.
+DR   GeneID; 41369556; -.
+DR   KEGG; nmu:Nmul_A0746; -.
+DR   eggNOG; COG0260; Bacteria.
+DR   HOGENOM; CLU_013734_2_2_4; -.
+DR   OMA; MKNTGPR; -.
+DR   OrthoDB; 356206at2; -.
+DR   BioCyc; NMUL323848:G1GTI-785-MONOMER; -.
+DR   Proteomes; UP000002718; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IEA:InterPro.
+DR   CDD; cd00433; Peptidase_M17; 1.
+DR   Gene3D; 3.40.220.10; -; 1.
+DR   HAMAP; MF_00181; Cytosol_peptidase_M17; 1.
+DR   InterPro; IPR011356; Leucine_aapep/pepB.
+DR   InterPro; IPR043472; Macro_dom-like.
+DR   InterPro; IPR000819; Peptidase_M17_C.
+DR   InterPro; IPR023042; Peptidase_M17_leu_NH2_pept.
+DR   InterPro; IPR008283; Peptidase_M17_N.
+DR   PANTHER; PTHR11963; PTHR11963; 1.
+DR   Pfam; PF00883; Peptidase_M17; 1.
+DR   Pfam; PF02789; Peptidase_M17_N; 1.
+DR   PRINTS; PR00481; LAMNOPPTDASE.
+DR   SUPFAM; SSF52949; SSF52949; 1.
+DR   PROSITE; PS00631; CYTOSOL_AP; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Manganese; Metal-binding; Protease;
+KW   Reference proteome.
+FT   CHAIN           1..518
+FT                   /note="Probable cytosol aminopeptidase"
+FT                   /id="PRO_1000019944"
+FT   ACT_SITE        282
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   ACT_SITE        356
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           270
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           275
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           275
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           293
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           352
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           354
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           354
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+SQ   SEQUENCE   518 AA;  55476 MW;  51A24523E717D918 CRC64;
+     MKFNIKNGTP EKQRSACVVA GIFEQQKLTP AAEALDKSAN GYITGILSRG DMKGKAGATL
+     MLHNVPNSAC ERVLLVGLGK EQELGDKGYR DAVRAVFKAL SDTGAADATL FLLEAPVKNR
+     DLSWKVLQIA VGGLESMYRF DRLKSKVEEA EPKLQKITLG IIKSLTEEEQ TASEEALQQG
+     LAVGDGMSLA KDLGNLAPNI CTPTYLAEQA MNMAKTYKLK VTVLEQKDME DLGMGALLAV
+     ARGSRQPPKL IALEYWGGAK KGKPVVLVGK GVTFDTGGIS LKPAGEMDEM KYDMCGAASV
+     LGTVHAVAKM GLPINVVGII PATENMPGGN ATKPGDVVTS MSGQTIEILN TDAEGRLILC
+     DALAYTERYE PEAVIDIATL TGACVIALGH VASGLLSNDD ELARELLDAS ERAVDRAWRL
+     PLFDEYQEQL KSNFADVANI GGRAAGTITA ACFLARFTKK YRWAHLDIAG TAWKSGKEKG
+     ATGRPVPLLT QFLISRTTRQ PGSTGETGSR KNRRKSKE
+//

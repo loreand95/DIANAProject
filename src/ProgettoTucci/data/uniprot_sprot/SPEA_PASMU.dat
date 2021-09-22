@@ -1,0 +1,103 @@
+ID   SPEA_PASMU              Reviewed;         644 AA.
+AC   Q9CL60;
+DT   29-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-DEC-2020, entry version 110.
+DE   RecName: Full=Biosynthetic arginine decarboxylase {ECO:0000255|HAMAP-Rule:MF_01417};
+DE            Short=ADC {ECO:0000255|HAMAP-Rule:MF_01417};
+DE            EC=4.1.1.19 {ECO:0000255|HAMAP-Rule:MF_01417};
+GN   Name=speA {ECO:0000255|HAMAP-Rule:MF_01417}; OrderedLocusNames=PM1382;
+OS   Pasteurella multocida (strain Pm70).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Pasteurella.
+OX   NCBI_TaxID=272843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pm70;
+RX   PubMed=11248100; DOI=10.1073/pnas.051634598;
+RA   May B.J., Zhang Q., Li L.L., Paustian M.L., Whittam T.S., Kapur V.;
+RT   "Complete genomic sequence of Pasteurella multocida Pm70.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3460-3465(2001).
+CC   -!- FUNCTION: Catalyzes the biosynthesis of agmatine from arginine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01417}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + L-arginine = agmatine + CO2; Xref=Rhea:RHEA:17641,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:58145; EC=4.1.1.19; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01417};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01417};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01417};
+CC   -!- SIMILARITY: Belongs to the Orn/Lys/Arg decarboxylase class-II family.
+CC       SpeA subfamily. {ECO:0000255|HAMAP-Rule:MF_01417}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004439; AAK03466.1; -; Genomic_DNA.
+DR   RefSeq; WP_005757582.1; NC_002663.1.
+DR   SMR; Q9CL60; -.
+DR   EnsemblBacteria; AAK03466; AAK03466; PM1382.
+DR   KEGG; pmu:PM1382; -.
+DR   PATRIC; fig|272843.6.peg.1394; -.
+DR   HOGENOM; CLU_027243_1_0_6; -.
+DR   OMA; LFPIMPI; -.
+DR   BioCyc; PMUL272843:G1FZ8-1453-MONOMER; -.
+DR   Proteomes; UP000000809; Chromosome.
+DR   GO; GO:0008792; F:arginine decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006527; P:arginine catabolic process; IEA:InterPro.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06830; PLPDE_III_ADC; 1.
+DR   Gene3D; 2.40.37.10; -; 1.
+DR   Gene3D; 3.20.20.10; -; 1.
+DR   HAMAP; MF_01417; SpeA; 1.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR040634; Arg_decarb_HB.
+DR   InterPro; IPR041128; Arg_decarbox_C.
+DR   InterPro; IPR002985; Arg_decrbxlase.
+DR   InterPro; IPR022657; De-COase2_CS.
+DR   InterPro; IPR022644; De-COase2_N.
+DR   InterPro; IPR022653; De-COase2_pyr-phos_BS.
+DR   InterPro; IPR000183; Orn/DAP/Arg_de-COase.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   PANTHER; PTHR43295; PTHR43295; 1.
+DR   Pfam; PF17810; Arg_decarb_HB; 1.
+DR   Pfam; PF17944; Arg_decarbox_C; 1.
+DR   Pfam; PF02784; Orn_Arg_deC_N; 1.
+DR   PIRSF; PIRSF001336; Arg_decrbxlase; 1.
+DR   PRINTS; PR01180; ARGDCRBXLASE.
+DR   PRINTS; PR01179; ODADCRBXLASE.
+DR   SUPFAM; SSF50621; SSF50621; 1.
+DR   SUPFAM; SSF51419; SSF51419; 1.
+DR   TIGRFAMs; TIGR01273; speA; 1.
+DR   PROSITE; PS00878; ODR_DC_2_1; 1.
+DR   PROSITE; PS00879; ODR_DC_2_2; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase; Lyase; Magnesium; Metal-binding; Polyamine biosynthesis;
+KW   Pyridoxal phosphate; Reference proteome; Spermidine biosynthesis.
+FT   CHAIN           1..644
+FT                   /note="Biosynthetic arginine decarboxylase"
+FT                   /id="PRO_0000149966"
+FT   REGION          293..303
+FT                   /note="Substrate-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01417"
+FT   MOD_RES         113
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01417"
+SQ   SEQUENCE   644 AA;  72707 MW;  F6A7FEB0B8DE3D82 CRC64;
+     MEQVTLTSDG TSSVFAENTV REVCNINYWG MRYYNVDEKG DIFVCPDPDK PQNRVSLAAL
+     AEKVQREQGA HLPTLFCFPQ IIQHRLRSIN QAFKRAREDF GYEGNYFLVY PIKVNQHRRI
+     VESLISSGQP LGLEAGSKAE LMAVLAHAGI TQTVIVCNGY KDREYVRFAL MGEKLGHKVY
+     LVIEKLSEIQ LVLEEAAKLN VKPRLGVRAR LASQGSGKWQ SSGGEKSKFG LSASQVLSLV
+     QMLKEHECLD CLQLLHFHLG SQLGNIRDVA TGVRESARFY VELHKLGVNI QCFDVGGGLG
+     VDYEGNRTQS DCSVNYGLNE YADTVVWGIG QACREHGLPH PTIITESGRG VTAHHAVLVS
+     NVIGVERYKF ETLAAPAKDA PSVLHSMWET WVDIQSSREK RSLRSWIHES QFDLSDVHNQ
+     YNVGLLNLEQ RAWAEQLYLN ICHEVGQLFN EKHRSHRTII DELQERFADK LYVNFSLFQS
+     LPDAWGIDQL FPVCPISNLN QPVSRRAVLL DITCDSDGTI DHYIDGDGIT TTMPMPHYEE
+     DNPPLLGFFM VGAYQEILGN MHNLFGDTST VDVLVHEQDK AYIVDYDEGN TVADMLEYVY
+     LDPKKLLDRY REQIEHSNLP ASEAIQFLNE LEVGLNGYTY LEDE
+//

@@ -1,0 +1,128 @@
+ID   PPK1_ECOL6              Reviewed;         688 AA.
+AC   Q8FF70;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   10-FEB-2021, entry version 107.
+DE   RecName: Full=Polyphosphate kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE            EC=2.7.4.1 {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=ATP-polyphosphate phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00347};
+DE   AltName: Full=Polyphosphoric acid kinase {ECO:0000255|HAMAP-Rule:MF_00347};
+GN   Name=ppk {ECO:0000255|HAMAP-Rule:MF_00347}; OrderedLocusNames=c3019;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P., Rasko D.,
+RA   Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D., Mayhew G.F.,
+RA   Rose D.J., Zhou S., Schwartz D.C., Perna N.T., Mobley H.L.T.,
+RA   Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence of
+RT   uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Catalyzes the reversible transfer of the terminal phosphate
+CC       of ATP to form a long-chain polyphosphate (polyP). {ECO:0000255|HAMAP-
+CC       Rule:MF_00347}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[phosphate](n) + ATP = [phosphate](n+1) + ADP;
+CC         Xref=Rhea:RHEA:19573, Rhea:RHEA-COMP:9859, Rhea:RHEA-COMP:14280,
+CC         ChEBI:CHEBI:16838, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216; EC=2.7.4.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00347};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00347};
+CC   -!- PTM: An intermediate of this reaction is the autophosphorylated ppk in
+CC       which a phosphate is covalently linked to a histidine residue through a
+CC       N-P bond. {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SIMILARITY: Belongs to the polyphosphate kinase 1 (PPK1) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00347}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAN81469.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014075; AAN81469.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_001296288.1; NC_004431.1.
+DR   SMR; Q8FF70; -.
+DR   STRING; 199310.c3019; -.
+DR   EnsemblBacteria; AAN81469; AAN81469; c3019.
+DR   KEGG; ecc:c3019; -.
+DR   eggNOG; COG0855; Bacteria.
+DR   HOGENOM; CLU_009678_6_1_6; -.
+DR   OMA; MTLYRVG; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0009358; C:polyphosphate kinase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008976; F:polyphosphate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006799; P:polyphosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1840.10; -; 1.
+DR   HAMAP; MF_00347; Polyphosphate_kinase; 1.
+DR   InterPro; IPR001736; PLipase_D/transphosphatidylase.
+DR   InterPro; IPR003414; PP_kinase.
+DR   InterPro; IPR041108; PP_kinase_C_1.
+DR   InterPro; IPR024953; PP_kinase_middle.
+DR   InterPro; IPR036830; PP_kinase_middle_dom_sf.
+DR   InterPro; IPR025200; PPK_C_dom2.
+DR   InterPro; IPR025198; PPK_N_dom.
+DR   InterPro; IPR036832; PPK_N_dom_sf.
+DR   PANTHER; PTHR30218; PTHR30218; 1.
+DR   Pfam; PF02503; PP_kinase; 1.
+DR   Pfam; PF13090; PP_kinase_C; 1.
+DR   Pfam; PF17941; PP_kinase_C_1; 1.
+DR   Pfam; PF13089; PP_kinase_N; 1.
+DR   PIRSF; PIRSF015589; PP_kinase; 1.
+DR   SUPFAM; SSF140356; SSF140356; 1.
+DR   TIGRFAMs; TIGR03705; poly_P_kin; 1.
+DR   PROSITE; PS50035; PLD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Phosphoprotein; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..688
+FT                   /note="Polyphosphate kinase"
+FT                   /id="PRO_0000128642"
+FT   DOMAIN          430..464
+FT                   /note="PLD phosphodiesterase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   ACT_SITE        435
+FT                   /note="Phosphohistidine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   METAL           375
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   METAL           405
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         45
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         468
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         564
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+FT   BINDING         592
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00347"
+SQ   SEQUENCE   688 AA;  80421 MW;  E1E8BC53432E6935 CRC64;
+     MGQEKLYIEK ELSWLSFNER VLQEAADKSN PLIERMRFLG IYSNNLDEFY KVRFAELKRR
+     IIISEEQGSN SHSRHLLGKI QSRVLKADQE FDGLYNELLL EMARNQIFLI NERQLSVNQQ
+     NWLRHYFKQY LRQHITPILI NPDTDLVQFL KDDYTYLAVE IIRGDTIRYA LLEIPSDKVP
+     RFVNLPPEAP RRRKPMILLD NILRYCLDDI FKGFFDYDAL NAYSMKMTRD AEYDLVHEME
+     ASLMELMSSS LKQRLTAEPV RFVYQRDMPN ALVEVLREKL TISRYDSIVP GGRYHNFKDF
+     INFPNVGKAN LVNKPLPRLR HIWFDKAQFR NGFDAIRERD VLLYYPYHTF EHVLELLRQA
+     SFDPSVLAIK INIYRVAKDS RIIDSMIHAA HNGKKVTVVV ELQARFDEEA NIHWAKRLTE
+     AGVHVIFSAP GLKIHAKLFL ISRKENGEVV RYAHIGTGNF NEKTARLYTD YSLLTADARI
+     TNEVRRVFNF IENPYRPVTF DYLMVSPQNS RRLLYEMVDR EIANAQQGLP SGITLKLNNL
+     VDKGLVDRLY AASSSGVPVN LLVRGMCSLI PNLEGISDNI RAISIVDRYL EHDRVYIFEN
+     GGDKKVYLSS ADWMTRNIDY RIEVATPLLD PRLKQRVLDI IDILFSDTVK ARYIDKELSN
+     RYVPRGNRRK VRAQLAIYDY IKSLEQSE
+//

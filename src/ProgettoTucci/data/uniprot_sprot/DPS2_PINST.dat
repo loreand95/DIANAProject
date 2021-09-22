@@ -1,0 +1,105 @@
+ID   DPS2_PINST              Reviewed;         396 AA.
+AC   P48408;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   10-FEB-2021, entry version 92.
+DE   RecName: Full=Pinosylvin synthase 2 {ECO:0000303|PubMed:7698342};
+DE            EC=2.3.1.146 {ECO:0000269|PubMed:7698342};
+DE   AltName: Full=Dihydropinosylvin synthase 2;
+DE   AltName: Full=Stilbene synthase 2 {ECO:0000303|PubMed:7698342};
+DE            Short=STS 2;
+GN   Name=STS2 {ECO:0000303|PubMed:7698342};
+OS   Pinus strobus (Eastern white pine).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Pinopsida; Pinidae; Pinales; Pinaceae; Pinus;
+OC   Pinus subgen. Strobus.
+OX   NCBI_TaxID=3348;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=7698342; DOI=10.1016/0014-5793(95)00199-j;
+RA   Raiber S., Schroeder G., Schroeder J.;
+RT   "Molecular and enzymatic characterization of two stilbene synthases from
+RT   Eastern white pine (Pinus strobus). A single Arg/His difference determines
+RT   the activity and the pH dependence of the enzymes.";
+RL   FEBS Lett. 361:299-302(1995).
+CC   -!- FUNCTION: Catalyzes the production of pinosylvin from cinnamoyl-CoA and
+CC       malonyl-CoA, and dihydropinosylvin from dihydrocinnamoyl-CoA.
+CC       {ECO:0000269|PubMed:7698342}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(E)-cinnamoyl-CoA + 3 H(+) + 3 malonyl-CoA = (E)-pinosylvin +
+CC         4 CO2 + 4 CoA; Xref=Rhea:RHEA:12552, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:17323, ChEBI:CHEBI:57252,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57384; EC=2.3.1.146;
+CC         Evidence={ECO:0000269|PubMed:7698342};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phenylpropanoyl-CoA + 3 H(+) + 3 malonyl-CoA = 4 CO2 + 4 CoA
+CC         + dihydropinosylvin; Xref=Rhea:RHEA:46096, ChEBI:CHEBI:4579,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:85676;
+CC         Evidence={ECO:0000269|PubMed:7698342};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.6 uM for cinnamoyl-CoA {ECO:0000269|PubMed:7698342};
+CC         KM=22 uM for dihydrocinnamoyl-CoA {ECO:0000269|PubMed:7698342};
+CC       pH dependence:
+CC         Optimum pH is 6-7. {ECO:0000269|PubMed:7698342};
+CC   -!- PATHWAY: Phytoalexin biosynthesis; pinosylvin biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- INDUCTION: By stress.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. Chalcone/stilbene
+CC       synthases family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z46915; CAA87013.1; -; mRNA.
+DR   PIR; S68773; S68773.
+DR   SMR; P48408; -.
+DR   KEGG; ag:CAA87013; -.
+DR   BioCyc; MetaCyc:MONOMER-11733; -.
+DR   UniPathway; UPA00373; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050198; F:pinosylvin synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009058; P:biosynthetic process; IEA:InterPro.
+DR   Gene3D; 3.40.47.10; -; 2.
+DR   InterPro; IPR012328; Chalcone/stilbene_synt_C.
+DR   InterPro; IPR001099; Chalcone/stilbene_synt_N.
+DR   InterPro; IPR018088; Chalcone/stilbene_synthase_AS.
+DR   InterPro; IPR011141; Polyketide_synthase_type-III.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   PANTHER; PTHR11877; PTHR11877; 1.
+DR   Pfam; PF02797; Chal_sti_synt_C; 1.
+DR   Pfam; PF00195; Chal_sti_synt_N; 1.
+DR   PIRSF; PIRSF000451; PKS_III; 1.
+DR   SUPFAM; SSF53901; SSF53901; 2.
+DR   PROSITE; PS00441; CHALCONE_SYNTH; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Cytoplasm; Stress response; Transferase.
+FT   CHAIN           1..396
+FT                   /note="Pinosylvin synthase 2"
+FT                   /id="PRO_0000216077"
+FT   REGION          60..63
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          311..313
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        170
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10023"
+FT   BINDING         273
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   SITE            313
+FT                   /note="Responsible for the different enzymatic properties
+FT                   of STS1 and STS2"
+SQ   SEQUENCE   396 AA;  43112 MW;  BA87BE471B10285A CRC64;
+     MSVGMGVDLE AFRKSQRADG FASILAIGTA NPPNVVDQST YPDYYFRNTN NEDNTDLKDK
+     FKRICERSAI KKRHMYLTEE ILKKNPELCA FLEVPSLDTR QAMLAVEVPR LGKEAAEKAI
+     EEWGQPKSRI THLIFCTTTT PDLPGADFEV AKLLGLHPSV KRVGVFQHGC FAGGTVLRLA
+     KDLAENNRGA RVLVVCSENT AVTFRGPSET HLDGLVGLAL FGDGAAALIV GADPIPQVEK
+     PCFEIVWTAQ TVVPNSDGAI SGKLREVGLT FQLKGAVPDL ISTNIEKCLV EAFSQFNISD
+     WNQLFWIAHP GGRAILDQVE ASLNLDPTKL RATRHVMSEY GNMSSACVHF ILDETRKASR
+     QNGCSTSGGG FQMGVLFGFG PGLTVETVVL KSIPFP
+//

@@ -1,0 +1,110 @@
+ID   HIS5_NEIMB              Reviewed;         212 AA.
+AC   Q9K0H2;
+DT   08-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 115.
+DE   RecName: Full=Imidazole glycerol phosphate synthase subunit HisH;
+DE            EC=4.3.2.10;
+DE   AltName: Full=IGP synthase glutaminase subunit;
+DE            EC=3.5.1.2;
+DE   AltName: Full=IGP synthase subunit HisH;
+DE   AltName: Full=ImGP synthase subunit HisH;
+DE            Short=IGPS subunit HisH;
+GN   Name=hisH; OrderedLocusNames=NMB0630;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C., Nelson K.E.,
+RA   Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F., Dodson R.J., Nelson W.C.,
+RA   Gwinn M.L., DeBoy R.T., Peterson J.D., Hickey E.K., Haft D.H.,
+RA   Salzberg S.L., White O., Fleischmann R.D., Dougherty B.A., Mason T.M.,
+RA   Ciecko A., Parksey D.S., Blair E., Cittone H., Clark E.B., Cotton M.D.,
+RA   Utterback T.R., Khouri H.M., Qin H., Vamathevan J.J., Gill J., Scarlato V.,
+RA   Masignani V., Pizza M., Grandi G., Sun L., Smith H.O., Fraser C.M.,
+RA   Moxon E.R., Rappuoli R., Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- FUNCTION: IGPS catalyzes the conversion of PRFAR and glutamine to IGP,
+CC       AICAR and glutamate. The HisH subunit catalyzes the hydrolysis of
+CC       glutamine to glutamate and ammonia as part of the synthesis of IGP and
+CC       AICAR. The resulting ammonia molecule is channeled to the active site
+CC       of HisF (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-
+CC         phospho-beta-D-ribosyl)imidazole-4-carboxamide + L-glutamine = 5-
+CC         amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide + D-
+CC         erythro-1-(imidazol-4-yl)glycerol 3-phosphate + H(+) + L-glutamate;
+CC         Xref=Rhea:RHEA:24793, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:58278, ChEBI:CHEBI:58359, ChEBI:CHEBI:58475,
+CC         ChEBI:CHEBI:58525; EC=4.3.2.10;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-glutamine = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 5/9.
+CC   -!- SUBUNIT: Heterodimer of HisH and HisF. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE002098; AAF41055.1; -; Genomic_DNA.
+DR   PIR; B81177; B81177.
+DR   RefSeq; NP_273673.1; NC_003112.2.
+DR   RefSeq; WP_002225527.1; NC_003112.2.
+DR   SMR; Q9K0H2; -.
+DR   PaxDb; Q9K0H2; -.
+DR   EnsemblBacteria; AAF41055; AAF41055; NMB0630.
+DR   KEGG; nme:NMB0630; -.
+DR   PATRIC; fig|122586.8.peg.798; -.
+DR   HOGENOM; CLU_071837_2_0_4; -.
+DR   OMA; WVYFVHS; -.
+DR   BioCyc; NMEN122586:G1G1B-615-MONOMER; -.
+DR   UniPathway; UPA00031; UER00010.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000107; F:imidazoleglycerol-phosphate synthase activity; IBA:GO_Central.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01748; GATase1_IGP_Synthase; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00278; HisH; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR010139; Imidazole-glycPsynth_HisH.
+DR   PANTHER; PTHR42701; PTHR42701; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   PIRSF; PIRSF000495; Amidotransf_hisH; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01855; IMP_synth_hisH; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Glutamine amidotransferase;
+KW   Histidine biosynthesis; Hydrolase; Lyase; Reference proteome.
+FT   CHAIN           1..212
+FT                   /note="Imidazole glycerol phosphate synthase subunit HisH"
+FT                   /id="PRO_0000152398"
+FT   DOMAIN          2..212
+FT                   /note="Glutamine amidotransferase type-1"
+FT   ACT_SITE        85
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        194
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        196
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   212 AA;  23773 MW;  959B2F21BB5DF77B CRC64;
+     MQTAIIDYGM GNLHSVLKSV RTAGQLAGKN TEIFLSGDPD RVSRADKVIF PGQGAMPDCM
+     AALKRDGLDE AVKDALKNKP FFGICVGAQL LFDHSEEGNT DGLGWFGGKV RRFERDLRDP
+     QGCRLKVPHM GWNTVRQTQN HPLFKDIPQD TRFYFVHSYY FAPENPETIL GESDYPSPFA
+     CIVGKDNVFA TQFHTEKSHD AGLTMLKNFL NW
+//

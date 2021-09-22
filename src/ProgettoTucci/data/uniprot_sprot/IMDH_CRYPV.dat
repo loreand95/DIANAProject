@@ -1,0 +1,274 @@
+ID   IMDH_CRYPV              Reviewed;         400 AA.
+AC   Q8T6T2;
+DT   22-FEB-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   07-APR-2021, entry version 105.
+DE   RecName: Full=Inosine-5'-monophosphate dehydrogenase {ECO:0000303|PubMed:15269207};
+DE            Short=IMP dehydrogenase {ECO:0000303|PubMed:15269207};
+DE            Short=IMPD;
+DE            Short=IMPDH {ECO:0000303|PubMed:15269207};
+DE            EC=1.1.1.205 {ECO:0000269|PubMed:15269207};
+GN   ORFNames=56k.02, cgd6_20;
+OS   Cryptosporidium parvum.
+OC   Eukaryota; Sar; Alveolata; Apicomplexa; Conoidasida; Coccidia;
+OC   Eucoccidiorida; Eimeriorina; Cryptosporidiidae; Cryptosporidium.
+OX   NCBI_TaxID=5807;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Iowa;
+RX   PubMed=11959921; DOI=10.1073/pnas.092525699;
+RA   Striepen B., White M.W., Li C., Guerini M.N., Malik S.B., Logsdon J.M. Jr.,
+RA   Liu C., Abrahamsen M.S.;
+RT   "Genetic complementation in apicomplexan parasites.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:6304-6309(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Iowa;
+RX   PubMed=12869580; DOI=10.1101/gr.1555203;
+RA   Bankier A.T., Spriggs H.F., Fartmann B., Konfortov B.A., Madera M.,
+RA   Vogel C., Teichmann S.A., Ivens A., Dear P.H.;
+RT   "Integrated mapping, chromosomal sequencing and sequence analysis of
+RT   Cryptosporidium parvum.";
+RL   Genome Res. 13:1787-1799(2003).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=HNJ-1;
+RA   Yamagishi J., Wakaguri H., Sugano S., Kawano S., Fujisaki K., Sugimoto C.,
+RA   Watanabe J., Suzuki Y., Kimata I., Xuan X.;
+RT   "Construction and analysis of full-length cDNA library of Cryptosporidium
+RT   parvum.";
+RL   Submitted (FEB-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   PROTEIN SEQUENCE OF 2-11, FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBUNIT, ACTIVITY REGULATION, AND MASS SPECTROMETRY.
+RX   PubMed=15269207; DOI=10.1074/jbc.m407121200;
+RA   Umejiego N.N., Li C., Riera T., Hedstrom L., Striepen B.;
+RT   "Cryptosporidium parvum IMP dehydrogenase: identification of functional,
+RT   structural, and dynamic properties that can be exploited for drug design.";
+RL   J. Biol. Chem. 279:40320-40327(2004).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (3.19 ANGSTROMS).
+RX   PubMed=20052976; DOI=10.1021/ja909947a;
+RA   Macpherson I.S., Kirubakaran S., Gorla S.K., Riera T.V., D'Aquino J.A.,
+RA   Zhang M., Cuny G.D., Hedstrom L.;
+RT   "The structural basis of Cryptosporidium-specific IMP dehydrogenase
+RT   inhibitor selectivity.";
+RL   J. Am. Chem. Soc. 132:1230-1231(2010).
+RN   [6]
+RP   X-RAY CRYSTALLOGRAPHY (2.10 ANGSTROMS) OF 1-89 OF 135-400 IN COMPLEX WITH
+RP   IMP.
+RX   PubMed=23668331; DOI=10.1021/jm400241j;
+RA   Gorla S.K., Kavitha M., Zhang M., Chin J.E., Liu X., Striepen B.,
+RA   Makowska-Grzyska M., Kim Y., Joachimiak A., Hedstrom L., Cuny G.D.;
+RT   "Optimization of benzoxazole-based inhibitors of Cryptosporidium parvum
+RT   inosine 5'-monophosphate dehydrogenase.";
+RL   J. Med. Chem. 56:4028-4043(2013).
+CC   -!- FUNCTION: Catalyzes the conversion of inosine 5'-phosphate (IMP) to
+CC       xanthosine 5'-phosphate (XMP), the first committed and rate-limiting
+CC       step in the de novo synthesis of guanine nucleotides, and therefore
+CC       plays an important role in the regulation of cell growth.
+CC       {ECO:0000269|PubMed:15269207}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IMP + NAD(+) = H(+) + NADH + XMP; Xref=Rhea:RHEA:11708,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57464,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58053;
+CC         EC=1.1.1.205; Evidence={ECO:0000269|PubMed:15269207};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000250|UniProtKB:P20839};
+CC   -!- ACTIVITY REGULATION: Mycophenolic acid (MPA) is a non-competitive
+CC       inhibitor that prevents formation of the closed enzyme conformation by
+CC       binding to the same site as the amobile flap. In contrast, mizoribine
+CC       monophosphate (MZP) is a competitive inhibitor that induces the closed
+CC       conformation. MPA is a potent inhibitor of mammalian IMPDHs but a poor
+CC       inhibitor of the bacterial enzymes. MZP is a more potent inhibitor of
+CC       bacterial IMPDH. Resistant to mycophenolic acid (MPA) inhibition
+CC       (PubMed:15269207). {ECO:0000250|UniProtKB:P20839,
+CC       ECO:0000269|PubMed:15269207}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=29 uM for Inosine 5'-phosphate {ECO:0000269|PubMed:15269207};
+CC         KM=150 uM for NAD(+) {ECO:0000269|PubMed:15269207};
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via de novo pathway; XMP
+CC       from IMP: step 1/1. {ECO:0000305|PubMed:15269207}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000269|PubMed:15269207}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P20839}.
+CC   -!- MASS SPECTROMETRY: Mass=42904; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:15269207};
+CC   -!- MISCELLANEOUS: Cryptosporidium IMPDH was acquired through lateral
+CC       transfer from eubacteria, and predictably the sensitivity to MPA
+CC       differs from that of mammalian IMPDH forms. This divergence of parasite
+CC       and host enzymes is exploited to design more potent parasite-specific
+CC       inhibitors. {ECO:0000305|PubMed:15269207}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF426177; AAL83208.1; -; Genomic_DNA.
+DR   EMBL; BX538350; CAD98604.1; -; Genomic_DNA.
+DR   EMBL; FX115298; BAJ77401.1; -; mRNA.
+DR   EMBL; FX115945; BAJ78048.1; -; mRNA.
+DR   PDB; 3FFS; X-ray; 3.19 A; A/B/C/D=1-400.
+DR   PDB; 4IXH; X-ray; 2.10 A; A/B/C/D=1-89, A/B/C/D=135-400.
+DR   PDB; 4QJ1; X-ray; 2.42 A; A/B/C/D=1-400.
+DR   PDB; 4RV8; X-ray; 2.05 A; A/B/C/D=1-89, A/B/C/D=135-400.
+DR   PDBsum; 3FFS; -.
+DR   PDBsum; 4IXH; -.
+DR   PDBsum; 4QJ1; -.
+DR   PDBsum; 4RV8; -.
+DR   SMR; Q8T6T2; -.
+DR   BindingDB; Q8T6T2; -.
+DR   ChEMBL; CHEMBL6145; -.
+DR   BRENDA; 1.1.1.205; 1728.
+DR   SABIO-RK; Q8T6T2; -.
+DR   UniPathway; UPA00601; UER00295.
+DR   EvolutionaryTrace; Q8T6T2; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd00381; IMPDH; 1.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cytoplasm; Direct protein sequencing; GMP biosynthesis;
+KW   Metal-binding; NAD; Oxidoreductase; Potassium; Purine biosynthesis.
+FT   CHAIN           1..400
+FT                   /note="Inosine-5'-monophosphate dehydrogenase"
+FT                   /id="PRO_0000415682"
+FT   NP_BIND         212..214
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   REGION          252..254
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000269|PubMed:23668331"
+FT   REGION          275..276
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000269|PubMed:23668331"
+FT   REGION          299..303
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000269|PubMed:23668331"
+FT   ACT_SITE        219
+FT                   /note="Thioimidate intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   ACT_SITE        315
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKI7"
+FT   METAL           214
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   METAL           216
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   METAL           219
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   METAL           383
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   METAL           384
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   METAL           385
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   BINDING         163
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P50097"
+FT   BINDING         217
+FT                   /note="IMP"
+FT                   /evidence="ECO:0000269|PubMed:23668331"
+FT   BINDING         329
+FT                   /note="IMP"
+FT                   /evidence="ECO:0000269|PubMed:23668331"
+FT   STRAND          5..8
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           12..14
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          15..17
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           26..28
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          33..36
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          39..47
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   TURN            51..53
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           56..64
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          68..71
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          73..75
+FT                   /evidence="ECO:0007744|PDB:4IXH"
+FT   HELIX           77..88
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   TURN            132..134
+FT                   /evidence="ECO:0007744|PDB:4QJ1"
+FT   STRAND          138..141
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           146..155
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          158..163
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          167..169
+FT                   /evidence="ECO:0007744|PDB:4QJ1"
+FT   HELIX           170..182
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          186..192
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           195..203
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          207..211
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           221..224
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           231..242
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           243..245
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          249..253
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           258..266
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          270..274
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           276..279
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          281..284
+FT                   /evidence="ECO:0007744|PDB:4QJ1"
+FT   STRAND          288..291
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          294..300
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           305..309
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          332..336
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           341..358
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           364..370
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   STRAND          373..375
+FT                   /evidence="ECO:0007744|PDB:4RV8"
+FT   HELIX           378..384
+FT                   /evidence="ECO:0007744|PDB:4IXH"
+FT   STRAND          388..391
+FT                   /evidence="ECO:0007744|PDB:4IXH"
+SQ   SEQUENCE   400 AA;  43081 MW;  DAAF96B44050DD18 CRC64;
+     MGTKNIGKGL TFEDILLVPN YSEVLPREVS LETKLTKNVS LKIPLISSAM DTVTEHLMAV
+     GMARLGGIGI IHKNMDMESQ VNEVLKVKNW ISNLEKNEST PDQNLDKEST DGKDTKSNNN
+     IDAYSNENLD NKGRLRVGAA IGVNEIERAK LLVEAGVDVI VLDSAHGHSL NIIRTLKEIK
+     SKMNIDVIVG NVVTEEATKE LIENGADGIK VGIGPGSICT TRIVAGVGVP QITAIEKCSS
+     VASKFGIPII ADGGIRYSGD IGKALAVGAS SVMIGSILAG TEESPGEKEL IGDTVYKYYR
+     GMGSVGAMKS GSGDRYFQEK RPENKMVPEG IEGRVKYKGE MEGVVYQLVG GLRSCMGYLG
+     SASIEELWKK SSYVEITTSG LRESHVHDVE IVKEVMNYSK
+//

@@ -1,0 +1,92 @@
+ID   KHSE_ARCB4              Reviewed;         293 AA.
+AC   A8EWD5;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 1.
+DT   10-FEB-2021, entry version 79.
+DE   RecName: Full=Homoserine kinase {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            Short=HK {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            Short=HSK {ECO:0000255|HAMAP-Rule:MF_00384};
+DE            EC=2.7.1.39 {ECO:0000255|HAMAP-Rule:MF_00384};
+GN   Name=thrB {ECO:0000255|HAMAP-Rule:MF_00384}; OrderedLocusNames=Abu_2041;
+OS   Arcobacter butzleri (strain RM4018).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Arcobacter group; Arcobacter.
+OX   NCBI_TaxID=367737;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RM4018;
+RX   PubMed=18159241; DOI=10.1371/journal.pone.0001358;
+RA   Miller W.G., Parker C.T., Rubenfield M., Mendz G.L., Woesten M.M.S.M.,
+RA   Ussery D.W., Stolz J.F., Binnewies T.T., Hallin P.F., Wang G., Malek J.A.,
+RA   Rogosin A., Stanker L.H., Mandrell R.E.;
+RT   "The complete genome sequence and analysis of the Epsilonproteobacterium
+RT   Arcobacter butzleri.";
+RL   PLoS ONE 2:E1358-E1358(2007).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent phosphorylation of L-homoserine
+CC       to L-homoserine phosphate. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-homoserine = ADP + H(+) + O-phospho-L-homoserine;
+CC         Xref=Rhea:RHEA:13985, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57476, ChEBI:CHEBI:57590, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.39; Evidence={ECO:0000255|HAMAP-Rule:MF_00384};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-threonine biosynthesis; L-threonine
+CC       from L-aspartate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   -!- SIMILARITY: Belongs to the GHMP kinase family. Homoserine kinase
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00384}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000361; ABV68258.1; -; Genomic_DNA.
+DR   RefSeq; WP_012147924.1; NC_009850.1.
+DR   SMR; A8EWD5; -.
+DR   STRING; 367737.Abu_2041; -.
+DR   EnsemblBacteria; ABV68258; ABV68258; Abu_2041.
+DR   GeneID; 56464175; -.
+DR   KEGG; abu:Abu_2041; -.
+DR   eggNOG; COG0083; Bacteria.
+DR   HOGENOM; CLU_041243_0_0_7; -.
+DR   OMA; CANRIPH; -.
+DR   OrthoDB; 610857at2; -.
+DR   BioCyc; ABUT367737:G1G6I-2044-MONOMER; -.
+DR   UniPathway; UPA00050; UER00064.
+DR   Proteomes; UP000001136; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004413; F:homoserine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009088; P:threonine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.890; -; 1.
+DR   HAMAP; MF_00384; Homoser_kinase; 1.
+DR   InterPro; IPR013750; GHMP_kinase_C_dom.
+DR   InterPro; IPR036554; GHMP_kinase_C_sf.
+DR   InterPro; IPR006204; GHMP_kinase_N_dom.
+DR   InterPro; IPR006203; GHMP_knse_ATP-bd_CS.
+DR   InterPro; IPR000870; Homoserine_kinase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   Pfam; PF08544; GHMP_kinases_C; 1.
+DR   Pfam; PF00288; GHMP_kinases_N; 1.
+DR   PIRSF; PIRSF000676; Homoser_kin; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55060; SSF55060; 1.
+DR   TIGRFAMs; TIGR00191; thrB; 1.
+DR   PROSITE; PS00627; GHMP_KINASES_ATP; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Reference proteome; Threonine biosynthesis;
+KW   Transferase.
+FT   CHAIN           1..293
+FT                   /note="Homoserine kinase"
+FT                   /id="PRO_1000060697"
+FT   NP_BIND         84..94
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00384"
+SQ   SEQUENCE   293 AA;  32620 MW;  ABE06E428E55CFBC CRC64;
+     MKVSVPATSA NLGPGFDCLG LAVSLKNQVI IRPSKFHSVS LKGEGANNPA LKDNNMFISI
+     FNDFYQNLSH KKRFFRFEFQ NEIPLSRGLG SSSAVIVSAI ASAYAIEGIK LERDKLLNLA
+     LAYESHPDNI TPAVMGGFNV ACVQENEVKY INKPIPKSLK AVIVVPNRAI STAMSRKTLP
+     FKYSKEDTIF NISHSSLLTA AFMSENWEML KYASNDQVHQ KYRMKQMPEL FEVQKTALKE
+     GALMSTLSGS GSTLFSMAYT DDSRNLEKAL KNKFPHFRVF VVDFDNTGVK IEL
+//

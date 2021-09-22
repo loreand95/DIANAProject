@@ -1,0 +1,174 @@
+ID   VP3_ROTBU               Reviewed;         835 AA.
+AC   Q6WAT6;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 43.
+DE   RecName: Full=Protein VP3 {ECO:0000255|HAMAP-Rule:MF_04128};
+DE   Includes:
+DE     RecName: Full=2',5'-phosphodiesterase {ECO:0000255|HAMAP-Rule:MF_04128};
+DE              EC=3.1.4.- {ECO:0000255|HAMAP-Rule:MF_04128};
+DE   Includes:
+DE     RecName: Full=mRNA guanylyltransferase {ECO:0000255|HAMAP-Rule:MF_04128};
+DE              EC=2.7.7.50 {ECO:0000255|HAMAP-Rule:MF_04128};
+DE   Includes:
+DE     RecName: Full=mRNA (guanine-N(7)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_04128};
+DE              EC=2.1.1.56 {ECO:0000255|HAMAP-Rule:MF_04128};
+OS   Rotavirus A (strain RVA/Cow/United Kingdom/UK/1975/G6P7[5]) (RV-A).
+OC   Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes;
+OC   Reovirales; Reoviridae; Sedoreovirinae; Rotavirus; Rotavirus A.
+OX   NCBI_TaxID=10934;
+OH   NCBI_TaxID=9913; Bos taurus (Bovine).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=15039535; DOI=10.1099/vir.0.19629-0;
+RA   Cook J.P., McCrae M.A.;
+RT   "Sequence analysis of the guanylyltransferase (VP3) of group A
+RT   rotaviruses.";
+RL   J. Gen. Virol. 85:929-932(2004).
+RN   [2]
+RP   INTERACTION WITH RNA-DIRECTED RNA POLYMERASE VP1, FUNCTION, AND SUBCELLULAR
+RP   LOCATION.
+RX   PubMed=20122940; DOI=10.1016/j.jmb.2010.01.055;
+RA   McClain B., Settembre E., Temple B.R., Bellamy A.R., Harrison S.C.;
+RT   "X-ray crystal structure of the rotavirus inner capsid particle at 3.8 A
+RT   resolution.";
+RL   J. Mol. Biol. 397:587-599(2010).
+CC   -!- FUNCTION: Multifunctional enzyme involved in mRNA capping. Catalyzes
+CC       the formation of the 5' cap structure on the viral plus-strand
+CC       transcripts (By similarity). Specifically binds to GTP and displays
+CC       guanylyltransferase and methyltransferase activities (By similarity).
+CC       Has affinity for ssRNA but not for dsRNA (By similarity). Capping
+CC       activity is non-specific and caps RNAs that initiate with either a G or
+CC       an A residue (By similarity). Together with VP1 polymerase, forms a
+CC       VP1-VP3 complex positioned near the channels situated at each of the
+CC       five-fold vertices of the core (PubMed:20122940). Following infection,
+CC       the outermost layer of the virus is lost, leaving a double-layered
+CC       particle (DLP) made up of the core and VP6 shell (By similarity). VP1
+CC       then catalyzes the transcription of fully conservative plus-strand
+CC       genomic RNAs that are capped by VP3 and extruded through the DLP's
+CC       channels into the cytoplasm where they function as mRNAs for
+CC       translation of viral proteins (By similarity). DLPs probably have an
+CC       RNA triphosphatase activity as well, whereas open cores do not (By
+CC       similarity). {ECO:0000255|HAMAP-Rule:MF_04128,
+CC       ECO:0000269|PubMed:20122940}.
+CC   -!- FUNCTION: Counteracts the host innate immune response thanks to its
+CC       phosphodiesterase that degrades the 5'-triphosphorylated, 2'-5' linked
+CC       adenylate oligomers produced by the host cell IFN-inducible 2',5'-
+CC       oligoadenylate synthetase (OAS). The host RNaseL is therefore not
+CC       activated. {ECO:0000255|HAMAP-Rule:MF_04128}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end diphospho-(purine-ribonucleoside) in mRNA + GTP +
+CC         H(+) = a 5'-end (5'-triphosphoguanosine)-(purine-ribonucleoside) in
+CC         mRNA + diphosphate; Xref=Rhea:RHEA:54592, Rhea:RHEA-COMP:13407,
+CC         Rhea:RHEA-COMP:13929, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:37565, ChEBI:CHEBI:136896, ChEBI:CHEBI:138276;
+CC         EC=2.7.7.50; Evidence={ECO:0000255|HAMAP-Rule:MF_04128};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end (5'-triphosphoguanosine)-guanosine in mRNA + S-
+CC         adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-
+CC         triphosphoguanosine)-guanosine in mRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:60856, Rhea:RHEA-COMP:15681, Rhea:RHEA-COMP:15683,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:143971,
+CC         ChEBI:CHEBI:143975; EC=2.1.1.56; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_04128};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end (5'-triphosphoguanosine)-adenosine in mRNA + S-
+CC         adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-
+CC         triphosphoguanosine)-adenosine in mRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:60852, Rhea:RHEA-COMP:15680, Rhea:RHEA-COMP:15682,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:143973,
+CC         ChEBI:CHEBI:143974; EC=2.1.1.56; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_04128};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5'-triphosphoadenylyl-(2'->5')-adenylyl-(2'->5')-adenosine + 2
+CC         H2O = 2 AMP + ATP + 2 H(+); Xref=Rhea:RHEA:45964, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:67143,
+CC         ChEBI:CHEBI:456215; Evidence={ECO:0000255|HAMAP-Rule:MF_04128};
+CC   -!- SUBUNIT: Interacts with VP1 (PubMed:20122940). Interacts with VP2 (By
+CC       similarity). {ECO:0000255|HAMAP-Rule:MF_04128,
+CC       ECO:0000269|PubMed:20122940}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000255|HAMAP-Rule:MF_04128,
+CC       ECO:0000269|PubMed:20122940}. Note=Attached inside the inner capsid as
+CC       a minor component. There are about 11 to 12 copies per virion.
+CC       {ECO:0000255|HAMAP-Rule:MF_04128, ECO:0000305}.
+CC   -!- DOMAIN: Contains a bipartite N7-methytransferase domain, a 2'-O-
+CC       methytransferase domain and a GTase/RTPase domain. The C-terminus
+CC       contains a phosphodiesterase domain that degrades the 5'-
+CC       triphosphorylated, 2'-5' linked adenylate oligomers produced by the
+CC       host cell in response to IFN stimulation. {ECO:0000255|HAMAP-
+CC       Rule:MF_04128}.
+CC   -!- SIMILARITY: Belongs to the rotavirus VP3 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_04128, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY300923; AAQ74387.1; -; Genomic_RNA.
+DR   SMR; Q6WAT6; -.
+DR   Proteomes; UP000008657; Genome.
+DR   GO; GO:0019013; C:viral nucleocapsid; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004482; F:mRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004484; F:mRNA guanylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0039503; P:suppression by virus of host innate immune response; IEA:UniProtKB-KW.
+DR   CDD; cd20757; capping_2-OMTase_Rotavirus; 1.
+DR   HAMAP; MF_04124; Rota_VP3; 1.
+DR   HAMAP; MF_04128; Rota_VP3_A; 1.
+DR   InterPro; IPR011181; VP3_Rotav.
+DR   Pfam; PF06929; Rotavirus_VP3; 1.
+DR   PIRSF; PIRSF004015; LigT_rotavirus; 1.
+DR   PROSITE; PS51589; SAM_MT56_VP3; 1.
+PE   1: Evidence at protein level;
+KW   GTP-binding; Host-virus interaction; Hydrolase;
+KW   Inhibition of host innate immune response by virus; Methyltransferase;
+KW   mRNA capping; mRNA processing; Multifunctional enzyme; Nucleotide-binding;
+KW   Nucleotidyltransferase; RNA-binding; S-adenosyl-L-methionine; Transferase;
+KW   Viral immunoevasion; Virion.
+FT   CHAIN           1..835
+FT                   /note="Protein VP3"
+FT                   /id="PRO_0000368074"
+FT   REGION          171..245
+FT                   /note="N7-methyltransferase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   REGION          246..428
+FT                   /note="2'-O-methyltransferase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   REGION          429..555
+FT                   /note="N7-methyltransferase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   REGION          556..692
+FT                   /note="GTase/RTPase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   REGION          693..835
+FT                   /note="2'-5'-phosphodiesterase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   ACT_SITE        718
+FT                   /note="For 2'-5'-phosphodiesterase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   ACT_SITE        720
+FT                   /note="For 2'-5'-phosphodiesterase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   ACT_SITE        797
+FT                   /note="For 2'-5'-phosphodiesterase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+FT   ACT_SITE        799
+FT                   /note="For 2'-5'-phosphodiesterase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04128"
+SQ   SEQUENCE   835 AA;  98045 MW;  C47E642ABA171312 CRC64;
+     MKVLALRHSV AQVYADTQIY IHDETKDDYE NAFFISNLTT HNILYLNYSV KTLQILNKSG
+     IAAVEIQKMD KLFTLIRCNF TYDYIDDVVY LHDYSYYTNN EIRTDQHWVT KTNIEDYLLP
+     GWKLTYVGYN GNDTRGHYNF SFKCQNAATD DDAIIEYIYS NELDFQNFIL KKIKERMTTS
+     LPIARLSNRV FRDKLFKTLV SDHSKIVNVG PRNESMFTFL DHPSIKQFSN GPYLVKDTIK
+     LKQERWLGKR LSQFDIGQYK NYVKCINNLI SIYDMYHEKP IIYMLGSAPS YWIHDVKQYS
+     NLKFETWDPL DTPYSDLHHK ELFYISDVTK LKDNSILYID IRTDRENADW KTWRKIVEEQ
+     TVNNLNIAYK YLSTGKAKVC CVKMTAMDLE LPISAKLLHH PTTEIRSEFY LIMDIWDSKN
+     IKRFIPKGVL YSYINNIITE NVFIQQPFKL KTLRNEYVVA LYALSNDFNN REDVIKLINN
+     QKNALITVRI NNTFKDEPKV GFKDIYDWTF LPTDFETNES IITSYDGCLG VFGLSISLAS
+     KPTGNNHLFM LSGTNKYFNM DQFANHMSIS RRSHQIRFSE SATSYSGYIF RDLSNNNFNL
+     IGTNVENSVS GHVYNALIYY RYNYSFDLKR WIYLHSTNKA SIEGGRYYEH APIELIYACR
+     SAREFAKLQD DLTVLRYSNE IENYINKVYS ITYADDPNYF IGIKFKNIPY EYDVKVPHLT
+     FGVLNISDSM VPDVVVILKK FKSELFRMDV TTSYTYMLSD EIYVANVSGV LSTYFKLYNA
+     FYKEQITFGQ SRMFIPHITL SFSNKKVVRI DSTRLNIDFI YLRKIKGDTV FDMAE
+//

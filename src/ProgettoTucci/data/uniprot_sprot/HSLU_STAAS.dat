@@ -1,0 +1,101 @@
+ID   HSLU_STAAS              Reviewed;         467 AA.
+AC   Q6G9V9;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 102.
+DE   RecName: Full=ATP-dependent protease ATPase subunit HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+DE   AltName: Full=Unfoldase HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+GN   Name=hslU {ECO:0000255|HAMAP-Rule:MF_00249}; OrderedLocusNames=SAS1188;
+OS   Staphylococcus aureus (strain MSSA476).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=282459;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MSSA476;
+RX   PubMed=15213324; DOI=10.1073/pnas.0402521101;
+RA   Holden M.T.G., Feil E.J., Lindsay J.A., Peacock S.J., Day N.P.J.,
+RA   Enright M.C., Foster T.J., Moore C.E., Hurst L., Atkin R., Barron A.,
+RA   Bason N., Bentley S.D., Chillingworth C., Chillingworth T., Churcher C.,
+RA   Clark L., Corton C., Cronin A., Doggett J., Dowd L., Feltwell T., Hance Z.,
+RA   Harris B., Hauser H., Holroyd S., Jagels K., James K.D., Lennard N.,
+RA   Line A., Mayes R., Moule S., Mungall K., Ormond D., Quail M.A.,
+RA   Rabbinowitsch E., Rutherford K.M., Sanders M., Sharp S., Simmonds M.,
+RA   Stevens K., Whitehead S., Barrell B.G., Spratt B.G., Parkhill J.;
+RT   "Complete genomes of two clinical Staphylococcus aureus strains: evidence
+RT   for the rapid evolution of virulence and drug resistance.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9786-9791(2004).
+CC   -!- FUNCTION: ATPase subunit of a proteasome-like degradation complex; this
+CC       subunit has chaperone activity. The binding of ATP and its subsequent
+CC       hydrolysis by HslU are essential for unfolding of protein substrates
+CC       subsequently hydrolyzed by HslV. HslU recognizes the N-terminal part of
+CC       its protein substrates and unfolds these before they are guided to HslV
+CC       for hydrolysis. {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SUBUNIT: A double ring-shaped homohexamer of HslV is capped on each
+CC       side by a ring-shaped HslU homohexamer. The assembly of the HslU/HslV
+CC       complex is dependent on binding of ATP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00249}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SIMILARITY: Belongs to the ClpX chaperone family. HslU subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571857; CAG42965.1; -; Genomic_DNA.
+DR   RefSeq; WP_000379054.1; NC_002953.3.
+DR   SMR; Q6G9V9; -.
+DR   GeneID; 59700031; -.
+DR   KEGG; sas:SAS1188; -.
+DR   HOGENOM; CLU_033123_0_0_9; -.
+DR   OMA; KYGMIKT; -.
+DR   BioCyc; SAUR282459:G1G3P-1306-MONOMER; -.
+DR   GO; GO:0009376; C:HslUV protease complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008233; F:peptidase activity; IEA:InterPro.
+DR   GO; GO:0043335; P:protein unfolding; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00249; HslU; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR019489; Clp_ATPase_C.
+DR   InterPro; IPR004491; HslU.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR48102:SF3; PTHR48102:SF3; 1.
+DR   Pfam; PF00004; AAA; 1.
+DR   Pfam; PF07724; AAA_2; 1.
+DR   Pfam; PF10431; ClpB_D2-small; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM01086; ClpB_D2-small; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00390; hslU; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chaperone; Cytoplasm; Nucleotide-binding.
+FT   CHAIN           1..467
+FT                   /note="ATP-dependent protease ATPase subunit HslU"
+FT                   /id="PRO_0000160551"
+FT   NP_BIND         64..69
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         22
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         280
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         345
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         417
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+SQ   SEQUENCE   467 AA;  52315 MW;  3FC0E37C09E74891 CRC64;
+     MDTAGIRLTP KEIVSKLNEY IVGQNDAKRK VAIALRNRYR RSLLDEESKQ EISPKNILMI
+     GPTGVGKTEI ARRMAKVVGA PFIKVEATKF TEVGYVGRDV ESMVRDLVDV SVRLVKAQKK
+     SLVQDEATAK ANEKLVKLLV PSMKKKASQT NNPLESLFGG AIPNFGQNNE DEEEPPTEEI
+     KTKRSEIKRQ LEEGKLEKEK VRIKVEQDPG ALGMLGTNQN QQMQEMMNQL MPKKKVEREV
+     AVETARKILA DSYADELIDQ ESANQEALEL AEQMGIIFID EIDKVATNNH NSGQDVSRQG
+     VQRDILPILE GSVIQTKYGT VNTEHMLFIG AGAFHVSKPS DLIPELQGRF PIRVELDSLS
+     VEDFVRILTE PKLSLIKQYE ALLQTEEVTV NFTDEAITRL AEIAYQVNQD TDNIGARRLH
+     TILEKMLEDL SFEAPSMPNA VVDITPQYVD DKLKSISTNK DLSAFIL
+//

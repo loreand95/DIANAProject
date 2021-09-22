@@ -1,0 +1,102 @@
+ID   WTPC_PYRHO              Reviewed;         345 AA.
+AC   O57896;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   07-APR-2021, entry version 139.
+DE   RecName: Full=Molybdate/tungstate import ATP-binding protein WtpC;
+DE            EC=7.3.2.6 {ECO:0000250|UniProtKB:Q8U4K3};
+GN   Name=wtpC; OrderedLocusNames=PH0157;
+OS   Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC
+OS   100139 / OT-3).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=70601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3;
+RX   PubMed=9679194; DOI=10.1093/dnares/5.2.55;
+RA   Kawarabayasi Y., Sawada M., Horikawa H., Haikawa Y., Hino Y., Yamamoto S.,
+RA   Sekine M., Baba S., Kosugi H., Hosoyama A., Nagai Y., Sakai M., Ogura K.,
+RA   Otsuka R., Nakazawa H., Takamiya M., Ohfuku Y., Funahashi T., Tanaka T.,
+RA   Kudoh Y., Yamazaki J., Kushida N., Oguchi A., Aoki K., Yoshizawa T.,
+RA   Nakamura Y., Robb F.T., Horikoshi K., Masuchi Y., Shizuya H., Kikuchi H.;
+RT   "Complete sequence and gene organization of the genome of a hyper-
+RT   thermophilic archaebacterium, Pyrococcus horikoshii OT3.";
+RL   DNA Res. 5:55-76(1998).
+CC   -!- FUNCTION: Part of the ABC transporter complex WtpABC involved in
+CC       molybdate/tungstate import. Responsible for energy coupling to the
+CC       transport system. {ECO:0000250|UniProtKB:Q8U4K3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + tungstate(in) = ADP + H(+) + phosphate +
+CC         tungstate(out); Xref=Rhea:RHEA:35027, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:46502, ChEBI:CHEBI:456216; EC=7.3.2.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q8U4K3};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (WtpC),
+CC       two transmembrane proteins (WtpB) and a solute-binding protein (WtpA).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250}; Peripheral membrane
+CC       protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily.
+CC       Sulfate/tungstate importer (TC 3.A.1.6) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000001; BAA29226.1; -; Genomic_DNA.
+DR   PIR; C71237; C71237.
+DR   RefSeq; WP_010884268.1; NC_000961.1.
+DR   SMR; O57896; -.
+DR   STRING; 70601.3256543; -.
+DR   EnsemblBacteria; BAA29226; BAA29226; BAA29226.
+DR   GeneID; 1444050; -.
+DR   KEGG; pho:PH0157; -.
+DR   eggNOG; arCOG00175; Archaea.
+DR   OMA; PQNYALF; -.
+DR   OrthoDB; 88924at2157; -.
+DR   BioCyc; PHOR70601:G1G39-148-MONOMER; -.
+DR   Proteomes; UP000000752; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:1901238; F:ABC-type tungstate transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0015689; P:molybdate ion transport; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR004606; Mop_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005116; Transp-assoc_OB_typ1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF03459; TOBE; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00638; Mop; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51866; MOP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Molybdenum; Nucleotide-binding;
+KW   Translocase; Transport.
+FT   CHAIN           1..345
+FT                   /note="Molybdate/tungstate import ATP-binding protein WtpC"
+FT                   /id="PRO_0000338504"
+FT   DOMAIN          2..231
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          280..345
+FT                   /note="Mop"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01213"
+FT   NP_BIND         33..40
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   345 AA;  38928 MW;  98BE76AD8E74C1EF CRC64;
+     MLKVESISKD YREFKLREIS FDVREGEHFI ILGPSGSGKT VLLEIIAGII SPDRGRILLR
+     GEDITGLPPE KRNFSYIPQN YALFPHMTVF DNIAFGLKLR KIPRKEVARK VREVAESLGI
+     DHLLHRKPRT LSGGEQQRVA IARALVVKPE LLLMDEPFAN LDVQTKSKLI REMKRWRKEF
+     GFTAIHVTHS FEEALSLGDR VGIMLRGRLV QVGDVRDVFS KPKSEEVARF LGFENIIEGV
+     ANGRILKVGD LRIELPREVW GKVRVGIRPE DITIFMEGVK TSARNVFKAR VEGIEDLGAL
+     VKLTLNLGGI ILRAFITRSS LIELGIREGE EVYASFKASA IHVFP
+//

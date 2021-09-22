@@ -1,0 +1,89 @@
+ID   RSMG_STRMK              Reviewed;         212 AA.
+AC   B2FNF9;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   10-FEB-2021, entry version 67.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.170 {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+GN   Name=rsmG {ECO:0000255|HAMAP-Rule:MF_00074}; OrderedLocusNames=Smlt4616;
+OS   Stenotrophomonas maltophilia (strain K279a).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Stenotrophomonas; Stenotrophomonas maltophilia group.
+OX   NCBI_TaxID=522373;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K279a;
+RX   PubMed=18419807; DOI=10.1186/gb-2008-9-4-r74;
+RA   Crossman L.C., Gould V.C., Dow J.M., Vernikos G.S., Okazaki A.,
+RA   Sebaihia M., Saunders D., Arrowsmith C., Carver T., Peters N., Adlem E.,
+RA   Kerhornou A., Lord A., Murphy L., Seeger K., Squares R., Rutter S.,
+RA   Quail M.A., Rajandream M.A., Harris D., Churcher C., Bentley S.D.,
+RA   Parkhill J., Thomson N.R., Avison M.B.;
+RT   "The complete genome, comparative and functional analysis of
+RT   Stenotrophomonas maltophilia reveals an organism heavily shielded by drug
+RT   resistance determinants.";
+RL   Genome Biol. 9:R74.1-R74.13(2008).
+CC   -!- FUNCTION: Specifically methylates the N7 position of guanine in
+CC       position 527 of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(527) in 16S rRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(527) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42732, Rhea:RHEA-COMP:10209, Rhea:RHEA-COMP:10210,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.170; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00074};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM743169; CAQ47970.1; -; Genomic_DNA.
+DR   RefSeq; WP_012481632.1; NC_010943.1.
+DR   SMR; B2FNF9; -.
+DR   STRING; 522373.Smlt4616; -.
+DR   EnsemblBacteria; CAQ47970; CAQ47970; Smlt4616.
+DR   KEGG; sml:Smlt4616; -.
+DR   eggNOG; COG0357; Bacteria.
+DR   HOGENOM; CLU_065341_2_0_6; -.
+DR   OMA; YPRKAGI; -.
+DR   OrthoDB; 1590629at2; -.
+DR   BioCyc; SMAL522373:SMLT_RS21880-MONOMER; -.
+DR   Proteomes; UP000008840; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR31760; PTHR31760; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   PIRSF; PIRSF003078; GidB; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00138; rsmG_gidB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..212
+FT                   /note="Ribosomal RNA small subunit methyltransferase G"
+FT                   /id="PRO_1000092656"
+FT   REGION          131..132
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         80
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         85
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         146
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   212 AA;  22413 MW;  34B9169FB1DB930E CRC64;
+     MSEHPLPASV AATLEQGLAS MGLDAALAPP LLRYLALLHR WNGTYNLTAI RDPQEMVTRH
+     LLDSLAMQPF VADGSLADLG TGPGLPGIPL AIACPGLQVT LVESNGKKAR FMREAVRQLG
+     LGNARVAESR AEALDEAGRY DQLTARAMDT LAGIVRVGGH LLRPGGVLLA MKGVYPHEEI
+     AELPAGWQVR EVTPLSVPGL AGERHLVTVT GP
+//

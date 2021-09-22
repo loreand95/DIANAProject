@@ -1,0 +1,144 @@
+ID   WAPA_BACNB              Reviewed;        2347 AA.
+AC   D4G3R4;
+DT   16-OCT-2013, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2015, sequence version 2.
+DT   02-DEC-2020, entry version 42.
+DE   RecName: Full=tRNA(Glu)-specific nuclease WapA;
+DE            EC=3.1.-.-;
+DE   AltName: Full=Cell wall-associated protein;
+DE   AltName: Full=RNase WapA;
+DE   AltName: Full=Toxin WapA;
+DE   Flags: Precursor;
+GN   Name=wapA; ORFNames=BSNT_10605;
+OS   Bacillus subtilis subsp. natto (strain BEST195).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+OX   NCBI_TaxID=645657;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BEST195;
+RX   PubMed=20398357; DOI=10.1186/1471-2164-11-243;
+RA   Nishito Y., Osana Y., Hachiya T., Popendorf K., Toyoda A., Fujiyama A.,
+RA   Itaya M., Sakakibara Y.;
+RT   "Whole genome assembly of a natto production strain Bacillus subtilis natto
+RT   from very short read data.";
+RL   BMC Genomics 11:243-243(2010).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=BEST195;
+RX   PubMed=25329997; DOI=10.1371/journal.pone.0109999;
+RA   Kamada M., Hase S., Sato K., Toyoda A., Fujiyama A., Sakakibara Y.;
+RT   "Whole genome complete resequencing of Bacillus subtilis natto by combining
+RT   long reads with high-quality short reads.";
+RL   PLoS ONE 9:E109999-E109999(2014).
+RN   [3]
+RP   FUNCTION AS A TRNA NUCLEASE, FUNCTION AS A TOXIN, AND EXPRESSION IN E.COLI.
+RC   STRAIN=BEST195;
+RX   PubMed=23572593; DOI=10.1073/pnas.1300627110;
+RA   Koskiniemi S., Lamoureux J.G., Nikolakakis K.C., t'Kint de Roodenbeke C.,
+RA   Kaplan M.D., Low D.A., Hayes C.S.;
+RT   "Rhs proteins from diverse bacteria mediate intercellular competition.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 110:7032-7037(2013).
+CC   -!- FUNCTION: Toxic component of a toxin-immunity protein module, which
+CC       functions as a cellular contact-dependent growth inhibition (CDI)
+CC       system. A site-specific tRNA(Glu) nuclease, the C-terminus (residues
+CC       2214-2346) probably removes 2 or 4 nucleotides from the 3' end of
+CC       tRNA(Glu) but not tRNA2(Arg) or tRNA3(Ser) (upon expression in E.coli),
+CC       possibly endonucleolytically. The nuclease activity is neutralized by
+CC       expression of the cognate immunity protein WapI from the same strain,
+CC       but not its homolog from 2 other B.subtilis strains. The C-terminus
+CC       cannot be expressed on its own in E.coli, however it can be cloned in
+CC       the presence of its cognate immunity protein gene wapI. Cell contact is
+CC       probably necessary for growth inhibition.
+CC       {ECO:0000269|PubMed:23572593}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall {ECO:0000250}. Note=Released
+CC       into the medium. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the RHS/WapA nuclease family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP011541; BAI87617.2; -; Genomic_DNA.
+DR   SMR; D4G3R4; -.
+DR   PRIDE; D4G3R4; -.
+DR   EnsemblBacteria; BAI87617; BAI87617; BSNT_10605.
+DR   KEGG; bso:BSNT_10605; -.
+DR   HOGENOM; CLU_001086_0_0_9; -.
+DR   Proteomes; UP000006805; Chromosome.
+DR   GO; GO:0005618; C:cell wall; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004549; F:tRNA-specific ribonuclease activity; IDA:UniProtKB.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0016078; P:tRNA catabolic process; IDA:UniProtKB.
+DR   Gene3D; 2.60.120.260; -; 2.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR022385; Rhs_assc_core.
+DR   InterPro; IPR031325; RHS_repeat.
+DR   InterPro; IPR006530; YD.
+DR   Pfam; PF05593; RHS_repeat; 2.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   TIGRFAMs; TIGR03696; Rhs_assc_core; 1.
+DR   TIGRFAMs; TIGR01643; YD_repeat_2x; 5.
+PE   1: Evidence at protein level;
+KW   Cell wall; Endonuclease; Hydrolase; Nuclease; Repeat; Secreted; Signal;
+KW   Toxin; Virulence.
+FT   SIGNAL          1..45
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           46..2347
+FT                   /note="tRNA(Glu)-specific nuclease WapA"
+FT                   /id="PRO_0000423975"
+FT   REPEAT          1045..1078
+FT                   /note="YD 1"
+FT   REPEAT          1088..1116
+FT                   /note="YD 2"
+FT   REPEAT          1649..1684
+FT                   /note="YD 3"
+FT   REPEAT          1691..1729
+FT                   /note="YD 4"
+FT   REPEAT          2095..2126
+FT                   /note="YD 5"
+FT   COMPBIAS        2241..2346
+FT                   /note="Lys-rich"
+SQ   SEQUENCE   2347 AA;  261111 MW;  A1DFC8BB70BDFDDE CRC64;
+     MSEYYFYYKR REKMKKRKRR NFKRFIAAFL VLALIISLVP ADVLAKTTEE ENGNRIVADD
+     PEETLQKEQT EEAVPFDPKD INKEGEITSE RTENTKLYYE GDGVYKQEVY LDPIHTKETP
+     DADWEDISPE LKESTSKQVE TENAILNSDF QKQMKNGLYA TFEHNDHKVT YSLVEAKAPN
+     KTSLTPKDTS ADYKTDSNEI VYPDVFPNID LQTFTFNENI KEDLVLHQYD GYNTFTFQLK
+     TDLQAKEQED GSIDFSDEKG KVVFSVPKPF MTDSKLDELS GEVERSDKVS YKLEKNEEGY
+     LLHLTADENW LKDPERVYPV SIDPSTSLSV SSDTFVMSAY PTTNYSASSQ KWDANLKAYV
+     LKTGYYDKTT GTNYAFMKFN NLKPIQNMTV TKATLKTYVA HSYYGTKATG LWLDTVNSNY
+     DNAKVTWNTK PASKNIGKAD VHKGQWASYD VTAAVKSWNS GGANYGFKLH TNGNGKEYWK
+     KLISSANSAN KPYIEVTYTI PKGNTPTIKA YHNGDSTGYF DISWKKVEGA KGYKVWIYNG
+     KEYQAISAGN VTSWSTKGKK IWPTSAEIAS KRYKLHLDGK DGAELALDPS PVYKNSGGSY
+     ATSKNYWIGV SAIFDQGEGA MSAPAKPVIP NVGKAQAPSA KGYNNGNATG YFDLSWKAVS
+     GATGYKVQVF NGKGFETLDL GNQTSWTTKG KKIWPTSAEI KAGKYALHLK DGSGAELPIN
+     PGPTYKNAGG DGAKKNYSFK IIAYNKDGEA IASPAANPAL PDIARPKNLT GYLYTNTKSS
+     QTGYVNLIWE KVQNAKGYKV NIYNGKEYQS FDVGDADHWT TQNKNIWPTS EEIKAGSYKL
+     HTDGKGGELA LDPSPVYNNA NGNYKGKKNY SFTLVAYDAN GETIPTAPFN PTFHEGAEFL
+     GTEEYWSIID IPSGQLNGAT GNVIVNEEDL SIDGRGPGLG LSRTYNSLDS SDHLFGQGWY
+     ADAETSVIST DGGAMYIDED ATTHRFTKKA DGTYQPPTGV YLELTETADQ FILKTKDQTN
+     AYFNKKGGKL QKVVDGHNNA TVYTYNDKNQ LTAITDASGR KLTFTYDENG HVTSITGPKN
+     KKVTYSYEND LLKKVTDTDG TVTSYDYDGE GRLVKQYSAN STEAKPVFTE YQYSGHRLEK
+     AINAKKETYV YSYDADKKTL LMTQPNGRKV QYGYNEAGNP IQVIDDAEGL KITTNTKYEG
+     NNVVEDVDPN DVGTGKATES YQYDKDGNVT SVKDAYGTET YEYNKNNDVT KMKDTEGNVT
+     DIAYDGLDAV SETDQSGKSS SAAVYDKYGN QIQSSKDLSA STNILKDGSF EAQKSGWNLT
+     ASKDSGKISI ITDKSGVLSG SKALEILSQS TSAGTDHGFS SATQTVELEP NTTYTLSGKI
+     KTDLAKTRAY FNIDLRDKDQ KRIQWIHNEY SALAGKNDWT KRQITFTTPA NAGKAVVYME
+     VDHNDKDGKG KAWFDEVQLE KGEVSSSYNP VQNSSFTSAT ENWNVSGASV DSEEGFNDDV
+     SLKAARTSAS QAGSVTKQTV VLGQSANDKP VYLTLTGMSK ASSVKFTDEK DYSLQANVTY
+     ADGSTGVYNA KFPSGTQEWN RAAVVIPKTK PINKVDISIL FQKSATGTVW FDDIRLIEGS
+     LLTKSTYDSN GNYVTKEEDE LGYATSTDYD ETGKKTAETD AKGEKTTYTY DQADQLTNMT
+     LSNGTSILHS YDKEGNEVSK TIRAGADQTY KYEYDVMGKL VKTTDPLGNV LASEYDANSN
+     LTKTISPNGN EVSLSYDGTD RVKSKSYNGT EKYNFTYDKN GNETSVVNKE QNTTKKRTFD
+     NKNRLTELTD RGGSQTWTYP SDSDKLKTFS WTHGDQKGTN QFTYNKLDQM IEMKDSTSSY
+     SFDYDENGNV QTFITGNGGG TSFSYDERNL VSSLHIGDKN GGSILTESYE YDANGNRTTI
+     NSSASGKVKY EYGKLNQLVK ETHEDGTVIE YTYDGFGNRK TVTTVKDGSS KTVNASFNIM
+     NQLTKVNDES ISYDKNGNRT SDGKFTYTWD AEDNLTAVTK KGEDKPFATY KYDEKGNRIQ
+     KTVNGKVTNY FYDGDSLNVL YETDADNNVT KSYTYGDSGQ LLSYTENGKK YFYHYNAHGD
+     VIAISDSTGK TVAKYQYDAW GNPTKTEASD EVKDNRYRYA GYQYDEETGL YYLMARYYEP
+     RNGVFLSLDP DPGSDGDSLD QNGYTYGNNN PVMNVDPDGH WVWFVVNAGF AVYDGYKAYK
+     SGKGWKGVAV AAASGFVGGG KLKLTKKIGK WATSRHWYKG TFKTKRKSLD YHHNKHIVRN
+     GKSYSKKRYT KVARAFYRSN KHLREKVILA TGKKGYRIKN GKRTGYYTRS GKVVTFVNNK
+     WKKKKKR
+//

@@ -1,0 +1,112 @@
+ID   SYY_SALNS               Reviewed;         424 AA.
+AC   B4T586;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 69.
+DE   RecName: Full=Tyrosine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02006};
+DE            EC=6.1.1.1 {ECO:0000255|HAMAP-Rule:MF_02006};
+DE   AltName: Full=Tyrosyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02006};
+DE            Short=TyrRS {ECO:0000255|HAMAP-Rule:MF_02006};
+GN   Name=tyrS {ECO:0000255|HAMAP-Rule:MF_02006};
+GN   OrderedLocusNames=SNSL254_A1559;
+OS   Salmonella newport (strain SL254).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=423368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL254;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-
+CC       step reaction: tyrosine is first activated by ATP to form Tyr-AMP and
+CC       then transferred to the acceptor end of tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_02006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosine + tRNA(Tyr) = AMP + diphosphate + H(+) + L-
+CC         tyrosyl-tRNA(Tyr); Xref=Rhea:RHEA:10220, Rhea:RHEA-COMP:9706,
+CC         Rhea:RHEA-COMP:9707, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58315, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78536, ChEBI:CHEBI:456215; EC=6.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02006};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02006}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02006}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       TyrS type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_02006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001113; ACF62680.1; -; Genomic_DNA.
+DR   RefSeq; WP_000168626.1; NZ_CCMR01000003.1.
+DR   SMR; B4T586; -.
+DR   EnsemblBacteria; ACF62680; ACF62680; SNSL254_A1559.
+DR   KEGG; see:SNSL254_A1559; -.
+DR   HOGENOM; CLU_024003_0_3_6; -.
+DR   OMA; VNYMMAK; -.
+DR   Proteomes; UP000008824; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00165; S4; 1.
+DR   CDD; cd00805; TyrRS_core; 1.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02006; Tyr_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024107; Tyr-tRNA-ligase_bac_1.
+DR   PANTHER; PTHR11766; PTHR11766; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   SMART; SM00363; S4; 1.
+DR   TIGRFAMs; TIGR00234; tyrS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding.
+FT   CHAIN           1..424
+FT                   /note="Tyrosine--tRNA ligase"
+FT                   /id="PRO_1000189326"
+FT   DOMAIN          357..414
+FT                   /note="S4 RNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02006"
+FT   MOTIF           42..51
+FT                   /note="'HIGH' region"
+FT   MOTIF           235..239
+FT                   /note="'KMSKS' region"
+FT   BINDING         37
+FT                   /note="Tyrosine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02006"
+FT   BINDING         175
+FT                   /note="Tyrosine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02006"
+FT   BINDING         179
+FT                   /note="Tyrosine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02006"
+FT   BINDING         238
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02006"
+SQ   SEQUENCE   424 AA;  47282 MW;  5A15317D9211902E CRC64;
+     MASSNLIKQL QERGLVAQVT DEDALAERLA QGPIALYCGF DPTADSLHLG HLVPLLCLKR
+     FQQAGHKPVA LVGGATGLIG DPSFKAAERK LNTEETVQEW VAKIRKQVAP FLDFDCGENS
+     AIAANNYDWF GSMNVLTFLR DIGKHFSVNQ MINKEAVKQR LNRDDQGISF TEFSYNLLQG
+     YDFACLNKLH GVALQIGGSD QWGNITSGID LTRRLHQNQV FGLTVPLITK ADGTKFGKTE
+     GGAVWLDPKK TSPYKFYQFW INTADADVYR FLKFFTFMDI EEINALEEED KNSGKAPRAQ
+     YVLAEQVTRL VHGEEGLVAA KRITECLFSG SLSALSEADF EQLAQDGVPM VEMEKGADLM
+     QALVDAELQP SRGQARKTIA SNAVTINGEK QSDPEYIFND EDRLFGRYTL LRRGKKNYCL
+     ICWK
+//

@@ -1,0 +1,110 @@
+ID   MURA_PROA2              Reviewed;         425 AA.
+AC   B4S6J0;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 75.
+DE   RecName: Full=UDP-N-acetylglucosamine 1-carboxyvinyltransferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            EC=2.5.1.7 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=Enoylpyruvate transferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=UDP-N-acetylglucosamine enolpyruvyl transferase {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            Short=EPT {ECO:0000255|HAMAP-Rule:MF_00111};
+GN   Name=murA {ECO:0000255|HAMAP-Rule:MF_00111}; OrderedLocusNames=Paes_0698;
+OS   Prosthecochloris aestuarii (strain DSM 271 / SK 413).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae;
+OC   Prosthecochloris.
+OX   NCBI_TaxID=290512;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 271 / SK 413;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Anderson I., Liu Z., Li T., Zhao F., Overmann J.,
+RA   Bryant D.A., Richardson P.;
+RT   "Complete sequence of chromosome of Prosthecochloris aestuarii DSM 271.";
+RL   Submitted (JUN-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cell wall formation. Adds enolpyruvyl to UDP-N-
+CC       acetylglucosamine. {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine =
+CC         phosphate + UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine;
+CC         Xref=Rhea:RHEA:18681, ChEBI:CHEBI:43474, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58702, ChEBI:CHEBI:68483; EC=2.5.1.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00111};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. MurA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001108; ACF45745.1; -; Genomic_DNA.
+DR   RefSeq; WP_012505282.1; NC_011059.1.
+DR   SMR; B4S6J0; -.
+DR   STRING; 290512.Paes_0698; -.
+DR   EnsemblBacteria; ACF45745; ACF45745; Paes_0698.
+DR   KEGG; paa:Paes_0698; -.
+DR   eggNOG; COG0766; Bacteria.
+DR   HOGENOM; CLU_027387_0_0_10; -.
+DR   OMA; CDPHRAT; -.
+DR   OrthoDB; 537477at2; -.
+DR   BioCyc; PAES290512:G1GCD-705-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000002725; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008760; F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0019277; P:UDP-N-acetylgalactosamine biosynthetic process; IEA:InterPro.
+DR   CDD; cd01555; UdpNAET; 1.
+DR   Gene3D; 3.65.10.10; -; 2.
+DR   HAMAP; MF_00111; MurA; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR005750; UDP_GlcNAc_COvinyl_MurA.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   SUPFAM; SSF55205; SSF55205; 1.
+DR   TIGRFAMs; TIGR01072; murA; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell shape; Cell wall biogenesis/degradation;
+KW   Cytoplasm; Peptidoglycan synthesis; Pyruvate; Transferase.
+FT   CHAIN           1..425
+FT                   /note="UDP-N-acetylglucosamine 1-carboxyvinyltransferase"
+FT                   /id="PRO_1000094709"
+FT   REGION          22..23
+FT                   /note="Phosphoenolpyruvate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   REGION          122..126
+FT                   /note="UDP-N-acetylglucosamine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   ACT_SITE        117
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         93
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         307
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         329
+FT                   /note="UDP-N-acetylglucosamine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   MOD_RES         117
+FT                   /note="2-(S-cysteinyl)pyruvic acid O-phosphothioketal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+SQ   SEQUENCE   425 AA;  45560 MW;  D2DBCA52CA9B13AD CRC64;
+     MDKLVINGGH RLTGSVAASG SKNSALPLIA ATLLCDNGTC RLERIPDLKD TRTFQELLAY
+     LGADISYSGS RLSVSTQNLR AIQAPYELVK KMRASIYVLG PLLARFGRAE VSLPGGCAFG
+     PRPIDLHLMA MEKLGASISI KNGYIEASIA KGRLTGGHIE FPVSSVGATG NALMAASLAE
+     GTTTITNASI EPEITALCDF LMAMGADIKG AGTTALTIEG VPSLHPVAFT NIFDRIEAGT
+     LLAAAAITKG TISITGIDHT HMGAVLKKFK QAGCRITIDD DSLTLQSPDR LEPTDIIASP
+     YPFFPTDMQA QWIALMTQAN GSSRIIDKVY HERFNHIPEL NRLGAKIEIN NNEAIVHGPQ
+     LLTGTTVMST DLRASACLVL AGLVAQGTTE VLRVYHLDRG YEKIEEKLRH LGADIQRENY
+     QEFST
+//

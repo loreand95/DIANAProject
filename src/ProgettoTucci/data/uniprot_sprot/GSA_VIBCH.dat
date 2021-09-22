@@ -1,0 +1,103 @@
+ID   GSA_VIBCH               Reviewed;         432 AA.
+AC   Q9KU97;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   10-FEB-2021, entry version 125.
+DE   RecName: Full=Glutamate-1-semialdehyde 2,1-aminomutase {ECO:0000255|HAMAP-Rule:MF_00375};
+DE            Short=GSA {ECO:0000255|HAMAP-Rule:MF_00375};
+DE            EC=5.4.3.8 {ECO:0000255|HAMAP-Rule:MF_00375};
+DE   AltName: Full=Glutamate-1-semialdehyde aminotransferase {ECO:0000255|HAMAP-Rule:MF_00375};
+DE            Short=GSA-AT {ECO:0000255|HAMAP-Rule:MF_00375};
+GN   Name=hemL {ECO:0000255|HAMAP-Rule:MF_00375}; OrderedLocusNames=VC_0626;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-4-amino-5-oxopentanoate = 5-aminolevulinate;
+CC         Xref=Rhea:RHEA:14265, ChEBI:CHEBI:57501, ChEBI:CHEBI:356416;
+CC         EC=5.4.3.8; Evidence={ECO:0000255|HAMAP-Rule:MF_00375};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00375};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; 5-aminolevulinate from L-glutamyl-tRNA(Glu): step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00375}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00375}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00375}.
+CC   -!- SIMILARITY: Belongs to the class-III pyridoxal-phosphate-dependent
+CC       aminotransferase family. HemL subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00375}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE003852; AAF93792.1; -; Genomic_DNA.
+DR   PIR; E82300; E82300.
+DR   RefSeq; NP_230275.1; NC_002505.1.
+DR   RefSeq; WP_000167257.1; NZ_LT906614.1.
+DR   SMR; Q9KU97; -.
+DR   STRING; 243277.VC_0626; -.
+DR   DNASU; 2615414; -.
+DR   EnsemblBacteria; AAF93792; AAF93792; VC_0626.
+DR   GeneID; 57739341; -.
+DR   KEGG; vch:VC0626; -.
+DR   PATRIC; fig|243277.26.peg.595; -.
+DR   eggNOG; COG0001; Bacteria.
+DR   HOGENOM; CLU_016922_1_5_6; -.
+DR   OMA; WGPLIFG; -.
+DR   BioCyc; VCHO:VC0626-MONOMER; -.
+DR   UniPathway; UPA00251; UER00317.
+DR   Proteomes; UP000000584; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042286; F:glutamate-1-semialdehyde 2,1-aminomutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016869; F:intramolecular transferase activity, transferring amino groups; ISS:TIGR.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0008483; F:transaminase activity; IEA:InterPro.
+DR   GO; GO:0006779; P:porphyrin-containing compound biosynthetic process; ISS:TIGR.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00610; OAT_like; 1.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00375; HemL_aminotrans_3; 1.
+DR   InterPro; IPR004639; 4pyrrol_synth_GluAld_NH2Trfase.
+DR   InterPro; IPR005814; Aminotrans_3.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   Pfam; PF00202; Aminotran_3; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR00713; hemL; 1.
+DR   PROSITE; PS00600; AA_TRANSFER_CLASS_3; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Isomerase; Porphyrin biosynthesis; Pyridoxal phosphate;
+KW   Reference proteome.
+FT   CHAIN           1..432
+FT                   /note="Glutamate-1-semialdehyde 2,1-aminomutase"
+FT                   /id="PRO_0000120463"
+FT   MOD_RES         265
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00375"
+SQ   SEQUENCE   432 AA;  46182 MW;  963BD21BE460C714 CRC64;
+     MTKSAELYQK AQTTIPGGVN SPVRAFNGVG GSPIFIDRAD GALIFDADGK AYIDYVGSWG
+     PMILGHNHAV IREAVIQAAQ RGLSFGAPTE MEITMAELVS ELVPSMEQLR MVNSGTEATM
+     SAIRLARGYT GRDKIIKFEG CYHGHADSLL VKAGSGALTL GQPSSPGVPA DFAKHTLTAR
+     FNDLDSVREL FAANQGEIAC IIVEPVAGNM NCIPPVEGFH EGLREICDQE GALLIFDEVM
+     TGFRVALGGA QAHYNIKPDL TTLGKVIGGG MPVGAFGGRR EVMQYIAPTG PVYQAGTLSG
+     NPIAMAAGYA CLNLLREEGN EKRLAAKTKQ LADGFKSLAD QHGIPLLVHQ VGGMFGFFFT
+     EQETVTCYED VARCDVERFK RFFHLMLQHG VYLAPSAFEA SFTSLAHGSK EIEATLEAAD
+     RSFAILAAEA KA
+//

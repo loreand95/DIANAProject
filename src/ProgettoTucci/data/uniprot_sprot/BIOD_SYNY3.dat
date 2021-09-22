@@ -1,0 +1,152 @@
+ID   BIOD_SYNY3              Reviewed;         237 AA.
+AC   Q55849;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-DEC-2020, entry version 126.
+DE   RecName: Full=ATP-dependent dethiobiotin synthetase BioD {ECO:0000255|HAMAP-Rule:MF_00336};
+DE            EC=6.3.3.3 {ECO:0000255|HAMAP-Rule:MF_00336};
+DE   AltName: Full=DTB synthetase {ECO:0000255|HAMAP-Rule:MF_00336};
+DE            Short=DTBS {ECO:0000255|HAMAP-Rule:MF_00336};
+DE   AltName: Full=Dethiobiotin synthase {ECO:0000255|HAMAP-Rule:MF_00336};
+GN   Name=bioD {ECO:0000255|HAMAP-Rule:MF_00336}; OrderedLocusNames=slr0523;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Synechococcales; Merismopediaceae; Synechocystis;
+OC   unclassified Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27184 / PCC 6803 / N-1;
+RX   PubMed=8590279; DOI=10.1093/dnares/2.4.153;
+RA   Kaneko T., Tanaka A., Sato S., Kotani H., Sazuka T., Miyajima N.,
+RA   Sugiura M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. I. Sequence features in the 1 Mb region
+RT   from map positions 64% to 92% of the genome.";
+RL   DNA Res. 2:153-166(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T., Hosouchi T.,
+RA   Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S., Shimpo S.,
+RA   Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the entire
+RT   genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=32042199; DOI=10.1038/s41589-019-0461-9;
+RA   Sakaki K., Ohishi K., Shimizu T., Kobayashi I., Mori N., Matsuda K.,
+RA   Tomita T., Watanabe H., Tanaka K., Kuzuyama T., Nishiyama M.;
+RT   "A suicide enzyme catalyzes multiple reactions for biotin biosynthesis in
+RT   cyanobacteria.";
+RL   Nat. Chem. Biol. 0:0-0(2020).
+CC   -!- FUNCTION: Catalyzes a mechanistically unusual reaction, the ATP-
+CC       dependent insertion of CO2 between the N7 and N8 nitrogen atoms of 7,8-
+CC       diaminopelargonic acid (DAPA, also called 7,8-diammoniononanoate) to
+CC       form a ureido ring (By similarity). This cyanobacterium does not encode
+CC       bioA (which catalyzes the formation of the precursor for this reaction
+CC       in the cannonical pathway), instead it encodes bioU, which replaces
+CC       bioA and also performs the first half of the cannonical BioD reaction.
+CC       Thus in this bacteria BioD has a different substrate. In Synechocystis
+CC       replacement of bioU by bioA from E.coli leads to biotin synthesis,
+CC       showing BioD can use the 'cannonical' 7,8-diammoniononanoate as a
+CC       substrate (PubMed:32042199). {ECO:0000255|HAMAP-Rule:MF_00336,
+CC       ECO:0000269|PubMed:32042199}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(7R,8S)-7,8-diammoniononanoate + ATP + CO2 = (4R,5S)-
+CC         dethiobiotin + ADP + 3 H(+) + phosphate; Xref=Rhea:RHEA:15805,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:149469, ChEBI:CHEBI:149473,
+CC         ChEBI:CHEBI:456216; EC=6.3.3.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00336, ECO:0000305|PubMed:32042199};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(7R,8S)-8-amino-7-(carboxyamino)nonanoate + ATP = (4R,5S)-
+CC         dethiobiotin + ADP + H(+) + phosphate; Xref=Rhea:RHEA:63684,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:149470, ChEBI:CHEBI:149473, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000269|PubMed:32042199};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00336};
+CC   -!- PATHWAY: Cofactor biosynthesis; biotin biosynthesis; biotin from 7,8-
+CC       diaminononanoate: step 1/2. {ECO:0000255|HAMAP-Rule:MF_00336}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00336}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00336}.
+CC   -!- SIMILARITY: Belongs to the dethiobiotin synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00336}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000022; BAA10605.1; -; Genomic_DNA.
+DR   PIR; S76661; S76661.
+DR   SMR; Q55849; -.
+DR   IntAct; Q55849; 2.
+DR   STRING; 1148.1001767; -.
+DR   PaxDb; Q55849; -.
+DR   EnsemblBacteria; BAA10605; BAA10605; BAA10605.
+DR   KEGG; syn:slr0523; -.
+DR   eggNOG; COG0132; Bacteria.
+DR   InParanoid; Q55849; -.
+DR   OMA; KMLLISH; -.
+DR   PhylomeDB; Q55849; -.
+DR   BioCyc; MetaCyc:MONOMER-21140; -.
+DR   UniPathway; UPA00078; UER00161.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004141; F:dethiobiotin synthase activity; IBA:GO_Central.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009102; P:biotin biosynthetic process; IBA:GO_Central.
+DR   HAMAP; MF_00336; BioD; 1.
+DR   InterPro; IPR004472; DTB_synth_BioD.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43210; PTHR43210; 1.
+DR   PIRSF; PIRSF006755; DTB_synth; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00347; bioD; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Biotin biosynthesis; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..237
+FT                   /note="ATP-dependent dethiobiotin synthetase BioD"
+FT                   /id="PRO_0000187992"
+FT   NP_BIND         21..26
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336, ECO:0000305"
+FT   NP_BIND         117..120
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   NP_BIND         177..178
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   NP_BIND         209..211
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   ACT_SITE        48
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   METAL           25
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   METAL           56
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   METAL           117
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   BINDING         52
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+FT   BINDING         56
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00336"
+SQ   SEQUENCE   237 AA;  25805 MW;  FF290F9A2AFA3375 CRC64;
+     MSNFSRAVDQ KTLLVAGCDT GVGKTVTTSA LAAYWWKCGK DQSFGLMKLM QTGLGDDELY
+     QQLFGHLTRW DVVTPLKFAT PLAPPLAADQ EGKTIDLGVV WQTLQTMQQN HDHVLVEALG
+     SLGSPVTHEL TVADIAALWR LETILVVPVQ LGAMGQAIAQ VALARQTKVK LKGLVLSCAS
+     PEAEGKVEDW ATPAMLESFT HLPVLGIVPY LTESERENLS RLAEITARFG LEKLAYF
+//

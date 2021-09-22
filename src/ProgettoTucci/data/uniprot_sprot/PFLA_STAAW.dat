@@ -1,0 +1,116 @@
+ID   PFLA_STAAW              Reviewed;         251 AA.
+AC   Q7A1W8;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Pyruvate formate-lyase-activating enzyme;
+DE            Short=PFL-activating enzyme;
+DE            EC=1.97.1.4;
+GN   Name=pflA; OrderedLocusNames=MW0202;
+OS   Staphylococcus aureus (strain MW2).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=196620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MW2;
+RX   PubMed=12044378; DOI=10.1016/s0140-6736(02)08713-5;
+RA   Baba T., Takeuchi F., Kuroda M., Yuzawa H., Aoki K., Oguchi A., Nagai Y.,
+RA   Iwama N., Asano K., Naimi T., Kuroda H., Cui L., Yamamoto K., Hiramatsu K.;
+RT   "Genome and virulence determinants of high virulence community-acquired
+RT   MRSA.";
+RL   Lancet 359:1819-1827(2002).
+CC   -!- FUNCTION: Activation of pyruvate formate-lyase under anaerobic
+CC       conditions by generation of an organic free radical, using S-
+CC       adenosylmethionine and reduced flavodoxin as cosubstrates to produce
+CC       5'-deoxy-adenosine. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycyl-[formate C-acetyltransferase] + reduced [flavodoxin] +
+CC         S-adenosyl-L-methionine = 5'-deoxyadenosine + glycin-2-yl radical-
+CC         [formate C-acetyltransferase] + H(+) + L-methionine + semiquinone
+CC         [flavodoxin]; Xref=Rhea:RHEA:19225, Rhea:RHEA-COMP:10622, Rhea:RHEA-
+CC         COMP:12190, Rhea:RHEA-COMP:12191, Rhea:RHEA-COMP:14480,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17319, ChEBI:CHEBI:29947,
+CC         ChEBI:CHEBI:32722, ChEBI:CHEBI:57618, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:140311; EC=1.97.1.4;
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000250};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the organic radical-activating enzymes family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000033; BAB94067.1; -; Genomic_DNA.
+DR   RefSeq; WP_000911657.1; NC_003923.1.
+DR   SMR; Q7A1W8; -.
+DR   EnsemblBacteria; BAB94067; BAB94067; BAB94067.
+DR   GeneID; 59698791; -.
+DR   KEGG; sam:MW0202; -.
+DR   HOGENOM; CLU_058969_1_1_9; -.
+DR   OMA; IGVPNKR; -.
+DR   BioCyc; SAUR196620:G1G3G-221-MONOMER; -.
+DR   Proteomes; UP000000418; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0043365; F:[formate-C-acetyltransferase]-activating enzyme activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR040074; BssD/PflA/YjjW.
+DR   InterPro; IPR034457; Organic_radical-activating.
+DR   InterPro; IPR012839; Organic_radical_activase.
+DR   InterPro; IPR012838; PFL1_activating.
+DR   InterPro; IPR034465; Pyruvate_for-lyase_activase.
+DR   InterPro; IPR001989; Radical_activat_CS.
+DR   InterPro; IPR007197; rSAM.
+DR   PANTHER; PTHR30352; PTHR30352; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   PIRSF; PIRSF000371; PFL_act_enz; 1.
+DR   SFLD; SFLDG01118; activating_enzymes__group_2; 1.
+DR   SFLD; SFLDF00278; pyruvate_formate-lyase_activas; 1.
+DR   TIGRFAMs; TIGR02493; PFLA; 1.
+DR   PROSITE; PS01087; RADICAL_ACTIVATING; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Carbohydrate metabolism; Cytoplasm; Glucose metabolism; Iron;
+KW   Iron-sulfur; Metal-binding; Oxidoreductase; S-adenosyl-L-methionine.
+FT   CHAIN           1..251
+FT                   /note="Pyruvate formate-lyase-activating enzyme"
+FT                   /id="PRO_0000271716"
+FT   DOMAIN          15..244
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   REGION          35..37
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   REGION          134..136
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   METAL           29
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   METAL           33
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   METAL           36
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   BINDING         79
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+FT   BINDING         207
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen and
+FT                   carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9N4"
+SQ   SEQUENCE   251 AA;  28499 MW;  892A603E273F6C89 CRC64;
+     MLKGHLHSVE SLGTVDGPGL RYILFTQGCL LRCLYCHNPD TWKISEPSRE VTVDEMVNEI
+     LPYKPYFDAS GGGVTVSGGE PLLQMPFLEK LFAELKENGV HTCLDTSAGC ANDTKAFQRH
+     FEELQKHTDL ILLDIKHIDN DKHIRLTGKP NTHILNFARK LSDMKQPVWI RHVLVPGYSD
+     DKDDLIKLGE FINSLDNVEK FEILPYHQLG VHKWKTLGIA YELEDVEAPD DEAVKAAYRY
+     VNFKGKIPVE L
+//

@@ -1,0 +1,296 @@
+ID   SYFB_STAHJ              Reviewed;         800 AA.
+AC   Q4L5E4;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 112.
+DE   RecName: Full=Phenylalanine--tRNA ligase beta subunit {ECO:0000255|HAMAP-Rule:MF_00283};
+DE            EC=6.1.1.20 {ECO:0000255|HAMAP-Rule:MF_00283};
+DE   AltName: Full=Phenylalanyl-tRNA synthetase beta subunit {ECO:0000255|HAMAP-Rule:MF_00283};
+DE            Short=PheRS {ECO:0000255|HAMAP-Rule:MF_00283};
+GN   Name=pheT {ECO:0000255|HAMAP-Rule:MF_00283}; OrderedLocusNames=SH1822;
+OS   Staphylococcus haemolyticus (strain JCSC1435).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=279808;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCSC1435;
+RX   PubMed=16237012; DOI=10.1128/jb.187.21.7292-7308.2005;
+RA   Takeuchi F., Watanabe S., Baba T., Yuzawa H., Ito T., Morimoto Y.,
+RA   Kuroda M., Cui L., Takahashi M., Ankai A., Baba S., Fukui S., Lee J.C.,
+RA   Hiramatsu K.;
+RT   "Whole-genome sequencing of Staphylococcus haemolyticus uncovers the
+RT   extreme plasticity of its genome and the evolution of human-colonizing
+RT   staphylococcal species.";
+RL   J. Bacteriol. 187:7292-7308(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-phenylalanine + tRNA(Phe) = AMP + diphosphate + H(+) +
+CC         L-phenylalanyl-tRNA(Phe); Xref=Rhea:RHEA:19413, Rhea:RHEA-COMP:9668,
+CC         Rhea:RHEA-COMP:9699, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58095, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78531, ChEBI:CHEBI:456215; EC=6.1.1.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00283};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00283};
+CC       Note=Binds 2 magnesium ions per tetramer. {ECO:0000255|HAMAP-
+CC       Rule:MF_00283};
+CC   -!- SUBUNIT: Tetramer of two alpha and two beta subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00283}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- SIMILARITY: Belongs to the phenylalanyl-tRNA synthetase beta subunit
+CC       family. Type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00283}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006716; BAE05131.1; -; Genomic_DNA.
+DR   RefSeq; WP_011276099.1; NC_007168.1.
+DR   PDB; 2RHQ; X-ray; 2.20 A; B=1-799.
+DR   PDB; 2RHS; X-ray; 2.20 A; B/D=1-800.
+DR   PDBsum; 2RHQ; -.
+DR   PDBsum; 2RHS; -.
+DR   SMR; Q4L5E4; -.
+DR   STRING; 279808.SH1822; -.
+DR   DrugBank; DB07817; 1-{3-[(4-pyridin-2-ylpiperazin-1-yl)sulfonyl]phenyl}-3-(1,3-thiazol-2-yl)urea.
+DR   EnsemblBacteria; BAE05131; BAE05131; SH1822.
+DR   KEGG; sha:SH1822; -.
+DR   eggNOG; COG0072; Bacteria.
+DR   eggNOG; COG0073; Bacteria.
+DR   HOGENOM; CLU_016891_0_0_9; -.
+DR   OMA; ISYNWLK; -.
+DR   OrthoDB; 53568at2; -.
+DR   BioCyc; SHAE279808:G1G27-1807-MONOMER; -.
+DR   EvolutionaryTrace; Q4L5E4; -.
+DR   Proteomes; UP000000543; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004826; F:phenylalanine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006432; P:phenylalanyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00769; PheRS_beta_core; 1.
+DR   CDD; cd02796; tRNA_bind_bactPheRS; 1.
+DR   Gene3D; 3.30.70.380; -; 1.
+DR   Gene3D; 3.50.40.10; -; 1.
+DR   HAMAP; MF_00283; Phe_tRNA_synth_beta1; 1.
+DR   InterPro; IPR005146; B3/B4_tRNA-bd.
+DR   InterPro; IPR009061; DNA-bd_dom_put_sf.
+DR   InterPro; IPR005121; Fdx_antiC-bd.
+DR   InterPro; IPR036690; Fdx_antiC-bd_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004532; Phe-tRNA-ligase_IIc_bsu.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR041616; PheRS_beta_core.
+DR   InterPro; IPR002547; tRNA-bd_dom.
+DR   InterPro; IPR033714; tRNA_bind_bactPheRS.
+DR   InterPro; IPR005147; tRNA_synthase_B5-dom.
+DR   Pfam; PF03483; B3_4; 1.
+DR   Pfam; PF03484; B5; 1.
+DR   Pfam; PF03147; FDX-ACB; 1.
+DR   Pfam; PF01588; tRNA_bind; 1.
+DR   Pfam; PF17759; tRNA_synthFbeta; 1.
+DR   SMART; SM00873; B3_4; 1.
+DR   SMART; SM00874; B5; 1.
+DR   SMART; SM00896; FDX-ACB; 1.
+DR   SUPFAM; SSF46955; SSF46955; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF54991; SSF54991; 1.
+DR   TIGRFAMs; TIGR00472; pheT_bact; 1.
+DR   PROSITE; PS51483; B5; 1.
+DR   PROSITE; PS51447; FDX_ACB; 1.
+DR   PROSITE; PS50886; TRBD; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Protein biosynthesis;
+KW   RNA-binding; tRNA-binding.
+FT   CHAIN           1..800
+FT                   /note="Phenylalanine--tRNA ligase beta subunit"
+FT                   /id="PRO_0000232090"
+FT   DOMAIN          39..154
+FT                   /note="tRNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   DOMAIN          408..483
+FT                   /note="B5"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   DOMAIN          708..800
+FT                   /note="FDX-ACB"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   METAL           461
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   METAL           467
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   METAL           470
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   METAL           471
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00283"
+FT   STRAND          2..4
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           5..8
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            9..11
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           18..27
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          31..37
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            38..41
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          43..54
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          58..60
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          64..68
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          70..73
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          75..78
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          89..99
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            100..102
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          108..110
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          113..115
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          117..119
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           123..125
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           129..131
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           134..137
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           153..156
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          162..167
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           170..175
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           178..189
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          204..206
+FT                   /evidence="ECO:0007744|PDB:2RHS"
+FT   HELIX           207..209
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          212..216
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            218..220
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          222..230
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           239..247
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           255..267
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          272..275
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           276..278
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          279..288
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          294..297
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          302..304
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          310..321
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            322..324
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          325..331
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          338..345
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           348..357
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           363..369
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           374..376
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           377..391
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          401..404
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          409..416
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           417..424
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           430..439
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          443..447
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          450..456
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           465..476
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            478..480
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           498..512
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          522..524
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   TURN            526..532
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          550..553
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           558..570
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          576..586
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          595..611
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           612..614
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          616..619
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           622..636
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          641..644
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          650..660
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          663..671
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           673..678
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          683..690
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           691..694
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          713..718
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          720..722
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           727..737
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           739..741
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          742..751
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          760..769
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   STRAND          772..774
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+FT   HELIX           778..794
+FT                   /evidence="ECO:0007744|PDB:2RHQ"
+SQ   SEQUENCE   800 AA;  88876 MW;  7FBE75700E9AC989 CRC64;
+     MLISNEWLKD YVDAGVKVED LAERITRTGI EVDDMIDYSK DIKNLVVGYI QSKEKHPDAD
+     KLNICQVDIG EEEPVQIVCG APNVDAGQHV IVAKVGGRLP GGIKIKRAKL RGERSEGMIC
+     SLQEIGISSN VVPKAYENGI FVFQTEVEPG TDALTALYLN DQVMEFDLTP NRADALSMVG
+     TAYEVAALYQ TEMTKPETQS NETSESATNE LSVTIDNPEK VPYYSARVVK NVSIEPSPIW
+     VQARLIKAGI RPINNVVDIS NYVLLEYGQP LHMFDQDHIG SKEIVVRQAK DEETMTTLDN
+     NERKLVDTDI VISNGQEPIA LAGVMGGDFS EVTEQTTNVV IEGAIFDPVS IRHTSRRLNL
+     RSEASSRFEK GIATEFVDEA VDRACYLLQE LASGEVLQDR VSSGDLGSFV TPIDITAEKV
+     NKTIGFNLSN DEIQSIFRQL GFETTLKGET LTVNVPSRRK DITIKEDLIE EVARIYGYDE
+     IPSSLPVFGE VTSGELTDRQ HKTRTLKETL EGAGLNQAIT YSLVSKDHAK DFALQERPTI
+     SLLMPMSEAH ATLRQSLLPH LIEATAYNVA RKNKDVRLYE IGRVFFGNGE GELPDEVEYL
+     SGILTGEYVV NAWQGKKEEI DFFIAKGVVD RVAEKLNLEF SYKAGKIEGL HPGRTAIVSL
+     EGQDIGFIGE LHPQVAADND LKRTYVFELN YDAMMQVAVG YINYEQIPKF PGVTRDIALE
+     VNHDVPSSEL KQIIHNNGED ILQSTLVFDV YEGEHLEKGK KSVAIRLNYL DTEDTLTDER
+     VSKIHDKILE ALQAQGATIR
+//

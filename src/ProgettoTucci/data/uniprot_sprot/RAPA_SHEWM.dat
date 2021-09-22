@@ -1,0 +1,114 @@
+ID   RAPA_SHEWM              Reviewed;         968 AA.
+AC   B1KJA5;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=RNA polymerase-associated protein RapA {ECO:0000255|HAMAP-Rule:MF_01821};
+DE            EC=3.6.4.- {ECO:0000255|HAMAP-Rule:MF_01821};
+DE   AltName: Full=ATP-dependent helicase HepA {ECO:0000255|HAMAP-Rule:MF_01821};
+GN   Name=rapA {ECO:0000255|HAMAP-Rule:MF_01821}; OrderedLocusNames=Swoo_4324;
+OS   Shewanella woodyi (strain ATCC 51908 / MS32).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=392500;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51908 / MS32;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Sims D., Brettin T., Detter J.C., Han C.,
+RA   Kuske C.R., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Lykidis A., Zhao J.-S., Richardson P.;
+RT   "Complete sequence of Shewanella woodyi ATCC 51908.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Transcription regulator that activates transcription by
+CC       stimulating RNA polymerase (RNAP) recycling in case of stress
+CC       conditions such as supercoiled DNA or high salt concentrations.
+CC       Probably acts by releasing the RNAP, when it is trapped or immobilized
+CC       on tightly supercoiled DNA. Does not activate transcription on linear
+CC       DNA. Probably not involved in DNA repair. {ECO:0000255|HAMAP-
+CC       Rule:MF_01821}.
+CC   -!- SUBUNIT: Interacts with the RNAP. Has a higher affinity for the core
+CC       RNAP than for the holoenzyme. Its ATPase activity is stimulated by
+CC       binding to RNAP. {ECO:0000255|HAMAP-Rule:MF_01821}.
+CC   -!- SIMILARITY: Belongs to the SNF2/RAD54 helicase family. RapA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01821}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000961; ACA88577.1; -; Genomic_DNA.
+DR   RefSeq; WP_012326903.1; NC_010506.1.
+DR   SMR; B1KJA5; -.
+DR   STRING; 392500.Swoo_4324; -.
+DR   PRIDE; B1KJA5; -.
+DR   EnsemblBacteria; ACA88577; ACA88577; Swoo_4324.
+DR   KEGG; swd:Swoo_4324; -.
+DR   eggNOG; COG0553; Bacteria.
+DR   HOGENOM; CLU_011520_0_0_6; -.
+DR   OMA; MSILERD; -.
+DR   OrthoDB; 291634at2; -.
+DR   BioCyc; SWOO392500:G1GBD-4750-MONOMER; -.
+DR   Proteomes; UP000002168; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004386; F:helicase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070615; F:nucleosome-dependent ATPase activity; IEA:InterPro.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10810; -; 1.
+DR   HAMAP; MF_01821; Helicase_RapA; 1.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR023949; Helicase_RapA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR022737; RapA_C.
+DR   InterPro; IPR038718; SNF2-like_sf.
+DR   InterPro; IPR000330; SNF2_dom.
+DR   InterPro; IPR040765; Tudor_1_RapA.
+DR   InterPro; IPR040766; Tudor_2_RapA.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   Pfam; PF12137; RapA_C; 1.
+DR   Pfam; PF00176; SNF2_N; 1.
+DR   Pfam; PF18339; Tudor_1_RapA; 1.
+DR   Pfam; PF18337; Tudor_RapA; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   Activator; ATP-binding; DNA-binding; Helicase; Hydrolase;
+KW   Nucleotide-binding; Transcription; Transcription regulation.
+FT   CHAIN           1..968
+FT                   /note="RNA polymerase-associated protein RapA"
+FT                   /id="PRO_1000188192"
+FT   DOMAIN          163..332
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01821"
+FT   DOMAIN          491..645
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01821"
+FT   NP_BIND         176..183
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01821"
+FT   MOTIF           278..281
+FT                   /note="DEAH box"
+SQ   SEQUENCE   968 AA;  108948 MW;  399BD68A087B4F62 CRC64;
+     MPFSLGQRWI SDTESELGLG TVVAVEGRMV TVMFPATDEN RMFSRADAPL TRVIFNPGDK
+     AESHEGWSLT VSEVEEKDNL IIYHGIHDET GEQVSLRETL LNHNIRFNKP QDRLFAGQID
+     RLERFGIRYQ CQQLRHKLAT SDMLGLQGPR VGLIPHQQWI AHEVGRRFAP RVLLADEVGL
+     GKTIEAGLII HQQLLTGRAE RILVIVPDTL RHQWLVEMLR RFNLKFSVFD EDRCVEAYAD
+     SDNPFYTEQL VICSLELLRK KRRLDQALAA DWDLMVVDEA HHLEWTEDAP SRAYRIVEAL
+     SEEIPGVLLL TATPDQLGHQ SHFARLRLLD PDRFYDYEAF LKEETNYADI ASTADALAGN
+     EPLSQEIIDN LKTQLAEKDI TAATDIIQAT DADVDQQQAA RDALLQDLLD RHGTGRVLYR
+     NSRASVKGFP TRIFNQYPQK MPAQYVTAAR VGAMMNGHLD TAGKVKQALS PEKIYQEFES
+     SSASWWKFDP RVDWLIDFLK ENRREKVLII ASQAETALSL EEALRTREGI QATVFHEGMS
+     IIERDKAGAY FAQETGGAQA LICSEIGSEG RNFQFASQLI LFDLPLNPDL LEQRIGRLDR
+     IGQNNDVSIH VPYLEDTAQE SLMQWYHKGL NAFEQTCPSG HILFNEFSES LLNVLISQDK
+     EVLEQVLSDT QTRYAELKSV MEQGRDKLLE INSHGGERAN KLVNALAERD EDTNLIGSVI
+     RLWDIIGVEQ EDSGENAIVL RPSEHMMFPT YPGLPEDGIT VTFDREMALS RDDIALITQE
+     HPLVQTGLDL ITSSETGTTS VAVLKNKSLP AGTIFLELIY MADASAPKSS QLYRYLPPTP
+     VRVLLDKNGN NLADNVNYES FNKQLSAVNR HIASKLVNAS QAVLHPLFAK GEEFASSELT
+     LLTESSRAKM TTQLNGELER LEALKAVNPN IRDEELAHLR EQMVELNGYL DGAVLQLDAI
+     RLVLVSHA
+//

@@ -1,0 +1,101 @@
+ID   ILVD_RHOPA              Reviewed;         618 AA.
+AC   Q6N9S5;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-DEC-2020, entry version 92.
+DE   RecName: Full=Dihydroxy-acid dehydratase {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            Short=DAD {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            EC=4.2.1.9 {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   Name=ilvD {ECO:0000255|HAMAP-Rule:MF_00012}; OrderedLocusNames=RPA1463;
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009;
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J.E., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres y Torres J.L., Peres C.,
+RA   Harrison F.H., Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate +
+CC         H2O; Xref=Rhea:RHEA:20936, ChEBI:CHEBI:11424, ChEBI:CHEBI:11851,
+CC         ChEBI:CHEBI:15377; EC=4.2.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 3/4. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SIMILARITY: Belongs to the IlvD/Edd family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572597; CAE26905.1; -; Genomic_DNA.
+DR   RefSeq; WP_011157024.1; NC_005296.1.
+DR   SMR; Q6N9S5; -.
+DR   STRING; 258594.RPA1463; -.
+DR   PRIDE; Q6N9S5; -.
+DR   EnsemblBacteria; CAE26905; CAE26905; RPA1463.
+DR   KEGG; rpa:RPA1463; -.
+DR   eggNOG; COG0129; Bacteria.
+DR   HOGENOM; CLU_014271_4_3_5; -.
+DR   OMA; IPGHVHL; -.
+DR   PhylomeDB; Q6N9S5; -.
+DR   BioCyc; RPAL258594:TX73_RS07465-MONOMER; -.
+DR   UniPathway; UPA00047; UER00057.
+DR   UniPathway; UPA00049; UER00061.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004160; F:dihydroxy-acid dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.30.80; -; 1.
+DR   HAMAP; MF_00012; IlvD; 1.
+DR   InterPro; IPR042096; Dihydro-acid_dehy_C.
+DR   InterPro; IPR004404; DihydroxyA_deHydtase.
+DR   InterPro; IPR000581; DiOHA_6PGluconate_deHydtase.
+DR   InterPro; IPR020558; DiOHA_6PGluconate_deHydtase_CS.
+DR   InterPro; IPR037237; IlvD/EDD_N.
+DR   Pfam; PF00920; ILVD_EDD; 1.
+DR   SUPFAM; SSF143975; SSF143975; 1.
+DR   TIGRFAMs; TIGR00110; ilvD; 1.
+DR   PROSITE; PS00886; ILVD_EDD_1; 1.
+DR   PROSITE; PS00887; ILVD_EDD_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Lyase; Metal-binding; Reference proteome.
+FT   CHAIN           1..618
+FT                   /note="Dihydroxy-acid dehydratase"
+FT                   /id="PRO_0000225418"
+FT   METAL           122
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   METAL           195
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+SQ   SEQUENCE   618 AA;  65722 MW;  47084BAEFEC2C9F3 CRC64;
+     MPAYRSRTTT HGRNMAGARG LWRATGMKDS DFGKPIIAVV NSFTQFVPGH VHLKDLGQLV
+     AREIEAAGGV AKEFNTIAVD DGIAMGHDGM LYSLPSRELI ADSVEYMVNA HCADAMVCIS
+     NCDKITPGML MAAMRLNIPA VFVSGGPMEA GKVVLKGKTH AVDLIDAMVA AADSAMSDED
+     VQTMERSACP TCGSCSGMFT ANSMNCLTEA LGLSLPGNGS VLATHADRKR LFVEAGHTIV
+     DLARRYYEGD DASVLPRNIA NFKAFENAMT LDIAMGGSTN TVLHLLAAAR EAELDFSMKD
+     IDRLSRRVPC LSKIAPSVSD VHMEDVHRAG GIMAILGELD RAGLLDTSCT TVHSETLGAA
+     LARWDIRQSN SESVRTFFRA APGGVPSQTA FSQDRRYDEL DLDREKGVIR DAAHAFSKDG
+     GLAVLYGNIA LDGCIVKTAG VDASILTFSG PVKVFESQDD AVSAILTNKI VAGDVVVIRY
+     EGPRGGPGMQ EMLYPTSYLK SKGLGKACAL ITDGRFSGGT SGLSIGHVSP EAAEGGLIGL
+     VRDGDRISID IPNRTISLDV SEAELAKRGE EERARGEAAW TPKDRKRNVS AALQAYAMLT
+     TSAANGAVRD VKRRFGKN
+//

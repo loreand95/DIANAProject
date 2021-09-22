@@ -1,0 +1,108 @@
+ID   PEPT_STRZP              Reviewed;         407 AA.
+AC   C1CK88;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   07-APR-2021, entry version 65.
+DE   RecName: Full=Peptidase T {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            EC=3.4.11.4 {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Aminotripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE            Short=Tripeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+DE   AltName: Full=Tripeptide aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00550};
+GN   Name=pepT {ECO:0000255|HAMAP-Rule:MF_00550}; OrderedLocusNames=SPP_1013;
+OS   Streptococcus pneumoniae (strain P1031).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=488223;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=P1031;
+RX   PubMed=21034474; DOI=10.1186/gb-2010-11-10-r107;
+RA   Donati C., Hiller N.L., Tettelin H., Muzzi A., Croucher N.J.,
+RA   Angiuoli S.V., Oggioni M., Dunning Hotopp J.C., Hu F.Z., Riley D.R.,
+RA   Covacci A., Mitchell T.J., Bentley S.D., Kilian M., Ehrlich G.D.,
+RA   Rappuoli R., Moxon E.R., Masignani V.;
+RT   "Structure and dynamics of the pan-genome of Streptococcus pneumoniae and
+RT   closely related species.";
+RL   Genome Biol. 11:R107.1-R107.19(2010).
+CC   -!- FUNCTION: Cleaves the N-terminal amino acid of tripeptides.
+CC       {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of the N-terminal residue from a tripeptide.;
+CC         EC=3.4.11.4; Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00550};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00550}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20B family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00550}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000920; ACO21279.1; -; Genomic_DNA.
+DR   RefSeq; WP_000222052.1; NC_012467.1.
+DR   SMR; C1CK88; -.
+DR   MEROPS; M20.003; -.
+DR   KEGG; spp:SPP_1013; -.
+DR   HOGENOM; CLU_053676_0_0_9; -.
+DR   OMA; GHNFHGK; -.
+DR   BioCyc; SPNE488223:G1GAU-1038-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008237; F:metallopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0045148; F:tripeptide aminopeptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043171; P:peptide catabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00550; Aminopeptidase_M20; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   InterPro; IPR010161; Peptidase_M20B.
+DR   PANTHER; PTHR42994:SF1; PTHR42994:SF1; 1.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF037215; Peptidase_M20B; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01882; peptidase-T; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Metal-binding; Metalloprotease;
+KW   Protease; Zinc.
+FT   CHAIN           1..407
+FT                   /note="Peptidase T"
+FT                   /id="PRO_1000200902"
+FT   ACT_SITE        83
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   ACT_SITE        176
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           81
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           142
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           142
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           177
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           199
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+FT   METAL           381
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00550"
+SQ   SEQUENCE   407 AA;  44779 MW;  3AD43975B67153D8 CRC64;
+     MTYPNLLDRF LTYVKVNTRS DEHSTTTPST QSQVDFATNV LIPEMKRVGL QNVYYLPNGF
+     AIGTLPANDP SLTRKIGFIS HMDTADFNAE GVNPQVIENY DGGVIELGNS GFKLDPADFK
+     SLEKYPGQTL ITTDGTTLLG ADDKSGIAEI MTAIEYLTAH PEIKHCEIRV GFGPDEEIGV
+     GANKFDAEDF DVDFAYTVDG GPLGELQYET FSAAGAELHF QGRNVHPGTA KGQMVNALQL
+     AIDFHNQLPE NDRPELTEGY QGFYHLMDVT GSVEEARASY IIRDFEKDAF EARKASMQSI
+     ADKMNAELGS YRVTLNLTDQ YYNMKEVIEK DMTPITIAKA VMEDLGITPI IEPIRGGTDG
+     SKISFMGIPT PNIFAGGENM HGRFEYVSLQ TMERAVDTII GIVAYKG
+//

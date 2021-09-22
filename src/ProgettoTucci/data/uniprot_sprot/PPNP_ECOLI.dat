@@ -1,0 +1,196 @@
+ID   PPNP_ECOLI              Reviewed;          94 AA.
+AC   P0C037; P36768; P77343; Q2MC34;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   10-FEB-2021, entry version 104.
+DE   RecName: Full=Pyrimidine/purine nucleoside phosphorylase {ECO:0000255|HAMAP-Rule:MF_01537, ECO:0000303|PubMed:27941785};
+DE            EC=2.4.2.1 {ECO:0000255|HAMAP-Rule:MF_01537, ECO:0000269|PubMed:27941785};
+DE            EC=2.4.2.2 {ECO:0000255|HAMAP-Rule:MF_01537, ECO:0000269|PubMed:27941785};
+DE   AltName: Full=Adenosine phosphorylase {ECO:0000305|PubMed:27941785};
+DE   AltName: Full=Cytidine phosphorylase {ECO:0000305|PubMed:27941785};
+DE   AltName: Full=Guanosine phosphorylase {ECO:0000305|PubMed:27941785};
+DE            EC=2.4.2.15 {ECO:0000269|PubMed:27941785};
+DE   AltName: Full=Inosine phosphorylase {ECO:0000305|PubMed:27941785};
+DE   AltName: Full=Thymidine phosphorylase {ECO:0000305|PubMed:27941785};
+DE            EC=2.4.2.4 {ECO:0000269|PubMed:27941785};
+DE   AltName: Full=Uridine phosphorylase {ECO:0000305|PubMed:27941785};
+DE            EC=2.4.2.3 {ECO:0000269|PubMed:27941785};
+DE   AltName: Full=Xanthosine phosphorylase {ECO:0000305|PubMed:27941785};
+GN   Name=ppnP {ECO:0000303|PubMed:27941785};
+GN   Synonyms=yaiE {ECO:0000312|EMBL:AAC73494.1};
+GN   OrderedLocusNames=b0391, JW0382;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=K12;
+RX   PubMed=8807285;
+RA   Ryder L., Sharples G.J., Lloyd R.G.;
+RT   "Recombination-dependent growth in exonuclease-depleted recBC sbcBC strains
+RT   of Escherichia coli K-12.";
+RL   Genetics 143:1101-1114(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RA   Chung E., Allen E., Araujo R., Aparicio A.M., Davis K., Duncan M.,
+RA   Federspiel N., Hyman R., Kalman S., Komp C., Kurdi O., Lew H., Lin D.,
+RA   Namath A., Oefner P., Roberts D., Schramm S., Davis R.W.;
+RT   "Sequence of minutes 4-25 of Escherichia coli.";
+RL   Submitted (JAN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=K12;
+RX   PubMed=27941785; DOI=10.1038/nmeth.4103;
+RA   Sevin D.C., Fuhrer T., Zamboni N., Sauer U.;
+RT   "Nontargeted in vitro metabolomics for high-throughput identification of
+RT   novel enzymes in Escherichia coli.";
+RL   Nat. Methods 14:187-194(2017).
+CC   -!- FUNCTION: Catalyzes the phosphorolysis of diverse nucleosides, yielding
+CC       D-ribose 1-phosphate and the respective free bases. Can use uridine,
+CC       adenosine, guanosine, cytidine, thymidine, inosine and xanthosine as
+CC       substrates. Also catalyzes the reverse reactions. Is not able to
+CC       produce D-ribose 1-phosphate from D-ribose and phosphate.
+CC       {ECO:0000269|PubMed:27941785}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a purine D-ribonucleoside + phosphate = a purine nucleobase +
+CC         alpha-D-ribose 1-phosphate; Xref=Rhea:RHEA:19805, ChEBI:CHEBI:26386,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720, ChEBI:CHEBI:142355; EC=2.4.2.1;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + phosphate = adenine + alpha-D-ribose 1-phosphate;
+CC         Xref=Rhea:RHEA:27642, ChEBI:CHEBI:16335, ChEBI:CHEBI:16708,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine + phosphate = alpha-D-ribose 1-phosphate + cytosine;
+CC         Xref=Rhea:RHEA:52540, ChEBI:CHEBI:16040, ChEBI:CHEBI:17562,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine + phosphate = alpha-D-ribose 1-phosphate + guanine;
+CC         Xref=Rhea:RHEA:13233, ChEBI:CHEBI:16235, ChEBI:CHEBI:16750,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine + phosphate = alpha-D-ribose 1-phosphate + guanine;
+CC         Xref=Rhea:RHEA:13233, ChEBI:CHEBI:16235, ChEBI:CHEBI:16750,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.15;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=inosine + phosphate = alpha-D-ribose 1-phosphate +
+CC         hypoxanthine; Xref=Rhea:RHEA:27646, ChEBI:CHEBI:17368,
+CC         ChEBI:CHEBI:17596, ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + thymidine = 2-deoxy-alpha-D-ribose 1-phosphate +
+CC         thymine; Xref=Rhea:RHEA:16037, ChEBI:CHEBI:17748, ChEBI:CHEBI:17821,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57259; EC=2.4.2.2;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + thymidine = 2-deoxy-alpha-D-ribose 1-phosphate +
+CC         thymine; Xref=Rhea:RHEA:16037, ChEBI:CHEBI:17748, ChEBI:CHEBI:17821,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57259; EC=2.4.2.4;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + uridine = alpha-D-ribose 1-phosphate + uracil;
+CC         Xref=Rhea:RHEA:24388, ChEBI:CHEBI:16704, ChEBI:CHEBI:17568,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.2;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + uridine = alpha-D-ribose 1-phosphate + uracil;
+CC         Xref=Rhea:RHEA:24388, ChEBI:CHEBI:16704, ChEBI:CHEBI:17568,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.3;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + xanthosine = alpha-D-ribose 1-phosphate +
+CC         xanthine; Xref=Rhea:RHEA:27638, ChEBI:CHEBI:17712, ChEBI:CHEBI:18107,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57720; EC=2.4.2.1;
+CC         Evidence={ECO:0000269|PubMed:27941785};
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene show a consistent change
+CC       in xanthine level. {ECO:0000269|PubMed:27941785}.
+CC   -!- SIMILARITY: Belongs to the nucleoside phosphorylase PpnP family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01537}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X76979; CAA54286.1; -; Genomic_DNA.
+DR   EMBL; U73857; AAB18115.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC73494.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE76172.1; -; Genomic_DNA.
+DR   PIR; G64767; G64767.
+DR   RefSeq; NP_414925.1; NC_000913.3.
+DR   RefSeq; WP_000941942.1; NZ_STEB01000007.1.
+DR   SMR; P0C037; -.
+DR   BioGRID; 4259817; 22.
+DR   BioGRID; 849437; 8.
+DR   IntAct; P0C037; 9.
+DR   STRING; 511145.b0391; -.
+DR   jPOST; P0C037; -.
+DR   PaxDb; P0C037; -.
+DR   PRIDE; P0C037; -.
+DR   EnsemblBacteria; AAC73494; AAC73494; b0391.
+DR   EnsemblBacteria; BAE76172; BAE76172; BAE76172.
+DR   GeneID; 58460366; -.
+DR   GeneID; 945048; -.
+DR   KEGG; ecj:JW0382; -.
+DR   KEGG; eco:b0391; -.
+DR   PATRIC; fig|511145.12.peg.403; -.
+DR   EchoBASE; EB2079; -.
+DR   eggNOG; COG3123; Bacteria.
+DR   HOGENOM; CLU_157874_0_0_6; -.
+DR   InParanoid; P0C037; -.
+DR   PhylomeDB; P0C037; -.
+DR   BioCyc; EcoCyc:EG12159-MONOMER; -.
+DR   BioCyc; MetaCyc:EG12159-MONOMER; -.
+DR   PRO; PR:P0C037; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IDA:EcoCyc.
+DR   GO; GO:0047975; F:guanosine phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004731; F:purine-nucleoside phosphorylase activity; IDA:EcoCyc.
+DR   GO; GO:0016154; F:pyrimidine-nucleoside phosphorylase activity; IDA:EcoCyc.
+DR   GO; GO:0009032; F:thymidine phosphorylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004850; F:uridine phosphorylase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01537; Nucleos_phosphorylase_PpnP; 1.
+DR   InterPro; IPR009664; Ppnp.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR36540; PTHR36540; 1.
+DR   Pfam; PF06865; Ppnp; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+PE   1: Evidence at protein level;
+KW   Glycosyltransferase; Reference proteome; Transferase.
+FT   CHAIN           1..94
+FT                   /note="Pyrimidine/purine nucleoside phosphorylase"
+FT                   /id="PRO_0000211763"
+FT   CONFLICT        77..94
+FT                   /note="SEFHLQVAEPTSYLCRYL -> TVSFICKLPNPPLICAAICNSSPSP (in
+FT                   Ref. 1; CAA54286)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   94 AA;  10234 MW;  D7EF5C0AFD86D661 CRC64;
+     MLQSNEYFSG KVKSIGFSSS STGRASVGVM VEGEYTFSTA EPEEMTVISG ALNVLLPDAT
+     DWQVYEAGSV FNVPGHSEFH LQVAEPTSYL CRYL
+//

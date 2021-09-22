@@ -1,0 +1,123 @@
+ID   GRISA_PODAS             Reviewed;         597 AA.
+AC   Q92258;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1997, sequence version 1.
+DT   02-DEC-2020, entry version 83.
+DE   RecName: Full=Protein GRISEA;
+DE   AltName: Full=MAC1 homolog;
+GN   Name=grisea {ECO:0000312|EMBL:CAA61598.1};
+OS   Podospora anserina (Pleurage anserina).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Sordariomycetidae; Sordariales; Chaetomiaceae; Podospora.
+OX   NCBI_TaxID=2587412;
+RN   [1] {ECO:0000312|EMBL:CAA61598.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=s {ECO:0000312|EMBL:CAA61598.1};
+RX   PubMed=8804410; DOI=10.1007/bf02173211;
+RA   Osiewacz H.D., Nuber U.;
+RT   "GRISEA, a putative copper-activated transcription factor from Podospora
+RT   anserina involved in differentiation and senescence.";
+RL   Mol. Gen. Genet. 252:115-124(1996).
+RN   [2] {ECO:0000305}
+RP   MUTANT GRISEA.
+RX   PubMed=9380708; DOI=10.1073/pnas.94.20.10768;
+RA   Borghouts C., Kimpel E., Osiewacz H.D.;
+RT   "Mitochondrial DNA rearrangements of Podospora anserina are under the
+RT   control of the nuclear gene grisea.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 94:10768-10773(1997).
+RN   [3] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=9894921; DOI=10.1007/s004380050922;
+RA   Borghouts C., Osiewacz H.D.;
+RT   "GRISEA, a copper-modulated transcription factor from Podospora anserina
+RT   involved in senescence and morphogenesis, is an ortholog of MAC1 in
+RT   Saccharomyces cerevisiae.";
+RL   Mol. Gen. Genet. 260:492-502(1998).
+RN   [4] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=11134328; DOI=10.1128/mcb.21.2.390-399.2001;
+RA   Borghouts C., Werner A., Elthon T., Osiewacz H.D.;
+RT   "Copper-modulated gene expression and senescence in the filamentous fungus
+RT   Podospora anserina.";
+RL   Mol. Cell. Biol. 21:390-399(2001).
+RN   [5] {ECO:0000305}
+RP   FUNCTION.
+RX   PubMed=12200031; DOI=10.1016/s1357-2725(02)00078-x;
+RA   Borghouts C., Scheckhuber C.Q., Stephan O., Osiewacz H.D.;
+RT   "Copper homeostasis and aging in the fungal model system Podospora
+RT   anserina: differential expression of PaCtr3 encoding a copper
+RT   transporter.";
+RL   Int. J. Biochem. Cell Biol. 34:1355-1371(2002).
+CC   -!- FUNCTION: Copper-sensing transcription factor that regulates copper
+CC       uptake by transactivation of Ctr3, a high affinity copper permease.
+CC       Binds to the palindromic UAS sequence 5'-TGTTGCTCANNNNAGAGCAACT-3'.
+CC       Also transactivates Sod2, a mitochondrial manganese superoxide
+CC       dismutase through the palindromic UAS sequence 5'-GTTTGCTCA-3' with 352
+CC       bp separating the two inverted repeats. Loss of function indirectly
+CC       leads to rearrangement of mitochondrial DNA associated with senescence
+CC       in wild-type strains. {ECO:0000269|PubMed:11134328,
+CC       ECO:0000269|PubMed:12200031, ECO:0000269|PubMed:9894921}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X89429; CAA61598.1; -; Genomic_DNA.
+DR   PIR; S72468; S72468.
+DR   SMR; Q92258; -.
+DR   GO; GO:0005634; C:nucleus; IC:UniProtKB.
+DR   GO; GO:0005507; F:copper ion binding; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   GO; GO:0006878; P:cellular copper ion homeostasis; IDA:UniProtKB.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IDA:UniProtKB.
+DR   Gene3D; 3.90.430.10; -; 1.
+DR   InterPro; IPR001083; Cu_fist_DNA-bd_dom.
+DR   InterPro; IPR036395; Cu_fist_DNA-bd_dom_sf.
+DR   Pfam; PF00649; Copper-fist; 1.
+DR   PRINTS; PR00617; COPPERFIST.
+DR   SMART; SM01090; Copper-fist; 1.
+DR   SMART; SM00412; Cu_FIST; 1.
+DR   SUPFAM; SSF57879; SSF57879; 1.
+DR   PROSITE; PS01119; COPPER_FIST_1; 1.
+DR   PROSITE; PS50073; COPPER_FIST_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; Copper; DNA-binding; Metal-binding; Nucleus; Transcription;
+KW   Transcription regulation; Zinc.
+FT   CHAIN           1..597
+FT                   /note="Protein GRISEA"
+FT                   /id="PRO_0000194929"
+FT   DNA_BIND        1..41
+FT                   /note="Copper-fist"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00055"
+FT   COMPBIAS        159..349
+FT                   /note="Pro-rich"
+FT   METAL           11
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P41772,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00055"
+FT   METAL           14
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P41772,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00055"
+FT   METAL           23
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P41772,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00055"
+FT   METAL           25
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250|UniProtKB:P41772,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00055"
+SQ   SEQUENCE   597 AA;  62302 MW;  39DC3895C96DA30B CRC64;
+     MPIINGQKMA CGPCIRGHRS TKCNHYNERV MVPVRKPGRP LSTCPCPPGK PCVCGGVRVA
+     IPKKQKCHCP AGTVDSATSS EFDPSPVDTP ISPASRTSSN RVTKSGSGSK SASRRQSLAL
+     ANLERMDPNS INLIPSPNGN GMIGITAMVS PRDATFGHPM GMVPMGPRES FVPAPPPDFG
+     GPMGYNMPPS MPPHMPPPHY PPHIQIPQHI KTENGGFVPM LNGTFVSPVP IPAFVDGPHP
+     QGMQAFNGPP PPPPSNPVLE PSAMSKPKGG SGGGGCCGGG KKAPQIQAPP PVPAPLPTPP
+     QQQMPNIMPP PQPQNAPSGG GGSCCSSKSS QPPPMPQMSP NAMQAPPQPG FGQGFMPQYQ
+     TPIDIKMENM HHHQPFQFPG QTVFTYPAEY GSWQMPINPA IWQQVVSRPP TQQQHETPIS
+     ATAPNGNNGT VGGNSHECGC GEGCQCVGCL AHPFNSQMLQ YVQNAYSPNS SHGNSGSADS
+     SANASPSANP LNLASPVEIP SGPELPPSHQ TQPQPPPRPN ANESDGSSNA PTPPNEGSPA
+     LSNEEELTAL DYYFVHLPIS ALCGGALDMC PCDESCECVG CLVHNTAGFP QGDGGFS
+//

@@ -1,0 +1,140 @@
+ID   GPMI_RHOS5              Reviewed;         506 AA.
+AC   A4WWV3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=2,3-bisphosphoglycerate-independent phosphoglycerate mutase {ECO:0000255|HAMAP-Rule:MF_01038};
+DE            Short=BPG-independent PGAM {ECO:0000255|HAMAP-Rule:MF_01038};
+DE            Short=Phosphoglyceromutase {ECO:0000255|HAMAP-Rule:MF_01038};
+DE            Short=iPGM {ECO:0000255|HAMAP-Rule:MF_01038};
+DE            EC=5.4.2.12 {ECO:0000255|HAMAP-Rule:MF_01038};
+GN   Name=gpmI {ECO:0000255|HAMAP-Rule:MF_01038};
+GN   OrderedLocusNames=Rsph17025_2981;
+OS   Rhodobacter sphaeroides (strain ATCC 17025 / ATH 2.4.3).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Rhodobacter.
+OX   NCBI_TaxID=349102;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 17025 / ATH 2.4.3;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Richardson P., Mackenzie C., Choudhary M.,
+RA   Donohue T.J., Kaplan S.;
+RT   "Complete sequence of chromosome of Rhodobacter sphaeroides ATCC 17025.";
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the interconversion of 2-phosphoglycerate and 3-
+CC       phosphoglycerate. {ECO:0000255|HAMAP-Rule:MF_01038}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-2-phosphoglycerate = (2R)-3-phosphoglycerate;
+CC         Xref=Rhea:RHEA:15901, ChEBI:CHEBI:58272, ChEBI:CHEBI:58289;
+CC         EC=5.4.2.12; Evidence={ECO:0000255|HAMAP-Rule:MF_01038};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01038};
+CC       Note=Binds 2 manganese ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01038};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 3/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_01038}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01038}.
+CC   -!- SIMILARITY: Belongs to the BPG-independent phosphoglycerate mutase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01038}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000661; ABP71867.1; -; Genomic_DNA.
+DR   SMR; A4WWV3; -.
+DR   STRING; 349102.Rsph17025_2981; -.
+DR   EnsemblBacteria; ABP71867; ABP71867; Rsph17025_2981.
+DR   KEGG; rsq:Rsph17025_2981; -.
+DR   eggNOG; COG0696; Bacteria.
+DR   HOGENOM; CLU_026099_2_0_5; -.
+DR   OMA; FMDGRDT; -.
+DR   OrthoDB; 338375at2; -.
+DR   BioCyc; RSPH349102:G1G8M-3082-MONOMER; -.
+DR   UniPathway; UPA00109; UER00186.
+DR   Proteomes; UP000000234; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0046537; F:2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006007; P:glucose catabolic process; IEA:InterPro.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd16010; iPGM; 1.
+DR   Gene3D; 3.40.1450.10; -; 1.
+DR   Gene3D; 3.40.720.10; -; 1.
+DR   HAMAP; MF_01038; GpmI; 1.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core_sf.
+DR   InterPro; IPR011258; BPG-indep_PGM_N.
+DR   InterPro; IPR006124; Metalloenzyme.
+DR   InterPro; IPR036646; PGAM_B_sf.
+DR   InterPro; IPR005995; Pgm_bpd_ind.
+DR   PANTHER; PTHR31637; PTHR31637; 1.
+DR   Pfam; PF06415; iPGM_N; 1.
+DR   Pfam; PF01676; Metalloenzyme; 1.
+DR   PIRSF; PIRSF001492; IPGAM; 1.
+DR   SUPFAM; SSF53649; SSF53649; 1.
+DR   SUPFAM; SSF64158; SSF64158; 1.
+DR   TIGRFAMs; TIGR01307; pgm_bpd_ind; 1.
+PE   3: Inferred from homology;
+KW   Glycolysis; Isomerase; Manganese; Metal-binding.
+FT   CHAIN           1..506
+FT                   /note="2,3-bisphosphoglycerate-independent phosphoglycerate
+FT                   mutase"
+FT                   /id="PRO_1000063996"
+FT   REGION          153..154
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   REGION          254..257
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   ACT_SITE        63
+FT                   /note="Phosphoserine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           13
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           63
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           396
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           400
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           437
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           438
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   METAL           456
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   BINDING         124
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   BINDING         183
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   BINDING         189
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+FT   BINDING         330
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01038"
+SQ   SEQUENCE   506 AA;  53456 MW;  5796126402343729 CRC64;
+     MTAPKPVVLC ILDGWGLRAE REANAVALAN TPTFDRLMAT CPNATLITHG PDVGLPRGQM
+     GNSEVGHTNI GAGRVVAMDL GAIDLAIEEG TFARNPALCD FIAKVKAKGG TAHLMGVVSD
+     GGVHGHIQHL IAAVEVIAAS GVPVVIHAIT DGRDVAPTSA GGFVQQLAEA LPAGASIGTV
+     IGRYWAMDRD KRWDRVKRAS DAMLHGQGER AADAVAAVAA ALARGETDEF IAPTVIGSYT
+     GAMDGDGFFC LNFRADRARE ILAGLAQPGF DAYDTGRRPD WSGFLGMVDY STEHDRFMTT
+     AYPKQVIRNT LGEWVASHGL RQFRIAETEK YPHVTFFLNG GKEVPEAGED RYMANSPKVA
+     TYDLKPEMSA PDVSDHLVQA IGEGYDLIVV NYANPDMVGH TGDLRAAMAA CEEVDRGLGR
+     AVEAVRQAGG AMIVTADHGN CETMIDPETG GPHTAHTTNP VPVILVGGPA GARLRAGRLA
+     DLAPTLLELM GLPQPEEMTG RSLIEA
+//

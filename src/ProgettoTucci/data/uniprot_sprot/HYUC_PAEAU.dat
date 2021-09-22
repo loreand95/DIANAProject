@@ -1,0 +1,137 @@
+ID   HYUC_PAEAU              Reviewed;         412 AA.
+AC   Q9F464;
+DT   22-APR-2020, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   02-DEC-2020, entry version 59.
+DE   RecName: Full=N-carbamoyl-L-amino-acid hydrolase {ECO:0000305};
+DE            EC=3.5.1.87 {ECO:0000269|PubMed:10194852};
+DE   AltName: Full=L-N-carbamoylase {ECO:0000303|PubMed:10194852};
+GN   Name=hyuC {ECO:0000303|PubMed:10194852};
+OS   Paenarthrobacter aurescens (Arthrobacter aurescens).
+OC   Bacteria; Actinobacteria; Micrococcales; Micrococcaceae; Paenarthrobacter.
+OX   NCBI_TaxID=43663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND SUBUNIT.
+RC   STRAIN=DSM 3747;
+RX   PubMed=10194852; DOI=10.1016/s0168-1656(98)00183-7;
+RA   Wilms B., Wiese A., Syldatk C., Mattes R., Altenbuchner J., Pietzsch M.;
+RT   "Cloning, nucleotide sequence and expression of a new L-N-carbamoylase gene
+RT   from Arthrobacter aurescens DSM 3747 in E. coli.";
+RL   J. Biotechnol. 68:101-113(1999).
+RN   [2]
+RP   BIOTECHNOLOGY.
+RC   STRAIN=DSM 3747;
+RX   PubMed=11339957; DOI=10.1016/s0141-0229(01)00311-8;
+RA   Ragnitz K., Syldatk C., Pietzsch M.;
+RT   "Optimization of the immobilization parameters and operational stability of
+RT   immobilized hydantoinase and L-N-carbamoylase from Arthrobacter aurescens
+RT   for the production of optically pure l-amino acids.";
+RL   Enzyme Microb. Technol. 28:713-720(2001).
+CC   -!- FUNCTION: Involved in the asymmetric conversion of racemic 5-
+CC       substituted hydantoins to the corresponding L-amino acids. Prefers L-
+CC       carbamoyl-L-tryptophan and N-carbamoyl-L-tyrosine. Has weaker activity
+CC       with N-carbamoyl-D,L-phenylalanine and N-carbamoyl-L-thienyalanine.
+CC       Carbamoyl derivatives of beta-alanine and charged aliphatic amino acids
+CC       are not accepted as substrates. {ECO:0000269|PubMed:10194852}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-carbamoyl-L-2-amino acid + 2 H(+) + H2O = an L-alpha-
+CC         amino acid + CO2 + NH4(+); Xref=Rhea:RHEA:17581, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:58865, ChEBI:CHEBI:59869; EC=3.5.1.87;
+CC         Evidence={ECO:0000269|PubMed:10194852};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250|UniProtKB:Q8VXY9};
+CC       Note=Binds 2 divalent metal cations per subunit.
+CC       {ECO:0000250|UniProtKB:Q8VXY9};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         Note=kcat is 5.1 sec(-1) with L-carbamoyl-L-tryptophan as substrate.
+CC         kcat is 6.5 sec(-1) with N-carbamoyl-L-tyrosine as substrate. kcat is
+CC         5.0 sec(-1) with N-carbamoyl-D,L-phenylalanine as substrate. kcat is
+CC         16.1 sec(-1) with N-carbamoyl-L-thienyalanine as substrate.
+CC         {ECO:0000269|PubMed:10194852};
+CC       pH dependence:
+CC         Optimum pH is 8.5. {ECO:0000269|PubMed:10194852};
+CC       Temperature dependence:
+CC         Optimum temperature is 50 degrees Celsius.
+CC         {ECO:0000269|PubMed:10194852};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:10194852}.
+CC   -!- BIOTECHNOLOGY: Can be used for the industrial production of optically
+CC       pure L-amino acids. {ECO:0000269|PubMed:11339957}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF146701; AAG02131.1; -; Genomic_DNA.
+DR   SMR; Q9F464; -.
+DR   GO; GO:0016813; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050538; F:N-carbamoyl-L-amino-acid hydrolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR010158; Amidase_Cbmase.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   PANTHER; PTHR32494; PTHR32494; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   PIRSF; PIRSF001235; Amidase_carbamoylase; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01879; hydantase; 1.
+PE   1: Evidence at protein level;
+KW   Amino-acid biosynthesis; Hydrolase; Metal-binding.
+FT   CHAIN           1..412
+FT                   /note="N-carbamoyl-L-amino-acid hydrolase"
+FT                   /id="PRO_0000449272"
+FT   REGION          127..128
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   REGION          193..196
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   REGION          360..361
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           82
+FT                   /note="Divalent metal cation 1; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           93
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           93
+FT                   /note="Divalent metal cation 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           128
+FT                   /note="Divalent metal cation 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           193
+FT                   /note="Divalent metal cation 1; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   METAL           385
+FT                   /note="Divalent metal cation 2; via tele nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   BINDING         229
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   BINDING         278
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   BINDING         291
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   BINDING         385
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q8VXY9"
+FT   SITE            238
+FT                   /note="Necessary for dimerization"
+FT                   /evidence="ECO:0000250|UniProtKB:Q53389"
+SQ   SEQUENCE   412 AA;  44084 MW;  6E8B76F923FBA2CA CRC64;
+     MTLQKAQAER IEKEIRELSR FSAEGPGVTR LTYTPEHAAA RETLIAAMKA AALSVREDAL
+     GNIIGRREGT DPELPAIAVG SHFDSVRNGG MFDGTAGVVC ALEAARVMLE NGYVNRHPFE
+     FIAIVEEEGA RFSSGMLGGR AIAGLVADRE LDSLVDEDGV SVRQAATAFG LKPGELQAAA
+     RSAADLRAFI ELHIEQGPIL EQEQIEIGVV TSIVGVRALR VAVKGRSDHA GTTPMHLRQD
+     ALVPAALMVR EVNRFVNEIA DGTVATVGHL TVAPGGGNQV PGEVDFTLDL RSPHEESLRV
+     LIDRISVMVG EVASQAGVAA DVDEFFNLSP VQLAPTMVDA VREAASALQF THRDISSGAG
+     HDSMFIAQVT DVGMVFVPSR AGRSHVPEEW TDFDDLRKGT EVVLRVMKAL DR
+//

@@ -1,0 +1,81 @@
+ID   PTH_ACIC5               Reviewed;         198 AA.
+AC   C1F905;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=Peptidyl-tRNA hydrolase {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            Short=PTH {ECO:0000255|HAMAP-Rule:MF_00083};
+DE            EC=3.1.1.29 {ECO:0000255|HAMAP-Rule:MF_00083};
+GN   Name=pth {ECO:0000255|HAMAP-Rule:MF_00083}; OrderedLocusNames=ACP_2067;
+OS   Acidobacterium capsulatum (strain ATCC 51196 / DSM 11244 / JCM 7670 / NBRC
+OS   15755 / NCIMB 13165 / 161).
+OC   Bacteria; Acidobacteria; Acidobacteriales; Acidobacteriaceae;
+OC   Acidobacterium.
+OX   NCBI_TaxID=240015;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51196 / DSM 11244 / JCM 7670 / NBRC 15755 / NCIMB 13165 / 161;
+RX   PubMed=19201974; DOI=10.1128/aem.02294-08;
+RA   Ward N.L., Challacombe J.F., Janssen P.H., Henrissat B., Coutinho P.M.,
+RA   Wu M., Xie G., Haft D.H., Sait M., Badger J., Barabote R.D., Bradley B.,
+RA   Brettin T.S., Brinkac L.M., Bruce D., Creasy T., Daugherty S.C.,
+RA   Davidsen T.M., DeBoy R.T., Detter J.C., Dodson R.J., Durkin A.S.,
+RA   Ganapathy A., Gwinn-Giglio M., Han C.S., Khouri H., Kiss H., Kothari S.P.,
+RA   Madupu R., Nelson K.E., Nelson W.C., Paulsen I., Penn K., Ren Q.,
+RA   Rosovitz M.J., Selengut J.D., Shrivastava S., Sullivan S.A., Tapia R.,
+RA   Thompson L.S., Watkins K.L., Yang Q., Yu C., Zafar N., Zhou L., Kuske C.R.;
+RT   "Three genomes from the phylum Acidobacteria provide insight into the
+RT   lifestyles of these microorganisms in soils.";
+RL   Appl. Environ. Microbiol. 75:2046-2056(2009).
+CC   -!- FUNCTION: The natural substrate for this enzyme may be peptidyl-tRNAs
+CC       which drop off the ribosome during protein synthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acyl-L-alpha-aminoacyl-tRNA = an N-acyl-L-amino acid +
+CC         H(+) + tRNA; Xref=Rhea:RHEA:54448, Rhea:RHEA-COMP:10123, Rhea:RHEA-
+CC         COMP:13883, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:59874,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:138191; EC=3.1.1.29;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00083};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00083}.
+CC   -!- SIMILARITY: Belongs to the PTH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00083}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001472; ACO33219.1; -; Genomic_DNA.
+DR   RefSeq; WP_015897169.1; NC_012483.1.
+DR   SMR; C1F905; -.
+DR   STRING; 240015.ACP_2067; -.
+DR   EnsemblBacteria; ACO33219; ACO33219; ACP_2067.
+DR   KEGG; aca:ACP_2067; -.
+DR   eggNOG; COG0193; Bacteria.
+DR   HOGENOM; CLU_062456_4_1_0; -.
+DR   OMA; RYAHTRH; -.
+DR   OrthoDB; 1676462at2; -.
+DR   BioCyc; ACAP240015:G1GV4-1976-MONOMER; -.
+DR   Proteomes; UP000002207; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004045; F:aminoacyl-tRNA hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00462; PTH; 1.
+DR   Gene3D; 3.40.50.1470; -; 1.
+DR   HAMAP; MF_00083; Pept_tRNA_hydro_bact; 1.
+DR   InterPro; IPR001328; Pept_tRNA_hydro.
+DR   InterPro; IPR036416; Pept_tRNA_hydro_sf.
+DR   PANTHER; PTHR17224; PTHR17224; 1.
+DR   Pfam; PF01195; Pept_tRNA_hydro; 1.
+DR   SUPFAM; SSF53178; SSF53178; 1.
+DR   TIGRFAMs; TIGR00447; pth; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Reference proteome.
+FT   CHAIN           1..198
+FT                   /note="Peptidyl-tRNA hydrolase"
+FT                   /id="PRO_1000192949"
+SQ   SEQUENCE   198 AA;  21261 MW;  5FE221F5F394BAE7 CRC64;
+     MFLVVGLGNP GIEYQFTPHN AGFLAVDAIA AEHNAVVSNR RCQALTGKIQ LGGREVILAK
+     PETYMNLSGV AVSALVRELN ADPVRDLLVL YDELDLPIGS IRVRERGSPA SHNGARSICS
+     ALGTADWPRV RIGVGPSGED DLFRKGKNYL LTPMRKADLA TLDGALERTA RAVETVVTRG
+     IGVAMNEFNR RENNGPAA
+//

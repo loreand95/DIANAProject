@@ -1,0 +1,109 @@
+ID   LEUC_SALRD              Reviewed;         472 AA.
+AC   Q2S0M6;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=3-isopropylmalate dehydratase large subunit {ECO:0000255|HAMAP-Rule:MF_01026};
+DE            EC=4.2.1.33 {ECO:0000255|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Alpha-IPM isomerase {ECO:0000255|HAMAP-Rule:MF_01026};
+DE            Short=IPMI {ECO:0000255|HAMAP-Rule:MF_01026};
+DE   AltName: Full=Isopropylmalate isomerase {ECO:0000255|HAMAP-Rule:MF_01026};
+GN   Name=leuC {ECO:0000255|HAMAP-Rule:MF_01026}; OrderedLocusNames=SRU_2150;
+OS   Salinibacter ruber (strain DSM 13855 / M31).
+OC   Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis;
+OC   Rhodothermaceae; Salinibacter.
+OX   NCBI_TaxID=309807;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 13855 / CECT 5946 / M31;
+RX   PubMed=16330755; DOI=10.1073/pnas.0509073102;
+RA   Mongodin E.F., Nelson K.E., Daugherty S., DeBoy R.T., Wister J., Khouri H.,
+RA   Weidman J., Walsh D.A., Papke R.T., Sanchez Perez G., Sharma A.K.,
+RA   Nesbo C.L., MacLeod D., Bapteste E., Doolittle W.F., Charlebois R.L.,
+RA   Legault B., Rodriguez-Valera F.;
+RT   "The genome of Salinibacter ruber: convergence and gene exchange among
+RT   hyperhalophilic bacteria and archaea.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:18147-18152(2005).
+CC   -!- FUNCTION: Catalyzes the isomerization between 2-isopropylmalate and 3-
+CC       isopropylmalate, via the formation of 2-isopropylmaleate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01026}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R,3S)-3-isopropylmalate = (2S)-2-isopropylmalate;
+CC         Xref=Rhea:RHEA:32287, ChEBI:CHEBI:1178, ChEBI:CHEBI:35121;
+CC         EC=4.2.1.33; Evidence={ECO:0000255|HAMAP-Rule:MF_01026};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01026};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-leucine biosynthesis; L-leucine
+CC       from 3-methyl-2-oxobutanoate: step 2/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026}.
+CC   -!- SUBUNIT: Heterodimer of LeuC and LeuD. {ECO:0000255|HAMAP-
+CC       Rule:MF_01026}.
+CC   -!- SIMILARITY: Belongs to the aconitase/IPM isomerase family. LeuC type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01026}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000159; ABC44241.1; -; Genomic_DNA.
+DR   RefSeq; WP_011404876.1; NC_007677.1.
+DR   RefSeq; YP_446255.1; NC_007677.1.
+DR   STRING; 309807.SRU_2150; -.
+DR   EnsemblBacteria; ABC44241; ABC44241; SRU_2150.
+DR   GeneID; 3851488; -.
+DR   KEGG; sru:SRU_2150; -.
+DR   PATRIC; fig|309807.25.peg.2235; -.
+DR   eggNOG; COG0065; Bacteria.
+DR   HOGENOM; CLU_006714_3_4_10; -.
+DR   OMA; CNMSIEM; -.
+DR   BioCyc; SRUB309807:G1G5H-2147-MONOMER; -.
+DR   UniPathway; UPA00048; UER00071.
+DR   Proteomes; UP000008674; Chromosome.
+DR   GO; GO:0003861; F:3-isopropylmalate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009082; P:branched-chain amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009098; P:leucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01583; IPMI; 1.
+DR   Gene3D; 3.30.499.10; -; 1.
+DR   HAMAP; MF_01026; LeuC_type1; 1.
+DR   InterPro; IPR004430; 3-IsopropMal_deHydase_lsu.
+DR   InterPro; IPR015931; Acnase/IPM_dHydase_lsu_aba_1/3.
+DR   InterPro; IPR001030; Acoase/IPM_deHydtase_lsu_aba.
+DR   InterPro; IPR018136; Aconitase_4Fe-4S_BS.
+DR   InterPro; IPR036008; Aconitase_4Fe-4S_dom.
+DR   InterPro; IPR033941; IPMI_cat.
+DR   Pfam; PF00330; Aconitase; 1.
+DR   PRINTS; PR00415; ACONITASE.
+DR   SUPFAM; SSF53732; SSF53732; 1.
+DR   TIGRFAMs; TIGR00170; leuC; 1.
+DR   PROSITE; PS00450; ACONITASE_1; 1.
+DR   PROSITE; PS01244; ACONITASE_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Leucine biosynthesis; Lyase; Metal-binding;
+KW   Reference proteome.
+FT   CHAIN           1..472
+FT                   /note="3-isopropylmalate dehydratase large subunit"
+FT                   /id="PRO_1000063602"
+FT   METAL           347
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+FT   METAL           409
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+FT   METAL           412
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01026"
+SQ   SEQUENCE   472 AA;  50874 MW;  ECC4DD597A833600 CRC64;
+     MSTGTLYDKV WNRHAVRELP TGETQLFVGL HLIHEVTSPQ AFGMLEERDL SVAFPARTFA
+     TTDHIIPTAD LERPFGDDQA ETMLQVLERN TEAYDITFFD PSSGAQGIVH VVGPEQGLTQ
+     PGMTIVCGDS HTSTHGAFGT LGFGIGTSQI RDVLATQCIA MEKQDVRRIQ VDGALGEGVY
+     AKDIILKIIG ELGVEGGIGY VYEYGGPAIK GLSMEGRMSI CNMSVEGGAR AGYVNPDLTT
+     FEYMKGRPHA PSGAAWERAV DCWQQIQSDP DATYDDTVTF DGSAIEPMVT WGITPGQALG
+     ISEPIPDPAR MDSGDRATAE KALDHMDLRP GRTMEGVNVD VAFLGSCTNA RITDLREAAS
+     LLERLGRPVA DDVRAMVVPG SQGVKQQAED EGLADTFREA GFDWRGAGCS MCLGMNQDQL
+     EGRELCASSS NRNFIGRQGS KDGRTVLMSP AMVVAAAVEG EVTDVRRLMR ET
+//

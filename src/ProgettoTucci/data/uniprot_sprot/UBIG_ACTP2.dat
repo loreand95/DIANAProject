@@ -1,0 +1,95 @@
+ID   UBIG_ACTP2              Reviewed;         234 AA.
+AC   A3MZ07;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=Ubiquinone biosynthesis O-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00472};
+DE   AltName: Full=2-polyprenyl-6-hydroxyphenol methylase {ECO:0000255|HAMAP-Rule:MF_00472};
+DE            EC=2.1.1.222 {ECO:0000255|HAMAP-Rule:MF_00472};
+DE   AltName: Full=3-demethylubiquinone 3-O-methyltransferase {ECO:0000255|HAMAP-Rule:MF_00472};
+DE            EC=2.1.1.64 {ECO:0000255|HAMAP-Rule:MF_00472};
+GN   Name=ubiG {ECO:0000255|HAMAP-Rule:MF_00472}; OrderedLocusNames=APL_0285;
+OS   Actinobacillus pleuropneumoniae serotype 5b (strain L20).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=416269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L20;
+RX   PubMed=18065534; DOI=10.1128/jb.01845-07;
+RA   Foote S.J., Bosse J.T., Bouevitch A.B., Langford P.R., Young N.M.,
+RA   Nash J.H.E.;
+RT   "The complete genome sequence of Actinobacillus pleuropneumoniae L20
+RT   (serotype 5b).";
+RL   J. Bacteriol. 190:1495-1496(2008).
+CC   -!- FUNCTION: O-methyltransferase that catalyzes the 2 O-methylation steps
+CC       in the ubiquinone biosynthetic pathway. {ECO:0000255|HAMAP-
+CC       Rule:MF_00472}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 3-demethylubiquinol + S-adenosyl-L-methionine = a ubiquinol
+CC         + H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:44380, Rhea:RHEA-
+CC         COMP:9566, Rhea:RHEA-COMP:10914, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17976, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:84422; EC=2.1.1.64; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00472};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 3-(all-trans-polyprenyl)benzene-1,2-diol + S-adenosyl-L-
+CC         methionine = a 2-methoxy-6-(all-trans-polyprenyl)phenol + H(+) + S-
+CC         adenosyl-L-homocysteine; Xref=Rhea:RHEA:31411, Rhea:RHEA-COMP:9550,
+CC         Rhea:RHEA-COMP:9551, ChEBI:CHEBI:15378, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:62729, ChEBI:CHEBI:62731;
+CC         EC=2.1.1.222; Evidence={ECO:0000255|HAMAP-Rule:MF_00472};
+CC   -!- PATHWAY: Cofactor biosynthesis; ubiquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00472}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. UbiG/COQ3
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00472}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000569; ABN73393.1; -; Genomic_DNA.
+DR   RefSeq; WP_005611396.1; NC_009053.1.
+DR   SMR; A3MZ07; -.
+DR   STRING; 416269.APL_0285; -.
+DR   EnsemblBacteria; ABN73393; ABN73393; APL_0285.
+DR   KEGG; apl:APL_0285; -.
+DR   eggNOG; COG2227; Bacteria.
+DR   HOGENOM; CLU_042432_5_0_6; -.
+DR   OMA; WWDPNSE; -.
+DR   BioCyc; APLE416269:G1G87-294-MONOMER; -.
+DR   UniPathway; UPA00232; -.
+DR   Proteomes; UP000001432; Chromosome.
+DR   GO; GO:0102208; F:2-polyprenyl-6-hydroxyphenol methylase activity; IEA:RHEA.
+DR   GO; GO:0008425; F:2-polyprenyl-6-methoxy-1,4-benzoquinone methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0008689; F:3-demethylubiquinone-9 3-O-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006744; P:ubiquinone biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00472; UbiG; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR010233; UbiG_MeTrfase.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR01983; UbiG; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; Reference proteome; S-adenosyl-L-methionine;
+KW   Transferase; Ubiquinone biosynthesis.
+FT   CHAIN           1..234
+FT                   /note="Ubiquinone biosynthesis O-methyltransferase"
+FT                   /id="PRO_1000013886"
+FT   BINDING         36
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00472"
+FT   BINDING         56
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00472"
+FT   BINDING         77
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00472"
+FT   BINDING         125
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00472"
+SQ   SEQUENCE   234 AA;  26514 MW;  FF6781293CBEC5C7 CRC64;
+     MNNIDQTELD KFEKMAATWW DPNGSFKPIH LLNPLRLDYI QQKANGLFGK KVLDVGCGGG
+     ILSEAMARAG ATVTGIDMTT EPLEVARKHA EENGLSIDYR QTTIEDFVQN QTACHAEKFD
+     VITCMEMLEH VPDPLSIIQS CKALLKPDGV LFFSTINRTL KAYMLVIIGA EYVLKMLPKG
+     THEFEKFIKP AELLNWCDMA DLRCQEMKGY HFNPVTEKFW LNNDVSCNYI AMLK
+//

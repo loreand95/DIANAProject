@@ -1,0 +1,77 @@
+ID   LYG_DRONO               Reviewed;         204 AA.
+AC   G3XDD8;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   14-DEC-2011, sequence version 1.
+DT   11-DEC-2019, entry version 23.
+DE   RecName: Full=Lysozyme G {ECO:0000312|EMBL:BAL03618.1};
+DE            EC=3.2.1.17 {ECO:0000250|UniProtKB:Q90X99};
+DE   AltName: Full=1,4-beta-N-acetylmuramidase {ECO:0000250|UniProtKB:Q90X99};
+DE   Flags: Precursor;
+OS   Dromaius novaehollandiae (Emu).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+OC   Coelurosauria; Aves; Palaeognathae; Casuariiformes; Dromaiidae; Dromaius.
+OX   NCBI_TaxID=8790;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:BAL03618.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Ovary {ECO:0000312|EMBL:BAL03619.1}, and
+RC   Oviduct {ECO:0000312|EMBL:BAL03618.1};
+RX   PubMed=22044478; DOI=10.1016/j.gene.2011.10.021;
+RA   Maehashi K., Matano M., Irisawa T., Uchino M., Kashiwagi Y., Watanabe T.;
+RT   "Molecular characterization of goose- and chicken-type lysozymes in emu
+RT   (Dromaius novaehollandiae): evidence for extremely low lysozyme levels in
+RT   emu egg white.";
+RL   Gene 492:244-249(2012).
+CC   -!- FUNCTION: Has bacteriolytic activity against M.luteus.
+CC       {ECO:0000269|PubMed:22044478}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of (1->4)-beta-linkages between N-acetylmuramic
+CC         acid and N-acetyl-D-glucosamine residues in a peptidoglycan and
+CC         between N-acetyl-D-glucosamine residues in chitodextrins.;
+CC         EC=3.2.1.17; Evidence={ECO:0000250|UniProtKB:Q90X99};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:Q90X99}.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 23 family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB451700; BAL03618.1; -; mRNA.
+DR   EMBL; AB462632; BAL03619.1; -; Genomic_DNA.
+DR   SMR; G3XDD8; -.
+DR   CAZy; GH23; Glycoside Hydrolase Family 23.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003796; F:lysozyme activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016998; P:cell wall macromolecule catabolic process; IEA:InterPro.
+DR   GO; GO:0019835; P:cytolysis; IEA:UniProtKB-KW.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0009253; P:peptidoglycan catabolic process; IEA:InterPro.
+DR   InterPro; IPR002152; Glyco_hydro_23.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   InterPro; IPR008258; Transglycosylase_SLT_dom_1.
+DR   Pfam; PF01464; SLT; 1.
+DR   PIRSF; PIRSF001065; Lysozyme_g; 1.
+DR   PRINTS; PR00749; LYSOZYMEG.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+PE   2: Evidence at transcript level;
+KW   Antimicrobial; Bacteriolytic enzyme; Disulfide bond; Glycosidase;
+KW   Hydrolase; Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..204
+FT                   /note="Lysozyme G"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_5000795990"
+FT   ACT_SITE        92
+FT                   /evidence="ECO:0000250|UniProtKB:P00718"
+FT   ACT_SITE        105
+FT                   /evidence="ECO:0000250|UniProtKB:P00718"
+FT   DISULFID        23..79
+FT                   /evidence="ECO:0000250|UniProtKB:P00718"
+FT   DISULFID        37..48
+FT                   /evidence="ECO:0000250|UniProtKB:P00718"
+SQ   SEQUENCE   204 AA;  22493 MW;  4061327BB92C820C CRC64;
+     MHLMLVLLGL AALLGTSQSQ TGCYGVVNRI DTTGASCETA KPEKLNYCGV AASRMIAERD
+     LRSMDRYKTL IKKVGQKLCV DPAVIAGIIS RESHAGKALK NGWGDNGNGF GLMQVDKRSH
+     TPVGEWNGER HLTQGTEILI SMIKKIQKKF PRWTKEQQLK GGISAYNAGS GNVRSYERMD
+     IGTTHNDYAN DVVARAQYYK QHGY
+//

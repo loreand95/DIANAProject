@@ -1,0 +1,100 @@
+ID   SUB5_ARTBE              Reviewed;         396 AA.
+AC   Q64K32;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   12-AUG-2020, entry version 70.
+DE   RecName: Full=Subtilisin-like protease 5;
+DE            EC=3.4.21.-;
+DE   Flags: Precursor;
+GN   Name=SUB5;
+OS   Arthroderma benhamiae (Trichophyton mentagrophytes).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Arthrodermataceae; Trichophyton.
+OX   NCBI_TaxID=63400;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=15363848; DOI=10.1016/j.gene.2004.06.024;
+RA   Jousson O., Lechenne B., Bontems O., Mignon B., Reichard U., Barblan J.,
+RA   Quadroni M., Monod M.;
+RT   "Secreted subtilisin gene family in Trichophyton rubrum.";
+RL   Gene 339:79-88(2004).
+CC   -!- FUNCTION: Secreted subtilisin-like serine protease with keratinolytic
+CC       activity that contributes to pathogenicity. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase S8 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY437856; AAS45670.1; -; Genomic_DNA.
+DR   SMR; Q64K32; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   CDD; cd04077; Peptidases_S8_PCSK9_ProteinaseK_like; 1.
+DR   Gene3D; 3.30.70.80; -; 1.
+DR   Gene3D; 3.40.50.200; -; 1.
+DR   InterPro; IPR034193; PCSK9_ProteinaseK-like.
+DR   InterPro; IPR000209; Peptidase_S8/S53_dom.
+DR   InterPro; IPR036852; Peptidase_S8/S53_dom_sf.
+DR   InterPro; IPR023827; Peptidase_S8_Asp-AS.
+DR   InterPro; IPR022398; Peptidase_S8_His-AS.
+DR   InterPro; IPR023828; Peptidase_S8_Ser-AS.
+DR   InterPro; IPR015500; Peptidase_S8_subtilisin-rel.
+DR   InterPro; IPR010259; S8pro/Inhibitor_I9.
+DR   InterPro; IPR037045; S8pro/Inhibitor_I9_sf.
+DR   Pfam; PF05922; Inhibitor_I9; 1.
+DR   Pfam; PF00082; Peptidase_S8; 1.
+DR   PRINTS; PR00723; SUBTILISIN.
+DR   SUPFAM; SSF52743; SSF52743; 1.
+DR   PROSITE; PS51892; SUBTILASE; 1.
+DR   PROSITE; PS00136; SUBTILASE_ASP; 1.
+DR   PROSITE; PS00137; SUBTILASE_HIS; 1.
+DR   PROSITE; PS00138; SUBTILASE_SER; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Hydrolase; Protease; Secreted; Serine protease; Signal;
+KW   Virulence; Zymogen.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..116
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000380796"
+FT   CHAIN           117..396
+FT                   /note="Subtilisin-like protease 5"
+FT                   /id="PRO_0000380797"
+FT   DOMAIN          37..113
+FT                   /note="Inhibitor I9"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          125..396
+FT                   /note="Peptidase S8"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01240"
+FT   ACT_SITE        156
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01240"
+FT   ACT_SITE        187
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01240"
+FT   ACT_SITE        342
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01240"
+FT   CARBOHYD        63
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        230
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        248
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        392
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   396 AA;  41777 MW;  51048C7CB2815B97 CRC64;
+     MTGFFTILSF SLAALSVTNA AQILSVPKGA EVVPNGYIVV MKDDTSQQDF SSHRVWISSI
+     HHNMTRRGLD GAGVKQTYDF DHLRGYSGIF DEDTIKDISN DPKVAFVEPD AIISQHVVVQ
+     QRKAPWGLSR LSNRRGGRNY VFDSSAGSGV WAYVVDSGVD VRHAEFQGRA VWGSNLVDNK
+     NSDGTGHGTH VAGTIAGKTY GIAKKAKVVA VKVLNSEGKG PTSGIIAGIN WSIRHARKHG
+     MLQKSVLNMS LGGTYSAGLN HATAQAIKAG MFVSVSAGND NINSNGNSPA SERSVCTIAA
+     STENDGKASF SNWGPAVDLY APGHNILSAR PGGGSQTMSG TSMAAPHAAG VAAYLIAKEG
+     IPGNRACLRL KQLSQPTIRN PGPDTTTRLL YNGSGR
+//

@@ -1,0 +1,81 @@
+ID   CLML_MESEU              Reviewed;          64 AA.
+AC   P86399; E4VP58;
+DT   30-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAY-2011, sequence version 2.
+DT   26-FEB-2020, entry version 26.
+DE   RecName: Full=Neurotoxin lambda-MeuTx {ECO:0000303|Ref.2};
+DE   AltName: Full=Calcium channel toxin-like peptide-1;
+DE   Flags: Precursor;
+OS   Mesobuthus eupeus (Lesser Asian scorpion) (Buthus eupeus).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Mesobuthus.
+OX   NCBI_TaxID=34648;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA].
+RA   Zhu S., Gao B.;
+RT   "Molecular characterization and genomic organization of a venom calcium
+RT   channel toxin-like peptide (Mevcalcinelip-1) from Mesobuthus eupeus.";
+RL   Submitted (FEB-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 28-64, FUNCTION, SUBCELLULAR LOCATION, AND TISSUE
+RP   SPECIFICITY.
+RC   TISSUE=Venom {ECO:0000269|Ref.2};
+RA   Zhu S.Y., Gao B.;
+RT   "Characterization of a Kv channel blocker with inhibitor cystine knot (ICK)
+RT   structural motif from the Mesobuthus eupeus venom.";
+RL   Submitted (NOV-2009) to UniProtKB.
+CC   -!- FUNCTION: Voltage-gated potassium channel (Kv) inhibitor (Ref.2). In
+CC       addition it may increase intracellular calcium release through the
+CC       activation of nuclear inositol 1,4,5-trisphosphate receptors (ITPR) of
+CC       cardiomyocytes, thereby causing an increase in the contraction
+CC       frequency of these cells (By similarity).
+CC       {ECO:0000250|UniProtKB:P0DM29, ECO:0000269|Ref.2}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|Ref.2}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland. {ECO:0000269|Ref.2}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC       {ECO:0000250|UniProtKB:P59868}.
+CC   -!- SIMILARITY: Belongs to the scorpion calcin-like family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF445100; ABR21075.1; -; mRNA.
+DR   EMBL; EF445101; ABR21076.1; -; Genomic_DNA.
+DR   SMR; P86399; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Calcium channel impairing toxin; Direct protein sequencing; Disulfide bond;
+KW   Ion channel impairing toxin; Knottin; Neurotoxin;
+KW   Potassium channel impairing toxin;
+KW   Ryanodine-sensitive calcium-release channel impairing toxin; Secreted;
+KW   Signal; Toxin.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          19..27
+FT                   /evidence="ECO:0000269|Ref.2"
+FT                   /id="PRO_0000408389"
+FT   PEPTIDE         28..64
+FT                   /note="Neurotoxin lambda-MeuTx"
+FT                   /evidence="ECO:0000269|Ref.2"
+FT                   /id="PRO_0000401130"
+FT   DISULFID        29..43
+FT                   /evidence="ECO:0000250|UniProtKB:P59868"
+FT   DISULFID        36..49
+FT                   /evidence="ECO:0000250|UniProtKB:P59868"
+FT   DISULFID        42..58
+FT                   /evidence="ECO:0000250|UniProtKB:P59868"
+FT   CONFLICT        32
+FT                   /note="L -> K (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        53
+FT                   /note="G -> K (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        62
+FT                   /note="F -> R (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   64 AA;  7177 MW;  889343B1FE72069F CRC64;
+     MSTFIVVFLL LTAILCHAEH AIDETARGCN RLNKKCNSDA DCCRYGERCI STGVNYYCRP
+     DFGP
+//

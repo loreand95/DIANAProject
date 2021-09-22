@@ -1,8 +1,8 @@
 from repository.Neo4jConnection import Neo4jConnection
 import uuid
 from flask import json
-
-FILE_PATH = 'src/static/saved-search.json'
+import os
+FILE_PATH = 'static/saved-search.json'
 
 class SearchRepository:
 
@@ -101,7 +101,7 @@ class SearchRepository:
             f.truncate()
 
     def getAllSearch():
-        
+        print(os. getcwd())
         #Write to file
         with open(FILE_PATH, 'r') as f:
 

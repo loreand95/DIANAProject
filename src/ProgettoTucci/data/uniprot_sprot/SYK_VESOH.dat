@@ -1,0 +1,103 @@
+ID   SYK_VESOH               Reviewed;         496 AA.
+AC   A5CWL4;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   10-FEB-2021, entry version 91.
+DE   RecName: Full=Lysine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            EC=6.1.1.6 {ECO:0000255|HAMAP-Rule:MF_00252};
+DE   AltName: Full=Lysyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            Short=LysRS {ECO:0000255|HAMAP-Rule:MF_00252};
+GN   Name=lysS {ECO:0000255|HAMAP-Rule:MF_00252}; OrderedLocusNames=COSY_0549;
+OS   Vesicomyosocius okutanii subsp. Calyptogena okutanii (strain HA).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; sulfur-oxidizing symbionts;
+OC   Candidatus Vesicomyosocius.
+OX   NCBI_TaxID=412965;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HA;
+RX   PubMed=17493812; DOI=10.1016/j.cub.2007.04.039;
+RA   Kuwahara H., Yoshida T., Takaki Y., Shimamura S., Nishi S., Harada M.,
+RA   Matsuyama K., Takishita K., Kawato M., Uematsu K., Fujiwara Y., Sato T.,
+RA   Kato C., Kitagawa M., Kato I., Maruyama T.;
+RT   "Reduced genome of the thioautotrophic intracellular symbiont in a deep-sea
+RT   clam, Calyptogena okutanii.";
+RL   Curr. Biol. 17:881-886(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-lysine + tRNA(Lys) = AMP + diphosphate + L-lysyl-
+CC         tRNA(Lys); Xref=Rhea:RHEA:20792, Rhea:RHEA-COMP:9696, Rhea:RHEA-
+CC         COMP:9697, ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529, ChEBI:CHEBI:456215; EC=6.1.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00252};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009247; BAF61666.1; -; Genomic_DNA.
+DR   RefSeq; WP_011929936.1; NC_009465.1.
+DR   SMR; A5CWL4; -.
+DR   STRING; 412965.COSY_0549; -.
+DR   EnsemblBacteria; BAF61666; BAF61666; COSY_0549.
+DR   KEGG; vok:COSY_0549; -.
+DR   eggNOG; COG1190; Bacteria.
+DR   HOGENOM; CLU_008255_6_0_6; -.
+DR   OMA; EIFGEKC; -.
+DR   OrthoDB; 63621at2; -.
+DR   BioCyc; CVES412965:G1G2Q-554-MONOMER; -.
+DR   Proteomes; UP000000247; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004824; F:lysine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006430; P:lysyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00775; LysRS_core; 1.
+DR   CDD; cd04322; LysRS_N; 1.
+DR   HAMAP; MF_00252; Lys_tRNA_synth_class2; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR002313; Lys-tRNA-ligase_II.
+DR   InterPro; IPR044136; Lys-tRNA-ligase_II_N.
+DR   InterPro; IPR018149; Lys-tRNA-synth_II_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR00982; TRNASYNTHLYS.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00499; lysS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..496
+FT                   /note="Lysine--tRNA ligase"
+FT                   /id="PRO_1000204579"
+FT   METAL           405
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           412
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           412
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+SQ   SEQUENCE   496 AA;  57527 MW;  49D302C89D0B6029 CRC64;
+     MRDEDNNKLI LKRKSKLALL REVGNPFINN FKPENLAQNI IQEFKGFSKE ELEKKNMQVS
+     IAGRMMLKRV MGKVSFVHVQ DSSGKIQLFV TCDKLPESFY NEQFKKWDIG DIIGAIGILF
+     KTNMGELSIR IDDIKLLTKS LRPLPGKFHG LSDQEIRYRQ RYVDLIMNKT SRNTFKRRSQ
+     IINYIRNFFN HHDFIEVETP MLQTIPGGAT AKPFETYHNA LDMPMYFRIS PELYLKRLII
+     GGMNKVFEIN RNFRNEGLST RHNPEFTMIE FYQAYGTYHD LMNLTEKLFR SIALDVCGSA
+     NVYYQGNNLD FFKSFKRISV VDSILQYNPS LIATDLNQKN AKQTAEKLGI QIKENWGLGK
+     IQIEIFETTV EEKLLQPTFI TEYPTEVSPL ARRNDDNPFI TDRFELFISG CEIANGFSEL
+     NDAQDQAERF KKQVEEKDLG NDESMYYDAD YIRALEYGMP PTAGEGIGID RLVMLFTDSP
+     SIRDVILFPH MRAEVK
+//

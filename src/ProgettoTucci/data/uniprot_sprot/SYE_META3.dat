@@ -1,0 +1,95 @@
+ID   SYE_META3               Reviewed;         561 AA.
+AC   A6UW15;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Glutamate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02076};
+DE            EC=6.1.1.17 {ECO:0000255|HAMAP-Rule:MF_02076};
+DE   AltName: Full=Glutamyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02076};
+DE            Short=GluRS {ECO:0000255|HAMAP-Rule:MF_02076};
+GN   Name=gltX {ECO:0000255|HAMAP-Rule:MF_02076}; OrderedLocusNames=Maeo_1110;
+OS   Methanococcus aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 812 /
+OS   Nankai-3).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=419665;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1280 / DSM 17508 / OCM 812 / Nankai-3;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Chain P., Malfatti S., Shin M., Vergez L., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A.,
+RA   Sieprawska-Lupa M., Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus aeolicus Nankai-3.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of glutamate to tRNA(Glu) in a two-
+CC       step reaction: glutamate is first activated by ATP to form Glu-AMP and
+CC       then transferred to the acceptor end of tRNA(Glu). {ECO:0000255|HAMAP-
+CC       Rule:MF_02076}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-glutamate + tRNA(Glu) = AMP + diphosphate + L-
+CC         glutamyl-tRNA(Glu); Xref=Rhea:RHEA:23540, Rhea:RHEA-COMP:9663,
+CC         Rhea:RHEA-COMP:9680, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78520,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_02076};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02076}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       Glutamate--tRNA ligase type 2 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_02076}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000743; ABR56687.1; -; Genomic_DNA.
+DR   SMR; A6UW15; -.
+DR   STRING; 419665.Maeo_1110; -.
+DR   EnsemblBacteria; ABR56687; ABR56687; Maeo_1110.
+DR   KEGG; mae:Maeo_1110; -.
+DR   eggNOG; arCOG04302; Archaea.
+DR   HOGENOM; CLU_001882_1_3_2; -.
+DR   OMA; MRFAPNP; -.
+DR   Proteomes; UP000001106; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02076; Glu_tRNA_synth_type2; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR004526; Glu-tRNA-synth_arc/euk.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR020059; Glu/Gln-tRNA-synth_Ib_codon-bd.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_N.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   Pfam; PF03950; tRNA-synt_1c_C; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00463; gltX_arch; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..561
+FT                   /note="Glutamate--tRNA ligase"
+FT                   /id="PRO_0000331004"
+FT   MOTIF           106..116
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02076"
+SQ   SEQUENCE   561 AA;  64863 MW;  EE3828697D6BE745 CRC64;
+     MSDIRDTILK YVLQNSIKFK GAPNPKAIMG KILGENPDLR KKAGEVSKII AEIIKEIENM
+     PLNEQQAKLE SLAPELLNSK PAERKKKELQ LKNVKEGAPV VMRFAPNPSG PLHLGHARAA
+     VLNDYFAKKY NGKLILRLED TDPKRVMPEA YEMIKEDLEW LGVKIDDVIV QSDRLPIYYE
+     YGTKLIEMGH AYVCDCEAEE FRELRANGKP CVCRDLGVEK NLELWNKMLN NEIDGVAVRL
+     KTDIEHKNPS IRDFPIFRIE NTPHPKTGTK YRVYPLMNLS VSVDDHLLGM THVLRGKDHI
+     VNTEKQKYIF DYFGWEMPEY IHYGILKIDG PILSTSKMSE GIKNNEFTGW DDPRFGTLRA
+     LKRRGIKPEA IYKSMVDIGV KQADVKYSWE NLHAVNKDII DKDARRFFFV ENPKTLIIEG
+     AKITTINLRA HPSREEFGTR ELIFDGNIYI SDDLEVNKMY RLMELHNIVV EKIENNTIYA
+     KYHSDDFKIA KENKAKIIHW IPVKDAIPTT VINTEGEKIK GFAEKDFKIV NIDDFVQFER
+     FGFVRIDEKK DDEIICYYTH N
+//

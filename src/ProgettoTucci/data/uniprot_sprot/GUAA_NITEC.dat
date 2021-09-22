@@ -1,0 +1,111 @@
+ID   GUAA_NITEC              Reviewed;         519 AA.
+AC   Q0ADW4;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 95.
+DE   RecName: Full=GMP synthase [glutamine-hydrolyzing] {ECO:0000255|HAMAP-Rule:MF_00344};
+DE            EC=6.3.5.2 {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=GMP synthetase {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=Glutamine amidotransferase {ECO:0000255|HAMAP-Rule:MF_00344};
+GN   Name=guaA {ECO:0000255|HAMAP-Rule:MF_00344}; OrderedLocusNames=Neut_2251;
+OS   Nitrosomonas eutropha (strain DSM 101675 / C91 / Nm57).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=335283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 101675 / C91 / Nm57;
+RX   PubMed=17991028; DOI=10.1111/j.1462-2920.2007.01409.x;
+RA   Stein L.Y., Arp D.J., Berube P.M., Chain P.S., Hauser L., Jetten M.S.,
+RA   Klotz M.G., Larimer F.W., Norton J.M., Op den Camp H.J.M., Shin M., Wei X.;
+RT   "Whole-genome analysis of the ammonia-oxidizing bacterium, Nitrosomonas
+RT   eutropha C91: implications for niche adaptation.";
+RL   Environ. Microbiol. 9:2993-3007(2007).
+CC   -!- FUNCTION: Catalyzes the synthesis of GMP from XMP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00344}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + XMP = AMP + diphosphate + GMP + 2
+CC         H(+) + L-glutamate; Xref=Rhea:RHEA:11680, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57464, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00344};
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis; GMP from XMP (L-Gln
+CC       route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000450; ABI60468.1; -; Genomic_DNA.
+DR   RefSeq; WP_011635259.1; NC_008344.1.
+DR   SMR; Q0ADW4; -.
+DR   STRING; 335283.Neut_2251; -.
+DR   MEROPS; C26.957; -.
+DR   PRIDE; Q0ADW4; -.
+DR   EnsemblBacteria; ABI60468; ABI60468; Neut_2251.
+DR   KEGG; net:Neut_2251; -.
+DR   eggNOG; COG0519; Bacteria.
+DR   HOGENOM; CLU_014340_0_5_4; -.
+DR   OMA; KRKIIGH; -.
+DR   OrthoDB; 504464at2; -.
+DR   UniPathway; UPA00189; UER00296.
+DR   Proteomes; UP000001966; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003922; F:GMP synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016462; F:pyrophosphatase activity; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd01742; GATase1_GMP_Synthase; 1.
+DR   CDD; cd01997; GMP_synthase_C; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00344; GMP_synthase; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR001674; GMP_synth_C.
+DR   InterPro; IPR004739; GMP_synth_GATase.
+DR   InterPro; IPR022955; GMP_synthase.
+DR   InterPro; IPR025777; GMPS_ATP_PPase_dom.
+DR   InterPro; IPR022310; NAD/GMP_synthase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00117; GATase; 1.
+DR   Pfam; PF00958; GMP_synt_C; 1.
+DR   Pfam; PF02540; NAD_synthase; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR00884; guaA_Cterm; 1.
+DR   TIGRFAMs; TIGR00888; guaA_Nterm; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+DR   PROSITE; PS51553; GMPS_ATP_PPASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; GMP biosynthesis; Ligase;
+KW   Nucleotide-binding; Purine biosynthesis.
+FT   CHAIN           1..519
+FT                   /note="GMP synthase [glutamine-hydrolyzing]"
+FT                   /id="PRO_1000120344"
+FT   DOMAIN          4..201
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   DOMAIN          202..394
+FT                   /note="GMPS ATP-PPase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   NP_BIND         229..235
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        81
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        175
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        177
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+SQ   SEQUENCE   519 AA;  58050 MW;  163BF6052F022133 CRC64;
+     MHSAILILDF GSQYARLIAR RIRETSVYCE LHPFDVSPQF IREFSPVGII LSGGPASIFT
+     NDAPRVPQIV FELGVPVLGI CYGMQAMAAQ LGGEVENAQT REFGYAELLT EPCRLFQDIK
+     DRINSDGKPA LDVWMSHGDR VNKLPPGFTA IAFNAATPFA AMADETRRFY GVQFHPEVTH
+     TLQGKAILDR FVHDICDAGY DWNMPDYVEE AIGRIRARVG GDKVILGLSG GVDSSVAAAL
+     IHRAIGDQLV CVFVDNGLLR LNEAKQTMET FSRNLAVNVI YVDASRQFLE QLKGITDPEQ
+     KRRTIGREFV EIFQQEAAKI ENVKWLAQGT IYPDVIESAG SHTKKSGLIK SHHNVGGLPE
+     TLRLKLLEPL RELFKDEVRE LGLALGLPRD LVFRHPFPGP GLGVRILGEV KYEYTELLRQ
+     ADAIFIEELR NAGWYEKTSQ AFAVFLPIKS VGVMGDNRSY EYVIALRAVQ TEDFMTAQWA
+     ELPYTLLARI SNRIINEIRG INRVVYDISG KPPATIEWE
+//

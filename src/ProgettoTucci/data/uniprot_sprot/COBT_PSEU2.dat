@@ -1,0 +1,87 @@
+ID   COBT_PSEU2              Reviewed;         350 AA.
+AC   Q4ZQ66;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2005, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00230};
+DE            Short=NN:DBI PRT {ECO:0000255|HAMAP-Rule:MF_00230};
+DE            EC=2.4.2.21 {ECO:0000255|HAMAP-Rule:MF_00230};
+DE   AltName: Full=N(1)-alpha-phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_00230};
+GN   Name=cobT {ECO:0000255|HAMAP-Rule:MF_00230}; OrderedLocusNames=Psyr_3674;
+OS   Pseudomonas syringae pv. syringae (strain B728a).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas; Pseudomonas syringae.
+OX   NCBI_TaxID=205918;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B728a;
+RX   PubMed=16043691; DOI=10.1073/pnas.0504930102;
+RA   Feil H., Feil W.S., Chain P., Larimer F., Dibartolo G., Copeland A.,
+RA   Lykidis A., Trong S., Nolan M., Goltsman E., Thiel J., Malfatti S.,
+RA   Loper J.E., Lapidus A., Detter J.C., Land M., Richardson P.M.,
+RA   Kyrpides N.C., Ivanova N., Lindow S.E.;
+RT   "Comparison of the complete genome sequences of Pseudomonas syringae pv.
+RT   syringae B728a and pv. tomato DC3000.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:11064-11069(2005).
+CC   -!- FUNCTION: Catalyzes the synthesis of alpha-ribazole-5'-phosphate from
+CC       nicotinate mononucleotide (NAMN) and 5,6-dimethylbenzimidazole (DMB).
+CC       {ECO:0000255|HAMAP-Rule:MF_00230}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5,6-dimethylbenzimidazole + nicotinate beta-D-ribonucleotide =
+CC         alpha-ribazole 5'-phosphate + H(+) + nicotinate;
+CC         Xref=Rhea:RHEA:11196, ChEBI:CHEBI:15378, ChEBI:CHEBI:15890,
+CC         ChEBI:CHEBI:32544, ChEBI:CHEBI:57502, ChEBI:CHEBI:57918; EC=2.4.2.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00230};
+CC   -!- PATHWAY: Nucleoside biosynthesis; alpha-ribazole biosynthesis; alpha-
+CC       ribazole from 5,6-dimethylbenzimidazole: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_00230}.
+CC   -!- SIMILARITY: Belongs to the CobT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00230}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000075; AAY38706.1; -; Genomic_DNA.
+DR   RefSeq; WP_011268579.1; NC_007005.1.
+DR   RefSeq; YP_236744.1; NC_007005.1.
+DR   SMR; Q4ZQ66; -.
+DR   STRING; 205918.Psyr_3674; -.
+DR   EnsemblBacteria; AAY38706; AAY38706; Psyr_3674.
+DR   KEGG; psb:Psyr_3674; -.
+DR   PATRIC; fig|205918.7.peg.3775; -.
+DR   eggNOG; COG2038; Bacteria.
+DR   HOGENOM; CLU_002982_0_1_6; -.
+DR   OMA; WMRKCAA; -.
+DR   BioCyc; PSYR205918:G1G4J-3734-MONOMER; -.
+DR   UniPathway; UPA00061; UER00516.
+DR   Proteomes; UP000000426; Chromosome.
+DR   GO; GO:0008939; F:nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-KW.
+DR   CDD; cd02439; DMB-PRT_CobT; 1.
+DR   Gene3D; 1.10.1610.10; -; 1.
+DR   Gene3D; 3.40.50.10210; -; 1.
+DR   HAMAP; MF_00230; CobT; 1.
+DR   InterPro; IPR003200; Nict_dMeBzImd_PRibTrfase.
+DR   InterPro; IPR017846; Nict_dMeBzImd_PRibTrfase_bact.
+DR   InterPro; IPR023195; Nict_dMeBzImd_PRibTrfase_N.
+DR   InterPro; IPR036087; Nict_dMeBzImd_PRibTrfase_sf.
+DR   Pfam; PF02277; DBI_PRT; 1.
+DR   SUPFAM; SSF52733; SSF52733; 1.
+DR   TIGRFAMs; TIGR03160; cobT_DBIPRT; 1.
+PE   3: Inferred from homology;
+KW   Cobalamin biosynthesis; Glycosyltransferase; Transferase.
+FT   CHAIN           1..350
+FT                   /note="Nicotinate-nucleotide--dimethylbenzimidazole
+FT                   phosphoribosyltransferase"
+FT                   /id="PRO_1000021619"
+FT   ACT_SITE        316
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00230"
+SQ   SEQUENCE   350 AA;  36257 MW;  37C8018781085937 CRC64;
+     MSNSWWLKPA QAIDVPMREA ALARQQQLTK PAGSLAQLER LAVQLAGLQG RERPAVDQLW
+     IAIFAADHGV VAEGVSAYPQ EVTGQMLHNF VNGGAAISVL ARQLSAQLDV VDLGTVSPMD
+     LPGVRHLRIG AGTANFAHGP AMSVEQGLAA LQAGRDSVLR AKAVGTELFI GGEMGIGNTT
+     AASAVACSLL ECAAPLLVGP GTGLNAEGIQ HKTRVIERAL ALHAEQAGDP LNSLFCLGGF
+     EIAALAGAYL ACAQEGIAVL VDGFICSVAA LVAVRLNPSC RNWLLFGHRG AEPGHRHLLE
+     TLQAEPLLDL GLRLGEGSGA ALAVPLVRLA CELHNGMATF AEAAVADRPA
+//

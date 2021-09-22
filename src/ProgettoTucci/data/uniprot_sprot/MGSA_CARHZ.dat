@@ -1,0 +1,94 @@
+ID   MGSA_CARHZ              Reviewed;         121 AA.
+AC   Q3AEV6;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 1.
+DT   02-DEC-2020, entry version 75.
+DE   RecName: Full=Methylglyoxal synthase {ECO:0000255|HAMAP-Rule:MF_00549};
+DE            Short=MGS {ECO:0000255|HAMAP-Rule:MF_00549};
+DE            EC=4.2.3.3 {ECO:0000255|HAMAP-Rule:MF_00549};
+GN   Name=mgsA {ECO:0000255|HAMAP-Rule:MF_00549}; OrderedLocusNames=CHY_0470;
+OS   Carboxydothermus hydrogenoformans (strain ATCC BAA-161 / DSM 6008 /
+OS   Z-2901).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+OC   Thermoanaerobacteraceae; Carboxydothermus.
+OX   NCBI_TaxID=246194;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-161 / DSM 6008 / Z-2901;
+RX   PubMed=16311624; DOI=10.1371/journal.pgen.0010065;
+RA   Wu M., Ren Q., Durkin A.S., Daugherty S.C., Brinkac L.M., Dodson R.J.,
+RA   Madupu R., Sullivan S.A., Kolonay J.F., Nelson W.C., Tallon L.J.,
+RA   Jones K.M., Ulrich L.E., Gonzalez J.M., Zhulin I.B., Robb F.T., Eisen J.A.;
+RT   "Life in hot carbon monoxide: the complete genome sequence of
+RT   Carboxydothermus hydrogenoformans Z-2901.";
+RL   PLoS Genet. 1:563-574(2005).
+CC   -!- FUNCTION: Catalyzes the formation of methylglyoxal from
+CC       dihydroxyacetone phosphate. {ECO:0000255|HAMAP-Rule:MF_00549}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dihydroxyacetone phosphate = methylglyoxal + phosphate;
+CC         Xref=Rhea:RHEA:17937, ChEBI:CHEBI:17158, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57642; EC=4.2.3.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00549};
+CC   -!- SIMILARITY: Belongs to the methylglyoxal synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00549}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000141; ABB14629.1; -; Genomic_DNA.
+DR   SMR; Q3AEV6; -.
+DR   STRING; 246194.CHY_0470; -.
+DR   EnsemblBacteria; ABB14629; ABB14629; CHY_0470.
+DR   KEGG; chy:CHY_0470; -.
+DR   eggNOG; COG1803; Bacteria.
+DR   HOGENOM; CLU_120420_1_0_9; -.
+DR   OMA; RACDVHN; -.
+DR   Proteomes; UP000002706; Chromosome.
+DR   GO; GO:0008929; F:methylglyoxal synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019242; P:methylglyoxal biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01422; MGS; 1.
+DR   Gene3D; 3.40.50.1380; -; 1.
+DR   HAMAP; MF_00549; Methylglyoxal_synth; 1.
+DR   InterPro; IPR004363; Methylgl_synth.
+DR   InterPro; IPR018148; Methylglyoxal_synth_AS.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   PANTHER; PTHR30492; PTHR30492; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PIRSF; PIRSF006614; Methylglyox_syn; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF52335; SSF52335; 1.
+DR   TIGRFAMs; TIGR00160; MGSA; 1.
+DR   PROSITE; PS01335; METHYLGLYOXAL_SYNTH; 1.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Reference proteome.
+FT   CHAIN           1..121
+FT                   /note="Methylglyoxal synthase"
+FT                   /id="PRO_1000146623"
+FT   DOMAIN          1..121
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   REGION          35..38
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   REGION          55..56
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   ACT_SITE        61
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   BINDING         9
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   BINDING         13
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00549"
+SQ   SEQUENCE   121 AA;  13350 MW;  2F410BF6DAA6BB31 CRC64;
+     MMKVALIAHD DKKDDLLAFV KTHREFFARH ELFATGTTGK IISENTGLTV HRFLSGPLGG
+     DQQIGAMVAA GEIKLVIFFR DPLTAQPHEP DITALLRVCD VHNVPIATNW SSAELFLRAL
+     N
+//

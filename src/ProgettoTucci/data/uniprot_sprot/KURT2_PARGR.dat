@@ -1,0 +1,82 @@
+ID   KURT2_PARGR             Reviewed;          63 AA.
+AC   P0C5F1;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   02-OCT-2007, sequence version 1.
+DT   02-DEC-2020, entry version 40.
+DE   RecName: Full=Toxin PgKL2;
+DE   AltName: Full=Kurtoxin-like 2;
+DE   AltName: Full=Kurtoxin-like II;
+DE            Short=KLII;
+OS   Parabuthus granulatus (Granulated thick-tailed scorpion).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Parabuthus.
+OX   NCBI_TaxID=242110;
+RN   [1]
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, FUNCTION, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=12459175; DOI=10.1016/s0006-291x(02)02706-7;
+RA   Olamendi-Portugal T., Garcia B.I., Lopez-Gonzalez I., Van Der Walt J.,
+RA   Dyason K., Ulens C., Tytgat J., Felix R., Darszon A., Possani L.D.;
+RT   "Two new scorpion toxins that target voltage-gated Ca2+ and Na+ channels.";
+RL   Biochem. Biophys. Res. Commun. 299:562-568(2002).
+CC   -!- FUNCTION: Alpha toxins bind voltage-independently at site-3 of sodium
+CC       channels (Nav) and inhibit the inactivation of the activated channels,
+CC       thereby blocking neuronal transmission. This toxin inhibits cardiac
+CC       sodium channels and voltage-gated T-type calcium channels
+CC       (Cav3.3/CACNA1I) (By similarity). {ECO:0000250,
+CC       ECO:0000269|PubMed:12459175}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:12459175}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:12459175}.
+CC   -!- DOMAIN: Has the structural arrangement of an alpha-helix connected to
+CC       antiparallel beta-sheets by disulfide bonds (CS-alpha/beta).
+CC       {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=7386.4; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:12459175};
+CC   -!- SIMILARITY: Belongs to the long (4 C-C) scorpion toxin superfamily.
+CC       Sodium channel inhibitor family. Alpha subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P0C5F1; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019871; F:sodium channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006952; P:defense response; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   CDD; cd00107; Knot1; 1.
+DR   Gene3D; 3.30.30.10; -; 1.
+DR   InterPro; IPR044062; LCN-type_CS_alpha_beta_dom.
+DR   InterPro; IPR003614; Scorpion_toxin-like.
+DR   InterPro; IPR036574; Scorpion_toxin-like_sf.
+DR   InterPro; IPR018218; Scorpion_toxinL.
+DR   InterPro; IPR002061; Scorpion_toxinL/defensin.
+DR   Pfam; PF00537; Toxin_3; 1.
+DR   PRINTS; PR00285; SCORPNTOXIN.
+DR   SMART; SM00505; Knot1; 1.
+DR   SUPFAM; SSF57095; SSF57095; 1.
+DR   PROSITE; PS51863; LCN_CSAB; 1.
+PE   1: Evidence at protein level;
+KW   Calcium channel impairing toxin; Cardiotoxin; Direct protein sequencing;
+KW   Disulfide bond; Ion channel impairing toxin; Neurotoxin; Secreted; Toxin;
+KW   Voltage-gated calcium channel impairing toxin;
+KW   Voltage-gated sodium channel impairing toxin.
+FT   CHAIN           1..63
+FT                   /note="Toxin PgKL2"
+FT                   /id="PRO_0000305105"
+FT   DOMAIN          2..62
+FT                   /note="LCN-type CS-alpha/beta"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        12..61
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        16..37
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        23..44
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        27..46
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+SQ   SEQUENCE   63 AA;  7394 MW;  870B1E47F2DF991C CRC64;
+     KIDGYPVDYW NCKRICWYNN KYCNDLCKGL KADSGYCWGW TLSCYCQGLP DNARIKRSGR
+     CRA
+//

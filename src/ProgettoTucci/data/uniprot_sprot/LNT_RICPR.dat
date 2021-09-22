@@ -1,0 +1,124 @@
+ID   LNT_RICPR               Reviewed;         496 AA.
+AC   Q9ZDG3;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   10-FEB-2021, entry version 104.
+DE   RecName: Full=Apolipoprotein N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_01148};
+DE            Short=ALP N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_01148};
+DE            EC=2.3.1.269 {ECO:0000255|HAMAP-Rule:MF_01148};
+GN   Name=lnt {ECO:0000255|HAMAP-Rule:MF_01148}; OrderedLocusNames=RP366;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O., Sicheritz-Ponten T.,
+RA   Alsmark U.C.M., Podowski R.M., Naeslund A.K., Eriksson A.-S., Winkler H.H.,
+RA   Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+CC   -!- FUNCTION: Catalyzes the phospholipid dependent N-acylation of the N-
+CC       terminal cysteine of apolipoprotein, the last step in lipoprotein
+CC       maturation. {ECO:0000255|HAMAP-Rule:MF_01148}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a glycerophospholipid + N-terminal S-1,2-diacyl-sn-glyceryl-L-
+CC         cysteinyl-[lipoprotein] = a 1-lyso-glycerophospholipid + H(+) + N-
+CC         acyl-S-1,2-diacyl-sn-glyceryl-L-cysteinyl-[lipoprotein];
+CC         Xref=Rhea:RHEA:48228, Rhea:RHEA-COMP:14681, Rhea:RHEA-COMP:14684,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:136912, ChEBI:CHEBI:140656,
+CC         ChEBI:CHEBI:140657, ChEBI:CHEBI:140660; EC=2.3.1.269;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01148};
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (N-acyl
+CC       transfer). {ECO:0000255|HAMAP-Rule:MF_01148}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01148}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01148}.
+CC   -!- SIMILARITY: Belongs to the CN hydrolase family. Apolipoprotein N-
+CC       acyltransferase subfamily. {ECO:0000255|HAMAP-Rule:MF_01148,
+CC       ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ235271; CAA14825.1; -; Genomic_DNA.
+DR   PIR; G71693; G71693.
+DR   RefSeq; NP_220749.1; NC_000963.1.
+DR   RefSeq; WP_004599430.1; NC_000963.1.
+DR   STRING; 272947.RP366; -.
+DR   EnsemblBacteria; CAA14825; CAA14825; CAA14825.
+DR   GeneID; 57569490; -.
+DR   KEGG; rpr:RP366; -.
+DR   PATRIC; fig|272947.5.peg.376; -.
+DR   eggNOG; COG0815; Bacteria.
+DR   HOGENOM; CLU_019563_3_1_5; -.
+DR   OMA; PIGEFVP; -.
+DR   BioCyc; RPRO272947:G1GT0-368-MONOMER; -.
+DR   UniPathway; UPA00666; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042158; P:lipoprotein biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07571; ALP_N-acyl_transferase; 1.
+DR   Gene3D; 3.60.110.10; -; 1.
+DR   HAMAP; MF_01148; Lnt; 1.
+DR   InterPro; IPR004563; Apolipo_AcylTrfase.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   InterPro; IPR036526; C-N_Hydrolase_sf.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; SSF56317; 1.
+DR   TIGRFAMs; TIGR00546; lnt; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cell inner membrane; Cell membrane; Membrane;
+KW   Reference proteome; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..496
+FT                   /note="Apolipoprotein N-acyltransferase"
+FT                   /id="PRO_0000178094"
+FT   TRANSMEM        6..26
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        50..70
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        77..97
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        114..134
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        148..168
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        183..203
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   TRANSMEM        474..494
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   DOMAIN          220..464
+FT                   /note="CN hydrolase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   ACT_SITE        259
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   ACT_SITE        322
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+FT   ACT_SITE        372
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01148"
+SQ   SEQUENCE   496 AA;  56734 MW;  7B927AB04E9C9752 CRC64;
+     MYKTKIICLL LGILSGLVFA PIFFIPALFT FSYLCYIVQK SQNWQVAAKF GYLFGFGHFL
+     SGMYWISIGV SVYIADFWWA IPFALFGLPI ILAFFISANC TLSFFAKNNK YYQLIFCLLW
+     VLFEWIRSWI LTGLPWNLIG YAFSFSEILI QPLSITGIYG LSFIVIYIST SAYPVFTKKF
+     TQLKILLASS MLILTVMVIY GAVRVSTNPT NFTDIKVRLV QPSIPQTAKW DQEEFWHNLM
+     LHINLSENLE PTDLIIWSEA ALVVPDDIPQ VKLKLLNMLN STNAILITGG ISDNKKHGDQ
+     FELYSAMYAL DKNNNKLFEY HKSHLVPFGE YMPLKNILPF KKLTHGLIDY KEGDGGLVYI
+     KKYHLKIKPL ICYESIFPNF VRTNNEIVDV IINITNDAWY GKSSGPYQHF HISRSRAVEN
+     GLPMIRVANN GISAIVDPIG RIVKKLNLNE INYIQGLIPQ KLTTPTIFSQ FGNFAMLLSI
+     VFIILIHYLL SLIFDE
+//

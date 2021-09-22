@@ -1,0 +1,99 @@
+ID   TTCA_LEGPA              Reviewed;         283 AA.
+AC   Q5X752;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-APR-2021, entry version 78.
+DE   RecName: Full=tRNA-cytidine(32) 2-sulfurtransferase {ECO:0000255|HAMAP-Rule:MF_01850};
+DE            EC=2.8.1.- {ECO:0000255|HAMAP-Rule:MF_01850};
+DE   AltName: Full=Two-thiocytidine biosynthesis protein A {ECO:0000255|HAMAP-Rule:MF_01850};
+DE   AltName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA {ECO:0000255|HAMAP-Rule:MF_01850};
+GN   Name=ttcA {ECO:0000255|HAMAP-Rule:MF_01850}; OrderedLocusNames=lpp0753;
+OS   Legionella pneumophila (strain Paris).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=297246;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Paris;
+RX   PubMed=15467720; DOI=10.1038/ng1447;
+RA   Cazalet C., Rusniok C., Brueggemann H., Zidane N., Magnier A., Ma L.,
+RA   Tichit M., Jarraud S., Bouchier C., Vandenesch F., Kunst F., Etienne J.,
+RA   Glaser P., Buchrieser C.;
+RT   "Evidence in the Legionella pneumophila genome for exploitation of host
+RT   cell functions and high genome plasticity.";
+RL   Nat. Genet. 36:1165-1173(2004).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent 2-thiolation of cytidine in
+CC       position 32 of tRNA, to form 2-thiocytidine (s(2)C32). The sulfur atoms
+CC       are provided by the cysteine/cysteine desulfurase (IscS) system.
+CC       {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01850};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01850};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. The cluster is chelated by
+CC       three Cys residues, the fourth Fe has a free coordination site that may
+CC       bind a sulfur atom transferred from the persulfide of IscS.
+CC       {ECO:0000255|HAMAP-Rule:MF_01850};
+CC   -!- PATHWAY: tRNA modification. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- MISCELLANEOUS: The thiolation reaction likely consists of two steps: a
+CC       first activation step by ATP to form an adenylated intermediate of the
+CC       target base of tRNA, and a second nucleophilic substitution step of the
+CC       sulfur (S) atom supplied by the hydrosulfide attached to the Fe-S
+CC       cluster. {ECO:0000255|HAMAP-Rule:MF_01850}.
+CC   -!- SIMILARITY: Belongs to the TtcA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01850}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR628336; CAH11901.1; -; Genomic_DNA.
+DR   RefSeq; WP_011213280.1; NC_006368.1.
+DR   KEGG; lpp:lpp0753; -.
+DR   LegioList; lpp0753; -.
+DR   HOGENOM; CLU_026481_0_0_6; -.
+DR   OMA; IGDEACP; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016783; F:sulfurtransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034227; P:tRNA thio-modification; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01850; TtcA; 1.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012089; tRNA_Cyd_32_2_STrfase.
+DR   InterPro; IPR035107; tRNA_thiolation_TtcA_Ctu1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   PIRSF; PIRSF004976; ATPase_YdaO; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; ATP-binding; Cytoplasm; Iron; Iron-sulfur; Magnesium;
+KW   Metal-binding; Nucleotide-binding; RNA-binding; Transferase;
+KW   tRNA processing; tRNA-binding.
+FT   CHAIN           1..283
+FT                   /note="tRNA-cytidine(32) 2-sulfurtransferase"
+FT                   /id="PRO_0000348760"
+FT   MOTIF           37..42
+FT                   /note="PP-loop motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           112
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           115
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+FT   METAL           203
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01850"
+SQ   SEQUENCE   283 AA;  32404 MW;  19723FDAE6F85E3C CRC64;
+     MSSNPSSVEK KLLHYTGKAI ADFNMIQRGD RVMVCLSGGK DSFTLLTILN QLRIKSGNKF
+     EIFAFTLDQA QPGWNDACLR QWLAEKSIPH EILTRDTYSI VKEKIPEGKT YCSLCSRLRR
+     GIIYRYAEEN GFNKIALGHH RDDLIRTLMM SILYNGDIRS MPPKLLSDNK KHIVIRPLCY
+     VQEKDIITFA SEQAFPIIPC NLCGSQENLM RKKVASLIDQ LAIENPKVPS NMLHALQSLK
+     PSQLMDQNFW NFKNLEDGLE TAQSIQCEEV FNAQEFEIED EKI
+//

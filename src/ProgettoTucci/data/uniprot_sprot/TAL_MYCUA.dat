@@ -1,0 +1,86 @@
+ID   TAL_MYCUA               Reviewed;         373 AA.
+AC   A0PPP5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=Transaldolase {ECO:0000255|HAMAP-Rule:MF_00493};
+DE            EC=2.2.1.2 {ECO:0000255|HAMAP-Rule:MF_00493};
+GN   Name=tal {ECO:0000255|HAMAP-Rule:MF_00493}; OrderedLocusNames=MUL_1843;
+OS   Mycobacterium ulcerans (strain Agy99).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=362242;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Agy99;
+RX   PubMed=17210928; DOI=10.1101/gr.5942807;
+RA   Stinear T.P., Seemann T., Pidot S., Frigui W., Reysset G., Garnier T.,
+RA   Meurice G., Simon D., Bouchier C., Ma L., Tichit M., Porter J.L., Ryan J.,
+RA   Johnson P.D.R., Davies J.K., Jenkin G.A., Small P.L.C., Jones L.M.,
+RA   Tekaia F., Laval F., Daffe M., Parkhill J., Cole S.T.;
+RT   "Reductive evolution and niche adaptation inferred from the genome of
+RT   Mycobacterium ulcerans, the causative agent of Buruli ulcer.";
+RL   Genome Res. 17:192-200(2007).
+CC   -!- FUNCTION: Transaldolase is important for the balance of metabolites in
+CC       the pentose-phosphate pathway. {ECO:0000255|HAMAP-Rule:MF_00493}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glyceraldehyde 3-phosphate + D-sedoheptulose 7-phosphate =
+CC         beta-D-fructose 6-phosphate + D-erythrose 4-phosphate;
+CC         Xref=Rhea:RHEA:17053, ChEBI:CHEBI:16897, ChEBI:CHEBI:57483,
+CC         ChEBI:CHEBI:57634, ChEBI:CHEBI:59776; EC=2.2.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00493};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       glyceraldehyde 3-phosphate and beta-D-fructose 6-phosphate from D-
+CC       ribose 5-phosphate and D-xylulose 5-phosphate (non-oxidative stage):
+CC       step 2/3. {ECO:0000255|HAMAP-Rule:MF_00493}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00493}.
+CC   -!- SIMILARITY: Belongs to the transaldolase family. Type 2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00493}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000325; ABL04314.1; -; Genomic_DNA.
+DR   RefSeq; WP_011739934.1; NC_008611.1.
+DR   SMR; A0PPP5; -.
+DR   STRING; 362242.MUL_1843; -.
+DR   EnsemblBacteria; ABL04314; ABL04314; MUL_1843.
+DR   KEGG; mul:MUL_1843; -.
+DR   eggNOG; COG0176; Bacteria.
+DR   HOGENOM; CLU_050771_1_0_11; -.
+DR   OMA; ATECYYQ; -.
+DR   UniPathway; UPA00115; UER00414.
+DR   Proteomes; UP000000765; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004801; F:sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-UniRule.
+DR   CDD; cd00955; Transaldolase_like; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00493; Transaldolase_2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001585; TAL/FSA.
+DR   InterPro; IPR004732; Transaldolase_2.
+DR   InterPro; IPR018225; Transaldolase_AS.
+DR   PANTHER; PTHR10683; PTHR10683; 1.
+DR   Pfam; PF00923; TAL_FSA; 1.
+DR   PIRSF; PIRSF036915; Trnald_Bac_Plnt; 1.
+DR   TIGRFAMs; TIGR00876; tal_mycobact; 1.
+DR   PROSITE; PS01054; TRANSALDOLASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Pentose shunt; Schiff base; Transferase.
+FT   CHAIN           1..373
+FT                   /note="Transaldolase"
+FT                   /id="PRO_1000026528"
+FT   ACT_SITE        143
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00493"
+SQ   SEQUENCE   373 AA;  40162 MW;  A4E78EF2C0954AF4 CRC64;
+     MASQKPNLAA LSAAGVSVWL DDLSRDRLRS GNLQELIDTK SVVGVTTNPS IFQKALSEGH
+     DYDAQVAELA ERGADVDATI RTVTTDDVRN ACDVLAPRWE ASGGVDGRVS IEVDPRLAHE
+     TDKTIQQAVE LWKIVDRPNL LIKIPATKAG LPAIAAVLAE GISVNVTLIF SVDRHRGVMD
+     AYLTGMEKAA QAGHDLSKIH SVASFFVSRV DTEIDNRLEQ IGSAEALALR GQAGVANARL
+     AYAAYQEVFE GDARYQALKE RGARVQRPLW ASTGVKNPDY SDTLYVTELV APHTVNTMPE
+     KTLDAVADHG VVKGDSITGT SGDAQQVFDK LEAIGIDLSD VFDVLESEGV EKFEASWKEL
+     LDATQAQLDA LAK
+//

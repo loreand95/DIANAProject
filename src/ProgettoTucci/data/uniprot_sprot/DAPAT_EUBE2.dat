@@ -1,0 +1,141 @@
+ID   DAPAT_EUBE2             Reviewed;         404 AA.
+AC   C4Z4Y1;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   10-FEB-2021, entry version 67.
+DE   RecName: Full=LL-diaminopimelate aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=DAP-AT {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=DAP-aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            Short=LL-DAP-aminotransferase {ECO:0000255|HAMAP-Rule:MF_01642};
+DE            EC=2.6.1.83 {ECO:0000255|HAMAP-Rule:MF_01642};
+GN   Name=dapL {ECO:0000255|HAMAP-Rule:MF_01642};
+GN   OrderedLocusNames=EUBELI_00672;
+OS   Eubacterium eligens (strain ATCC 27750 / VPI C15-48).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae;
+OC   Lachnospira.
+OX   NCBI_TaxID=515620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27750 / VPI C15-48;
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   -!- FUNCTION: Involved in the synthesis of meso-diaminopimelate (m-DAP or
+CC       DL-DAP), required for both lysine and peptidoglycan biosynthesis.
+CC       Catalyzes the direct conversion of tetrahydrodipicolinate to LL-
+CC       diaminopimelate. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,6S)-2,6-diaminoheptanedioate + 2-oxoglutarate = (S)-
+CC         2,3,4,5-tetrahydrodipicolinate + H(+) + H2O + L-glutamate;
+CC         Xref=Rhea:RHEA:23988, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:16845, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:57609; EC=2.6.1.83; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01642};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01642};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (aminotransferase route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   -!- SIMILARITY: Belongs to the class-I pyridoxal-phosphate-dependent
+CC       aminotransferase family. LL-diaminopimelate aminotransferase subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01642}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001104; ACR71685.1; -; Genomic_DNA.
+DR   RefSeq; WP_012738921.1; NC_012778.1.
+DR   SMR; C4Z4Y1; -.
+DR   STRING; 515620.EUBELI_00672; -.
+DR   EnsemblBacteria; ACR71685; ACR71685; EUBELI_00672.
+DR   KEGG; eel:EUBELI_00672; -.
+DR   eggNOG; COG0436; Bacteria.
+DR   HOGENOM; CLU_051433_0_0_9; -.
+DR   OMA; DFQARGC; -.
+DR   OrthoDB; 417859at2; -.
+DR   UniPathway; UPA00034; UER00466.
+DR   Proteomes; UP000001476; Chromosome.
+DR   GO; GO:0010285; F:L,L-diaminopimelate aminotransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033362; P:lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_01642; DapL_aminotrans_1; 1.
+DR   InterPro; IPR004839; Aminotransferase_I/II.
+DR   InterPro; IPR019942; DapL/ALD1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   PANTHER; PTHR43144; PTHR43144; 1.
+DR   Pfam; PF00155; Aminotran_1_2; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR03542; DAPAT_plant; 1.
+PE   3: Inferred from homology;
+KW   Aminotransferase; Pyridoxal phosphate; Reference proteome; Transferase.
+FT   CHAIN           1..404
+FT                   /note="LL-diaminopimelate aminotransferase"
+FT                   /id="PRO_1000215830"
+FT   REGION          108..109
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   REGION          247..249
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         15
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         42
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         72
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         109
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         132
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         132
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         188
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         188
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         219
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         258
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         288
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         288
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   BINDING         384
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+FT   MOD_RES         250
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01642"
+SQ   SEQUENCE   404 AA;  44387 MW;  4E8902FA15EFBC8A CRC64;
+     MFKINDNYLK LPGSYLFSTI GKKVAAYQQA NPDKEIIRLG IGDVTQPLAP AVIDALHKSV
+     DEMGHAETFH GYAPDLGYEF LRSAIADHDY KKRGCDISAD EIFVSDGAKS DSGNIGDIFS
+     VDNKIAVCDP VYPVYVDTNA MAGRTGDYIP EKQAWSNVVY MPCTAETNFA PELPKETPDI
+     IYLCFPNNPT GSTITKDELQ KWVDYANKVG AVIIYDAAYE AYISEPDVPH TIYECEGART
+     CAIELRSFSK NAGFTGVRLG FTVIPKDLKC GDVTLHSLWA RRHGTKFNGA PYIVQRAGEA
+     VYSEAGQKQT GEQIAYYMNN AKTILEGLKS AGYTVSGGVN APYIWLKTPD KMTSWEFFDY
+     LLEKANVVGT PGSGFGPSGE GYFRLTAFGS YENTVKALER IKAL
+//

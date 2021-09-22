@@ -1,0 +1,134 @@
+ID   PANE_PYRAB              Reviewed;         300 AA.
+AC   Q9V0N0; G8ZGW0;
+DT   21-FEB-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   02-DEC-2020, entry version 127.
+DE   RecName: Full=2-dehydropantoate 2-reductase {ECO:0000250|UniProtKB:Q5JGC2};
+DE            EC=1.1.1.169 {ECO:0000250|UniProtKB:Q5JGC2};
+DE   AltName: Full=Ketopantoate reductase {ECO:0000250|UniProtKB:Q5JGC2};
+DE            Short=KPR {ECO:0000250|UniProtKB:Q5JGC2};
+GN   Name=apbA; OrderedLocusNames=PYRAB07590; ORFNames=PAB0512;
+OS   Pyrococcus abyssi (strain GE5 / Orsay).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=272844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=12622808; DOI=10.1046/j.1365-2958.2003.03381.x;
+RA   Cohen G.N., Barbe V., Flament D., Galperin M., Heilig R., Lecompte O.,
+RA   Poch O., Prieur D., Querellou J., Ripp R., Thierry J.-C., Van der Oost J.,
+RA   Weissenbach J., Zivanovic Y., Forterre P.;
+RT   "An integrated analysis of the genome of the hyperthermophilic archaeon
+RT   Pyrococcus abyssi.";
+RL   Mol. Microbiol. 47:1495-1512(2003).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=22057919; DOI=10.1007/s00284-011-0035-x;
+RA   Gao J., Wang J.;
+RT   "Re-annotation of two hyperthermophilic archaea Pyrococcus abyssi GE5 and
+RT   Pyrococcus furiosus DSM 3638.";
+RL   Curr. Microbiol. 64:118-129(2012).
+CC   -!- FUNCTION: Catalyzes the NAD(P)H-dependent reduction of ketopantoate
+CC       into pantoic acid. {ECO:0000250|UniProtKB:Q5JGC2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + NAD(+) = 2-dehydropantoate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:61292, ChEBI:CHEBI:11561, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945;
+CC         Evidence={ECO:0000250|UniProtKB:Q5JGC2};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:61294;
+CC         Evidence={ECO:0000250|UniProtKB:Q5JGC2};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + NADP(+) = 2-dehydropantoate + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:16233, ChEBI:CHEBI:11561, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.169; Evidence={ECO:0000250|UniProtKB:Q5JGC2};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:16235;
+CC         Evidence={ECO:0000250|UniProtKB:Q5JGC2};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis.
+CC       {ECO:0000250|UniProtKB:Q5JGC2}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q5JGC2}.
+CC   -!- SIMILARITY: Belongs to the ketopantoate reductase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ248285; CAB49673.1; -; Genomic_DNA.
+DR   EMBL; HE613800; CCE70155.1; -; Genomic_DNA.
+DR   PIR; H75119; H75119.
+DR   RefSeq; WP_010867881.1; NC_000868.1.
+DR   SMR; Q9V0N0; -.
+DR   STRING; 272844.PAB0512; -.
+DR   EnsemblBacteria; CAB49673; CAB49673; PAB0512.
+DR   GeneID; 1496099; -.
+DR   KEGG; pab:PAB0512; -.
+DR   PATRIC; fig|272844.11.peg.799; -.
+DR   eggNOG; arCOG04139; Archaea.
+DR   HOGENOM; CLU_031468_6_1_2; -.
+DR   OMA; NGLGSQD; -.
+DR   UniPathway; UPA00241; -.
+DR   Proteomes; UP000000810; Chromosome.
+DR   Proteomes; UP000009139; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008677; F:2-dehydropantoate 2-reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:InterPro.
+DR   Gene3D; 1.10.1040.10; -; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR003710; ApbA.
+DR   InterPro; IPR013752; KPA_reductase.
+DR   InterPro; IPR013332; KPR_N.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF02558; ApbA; 1.
+DR   Pfam; PF08546; ApbA_C; 1.
+DR   SUPFAM; SSF48179; SSF48179; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00745; apbA_panE; 1.
+PE   3: Inferred from homology;
+KW   Coenzyme A biosynthesis; Cytoplasm; NAD; NADP; Oxidoreductase.
+FT   CHAIN           1..300
+FT                   /note="2-dehydropantoate 2-reductase"
+FT                   /id="PRO_0000157325"
+FT   NP_BIND         7..12
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   REGION          246..249
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   ACT_SITE        179
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         74
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         99
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         123
+FT                   /note="NAD(P); via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         179
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         183
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         187
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         197
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+FT   BINDING         261
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q5JGC2"
+SQ   SEQUENCE   300 AA;  32773 MW;  F559625B73F691DC CRC64;
+     MKIYILGAGA IGSLFGGLLA NAGEDVLLIG RDPHVSAINE KGLKIVGIKD LNVKVEATTR
+     VPEEKPDLIV LATKSYSTIE ALKSARHIVK GSWVLSIQNG IGNEDKIIEF GGKAIGGITT
+     NGAMVEAPGV IKWTGKGVTI IGLYPQGKEK FIEKVADVFN SADIETHVSE NIISWIWAKA
+     IVNSAINPIG TLLEVKNKVI RENDFLLSMA MEVVKEGCRV ALQNGIEFDV PPMDLFFQTL
+     EQTRENYNSM LQDIWRGKKT EVDYINGKIV EYAKAVNLEA PMNLLLWGLI KGKEALEGKK
+//

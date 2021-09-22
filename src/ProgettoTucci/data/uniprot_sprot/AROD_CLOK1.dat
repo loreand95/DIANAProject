@@ -1,0 +1,97 @@
+ID   AROD_CLOK1              Reviewed;         255 AA.
+AC   B9E0D7;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   07-APR-2021, entry version 57.
+DE   RecName: Full=3-dehydroquinate dehydratase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=3-dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            EC=4.2.1.10 {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I DHQase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=DHQ1 {ECO:0000255|HAMAP-Rule:MF_00214};
+GN   Name=aroD {ECO:0000255|HAMAP-Rule:MF_00214}; OrderedLocusNames=CKR_0911;
+OS   Clostridium kluyveri (strain NBRC 12016).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=583346;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NBRC 12016;
+RA   Inui M., Nonaka H., Shinoda Y., Ikenaga Y., Abe M., Naito K., Vertes A.A.,
+RA   Yukawa H.;
+RT   "Complete genome sequence of Clostridium kluyveri and comparative genomics
+RT   of Clostridia species.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in the third step of the chorismate pathway, which
+CC       leads to the biosynthesis of aromatic amino acids. Catalyzes the cis-
+CC       dehydration of 3-dehydroquinate (DHQ) and introduces the first double
+CC       bond of the aromatic ring to yield 3-dehydroshikimate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydroquinate = 3-dehydroshikimate + H2O;
+CC         Xref=Rhea:RHEA:21096, ChEBI:CHEBI:15377, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:32364; EC=4.2.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00214};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       3/7. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SIMILARITY: Belongs to the type-I 3-dehydroquinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009049; BAH05962.1; -; Genomic_DNA.
+DR   RefSeq; WP_012101381.1; NC_011837.1.
+DR   SMR; B9E0D7; -.
+DR   EnsemblBacteria; BAH05962; BAH05962; CKR_0911.
+DR   KEGG; ckr:CKR_0911; -.
+DR   HOGENOM; CLU_064444_0_0_9; -.
+DR   UniPathway; UPA00053; UER00086.
+DR   Proteomes; UP000007969; Chromosome.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00502; DHQase_I; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00214; AroD; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001381; DHquinase_I.
+DR   Pfam; PF01487; DHquinase_I; 1.
+DR   TIGRFAMs; TIGR01093; aroD; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Lyase;
+KW   Schiff base.
+FT   CHAIN           1..255
+FT                   /note="3-dehydroquinate dehydratase"
+FT                   /id="PRO_1000124780"
+FT   REGION          47..49
+FT                   /note="3-dehydroquinate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   ACT_SITE        145
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   ACT_SITE        172
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         83
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         215
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         234
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         238
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+SQ   SEQUENCE   255 AA;  28536 MW;  8891A6C9FE44915F CRC64;
+     MGSIVKIRDV KLGEGIPKIA VPLVGSNEEE IMEEIAGVKT TKLDIVEWRI DYYKYVEEVE
+     KVKKLLQKMR KNLNNIPILV TFRTAKEGGK REISLEYYIE LNKAIAATGN TDMIDIELFA
+     AEDEAVKKIV EELHEYNIKV IMSNHDFHKT PHKDELISRM CRMQQLGADI AKIAVMPCST
+     KDVLELLSAT CEMKCKHNDT PIITMSMGTL GVITRLAGET FGSALTFGSA KAASAPGQLE
+     VNELYKVLKL ISAYR
+//

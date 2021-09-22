@@ -1,0 +1,134 @@
+ID   DHSD_SHEEP              Reviewed;         158 AA.
+AC   Q5G2C6; Q5G2C5; Q5G2C8; Q5G2C9; Q5G2D0; Q5G2D1;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   10-FEB-2021, entry version 58.
+DE   RecName: Full=Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial;
+DE            Short=CybS;
+DE   AltName: Full=CII-4;
+DE   AltName: Full=QPs3;
+DE   AltName: Full=Succinate dehydrogenase complex subunit D;
+DE   AltName: Full=Succinate-ubiquinone oxidoreductase cytochrome b small subunit;
+DE   AltName: Full=Succinate-ubiquinone reductase membrane anchor subunit;
+DE   Flags: Precursor;
+GN   Name=SDHD;
+OS   Ovis aries (Sheep).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Caprinae; Ovis.
+OX   NCBI_TaxID=9940;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND VARIANTS LEU-19; GLN-37; SER-42; LYS-46;
+RP   ARG-55 AND SER-67.
+RC   TISSUE=Liver;
+RX   PubMed=15771746; DOI=10.1111/j.1365-2052.2005.01261.x;
+RA   Khatib H.;
+RT   "Characterization and analysis of the imprinting status of the ovine SDHD
+RT   and COPG2 genes.";
+RL   Anim. Genet. 36:186-188(2005).
+CC   -!- FUNCTION: Membrane-anchoring subunit of succinate dehydrogenase (SDH)
+CC       that is involved in complex II of the mitochondrial electron transport
+CC       chain and is responsible for transferring electrons from succinate to
+CC       ubiquinone (coenzyme Q). {ECO:0000250}.
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle.
+CC   -!- SUBUNIT: Component of complex II composed of four subunits: the
+CC       flavoprotein (FP) SDHA, iron-sulfur protein (IP) SDHB, and a cytochrome
+CC       b560 composed of SDHC and SDHD. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion inner membrane {ECO:0000250};
+CC       Multi-pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CybS family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY861373; AAW70029.1; -; mRNA.
+DR   EMBL; AY861374; AAW70030.1; -; mRNA.
+DR   EMBL; AY861375; AAW70031.1; -; mRNA.
+DR   EMBL; AY861376; AAW70032.1; -; mRNA.
+DR   EMBL; AY861377; AAW70033.1; -; mRNA.
+DR   EMBL; AY861378; AAW70034.1; -; mRNA.
+DR   EMBL; AY861379; AAW70035.1; -; mRNA.
+DR   RefSeq; NP_001072121.1; NM_001078653.1.
+DR   RefSeq; NP_001087250.1; NM_001093781.1.
+DR   SMR; Q5G2C6; -.
+DR   GeneID; 780442; -.
+DR   GeneID; 780772; -.
+DR   KEGG; oas:780442; -.
+DR   KEGG; oas:780772; -.
+DR   OrthoDB; 1511215at2759; -.
+DR   UniPathway; UPA00223; -.
+DR   Proteomes; UP000002356; Unplaced.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005743; C:mitochondrial inner membrane; ISS:UniProtKB.
+DR   GO; GO:0005749; C:mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone); ISS:UniProtKB.
+DR   GO; GO:0020037; F:heme binding; ISS:UniProtKB.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0048039; F:ubiquinone binding; ISS:UniProtKB.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   CDD; cd03496; SQR_TypeC_CybS; 1.
+DR   Gene3D; 1.20.1300.10; -; 1.
+DR   InterPro; IPR007992; CybS.
+DR   InterPro; IPR034804; SQR/QFR_C/D.
+DR   PANTHER; PTHR13337; PTHR13337; 1.
+DR   SUPFAM; SSF81343; SSF81343; 1.
+PE   2: Evidence at transcript level;
+KW   Electron transport; Heme; Iron; Membrane; Metal-binding; Mitochondrion;
+KW   Mitochondrion inner membrane; Reference proteome; Transit peptide;
+KW   Transmembrane; Transmembrane helix; Transport; Tricarboxylic acid cycle.
+FT   TRANSIT         1..55
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           56..158
+FT                   /note="Succinate dehydrogenase [ubiquinone] cytochrome b
+FT                   small subunit, mitochondrial"
+FT                   /id="PRO_0000254579"
+FT   TOPO_DOM        56..62
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        63..84
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        85..89
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        90..110
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        111..119
+FT                   /note="Mitochondrial matrix"
+FT                   /evidence="ECO:0000250"
+FT   TRANSMEM        120..141
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250"
+FT   TOPO_DOM        142..158
+FT                   /note="Mitochondrial intermembrane"
+FT                   /evidence="ECO:0000250"
+FT   METAL           101
+FT                   /note="Iron (heme axial ligand); shared with SDHC"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         113
+FT                   /note="Ubiquinone; shared with IP/SDHB"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         19
+FT                   /note="F -> L"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+FT   VARIANT         37
+FT                   /note="R -> Q"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+FT   VARIANT         42
+FT                   /note="W -> S"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+FT   VARIANT         46
+FT                   /note="Q -> K"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+FT   VARIANT         55
+FT                   /note="H -> R"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+FT   VARIANT         67
+FT                   /note="G -> S"
+FT                   /evidence="ECO:0000269|PubMed:15771746"
+SQ   SEQUENCE   158 AA;  16995 MW;  246CE987F6937B44 CRC64;
+     MALSRLSVLC GVREGRALFL RTPVVRPALV SAFLQGRPAQ GWCGTQHIHL SPSHHSGSKA
+     ASLHWTGERV VSVLLLGLIP AAYLNPCSAM DYSLAATLTL HSHWGIGQVV TDYVHGDAVQ
+     KAAKTGLLVL SAFTFAGLCY FNYHDVGICK AVAMLWKL
+//

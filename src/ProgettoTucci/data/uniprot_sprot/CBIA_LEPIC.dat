@@ -1,0 +1,120 @@
+ID   CBIA_LEPIC              Reviewed;         454 AA.
+AC   Q75FQ8;
+DT   21-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=Cobyrinate a,c-diamide synthase {ECO:0000255|HAMAP-Rule:MF_00027};
+DE            EC=6.3.5.11 {ECO:0000255|HAMAP-Rule:MF_00027};
+DE   AltName: Full=Cobyrinic acid a,c-diamide synthetase {ECO:0000255|HAMAP-Rule:MF_00027};
+GN   Name=cbiA {ECO:0000255|HAMAP-Rule:MF_00027}; Synonyms=cobB;
+GN   OrderedLocusNames=LIC_20124;
+OS   Leptospira interrogans serogroup Icterohaemorrhagiae serovar copenhageni
+OS   (strain Fiocruz L1-130).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=267671;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fiocruz L1-130;
+RX   PubMed=15028702; DOI=10.1128/jb.186.7.2164-2172.2004;
+RA   Nascimento A.L.T.O., Ko A.I., Martins E.A.L., Monteiro-Vitorello C.B.,
+RA   Ho P.L., Haake D.A., Verjovski-Almeida S., Hartskeerl R.A., Marques M.V.,
+RA   Oliveira M.C., Menck C.F.M., Leite L.C.C., Carrer H., Coutinho L.L.,
+RA   Degrave W.M., Dellagostin O.A., El-Dorry H., Ferro E.S., Ferro M.I.T.,
+RA   Furlan L.R., Gamberini M., Giglioti E.A., Goes-Neto A., Goldman G.H.,
+RA   Goldman M.H.S., Harakava R., Jeronimo S.M.B., Junqueira-de-Azevedo I.L.M.,
+RA   Kimura E.T., Kuramae E.E., Lemos E.G.M., Lemos M.V.F., Marino C.L.,
+RA   Nunes L.R., de Oliveira R.C., Pereira G.G., Reis M.S., Schriefer A.,
+RA   Siqueira W.J., Sommer P., Tsai S.M., Simpson A.J.G., Ferro J.A.,
+RA   Camargo L.E.A., Kitajima J.P., Setubal J.C., Van Sluys M.A.;
+RT   "Comparative genomics of two Leptospira interrogans serovars reveals novel
+RT   insights into physiology and pathogenesis.";
+RL   J. Bacteriol. 186:2164-2172(2004).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent amidation of the two carboxylate
+CC       groups at positions a and c of cobyrinate, using either L-glutamine or
+CC       ammonia as the nitrogen source. {ECO:0000255|HAMAP-Rule:MF_00027}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 ATP + cob(II)yrinate + 2 H2O + 2 L-glutamine = 2 ADP +
+CC         cob(II)yrinate a,c diamide + 2 H(+) + 2 L-glutamate + 2 phosphate;
+CC         Xref=Rhea:RHEA:26289, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:58537, ChEBI:CHEBI:58894,
+CC         ChEBI:CHEBI:456216; EC=6.3.5.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00027};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00027};
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       cob(II)yrinate a,c-diamide from sirohydrochlorin (anaerobic route):
+CC       step 10/10. {ECO:0000255|HAMAP-Rule:MF_00027}.
+CC   -!- DOMAIN: Comprises of two domains. The C-terminal domain contains the
+CC       binding site for glutamine and catalyzes the hydrolysis of this
+CC       substrate to glutamate and ammonia. The N-terminal domain is
+CC       anticipated to bind ATP and cobyrinate and catalyzes the ultimate
+CC       synthesis of the diamide product. The ammonia produced via the
+CC       glutaminase domain is probably translocated to the adjacent domain via
+CC       a molecular tunnel, where it reacts with an activated intermediate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00027}.
+CC   -!- MISCELLANEOUS: The a and c carboxylates of cobyrinate are activated for
+CC       nucleophilic attack via formation of a phosphorylated intermediate by
+CC       ATP. CbiA catalyzes first the amidation of the c-carboxylate, and then
+CC       that of the a-carboxylate. {ECO:0000255|HAMAP-Rule:MF_00027}.
+CC   -!- SIMILARITY: Belongs to the CobB/CbiA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00027}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016824; AAS72152.1; -; Genomic_DNA.
+DR   RefSeq; WP_001022069.1; NC_005824.1.
+DR   PaxDb; Q75FQ8; -.
+DR   EnsemblBacteria; AAS72152; AAS72152; LIC_20124.
+DR   GeneID; 58392944; -.
+DR   KEGG; lic:LIC_20124; -.
+DR   HOGENOM; CLU_022752_2_0_12; -.
+DR   OMA; QPFKCGP; -.
+DR   UniPathway; UPA00148; UER00231.
+DR   Proteomes; UP000007037; Chromosome II.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042242; F:cobyrinic acid a,c-diamide synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009236; P:cobalamin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00027; CobB_CbiA; 1.
+DR   InterPro; IPR004484; CbiA_synth.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017929; CobB/CobQ_GATase.
+DR   InterPro; IPR002586; CobQ/CobB/MinD/ParA_Nub-bd_dom.
+DR   InterPro; IPR011698; GATase_3.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43873; PTHR43873; 1.
+DR   Pfam; PF01656; CbiA; 1.
+DR   Pfam; PF07685; GATase_3; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00379; cobB; 1.
+DR   PROSITE; PS51274; GATASE_COBBQ; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cobalamin biosynthesis; Glutamine amidotransferase; Ligase;
+KW   Magnesium; Nucleotide-binding.
+FT   CHAIN           1..454
+FT                   /note="Cobyrinate a,c-diamide synthase"
+FT                   /id="PRO_0000141257"
+FT   DOMAIN          247..442
+FT                   /note="GATase cobBQ-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00027"
+FT   ACT_SITE        329
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00027"
+FT   SITE            434
+FT                   /note="Increases nucleophilicity of active site Cys"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00027"
+SQ   SEQUENCE   454 AA;  50193 MW;  0DE01E31CFB8ACB3 CRC64;
+     MNIKIPRIVI GGTGSGVGKT TIALALTQIL RKKGLKVATF KCGPDYLDPT YHSRASQKIC
+     HNLDGWLMGK ESVLNTFYQA CHNVDIAIIE GMMGLFDGHS PNSEIGSTAE IAKWLASPVL
+     VVLDTRGMAR TVSAILKGLK IFDPDLNLAG AFANFTGSPS HIQLLKDAST EVPILGGLCK
+     HSEQTFPERH LGLYSASEEN VSEEKFNFWG EEGEKSLEVN SILEIANSAP EISIPVSNIN
+     TTLKRCKIGI AMDSAFHFYY EENLMRLRQA GAELVFFSPL SDSRLTDVDG LYFGGGYPEV
+     FAPTLSKNKS LLNYIRDLSY KNIPIYAECG GLMYLSKGIK LVEGEFFPML GLISATSIME
+     KKLKALGYVE VTTKKETIFG EVGLRFRGHQ FRYSDLELDE SNPIELVYNL RKRKSDQVSE
+     EGYSKNSILA SYIHAHWASN PNLAEGFVQS CLRK
+//

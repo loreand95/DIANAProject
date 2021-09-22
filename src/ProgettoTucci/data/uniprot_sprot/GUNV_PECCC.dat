@@ -1,0 +1,120 @@
+ID   GUNV_PECCC              Reviewed;         505 AA.
+AC   Q47096;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   12-AUG-2020, entry version 104.
+DE   RecName: Full=Endoglucanase 5;
+DE            EC=3.2.1.4;
+DE   AltName: Full=Cellulase V;
+DE   AltName: Full=Endo-1,4-beta-glucanase V;
+DE   AltName: Full=Endoglucanase V;
+DE   Flags: Precursor;
+GN   Name=celV;
+OS   Pectobacterium carotovorum subsp. carotovorum (Erwinia carotovora subsp.
+OS   carotovora).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Pectobacteriaceae; Pectobacterium.
+OX   NCBI_TaxID=555;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SCRI 193;
+RX   PubMed=8246888; DOI=10.1007/bf00284687;
+RA   Cooper V.J.C., Salmond G.P.C.;
+RT   "Molecular analysis of the major cellulase (CelV) of Erwinia carotovora:
+RT   evidence for an evolutionary 'mix-and-match' of enzyme domains.";
+RL   Mol. Gen. Genet. 241:341-350(1993).
+CC   -!- FUNCTION: Endoglucanase with some exoglucanase activity.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-glucosidic linkages in
+CC         cellulose, lichenin and cereal beta-D-glucans.; EC=3.2.1.4;
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is about 7.0.;
+CC       Temperature dependence:
+CC         Optimum temperature is about 42 degrees Celsius.;
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the glycosyl hydrolase 5 (cellulase A) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X76000; CAA53592.1; -; Genomic_DNA.
+DR   PIR; S39962; S39962.
+DR   SMR; Q47096; -.
+DR   CAZy; CBM3; Carbohydrate-Binding Module Family 3.
+DR   CAZy; GH5; Glycoside Hydrolase Family 5.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008810; F:cellulase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030248; F:cellulose binding; IEA:InterPro.
+DR   GO; GO:0030245; P:cellulose catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.710; -; 1.
+DR   InterPro; IPR008965; CBM2/CBM3_carb-bd_dom_sf.
+DR   InterPro; IPR001956; CBM3.
+DR   InterPro; IPR036966; CBM3_sf.
+DR   InterPro; IPR001547; Glyco_hydro_5.
+DR   InterPro; IPR018087; Glyco_hydro_5_CS.
+DR   InterPro; IPR017853; Glycoside_hydrolase_SF.
+DR   Pfam; PF00942; CBM_3; 1.
+DR   Pfam; PF00150; Cellulase; 1.
+DR   SMART; SM01067; CBM_3; 1.
+DR   SUPFAM; SSF49384; SSF49384; 1.
+DR   SUPFAM; SSF51445; SSF51445; 1.
+DR   PROSITE; PS51172; CBM3; 1.
+DR   PROSITE; PS00659; GLYCOSYL_HYDROL_F5; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Cellulose degradation; Glycosidase; Hydrolase;
+KW   Polysaccharide degradation; Secreted; Signal.
+FT   SIGNAL          1..31
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           32..505
+FT                   /note="Endoglucanase 5"
+FT                   /id="PRO_0000007858"
+FT   DOMAIN          353..505
+FT                   /note="CBM3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00513"
+FT   REGION          32..334
+FT                   /note="Catalytic"
+FT   REGION          68..69
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   REGION          262..263
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   REGION          295..297
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   REGION          335..352
+FT                   /note="Linker"
+FT   ACT_SITE        168
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   ACT_SITE        256
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   BINDING         95
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   BINDING         130
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   BINDING         230
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+FT   BINDING         290
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:O85465"
+SQ   SEQUENCE   505 AA;  54900 MW;  DBEA9337BB4D2623 CRC64;
+     MWMRRNQIVR KLTLGVVTTV LGMSLSFSAL SATPVETHGQ LSIENGRLVD EQGKRVQLRG
+     ISSHGLQWFG DYVNKDSMKW LRDDWGINVF RVAMYTAADG YISNPSLANK VKEAVAAAQS
+     LGVYIIIDWH ILSDNDPNIY KAQAKTFFAE MAGLYGSSPN VIYEIANEPN GGVTWNGQIR
+     PYALEVTDTI RSKDPDNLII VGTGTWSQDI HDAADNQLPD PNTMYALHFY AGTHGQFLRD
+     RIDYAQSRGA AIFVSEWGTS DASGNGGPFL PESQTWIDFL NNRGVSWVNW SLTDKSEASA
+     ALAPGASKSG GWTEQNLSTS GKFVREQIRA GANLGGGDTP TTPTEPTNPG NGTTGDVVLQ
+     YRNVDNNPSD DAIRMAVNIK NTGSTPIKLS DLQVRYYFHD DGKPGANLFV DWANVGPNNI
+     VTSTGTPAAS TDKANRYVLV TFSSGAGSLQ PGAETGEVQV RIHAGDWSNV NETNDYSYGA
+     NVTSYANWDK ITVHDKGTLV WGVEP
+//

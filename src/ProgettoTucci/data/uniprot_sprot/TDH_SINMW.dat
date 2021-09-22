@@ -1,0 +1,138 @@
+ID   TDH_SINMW               Reviewed;         344 AA.
+AC   A6UBM6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=L-threonine 3-dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00627};
+DE            Short=TDH {ECO:0000255|HAMAP-Rule:MF_00627};
+DE            EC=1.1.1.103 {ECO:0000255|HAMAP-Rule:MF_00627};
+GN   Name=tdh {ECO:0000255|HAMAP-Rule:MF_00627}; OrderedLocusNames=Smed_2224;
+OS   Sinorhizobium medicae (strain WSM419) (Ensifer medicae).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae;
+OC   Sinorhizobium/Ensifer group; Sinorhizobium.
+OX   NCBI_TaxID=366394;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=WSM419;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Chain P., Malfatti S., Shin M., Vergez L., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Reeve W.G.,
+RA   Richardson P.;
+RT   "Complete sequence of Sinorhizobium medicae WSM419 chromosome.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the NAD(+)-dependent oxidation of L-threonine to 2-
+CC       amino-3-ketobutyrate. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-threonine + NAD(+) = (2S)-2-amino-3-oxobutanoate + H(+) +
+CC         NADH; Xref=Rhea:RHEA:13161, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57926, ChEBI:CHEBI:57945, ChEBI:CHEBI:78948;
+CC         EC=1.1.1.103; Evidence={ECO:0000255|HAMAP-Rule:MF_00627};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00627};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00627};
+CC   -!- PATHWAY: Amino-acid degradation; L-threonine degradation via oxydo-
+CC       reductase pathway; glycine from L-threonine: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   -!- SIMILARITY: Belongs to the zinc-containing alcohol dehydrogenase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00627}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000738; ABR61056.1; -; Genomic_DNA.
+DR   RefSeq; WP_011976353.1; NC_009636.1.
+DR   RefSeq; YP_001327891.1; NC_009636.1.
+DR   SMR; A6UBM6; -.
+DR   STRING; 366394.Smed_2224; -.
+DR   EnsemblBacteria; ABR61056; ABR61056; Smed_2224.
+DR   GeneID; 45063017; -.
+DR   KEGG; smd:Smed_2224; -.
+DR   PATRIC; fig|366394.8.peg.5392; -.
+DR   eggNOG; COG1063; Bacteria.
+DR   HOGENOM; CLU_026673_11_0_5; -.
+DR   OMA; ETWYAMS; -.
+DR   OrthoDB; 972769at2; -.
+DR   UniPathway; UPA00046; UER00505.
+DR   Proteomes; UP000001108; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008743; F:L-threonine 3-dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019518; P:L-threonine catabolic process to glycine; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_00627; Thr_dehydrog; 1.
+DR   InterPro; IPR013149; ADH_C.
+DR   InterPro; IPR013154; ADH_N.
+DR   InterPro; IPR002328; ADH_Zn_CS.
+DR   InterPro; IPR011032; GroES-like_sf.
+DR   InterPro; IPR004627; L-Threonine_3-DHase.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF08240; ADH_N; 1.
+DR   Pfam; PF00107; ADH_zinc_N; 1.
+DR   SUPFAM; SSF50129; SSF50129; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00692; tdh; 1.
+DR   PROSITE; PS00059; ADH_ZINC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Metal-binding; NAD; Oxidoreductase; Zinc.
+FT   CHAIN           1..344
+FT                   /note="L-threonine 3-dehydrogenase"
+FT                   /id="PRO_1000051665"
+FT   NP_BIND         266..268
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   NP_BIND         290..291
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   ACT_SITE        44
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   ACT_SITE        47
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           42
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           67
+FT                   /note="Zinc 1; via tele nitrogen; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           68
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           97
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           100
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           103
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   METAL           111
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   BINDING         179
+FT                   /note="NAD; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   BINDING         199
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   BINDING         204
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+FT   SITE            152
+FT                   /note="Important for catalytic activity for the proton
+FT                   relay mechanism but does not participate directly in the
+FT                   coordination of zinc atom"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00627"
+SQ   SEQUENCE   344 AA;  37564 MW;  06F161F75CE1608C CRC64;
+     MTNMMRALVK TRPEVGLWME RVPVPEVGPN DVLIRVRKSA ICGTDVHIWN WDQWAQKTIP
+     VPMVVGHEFM GEIVEVGPAV TKHHVGERVS GEGHIVCGKC RNCRAGRGHL CRNTLGVGVN
+     RPGSFAEFVC LPEYNVVSIP DDVPDEIAAI FDPFGNAVHT ALSFDLVGED VLVTGAGPIG
+     IMGALVAKRC GARKVVITDI NPVRLDLARK VGIDYVVDAS KENLADVMRV IGMTEGFDVG
+     LEMSGAAPAF RDMIDKMNNG GKIAILGIAP AGFEIDWNKV IFKMLNLKGI YGREMFETWY
+     KMIAFVQGGL DLSQIITHRI GIDEFGDGFE AMRSGNSGKV VMDW
+//

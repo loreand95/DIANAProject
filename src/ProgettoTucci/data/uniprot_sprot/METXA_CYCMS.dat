@@ -1,0 +1,112 @@
+ID   METXA_CYCMS             Reviewed;         351 AA.
+AC   G0J5N4;
+DT   07-JUN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   19-OCT-2011, sequence version 1.
+DT   10-FEB-2021, entry version 54.
+DE   RecName: Full=Homoserine O-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_00296};
+DE            Short=HAT {ECO:0000255|HAMAP-Rule:MF_00296, ECO:0000303|PubMed:28581482};
+DE            EC=2.3.1.31 {ECO:0000255|HAMAP-Rule:MF_00296, ECO:0000269|PubMed:28581482};
+DE   AltName: Full=Homoserine transacetylase {ECO:0000255|HAMAP-Rule:MF_00296};
+DE            Short=HTA {ECO:0000255|HAMAP-Rule:MF_00296};
+GN   Name=metXA {ECO:0000255|HAMAP-Rule:MF_00296, ECO:0000303|PubMed:28581482};
+GN   OrderedLocusNames=Cycma_4798 {ECO:0000312|EMBL:AEL28483.1};
+OS   Cyclobacterium marinum (strain ATCC 25205 / DSM 745 / LMG 13164 / NCIMB
+OS   1802) (Flectobacillus marinus).
+OC   Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cyclobacteriaceae;
+OC   Cyclobacterium.
+OX   NCBI_TaxID=880070;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25205 / DSM 745 / LMG 13164 / NCIMB 1802;
+RA   Lucas S., Han J., Lapidus A., Bruce D., Goodwin L., Pitluck S., Peters L.,
+RA   Kyrpides N., Mavromatis K., Ivanova N., Ovchinnikova G., Chertkov O.,
+RA   Detter J.C., Tapia R., Han C., Land M., Hauser L., Markowitz V.,
+RA   Cheng J.-F., Hugenholtz P., Woyke T., Wu D., Tindall B., Schuetze A.,
+RA   Brambilla E., Klenk H.-P., Eisen J.A.;
+RT   "The complete genome of Cyclobacterium marinum DSM 745.";
+RL   Submitted (JUL-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=28581482; DOI=10.1038/nchembio.2397;
+RA   Bastard K., Perret A., Mariage A., Bessonnet T., Pinet-Turpault A.,
+RA   Petit J.L., Darii E., Bazire P., Vergne-Vaxelaire C., Brewee C., Debard A.,
+RA   Pellouin V., Besnard-Gonnet M., Artiguenave F., Medigue C., Vallenet D.,
+RA   Danchin A., Zaparucha A., Weissenbach J., Salanoubat M., de Berardinis V.;
+RT   "Parallel evolution of non-homologous isofunctional enzymes in methionine
+RT   biosynthesis.";
+RL   Nat. Chem. Biol. 13:858-866(2017).
+CC   -!- FUNCTION: Transfers an acetyl group from acetyl-CoA to L-homoserine,
+CC       forming acetyl-L-homoserine. {ECO:0000255|HAMAP-Rule:MF_00296,
+CC       ECO:0000269|PubMed:28581482}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-homoserine = CoA + O-acetyl-L-homoserine;
+CC         Xref=Rhea:RHEA:13701, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57476, ChEBI:CHEBI:57716; EC=2.3.1.31;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00296,
+CC         ECO:0000269|PubMed:28581482};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; O-acetyl-L-homoserine from L-homoserine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. MetX family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00296}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP002955; AEL28483.1; -; Genomic_DNA.
+DR   RefSeq; WP_014022763.1; NC_015914.1.
+DR   SMR; G0J5N4; -.
+DR   STRING; 880070.Cycma_4798; -.
+DR   EnsemblBacteria; AEL28483; AEL28483; Cycma_4798.
+DR   KEGG; cmr:Cycma_4798; -.
+DR   eggNOG; COG2021; Bacteria.
+DR   HOGENOM; CLU_028760_1_2_10; -.
+DR   OMA; TRFCVVS; -.
+DR   OrthoDB; 536745at2; -.
+DR   UniPathway; UPA00051; UER00074.
+DR   Proteomes; UP000001635; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004414; F:homoserine O-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009086; P:methionine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   HAMAP; MF_00296; MetX_acyltransf; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR000073; AB_hydrolase_1.
+DR   InterPro; IPR008220; HAT_MetX-like.
+DR   PANTHER; PTHR32268; PTHR32268; 1.
+DR   Pfam; PF00561; Abhydrolase_1; 1.
+DR   PIRSF; PIRSF000443; Homoser_Ac_trans; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   TIGRFAMs; TIGR01392; homoserO_Ac_trn; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Amino-acid biosynthesis; Cytoplasm;
+KW   Methionine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..351
+FT                   /note="Homoserine O-acetyltransferase"
+FT                   /id="PRO_0000440277"
+FT   DOMAIN          51..334
+FT                   /note="AB hydrolase-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+FT   ACT_SITE        146
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+FT   ACT_SITE        299
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+FT   ACT_SITE        328
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+FT   BINDING         212
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+FT   BINDING         329
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00296"
+SQ   SEQUENCE   351 AA;  39422 MW;  AD6A5313F48AED17 CRC64;
+     MNLQSPHLTI EMTQEIFYCQ EALSLESGES FPEFQLSFTT QGQLNANKDN VIWVLHALTG
+     DANPHEWWSG LIGEDKFFDP SKYFIVCANF LGSCYGSTQP LSNNPNNGKP YYYDFPNITT
+     RDIASALDKL RIHLGLEKIN TVIGGSLGGQ VGLEWAVSLG EKLENAIIVA SNAKASPWII
+     GFNETQRMAI ESDSTWGKTQ PEAGKKGLET ARAIGMLSYR HPMTFLQNQS ETEEKRDDFK
+     ISSYLRYQGL KLANRFNAMS YWILSKAMDS HDIGRGRGGT PVALSNIKCK VLSIGVDTDI
+     LFTSEESRYI SKHVPKGTYR EISSIYGHDA FLIEYEQLQY ILKSFYLENN G
+//

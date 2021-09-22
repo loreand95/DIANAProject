@@ -1,0 +1,139 @@
+ID   PSTP_MYCTO              Reviewed;         514 AA.
+AC   P9WHW4; L0T2B3; P71588; Q8VKT2;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   10-FEB-2021, entry version 32.
+DE   RecName: Full=Serine/threonine protein phosphatase PstP {ECO:0000250|UniProtKB:P9WHW5};
+DE            EC=3.1.3.16 {ECO:0000250|UniProtKB:P9WHW5};
+DE   AltName: Full=Mycobacterial Ser/Thr phosphatase {ECO:0000250|UniProtKB:P9WHW5};
+DE            Short=Mstp {ECO:0000250|UniProtKB:P9WHW5};
+DE   AltName: Full=PP2C-family Ser/Thr phosphatase {ECO:0000250|UniProtKB:P9WHW5};
+GN   Name=pstP; Synonyms=mstp, ppp; OrderedLocusNames=MT0021;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Plays an important role in regulating cell division and
+CC       growth by reversible phosphorylation signaling. May play important
+CC       roles in regulating cellular metabolism and signaling pathways, which
+CC       could mediate the growth and development of the cell. Plays a role in
+CC       establishing and maintaining infection. {ECO:0000250|UniProtKB:P9WHW5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-seryl-[protein] = L-seryl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:20629, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15377, ChEBI:CHEBI:29999, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83421; EC=3.1.3.16;
+CC         Evidence={ECO:0000250|UniProtKB:P9WHW5};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + O-phospho-L-threonyl-[protein] = L-threonyl-[protein] +
+CC         phosphate; Xref=Rhea:RHEA:47004, Rhea:RHEA-COMP:11060, Rhea:RHEA-
+CC         COMP:11605, ChEBI:CHEBI:15377, ChEBI:CHEBI:30013, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:61977; EC=3.1.3.16;
+CC         Evidence={ECO:0000250|UniProtKB:P9WHW5};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:P9WHW5};
+CC       Note=Binds 3 Mn(2+) ions per subunit (By similarity). The third
+CC       manganese ion is unlikely to be involved in catalysis but contributes
+CC       instead to stabilize a flap segment, which is partially disordered in
+CC       the absence of bound metal (By similarity).
+CC       {ECO:0000250|UniProtKB:P9WHW5};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:P9WHW5};
+CC       Single-pass membrane protein {ECO:0000255}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK44243.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK44243.1; ALT_INIT; Genomic_DNA.
+DR   PIR; H70699; H70699.
+DR   RefSeq; WP_003899776.1; NZ_KK341227.1.
+DR   SMR; P9WHW4; -.
+DR   EnsemblBacteria; AAK44243; AAK44243; MT0021.
+DR   KEGG; mtc:MT0021; -.
+DR   PATRIC; fig|83331.31.peg.22; -.
+DR   HOGENOM; CLU_025431_0_0_11; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106306; F:protein serine phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106307; F:protein threonine phosphatase activity; IEA:UniProtKB-EC.
+DR   CDD; cd00143; PP2Cc; 1.
+DR   Gene3D; 3.60.40.10; -; 1.
+DR   InterPro; IPR015655; PP2C.
+DR   InterPro; IPR036457; PPM-type_dom_sf.
+DR   InterPro; IPR001932; PPM-type_phosphatase_dom.
+DR   PANTHER; PTHR13832; PTHR13832; 1.
+DR   SMART; SM00331; PP2C_SIG; 1.
+DR   SMART; SM00332; PP2Cc; 1.
+DR   SUPFAM; SSF81606; SSF81606; 1.
+DR   PROSITE; PS51746; PPM_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Hydrolase; Manganese; Membrane; Metal-binding;
+KW   Protein phosphatase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..514
+FT                   /note="Serine/threonine protein phosphatase PstP"
+FT                   /id="PRO_0000428111"
+FT   TOPO_DOM        1..302
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        303..323
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        324..514
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          9..238
+FT                   /note="PPM-type phosphatase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01082"
+FT   COMPBIAS        422..506
+FT                   /note="Pro-rich"
+FT   METAL           38
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           38
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           39
+FT                   /note="Manganese 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           118
+FT                   /note="Manganese 3"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           160
+FT                   /note="Manganese 3; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           191
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           191
+FT                   /note="Manganese 3"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+FT   METAL           229
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WHW5"
+SQ   SEQUENCE   514 AA;  53802 MW;  DD78F54F64AC2905 CRC64;
+     MARVTLVLRY AARSDRGLVR ANNEDSVYAG ARLLALADGM GGHAAGEVAS QLVIAALAHL
+     DDDEPGGDLL AKLDAAVRAG NSAIAAQVEM EPDLEGMGTT LTAILFAGNR LGLVHIGDSR
+     GYLLRDGELT QITKDDTFVQ TLVDEGRITP EEAHSHPQRS LIMRALTGHE VEPTLTMREA
+     RAGDRYLLCS DGLSDPVSDE TILEALQIPE VAESAHRLIE LALRGGGPDN VTVVVADVVD
+     YDYGQTQPIL AGAVSGDDDQ LTLPNTAAGR ASAISQRKEI VKRVPPQADT FSRPRWSGRR
+     LAFVVALVTV LMTAGLLIGR AIIRSNYYVA DYAGSVSIMR GIQGSLLGMS LHQPYLMGCL
+     SPRNELSQIS YGQSGGPLDC HLMKLEDLRP PERAQVRAGL PAGTLDDAIG QLRELAANSL
+     LPPCPAPRAT SPPGRPAPPT TSETTEPNVT SSPASPSPTT SASAPTGTTP AIPTSASPAA
+     PASPPTPWPV TSSPTMAALP PPPPQPGIDC RAAA
+//

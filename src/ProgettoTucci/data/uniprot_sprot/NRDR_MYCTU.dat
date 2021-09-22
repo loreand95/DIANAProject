@@ -1,0 +1,94 @@
+ID   NRDR_MYCTU              Reviewed;         154 AA.
+AC   P9WIZ1; L0TAN9; O07217; P67313;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 32.
+DE   RecName: Full=Transcriptional repressor NrdR {ECO:0000255|HAMAP-Rule:MF_00440};
+GN   Name=nrdR {ECO:0000255|HAMAP-Rule:MF_00440}; OrderedLocusNames=Rv2718c;
+GN   ORFNames=MTCY05A6.39c;
+OS   Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83332;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=9634230; DOI=10.1038/31159;
+RA   Cole S.T., Brosch R., Parkhill J., Garnier T., Churcher C.M., Harris D.E.,
+RA   Gordon S.V., Eiglmeier K., Gas S., Barry C.E. III, Tekaia F., Badcock K.,
+RA   Basham D., Brown D., Chillingworth T., Connor R., Davies R.M., Devlin K.,
+RA   Feltwell T., Gentles S., Hamlin N., Holroyd S., Hornsby T., Jagels K.,
+RA   Krogh A., McLean J., Moule S., Murphy L.D., Oliver S., Osborne J.,
+RA   Quail M.A., Rajandream M.A., Rogers J., Rutter S., Seeger K., Skelton S.,
+RA   Squares S., Squares R., Sulston J.E., Taylor K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Deciphering the biology of Mycobacterium tuberculosis from the complete
+RT   genome sequence.";
+RL   Nature 393:537-544(1998).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=21969609; DOI=10.1074/mcp.m111.011627;
+RA   Kelkar D.S., Kumar D., Kumar P., Balakrishnan L., Muthusamy B., Yadav A.K.,
+RA   Shrivastava P., Marimuthu A., Anand S., Sundaram H., Kingsbury R.,
+RA   Harsha H.C., Nair B., Prasad T.S., Chauhan D.S., Katoch K., Katoch V.M.,
+RA   Kumar P., Chaerkady R., Ramachandran S., Dash D., Pandey A.;
+RT   "Proteogenomic analysis of Mycobacterium tuberculosis by high resolution
+RT   mass spectrometry.";
+RL   Mol. Cell. Proteomics 10:M111.011627-M111.011627(2011).
+CC   -!- FUNCTION: Negatively regulates transcription of bacterial
+CC       ribonucleotide reductase nrd genes and operons by binding to NrdR-
+CC       boxes. {ECO:0000255|HAMAP-Rule:MF_00440}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00440};
+CC       Note=Binds 1 zinc ion. {ECO:0000255|HAMAP-Rule:MF_00440};
+CC   -!- SIMILARITY: Belongs to the NrdR family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00440}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL123456; CCP45516.1; -; Genomic_DNA.
+DR   PIR; A70533; A70533.
+DR   RefSeq; NP_217234.1; NC_000962.3.
+DR   RefSeq; WP_003413973.1; NZ_NVQJ01000017.1.
+DR   STRING; 83332.Rv2718c; -.
+DR   PaxDb; P9WIZ1; -.
+DR   GeneID; 45426705; -.
+DR   GeneID; 887985; -.
+DR   KEGG; mtu:Rv2718c; -.
+DR   TubercuList; Rv2718c; -.
+DR   eggNOG; COG1327; Bacteria.
+DR   OMA; RFTTYET; -.
+DR   PhylomeDB; P9WIZ1; -.
+DR   Proteomes; UP000001584; Chromosome.
+DR   GO; GO:0005829; C:cytosol; HDA:MTBBASE.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00440; NrdR; 1.
+DR   InterPro; IPR005144; ATP-cone_dom.
+DR   InterPro; IPR003796; RNR_NrdR-like.
+DR   PANTHER; PTHR30455; PTHR30455; 1.
+DR   Pfam; PF03477; ATP-cone; 1.
+DR   TIGRFAMs; TIGR00244; TIGR00244; 1.
+DR   PROSITE; PS51161; ATP_CONE; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; DNA-binding; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Repressor; Transcription; Transcription regulation;
+KW   Zinc; Zinc-finger.
+FT   CHAIN           1..154
+FT                   /note="Transcriptional repressor NrdR"
+FT                   /id="PRO_0000182321"
+FT   DOMAIN          46..136
+FT                   /note="ATP-cone"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+FT   ZN_FING         3..34
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00440"
+SQ   SEQUENCE   154 AA;  17177 MW;  7F47A468DEADB202 CRC64;
+     MHCPFCRHPD SRVIDSRETD EGQAIRRRRS CPECGRRFTT VETAVLAVVK RSGVTEPFSR
+     EKVISGVRRA CQGRQVDDDA LNLLAQQVED SVRAAGSPEI PSHDVGLAIL GPLRELDEVA
+     YLRFASVYRS FSSADDFARE IEALRAHRNL SAHS
+//

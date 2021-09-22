@@ -1,0 +1,102 @@
+ID   METN2_STAA8             Reviewed;         341 AA.
+AC   Q2FZZ2;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Methionine import ATP-binding protein MetN 2 {ECO:0000255|HAMAP-Rule:MF_01719};
+DE            EC=7.4.2.11 {ECO:0000255|HAMAP-Rule:MF_01719};
+GN   Name=metN2 {ECO:0000255|HAMAP-Rule:MF_01719};
+GN   OrderedLocusNames=SAOUHSC_00842;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+CC   -!- FUNCTION: Part of the ABC transporter complex MetNIQ involved in
+CC       methionine import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-methionine(out) = ADP + H(+) + L-methionine(in)
+CC         + phosphate; Xref=Rhea:RHEA:29779, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:456216; EC=7.4.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01719};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-methionine(out) + H2O = ADP + D-methionine(in) + H(+)
+CC         + phosphate; Xref=Rhea:RHEA:29767, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57932, ChEBI:CHEBI:456216; EC=7.4.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01719};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (MetN),
+CC       two transmembrane proteins (MetI) and a solute-binding protein (MetQ).
+CC       {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01719};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Methionine
+CC       importer (TC 3.A.1.24) family. {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000253; ABD29968.1; -; Genomic_DNA.
+DR   RefSeq; WP_000571218.1; NZ_LS483365.1.
+DR   RefSeq; YP_499396.1; NC_007795.1.
+DR   SMR; Q2FZZ2; -.
+DR   STRING; 1280.SAXN108_0881; -.
+DR   EnsemblBacteria; ABD29968; ABD29968; SAOUHSC_00842.
+DR   GeneID; 3918954; -.
+DR   GeneID; 59699456; -.
+DR   KEGG; sao:SAOUHSC_00842; -.
+DR   PATRIC; fig|93061.5.peg.765; -.
+DR   eggNOG; COG1135; Bacteria.
+DR   HOGENOM; CLU_000604_1_3_9; -.
+DR   OMA; QQFNLFR; -.
+DR   PRO; PR:Q2FZZ2; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0033232; F:ABC-type D-methionine transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   CDD; cd03258; ABC_MetN_methionine_transporter; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR017908; ABC_transprt_methionine_MetN_C.
+DR   InterPro; IPR041701; MetN_ABC.
+DR   InterPro; IPR018449; NIL_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF09383; NIL; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00930; NIL; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51264; METN; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid transport; ATP-binding; Cell membrane; Membrane;
+KW   Nucleotide-binding; Reference proteome; Translocase; Transport.
+FT   CHAIN           1..341
+FT                   /note="Methionine import ATP-binding protein MetN 2"
+FT                   /id="PRO_0000270402"
+FT   DOMAIN          2..241
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01719"
+FT   NP_BIND         38..45
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01719"
+SQ   SEQUENCE   341 AA;  38209 MW;  AA32F45BACFF24F3 CRC64;
+     MIELKEVVKE YRTKNKEVLA VDHVNLSIRA GSIYGVIGFS GAGKSTLIRM FNHLEAPTSG
+     EVIIDGDHIG QLSKNGLRAK RQKVSMIFQH FNLLWSRTVL KNIMFPLEIA GVPRRRAKQK
+     ALELVELVGL KGREKAYPSE LSGGQKQRVG IARALANDPT VLLCDEATSA LDPQTTDEIL
+     DLLLKIREQQ NLTIVLITHE MHVIRRICDE VAVMESGKVI EQGPVTQVFE NPQHTVTKRF
+     VKDDLNDDFE TSLTELEPLE KDAYIVRLVF AGSTTTEPIV SSLSTAYDIK INILEANIKN
+     TKNGTVGFLV LHIPYISSVD FGKFEKELIE RQVKMEVLRH G
+//

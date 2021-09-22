@@ -1,0 +1,81 @@
+ID   PYRF_MYCPA              Reviewed;         274 AA.
+AC   Q741H0;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   10-FEB-2021, entry version 95.
+DE   RecName: Full=Orotidine 5'-phosphate decarboxylase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            EC=4.1.1.23 {ECO:0000255|HAMAP-Rule:MF_01215};
+DE   AltName: Full=OMP decarboxylase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            Short=OMPDCase {ECO:0000255|HAMAP-Rule:MF_01215};
+DE            Short=OMPdecase {ECO:0000255|HAMAP-Rule:MF_01215};
+GN   Name=pyrF {ECO:0000255|HAMAP-Rule:MF_01215}; OrderedLocusNames=MAP_1120;
+OS   Mycolicibacterium paratuberculosis (strain ATCC BAA-968 / K-10)
+OS   (Mycobacterium paratuberculosis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium avium complex (MAC).
+OX   NCBI_TaxID=262316;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-968 / K-10;
+RX   PubMed=16116077; DOI=10.1073/pnas.0505662102;
+RA   Li L., Bannantine J.P., Zhang Q., Amonsin A., May B.J., Alt D., Banerji N.,
+RA   Kanjilal S., Kapur V.;
+RT   "The complete genome sequence of Mycobacterium avium subspecies
+RT   paratuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:12344-12349(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + orotidine 5'-phosphate = CO2 + UMP;
+CC         Xref=Rhea:RHEA:11596, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57538, ChEBI:CHEBI:57865; EC=4.1.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01215};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       UMP from orotate: step 2/2. {ECO:0000255|HAMAP-Rule:MF_01215}.
+CC   -!- SIMILARITY: Belongs to the OMP decarboxylase family. Type 2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01215}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016958; AAS03437.1; -; Genomic_DNA.
+DR   RefSeq; WP_003872559.1; NC_002944.2.
+DR   SMR; Q741H0; -.
+DR   STRING; 262316.MAP_1120; -.
+DR   EnsemblBacteria; AAS03437; AAS03437; MAP_1120.
+DR   KEGG; mpa:MAP_1120; -.
+DR   eggNOG; COG0284; Bacteria.
+DR   HOGENOM; CLU_060704_0_0_11; -.
+DR   OMA; QSAFFER; -.
+DR   BioCyc; MAVI262316:G1G0E-1176-MONOMER; -.
+DR   UniPathway; UPA00070; UER00120.
+DR   Proteomes; UP000000580; Chromosome.
+DR   GO; GO:0004590; F:orotidine-5'-phosphate decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01215; OMPdecase_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR018089; OMPdecase_AS.
+DR   InterPro; IPR011995; OMPdecase_type-2.
+DR   InterPro; IPR001754; OMPdeCOase_dom.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   PANTHER; PTHR43375; PTHR43375; 1.
+DR   Pfam; PF00215; OMPdecase; 1.
+DR   SMART; SM00934; OMPdecase; 1.
+DR   SUPFAM; SSF51366; SSF51366; 1.
+DR   TIGRFAMs; TIGR02127; pyrF_sub2; 1.
+DR   PROSITE; PS00156; OMPDECASE; 1.
+PE   3: Inferred from homology;
+KW   Decarboxylase; Lyase; Pyrimidine biosynthesis; Reference proteome.
+FT   CHAIN           1..274
+FT                   /note="Orotidine 5'-phosphate decarboxylase"
+FT                   /id="PRO_1000066478"
+FT   ACT_SITE        95
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01215"
+SQ   SEQUENCE   274 AA;  27519 MW;  5E13AD95DD1E2993 CRC64;
+     MTGFGARLAA AKAQRGPLCV GIDPHPELLR AWDLPTTADG LAAFCDICVE AFAGFAVVKP
+     QVAFFEAYGA AGFAVLERTI AALRSAGVLV LADAKRGDIG TTMAAYAAAW AGDSPLAADA
+     VTASPYLGFG SLRPLLEAAA AHDRGVFVLA ATSNPEGATV QRAAFDGRTV AQLVVDQAAV
+     VNRSTNPAGP GYVGVVVGAT VLQPPDLSAL GGPVLVPGLG VQGGRPEALA GLGGAEPGQL
+     LPAVAREVLR AGPDVAELRA AADRMLDAVA YLDA
+//

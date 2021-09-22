@@ -1,0 +1,141 @@
+ID   PYRD_PSYA2              Reviewed;         344 AA.
+AC   Q4FS74;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 111.
+DE   RecName: Full=Dihydroorotate dehydrogenase (quinone) {ECO:0000255|HAMAP-Rule:MF_00225};
+DE            EC=1.3.5.2 {ECO:0000255|HAMAP-Rule:MF_00225};
+DE   AltName: Full=DHOdehase {ECO:0000255|HAMAP-Rule:MF_00225};
+DE            Short=DHOD {ECO:0000255|HAMAP-Rule:MF_00225};
+DE            Short=DHODase {ECO:0000255|HAMAP-Rule:MF_00225};
+DE   AltName: Full=Dihydroorotate oxidase {ECO:0000255|HAMAP-Rule:MF_00225};
+GN   Name=pyrD {ECO:0000255|HAMAP-Rule:MF_00225}; OrderedLocusNames=Psyc_1284;
+OS   Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Psychrobacter.
+OX   NCBI_TaxID=259536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17307 / VKM B-2377 / 273-4;
+RX   PubMed=20154119; DOI=10.1128/aem.02101-09;
+RA   Ayala-del-Rio H.L., Chain P.S., Grzymski J.J., Ponder M.A., Ivanova N.,
+RA   Bergholz P.W., Di Bartolo G., Hauser L., Land M., Bakermans C.,
+RA   Rodrigues D., Klappenbach J., Zarka D., Larimer F., Richardson P.,
+RA   Murray A., Thomashow M., Tiedje J.M.;
+RT   "The genome sequence of Psychrobacter arcticus 273-4, a psychroactive
+RT   Siberian permafrost bacterium, reveals mechanisms for adaptation to low-
+RT   temperature growth.";
+RL   Appl. Environ. Microbiol. 76:2304-2312(2010).
+CC   -!- FUNCTION: Catalyzes the conversion of dihydroorotate to orotate with
+CC       quinone as electron acceptor. {ECO:0000255|HAMAP-Rule:MF_00225}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + a quinone = a quinol + orotate;
+CC         Xref=Rhea:RHEA:30187, ChEBI:CHEBI:24646, ChEBI:CHEBI:30839,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:132124; EC=1.3.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00225};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00225};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000255|HAMAP-Rule:MF_00225};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       orotate from (S)-dihydroorotate (quinone route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00225}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00225}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_00225};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_00225}.
+CC   -!- SIMILARITY: Belongs to the dihydroorotate dehydrogenase family. Type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00225}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000082; AAZ19134.1; -; Genomic_DNA.
+DR   RefSeq; WP_011280556.1; NC_007204.1.
+DR   SMR; Q4FS74; -.
+DR   STRING; 259536.Psyc_1284; -.
+DR   EnsemblBacteria; AAZ19134; AAZ19134; Psyc_1284.
+DR   KEGG; par:Psyc_1284; -.
+DR   eggNOG; COG0167; Bacteria.
+DR   HOGENOM; CLU_013640_2_0_6; -.
+DR   OMA; LQNAMGF; -.
+DR   OrthoDB; 1109542at2; -.
+DR   BioCyc; PARC259536:PSYC_RS06660-MONOMER; -.
+DR   UniPathway; UPA00070; UER00946.
+DR   Proteomes; UP000000546; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004152; F:dihydroorotate dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04738; DHOD_2_like; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00225; DHO_dh_type2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005720; Dihydroorotate_DH.
+DR   InterPro; IPR012135; Dihydroorotate_DH_1_2.
+DR   InterPro; IPR005719; Dihydroorotate_DH_2.
+DR   InterPro; IPR001295; Dihydroorotate_DH_CS.
+DR   Pfam; PF01180; DHO_dh; 1.
+DR   PIRSF; PIRSF000164; DHO_oxidase; 1.
+DR   TIGRFAMs; TIGR01036; pyrD_sub2; 1.
+DR   PROSITE; PS00911; DHODEHASE_1; 1.
+DR   PROSITE; PS00912; DHODEHASE_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Flavoprotein; FMN; Membrane; Oxidoreductase;
+KW   Pyrimidine biosynthesis.
+FT   CHAIN           1..344
+FT                   /note="Dihydroorotate dehydrogenase (quinone)"
+FT                   /id="PRO_1000024207"
+FT   NP_BIND         61..65
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   NP_BIND         317..318
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   REGION          110..114
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   REGION          245..246
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   ACT_SITE        174
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         65
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         85
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         138
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         171
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         171
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         176
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         216
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         244
+FT                   /note="FMN; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         267
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+FT   BINDING         296
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00225"
+SQ   SEQUENCE   344 AA;  37414 MW;  F245A1662F831126 CRC64;
+     MSYALLRPFL FNMDPEHAHE MTLSLLDKAH KARVLGLVYG QSMQPTDCMG LQFSNPVGLA
+     AGLDKNGDYI DALAELGFGF IEVGTVTPKP QVGNDRPRLF RLKQADAIIN RMGFNNEGVD
+     YLIENVKRCK YKGNIGINIG KNAATPVEQA ADDYVYCLER VYPHASYITV NISSPNTKNL
+     RDLQSGEALT HLLDAIKNRH SQLATEYGFY VPLVLKVAPD LDPLQVDYIS QQLLDFEIDG
+     LIATNTTLSR VGVEDLPDGD QAGGLSGRPV SHISTQILQQ FSDQLDGKVA LIGVGGIDSG
+     AKAVKKIEAG ADMVQLYSGL IYKGPGLVQS CIQSIGGYYD AMEN
+//

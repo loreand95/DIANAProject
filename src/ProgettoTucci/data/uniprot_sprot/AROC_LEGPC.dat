@@ -1,0 +1,107 @@
+ID   AROC_LEGPC              Reviewed;         352 AA.
+AC   A5IEA1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=Chorismate synthase {ECO:0000255|HAMAP-Rule:MF_00300};
+DE            Short=CS {ECO:0000255|HAMAP-Rule:MF_00300};
+DE            EC=4.2.3.5 {ECO:0000255|HAMAP-Rule:MF_00300};
+DE   AltName: Full=5-enolpyruvylshikimate-3-phosphate phospholyase {ECO:0000255|HAMAP-Rule:MF_00300};
+GN   Name=aroC {ECO:0000255|HAMAP-Rule:MF_00300}; OrderedLocusNames=LPC_1768;
+OS   Legionella pneumophila (strain Corby).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=400673;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Corby;
+RA   Gloeckner G., Albert-Weissenberger C., Weinmann E., Jacobi S., Schunder E.,
+RA   Steinert M., Buchrieser C., Hacker J., Heuner K.;
+RT   "Identification and characterization of a new conjugation/ type IVA
+RT   secretion system (trb/tra) of L. pneumophila Corby localized on a mobile
+RT   genomic island.";
+RL   Submitted (NOV-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the anti-1,4-elimination of the C-3 phosphate and
+CC       the C-6 proR hydrogen from 5-enolpyruvylshikimate-3-phosphate (EPSP) to
+CC       yield chorismate, which is the branch point compound that serves as the
+CC       starting substrate for the three terminal pathways of aromatic amino
+CC       acid biosynthesis. This reaction introduces a second double bond into
+CC       the aromatic ring system. {ECO:0000255|HAMAP-Rule:MF_00300}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5-O-(1-carboxyvinyl)-3-phosphoshikimate = chorismate +
+CC         phosphate; Xref=Rhea:RHEA:21020, ChEBI:CHEBI:29748,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701; EC=4.2.3.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00300};
+CC   -!- COFACTOR:
+CC       Name=FMNH2; Xref=ChEBI:CHEBI:57618;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00300};
+CC       Note=Reduced FMN (FMNH(2)). {ECO:0000255|HAMAP-Rule:MF_00300};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       7/7. {ECO:0000255|HAMAP-Rule:MF_00300}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00300}.
+CC   -!- SIMILARITY: Belongs to the chorismate synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00300}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000675; ABQ55701.1; -; Genomic_DNA.
+DR   RefSeq; WP_010948009.1; NC_009494.2.
+DR   SMR; A5IEA1; -.
+DR   GeneID; 57036294; -.
+DR   KEGG; lpc:LPC_1768; -.
+DR   HOGENOM; CLU_034547_0_2_6; -.
+DR   OMA; MLSINAV; -.
+DR   BioCyc; LPNE400673:LPC_RS12010-MONOMER; -.
+DR   UniPathway; UPA00053; UER00090.
+DR   GO; GO:0004107; F:chorismate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07304; Chorismate_synthase; 1.
+DR   Gene3D; 3.60.150.10; -; 1.
+DR   HAMAP; MF_00300; Chorismate_synth; 1.
+DR   InterPro; IPR000453; Chorismate_synth.
+DR   InterPro; IPR035904; Chorismate_synth_AroC_sf.
+DR   InterPro; IPR020541; Chorismate_synthase_CS.
+DR   PANTHER; PTHR21085; PTHR21085; 1.
+DR   Pfam; PF01264; Chorismate_synt; 1.
+DR   PIRSF; PIRSF001456; Chorismate_synth; 1.
+DR   SUPFAM; SSF103263; SSF103263; 1.
+DR   TIGRFAMs; TIGR00033; aroC; 1.
+DR   PROSITE; PS00787; CHORISMATE_SYNTHASE_1; 1.
+DR   PROSITE; PS00788; CHORISMATE_SYNTHASE_2; 1.
+DR   PROSITE; PS00789; CHORISMATE_SYNTHASE_3; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; FAD;
+KW   Flavoprotein; FMN; Lyase; NADP.
+FT   CHAIN           1..352
+FT                   /note="Chorismate synthase"
+FT                   /id="PRO_1000022505"
+FT   NP_BIND         125..127
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+FT   NP_BIND         238..239
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+FT   NP_BIND         293..297
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+FT   BINDING         48
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+FT   BINDING         278
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+FT   BINDING         319
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00300"
+SQ   SEQUENCE   352 AA;  38400 MW;  31F7C796D96F7D4C CRC64;
+     MSGNTFGALF TVTTFGESHG PAIGCVVDGC PPGMSLTEAD IQPFLDKRKP GQSKYTTQRR
+     EEDKVQILSG VFDGKTTGAP IALLIQNTDQ RSRDYEDIKN LFRPGHADFT YHYKYGHRDY
+     RGGGRSSARE TAARVAAGAI ARLYLKRYLN LDIIGYLQQM GDLKLQFENE NEINKNPFFC
+     PNNKQIQELA DYVDRLRRQG DSVGARVKIL ARGVPTGLGD PVFDKLDATL AYAMMSINAV
+     KGVEIGAGFN AVEQLGSHHR DQMTAKGFLS NHAGGILGGI ATGQPIEVSI ALKPTSSITT
+     PGQTINTEGE EVTVVTKGRH DPCVGIRAVP IAEAMMALVL MDHYLRHKAQ CK
+//

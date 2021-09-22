@@ -1,0 +1,90 @@
+ID   DHM2_PARDE              Reviewed;         103 AA.
+AC   P29898;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2;
+DE            EC=1.1.2.7;
+DE   AltName: Full=MDH small subunit beta;
+DE   AltName: Full=MDH-associated peptide;
+DE   AltName: Full=MEDH;
+DE   Flags: Precursor;
+GN   Name=moxI;
+OS   Paracoccus denitrificans.
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Paracoccus.
+OX   NCBI_TaxID=266;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1657871; DOI=10.1128/jb.173.21.6948-6961.1991;
+RA   van Spanning R.J.M., Wansell C.W., de Boer T., Hazelaar M.J., Anazawa H.,
+RA   Harms N., Oltmann L.F., Stouthamer A.H.;
+RT   "Isolation and characterization of the moxJ, moxG, moxI, and moxR genes of
+RT   Paracoccus denitrificans: inactivation of moxJ, moxG, and moxR and the
+RT   resultant effect on methylotrophic growth.";
+RL   J. Bacteriol. 173:6948-6961(1991).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 21-103 IN COMPLEX WITH ALPHA
+RP   SUBUNIT, SUBUNIT, AND DISULFIDE BOND.
+RX   PubMed=14505072; DOI=10.1007/s00775-003-0485-0;
+RA   Xia Z.-X., Dai W.W., He Y.-N., White S.A., Mathews F.S., Davidson V.L.;
+RT   "X-ray structure of methanol dehydrogenase from Paracoccus denitrificans
+RT   and molecular modeling of its interactions with cytochrome c-551i.";
+RL   J. Biol. Inorg. Chem. 8:843-854(2003).
+CC   -!- FUNCTION: Catalyzes the oxidation of primary alcohols including
+CC       methanol. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(III)cytochrome cL] + a primary alcohol = 2
+CC         [Fe(II)cytochrome cL] + an aldehyde + 2 H(+); Xref=Rhea:RHEA:51004,
+CC         Rhea:RHEA-COMP:12863, Rhea:RHEA-COMP:12864, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15734, ChEBI:CHEBI:17478, ChEBI:CHEBI:29033,
+CC         ChEBI:CHEBI:29034; EC=1.1.2.7;
+CC   -!- SUBUNIT: Heterotetramer composed of 2 alpha and 2 beta subunits.
+CC       {ECO:0000269|PubMed:14505072}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm.
+CC   -!- SIMILARITY: Belongs to the methanol dehydrogenase subunit 2 family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M57684; AAA25584.1; -; Genomic_DNA.
+DR   PIR; C41377; C41377.
+DR   RefSeq; WP_010399081.1; NZ_FOYK01000012.1.
+DR   PDB; 1LRW; X-ray; 2.50 A; B/D=21-103.
+DR   PDBsum; 1LRW; -.
+DR   SMR; P29898; -.
+DR   BioCyc; MetaCyc:MONOMER-3924; -.
+DR   EvolutionaryTrace; P29898; -.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052932; F:2-chloroethanol cytochrome-c oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004022; F:alcohol dehydrogenase (NAD+) activity; IEA:InterPro.
+DR   GO; GO:0052931; F:ethanol cytochrome-c oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0052930; F:methanol ferricytochrome-c oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0015946; P:methanol oxidation; IEA:InterPro.
+DR   Gene3D; 4.10.160.10; -; 1.
+DR   InterPro; IPR003420; Meth_DH_bsu.
+DR   InterPro; IPR036557; Meth_DH_bsu_sf.
+DR   Pfam; PF02315; MDH; 1.
+DR   PIRSF; PIRSF029163; Meth_DH_beta; 1.
+DR   SUPFAM; SSF48666; SSF48666; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Disulfide bond; Methanol utilization; Oxidoreductase;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           21..103
+FT                   /note="Methanol dehydrogenase [cytochrome c] subunit 2"
+FT                   /id="PRO_0000025571"
+FT   DISULFID        26..32
+FT                   /evidence="ECO:0000269|PubMed:14505072"
+FT   HELIX           54..57
+FT                   /evidence="ECO:0007744|PDB:1LRW"
+FT   HELIX           59..81
+FT                   /evidence="ECO:0007744|PDB:1LRW"
+FT   HELIX           88..90
+FT                   /evidence="ECO:0007744|PDB:1LRW"
+SQ   SEQUENCE   103 AA;  11458 MW;  7AF8E6BD3B8731AA CRC64;
+     MKRILTLTVA ALALGTPALA YDGTNCKAPG NCWEPKPDYP AKVEGSKYDP QHDPAELSKQ
+     GESLAVMDAR NEWRVWNMKK TGKFEYDVKK IDGYDETKAP PAE
+//

@@ -1,0 +1,113 @@
+ID   RIBA_PSEA8              Reviewed;         205 AA.
+AC   B7V7R1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   07-APR-2021, entry version 61.
+DE   RecName: Full=GTP cyclohydrolase-2 {ECO:0000255|HAMAP-Rule:MF_00179};
+DE            EC=3.5.4.25 {ECO:0000255|HAMAP-Rule:MF_00179};
+DE   AltName: Full=GTP cyclohydrolase II {ECO:0000255|HAMAP-Rule:MF_00179};
+GN   Name=ribA {ECO:0000255|HAMAP-Rule:MF_00179}; OrderedLocusNames=PLES_09291;
+OS   Pseudomonas aeruginosa (strain LESB58).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=557722;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LESB58;
+RX   PubMed=19047519; DOI=10.1101/gr.086082.108;
+RA   Winstanley C., Langille M.G.I., Fothergill J.L., Kukavica-Ibrulj I.,
+RA   Paradis-Bleau C., Sanschagrin F., Thomson N.R., Winsor G.L., Quail M.A.,
+RA   Lennard N., Bignell A., Clarke L., Seeger K., Saunders D., Harris D.,
+RA   Parkhill J., Hancock R.E.W., Brinkman F.S.L., Levesque R.C.;
+RT   "Newly introduced genomic prophage islands are critical determinants of in
+RT   vivo competitiveness in the Liverpool epidemic strain of Pseudomonas
+RT   aeruginosa.";
+RL   Genome Res. 19:12-23(2009).
+CC   -!- FUNCTION: Catalyzes the conversion of GTP to 2,5-diamino-6-
+CC       ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and
+CC       pyrophosphate. {ECO:0000255|HAMAP-Rule:MF_00179}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + 3 H2O = 2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)-
+CC         pyrimidine + diphosphate + formate + 2 H(+); Xref=Rhea:RHEA:23704,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15740,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:37565, ChEBI:CHEBI:58614; EC=3.5.4.25;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00179};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00179};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00179};
+CC   -!- PATHWAY: Cofactor biosynthesis; riboflavin biosynthesis; 5-amino-6-(D-
+CC       ribitylamino)uracil from GTP: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00179}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase II family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00179}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM209186; CAW25656.1; -; Genomic_DNA.
+DR   RefSeq; WP_003110510.1; NC_011770.1.
+DR   SMR; B7V7R1; -.
+DR   KEGG; pag:PLES_09291; -.
+DR   HOGENOM; CLU_020273_2_1_6; -.
+DR   OMA; GQGFILY; -.
+DR   BioCyc; PAER557722:G1GIH-996-MONOMER; -.
+DR   UniPathway; UPA00275; UER00400.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003935; F:GTP cyclohydrolase II activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009231; P:riboflavin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00641; GTP_cyclohydro2; 1.
+DR   Gene3D; 3.40.50.10990; -; 1.
+DR   HAMAP; MF_00179; RibA; 1.
+DR   InterPro; IPR032677; GTP_cyclohydro_II.
+DR   InterPro; IPR000926; RibA.
+DR   InterPro; IPR036144; RibA-like_sf.
+DR   Pfam; PF00925; GTP_cyclohydro2; 1.
+DR   SUPFAM; SSF142695; SSF142695; 1.
+DR   TIGRFAMs; TIGR00505; ribA; 1.
+PE   3: Inferred from homology;
+KW   GTP-binding; Hydrolase; Metal-binding; Nucleotide-binding;
+KW   Riboflavin biosynthesis; Zinc.
+FT   CHAIN           1..205
+FT                   /note="GTP cyclohydrolase-2"
+FT                   /id="PRO_1000118432"
+FT   NP_BIND         49..53
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   NP_BIND         92..94
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   ACT_SITE        126
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   ACT_SITE        128
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   METAL           54
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   METAL           65
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   METAL           67
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   BINDING         70
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   BINDING         114
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   BINDING         149
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+FT   BINDING         154
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00179"
+SQ   SEQUENCE   205 AA;  22099 MW;  946F4C2F23F89526 CRC64;
+     MSVVFVAASK LPTPFGEFTM HGFLDEESGK EHVALSMGDI ADGAPVLGRL HSECLTGDAL
+     FSLRCDCGFQ LEGALAAIAE EGRGVLLYLR QEGRGIGLLN KIRAYELQDG GADTVEANLQ
+     LGFGADQRDY AMCQPMLAHL GVSSLRLMTN NPRKVKALES YAITVAERVP LQKGLNKHNR
+     RYLATKAGKL GHMLGSLHQG EAETT
+//

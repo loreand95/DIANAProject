@@ -1,0 +1,92 @@
+ID   NSRR_KLEP7              Reviewed;         141 AA.
+AC   A6TH94;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   10-FEB-2021, entry version 81.
+DE   RecName: Full=HTH-type transcriptional repressor NsrR {ECO:0000255|HAMAP-Rule:MF_01177};
+GN   Name=nsrR {ECO:0000255|HAMAP-Rule:MF_01177};
+GN   OrderedLocusNames=KPN78578_45040; ORFNames=KPN_04577;
+OS   Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=272620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578;
+RG   The Klebsiella pneumonia Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Spieth J., Clifton W.S., Latreille P.,
+RA   Sabo A., Pepin K., Bhonagiri V., Porwollik S., Ali J., Wilson R.K.;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Nitric oxide-sensitive repressor of genes involved in
+CC       protecting the cell against nitrosative stress. May require iron for
+CC       activity. {ECO:0000255|HAMAP-Rule:MF_01177}.
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01177};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01177};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000647; ABR79928.1; -; Genomic_DNA.
+DR   RefSeq; WP_002885667.1; NC_009648.1.
+DR   SMR; A6TH94; -.
+DR   DNASU; 5341201; -.
+DR   EnsemblBacteria; ABR79928; ABR79928; KPN_04577.
+DR   GeneID; 56981840; -.
+DR   KEGG; kpn:KPN_04577; -.
+DR   HOGENOM; CLU_107144_2_1_6; -.
+DR   OMA; PYTHAAK; -.
+DR   BioCyc; KPNE272620:G1G8J-4927-MONOMER; -.
+DR   Proteomes; UP000000265; Chromosome.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   HAMAP; MF_01177; HTH_type_NsrR; 1.
+DR   InterPro; IPR030489; TR_Rrf2-type_CS.
+DR   InterPro; IPR000944; Tscrpt_reg_Rrf2.
+DR   InterPro; IPR023761; Tscrpt_rep_HTH_NsrR.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   PANTHER; PTHR33221; PTHR33221; 1.
+DR   Pfam; PF02082; Rrf2; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+DR   TIGRFAMs; TIGR00738; rrf2_super; 1.
+DR   PROSITE; PS01332; HTH_RRF2_1; 1.
+DR   PROSITE; PS51197; HTH_RRF2_2; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; DNA-binding; Iron; Iron-sulfur; Metal-binding; Reference proteome;
+KW   Repressor; Transcription; Transcription regulation.
+FT   CHAIN           1..141
+FT                   /note="HTH-type transcriptional repressor NsrR"
+FT                   /id="PRO_1000085435"
+FT   DOMAIN          2..129
+FT                   /note="HTH rrf2-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   DNA_BIND        28..51
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           91
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           91
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           96
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           96
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           102
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+FT   METAL           102
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01177"
+SQ   SEQUENCE   141 AA;  15649 MW;  8192D4AC0D3F11F9 CRC64;
+     MQLTSFTDYG LRALIYMASL PEGRMTSISE VTEVYGVSRN HMVKIINQLS RMGYVTAVRG
+     KNGGIRLGKP AGQIRVGDVV RDLEPLSLVN CSSEFCHITP ACRLKQALAE AAQSFLKELD
+     NYTLADLVEK NQPLYKLLLV E
+//

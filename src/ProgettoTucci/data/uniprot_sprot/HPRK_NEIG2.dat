@@ -1,0 +1,125 @@
+ID   HPRK_NEIG2              Reviewed;         320 AA.
+AC   B4RK02;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=HPr kinase/phosphorylase {ECO:0000255|HAMAP-Rule:MF_01249};
+DE            Short=HPrK/P {ECO:0000255|HAMAP-Rule:MF_01249};
+DE            EC=2.7.11.- {ECO:0000255|HAMAP-Rule:MF_01249};
+DE            EC=2.7.4.- {ECO:0000255|HAMAP-Rule:MF_01249};
+DE   AltName: Full=HPr(Ser) kinase/phosphorylase {ECO:0000255|HAMAP-Rule:MF_01249};
+GN   Name=hprK {ECO:0000255|HAMAP-Rule:MF_01249}; OrderedLocusNames=NGK_0462;
+OS   Neisseria gonorrhoeae (strain NCCP11945).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=521006;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCCP11945;
+RX   PubMed=18586945; DOI=10.1128/jb.00566-08;
+RA   Chung G.T., Yoo J.S., Oh H.B., Lee Y.S., Cha S.H., Kim S.J., Yoo C.K.;
+RT   "Complete genome sequence of Neisseria gonorrhoeae NCCP11945.";
+RL   J. Bacteriol. 190:6035-6036(2008).
+CC   -!- FUNCTION: Catalyzes the ATP- as well as the pyrophosphate-dependent
+CC       phosphorylation of a specific serine residue in HPr, a phosphocarrier
+CC       protein of the phosphoenolpyruvate-dependent sugar phosphotransferase
+CC       system (PTS). HprK/P also catalyzes the pyrophosphate-producing,
+CC       inorganic phosphate-dependent dephosphorylation (phosphorolysis) of
+CC       seryl-phosphorylated HPr (P-Ser-HPr). {ECO:0000255|HAMAP-
+CC       Rule:MF_01249}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[HPr protein]-L-serine + ATP = [HPr protein]-O-phospho-L-
+CC         serine + ADP + H(+); Xref=Rhea:RHEA:46600, Rhea:RHEA-COMP:11602,
+CC         Rhea:RHEA-COMP:11603, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:83421, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01249};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[HPr protein]-O-phospho-L-serine + H(+) + phosphate = [HPr
+CC         protein]-L-serine + diphosphate; Xref=Rhea:RHEA:46604, Rhea:RHEA-
+CC         COMP:11602, Rhea:RHEA-COMP:11603, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29999, ChEBI:CHEBI:33019, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:83421; Evidence={ECO:0000255|HAMAP-Rule:MF_01249};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01249};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01249}.
+CC   -!- DOMAIN: The Walker A ATP-binding motif also binds Pi and PPi.
+CC       {ECO:0000255|HAMAP-Rule:MF_01249}.
+CC   -!- MISCELLANEOUS: Both phosphorylation and phosphorolysis are carried out
+CC       by the same active site and suggest a common mechanism for both
+CC       reactions. {ECO:0000255|HAMAP-Rule:MF_01249}.
+CC   -!- SIMILARITY: Belongs to the HPrK/P family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01249}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001050; ACF29153.1; -; Genomic_DNA.
+DR   RefSeq; WP_003687702.1; NC_011035.1.
+DR   SMR; B4RK02; -.
+DR   EnsemblBacteria; ACF29153; ACF29153; NGK_0462.
+DR   GeneID; 57106997; -.
+DR   KEGG; ngk:NGK_0462; -.
+DR   HOGENOM; CLU_052030_0_2_4; -.
+DR   OMA; IQKPGLA; -.
+DR   OrthoDB; 391150at2; -.
+DR   Proteomes; UP000002564; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004712; F:protein serine/threonine/tyrosine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006109; P:regulation of carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01918; HprK_C; 1.
+DR   Gene3D; 3.40.1390.20; -; 1.
+DR   HAMAP; MF_01249; HPr_kinase; 1.
+DR   InterPro; IPR003755; HPr(Ser)_kin/Pase.
+DR   InterPro; IPR011104; Hpr_kin/Pase_C.
+DR   InterPro; IPR011126; Hpr_kin/Pase_Hpr_N.
+DR   InterPro; IPR028979; Ser_kin/Pase_Hpr-like_N_sf.
+DR   PANTHER; PTHR30305:SF1; PTHR30305:SF1; 1.
+DR   Pfam; PF07475; Hpr_kinase_C; 1.
+DR   Pfam; PF02603; Hpr_kinase_N; 1.
+DR   SUPFAM; SSF75138; SSF75138; 1.
+DR   TIGRFAMs; TIGR00679; hpr-ser; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Magnesium; Metal-binding; Multifunctional enzyme;
+KW   Nucleotide-binding; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN           1..320
+FT                   /note="HPr kinase/phosphorylase"
+FT                   /id="PRO_1000139906"
+FT   NP_BIND         156..163
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   REGION          204..213
+FT                   /note="Important for the catalytic mechanism of both
+FT                   phosphorylation and dephosphorylation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   REGION          269..274
+FT                   /note="Important for the catalytic mechanism of
+FT                   dephosphorylation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   ACT_SITE        141
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   ACT_SITE        162
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   ACT_SITE        180
+FT                   /note="Proton acceptor; for phosphorylation activity.
+FT                   Proton donor; for dephosphorylation activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   ACT_SITE        248
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   METAL           163
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+FT   METAL           205
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01249"
+SQ   SEQUENCE   320 AA;  35857 MW;  C0AAB0414E184D9F CRC64;
+     MPSISVRRLF DDNQYKLQLA WAAGNSGADN RIGVEADKPV LALVGHLNFI HPNQIQVVGL
+     AESEYLNRLE SGETGYQFGD LFDISMSLVI VANDLPVSPG LRDYCHKNDI PLLTSKLESP
+     YLMDVLRIYL QRTLAASSVK HGVFLDVFEI GVLITGHSGL GKSELALELI SRGHSLIADD
+     AVELFRIGPE TLEGRCSPML RDFLEVRGLG ILNIRHIFGE TSIRPKKILQ LIINLVEADD
+     EYMKQLDRLS IRTETESILN VNVRSVTLPV AVGRNLAVLV EAAVRNYILQ LRGKDSTREF
+     LERHQTQLKE NEQNHENRPD
+//

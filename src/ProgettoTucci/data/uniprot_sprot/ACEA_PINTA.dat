@@ -1,0 +1,109 @@
+ID   ACEA_PINTA              Reviewed;         580 AA.
+AC   Q43097;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-APR-2021, entry version 102.
+DE   RecName: Full=Isocitrate lyase {ECO:0000250|UniProtKB:P28297};
+DE            Short=ICL {ECO:0000250|UniProtKB:P28297};
+DE            EC=4.1.3.1 {ECO:0000250|UniProtKB:P28297};
+DE   AltName: Full=Isocitrase {ECO:0000250|UniProtKB:P28297};
+DE   AltName: Full=Isocitratsysase {ECO:0000250|UniProtKB:P28297};
+GN   Name=ICL 8;
+OS   Pinus taeda (Loblolly pine).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Pinopsida; Pinidae; Pinales; Pinaceae; Pinus;
+OC   Pinus subgen. Pinus.
+OX   NCBI_TaxID=3352;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=9132051; DOI=10.1023/a:1005770724644;
+RA   Mullen R.T., Gifford D.J.;
+RT   "Regulation of two loblolly pine (Pinus taeda L.) isocitrate lyase genes in
+RT   megagametophytes of mature and stratified seeds and during postgerminative
+RT   growth.";
+RL   Plant Mol. Biol. 33:593-604(1997).
+CC   -!- FUNCTION: Involved in storage lipid mobilization during the growth of
+CC       higher plant seedling. {ECO:0000250|UniProtKB:P28297}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-threo-isocitrate = glyoxylate + succinate;
+CC         Xref=Rhea:RHEA:13245, ChEBI:CHEBI:15562, ChEBI:CHEBI:30031,
+CC         ChEBI:CHEBI:36655; EC=4.1.3.1;
+CC         Evidence={ECO:0000250|UniProtKB:P28297};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P9WKK7};
+CC   -!- PATHWAY: Carbohydrate metabolism; glyoxylate cycle; (S)-malate from
+CC       isocitrate: step 1/2. {ECO:0000250|UniProtKB:P28297}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P28297}.
+CC   -!- SUBCELLULAR LOCATION: Glyoxysome {ECO:0000250|UniProtKB:P28297}.
+CC   -!- SIMILARITY: Belongs to the isocitrate lyase/PEP mutase superfamily.
+CC       Isocitrate lyase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U39807; AAC49687.1; -; mRNA.
+DR   PIR; T09779; T09779.
+DR   SMR; Q43097; -.
+DR   OMA; AYVQQIQ; -.
+DR   UniPathway; UPA00703; UER00719.
+DR   GO; GO:0009514; C:glyoxysome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004451; F:isocitrate lyase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006097; P:glyoxylate cycle; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-KW.
+DR   CDD; cd00377; ICL_PEPM; 1.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   InterPro; IPR039556; ICL/PEPM.
+DR   InterPro; IPR006254; Isocitrate_lyase.
+DR   InterPro; IPR018523; Isocitrate_lyase_ph_CS.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_Kinase-like_dom_sf.
+DR   PANTHER; PTHR21631; PTHR21631; 1.
+DR   Pfam; PF00463; ICL; 1.
+DR   PIRSF; PIRSF001362; Isocit_lyase; 1.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   TIGRFAMs; TIGR01346; isocit_lyase; 1.
+DR   PROSITE; PS00161; ISOCITRATE_LYASE; 1.
+PE   2: Evidence at transcript level;
+KW   Glyoxylate bypass; Glyoxysome; Lyase; Magnesium; Metal-binding; Peroxisome;
+KW   Tricarboxylic acid cycle.
+FT   CHAIN           1..580
+FT                   /note="Isocitrate lyase"
+FT                   /id="PRO_0000068809"
+FT   REGION          106..108
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   REGION          216..217
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   REGION          441..445
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   MOTIF           578..580
+FT                   /note="Microbody targeting signal"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        215
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   METAL           177
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   BINDING         252
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+FT   BINDING         476
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WKK7"
+SQ   SEQUENCE   580 AA;  64676 MW;  E85785DAE970D697 CRC64;
+     MAIYSAQAPN SILEEEARFE AEVSETQAWW NSTDLFRLTR RPYTARDVVR LRGSMRQSYA
+     SNEMAKKLWR TLKTHQANKT ASRTFGALDP VQVSMMAKYL DSIYVSGWQC SSTHTTTNEP
+     GPDLADYPYD TVPNKVEHLF FAQQFHDRKQ KEARMSMTRE ERSKTPYIDY LKPIIADGDT
+     GFGGATATVK LCKLFVERGA AGVHIEDQAS VTKKCGHMAG KVLVSVGEHV NRMVAARLQF
+     DIMGVETLLV ARTDAVAATL IQTNVDARDH QFILGATNPN LKGKPLADVL ARAMASGKSG
+     ADLQAVEDEW MAMADLKLFS DCVVDGIKAL NVSEQEKGRR LGEWMQQTGG NTGNVLSYYQ
+     AKELAEKLGI SNLFWDWDLP RTREGFYRFQ GSVKAAIVRG WAFGPHADII WMETSSPDMV
+     ECRDFALGVK SKHPEIMLAY NLSPSFNWDA SRMTDEQMKN FIPEIARLGY CWQFITLAGF
+     HADALVIDTF AKDFAQRGML AYVEKIQRQE MMNGVDTLAH QKWSGANYYD QLLKTVQGGI
+     SATAAMAKGV TEDQFEETQS STLALESNIG AGTVLAKSRM
+//

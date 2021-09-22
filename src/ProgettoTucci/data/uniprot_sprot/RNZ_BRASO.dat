@@ -1,0 +1,112 @@
+ID   RNZ_BRASO               Reviewed;         301 AA.
+AC   A4YN80;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Ribonuclease Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            Short=RNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+DE            EC=3.1.26.11 {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNA 3 endonuclease {ECO:0000255|HAMAP-Rule:MF_01818};
+DE   AltName: Full=tRNase Z {ECO:0000255|HAMAP-Rule:MF_01818};
+GN   Name=rnz {ECO:0000255|HAMAP-Rule:MF_01818}; OrderedLocusNames=BRADO1465;
+OS   Bradyrhizobium sp. (strain ORS 278).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium.
+OX   NCBI_TaxID=114615;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ORS 278;
+RX   PubMed=17540897; DOI=10.1126/science.1139548;
+RA   Giraud E., Moulin L., Vallenet D., Barbe V., Cytryn E., Avarre J.-C.,
+RA   Jaubert M., Simon D., Cartieaux F., Prin Y., Bena G., Hannibal L.,
+RA   Fardoux J., Kojadinovic M., Vuillet L., Lajus A., Cruveiller S., Rouy Z.,
+RA   Mangenot S., Segurens B., Dossat C., Franck W.L., Chang W.-S., Saunders E.,
+RA   Bruce D., Richardson P., Normand P., Dreyfus B., Pignol D., Stacey G.,
+RA   Emerich D., Vermeglio A., Medigue C., Sadowsky M.;
+RT   "Legumes symbioses: absence of nod genes in photosynthetic bradyrhizobia.";
+RL   Science 316:1307-1312(2007).
+CC   -!- FUNCTION: Zinc phosphodiesterase, which displays some tRNA 3'-
+CC       processing endonuclease activity. Probably involved in tRNA maturation,
+CC       by removing a 3'-trailer from precursor tRNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage of RNA, removing extra 3' nucleotides
+CC         from tRNA precursor, generating 3' termini of tRNAs. A 3'-hydroxy
+CC         group is left at the tRNA terminus and a 5'-phosphoryl group is left
+CC         at the trailer molecule.; EC=3.1.26.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01818};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01818};
+CC       Note=Binds 2 Zn(2+) ions. {ECO:0000255|HAMAP-Rule:MF_01818};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01818}.
+CC   -!- SIMILARITY: Belongs to the RNase Z family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01818}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU234118; CAL75356.1; -; Genomic_DNA.
+DR   RefSeq; WP_011924591.1; NC_009445.1.
+DR   SMR; A4YN80; -.
+DR   STRING; 114615.BRADO1465; -.
+DR   EnsemblBacteria; CAL75356; CAL75356; BRADO1465.
+DR   KEGG; bra:BRADO1465; -.
+DR   eggNOG; COG1234; Bacteria.
+DR   HOGENOM; CLU_031317_2_1_5; -.
+DR   OMA; GTQRQMM; -.
+DR   OrthoDB; 1712770at2; -.
+DR   BioCyc; BSP114615:BRADO_RS06885-MONOMER; -.
+DR   Proteomes; UP000001994; Chromosome.
+DR   GO; GO:0042781; F:3'-tRNA processing endoribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   CDD; cd07717; RNaseZ_ZiPD-like_MBL-fold; 1.
+DR   Gene3D; 3.60.15.10; -; 1.
+DR   HAMAP; MF_01818; RNase_Z_BN; 1.
+DR   InterPro; IPR001279; Metallo-B-lactamas.
+DR   InterPro; IPR036866; RibonucZ/Hydroxyglut_hydro.
+DR   InterPro; IPR013471; RNase_Z/BN.
+DR   Pfam; PF12706; Lactamase_B_2; 2.
+DR   SMART; SM00849; Lactamase_B; 1.
+DR   SUPFAM; SSF56281; SSF56281; 1.
+PE   3: Inferred from homology;
+KW   Endonuclease; Hydrolase; Metal-binding; Nuclease; Reference proteome;
+KW   tRNA processing; Zinc.
+FT   CHAIN           1..301
+FT                   /note="Ribonuclease Z"
+FT                   /id="PRO_1000070266"
+FT   ACT_SITE        65
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           61
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           63
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           65
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           66
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           140
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           211
+FT                   /note="Zinc 1; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           211
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+FT   METAL           269
+FT                   /note="Zinc 2; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01818"
+SQ   SEQUENCE   301 AA;  32117 MW;  081537454EC14F35 CRC64;
+     MFELIFLGTS ASVPSHDRNH PGLLVQAGGQ RILVDCGEGI QRQLLASGAG FRRLDRILLT
+     HGHLDHVLGI PGLFSTLRLR RSADVMSVHG SPGTIDVVIR MLAGLWGDGR APIPLELVPL
+     TPGQVLDAGA FTINCFAVRH RDTDSFGFEF VSPARRHLLP ERLAALAVPD GPIRKTLADG
+     YPVTLDDGRI VTPEDVLGTP GGGKKLVIVG DTETTDGLQA HVRGADLLVI EATFLQRDSA
+     TARDYGHLTA AEAAALAASG NVGQLVLNHI SGRYPDEEIL AEARSIFPAT RIASDFDRLT
+     V
+//

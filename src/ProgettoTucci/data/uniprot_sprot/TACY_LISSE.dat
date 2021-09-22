@@ -1,0 +1,124 @@
+ID   TACY_LISSE              Reviewed;         530 AA.
+AC   P31830;
+DT   01-JUL-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1993, sequence version 1.
+DT   10-FEB-2021, entry version 84.
+DE   RecName: Full=Seeligeriolysin {ECO:0000303|PubMed:1543752};
+DE            Short=LSO;
+DE   AltName: Full=Thiol-activated cytolysin;
+DE   Flags: Precursor;
+GN   Name=lso {ECO:0000303|PubMed:1543752};
+OS   Listeria seeligeri.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+OX   NCBI_TaxID=1640;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SLCC;
+RX   PubMed=1543752; DOI=10.1016/0167-4781(92)90466-d;
+RA   Haas A., Dumbsky M., Kreft J.;
+RT   "Listeriolysin genes: complete sequence of ilo from Listeria ivanovii and
+RT   of lso from Listeria seeligeri.";
+RL   Biochim. Biophys. Acta 1130:81-84(1992).
+RN   [2]
+RP   FUNCTION, AND MUTAGENESIS OF PHE-489.
+RC   STRAIN=ATCC 35967;
+RX   PubMed=11583846; DOI=10.1111/j.1574-6968.2001.tb10839.x;
+RA   Ito Y., Kawamura I., Kohda C., Baba H., Kimoto T., Watanabe I., Nomura T.,
+RA   Mitsuyama M.;
+RT   "Difference in cholesterol-binding and cytolytic activities between
+RT   listeriolysin O and seeligeriolysin O: a possible role of alanine residue
+RT   in tryptophan-rich undecapeptide.";
+RL   FEMS Microbiol. Lett. 203:185-189(2001).
+CC   -!- FUNCTION: A cholesterol-dependent toxin that causes cytolysis by
+CC       forming pores in cholesterol containing host membranes. L.seeligeri is
+CC       non-pathogenic, perhaps in part because this protein is about 25% as
+CC       toxic as listeriolysin O. Mutating a single residue in the
+CC       undecapeptide increases toxicity 2-fold (PubMed:11583846). After
+CC       binding to target membranes, the protein undergoes a major conformation
+CC       change, leading to its insertion in the host membrane and formation of
+CC       an oligomeric pore complex. Cholesterol is required for binding to host
+CC       membranes, membrane insertion and pore formation; cholesterol binding
+CC       is mediated by a Thr-Leu pair in the C-terminus. Can be reversibly
+CC       inactivated by oxidation (By similarity).
+CC       {ECO:0000250|UniProtKB:P13128, ECO:0000269|PubMed:11583846}.
+CC   -!- SUBUNIT: Homooligomeric pore complex of 35 to 50 subunits; when
+CC       inserted in the host membrane. {ECO:0000250|UniProtKB:Q04IN8}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P13128}. Host
+CC       cell membrane {ECO:0000250|UniProtKB:P13128}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:Q04IN8}. Note=Secreted as soluble
+CC       protein that then inserts into the host membrane and forms pores formed
+CC       by transmembrane beta-strands. {ECO:0000250|UniProtKB:Q04IN8}.
+CC   -!- SIMILARITY: Belongs to the cholesterol-dependent cytolysin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X60462; CAA42996.1; -; Genomic_DNA.
+DR   PIR; S22340; S22340.
+DR   RefSeq; WP_012984716.1; NC_013891.1.
+DR   SMR; P31830; -.
+DR   STRING; 683837.lse_0183; -.
+DR   GeneID; 32490189; -.
+DR   eggNOG; ENOG502Z7ST; Bacteria.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015485; F:cholesterol binding; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.1430; -; 1.
+DR   Gene3D; 3.90.840.10; -; 1.
+DR   InterPro; IPR035390; Thiol_cytolys_C.
+DR   InterPro; IPR038700; Thiol_cytolys_C_sf.
+DR   InterPro; IPR001869; Thiol_cytolysin.
+DR   InterPro; IPR036363; Thiol_cytolysin_ab_sf.
+DR   InterPro; IPR036359; Thiol_cytolysin_sf.
+DR   Pfam; PF17440; Thiol_cytolys_C; 1.
+DR   Pfam; PF01289; Thiol_cytolysin; 1.
+DR   PRINTS; PR01400; TACYTOLYSIN.
+DR   SUPFAM; SSF56978; SSF56978; 1.
+DR   PROSITE; PS00481; THIOL_CYTOLYSINS; 1.
+PE   1: Evidence at protein level;
+KW   Cytolysis; Hemolysis; Host cell membrane; Host membrane; Lipid-binding;
+KW   Membrane; Secreted; Signal; Toxin; Transmembrane;
+KW   Transmembrane beta strand; Virulence.
+FT   SIGNAL          1..25
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           26..530
+FT                   /note="Seeligeriolysin"
+FT                   /id="PRO_0000034103"
+FT   TRANSMEM        215..228
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        235..244
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        313..322
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        330..342
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   MOTIF           484..494
+FT                   /note="Conserved undecapeptide"
+FT                   /evidence="ECO:0000305"
+FT   MOTIF           516..517
+FT                   /note="Cholesterol binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0C2E9"
+FT   MUTAGEN         489
+FT                   /note="F->A: Doubles toxicity, increases cholesterol
+FT                   binding about 3.5-fold."
+FT                   /evidence="ECO:0000269|PubMed:11583846"
+SQ   SEQUENCE   530 AA;  59182 MW;  416F7A4DD2029866 CRC64;
+     MKIFGLVIMS LLFVSLPITQ QPEARDVPAY DRSEVTISPA ETPESPPATP KTPVEKKHAE
+     EINKYIWGLN YDKNSILVYQ GEAVTNVPPK KGYKDGSEYI VVEKKKKGIN QNNADISVIN
+     AISSLTYPGA LVKANRELVE NQPNVLPVKR DSLTLSVDLP GMTKKDNKIF VKNPTKSNVN
+     NAVNTLVERW NDKYSKAYPN INAKIDYSDE MAYSESQLIA KFGTAFKAVN NSLNVNFEAI
+     SDGKVQEEVI SFKQIYYNIN VNEPTSPSKF FGGSVTKEQL DALGVNAENP PAYISSVAYG
+     RQVYVKLSSS SHSNKVKTAF EAAMSGKSVK GDVELTNIIK NSSFKAVIYG GSAKEEVEII
+     DGNLGELRDI LKKGSTYDRE NPGVPISYTT NFLKDNDLAV VKNNSEYIET TSKSYTDGKI
+     NIDHSGGYVA QFNISWDEVS YDENGNEIKV HKKWGENYKS KLAHFTSSIY LPGNARNINI
+     YARECTGLFW EWWRTVIDDR NLPLVKNRNV SIWGTTLYPR HSNNVDNPIQ
+//

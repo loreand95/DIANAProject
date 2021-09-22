@@ -1,0 +1,216 @@
+ID   CP142_MYCS2             Reviewed;         401 AA.
+AC   A0R4Q6;
+DT   18-JAN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=Steroid C26-monooxygenase {ECO:0000303|PubMed:23489718};
+DE            EC=1.14.15.28 {ECO:0000269|PubMed:23489718, ECO:0000305|PubMed:25210044};
+DE   AltName: Full=Cholest-4-en-3-one C26-monooxygenase {ECO:0000303|PubMed:23489718};
+DE   AltName: Full=Cholest-4-en-3-one C26-monooxygenase [(25R)-3-oxocholest-4-en-26-oate forming] {ECO:0000303|PubMed:23489718};
+DE   AltName: Full=Cholesterol C26-monooxygenase {ECO:0000303|PubMed:23489718};
+DE   AltName: Full=Cholesterol C26-monooxygenase [(25R)-3beta-hydroxycholest-5-en-26-oate forming] {ECO:0000303|PubMed:23489718};
+DE   AltName: Full=Cytochrome P450 142 {ECO:0000303|PubMed:23489718};
+DE   AltName: Full=Steroid C27-monooxygenase {ECO:0000250|UniProtKB:P9WPL5};
+GN   Name=cyp142 {ECO:0000303|PubMed:23489718};
+GN   Synonyms=cyp142A2 {ECO:0000303|PubMed:23489718};
+GN   OrderedLocusNames=MSMEG_5918 {ECO:0000312|EMBL:ABK74975.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.69 ANGSTROMS) OF 4-401 IN COMPLEX WITH HEME,
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR,
+RP   DISRUPTION PHENOTYPE, INDUCTION, SUBSTRATE SPECIFICITY, AND PATHWAY.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=23489718; DOI=10.1111/1462-2920.12108;
+RA   Garcia-Fernandez E., Frank D.J., Galan B., Kells P.M., Podust L.M.,
+RA   Garcia J.L., Ortiz de Montellano P.R.;
+RT   "A highly conserved mycobacterial cholesterol catabolic pathway.";
+RL   Environ. Microbiol. 15:2342-2359(2013).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.78 ANGSTROMS) IN COMPLEX WITH HEME, FUNCTION,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, AND COFACTOR.
+RX   PubMed=25210044; DOI=10.1074/jbc.m114.602771;
+RA   Frank D.J., Madrona Y., Ortiz de Montellano P.R.;
+RT   "Cholesterol ester oxidation by mycobacterial cytochrome P450.";
+RL   J. Biol. Chem. 289:30417-30425(2014).
+CC   -!- FUNCTION: Involved in the utilization of cholesterol as the sole carbon
+CC       and energy source by degrading the side chain. Primarily catalyzes the
+CC       sequential oxidation of the terminal methyl of cholest-4-en-3-one into
+CC       (25R)-26-hydroxycholest-4-en-3-one (alcohol), (25R)-26-oxocholest-4-en-
+CC       3-one (aldehyde), to finally yield the carboxylic acid (25R)-3-
+CC       oxocholest-4-en-26-oate. Also able to sequentially oxidize cholesterol
+CC       itself, not only cholest-4-en-3-one. {ECO:0000269|PubMed:23489718,
+CC       ECO:0000269|PubMed:25210044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholest-4-en-3-one + 5 H(+) + 3 O2 + 6 reduced [2Fe-2S]-
+CC         [ferredoxin] = (25R)-3-oxocholest-4-en-26-oate + 4 H2O + 6 oxidized
+CC         [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:49996, Rhea:RHEA-COMP:10000,
+CC         Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16175, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:71570; EC=1.14.15.28;
+CC         Evidence={ECO:0000269|PubMed:23489718, ECO:0000305|PubMed:25210044};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000269|PubMed:23489718, ECO:0000269|PubMed:25210044};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=10.3 uM for cholest-4-en-3-one {ECO:0000269|PubMed:23489718};
+CC         KM=39.8 uM for cholesteryl sulfate {ECO:0000269|PubMed:25210044};
+CC   -!- PATHWAY: Steroid metabolism; cholesterol degradation.
+CC       {ECO:0000303|PubMed:23489718}.
+CC   -!- INDUCTION: By cholesterol. {ECO:0000269|PubMed:23489718}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene show a slight reduction
+CC       in the levels of cholest-4-en-3-one-26-oate, but the concentration of
+CC       26-hydroxycholest-4-en-3-one is not measurably affected. The levels of
+CC       26-hydroxycholest-4-en-3-one and cholest-4-on-3-one-26-oate are
+CC       drastically reduced in cells lacking both cyp125A3 and cyp142A2.
+CC       {ECO:0000269|PubMed:23489718}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK74975.1; -; Genomic_DNA.
+DR   RefSeq; WP_011730892.1; NZ_SIJM01000017.1.
+DR   RefSeq; YP_890144.1; NC_008596.1.
+DR   PDB; 2YOO; X-ray; 1.69 A; A/B/C/D=4-401.
+DR   PDB; 3ZBY; X-ray; 1.93 A; A/B/C/D/E/F=1-401.
+DR   PDB; 4TRI; X-ray; 2.00 A; A/B=1-401.
+DR   PDB; 4UAX; X-ray; 1.78 A; A=1-401.
+DR   PDBsum; 2YOO; -.
+DR   PDBsum; 3ZBY; -.
+DR   PDBsum; 4TRI; -.
+DR   PDBsum; 4UAX; -.
+DR   SMR; A0R4Q6; -.
+DR   STRING; 246196.MSMEI_5758; -.
+DR   EnsemblBacteria; ABK74975; ABK74975; MSMEG_5918.
+DR   KEGG; msm:MSMEG_5918; -.
+DR   PATRIC; fig|246196.19.peg.5758; -.
+DR   eggNOG; COG2124; Bacteria.
+DR   OMA; AGIHFCI; -.
+DR   OrthoDB; 816674at2; -.
+DR   BioCyc; MSME246196:G1H7P-5886-MONOMER; -.
+DR   UniPathway; UPA01058; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016705; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen; IEA:InterPro.
+DR   GO; GO:0006707; P:cholesterol catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.630.10; -; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR002397; Cyt_P450_B.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00359; BP450.
+DR   PRINTS; PR00385; P450.
+DR   SUPFAM; SSF48264; SSF48264; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cholesterol metabolism; Heme; Iron; Lipid degradation;
+KW   Lipid metabolism; Metal-binding; Monooxygenase; NADP; Oxidoreductase;
+KW   Reference proteome; Steroid metabolism; Sterol metabolism.
+FT   CHAIN           1..401
+FT                   /note="Steroid C26-monooxygenase"
+FT                   /id="PRO_0000438724"
+FT   METAL           343
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000269|PubMed:23489718,
+FT                   ECO:0000269|PubMed:25210044, ECO:0007744|PDB:2YOO,
+FT                   ECO:0007744|PDB:3ZBY, ECO:0007744|PDB:4TRI,
+FT                   ECO:0007744|PDB:4UAX"
+FT   HELIX           15..19
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           23..33
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          35..38
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          44..46
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           49..57
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   TURN            59..61
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          62..64
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          70..72
+FT                   /evidence="ECO:0007744|PDB:4UAX"
+FT   HELIX           78..80
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           85..93
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           94..96
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           99..103
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           106..121
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          124..127
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           128..131
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   TURN            132..134
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           135..145
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           149..151
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           152..163
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          168..170
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           172..198
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           204..209
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           220..235
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           238..251
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           253..261
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           263..265
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           266..277
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          282..289
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          291..293
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          296..298
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          303..307
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           308..311
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           315..318
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           339..341
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   HELIX           346..363
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          368..371
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          381..383
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+FT   STRAND          390..392
+FT                   /evidence="ECO:0007744|PDB:2YOO"
+SQ   SEQUENCE   401 AA;  44901 MW;  9195ECA2F9D8D509 CRC64;
+     MTQMLTRPDV DLVNGMFYAD GGAREAYRWM RANEPVFRDR NGLAAATTYQ AVLDAERNPE
+     LFSSTGGIRP DQPGMPYMID MDDPQHLLRR KLVNAGFTRK RVMDKVDSIG RLCDTLIDAV
+     CERGECDFVR DIAAPLPMAV IGDMLGVLPT ERDMLLKWSD DLVCGLSSHV DEAAIQKLMD
+     TFAAYTEFTK DVITKRRAEP TDDLFSVLVN SEVEGQRMSD DEIVFETLLI LIGGDETTRH
+     TLSGGTEQLL RHRDQWDALV ADVDLLPGAI EEMLRWTSPV KNMCRTLTAD TVFHGTELRA
+     GEKIMLMFES ANFDESVFGD PDNFRIDRNP NSHVAFGFGT HFCLGNQLAR LELRLMTERV
+     LRRLPDLRLA DDAPVPLRPA NFVSGPESMP VVFTPSAPVL A
+//

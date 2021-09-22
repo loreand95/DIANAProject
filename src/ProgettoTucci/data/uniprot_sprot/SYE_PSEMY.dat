@@ -1,0 +1,122 @@
+ID   SYE_PSEMY               Reviewed;         493 AA.
+AC   A4XVX2;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   10-FEB-2021, entry version 89.
+DE   RecName: Full=Glutamate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00022};
+DE            EC=6.1.1.17 {ECO:0000255|HAMAP-Rule:MF_00022};
+DE   AltName: Full=Glutamyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00022};
+DE            Short=GluRS {ECO:0000255|HAMAP-Rule:MF_00022};
+GN   Name=gltX {ECO:0000255|HAMAP-Rule:MF_00022}; OrderedLocusNames=Pmen_2733;
+OS   Pseudomonas mendocina (strain ymp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=399739;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ymp;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Kiss H., Brettin T., Detter J.C., Bruce D., Han C.,
+RA   Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N.,
+RA   Hersman L., Dubois J., Maurice P., Richardson P.;
+RT   "Complete sequence of Pseudomonas mendocina ymp.";
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the attachment of glutamate to tRNA(Glu) in a two-
+CC       step reaction: glutamate is first activated by ATP to form Glu-AMP and
+CC       then transferred to the acceptor end of tRNA(Glu). {ECO:0000255|HAMAP-
+CC       Rule:MF_00022}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-glutamate + tRNA(Glu) = AMP + diphosphate + L-
+CC         glutamyl-tRNA(Glu); Xref=Rhea:RHEA:23540, Rhea:RHEA-COMP:9663,
+CC         Rhea:RHEA-COMP:9680, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78520,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00022};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00022};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00022};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00022}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00022}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       Glutamate--tRNA ligase type 1 subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00022}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000680; ABP85488.1; -; Genomic_DNA.
+DR   RefSeq; WP_012018956.1; NC_009439.1.
+DR   SMR; A4XVX2; -.
+DR   STRING; 399739.Pmen_2733; -.
+DR   EnsemblBacteria; ABP85488; ABP85488; Pmen_2733.
+DR   KEGG; pmy:Pmen_2733; -.
+DR   PATRIC; fig|399739.8.peg.2763; -.
+DR   eggNOG; COG0008; Bacteria.
+DR   HOGENOM; CLU_015768_6_3_6; -.
+DR   OMA; WDEGPFF; -.
+DR   OrthoDB; 1409413at2; -.
+DR   BioCyc; PMEN399739:PMEN_RS13795-MONOMER; -.
+DR   Proteomes; UP000000229; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004818; F:glutamate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006424; P:glutamyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00808; GluRS_core; 1.
+DR   Gene3D; 1.10.10.350; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00022; Glu_tRNA_synth_type1; 1.
+DR   InterPro; IPR008925; aa-tRNA-synth_I_codon-bd.
+DR   InterPro; IPR020751; aa-tRNA-synth_I_codon-bd_sub2.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR004527; Glu-tRNA-ligase_bac/mito.
+DR   InterPro; IPR000924; Glu/Gln-tRNA-synth.
+DR   InterPro; IPR020058; Glu/Gln-tRNA-synth_Ib_cat-dom.
+DR   InterPro; IPR033910; GluRS_core.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00749; tRNA-synt_1c; 1.
+DR   PRINTS; PR00987; TRNASYNTHGLU.
+DR   SUPFAM; SSF48163; SSF48163; 1.
+DR   TIGRFAMs; TIGR00464; gltX_bact; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..493
+FT                   /note="Glutamate--tRNA ligase"
+FT                   /id="PRO_1000001940"
+FT   MOTIF           10..20
+FT                   /note="'HIGH' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   MOTIF           251..255
+FT                   /note="'KMSKS' region"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   METAL           107
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   METAL           109
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   METAL           134
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   METAL           136
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+FT   BINDING         254
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00022"
+SQ   SEQUENCE   493 AA;  56407 MW;  E2E686CBB1018F8D CRC64;
+     MTTVRTRIAP SPTGDPHVGT AYIALFNLCF ARQHGGQFIL RIEDTDQLRS TRESEQQIFD
+     ALRWLGIEWD EGPDVGGPHG PYRQSERGEI YKQYSDELVA KGHAFPCFCS AERLDEVRAQ
+     QMANKETPRY DGHCMHLDPA EAQRRIAAGE SHVVRMKVPS EGVCVVPDML RGDVEIPWDR
+     MDMQVLMKAD GLPTYFLANV VDDHLMGITH VLRGEEWLPS APKLIKLYEY FGWEQPALCY
+     MPLLRNPDKS KLSKRKNPTS ITFYERMGYL PQAMLNYLGR MGWSMPDERE KFSLNEMIEH
+     FDINRVSLGG PIFDLEKLSW LNGQWLRELP VETFAAEVQK WALNPEYLMK IAPHVQGRVE
+     TFSQIAPLAG FFFSGALNLD AKLFEHKKLS PDQVRQLMQL ILWKLESLRQ WEKERITGCI
+     QAVVEHLELK LRDAMPLMFA AITGQASSVS VLDAMEILGP DLTRFRLRQA LELLGGTSKK
+     ETKEWEKLLA SIA
+//

@@ -1,0 +1,103 @@
+ID   ALR_RICFE               Reviewed;         462 AA.
+AC   Q4UNC8;
+DT   23-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2005, sequence version 1.
+DT   02-DEC-2020, entry version 92.
+DE   RecName: Full=Alanine racemase {ECO:0000255|HAMAP-Rule:MF_01201};
+DE            EC=5.1.1.1 {ECO:0000255|HAMAP-Rule:MF_01201};
+GN   Name=alr; OrderedLocusNames=RF_0079;
+OS   Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) (Rickettsia azadi).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=315456;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-1525 / URRWXCal2;
+RX   PubMed=15984913; DOI=10.1371/journal.pbio.0030248;
+RA   Ogata H., Renesto P., Audic S., Robert C., Blanc G., Fournier P.-E.,
+RA   Parinello H., Claverie J.-M., Raoult D.;
+RT   "The genome sequence of Rickettsia felis identifies the first putative
+RT   conjugative plasmid in an obligate intracellular parasite.";
+RL   PLoS Biol. 3:1-12(2005).
+CC   -!- FUNCTION: Catalyzes the interconversion of L-alanine and D-alanine. May
+CC       also act on other amino acids. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine = D-alanine; Xref=Rhea:RHEA:20249,
+CC         ChEBI:CHEBI:57416, ChEBI:CHEBI:57972; EC=5.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- PATHWAY: Amino-acid biosynthesis; D-alanine biosynthesis; D-alanine
+CC       from L-alanine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- SIMILARITY: Belongs to the alanine racemase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01201}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000053; AAY60930.1; -; Genomic_DNA.
+DR   RefSeq; WP_011270434.1; NC_007109.1.
+DR   STRING; 315456.RF_0079; -.
+DR   EnsemblBacteria; AAY60930; AAY60930; RF_0079.
+DR   KEGG; rfe:RF_0079; -.
+DR   eggNOG; COG0787; Bacteria.
+DR   HOGENOM; CLU_028393_1_1_5; -.
+DR   OMA; VEILFIM; -.
+DR   OrthoDB; 859043at2; -.
+DR   BioCyc; RFEL315456:G1G4G-132-MONOMER; -.
+DR   UniPathway; UPA00042; UER00497.
+DR   Proteomes; UP000008548; Chromosome.
+DR   GO; GO:0008784; F:alanine racemase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030632; P:D-alanine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.10; -; 1.
+DR   HAMAP; MF_01201; Ala_racemase; 1.
+DR   InterPro; IPR000821; Ala_racemase.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR011079; Ala_racemase_C.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR020622; Ala_racemase_pyridoxalP-BS.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   InterPro; IPR005728; Rickett_RPE.
+DR   Pfam; PF00842; Ala_racemase_C; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   SMART; SM01005; Ala_racemase_C; 1.
+DR   SUPFAM; SSF50621; SSF50621; 1.
+DR   SUPFAM; SSF51419; SSF51419; 2.
+DR   TIGRFAMs; TIGR01045; RPE1; 1.
+DR   PROSITE; PS00395; ALANINE_RACEMASE; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Pyridoxal phosphate.
+FT   CHAIN           1..462
+FT                   /note="Alanine racemase"
+FT                   /id="PRO_0000272405"
+FT   DOMAIN          286..332
+FT                   /note="RPE1 insert"
+FT   REGION          73..132
+FT                   /note="Unknown insert"
+FT   ACT_SITE        34
+FT                   /note="Proton acceptor; specific for D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   ACT_SITE        357
+FT                   /note="Proton acceptor; specific for L-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         193
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         405
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   MOD_RES         34
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+SQ   SEQUENCE   462 AA;  51764 MW;  B1739EA66F516316 CRC64;
+     MSLCTLEINL SAIKNNYLLL QDICKTSLVG AAVKANGYGL GAVQISKALI EENCRHFFVA
+     SSEEGVNLRK ALASWHESVF RHCEKNYTVI RRSNPVKNSV SQNFFNYFSG LQQCFAPRND
+     GSSIHATTPK ALDNDVNILV LNGVFEHDAL ELIEYNLTPV LNNLKQIEIW QKFSNLKNRL
+     LPCYLHFNTG INRLGLTHNE IEQLINNRDL LKGLDLQYII SHLAVSEEID NPYNLEQLNR
+     FKTYLQYFPN VKASLANSGG IFLGQDYHFD LARPGAALYG LNPVIDLSNN LSYKEEFEGD
+     TERRTAAYIN VREDSSTGST YKLPLEGGYS RGLQNPVTLK APIIHLQNLT LDSHIGYNMT
+     FTTERDSVIA TLPLGYADGF SRNFSNQGEV FINGRSVPIV GRISMDLINI DVTDLPPLDI
+     FLGQEAEIIG NYCTPDKIAS IIGTIGYEVL TSLGSRYKRI YK
+//

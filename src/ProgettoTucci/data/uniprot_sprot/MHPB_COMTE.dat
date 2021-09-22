@@ -1,0 +1,86 @@
+ID   MHPB_COMTE              Reviewed;         321 AA.
+AC   Q9S157;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   11-DEC-2019, entry version 62.
+DE   RecName: Full=2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic acid 1,2-dioxygenase;
+DE            EC=1.13.11.16;
+DE   AltName: Full=3-carboxyethylcatechol 2,3-dioxygenase;
+GN   Name=mhpB;
+OS   Comamonas testosteroni (Pseudomonas testosteroni).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Comamonas.
+OX   NCBI_TaxID=285;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION IN CATABOLISM OF 3-HYDROXY
+RP   DERIVATIVES OF PHENYLPROPIONIC ACID, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=TA441;
+RX   PubMed=10537203; DOI=10.1099/00221287-145-10-2813;
+RA   Arai H., Yamamoto T., Ohishi T., Shimizu T., Nakata T., Kudo T.;
+RT   "Genetic organization and characteristics of the 3-(3-
+RT   hydroxyphenyl)propionic acid degradation pathway of Comamonas testosteroni
+RT   TA441.";
+RL   Microbiology 145:2813-2820(1999).
+CC   -!- FUNCTION: Catalyzes the non-heme iron(II)-dependent oxidative cleavage
+CC       of 2,3-dihydroxyphenylpropionic acid and 2,3-dihydroxicinnamic acid
+CC       into 2-hydroxy-6-ketononadienedioate and 2-hydroxy-6-
+CC       ketononatrienedioate, respectively. {ECO:0000269|PubMed:10537203}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-(2,3-dihydroxyphenyl)propanoate + O2 = (2Z,4E)-2-hydroxy-6-
+CC         oxonona-2,4-dienedioate + H(+); Xref=Rhea:RHEA:23840,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:46951,
+CC         ChEBI:CHEBI:66887; EC=1.13.11.16;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E)-3-(2,3-dihydroxyphenyl)prop-2-enoate + O2 = (2Z,4E,7E)-2-
+CC         hydroxy-6-oxonona-2,4,7-trienedioate + H(+); Xref=Rhea:RHEA:25054,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:58642,
+CC         ChEBI:CHEBI:66888; EC=1.13.11.16;
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033; Evidence={ECO:0000250};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         Vmax=0.73 umol/min/mg enzyme with 3-(2,3-dihydroxyphenyl)propanoate
+CC         (at pH 7.5) {ECO:0000269|PubMed:10537203};
+CC         Vmax=0.45 umol/min/mg enzyme withd 2,3-dihydroxybiphenyl (at pH 7.5)
+CC         {ECO:0000269|PubMed:10537203};
+CC         Vmax=0.22 umol/min/mg enzyme withd 3-methylcatechol (at pH 7.5)
+CC         {ECO:0000269|PubMed:10537203};
+CC         Vmax=0.10 umol/min/mg enzyme withd catechol (at pH 7.5)
+CC         {ECO:0000269|PubMed:10537203};
+CC   -!- PATHWAY: Aromatic compound metabolism; 3-phenylpropanoate degradation.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the LigB/MhpB extradiol dioxygenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB024335; BAA82879.1; -; Genomic_DNA.
+DR   UniPathway; UPA00714; -.
+DR   GO; GO:0047070; F:3-carboxyethylcatechol 2,3-dioxygenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008198; F:ferrous iron binding; IEA:InterPro.
+DR   GO; GO:0019380; P:3-phenylpropionate catabolic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01653; MhpB; 1.
+DR   InterPro; IPR023789; DHPP/DHXA_dioxygenase.
+DR   InterPro; IPR004183; Xdiol_dOase_suB.
+DR   Pfam; PF02900; LigB; 1.
+PE   1: Evidence at protein level;
+KW   Aromatic hydrocarbons catabolism; Dioxygenase; Iron; Oxidoreductase.
+FT   CHAIN           1..321
+FT                   /note="2,3-dihydroxyphenylpropionate/2,3-dihydroxicinnamic
+FT                   acid 1,2-dioxygenase"
+FT                   /id="PRO_0000337647"
+FT   ACT_SITE        123
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        189
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   321 AA;  34366 MW;  6FC238E939E5CF64 CRC64;
+     MSGSAIATAR RAFLGMSHSP LLGLNPVAAD DQIAIDKAIA AARAAVHEFA PELIVLLGPD
+     HYNGFFNELM PPFCIGSQAT AVGDYLSPAG PLNVAGELAI ALADHLMDRH FDIAVSRRML
+     VDHGFSQALQ FLWGDEMDTP PVIPIFMNAV AQPGIARMAR CKALGEGVGS FLDQLPLRTL
+     LIGSGGLSHE PPVPTLAHPD PAVRERITVR STPTEQEREL KTERVKAAGL ALAHGDSWMK
+     PLNPEWDLQW MDAMASGQLD GLCAMNEASI GAMAGNSAHE SKTWLVARSA LPANTRLSCP
+     VRAYRAIPSL IAGYGVMFMH H
+//

@@ -1,0 +1,83 @@
+ID   CYSC_BACV8              Reviewed;         204 AA.
+AC   A6KXG9;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2007, sequence version 1.
+DT   02-DEC-2020, entry version 74.
+DE   RecName: Full=Adenylyl-sulfate kinase {ECO:0000255|HAMAP-Rule:MF_00065};
+DE            EC=2.7.1.25 {ECO:0000255|HAMAP-Rule:MF_00065};
+DE   AltName: Full=APS kinase {ECO:0000255|HAMAP-Rule:MF_00065};
+DE   AltName: Full=ATP adenosine-5'-phosphosulfate 3'-phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00065};
+DE   AltName: Full=Adenosine-5'-phosphosulfate kinase {ECO:0000255|HAMAP-Rule:MF_00065};
+GN   Name=cysC {ECO:0000255|HAMAP-Rule:MF_00065}; OrderedLocusNames=BVU_0418;
+OS   Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 /
+OS   NCTC 11154).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Phocaeicola.
+OX   NCBI_TaxID=435590;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 / NCTC 11154;
+RX   PubMed=17579514; DOI=10.1371/journal.pbio.0050156;
+RA   Xu J., Mahowald M.A., Ley R.E., Lozupone C.A., Hamady M., Martens E.C.,
+RA   Henrissat B., Coutinho P.M., Minx P., Latreille P., Cordum H.,
+RA   Van Brunt A., Kim K., Fulton R.S., Fulton L.A., Clifton S.W., Wilson R.K.,
+RA   Knight R.D., Gordon J.I.;
+RT   "Evolution of symbiotic bacteria in the distal human intestine.";
+RL   PLoS Biol. 5:1574-1586(2007).
+CC   -!- FUNCTION: Catalyzes the synthesis of activated sulfate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00065}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine 5'-phosphosulfate + ATP = 3'-phosphoadenylyl sulfate
+CC         + ADP + H(+); Xref=Rhea:RHEA:24152, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58243, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:456216; EC=2.7.1.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00065};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; sulfite from
+CC       sulfate: step 2/3. {ECO:0000255|HAMAP-Rule:MF_00065}.
+CC   -!- SIMILARITY: Belongs to the APS kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00065}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000139; ABR38133.1; -; Genomic_DNA.
+DR   RefSeq; WP_005840188.1; NC_009614.1.
+DR   SMR; A6KXG9; -.
+DR   STRING; 435590.BVU_0418; -.
+DR   EnsemblBacteria; ABR38133; ABR38133; BVU_0418.
+DR   GeneID; 5301387; -.
+DR   KEGG; bvu:BVU_0418; -.
+DR   eggNOG; COG0529; Bacteria.
+DR   HOGENOM; CLU_046932_1_0_10; -.
+DR   OMA; NIYPIFD; -.
+DR   OrthoDB; 1574819at2; -.
+DR   BioCyc; BVUL435590:G1G59-438-MONOMER; -.
+DR   UniPathway; UPA00140; UER00205.
+DR   Proteomes; UP000002861; Chromosome.
+DR   GO; GO:0004020; F:adenylylsulfate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   CDD; cd02027; APSK; 1.
+DR   HAMAP; MF_00065; Adenylyl_sulf_kinase; 1.
+DR   InterPro; IPR002891; APS_kinase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00455; apsK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..204
+FT                   /note="Adenylyl-sulfate kinase"
+FT                   /id="PRO_1000202408"
+FT   NP_BIND         34..41
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00065"
+FT   ACT_SITE        108
+FT                   /note="Phosphoserine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00065"
+SQ   SEQUENCE   204 AA;  22680 MW;  28B930EB62EDD347 CRC64;
+     MEEENIYPIF DRMLSRKDKE ELLGQRGVML WLTGLSGSGK STIAIALERE LHKRGLLCRI
+     LDGDNIRSGI NNNLGFSAED RVENIRRIAE IGKLFVDTGI ITIAAFISPG NELRQMAARI
+     IGIEDFLEIY VSTPLVECEK RDVKGLYAKA RRGEIKNFTG ISAPFEAPEH PALSLDTSKL
+     SLEESVNTLL ELVLPIVGKK GEKI
+//

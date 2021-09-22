@@ -1,0 +1,100 @@
+ID   MNMG_PSEF5              Reviewed;         630 AA.
+AC   Q4K399;
+DT   08-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 88.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Synonyms=gidA {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   OrderedLocusNames=PFL_6226;
+OS   Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=220664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-477 / NRRL B-23932 / Pf-5;
+RX   PubMed=15980861; DOI=10.1038/nbt1110;
+RA   Paulsen I.T., Press C.M., Ravel J., Kobayashi D.Y., Myers G.S.A.,
+RA   Mavrodi D.V., DeBoy R.T., Seshadri R., Ren Q., Madupu R., Dodson R.J.,
+RA   Durkin A.S., Brinkac L.M., Daugherty S.C., Sullivan S.A., Rosovitz M.J.,
+RA   Gwinn M.L., Zhou L., Schneider D.J., Cartinhour S.W., Nelson W.C.,
+RA   Weidman J., Watkins K., Tran K., Khouri H., Pierson E.A., Pierson L.S. III,
+RA   Thomashow L.S., Loper J.E.;
+RT   "Complete genome sequence of the plant commensal Pseudomonas fluorescens
+RT   Pf-5.";
+RL   Nat. Biotechnol. 23:873-878(2005).
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000076; AAY95414.1; -; Genomic_DNA.
+DR   RefSeq; WP_011064390.1; NC_004129.6.
+DR   SMR; Q4K399; -.
+DR   STRING; 220664.PFL_6226; -.
+DR   EnsemblBacteria; AAY95414; AAY95414; PFL_6226.
+DR   KEGG; pfl:PFL_6226; -.
+DR   PATRIC; fig|220664.5.peg.6357; -.
+DR   eggNOG; COG0445; Bacteria.
+DR   HOGENOM; CLU_007831_2_2_6; -.
+DR   OMA; FRPGYAI; -.
+DR   OrthoDB; 146811at2; -.
+DR   BioCyc; PPRO220664:G1G4K-6408-MONOMER; -.
+DR   Proteomes; UP000008540; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR026904; GidA-assoc_3.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR040131; MnmG_N.
+DR   PANTHER; PTHR11806; PTHR11806; 1.
+DR   PANTHER; PTHR11806:SF0; PTHR11806:SF0; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_assoc; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00136; gidA; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+DR   PROSITE; PS01281; GIDA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; tRNA processing.
+FT   CHAIN           1..630
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme MnmG"
+FT                   /id="PRO_0000117154"
+FT   NP_BIND         13..18
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   NP_BIND         273..287
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   630 AA;  69014 MW;  BF4B2F473C22F1DA CRC64;
+     MDFPSRFEVI VIGGGHAGTE AALASARMGA KTLLLTHNVE TLGAMSCNPA IGGIGKSHLV
+     KEIDALGGAM AMATDKGGIQ FRVLNSRKGP AVRATRAQAD RILYKAAVRE ILENQPNLWI
+     FQQAADDLIV EQDQVRGVVT QMGLRFFAES VVLTTGTFLG GLIHIGMQNY SGGRAGDPPS
+     IALAQRLREL PLRVGRLKTG TPPRIDGRSV DFSVMTEQPG DTPIPVMSFL GSKEQHPPQV
+     SCWITHTNAR THEIIASNLD RSPMYSGVIE GIGPRYCPSI EDKIHRFADK ESHQVFIEPE
+     GLTTHELYPN GISTSLPFDV QLQIVQSIRG MENAHIVRPG YAIEYDYFDP RDLKYSLETK
+     VIGGLFFAGQ INGTTGYEEA GAQGLLAGAN AALRAQGKDS WCPRRDEAYI GVLVDDLITL
+     GTQEPYRMFT SRAEYRLILR EDNADLRLTE KGRELGLVDD VRWAAFCKKR EGIAQEEQRL
+     KSTWVRPGTE QGDAIAQKFG TPLTHEYNLL NLLSRPEIDY AGLVEVTGQG AEDPQVAEQV
+     EIKTKYAGYI DRQQDEIARL RASEDTKLPV DIDYSGISGL SKEIQSKLGA TRPETLGQAS
+     RIPGVTPAAI SLLMIHLKKR GAGRQLEQSA
+//

@@ -1,0 +1,117 @@
+ID   ACCD_CHLL2              Reviewed;         279 AA.
+AC   B3EFW3;
+DT   15-DEC-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-JUL-2008, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            Short=ACCase subunit beta {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            Short=Acetyl-CoA carboxylase carboxyltransferase subunit beta {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            EC=2.1.3.15 {ECO:0000255|HAMAP-Rule:MF_01395};
+GN   Name=accD {ECO:0000255|HAMAP-Rule:MF_01395}; OrderedLocusNames=Clim_0403;
+OS   Chlorobium limicola (strain DSM 245 / NBRC 103803 / 6330).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae;
+OC   Chlorobium/Pelodictyon group; Chlorobium.
+OX   NCBI_TaxID=290315;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 245 / NBRC 103803 / 6330;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Ovchinnikova G., Zhao F., Li T., Liu Z.,
+RA   Overmann J., Bryant D.A., Richardson P.;
+RT   "Complete sequence of Chlorobium limicola DSM 245.";
+RL   Submitted (MAY-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Component of the acetyl coenzyme A carboxylase (ACC) complex.
+CC       Biotin carboxylase (BC) catalyzes the carboxylation of biotin on its
+CC       carrier protein (BCCP) and then the CO(2) group is transferred by the
+CC       transcarboxylase to acetyl-CoA to form malonyl-CoA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01395}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + N(6)-carboxybiotinyl-L-lysyl-[protein] = malonyl-
+CC         CoA + N(6)-biotinyl-L-lysyl-[protein]; Xref=Rhea:RHEA:54728,
+CC         Rhea:RHEA-COMP:10505, Rhea:RHEA-COMP:10506, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:83144, ChEBI:CHEBI:83145; EC=2.1.3.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01395};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01395};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01395};
+CC   -!- PATHWAY: Lipid metabolism; malonyl-CoA biosynthesis; malonyl-CoA from
+CC       acetyl-CoA: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01395}.
+CC   -!- SUBUNIT: Acetyl-CoA carboxylase is a heterohexamer composed of biotin
+CC       carboxyl carrier protein (AccB), biotin carboxylase (AccC) and two
+CC       subunits each of ACCase subunit alpha (AccA) and ACCase subunit beta
+CC       (AccD). {ECO:0000255|HAMAP-Rule:MF_01395}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01395}.
+CC   -!- SIMILARITY: Belongs to the AccD/PCCB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01395}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001097; ACD89496.1; -; Genomic_DNA.
+DR   RefSeq; WP_012465377.1; NC_010803.1.
+DR   SMR; B3EFW3; -.
+DR   STRING; 290315.Clim_0403; -.
+DR   EnsemblBacteria; ACD89496; ACD89496; Clim_0403.
+DR   KEGG; cli:Clim_0403; -.
+DR   eggNOG; COG0777; Bacteria.
+DR   HOGENOM; CLU_015486_1_0_10; -.
+DR   OMA; PEGLWIK; -.
+DR   OrthoDB; 504557at2; -.
+DR   BioCyc; CLIM290315:G1GC7-423-MONOMER; -.
+DR   UniPathway; UPA00655; UER00711.
+DR   Proteomes; UP000008841; Chromosome.
+DR   GO; GO:0009317; C:acetyl-CoA carboxylase complex; IEA:InterPro.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016743; F:carboxyl- or carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:2001295; P:malonyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01395; AcetylCoA_CT_beta; 1.
+DR   InterPro; IPR034733; AcCoA_carboxyl.
+DR   InterPro; IPR000438; Acetyl_CoA_COase_Trfase_b_su.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR011762; COA_CT_N.
+DR   InterPro; IPR041010; Znf-ACC.
+DR   Pfam; PF01039; Carboxyl_trans; 1.
+DR   Pfam; PF17848; zf-ACC; 1.
+DR   PRINTS; PR01070; ACCCTRFRASEB.
+DR   SUPFAM; SSF52096; SSF52096; 1.
+DR   TIGRFAMs; TIGR00515; accD; 1.
+DR   PROSITE; PS50980; COA_CT_NTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..279
+FT                   /note="Acetyl-coenzyme A carboxylase carboxyl transferase
+FT                   subunit beta"
+FT                   /id="PRO_0000389715"
+FT   DOMAIN          23..279
+FT                   /note="CoA carboxyltransferase N-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01136"
+FT   ZN_FING         27..49
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           27
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           30
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           46
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           49
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+SQ   SEQUENCE   279 AA;  31122 MW;  06C0513445287C23 CRC64;
+     MVWFKRVKPS IRTTDKRDVP EGLWWKCEEC GAMIHKKQLE DHVYTCSDCG YHFRISPYRY
+     FSILFDNDTY QEFDDALRAG DPLGFTDTKK YSDRVHDTIG KSGKTEACRN AWGEVGGNPL
+     VVSAMDFGFI GGSMGSVVGE KISRAVDKAV ELNAPLLVIS QSGGARMMEG AFSLMQMAKT
+     SARLTLLSEK RLPFFSLMTD PTMGGITASF AMLGDVNLSE PKALIGFAGP RVIRDTIKRD
+     LPEGFQRAEF LHEQGFVDCI VHRKELKSQI VRLAGMLKV
+//

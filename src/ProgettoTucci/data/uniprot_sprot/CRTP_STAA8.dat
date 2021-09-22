@@ -1,0 +1,115 @@
+ID   CRTP_STAA8              Reviewed;         497 AA.
+AC   Q2FV57;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   10-FEB-2021, entry version 94.
+DE   RecName: Full=4,4'-diaponeurosporene oxygenase {ECO:0000303|PubMed:15933032};
+DE            EC=1.14.99.- {ECO:0000305|PubMed:15933032};
+DE   AltName: Full=4,4'-diaponeurosporene oxidase {ECO:0000303|PubMed:22535955};
+DE   AltName: Full=Carotenoid oxidase {ECO:0000303|PubMed:15933032};
+GN   Name=crtP {ECO:0000303|PubMed:22535955};
+GN   Synonyms=crtNb {ECO:0000303|PubMed:15933032};
+GN   OrderedLocusNames=SAOUHSC_02881;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND SUBSTRATE SPECIFICITY.
+RC   STRAIN=NCTC 8325 / PS 47;
+RX   PubMed=15933032; DOI=10.1128/aem.71.6.3294-3301.2005;
+RA   Tao L., Schenzle A., Odom J.M., Cheng Q.;
+RT   "Novel carotenoid oxidase involved in biosynthesis of 4,4'-diapolycopene
+RT   dialdehyde.";
+RL   Appl. Environ. Microbiol. 71:3294-3301(2005).
+RN   [3]
+RP   FUNCTION, AND PATHWAY.
+RC   STRAIN=KCTC 1928;
+RX   PubMed=22535955; DOI=10.1074/jbc.m112.343020;
+RA   Kim S.H., Lee P.C.;
+RT   "Functional expression and extension of staphylococcal staphyloxanthin
+RT   biosynthetic pathway in Escherichia coli.";
+RL   J. Biol. Chem. 287:21575-21583(2012).
+CC   -!- FUNCTION: Involved in the biosynthesis of the yellow-orange carotenoid
+CC       staphyloxanthin, which plays a role in the virulence via its protective
+CC       function against oxidative stress (PubMed:15933032, PubMed:22535955).
+CC       Catalyzes the oxidation of the terminal methyl side group of 4,4'-
+CC       diaponeurosporene to form 4,4'-diaponeurosporen-4-al (PubMed:15933032,
+CC       PubMed:22535955). {ECO:0000269|PubMed:15933032,
+CC       ECO:0000269|PubMed:22535955}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 AH2 + all-trans-4,4'-diaponeurosporene + 2 O2 = 4,4'-
+CC         diaponeurosporenal + 2 A + 3 H2O; Xref=Rhea:RHEA:56104,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:62743, ChEBI:CHEBI:79065;
+CC         Evidence={ECO:0000305|PubMed:15933032};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000250|UniProtKB:P21685};
+CC   -!- PATHWAY: Carotenoid biosynthesis; staphyloxanthin biosynthesis;
+CC       staphyloxanthin from farnesyl diphosphate: step 3/5.
+CC       {ECO:0000269|PubMed:22535955}.
+CC   -!- MISCELLANEOUS: Upon coexpression with Methylomonas 4,4'-diapophytoene
+CC       desaturase (CrtN), CrtP produces 4,4'-diapolycopene dialdehyde, thus
+CC       accepting 4,4'-diapolycopene as substrate.
+CC       {ECO:0000269|PubMed:15933032}.
+CC   -!- SIMILARITY: Belongs to the carotenoid/retinoid oxidoreductase family.
+CC       CrtP subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000253; ABD31878.1; -; Genomic_DNA.
+DR   RefSeq; WP_000160456.1; NZ_LS483365.1.
+DR   RefSeq; YP_501335.1; NC_007795.1.
+DR   SMR; Q2FV57; -.
+DR   STRING; 1280.SAXN108_2815; -.
+DR   EnsemblBacteria; ABD31878; ABD31878; SAOUHSC_02881.
+DR   GeneID; 3921551; -.
+DR   KEGG; sao:SAOUHSC_02881; -.
+DR   PATRIC; fig|93061.5.peg.2604; -.
+DR   eggNOG; COG1233; Bacteria.
+DR   HOGENOM; CLU_019722_2_1_9; -.
+DR   OMA; FTMRWVF; -.
+DR   BioCyc; MetaCyc:MONOMER-13879; -.
+DR   UniPathway; UPA00029; UER00558.
+DR   PRO; PR:Q2FV57; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016117; P:carotenoid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   InterPro; IPR002937; Amino_oxidase.
+DR   InterPro; IPR014105; Carotenoid/retinoid_OxRdtase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   Pfam; PF01593; Amino_oxidase; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR02734; crtI_fam; 1.
+PE   1: Evidence at protein level;
+KW   Carotenoid biosynthesis; FAD; Flavoprotein; Oxidoreductase;
+KW   Reference proteome; Virulence.
+FT   CHAIN           1..497
+FT                   /note="4,4'-diaponeurosporene oxygenase"
+FT                   /id="PRO_0000285231"
+FT   NP_BIND         7..19
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   497 AA;  57187 MW;  20C55EC59459ABF8 CRC64;
+     MTKHIIVIGG GLGGISAAIR MAQSGYSVSL YEQNNHIGGK VNRHESDGFG FDLGPSILTM
+     PYIFEKLFEY SKKQMSDYVT IKRLPHQWRS FFPDGTTIDL YEGIKETGQH NAILSKQDIE
+     ELQNYLNYTR RIDRITEKGY FNYGLDTLSQ IIKFHGPLNA LINYDYVHTM QQAIDKRISN
+     PYLRQMLGYF IKYVGSSSYD APAVLSMLFH MQQEQGLWYV EGGIHHLANA LEKLAREEGV
+     TIHTGARVDN IKTYQRRVTG VRLDTGEFVK ADYIISNMEV IPTYKYLIHL DTQRLNKLER
+     EFEPASSGYV MHLGVACQYP QLAHHNFFFT ENAYLNYQQV FHEKVLPDDP TIYLVNTNKT
+     DHTQAPVGYE NIKVLPHIPY IQDQPFTTED YAKFRDKILD KLEKMGLTDL RKHIIYEDVW
+     TPEDIEKNYR SNRGAIYGVV ADKKKNKGFK FPKESQYFEN LYFVGGSVNP GGGMPMVTLS
+     GQQVADKINA REAKNRK
+//

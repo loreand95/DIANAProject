@@ -1,0 +1,97 @@
+ID   PSTB_METMA              Reviewed;         258 AA.
+AC   Q8PVF6;
+DT   09-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   07-APR-2021, entry version 125.
+DE   RecName: Full=Phosphate import ATP-binding protein PstB {ECO:0000255|HAMAP-Rule:MF_01702};
+DE            EC=7.3.2.1 {ECO:0000255|HAMAP-Rule:MF_01702};
+DE   AltName: Full=ABC phosphate transporter {ECO:0000255|HAMAP-Rule:MF_01702};
+DE   AltName: Full=Phosphate-transporting ATPase {ECO:0000255|HAMAP-Rule:MF_01702};
+GN   Name=pstB {ECO:0000255|HAMAP-Rule:MF_01702}; OrderedLocusNames=MM_2009;
+OS   Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM
+OS   11833 / OCM 88) (Methanosarcina frisia).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=192952;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88;
+RX   PubMed=12125824;
+RA   Deppenmeier U., Johann A., Hartsch T., Merkl R., Schmitz R.A.,
+RA   Martinez-Arias R., Henne A., Wiezer A., Baeumer S., Jacobi C.,
+RA   Brueggemann H., Lienard T., Christmann A., Boemecke M., Steckel S.,
+RA   Bhattacharyya A., Lykidis A., Overbeek R., Klenk H.-P., Gunsalus R.P.,
+RA   Fritz H.-J., Gottschalk G.;
+RT   "The genome of Methanosarcina mazei: evidence for lateral gene transfer
+RT   between Bacteria and Archaea.";
+RL   J. Mol. Microbiol. Biotechnol. 4:453-461(2002).
+CC   -!- FUNCTION: Part of the ABC transporter complex PstSACB involved in
+CC       phosphate import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01702}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + phosphate(out) = ADP + H(+) + 2 phosphate(in);
+CC         Xref=Rhea:RHEA:24440, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.3.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01702};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (PstB),
+CC       two transmembrane proteins (PstC and PstA) and a solute-binding protein
+CC       (PstS). {ECO:0000255|HAMAP-Rule:MF_01702}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01702};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01702}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Phosphate
+CC       importer (TC 3.A.1.7) family. {ECO:0000255|HAMAP-Rule:MF_01702}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE008384; AAM31705.1; -; Genomic_DNA.
+DR   RefSeq; WP_011033941.1; NC_003901.1.
+DR   SMR; Q8PVF6; -.
+DR   STRING; 192952.MM_2009; -.
+DR   EnsemblBacteria; AAM31705; AAM31705; MM_2009.
+DR   GeneID; 24840421; -.
+DR   KEGG; mma:MM_2009; -.
+DR   PATRIC; fig|192952.21.peg.2311; -.
+DR   eggNOG; arCOG00231; Archaea.
+DR   HOGENOM; CLU_000604_1_22_2; -.
+DR   OMA; IEDISMT; -.
+DR   Proteomes; UP000000595; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0015415; F:ATPase-coupled phosphate ion transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005315; F:inorganic phosphate transmembrane transporter activity; IEA:InterPro.
+DR   CDD; cd03260; ABC_PstB_phosphate_transporter; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR015850; ABC_transpr_PstB.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005670; Phosp_transpt1.
+DR   PANTHER; PTHR43423; PTHR43423; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00972; 3a0107s01c2; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51238; PSTB; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding;
+KW   Phosphate transport; Translocase; Transport.
+FT   CHAIN           1..258
+FT                   /note="Phosphate import ATP-binding protein PstB"
+FT                   /id="PRO_0000092948"
+FT   DOMAIN          13..253
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01702"
+FT   NP_BIND         45..52
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01702"
+SQ   SEQUENCE   258 AA;  28977 MW;  91FC0E57CC7E940E CRC64;
+     MTEVVQNVAQ THITVENLNL WYGEKQALKN VSLKIPRNSV TALIGPSGCG KSTFIRCLNR
+     MNDLVKNCRI EGKVLIENED IYGTDVDVVE LRKQVGMVFQ KPNPFPMSIY DNVAYGPRIH
+     GVNKKDIDGV VRNALRSAAL FEETSDRLKS PALSLSGGQQ QRLCIARTLA VKPRIILFDE
+     PTSALDPIST ARIEDLIMNL KKDYTIVIVT HNMQQAARIS DYTGFFLMGE LVEFGQTRQI
+     FHSPREKSTE DYITGRFG
+//

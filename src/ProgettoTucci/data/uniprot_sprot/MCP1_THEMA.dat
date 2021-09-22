@@ -1,0 +1,108 @@
+ID   MCP1_THEMA              Reviewed;         656 AA.
+AC   Q9WYR0;
+DT   03-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   07-APR-2021, entry version 119.
+DE   RecName: Full=Methyl-accepting chemotaxis protein 1;
+GN   Name=mcp1; OrderedLocusNames=TM_0429;
+OS   Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099).
+OC   Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+OX   NCBI_TaxID=243274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43589 / MSB8 / DSM 3109 / JCM 10099;
+RX   PubMed=10360571; DOI=10.1038/20601;
+RA   Nelson K.E., Clayton R.A., Gill S.R., Gwinn M.L., Dodson R.J., Haft D.H.,
+RA   Hickey E.K., Peterson J.D., Nelson W.C., Ketchum K.A., McDonald L.A.,
+RA   Utterback T.R., Malek J.A., Linher K.D., Garrett M.M., Stewart A.M.,
+RA   Cotton M.D., Pratt M.S., Phillips C.A., Richardson D.L., Heidelberg J.F.,
+RA   Sutton G.G., Fleischmann R.D., Eisen J.A., White O., Salzberg S.L.,
+RA   Smith H.O., Venter J.C., Fraser C.M.;
+RT   "Evidence for lateral gene transfer between Archaea and Bacteria from
+RT   genome sequence of Thermotoga maritima.";
+RL   Nature 399:323-329(1999).
+RN   [2]
+RP   METHYLATION AT GLU-401; GLU-407; GLU-590 AND GLU-596.
+RX   PubMed=16707700; DOI=10.1128/jb.00181-06;
+RA   Perez E., Zheng H., Stock A.M.;
+RT   "Identification of methylation sites in Thermotoga maritima chemotaxis
+RT   receptors.";
+RL   J. Bacteriol. 188:4093-4100(2006).
+CC   -!- FUNCTION: Chemotactic-signal transducers respond to changes in the
+CC       concentration of attractants and repellents in the environment,
+CC       transduce a signal from the outside to the inside of the cell, and
+CC       facilitate sensory adaptation through the variation of the level of
+CC       methylation. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000512; AAD35514.1; -; Genomic_DNA.
+DR   PIR; E72379; E72379.
+DR   RefSeq; NP_228239.1; NC_000853.1.
+DR   RefSeq; WP_010865116.1; NZ_CP011107.1.
+DR   SMR; Q9WYR0; -.
+DR   STRING; 243274.THEMA_02580; -.
+DR   EnsemblBacteria; AAD35514; AAD35514; TM_0429.
+DR   KEGG; tma:TM0429; -.
+DR   eggNOG; COG0840; Bacteria.
+DR   InParanoid; Q9WYR0; -.
+DR   OMA; YMINIVE; -.
+DR   OrthoDB; 477199at2; -.
+DR   Proteomes; UP000008183; Chromosome.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IBA:GO_Central.
+DR   GO; GO:0004888; F:transmembrane signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0006935; P:chemotaxis; IBA:GO_Central.
+DR   GO; GO:0007165; P:signal transduction; IEA:UniProtKB-KW.
+DR   InterPro; IPR003660; HAMP_dom.
+DR   InterPro; IPR004089; MCPsignal_dom.
+DR   Pfam; PF00015; MCPsignal; 1.
+DR   SMART; SM00304; HAMP; 1.
+DR   SMART; SM00283; MA; 1.
+DR   PROSITE; PS50111; CHEMOTAXIS_TRANSDUC_2; 1.
+DR   PROSITE; PS50885; HAMP; 1.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Chemotaxis; Membrane; Methylation; Reference proteome;
+KW   Transducer; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..656
+FT                   /note="Methyl-accepting chemotaxis protein 1"
+FT                   /id="PRO_0000250993"
+FT   TRANSMEM        6..26
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        276..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          299..351
+FT                   /note="HAMP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00102"
+FT   DOMAIN          370..606
+FT                   /note="Methyl-accepting transducer"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00284"
+FT   MOD_RES         401
+FT                   /note="Glutamate methyl ester (Glu)"
+FT                   /evidence="ECO:0000269|PubMed:16707700"
+FT   MOD_RES         407
+FT                   /note="Glutamate methyl ester (Glu)"
+FT                   /evidence="ECO:0000269|PubMed:16707700"
+FT   MOD_RES         590
+FT                   /note="Glutamate methyl ester (Glu)"
+FT                   /evidence="ECO:0000269|PubMed:16707700"
+FT   MOD_RES         596
+FT                   /note="Glutamate methyl ester (Glu)"
+FT                   /evidence="ECO:0000269|PubMed:16707700"
+SQ   SEQUENCE   656 AA;  72217 MW;  EB932E2C3505B143 CRC64;
+     MSLRKKVFLL MIVVVAGLLL SFFLIYRSVS NSIINSVRSN TENQAKALSK FVVEKLNNVT
+     NVARSAATYL GSQFFEAYMI TNQLKTTVEK EKSTFAFAFS ALSFNKSAAL TDGNRVDRVD
+     FADYEKYIKA VEGKDIFFMP ETFQGTPVLT VVVPIETMNT RTGIVGFGIN LSENSDLWKA
+     VVEEGKASKS GYGLLVTSDG KVLIHKDMGN FMKDVKELGG FEKAFEEAKS GGEKYVEYEY
+     NGEKKYTVWE KVPGYDFYIF STGYLEELLA EGRKATLGTI VTYVVFGGVI FAVLFVSMMP
+     VVKRMRQQVE KVKRFGEGDL TVEFEAKGRD ELTQIEESLK EAALSLKEMI VSIIEAAKEL
+     SGASEEIKVL SEESHKMSEN LHEEAKKILD EANNMSSALT EVTSGVEEVA ASAQNISKIT
+     QDLTERSEAV TKAAREGTER VEAVGGVINK LKGSAERQRD YLRELVDSAK TIGEIVDTIS
+     SIAEQTNLLA LNAAIEAARA GEAGRGFAVV ADEIRKLAEE SQRATEDIAK MLSSLRTTIE
+     HVENGSKEMF EGVDEIAVMG EEVTKRFREI LGRIEEINSM IENTAATAQE QGAAAEEMAS
+     AMDNVTKIVE GVVESLNRME SLIEDQTTSA AKVSQAAERL SELSEQLSTL VQKFKV
+//

@@ -1,0 +1,92 @@
+ID   GLSA_PARD8              Reviewed;         321 AA.
+AC   A6LA76;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2007, sequence version 1.
+DT   10-FEB-2021, entry version 70.
+DE   RecName: Full=Glutaminase {ECO:0000255|HAMAP-Rule:MF_00313};
+DE            EC=3.5.1.2 {ECO:0000255|HAMAP-Rule:MF_00313};
+GN   Name=glsA {ECO:0000255|HAMAP-Rule:MF_00313}; OrderedLocusNames=BDI_0820;
+OS   Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM
+OS   5825 / NCTC 11152).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Tannerellaceae;
+OC   Parabacteroides.
+OX   NCBI_TaxID=435591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152;
+RX   PubMed=17579514; DOI=10.1371/journal.pbio.0050156;
+RA   Xu J., Mahowald M.A., Ley R.E., Lozupone C.A., Hamady M., Martens E.C.,
+RA   Henrissat B., Coutinho P.M., Minx P., Latreille P., Cordum H.,
+RA   Van Brunt A., Kim K., Fulton R.S., Fulton L.A., Clifton S.W., Wilson R.K.,
+RA   Knight R.D., Gordon J.I.;
+RT   "Evolution of symbiotic bacteria in the distal human intestine.";
+RL   PLoS Biol. 5:1574-1586(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-glutamine = L-glutamate + NH4(+);
+CC         Xref=Rhea:RHEA:15889, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:29985, ChEBI:CHEBI:58359; EC=3.5.1.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00313};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00313}.
+CC   -!- SIMILARITY: Belongs to the glutaminase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00313}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000140; ABR42590.1; -; Genomic_DNA.
+DR   RefSeq; WP_005857387.1; NC_009615.1.
+DR   SMR; A6LA76; -.
+DR   STRING; 435591.BDI_0820; -.
+DR   EnsemblBacteria; ABR42590; ABR42590; BDI_0820.
+DR   GeneID; 57237836; -.
+DR   KEGG; pdi:BDI_0820; -.
+DR   eggNOG; COG2066; Bacteria.
+DR   HOGENOM; CLU_027932_1_0_10; -.
+DR   OMA; RNPMINS; -.
+DR   OrthoDB; 1288854at2; -.
+DR   BioCyc; PDIS435591:G1G5A-840-MONOMER; -.
+DR   Proteomes; UP000000566; Chromosome.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:InterPro.
+DR   Gene3D; 3.40.710.10; -; 1.
+DR   HAMAP; MF_00313; Glutaminase; 1.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR015868; Glutaminase.
+DR   PANTHER; PTHR12544; PTHR12544; 1.
+DR   Pfam; PF04960; Glutaminase; 1.
+DR   SUPFAM; SSF56601; SSF56601; 1.
+DR   TIGRFAMs; TIGR03814; Gln_ase; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Reference proteome.
+FT   CHAIN           1..321
+FT                   /note="Glutaminase"
+FT                   /id="PRO_1000048338"
+FT   BINDING         69
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         120
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         165
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         172
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         196
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         248
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+FT   BINDING         266
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00313"
+SQ   SEQUENCE   321 AA;  34670 MW;  4E46223836EFAB4C CRC64;
+     MDKKITIAQI KEVAQQAYDL YKTNTDGKNA DYIPYLANIN KNLFGISICL LNGQTIEVGD
+     SEYRFGIESV SKVHTAILVL RQYGAKELLE KIGADATGLP FNSIIAILLE NDHPSTPLVN
+     AGAITACSMV KPVGDSKQKW DAIVANITDL CGSAPQLIDE LYKSESATNF NNRSIAWLLK
+     NYNRIYDDPD MSLDLYTRQC SLGITAKQLS VAAATVANLG LNPVTKKQVF DAELSPKITS
+     MISTVGFYEH TGDWLYTSGI PAKTGVGGGV MGVLPGQFGI SAFAPPIDQA GNSVKAQLAI
+     KYVMNKLGLN VFNGHRVTIV D
+//

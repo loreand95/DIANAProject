@@ -1,0 +1,143 @@
+ID   SIAT9_BOVIN             Reviewed;         420 AA.
+AC   Q70D51;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 2.
+DT   07-APR-2021, entry version 88.
+DE   RecName: Full=Lactosylceramide alpha-2,3-sialyltransferase;
+DE            EC=2.4.99.9 {ECO:0000250|UniProtKB:Q9UNP4};
+DE   AltName: Full=CMP-NeuAc:lactosylceramide alpha-2,3-sialyltransferase;
+DE   AltName: Full=Ganglioside GM3 synthase;
+DE   AltName: Full=ST3Gal V;
+DE            Short=ST3GalV;
+DE   AltName: Full=Sialyltransferase 9;
+GN   Name=ST3GAL5; Synonyms=SIAT9;
+OS   Bos taurus (Bovine).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Ruminantia; Pecora; Bovidae;
+OC   Bovinae; Bos.
+OX   NCBI_TaxID=9913;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hereford;
+RX   PubMed=19390049; DOI=10.1126/science.1169588;
+RG   The bovine genome sequencing and analysis consortium;
+RT   "The genome sequence of taurine cattle: a window to ruminant biology and
+RT   evolution.";
+RL   Science 324:522-528(2009).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 20-420.
+RX   PubMed=15843597; DOI=10.1093/glycob/cwi063;
+RA   Harduin-Lepers A., Mollicone R., Delannoy P., Oriol R.;
+RT   "The animal sialyltransferases and sialyltransferase-related genes: a
+RT   phylogenetic approach.";
+RL   Glycobiology 15:805-817(2005).
+CC   -!- FUNCTION: Transfers the sialyl group (N-acetyl-alpha-neuraminyl or
+CC       NeuAc) from CMP-NeuAc to the non-reducing terminal galactose (Gal) of
+CC       glycosphingolipids forming gangliosides (important molecules involved
+CC       in the regulation of multiple cellular processes, including cell
+CC       proliferation and differentiation, apoptosis, embryogenesis,
+CC       development, and oncogenesis). Mainly involved in the biosynthesis of
+CC       ganglioside GM3 but can also use different glycolipids as substrate
+CC       acceptors such as D-galactosylceramide (GalCer), asialo-GM2 (GA2) and
+CC       asialo-GM1 (GA1), although less preferentially than beta-D-Gal-(1->4)-
+CC       beta-D-Glc-(1<->1)-Cer (LacCer). {ECO:0000250|UniProtKB:Q9UNP4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-Gal-(1->4)-beta-D-Glc-(1<->1)-Cer(d18:1(4E)) + CMP-N-
+CC         acetyl-beta-neuraminate = CMP + ganglioside GM3 (d18:1(4E)) + H(+);
+CC         Xref=Rhea:RHEA:18417, ChEBI:CHEBI:15378, ChEBI:CHEBI:17950,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60065, ChEBI:CHEBI:60377; EC=2.4.99.9;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:18418;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP-N-acetyl-beta-neuraminate + ganglioside GA2
+CC         (d18:1(4E)/18:0) = CMP + ganglioside GM2 (d18:1(4E)/18:0) + H(+);
+CC         Xref=Rhea:RHEA:41776, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:78485, ChEBI:CHEBI:78486;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41777;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-Gal-(1<->1')-Cer + CMP-N-acetyl-beta-neuraminate = CMP
+CC         + H(+) + N-acetyl-alpha-neuraminosyl-(2->3)-beta-D-galactosyl-
+CC         (1<->1')-ceramide; Xref=Rhea:RHEA:41780, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60377, ChEBI:CHEBI:82643,
+CC         ChEBI:CHEBI:143593; Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41781;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=asialo-GM1a ganglioside (d18:1(4E)/18:0) + CMP-N-acetyl-beta-
+CC         neuraminate = CMP + ganglioside GM1 (d18:1(4E)/18:0) + H(+);
+CC         Xref=Rhea:RHEA:41784, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:73110, ChEBI:CHEBI:78484;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41785;
+CC         Evidence={ECO:0000250|UniProtKB:Q9UNP4};
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000305}; Single-
+CC       pass type II membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 29 family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAE51392.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAFC03040697; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AAFC03065753; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AJ585768; CAE51392.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_991376.2; NM_205807.3.
+DR   STRING; 9913.ENSBTAP00000015414; -.
+DR   CAZy; GT29; Glycosyltransferase Family 29.
+DR   PaxDb; Q70D51; -.
+DR   PRIDE; Q70D51; -.
+DR   GeneID; 404164; -.
+DR   KEGG; bta:404164; -.
+DR   CTD; 8869; -.
+DR   eggNOG; KOG2692; Eukaryota.
+DR   InParanoid; Q70D51; -.
+DR   OrthoDB; 891104at2759; -.
+DR   Proteomes; UP000009136; Unplaced.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0047291; F:lactosylceramide alpha-2,3-sialyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0008373; F:sialyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0006486; P:protein glycosylation; IBA:GO_Central.
+DR   Gene3D; 3.90.1480.20; -; 1.
+DR   InterPro; IPR001675; Glyco_trans_29.
+DR   InterPro; IPR038578; GT29-like_sf.
+DR   InterPro; IPR012163; Sialyl_trans.
+DR   Pfam; PF00777; Glyco_transf_29; 1.
+DR   PIRSF; PIRSF005557; Sialyl_trans; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Membrane; Reference proteome; Signal-anchor; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..420
+FT                   /note="Lactosylceramide alpha-2,3-sialyltransferase"
+FT                   /id="PRO_0000334617"
+FT   TOPO_DOM        1..67
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        68..88
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        89..420
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        20..26
+FT                   /note="Poly-Ala"
+FT   CARBOHYD        238
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        197..355
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   420 AA;  48263 MW;  B8E51833DB069032 CRC64;
+     MRKKAAGGAE RRPLKPRTEA AAAAPAGRAM PSDHSRMKLR RDCSRPSLQW YTRAQNKMRR
+     PNLLLKDILK CTLLLFGVWI LFYILKLNHT TEECDMKRMP YMDPDRIKRA QQYAQQVLQK
+     ECRPQFAKRS MAQLFGSRYS LDLPPFVTKV PAESEAEYKY DPPFGFRKFS GKVQTLLELL
+     PEHDFPEHLR AKSCKHCVVI GSGGILHGLE MGHALNQFDV VIRLNNAPVE GYSEHVGNKT
+     TIRMTYPEGA PLSDLEYYSS DLFVTVLFKS VDFNWLQAMV KNETLPFWVR LFFWKQVAEK
+     IPLQPKQFRI LNPVIIKETA FDILQYSEPQ SRFWGRDKNV PTIGVIAVVL ATHLCDEVSL
+     AGFSYALNQP RTPLHYFDNL CMAAMNFQTM HNVTTETNFL LKLVREGVVR DLSGGIHSEF
+//

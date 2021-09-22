@@ -1,0 +1,132 @@
+ID   ADDB_BACMK              Reviewed;        1171 AA.
+AC   A9VJ01;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=ATP-dependent helicase/deoxyribonuclease subunit B {ECO:0000255|HAMAP-Rule:MF_01452};
+DE            EC=3.1.-.- {ECO:0000255|HAMAP-Rule:MF_01452};
+DE            EC=3.6.4.12 {ECO:0000255|HAMAP-Rule:MF_01452};
+DE   AltName: Full=ATP-dependent helicase/nuclease AddB {ECO:0000255|HAMAP-Rule:MF_01452};
+GN   Name=addB {ECO:0000255|HAMAP-Rule:MF_01452};
+GN   OrderedLocusNames=BcerKBAB4_1040;
+OS   Bacillus mycoides (strain KBAB4) (Bacillus weihenstephanensis).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=315730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KBAB4;
+RX   PubMed=17434157; DOI=10.1016/j.cbi.2007.03.003;
+RA   Lapidus A., Goltsman E., Auger S., Galleron N., Segurens B., Dossat C.,
+RA   Land M.L., Broussolle V., Brillard J., Guinebretiere M.-H., Sanchis V.,
+RA   Nguen-the C., Lereclus D., Richardson P., Wincker P., Weissenbach J.,
+RA   Ehrlich S.D., Sorokin A.;
+RT   "Extending the Bacillus cereus group genomics to putative food-borne
+RT   pathogens of different toxicity.";
+RL   Chem. Biol. Interact. 171:236-249(2008).
+CC   -!- FUNCTION: The heterodimer acts as both an ATP-dependent DNA helicase
+CC       and an ATP-dependent, dual-direction single-stranded exonuclease.
+CC       Recognizes the chi site generating a DNA molecule suitable for the
+CC       initiation of homologous recombination. The AddB nuclease domain is not
+CC       required for chi fragment generation; this subunit has 5' -> 3'
+CC       nuclease activity. {ECO:0000255|HAMAP-Rule:MF_01452}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.12;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01452};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01452};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_01452};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01452};
+CC   -!- SUBUNIT: Heterodimer of AddA and AddB. {ECO:0000255|HAMAP-
+CC       Rule:MF_01452}.
+CC   -!- SIMILARITY: Belongs to the helicase family. AddB/RexB type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01452}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000903; ABY42290.1; -; Genomic_DNA.
+DR   RefSeq; WP_012260537.1; NC_010184.1.
+DR   SMR; A9VJ01; -.
+DR   STRING; 315730.BcerKBAB4_1040; -.
+DR   EnsemblBacteria; ABY42290; ABY42290; BcerKBAB4_1040.
+DR   KEGG; bwe:BcerKBAB4_1040; -.
+DR   eggNOG; COG3857; Bacteria.
+DR   HOGENOM; CLU_007838_0_0_9; -.
+DR   OMA; DRLENYV; -.
+DR   Proteomes; UP000002154; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008409; F:5'-3' exonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003678; F:DNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003690; F:double-stranded DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000724; P:double-strand break repair via homologous recombination; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01452; AddB_type1; 1.
+DR   InterPro; IPR014140; DNA_helicase_suAddB.
+DR   InterPro; IPR014017; DNA_helicase_UvrD-like_C.
+DR   InterPro; IPR000212; DNA_helicase_UvrD/REP.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR038726; PDDEXK_AddAB-type.
+DR   InterPro; IPR014016; UvrD-like_ATP-bd.
+DR   PANTHER; PTHR11070; PTHR11070; 1.
+DR   Pfam; PF12705; PDDEXK_1; 1.
+DR   Pfam; PF13361; UvrD_C; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR02773; addB_Gpos; 1.
+DR   PROSITE; PS51198; UVRD_HELICASE_ATP_BIND; 1.
+DR   PROSITE; PS51217; UVRD_HELICASE_CTER; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; ATP-binding; DNA damage; DNA repair; Exonuclease; Hydrolase; Iron;
+KW   Iron-sulfur; Metal-binding; Nuclease; Nucleotide-binding.
+FT   CHAIN           1..1171
+FT                   /note="ATP-dependent helicase/deoxyribonuclease subunit B"
+FT                   /id="PRO_0000379166"
+FT   DOMAIN          1..301
+FT                   /note="UvrD-like helicase ATP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   DOMAIN          281..587
+FT                   /note="UvrD-like helicase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   NP_BIND         8..15
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   METAL           805
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   METAL           1129
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   METAL           1132
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+FT   METAL           1138
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01452"
+SQ   SEQUENCE   1171 AA;  134314 MW;  4BD5C19CFFA15DD7 CRC64;
+     MSLRFVIGRA GSGKSTLCLH EVQEELKQRP RGKTILYLVP EQMTFQTQQA LIGSEDVRGS
+     IRAQVFSFSR LAWKVLQEVG GASRLHIDEA GVHMLLRKIV ESRKDGLSVF QKAAEQNGFF
+     EHLGSMIAEF KRYNVTPSNV YEMWQQLDTH SSSAEQKLLA NKVYDLQLLY DDFERALIGK
+     YLDSEDYLQL LIEKLSDSEY VKGAEIYIDG FHSFSPQELE IVRGLMRLGT RVTITLTIDE
+     KTLAQPVNEL DLFYETTLTY ERIKQVAREE KIEVEKTIPL MKQPRFHSQA LAHLEMHYEA
+     RPNEKFHGEA SVTISTAANL RAEVEGVARE IRRLVATEDY RYRDIAVLLR NGESYYDVMR
+     TLFTDYNIPH FIDEKRPMSH HPLVECIRSA LEIISGNWRY DAVFRCVKTE LLYPLDVRKE
+     AMREEMDEFE NYCLAYGVQG KRWTSEDPWM YRRYRSLDDA SEMITDSERE MEEKINRLRD
+     VVRTPVIRMQ KRLKRAGTVM QMCEAVYLFL EELDVPKKLE ALRIRAEESG DFLFATDHEQ
+     VWEEVMSLLD TFVEMLGEEK MSLSMFTDVM TTGLEALQFA NIPPSLDQVL VANIDHSRLS
+     DIKATFIIGV NEGVIPAAPM DEGMLSDEER NVLTAAGIEL APTTRQTLLE EQFVMYQMVT
+     RASEKLYISC PLADEEGKTL LASSFIKKIK RMFPDVKESF ITNDVNDLSR SEQLSYVATP
+     EVTLSYVMQQ LQTWKRYGFE GNLDFWWDVY NFYVTSDEWK QKSSRVLSSL FYRNRAQKLS
+     TDVSRDLYGD TIKGSVSRME LFNRCAYAHF AQHGLSLRER DIFKLDAPDI GELFHAALKR
+     IADKLLRENR TWADLSIKEC EHLSALVIEE IAPLLQRQIL LSSNRHFYLK QKLQQIIFRT
+     SLILREHAKS SGFVPVDLEV PFGMGGTGSL PPMEFALPNG VKMEVVGRID RVDKAEDESG
+     TFLRIIDYKS SSKALDLTEV YYGLALQMLT YLDVVTSNAH TWMKKGSTAS PAGVLYFHIH
+     NPIVEMKGDA SEEEIEKEIL KKFKMKGLVL GDADVVRLMD NKLSTGSSDI ISAGLKKDGS
+     FSARSSIASE QEFNVLQKYV HHSFENIGKD ITEGVIDIAP YKKGNKAACT FCNFKSVCQF
+     DESLEDNQFR TLKDMKDSEA MEKIREEVGG E
+//

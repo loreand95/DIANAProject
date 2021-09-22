@@ -1,0 +1,87 @@
+ID   NIKD_STAAM              Reviewed;         257 AA.
+AC   Q99UA2;
+DT   06-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   07-APR-2021, entry version 124.
+DE   RecName: Full=Nickel import system ATP-binding protein NikD {ECO:0000250|UniProtKB:Q2FYQ7};
+DE            EC=7.2.2.11 {ECO:0000250|UniProtKB:Q2FYQ7};
+GN   Name=nikD {ECO:0000250|UniProtKB:Q2FYQ7}; Synonyms=oppD2;
+GN   OrderedLocusNames=SAV1380;
+OS   Staphylococcus aureus (strain Mu50 / ATCC 700699).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=158878;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Mu50 / ATCC 700699;
+RX   PubMed=11418146; DOI=10.1016/s0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I., Cui L.,
+RA   Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K., Hirakawa H.,
+RA   Kuhara S., Goto S., Yabuzaki J., Kanehisa M., Yamashita A., Oshima K.,
+RA   Furuya K., Yoshino C., Shiba T., Hattori M., Ogasawara N., Hayashi H.,
+RA   Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus aureus.";
+RL   Lancet 357:1225-1240(2001).
+CC   -!- FUNCTION: Part of the ABC transporter complex NikABCDE (Opp2) involved
+CC       in nickel import. Probably responsible for energy coupling to the
+CC       transport system. {ECO:0000250|UniProtKB:Q2FYQ7}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + Ni(2+)(out) = ADP + H(+) + Ni(2+)(in) + phosphate;
+CC         Xref=Rhea:RHEA:15557, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:49786,
+CC         ChEBI:CHEBI:456216; EC=7.2.2.11;
+CC         Evidence={ECO:0000250|UniProtKB:Q2FYQ7};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:15558;
+CC         Evidence={ECO:0000250|UniProtKB:Q2FYQ7};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (NikD and
+CC       NikE), two transmembrane proteins (NikB and NikC) and a solute-binding
+CC       protein (NikA). {ECO:0000250|UniProtKB:Q2FYQ7}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Peripheral membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000017; BAB57542.1; -; Genomic_DNA.
+DR   RefSeq; WP_000052315.1; NC_002758.2.
+DR   SMR; Q99UA2; -.
+DR   PaxDb; Q99UA2; -.
+DR   EnsemblBacteria; BAB57542; BAB57542; SAV1380.
+DR   KEGG; sav:SAV1380; -.
+DR   HOGENOM; CLU_000604_1_23_9; -.
+DR   OMA; THSFNDH; -.
+DR   PhylomeDB; Q99UA2; -.
+DR   BioCyc; SAUR158878:SAV_RS07430-MONOMER; -.
+DR   Proteomes; UP000002481; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015413; F:ABC-type nickel transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Ion transport; Membrane; Nickel;
+KW   Nickel transport; Nucleotide-binding; Translocase; Transport.
+FT   CHAIN           1..257
+FT                   /note="Nickel import system ATP-binding protein NikD"
+FT                   /id="PRO_0000276796"
+FT   DOMAIN          4..245
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   NP_BIND         37..44
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   257 AA;  29699 MW;  39E02ECE67351190 CRC64;
+     MSLIDIQNLT IKNTCEKYLI KGIDLKIFSQ QINALIGESG AGKSLIAKAL LEYLPFDLSC
+     TYDSYQFDGE NISRLSQYYG HTIGYISQNY AESFNDHTKL GKQLTAIYRK HYKSSKEEAL
+     SKIDKALSWV NLQSKDILNK YSFQLSGGQL ERVYIASVLM LEPKLIIADE PVASLDALNG
+     NQVMDLLQHI VLEHGQTLFI ITHNLSHVLK YCQYIYVLKE GQIIERGNIN HFKYEHLHPY
+     TERLIKYRTQ LKRDYYD
+//

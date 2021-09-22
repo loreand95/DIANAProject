@@ -1,0 +1,152 @@
+ID   RPOC_ACTPJ              Reviewed;        1423 AA.
+AC   B0BSF6;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE            Short=RNAP subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01322};
+DE   AltName: Full=RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+DE   AltName: Full=Transcriptase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01322};
+GN   Name=rpoC {ECO:0000255|HAMAP-Rule:MF_01322}; OrderedLocusNames=APJL_1763;
+OS   Actinobacillus pleuropneumoniae serotype 3 (strain JL03).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=434271;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JL03;
+RX   PubMed=18197260; DOI=10.1371/journal.pone.0001450;
+RA   Xu Z., Zhou Y., Li L., Zhou R., Xiao S., Wan Y., Zhang S., Wang K., Li W.,
+RA   Li L., Jin H., Kang M., Dalai B., Li T., Liu L., Cheng Y., Zhang L., Xu T.,
+RA   Zheng H., Pu S., Wang B., Gu W., Zhang X.L., Zhu G.-F., Wang S.,
+RA   Zhao G.-P., Chen H.;
+RT   "Genome biology of Actinobacillus pleuropneumoniae JL03, an isolate of
+RT   serotype 3 prevalent in China.";
+RL   PLoS ONE 3:E1450-E1450(2008).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01322};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01322};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01322};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01322};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01322};
+CC   -!- SUBUNIT: The RNAP catalytic core consists of 2 alpha, 1 beta, 1 beta'
+CC       and 1 omega subunit. When a sigma factor is associated with the core
+CC       the holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta' chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01322}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000687; ABY70313.1; -; Genomic_DNA.
+DR   RefSeq; WP_012263370.1; NC_010278.1.
+DR   SMR; B0BSF6; -.
+DR   EnsemblBacteria; ABY70313; ABY70313; APJL_1763.
+DR   KEGG; apj:APJL_1763; -.
+DR   HOGENOM; CLU_000524_3_1_6; -.
+DR   OMA; YRNIRVE; -.
+DR   OrthoDB; 4421at2; -.
+DR   BioCyc; APLE434271:G1G8V-1789-MONOMER; -.
+DR   Proteomes; UP000008547; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.132.30; -; 1.
+DR   Gene3D; 1.10.274.100; -; 1.
+DR   HAMAP; MF_01322; RNApol_bact_RpoC; 1.
+DR   InterPro; IPR012754; DNA-dir_RpoC_beta_prime.
+DR   InterPro; IPR000722; RNA_pol_asu.
+DR   InterPro; IPR006592; RNA_pol_N.
+DR   InterPro; IPR007080; RNA_pol_Rpb1_1.
+DR   InterPro; IPR007066; RNA_pol_Rpb1_3.
+DR   InterPro; IPR042102; RNA_pol_Rpb1_3_sf.
+DR   InterPro; IPR007083; RNA_pol_Rpb1_4.
+DR   InterPro; IPR007081; RNA_pol_Rpb1_5.
+DR   InterPro; IPR038120; Rpb1_funnel_sf.
+DR   Pfam; PF04997; RNA_pol_Rpb1_1; 1.
+DR   Pfam; PF00623; RNA_pol_Rpb1_2; 2.
+DR   Pfam; PF04983; RNA_pol_Rpb1_3; 1.
+DR   Pfam; PF05000; RNA_pol_Rpb1_4; 1.
+DR   Pfam; PF04998; RNA_pol_Rpb1_5; 1.
+DR   SMART; SM00663; RPOLA_N; 1.
+DR   TIGRFAMs; TIGR02386; rpoC_TIGR; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Magnesium; Metal-binding;
+KW   Nucleotidyltransferase; Transcription; Transferase; Zinc.
+FT   CHAIN           1..1423
+FT                   /note="DNA-directed RNA polymerase subunit beta'"
+FT                   /id="PRO_0000353276"
+FT   METAL           71
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           73
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           86
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           89
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           461
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           463
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           465
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           815
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           889
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           896
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+FT   METAL           899
+FT                   /note="Zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01322"
+SQ   SEQUENCE   1423 AA;  157529 MW;  06E787D84A141351 CRC64;
+     MKDLVKFLKA QSKSNDDFDV IKIGLASPDK IRSWSFGEVK KPETINYRTF KPERDGLFCA
+     RIFGPVKDYE CLCGKYKRLK HRGVICEKCG VEVTQTKVRR DRMGHIELAC PVAHIWFLKS
+     LPSRIGLILD MPLRDIERVL YFESYVVTEP GMTDLEKNQL LTEEQFLDAE ERWGDEFEAK
+     MGAEGIQALL RDMDLEHQCE MMREELQETN SETKRKKITK RLKLLEAFQQ SGNKPEWMVM
+     TVLPVLPPDL RPLVPLDGGR FATSDLNDLY RRVINRNNRL KRLLDLVAPD IIVRNEKRML
+     QKSVDALLDN GRRGRAITGS NKRPLKSLAD MIKGKQGRFR QNLLGKRVDY SGRSVITVGP
+     YLHLHQCGLP KKMALELFRP FIYSKLESRG IASTIKAAKK MVEREEPIVW DILAEVIREH
+     PILLNRAPTL HRLGIQAFEP ILIEGKAIQL HPLVCAAFNA DFDGDQMAVH VPLTLEAQLE
+     ARALMMSTNN VLSPASGDPI IVPSQDVVLG LYYMTREKVN AKGEGMYFLD PREAEKAYRT
+     GQAELHARVK VRITEHVKNE AGELVAETKL LDTTIGRAIL WMIAPKGMPF KVFNQTLGKK
+     AISKLINESY RRLGLKESVI LADQIMYTGF AYAARSGASV GIDDMVIPAQ KHEIIRAAEA
+     EVAEIQEQFN SGLVTAGERY NKVIDIWAAA NERVAKAMME NLSTEEVINR EGNPEKQASF
+     NSIFMMADSG ARGSAAQIRQ LAGMRGLMAR PDGSIIETPI TANFREGLNV LQYFISTHGA
+     RKGLADTALK TANSGYLTRR LVDVAQDLVI TEDDCGTHEG IVMTPLIEGG DVKEALRDRV
+     LGRVVAEDVL KPGTEEVLIP RNTLIDEKWC DVIDAESVDV IKVRSVVTCN TDFGVCAKCY
+     GRDLARGHLI NQGEAVGVIA AQSIGEPGTQ LTMRTFHIGG AASAAAKESS IQVKNAGTIK
+     LTNAKFVTNK EGKIVLTSRN TELTVIDTFG RTKENYKVPY GAVLSKNDGA EVAVGEVVAN
+     WDPHTMPVIS EVSGRIQFSD IVDGLTVTRQ TDELTGLSSI VVQDVGERAT AGKDLRPALR
+     LVDAQGNDIL IPGTDVAAQY FLPGKAIVTL DDGAEIEVGE ALARIPQESV GTKDITGGLP
+     RVADLFEARK PKEPAILAEI SGIVSFGKET KGKRRLVITP AEGEAFEEMI PKWRQLNVFE
+     GEMVQRGDVI SDGAETPHDI LRLRGVHAVT DYIVNEVQEV YRLQGVKIND KHIEVIVRQM
+     LRKAVITNAY DSEFLEGEQV EVSRVKIANR KRAEEGKPLV EFERELLGIT KASLATESFI
+     SAASFQETTR VLTEAAVAGK RDELRGLKEN VIVGRLIPAG TGFAYHQARA KKRSQPEQAV
+     AFEAPVAKAN GFATDADIEA EFEFVADDAT QSLAALLNAG DEE
+//

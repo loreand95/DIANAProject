@@ -1,0 +1,145 @@
+ID   RPIA_STRMU              Reviewed;         225 AA.
+AC   Q8DTT9;
+DT   23-APR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Ribose-5-phosphate isomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            EC=5.3.1.6 {ECO:0000255|HAMAP-Rule:MF_00170};
+DE   AltName: Full=Phosphoriboisomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            Short=PRI {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   Name=rpiA {ECO:0000255|HAMAP-Rule:MF_00170}; OrderedLocusNames=SMU_1234;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J., Carson M.B.,
+RA   Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P., Qian Y., Li S.,
+RA   Zhu H., Najar F.Z., Lai H., White J., Roe B.A., Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (1.70 ANGSTROMS), AND SUBUNIT.
+RA   Fan X.X., Wang K.T., Su X.D.;
+RT   "Crystal structure of ribose-5-phosphate isomerase a from str mutans
+RT   ua159.";
+RL   Submitted (DEC-2009) to the PDB data bank.
+CC   -!- FUNCTION: Catalyzes the reversible conversion of ribose-5-phosphate to
+CC       ribulose 5-phosphate. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-ribose 5-phosphate = D-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:14657, ChEBI:CHEBI:58121, ChEBI:CHEBI:58273;
+CC         EC=5.3.1.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00170};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-ribose
+CC       5-phosphate from D-ribulose 5-phosphate (non-oxidative stage): step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00170,
+CC       ECO:0000269|Ref.2}.
+CC   -!- SIMILARITY: Belongs to the ribose 5-phosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014133; AAN58919.1; -; Genomic_DNA.
+DR   RefSeq; NP_721613.1; NC_004350.2.
+DR   RefSeq; WP_002263209.1; NC_004350.2.
+DR   PDB; 3L7O; X-ray; 1.70 A; A/B=1-225.
+DR   PDBsum; 3L7O; -.
+DR   SMR; Q8DTT9; -.
+DR   STRING; 210007.SMU_1234; -.
+DR   PRIDE; Q8DTT9; -.
+DR   EnsemblBacteria; AAN58919; AAN58919; SMU_1234.
+DR   KEGG; smu:SMU_1234; -.
+DR   PATRIC; fig|210007.7.peg.1107; -.
+DR   eggNOG; COG0120; Bacteria.
+DR   HOGENOM; CLU_056590_1_0_9; -.
+DR   OMA; VAPMAYV; -.
+DR   PhylomeDB; Q8DTT9; -.
+DR   BioCyc; SMUT210007:G1FZX-1172-MONOMER; -.
+DR   BRENDA; 5.3.1.6; 5941.
+DR   UniPathway; UPA00115; UER00412.
+DR   EvolutionaryTrace; Q8DTT9; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IEA:UniProtKB-UniRule.
+DR   CDD; cd01398; RPI_A; 1.
+DR   HAMAP; MF_00170; Rib_5P_isom_A; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR020672; Ribose5P_isomerase_typA_subgr.
+DR   InterPro; IPR004788; Ribose5P_isomerase_type_A.
+DR   Pfam; PF06026; Rib_5-P_isom_A; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   TIGRFAMs; TIGR00021; rpiA; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Isomerase; Reference proteome.
+FT   CHAIN           1..225
+FT                   /note="Ribose-5-phosphate isomerase A"
+FT                   /id="PRO_0000158473"
+FT   REGION          26..29
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          82..85
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          95..98
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   ACT_SITE        104
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   BINDING         122
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   HELIX           3..13
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          21..24
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           30..44
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          49..54
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           55..64
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           71..73
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          77..82
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          85..87
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           101..109
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          111..119
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           120..122
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          125..127
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          132..136
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           141..150
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          155..157
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          172..176
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   HELIX           184..192
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          197..203
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          208..214
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   TURN            215..218
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+FT   STRAND          219..222
+FT                   /evidence="ECO:0007744|PDB:3L7O"
+SQ   SEQUENCE   225 AA;  24568 MW;  06A854001BCE9D9B CRC64;
+     MEELKKIAGV RAAQYVEDGM IVGLGTGSTA YYFVEEVGRR VQEEGLQVIG VTTSSRTTAQ
+     AQALGIPLKS IDEVDSVDVT VDGADEVDPN FNGIKGGGGA LLMEKIVGTL TKDYIWVVDE
+     SKMVDTLGAF RLPVEVVQYG AERLFREFEK KGYKPSFREY DGVRFVTDMK NFIIDLDLGS
+     IPDPIAFGNM LDHQVGVVEH GLFNGMVNRV IVAGKDGVRI LEANK
+//

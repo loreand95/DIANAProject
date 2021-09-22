@@ -1,0 +1,116 @@
+ID   FIB12_BPB03             Reviewed;         860 AA.
+AC   Q37893;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-DEC-2020, entry version 74.
+DE   RecName: Full=Pre-neck appendage protein;
+DE   AltName: Full=Gene product 12;
+DE            Short=gp12;
+DE   AltName: Full=Late protein GP12;
+DE   AltName: Full=NP1;
+DE   AltName: Full=Protein p12;
+GN   Name=12;
+OS   Bacillus phage B103 (Bacteriophage B103).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+OC   Caudovirales; Podoviridae; Picovirinae; unclassified Picovirinae.
+OX   NCBI_TaxID=10778;
+OH   NCBI_TaxID=1423; Bacillus subtilis.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=9358052; DOI=10.1016/s0378-1119(97)00363-6;
+RA   Pecenkova T., Benes V., Paces J., Vlcek C., Paces V.;
+RT   "Bacteriophage B103: complete DNA sequence of its genome and relationship
+RT   to other Bacillus phages.";
+RL   Gene 199:157-163(1997).
+CC   -!- FUNCTION: Structural component of the 12 appendages that hang from the
+CC       lower collar. Adhesion protein that binds to the host cell surface
+CC       during virus attachment and mediates teichoic acids degradation.
+CC       {ECO:0000250|UniProtKB:P20345}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P20345};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P20345};
+CC   -!- SUBUNIT: Homotrimer. Each appendage is a homotrimer of gp12*.
+CC       {ECO:0000250|UniProtKB:P20345}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000250|UniProtKB:P20345}.
+CC       Note=Present in 36 copies in the virion.
+CC       {ECO:0000250|UniProtKB:P20345}.
+CC   -!- DOMAIN: The N-terminus has three domains that function to attach the
+CC       appendages to the phage, digest the cell wall teichoic acids, and bind
+CC       irreversibly to the host. The C-terminus is an autochaperone that aids
+CC       trimerization. {ECO:0000250|UniProtKB:P20345}.
+CC   -!- PTM: Autocleaved to produce the 74 kDa gp12* assembly attached to the
+CC       phage particles. Autocleavage of the C-terminus is a posttrimerization
+CC       event that is followed by an ATP-dependent release.
+CC       {ECO:0000250|UniProtKB:P20345}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X99260; CAA67660.1; -; Genomic_DNA.
+DR   RefSeq; NP_690646.1; NC_004165.1.
+DR   SMR; Q37893; -.
+DR   MEROPS; G02.001; -.
+DR   GeneID; 955361; -.
+DR   KEGG; vg:955361; -.
+DR   Proteomes; UP000000971; Genome.
+DR   GO; GO:0098024; C:virus tail, fiber; IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0098671; P:adhesion receptor-mediated virion attachment to host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0098994; P:disruption of host cell envelope during viral entry; IEA:UniProtKB-KW.
+DR   Gene3D; 2.160.20.10; -; 1.
+DR   InterPro; IPR006626; PbH1.
+DR   InterPro; IPR024535; Pectate_lyase_SF_prot.
+DR   InterPro; IPR012334; Pectin_lyas_fold.
+DR   InterPro; IPR011050; Pectin_lyase_fold/virulence.
+DR   InterPro; IPR021865; Peptidase_G2.
+DR   Pfam; PF12708; Pectate_lyase_3; 1.
+DR   Pfam; PF11962; Peptidase_G2; 1.
+DR   SMART; SM00710; PbH1; 8.
+DR   SUPFAM; SSF51126; SSF51126; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding;
+KW   Degradation of host cell envelope components during virus entry;
+KW   Host-virus interaction; Late protein; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Repeat; Viral attachment to host adhesion receptor;
+KW   Viral attachment to host cell; Viral tail fiber protein;
+KW   Viral tail protein; Virion; Virus entry into host cell.
+FT   CHAIN           1..860
+FT                   /note="Pre-neck appendage protein"
+FT                   /id="PRO_0000106591"
+FT   NP_BIND         752..801
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P20345"
+FT   COMPBIAS        557..607
+FT                   /note="Ser-rich"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00016"
+FT   ACT_SITE        701
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P20345"
+FT   METAL           309
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:P20345"
+FT   METAL           311
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:P20345"
+FT   SITE            697..698
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000250|UniProtKB:P20345"
+SQ   SEQUENCE   860 AA;  91742 MW;  AC5B38F4BC65ECB0 CRC64;
+     MQKPELRRFE KLGEMMVQVY ERYLPTAFDE SMTLLEKMNK IIEYLNQIGR LTNDVVEEWN
+     KVMEWILNDG LEDYVKETLE KWYEEGKFAD LVIQVIDELK QFGVSVKTYG AVGDGKTDDI
+     EAFEKAIASG YPVYIPNGKF AVSRSIKIPS NTVITGAGID NAVVTFLDSV PLGDSLMIND
+     NYATGNENIY LSDFTLDGNC QRFGVNAIGS GGSRDSNLSI HASKNVHINR IKSINATLHG
+     IDITCGGLDY PYMGDGTTAP YPSRDIYISD CEAPSLGDDG ITTNNSEYIT ISNCNCHDPR
+     LLNNCNGIEI DDGSRHVQLS NNISKNCFGG VEVKAHGNVP AAYNVSINGH MSIGDVRSYN
+     FRHIGHHSAT DPESMSAKNI ICNNLMSVNP NNKRGFQNNA APRVLAVSAY YGVVVNGLSA
+     YTTEPANLTE TAISVQFRAR NVSLSGIVMT GFSMAENAIY VIGGSRGGDS VNISNVTLNN
+     SGRNGVAIGS GIDNVSISNV SAIGDGIANP IAIVKTVNSN PQISGVNGIG YPTVCQVAGV
+     AYNDGLTLFN GAFRGATSSS EFIHSEGFVL GSTSKSGATA SKSGVVSSSN SIAKAERSLI
+     AGSASCTTSG SYNTILSSLN CETTDTGNLI STSSASKATG NRNIILASYG VLASGSYKVN
+     GGYGGEGTPS ASNIKLGNSL NGHIKAKNTV TGANTWSDYG EYFESVDGQA IETGYLVTLE
+     GSKIRKAQEG EKIIGAISET AGIILGESTW NWQGQYLKNE FGGLIYETVE IDEGVFEKMP
+     KINPSYNPKL EYLSRGERPE WNIVGLIGQI MVRIDDTVKI GSGISAKDGI ATDGDTGIVM
+     QITTPYESSK GYGVAKVLLK
+//

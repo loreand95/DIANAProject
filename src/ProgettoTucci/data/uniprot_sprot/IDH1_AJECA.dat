@@ -1,0 +1,96 @@
+ID   IDH1_AJECA              Reviewed;         388 AA.
+AC   O13302;
+DT   21-FEB-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   12-AUG-2020, entry version 98.
+DE   RecName: Full=Isocitrate dehydrogenase [NAD] subunit 1, mitochondrial;
+DE            EC=1.1.1.41;
+DE   AltName: Full=Isocitric dehydrogenase;
+DE   AltName: Full=NAD(+)-specific ICDH;
+DE   Flags: Precursor;
+GN   Name=IDH1;
+OS   Ajellomyces capsulatus (Darling's disease fungus) (Histoplasma capsulatum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Ajellomycetaceae; Histoplasma.
+OX   NCBI_TaxID=5037;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=ATCC 26032 / G217B;
+RX   PubMed=10398348;
+RX   DOI=10.1002/(sici)1097-0061(19990630)15:9<799::aid-yea419>3.0.co;2-n;
+RA   Johnson C.H., McEwen J.E.;
+RT   "Isolation of a Histoplasma capsulatum cDNA that complements a
+RT   mitochondrial NAD(+)-isocitrate dehydrogenase subunit I-deficient mutant of
+RT   Saccharomyces cerevisiae.";
+RL   Yeast 15:799-804(1999).
+CC   -!- FUNCTION: Performs an essential role in the oxidative function of the
+CC       citric acid cycle. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-threo-isocitrate + NAD(+) = 2-oxoglutarate + CO2 + NADH;
+CC         Xref=Rhea:RHEA:23632, ChEBI:CHEBI:15562, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.41;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC       Note=Binds 1 Mg(2+) or Mn(2+) ion per subunit.;
+CC   -!- SUBUNIT: Octamer of two non-identical subunits IDH1 and IDH2.
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the isocitrate and isopropylmalate
+CC       dehydrogenases family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF009036; AAB63461.1; -; mRNA.
+DR   SMR; O13302; -.
+DR   PRIDE; O13302; -.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004449; F:isocitrate dehydrogenase (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-KW.
+DR   InterPro; IPR019818; IsoCit/isopropylmalate_DH_CS.
+DR   InterPro; IPR004434; Isocitrate_DH_NAD.
+DR   InterPro; IPR024084; IsoPropMal-DH-like_dom.
+DR   Pfam; PF00180; Iso_dh; 1.
+DR   SMART; SM01329; Iso_dh; 1.
+DR   TIGRFAMs; TIGR00175; mito_nad_idh; 1.
+DR   PROSITE; PS00470; IDH_IMDH; 1.
+PE   2: Evidence at transcript level;
+KW   Magnesium; Manganese; Metal-binding; Mitochondrion; NAD; Oxidoreductase;
+KW   Transit peptide; Tricarboxylic acid cycle.
+FT   TRANSIT         1..35
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           36..388
+FT                   /note="Isocitrate dehydrogenase [NAD] subunit 1,
+FT                   mitochondrial"
+FT                   /id="PRO_0000014428"
+FT   METAL           255
+FT                   /note="Magnesium or manganese"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         137
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         168
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         255
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            175
+FT                   /note="Critical for catalysis"
+FT                   /evidence="ECO:0000250"
+FT   SITE            222
+FT                   /note="Critical for catalysis"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   388 AA;  42222 MW;  7E80888D17CEBEF7 CRC64;
+     MFSLRTAQPA QSLFRAATNT YSTSLPRSAI AARSFATVQS DIFKPTKYGG KYTVTLIPGD
+     GIGTEVAESV KTIFKADNVP IEWEQVDVSG LDAGNKHSED LFKESIASLK RNKLGLKGIL
+     HTPVERSGHQ SFNVALRQEL DIYASIVLIK NIPGYKTRHD NVDLCIIREN TEGEYSGLEH
+     QSVSGVVESL KIITRAKSER IAKFAFSFAL ANNRKKVTCI HKANIMKLAD GLFRSTFHKV
+     AESYPTLETN DMIVDNASMQ AVARPQQFDV MVMPNLYGGI LSNVGAALVG GPGIVPGCNM
+     GRDVAVFEPG CRHVGLDIKG KDQANPTALI LSGSMLLRHL GLDEHANRIS KAVYDVIGEG
+     VTRTRDMGGQ ASTHEFTRAV LDKMESAL
+//

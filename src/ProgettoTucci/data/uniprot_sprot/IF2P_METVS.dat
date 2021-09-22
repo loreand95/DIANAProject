@@ -1,0 +1,113 @@
+ID   IF2P_METVS              Reviewed;         598 AA.
+AC   A6URS1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   10-FEB-2021, entry version 78.
+DE   RecName: Full=Probable translation initiation factor IF-2 {ECO:0000255|HAMAP-Rule:MF_00100};
+GN   Name=infB {ECO:0000255|HAMAP-Rule:MF_00100}; OrderedLocusNames=Mevan_1296;
+OS   Methanococcus vannielii (strain ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148
+OS   / SB).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanococci; Methanococcales;
+OC   Methanococcaceae; Methanococcus.
+OX   NCBI_TaxID=406327;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148 / SB;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Dalin E.,
+RA   Tice H., Pitluck S., Chain P., Malfatti S., Shin M., Vergez L., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Anderson I.,
+RA   Sieprawska-Lupa M., Whitman W.B., Richardson P.;
+RT   "Complete sequence of Methanococcus vannielii SB.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Function in general translation initiation by promoting the
+CC       binding of the formylmethionine-tRNA to ribosomes. Seems to function
+CC       along with eIF-2. {ECO:0000255|HAMAP-Rule:MF_00100}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. IF-2 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00100}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000742; ABR55193.1; -; Genomic_DNA.
+DR   RefSeq; WP_012066108.1; NC_009634.1.
+DR   SMR; A6URS1; -.
+DR   STRING; 406327.Mevan_1296; -.
+DR   EnsemblBacteria; ABR55193; ABR55193; Mevan_1296.
+DR   GeneID; 5324779; -.
+DR   KEGG; mvn:Mevan_1296; -.
+DR   eggNOG; arCOG01560; Archaea.
+DR   HOGENOM; CLU_002656_3_3_2; -.
+DR   OMA; FRQSKPA; -.
+DR   OrthoDB; 17053at2157; -.
+DR   BioCyc; MVAN406327:G1G99-1345-MONOMER; -.
+DR   Proteomes; UP000001107; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003743; F:translation initiation factor activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10050; -; 1.
+DR   HAMAP; MF_00100_A; IF_2_A; 1.
+DR   InterPro; IPR029459; EFTU-type.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR004544; TIF_aIF-2_arc.
+DR   InterPro; IPR015760; TIF_IF2.
+DR   InterPro; IPR023115; TIF_IF2_dom3.
+DR   InterPro; IPR036925; TIF_IF2_dom3_sf.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   PANTHER; PTHR43381; PTHR43381; 1.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   Pfam; PF14578; GTP_EFTU_D4; 1.
+DR   Pfam; PF11987; IF-2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52156; SSF52156; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00491; aIF-2; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   GTP-binding; Initiation factor; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..598
+FT                   /note="Probable translation initiation factor IF-2"
+FT                   /id="PRO_1000008276"
+FT   DOMAIN          3..225
+FT                   /note="tr-type G"
+FT   NP_BIND         12..19
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   NP_BIND         76..80
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   NP_BIND         130..133
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00100"
+FT   REGION          12..19
+FT                   /note="G1"
+FT                   /evidence="ECO:0000250"
+FT   REGION          37..41
+FT                   /note="G2"
+FT                   /evidence="ECO:0000250"
+FT   REGION          76..79
+FT                   /note="G3"
+FT                   /evidence="ECO:0000250"
+FT   REGION          130..133
+FT                   /note="G4"
+FT                   /evidence="ECO:0000250"
+FT   REGION          200..202
+FT                   /note="G5"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   598 AA;  66229 MW;  754AA203CFBD2397 CRC64;
+     MALRCPIVSV LGHVDHGKTS LLDKIRSTRV TQREAGGITQ HIGASEIPIN TIKKVSKDLL
+     GLFNANLSIP GLLVIDTPGH EAFTSLRKRG GALADIAILV VDINEGFKPQ TIEAINILKQ
+     CKTPFVVAAN KLDRIPGWSS SNGPFILNFN EKVQHPNAMT EFEIRLYENV IKHLNELGFD
+     ADLFSRVKDT TRTINVVPVS AITGEGVPDL LIIIAGLAQK FLEQKLALNV EGYAKGTVLE
+     VKEEKGLGRT IDAIIYDGIA RTGDYIVIGN PDGIVTSKVK ALLKPKELDE MRDPKDKFKP
+     SREISAATGV KISAPELEMV VSGSPLRIVP KEHINKAMDE ITEEIEEFTI KTDEEGIIIK
+     ADTMGSLEAI ANELRKAKAN IKKAEVGDVS KKDIIEASSY SSSDPLNGLI ISFNTKTLPD
+     AKLELEKTDV KLLEGKIIYK LVEDYGAWLK EMEELLKSDE LNKLTKPAMI KILPNCIFRQ
+     KGPAVCGVEI LYGTLKIGSH IMSDDGKKLG YVKEIRNNQQ ENIKEAKVGM QVPVSIDGNM
+     ILGRNAKEND ILYVEVSEPE VRKLYHIYKD ELRGDEKEAL LRYMELKQKL EKSIFWGM
+//

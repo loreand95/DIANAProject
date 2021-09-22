@@ -1,0 +1,72 @@
+ID   MERR_ACIFR              Reviewed;         122 AA.
+AC   P22896;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   11-DEC-2019, entry version 83.
+DE   RecName: Full=Mercuric resistance operon regulatory protein;
+DE   Flags: Fragment;
+GN   Name=merR;
+OS   Acidithiobacillus ferrooxidans (Thiobacillus ferrooxidans).
+OG   Plasmid pTF-FC2.
+OC   Bacteria; Proteobacteria; Acidithiobacillia; Acidithiobacillales;
+OC   Acidithiobacillaceae; Acidithiobacillus.
+OX   NCBI_TaxID=920;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1400173; DOI=10.1128/jb.174.19.6230-6237.1992;
+RA   Rohrer J., Rawlings D.E.;
+RT   "Sequence analysis and characterization of the mobilization region of a
+RT   broad-host-range plasmid, pTF-FC2, isolated from Thiobacillus
+RT   ferrooxidans.";
+RL   J. Bacteriol. 174:6230-6237(1992).
+CC   -!- FUNCTION: Mediates the mercuric-dependent induction of mercury
+CC       resistance operon. In the absence of mercury MerR represses
+CC       transcription by binding tightly to the mer operator region; when
+CC       mercury is present the dimeric complex binds a single ion and becomes a
+CC       potent transcriptional activator, while remaining bound to the mer
+CC       site.
+CC   -!- CAUTION: It is not sure if the metal-binding site is on position 81 or
+CC       82. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M57717; AAA27396.1; -; Genomic_DNA.
+DR   PIR; I43256; I43256.
+DR   SMR; P22896; -.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0046689; P:response to mercury ion; IEA:UniProtKB-KW.
+DR   InterPro; IPR009061; DNA-bd_dom_put_sf.
+DR   InterPro; IPR000551; MerR-type_HTH_dom.
+DR   Pfam; PF13411; MerR_1; 1.
+DR   PRINTS; PR00040; HTHMERR.
+DR   SMART; SM00422; HTH_MERR; 1.
+DR   SUPFAM; SSF46955; SSF46955; 1.
+DR   PROSITE; PS00552; HTH_MERR_1; 1.
+DR   PROSITE; PS50937; HTH_MERR_2; 1.
+PE   4: Predicted;
+KW   Activator; DNA-binding; Mercuric resistance; Mercury; Metal-binding;
+KW   Plasmid; Repressor; Transcription; Transcription regulation.
+FT   CHAIN           1..>122
+FT                   /note="Mercuric resistance operon regulatory protein"
+FT                   /id="PRO_0000098143"
+FT   DOMAIN          5..74
+FT                   /note="HTH merR-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00254"
+FT   DNA_BIND        8..27
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00254"
+FT   METAL           81
+FT                   /note="Mercury"
+FT                   /evidence="ECO:0000250"
+FT   METAL           117
+FT                   /note="Mercury"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         122
+SQ   SEQUENCE   122 AA;  13618 MW;  D067FD046497CBE3 CRC64;
+     MEDTMHTIGK VATLAGVSTD TLRYYEKEHL IEPASRTAAG YRLYNDEAVR RIRFIKTAQH
+     CGFSLSDIQE LLTLKRTDSA CCEDVRSVAI EKRLRIARKL RVLQAMSAAL NDLIQSCEGG
+     AA
+//

@@ -1,0 +1,130 @@
+ID   LCPS_MUCCL              Reviewed;         614 AA.
+AC   Q9UUQ6;
+DT   19-SEP-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   17-JUN-2020, entry version 84.
+DE   RecName: Full=Bifunctional lycopene cyclase/phytoene synthase;
+DE   Includes:
+DE     RecName: Full=Lycopene beta-cyclase;
+DE              EC=5.5.1.19;
+DE   Includes:
+DE     RecName: Full=Phytoene synthase;
+DE              EC=2.5.1.32;
+GN   Name=CARRP;
+OS   Mucor circinelloides f. lusitanicus (Mucor racemosus var. lusitanicus).
+OC   Eukaryota; Fungi; Fungi incertae sedis; Mucoromycota; Mucoromycotina;
+OC   Mucoromycetes; Mucorales; Mucorineae; Mucoraceae; Mucor.
+OX   NCBI_TaxID=29924;
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, INDUCTION, AND VARIANTS
+RP   LYS-78; ILE-86 AND GLY-409.
+RC   STRAIN=ATCC 1216b / BCRC 32522 / CBS 277.49 / NRRL 3631, MS21, MS35, and
+RC   MS36;
+RX   PubMed=10951210; DOI=10.1046/j.1432-1327.2000.01612.x;
+RA   Velayos A., Eslava A.P., Iturriaga E.A.;
+RT   "A bifunctional enzyme with lycopene cyclase and phytoene synthase
+RT   activities is encoded by the carRP gene of Mucor circinelloides.";
+RL   Eur. J. Biochem. 267:5509-5519(2000).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes the reactions from
+CC       prephytoene diphosphate to phytoene and lycopene to beta-carotene via
+CC       the intermediate gamma-carotene. {ECO:0000269|PubMed:10951210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a carotenoid psi-end group = a carotenoid beta-end derivative;
+CC         Xref=Rhea:RHEA:55620, ChEBI:CHEBI:139114, ChEBI:CHEBI:139120;
+CC         EC=5.5.1.19;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (2E,6E,10E)-geranylgeranyl diphosphate = 15-cis-phytoene + 2
+CC         diphosphate; Xref=Rhea:RHEA:34475, ChEBI:CHEBI:27787,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58756; EC=2.5.1.32;
+CC   -!- PATHWAY: Carotenoid biosynthesis; beta-carotene biosynthesis.
+CC   -!- PATHWAY: Carotenoid biosynthesis; phytoene biosynthesis; all-trans-
+CC       phytoene from geranylgeranyl diphosphate: step 1/1.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- INDUCTION: By blue light. {ECO:0000269|PubMed:10951210}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the lycopene beta-
+CC       cyclase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the phytoene/squalene
+CC       synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ250827; CAB60272.1; -; Genomic_DNA.
+DR   UniPathway; UPA00799; UER00773.
+DR   UniPathway; UPA00802; -.
+DR   GO; GO:0016021; C:integral component of membrane; NAS:UniProtKB.
+DR   GO; GO:0004310; F:farnesyl-diphosphate farnesyltransferase activity; IEA:InterPro.
+DR   GO; GO:0016767; F:geranylgeranyl-diphosphate geranylgeranyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016872; F:intramolecular lyase activity; IEA:InterPro.
+DR   GO; GO:0045436; F:lycopene beta cyclase activity; IDA:UniProtKB.
+DR   GO; GO:0046905; F:phytoene synthase activity; IDA:UniProtKB.
+DR   GO; GO:0051996; F:squalene synthase activity; IEA:InterPro.
+DR   GO; GO:0016117; P:carotenoid biosynthetic process; IDA:UniProtKB.
+DR   CDD; cd00683; Trans_IPPS_HH; 1.
+DR   Gene3D; 1.10.600.10; -; 1.
+DR   InterPro; IPR008949; Isoprenoid_synthase_dom_sf.
+DR   InterPro; IPR017825; Lycopene_cyclase_dom.
+DR   InterPro; IPR002060; Squ/phyt_synthse.
+DR   InterPro; IPR019845; Squalene/phytoene_synthase_CS.
+DR   InterPro; IPR033904; Trans_IPPS_HH.
+DR   SFLD; SFLDG01018; Squalene/Phytoene_Synthase_Lik; 1.
+DR   SUPFAM; SSF48576; SSF48576; 1.
+DR   TIGRFAMs; TIGR03462; CarR_dom_SF; 2.
+DR   PROSITE; PS01045; SQUALEN_PHYTOEN_SYN_2; 1.
+PE   2: Evidence at transcript level;
+KW   Carotenoid biosynthesis; Isomerase; Membrane; Multifunctional enzyme;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..614
+FT                   /note="Bifunctional lycopene cyclase/phytoene synthase"
+FT                   /id="PRO_0000067441"
+FT   TRANSMEM        2..22
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        36..56
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        70..90
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        120..140
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        143..163
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        174..194
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        217..237
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          1..239
+FT                   /note="Lycopene beta-cyclase"
+FT   REGION          246..614
+FT                   /note="Phytoene synthase"
+FT   VARIANT         78
+FT                   /note="E -> K (in strain: MS21; loss of lycopene cyclase
+FT                   activity)"
+FT                   /evidence="ECO:0000269|PubMed:10951210"
+FT   VARIANT         86
+FT                   /note="T -> I (in strain: MS35; loss of lycopene cyclase
+FT                   activity)"
+FT                   /evidence="ECO:0000269|PubMed:10951210"
+FT   VARIANT         409
+FT                   /note="D -> G (in strain: MS36; loss of phytoene cyclase
+FT                   activity)"
+FT                   /evidence="ECO:0000269|PubMed:10951210"
+SQ   SEQUENCE   614 AA;  69841 MW;  599E6BB541087FE5 CRC64;
+     MLLTYMEVHL YYTLPVLGVL SWLSRPYYTA TDALKFKFLT LVAFTTASAW DNYIVYHKAW
+     SYCPTCVTAV IGYVPLEEYM FFIIMTLLTV AFTNLVMRWH LHSFFIRPET PVMQSVLVRL
+     VPITALLITA YKAWHLAVPG KPLFYGSCIL WYACPVLALL WFGAGEYMMR RPLAVLVSIA
+     LPTLFLCWVD VVAIGAGTWD ISLATSTGKF VVPHLPVEEF MFFALINTVL VFGTCAIDRT
+     MAILHLFKNK SPYQRPYQHS KSFLHQILEM TWAFCLPDQV LHSDTFHDLS VSWDILRKAS
+     KSFYTASAVF PGDVRQELGV LYAFCRATDD LCDNEQVPVQ TRKEQLILTH QFVSDLFGQK
+     TSAPTAIDWD FYNDQLPASC ISAFKSFTRL RHVLEAGAIK ELLDGYKWDL ERRSIRDQED
+     LRYYSACVAS SVGEMCTRII LAHADKPASR QQTQWIIQRA REMGLVLQYT NIARDIVTDS
+     EELGRCYLPQ DWLTEKEVAL IQGGLAREIG EERLLSLSHR LIYQADELMV VANKGIDKLP
+     SHCQGGVRAA CNVYASIGTK LKSYKHHYPS RAHVGNSKRV EIALLSVYNL YTAPIATSST
+     THCRQGKMRN LNTI
+//

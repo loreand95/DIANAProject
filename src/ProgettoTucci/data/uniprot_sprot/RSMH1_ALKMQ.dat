@@ -1,0 +1,99 @@
+ID   RSMH1_ALKMQ             Reviewed;         311 AA.
+AC   A6TS69;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H 1 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH 1 {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH1 {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW1;
+GN   OrderedLocusNames=Amet_2887;
+OS   Alkaliphilus metalliredigens (strain QYMF).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Alkaliphilus.
+OX   NCBI_TaxID=293826;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=QYMF;
+RX   PubMed=27811105; DOI=10.1128/genomea.01226-16;
+RA   Hwang C., Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina Del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Schmutz J., Larimer F.,
+RA   Land M.L., Hauser L., Kyrpides N., Mikhailova N., Ye Q., Zhou J.,
+RA   Richardson P., Fields M.W.;
+RT   "Complete genome sequence of Alkaliphilus metalliredigens strain QYMF, an
+RT   alkaliphilic and metal-reducing bacterium isolated from borax-contaminated
+RT   leachate ponds.";
+RL   Genome Announc. 4:0-0(2016).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1402) in 16S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(4)-methylcytidine(1402) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42928, Rhea:RHEA-COMP:10286, Rhea:RHEA-COMP:10287,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74506, ChEBI:CHEBI:82748; EC=2.1.1.199;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01007};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000724; ABR49037.1; -; Genomic_DNA.
+DR   RefSeq; WP_012064005.1; NC_009633.1.
+DR   SMR; A6TS69; -.
+DR   STRING; 293826.Amet_2887; -.
+DR   EnsemblBacteria; ABR49037; ABR49037; Amet_2887.
+DR   KEGG; amt:Amet_2887; -.
+DR   eggNOG; COG0275; Bacteria.
+DR   HOGENOM; CLU_038422_2_0_9; -.
+DR   OMA; NPAKRTF; -.
+DR   OrthoDB; 1272633at2; -.
+DR   BioCyc; AMET293826:G1G94-2897-MONOMER; -.
+DR   Proteomes; UP000001572; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.150.170; -; 1.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11265; PTHR11265; 1.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   PIRSF; PIRSF004486; MraW; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   SUPFAM; SSF81799; SSF81799; 1.
+DR   TIGRFAMs; TIGR00006; TIGR00006; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..311
+FT                   /note="Ribosomal RNA small subunit methyltransferase H 1"
+FT                   /id="PRO_0000386706"
+FT   REGION          33..35
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         53
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         80
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         101
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         108
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+SQ   SEQUENCE   311 AA;  35255 MW;  D26529AA104C003E CRC64;
+     MNFEHTSVLL KECIEALDIK ENGIYVDGTL GGAGHSQEIL KVLGKEGLLI GIDQDENALS
+     AAGERLEEHG TKVKLVHDNF HNLDKILENL EITTIDGVLL DLGVSSHQLD ERERGFSYMQ
+     DAPLDMRMDR RSGFSARDIV NDYSEKELER IIKEYGEDRW ARRIAQFIVQ ERELAPIETT
+     HQMVEVIKKA VPKGARKDGP HPAKRTFQAI RIEVNQELEI IEATIEAAAK HMKPGGRIAI
+     ISFHSLEDRI VKNVFRRLQN PCVCPPQFPV CKCEKEQMVK IVTRKPILPS EAELEVNPRS
+     RSAKLRVAER V
+//

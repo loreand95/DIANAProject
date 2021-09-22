@@ -1,0 +1,97 @@
+ID   G6PI_VIBCB              Reviewed;         550 AA.
+AC   A7MSY9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   02-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Glucose-6-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=GPI {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            EC=5.3.1.9 {ECO:0000255|HAMAP-Rule:MF_00473};
+DE   AltName: Full=Phosphoglucose isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=PGI {ECO:0000255|HAMAP-Rule:MF_00473};
+DE   AltName: Full=Phosphohexose isomerase {ECO:0000255|HAMAP-Rule:MF_00473};
+DE            Short=PHI {ECO:0000255|HAMAP-Rule:MF_00473};
+GN   Name=pgi {ECO:0000255|HAMAP-Rule:MF_00473}; OrderedLocusNames=VIBHAR_00012;
+OS   Vibrio campbellii (strain ATCC BAA-1116 / BB120).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=338187;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1116 / BB120;
+RG   The Vibrio harveyi Genome Sequencing Project;
+RA   Bassler B., Clifton S.W., Fulton L., Delehaunty K., Fronick C.,
+RA   Harrison M., Markivic C., Fulton R., Tin-Wollam A.-M., Shah N., Pepin K.,
+RA   Nash W., Thiruvilangam P., Bhonagiri V., Waters C., Tu K.C., Irgon J.,
+RA   Wilson R.K.;
+RL   Submitted (AUG-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-glucose 6-phosphate = keto-D-fructose 6-phosphate;
+CC         Xref=Rhea:RHEA:11816, ChEBI:CHEBI:57579, ChEBI:CHEBI:57584;
+CC         EC=5.3.1.9; Evidence={ECO:0000255|HAMAP-Rule:MF_00473};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 2/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00473}.
+CC   -!- SIMILARITY: Belongs to the GPI family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00473}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000789; ABU69072.1; -; Genomic_DNA.
+DR   RefSeq; WP_011999039.1; NC_022269.1.
+DR   SMR; A7MSY9; -.
+DR   EnsemblBacteria; ABU69072; ABU69072; VIBHAR_00012.
+DR   KEGG; vca:M892_12565; -.
+DR   KEGG; vha:VIBHAR_00012; -.
+DR   PATRIC; fig|338187.25.peg.2509; -.
+DR   OMA; TNSQHAF; -.
+DR   OrthoDB; 417261at2; -.
+DR   UniPathway; UPA00109; UER00181.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000008152; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004347; F:glucose-6-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd05015; SIS_PGI_1; 1.
+DR   CDD; cd05016; SIS_PGI_2; 1.
+DR   Gene3D; 1.10.1390.10; -; 1.
+DR   HAMAP; MF_00473; G6P_isomerase; 1.
+DR   InterPro; IPR001672; G6P_Isomerase.
+DR   InterPro; IPR023096; G6P_Isomerase_C.
+DR   InterPro; IPR018189; Phosphoglucose_isomerase_CS.
+DR   InterPro; IPR035476; SIS_PGI_1.
+DR   InterPro; IPR035482; SIS_PGI_2.
+DR   PANTHER; PTHR11469; PTHR11469; 1.
+DR   Pfam; PF00342; PGI; 1.
+DR   PRINTS; PR00662; G6PISOMERASE.
+DR   PROSITE; PS00765; P_GLUCOSE_ISOMERASE_1; 1.
+DR   PROSITE; PS00174; P_GLUCOSE_ISOMERASE_2; 1.
+DR   PROSITE; PS51463; P_GLUCOSE_ISOMERASE_3; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase.
+FT   CHAIN           1..550
+FT                   /note="Glucose-6-phosphate isomerase"
+FT                   /id="PRO_1000014030"
+FT   ACT_SITE        356
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+FT   ACT_SITE        387
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+FT   ACT_SITE        515
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00473"
+SQ   SEQUENCE   550 AA;  60964 MW;  114D493DF2936360 CRC64;
+     MLKNINPTQT QAWKALTAHF ESAQDMDLKE LFAQDAARFD KYSARFGSDI LVDYSKNLIN
+     EETLKHLFAL ANETELKSAI EAMFSGEAIN KTEDRAVLHT ALRNRSNTPV MVGGEDVMPA
+     VNAVLEKIKS FTERVIGGEW KGYTGKAITD IVNIGIGGSD LGPYMVTEAL APYKNHLNLH
+     FVSNVDGTHI VETLKKVDPE TTLFLIASKT FTTQETMTNA HSARDWFLAT AGDQAHVAKH
+     FAALSTNAPA VSEFGIDTDN MFEFWDWVGG RYSLWSAIGL SIALAVGYDN FIELLDGAHE
+     MDNHFVSTDL ESNIPVILAL IGIWYNNFHG AESEAILPYD QYMHRFAAYF QQGNMESNGK
+     YVDREGNAVT YQTGPIIWGE PGTNGQHAFY QLIHQGTKLI PCDFIAPAIS HNPASDHHQK
+     LMSNFFAQTE ALAFGKSAET VKAEFAKAGK SEEEMASLVP FKVFEGNRPT NSILVKQITP
+     RTLGNLIAMY EHKIFVQGVI WNIFSFDQWG VELGKQLANQ ILPELADESE INSHDSSTNG
+     LINAFKAFKA
+//

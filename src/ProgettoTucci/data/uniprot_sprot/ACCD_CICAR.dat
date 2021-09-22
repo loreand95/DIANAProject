@@ -1,0 +1,117 @@
+ID   ACCD_CICAR              Reviewed;         460 AA.
+AC   B5LMN4;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 1.
+DT   02-DEC-2020, entry version 54.
+DE   RecName: Full=Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta, chloroplastic {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            Short=ACCase subunit beta {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            Short=Acetyl-CoA carboxylase carboxyltransferase subunit beta {ECO:0000255|HAMAP-Rule:MF_01395};
+DE            EC=2.1.3.15 {ECO:0000255|HAMAP-Rule:MF_01395};
+GN   Name=accD {ECO:0000255|HAMAP-Rule:MF_01395};
+OS   Cicer arietinum (Chickpea) (Garbanzo).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   NPAAA clade; Hologalegina; IRL clade; Cicereae; Cicer.
+OX   NCBI_TaxID=3827;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=18638561; DOI=10.1016/j.ympev.2008.06.013;
+RA   Jansen R.K., Wojciechowski M.F., Sanniyasi E., Lee S.-B., Daniell H.;
+RT   "Complete plastid genome sequence of the chickpea (Cicer arietinum) and the
+RT   phylogenetic distribution of rps12 and clpP intron losses among legumes
+RT   (Leguminosae).";
+RL   Mol. Phylogenet. Evol. 48:1204-1217(2008).
+CC   -!- FUNCTION: Component of the acetyl coenzyme A carboxylase (ACC) complex.
+CC       Biotin carboxylase (BC) catalyzes the carboxylation of biotin on its
+CC       carrier protein (BCCP) and then the CO(2) group is transferred by the
+CC       transcarboxylase to acetyl-CoA to form malonyl-CoA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01395}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + N(6)-carboxybiotinyl-L-lysyl-[protein] = malonyl-
+CC         CoA + N(6)-biotinyl-L-lysyl-[protein]; Xref=Rhea:RHEA:54728,
+CC         Rhea:RHEA-COMP:10505, Rhea:RHEA-COMP:10506, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57384, ChEBI:CHEBI:83144, ChEBI:CHEBI:83145; EC=2.1.3.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01395};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01395};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01395};
+CC   -!- PATHWAY: Lipid metabolism; malonyl-CoA biosynthesis; malonyl-CoA from
+CC       acetyl-CoA: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01395}.
+CC   -!- SUBUNIT: Acetyl-CoA carboxylase is a heterohexamer composed of biotin
+CC       carboxyl carrier protein, biotin carboxylase and 2 subunits each of
+CC       ACCase subunit alpha and ACCase plastid-coded subunit beta (accD).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast stroma {ECO:0000255|HAMAP-
+CC       Rule:MF_01395}.
+CC   -!- SIMILARITY: Belongs to the AccD/PCCB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01395}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU835853; ACH41080.1; -; Genomic_DNA.
+DR   RefSeq; YP_002149743.1; NC_011163.1.
+DR   SMR; B5LMN4; -.
+DR   STRING; 3827.XP_004514812.1; -.
+DR   GeneID; 6797490; -.
+DR   KEGG; cam:6797490; -.
+DR   eggNOG; KOG0540; Eukaryota.
+DR   OrthoDB; 623889at2759; -.
+DR   UniPathway; UPA00655; UER00711.
+DR   GO; GO:0009317; C:acetyl-CoA carboxylase complex; IEA:InterPro.
+DR   GO; GO:0009570; C:chloroplast stroma; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003989; F:acetyl-CoA carboxylase activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016743; F:carboxyl- or carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:2001295; P:malonyl-CoA biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01395; AcetylCoA_CT_beta; 1.
+DR   InterPro; IPR034733; AcCoA_carboxyl.
+DR   InterPro; IPR000438; Acetyl_CoA_COase_Trfase_b_su.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR011762; COA_CT_N.
+DR   Pfam; PF01039; Carboxyl_trans; 1.
+DR   PRINTS; PR01070; ACCCTRFRASEB.
+DR   SUPFAM; SSF52096; SSF52096; 1.
+DR   TIGRFAMs; TIGR00515; accD; 1.
+DR   PROSITE; PS50980; COA_CT_NTER; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chloroplast; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; Metal-binding; Nucleotide-binding;
+KW   Plastid; Transferase; Zinc; Zinc-finger.
+FT   CHAIN           1..460
+FT                   /note="Acetyl-coenzyme A carboxylase carboxyl transferase
+FT                   subunit beta, chloroplastic"
+FT                   /id="PRO_0000359130"
+FT   DOMAIN          179..460
+FT                   /note="CoA carboxyltransferase N-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01136"
+FT   ZN_FING         183..205
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           183
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           186
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           202
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+FT   METAL           205
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01395"
+SQ   SEQUENCE   460 AA;  52180 MW;  E4367D4A23506C8D CRC64;
+     MEKWWFNSML FNKKLEYRCG LSKSIDSFGP IEKKSEEPSI VTDNDSYSHV DYLVDVSNRQ
+     NFLSDKTFLV RDRNSYSYSI FFAIENKILE IDYDSQFNWK NIINSCIENY LRSQICIDSD
+     ILDNSFKYND NDSDVYSYIC GKVTNSSQST STDVITITND SEKESFNDDD DFTQKYKHLW
+     VQCESCYGLN YKKFFKSKMN ICEHCGDHLK MSSSDRIELL IDPGTWNPRD EDMVSLDPIE
+     FDPIELDPIE LDPIELDSED EPYKTRLDSY QKRTGLSEAV QTGTGQINGI PVAIGIMDFQ
+     FMGGSMGSVV GEKITRLIEY ATNQLLPLII VCASGGARMQ EGSLSLMQMA KISSALYNYQ
+     INQKLFYVAI LTSPTTGGVT ASFGMLGDII IAEPNAYIAF AGKRVIEQTL NTEVPEGSQS
+     AEFLFEKGLF DSIVPRNLLK EVLGELFQFH GFFPLTQNGN
+//

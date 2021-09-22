@@ -1,0 +1,84 @@
+ID   GATC_STAA1              Reviewed;         100 AA.
+AC   A7X428;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 69.
+DE   RecName: Full=Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C {ECO:0000255|HAMAP-Rule:MF_00122};
+DE            Short=Asp/Glu-ADT subunit C {ECO:0000255|HAMAP-Rule:MF_00122};
+DE            EC=6.3.5.- {ECO:0000255|HAMAP-Rule:MF_00122};
+GN   Name=gatC {ECO:0000255|HAMAP-Rule:MF_00122}; OrderedLocusNames=SAHV_1886;
+OS   Staphylococcus aureus (strain Mu3 / ATCC 700698).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=418127;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Mu3 / ATCC 700698;
+RX   PubMed=17954695; DOI=10.1128/aac.00534-07;
+RA   Neoh H.-M., Cui L., Yuzawa H., Takeuchi F., Matsuo M., Hiramatsu K.;
+RT   "Mutated response regulator graR is responsible for phenotypic conversion
+RT   of Staphylococcus aureus from heterogeneous vancomycin-intermediate
+RT   resistance to vancomycin-intermediate resistance.";
+RL   Antimicrob. Agents Chemother. 52:45-53(2008).
+CC   -!- FUNCTION: Allows the formation of correctly charged Asn-tRNA(Asn) or
+CC       Gln-tRNA(Gln) through the transamidation of misacylated Asp-tRNA(Asn)
+CC       or Glu-tRNA(Gln) in organisms which lack either or both of asparaginyl-
+CC       tRNA or glutaminyl-tRNA synthetases. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated phospho-Asp-
+CC       tRNA(Asn) or phospho-Glu-tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00122}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00122};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-aspartyl-tRNA(Asn) + L-glutamine = ADP + 2 H(+)
+CC         + L-asparaginyl-tRNA(Asn) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:14513, Rhea:RHEA-COMP:9674, Rhea:RHEA-COMP:9677,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78515, ChEBI:CHEBI:78516, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00122};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00122}.
+CC   -!- SIMILARITY: Belongs to the GatC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00122}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009324; BAF78769.1; -; Genomic_DNA.
+DR   RefSeq; WP_000170162.1; NZ_CTYB01000043.1.
+DR   SMR; A7X428; -.
+DR   GeneID; 58067769; -.
+DR   GeneID; 59700698; -.
+DR   KEGG; saw:SAHV_1886; -.
+DR   HOGENOM; CLU_105899_1_2_9; -.
+DR   OMA; VTPMAMK; -.
+DR   BioCyc; SAUR418127:G1G2S-2102-MONOMER; -.
+DR   GO; GO:0050566; F:asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.20.60; -; 1.
+DR   HAMAP; MF_00122; GatC; 1.
+DR   InterPro; IPR003837; Asp/Glu-ADT_csu.
+DR   InterPro; IPR036113; Asp/Glu-ADT_sf_sub_c.
+DR   PANTHER; PTHR15004; PTHR15004; 1.
+DR   Pfam; PF02686; Glu-tRNAGln; 1.
+DR   SUPFAM; SSF141000; SSF141000; 1.
+DR   TIGRFAMs; TIGR00135; gatC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..100
+FT                   /note="Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase
+FT                   subunit C"
+FT                   /id="PRO_1000016214"
+SQ   SEQUENCE   100 AA;  11268 MW;  7E9273A6AA979250 CRC64;
+     MTKVTREEVE HIANLARLQI SPEETEEMAN TLESILDFAK QNDSADTEGV EPTYHVLDLQ
+     NVLREDKAIK GIPQELALKN AKETEDGQFK VPTIMNEEDA
+//

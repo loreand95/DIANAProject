@@ -1,0 +1,115 @@
+ID   METN_STRMU              Reviewed;         354 AA.
+AC   Q93DA2; Q7CE87;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   07-APR-2021, entry version 130.
+DE   RecName: Full=Methionine import ATP-binding protein MetN {ECO:0000255|HAMAP-Rule:MF_01719};
+DE            EC=7.4.2.11 {ECO:0000255|HAMAP-Rule:MF_01719};
+GN   Name=metN {ECO:0000255|HAMAP-Rule:MF_01719}; Synonyms=atmD;
+GN   OrderedLocusNames=SMU_1939c;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LT11;
+RX   PubMed=12161466; DOI=10.1177/154405910208100715;
+RA   Tao L., Tanzer J.M.;
+RT   "Novel sucrose-dependent adhesion co-factors in Streptococcus mutans.";
+RL   J. Dent. Res. 81:505-510(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J., Carson M.B.,
+RA   Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P., Qian Y., Li S.,
+RA   Zhu H., Najar F.Z., Lai H., White J., Roe B.A., Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+CC   -!- FUNCTION: Part of the ABC transporter complex MetNIQ involved in
+CC       methionine import. Responsible for energy coupling to the transport
+CC       system. {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-methionine(out) = ADP + H(+) + L-methionine(in)
+CC         + phosphate; Xref=Rhea:RHEA:29779, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:456216; EC=7.4.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01719};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-methionine(out) + H2O = ADP + D-methionine(in) + H(+)
+CC         + phosphate; Xref=Rhea:RHEA:29767, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57932, ChEBI:CHEBI:456216; EC=7.4.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01719};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (MetN),
+CC       two transmembrane proteins (MetI) and a solute-binding protein (MetQ).
+CC       {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01719};
+CC       Peripheral membrane protein {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Methionine
+CC       importer (TC 3.A.1.24) family. {ECO:0000255|HAMAP-Rule:MF_01719}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF397166; AAL04079.1; -; Genomic_DNA.
+DR   EMBL; AE014133; AAN59549.1; -; Genomic_DNA.
+DR   RefSeq; NP_722243.1; NC_004350.2.
+DR   RefSeq; WP_002262135.1; NC_004350.2.
+DR   SMR; Q93DA2; -.
+DR   STRING; 210007.SMU_1939c; -.
+DR   PRIDE; Q93DA2; -.
+DR   EnsemblBacteria; AAN59549; AAN59549; SMU_1939c.
+DR   GeneID; 57966672; -.
+DR   KEGG; smu:SMU_1939c; -.
+DR   PATRIC; fig|210007.7.peg.1724; -.
+DR   eggNOG; COG1135; Bacteria.
+DR   HOGENOM; CLU_000604_1_3_9; -.
+DR   OMA; LIRLINC; -.
+DR   PhylomeDB; Q93DA2; -.
+DR   BioCyc; SMUT210007:G1FZX-1826-MONOMER; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0033232; F:ABC-type D-methionine transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   CDD; cd03258; ABC_MetN_methionine_transporter; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR026253; ABC_MetN.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR017908; ABC_transprt_methionine_MetN_C.
+DR   InterPro; IPR041701; MetN_ABC.
+DR   InterPro; IPR018449; NIL_domain.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR43166:SF5; PTHR43166:SF5; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF09383; NIL; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00930; NIL; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51264; METN; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid transport; ATP-binding; Cell membrane; Membrane;
+KW   Nucleotide-binding; Reference proteome; Translocase; Transport.
+FT   CHAIN           1..354
+FT                   /note="Methionine import ATP-binding protein MetN"
+FT                   /id="PRO_0000270414"
+FT   DOMAIN          8..250
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01719"
+FT   NP_BIND         42..49
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01719"
+SQ   SEQUENCE   354 AA;  39166 MW;  03408E327A516B9A CRC64;
+     MSKAIIKLDH IDITFHQKKR TIEAVKGVTV HINQGDIYGI VGYSGAGKST LVRVINLLQT
+     PTKGKITVDQ DVIFENGEKR LSSQELRKKR HEIGMIFQHF NLMAQKTARQ NVAFALRHSN
+     LSAAQKESKV TELLELVGLT DRAENYPSQL SGGQKQRVAI ARALANDPKI LISDEATSAL
+     DPKTTKQILA LLQDLNKKLG LTVVMITHEM QIVKDICNRV AVMQEGSLIE EGSVLDIFSN
+     PREDLTKDFI KTATGIEEAL IKIKQQEIVK NLPANAALVQ LKYAGKTTDE PILNNLYKKY
+     QVTANILYGN IEILEKTPVG EMIVILEGAA TNIDQALNDL THSDLTVTVL KRGV
+//

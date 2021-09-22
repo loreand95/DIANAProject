@@ -1,0 +1,116 @@
+ID   LGMN_PONAB              Reviewed;         433 AA.
+AC   Q5R5D9;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   02-DEC-2020, entry version 54.
+DE   RecName: Full=Legumain;
+DE            EC=3.4.22.34;
+DE   AltName: Full=Asparaginyl endopeptidase;
+DE   AltName: Full=Protease, cysteine 1;
+DE   Flags: Precursor;
+GN   Name=LGMN; Synonyms=PRSC1;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Has a strict specificity for hydrolysis of asparaginyl bonds.
+CC       Can also cleave aspartyl bonds slowly, especially under acidic
+CC       conditions. Required for normal lysosomal protein degradation in renal
+CC       proximal tubules. Required for normal degradation of internalized EGFR.
+CC       Plays a role in the regulation of cell proliferation via its role in
+CC       EGFR degradation. May be involved in the processing of proteins for MHC
+CC       class II antigen presentation in the lysosomal/endosomal system (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of proteins and small molecule substrates at
+CC         -Asn-|-Xaa- bonds.; EC=3.4.22.34;
+CC   -!- SUBUNIT: Monomer after autocatalytic processing. Homodimer before
+CC       autocatalytic removal of the propeptide. May interact with integrins
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome {ECO:0000250}.
+CC   -!- DOMAIN: In the zymogen form, the uncleaved propeptide blocks access to
+CC       the active site. {ECO:0000250}.
+CC   -!- PTM: Activated by autocatalytic processing at pH 4. {ECO:0000250}.
+CC   -!- PTM: Glycosylated. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the peptidase C13 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR860922; CAH93027.1; -; mRNA.
+DR   RefSeq; NP_001126789.1; NM_001133317.1.
+DR   SMR; Q5R5D9; -.
+DR   STRING; 9601.ENSPPYP00000006913; -.
+DR   MEROPS; C13.004; -.
+DR   GeneID; 100173793; -.
+DR   KEGG; pon:100173793; -.
+DR   CTD; 5641; -.
+DR   eggNOG; KOG1348; Eukaryota.
+DR   InParanoid; Q5R5D9; -.
+DR   OrthoDB; 826971at2759; -.
+DR   Proteomes; UP000001595; Unplaced.
+DR   GO; GO:0005764; C:lysosome; ISS:UniProtKB.
+DR   GO; GO:0004197; F:cysteine-type endopeptidase activity; ISS:UniProtKB.
+DR   GO; GO:1901185; P:negative regulation of ERBB signaling pathway; ISS:UniProtKB.
+DR   GO; GO:0006508; P:proteolysis; ISS:UniProtKB.
+DR   GO; GO:0051603; P:proteolysis involved in cellular protein catabolic process; ISS:UniProtKB.
+DR   GO; GO:0032801; P:receptor catabolic process; ISS:UniProtKB.
+DR   GO; GO:0003014; P:renal system process; ISS:UniProtKB.
+DR   InterPro; IPR043577; AE.
+DR   InterPro; IPR001096; Peptidase_C13.
+DR   PANTHER; PTHR12000; PTHR12000; 1.
+DR   Pfam; PF01650; Peptidase_C13; 1.
+DR   PIRSF; PIRSF500139; AE; 1.
+DR   PIRSF; PIRSF019663; Legumain; 1.
+DR   PRINTS; PR00776; HEMOGLOBNASE.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Glycoprotein; Hydrolase; Lysosome; Protease;
+KW   Reference proteome; Signal; Thiol protease; Zymogen.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           18..323
+FT                   /note="Legumain"
+FT                   /id="PRO_0000259474"
+FT   PROPEP          324..433
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000259475"
+FT   ACT_SITE        148
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        189
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250"
+FT   SITE            323..324
+FT                   /note="Cleavage; by autolysis"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        167
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        263
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        272
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        378..412
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        390..429
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   433 AA;  49309 MW;  C509F72F1D155E8A CRC64;
+     MVWKVAVFLS AALVIGAVPI DDPEDGGKHW VVIVAGSNGW YNYRHQADAC HAYQIIHRNG
+     IPDEQIVVMM YDDIAYSEDN PTPGIVINRP NGTDVYQGVP KDYTGEDVTP QNFLAVLRGD
+     AEAVKGIGSG KVLKSGPQDH VFVYSTDHGS TGILVFPNED LHVEDLNETI HYMYKHKMYR
+     KMVFYIEACE SGSMMNHLPD NINVYATTAA NPRESSYACY YDEKRSTYLG DWYSVNWMED
+     SDVEDLTKET LHKQYHLVKS HTNTSHVMQY GNKTISTMKV MQFQGMKHKA SSPISLPPVT
+     HLDLTPSPDV PLTIMKRKLM NTNDLEESRQ LTEEIQQHLD ARHLIEKSVR KIVSLLAASE
+     AEVEQLLSER APLTGHSCYP EALLHFRTHC FNWHSPTYEY ALRHLYVLVN LCEKPYPLHR
+     IKLSMDHVCL GHY
+//

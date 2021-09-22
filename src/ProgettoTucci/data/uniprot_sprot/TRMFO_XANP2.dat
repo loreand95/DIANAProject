@@ -1,0 +1,101 @@
+ID   TRMFO_XANP2             Reviewed;         471 AA.
+AC   A7INE1;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO {ECO:0000255|HAMAP-Rule:MF_01037};
+DE            EC=2.1.1.74 {ECO:0000255|HAMAP-Rule:MF_01037};
+DE   AltName: Full=Folate-dependent tRNA (uracil-5-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01037};
+DE   AltName: Full=Folate-dependent tRNA(M-5-U54)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01037};
+GN   Name=trmFO {ECO:0000255|HAMAP-Rule:MF_01037}; OrderedLocusNames=Xaut_4314;
+OS   Xanthobacter autotrophicus (strain ATCC BAA-1158 / Py2).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Xanthobacteraceae; Xanthobacter.
+OX   NCBI_TaxID=78245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1158 / Py2;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Glavina del Rio T., Hammon N.,
+RA   Israni S., Dalin E., Tice H., Pitluck S., Sims D., Brettin T., Bruce D.,
+RA   Detter J.C., Han C., Tapia R., Brainard J., Schmutz J., Larimer F.,
+RA   Land M., Hauser L., Kyrpides N., Kim E., Ensigns S.A., Richardson P.;
+RT   "Complete sequence of chromosome of Xanthobacter autotrophicus Py2.";
+RL   Submitted (JUL-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the folate-dependent formation of 5-methyl-uridine
+CC       at position 54 (M-5-U54) in all tRNAs. {ECO:0000255|HAMAP-
+CC       Rule:MF_01037}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + H(+) + NADH +
+CC         uridine(54) in tRNA = (6S)-5,6,7,8-tetrahydrofolate + 5-
+CC         methyluridine(54) in tRNA + NAD(+); Xref=Rhea:RHEA:16873, Rhea:RHEA-
+CC         COMP:10167, Rhea:RHEA-COMP:10193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15636, ChEBI:CHEBI:57453, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.74;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01037};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + H(+) + NADPH +
+CC         uridine(54) in tRNA = (6S)-5,6,7,8-tetrahydrofolate + 5-
+CC         methyluridine(54) in tRNA + NADP(+); Xref=Rhea:RHEA:62372, Rhea:RHEA-
+CC         COMP:10167, Rhea:RHEA-COMP:10193, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15636, ChEBI:CHEBI:57453, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.74;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01037};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01037};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01037}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. TrmFO subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01037}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000781; ABS69535.1; -; Genomic_DNA.
+DR   RefSeq; WP_012116283.1; NC_009720.1.
+DR   SMR; A7INE1; -.
+DR   STRING; 78245.Xaut_4314; -.
+DR   EnsemblBacteria; ABS69535; ABS69535; Xaut_4314.
+DR   KEGG; xau:Xaut_4314; -.
+DR   eggNOG; COG1206; Bacteria.
+DR   HOGENOM; CLU_033057_1_0_5; -.
+DR   OMA; MHRNTFL; -.
+DR   OrthoDB; 516534at2; -.
+DR   Proteomes; UP000002417; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030698; F:5,10-methylenetetrahydrofolate-dependent tRNA (m5U54) methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0047151; F:methylenetetrahydrofolate-tRNA-(uracil-5-)-methyltransferase (FADH2-oxidizing) activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_01037; TrmFO; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR040131; MnmG_N.
+DR   InterPro; IPR004417; TrmFO.
+DR   PANTHER; PTHR11806; PTHR11806; 1.
+DR   PANTHER; PTHR11806:SF2; PTHR11806:SF2; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00137; gid_trmFO; 1.
+DR   PROSITE; PS01281; GIDA_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; Methyltransferase; NAD; NADP;
+KW   Reference proteome; Transferase; tRNA processing.
+FT   CHAIN           1..471
+FT                   /note="Methylenetetrahydrofolate--tRNA-(uracil-5-)-
+FT                   methyltransferase TrmFO"
+FT                   /id="PRO_0000346421"
+FT   NP_BIND         12..17
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01037"
+SQ   SEQUENCE   471 AA;  50555 MW;  A24CF40C4C5BD638 CRC64;
+     MPQSADPVHV VGGGLAGSEA AWQIATRGVP VVLHEMRPQR TTDAHLTDGL AELVCSNSFR
+     SDDPEGNAVG VLHAEMRQAG SLILTAADQN QVPAGGALAV DRDGFSRAVT KALEDHPLIE
+     IRREELTTLP PAEWDKVILA TGPLTSPALA EAVLSLTGET ALAFFDAIAP IVHFDSIDMG
+     KAWFQSRYDK PGPGGTGADY INCPLDEAQY HAFVDALIAG EKAPMRDFEA KTPYFDGCLP
+     IEVMAERGRE TLRFGPMKPV GLTNPHNPTV KAYAIVQLRQ DNKLGTLYNM VGFQTKLRHG
+     EQARVFRTIP GLENAEFARL GGLHRNTYLN SPRLLDGTLR LKADPRLRFA GQITGCEGYV
+     ESAAVGLMAG RFAAAERRGE ALVPPPLTTA HGALLAHITG GHVEAEEAGA PRSFQPMNIN
+     FGLFPPLEEA PRGEPGKRLR GAEKTLAKKK AMAARALAHM AAWLDTPARA A
+//

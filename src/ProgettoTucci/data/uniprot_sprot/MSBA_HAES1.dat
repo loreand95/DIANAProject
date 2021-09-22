@@ -1,0 +1,127 @@
+ID   MSBA_HAES1              Reviewed;         582 AA.
+AC   Q0I4C5;
+DT   09-JAN-2007, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2006, sequence version 1.
+DT   07-APR-2021, entry version 97.
+DE   RecName: Full=ATP-dependent lipid A-core flippase {ECO:0000255|HAMAP-Rule:MF_01703};
+DE            EC=7.5.2.6 {ECO:0000255|HAMAP-Rule:MF_01703};
+DE   AltName: Full=Lipid A export ATP-binding/permease protein MsbA {ECO:0000255|HAMAP-Rule:MF_01703};
+GN   Name=msbA {ECO:0000255|HAMAP-Rule:MF_01703}; OrderedLocusNames=HS_1021;
+OS   Haemophilus somnus (strain 129Pt) (Histophilus somni).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Histophilus.
+OX   NCBI_TaxID=205914;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=129Pt;
+RX   PubMed=17172329; DOI=10.1128/jb.01422-06;
+RA   Challacombe J.F., Duncan A.J., Brettin T.S., Bruce D., Chertkov O.,
+RA   Detter J.C., Han C.S., Misra M., Richardson P., Tapia R., Thayer N.,
+RA   Xie G., Inzana T.J.;
+RT   "Complete genome sequence of Haemophilus somnus (Histophilus somni) strain
+RT   129Pt and comparison to Haemophilus ducreyi 35000HP and Haemophilus
+RT   influenzae Rd.";
+RL   J. Bacteriol. 189:1890-1898(2007).
+CC   -!- FUNCTION: Involved in lipopolysaccharide (LPS) biosynthesis.
+CC       Translocates lipid A-core from the inner to the outer leaflet of the
+CC       inner membrane. Transmembrane domains (TMD) form a pore in the inner
+CC       membrane and the ATP-binding domain (NBD) is responsible for energy
+CC       generation. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(2)O + lipid A-core oligosaccharide(Side 1) = ADP +
+CC         phosphate + lipid A-core oligosaccharide(Side 2).; EC=7.5.2.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01703};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01703}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01703}.
+CC   -!- DOMAIN: In MsbA the ATP-binding domain (NBD) and the transmembrane
+CC       domain (TMD) are fused. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Lipid exporter
+CC       (TC 3.A.1.106) family. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000436; ABI25296.1; -; Genomic_DNA.
+DR   RefSeq; WP_011609176.1; NC_008309.1.
+DR   SMR; Q0I4C5; -.
+DR   STRING; 205914.HS_1021; -.
+DR   PRIDE; Q0I4C5; -.
+DR   EnsemblBacteria; ABI25296; ABI25296; HS_1021.
+DR   KEGG; hso:HS_1021; -.
+DR   eggNOG; COG1132; Bacteria.
+DR   HOGENOM; CLU_000604_84_3_6; -.
+DR   OMA; MLYTPIK; -.
+DR   Proteomes; UP000001970; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0034040; F:ATPase-coupled lipid transmembrane transporter activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.1560.10; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR011917; ABC_transpr_lipidA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR24221; PTHR24221; 1.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF90123; SSF90123; 1.
+DR   TIGRFAMs; TIGR02203; MsbA_lipidA; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51239; MSBA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Lipid transport; Membrane;
+KW   Nucleotide-binding; Translocase; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..582
+FT                   /note="ATP-dependent lipid A-core flippase"
+FT                   /id="PRO_0000271630"
+FT   TRANSMEM        24..44
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        65..85
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        140..160
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        161..181
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        252..272
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        274..294
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   DOMAIN          27..310
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   DOMAIN          342..578
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   NP_BIND         376..383
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+SQ   SEQUENCE   582 AA;  64216 MW;  E92AEC7A751DED26 CRC64;
+     MQDKDLSTLQ TFKRLWPTIA PFKLGLIASA VALVFNALAD AALIQMLKPV LDEGFGKVDN
+     SLLRIMAIVV VLLIFVRGVT NFISTYCLAW VSGKVVMVMR RRLFRHLMYM PVTFFDQNSV
+     GRLLSRIVYD SEQVANSSSG SLVTIVREGA YIIALLTVMF YTSWQLALVL FIIGPIIAVI
+     IRIVSKKFRE LGKNLQNSMG DLTSSVEQML KGHKVVLAFG GQKIEEERFD QVSNNMRRRG
+     MKVMAASAIS DPVVQIIASF ALAAVLFLAT LPEIMTQNLS AGSFTVVFSS MLAMMRPLKS
+     LTNVNAQFQR GMAACQTLFA LLDLETEKDT GKHVVDTVKG EVRFENVTFS YSGKEHPALN
+     NISFTIPQGK TVALVGRSGS GKSTIANLVT RFYDVEQGKI TLDGVNIQDY TLANLREHCA
+     VVSQQVHLFN DTIANNIAYA VTEKCTREQI IEAAEAAYAM EFIEKLENGL DTVIGENGAS
+     LSGGQRQRLA IARALLRDSP VLILDEATSA LDTESERAIQ AALETLQKDR TVLVIAHRLS
+     TIEKADEILV IEQGEIKERG SHQELLALNG AYKQLHSTQF NH
+//

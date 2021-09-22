@@ -1,0 +1,113 @@
+ID   APOA1_MARMA             Reviewed;         264 AA.
+AC   P0DTU8;
+DT   17-JUN-2020, integrated into UniProtKB/Swiss-Prot.
+DT   17-JUN-2020, sequence version 1.
+DT   07-APR-2021, entry version 6.
+DE   RecName: Full=Apolipoprotein A-I;
+DE            Short=Apo-AI;
+DE            Short=ApoA-I;
+DE   AltName: Full=Apolipoprotein A1;
+DE   Contains:
+DE     RecName: Full=Proapolipoprotein A-I;
+DE              Short=ProapoA-I;
+DE   Contains:
+DE     RecName: Full=Truncated apolipoprotein A-I;
+DE   Flags: Precursor;
+GN   Name=APOA1;
+OS   Marmota marmota marmota (Alpine marmot).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Sciuromorpha; Sciuridae;
+OC   Xerinae; Marmotini; Marmota.
+OX   NCBI_TaxID=9994;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   TISSUE=Spleen;
+RA   Ralser M., Kuhl H., Timmermann B., Shanmugasundram A.;
+RL   Submitted (NOV-2015) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   IDENTIFICATION.
+RA   Puppione D.L.;
+RL   Unpublished observations (MAR-2020).
+CC   -!- FUNCTION: Participates in the reverse transport of cholesterol from
+CC       tissues to the liver for excretion by promoting cholesterol efflux from
+CC       tissues and by acting as a cofactor for the lecithin cholesterol
+CC       acyltransferase (LCAT). As part of the SPAP complex, activates
+CC       spermatozoa motility. {ECO:0000250|UniProtKB:P02647}.
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with APOA1BP and CLU.
+CC       Component of a sperm activating protein complex (SPAP), consisting of
+CC       APOA1, an immunoglobulin heavy chain, an immunoglobulin light chain and
+CC       albumin. Interacts with NDRG1. Interacts with SCGB3A2 (By similarity).
+CC       Interacts with NAXE and YJEFN3 (By similarity).
+CC       {ECO:0000250|UniProtKB:G5BQH5, ECO:0000250|UniProtKB:P02647,
+CC       ECO:0000250|UniProtKB:P04639}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P02647}.
+CC   -!- PTM: Glycosylated. {ECO:0000250|UniProtKB:P02648}.
+CC   -!- PTM: Palmitoylated. {ECO:0000250|UniProtKB:P02648}.
+CC   -!- PTM: Phosphorylation sites are present in the extracellular medium.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the apolipoprotein A1/A4/E family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CZRN01000026.1; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   RefSeq; XP_015345327.1; XM_015489841.1.
+DR   SMR; P0DTU8; -.
+DR   GeneID; 107145833; -.
+DR   CTD; 335; -.
+DR   GO; GO:0034364; C:high-density lipoprotein particle; IEA:UniProtKB-KW.
+DR   GO; GO:0008289; F:lipid binding; IEA:InterPro.
+DR   GO; GO:0008203; P:cholesterol metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006869; P:lipid transport; IEA:UniProtKB-KW.
+DR   GO; GO:0042157; P:lipoprotein metabolic process; IEA:InterPro.
+DR   InterPro; IPR000074; ApoA_E.
+DR   Pfam; PF01442; Apolipoprotein; 1.
+PE   3: Inferred from homology;
+KW   Cholesterol metabolism; Glycoprotein; HDL; Lipid metabolism;
+KW   Lipid transport; Lipoprotein; Oxidation; Palmitate; Phosphoprotein; Repeat;
+KW   Secreted; Signal; Steroid metabolism; Sterol metabolism; Transport.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..264
+FT                   /note="Proapolipoprotein A-I"
+FT                   /id="PRO_0000450142"
+FT   CHAIN           25..264
+FT                   /note="Apolipoprotein A-I"
+FT                   /id="PRO_0000450143"
+FT   CHAIN           25..263
+FT                   /note="Truncated apolipoprotein A-I"
+FT                   /evidence="ECO:0000250|UniProtKB:P02647"
+FT                   /id="PRO_0000450144"
+FT   REPEAT          67..88
+FT                   /note="1"
+FT   REPEAT          89..110
+FT                   /note="2"
+FT   REPEAT          111..121
+FT                   /note="3; half-length"
+FT   REPEAT          122..143
+FT                   /note="4"
+FT   REPEAT          144..165
+FT                   /note="5"
+FT   REPEAT          166..187
+FT                   /note="6"
+FT   REPEAT          188..207
+FT                   /note="7; truncated"
+FT   REPEAT          208..229
+FT                   /note="8"
+FT   REPEAT          230..240
+FT                   /note="9; half-length"
+FT   REPEAT          241..264
+FT                   /note="10"
+FT   REGION          67..264
+FT                   /note="10 X approximate tandem repeats"
+FT   MOD_RES         109
+FT                   /note="Methionine sulfoxide"
+FT                   /evidence="ECO:0000250|UniProtKB:P02647"
+SQ   SEQUENCE   264 AA;  30440 MW;  A4C6DA25AE8206A0 CRC64;
+     MKAVVLTVAV LFLTGSQARH FWQQDEPQSS WDRMKDFATV YLDAVKDSGK DYVTQFETSA
+     LGKQLNLKLL DNWDSLSSTV SKLREQIGPV TQEFWDKLEK DTVSLRQEMN KDLEEVKLKV
+     QPYLDEFQKR WQEDVERYRQ QVEPLGTELR EGARQKLQEL HEKLSPLGQE LRDRARAHVD
+     ALRTHLAPYS DELRQRLAAR LEALKESSSL ADYQAKATEH LSALGEKAKP ALEDLRQGLL
+     PVLENLKMSF WSAVDEATKK LTTQ
+//

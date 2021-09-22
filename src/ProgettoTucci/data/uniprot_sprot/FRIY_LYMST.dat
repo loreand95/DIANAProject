@@ -1,0 +1,95 @@
+ID   FRIY_LYMST              Reviewed;         239 AA.
+AC   P42578;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-OCT-2020, entry version 93.
+DE   RecName: Full=Yolk ferritin;
+DE            EC=1.16.3.1;
+DE   Flags: Precursor;
+OS   Lymnaea stagnalis (Great pond snail) (Helix stagnalis).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Heterobranchia; Euthyneura; Panpulmonata; Hygrophila; Lymnaeoidea;
+OC   Lymnaeidae; Lymnaea.
+OX   NCBI_TaxID=6523;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND PROTEIN SEQUENCE OF 19-38.
+RC   TISSUE=Midgut;
+RX   PubMed=7517354; DOI=10.1111/j.1432-1033.1994.tb18874.x;
+RA   von Darl M., Harrison M., Bottke W.;
+RT   "cDNA cloning and deduced amino acid sequence of two ferritins: soma
+RT   ferritin and yolk ferritin, from the snail Lymnaea stagnalis L.";
+RL   Eur. J. Biochem. 222:353-366(1994).
+CC   -!- FUNCTION: Stores iron in a soluble, non-toxic, readily available form.
+CC       Important for iron homeostasis. Has ferroxidase activity. Iron is taken
+CC       up in the ferrous form and deposited as ferric hydroxides after
+CC       oxidation (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4 Fe(2+) + 4 H(+) + O2 = 4 Fe(3+) + 2 H2O;
+CC         Xref=Rhea:RHEA:11148, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034; EC=1.16.3.1;
+CC   -!- SUBUNIT: Oligomer of 12 or 24 subunits. The functional molecule is
+CC       roughly spherical and contains a central cavity into which the
+CC       polymeric ferric iron core is deposited (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Midgut gland and bloodstream.
+CC   -!- DEVELOPMENTAL STAGE: First detected during pregastrulation stage,
+CC       levels increase up to the hatching stage, and is still present at the
+CC       late veliger stage.
+CC   -!- DOMAIN: Contains an 'insertion' sequence of 42 residues which is not
+CC       present in other ferritins.
+CC   -!- SIMILARITY: Belongs to the ferritin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X56779; CAA40097.1; -; mRNA.
+DR   PIR; S45604; S45604.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008199; F:ferric iron binding; IEA:InterPro.
+DR   GO; GO:0004322; F:ferroxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006879; P:cellular iron ion homeostasis; IEA:UniProtKB-KW.
+DR   GO; GO:0006826; P:iron ion transport; IEA:InterPro.
+DR   InterPro; IPR001519; Ferritin.
+DR   InterPro; IPR009040; Ferritin-like_diiron.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR014034; Ferritin_CS.
+DR   InterPro; IPR008331; Ferritin_DPS_dom.
+DR   PANTHER; PTHR11431; PTHR11431; 2.
+DR   Pfam; PF00210; Ferritin; 1.
+DR   SUPFAM; SSF47240; SSF47240; 1.
+DR   PROSITE; PS00204; FERRITIN_2; 1.
+DR   PROSITE; PS50905; FERRITIN_LIKE; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Iron; Iron storage; Metal-binding;
+KW   Oxidoreductase; Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000269|PubMed:7517354"
+FT   CHAIN           19..239
+FT                   /note="Yolk ferritin"
+FT                   /id="PRO_0000008852"
+FT   DOMAIN          27..217
+FT                   /note="Ferritin-like diiron"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   REGION          105..146
+FT                   /note="Insertion; not present in other ferritins"
+FT   METAL           44
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           79
+FT                   /note="Iron 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           79
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           165
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+FT   METAL           199
+FT                   /note="Iron 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00085"
+SQ   SEQUENCE   239 AA;  27338 MW;  E1C5873012DEEFFC CRC64;
+     MNSVLFLTLA VCSSLAYGKE FVATVRQNYK ENINQLLEQQ IQKELAASYI YQAYASYFQR
+     ADVSLPGIKK FFSDASSEER DDAQSLIDYI NQRGGHVQYD KIDLKDACET VMKFVTSDTS
+     GLEEFRDRRM CICGFVATKT INDNCGERSD WKEGLIAFED TLAIERYVNA QLLDIHKKAD
+     DEKDAHLTHI LEHEFLEEQV SSINKIAHAI TRLRSFEQGS GNNYKLGRVY LRPTPQISH
+//

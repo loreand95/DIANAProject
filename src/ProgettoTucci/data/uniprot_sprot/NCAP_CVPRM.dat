@@ -1,0 +1,115 @@
+ID   NCAP_CVPRM              Reviewed;         382 AA.
+AC   P24411;
+DT   01-MAR-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-1992, sequence version 1.
+DT   07-APR-2021, entry version 81.
+DE   RecName: Full=Nucleoprotein {ECO:0000255|HAMAP-Rule:MF_04095};
+DE   AltName: Full=Nucleocapsid protein {ECO:0000255|HAMAP-Rule:MF_04095};
+DE            Short=NC {ECO:0000255|HAMAP-Rule:MF_04095};
+DE            Short=Protein N {ECO:0000255|HAMAP-Rule:MF_04095};
+GN   Name=N {ECO:0000255|HAMAP-Rule:MF_04095};
+OS   Porcine respiratory coronavirus (strain RM4) (PRCoV) (PRCV).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+OC   Alphacoronavirus; Tegacovirus.
+OX   NCBI_TaxID=11148;
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2174956; DOI=10.1099/0022-1317-71-11-2599;
+RA   Rasschaert D., Duarte M., Laude H.;
+RT   "Porcine respiratory coronavirus differs from transmissible gastroenteritis
+RT   virus by a few genomic deletions.";
+RL   J. Gen. Virol. 71:2599-2607(1990).
+CC   -!- FUNCTION: Packages the positive strand viral genome RNA into a helical
+CC       ribonucleocapsid (RNP) and plays a fundamental role during virion
+CC       assembly through its interactions with the viral genome and membrane
+CC       protein M. Plays an important role in enhancing the efficiency of
+CC       subgenomic viral RNA transcription as well as viral replication.
+CC       {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   -!- SUBUNIT: Homooligomer. Both monomeric and oligomeric forms interact
+CC       with RNA. Interacts with protein M. Interacts with NSP3; this
+CC       interaction serves to tether the genome to the newly translated
+CC       replicase-transcriptase complex at a very early stage of infection.
+CC       {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000255|HAMAP-Rule:MF_04095}. Host
+CC       endoplasmic reticulum-Golgi intermediate compartment
+CC       {ECO:0000255|HAMAP-Rule:MF_04095}. Host Golgi apparatus
+CC       {ECO:0000255|HAMAP-Rule:MF_04095}. Note=Located inside the virion,
+CC       complexed with the viral RNA. Probably associates with ER-derived
+CC       membranes where it participates in viral RNA synthesis and virus
+CC       budding. {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   -!- PTM: ADP-ribosylated. The ADP-ribosylation is retained in the virion
+CC       during infection. {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   -!- PTM: Phosphorylated on serine and threonine residues.
+CC       {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   -!- SIMILARITY: Belongs to the alphacoronavirus nucleocapsid protein
+CC       family. {ECO:0000255|HAMAP-Rule:MF_04095}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z24675; CAA80841.1; -; Genomic_RNA.
+DR   PIR; E36607; E36607.
+DR   SMR; P24411; -.
+DR   GO; GO:0044172; C:host cell endoplasmic reticulum-Golgi intermediate compartment; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044177; C:host cell Golgi apparatus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019013; C:viral nucleocapsid; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   CDD; cd21595; CoV_N-CTD; 1.
+DR   CDD; cd21554; CoV_N-NTD; 1.
+DR   HAMAP; MF_04095; ALPHA_CORONA_NCAP; 1.
+DR   InterPro; IPR044344; N_prot_C_CoV.
+DR   InterPro; IPR044345; N_prot_N_CoV.
+DR   InterPro; IPR042548; NCAP_aCoV.
+DR   InterPro; IPR001218; Nucleocap_CoV.
+DR   InterPro; IPR037179; Nucleocapsid_C.
+DR   InterPro; IPR037195; Nucleocapsid_N.
+DR   Pfam; PF00937; CoV_nucleocap; 1.
+DR   PIRSF; PIRSF003888; Corona_nucleocap; 1.
+DR   SUPFAM; SSF103068; SSF103068; 1.
+DR   SUPFAM; SSF110304; SSF110304; 1.
+DR   PROSITE; PS51929; COV_N_CTD; 1.
+DR   PROSITE; PS51928; COV_N_NTD; 1.
+PE   3: Inferred from homology;
+KW   ADP-ribosylation; Host Golgi apparatus; Phosphoprotein; Ribonucleoprotein;
+KW   RNA-binding; Transcription; Transcription regulation; Viral nucleoprotein;
+KW   Virion.
+FT   CHAIN           1..382
+FT                   /note="Nucleoprotein"
+FT                   /id="PRO_0000106016"
+FT   DOMAIN          31..153
+FT                   /note="CoV N NTD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01276"
+FT   DOMAIN          224..337
+FT                   /note="CoV N CTD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01277"
+FT   REGION          33..159
+FT                   /note="RNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+FT   REGION          231..334
+FT                   /note="Dimerization"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+FT   COMPBIAS        156..182
+FT                   /note="Ser-rich"
+FT   MOD_RES         9
+FT                   /note="Phosphoserine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+FT   MOD_RES         156
+FT                   /note="Phosphoserine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+FT   MOD_RES         254
+FT                   /note="Phosphoserine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+FT   MOD_RES         256
+FT                   /note="Phosphoserine; by host"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04095"
+SQ   SEQUENCE   382 AA;  43551 MW;  76EE7091E5D93BC9 CRC64;
+     MANQGQRVSW GDESTKIRGR SNSRGRKINN IPLSFFNPIT LQQGAKFWNS CPRDFVPKGI
+     GNRDQQIGYW NRQTRYRMVK GQRKELPERW FFYYLGTGPH ADAKFKDKLD GVVWVAKDGA
+     MNKPTTLGSR GANNESKALK FDGKVPGEFQ LEVNQSRDNS RSRSQSRSRS RNRSQSRGRQ
+     QSNNKKDDSV EQAVLAALKK LGVYTEKQQQ RSRSKSKERS NSKTRDTTPK NENKHTWKRT
+     AGKGDVTRFY GARSSSANFG DSDLVANGSS AKHYPQLAEC VPSVSSILFG SYWTSKEDGD
+     QIEVTFTHKY HLPKDHPKTE QFLQQINAYA SPSELAKEQR KRKSRSKSAE RSEQEVVPDS
+     LIENYTDVFD DTQVEMIDEV TN
+//

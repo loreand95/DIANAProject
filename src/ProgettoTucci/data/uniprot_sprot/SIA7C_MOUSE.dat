@@ -1,0 +1,217 @@
+ID   SIA7C_MOUSE             Reviewed;         305 AA.
+AC   Q9WUV2; Q9JHP5;
+DT   11-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 2.
+DT   07-APR-2021, entry version 135.
+DE   RecName: Full=Alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase 3;
+DE            EC=2.4.99.7 {ECO:0000269|PubMed:10207017};
+DE   AltName: Full=GalNAc alpha-2,6-sialyltransferase III;
+DE   AltName: Full=ST6GalNAc III {ECO:0000303|PubMed:10207017, ECO:0000303|PubMed:10601645};
+DE            Short=ST6GalNAcIII;
+DE   AltName: Full=STY;
+DE   AltName: Full=Sialyltransferase 7C;
+DE            Short=SIAT7-C;
+GN   Name=St6galnac3; Synonyms=Siat7c;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, TISSUE
+RP   SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RC   STRAIN=ICR; TISSUE=Brain;
+RX   PubMed=10207017; DOI=10.1074/jbc.274.17.11958;
+RA   Lee Y.-C., Kaufman M., Kitazume-Kawaguchi S., Kono M., Takashima S.,
+RA   Kurosawa N., Liu H., Pircher H., Tsuji S.;
+RT   "Molecular cloning and functional expression of two members of mouse NeuAc-
+RT   alpha-2,3Gal-beta-1,3GalNAc GalNAc-alpha2,6-sialyltransferase family,
+RT   ST6GalNAc III and IV.";
+RL   J. Biol. Chem. 274:11958-11967(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=10601645; DOI=10.1016/s0014-5793(99)01605-1;
+RA   Ikehara Y., Shimizu N., Kono M., Nishihara S., Nakanishi H., Kitamura T.,
+RA   Narimatsu H., Tsuji S., Tatematsu M.;
+RT   "A novel glycosyltransferase with a polyglutamine repeat; a new candidate
+RT   for GD1alpha synthase (ST6GalNAc V).";
+RL   FEBS Lett. 463:92-96(1999).
+CC   -!- FUNCTION: Transfers the sialyl group (N-acetyl-alpha-neuraminyl or
+CC       NeuAc) from CMP-NeuAc to the GalNAc residue on the NeuAc-alpha-2,3-Gal-
+CC       beta-1,3-GalNAc sequence of glycoproteins and glycolipids forming an
+CC       alpha-2,6-linkage. Produces branched type disialyl structures by
+CC       transfer of a sialyl group onto a GalNAc residue inside the backbone
+CC       core chains. ST6GalNAcIII prefers glycolipids to glycoproteins,
+CC       predominantly catalyzing the biosynthesis of ganglioside GD1alpha from
+CC       GM1b (PubMed:10207017, PubMed:10601645). GD1alpha is a critical
+CC       molecule in the communication and interaction between neuronal cells
+CC       and their supportive cells, particularly in brain tissues, and
+CC       functions as an adhesion molecule in the process of metastasis (By
+CC       similarity). Sialylation of glycoproteins or glycosphingolipids is very
+CC       important in tumor development, neuronal development, nerve repair,
+CC       immunological processes and regulation of hormone sensitivity (By
+CC       similarity). {ECO:0000250|UniProtKB:Q8NDV1,
+CC       ECO:0000250|UniProtKB:Q9QYJ1, ECO:0000269|PubMed:10207017,
+CC       ECO:0000269|PubMed:10601645}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-D-GlcNAc derivative +
+CC         CMP-N-acetyl-beta-neuraminate = an alpha-Neu5Ac-(2->3)-beta-D-Gal-
+CC         (1->3)-[alpha-Neu5Ac-(2->6)]-D-GlcNAc-R + CMP + H(+);
+CC         Xref=Rhea:RHEA:53896, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:146021, ChEBI:CHEBI:149714;
+CC         EC=2.4.99.7; Evidence={ECO:0000269|PubMed:10207017};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53897;
+CC         Evidence={ECO:0000305|PubMed:10207017};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP-N-acetyl-beta-neuraminate + ganglioside GM1b (d18:1(4E)) =
+CC         a ganglioside GD1alpha (d18:1(4E)) + CMP + H(+);
+CC         Xref=Rhea:RHEA:41968, ChEBI:CHEBI:15378, ChEBI:CHEBI:57812,
+CC         ChEBI:CHEBI:60377, ChEBI:CHEBI:78568, ChEBI:CHEBI:78569;
+CC         Evidence={ECO:0000269|PubMed:10207017, ECO:0000305|PubMed:10601645};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41969;
+CC         Evidence={ECO:0000305|PubMed:10207017, ECO:0000305|PubMed:10601645};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CMP-N-acetyl-beta-neuraminate + globoside MSGG = CMP +
+CC         globoside DSGG + H(+); Xref=Rhea:RHEA:56088, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60377, ChEBI:CHEBI:140623,
+CC         ChEBI:CHEBI:140624; Evidence={ECO:0000250|UniProtKB:Q8NDV1};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:56089;
+CC         Evidence={ECO:0000250|UniProtKB:Q8NDV1};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-alpha-D-GalNAc-(1<->1')-
+CC         L-Ser-[protein] + CMP-N-acetyl-beta-neuraminate = alpha-NeuNAc-
+CC         (2->3)-beta-D-Gal-(1->3)-[alpha-NeuNAc-(2->6)]-alpha-D-GalNAc-
+CC         (1<->1')-L-Ser-[protein] + CMP + H(+); Xref=Rhea:RHEA:65280,
+CC         Rhea:RHEA-COMP:16760, Rhea:RHEA-COMP:16761, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60377, ChEBI:CHEBI:156395,
+CC         ChEBI:CHEBI:156397; Evidence={ECO:0000269|PubMed:10207017};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65281;
+CC         Evidence={ECO:0000305|PubMed:10207017};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-alpha-D-GalNAc-(1<->1')-
+CC         L-Thr-[protein] + CMP-N-acetyl-beta-neuraminate = alpha-NeuNAc-
+CC         (2->3)-beta-D-Gal-(1->3)-[alpha-NeuNAc-(2->6)]-alpha-D-GalNAc-
+CC         (1<->1')-L-Thr-[protein] + CMP + H(+); Xref=Rhea:RHEA:65284,
+CC         Rhea:RHEA-COMP:16762, Rhea:RHEA-COMP:16763, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57812, ChEBI:CHEBI:60377, ChEBI:CHEBI:156396,
+CC         ChEBI:CHEBI:156398; Evidence={ECO:0000269|PubMed:10207017};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65285;
+CC         Evidence={ECO:0000305|PubMed:10207017};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000305|PubMed:10207017, ECO:0000305|PubMed:10601645}.
+CC   -!- PATHWAY: Glycolipid biosynthesis. {ECO:0000305|PubMed:10207017,
+CC       ECO:0000305|PubMed:10601645}.
+CC   -!- SUBCELLULAR LOCATION: Golgi apparatus membrane {ECO:0000305}; Single-
+CC       pass type II membrane protein {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: In adult tissues, high expression in brain, lung
+CC       and heart and to a lesser extent in kidney, mammary gland, spleen,
+CC       testis and thymus. {ECO:0000269|PubMed:10207017}.
+CC   -!- DEVELOPMENTAL STAGE: In brain, expression reaches maximum levels at day
+CC       12 of the embryonic stage. Keeps almost similar levels during mouse
+CC       development. {ECO:0000269|PubMed:10207017}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 29 family.
+CC       {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=Functional Glycomics Gateway - GTase; Note=ST6GalNAc
+CC       III;
+CC       URL="http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=gt_mou_652";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y11342; CAA72181.2; -; mRNA.
+DR   EMBL; Y11343; CAB95031.1; -; Genomic_DNA.
+DR   EMBL; Y11344; CAB95031.1; JOINED; Genomic_DNA.
+DR   EMBL; Y11345; CAB95031.1; JOINED; Genomic_DNA.
+DR   EMBL; Y11346; CAB95031.1; JOINED; Genomic_DNA.
+DR   EMBL; BC058387; AAH58387.1; -; mRNA.
+DR   CCDS; CCDS38677.1; -.
+DR   RefSeq; NP_035502.1; NM_011372.2.
+DR   STRING; 10090.ENSMUSP00000068598; -.
+DR   SwissLipids; SLP:000000783; -.
+DR   CAZy; GT29; Glycosyltransferase Family 29.
+DR   GlyGen; Q9WUV2; 2 sites.
+DR   MaxQB; Q9WUV2; -.
+DR   PaxDb; Q9WUV2; -.
+DR   PRIDE; Q9WUV2; -.
+DR   ProteomicsDB; 257234; -.
+DR   Antibodypedia; 33477; 49 antibodies.
+DR   Ensembl; ENSMUST00000200397; ENSMUSP00000143747; ENSMUSG00000052544.
+DR   GeneID; 20447; -.
+DR   KEGG; mmu:20447; -.
+DR   UCSC; uc008rtw.1; mouse.
+DR   CTD; 256435; -.
+DR   MGI; MGI:1341828; St6galnac3.
+DR   eggNOG; KOG2692; Eukaryota.
+DR   GeneTree; ENSGT00940000159735; -.
+DR   HOGENOM; CLU_061099_2_2_1; -.
+DR   InParanoid; Q9WUV2; -.
+DR   OMA; YCKSEGF; -.
+DR   OrthoDB; 817470at2759; -.
+DR   PhylomeDB; Q9WUV2; -.
+DR   TreeFam; TF352818; -.
+DR   Reactome; R-MMU-4085001; Sialic acid metabolism.
+DR   Reactome; R-MMU-977068; Termination of O-glycan biosynthesis.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 20447; 1 hit in 52 CRISPR screens.
+DR   ChiTaRS; St6galnac3; mouse.
+DR   PRO; PR:Q9WUV2; -.
+DR   Proteomes; UP000000589; Chromosome 3.
+DR   RNAct; Q9WUV2; protein.
+DR   Bgee; ENSMUSG00000052544; Expressed in metanephric S-shaped body and 225 other tissues.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005654; C:nucleoplasm; ISO:MGI.
+DR   GO; GO:0047290; F:(alpha-N-acetylneuraminyl-2,3-beta-galactosyl-1,3)-N-acetyl-galactosaminide 6-alpha-sialyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0001665; F:alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0008373; F:sialyltransferase activity; ISO:MGI.
+DR   GO; GO:0001574; P:ganglioside biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0009100; P:glycoprotein metabolic process; ISO:MGI.
+DR   GO; GO:0006687; P:glycosphingolipid metabolic process; ISO:MGI.
+DR   GO; GO:0006677; P:glycosylceramide metabolic process; ISO:MGI.
+DR   GO; GO:0009311; P:oligosaccharide metabolic process; IBA:GO_Central.
+DR   GO; GO:0006486; P:protein glycosylation; ISO:MGI.
+DR   Gene3D; 3.90.1480.20; -; 1.
+DR   InterPro; IPR001675; Glyco_trans_29.
+DR   InterPro; IPR038578; GT29-like_sf.
+DR   Pfam; PF00777; Glyco_transf_29; 1.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Glycosyltransferase; Golgi apparatus;
+KW   Membrane; Reference proteome; Sialic acid; Signal-anchor; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..305
+FT                   /note="Alpha-N-acetylgalactosaminide alpha-2,6-
+FT                   sialyltransferase 3"
+FT                   /id="PRO_0000149276"
+FT   TOPO_DOM        1..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..28
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..305
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        239
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        301
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        80..229
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   305 AA;  35414 MW;  63C7498615BF6A3F CRC64;
+     MACILKRKPV LVVSFIALCI LLLAMRLVND ATFPLLLNCF GQPKTKWIPL PYTFRQPLRT
+     HYGYINVRTQ EPLQLNCNHC AIVSNSGQMV GQKVGEEIDH ASCIWRMNNA PTKGFEEDVG
+     YMTMVRVVSH TSVPLLLKNP DYFFKEASRT IYVIWGPFRN MRKDGNGIVY NMLKKTVDAY
+     PDAQIYVTTE QQMTHCDRVF KDETGKDRVQ SGSYLSTGWF TFILAMDACY SIHVYGMINE
+     TYCKTEGYRK VPYHYYEQGK DECNEYLLHE HAPYGGHRFI TEKKVFAKWA KKHRIVFTHP
+     NWTLS
+//

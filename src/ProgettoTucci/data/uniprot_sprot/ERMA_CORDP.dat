@@ -1,0 +1,100 @@
+ID   ERMA_CORDP              Reviewed;         253 AA.
+AC   P16898;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   02-DEC-2020, entry version 87.
+DE   RecName: Full=rRNA adenine N-6-methyltransferase;
+DE            EC=2.1.1.- {ECO:0000255|PROSITE-ProRule:PRU01026};
+DE   AltName: Full=Erythromycin resistance protein;
+DE   AltName: Full=Macrolide-lincosamide-streptogramin B resistance protein;
+GN   Name=ermA;
+OS   Corynebacterium diphtheriae.
+OG   Plasmid pNG2.
+OC   Bacteria; Actinobacteria; Corynebacteriales; Corynebacteriaceae;
+OC   Corynebacterium.
+OX   NCBI_TaxID=1717;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2110657; DOI=10.1093/nar/18.7.1891;
+RA   Hodgson A.L.M., Krywult J., Radford A.J.;
+RT   "Nucleotide sequence of the erythromycin resistance gene from the
+RT   Corynebacterium plasmid pNG2.";
+RL   Nucleic Acids Res. 18:1891-1891(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=S601;
+RA   Serwold-Davis T.M., Groman N.B.;
+RT   "Identification of a methylase gene for erythromycin resistance within the
+RT   sequence of a spontaneously deleting fragment of Corynebacterium
+RT   diphtheriae plasmid pNG2.";
+RL   FEMS Microbiol. Lett. 46:7-14(1988).
+CC   -!- FUNCTION: Involved in erythromycin resistance.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. rRNA adenine N(6)-methyltransferase family.
+CC       {ECO:0000255|PROSITE-ProRule:PRU01026}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X51472; CAA35836.1; -; Genomic_DNA.
+DR   EMBL; M36726; AAA98484.1; -; Genomic_DNA.
+DR   PIR; S09215; S09215.
+DR   RefSeq; WP_032488331.1; NG_047847.1.
+DR   SMR; P16898; -.
+DR   PRIDE; P16898; -.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000179; F:rRNA (adenine-N6,N6-)-dimethyltransferase activity; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.8.100; -; 1.
+DR   InterPro; IPR001737; KsgA/Erm.
+DR   InterPro; IPR023165; rRNA_Ade_diMease-like.
+DR   InterPro; IPR020596; rRNA_Ade_Mease_Trfase_CS.
+DR   InterPro; IPR020598; rRNA_Ade_methylase_Trfase_N.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11727; PTHR11727; 1.
+DR   Pfam; PF00398; RrnaAD; 1.
+DR   SMART; SM00650; rADc; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS01131; RRNA_A_DIMETH; 1.
+DR   PROSITE; PS51689; SAM_RNA_A_N6_MT; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Methyltransferase; Plasmid; RNA-binding;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..253
+FT                   /note="rRNA adenine N-6-methyltransferase"
+FT                   /id="PRO_0000101667"
+FT   BINDING         14
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   BINDING         16
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   BINDING         40
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   BINDING         61
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   BINDING         85
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   BINDING         101
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01026"
+FT   CONFLICT        6
+FT                   /note="H -> Q (in Ref. 2; AAA98484)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        141
+FT                   /note="S -> T (in Ref. 2; AAA98484)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        244..253
+FT                   /note="TPTTGSISSR -> YTNDWIDLFQVTGSSLPHHRPISPSGSSQRPPQRKNRS
+FT                   RRR (in Ref. 2; AAA98484)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   253 AA;  27812 MW;  FCAA0B44D497F2C1 CRC64;
+     MSAYGHGRHE HGQNFLTNHK IINSIIDLVK QTSGPIIEIG PGSGALTHPM AHLGRAITAV
+     EVDAKLAAKI TQETSSAAVE VVHDDFLNFR LPATPCVIVG NIPFHLTTAI LRKLLHAPAW
+     TDAVLLMQWE VARRRAGVGA STMMTAQWSP WFTFHLGSRV PRSAFRPQPN VDGGILVIRR
+     VGDPKIPIEQ RKAFQAMVHT VFTARGRGIG EILRRQGCFH HVQKHNHGCA REESTPRPYL
+     PDCTPTTGSI SSR
+//

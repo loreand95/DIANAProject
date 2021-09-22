@@ -1,0 +1,125 @@
+ID   REP1_FBNY1              Reviewed;         282 AA.
+AC   O91254;
+DT   07-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   12-AUG-2020, entry version 75.
+DE   RecName: Full=Para-Rep C1;
+DE            Short=Rep1;
+DE            EC=2.7.7.-;
+DE            EC=3.1.21.-;
+DE            EC=3.6.1.-;
+DE   AltName: Full=ATP-dependent helicase C1;
+DE   AltName: Full=Replication-associated protein of non-essential DNA C1;
+GN   Name=C1; ORFNames=ORF1;
+OS   Faba bean necrotic yellows virus (isolate Egyptian EV1-93) (FBNYV).
+OC   Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota; Arfiviricetes;
+OC   Mulpavirales; Nanoviridae; Nanovirus.
+OX   NCBI_TaxID=291603;
+OH   NCBI_TaxID=3827; Cicer arietinum (Chickpea) (Garbanzo).
+OH   NCBI_TaxID=3864; Lens culinaris (Lentil) (Cicer lens).
+OH   NCBI_TaxID=3885; Phaseolus vulgaris (Kidney bean) (French bean).
+OH   NCBI_TaxID=3906; Vicia faba (Broad bean) (Faba vulgaris).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=9880028; DOI=10.1099/0022-1317-79-12-3101;
+RA   Katul L., Timchenko T., Gronenborn B., Vetten H.J.;
+RT   "Ten distinct circular ssDNA components, four of which encode putative
+RT   replication-associated proteins, are associated with the faba bean necrotic
+RT   yellows virus genome.";
+RL   J. Gen. Virol. 79:3101-3109(1998).
+CC   -!- FUNCTION: Initiates and terminates the replication only of its own
+CC       subviral DNA molecule. The closed circular ssDNA genome is first
+CC       converted to a superhelical dsDNA. Rep binds a specific hairpin at the
+CC       genome origin of replication. Introduces an endonucleolytic nick within
+CC       the intergenic region of the genome, thereby initiating the rolling
+CC       circle replication (RCR). Following cleavage, binds covalently to the
+CC       5'-phosphate of DNA as a tyrosyl ester. The cleavage gives rise to a
+CC       free 3'-OH that serves as a primer for the cellular DNA polymerase. The
+CC       polymerase synthesizes the (+) strand DNA by rolling circle mechanism.
+CC       After one round of replication, a Rep-catalyzed nucleotidyl transfer
+CC       reaction releases a circular single-stranded virus genome, thereby
+CC       terminating the replication. Displays origin-specific DNA cleavage,
+CC       nucleotidyl transferase, ATPase and helicase activities.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Divalent metal cations, possibly Mg(2+) or Mn(2+). {ECO:0000250};
+CC   -!- SUBUNIT: Homooligomer (Potential). Rep binds to repeated DNA motifs
+CC       (iterons) (By similarity). {ECO:0000250, ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Host nucleus {ECO:0000305}.
+CC   -!- DOMAIN: There are 3 rolling circle replication (RCR) motifs. RCR-2 is
+CC       probably involved in metal coordination. RCR-3 is required for
+CC       phosphodiester bond cleavage for initiation of RCR.
+CC   -!- MISCELLANEOUS: The genome of nanoviruses is composed of six to eight
+CC       segments. In addition, some isolates contain subviral DNAs.
+CC   -!- SIMILARITY: Belongs to the nanoviridea/circoviridae replication-
+CC       associated protein family. {ECO:0000305}.
+CC   -!- CAUTION: This protein is encoded by a subviral DNA that is not present
+CC       in all isolates of the virus. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ005968; CAA06791.1; -; Genomic_DNA.
+DR   SMR; O91254; -.
+DR   Proteomes; UP000008665; Genome.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016888; F:endodeoxyribonuclease activity, producing 5'-phosphomonoesters; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:InterPro.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0018142; P:protein-DNA covalent cross-linking; IEA:InterPro.
+DR   InterPro; IPR000605; Helicase_SF3_ssDNA/RNA_vir.
+DR   InterPro; IPR003365; Viral_rep_N.
+DR   Pfam; PF00910; RNA_helicase; 1.
+DR   Pfam; PF02407; Viral_Rep; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Covalent protein-DNA linkage; DNA replication; DNA-binding;
+KW   Endonuclease; Helicase; Host nucleus; Hydrolase; Metal-binding;
+KW   Multifunctional enzyme; Nuclease; Nucleotide-binding;
+KW   Nucleotidyltransferase; Reference proteome; Transferase.
+FT   CHAIN           1..282
+FT                   /note="Para-Rep C1"
+FT                   /id="PRO_0000378518"
+FT   NP_BIND         174..182
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           8..11
+FT                   /note="RCR-1"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           47..52
+FT                   /note="RCR-2"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           56..77
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           86..89
+FT                   /note="RCR-3"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        86
+FT                   /note="For DNA cleavage activity"
+FT                   /evidence="ECO:0000250"
+FT   METAL           38
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255"
+FT   METAL           47
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255"
+FT   METAL           94
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   282 AA;  32677 MW;  EFC5C1368AE261D7 CRC64;
+     MASKRWCFTL NYKTAVERES FISLFSRDEL NYFVCGDETA PTTNQKHLQG YVSLKKMIRL
+     GGLKKKFGYR AHWEIAKGDD FQNRDYCTKE TLISEIGAPV KKGSNQRKIM DLYLQDPEEM
+     QLKDPDTALR CNAKRLRIEY CSSFAVISLR PWQSELHRVL MAEPDDRTII WVYGSDGGEG
+     KSTFAKELIK YGWFYTAGGK TQDILYMYAQ DPERNIAFDV PRCSSEMMNY QAMEMLKNRV
+     FASTKYRPVD LCVRKKVHLI VFANVSPDPT KISEDRIVII NC
+//

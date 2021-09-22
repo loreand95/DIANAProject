@@ -1,0 +1,105 @@
+ID   QUEC_LEPIN              Reviewed;         242 AA.
+AC   Q8F964;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 92.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633}; OrderedLocusNames=LA_0333;
+OS   Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain
+OS   56601).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=189518;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=56601;
+RX   PubMed=12712204; DOI=10.1038/nature01597;
+RA   Ren S.-X., Fu G., Jiang X.-G., Zeng R., Miao Y.-G., Xu H., Zhang Y.-X.,
+RA   Xiong H., Lu G., Lu L.-F., Jiang H.-Q., Jia J., Tu Y.-F., Jiang J.-X.,
+RA   Gu W.-Y., Zhang Y.-Q., Cai Z., Sheng H.-H., Yin H.-F., Zhang Y., Zhu G.-F.,
+RA   Wan M., Huang H.-L., Qian Z., Wang S.-Y., Ma W., Yao Z.-J., Shen Y.,
+RA   Qiang B.-Q., Xia Q.-C., Guo X.-K., Danchin A., Saint Girons I.,
+RA   Somerville R.L., Wen Y.-M., Shi M.-H., Chen Z., Xu J.-G., Zhao G.-P.;
+RT   "Unique physiological and pathogenic features of Leptospira interrogans
+RT   revealed by whole-genome sequencing.";
+RL   Nature 422:888-893(2003).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + ATP + NH4(+) = 7-cyano-7-
+CC         deazaguanine + ADP + H(+) + H2O + phosphate; Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE010300; AAN47532.1; -; Genomic_DNA.
+DR   RefSeq; NP_710514.1; NC_004342.2.
+DR   RefSeq; WP_001088969.1; NC_004342.2.
+DR   SMR; Q8F964; -.
+DR   EnsemblBacteria; AAN47532; AAN47532; LA_0333.
+DR   GeneID; 58393796; -.
+DR   KEGG; lil:LA_0333; -.
+DR   PATRIC; fig|189518.3.peg.336; -.
+DR   HOGENOM; CLU_081854_1_0_12; -.
+DR   InParanoid; Q8F964; -.
+DR   OMA; CESCMRR; -.
+DR   BioCyc; LINT189518:G1GL4-279-MONOMER; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001408; Chromosome I.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IBA:GO_Central.
+DR   CDD; cd01995; ExsB; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR42914; PTHR42914; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..242
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_0000246858"
+FT   NP_BIND         32..42
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           212
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           221
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           224
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           227
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   242 AA;  26720 MW;  C26E96CEDE2543FC CRC64;
+     MNSSSNEKNK DLNRKNFSSK TDSSNNKAVV LLSGGLDSTT CLYQAIADGK EIQALSFDYG
+     QRHKIELSYA KKVTRKLGIP HTIQKLKPEL FLGSSLTQKS LHVPKNSLRK EEIPNTYVPG
+     RNILFLSFAV SLAEGTGSDS IYIGVNSMDY SGYPDCRPEF IKMFEMAIQL GTKKGSQGPS
+     IKILTPLQNL SKKEIVLLGN QLKVPFHLTF SCYDPKNGKA CGKCDACLLR KKGFQETGVS
+     EK
+//

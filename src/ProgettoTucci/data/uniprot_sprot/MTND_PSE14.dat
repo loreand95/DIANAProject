@@ -1,0 +1,151 @@
+ID   MTND_PSE14              Reviewed;         181 AA.
+AC   Q48KM7;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Acireductone dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=DHK-MTPene dioxygenase {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=Acireductone dioxygenase (Fe(2+)-requiring) {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=ARD' {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=Fe-ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            EC=1.13.11.54 {ECO:0000255|HAMAP-Rule:MF_01682};
+DE   AltName: Full=Acireductone dioxygenase (Ni(2+)-requiring) {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            Short=Ni-ARD {ECO:0000255|HAMAP-Rule:MF_01682};
+DE            EC=1.13.11.53 {ECO:0000255|HAMAP-Rule:MF_01682};
+GN   Name=mtnD {ECO:0000255|HAMAP-Rule:MF_01682}; OrderedLocusNames=PSPPH_1815;
+OS   Pseudomonas savastanoi pv. phaseolicola (strain 1448A / Race 6)
+OS   (Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=264730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1448A / Race 6;
+RX   PubMed=16159782; DOI=10.1128/jb.187.18.6488-6498.2005;
+RA   Joardar V., Lindeberg M., Jackson R.W., Selengut J., Dodson R.,
+RA   Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S., Gwinn Giglio M.,
+RA   Madupu R., Nelson W.C., Rosovitz M.J., Sullivan S.A., Crabtree J.,
+RA   Creasy T., Davidsen T.M., Haft D.H., Zafar N., Zhou L., Halpin R.,
+RA   Holley T., Khouri H.M., Feldblyum T.V., White O., Fraser C.M.,
+RA   Chatterjee A.K., Cartinhour S., Schneider D., Mansfield J.W., Collmer A.,
+RA   Buell R.;
+RT   "Whole-genome sequence analysis of Pseudomonas syringae pv. phaseolicola
+RT   1448A reveals divergence among pathovars in genes involved in virulence and
+RT   transposition.";
+RL   J. Bacteriol. 187:6488-6498(2005).
+CC   -!- FUNCTION: Catalyzes 2 different reactions between oxygene and the
+CC       acireductone 1,2-dihydroxy-3-keto-5-methylthiopentene (DHK-MTPene)
+CC       depending upon the metal bound in the active site. Fe-containing
+CC       acireductone dioxygenase (Fe-ARD) produces formate and 2-keto-4-
+CC       methylthiobutyrate (KMTB), the alpha-ketoacid precursor of methionine
+CC       in the methionine recycle pathway. Ni-containing acireductone
+CC       dioxygenase (Ni-ARD) produces methylthiopropionate, carbon monoxide and
+CC       formate, and does not lie on the methionine recycle pathway.
+CC       {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydroxy-5-(methylsulfanyl)pent-1-en-3-one + O2 = 3-
+CC         (methylsulfanyl)propanoate + CO + formate + 2 H(+);
+CC         Xref=Rhea:RHEA:14161, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:17245, ChEBI:CHEBI:49016,
+CC         ChEBI:CHEBI:49252; EC=1.13.11.53; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01682};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihydroxy-5-(methylsulfanyl)pent-1-en-3-one + O2 = 4-
+CC         methylsulfanyl-2-oxobutanoate + formate + 2 H(+);
+CC         Xref=Rhea:RHEA:24504, ChEBI:CHEBI:15378, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:16723, ChEBI:CHEBI:49252;
+CC         EC=1.13.11.54; Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC       Note=Binds 1 Fe cation per monomer. {ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- COFACTOR:
+CC       Name=Ni(2+); Xref=ChEBI:CHEBI:49786;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01682};
+CC       Note=Binds 1 nickel ion per monomer. {ECO:0000255|HAMAP-Rule:MF_01682};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; L-methionine from S-methyl-5-thio-alpha-D-ribose 1-phosphate:
+CC       step 5/6. {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   -!- SIMILARITY: Belongs to the acireductone dioxygenase (ARD) family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01682}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000058; AAZ36012.1; -; Genomic_DNA.
+DR   RefSeq; WP_011168229.1; NC_005773.3.
+DR   SMR; Q48KM7; -.
+DR   STRING; 264730.PSPPH_1815; -.
+DR   EnsemblBacteria; AAZ36012; AAZ36012; PSPPH_1815.
+DR   KEGG; psp:PSPPH_1815; -.
+DR   eggNOG; COG1791; Bacteria.
+DR   HOGENOM; CLU_125400_0_0_6; -.
+DR   OMA; TTHWFDM; -.
+DR   OrthoDB; 1964262at2; -.
+DR   UniPathway; UPA00904; UER00878.
+DR   Proteomes; UP000000551; Chromosome.
+DR   GO; GO:0010308; F:acireductone dioxygenase (Ni2+-requiring) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010309; F:acireductone dioxygenase [iron(II)-requiring] activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:UniProtKB-UniRule.
+DR   CDD; cd02232; cupin_ARD; 1.
+DR   Gene3D; 2.60.120.10; -; 1.
+DR   HAMAP; MF_01682; Salvage_MtnD; 1.
+DR   InterPro; IPR004313; ARD.
+DR   InterPro; IPR023956; ARD_bac.
+DR   InterPro; IPR014710; RmlC-like_jellyroll.
+DR   InterPro; IPR011051; RmlC_Cupin_sf.
+DR   PANTHER; PTHR23418; PTHR23418; 1.
+DR   Pfam; PF03079; ARD; 1.
+DR   SUPFAM; SSF51182; SSF51182; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Dioxygenase; Iron; Metal-binding;
+KW   Methionine biosynthesis; Nickel; Oxidoreductase.
+FT   CHAIN           1..181
+FT                   /note="Acireductone dioxygenase"
+FT                   /id="PRO_0000359223"
+FT   METAL           97
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           97
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           99
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           99
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           103
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           103
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           141
+FT                   /note="Iron; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   METAL           141
+FT                   /note="Nickel; alternate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            96
+FT                   /note="May play a role in metal incorporation in vivo"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            102
+FT                   /note="May play a role in transmitting local conformational
+FT                   changes"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+FT   SITE            105
+FT                   /note="Important to generate the dianion"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01682"
+SQ   SEQUENCE   181 AA;  20366 MW;  3EA4052F1E32CC29 CRC64;
+     MSSLSVFHVS SPDTPNKVLT HLEDIASTLG EHGVAFDRWE AAAPITPGAS QEEVISAYRT
+     QIDKLMTEHG YVTVDVISLN SDHPQKAELR AKFLEEHRHG EDEVRFFVAG RGLFTLHIDD
+     YVYAVMCEKN DLISVPAGTR HWFDMGENPH FVAIRLFNNP EGWVANFTGE DIAGRFPRLE
+     D
+//

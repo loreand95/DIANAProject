@@ -1,0 +1,80 @@
+ID   CHHA_CHEDE              Reviewed;          72 AA.
+AC   P83485;
+DT   27-JUN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   11-DEC-2019, entry version 59.
+DE   RecName: Full=Crustacean hyperglycemic hormone A;
+DE            Short=CHHA;
+OS   Cherax destructor (Common yabby crayfish).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Crustacea; Multicrustacea;
+OC   Malacostraca; Eumalacostraca; Eucarida; Decapoda; Pleocyemata; Astacidea;
+OC   Parastacoidea; Parastacidae; Cherax.
+OX   NCBI_TaxID=6723 {ECO:0000305};
+RN   [1]
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, PYROGLUTAMATE FORMATION AT GLN-1,
+RP   D-AMINO ACID AT PHE-3, AND AMIDATION AT VAL-72.
+RC   TISSUE=Sinus gland;
+RX   PubMed=15127939; DOI=10.1016/j.peptides.2003.10.002;
+RA   Bulau P., Meisen I., Reichwein-Roderburg B., Peter-Katalinic J., Keller R.;
+RT   "Two genetic variants of the crustacean hyperglycemic hormone (CHH) from
+RT   the Australian crayfish, Cherax destructor: detection of chiral isoforms
+RT   due to posttranslational modification.";
+RL   Peptides 24:1871-1879(2003).
+CC   -!- FUNCTION: Hormone found in the sinus gland of isopods and decapods
+CC       which controls the blood sugar level. Has a secretagogue action over
+CC       the amylase released from the midgut gland. May act as a stress hormone
+CC       and may be involved in the control of molting and reproduction.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- PTM: Stereoinversion of L-Phe (in CHHA-I) to D-Phe (in CHHA-II).
+CC       {ECO:0000269|PubMed:15127939}.
+CC   -!- MASS SPECTROMETRY: Mass=8350.38; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:15127939};
+CC   -!- SIMILARITY: Belongs to the arthropod CHH/MIH/GIH/VIH hormone family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P83485; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005184; F:neuropeptide hormone activity; IEA:InterPro.
+DR   GO; GO:0006006; P:glucose metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0007218; P:neuropeptide signaling pathway; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.2010.10; -; 1.
+DR   InterPro; IPR018251; Crust_neurhormone_CS.
+DR   InterPro; IPR031098; Crust_neurohorm.
+DR   InterPro; IPR035957; Crust_neurohorm_sf.
+DR   InterPro; IPR001166; Hyperglycemic.
+DR   InterPro; IPR000346; Hyperglycemic1.
+DR   PANTHER; PTHR35981; PTHR35981; 1.
+DR   Pfam; PF01147; Crust_neurohorm; 1.
+DR   PRINTS; PR00548; HYPRGLYCEMC1.
+DR   PRINTS; PR00550; HYPRGLYCEMIC.
+DR   SUPFAM; SSF81778; SSF81778; 1.
+DR   PROSITE; PS01250; CHH_MIH_GIH; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Carbohydrate metabolism; D-amino acid;
+KW   Direct protein sequencing; Disulfide bond; Glucose metabolism; Hormone;
+KW   Neuropeptide; Pyrrolidone carboxylic acid; Secreted.
+FT   CHAIN           1..72
+FT                   /note="Crustacean hyperglycemic hormone A"
+FT                   /id="PRO_0000209855"
+FT   MOD_RES         1
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:15127939"
+FT   MOD_RES         3
+FT                   /note="D-phenylalanine; in form CHHA-II"
+FT                   /evidence="ECO:0000269|PubMed:15127939"
+FT   MOD_RES         72
+FT                   /note="Valine amide"
+FT                   /evidence="ECO:0000269|PubMed:15127939"
+FT   DISULFID        7..43
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        23..39
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        26..52
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   72 AA;  8375 MW;  60B8C8E5CED884E3 CRC64;
+     QVFDQACKGV YDRAIFKKLD RVCDDCYNLY RKPYVAVSCR GNCYNNLVFR QCLEELFLGN
+     GFNEYISGVQ TV
+//

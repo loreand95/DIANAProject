@@ -1,0 +1,96 @@
+ID   CYPB_ARTBC              Reviewed;         226 AA.
+AC   D4AY02;
+DT   09-DEC-2015, integrated into UniProtKB/Swiss-Prot.
+DT   09-DEC-2015, sequence version 2.
+DT   02-DEC-2020, entry version 56.
+DE   RecName: Full=Probable peptidyl-prolyl cis-trans isomerase ARB_01071 {ECO:0000305};
+DE            Short=PPIase {ECO:0000250|UniProtKB:P14832};
+DE            EC=5.2.1.8 {ECO:0000250|UniProtKB:P14832};
+DE   AltName: Full=Rotamase {ECO:0000250|UniProtKB:P14832};
+DE   Flags: Precursor;
+GN   ORFNames=ARB_01071;
+OS   Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) (Trichophyton
+OS   mentagrophytes).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Arthrodermataceae; Trichophyton.
+OX   NCBI_TaxID=663331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC MYA-4681 / CBS 112371;
+RX   PubMed=21247460; DOI=10.1186/gb-2011-12-1-r7;
+RA   Burmester A., Shelest E., Gloeckner G., Heddergott C., Schindler S.,
+RA   Staib P., Heidel A., Felder M., Petzold A., Szafranski K., Feuermann M.,
+RA   Pedruzzi I., Priebe S., Groth M., Winkler R., Li W., Kniemeyer O.,
+RA   Schroeckh V., Hertweck C., Hube B., White T.C., Platzer M., Guthke R.,
+RA   Heitman J., Woestemeyer J., Zipfel P.F., Monod M., Brakhage A.A.;
+RT   "Comparative and functional genomics provide insights into the
+RT   pathogenicity of dermatophytic fungi.";
+RL   Genome Biol. 12:R7.1-R7.16(2011).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.
+RX   PubMed=21919205; DOI=10.1002/pmic.201100234;
+RA   Sriranganadane D., Waridel P., Salamin K., Feuermann M., Mignon B.,
+RA   Staib P., Neuhaus J.M., Quadroni M., Monod M.;
+RT   "Identification of novel secreted proteases during extracellular
+RT   proteolysis by dermatophytes at acidic pH.";
+RL   Proteomics 11:4422-4433(2011).
+CC   -!- FUNCTION: PPIases accelerate the folding of proteins (By similarity).
+CC       Catalyzes the cis-trans isomerization of proline imidic peptide bonds
+CC       in oligopeptides (By similarity). {ECO:0000250|UniProtKB:P14832}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000250|UniProtKB:P14832};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:21919205}.
+CC   -!- SIMILARITY: Belongs to the cyclophilin-type PPIase family. PPIase A
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=EFE32180.1; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; ABSU01000017; EFE32180.1; ALT_SEQ; Genomic_DNA.
+DR   RefSeq; XP_003012820.1; XM_003012774.1.
+DR   SMR; D4AY02; -.
+DR   STRING; 63400.XP_003012820.1; -.
+DR   EnsemblFungi; EFE32180; EFE32180; ARB_01071.
+DR   GeneID; 9522898; -.
+DR   KEGG; abe:ARB_01071; -.
+DR   eggNOG; KOG0880; Eukaryota.
+DR   HOGENOM; CLU_012062_4_2_1; -.
+DR   Proteomes; UP000008866; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.40.100.10; -; 1.
+DR   InterPro; IPR029000; Cyclophilin-like_dom_sf.
+DR   InterPro; IPR020892; Cyclophilin-type_PPIase_CS.
+DR   InterPro; IPR002130; Cyclophilin-type_PPIase_dom.
+DR   Pfam; PF00160; Pro_isomerase; 1.
+DR   PRINTS; PR00153; CSAPPISMRASE.
+DR   SUPFAM; SSF50891; SSF50891; 1.
+DR   PROSITE; PS00170; CSA_PPIASE_1; 1.
+DR   PROSITE; PS50072; CSA_PPIASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Isomerase; Reference proteome; Rotamase; Secreted; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..226
+FT                   /note="Probable peptidyl-prolyl cis-trans isomerase
+FT                   ARB_01071"
+FT                   /id="PRO_0000434908"
+FT   DOMAIN          38..195
+FT                   /note="PPIase cyclophilin-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00156"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+SQ   SEQUENCE   226 AA;  24764 MW;  4D563B4943B27F12 CRC64;
+     MARIGRILTL VVFAAVGLFL FMGQTVEAKG PKITSKVYFD IEHDGQPLGR IVMGLYGKTV
+     PKTAENFRAL ATGEKGFGYE GSTFHRVIKD FMIQGGDFTN GDGTGGKSIY GNKFEDENFK
+     LRHTKKGVLS MANAGKDTNG SQFFITTAIT AWLDGKHVVF GEVLEGYDIV DKIQVVPKGF
+     QDRPTKDVKI VKCGELDMKE EAEGEGTESP SKPDSEKEQA PVRDEI
+//

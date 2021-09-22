@@ -1,0 +1,91 @@
+ID   KITH_MACCJ              Reviewed;         191 AA.
+AC   B9E8G2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 63.
+DE   RecName: Full=Thymidine kinase {ECO:0000255|HAMAP-Rule:MF_00124};
+DE            EC=2.7.1.21 {ECO:0000255|HAMAP-Rule:MF_00124};
+GN   Name=tdk {ECO:0000255|HAMAP-Rule:MF_00124}; OrderedLocusNames=MCCL_1773;
+OS   Macrococcus caseolyticus (strain JCSC5402).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Macrococcus.
+OX   NCBI_TaxID=458233;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCSC5402;
+RX   PubMed=19074389; DOI=10.1128/jb.01058-08;
+RA   Baba T., Kuwahara-Arai K., Uchiyama I., Takeuchi F., Ito T., Hiramatsu K.;
+RT   "Complete genome sequence of Macrococcus caseolyticus strain JCSCS5402,
+RT   reflecting the ancestral genome of the human-pathogenic staphylococci.";
+RL   J. Bacteriol. 191:1180-1190(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + thymidine = ADP + dTMP + H(+); Xref=Rhea:RHEA:19129,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17748, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:63528, ChEBI:CHEBI:456216; EC=2.7.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00124};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00124}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00124}.
+CC   -!- SIMILARITY: Belongs to the thymidine kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00124}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009484; BAH18480.1; -; Genomic_DNA.
+DR   RefSeq; WP_015912272.1; NC_011999.1.
+DR   SMR; B9E8G2; -.
+DR   STRING; 458233.MCCL_1773; -.
+DR   EnsemblBacteria; BAH18480; BAH18480; MCCL_1773.
+DR   GeneID; 45032371; -.
+DR   KEGG; mcl:MCCL_1773; -.
+DR   eggNOG; COG1435; Bacteria.
+DR   HOGENOM; CLU_064400_3_0_9; -.
+DR   OMA; GWLELIC; -.
+DR   OrthoDB; 1279539at2; -.
+DR   Proteomes; UP000001383; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004797; F:thymidine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071897; P:DNA biosynthetic process; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00124; Thymidine_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR001267; Thymidine_kinase.
+DR   InterPro; IPR020633; Thymidine_kinase_CS.
+DR   PANTHER; PTHR11441; PTHR11441; 1.
+DR   Pfam; PF00265; TK; 1.
+DR   PIRSF; PIRSF035805; TK_cell; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00603; TK_CELLULAR_TYPE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; DNA synthesis; Kinase; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..191
+FT                   /note="Thymidine kinase"
+FT                   /id="PRO_1000122656"
+FT   NP_BIND         15..22
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   NP_BIND         88..91
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   ACT_SITE        89
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   METAL           145
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   METAL           148
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   METAL           183
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+FT   METAL           186
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00124"
+SQ   SEQUENCE   191 AA;  21438 MW;  3FC553CA84CA9F0C CRC64;
+     MYEHYHSGWI ECVTGSMFSG KSEELIRRVR RGLFAKQKVI VFKPSIDDRY SELEVVSHNG
+     NKVEAVNVHH SSEILEHVKE AHDIIAIDEV QFFDNDIVGV ATQLAEEGYR VIVAGLDMDF
+     RGVPFEPVPE LMAVSEHVTK LQAVCSVCGA PSSRTQRLID GVPAKFDDPI ILVGAKESYE
+     PRCREHHVVP K
+//

@@ -1,0 +1,140 @@
+ID   ADRG_PENRW              Reviewed;         325 AA.
+AC   B6HV35;
+DT   10-APR-2019, integrated into UniProtKB/Swiss-Prot.
+DT   16-DEC-2008, sequence version 1.
+DT   02-DEC-2020, entry version 55.
+DE   RecName: Full=Prenytransferase adrG {ECO:0000303|Ref.2};
+DE            EC=2.5.1.- {ECO:0000305|Ref.2};
+DE   AltName: Full=Andrastin A biosynthesis cluster protein G {ECO:0000303|Ref.2};
+GN   Name=adrG {ECO:0000303|Ref.2}; ORFNames=Pc22g22880;
+OS   Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin
+OS   54-1255) (Penicillium chrysogenum).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium;
+OC   Penicillium chrysogenum species complex.
+OX   NCBI_TaxID=500485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255;
+RX   PubMed=18820685; DOI=10.1038/nbt.1498;
+RA   van den Berg M.A., Albang R., Albermann K., Badger J.H., Daran J.-M.,
+RA   Driessen A.J.M., Garcia-Estrada C., Fedorova N.D., Harris D.M.,
+RA   Heijne W.H.M., Joardar V.S., Kiel J.A.K.W., Kovalchuk A., Martin J.F.,
+RA   Nierman W.C., Nijland J.G., Pronk J.T., Roubos J.A., van der Klei I.J.,
+RA   van Peij N.N.M.E., Veenhuis M., von Doehren H., Wagner C., Wortman J.R.,
+RA   Bovenberg R.A.L.;
+RT   "Genome sequencing and analysis of the filamentous fungus Penicillium
+RT   chrysogenum.";
+RL   Nat. Biotechnol. 26:1161-1168(2008).
+RN   [2]
+RP   IDENTIFICATION, FUNCTION, CATALYTIC ACTIVITY, AND PATHWAY.
+RX   DOI=10.1016/j.tet.2013.07.029;
+RA   Matsuda Y., Awakawa T., Abe I.;
+RT   "Reconstituted biosynthesis of fungal meroterpenoid andrastin A.";
+RL   Tetrahedron 69:8199-8204(2013).
+CC   -!- FUNCTION: Prenytransferase; part of the gene cluster that mediates the
+CC       biosynthesis of andrastins, meroterpenoid compounds that exhibit
+CC       inhibitory activity against ras farnesyltransferase, suggesting that
+CC       they could be promising leads for antitumor agents (Ref.2). The first
+CC       step of the pathway is the synthesis of 3,5-dimethylorsellinic acid
+CC       (DMOA) by the polyketide synthase adrD via condensation of one acetyl-
+CC       CoA starter unit with 3 malonyl-CoA units and 2 methylations (Ref.2).
+CC       DMAO is then converted to farnesyl-DMAO by the prenyltransferase adrG
+CC       (Ref.2). The methyltransferase adrK catalyzes the methylation of the
+CC       carboxyl group of farnesyl-DMAO to farnesyl-DMAO methyl ester which is
+CC       further converted to epoxyfarnesyl-DMAO methyl ester by the FAD-
+CC       dependent monooxygenase adrH (Ref.2). The terpene cyclase adrI then
+CC       catalyzes the carbon skeletal rearrangement to generate the andrastin
+CC       E, the first compound in the pathway having the andrastin scaffold,
+CC       with the tetracyclic ring system (Ref.2). The post-cyclization
+CC       tailoring enzymes adrF, adrE, adrJ, and adrA, are involved in the
+CC       conversion of andrastin E into andrastin A. The short chain
+CC       dehydrogenase adrF is responsible for the oxidation of the C-3 a
+CC       hydroxyl group of andrastin E to yield the corresponding ketone,
+CC       andrastin D. The ketoreductase adrE stereoselectively reduces the
+CC       carbonyl moiety to reverse the stereochemistry of the C-3 position to
+CC       yield andrastin F. The acetyltransferase adrJ is the acetyltransferase
+CC       that attaches the acetyl group to the C-3 hydroxyl group of andrastin F
+CC       to yield andrastin C. Finally, the cytochrome P450 monooxygenase adrA
+CC       catalyzes two sequential oxidation reactions of the C-23 methyl group,
+CC       to generate the corresponding alcohol andrastin B, and aldehyde
+CC       andrastin A (Ref.2). {ECO:0000269|Ref.2}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E)-farnesyl diphosphate + 3,5-dimethylorsellinate = (3R)-
+CC         3-farnesyl-6-hydroxy-2,3,5-trimethyl-4-oxocyclohexa-1,5-diene-1-
+CC         carboxylate + diphosphate + H(+); Xref=Rhea:RHEA:49632,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:131856,
+CC         ChEBI:CHEBI:131857, ChEBI:CHEBI:175763; Evidence={ECO:0000305|Ref.2};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:49633;
+CC         Evidence={ECO:0000305|Ref.2};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P32378};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis; terpenoid biosynthesis.
+CC       {ECO:0000305|Ref.2}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the UbiA prenyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM920437; CAP99576.1; -; Genomic_DNA.
+DR   RefSeq; XP_002566182.1; XM_002566136.1.
+DR   STRING; 1108849.XP_002566182.1; -.
+DR   EnsemblFungi; CAP99576; CAP99576; PCH_Pc22g22880.
+DR   GeneID; 8309014; -.
+DR   KEGG; pcs:Pc22g22880; -.
+DR   eggNOG; KOG1381; Eukaryota.
+DR   HOGENOM; CLU_034879_2_0_1; -.
+DR   OMA; CQDREDD; -.
+DR   OrthoDB; 1343847at2759; -.
+DR   BioCyc; PCHR:PC22G22880-MONOMER; -.
+DR   UniPathway; UPA00213; -.
+DR   Proteomes; UP000000724; Contig Pc00c22.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IEA:InterPro.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR039653; Prenyltransferase.
+DR   InterPro; IPR000537; UbiA_prenyltransferase.
+DR   PANTHER; PTHR11048; PTHR11048; 1.
+DR   Pfam; PF01040; UbiA; 1.
+PE   1: Evidence at protein level;
+KW   Magnesium; Membrane; Reference proteome; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           1..325
+FT                   /note="Prenytransferase adrG"
+FT                   /id="PRO_0000446484"
+FT   TRANSMEM        47..67
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        71..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        117..137
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        163..183
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        189..209
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        236..256
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   REGION          80..102
+FT                   /note="Allylic polyprenyl diphosphate-binding site"
+FT                   /evidence="ECO:0000250|UniProtKB:P32378"
+SQ   SEQUENCE   325 AA;  35901 MW;  0E56911BA584180D CRC64;
+     MTRRNEKEEV PPQGKILDLF HPGIAPYAEL MRIHRLLGFY LNTSPYLVGV AFSASISSTK
+     IPIAVLLHRA MLLSIWSIFL RSAGCVWDDL IDMDLDSQIS RTKSRPLPRG AVSPSNALLL
+     TVALFACGGT VLIFLPWACT VDCLIVTFFA LSYPFGKRFT DYPQITLMNI GWAVPMAMHS
+     LGLDPLSQMT PTVCMFLFIG SVIIMIDVIY SRQDTEEDLK VGVKSMAVRF RDSIQLLSYS
+     LLCASTGFLA MAGVLTGLGL PFFVLSVGGH FCGFWVLLRA TQVGKSSGVE SYAKYNMPKQ
+     AFRPRPETSC ATWLLSTSRN EMGRA
+//

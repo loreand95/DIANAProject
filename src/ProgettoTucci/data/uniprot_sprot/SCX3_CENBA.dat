@@ -1,0 +1,85 @@
+ID   SCX3_CENBA              Reviewed;          66 AA.
+AC   C0HLR5;
+DT   07-OCT-2020, integrated into UniProtKB/Swiss-Prot.
+DT   07-OCT-2020, sequence version 1.
+DT   02-DEC-2020, entry version 2.
+DE   RecName: Full=Beta-toxin Cb3 {ECO:0000303|PubMed:32479835};
+OS   Centruroides baergi (Scorpion) (Centruroides nigrovariatus baergi).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Centruroides.
+OX   NCBI_TaxID=329350 {ECO:0000303|PubMed:32479835};
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, FUNCTION, SUBCELLULAR LOCATION, MASS SPECTROMETRY, AND
+RP   TOXIC DOSE.
+RC   TISSUE=Venom {ECO:0000303|PubMed:32479835};
+RX   PubMed=32479835; DOI=10.1016/j.toxicon.2020.05.021;
+RA   Gomez-Ramirez I.V., Riano-Umbarila L., Olamendi-Portugal T.,
+RA   Restano-Cassulini R., Possani L.D., Becerril B.;
+RT   "Biochemical, electrophysiological and immunological characterization of
+RT   the venom from Centruroides baergi, a new scorpion species of medical
+RT   importance in Mexico.";
+RL   Toxicon 184:10-18(2020).
+CC   -!- FUNCTION: Beta toxins bind voltage-independently at site-4 of sodium
+CC       channels (Nav) and reduces peak current and shifts the voltage of
+CC       activation toward more negative potentials thereby affecting sodium
+CC       channel activation and promoting spontaneous and repetitive firing
+CC       (PubMed:32479835). Has an inhibitory effect on voltage-gated sodium
+CC       channels hNav1.1/SCN1A, hNav1.2/SCN2A, hNav1.4/SCN4A and hNav1.6/SCN8A
+CC       (PubMed:32479835). Reduces the peak current of hNav1.5/SCN5A but does
+CC       not shift its voltage of activation (PubMed:32479835). Also affects the
+CC       inactivation processes of hNav1.1/SCN1A, hNav1.4/SCN4A, hNav1.5/SCN5A
+CC       and hNav1.6/SCN8A (PubMed:32479835). This toxin is active against
+CC       mammals and lethal to mice (PubMed:32479835).
+CC       {ECO:0000269|PubMed:32479835}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:32479835}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:32479835}.
+CC   -!- DOMAIN: Has the structural arrangement of an alpha-helix connected to
+CC       antiparallel beta-sheets by disulfide bonds (CS-alpha/beta).
+CC       {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=7775.7; Mass_error=1; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:32479835};
+CC   -!- TOXIC DOSE: LD(50) is 0.5 ug/mouse by intraperitoneal injection into
+CC       mice. {ECO:0000269|PubMed:32479835}.
+CC   -!- SIMILARITY: Belongs to the long (4 C-C) scorpion toxin superfamily.
+CC       Sodium channel inhibitor family. Beta subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005615; C:extracellular space; IDA:UniProtKB.
+DR   GO; GO:0019871; F:sodium channel inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0090729; F:toxin activity; IDA:UniProtKB.
+DR   GO; GO:0006952; P:defense response; IDA:UniProtKB.
+DR   GO; GO:0044493; P:envenomation resulting in negative regulation of voltage-gated sodium channel activity in other organism; IDA:UniProtKB.
+DR   GO; GO:0009405; P:pathogenesis; IDA:UniProtKB.
+DR   Gene3D; 3.30.30.10; -; 1.
+DR   InterPro; IPR044062; LCN-type_CS_alpha_beta_dom.
+DR   InterPro; IPR003614; Scorpion_toxin-like.
+DR   InterPro; IPR036574; Scorpion_toxin-like_sf.
+DR   InterPro; IPR018218; Scorpion_toxinL.
+DR   PRINTS; PR00285; SCORPNTOXIN.
+DR   SMART; SM00505; Knot1; 1.
+DR   SUPFAM; SSF57095; SSF57095; 1.
+DR   PROSITE; PS51863; LCN_CSAB; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Ion channel impairing toxin;
+KW   Neurotoxin; Secreted; Toxin; Voltage-gated sodium channel impairing toxin.
+FT   CHAIN           1..66
+FT                   /note="Beta-toxin Cb3"
+FT                   /id="PRO_0000450849"
+FT   DOMAIN          1..66
+FT                   /note="LCN-type CS-alpha/beta"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        12..65
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        16..41
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        25..46
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+FT   DISULFID        29..48
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01210"
+SQ   SEQUENCE   66 AA;  7783 MW;  A8C7634CCC83E423 CRC64;
+     KEGYIVNYYD GCKYPCVKLG DNDYCLRECR LRYYKSAGGY CYAFACWCTH LYEQAVVWPL
+     PNKTCL
+//

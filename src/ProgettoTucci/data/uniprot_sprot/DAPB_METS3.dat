@@ -1,0 +1,125 @@
+ID   DAPB_METS3              Reviewed;         273 AA.
+AC   A5ULF7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=4-hydroxy-tetrahydrodipicolinate reductase {ECO:0000255|HAMAP-Rule:MF_00102};
+DE            Short=HTPA reductase {ECO:0000255|HAMAP-Rule:MF_00102};
+DE            EC=1.17.1.8 {ECO:0000255|HAMAP-Rule:MF_00102};
+GN   Name=dapB {ECO:0000255|HAMAP-Rule:MF_00102}; OrderedLocusNames=Msm_0830;
+OS   Methanobrevibacter smithii (strain ATCC 35061 / DSM 861 / OCM 144 / PS).
+OC   Archaea; Euryarchaeota; Methanomada group; Methanobacteria;
+OC   Methanobacteriales; Methanobacteriaceae; Methanobrevibacter.
+OX   NCBI_TaxID=420247;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35061 / DSM 861 / OCM 144 / PS;
+RX   PubMed=17563350; DOI=10.1073/pnas.0704189104;
+RA   Samuel B.S., Hansen E.E., Manchester J.K., Coutinho P.M., Henrissat B.,
+RA   Fulton R., Latreille P., Kim K., Wilson R.K., Gordon J.I.;
+RT   "Genomic and metabolic adaptations of Methanobrevibacter smithii to the
+RT   human gut.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:10643-10648(2007).
+CC   -!- FUNCTION: Catalyzes the conversion of 4-hydroxy-tetrahydrodipicolinate
+CC       (HTPA) to tetrahydrodipicolinate. {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + H2O + NAD(+) = (2S,4S)-4-
+CC         hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + NADH;
+CC         Xref=Rhea:RHEA:35323, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00102};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + H2O + NADP(+) = (2S,4S)-
+CC         4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:35331, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16845, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:67139; EC=1.17.1.8; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00102};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; (S)-tetrahydrodipicolinate from L-aspartate: step 4/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00102}.
+CC   -!- SIMILARITY: Belongs to the DapB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00102}.
+CC   -!- CAUTION: Was originally thought to be a dihydrodipicolinate reductase
+CC       (DHDPR), catalyzing the conversion of dihydrodipicolinate to
+CC       tetrahydrodipicolinate. However, it was shown in E.coli that the
+CC       substrate of the enzymatic reaction is not dihydrodipicolinate (DHDP)
+CC       but in fact (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinic acid
+CC       (HTPA), the product released by the DapA-catalyzed reaction.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000678; ABQ87035.1; -; Genomic_DNA.
+DR   RefSeq; WP_004033098.1; NC_009515.1.
+DR   SMR; A5ULF7; -.
+DR   STRING; 420247.Msm_0830; -.
+DR   EnsemblBacteria; ABQ87035; ABQ87035; Msm_0830.
+DR   GeneID; 5216091; -.
+DR   KEGG; msi:Msm_0830; -.
+DR   PATRIC; fig|420247.28.peg.827; -.
+DR   eggNOG; arCOG04393; Archaea.
+DR   HOGENOM; CLU_047479_2_1_2; -.
+DR   OMA; PNKADAP; -.
+DR   UniPathway; UPA00034; UER00018.
+DR   Proteomes; UP000001992; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008839; F:4-hydroxy-tetrahydrodipicolinate reductase; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016726; F:oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00102; DapB; 1.
+DR   InterPro; IPR022663; DapB_C.
+DR   InterPro; IPR000846; DapB_N.
+DR   InterPro; IPR022664; DapB_N_CS.
+DR   InterPro; IPR023940; DHDPR_bac.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   PANTHER; PTHR20836; PTHR20836; 1.
+DR   Pfam; PF05173; DapB_C; 1.
+DR   Pfam; PF01113; DapB_N; 1.
+DR   PIRSF; PIRSF000161; DHPR; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00036; dapB; 1.
+DR   PROSITE; PS01298; DAPB; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Diaminopimelate biosynthesis;
+KW   Lysine biosynthesis; NAD; NADP; Oxidoreductase.
+FT   CHAIN           1..273
+FT                   /note="4-hydroxy-tetrahydrodipicolinate reductase"
+FT                   /id="PRO_1000008592"
+FT   NP_BIND         8..13
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   NP_BIND         102..104
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   NP_BIND         128..131
+FT                   /note="NAD(P)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   REGION          170..171
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   ACT_SITE        160
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   ACT_SITE        164
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         34
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+FT   BINDING         161
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00102"
+SQ   SEQUENCE   273 AA;  29136 MW;  9C1079FF93258235 CRC64;
+     MIKVAVTGAA GRMGSGIIRK ITQQDDMEVV AAIEIPNSPL AGVDAGIQAG AGELGVKIVG
+     AEKLEETLKE SKADVLVDFT IAHAAVETVK KATACGVNVV VGTTGFTDEQ MAENIKNVKD
+     NDVKAVISSN MSIGVNVFFN TLKKLTPILN DFDIEIIEAH HNQKKDAPSG TAMTAFEVIA
+     NELDRDPEEV GVYGRQGMVG KRTKEEIGLH AIRGGDIVGD HTVMFIGDGE RIEFTHRAHT
+     REVFIAGVIR AIRYIPDAES GIVSSMNDVL GLE
+//

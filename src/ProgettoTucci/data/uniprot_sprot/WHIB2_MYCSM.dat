@@ -1,0 +1,152 @@
+ID   WHIB2_MYCSM             Reviewed;         129 AA.
+AC   Q9S426;
+DT   28-NOV-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   10-FEB-2021, entry version 50.
+DE   RecName: Full=Transcriptional regulator WhiB2;
+GN   Name=whmD; Synonyms=whiB2;
+OS   Mycolicibacterium smegmatis (Mycobacterium smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=1772;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=mc(2)6 1-2c;
+RX   PubMed=10880571; DOI=10.1073/pnas.140225297;
+RA   Gomez J.E., Bishai W.R.;
+RT   "whmD is an essential mycobacterial gene required for proper septation and
+RT   cell division.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:8554-8559(2000).
+RN   [2]
+RP   SUBCELLULAR LOCATION, INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=mc(2)6 1-2c;
+RX   PubMed=16946268; DOI=10.1099/mic.0.28911-0;
+RA   Raghunand T.R., Bishai W.R.;
+RT   "Mycobacterium smegmatis whmD and its homologue Mycobacterium tuberculosis
+RT   whiB2 are functionally equivalent.";
+RL   Microbiology 152:2735-2747(2006).
+RN   [3]
+RP   FUNCTION, COFACTOR, SUBUNIT, AND MUTAGENESIS OF CYS-67; ASP-71; CYS-90;
+RP   CYS-93; CYS-99; GLY-111 AND LEU-116.
+RC   STRAIN=mc(2)6 1-2c;
+RX   PubMed=16980499; DOI=10.1128/jb.00384-06;
+RA   Raghunand T.R., Bishai W.R.;
+RT   "Mapping essential domains of Mycobacterium smegmatis WhmD: insights into
+RT   WhiB structure and function.";
+RL   J. Bacteriol. 188:6966-6976(2006).
+CC   -!- FUNCTION: Acts as a transcriptional regulator. Probably redox-
+CC       responsive. The apo- but not holo-form probably binds DNA (By
+CC       similarity). Affects the localization or efficiency of septum
+CC       formation. Complemented by whiB2 of M.tuberculosis and whiB of
+CC       S.coelicolor. {ECO:0000250, ECO:0000269|PubMed:10880571,
+CC       ECO:0000269|PubMed:16980499}.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000250, ECO:0000305};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. Following nitrosylation of
+CC       the [4Fe-4S] cluster binds 1 [4Fe-8(NO)] cluster per subunit.
+CC       {ECO:0000250, ECO:0000305};
+CC   -!- SUBUNIT: Oligomeric in native gel electrophoresis.
+CC       {ECO:0000269|PubMed:16980499}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:16946268}.
+CC   -!- INDUCTION: In exponential phase (at protein level).
+CC       {ECO:0000269|PubMed:16946268}.
+CC   -!- PTM: The Fe-S cluster can be nitrosylated by nitric oxide (NO).
+CC       {ECO:0000250}.
+CC   -!- PTM: Upon Fe-S cluster removal intramolecular disulfide bonds are
+CC       formed. {ECO:0000250}.
+CC   -!- DISRUPTION PHENOTYPE: Essential. In depletion experiments, individual
+CC       cells are elongated and/or filamented, with diminished septum formation
+CC       and aberrant septal placement. The septa that do form may be immature
+CC       as cytokinesis does not occur. Has no effect on FtsZ accumulation.
+CC       Cells are less viable, colonies are smaller and the mutant is non-acid-
+CC       fast under conditions of acetamide withdrawal.
+CC       {ECO:0000269|PubMed:10880571, ECO:0000269|PubMed:16946268}.
+CC   -!- MISCELLANEOUS: In this protein one of the ligands for the Fe-S cluster
+CC       may be provided by Asp-71 rather than Cys-67.
+CC   -!- SIMILARITY: Belongs to the WhiB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF164439; AAD47079.1; -; Genomic_DNA.
+DR   RefSeq; WP_003893222.1; NZ_SOMM01000025.1.
+DR   SMR; Q9S426; -.
+DR   GeneID; 45743421; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0035731; F:dinitrosyl-iron complex binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01479; WhiB; 1.
+DR   InterPro; IPR034768; 4FE4S_WBL.
+DR   InterPro; IPR003482; Whib.
+DR   PANTHER; PTHR38839; PTHR38839; 1.
+DR   Pfam; PF02467; Whib; 1.
+DR   PROSITE; PS51674; 4FE4S_WBL; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Cytoplasm; Disulfide bond; DNA-binding; Iron; Iron-sulfur;
+KW   Metal-binding; Transcription; Transcription regulation.
+FT   CHAIN           1..129
+FT                   /note="Transcriptional regulator WhiB2"
+FT                   /id="PRO_0000420396"
+FT   DOMAIN          66..123
+FT                   /note="4Fe-4S Wbl-type"
+FT   METAL           67
+FT                   /note="Dinitrosyliron [4Fe-8(NO)]; alternate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           67
+FT                   /note="Iron-sulfur (4Fe-4S); alternate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           90
+FT                   /note="Dinitrosyliron [4Fe-8(NO)]; alternate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           90
+FT                   /note="Iron-sulfur (4Fe-4S); alternate"
+FT                   /evidence="ECO:0000305"
+FT   METAL           93
+FT                   /note="Dinitrosyliron [4Fe-8(NO)]; alternate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           93
+FT                   /note="Iron-sulfur (4Fe-4S); alternate"
+FT                   /evidence="ECO:0000305"
+FT   METAL           99
+FT                   /note="Dinitrosyliron [4Fe-8(NO)]; alternate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           99
+FT                   /note="Iron-sulfur (4Fe-4S); alternate"
+FT                   /evidence="ECO:0000305"
+FT   MUTAGEN         67
+FT                   /note="C->A: Not required to complement filamentous
+FT                   phenotype in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         71
+FT                   /note="D->A: Required to complement filamentous phenotype
+FT                   in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         90
+FT                   /note="C->A: Required to complement filamentous phenotype
+FT                   in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         93
+FT                   /note="C->A: Required to complement filamentous phenotype
+FT                   in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         99
+FT                   /note="C->A: Required to complement filamentous phenotype
+FT                   in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         111
+FT                   /note="G->P: Required to complement filamentous phenotype
+FT                   in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+FT   MUTAGEN         116
+FT                   /note="L->P: Partial complementation of filamentous
+FT                   phenotype in depletion experiments."
+FT                   /evidence="ECO:0000269|PubMed:16980499"
+SQ   SEQUENCE   129 AA;  14396 MW;  953A5C10E00CC16C CRC64;
+     MSYESGDFDR VVRFDNRLLG SVSHAPHIDT GSTPTGAAGR PQLSLVPDSF DVAPEAEEDQ
+     WQERALCAQT DPEAFFPEKG GSTREAKRIC QGCEVRDACL EYALAHDERF GIWGGLSERE
+     RRRLKRGII
+//

@@ -1,0 +1,136 @@
+ID   HCP_ACTSZ               Reviewed;         553 AA.
+AC   A6VL83;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=Hydroxylamine reductase {ECO:0000255|HAMAP-Rule:MF_00069};
+DE            EC=1.7.99.1 {ECO:0000255|HAMAP-Rule:MF_00069};
+DE   AltName: Full=Hybrid-cluster protein {ECO:0000255|HAMAP-Rule:MF_00069};
+DE            Short=HCP {ECO:0000255|HAMAP-Rule:MF_00069};
+DE   AltName: Full=Prismane protein {ECO:0000255|HAMAP-Rule:MF_00069};
+GN   Name=hcp {ECO:0000255|HAMAP-Rule:MF_00069}; OrderedLocusNames=Asuc_0352;
+OS   Actinobacillus succinogenes (strain ATCC 55618 / DSM 22257 / 130Z).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=339671;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 55618 / DSM 22257 / 130Z;
+RX   PubMed=21118570; DOI=10.1186/1471-2164-11-680;
+RA   McKinlay J.B., Laivenieks M., Schindler B.D., McKinlay A.A.,
+RA   Siddaramappa S., Challacombe J.F., Lowry S.R., Clum A., Lapidus A.L.,
+RA   Burkhart K.B., Harkins V., Vieille C.;
+RT   "A genomic perspective on the potential of Actinobacillus succinogenes for
+RT   industrial succinate production.";
+RL   BMC Genomics 11:680-680(2010).
+CC   -!- FUNCTION: Catalyzes the reduction of hydroxylamine to form NH(3) and
+CC       H(2)O. {ECO:0000255|HAMAP-Rule:MF_00069}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=A + H2O + NH4(+) = AH2 + H(+) + hydroxylamine;
+CC         Xref=Rhea:RHEA:22052, ChEBI:CHEBI:13193, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15429, ChEBI:CHEBI:17499,
+CC         ChEBI:CHEBI:28938; EC=1.7.99.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00069};
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00069};
+CC       Note=Binds 1 [2Fe-2S] cluster. {ECO:0000255|HAMAP-Rule:MF_00069};
+CC   -!- COFACTOR:
+CC       Name=hybrid [4Fe-2O-2S] cluster; Xref=ChEBI:CHEBI:60519;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00069};
+CC       Note=Binds 1 hybrid [4Fe-2O-2S] cluster. {ECO:0000255|HAMAP-
+CC       Rule:MF_00069};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00069}.
+CC   -!- SIMILARITY: Belongs to the HCP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00069}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000746; ABR73730.1; -; Genomic_DNA.
+DR   RefSeq; WP_011979005.1; NC_009655.1.
+DR   SMR; A6VL83; -.
+DR   STRING; 339671.Asuc_0352; -.
+DR   EnsemblBacteria; ABR73730; ABR73730; Asuc_0352.
+DR   KEGG; asu:Asuc_0352; -.
+DR   eggNOG; COG1151; Bacteria.
+DR   HOGENOM; CLU_038344_2_0_6; -.
+DR   OMA; CAYAQGM; -.
+DR   OrthoDB; 337713at2; -.
+DR   BioCyc; ASUC339671:G1G9D-371-MONOMER; -.
+DR   Proteomes; UP000001114; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050418; F:hydroxylamine reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.20.1270.20; -; 2.
+DR   Gene3D; 3.40.50.2030; -; 2.
+DR   HAMAP; MF_00069; Hydroxylam_reduct; 1.
+DR   InterPro; IPR004137; HCP/CODH.
+DR   InterPro; IPR010048; Hydroxylam_reduct.
+DR   InterPro; IPR016099; Prismane-like_a/b-sand.
+DR   InterPro; IPR011254; Prismane-like_sf.
+DR   InterPro; IPR016100; Prismane_a-bundle.
+DR   PANTHER; PTHR30109; PTHR30109; 1.
+DR   PANTHER; PTHR30109:SF0; PTHR30109:SF0; 1.
+DR   Pfam; PF03063; Prismane; 1.
+DR   PIRSF; PIRSF000076; HCP; 1.
+DR   SUPFAM; SSF56821; SSF56821; 1.
+DR   TIGRFAMs; TIGR01703; hybrid_clust; 1.
+PE   3: Inferred from homology;
+KW   2Fe-2S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..553
+FT                   /note="Hydroxylamine reductase"
+FT                   /id="PRO_1000071172"
+FT   METAL           3
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           6
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           18
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           25
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           249
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S); via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           273
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           317
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           405
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S); via persulfide group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           433
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           459
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           493
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   METAL           495
+FT                   /note="Iron-oxo-sulfur (4Fe-2O-2S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+FT   MOD_RES         405
+FT                   /note="Cysteine persulfide"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00069"
+SQ   SEQUENCE   553 AA;  60704 MW;  395529B7540BB9E4 CRC64;
+     MYCVQCEQTM ITPKGNGCSF SQGMCGKTAE TSDLQDLLIA CLHSLSAWAV KAREYGIINH
+     EADNFAPRAF FATLTNVNFD SARIAGYAQQ ALIYRNQLIK AVSAFESNPT LDHPLANIEL
+     NGVSVDKLAR QAKQFALDTD RAKIGEEAHG VRLLCLYGLK GAAAYMEHAY VLDKFDNDIY
+     AQYHGFMSWL GTHPSDLNEL LEKALAIGSM NFNVMAMLDA GETEHFGNPV PAMVNVRPVK
+     GKCILISGHD LKDLKELLEQ TEGKGINVYT HGEMLPAHGY PELKKYKHLV GNFGSGWQNQ
+     QKEFARFPGA IVMTSNCLID PNVGDYADRI FTRNIVGWPG VTHLEEHDFS PVIEKALECD
+     GFPYTELEHL ITVGFGRKTL IDASDAVIDL VKAGKLSHVF VIGGCDGDKE ERHYYTDLAY
+     ALPKDTAVLT LGCGKYRFNK LDFGTIDGGL PRLLDAGQCN DTYSAIMLAV TLSQKLGIGL
+     NELPLSIVLS WFEQKAIIVL LTLLALGVKN VYSGPSKPAF LNDNVMALLH EKFGLSGLTT
+     PEQDFGHIIG KNA
+//

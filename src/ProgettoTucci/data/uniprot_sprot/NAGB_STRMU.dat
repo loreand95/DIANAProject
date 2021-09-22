@@ -1,0 +1,141 @@
+ID   NAGB_STRMU              Reviewed;         233 AA.
+AC   Q8DV70;
+DT   23-MAY-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=Glucosamine-6-phosphate deaminase {ECO:0000255|HAMAP-Rule:MF_01241};
+DE            EC=3.5.99.6 {ECO:0000255|HAMAP-Rule:MF_01241};
+DE   AltName: Full=GlcN6P deaminase {ECO:0000255|HAMAP-Rule:MF_01241};
+DE            Short=GNPDA {ECO:0000255|HAMAP-Rule:MF_01241};
+DE   AltName: Full=Glucosamine-6-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_01241};
+GN   Name=nagB {ECO:0000255|HAMAP-Rule:MF_01241}; OrderedLocusNames=SMU_636;
+OS   Streptococcus mutans serotype c (strain ATCC 700610 / UA159).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=210007;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700610 / UA159;
+RX   PubMed=12397186; DOI=10.1073/pnas.172501299;
+RA   Ajdic D.J., McShan W.M., McLaughlin R.E., Savic G., Chang J., Carson M.B.,
+RA   Primeaux C., Tian R., Kenton S., Jia H.G., Lin S.P., Qian Y., Li S.,
+RA   Zhu H., Najar F.Z., Lai H., White J., Roe B.A., Ferretti J.J.;
+RT   "Genome sequence of Streptococcus mutans UA159, a cariogenic dental
+RT   pathogen.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:14434-14439(2002).
+CC   -!- FUNCTION: Catalyzes the reversible isomerization-deamination of
+CC       glucosamine 6-phosphate (GlcN6P) to form fructose 6-phosphate (Fru6P)
+CC       and ammonium ion. {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 6-phosphate + H2O = beta-D-fructose 6-
+CC         phosphate + NH4(+); Xref=Rhea:RHEA:12172, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:57634, ChEBI:CHEBI:75989; EC=3.5.99.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01241};
+CC   -!- PATHWAY: Amino-sugar metabolism; N-acetylneuraminate degradation; D-
+CC       fructose 6-phosphate from N-acetylneuraminate: step 5/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   -!- SIMILARITY: Belongs to the glucosamine/galactosamine-6-phosphate
+CC       isomerase family. NagB subfamily. {ECO:0000255|HAMAP-Rule:MF_01241}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014133; AAN58370.1; -; Genomic_DNA.
+DR   RefSeq; NP_721064.1; NC_004350.2.
+DR   RefSeq; WP_002261905.1; NC_004350.2.
+DR   PDB; 2RI0; X-ray; 1.60 A; A/B=1-233.
+DR   PDB; 2RI1; X-ray; 2.03 A; A/B=1-233.
+DR   PDBsum; 2RI0; -.
+DR   PDBsum; 2RI1; -.
+DR   SMR; Q8DV70; -.
+DR   STRING; 210007.SMU_636; -.
+DR   PRIDE; Q8DV70; -.
+DR   EnsemblBacteria; AAN58370; AAN58370; SMU_636.
+DR   KEGG; smu:SMU_636; -.
+DR   PATRIC; fig|210007.7.peg.562; -.
+DR   eggNOG; COG0363; Bacteria.
+DR   HOGENOM; CLU_049611_1_0_9; -.
+DR   OMA; FNEPCSS; -.
+DR   PhylomeDB; Q8DV70; -.
+DR   BioCyc; SMUT210007:G1FZX-620-MONOMER; -.
+DR   UniPathway; UPA00629; UER00684.
+DR   EvolutionaryTrace; Q8DV70; -.
+DR   Proteomes; UP000002512; Chromosome.
+DR   GO; GO:0004342; F:glucosamine-6-phosphate deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006040; P:amino sugar metabolic process; IDA:CACAO.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006044; P:N-acetylglucosamine metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019262; P:N-acetylneuraminate catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01399; GlcN6P_deaminase; 1.
+DR   HAMAP; MF_01241; GlcN6P_deamin; 1.
+DR   InterPro; IPR006148; Glc/Gal-6P_isomerase.
+DR   InterPro; IPR004547; Glucosamine6P_isomerase.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   PANTHER; PTHR11280; PTHR11280; 1.
+DR   Pfam; PF01182; Glucosamine_iso; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Hydrolase; Reference proteome.
+FT   CHAIN           1..233
+FT                   /note="Glucosamine-6-phosphate deaminase"
+FT                   /id="PRO_0000160176"
+FT   ACT_SITE        62
+FT                   /note="Proton acceptor; for enolization step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        128
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        130
+FT                   /note="Proton acceptor; for ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   ACT_SITE        135
+FT                   /note="For ring-opening step"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01241"
+FT   STRAND          1..8
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           9..25
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          30..33
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           40..47
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          57..64
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           75..82
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   TURN            83..86
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          90..93
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           102..115
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          119..123
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          144..148
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           151..158
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           164..166
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          170..173
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           176..180
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          182..189
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           192..194
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           195..203
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   HELIX           211..217
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   STRAND          219..226
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+FT   TURN            227..232
+FT                   /evidence="ECO:0007744|PDB:2RI0"
+SQ   SEQUENCE   233 AA;  25473 MW;  B6546EE48C922900 CRC64;
+     MKTIKVKNKT EGSKVAFRML EEEITFGAKT LGLATGSTPL ELYKEIRESH LDFSDMVSIN
+     LDEYVGLSAD DKQSYAYFMK QNLFAAKPFK KSYLPNGLAA DLAKETEYYD QILAQYPIDL
+     QILGIGRNAH IGFNEPGTAF SSQTHLVDLT PSTIAANSRF FEKAEDVPKQ AISMGLASIM
+     SAKMILLMAF GEEKAEAVAA MVKGPVTEEI PASILQTHPK VILIVDEKAG AGI
+//

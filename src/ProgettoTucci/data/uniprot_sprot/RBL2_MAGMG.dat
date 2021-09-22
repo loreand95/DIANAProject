@@ -1,0 +1,130 @@
+ID   RBL2_MAGMG              Reviewed;         459 AA.
+AC   Q8RTI2;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   11-DEC-2019, entry version 69.
+DE   RecName: Full=Ribulose bisphosphate carboxylase {ECO:0000255|HAMAP-Rule:MF_01339};
+DE            Short=RuBisCO {ECO:0000255|HAMAP-Rule:MF_01339};
+DE            EC=4.1.1.39 {ECO:0000255|HAMAP-Rule:MF_01339};
+GN   Name=cbbM {ECO:0000255|HAMAP-Rule:MF_01339};
+OS   Magnetospirillum magnetotacticum (Aquaspirillum magnetotacticum).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Rhodospirillaceae; Magnetospirillum.
+OX   NCBI_TaxID=188;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 31632 / DSM 3856 / NBRC 15272 / MS-1;
+RX   PubMed=15338111; DOI=10.1007/s00203-004-0716-y;
+RA   Bazylinski D.A., Dean A.J., Williams T.J., Long L.K., Middleton S.L.,
+RA   Dubbels B.L.;
+RT   "Chemolithoautotrophy in the marine, magnetotactic bacterial strains MV-1
+RT   and MV-2.";
+RL   Arch. Microbiol. 182:373-387(2004).
+CC   -!- FUNCTION: RuBisCO catalyzes two reactions: the carboxylation of D-
+CC       ribulose 1,5-bisphosphate, the primary event in carbon dioxide
+CC       fixation, as well as the oxidative fragmentation of the pentose
+CC       substrate. Both reactions occur simultaneously and in competition at
+CC       the same active site. {ECO:0000255|HAMAP-Rule:MF_01339}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (2R)-3-phosphoglycerate + 2 H(+) = CO2 + D-ribulose 1,5-
+CC         bisphosphate + H2O; Xref=Rhea:RHEA:23124, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57870,
+CC         ChEBI:CHEBI:58272; EC=4.1.1.39; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01339};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-ribulose 1,5-bisphosphate + O2 = (2R)-3-phosphoglycerate +
+CC         2-phosphoglycolate + 2 H(+); Xref=Rhea:RHEA:36631, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:57870, ChEBI:CHEBI:58033,
+CC         ChEBI:CHEBI:58272; Evidence={ECO:0000255|HAMAP-Rule:MF_01339};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01339};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01339};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01339}.
+CC   -!- MISCELLANEOUS: The basic functional RuBisCO is composed of a large
+CC       chain homodimer in a 'head-to-tail' conformation. In contrast to form I
+CC       RuBisCO, the form II RuBisCO are composed solely of large subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01339}.
+CC   -!- SIMILARITY: Belongs to the RuBisCO large chain family. Type II
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01339}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF442517; AAL76920.1; -; Genomic_DNA.
+DR   SMR; Q8RTI2; -.
+DR   PRIDE; Q8RTI2; -.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016984; F:ribulose-bisphosphate carboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019253; P:reductive pentose-phosphate cycle; IEA:UniProtKB-KW.
+DR   CDD; cd08211; RuBisCO_large_II; 1.
+DR   Gene3D; 3.20.20.110; -; 1.
+DR   Gene3D; 3.30.70.150; -; 1.
+DR   HAMAP; MF_01339; RuBisCO_L_type2; 1.
+DR   InterPro; IPR033966; RuBisCO.
+DR   InterPro; IPR020878; RuBisCo_large_chain_AS.
+DR   InterPro; IPR000685; RuBisCO_lsu_C.
+DR   InterPro; IPR036376; RuBisCO_lsu_C_sf.
+DR   InterPro; IPR017443; RuBisCO_lsu_fd_N.
+DR   InterPro; IPR036422; RuBisCO_lsu_N_sf.
+DR   InterPro; IPR020871; RuBisCO_lsuII.
+DR   PANTHER; PTHR42704; PTHR42704; 1.
+DR   Pfam; PF00016; RuBisCO_large; 1.
+DR   Pfam; PF02788; RuBisCO_large_N; 1.
+DR   SFLD; SFLDS00014; RuBisCO; 1.
+DR   SUPFAM; SSF51649; SSF51649; 1.
+DR   SUPFAM; SSF54966; SSF54966; 1.
+DR   PROSITE; PS00157; RUBISCO_LARGE; 1.
+PE   3: Inferred from homology;
+KW   Calvin cycle; Carbon dioxide fixation; Lyase; Magnesium; Metal-binding;
+KW   Monooxygenase; Oxidoreductase.
+FT   CHAIN           1..459
+FT                   /note="Ribulose bisphosphate carboxylase"
+FT                   /id="PRO_0000062663"
+FT   ACT_SITE        166
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   ACT_SITE        287
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   METAL           191
+FT                   /note="Magnesium; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   METAL           193
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   METAL           194
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   BINDING         111
+FT                   /note="Substrate; in homodimeric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   BINDING         168
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   BINDING         288
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   BINDING         321
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   BINDING         368
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   SITE            329
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+FT   MOD_RES         191
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01339"
+SQ   SEQUENCE   459 AA;  50217 MW;  7BAF901EE932774F CRC64;
+     MDQSKRYVNL ALSEADLIKG GRHVLCAYRM RPRPGHGYVE TAAHFAAESS TGTNVEVCTT
+     DDFTRGVDAL VYEVDEAEGL MKIAYPVDLF DRNIIDGKAM IASFLTLTVG NNQGMSDVEN
+     AKMEDFYVPP EFLKLFDGPA CNISHMWKVL GRPEVNGGMV VGTIIKPKLG LRPKPFADAC
+     HQFWLGGDFI KNDEPQGNQV FAPLKETMRL VADAMRRAQD ETGVPKLLSA NITADDPAEM
+     IARGNFILET FGENASHVAF LVDGFVAGPT AVTTCRRNFP DTFLHYHRAG HGAITSRQSK
+     RGYTVLVHMK MARLLGASGI HTGTMGYGKM EGAPDEKMVA YMLERQIAEG PYYRQDWGGM
+     ASCTPIISGG MSALRLPGFF DNLGHSNVIQ TSGGGAFGHK DGAIAGALSL RQAHEAWLKK
+     IDLVDYAQTH AELRGAFESF ASDADRLYPG WRDRLRIAA
+//

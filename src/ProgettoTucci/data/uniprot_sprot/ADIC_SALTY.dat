@@ -1,0 +1,271 @@
+ID   ADIC_SALTY              Reviewed;         445 AA.
+AC   P60066; Q8XFJ0;
+DT   28-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   28-NOV-2003, sequence version 1.
+DT   07-APR-2021, entry version 105.
+DE   RecName: Full=Arginine/agmatine antiporter;
+GN   Name=adiC; Synonyms=aniC; OrderedLocusNames=STM4294;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+RN   [2]
+RP   INDUCTION.
+RC   STRAIN=UK-1;
+RX   PubMed=9882690; DOI=10.1128/jb.181.2.689-694.1999;
+RA   Park K.R., Giard J.-C., Eom J.H., Bearson S., Foster J.W.;
+RT   "Cyclic AMP receptor protein and TyrR are required for acid pH and
+RT   anaerobic induction of hyaB and aniC in Salmonella typhimurium.";
+RL   J. Bacteriol. 181:689-694(1999).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (3.2 ANGSTROMS), SUBUNIT, AND FUNCTION.
+RX   PubMed=19578361; DOI=10.1038/nature08201;
+RA   Fang Y., Jayaram H., Shane T., Kolmakova-Partensky L., Wu F., Williams C.,
+RA   Xiong Y., Miller C.;
+RT   "Structure of a prokaryotic virtual proton pump at 3.2 A resolution.";
+RL   Nature 460:1040-1043(2009).
+CC   -!- FUNCTION: Major component of the acid-resistance (AR) system allowing
+CC       enteric pathogens to survive the acidic environment in the stomach.
+CC       Exchanges extracellular arginine for its intracellular decarboxylation
+CC       product agmatine (Agm) thereby expelling intracellular protons.
+CC       {ECO:0000269|PubMed:19578361}.
+CC   -!- INTERACTION:
+CC       P60066; P60066: adiC; NbExp=2; IntAct=EBI-15792734, EBI-15792734;
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}.
+CC   -!- INDUCTION: Maximum induction requires anaerobiosis, acidic conditions
+CC       and tyrosine. {ECO:0000269|PubMed:9882690}.
+CC   -!- SIMILARITY: Belongs to the amino acid-polyamine-organocation (APC)
+CC       superfamily. Basic amino acid/polyamine antiporter (APA) (TC 2.A.3.2)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL23118.1; -; Genomic_DNA.
+DR   RefSeq; NP_463159.1; NC_003197.2.
+DR   RefSeq; WP_000093130.1; NC_003197.2.
+DR   PDB; 3NCY; X-ray; 3.20 A; A/B/C/D=1-445.
+DR   PDBsum; 3NCY; -.
+DR   SMR; P60066; -.
+DR   DIP; DIP-59280N; -.
+DR   PaxDb; P60066; -.
+DR   ABCD; P60066; 1 sequenced antibody.
+DR   EnsemblBacteria; AAL23118; AAL23118; STM4294.
+DR   GeneID; 1255820; -.
+DR   GeneID; 57494370; -.
+DR   KEGG; stm:STM4294; -.
+DR   PATRIC; fig|99287.12.peg.4516; -.
+DR   HOGENOM; CLU_007946_1_0_6; -.
+DR   OMA; AAKMIIV; -.
+DR   PhylomeDB; P60066; -.
+DR   EvolutionaryTrace; P60066; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015297; F:antiporter activity; IEA:UniProtKB-KW.
+DR   GO; GO:0042802; F:identical protein binding; IPI:IntAct.
+DR   GO; GO:0006865; P:amino acid transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR002293; AA/rel_permease1.
+DR   Pfam; PF13520; AA_permease_2; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amino-acid transport; Antiport; Cell inner membrane;
+KW   Cell membrane; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..445
+FT                   /note="Arginine/agmatine antiporter"
+FT                   /id="PRO_0000054235"
+FT   TOPO_DOM        1..9
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        10..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        31..38
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        39..59
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        60..98
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        99..119
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        120..122
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        123..143
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        144..152
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        153..173
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        174..196
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        197..217
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        218..225
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        226..246
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        247..275
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        276..296
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        297..319
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        320..340
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        341..355
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        356..376
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        377..385
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        386..406
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        407..408
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        409..429
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        430..445
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   BINDING         22
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         26
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         93
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         208
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000305"
+FT   BINDING         365
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            208
+FT                   /note="Proposed to be the sensor amino acid remaining
+FT                   protonated at periplasmic pH but undergoing deprotonation
+FT                   at cytoplasmic pH"
+FT                   /evidence="ECO:0000250"
+FT   HELIX           13..21
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            27..29
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           30..35
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          39..42
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           43..66
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           74..81
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           84..98
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            99..101
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           102..109
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            110..114
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           122..140
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           144..164
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          184..186
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           189..200
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           201..204
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            205..208
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           209..213
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          216..219
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            220..222
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           223..240
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            244..246
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          247..249
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           254..257
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           264..266
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            268..271
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           278..281
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           284..305
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            306..308
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           312..314
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          317..319
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           327..342
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          343..345
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           348..360
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           362..374
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   STRAND          376..378
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            379..382
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           384..403
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   HELIX           407..425
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+FT   TURN            429..431
+FT                   /evidence="ECO:0007744|PDB:3NCY"
+SQ   SEQUENCE   445 AA;  46933 MW;  A187BA326CB6FA97 CRC64;
+     MSSDADAHKV GLIPVTLMVS GNIMGSGVFL LPANLAATGG IAIYGWLVTI IGALALSMVY
+     AKMSSLDPSP GGSYAYARRC FGPFLGYQTN VLYWLACWIG NIAMVVIGVG YLSYFFPILK
+     DPLVLTLTCV AVLWIFVLLN IVGPKMITRV QAVATVLALV PIVGIAVFGW FWFKGETYMA
+     AWNVSGMNTF GAIQSTLNVT LWSFIGVESA SVAAGVVKNP KRNVPIATIG GVLIAAVCYV
+     LSTTAIMGMI PNAALRVSAS PFGDAARMAL GDTAGAIVSF CAAAGCLGSL GGWTLLAGQT
+     AKAAADDGLF PPIFARVNKA GTPVAGLLIV GVLMTIFQFS SMSPNAAKEF GLVSSVSVIF
+     TLVPYLYTCA ALLLLGHGHF GKARPLYLLI TFVAFVYCIW AVIGSGAKEV MWSFVTLMVI
+     TALYALNYNR IHKNPYPLDA PVKQD
+//

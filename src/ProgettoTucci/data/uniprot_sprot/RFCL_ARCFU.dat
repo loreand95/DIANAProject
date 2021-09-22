@@ -1,0 +1,96 @@
+ID   RFCL_ARCFU              Reviewed;         479 AA.
+AC   O29072;
+DT   16-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-DEC-2020, entry version 103.
+DE   RecName: Full=Replication factor C large subunit;
+DE            Short=RFC large subunit;
+DE   AltName: Full=Clamp loader large subunit;
+DE   AltName: Full=afRFC large subunit;
+DE            Short=afRFCla;
+GN   Name=rfcL; OrderedLocusNames=AF_1195;
+OS   Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 /
+OS   NBRC 100126).
+OC   Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae;
+OC   Archaeoglobus.
+OX   NCBI_TaxID=224325;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126;
+RX   PubMed=9389475; DOI=10.1038/37052;
+RA   Klenk H.-P., Clayton R.A., Tomb J.-F., White O., Nelson K.E., Ketchum K.A.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Peterson J.D., Richardson D.L.,
+RA   Kerlavage A.R., Graham D.E., Kyrpides N.C., Fleischmann R.D.,
+RA   Quackenbush J., Lee N.H., Sutton G.G., Gill S.R., Kirkness E.F.,
+RA   Dougherty B.A., McKenney K., Adams M.D., Loftus B.J., Peterson S.N.,
+RA   Reich C.I., McNeil L.K., Badger J.H., Glodek A., Zhou L., Overbeek R.,
+RA   Gocayne J.D., Weidman J.F., McDonald L.A., Utterback T.R., Cotton M.D.,
+RA   Spriggs T., Artiach P., Kaine B.P., Sykes S.M., Sadow P.W., D'Andrea K.P.,
+RA   Bowman C., Fujii C., Garland S.A., Mason T.M., Olsen G.J., Fraser C.M.,
+RA   Smith H.O., Woese C.R., Venter J.C.;
+RT   "The complete genome sequence of the hyperthermophilic, sulphate-reducing
+RT   archaeon Archaeoglobus fulgidus.";
+RL   Nature 390:364-370(1997).
+RN   [2]
+RP   FUNCTION, AND SUBUNIT.
+RX   PubMed=12384579; DOI=10.1093/nar/gkf584;
+RA   Seybert A., Scott D.J., Scaife S., Singleton M.R., Wigley D.B.;
+RT   "Biochemical characterisation of the clamp/clamp loader proteins from the
+RT   euryarchaeon Archaeoglobus fulgidus.";
+RL   Nucleic Acids Res. 30:4329-4338(2002).
+CC   -!- FUNCTION: Part of the RFC clamp loader complex which loads the PCNA
+CC       sliding clamp onto DNA. The complex possesses DNA-dependent ATPase
+CC       activity which is further stimulated by PCNA.
+CC       {ECO:0000269|PubMed:12384579}.
+CC   -!- SUBUNIT: Heteropentamer composed of four small subunits (RfcS) and one
+CC       large subunit (RfcL). Both subunits interact with PCNA.
+CC       {ECO:0000269|PubMed:12384579}.
+CC   -!- SIMILARITY: Belongs to the activator 1 small subunits family. RfcL
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000782; AAB90051.1; -; Genomic_DNA.
+DR   PIR; B69399; B69399.
+DR   RefSeq; WP_010878691.1; NC_000917.1.
+DR   SMR; O29072; -.
+DR   STRING; 224325.AF_1195; -.
+DR   EnsemblBacteria; AAB90051; AAB90051; AF_1195.
+DR   GeneID; 24794801; -.
+DR   KEGG; afu:AF_1195; -.
+DR   eggNOG; arCOG00470; Archaea.
+DR   HOGENOM; CLU_027255_1_0_2; -.
+DR   OMA; GGWTRYG; -.
+DR   OrthoDB; 24257at2157; -.
+DR   BRENDA; 3.6.4.B8; 414.
+DR   Proteomes; UP000002199; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003689; F:DNA clamp loader activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01508; RfcL; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR023935; Rep_factor-C_lsu.
+DR   Pfam; PF00004; AAA; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; DNA replication; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..479
+FT                   /note="Replication factor C large subunit"
+FT                   /id="PRO_0000135948"
+FT   NP_BIND         43..50
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   479 AA;  55511 MW;  E7DE29F972A99DAD CRC64;
+     MLWVEKYRPK TLEEVVADKS IITRVIKWAK SWKRGSKPLL LAGPPGVGKT SLALALANTM
+     GWEAVELNAS DQRSWRVIER IVGEGAFNET ISDEGEFLSS RIGKLKLIIL DEVDNIHKKE
+     DVGGEAALIR LIKRKPAQPL ILIANDPYKL SPELRNLCEM INFKRLTKQQ VARVLERIAL
+     KEGIKVDKSV LLKIAENAGG DLRAAINDFQ ALAEGKEELK PEDVFLTKRT QEKDIFRVMQ
+     MIFKTKNPAV YNEAMLLDES PEDVIHWVDE NLPLEYSGVE LVNAYEALSR ADIFLGRVRR
+     RQFYRLWKYA SYLMTVGVQQ MKEEPKKGFT RYRRPAVWQM LFQLRQKREM TRKILEKIGK
+     YSHLSMRKAR TEMFPVIKLL LKELDVDKAA TIAAFYEFTK EELEFLVGEK GDEIWKYVEK
+     HGMHRIEDET FLESFVKAEK EEKEESVEEV AEEKPEEERE EPRARKKAGK NLTLDSFFS
+//

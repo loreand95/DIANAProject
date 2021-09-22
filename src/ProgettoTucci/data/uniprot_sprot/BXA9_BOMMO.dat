@@ -1,0 +1,111 @@
+ID   BXA9_BOMMO              Reviewed;          92 AA.
+AC   P26732; P07230;
+DT   01-APR-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   10-FEB-2021, entry version 109.
+DE   RecName: Full=Bombyxin A-9;
+DE            Short=BBX-A9;
+DE   AltName: Full=4K-prothoracicotropic hormone;
+DE            Short=4K-PTTH;
+DE   Contains:
+DE     RecName: Full=Bombyxin A-9 B chain;
+DE   Contains:
+DE     RecName: Full=Bombyxin A-9 A chain;
+DE   Flags: Precursor;
+GN   Name=BBXA9;
+OS   Bombyx mori (Silk moth).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Lepidoptera; Glossata; Ditrysia; Bombycoidea;
+OC   Bombycidae; Bombycinae; Bombyx.
+OX   NCBI_TaxID=7091;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8683595; DOI=10.1006/jmbi.1996.0370;
+RA   Kondo H., Ino M., Suzuki A., Ishizaki H., Iwami M.;
+RT   "Multiple gene copies for bombyxin, an insulin-related peptide of the
+RT   silkmoth Bombyx mori: structural signs for gene rearrangement and
+RT   duplication responsible for generation of multiple molecular forms of
+RT   bombyxin.";
+RL   J. Mol. Biol. 259:926-937(1996).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 20-47 AND 73-92, AND PYROGLUTAMATE FORMATION AT GLN-20.
+RX   PubMed=16593744; DOI=10.1073/pnas.83.16.5840;
+RA   Nagasawa H., Kataoka H., Isogai A., Tamura S., Suzuki A., Mizoguchi A.,
+RA   Fujiwara Y., Suzuki A., Takahashi S.Y., Ishizaki H.;
+RT   "Amino acid sequence of a prothoracicotropic hormone of the silkworm Bombyx
+RT   mori.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 83:5840-5843(1986).
+CC   -!- FUNCTION: Brain peptide responsible for activation of prothoracic
+CC       glands to produce ecdysone in insects.
+CC   -!- SUBUNIT: Heterodimer of a B chain and an A chain linked by two
+CC       disulfide bonds.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- MISCELLANEOUS: Silk worm has two kinds of PTTH: 4K-PTTH and 22K-PTTH;
+CC       there are many forms of 4K-PTTH.
+CC   -!- SIMILARITY: Belongs to the insulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D00776; BAA00672.1; -; Genomic_DNA.
+DR   PIR; JQ0825; JQ0825.
+DR   RefSeq; NP_001121608.1; NM_001128136.1.
+DR   SMR; P26732; -.
+DR   STRING; 7091.BGIBMGA014205-TA; -.
+DR   EnsemblMetazoa; BGIBMGA014205-RA; BGIBMGA014205-TA; BGIBMGA014205.
+DR   GeneID; 100169658; -.
+DR   KEGG; bmor:100169658; -.
+DR   CTD; 100169658; -.
+DR   eggNOG; ENOG502SESX; Eukaryota.
+DR   HOGENOM; CLU_125164_2_0_1; -.
+DR   InParanoid; P26732; -.
+DR   OMA; FAKRSEM; -.
+DR   OrthoDB; 1644517at2759; -.
+DR   Proteomes; UP000005204; Unassembled WGS sequence.
+DR   GO; GO:0005615; C:extracellular space; IEA:InterPro.
+DR   GO; GO:0008083; F:growth factor activity; IEA:InterPro.
+DR   GO; GO:0005179; F:hormone activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR017097; Bombyxin.
+DR   InterPro; IPR030680; Bombyxin_A.
+DR   InterPro; IPR016179; Insulin-like.
+DR   InterPro; IPR036438; Insulin-like_sf.
+DR   InterPro; IPR022353; Insulin_CS.
+DR   InterPro; IPR022352; Insulin_family.
+DR   Pfam; PF00049; Insulin; 1.
+DR   PIRSF; PIRSF037038; Bombyxin; 1.
+DR   PIRSF; PIRSF500312; Bombyxin_A; 1.
+DR   PRINTS; PR02003; BOMBYXIN.
+DR   PRINTS; PR00276; INSULINFAMLY.
+DR   SMART; SM00078; IlGF; 1.
+DR   SUPFAM; SSF56994; SSF56994; 1.
+DR   PROSITE; PS00262; INSULIN; 1.
+PE   1: Evidence at protein level;
+KW   Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Disulfide bond; Hormone; Pyrrolidone carboxylic acid; Reference proteome;
+KW   Secreted; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:16593744"
+FT   PEPTIDE         20..47
+FT                   /note="Bombyxin A-9 B chain"
+FT                   /id="PRO_0000015986"
+FT   PROPEP          50..71
+FT                   /note="C peptide like"
+FT                   /id="PRO_0000015987"
+FT   PEPTIDE         73..92
+FT                   /note="Bombyxin A-9 A chain"
+FT                   /id="PRO_0000015988"
+FT   MOD_RES         20
+FT                   /note="Pyrrolidone carboxylic acid"
+FT                   /evidence="ECO:0000269|PubMed:16593744"
+FT   DISULFID        29..79
+FT                   /note="Interchain (between B and A chains)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        41..92
+FT                   /note="Interchain (between B and A chains)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        78..83
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   92 AA;  10288 MW;  54FBFEED2E165E2B CRC64;
+     MKLLLAIALM LTTVMWASTQ QPQAVHTYCG RHLARTLADL CWEAGVDKRS DAQFASYGSA
+     WLMPYSEGRD QRGIVDECCL RPCSVDVLLS YC
+//

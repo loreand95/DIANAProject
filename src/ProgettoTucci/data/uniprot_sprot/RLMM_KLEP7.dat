@@ -1,0 +1,95 @@
+ID   RLMM_KLEP7              Reviewed;         366 AA.
+AC   A6TD87;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   21-AUG-2007, sequence version 1.
+DT   02-DEC-2020, entry version 65.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase M {ECO:0000255|HAMAP-Rule:MF_01551};
+DE            EC=2.1.1.186 {ECO:0000255|HAMAP-Rule:MF_01551};
+DE   AltName: Full=23S rRNA (cytidine2498-2'-O)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01551};
+DE   AltName: Full=23S rRNA 2'-O-ribose methyltransferase RlmM {ECO:0000255|HAMAP-Rule:MF_01551};
+GN   Name=rlmM {ECO:0000255|HAMAP-Rule:MF_01551};
+GN   OrderedLocusNames=KPN78578_30970; ORFNames=KPN_03157;
+OS   Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=272620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700721 / MGH 78578;
+RG   The Klebsiella pneumonia Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Spieth J., Clifton W.S., Latreille P.,
+RA   Sabo A., Pepin K., Bhonagiri V., Porwollik S., Ali J., Wilson R.K.;
+RL   Submitted (SEP-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the 2'-O-methylation at nucleotide C2498 in 23S
+CC       rRNA. {ECO:0000255|HAMAP-Rule:MF_01551}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(2498) in 23S rRNA + S-adenosyl-L-methionine = 2'-O-
+CC         methylcytidine(2498) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42788, Rhea:RHEA-COMP:10244, Rhea:RHEA-COMP:10245,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74495, ChEBI:CHEBI:82748; EC=2.1.1.186;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01551};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01551}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01551}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase RlmE family. RlmM subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01551}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000647; ABR78558.1; -; Genomic_DNA.
+DR   RefSeq; WP_015958901.1; NC_009648.1.
+DR   SMR; A6TD87; -.
+DR   EnsemblBacteria; ABR78558; ABR78558; KPN_03157.
+DR   KEGG; kpn:KPN_03157; -.
+DR   HOGENOM; CLU_043780_0_0_6; -.
+DR   OMA; PVDWMVC; -.
+DR   BioCyc; KPNE272620:G1G8J-3378-MONOMER; -.
+DR   Proteomes; UP000000265; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01551; 23SrRNA_methyltr_M; 1.
+DR   InterPro; IPR040739; RlmM_FDX.
+DR   InterPro; IPR002877; rRNA_MeTrfase_FtsJ_dom.
+DR   InterPro; IPR011224; rRNA_MeTrfase_M.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01728; FtsJ; 1.
+DR   Pfam; PF18125; RlmM_FDX; 1.
+DR   PIRSF; PIRSF028774; UCP028774; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..366
+FT                   /note="Ribosomal RNA large subunit methyltransferase M"
+FT                   /id="PRO_0000314521"
+FT   REGION          221..224
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+FT   ACT_SITE        306
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+FT   BINDING         188
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+FT   BINDING         240
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+FT   BINDING         260
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+FT   BINDING         277
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01551"
+SQ   SEQUENCE   366 AA;  41935 MW;  934DC18A9B3AFC14 CRC64;
+     MNKVVLYCRP GFEKECAAEI TDKAARLEVF GFARVKEDSG YVIFEGYQQD DGEKLVRDLP
+     FSSLIFARQM FVVGELLRDL PPEDRITPIV GMLQGMVEKG GELRVEVADT NESKELMKFC
+     RKFTVPLRAA LREAGVLTNY ETPKRPVVHV FFIAPGCCYT GYSYSNNNSP FYMGIPRLKF
+     PSDAPSRSTL KLEEAFHVFI PADEWDERLA NGMYAVDLGA CPGGWTYQLV KRNMWVSSVD
+     NGPMAQSLMD TGQVTWLRED GFRYRPNRNN ISWMVCDMVE KPAKVAALMA QWLVNGWCRE
+     TIFNLKLPMK KRYEEVSQNL AYIQAQLDEH GVNAQIQARQ LYHDREEVTV HVRRLWAAVG
+     GRRDER
+//

@@ -1,0 +1,115 @@
+ID   MSHD_MYCLE              Reviewed;         311 AA.
+AC   Q9CBC9;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   02-DEC-2020, entry version 102.
+DE   RecName: Full=Mycothiol acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01698};
+DE            Short=MSH acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01698};
+DE            EC=2.3.1.189 {ECO:0000255|HAMAP-Rule:MF_01698};
+DE   AltName: Full=Mycothiol synthase {ECO:0000255|HAMAP-Rule:MF_01698};
+GN   Name=mshD {ECO:0000255|HAMAP-Rule:MF_01698}; OrderedLocusNames=ML2193;
+OS   Mycobacterium leprae (strain TN).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=272631;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=TN;
+RX   PubMed=11234002; DOI=10.1038/35059006;
+RA   Cole S.T., Eiglmeier K., Parkhill J., James K.D., Thomson N.R.,
+RA   Wheeler P.R., Honore N., Garnier T., Churcher C.M., Harris D.E.,
+RA   Mungall K.L., Basham D., Brown D., Chillingworth T., Connor R.,
+RA   Davies R.M., Devlin K., Duthoy S., Feltwell T., Fraser A., Hamlin N.,
+RA   Holroyd S., Hornsby T., Jagels K., Lacroix C., Maclean J., Moule S.,
+RA   Murphy L.D., Oliver K., Quail M.A., Rajandream M.A., Rutherford K.M.,
+RA   Rutter S., Seeger K., Simon S., Simmonds M., Skelton J., Squares R.,
+RA   Squares S., Stevens K., Taylor K., Whitehead S., Woodward J.R.,
+RA   Barrell B.G.;
+RT   "Massive gene decay in the leprosy bacillus.";
+RL   Nature 409:1007-1011(2001).
+CC   -!- FUNCTION: Catalyzes the transfer of acetyl from acetyl-CoA to
+CC       desacetylmycothiol (Cys-GlcN-Ins) to form mycothiol.
+CC       {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1D-myo-inositol 2-(L-cysteinylamino)-2-deoxy-alpha-D-
+CC         glucopyranoside + acetyl-CoA = CoA + H(+) + mycothiol;
+CC         Xref=Rhea:RHEA:26172, ChEBI:CHEBI:15378, ChEBI:CHEBI:16768,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:58887;
+CC         EC=2.3.1.189; Evidence={ECO:0000255|HAMAP-Rule:MF_01698};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. MshD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01698}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL583924; CAC31148.1; -; Genomic_DNA.
+DR   PIR; D87183; D87183.
+DR   RefSeq; NP_302436.1; NC_002677.1.
+DR   SMR; Q9CBC9; -.
+DR   STRING; 272631.ML2193; -.
+DR   EnsemblBacteria; CAC31148; CAC31148; CAC31148.
+DR   KEGG; mle:ML2193; -.
+DR   PATRIC; fig|272631.5.peg.4157; -.
+DR   Leproma; ML2193; -.
+DR   eggNOG; COG0454; Bacteria.
+DR   eggNOG; COG0456; Bacteria.
+DR   HOGENOM; CLU_068014_0_0_11; -.
+DR   OMA; AEPWFDP; -.
+DR   BioCyc; MLEP272631:G1GT5-2403-MONOMER; -.
+DR   Proteomes; UP000000806; Chromosome.
+DR   GO; GO:0035447; F:mycothiol synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008080; F:N-acetyltransferase activity; IEA:InterPro.
+DR   GO; GO:0010125; P:mycothiol biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01698; MshD; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR017813; Mycothiol_AcTrfase.
+DR   Pfam; PF00583; Acetyltransf_1; 2.
+DR   PIRSF; PIRSF021524; MSH_acetyltransferase; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR03448; mycothiol_MshD; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Reference proteome; Repeat; Transferase.
+FT   CHAIN           1..311
+FT                   /note="Mycothiol acetyltransferase"
+FT                   /id="PRO_0000400272"
+FT   DOMAIN          155..311
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   REGION          79..81
+FT                   /note="Acetyl-CoA binding 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   REGION          239..241
+FT                   /note="Acetyl-CoA binding 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   REGION          246..252
+FT                   /note="Acetyl-CoA binding 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   REGION          283..288
+FT                   /note="Acetyl-CoA binding 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   BINDING         35
+FT                   /note="Desacetylmycothiol; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   BINDING         180
+FT                   /note="Desacetylmycothiol"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   BINDING         225
+FT                   /note="Desacetylmycothiol"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   BINDING         235
+FT                   /note="Desacetylmycothiol"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+FT   BINDING         278
+FT                   /note="Desacetylmycothiol; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01698"
+SQ   SEQUENCE   311 AA;  33819 MW;  8764CE7504C689A5 CRC64;
+     MVLNWRFALS ADEQRLVREI ISAATEFDEV SPVGEQVLRE LGYDRTEHLL VTDSRPYAPI
+     IGYLNLSSPR DAGVAMAELV VHPRERRRGV GAAMVRAALA KTGGRNRFWA HGTLASARAT
+     ASVLGLVPVR ELVQMQRSLR TIPDPMVPDQ LGVWVRTYVG TVDDAELLRV NNAAFAGHPE
+     QGGWTATQLA ERRSEPWFDP AGLFLAFGDS SSNQPGKLLG FHWTKVHAAH PGLGEVYVLG
+     VDPSAQGRGL GQMLTSIGIA SLAQRLVGPS AEPTVMLYVE SDNVAAARTY ERLGFTTYSV
+     DTAYALARID D
+//

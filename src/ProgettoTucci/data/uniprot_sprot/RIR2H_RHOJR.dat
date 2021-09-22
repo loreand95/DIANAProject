@@ -1,0 +1,101 @@
+ID   RIR2H_RHOJR             Reviewed;         324 AA.
+AC   Q0S392;
+DT   26-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=R2-like ligand binding oxidase;
+DE            EC=1.-.-.-;
+DE   AltName: Full=Ribonucleotide reductase R2 subunit homolog;
+DE   AltName: Full=Ribonucleotide reductase small subunit homolog;
+GN   OrderedLocusNames=RHA1_ro06217;
+OS   Rhodococcus jostii (strain RHA1).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Nocardiaceae; Rhodococcus.
+OX   NCBI_TaxID=101510;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RHA1;
+RX   PubMed=17030794; DOI=10.1073/pnas.0607048103;
+RA   McLeod M.P., Warren R.L., Hsiao W.W.L., Araki N., Myhre M., Fernandes C.,
+RA   Miyazawa D., Wong W., Lillquist A.L., Wang D., Dosanjh M., Hara H.,
+RA   Petrescu A., Morin R.D., Yang G., Stott J.M., Schein J.E., Shin H.,
+RA   Smailus D., Siddiqui A.S., Marra M.A., Jones S.J.M., Holt R.,
+RA   Brinkman F.S.L., Miyauchi K., Fukuda M., Davies J.E., Mohn W.W.,
+RA   Eltis L.D.;
+RT   "The complete genome of Rhodococcus sp. RHA1 provides insights into a
+RT   catabolic powerhouse.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:15582-15587(2006).
+CC   -!- FUNCTION: Probable oxidase. {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Fe cation; Xref=ChEBI:CHEBI:24875;
+CC       Note=Binds 1 Fe cation per subunit.;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Note=Binds 1 manganese ion per subunit. The iron and manganese ions
+CC       form a dinuclear manganese-iron cluster. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ribonucleoside diphosphate reductase small
+CC       chain family. R2-like ligand binding oxidase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000431; ABG97994.1; -; Genomic_DNA.
+DR   RefSeq; WP_009479428.1; NC_008268.1.
+DR   SMR; Q0S392; -.
+DR   STRING; 101510.RHA1_ro06217; -.
+DR   EnsemblBacteria; ABG97994; ABG97994; RHA1_ro06217.
+DR   KEGG; rha:RHA1_ro06217; -.
+DR   eggNOG; COG0208; Bacteria.
+DR   HOGENOM; CLU_072736_0_0_11; -.
+DR   OMA; GNAKFWN; -.
+DR   BioCyc; RJOS101510:G1G71-6198-MONOMER; -.
+DR   Proteomes; UP000008710; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009263; P:deoxyribonucleotide biosynthetic process; IEA:InterPro.
+DR   CDD; cd07911; RNRR2_Rv0233_like; 1.
+DR   Gene3D; 1.10.620.20; -; 1.
+DR   InterPro; IPR009078; Ferritin-like_SF.
+DR   InterPro; IPR033908; R2LOX.
+DR   InterPro; IPR012348; RNR-like.
+DR   InterPro; IPR000358; RNR_small_fam.
+DR   PANTHER; PTHR23409; PTHR23409; 1.
+DR   Pfam; PF00268; Ribonuc_red_sm; 1.
+DR   SUPFAM; SSF47240; SSF47240; 1.
+PE   3: Inferred from homology;
+KW   Iron; Manganese; Metal-binding; Oxidoreductase.
+FT   CHAIN           1..324
+FT                   /note="R2-like ligand binding oxidase"
+FT                   /id="PRO_0000375435"
+FT   METAL           79
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   METAL           112
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+FT   METAL           112
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   METAL           115
+FT                   /note="Manganese; via pros nitrogen"
+FT                   /evidence="ECO:0000250"
+FT   METAL           178
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+FT   METAL           213
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000250"
+FT   METAL           216
+FT                   /note="Iron; via pros nitrogen"
+FT                   /evidence="ECO:0000250"
+FT   CROSSLNK        82..173
+FT                   /note="3-(O4'-tyrosyl)-valine (Val-Tyr)"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   324 AA;  36810 MW;  20D5E1B284907C19 CRC64;
+     MSTLTPGRPY APGRQGFSSL RAGGLNWDAF PLRLFTKGNA KFWNPTDLDF SRDAEDWEGL
+     NSEQQRNSTY LVAQFIAGEE AVTEDIQPFM KAMAAEGRFG DEMYLTQFCF EEAKHTQVFR
+     LWMDAVGLTR DLHPFVAENP YYRQLFYEEL PGSLKVLETD PSPVNQVRAS VTYNHVIEGS
+     LALTGYYAWQ KVCTTRGILP GMQELVRRIG DDERRHMAWG TFTCRRHVAA DDSNWGVVQE
+     RMAELMPLAL GMIDWVNKQF EVQPYGLDDQ EFIAYAADRA QRRLGAIESA RGRPVEEIDL
+     DYSPEALEEK FGEEDAKAMS EAAG
+//

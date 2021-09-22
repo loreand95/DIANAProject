@@ -1,0 +1,95 @@
+ID   RLME_HAHCH              Reviewed;         206 AA.
+AC   Q2SMM1;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase E {ECO:0000255|HAMAP-Rule:MF_01547};
+DE            EC=2.1.1.166 {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=23S rRNA Um2552 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=rRNA (uridine-2'-O-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Name=rlmE {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Synonyms=ftsJ {ECO:0000255|HAMAP-Rule:MF_01547},
+GN   rrmJ {ECO:0000255|HAMAP-Rule:MF_01547}; OrderedLocusNames=HCH_01231;
+OS   Hahella chejuensis (strain KCTC 2396).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Hahellaceae; Hahella.
+OX   NCBI_TaxID=349521;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KCTC 2396;
+RX   PubMed=16352867; DOI=10.1093/nar/gki1016;
+RA   Jeong H., Yim J.H., Lee C., Choi S.-H., Park Y.K., Yoon S.H., Hur C.-G.,
+RA   Kang H.-Y., Kim D., Lee H.H., Park K.H., Park S.-H., Park H.-S., Lee H.K.,
+RA   Oh T.K., Kim J.F.;
+RT   "Genomic blueprint of Hahella chejuensis, a marine microbe producing an
+RT   algicidal agent.";
+RL   Nucleic Acids Res. 33:7066-7073(2005).
+CC   -!- FUNCTION: Specifically methylates the uridine in position 2552 of 23S
+CC       rRNA at the 2'-O position of the ribose in the fully assembled 50S
+CC       ribosomal subunit. {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(2552) in 23S rRNA = 2'-O-
+CC         methyluridine(2552) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42720, Rhea:RHEA-COMP:10202, Rhea:RHEA-COMP:10203,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74478; EC=2.1.1.166;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01547};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase RlmE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01547}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000155; ABC28103.1; -; Genomic_DNA.
+DR   RefSeq; WP_011395176.1; NC_007645.1.
+DR   SMR; Q2SMM1; -.
+DR   STRING; 349521.HCH_01231; -.
+DR   EnsemblBacteria; ABC28103; ABC28103; HCH_01231.
+DR   KEGG; hch:HCH_01231; -.
+DR   eggNOG; COG0293; Bacteria.
+DR   HOGENOM; CLU_009422_4_0_6; -.
+DR   OMA; HRQTDHL; -.
+DR   OrthoDB; 1798571at2; -.
+DR   BioCyc; HCHE349521:G1G5E-1109-MONOMER; -.
+DR   Proteomes; UP000000238; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008650; F:rRNA (uridine-2'-O-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01547; RNA_methyltr_E; 1.
+DR   InterPro; IPR015507; rRNA-MeTfrase_E.
+DR   InterPro; IPR002877; rRNA_MeTrfase_FtsJ_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01728; FtsJ; 1.
+DR   PIRSF; PIRSF005461; 23S_rRNA_mtase; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..206
+FT                   /note="Ribosomal RNA large subunit methyltransferase E"
+FT                   /id="PRO_0000282752"
+FT   ACT_SITE        161
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         60
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         62
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         80
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         96
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         121
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+SQ   SEQUENCE   206 AA;  22784 MW;  EF18C8C03C628F4B CRC64;
+     MGRSKSSSRW LNEHHSDVYV KKSKEDGFRS RASYKLIELD RQDKLLRPGM TVIDLGAAPG
+     GWSQVVADVV GDQGKVVACD LLSMDSIAGV TFFQGDFTED EMLDAILNEV NSRPVDLVIS
+     DMAPNMSGMK SVDIPKAMYL VELALDLACR VLKKNGCFVA KVFQGEGFDQ ILQESRGRFS
+     SVNIRKPDAS RARSREIYLV AKGFRG
+//

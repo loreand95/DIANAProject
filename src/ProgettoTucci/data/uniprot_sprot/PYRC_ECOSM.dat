@@ -1,0 +1,131 @@
+ID   PYRC_ECOSM              Reviewed;         348 AA.
+AC   B1LIU8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 75.
+DE   RecName: Full=Dihydroorotase {ECO:0000255|HAMAP-Rule:MF_00219};
+DE            Short=DHOase {ECO:0000255|HAMAP-Rule:MF_00219};
+DE            EC=3.5.2.3 {ECO:0000255|HAMAP-Rule:MF_00219};
+GN   Name=pyrC {ECO:0000255|HAMAP-Rule:MF_00219};
+GN   OrderedLocusNames=EcSMS35_2067;
+OS   Escherichia coli (strain SMS-3-5 / SECEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=439855;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SMS-3-5 / SECEC;
+RX   PubMed=18708504; DOI=10.1128/jb.00661-08;
+RA   Fricke W.F., Wright M.S., Lindell A.H., Harkins D.M., Baker-Austin C.,
+RA   Ravel J., Stepanauskas R.;
+RT   "Insights into the environmental resistance gene pool from the genome
+RT   sequence of the multidrug-resistant environmental isolate Escherichia coli
+RT   SMS-3-5.";
+RL   J. Bacteriol. 190:6779-6794(2008).
+CC   -!- FUNCTION: Catalyzes the reversible cyclization of carbamoyl aspartate
+CC       to dihydroorotate. {ECO:0000255|HAMAP-Rule:MF_00219}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + H2O = H(+) + N-carbamoyl-L-aspartate;
+CC         Xref=Rhea:RHEA:24296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:32814; EC=3.5.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00219};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00219};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 3/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00219}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       DHOase family. Class II DHOase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000970; ACB16049.1; -; Genomic_DNA.
+DR   RefSeq; WP_000126543.1; NC_010498.1.
+DR   SMR; B1LIU8; -.
+DR   MEROPS; M38.A02; -.
+DR   EnsemblBacteria; ACB16049; ACB16049; EcSMS35_2067.
+DR   KEGG; ecm:EcSMS35_2067; -.
+DR   HOGENOM; CLU_041558_1_0_6; -.
+DR   OMA; TLHHISM; -.
+DR   UniPathway; UPA00070; UER00117.
+DR   Proteomes; UP000007011; Chromosome.
+DR   GO; GO:0004151; F:dihydroorotase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   CDD; cd01294; DHOase; 1.
+DR   HAMAP; MF_00219; PyrC_classII; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR004721; DHOdimr.
+DR   InterPro; IPR002195; Dihydroorotase_CS.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   PANTHER; PTHR43137; PTHR43137; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   PIRSF; PIRSF001237; DHOdimr; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR00856; pyrC_dimer; 1.
+DR   PROSITE; PS00482; DIHYDROOROTASE_1; 1.
+DR   PROSITE; PS00483; DIHYDROOROTASE_2; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Pyrimidine biosynthesis; Zinc.
+FT   CHAIN           1..348
+FT                   /note="Dihydroorotase"
+FT                   /id="PRO_1000193070"
+FT   REGION          19..21
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   ACT_SITE        251
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           17
+FT                   /note="Zinc 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           19
+FT                   /note="Zinc 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           103
+FT                   /note="Zinc 1; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           103
+FT                   /note="Zinc 2; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           140
+FT                   /note="Zinc 2; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           178
+FT                   /note="Zinc 2; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           251
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         45
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         140
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         223
+FT                   /note="Substrate; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         255
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         267
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   MOD_RES         103
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+SQ   SEQUENCE   348 AA;  38813 MW;  2EFEA36B232519A0 CRC64;
+     MTAPSQVLKI RRPDDWHLHL RDGDMLKTVV PYTSEIYGRA IVMPNLAPPV TTVEAAVAYR
+     QRILDAVPAG HDFTPLMTCY LTDSLDPNEL ERGFNEGVFT AAKLYPANAT TNSSHGVTSV
+     DAIMPVLERM EKIGMPLLVH GEVTHADIDI FDREARFIES VMEPLRQRLT ALKVVFEHIT
+     TKDAADYVRD GNERLAATIT PQHLMFNRNH MLVGGVRPHL YCLPILKRNI HQQALRELVA
+     SGFNRVFLGT DSAPHARHRK ESSCGCAGCF NAPTALGSYA TVFEEMNALQ HFEAFCSVNG
+     PQFYGLPVND TFIELVREEQ QVAESIALTD DTLVPFLAGE TVRWSVKQ
+//

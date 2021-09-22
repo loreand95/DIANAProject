@@ -1,0 +1,118 @@
+ID   RECC_HAEIN              Reviewed;        1121 AA.
+AC   P44945;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-APR-2021, entry version 115.
+DE   RecName: Full=RecBCD enzyme subunit RecC {ECO:0000255|HAMAP-Rule:MF_01486};
+DE            EC=3.1.11.5 {ECO:0000255|HAMAP-Rule:MF_01486};
+DE   AltName: Full=Exonuclease V subunit RecC {ECO:0000255|HAMAP-Rule:MF_01486};
+DE            Short=ExoV subunit RecC {ECO:0000255|HAMAP-Rule:MF_01486};
+DE   AltName: Full=Helicase/nuclease RecBCD subunit RecC {ECO:0000255|HAMAP-Rule:MF_01486};
+GN   Name=recC {ECO:0000255|HAMAP-Rule:MF_01486}; OrderedLocusNames=HI_0942;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M., Weidman J.F.,
+RA   Phillips C.A., Spriggs T., Hedblom E., Cotton M.D., Utterback T.R.,
+RA   Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C., Fine L.D.,
+RA   Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M., Gnehm C.L., McDonald L.A.,
+RA   Small K.V., Fraser C.M., Smith H.O., Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- FUNCTION: A helicase/nuclease that prepares dsDNA breaks (DSB) for
+CC       recombinational DNA repair. Binds to DSBs and unwinds DNA via a highly
+CC       rapid and processive ATP-dependent bidirectional helicase activity.
+CC       Unwinds dsDNA until it encounters a Chi (crossover hotspot instigator)
+CC       sequence from the 3' direction. Cuts ssDNA a few nucleotides 3' to the
+CC       Chi site. The properties and activities of the enzyme are changed at
+CC       Chi. The Chi-altered holoenzyme produces a long 3'-ssDNA overhang and
+CC       facilitates RecA-binding to the ssDNA for homologous DNA recombination
+CC       and repair. Holoenzyme degrades any linearized DNA that is unable to
+CC       undergo homologous recombination. In the holoenzyme this subunit
+CC       recognizes the wild-type Chi sequence, and when added to isolated RecB
+CC       increases its ATP-dependent helicase processivity. {ECO:0000255|HAMAP-
+CC       Rule:MF_01486}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exonucleolytic cleavage (in the presence of ATP) in either
+CC         5'- to 3'- or 3'- to 5'-direction to yield 5'-
+CC         phosphooligonucleotides.; EC=3.1.11.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01486};
+CC   -!- SUBUNIT: Heterotrimer of RecB, RecC and RecD. All subunits contribute
+CC       to DNA-binding. {ECO:0000255|HAMAP-Rule:MF_01486}.
+CC   -!- SIMILARITY: Belongs to the RecC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01486}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L42023; AAC22596.1; -; Genomic_DNA.
+DR   PIR; G64103; G64103.
+DR   RefSeq; NP_439102.1; NC_000907.1.
+DR   RefSeq; WP_005693290.1; NC_000907.1.
+DR   SMR; P44945; -.
+DR   STRING; 71421.HI_0942; -.
+DR   PRIDE; P44945; -.
+DR   EnsemblBacteria; AAC22596; AAC22596; HI_0942.
+DR   KEGG; hin:HI_0942; -.
+DR   PATRIC; fig|71421.8.peg.983; -.
+DR   eggNOG; COG1330; Bacteria.
+DR   HOGENOM; CLU_007513_0_0_6; -.
+DR   OMA; MCPDIET; -.
+DR   PhylomeDB; P44945; -.
+DR   BioCyc; HINF71421:G1GJ1-982-MONOMER; -.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0009338; C:exodeoxyribonuclease V complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003678; F:DNA helicase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008854; F:exodeoxyribonuclease V activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006310; P:DNA recombination; IBA:GO_Central.
+DR   GO; GO:0000724; P:double-strand break repair via homologous recombination; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.10.160; -; 1.
+DR   HAMAP; MF_01486; RecC; 1.
+DR   InterPro; IPR013986; DExx_box_DNA_helicase_dom_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR006697; RecC.
+DR   InterPro; IPR041500; RecC_C.
+DR   InterPro; IPR011335; Restrct_endonuc-II-like.
+DR   Pfam; PF17946; RecC_C; 1.
+DR   PIRSF; PIRSF000980; RecC; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   SUPFAM; SSF52980; SSF52980; 1.
+DR   TIGRFAMs; TIGR01450; recC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; DNA damage; DNA repair; DNA-binding; Exonuclease; Helicase;
+KW   Hydrolase; Nuclease; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..1121
+FT                   /note="RecBCD enzyme subunit RecC"
+FT                   /id="PRO_0000087121"
+SQ   SEQUENCE   1121 AA;  129669 MW;  E5070957296AE0D3 CRC64;
+     MFIVYYSNQL EKQKEILSSL FKSLPPEDPF QQDIILVQSP NMAQWLQIEL AKETGISANL
+     KFPMPASFIW QLYAQNLPAT ALENPFDKDS MMWRLMRLIP IFLEKENFSP LRNYLSSSPH
+     SEQYKLYQLS SKIADLFDQY LVYRPEWIFA WEKGEDEQIT DQIQKQQPNL NATLFAQIQG
+     NTKWQGELWR ALVVDVKSDV NEATHRAALH NQFLALLADK KAPKKLPSRI FIFGIPALPT
+     AYLNILQAIS SEVDIHLFFN NPCQEYWGDI SDLRLDYLRS RQRYQFNKQD ENQPLFSEDQ
+     LSQLENAQFD VTYQKENLQL GNPLLAAWGK MGRDFLYILV RDEEHIPTYP VNAYQEIESN
+     SLLGQLQSQI LHLENKPLNI AKNDRTLTLH SCHSAMREVE VLHDYLLDLF NQDPSLTPKD
+     VVVMVADINQ YTPYIQAVFG QKNGDVPQIP FSLSDNKLSE SDVLVSSYLT LLRLKESNFS
+     AEDVLVLLDI PAMRERFNIS LADLPLVREW VTDSGIRFGL QKNQDGINFN SWQAGLERMI
+     LGYAMREEQG IWQDSLGLNS SYGLKGELAG NLSHFFTALS ALHETLQQAH SIEKWQEILT
+     ALLSDFFVRN EDTSDMIFYI QEKINELAEH LKTLHFNEEL QAEVIADVIT MQLEDAPNSL
+     KFLAGKVNFC TLLPMRSVPF KVVCLLGMND ADYPRTQTPN SFDLMQYHYQ KGDRVRRDDD
+     RYLFLEALLA ARDYCYISYV GRSITDNQPK EPSVLVSQLL DYINQGQKEN VLTVIEHPMT
+     AFSPDNFKNN EKFTRSFATK WLPIAQFDAS SNNSEFAVTM TENLEKIEEV ELDALVSFVE
+     NPVKFFFEKQ LGVYFRDKDE RIADSENFTL SGLDNYSLNN DLIYLDEQNF ADYFRQAEVK
+     GVLPRAEFGK VYAENIRDNV LEFKKKIADL GEAKHASVDF NLSVDWQNEN QKIRLFGYMD
+     ALFGDDSQVI HWHFAKYKDR YCIRPWIYYL IQCVTQENAV PAKLITQDKV LELPPIEREV
+     ALAQLQIYVK DYLQSQIEIQ LVPTVRNISD FIVSDENSVS EKLQELTESN GFGPKADPYW
+     SRVLAQTSRF KQPENIAKLL KQTKAWFGLL FAQKKTRKTQ S
+//

@@ -1,0 +1,101 @@
+ID   RRAAH_PSEPF             Reviewed;         163 AA.
+AC   Q3KFE1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=Putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase;
+DE            Short=HMG aldolase;
+DE            EC=4.1.3.17;
+DE   AltName: Full=Oxaloacetate decarboxylase;
+DE            Short=OAA decarboxylase;
+DE            EC=4.1.1.112;
+DE   AltName: Full=Regulator of ribonuclease activity homolog;
+DE   AltName: Full=RraA-like protein;
+GN   OrderedLocusNames=Pfl01_1772;
+OS   Pseudomonas fluorescens (strain Pf0-1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=205922;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pf0-1;
+RX   PubMed=19432983; DOI=10.1186/gb-2009-10-5-r51;
+RA   Silby M.W., Cerdeno-Tarraga A.M., Vernikos G.S., Giddens S.R.,
+RA   Jackson R.W., Preston G.M., Zhang X.-X., Moon C.D., Gehrig S.M.,
+RA   Godfrey S.A.C., Knight C.G., Malone J.G., Robinson Z., Spiers A.J.,
+RA   Harris S., Challis G.L., Yaxley A.M., Harris D., Seeger K., Murphy L.,
+RA   Rutter S., Squares R., Quail M.A., Saunders E., Mavromatis K.,
+RA   Brettin T.S., Bentley S.D., Hothersall J., Stephens E., Thomas C.M.,
+RA   Parkhill J., Levy S.B., Rainey P.B., Thomson N.R.;
+RT   "Genomic and genetic analyses of diversity and plant interactions of
+RT   Pseudomonas fluorescens.";
+RL   Genome Biol. 10:R51.1-R51.16(2009).
+CC   -!- FUNCTION: Catalyzes the aldol cleavage of 4-hydroxy-4-methyl-2-
+CC       oxoglutarate (HMG) into 2 molecules of pyruvate. Also contains a
+CC       secondary oxaloacetate (OAA) decarboxylase activity due to the common
+CC       pyruvate enolate transition state formed following C-C bond cleavage in
+CC       the retro-aldol and decarboxylation reactions (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-hydroxy-4-methyl-2-oxoglutarate = 2 pyruvate;
+CC         Xref=Rhea:RHEA:22748, ChEBI:CHEBI:15361, ChEBI:CHEBI:58276;
+CC         EC=4.1.3.17;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + oxaloacetate = CO2 + pyruvate; Xref=Rhea:RHEA:15641,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:15378, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:16526; EC=4.1.1.112;
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Divalent metal cation. {ECO:0000250};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class II aldolase/RraA-like family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000094; ABA73515.1; -; Genomic_DNA.
+DR   RefSeq; WP_011333248.1; NC_007492.2.
+DR   SMR; Q3KFE1; -.
+DR   STRING; 205922.Pfl01_1772; -.
+DR   PRIDE; Q3KFE1; -.
+DR   EnsemblBacteria; ABA73515; ABA73515; Pfl01_1772.
+DR   GeneID; 57514148; -.
+DR   KEGG; pfo:Pfl01_1772; -.
+DR   eggNOG; COG0684; Bacteria.
+DR   HOGENOM; CLU_072626_4_0_6; -.
+DR   OMA; YADWNGV; -.
+DR   BioCyc; PFLU205922:G1G4S-1800-MONOMER; -.
+DR   Proteomes; UP000002704; Chromosome.
+DR   GO; GO:0047443; F:4-hydroxy-4-methyl-2-oxoglutarate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008428; F:ribonuclease inhibitor activity; IEA:InterPro.
+DR   GO; GO:0051252; P:regulation of RNA metabolic process; IEA:InterPro.
+DR   CDD; cd16841; RraA_family; 1.
+DR   InterPro; IPR010203; RraA.
+DR   InterPro; IPR005493; RraA/RraA-like.
+DR   InterPro; IPR036704; RraA/RraA-like_sf.
+DR   Pfam; PF03737; RraA-like; 1.
+DR   SUPFAM; SSF89562; SSF89562; 1.
+DR   TIGRFAMs; TIGR01935; NOT-MenG; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Metal-binding.
+FT   CHAIN           1..163
+FT                   /note="Putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase"
+FT                   /id="PRO_1000013863"
+FT   REGION          76..79
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   METAL           99
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   163 AA;  17541 MW;  8B71FB73154200E2 CRC64;
+     MNHYLTPDLC DAYPELVQVL EPMFSNFGGR DSFGGEIVTI KCFEDNSLVK EQAELKGNGK
+     VLVVDGGGSL RCALLGDMIA EKAAKNGWEG LVIYGCIRDV DVIAQTDLGV QALASHPKKT
+     EKRGLGDLNV PVTFAGVTFH PGQYIYADNN GVIISPSPLK MPE
+//

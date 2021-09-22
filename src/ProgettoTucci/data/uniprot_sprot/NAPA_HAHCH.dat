@@ -1,0 +1,190 @@
+ID   NAPA_HAHCH              Reviewed;         830 AA.
+AC   Q2SGV7;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   10-FEB-2021, entry version 97.
+DE   RecName: Full=Periplasmic nitrate reductase {ECO:0000255|HAMAP-Rule:MF_01630};
+DE            EC=1.9.6.1 {ECO:0000255|HAMAP-Rule:MF_01630};
+DE   Flags: Precursor;
+GN   Name=napA {ECO:0000255|HAMAP-Rule:MF_01630}; OrderedLocusNames=HCH_03364;
+OS   Hahella chejuensis (strain KCTC 2396).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Hahellaceae; Hahella.
+OX   NCBI_TaxID=349521;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KCTC 2396;
+RX   PubMed=16352867; DOI=10.1093/nar/gki1016;
+RA   Jeong H., Yim J.H., Lee C., Choi S.-H., Park Y.K., Yoon S.H., Hur C.-G.,
+RA   Kang H.-Y., Kim D., Lee H.H., Park K.H., Park S.-H., Park H.-S., Lee H.K.,
+RA   Oh T.K., Kim J.F.;
+RT   "Genomic blueprint of Hahella chejuensis, a marine microbe producing an
+RT   algicidal agent.";
+RL   Nucleic Acids Res. 33:7066-7073(2005).
+CC   -!- FUNCTION: Catalytic subunit of the periplasmic nitrate reductase
+CC       complex NapAB. Receives electrons from NapB and catalyzes the reduction
+CC       of nitrate to nitrite. {ECO:0000255|HAMAP-Rule:MF_01630}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(II)cytochrome] + 2 H(+) + nitrate = 2
+CC         [Fe(III)cytochrome] + H2O + nitrite; Xref=Rhea:RHEA:12909, Rhea:RHEA-
+CC         COMP:11777, Rhea:RHEA-COMP:11778, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16301, ChEBI:CHEBI:17632,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034; EC=1.9.6.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01630};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01630};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_01630};
+CC   -!- COFACTOR:
+CC       Name=Mo-bis(molybdopterin guanine dinucleotide);
+CC         Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000255|HAMAP-Rule:MF_01630};
+CC       Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide) (Mo-
+CC       bis-MGD) cofactor per subunit. {ECO:0000255|HAMAP-Rule:MF_01630};
+CC   -!- SUBUNIT: Component of the periplasmic nitrate reductase NapAB complex
+CC       composed of NapA and NapB. {ECO:0000255|HAMAP-Rule:MF_01630}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01630}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC       {ECO:0000255|HAMAP-Rule:MF_01630}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic molybdopterin-containing
+CC       oxidoreductase family. NasA/NapA/NarB subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01630}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000155; ABC30117.1; -; Genomic_DNA.
+DR   RefSeq; WP_011397186.1; NC_007645.1.
+DR   SMR; Q2SGV7; -.
+DR   STRING; 349521.HCH_03364; -.
+DR   EnsemblBacteria; ABC30117; ABC30117; HCH_03364.
+DR   KEGG; hch:HCH_03364; -.
+DR   eggNOG; COG0243; Bacteria.
+DR   HOGENOM; CLU_000422_13_4_6; -.
+DR   OMA; MTNHEMI; -.
+DR   OrthoDB; 323168at2; -.
+DR   BioCyc; HCHE349521:G1G5E-3038-MONOMER; -.
+DR   Proteomes; UP000000238; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030151; F:molybdenum ion binding; IEA:InterPro.
+DR   GO; GO:0043546; F:molybdopterin cofactor binding; IEA:InterPro.
+DR   GO; GO:0050140; F:nitrate reductase (cytochrome) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008940; F:nitrate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042128; P:nitrate assimilation; IEA:UniProtKB-UniRule.
+DR   CDD; cd02791; MopB_CT_Nitrate-R-NapA-like; 1.
+DR   HAMAP; MF_01630; Nitrate_reduct_NapA; 1.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom_sf.
+DR   InterPro; IPR041957; CT_Nitrate-R-NapA-like.
+DR   InterPro; IPR006657; MoPterin_dinucl-bd_dom.
+DR   InterPro; IPR006656; Mopterin_OxRdtase.
+DR   InterPro; IPR006963; Mopterin_OxRdtase_4Fe-4S_dom.
+DR   InterPro; IPR027467; MopterinOxRdtase_cofactor_BS.
+DR   InterPro; IPR010051; Periplasm_NO3_reductase_lsu.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   Pfam; PF04879; Molybdop_Fe4S4; 1.
+DR   Pfam; PF00384; Molybdopterin; 1.
+DR   Pfam; PF01568; Molydop_binding; 1.
+DR   SMART; SM00926; Molybdop_Fe4S4; 1.
+DR   SUPFAM; SSF50692; SSF50692; 1.
+DR   TIGRFAMs; TIGR01706; NAPA; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51669; 4FE4S_MOW_BIS_MGD; 1.
+DR   PROSITE; PS00551; MOLYBDOPTERIN_PROK_1; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Electron transport; Iron; Iron-sulfur; Metal-binding; Molybdenum;
+KW   Nitrate assimilation; Oxidoreductase; Periplasm; Reference proteome;
+KW   Signal; Transport.
+FT   SIGNAL          1..30
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   CHAIN           31..830
+FT                   /note="Periplasmic nitrate reductase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT                   /id="PRO_0000256073"
+FT   DOMAIN          40..96
+FT                   /note="4Fe-4S Mo/W bis-MGD-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   REGION          213..220
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   REGION          244..248
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   REGION          510..511
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   REGION          720..729
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   METAL           47
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   METAL           50
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   METAL           54
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   METAL           82
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         84
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         151
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         176
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         180
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         374
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide); via
+FT                   amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         378
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         484
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide); via
+FT                   amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         533
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         560
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         796
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         804
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+FT   BINDING         821
+FT                   /note="Mo-bis(molybdopterin guanine dinucleotide)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01630"
+SQ   SEQUENCE   830 AA;  93708 MW;  C120B7A0EC56DAB8 CRC64;
+     MTTRREFIKR SAAVTAACTA GISLSGEASN VITDSEYTRL KWSKAPCRFC GTGCSVNVAV
+     KDNQVVATHG DIQSEVNRGL NCVKGYFLSK IMYGKDRLTQ PLLRKKNGEY HKDGDFTPVT
+     WDEAFDVMAK QFKKTLKEKG PTAVGMFGSG QWTVWEGYAA VKLYKAGFRS NNIDPNARHC
+     MASAVAGFMR TFGIDEPMGC YDDIEHADAF VLWGSNMAEM HPILWTRVTD RRLSHPHVKV
+     AVLSTFQHRC FDLADLPIIF TPQADLAILN YIARYIIEKD MVNWDFVNKH VRFKVGAADI
+     GYGLRPEHQL ELAAANASNP GGAKDSSFEE YKNFLQQYDA QFVSKLSGAS KEKLDQLAEL
+     YANPKTRVTS FWTMGFNQHT RGVWCNNLVY NLHLLTGKIS SPGNSPFSLT GQPSACGTAR
+     EVGTFAHRLP ADMVVTNPKH PEFAEKTWKI PPGVIPDKPG YHAVLQNRKL RDGELNAYWV
+     QVNNNVQAAP NMLEETLPGY RNPNNFIVVS EAYPTVTSQA ADLILPAAMW VEKEGAYGNA
+     ERRTQFWRQL VSAPGEAKSD LWQIMEFSKR FTTDEVWPEE ILSKSPEFKG KSLFDVLFAN
+     NSVNKYSIEE IDPNYKNHES EHFGFYVQKG LFEEYAIFGR GHGHDLAEFD RYHEARGLRW
+     PVVDGKETLW RFREGSDPYV KKGAGYQFYG HSDGKAIIFA LPYEPPAESP DQDYPYWLVT
+     GRVLEHWHSG SMTQRVPELY LAVPDALVYM HPDDARKLGV RRGDEIKVVS RRGEMRSRVE
+     TRGRNKPPVG LVFVPWFDAS QLINKCTLDA TDPISKQTDF KKCAVKLIKV
+//

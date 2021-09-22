@@ -1,0 +1,96 @@
+ID   GCSP_SALHS              Reviewed;         957 AA.
+AC   B4TGX3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 73.
+DE   RecName: Full=Glycine dehydrogenase (decarboxylating) {ECO:0000255|HAMAP-Rule:MF_00711};
+DE            EC=1.4.4.2 {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine cleavage system P-protein {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine decarboxylase {ECO:0000255|HAMAP-Rule:MF_00711};
+DE   AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) {ECO:0000255|HAMAP-Rule:MF_00711};
+GN   Name=gcvP {ECO:0000255|HAMAP-Rule:MF_00711}; OrderedLocusNames=SeHA_C3285;
+OS   Salmonella heidelberg (strain SL476).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=454169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL476;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: The glycine cleavage system catalyzes the degradation of
+CC       glycine. The P protein binds the alpha-amino group of glycine through
+CC       its pyridoxal phosphate cofactor; CO(2) is released and the remaining
+CC       methylamine moiety is then transferred to the lipoamide cofactor of the
+CC       H protein. {ECO:0000255|HAMAP-Rule:MF_00711}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine + H(+) + N(6)-lipoyl-L-lysyl-[glycine-cleavage complex
+CC         H protein] = (R)-N(6)-(S(8)-aminomethyldihydrolipoyl)-L-lysyl-
+CC         [glycine-cleavage complex H protein] + CO2; Xref=Rhea:RHEA:24304,
+CC         Rhea:RHEA-COMP:10494, Rhea:RHEA-COMP:10495, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57305, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:83143; EC=1.4.4.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00711};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00711};
+CC   -!- SUBUNIT: The glycine cleavage system is composed of four proteins: P,
+CC       T, L and H. {ECO:0000255|HAMAP-Rule:MF_00711}.
+CC   -!- SIMILARITY: Belongs to the GcvP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00711}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001120; ACF67206.1; -; Genomic_DNA.
+DR   RefSeq; WP_000194972.1; NC_011083.1.
+DR   SMR; B4TGX3; -.
+DR   KEGG; seh:SeHA_C3285; -.
+DR   HOGENOM; CLU_004620_3_2_6; -.
+DR   OMA; CVPMSEY; -.
+DR   Proteomes; UP000001866; Chromosome.
+DR   GO; GO:0004375; F:glycine dehydrogenase (decarboxylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019464; P:glycine decarboxylation via glycine cleavage system; IEA:UniProtKB-UniRule.
+DR   CDD; cd00613; GDC-P; 2.
+DR   Gene3D; 3.40.640.10; -; 2.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00711; GcvP; 1.
+DR   InterPro; IPR003437; GcvP.
+DR   InterPro; IPR020581; GDC_P.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   PANTHER; PTHR11773; PTHR11773; 1.
+DR   Pfam; PF02347; GDC-P; 2.
+DR   SUPFAM; SSF53383; SSF53383; 2.
+DR   TIGRFAMs; TIGR00461; gcvP; 1.
+PE   3: Inferred from homology;
+KW   Oxidoreductase; Pyridoxal phosphate.
+FT   CHAIN           1..957
+FT                   /note="Glycine dehydrogenase (decarboxylating)"
+FT                   /id="PRO_1000132454"
+FT   MOD_RES         708
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00711"
+SQ   SEQUENCE   957 AA;  104259 MW;  EDC5809192E2BF3C CRC64;
+     MTQTLSQLEN RGAFIERHIG PDAAQQQEML NAVGAESLNA LTGQIVPKDI QLATPPQVGE
+     AATEYAALAE LKAIAGRNKR FTSYIGMGYT AVQLPPVILR NMLENPGWYT AYTPYQPEVS
+     QGRLEALLNF QQVTLDLTGL DMASASLLDE ATAAAEAMAM AKRVSKLKNA NRFFVASDVH
+     PQTLDVVRTR AETFGFDVIV DDAAKALDHQ DVFGVLLQQV GTTGEIHDYS ALITELKSRK
+     VVVSVAADFM ALVLLMAPGK QGADIVFGSA QRFGVPMGYG GPHAAFFAAK DEFKRSMPGR
+     IIGVSKDAAG NTALRMAMQT REQHIRREKA NSNICTSQVL LANIASLYAV YHGPVGLKRI
+     ANRIHRLTDI LAAGLQQKGL KLRHAHYFDT LCVEVADKAA VLARAEAAEI NLRSDIHNAV
+     GITLDETTTR ENVAQLFNVL LGGSHGLNIE TLDKDVALDS RSIQQSMLRD DAILTHPVFN
+     RYHSETEMMR YMHSLERKDL ALNQAMIPLG SCTMKLNAAA EMIPITWPEF AELHPFCPPE
+     QAEGYHQMIS QLSDWLVKLT GYDAVCMQPN SGAQGEYAGL LAIRHYHESR NEGHRDICLI
+     PASAHGTNPA SAHMAGMQVV VVACDKNGNI DLDDLRAKAE QHAANLSCIM VTYPSTHGVY
+     EETIREVCEV VHQFGGQVYL DGANMNAQVG ITSPGFIGAD VSHLNLHKTF CIPHGGGGPG
+     MGPIGVKAHL APFVPGHSVV QIEGMLTRQG AVSAAPFGSA SILPISWMYI RMMGAEGLKQ
+     ASQVAILNAN YIASRLKDAY PVLYTGRDGR VAHECILDIR PLKEETGISE LDIAKRLIDY
+     GFHAPTMSFP VAGTLMVEPT ESEGKAELDR FIDAMLAIRA EIDQVKAGVW PLEDNPLVNA
+     PHIQSELVAE WAHPYSREVA VFPAGVADKY WPTVKRLDDV YGDRNLFCSC VPISDYQ
+//

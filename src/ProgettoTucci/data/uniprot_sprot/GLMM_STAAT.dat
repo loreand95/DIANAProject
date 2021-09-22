@@ -1,0 +1,106 @@
+ID   GLMM_STAAT              Reviewed;         451 AA.
+AC   A8YYC6;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-JAN-2008, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Phosphoglucosamine mutase {ECO:0000255|HAMAP-Rule:MF_01554};
+DE            EC=5.4.2.10 {ECO:0000255|HAMAP-Rule:MF_01554};
+GN   Name=glmM {ECO:0000255|HAMAP-Rule:MF_01554};
+GN   OrderedLocusNames=USA300HOU_2151;
+OS   Staphylococcus aureus (strain USA300 / TCH1516).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=451516;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=USA300 / TCH1516;
+RX   PubMed=17986343; DOI=10.1186/1471-2180-7-99;
+RA   Highlander S.K., Hulten K.G., Qin X., Jiang H., Yerrapragada S.,
+RA   Mason E.O. Jr., Shang Y., Williams T.M., Fortunov R.M., Liu Y., Igboeli O.,
+RA   Petrosino J., Tirumalai M., Uzman A., Fox G.E., Cardenas A.M., Muzny D.M.,
+RA   Hemphill L., Ding Y., Dugan S., Blyth P.R., Buhay C.J., Dinh H.H.,
+RA   Hawes A.C., Holder M., Kovar C.L., Lee S.L., Liu W., Nazareth L.V.,
+RA   Wang Q., Zhou J., Kaplan S.L., Weinstock G.M.;
+RT   "Subtle genetic changes enhance virulence of methicillin resistant and
+RT   sensitive Staphylococcus aureus.";
+RL   BMC Microbiol. 7:99-99(2007).
+CC   -!- FUNCTION: Catalyzes the conversion of glucosamine-6-phosphate to
+CC       glucosamine-1-phosphate. {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucosamine 1-phosphate = D-glucosamine 6-phosphate;
+CC         Xref=Rhea:RHEA:23424, ChEBI:CHEBI:58516, ChEBI:CHEBI:58725;
+CC         EC=5.4.2.10; Evidence={ECO:0000255|HAMAP-Rule:MF_01554};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01554};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01554};
+CC   -!- PTM: Activated by phosphorylation. {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   -!- SIMILARITY: Belongs to the phosphohexose mutase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01554}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000730; ABX30146.1; -; Genomic_DNA.
+DR   RefSeq; WP_000521491.1; NC_010079.1.
+DR   SMR; A8YYC6; -.
+DR   GeneID; 59700964; -.
+DR   KEGG; sax:USA300HOU_2151; -.
+DR   HOGENOM; CLU_016950_7_0_9; -.
+DR   OMA; MFGEEYT; -.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008966; F:phosphoglucosamine mutase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   CDD; cd05802; GlmM; 1.
+DR   HAMAP; MF_01554_B; GlmM_B; 1.
+DR   InterPro; IPR005844; A-D-PHexomutase_a/b/a-I.
+DR   InterPro; IPR016055; A-D-PHexomutase_a/b/a-I/II/III.
+DR   InterPro; IPR005845; A-D-PHexomutase_a/b/a-II.
+DR   InterPro; IPR005846; A-D-PHexomutase_a/b/a-III.
+DR   InterPro; IPR005843; A-D-PHexomutase_C.
+DR   InterPro; IPR036900; A-D-PHexomutase_C_sf.
+DR   InterPro; IPR016066; A-D-PHexomutase_CS.
+DR   InterPro; IPR005841; Alpha-D-phosphohexomutase_SF.
+DR   InterPro; IPR006352; GlmM_bact.
+DR   Pfam; PF02878; PGM_PMM_I; 1.
+DR   Pfam; PF02879; PGM_PMM_II; 1.
+DR   Pfam; PF02880; PGM_PMM_III; 1.
+DR   Pfam; PF00408; PGM_PMM_IV; 1.
+DR   PRINTS; PR00509; PGMPMM.
+DR   SUPFAM; SSF53738; SSF53738; 3.
+DR   SUPFAM; SSF55957; SSF55957; 1.
+DR   TIGRFAMs; TIGR01455; glmM; 1.
+DR   PROSITE; PS00710; PGM_PMM; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Magnesium; Metal-binding; Phosphoprotein.
+FT   CHAIN           1..451
+FT                   /note="Phosphoglucosamine mutase"
+FT                   /id="PRO_1000087782"
+FT   ACT_SITE        102
+FT                   /note="Phosphoserine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           102
+FT                   /note="Magnesium; via phosphate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           242
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           244
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   METAL           246
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+FT   MOD_RES         102
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01554"
+SQ   SEQUENCE   451 AA;  49266 MW;  A164B280C4B9ABD8 CRC64;
+     MGKYFGTDGV RGVANQELTP ELAFKLGRYG GYVLAHNKGE KHPRVLVGRD TRVSGEMLES
+     ALIAGLISIG AEVMRLGIIS TPGVAYLTRD MGAELGVMIS ASHNPVADNG IKFFGSDGFK
+     LSDEQENEIE ALLDQENPEL PRPVGNDIVH YSDYFEGAQK YLSYLKSTVD VNFEGLKIAL
+     DGANGSTSSL APFLFGDLEA DTETIGCSPD GYNINEKCGS THPEKLAEKV VETESDFGLA
+     FDGDGDRIIA VDENGQIVDG DQIMFIIGQE MHKNQELNND MIVSTVMSNL GFYKALEQEG
+     IKSNKTKVGD RYVVEEMRRG NYNLGGEQSG HIVMMDYNTT GDGLLTGIQL ASVIKMTGKS
+     LSELAGQMKK YPQSLINVRV TDKYRVEENV DVKEVMTKVE VEMNGEGRIL VRPSGTEPLV
+     RVMVEAATDE DAERFAQQIA DVVQDKMGLD K
+//

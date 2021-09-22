@@ -1,0 +1,228 @@
+ID   NSR_PYRFU               Reviewed;         442 AA.
+AC   Q8U1M0;
+DT   27-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   07-APR-2021, entry version 111.
+DE   RecName: Full=NAD(P)H sulfur oxidoreductase (CoA-dependent) {ECO:0000305};
+DE            Short=NSR {ECO:0000303|PubMed:17449625};
+DE            EC=1.8.1.18 {ECO:0000269|PubMed:17449625};
+DE   AltName: Full=Coenzyme A disulfide reductase {ECO:0000303|PubMed:15720393};
+DE            Short=CoA-disulfide reductase {ECO:0000305};
+DE            Short=CoADR {ECO:0000303|PubMed:15720393};
+DE            EC=1.8.1.14 {ECO:0000269|PubMed:15720393};
+DE   AltName: Full=NAD(P)H oxidase {ECO:0000305};
+DE            Short=NOX {ECO:0000303|PubMed:24723088};
+DE            EC=1.6.3.- {ECO:0000269|PubMed:24723088};
+GN   Name=nsr {ECO:0000303|PubMed:21965560}; OrderedLocusNames=PF1186;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P.
+RT   horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+RN   [2]
+RP   FUNCTION AS A COA-DISULFIDE REDUCTASE, AND CATALYTIC ACTIVITY.
+RX   PubMed=15720393; DOI=10.1111/j.1742-4658.2005.04555.x;
+RA   Harris D.R., Ward D.E., Feasel J.M., Lancaster K.M., Murphy R.D.,
+RA   Mallet T.C., Crane E.J. III;
+RT   "Discovery and characterization of a coenzyme A disulfide reductase from
+RT   Pyrococcus horikoshii. Implications for this disulfide metabolism of
+RT   anaerobic hyperthermophiles.";
+RL   FEBS J. 272:1189-1200(2005).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   SUBUNIT, SUBCELLULAR LOCATION, AND INDUCTION.
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=17449625; DOI=10.1128/jb.00031-07;
+RA   Schut G.J., Bridger S.L., Adams M.W.;
+RT   "Insights into the metabolism of elemental sulfur by the hyperthermophilic
+RT   archaeon Pyrococcus furiosus: characterization of a coenzyme A-dependent
+RT   NAD(P)H sulfur oxidoreductase.";
+RL   J. Bacteriol. 189:4431-4441(2007).
+RN   [4]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=21965560; DOI=10.1128/jb.05445-11;
+RA   Bridger S.L., Clarkson S.M., Stirrett K., DeBarry M.B., Lipscomb G.L.,
+RA   Schut G.J., Westpheling J., Scott R.A., Adams M.W.;
+RT   "Deletion strains reveal metabolic roles for key elemental sulfur-
+RT   responsive proteins in Pyrococcus furiosus.";
+RL   J. Bacteriol. 193:6498-6504(2011).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, AND SUBUNIT.
+RX   PubMed=24723088; DOI=10.1007/s00792-014-0643-z;
+RA   Harnvoravongchai P., Kobori H., Orita I., Nakamura S., Imanaka T.,
+RA   Fukui T.;
+RT   "Characterization and gene deletion analysis of four homologues of group 3
+RT   pyridine nucleotide disulfide oxidoreductases from Thermococcus
+RT   kodakarensis.";
+RL   Extremophiles 18:603-616(2014).
+CC   -!- FUNCTION: Catalyzes the CoA-dependent reduction of elemental sulfur
+CC       (S(0)) to produce hydrogen sulfide (PubMed:17449625, PubMed:24723088).
+CC       Can use both NADPH and NADH, but shows a preference for NADPH
+CC       (PubMed:24723088). May enable S(0) to be used, via sulfide, for iron-
+CC       sulfur cluster synthesis by SipA (Probable). Also shows coenzyme A
+CC       disulfide reductase (CoADR) activity with both NADH and NADPH
+CC       (PubMed:15720393, PubMed:17449625). However, CoADR specific activity is
+CC       about 20-fold lower than the sulfur reduction assay and CoADR activity
+CC       appears to be an artifactual side reaction and is not thought to have
+CC       any physiological relevance (PubMed:17449625). Also shows NAD(P)H
+CC       oxidase activity with both NADH and NADPH (PubMed:24723088).
+CC       {ECO:0000269|PubMed:15720393, ECO:0000269|PubMed:17449625,
+CC       ECO:0000269|PubMed:24723088, ECO:0000305|PubMed:21965560}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogen sulfide + NADP(+) = NADPH + sulfur;
+CC         Xref=Rhea:RHEA:36595, ChEBI:CHEBI:26833, ChEBI:CHEBI:29919,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.18;
+CC         Evidence={ECO:0000269|PubMed:17449625, ECO:0000269|PubMed:24723088};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:36597;
+CC         Evidence={ECO:0000269|PubMed:17449625, ECO:0000269|PubMed:24723088};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=hydrogen sulfide + NAD(+) = NADH + sulfur;
+CC         Xref=Rhea:RHEA:36599, ChEBI:CHEBI:26833, ChEBI:CHEBI:29919,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.8.1.18;
+CC         Evidence={ECO:0000269|PubMed:17449625, ECO:0000269|PubMed:24723088};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:36601;
+CC         Evidence={ECO:0000269|PubMed:17449625, ECO:0000269|PubMed:24723088};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 CoA + NADP(+) = CoA-disulfide + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:14705, ChEBI:CHEBI:15378, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62209; EC=1.8.1.14;
+CC         Evidence={ECO:0000269|PubMed:15720393, ECO:0000269|PubMed:17449625};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 CoA + NAD(+) = CoA-disulfide + H(+) + NADH;
+CC         Xref=Rhea:RHEA:14701, ChEBI:CHEBI:15378, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62209;
+CC         Evidence={ECO:0000269|PubMed:15720393};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000269|PubMed:17449625, ECO:0000269|PubMed:24723088};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000250|UniProtKB:O58308};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=8.5 mM for NADPH {ECO:0000269|PubMed:17449625};
+CC         KM=3.3 mM for NADH {ECO:0000269|PubMed:17449625};
+CC         KM=18 uM for CoA {ECO:0000269|PubMed:17449625};
+CC         KM=10 uM for CoA-disulfide {ECO:0000269|PubMed:17449625};
+CC       pH dependence:
+CC         Optimum pH is 6.5 for sulfide production.
+CC         {ECO:0000269|PubMed:17449625};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:17449625,
+CC       ECO:0000269|PubMed:24723088}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:17449625}.
+CC   -!- INDUCTION: Up-regulated up to sevenfold by elemental sulfur addition.
+CC       {ECO:0000269|PubMed:17449625}.
+CC   -!- DISRUPTION PHENOTYPE: Deletion mutant does not exhibit an obvious
+CC       phenotype and produces sulfide and acetate in amounts comparable to
+CC       those produced by the parent strain. {ECO:0000269|PubMed:21965560}.
+CC   -!- SIMILARITY: Belongs to the class-III pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009950; AAL81310.1; -; Genomic_DNA.
+DR   RefSeq; WP_011012327.1; NZ_CP023154.1.
+DR   SMR; Q8U1M0; -.
+DR   STRING; 186497.PF1186; -.
+DR   PRIDE; Q8U1M0; -.
+DR   EnsemblBacteria; AAL81310; AAL81310; PF1186.
+DR   GeneID; 41712995; -.
+DR   KEGG; pfu:PF1186; -.
+DR   PATRIC; fig|186497.12.peg.1247; -.
+DR   eggNOG; arCOG01069; Archaea.
+DR   HOGENOM; CLU_003291_1_3_2; -.
+DR   OMA; WVSHAPC; -.
+DR   OrthoDB; 40511at2157; -.
+DR   BioCyc; MetaCyc:MONOMER-18049; -.
+DR   BioCyc; PFUR186497:G1FZR-1220-MONOMER; -.
+DR   BRENDA; 1.8.1.18; 5243.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050451; F:CoA-disulfide reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0043914; F:NADPH:sulfur oxidoreductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003756; F:protein disulfide isomerase activity; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 3.
+DR   InterPro; IPR017758; CoA_disulphide_reductase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   SUPFAM; SSF55424; SSF55424; 1.
+DR   TIGRFAMs; TIGR03385; CoA_CoA_reduc; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; NADP; Oxidoreductase;
+KW   Redox-active center; Reference proteome.
+FT   CHAIN           1..442
+FT                   /note="NAD(P)H sulfur oxidoreductase (CoA-dependent)"
+FT                   /id="PRO_0000184698"
+FT   NP_BIND         13..14
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   NP_BIND         35..36
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   NP_BIND         42..44
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   REGION          41..45
+FT                   /note="Coenzyme A binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   REGION          62..63
+FT                   /note="Coenzyme A binding"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   ACT_SITE        45
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         24
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         72
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         82
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         280
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         298
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         302
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         358
+FT                   /note="Coenzyme A; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         422
+FT                   /note="FAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         430
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+FT   BINDING         438
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000250|UniProtKB:O58308"
+SQ   SEQUENCE   442 AA;  48720 MW;  2329E5F596F1CA6A CRC64;
+     MEKKKVVIIG GGAAGMSAAS RVKRLRPEWD VKVFEATEWV SHAPCGIPYV VEGIAPKEKL
+     MHYPPEVFIK KRGIDLHLKA EVIEVETGYV RVRENGEEKS YEWDYLVFAN GASPQIPEIE
+     GVDLPGVFTA DLPPDAVAIT EYMEKNKVED VVIIGTGYIA LEMAEAFVTR GKNVTLIGRS
+     ERVLRKTFDK EITDIVEEKL RQHLNLRLHE KTLSIEGRER VEKVITDGGE YKADLVIIAT
+     GIKPNVELAK QLGVKIGETG AIWTNEKMQT SVENVYAAGD VAETKHVITG KRVWIPLAPA
+     GNKMGYVAGS NIAGKEIEFP GVLGTSITKF MDLEIGKTGL TENEAVKEGY DVRTAFIKAN
+     TKPHYYPGGR EIWLKGVVDN ETNRLLGVQA VGAEILPRID SAAAMITAGF TTKDVFFTDL
+     AYAPPFAPVW DPLIVLARVL KF
+//

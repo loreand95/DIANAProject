@@ -1,0 +1,95 @@
+ID   FABH_STAAB              Reviewed;         313 AA.
+AC   Q2YWV3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3 {ECO:0000255|HAMAP-Rule:MF_01815};
+DE            EC=2.3.1.180 {ECO:0000255|HAMAP-Rule:MF_01815};
+DE   AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III {ECO:0000255|HAMAP-Rule:MF_01815};
+DE   AltName: Full=Beta-ketoacyl-ACP synthase III {ECO:0000255|HAMAP-Rule:MF_01815};
+DE            Short=KAS III {ECO:0000255|HAMAP-Rule:MF_01815};
+GN   Name=fabH {ECO:0000255|HAMAP-Rule:MF_01815}; OrderedLocusNames=SAB0848;
+OS   Staphylococcus aureus (strain bovine RF122 / ET3-1).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=273036;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=bovine RF122 / ET3-1;
+RX   PubMed=17971880; DOI=10.1371/journal.pone.0001120;
+RA   Herron-Olson L., Fitzgerald J.R., Musser J.M., Kapur V.;
+RT   "Molecular correlates of host specialization in Staphylococcus aureus.";
+RL   PLoS ONE 2:E1120-E1120(2007).
+CC   -!- FUNCTION: Catalyzes the condensation reaction of fatty acid synthesis
+CC       by the addition to an acyl acceptor of two carbons from malonyl-ACP.
+CC       Catalyzes the first condensation reaction which initiates fatty acid
+CC       synthesis and may therefore play a role in governing the total rate of
+CC       fatty acid production. Possesses both acetoacetyl-ACP synthase and
+CC       acetyl transacylase activities. Its substrate specificity determines
+CC       the biosynthesis of branched-chain and/or straight-chain of fatty
+CC       acids. {ECO:0000255|HAMAP-Rule:MF_01815}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + H(+) + malonyl-[ACP] = 3-oxobutanoyl-[ACP] + CO2
+CC         + CoA; Xref=Rhea:RHEA:12080, Rhea:RHEA-COMP:9623, Rhea:RHEA-
+CC         COMP:9625, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:78449, ChEBI:CHEBI:78450;
+CC         EC=2.3.1.180; Evidence={ECO:0000255|HAMAP-Rule:MF_01815};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis. {ECO:0000255|HAMAP-
+CC       Rule:MF_01815}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01815}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01815}.
+CC   -!- DOMAIN: The last Arg residue of the ACP-binding site is essential for
+CC       the weak association between ACP/AcpP and FabH. {ECO:0000255|HAMAP-
+CC       Rule:MF_01815}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. FabH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01815}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ938182; CAI80536.1; -; Genomic_DNA.
+DR   RefSeq; WP_001100526.1; NC_007622.1.
+DR   SMR; Q2YWV3; -.
+DR   KEGG; sab:SAB0848; -.
+DR   HOGENOM; CLU_039592_3_1_9; -.
+DR   OMA; WGSEGDK; -.
+DR   BioCyc; SAUR273036:G1G1D-944-MONOMER; -.
+DR   UniPathway; UPA00094; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0033818; F:beta-ketoacyl-acyl-carrier-protein synthase III activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00830; KAS_III; 1.
+DR   Gene3D; 3.40.47.10; -; 2.
+DR   HAMAP; MF_01815; FabH; 1.
+DR   InterPro; IPR013751; ACP_syn_III.
+DR   InterPro; IPR013747; ACP_syn_III_C.
+DR   InterPro; IPR004655; FabH_synth.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF08545; ACP_syn_III; 1.
+DR   Pfam; PF08541; ACP_syn_III_C; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   TIGRFAMs; TIGR00747; fabH; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; Multifunctional enzyme; Transferase.
+FT   CHAIN           1..313
+FT                   /note="3-oxoacyl-[acyl-carrier-protein] synthase 3"
+FT                   /id="PRO_1000056417"
+FT   REGION          239..243
+FT                   /note="ACP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        112
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        238
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01815"
+FT   ACT_SITE        268
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01815"
+SQ   SEQUENCE   313 AA;  33879 MW;  728D2DCCAB9B95F7 CRC64;
+     MNVGIKGFGA YAPEKIIDNA YFEQFLDTSD EWISKMTGIK ERHWADDDQD TSDLAYEASV
+     KAIADAGIQP EDIDMIIVAT ATGDMPFPTV ANMLQERLGT GKVASMDQLA ACSGFMYSMI
+     TAKQYVQSGD YHNILVVGAD KLSKITDLTD RSTAVLFGDG AGAVIIGEVS EGRGIISYEM
+     GSDGTGGKHL YLDKDTGKLK MNGREVFKFA VRIMGDASTR VVEKANLTSD DIDLFIPHQA
+     NIRIMESARE RLGISKDKMS VSVNKYGNTS AASIPLSIDQ ELKNGKLKDD DTIVLVGFGG
+     GLTWGAMTIK WGK
+//

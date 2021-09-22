@@ -1,0 +1,100 @@
+ID   SYK_XANCB               Reviewed;         505 AA.
+AC   B0RSQ8;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 80.
+DE   RecName: Full=Lysine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            EC=6.1.1.6 {ECO:0000255|HAMAP-Rule:MF_00252};
+DE   AltName: Full=Lysyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            Short=LysRS {ECO:0000255|HAMAP-Rule:MF_00252};
+GN   Name=lysS {ECO:0000255|HAMAP-Rule:MF_00252};
+GN   OrderedLocusNames=xcc-b100_2141;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J., Sidhu V.K.,
+RA   Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A., Niehaus K.,
+RA   Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use for
+RT   the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-lysine + tRNA(Lys) = AMP + diphosphate + L-lysyl-
+CC         tRNA(Lys); Xref=Rhea:RHEA:20792, Rhea:RHEA-COMP:9696, Rhea:RHEA-
+CC         COMP:9697, ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529, ChEBI:CHEBI:456215; EC=6.1.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00252};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM920689; CAP51494.1; -; Genomic_DNA.
+DR   SMR; B0RSQ8; -.
+DR   KEGG; xca:xcc-b100_2141; -.
+DR   HOGENOM; CLU_008255_6_0_6; -.
+DR   OMA; EIFGEKC; -.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004824; F:lysine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006430; P:lysyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00775; LysRS_core; 1.
+DR   CDD; cd04322; LysRS_N; 1.
+DR   HAMAP; MF_00252; Lys_tRNA_synth_class2; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR002313; Lys-tRNA-ligase_II.
+DR   InterPro; IPR044136; Lys-tRNA-ligase_II_N.
+DR   InterPro; IPR018149; Lys-tRNA-synth_II_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR00982; TRNASYNTHLYS.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00499; lysS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..505
+FT                   /note="Lysine--tRNA ligase"
+FT                   /id="PRO_1000101159"
+FT   METAL           415
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           422
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           422
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+SQ   SEQUENCE   505 AA;  56750 MW;  2C1F6EE2EE8F435E CRC64;
+     MTEQTPTPQL PADENSLIAE RRAKLGALRG QGIAYPNDFV RTHFAGDLQA EFAEAETWTA
+     EALEAADRSV KLAGRLMAKR VMGKASFAQI QDESGRVQLF LQGNVLGDAY TAFKGWDVGD
+     IVAVEGGLTR TKTGELSVKA SALRLLTKSL RPLPDKWHGL SDVEQRYRQR YVDLIVTPEA
+     REVFIKRSKI IRAIRAWLDA RRFLEVETPM MHYIPGGATA KPFTTHHNAL DLDLYLRVAP
+     ELYLKRLVVG GLERVYEINR NFRNEGVSTR HNPEFTMLEL YEAYATYHEI MDLTEQVIRD
+     TAQGVLGTTQ VSWDGADIDL APAFRRWRMD EAVRHHNPEI SAADCTDRAA LLRHCERLKI
+     KVKPSYGWGK LLLEIFEATV EHTLVQPTFI TDHPVEVSPL ARASDTEPGY TDRFELFING
+     KELANGFSEL NDPEDQAARF QAQVQAKDGG DDEAMHYDAD YIRALEYGMA PTGGLGIGID
+     RLVMLLTGST SIRDVLLFPY MRPEA
+//

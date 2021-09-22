@@ -1,0 +1,131 @@
+ID   SYT_CHLCV               Reviewed;         635 AA.
+AC   Q821I3;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 108.
+DE   RecName: Full=Threonine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            EC=6.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00184};
+DE   AltName: Full=Threonyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00184};
+DE            Short=ThrRS {ECO:0000255|HAMAP-Rule:MF_00184};
+GN   Name=thrS {ECO:0000255|HAMAP-Rule:MF_00184}; OrderedLocusNames=CCA_00957;
+OS   Chlamydophila caviae (strain ATCC VR-813 / DSM 19441 / GPIC) (Chlamydia
+OS   caviae).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=227941;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-813 / DSM 19441 / GPIC;
+RX   PubMed=12682364; DOI=10.1093/nar/gkg321;
+RA   Read T.D., Myers G.S.A., Brunham R.C., Nelson W.C., Paulsen I.T.,
+RA   Heidelberg J.F., Holtzapple E.K., Khouri H.M., Federova N.B., Carty H.A.,
+RA   Umayam L.A., Haft D.H., Peterson J.D., Beanan M.J., White O.,
+RA   Salzberg S.L., Hsia R.-C., McClarty G., Rank R.G., Bavoil P.M.,
+RA   Fraser C.M.;
+RT   "Genome sequence of Chlamydophila caviae (Chlamydia psittaci GPIC):
+RT   examining the role of niche-specific genes in the evolution of the
+RT   Chlamydiaceae.";
+RL   Nucleic Acids Res. 31:2134-2147(2003).
+CC   -!- FUNCTION: Catalyzes the attachment of threonine to tRNA(Thr) in a two-
+CC       step reaction: L-threonine is first activated by ATP to form Thr-AMP
+CC       and then transferred to the acceptor end of tRNA(Thr). Also edits
+CC       incorrectly charged L-seryl-tRNA(Thr). {ECO:0000255|HAMAP-
+CC       Rule:MF_00184}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonine + tRNA(Thr) = AMP + diphosphate + H(+) + L-
+CC         threonyl-tRNA(Thr); Xref=Rhea:RHEA:24624, Rhea:RHEA-COMP:9670,
+CC         Rhea:RHEA-COMP:9704, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57926, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78534, ChEBI:CHEBI:456215; EC=6.1.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00184};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00184};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00184}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015925; AAP05696.1; -; Genomic_DNA.
+DR   RefSeq; WP_011006909.1; NC_003361.3.
+DR   SMR; Q821I3; -.
+DR   STRING; 227941.CCA_00957; -.
+DR   EnsemblBacteria; AAP05696; AAP05696; CCA_00957.
+DR   KEGG; cca:CCA_00957; -.
+DR   eggNOG; COG0441; Bacteria.
+DR   HOGENOM; CLU_008554_3_1_0; -.
+DR   OMA; FYYDFAY; -.
+DR   OrthoDB; 900765at2; -.
+DR   BioCyc; CCAV227941:G1G03-973-MONOMER; -.
+DR   Proteomes; UP000002193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004829; F:threonine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006435; P:threonyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00771; ThrRS_core; 1.
+DR   Gene3D; 3.10.20.30; -; 1.
+DR   Gene3D; 3.40.50.800; -; 1.
+DR   HAMAP; MF_00184; Thr_tRNA_synth; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR012675; Beta-grasp_dom_sf.
+DR   InterPro; IPR004095; TGS.
+DR   InterPro; IPR012676; TGS-like.
+DR   InterPro; IPR002320; Thr-tRNA-ligase_IIa.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR033728; ThrRS_core.
+DR   InterPro; IPR012947; tRNA_SAD.
+DR   PANTHER; PTHR11451; PTHR11451; 1.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   Pfam; PF07973; tRNA_SAD; 1.
+DR   PRINTS; PR01047; TRNASYNTHTHR.
+DR   SMART; SM00863; tRNA_SAD; 1.
+DR   SUPFAM; SSF55186; SSF55186; 1.
+DR   SUPFAM; SSF81271; SSF81271; 1.
+DR   TIGRFAMs; TIGR00418; thrS; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+DR   PROSITE; PS51880; TGS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding; tRNA-binding; Zinc.
+FT   CHAIN           1..635
+FT                   /note="Threonine--tRNA ligase"
+FT                   /id="PRO_0000100959"
+FT   DOMAIN          1..58
+FT                   /note="TGS"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01228"
+FT   REGION          237..528
+FT                   /note="Catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   METAL           328
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   METAL           379
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+FT   METAL           505
+FT                   /note="Zinc; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00184"
+SQ   SEQUENCE   635 AA;  72564 MW;  E5C7B813A7022EBB CRC64;
+     MIRVICNNET VELPKGATAA DFASKIKNSH YFAGVVINDQ IKDLSTTLNE GDTLRFVTFE
+     DSEGREIFLH TSAHILAQAV LRLWPQAVPT IGPVINQGFY YDFANLSVSE EDLLAIENMM
+     EQIVQEKLEV SKKTFNGKEE ALKEFMHNAF KAELIQELPE GESITAYSQG EFMDLCRGPH
+     LPSTAPVKAF KLLRTSAAYW RGDPSRESLV RIYGISFPTT KELKEHLHQL EEAKKRDHRV
+     LGAKLDLFSQ QECSAGMPFF HPRGMIVWDA LIGYWQRLHQ LAGYKQILTP QLMNRSLWET
+     SGHWSNYKAN MYTLKIDEED YAIKPMNCPG CMLYYKTRLH SYKEFPLRIA EIGHVHRYEV
+     SGALSGLMRV RAFHQDDAHV FLTPEQVEEE TLNILNLVSE LYSTFGLEYH LELSTRPEKD
+     TIGSDELWEL ATSALERALI NSNTPFIINP GDGAFYGPKI DIHVKDAIQR TWQCGTIQLD
+     MFLPERFELE YTNAQGEKST PIMLHRALFG SIERFLGILI EHFKGKFPLW LSPEHIRLIT
+     VADRHQPHAK ELAAAWQKLG LVVTVDDSNE SVSKKIRNAQ NMQVNYMVTL GDREIEENTL
+     AIRTRDNRVL NAMTVETFIN TILEEKNSLS LTPLL
+//

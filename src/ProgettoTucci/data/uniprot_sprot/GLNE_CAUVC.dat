@@ -1,0 +1,131 @@
+ID   GLNE_CAUVC              Reviewed;         986 AA.
+AC   Q9A4S7;
+DT   04-JAN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=Bifunctional glutamine synthetase adenylyltransferase/adenylyl-removing enzyme {ECO:0000255|HAMAP-Rule:MF_00802};
+DE   AltName: Full=ATP:glutamine synthetase adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE   AltName: Full=ATase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE   Includes:
+DE     RecName: Full=Glutamine synthetase adenylyl-L-tyrosine phosphorylase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              EC=2.7.7.89 {ECO:0000255|HAMAP-Rule:MF_00802};
+DE     AltName: Full=Adenylyl removase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              Short=AR {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              Short=AT-N {ECO:0000255|HAMAP-Rule:MF_00802};
+DE   Includes:
+DE     RecName: Full=Glutamine synthetase adenylyl transferase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              EC=2.7.7.42 {ECO:0000255|HAMAP-Rule:MF_00802};
+DE     AltName: Full=Adenylyl transferase {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              Short=AT {ECO:0000255|HAMAP-Rule:MF_00802};
+DE              Short=AT-C {ECO:0000255|HAMAP-Rule:MF_00802};
+GN   Name=glnE {ECO:0000255|HAMAP-Rule:MF_00802}; OrderedLocusNames=CC_2753;
+OS   Caulobacter vibrioides (strain ATCC 19089 / CB15) (Caulobacter crescentus).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+OC   Caulobacteraceae; Caulobacter.
+OX   NCBI_TaxID=190650;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19089 / CB15;
+RX   PubMed=11259647; DOI=10.1073/pnas.061029298;
+RA   Nierman W.C., Feldblyum T.V., Laub M.T., Paulsen I.T., Nelson K.E.,
+RA   Eisen J.A., Heidelberg J.F., Alley M.R.K., Ohta N., Maddock J.R.,
+RA   Potocka I., Nelson W.C., Newton A., Stephens C., Phadke N.D., Ely B.,
+RA   DeBoy R.T., Dodson R.J., Durkin A.S., Gwinn M.L., Haft D.H., Kolonay J.F.,
+RA   Smit J., Craven M.B., Khouri H.M., Shetty J., Berry K.J., Utterback T.R.,
+RA   Tran K., Wolf A.M., Vamathevan J.J., Ermolaeva M.D., White O.,
+RA   Salzberg S.L., Venter J.C., Shapiro L., Fraser C.M.;
+RT   "Complete genome sequence of Caulobacter crescentus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4136-4141(2001).
+CC   -!- FUNCTION: Involved in the regulation of glutamine synthetase GlnA, a
+CC       key enzyme in the process to assimilate ammonia. When cellular nitrogen
+CC       levels are high, the C-terminal adenylyl transferase (AT) inactivates
+CC       GlnA by covalent transfer of an adenylyl group from ATP to specific
+CC       tyrosine residue of GlnA, thus reducing its activity. Conversely, when
+CC       nitrogen levels are low, the N-terminal adenylyl removase (AR)
+CC       activates GlnA by removing the adenylyl group by phosphorolysis,
+CC       increasing its activity. The regulatory region of GlnE binds the signal
+CC       transduction protein PII (GlnB) which indicates the nitrogen status of
+CC       the cell. {ECO:0000255|HAMAP-Rule:MF_00802}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[glutamine synthetase]-O(4)-(5'-adenylyl)-L-tyrosine +
+CC         phosphate = [glutamine synthetase]-L-tyrosine + ADP;
+CC         Xref=Rhea:RHEA:43716, Rhea:RHEA-COMP:10660, Rhea:RHEA-COMP:10661,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46858, ChEBI:CHEBI:83624,
+CC         ChEBI:CHEBI:456216; EC=2.7.7.89; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00802};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[glutamine synthetase]-L-tyrosine + ATP = [glutamine
+CC         synthetase]-O(4)-(5'-adenylyl)-L-tyrosine + diphosphate;
+CC         Xref=Rhea:RHEA:18589, Rhea:RHEA-COMP:10660, Rhea:RHEA-COMP:10661,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:46858,
+CC         ChEBI:CHEBI:83624; EC=2.7.7.42; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00802};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00802};
+CC   -!- SIMILARITY: Belongs to the GlnE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00802}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005673; AAK24717.1; -; Genomic_DNA.
+DR   PIR; A87590; A87590.
+DR   RefSeq; NP_421549.1; NC_002696.2.
+DR   SMR; Q9A4S7; -.
+DR   STRING; 190650.CC_2753; -.
+DR   PRIDE; Q9A4S7; -.
+DR   EnsemblBacteria; AAK24717; AAK24717; CC_2753.
+DR   KEGG; ccr:CC_2753; -.
+DR   PATRIC; fig|190650.5.peg.2754; -.
+DR   eggNOG; COG1391; Bacteria.
+DR   HOGENOM; CLU_006233_0_0_5; -.
+DR   OMA; EFMVQYA; -.
+DR   BioCyc; CAULO:CC2753-MONOMER; -.
+DR   Proteomes; UP000001816; Chromosome.
+DR   GO; GO:0008882; F:[glutamate-ammonia-ligase] adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0047388; F:[glutamine synthetase]-adenylyl-L-tyrosine phosphorylase; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000820; P:regulation of glutamine family amino acid metabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00802; GlnE; 1.
+DR   InterPro; IPR023057; GlnE.
+DR   InterPro; IPR005190; GlnE_rpt_dom.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR013546; PII_UdlTrfase/GS_AdlTrfase.
+DR   PANTHER; PTHR30621; PTHR30621; 1.
+DR   Pfam; PF08335; GlnD_UR_UTase; 2.
+DR   Pfam; PF03710; GlnE; 2.
+DR   SUPFAM; SSF81301; SSF81301; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Multifunctional enzyme; Nucleotide-binding;
+KW   Nucleotidyltransferase; Reference proteome; Transferase.
+FT   CHAIN           1..986
+FT                   /note="Bifunctional glutamine synthetase
+FT                   adenylyltransferase/adenylyl-removing enzyme"
+FT                   /id="PRO_0000209239"
+FT   REGION          1..482
+FT                   /note="Adenylyl removase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00802"
+FT   REGION          486..986
+FT                   /note="Adenylyl transferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00802"
+SQ   SEQUENCE   986 AA;  106531 MW;  8B4B3F686E174310 CRC64;
+     MVTTVISNVK RQSRASLVGK RNAGHRSAMS KLADRLAPCG PVLDPKAAER AYEAIAKRAG
+     EAMGQVDAAW GSLAPVFAAS PYLAGLARRD GKRLPRILGG DPGETLAAIL AAAEAVAAEP
+     DFETARRVLR ELKADLHLLT AISDLGGVWD LDQVTGALTR FADAVLHAAL AQAVRQEVSR
+     GALTHVGDGS AGPAPGLFCV AMGKHGAFEL NYSSDIDFSI FYAPEKLPVA EGHEPQAVAV
+     RIANHLGRIL QERTGDGYVF RIDLRLRPDP SSTPPAMPVD AAMDYYESVG QNWERAAHIK
+     ARIAAGDAAE GAAFLEGLQP FIWRRNLDFA AIADIHSIKR QIHTYKVDDR LTAKGADLKL
+     GRGGIREIEF FVQTQQLILG GRQPDLRSPR TLDALQALAA AGHVTPEDAA WLTQAYKDLR
+     ALEHRAQMIA DDQTHKLPES DVERKKVAAL WGEGNLRVFD AAVGKMLKGV NLRYGRLFAG
+     EEALSSRFGS LVFTGVEDDP ETLATLKRMG FSSPERVAAT IRGWHHGHIA ATRTERGREL
+     FTRLAPRLLD AANATGAPDQ AFNRFSDFFS RLSSGVQIQS LFLAQPRLFE LIVEVMAFAP
+     RLAATMAKRP TALDALLDPT FFGPIETPAI APWDPEDFEG AMDAARRLFR DQSFRIGVRV
+     MSGTADARDI GRAFAELADL IIGGLAPAAL AEVERIGGAF PGQVAVVALG KAGSREMTAK
+     SDLDLMTLYV ADDPRSMSAL KDWSAEVFYA RLTQRLTSAL SAPTGEGTLY EVDLKLRPSG
+     TKGPVAVSFA AFEHYYEREA ETWELLALTR ARVVWASSPD FKARAEGAIA AALRRPRAWK
+     KTAADVIEMR QLMERERPGK GDWDLKLDPG GLVDIEFAAQ FLQLAHAAAD GPLRQNTGEA
+     LAALREAGLA DAGALSRLEA AWRLEQDLSQ LIKVALEDGA DVEVEPKAFK ALLAKAGGVT
+     QFKSLKPKLA KAKAEARAAY EAVVKG
+//

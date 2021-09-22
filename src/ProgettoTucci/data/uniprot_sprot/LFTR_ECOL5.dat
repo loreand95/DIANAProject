@@ -1,0 +1,90 @@
+ID   LFTR_ECOL5              Reviewed;         234 AA.
+AC   Q0TJG5;
+DT   31-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   10-FEB-2021, entry version 85.
+DE   RecName: Full=Leucyl/phenylalanyl-tRNA--protein transferase {ECO:0000255|HAMAP-Rule:MF_00688};
+DE            EC=2.3.2.6 {ECO:0000255|HAMAP-Rule:MF_00688};
+DE   AltName: Full=L/F-transferase {ECO:0000255|HAMAP-Rule:MF_00688};
+DE   AltName: Full=Leucyltransferase {ECO:0000255|HAMAP-Rule:MF_00688};
+DE   AltName: Full=Phenyalanyltransferase {ECO:0000255|HAMAP-Rule:MF_00688};
+GN   Name=aat {ECO:0000255|HAMAP-Rule:MF_00688}; OrderedLocusNames=ECP_0899;
+OS   Escherichia coli O6:K15:H31 (strain 536 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=362663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=536 / UPEC;
+RX   PubMed=16879640; DOI=10.1111/j.1365-2958.2006.05255.x;
+RA   Hochhut B., Wilde C., Balling G., Middendorf B., Dobrindt U.,
+RA   Brzuszkiewicz E., Gottschalk G., Carniel E., Hacker J.;
+RT   "Role of pathogenicity island-associated integrases in the genome
+RT   plasticity of uropathogenic Escherichia coli strain 536.";
+RL   Mol. Microbiol. 61:584-595(2006).
+CC   -!- FUNCTION: Functions in the N-end rule pathway of protein degradation
+CC       where it conjugates Leu, Phe and, less efficiently, Met from aminoacyl-
+CC       tRNAs to the N-termini of proteins containing an N-terminal arginine or
+CC       lysine. {ECO:0000255|HAMAP-Rule:MF_00688}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-leucyl-tRNA(Leu) + N-terminal L-lysyl-[protein] = H(+) + N-
+CC         terminal L-leucyl-L-lysyl-[protein] + tRNA(Leu);
+CC         Xref=Rhea:RHEA:12340, Rhea:RHEA-COMP:9613, Rhea:RHEA-COMP:9622,
+CC         Rhea:RHEA-COMP:12670, Rhea:RHEA-COMP:12671, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:65249, ChEBI:CHEBI:78442, ChEBI:CHEBI:78494,
+CC         ChEBI:CHEBI:133043; EC=2.3.2.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-leucyl-tRNA(Leu) + N-terminal L-arginyl-[protein] = H(+) +
+CC         N-terminal L-leucyl-L-arginyl-[protein] + tRNA(Leu);
+CC         Xref=Rhea:RHEA:50416, Rhea:RHEA-COMP:9613, Rhea:RHEA-COMP:9622,
+CC         Rhea:RHEA-COMP:12672, Rhea:RHEA-COMP:12673, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:64719, ChEBI:CHEBI:78442, ChEBI:CHEBI:78494,
+CC         ChEBI:CHEBI:133044; EC=2.3.2.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00688};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an N-terminal L-alpha-aminoacyl-[protein] + L-phenylalanyl-
+CC         tRNA(Phe) = an N-terminal L-phenylalanyl-L-alpha-aminoacyl-[protein]
+CC         + tRNA(Phe); Xref=Rhea:RHEA:43632, Rhea:RHEA-COMP:9668, Rhea:RHEA-
+CC         COMP:9699, Rhea:RHEA-COMP:10636, Rhea:RHEA-COMP:10637,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78531, ChEBI:CHEBI:78597,
+CC         ChEBI:CHEBI:83561; EC=2.3.2.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00688};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00688}.
+CC   -!- SIMILARITY: Belongs to the L/F-transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00688}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000247; ABG68914.1; -; Genomic_DNA.
+DR   RefSeq; WP_001241673.1; NC_008253.1.
+DR   SMR; Q0TJG5; -.
+DR   EnsemblBacteria; ABG68914; ABG68914; ECP_0899.
+DR   KEGG; ecp:ECP_0899; -.
+DR   HOGENOM; CLU_075045_0_0_6; -.
+DR   OMA; YRQGIFP; -.
+DR   Proteomes; UP000009182; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008914; F:leucyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030163; P:protein catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.630.70; -; 1.
+DR   HAMAP; MF_00688; Leu_Phe_trans; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR004616; Leu/Phe-tRNA_Trfase.
+DR   InterPro; IPR042203; Leu/Phe-tRNA_Trfase_C.
+DR   PANTHER; PTHR30098; PTHR30098; 1.
+DR   Pfam; PF03588; Leu_Phe_trans; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR00667; aat; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Transferase.
+FT   CHAIN           1..234
+FT                   /note="Leucyl/phenylalanyl-tRNA--protein transferase"
+FT                   /id="PRO_0000258059"
+SQ   SEQUENCE   234 AA;  26704 MW;  79724D84D52ABE74 CRC64;
+     MRLVQLSRHS IAFPSPEGAL REPNGLLALG GDLSPARLLM AYQRGIFPWF SPGDPILWWS
+     PDPRAVLWPE SLHISRSMKR FHKRSPYRVT MNYAFGQVIE GCASDREEGT WITRGVVEAY
+     HRLHELGHAH SIEVWREDEL VGGMYGVAQG TLFCGESMFS RMENASKTAL LVFCDEFIRH
+     GGKLIDCQVL NDHTASLGAC EIPRRDYLNY LNQMRLGRLP NNFWVPRCLF SPQE
+//

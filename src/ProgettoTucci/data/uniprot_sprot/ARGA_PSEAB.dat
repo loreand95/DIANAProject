@@ -1,0 +1,91 @@
+ID   ARGA_PSEAB              Reviewed;         432 AA.
+AC   Q02EG0;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   10-FEB-2021, entry version 80.
+DE   RecName: Full=Amino-acid acetyltransferase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            EC=2.3.1.1 {ECO:0000255|HAMAP-Rule:MF_01105};
+DE   AltName: Full=N-acetylglutamate synthase {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=AGS {ECO:0000255|HAMAP-Rule:MF_01105};
+DE            Short=NAGS {ECO:0000255|HAMAP-Rule:MF_01105};
+GN   Name=argA {ECO:0000255|HAMAP-Rule:MF_01105}; OrderedLocusNames=PA14_68740;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L., Grills G.,
+RA   Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-glutamate = CoA + H(+) + N-acetyl-L-glutamate;
+CC         Xref=Rhea:RHEA:24292, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:44337, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288; EC=2.3.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01105};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-
+CC       L-ornithine from L-glutamate: step 1/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_01105}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   -!- SIMILARITY: Belongs to the acetyltransferase family. ArgA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01105}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ14588.1; -; Genomic_DNA.
+DR   RefSeq; WP_003096265.1; NZ_CP034244.1.
+DR   SMR; Q02EG0; -.
+DR   PRIDE; Q02EG0; -.
+DR   EnsemblBacteria; ABJ14588; ABJ14588; PA14_68740.
+DR   KEGG; pau:PA14_68740; -.
+DR   HOGENOM; CLU_024773_0_0_6; -.
+DR   OMA; KRKYNWD; -.
+DR   BioCyc; PAER208963:G1G74-5793-MONOMER; -.
+DR   UniPathway; UPA00068; UER00106.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004042; F:acetyl-CoA:L-glutamate N-acetyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0103045; F:methione N-acyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04237; AAK_NAGS-ABP; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_01105; N_acetyl_glu_synth; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR033719; NAGS_kin.
+DR   InterPro; IPR010167; NH2A_AcTrfase.
+DR   PANTHER; PTHR30602; PTHR30602; 2.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   PIRSF; PIRSF000423; ArgA; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR01890; N-Ac-Glu-synth; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm;
+KW   Transferase.
+FT   CHAIN           1..432
+FT                   /note="Amino-acid acetyltransferase"
+FT                   /id="PRO_1000084816"
+FT   DOMAIN          286..425
+FT                   /note="N-acetyltransferase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01105"
+SQ   SEQUENCE   432 AA;  47859 MW;  725FAD778FD44A4E CRC64;
+     MPDYVNWLRH ASPYINSHRD RTFVVMLPGE GVEHPNFGNI VHDLVLLHSL GARLVLVHGS
+     RPQIEARLAA RGLAPRYHRD LRVTDAPTLE CVIDAVGSLR IAIEARLSMD MAASPMQGAR
+     LRVAGGNLVT ARPIGVVEGV DYHHTGEVRR IDRKGIGRLL DERSIVLLSP LGYSPTGEIF
+     NLACEDVAMR AAIDLEAEKL ILYGAEQGLL DASGKLVREL RPQQVPAHLQ RLGNSYQAEL
+     LDAAAQACRA GVKRSHIVSY TEDGALLSEL FTRTGNGTLV AQEQFEQLRE AGIEDVGGLI
+     ELIRPLEEQG ILVRRSREVL EREIEQFSIV EREGLIIACA ALYPIADSEA GELACLAVNP
+     EYRHGGRGDE LLERIEERAR GLGLKTLFVL TTRTAHWFRE RGFQPSSVER LPAARASLYN
+     FQRNSQVFEK SL
+//

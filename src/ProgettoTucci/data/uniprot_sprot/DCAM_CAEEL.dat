@@ -1,0 +1,180 @@
+ID   DCAM_CAEEL              Reviewed;         368 AA.
+AC   O02655;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   10-FEB-2021, entry version 140.
+DE   RecName: Full=S-adenosylmethionine decarboxylase proenzyme;
+DE            Short=AdoMetDC;
+DE            Short=SAMDC;
+DE            EC=4.1.1.50 {ECO:0000269|PubMed:9841864, ECO:0000305|PubMed:19762559};
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase alpha chain;
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase beta chain;
+DE   Flags: Precursor;
+GN   Name=smd-1 {ECO:0000312|WormBase:F47G4.7};
+GN   Synonyms=samdc {ECO:0000312|WormBase:F47G4.7};
+GN   ORFNames=F47G4.7 {ECO:0000312|WormBase:F47G4.7};
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA], CATALYTIC ACTIVITY, PATHWAY, AND
+RP   SUBUNIT.
+RX   PubMed=9841864; DOI=10.1042/bj3360545;
+RA   Da'dara A.A., Walter R.D.;
+RT   "Molecular and biochemical characterization of S-adenosylmethionine
+RT   decarboxylase from the free-living nematode Caenorhabditis elegans.";
+RL   Biochem. J. 336:545-550(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND DISRUPTION PHENOTYPE.
+RX   PubMed=19762559; DOI=10.1096/fj.09-135889;
+RA   Heinick A., Urban K., Roth S., Spies D., Nunes F., Phanstiel O. IV,
+RA   Liebau E., Lueersen K.;
+RT   "Caenorhabditis elegans P5B-type ATPase CATP-5 operates in polyamine
+RT   transport and is crucial for norspermidine-mediated suppression of RNA
+RT   interference.";
+RL   FASEB J. 24:206-217(2010).
+CC   -!- FUNCTION: Essential for biosynthesis of the polyamines spermidine and
+CC       spermine. Polyamines are essential for cell proliferation and are
+CC       implicated in cellular processes, ranging from DNA replication to
+CC       apoptosis. {ECO:0000269|PubMed:19762559}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + S-adenosyl-L-methionine = CO2 + S-adenosyl 3-
+CC         (methylsulfanyl)propylamine; Xref=Rhea:RHEA:15981, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57443, ChEBI:CHEBI:59789; EC=4.1.1.50;
+CC         Evidence={ECO:0000269|PubMed:9841864, ECO:0000305|PubMed:19762559};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361;
+CC         Evidence={ECO:0000250|UniProtKB:P17707};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit.
+CC       {ECO:0000250|UniProtKB:P17707};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; S-adenosylmethioninamine
+CC       biosynthesis; S-adenosylmethioninamine from S-adenosyl-L-methionine:
+CC       step 1/1. {ECO:0000269|PubMed:9841864}.
+CC   -!- SUBUNIT: Heterotetramer of two alpha and two beta chains.
+CC       {ECO:0000269|PubMed:9841864}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme. Formation of
+CC       the active enzyme involves a self-maturation process in which the
+CC       active site pyruvoyl group is generated from an internal serine residue
+CC       via an autocatalytic post-translational modification. Two non-identical
+CC       subunits are generated from the proenzyme in this reaction, and the
+CC       pyruvate is formed at the N-terminus of the alpha chain, which is
+CC       derived from the carboxyl end of the proenzyme. The post-translation
+CC       cleavage follows an unusual pathway, termed non-hydrolytic serinolysis,
+CC       in which the side chain hydroxyl group of the serine supplies its
+CC       oxygen atom to form the C-terminus of the beta chain, while the
+CC       remainder of the serine residue undergoes an oxidative deamination to
+CC       produce ammonia and the pyruvoyl group blocking the N-terminus of the
+CC       alpha chain. {ECO:0000250|UniProtKB:P17707}.
+CC   -!- DISRUPTION PHENOTYPE: Reduced body size as compared to wild-type with
+CC       the production of fewer progeny. Reduced spermidine levels, but
+CC       increased putrescine accumulation. Double knockout with the polyamine
+CC       transporter catp-5 results in a reduced brood size, delayed
+CC       postembryonic development, and a more marked reduction in spermidine
+CC       levels and a more marked increase in putrescine accumulation as
+CC       compared to the single mutants. {ECO:0000269|PubMed:19762559}.
+CC   -!- SIMILARITY: Belongs to the eukaryotic AdoMetDC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y12500; CAA73102.1; -; Genomic_DNA.
+DR   EMBL; Y12499; CAA73101.1; -; mRNA.
+DR   EMBL; BX284601; CAB16315.1; -; Genomic_DNA.
+DR   EMBL; AL023853; CAB16315.1; JOINED; Genomic_DNA.
+DR   PIR; T22361; T22361.
+DR   RefSeq; NP_493448.1; NM_061047.5.
+DR   SMR; O02655; -.
+DR   BioGRID; 38658; 1.
+DR   IntAct; O02655; 2.
+DR   STRING; 6239.F47G4.7.1; -.
+DR   EPD; O02655; -.
+DR   PaxDb; O02655; -.
+DR   PeptideAtlas; O02655; -.
+DR   EnsemblMetazoa; F47G4.7.1; F47G4.7.1; WBGene00004875.
+DR   GeneID; 173269; -.
+DR   UCSC; F47G4.7.1; c. elegans.
+DR   CTD; 173269; -.
+DR   WormBase; F47G4.7; CE18705; WBGene00004875; smd-1.
+DR   eggNOG; KOG0788; Eukaryota.
+DR   GeneTree; ENSGT00390000011776; -.
+DR   HOGENOM; CLU_023050_1_0_1; -.
+DR   InParanoid; O02655; -.
+DR   OMA; RTDMQCC; -.
+DR   OrthoDB; 932490at2759; -.
+DR   PhylomeDB; O02655; -.
+DR   BRENDA; 4.1.1.50; 1045.
+DR   Reactome; R-CEL-351202; Metabolism of polyamines.
+DR   UniPathway; UPA00331; UER00451.
+DR   PRO; PR:O02655; -.
+DR   Proteomes; UP000001940; Chromosome I.
+DR   Bgee; WBGene00004875; Expressed in multi-cellular organism and 4 other tissues.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004014; F:adenosylmethionine decarboxylase activity; IDA:WormBase.
+DR   GO; GO:0006557; P:S-adenosylmethioninamine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IDA:WormBase.
+DR   GO; GO:0006597; P:spermine biosynthetic process; IDA:WormBase.
+DR   InterPro; IPR001985; S-AdoMet_decarboxylase.
+DR   InterPro; IPR016067; S-AdoMet_deCO2ase_core.
+DR   InterPro; IPR018166; S-AdoMet_deCO2ase_CS.
+DR   PANTHER; PTHR11570; PTHR11570; 1.
+DR   Pfam; PF01536; SAM_decarbox; 1.
+DR   PIRSF; PIRSF001355; S-AdenosylMet_decarboxylase; 1.
+DR   SUPFAM; SSF56276; SSF56276; 1.
+DR   TIGRFAMs; TIGR00535; SAM_DCase; 1.
+DR   PROSITE; PS01336; ADOMETDC; 1.
+PE   1: Evidence at protein level;
+KW   Autocatalytic cleavage; Decarboxylase; Lyase; Polyamine biosynthesis;
+KW   Pyruvate; Reference proteome; S-adenosyl-L-methionine; Schiff base;
+KW   Spermidine biosynthesis; Zymogen.
+FT   CHAIN           1..82
+FT                   /note="S-adenosylmethionine decarboxylase beta chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000029975"
+FT   CHAIN           83..368
+FT                   /note="S-adenosylmethionine decarboxylase alpha chain"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000029976"
+FT   ACT_SITE        26
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   ACT_SITE        29
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   ACT_SITE        83
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   ACT_SITE        97
+FT                   /note="Proton donor; for catalytic activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   ACT_SITE        246
+FT                   /note="Proton acceptor; for processing activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   ACT_SITE        261
+FT                   /note="Proton acceptor; for processing activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   SITE            82..83
+FT                   /note="Cleavage (non-hydrolytic); by autolysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+FT   MOD_RES         83
+FT                   /note="Pyruvic acid (Ser); by autocatalysis"
+FT                   /evidence="ECO:0000250|UniProtKB:P17707"
+SQ   SEQUENCE   368 AA;  42143 MW;  72CED2D16BC46E5E CRC64;
+     MSATSATNFA VQTHPVKAPD EEYFFEGAEK LLELWFCSST QNETRSLRII PREEIDAMLD
+     IARCKILHSK HNESIDSYVL SESSLFISDN RVILKTCGTT RLLAALPVIM QLAGAYAGLD
+     QVQSVYYSRK NFLRPDLQPS LHKNFDAEVE YLDSFFVDGH AYCLGSLKQD RWYLYTFHRE
+     VEFPAHKQPD HTLEILMSDL DEEVLHKFTK DYAVDGNDCF MRAGIDKIIP AGADVHDELF
+     DPCGYSMNAY MNDTDQYATI HVTPEKAFSF ASFETNQDLV CLYSQTRKVL QCFRPNKILM
+     TVFANDISEK GKDAQQQLWD RELPGYRRTN VQFVRLETET LVYAHFVRKA STGQDSSSSD
+     EDDGERSD
+//

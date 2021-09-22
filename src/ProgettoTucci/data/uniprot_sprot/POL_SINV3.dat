@@ -1,0 +1,214 @@
+ID   POL_SINV3               Reviewed;        2580 AA.
+AC   C1JCT1;
+DT   22-NOV-2017, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=Polyprotein;
+DE   Contains:
+DE     RecName: Full=Helicase {ECO:0000303|PubMed:19403154};
+DE              EC=3.6.4.13 {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=3C-like protease {ECO:0000303|PubMed:19403154};
+DE              Short=3CL-PRO;
+DE              EC=3.4.22.- {ECO:0000305};
+DE   Contains:
+DE     RecName: Full=RNA-directed RNA polymerase {ECO:0000255|PROSITE-ProRule:PRU00539};
+DE              EC=2.7.7.48 {ECO:0000255|PROSITE-ProRule:PRU00539};
+DE   Contains:
+DE     RecName: Full=Capsid protein VP1 {ECO:0000303|PubMed:24686475};
+OS   Solenopsis invicta virus 3 (SINV-3).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+OC   Picornavirales; Invictavirus.
+OX   NCBI_TaxID=631345;
+OH   NCBI_TaxID=13686; Solenopsis invicta (Red imported fire ant) (Solenopsis wagneri).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA], AND ACTIVE SITE (3C-LIKE PROTEASE).
+RC   STRAIN=DM {ECO:0000312|EMBL:ACO37271.1};
+RX   PubMed=19403154; DOI=10.1016/j.virol.2009.03.028;
+RA   Valles S.M., Hashimoto Y.;
+RT   "Isolation and characterization of Solenopsis invicta virus 3, a new
+RT   positive-strand RNA virus infecting the red imported fire ant, Solenopsis
+RT   invicta.";
+RL   Virology 388:354-361(2009).
+RN   [2]
+RP   RIBOSOMAL FRAMESHIFTING, FUNCTION (CAPSID PROTEIN VP1), SUBCELLULAR
+RP   LOCATION (CAPSID PROTEIN VP1), ACETYLATION AT MET-2346, AND PROTEOLYTIC
+RP   CLEAVAGE (POLYPROTEIN).
+RX   PubMed=24686475; DOI=10.1371/journal.pone.0093497;
+RA   Valles S.M., Bell S., Firth A.E.;
+RT   "Solenopsis invicta virus 3: mapping of structural proteins, ribosomal
+RT   frameshifting, and similarities to Acyrthosiphon pisum virus and Kelp fly
+RT   virus.";
+RL   PLoS ONE 9:E93497-E93497(2014).
+CC   -!- FUNCTION: [Capsid protein VP1]: Assembles with VP1-FSD and VP2 to form
+CC       an icosahedral capsid. VP1 is about 5 time more abundant than VP1-FSD
+CC       in the virion. {ECO:0000269|PubMed:24686475}.
+CC   -!- FUNCTION: [RNA-directed RNA polymerase]: Replicates genomic and
+CC       antigenomic RNA. {ECO:0000250|UniProtKB:Q6UP17, ECO:0000255|PROSITE-
+CC       ProRule:PRU00539}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC         Evidence={ECO:0000250|UniProtKB:Q6UP17};
+CC   -!- SUBCELLULAR LOCATION: [Capsid protein VP1]: Virion
+CC       {ECO:0000269|PubMed:24686475}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Ribosomal frameshifting; Named isoforms=2;
+CC       Name=Polyprotein;
+CC         IsoId=C1JCT1-1; Sequence=Displayed;
+CC       Name=Polyprotein-FSD;
+CC         IsoId=C1JCT2-1; Sequence=External;
+CC   -!- PTM: [Capsid protein VP1]: N-acetylated. {ECO:0000269|PubMed:24686475}.
+CC   -!- PTM: [Polyprotein]: Proteolytic cleavages of the polyprotein yield
+CC       mature proteins. {ECO:0000305|PubMed:24686475}.
+CC   -!- MISCELLANEOUS: [Capsid protein VP1]: A sgRNA is also expressed which
+CC       encloses the VP1 capsid protein and probably a leader protein.
+CC       {ECO:0000269|PubMed:24686475}.
+CC   -!- MISCELLANEOUS: [Isoform Polyprotein]: Produced by conventional
+CC       translation. {ECO:0000269|PubMed:24686475}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ528584; ACO37271.1; -; Genomic_RNA.
+DR   RefSeq; YP_002790879.1; NC_012531.1. [C1JCT1-1]
+DR   iPTMnet; C1JCT1; -.
+DR   GeneID; 7751223; -.
+DR   KEGG; vg:7751223; -.
+DR   BRENDA; 2.7.7.48; 11653.
+DR   Proteomes; UP000207613; Genome.
+DR   GO; GO:0019012; C:virion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004197; F:cysteine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   Gene3D; 2.60.120.20; -; 1.
+DR   Gene3D; 3.30.70.270; -; 2.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR000605; Helicase_SF3_ssDNA/RNA_vir.
+DR   InterPro; IPR014759; Helicase_SF3_ssRNA_vir.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR044067; PCV_3C_PRO.
+DR   InterPro; IPR009003; Peptidase_S1_PA.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR001205; RNA-dir_pol_C.
+DR   InterPro; IPR007094; RNA-dir_pol_PSvirus.
+DR   InterPro; IPR029053; Viral_coat.
+DR   Pfam; PF00680; RdRP_1; 1.
+DR   Pfam; PF00910; RNA_helicase; 1.
+DR   SUPFAM; SSF50494; SSF50494; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS51874; PCV_3C_PRO; 1.
+DR   PROSITE; PS50507; RDRP_SSRNA_POS; 1.
+DR   PROSITE; PS51218; SF3_HELICASE_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; ATP-binding; Helicase; Hydrolase; Nucleotide-binding;
+KW   Nucleotidyltransferase; Protease; Reference proteome;
+KW   Ribosomal frameshifting; RNA-directed RNA polymerase; Thiol protease;
+KW   Transferase; Viral RNA replication; Virion.
+FT   CHAIN           1..2580
+FT                   /note="Polyprotein"
+FT                   /id="PRO_0000442440"
+FT   CHAIN           1..?
+FT                   /note="Helicase"
+FT                   /id="PRO_0000442441"
+FT   CHAIN           ?..?1432
+FT                   /note="3C-like protease"
+FT                   /id="PRO_0000442442"
+FT   CHAIN           ?1433..2345
+FT                   /note="RNA-directed RNA polymerase"
+FT                   /id="PRO_0000442443"
+FT   CHAIN           2346..2580
+FT                   /note="Capsid protein VP1"
+FT                   /id="PRO_0000442444"
+FT   DOMAIN          369..543
+FT                   /note="SF3 helicase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00551"
+FT   DOMAIN          1206..1423
+FT                   /note="Peptidase C3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222"
+FT   DOMAIN          1914..2042
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+FT   NP_BIND         396..403
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00551"
+FT   COMPBIAS        1176..1179
+FT                   /note="Poly-Arg"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        1258
+FT                   /note="For 3C-like protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222,
+FT                   ECO:0000305|PubMed:19403154"
+FT   ACT_SITE        1295
+FT                   /note="For 3C-like protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222,
+FT                   ECO:0000305|PubMed:19403154"
+FT   ACT_SITE        1381
+FT                   /note="For 3C-like protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01222,
+FT                   ECO:0000305|PubMed:19403154"
+FT   SITE            1432..1433
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000305"
+FT   SITE            2345..2346
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000269|PubMed:24686475"
+FT   MOD_RES         2346
+FT                   /note="N-acetylmethionine; by host"
+FT                   /evidence="ECO:0000269|PubMed:24686475"
+SQ   SEQUENCE   2580 AA;  299117 MW;  238B7E9621BEAD60 CRC64;
+     MSEKTQTFVQ NETHVLDMTS DFKSDLSLEK VTSSVEQTDD LVSKIINNND LDIKDLSFLR
+     NLLLSTLQYL GIAKFVAINI TLSILSILML LINSCAKFTR IVNLSSHILN IITTLGLYFQ
+     VSSMEIEEIT QTFENEFGTY DDDKILSHYI KICNLPNRKD VYEYISLNDL KYKIKLPDIS
+     FYELKNDILS KNKNLHLWIF QKFTDEFLAM WFGVQPYRIS NLREMLVISR QGFIPKDLFN
+     EIRKLCNMGV SVIISFIQSK LFDEPFKKRD CTQALKDASV ISSPFDTLWN LISKQVCDNS
+     AEERFTQTIL DFTSEFDNFL GIPNYKFAKN QKLVNTISKS LDACAKFIRD CPKDKQTEIF
+     PLQGLHTATV KRRNEILTNV MPKFARQEPF VVLFQGPGGI GKTHLVQQLA TKCVNSFYQD
+     HEDDYIEISP DDKYWPPLSG QRVAFFDEAG NLNDLTEDLL FRNIKSICSP AYFNCAAADI
+     EHKISPCPFE LVFATVNTDL DTLQSKISST FGQASVFPIW RRCIVVECSW NEKELGPFNY
+     KNPSGHRSDY SHITMNYMSY DDKTQKLALE KEINFDTLFD MIRLRFRKKQ QEHDTKISIL
+     NNEIQRQSNS KQHFSVCLYG EPGQGKTYNL NKLITTFANA TNLKIGSEEK PSIHIFDDYI
+     KDENDENCSK FMDIYNNKLP NNSVIFSATN VYPKTHFFPT FFLTNLIYAF IQPFKQVGLY
+     RRLGFDGYTD IPNSSVNAPI FVQNFKFYER KQHICYFLSL EFLKNIICYI FFFLYFPLKF
+     IKKIDLIEIK DVNKYVYDRY INFLSLSKQI EIVEYPPNLE NVEFDFRFNM NKFHRVSFNN
+     PFELDKYIHF NKNSYENLLH FDWKMYLSPR VKHRLALSYE KFFITISEVN KEIIIEELKR
+     YVLLFKQFNI DPNMEINLGE YGSFYYINGK IHLMTINIES NVSEIPVFTD GDYVYISEHK
+     IPVIDLFDNI NINSKYNLSF DQSIALNSFK TGDSFYSNAK VRKSLSKFVL LNYQTKFKLY
+     LKEAKDKVKN FIETPIGHLL SILLTIFVIC YASFKIYSKF SNFFSKDQAI EDQRKGEKKI
+     KKITNYDSDG VQPQRKGEKK IKKVTNYDSD GVQPQSNVKV EEEIKLVFDP TGQKLLFGND
+     FTSELETLVE LEKDDEEFTK SKIDNKSMAG LRREVRRRRY ARSKKAQIEK QEVLTLPDVN
+     GFEGGKPYFQ IAEEKARKNL CQIYMIANNE NCIASKFSDH IVCYGLFVFK KRLASVGHIV
+     EALKCAPGYN LYAGCDQFNG KLYKMNLVRN YRKRELSVWD VDCPNDFVDL TSFFIPKEEL
+     YDAENCNTVL GRFGMNKREV YLYGNCEFIQ EFFKVDNKGA QEFGYIDWAT VDITLTTGGD
+     CGLPYYICER KKFHNKIMGL HFAGNNVNHK TIGMSALIYK EDLVVWKGAE RQSKCKFCDV
+     KDIIIAQPDI PKEKYKGYNH EIVWNSLHES SPTTLNEELE HYLNIFPKFT GTIIKHSGDK
+     FYGSVKHSHT QFISKFKTEL TVTNGWKLST AGDCQFESNH ISPNTEVMYR VVDVQFNSIF
+     KAFKSQPYIK NFRLIANVYE KDGKQRVTIL TIIPVSDFNV KQQTVRQALV PLHLNEDEEV
+     YVTEDVSDIF KTAIKRKQRG ILPDVPYETV ENETVEILGI THRNMTPEPA QMYKPTPFYK
+     LALKFNLDHK LPVNFNMKDC PQEQKDMMVL DRLGQPNPRI TQSLKWAHKD YSPDYELRKY
+     VKEQYMCNIM EYYAGCNLLT EEQILKGYGP NHRLYGALGG MEIDSSIGWT MKELYRVTKK
+     SDVINLDSNG NYSFLNNEAA QYTQELLKIS MEQAHNGQRY YTAFNELMKM EKLKPSKNFI
+     PRTFTAQDLN GVLMERWILG EFTARALAWD ENCAVGCNPY ATFHKFATKF FKFKNFFSCD
+     YKNFDRTIPK CVFEDFRDML IQANPHMKNE IYACFQTIID RIQVSGNSIL LVHGGMPSGC
+     VPTAPLNSKV NDIMIYTAYV NILRRADRGD ITSYRYYRDL VCRLFYGDDV IIAVDDSIAD
+     IFNCQTLSEE MKILFGMNMT DGSKSDIIPK FETIETLSFI SRFFRPLKHQ ENFIVGALKK
+     ISIQTHFYYA TDDTPEHFGQ VFKTIQEEAA LWEEEYFNKI QSYIQEIIRK FPEISKFFNF
+     ESYKSIQKRY IMNGWNEFVK LEKLDLNLNK KKSSKVTGIH SKQYSKFLKF LSRIENEKAA
+     LEGNFNKESV NTWYFKMSKA MHLNEIFQKG LISKPLAEFY FNEGQKMWDC NITFRRSKDD
+     LPFTFSGSGT TKACAREQAA EEALVLFSQE DEIVRQINDI QSDCKFCKKM IRYKKLLSGV
+     SIQRQMNVSK ITENHVPSAG MMATDPSVAP DSGIATNTQT PSISRVLNPI ARALDNPAGT
+     GAPFDKHTYV YNVFTRWPEM STVVNKSLAA GAEVFKISLD PNKLPKRILQ YIQFHKTIIP
+     QIEVQILIGG AAGTVGWLKV GWVPDASTAK KYSLDDLQLV ASETINLNST ITMSMIINDS
+     RRNGMFRLTK SDPEPWPGIV CLVEHPITNV QRNDDVNYPV IVSVRLGPDC QLMQPYNDLN
+//

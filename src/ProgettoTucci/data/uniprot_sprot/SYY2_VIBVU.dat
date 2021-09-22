@@ -1,0 +1,106 @@
+ID   SYY2_VIBVU              Reviewed;         395 AA.
+AC   Q8DBX3;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 2.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Tyrosine--tRNA ligase 2 {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            EC=6.1.1.1 {ECO:0000255|HAMAP-Rule:MF_02007};
+DE   AltName: Full=Tyrosyl-tRNA synthetase 2 {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            Short=TyrRS 2 {ECO:0000255|HAMAP-Rule:MF_02007};
+GN   Name=tyrS2 {ECO:0000255|HAMAP-Rule:MF_02007}; OrderedLocusNames=VV1_1683;
+OS   Vibrio vulnificus (strain CMCP6).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=216895;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CMCP6;
+RA   Rhee J.H., Kim S.Y., Chung S.S., Kim J.J., Moon Y.H., Jeong H., Choy H.E.;
+RT   "Complete genome sequence of Vibrio vulnificus CMCP6.";
+RL   Submitted (DEC-2002) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   SEQUENCE REVISION TO 373-380.
+RC   STRAIN=CMCP6;
+RX   PubMed=21245845; DOI=10.1038/msb.2010.115;
+RA   Kim H.U., Kim S.Y., Jeong H., Kim T.Y., Kim J.J., Choy H.E., Yi K.Y.,
+RA   Rhee J.H., Lee S.Y.;
+RT   "Integrative genome-scale metabolic analysis of Vibrio vulnificus for drug
+RT   targeting and discovery.";
+RL   Mol. Syst. Biol. 7:460-460(2011).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-
+CC       step reaction: tyrosine is first activated by ATP to form Tyr-AMP and
+CC       then transferred to the acceptor end of tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_02007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosine + tRNA(Tyr) = AMP + diphosphate + H(+) + L-
+CC         tyrosyl-tRNA(Tyr); Xref=Rhea:RHEA:10220, Rhea:RHEA-COMP:9706,
+CC         Rhea:RHEA-COMP:9707, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58315, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78536, ChEBI:CHEBI:456215; EC=6.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02007};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       TyrS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016795; AAO10099.2; -; Genomic_DNA.
+DR   RefSeq; WP_011079602.1; NC_004459.3.
+DR   SMR; Q8DBX3; -.
+DR   EnsemblBacteria; AAO10099; AAO10099; VV1_1683.
+DR   GeneID; 57910294; -.
+DR   KEGG; vvu:VV1_1683; -.
+DR   HOGENOM; CLU_024003_5_0_6; -.
+DR   Proteomes; UP000002275; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00165; S4; 1.
+DR   CDD; cd00805; TyrRS_core; 1.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02007; Tyr_tRNA_synth_type2; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024108; Tyr-tRNA-ligase_bac_2.
+DR   PANTHER; PTHR11766; PTHR11766; 1.
+DR   PANTHER; PTHR11766:SF1; PTHR11766:SF1; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   TIGRFAMs; TIGR00234; tyrS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding.
+FT   CHAIN           1..395
+FT                   /note="Tyrosine--tRNA ligase 2"
+FT                   /id="PRO_0000236778"
+FT   DOMAIN          334..395
+FT                   /note="S4 RNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+FT   MOTIF           42..51
+FT                   /note="'HIGH' region"
+FT   MOTIF           226..230
+FT                   /note="'KMSKS' region"
+FT   BINDING         229
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+SQ   SEQUENCE   395 AA;  43834 MW;  EA950AA7B3541907 CRC64;
+     MASIEAALAE IKRGVEELIP EEELIAKLKE GRPLRIKLGA DPTAPDIHLG HTVILNKLRA
+     FQDLGHDVTF LIGDFTGMVG DPTGKNSTRP PLTREDVLRN AETYKQQVFK ILDPAKTKIQ
+     FNSEWLSELG AEGMIRLAAN QTVARMLERD DFKKRYAGGQ PIAIHEFMYP LLQGYDSVAM
+     ETDVELGGTD QKFNLLMGRE LQKANGQKPQ VVLMMPLLVG LDGEKKMSKS ANNYIGVSEA
+     PSEMFGKIMS ISDDLMWSYY ELLSFRPLEE LAQFKADVAA GKNPRDIKVL LAKEIIARFH
+     SEADADAAEQ EFVNRFAKNQ IPDEMPEFTF AAGTPMANLL KEAELCSSTS EAMRMVKQGA
+     AKMDGEKVED AKAEPAVGTY VFQVGKRKFA RITIA
+//

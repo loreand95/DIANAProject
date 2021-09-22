@@ -1,0 +1,129 @@
+ID   OBG_STRPI               Reviewed;         434 AA.
+AC   B1IBL9;
+DT   13-OCT-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   10-FEB-2021, entry version 84.
+DE   RecName: Full=GTPase Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+DE            EC=3.6.5.- {ECO:0000255|HAMAP-Rule:MF_01454};
+DE   AltName: Full=GTP-binding protein Obg {ECO:0000255|HAMAP-Rule:MF_01454};
+GN   Name=obg {ECO:0000255|HAMAP-Rule:MF_01454}; OrderedLocusNames=SPH_1167;
+OS   Streptococcus pneumoniae (strain Hungary19A-6).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=487214;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Hungary19A-6;
+RX   PubMed=21034474; DOI=10.1186/gb-2010-11-10-r107;
+RA   Donati C., Hiller N.L., Tettelin H., Muzzi A., Croucher N.J.,
+RA   Angiuoli S.V., Oggioni M., Dunning Hotopp J.C., Hu F.Z., Riley D.R.,
+RA   Covacci A., Mitchell T.J., Bentley S.D., Kilian M., Ehrlich G.D.,
+RA   Rappuoli R., Moxon E.R., Masignani V.;
+RT   "Structure and dynamics of the pan-genome of Streptococcus pneumoniae and
+RT   closely related species.";
+RL   Genome Biol. 11:R107.1-R107.19(2010).
+CC   -!- FUNCTION: An essential GTPase which binds GTP, GDP and possibly
+CC       (p)ppGpp with moderate affinity, with high nucleotide exchange rates
+CC       and a fairly low GTP hydrolysis rate. Plays a role in control of the
+CC       cell cycle, stress response, ribosome biogenesis and in those bacteria
+CC       that undergo differentiation, in morphogenesis control.
+CC       {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01454};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class OBG-HflX-like GTPase
+CC       superfamily. OBG GTPase family. {ECO:0000255|HAMAP-Rule:MF_01454}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000936; ACA37029.1; -; Genomic_DNA.
+DR   SMR; B1IBL9; -.
+DR   EnsemblBacteria; ACA37029; ACA37029; SPH_1167.
+DR   KEGG; spv:SPH_1167; -.
+DR   HOGENOM; CLU_011747_2_1_9; -.
+DR   OMA; WVRQTDF; -.
+DR   Proteomes; UP000002163; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd01898; Obg; 1.
+DR   Gene3D; 2.40.240.60; -; 1.
+DR   Gene3D; 2.70.210.12; -; 1.
+DR   HAMAP; MF_01454; GTPase_Obg; 1.
+DR   InterPro; IPR031167; G_OBG.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR035101; GTP-bd_Obg.
+DR   InterPro; IPR014100; GTP-bd_Obg/CgtA.
+DR   InterPro; IPR036346; GTP-bd_prot_GTP1/OBG_C_sf.
+DR   InterPro; IPR006074; GTP1-OBG_CS.
+DR   InterPro; IPR006169; GTP1_OBG_dom.
+DR   InterPro; IPR036726; GTP1_OBG_dom_sf.
+DR   InterPro; IPR015349; OCT_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF09269; DUF1967; 1.
+DR   Pfam; PF01018; GTP1_OBG; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PIRSF; PIRSF002401; GTP_bd_Obg/CgtA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF102741; SSF102741; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF82051; SSF82051; 1.
+DR   TIGRFAMs; TIGR02729; Obg_CgtA; 1.
+DR   TIGRFAMs; TIGR03595; Obg_CgtA_exten; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51710; G_OBG; 1.
+DR   PROSITE; PS00905; GTP1_OBG; 1.
+DR   PROSITE; PS51883; OBG; 1.
+DR   PROSITE; PS51881; OCT; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding.
+FT   CHAIN           1..434
+FT                   /note="GTPase Obg"
+FT                   /id="PRO_0000386301"
+FT   DOMAIN          1..158
+FT                   /note="Obg"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01231"
+FT   DOMAIN          159..336
+FT                   /note="OBG-type G"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   DOMAIN          356..434
+FT                   /note="OCT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01229"
+FT   NP_BIND         165..172
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         190..194
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         212..215
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         282..285
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   NP_BIND         317..319
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   METAL           172
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+FT   METAL           192
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01454"
+SQ   SEQUENCE   434 AA;  48088 MW;  D8D7A6227971BDB5 CRC64;
+     MFLDTAKIKV KAGNGGDGMV AFRREKYVPN GGPWGGDGGR GGNVVFVVDE GLRTLMDFRY
+     NRHFKADSGE KGMTKGMHGR GAEDLRVRVP QGTTVRDAET GKVLTDLIEH GQEFIVAHGG
+     RGGRGNIRFA TPKNPAPEIS ENGEPGQERE LQLELKILAD VGLVGFPSVG KSTLLSVITS
+     AKPKIGAYHF TTIVPNLGMV RTQSGESFAV ADLPGLIEGA SQGVGLGTQF LRHIERTRVI
+     LHIIDMSASE GRDPYEDYLA INKELESYNL RLMERPQIIV ANKMDMPESQ ENLEDFKKKL
+     AENYDEFEEL PAIFPISGLT KQGLATLLDA TAELLDKTPE FLLYDESDME EEAYYGFDEE
+     EKAFEISRDD DATWVLSGEK LMKLFNMTNF DRDESVMKFA RQLRGMGGDE ALRARGAKDG
+     DLVRIGKFEF EFVD
+//

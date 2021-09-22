@@ -1,0 +1,103 @@
+ID   PEPX_STRP3              Reviewed;         760 AA.
+AC   P0DD36; Q8K5X7;
+DT   27-JUL-2011, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 1.
+DT   07-APR-2021, entry version 49.
+DE   RecName: Full=Xaa-Pro dipeptidyl-peptidase {ECO:0000255|HAMAP-Rule:MF_00698};
+DE            EC=3.4.14.11 {ECO:0000255|HAMAP-Rule:MF_00698};
+DE   AltName: Full=X-Pro dipeptidyl-peptidase {ECO:0000255|HAMAP-Rule:MF_00698};
+DE   AltName: Full=X-prolyl-dipeptidyl aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00698};
+DE            Short=X-PDAP {ECO:0000255|HAMAP-Rule:MF_00698};
+GN   Name=pepX {ECO:0000255|HAMAP-Rule:MF_00698}; Synonyms=pepXP;
+GN   OrderedLocusNames=SpyM3_1603;
+OS   Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=198466;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-595 / MGAS315;
+RX   PubMed=12122206; DOI=10.1073/pnas.152298499;
+RA   Beres S.B., Sylva G.L., Barbian K.D., Lei B., Hoff J.S., Mammarella N.D.,
+RA   Liu M.-Y., Smoot J.C., Porcella S.F., Parkins L.D., Campbell D.S.,
+RA   Smith T.M., McCormick J.K., Leung D.Y.M., Schlievert P.M., Musser J.M.;
+RT   "Genome sequence of a serotype M3 strain of group A Streptococcus: phage-
+RT   encoded toxins, the high-virulence phenotype, and clone emergence.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:10078-10083(2002).
+CC   -!- FUNCTION: Removes N-terminal dipeptides sequentially from polypeptides
+CC       having unsubstituted N-termini provided that the penultimate residue is
+CC       proline. {ECO:0000255|HAMAP-Rule:MF_00698}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolyzes Xaa-Pro-|- bonds to release unblocked, N-terminal
+CC         dipeptides from substrates including Ala-Pro-|-p-nitroanilide and
+CC         (sequentially) Tyr-Pro-|-Phe-Pro-|-Gly-Pro-|-Ile.; EC=3.4.14.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00698};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00698}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00698}.
+CC   -!- SIMILARITY: Belongs to the peptidase S15 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00698}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014074; AAM80210.1; -; Genomic_DNA.
+DR   RefSeq; WP_011054979.1; NC_004070.1.
+DR   SMR; P0DD36; -.
+DR   EnsemblBacteria; AAM80210; AAM80210; SpyM3_1603.
+DR   KEGG; spg:SpyM3_1603; -.
+DR   HOGENOM; CLU_011800_0_0_9; -.
+DR   OMA; LYTASPY; -.
+DR   BioCyc; SPYO198466:G1FZW-1705-MONOMER; -.
+DR   Proteomes; UP000000564; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004177; F:aminopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008239; F:dipeptidyl-peptidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008236; F:serine-type peptidase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.120.260; -; 1.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   HAMAP; MF_00698; Aminopeptidase_S15; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR008979; Galactose-bd-like_sf.
+DR   InterPro; IPR008252; Pept_S15_Xpro.
+DR   InterPro; IPR015251; PepX_N_dom.
+DR   InterPro; IPR036313; PepX_N_dom_sf.
+DR   InterPro; IPR000383; Xaa-Pro-like_dom.
+DR   InterPro; IPR013736; Xaa-Pro_dipept_C.
+DR   Pfam; PF02129; Peptidase_S15; 1.
+DR   Pfam; PF08530; PepX_C; 1.
+DR   Pfam; PF09168; PepX_N; 1.
+DR   PRINTS; PR00923; LACTOPTASE.
+DR   SMART; SM00939; PepX_C; 1.
+DR   SMART; SM00940; PepX_N; 1.
+DR   SUPFAM; SSF49785; SSF49785; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   SUPFAM; SSF81761; SSF81761; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Protease; Serine protease.
+FT   CHAIN           1..760
+FT                   /note="Xaa-Pro dipeptidyl-peptidase"
+FT                   /id="PRO_0000220232"
+FT   ACT_SITE        349
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00698"
+FT   ACT_SITE        469
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00698"
+FT   ACT_SITE        499
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00698"
+SQ   SEQUENCE   760 AA;  86719 MW;  B9F9119217A71ACD CRC64;
+     MRYNQFSYIP TSLERAAEEL KELGFDLDLQ KTAKANLESF LRKLFFHYPD SDYPLSHLIA
+     KNDMDALSFF QSEQELSKEV FDLLALQVLG FIPGVDFTEA DAFLDKLAFP IHFDETEIIK
+     HIHHLLATRC KSGMTLIDDL VSQGMLTMDN DYHFFNGKSL ATFDTSQLIR EVVYVEAPLD
+     TDQDGQLDLI KVNIIRPQSQ KPLPTLMTPS PYHQGINEVA NDKKLYRMEK ELVVKKRRQI
+     TVEDRDFIPL ETQPCKLPIG QNLESFSYIN SYSLNDYFLA RGFANIYVSG VGTAGSTGFM
+     TSGDYAQIES FKAVIDWLNG RATAYTSHSK THQVRADWAN GLVCTTGKSY LGTMSTGLAT
+     TGVDGLAMII AESAISSWYN YYRENGLVCS PGGYPGEDLD VLTELTYSRN LLAGDYLRHN
+     DRYQELLNQQ SQALDRQSGD YNQFWHDRNY LKNAHQIKCD VVYTHGLQDW NVKPRQVYEI
+     VNALPSTINK HLFLHQGEHV YMHNWQSIDF RESMNALLCQ KLLGLANDFS LPEMIWQDNT
+     CPQNWQERKV FGTSTIKELD LGQELLLIDN HYGEDEFKAY GKDFRAFKAA LFKGKANQAL
+     VDILLEEDLL INGEIVLQLK VKSSENKGLL SAQILDYGKK KRLGDLPIAL TQSSIDNGQN
+     FSREPLKELP FRENSYRVIS KGFMNLQNRN NLSSIETIPN NKWMTVRLPL QPTIYHLEKG
+     DTLRVILYTT DFEHTVRDNS NYALTIDLSQ SQLIVPIASN
+//

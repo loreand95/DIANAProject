@@ -1,0 +1,102 @@
+ID   PGK_DESAL               Reviewed;         397 AA.
+AC   B8FJP4;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=Phosphoglycerate kinase {ECO:0000255|HAMAP-Rule:MF_00145};
+DE            EC=2.7.2.3 {ECO:0000255|HAMAP-Rule:MF_00145};
+GN   Name=pgk {ECO:0000255|HAMAP-Rule:MF_00145}; OrderedLocusNames=Dalk_0617;
+OS   Desulfatibacillum aliphaticivorans.
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales;
+OC   Desulfobacteraceae; Desulfatibacillum.
+OX   NCBI_TaxID=218208;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AK-01;
+RX   PubMed=21651686; DOI=10.1111/j.1462-2920.2011.02516.x;
+RA   Callaghan A.V., Morris B.E., Pereira I.A., McInerney M.J., Austin R.N.,
+RA   Groves J.T., Kukor J.J., Suflita J.M., Young L.Y., Zylstra G.J., Wawrik B.;
+RT   "The genome sequence of Desulfatibacillum alkenivorans AK-01: a blueprint
+RT   for anaerobic alkane oxidation.";
+RL   Environ. Microbiol. 14:101-113(2012).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-3-phosphoglycerate + ATP = (2R)-3-phospho-glyceroyl
+CC         phosphate + ADP; Xref=Rhea:RHEA:14801, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:58272, ChEBI:CHEBI:456216; EC=2.7.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00145};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 2/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_00145}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SIMILARITY: Belongs to the phosphoglycerate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001322; ACL02322.1; -; Genomic_DNA.
+DR   SMR; B8FJP4; -.
+DR   STRING; 439235.Dalk_0617; -.
+DR   EnsemblBacteria; ACL02322; ACL02322; Dalk_0617.
+DR   KEGG; dal:Dalk_0617; -.
+DR   eggNOG; COG0126; Bacteria.
+DR   HOGENOM; CLU_025427_0_2_7; -.
+DR   UniPathway; UPA00109; UER00185.
+DR   Proteomes; UP000000739; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004618; F:phosphoglycerate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00318; Phosphoglycerate_kinase; 1.
+DR   Gene3D; 3.40.50.1260; -; 2.
+DR   HAMAP; MF_00145; Phosphoglyc_kinase; 1.
+DR   InterPro; IPR001576; Phosphoglycerate_kinase.
+DR   InterPro; IPR015911; Phosphoglycerate_kinase_CS.
+DR   InterPro; IPR015824; Phosphoglycerate_kinase_N.
+DR   InterPro; IPR036043; Phosphoglycerate_kinase_sf.
+DR   PANTHER; PTHR11406; PTHR11406; 1.
+DR   Pfam; PF00162; PGK; 1.
+DR   PIRSF; PIRSF000724; Pgk; 1.
+DR   PRINTS; PR00477; PHGLYCKINASE.
+DR   SUPFAM; SSF53748; SSF53748; 1.
+DR   PROSITE; PS00111; PGLYCERATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Glycolysis; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..397
+FT                   /note="Phosphoglycerate kinase"
+FT                   /id="PRO_1000192824"
+FT   NP_BIND         349..352
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   REGION          19..21
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   REGION          58..61
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         35
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         117
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         150
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         201
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         323
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+SQ   SEQUENCE   397 AA;  43130 MW;  B8ECC9755086858B CRC64;
+     MLNMRDVDIS GKRVLIRVDV NVPLDANLNI TDDTRIRAVL PSINYALDEG AKVIIASHMG
+     RPKGQVVPEL SMAPVAKRFK RLLKKEVELA PDSVGPEVKA MVEKMKDGDV IMLENLRFHQ
+     AEIDNDDAFA KELASLCDVY INNAFAVAHR KNASVVAITR HAPVCAAGFL LQSELNYFAK
+     AMNDPARPLV AIIGGAKVSS KLGALHHMLQ HVDKFVVGGA MASTFLKSVD YNVGKSKVED
+     DLLWEARSLM KRATMQGTAF YIPVDAVVAD RFSPDAESKI VPIREIPPEW MIMDIGPATA
+     LLYSEVLASA KTIIWNGPMG VFEMDAFSRG TMSMVNYVAN SYALSIIGGG DTDVAIHKAG
+     ETHRITYIST GGGAFLALME GKTLPAVAAL ERHQAKI
+//

@@ -1,0 +1,113 @@
+ID   PYRH_GLUOX              Reviewed;         246 AA.
+AC   Q5FPZ5;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAR-2008, sequence version 2.
+DT   02-DEC-2020, entry version 92.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220}; OrderedLocusNames=GOX1812;
+OS   Gluconobacter oxydans (strain 621H) (Gluconobacter suboxydans).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Gluconobacter.
+OX   NCBI_TaxID=290633;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=621H;
+RX   PubMed=15665824; DOI=10.1038/nbt1062;
+RA   Prust C., Hoffmeister M., Liesegang H., Wiezer A., Fricke W.F.,
+RA   Ehrenreich A., Gottschalk G., Deppenmeier U.;
+RT   "Complete genome sequence of the acetic acid bacterium Gluconobacter
+RT   oxydans.";
+RL   Nat. Biotechnol. 23:195-200(2005).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + UMP = ADP + UDP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Inhibited by UTP. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAW61551.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000009; AAW61551.1; ALT_INIT; Genomic_DNA.
+DR   SMR; Q5FPZ5; -.
+DR   STRING; 290633.GOX1812; -.
+DR   EnsemblBacteria; AAW61551; AAW61551; GOX1812.
+DR   KEGG; gox:GOX1812; -.
+DR   eggNOG; COG0528; Bacteria.
+DR   HOGENOM; CLU_033861_0_0_5; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000006375; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR02075; pyrH_bact; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..246
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_0000323858"
+FT   NP_BIND         18..21
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   NP_BIND         141..148
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         60
+FT                   /note="UMP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         61
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         65
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         80
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         168
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         169
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         174
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         177
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   246 AA;  26464 MW;  0B7A5E4772AEF256 CRC64;
+     MMTENREQSP SYKRVLLKVS GEALMGDGPS GVDPVMVDMV AADIADVVAS GVEVCLVVGG
+     GNIFRGLAAA AKGMDRAQGD YAGMLATVIN ALMLQNALER RGMETRVMTA IQMAAIAEPY
+     IRRRAVRHME KGRVVIFAAG TGNPFFTTDT AAALRANEME CDALFKGTQV DGVYSADPRR
+     NPDAERYDQL TYLEVLARDL NVMDAAAISL ARENKLPIVV FNMHAPGSFG AVMRGEGLFT
+     KIIEAD
+//

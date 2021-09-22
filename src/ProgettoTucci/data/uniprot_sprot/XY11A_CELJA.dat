@@ -1,0 +1,153 @@
+ID   XY11A_CELJA             Reviewed;         661 AA.
+AC   Q59674;
+DT   11-DEC-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   07-OCT-2020, entry version 94.
+DE   RecName: Full=Bifunctional xylanase/xylan deacetylase;
+DE   AltName: Full=XYLE;
+DE   Includes:
+DE     RecName: Full=Endo-1,4-beta-xylanase Xyn11A;
+DE              Short=Xylanase 11A;
+DE              EC=3.2.1.8;
+DE   Includes:
+DE     RecName: Full=Acetylxylan deacetylase;
+DE              EC=3.1.1.72;
+DE   Flags: Precursor;
+GN   Name=xyn11A; Synonyms=xynE;
+OS   Cellvibrio japonicus (Pseudomonas fluorescens subsp. cellulosa).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales;
+OC   Cellvibrionaceae; Cellvibrio.
+OX   NCBI_TaxID=155077;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION AS A XYLANASE, CATALYTIC
+RP   ACTIVITY, SUBSTRATE SPECIFICITY, AND DOMAIN.
+RC   STRAIN=NCIMB 10462;
+RX   PubMed=7492333; DOI=10.1042/bj3120039;
+RA   Millward-Sadler S.J., Davidson K., Hazlewood G.P., Black G.W.,
+RA   Gilbert H.J., Clarke J.H.;
+RT   "Novel cellulose-binding domains, NodB homologues and conserved modular
+RT   architecture in xylanases from the aerobic soil bacteria Pseudomonas
+RT   fluorescens subsp. cellulosa and Cellvibrio mixtus.";
+RL   Biochem. J. 312:39-48(1995).
+RN   [2]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INDUCTION.
+RX   PubMed=12107129; DOI=10.1128/jb.184.15.4124-4133.2002;
+RA   Emami K., Nagy T., Fontes C.M., Ferreira L.M., Gilbert H.J.;
+RT   "Evidence for temporal regulation of the two Pseudomonas cellulosa
+RT   xylanases belonging to glycoside hydrolase family 11.";
+RL   J. Bacteriol. 184:4124-4133(2002).
+CC   -!- FUNCTION: Endo-acting xylanase which specifically cleaves internal
+CC       linkages on the xylan backbone, releasing xylooligosaccharides. Is able
+CC       to hydrolyze oat spelt xylan and the arabinoxylans from wheat and rye,
+CC       releasing xylobiose as the major product. Also likely catalyzes, via
+CC       its C-terminal domain, the removal of acetyl groups from acetylated
+CC       xylan. Thus, has the capability of hydrolyzing acetylated xylan. Does
+CC       not attack mannan, galactan, arabinan or any cellulosic substrates.
+CC       {ECO:0000269|PubMed:12107129, ECO:0000269|PubMed:7492333}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of (1->4)-beta-D-xylosidic linkages in xylans.;
+CC         EC=3.2.1.8; Evidence={ECO:0000269|PubMed:7492333};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Deacetylation of xylans and xylo-oligosaccharides.;
+CC         EC=3.1.1.72; Evidence={ECO:0000269|PubMed:7492333};
+CC   -!- PATHWAY: Glycan degradation; xylan degradation.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:12107129}.
+CC   -!- INDUCTION: Induced when the bacterium is cultured on xylan or beta-
+CC       glucan but not on medium containing mannan. Is repressed by glucose.
+CC       Transcription of xyn11A occurs in early exponential phase, and thus
+CC       earlier than transcription of xyn11B. {ECO:0000269|PubMed:12107129}.
+CC   -!- DOMAIN: The N-terminal domain possesses xylanase activity, the central
+CC       region likely has xylan deacetylase activity, and the small C-terminal
+CC       domain is involved in carbohydrate-binding.
+CC       {ECO:0000269|PubMed:7492333}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the glycosyl
+CC       hydrolase 11 (cellulase G) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z48927; CAA88763.1; -; Genomic_DNA.
+DR   PIR; S59633; S59633.
+DR   RefSeq; WP_012489333.1; NZ_CP043306.1.
+DR   SMR; Q59674; -.
+DR   CAZy; CBM10; Carbohydrate-Binding Module Family 10.
+DR   CAZy; CBM60; Carbohydrate-Binding Module Family 60.
+DR   CAZy; GH11; Glycoside Hydrolase Family 11.
+DR   CLAE; XYN11E_CELJA; -.
+DR   SABIO-RK; Q59674; -.
+DR   UniPathway; UPA00114; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046555; F:acetylxylan esterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030248; F:cellulose binding; IEA:InterPro.
+DR   GO; GO:0031176; F:endo-1,4-beta-xylanase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016810; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds; IEA:InterPro.
+DR   GO; GO:0045493; P:xylan catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.30.32.30; -; 1.
+DR   Gene3D; 2.60.120.180; -; 1.
+DR   InterPro; IPR002883; CBM10/Dockerin_dom.
+DR   InterPro; IPR036601; CBM10_sf.
+DR   InterPro; IPR031768; CBM60_xylan-bd.
+DR   InterPro; IPR009031; CBM_fam10.
+DR   InterPro; IPR013320; ConA-like_dom_sf.
+DR   InterPro; IPR013319; GH11/12.
+DR   InterPro; IPR018208; GH11_AS_1.
+DR   InterPro; IPR033123; GH11_dom.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR001137; Glyco_hydro_11.
+DR   InterPro; IPR002509; NODB_dom.
+DR   Pfam; PF16841; CBM60; 1.
+DR   Pfam; PF02013; CBM_10; 1.
+DR   Pfam; PF00457; Glyco_hydro_11; 1.
+DR   Pfam; PF01522; Polysacc_deac_1; 1.
+DR   PRINTS; PR00911; GLHYDRLASE11.
+DR   SMART; SM01064; CBM_10; 1.
+DR   SUPFAM; SSF49899; SSF49899; 1.
+DR   SUPFAM; SSF57615; SSF57615; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+DR   PROSITE; PS51763; CBM10; 1.
+DR   PROSITE; PS00776; GH11_1; 1.
+DR   PROSITE; PS51761; GH11_3; 1.
+DR   PROSITE; PS51677; NODB; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Glycosidase; Hydrolase; Multifunctional enzyme;
+KW   Polysaccharide degradation; Secreted; Signal; Xylan degradation.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..661
+FT                   /note="Bifunctional xylanase/xylan deacetylase"
+FT                   /id="PRO_5000147608"
+FT   DOMAIN          29..226
+FT                   /note="GH11"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01097"
+FT   DOMAIN          398..574
+FT                   /note="NodB homology"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01014"
+FT   DOMAIN          616..645
+FT                   /note="CBM10"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01099"
+FT   REGION          394..577
+FT                   /note="Polysaccharide deacetylase"
+FT   COMPBIAS        228..401
+FT                   /note="Gly-rich"
+FT   COMPBIAS        587..606
+FT                   /note="Ser-rich"
+FT   ACT_SITE        116
+FT                   /note="Nucleophile; for endoxylanase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10062"
+FT   ACT_SITE        213
+FT                   /note="Proton donor; for endoxylanase activity"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   661 AA;  69193 MW;  3D8C897D4C732FEB CRC64;
+     MKLPTLGKCV VRTLMGAVAL GAISVNAQTL SSNSTGTNNG FYYTFWKDSG DASMTLLSGG
+     RYQSSWGNST NNWVGGKGWN PGNNSRVISY SGSYGVDSSQ NSYLALYGWT RSPLIEYYVI
+     ESYGSYNPAS CSGGTDYGSF QSDGATYNVR RCQRVNQPSI DGTQTFYQYF SVRNPKKGFG
+     NISGTITFAN HVNFWASKGL NLGNHNYQVL ATEGYQSRGS SDITVSEGTS GGGTSSVGGA
+     SSSVNSSTGG GSSGGITVRA RGANGSEHIN LRVGGAVVAN WTLGTSFQNY LYSGNASGDI
+     QVQFDNDASG RDVVVDYIIV NGETRQAEDM EHNSAVYANG RCGGGSYSEN MHCNGEIGFG
+     YTYDCFSGNC SGGNGGSNSS AGNSSSGNTG GGGSNCSGYV GITFDDGPNS NTATLVNLLR
+     QNNLTPVTWF NQGNNVASNA HLMSQQLSVG EVHNHSYTHP HMTSWTYQQV YDELNRTNQA
+     IQNAGAPKPT LFRPPYGELN STIQQAAQAL GLRVVTWDVD SQDWNGASAA AIANAANQLQ
+     NGQVILMHDG SYTNTNSAIA QIATNLRAKG LCPGRIDPNT GRAVAPSSSG GSSSVALSSS
+     SRSSSSAGGN TGGNCQCNWW GTFYPLCQTQ TSGWGWENSR SCISTSTCNS QGTGGGGVVC
+     N
+//

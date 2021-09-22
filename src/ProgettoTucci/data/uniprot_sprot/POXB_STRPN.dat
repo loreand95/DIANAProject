@@ -1,0 +1,146 @@
+ID   POXB_STRPN              Reviewed;         591 AA.
+AC   Q54970;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   26-SEP-2001, sequence version 2.
+DT   10-FEB-2021, entry version 126.
+DE   RecName: Full=Pyruvate oxidase;
+DE            EC=1.2.3.3;
+DE   AltName: Full=Pyruvic oxidase;
+DE            Short=POX;
+GN   Name=spxB; OrderedLocusNames=SP_0730;
+OS   Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=170187;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=R6x;
+RX   PubMed=8820650; DOI=10.1046/j.1365-2958.1996.425954.x;
+RA   Spellerberg B., Cundell D.R., Sandros J., Pearce B.J.,
+RA   Idanpaan-Heikkila I., Rosenow C., Masure H.R.;
+RT   "Pyruvate oxidase, as a determinant of virulence in Streptococcus
+RT   pneumoniae.";
+RL   Mol. Microbiol. 19:803-813(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-334 / TIGR4;
+RX   PubMed=11463916; DOI=10.1126/science.1061217;
+RA   Tettelin H., Nelson K.E., Paulsen I.T., Eisen J.A., Read T.D.,
+RA   Peterson S.N., Heidelberg J.F., DeBoy R.T., Haft D.H., Dodson R.J.,
+RA   Durkin A.S., Gwinn M.L., Kolonay J.F., Nelson W.C., Peterson J.D.,
+RA   Umayam L.A., White O., Salzberg S.L., Lewis M.R., Radune D.,
+RA   Holtzapple E.K., Khouri H.M., Wolf A.M., Utterback T.R., Hansen C.L.,
+RA   McDonald L.A., Feldblyum T.V., Angiuoli S.V., Dickinson T., Hickey E.K.,
+RA   Holt I.E., Loftus B.J., Yang F., Smith H.O., Venter J.C., Dougherty B.A.,
+RA   Morrison D.A., Hollingshead S.K., Fraser C.M.;
+RT   "Complete genome sequence of a virulent isolate of Streptococcus
+RT   pneumoniae.";
+RL   Science 293:498-506(2001).
+CC   -!- FUNCTION: Important for the aerobic growth. Decarboxylates pyruvate in
+CC       four steps. The energy released is partially stored in acetyl phosphate
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + O2 + phosphate + pyruvate = acetyl phosphate + CO2 +
+CC         H2O2; Xref=Rhea:RHEA:20848, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:22191, ChEBI:CHEBI:43474; EC=1.2.3.3;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit. {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the TPP enzyme family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L39074; AAB40976.1; -; Genomic_DNA.
+DR   EMBL; AE005672; AAK74871.1; -; Genomic_DNA.
+DR   PIR; F95084; F95084.
+DR   RefSeq; WP_000191798.1; NZ_AKVY01000001.1.
+DR   SMR; Q54970; -.
+DR   STRING; 170187.SP_0730; -.
+DR   PRIDE; Q54970; -.
+DR   EnsemblBacteria; AAK74871; AAK74871; SP_0730.
+DR   KEGG; spn:SP_0730; -.
+DR   eggNOG; COG0028; Bacteria.
+DR   OMA; AANWYAR; -.
+DR   BioCyc; SPNE170187:G1FZB-749-MONOMER; -.
+DR   PHI-base; PHI:3604; -.
+DR   Proteomes; UP000000585; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0047112; F:pyruvate oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:InterPro.
+DR   InterPro; IPR029035; DHS-like_NAD/FAD-binding_dom.
+DR   InterPro; IPR014092; Pyruvate_oxidase.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR012000; Thiamin_PyroP_enz_cen_dom.
+DR   InterPro; IPR012001; Thiamin_PyroP_enz_TPP-bd_dom.
+DR   InterPro; IPR000399; TPP-bd_CS.
+DR   InterPro; IPR011766; TPP_enzyme-bd_C.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   Pfam; PF00205; TPP_enzyme_M; 1.
+DR   Pfam; PF02776; TPP_enzyme_N; 1.
+DR   SUPFAM; SSF52467; SSF52467; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+DR   TIGRFAMs; TIGR02720; pyruv_oxi_spxB; 1.
+DR   PROSITE; PS00187; TPP_ENZYMES; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Magnesium; Metal-binding; Oxidoreductase;
+KW   Thiamine pyrophosphate.
+FT   CHAIN           1..591
+FT                   /note="Pyruvate oxidase"
+FT                   /id="PRO_0000090819"
+FT   REGION          1..188
+FT                   /note="Core"
+FT   REGION          189..336
+FT                   /note="FAD-binding"
+FT   REGION          337..591
+FT                   /note="Thiamine pyrophosphate binding"
+FT   METAL           441
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           468
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   METAL           470
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        152
+FT                   /note="V -> I (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        282
+FT                   /note="P -> A (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        386
+FT                   /note="I -> L (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        390
+FT                   /note="N -> S (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        430
+FT                   /note="N -> T (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        496
+FT                   /note="A -> G (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        528
+FT                   /note="E -> G (in Ref. 1; AAB40976)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   591 AA;  65266 MW;  DCF1595F7485B6FD CRC64;
+     MTQGKITASA AMLNVLKTWG VDTIYGIPSG TLSSLMDALA EDKDIRFLQV RHEETGALAA
+     VMQAKFGGSI GVAVGSGGPG ATHLINGVYD AAMDNTPFLA ILGSRPVNEL NMDAFQELNQ
+     NPMYNGIAVY NKRVAYAEQL PKVIDEACRA AVSKKGPAVV EIPVNFGFQE IDENSYYGSG
+     SYERSFIAPA LNEVEIDKAV EILNNAERPV IYAGFGGVKA GEVITELSRK IKAPIITTGK
+     NFEAFEWNYE GLTGSAYRVG WKPANEVVFE ADTVLFLGSN FPFAEVYEAF KNTEKFIQVD
+     IDPYKLGKRH ALDASILGDA GQAAKAILDK VNPVESTPWW RANVKNNQNW RDYMNKLEGK
+     TEGELQLYQV YNAINKHADQ DAIYSIDVGN TTQTSTRHLH MTPKNMWRTS PLFATMGIAL
+     PGGIAAKKDN PDRQVWNIMG DGAFNMCYPD VITNVQYDLP VINLVFSNAE YGFIKNKYED
+     TNKHLFGVDF TNADYAKIAE AQGAVGFTVD RIEDIDAVVA EAVKLNKEGK TVVIDARITQ
+     HRPLPVEVLE LDPKLHSEEA IKAFKEKYEA EELVPFRLFL EEEGLQSRAI K
+//

@@ -1,0 +1,138 @@
+ID   DNLJ_CAMJD              Reviewed;         647 AA.
+AC   A7H3U4;
+DT   10-JUN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=DNA ligase {ECO:0000255|HAMAP-Rule:MF_01588};
+DE            EC=6.5.1.2 {ECO:0000255|HAMAP-Rule:MF_01588};
+DE   AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   Name=ligA {ECO:0000255|HAMAP-Rule:MF_01588};
+GN   OrderedLocusNames=JJD26997_1083;
+OS   Campylobacter jejuni subsp. doylei (strain ATCC BAA-1458 / RM4099 /
+OS   269.97).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360109;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1458 / RM4099 / 269.97;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., Lastovica A.J., Nelson K.E.;
+RT   "Complete genome sequence of Campylobacter jejuni subsp doylei 269.97
+RT   isolated from human blood.";
+RL   Submitted (JUL-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: DNA ligase that catalyzes the formation of phosphodiester
+CC       linkages between 5'-phosphoryl and 3'-hydroxyl groups in double-
+CC       stranded DNA using NAD as a coenzyme and as the energy source for the
+CC       reaction. It is essential for DNA replication and repair of damaged
+CC       DNA. {ECO:0000255|HAMAP-Rule:MF_01588}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + (deoxyribonucleotide)(n)-3'-hydroxyl + 5'-phospho-
+CC         (deoxyribonucleotide)(m) = (deoxyribonucleotide)(n+m) + AMP + beta-
+CC         nicotinamide D-nucleotide.; EC=6.5.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01588};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01588};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01588};
+CC   -!- SIMILARITY: Belongs to the NAD-dependent DNA ligase family. LigA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01588}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000768; ABS44642.1; -; Genomic_DNA.
+DR   SMR; A7H3U4; -.
+DR   PRIDE; A7H3U4; -.
+DR   EnsemblBacteria; ABS44642; ABS44642; JJD26997_1083.
+DR   KEGG; cjd:JJD26997_1083; -.
+DR   HOGENOM; CLU_007764_2_1_7; -.
+DR   OMA; HDVEHEI; -.
+DR   BioCyc; CJEJ360109:G1G9I-1008-MONOMER; -.
+DR   Proteomes; UP000002302; Chromosome.
+DR   GO; GO:0003911; F:DNA ligase (NAD+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   CDD; cd00114; LIGANc; 1.
+DR   Gene3D; 3.40.50.10190; -; 1.
+DR   HAMAP; MF_01588; DNA_ligase_A; 1.
+DR   InterPro; IPR001357; BRCT_dom.
+DR   InterPro; IPR036420; BRCT_dom_sf.
+DR   InterPro; IPR018239; DNA_ligase_AS.
+DR   InterPro; IPR033136; DNA_ligase_CS.
+DR   InterPro; IPR001679; DNAligase.
+DR   InterPro; IPR013839; DNAligase_adenylation.
+DR   InterPro; IPR013840; DNAligase_N.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004150; NAD_DNA_ligase_OB.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   Pfam; PF00533; BRCT; 1.
+DR   Pfam; PF01653; DNA_ligase_aden; 1.
+DR   Pfam; PF03120; DNA_ligase_OB; 1.
+DR   PIRSF; PIRSF001604; LigA; 1.
+DR   SMART; SM00292; BRCT; 1.
+DR   SMART; SM00532; LIGANc; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF52113; SSF52113; 1.
+DR   TIGRFAMs; TIGR00575; dnlj; 1.
+DR   PROSITE; PS50172; BRCT; 1.
+DR   PROSITE; PS01055; DNA_LIGASE_N1; 1.
+DR   PROSITE; PS01056; DNA_LIGASE_N2; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA repair; DNA replication; Ligase; Magnesium; Manganese;
+KW   Metal-binding; NAD; Zinc.
+FT   CHAIN           1..647
+FT                   /note="DNA ligase"
+FT                   /id="PRO_0000340334"
+FT   DOMAIN          570..647
+FT                   /note="BRCT"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   NP_BIND         30..34
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   NP_BIND         79..80
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   ACT_SITE        107
+FT                   /note="N6-AMP-lysine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   METAL           395
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   METAL           398
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   METAL           411
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   METAL           416
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         105
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         128
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         162
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+FT   BINDING         301
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01588"
+SQ   SEQUENCE   647 AA;  73865 MW;  7E343AE404387981 CRC64;
+     MKKEEYLEKV ALANLWMRAY YEKDEPLASD EEYDALIREL RVFEEQNKDE VSKDSPTQKI
+     APTIQSEFKK IAHLKRMWSM EDVFDESELR AWAKRAKCEK NFFIEPKFDG ASLNLLYENG
+     KLVSGATRGD GEVGEDITLN VFEIENIPKN IAYKKRIEIR GEVVILKDDF EKINEKRALL
+     NQSLFANPRN AASGSLRQLD TSITKERNLK FYPWGVGENT LNFTKHSEVM QFVRDLGFLK
+     DDFIKLCANL DEVLKAYDEL LTLREKKPMM MDGMVVRVDD LALCEELGYT VKFPKFMAAF
+     KFPALEKTTR LIGINLQVGR SGVITPVAVL EPVNLDGVVV KSATLHNFDE IARLDVKIND
+     FVSVIRSGDV IPKITKVFKE RREGLEMEIS HPKLCPTCQS ELLDEGTLIK CQNIDCEDRL
+     VNSIIHFVSK KCLNIDGLGE NIVELLYKHK KITTLESIFH LKFSDFEGLE GFKEKKINNL
+     LNAIEQAREC ELFRFITALG IEHIGEVAAK KLSLSFGKEW HKQSFEAYVN LEGFGEQMAL
+     SLCEFTRVNH TRIDEFYKLL NLKIEKLEVK SDSVIFGKTF VITGTLSRPR DEFKALIENL
+     GGKVSGSVSK KTDYVLFGEE AGSKLSKAKE LEVKCIDESA FNELVKE
+//

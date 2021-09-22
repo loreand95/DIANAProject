@@ -1,0 +1,105 @@
+ID   PROB_STRT2              Reviewed;         267 AA.
+AC   Q5M2U0;
+DT   13-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   02-DEC-2020, entry version 92.
+DE   RecName: Full=Glutamate 5-kinase {ECO:0000255|HAMAP-Rule:MF_00456};
+DE            EC=2.7.2.11 {ECO:0000255|HAMAP-Rule:MF_00456};
+DE   AltName: Full=Gamma-glutamyl kinase {ECO:0000255|HAMAP-Rule:MF_00456};
+DE            Short=GK {ECO:0000255|HAMAP-Rule:MF_00456};
+GN   Name=proB {ECO:0000255|HAMAP-Rule:MF_00456}; OrderedLocusNames=stu1711;
+OS   Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=264199;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-250 / LMG 18311;
+RX   PubMed=15543133; DOI=10.1038/nbt1034;
+RA   Bolotin A., Quinquis B., Renault P., Sorokin A., Ehrlich S.D.,
+RA   Kulakauskas S., Lapidus A., Goltsman E., Mazur M., Pusch G.D., Fonstein M.,
+RA   Overbeek R., Kyprides N., Purnelle B., Prozzi D., Ngui K., Masuy D.,
+RA   Hancy F., Burteau S., Boutry M., Delcour J., Goffeau A., Hols P.;
+RT   "Complete sequence and comparative genome analysis of the dairy bacterium
+RT   Streptococcus thermophilus.";
+RL   Nat. Biotechnol. 22:1554-1558(2004).
+CC   -!- FUNCTION: Catalyzes the transfer of a phosphate group to glutamate to
+CC       form L-glutamate 5-phosphate. {ECO:0000255|HAMAP-Rule:MF_00456}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-glutamate = ADP + L-glutamyl 5-phosphate;
+CC         Xref=Rhea:RHEA:14877, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:58274, ChEBI:CHEBI:456216; EC=2.7.2.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00456};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-glutamate
+CC       5-semialdehyde from L-glutamate: step 1/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_00456}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00456}.
+CC   -!- SIMILARITY: Belongs to the glutamate 5-kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00456}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000023; AAV61310.1; -; Genomic_DNA.
+DR   RefSeq; WP_002948808.1; NC_006448.1.
+DR   SMR; Q5M2U0; -.
+DR   STRING; 264199.stu1711; -.
+DR   EnsemblBacteria; AAV61310; AAV61310; stu1711.
+DR   KEGG; stl:stu1711; -.
+DR   eggNOG; COG0263; Bacteria.
+DR   HOGENOM; CLU_025400_0_2_9; -.
+DR   OMA; PRMMRHY; -.
+DR   BioCyc; STHE264199:G1G41-1621-MONOMER; -.
+DR   UniPathway; UPA00098; UER00359.
+DR   Proteomes; UP000001170; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004349; F:glutamate 5-kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04242; AAK_G5K_ProB; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_00456; ProB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR041739; G5K_ProB.
+DR   InterPro; IPR001057; Glu/AcGlu_kinase.
+DR   InterPro; IPR011529; Glu_5kinase.
+DR   InterPro; IPR005715; Glu_5kinase/COase_Synthase.
+DR   InterPro; IPR019797; Glutamate_5-kinase_CS.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF000729; GK; 1.
+DR   PRINTS; PR00474; GLU5KINASE.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR01027; proB; 1.
+DR   PROSITE; PS00902; GLUTAMATE_5_KINASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Proline biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..267
+FT                   /note="Glutamate 5-kinase"
+FT                   /id="PRO_0000109740"
+FT   NP_BIND         177..178
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+FT   NP_BIND         219..225
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+FT   BINDING         14
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+FT   BINDING         54
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+FT   BINDING         141
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+FT   BINDING         157
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00456"
+SQ   SEQUENCE   267 AA;  28963 MW;  68448B968330357E CRC64;
+     MKRNFDSVKR LVIKIGTSSL VLPSGKINLE KIDQLAFVIS SLHNKGIEVV LVSSGAMGFG
+     LNVLDLETRP AEVGKQQAVS SVGQVAMMSL YSQVFSHYQT KVSQLLLTRD VVEYPESLAN
+     AINAFESLFE LGVVPIVNEN DAVSVDEMDH ATKFGDNDRL SAIVAKVVGA DLLIMLSDID
+     GLFDKNPNVY EDATLRSYVP EITEEILASA GAAGSKFGTG GMMSKIKSAQ MVFENQSQMV
+     LMNGENPRDI LRVLEGAKIG TLFKQED
+//

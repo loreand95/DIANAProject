@@ -1,0 +1,107 @@
+ID   GATC_THET8              Reviewed;          89 AA.
+AC   Q9LCX4; Q5SJX6;
+DT   29-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit C;
+DE            Short=Glu-ADT subunit C;
+DE            EC=6.3.5.- {ECO:0000255|HAMAP-Rule:MF_00122};
+GN   Name=gatC {ECO:0000255|HAMAP-Rule:MF_00122}; OrderedLocusNames=TTHA0876;
+OS   Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579).
+OC   Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus.
+OX   NCBI_TaxID=300852;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=10913601; DOI=10.1016/s0014-5793(00)01697-5;
+RA   Becker H.D., Min B., Jacobi C., Raczniak G., Pelaschier J., Roy H.,
+RA   Klein S., Kern D., Soell D.;
+RT   "The heterotrimeric Thermus thermophilus Asp-tRNA(Asn) amidotransferase can
+RT   also generate Gln-tRNA(Gln).";
+RL   FEBS Lett. 476:140-144(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HB8 / ATCC 27634 / DSM 579;
+RA   Masui R., Kurokawa K., Nakagawa N., Tokunaga F., Koyama Y., Shibata T.,
+RA   Oshima T., Yokoyama S., Yasunaga T., Kuramitsu S.;
+RT   "Complete genome sequence of Thermus thermophilus HB8.";
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Allows the formation of correctly charged Asn-tRNA(Asn) or
+CC       Gln-tRNA(Gln) through the transamidation of misacylated Asp-tRNA(Asn)
+CC       or Glu-tRNA(Gln) in organisms which lack either or both of asparaginyl-
+CC       tRNA or glutaminyl-tRNA synthetases. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated phospho-Asp-
+CC       tRNA(Asn) or phospho-Glu-tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00122}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00122};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-aspartyl-tRNA(Asn) + L-glutamine = ADP + 2 H(+)
+CC         + L-asparaginyl-tRNA(Asn) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:14513, Rhea:RHEA-COMP:9674, Rhea:RHEA-COMP:9677,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78515, ChEBI:CHEBI:78516, ChEBI:CHEBI:456216;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00122};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00122}.
+CC   -!- SIMILARITY: Belongs to the GatC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00122}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAD70699.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF202446; AAF91175.1; -; Genomic_DNA.
+DR   EMBL; AP008226; BAD70699.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; YP_144142.1; NC_006461.1.
+DR   PDB; 3KFU; X-ray; 3.00 A; G/J=1-89.
+DR   PDBsum; 3KFU; -.
+DR   SMR; Q9LCX4; -.
+DR   STRING; 300852.55772258; -.
+DR   EnsemblBacteria; BAD70699; BAD70699; BAD70699.
+DR   GeneID; 3168271; -.
+DR   KEGG; ttj:TTHA0876; -.
+DR   PATRIC; fig|300852.9.peg.869; -.
+DR   eggNOG; COG0721; Bacteria.
+DR   HOGENOM; CLU_105899_1_1_0; -.
+DR   OMA; ELVNVMR; -.
+DR   EvolutionaryTrace; Q9LCX4; -.
+DR   Proteomes; UP000000532; Chromosome.
+DR   GO; GO:0050566; F:asparaginyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:RHEA.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006450; P:regulation of translational fidelity; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.20.60; -; 1.
+DR   HAMAP; MF_00122; GatC; 1.
+DR   InterPro; IPR003837; Asp/Glu-ADT_csu.
+DR   InterPro; IPR036113; Asp/Glu-ADT_sf_sub_c.
+DR   Pfam; PF02686; Glu-tRNAGln; 1.
+DR   SUPFAM; SSF141000; SSF141000; 1.
+DR   TIGRFAMs; TIGR00135; gatC; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Ligase; Nucleotide-binding;
+KW   Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..89
+FT                   /note="Glutamyl-tRNA(Gln) amidotransferase subunit C"
+FT                   /id="PRO_0000105353"
+FT   HELIX           5..14
+FT                   /evidence="ECO:0007744|PDB:3KFU"
+FT   HELIX           21..39
+FT                   /evidence="ECO:0007744|PDB:3KFU"
+FT   HELIX           67..71
+FT                   /evidence="ECO:0007744|PDB:3KFU"
+FT   STRAND          75..78
+FT                   /evidence="ECO:0007744|PDB:3KFU"
+FT   STRAND          81..84
+FT                   /evidence="ECO:0007744|PDB:3KFU"
+SQ   SEQUENCE   89 AA;  9957 MW;  DDD291293407C8ED CRC64;
+     MELSPELLRK LETLAKIRLS PEEEALLLQD LKRILDFVDA LPRVEEGGAE EALGRLREDE
+     PRPSLPQAEA LALAPEAEDG FFRVPPVLE
+//

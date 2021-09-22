@@ -1,0 +1,111 @@
+ID   NU1C_SACOF              Reviewed;         362 AA.
+AC   Q6ENP2;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUN-2006, sequence version 2.
+DT   11-DEC-2019, entry version 64.
+DE   RecName: Full=NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic {ECO:0000255|HAMAP-Rule:MF_01350};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NAD(P)H dehydrogenase subunit 1 {ECO:0000255|HAMAP-Rule:MF_01350};
+DE            Short=NDH subunit 1 {ECO:0000255|HAMAP-Rule:MF_01350};
+DE   AltName: Full=NADH-plastoquinone oxidoreductase subunit 1 {ECO:0000255|HAMAP-Rule:MF_01350};
+GN   Name=ndhA {ECO:0000255|HAMAP-Rule:MF_01350};
+OS   Saccharum officinarum (Sugarcane).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD clade;
+OC   Panicoideae; Andropogonodae; Andropogoneae; Saccharinae; Saccharum;
+OC   Saccharum officinarum complex.
+OX   NCBI_TaxID=4547;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15449542; DOI=10.1093/dnares/11.2.93;
+RA   Asano T., Tsudzuki T., Takahashi S., Shimada H., Kadowaki K.;
+RT   "Complete nucleotide sequence of the sugarcane (Saccharum officinarum)
+RT   chloroplast genome: a comparative analysis of four monocot chloroplast
+RT   genomes.";
+RL   DNA Res. 11:93-99(2004).
+CC   -!- FUNCTION: NDH shuttles electrons from NAD(P)H:plastoquinone, via FMN
+CC       and iron-sulfur (Fe-S) centers, to quinones in the photosynthetic chain
+CC       and possibly in a chloroplast respiratory chain. The immediate electron
+CC       acceptor for the enzyme in this species is believed to be
+CC       plastoquinone. Couples the redox reaction to proton translocation, and
+CC       thus conserves the redox energy in a proton gradient.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADH = a plastoquinol + n
+CC         H(+)(out) + NAD(+); Xref=Rhea:RHEA:42608, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01350};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n
+CC         H(+)(out) + NADP(+); Xref=Rhea:RHEA:42612, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01350};
+CC   -!- SUBUNIT: NDH is composed of at least 16 different subunits, 5 of which
+CC       are encoded in the nucleus. {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   -!- RNA EDITING: Modified_positions=17 {ECO:0000250}, 158 {ECO:0000250},
+CC       188 {ECO:0000250}, 357 {ECO:0000250};
+CC   -!- SIMILARITY: Belongs to the complex I subunit 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01350}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP006714; BAD27364.1; -; Genomic_DNA.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019684; P:photosynthesis, light reaction; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01350; NDH1_NuoH; 1.
+DR   InterPro; IPR001694; NADH_UbQ_OxRdtase_su1/FPO.
+DR   InterPro; IPR018086; NADH_UbQ_OxRdtase_su1_CS.
+DR   PANTHER; PTHR11432; PTHR11432; 1.
+DR   Pfam; PF00146; NADHdh; 1.
+DR   PROSITE; PS00667; COMPLEX1_ND1_1; 1.
+DR   PROSITE; PS00668; COMPLEX1_ND1_2; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Membrane; NAD; NADP; Plastid; Plastoquinone; Quinone;
+KW   RNA editing; Thylakoid; Translocase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..362
+FT                   /note="NAD(P)H-quinone oxidoreductase subunit 1,
+FT                   chloroplastic"
+FT                   /id="PRO_0000226941"
+FT   TRANSMEM        27..47
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        103..123
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        128..148
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        164..184
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        202..222
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        247..267
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        303..323
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+FT   TRANSMEM        335..355
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01350"
+SQ   SEQUENCE   362 AA;  40438 MW;  D61AD3447383133D CRC64;
+     MIIDRVEVET INSFSKLELL KEIYGLIWIL PILALLLGIT IEVLVIVWLE REISASIQQR
+     IGPEYAGPLG LLQAIADGTK LLLKEDILPS RGEIPLFSIG PSIAVISILL SFLVIPLGYH
+     FVLADLSIGV FLWIAISSIA PIGLLMAGYS SNNKYSFLGG LRAAAQSISY EIPLTFCVLA
+     ISLLSNSLST VDIVEAQSKY GFFGWNLWRQ PIGFLVFLIS SLAECERLPF DLPEAEEELV
+     AGYQTEYSGI KYGLFYLVSY LNLLVSSLFV TVLYLGGWNF SIPYISFFGF FQMNKIIGIL
+     EMVIGIFITL TKAYLFLFIS ITIRWTLPRM RMDQLLNLGW KFLLPISLGN LLLTTSFQLV
+     SL
+//

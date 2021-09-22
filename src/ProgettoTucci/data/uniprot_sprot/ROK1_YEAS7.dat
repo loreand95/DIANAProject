@@ -1,0 +1,100 @@
+ID   ROK1_YEAS7              Reviewed;         564 AA.
+AC   A6ZU15;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   26-FEB-2020, entry version 48.
+DE   RecName: Full=ATP-dependent RNA helicase ROK1;
+DE            EC=3.6.4.13;
+DE   AltName: Full=Rescuer of KEM1 protein 1;
+GN   Name=ROK1; ORFNames=SCY_1898;
+OS   Saccharomyces cerevisiae (strain YJM789) (Baker's yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+OX   NCBI_TaxID=307796;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YJM789;
+RX   PubMed=17652520; DOI=10.1073/pnas.0701291104;
+RA   Wei W., McCusker J.H., Hyman R.W., Jones T., Ning Y., Cao Z., Gu Z.,
+RA   Bruno D., Miranda M., Nguyen M., Wilhelmy J., Komp C., Tamse R., Wang X.,
+RA   Jia P., Luedi P., Oefner P.J., David L., Dietrich F.S., Li Y., Davis R.W.,
+RA   Steinmetz L.M.;
+RT   "Genome sequencing and comparative analysis of Saccharomyces cerevisiae
+RT   strain YJM789.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 104:12825-12830(2007).
+CC   -!- FUNCTION: ATP-dependent RNA helicase involved in 40S ribosomal subunit
+CC       biogenesis. Required for the processing and cleavage of 35S pre-rRNA at
+CC       sites A0, A1, and A2, leading to mature 18S rRNA.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- SUBUNIT: Interacts with the U3 snoRNA and is associated with the 90S
+CC       and 40S pre-ribosomes. This association requires the presence of RRP5.
+CC       Interacts also with OSH3 (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000250}.
+CC   -!- DOMAIN: The Q motif is unique to and characteristic of the DEAD box
+CC       family of RNA helicases and controls ATP binding and hydrolysis.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DDX52/ROK1
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AAFW02000099; EDN61953.1; -; Genomic_DNA.
+DR   SMR; A6ZU15; -.
+DR   PRIDE; A6ZU15; -.
+DR   EnsemblFungi; EDN61953; EDN61953; SCY_1898.
+DR   HOGENOM; CLU_003041_1_4_1; -.
+DR   Proteomes; UP000007060; Unassembled WGS sequence.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Helicase; Hydrolase; Nucleotide-binding; Nucleus;
+KW   Ribosome biogenesis; RNA-binding; rRNA processing.
+FT   CHAIN           1..564
+FT                   /note="ATP-dependent RNA helicase ROK1"
+FT                   /id="PRO_0000310242"
+FT   DOMAIN          153..333
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          344..506
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   NP_BIND         166..173
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOTIF           122..150
+FT                   /note="Q motif"
+FT   MOTIF           280..283
+FT                   /note="DEAD box"
+SQ   SEQUENCE   564 AA;  63669 MW;  D1C2156E71751041 CRC64;
+     MDIFRVLTRG ASVKKESGPK AKAADYSVIN GKDENHKEDN NESQIVKELD FFRNKRIISK
+     VEDDREKTTE NDSPNKEEKS GNDDGLIKPV ITNTVEASAL RKSYKGNVSG IDIPLPIGSF
+     EDLISRFSFD RRLLNNLIEN GFTEPTPIQC ECIPVALNNR DVLACGPTGS GKTLAFLIPL
+     VQQIIDDKQT AGLKGLIISP TKELANQIFI ECFKLSHKIF LEKKRPLQVA LLSKSLGAKL
+     KNKVVSDKKY DIIISTPLRL IDVVKNEALD LSKVKHLIFD EADKLFDKTF VEQSDDILSA
+     CREPSLRKAM FSATIPSNVE EIAQSIMMDP VRVIIGHKEA ANTNIEQKLI FCGNEEGKLI
+     AIRQLVQEGE FKPPIIIFLE SITRAKALYH ELMYDRINVD VIHAERTALQ RDRIIERFKT
+     GELWCLICTD VLARGIDFKG VNLVINYDVP GSSQAYVHRI GRTGRGGRSG KAITFYTKQD
+     SVAIKPIINV MKQSGCEVSE WMDKMAKMTR KEKESIKNGK AHKERKQITT VPKMDKAKRR
+     RQQEMIAASK RRKNEELSKK HFSK
+//

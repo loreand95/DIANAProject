@@ -1,0 +1,136 @@
+ID   MNME_COXBN              Reviewed;         452 AA.
+AC   A9KBS9;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   10-FEB-2021, entry version 87.
+DE   RecName: Full=tRNA modification GTPase MnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+DE            EC=3.6.-.- {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Name=mnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Synonyms=trmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   OrderedLocusNames=CBUD_0199;
+OS   Coxiella burnetii (strain Dugway 5J108-111).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae;
+OC   Coxiella.
+OX   NCBI_TaxID=434922;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Dugway 5J108-111;
+RX   PubMed=19047403; DOI=10.1128/iai.01141-08;
+RA   Beare P.A., Unsworth N., Andoh M., Voth D.E., Omsland A., Gilk S.D.,
+RA   Williams K.P., Sobral B.W., Kupko J.J. III, Porcella S.F., Samuel J.E.,
+RA   Heinzen R.A.;
+RT   "Comparative genomics reveal extensive transposon-mediated genomic
+RT   plasticity and diversity among potential effector proteins within the genus
+RT   Coxiella.";
+RL   Infect. Immun. 77:642-656(2009).
+CC   -!- FUNCTION: Exhibits a very high intrinsic GTPase hydrolysis rate.
+CC       Involved in the addition of a carboxymethylaminomethyl (cmnm) group at
+CC       the wobble position (U34) of certain tRNAs, forming tRNA-
+CC       cmnm(5)s(2)U34. {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00379};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. TrmE GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABS78334.2; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000733; ABS78334.2; ALT_INIT; Genomic_DNA.
+DR   SMR; A9KBS9; -.
+DR   EnsemblBacteria; ABS78334; ABS78334; CBUD_0199.
+DR   KEGG; cbd:CBUD_0199; -.
+DR   HOGENOM; CLU_019624_4_1_6; -.
+DR   OMA; EFHCHGG; -.
+DR   Proteomes; UP000008555; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd04164; trmE; 1.
+DR   Gene3D; 1.20.120.430; -; 1.
+DR   Gene3D; 3.30.1360.120; -; 1.
+DR   HAMAP; MF_00379; GTPase_MnmE; 1.
+DR   InterPro; IPR031168; G_TrmE.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR018948; GTP-bd_TrmE_N.
+DR   InterPro; IPR004520; GTPase_MnmE.
+DR   InterPro; IPR027368; MnmE_dom2.
+DR   InterPro; IPR025867; MnmE_helical.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR027266; TrmE/GcvT_dom1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF12631; MnmE_helical; 1.
+DR   Pfam; PF10396; TrmE_N; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00450; mnmE_trmE_thdF; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51709; G_TRME; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Potassium; tRNA processing.
+FT   CHAIN           1..452
+FT                   /note="tRNA modification GTPase MnmE"
+FT                   /id="PRO_1000080005"
+FT   DOMAIN          216..375
+FT                   /note="TrmE-type G"
+FT   NP_BIND         226..231
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   NP_BIND         245..251
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   NP_BIND         270..273
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           226
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           230
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           245
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           247
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           250
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           251
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         25
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         81
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         120
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         452
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+SQ   SEQUENCE   452 AA;  49731 MW;  ACD16CD07DAC75EA CRC64;
+     MTYVFPETIA AQATPSGRGG IGVVRVSGEK TKAIAQKILG CVPKPRYATF VKFRDSGSVI
+     DEGIALYFPK PNSFTGEDVL ELHGHGGPVV MDRLLNTVLK AGARQARPGE FSERAFLNNK
+     IDLAQAEAVA DLINASSEQA ARSAMRSLQG EFSKRIHQLV DALIQLRMYI EASIDFPEEE
+     IDFLADERIK ETLENLTHQV QEIEKTAKQG ALLREGITVV IAGEPNVGKS SLLNLLSGQE
+     TAIVTDIAGT TRDIIRESIH IDGLPIHVVD TAGLRLTEDV VEKEGVRRTQ KAVQQADLLL
+     LMIDASKPTE DFKKIIAQWF SENDNKIPTL IVENKIDLIG EAPRKENKEY PHIKLSVKTR
+     AGVELLKNHL KNTAGFEATH ENNFIARRRH CDAIARASAF LKNANNHLLN QKAGELVAED
+     LKLAQNALSE ITGEFTSDDL LGKIFSEFCI GK
+//

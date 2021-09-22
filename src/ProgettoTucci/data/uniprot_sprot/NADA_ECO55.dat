@@ -1,0 +1,106 @@
+ID   NADA_ECO55              Reviewed;         347 AA.
+AC   B7LAF1;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=Quinolinate synthase A {ECO:0000255|HAMAP-Rule:MF_00567};
+DE            EC=2.5.1.72 {ECO:0000255|HAMAP-Rule:MF_00567};
+GN   Name=nadA {ECO:0000255|HAMAP-Rule:MF_00567};
+GN   OrderedLocusNames=EC55989_0729;
+OS   Escherichia coli (strain 55989 / EAEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=585055;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=55989 / EAEC;
+RX   PubMed=19165319; DOI=10.1371/journal.pgen.1000344;
+RA   Touchon M., Hoede C., Tenaillon O., Barbe V., Baeriswyl S., Bidet P.,
+RA   Bingen E., Bonacorsi S., Bouchier C., Bouvet O., Calteau A., Chiapello H.,
+RA   Clermont O., Cruveiller S., Danchin A., Diard M., Dossat C., Karoui M.E.,
+RA   Frapy E., Garry L., Ghigo J.M., Gilles A.M., Johnson J., Le Bouguenec C.,
+RA   Lescat M., Mangenot S., Martinez-Jehanne V., Matic I., Nassif X., Oztas S.,
+RA   Petit M.A., Pichon C., Rouy Z., Ruf C.S., Schneider D., Tourret J.,
+RA   Vacherie B., Vallenet D., Medigue C., Rocha E.P.C., Denamur E.;
+RT   "Organised genome dynamics in the Escherichia coli species results in
+RT   highly diverse adaptive paths.";
+RL   PLoS Genet. 5:E1000344-E1000344(2009).
+CC   -!- FUNCTION: Catalyzes the condensation of iminoaspartate with
+CC       dihydroxyacetone phosphate to form quinolinate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00567}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dihydroxyacetone phosphate + iminosuccinate = H(+) + 2 H2O +
+CC         phosphate + quinolinate; Xref=Rhea:RHEA:25888, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29959, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:77875; EC=2.5.1.72;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00567};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00567};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00567};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       iminoaspartate: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SIMILARITY: Belongs to the quinolinate synthase A family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU928145; CAU96597.1; -; Genomic_DNA.
+DR   RefSeq; WP_000115295.1; NC_011748.1.
+DR   SMR; B7LAF1; -.
+DR   EnsemblBacteria; CAU96597; CAU96597; EC55989_0729.
+DR   KEGG; eck:EC55989_0729; -.
+DR   HOGENOM; CLU_047382_1_0_6; -.
+DR   OMA; CFCSTMN; -.
+DR   UniPathway; UPA00253; UER00327.
+DR   Proteomes; UP000000746; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008987; F:quinolinate synthetase A activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10800; -; 3.
+DR   HAMAP; MF_00567; NadA_type1; 1.
+DR   InterPro; IPR003473; NadA.
+DR   InterPro; IPR036094; NadA_sf.
+DR   InterPro; IPR023513; Quinolinate_synth_A_type1.
+DR   PANTHER; PTHR30573; PTHR30573; 1.
+DR   Pfam; PF02445; NadA; 1.
+DR   SUPFAM; SSF142754; SSF142754; 1.
+DR   TIGRFAMs; TIGR00550; nadA; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding;
+KW   Pyridine nucleotide biosynthesis; Transferase.
+FT   CHAIN           1..347
+FT                   /note="Quinolinate synthase A"
+FT                   /id="PRO_1000146805"
+FT   BINDING         47
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         68
+FT                   /note="Iminoaspartate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         139
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         156
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         226
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         243
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+SQ   SEQUENCE   347 AA;  38257 MW;  00B7940C21E5EC6B CRC64;
+     MSVMFDPDTA IYPFPPKPTP LSIDEKAYYR EKIKRLLKER NAVMVAHYYT DPEIQQLAEE
+     TGGCISDSLE MARFGAKHPA STLLVAGVRF MGETAKILSP EKTILMPTLQ AECSLDLGCP
+     VEEFNAFCDA HPDRTVVVYA NTSAAVKARA DWVVTSSIAV ELIDHLDSLG EKIIWAPDKH
+     LGRYVQKQTG GDILCWQGAC IVHDEFKTQA LTRLQEEYPD AAILVHPESP QAIVDMADAV
+     GSTSQLIAAA KTLPHQRLIV ATDRGIFYKM QQAVPDKELL EAPTAGEGAT CRSCAHCPWM
+     AMNGLQSIAE ALEQEGSNHE VHVDERLRER ALVPLNRMLD FAATLRG
+//

@@ -1,0 +1,119 @@
+ID   F16PA_HAES1             Reviewed;         335 AA.
+AC   Q0I4Y5;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2006, sequence version 1.
+DT   10-FEB-2021, entry version 95.
+DE   RecName: Full=Fructose-1,6-bisphosphatase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE            Short=FBPase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE            EC=3.1.3.11 {ECO:0000255|HAMAP-Rule:MF_01855};
+DE   AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 {ECO:0000255|HAMAP-Rule:MF_01855};
+GN   Name=fbp {ECO:0000255|HAMAP-Rule:MF_01855}; OrderedLocusNames=HS_1248;
+OS   Haemophilus somnus (strain 129Pt) (Histophilus somni).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Histophilus.
+OX   NCBI_TaxID=205914;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=129Pt;
+RX   PubMed=17172329; DOI=10.1128/jb.01422-06;
+RA   Challacombe J.F., Duncan A.J., Brettin T.S., Bruce D., Chertkov O.,
+RA   Detter J.C., Han C.S., Misra M., Richardson P., Tapia R., Thayer N.,
+RA   Xie G., Inzana T.J.;
+RT   "Complete genome sequence of Haemophilus somnus (Histophilus somni) strain
+RT   129Pt and comparison to Haemophilus ducreyi 35000HP and Haemophilus
+RT   influenzae Rd.";
+RL   J. Bacteriol. 189:1890-1898(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=beta-D-fructose 1,6-bisphosphate + H2O = beta-D-fructose 6-
+CC         phosphate + phosphate; Xref=Rhea:RHEA:11064, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:32966, ChEBI:CHEBI:43474, ChEBI:CHEBI:57634; EC=3.1.3.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01855};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01855};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01855};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01855}.
+CC   -!- SIMILARITY: Belongs to the FBPase class 1 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01855}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000436; ABI25523.1; -; Genomic_DNA.
+DR   RefSeq; WP_011609402.1; NC_008309.1.
+DR   SMR; Q0I4Y5; -.
+DR   STRING; 205914.HS_1248; -.
+DR   PRIDE; Q0I4Y5; -.
+DR   EnsemblBacteria; ABI25523; ABI25523; HS_1248.
+DR   GeneID; 56965293; -.
+DR   KEGG; hso:HS_1248; -.
+DR   eggNOG; COG0158; Bacteria.
+DR   HOGENOM; CLU_039977_2_2_6; -.
+DR   OMA; QSGLVCR; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000001970; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042132; F:fructose 1,6-bisphosphate 1-phosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00354; FBPase; 1.
+DR   HAMAP; MF_01855; FBPase_class1; 1.
+DR   InterPro; IPR044015; FBPase_C_dom.
+DR   InterPro; IPR000146; FBPase_class-1.
+DR   InterPro; IPR033391; FBPase_N.
+DR   InterPro; IPR028343; FBPtase.
+DR   InterPro; IPR020548; Fructose_bisphosphatase_AS.
+DR   PANTHER; PTHR11556; PTHR11556; 1.
+DR   Pfam; PF00316; FBPase; 1.
+DR   Pfam; PF18913; FBPase_C; 1.
+DR   PIRSF; PIRSF500210; FBPtase; 1.
+DR   PIRSF; PIRSF000904; FBPtase_SBPase; 1.
+DR   PRINTS; PR00115; F16BPHPHTASE.
+DR   PROSITE; PS00124; FBPASE; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Cytoplasm; Hydrolase; Magnesium; Metal-binding.
+FT   CHAIN           1..335
+FT                   /note="Fructose-1,6-bisphosphatase class 1"
+FT                   /id="PRO_0000364568"
+FT   REGION          116..119
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           90
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           113
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           113
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           115
+FT                   /note="Magnesium 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           116
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   METAL           278
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   BINDING         209
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   BINDING         242
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+FT   BINDING         272
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01855"
+SQ   SEQUENCE   335 AA;  37352 MW;  4113958003BE1436 CRC64;
+     MKTLGQFIVE KQAEYPNAKG ELSGILSSLR LVAKIIHRDI NKAGLTNNII GNSGVENVQG
+     ETQMKLDLFA HNTMKQALIT REEVAGFASE EEENFVAFDT ERGRNAKYVI LTDPLDGSSN
+     IDVNVAVGTI FSIYRRVSPI GTPVTLEDFL QPGHKQVAAG YIVYGSSTML VYTTGNGVNG
+     FTYDPSLGVF CLSHENIQIP PNGKIYSINE GQYLKFPMGV KKYIKYCQEK DKSTDRPYTS
+     RYIGSLVSDF HRNMLKGGIY IYPSATTYPK GKLRLLYEGN PMAFLAEQAG GIASDGKDRI
+     LDIQPKELHE RVPLFVGSRE MVRKAEEFMR EFSEE
+//

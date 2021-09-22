@@ -1,0 +1,84 @@
+ID   EF1B_ARTSA              Reviewed;         207 AA.
+AC   P12262;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 3.
+DT   07-OCT-2020, entry version 87.
+DE   RecName: Full=Elongation factor 1-beta;
+DE            Short=EF-1-beta;
+OS   Artemia salina (Brine shrimp).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Crustacea; Branchiopoda;
+OC   Anostraca; Artemiidae; Artemia.
+OX   NCBI_TaxID=85549;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], CLEAVAGE OF INITIATOR METHIONINE, ACETYLATION
+RP   AT ALA-2, AND PARTIAL PROTEIN SEQUENCE.
+RA   Maessen G.D.F., Amons R., Maassen J.A., Moeller W.;
+RT   "Primary structure of elongation factor 1-beta from Artemia.";
+RL   FEBS Lett. 208:77-83(1986).
+RN   [2]
+RP   PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=2207149; DOI=10.1016/0167-4781(90)90174-z;
+RA   van Damme H.T.F., Amons R., Karssies R., Timmers C.J., Janssen G.M.C.,
+RA   Moeller W.;
+RT   "Elongation factor 1 beta of artemia: localization of functional sites and
+RT   homology to elongation factor 1 delta.";
+RL   Biochim. Biophys. Acta 1050:241-247(1990).
+RN   [3]
+RP   PHOSPHORYLATION AT SER-90.
+RX   PubMed=3403515;
+RA   Janssen G.M.C., Maessen G.D.F., Amons R., Moeller W.;
+RT   "Phosphorylation of elongation factor 1 beta by an endogenous kinase
+RT   affects its catalytic nucleotide exchange activity.";
+RL   J. Biol. Chem. 263:11063-11066(1988).
+CC   -!- FUNCTION: EF-1-beta and EF-1-delta stimulate the exchange of GDP bound
+CC       to EF-1-alpha to GTP.
+CC   -!- SUBUNIT: EF-1 is composed of 4 subunits: alpha, beta, delta, and gamma.
+CC   -!- PTM: Phosphorylation affects the GDP/GTP exchange rate.
+CC       {ECO:0000269|PubMed:3403515}.
+CC   -!- SIMILARITY: Belongs to the EF-1-beta/EF-1-delta family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M35636; AAC83402.1; -; mRNA.
+DR   SMR; P12262; -.
+DR   iPTMnet; P12262; -.
+DR   GO; GO:0005853; C:eukaryotic translation elongation factor 1 complex; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-KW.
+DR   CDD; cd00292; EF1B; 1.
+DR   Gene3D; 3.30.70.60; -; 1.
+DR   InterPro; IPR036219; eEF-1beta-like_sf.
+DR   InterPro; IPR018940; EF-1_beta_acid_region_euk.
+DR   InterPro; IPR014038; EF1B_bsu/dsu_GNE.
+DR   InterPro; IPR036282; Glutathione-S-Trfase_C_sf.
+DR   InterPro; IPR014717; Transl_elong_EF1B/ribosomal_S6.
+DR   InterPro; IPR001326; Transl_elong_EF1B_B/D_CS.
+DR   Pfam; PF10587; EF-1_beta_acid; 1.
+DR   Pfam; PF00736; EF1_GNE; 1.
+DR   SMART; SM01182; EF-1_beta_acid; 1.
+DR   SMART; SM00888; EF1_GNE; 1.
+DR   SUPFAM; SSF47616; SSF47616; 1.
+DR   SUPFAM; SSF54984; SSF54984; 1.
+DR   PROSITE; PS00824; EF1BD_1; 1.
+DR   PROSITE; PS00825; EF1BD_2; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Direct protein sequencing; Elongation factor; Phosphoprotein;
+KW   Protein biosynthesis.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|Ref.1"
+FT   CHAIN           2..207
+FT                   /note="Elongation factor 1-beta"
+FT                   /id="PRO_0000155028"
+FT   MOD_RES         2
+FT                   /note="N-acetylalanine"
+FT                   /evidence="ECO:0000269|Ref.1"
+FT   MOD_RES         90
+FT                   /note="Phosphoserine; by CK2"
+FT                   /evidence="ECO:0000269|PubMed:3403515"
+SQ   SEQUENCE   207 AA;  23324 MW;  ED7A7C9FDB8F75E5 CRC64;
+     MANIDLKAEK GQEQLNELLA NKSYLQGYEP SQEDVAAFNQ LNKAPSDKFP YLLRWYKHIS
+     SFSDAEKKGF PGIPTSASKE EDDDVDLFGS DEEDEEAEKI KAERMKAYSD KKSKKPAIVA
+     KSSVILDIKP WDDETDMAEM EKLVRSVQMD GLVWGAAKLI PLAYGIKKLS IMCVVEDDKV
+     SIDELQEKIS EFEDFVQSVD IAAFNKV
+//

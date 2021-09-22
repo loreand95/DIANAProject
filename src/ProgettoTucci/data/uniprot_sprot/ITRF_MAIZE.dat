@@ -1,0 +1,160 @@
+ID   ITRF_MAIZE              Reviewed;         155 AA.
+AC   P01088;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 2.
+DT   07-APR-2021, entry version 129.
+DE   RecName: Full=Trypsin/factor XIIA inhibitor;
+DE   AltName: Full=CHFI;
+DE   AltName: Full=Hageman factor inhibitor;
+DE   Flags: Precursor;
+OS   Zea mays (Maize).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD clade;
+OC   Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae; Zea.
+OX   NCBI_TaxID=4577;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. A188; TISSUE=Endosperm;
+RX   PubMed=1558956; DOI=10.1007/bf00020026;
+RA   Wen L., Huang J.K., Zen K.C., Johnson B.H., Muthukrishnan S., Mackay V.,
+RA   Manney T.R., Manney M., Reeck G.R.;
+RT   "Nucleotide sequence of a cDNA clone that encodes the maize inhibitor of
+RT   trypsin and activated Hageman factor.";
+RL   Plant Mol. Biol. 18:813-814(1992).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 29-138, AND ACTIVE SITE.
+RC   TISSUE=Seed;
+RX   PubMed=6610678;
+RA   Mahoney W.C., Hermodson M.A., Jones B., Powers D.D., Corfman R.S.,
+RA   Reeck G.R.;
+RT   "Amino acid sequence and secondary structural analysis of the corn
+RT   inhibitor of trypsin and activated Hageman factor.";
+RL   J. Biol. Chem. 259:8412-8416(1984).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 33-148, AND DISULFIDE BONDS.
+RX   PubMed=9799488; DOI=10.1021/bi9812266;
+RA   Behnke C.A., Yee V.C., le Trong I., Pedersen L.C., Stenkamp R.E.,
+RA   Kim S.-S., Reeck G.R., Teller D.C.;
+RT   "Structural determinants of the bifunctional corn Hageman factor inhibitor:
+RT   X-ray crystal structure at 1.95-A resolution.";
+RL   Biochemistry 37:15277-15288(1998).
+CC   -!- FUNCTION: Potent inhibitor of mammalian trypsin and a specific
+CC       inhibitor of factor XIIa (activated hageman factor).
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- MISCELLANEOUS: The sequence heterogeneity suggests that 2 genes exist
+CC       for this inhibitor. The genes may be alleles, or multiple loci could
+CC       exist.
+CC   -!- SIMILARITY: Belongs to the protease inhibitor I6 (cereal trypsin/alpha-
+CC       amylase inhibitor) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X54064; CAA37998.1; -; mRNA.
+DR   PIR; S20850; TIZM1.
+DR   PDB; 1BEA; X-ray; 1.95 A; A=29-155.
+DR   PDB; 1BFA; X-ray; 2.20 A; A=28-154.
+DR   PDBsum; 1BEA; -.
+DR   PDBsum; 1BFA; -.
+DR   SMR; P01088; -.
+DR   STRING; 4577.GRMZM2G304548_P01; -.
+DR   MEROPS; I06.001; -.
+DR   PaxDb; P01088; -.
+DR   PRIDE; P01088; -.
+DR   EnsemblPlants; Zm00001d005230_T001; Zm00001d005230_P001; Zm00001d005230.
+DR   Gramene; Zm00001d005230_T001; Zm00001d005230_P001; Zm00001d005230.
+DR   MaizeGDB; 25928; -.
+DR   eggNOG; ENOG502R3FY; Eukaryota.
+DR   OMA; CCRELAV; -.
+DR   EvolutionaryTrace; P01088; -.
+DR   Proteomes; UP000007305; Chromosome 2.
+DR   ExpressionAtlas; P01088; baseline and differential.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004867; F:serine-type endopeptidase inhibitor activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR006106; Allergen/soft/tryp_amyl_inhib.
+DR   InterPro; IPR006105; Allergen/tryp_amyl_inhib_CS.
+DR   InterPro; IPR036312; Bifun_inhib/LTP/seed_sf.
+DR   InterPro; IPR016140; Bifunc_inhib/LTP/seed_store.
+DR   Pfam; PF00234; Tryp_alpha_amyl; 1.
+DR   PRINTS; PR00808; AMLASEINHBTR.
+DR   SMART; SM00499; AAI; 1.
+DR   SUPFAM; SSF47699; SSF47699; 1.
+DR   PROSITE; PS00426; CEREAL_TRYP_AMYL_INH; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Direct protein sequencing; Disulfide bond;
+KW   Protease inhibitor; Reference proteome; Secreted;
+KW   Serine protease inhibitor; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000269|PubMed:6610678"
+FT   CHAIN           29..138
+FT                   /note="Trypsin/factor XIIA inhibitor"
+FT                   /id="PRO_0000014357"
+FT   PROPEP          139..155
+FT                   /note="C-terminal peptide"
+FT                   /id="PRO_0000014358"
+FT   ACT_SITE        62
+FT                   /evidence="ECO:0000269|PubMed:6610678"
+FT   DISULFID        34..83
+FT                   /evidence="ECO:0000269|PubMed:9799488,
+FT                   ECO:0007744|PDB:1BEA"
+FT   DISULFID        48..72
+FT                   /evidence="ECO:0000269|PubMed:9799488,
+FT                   ECO:0007744|PDB:1BEA"
+FT   DISULFID        57..114
+FT                   /evidence="ECO:0000269|PubMed:9799488,
+FT                   ECO:0007744|PDB:1BEA"
+FT   DISULFID        73..132
+FT                   /evidence="ECO:0000269|PubMed:9799488,
+FT                   ECO:0007744|PDB:1BEA"
+FT   DISULFID        85..143
+FT                   /evidence="ECO:0000269|PubMed:9799488,
+FT                   ECO:0007744|PDB:1BEA"
+FT   VARIANT         117
+FT                   /note="E -> A"
+FT   CONFLICT        49
+FT                   /note="R -> C (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        56
+FT                   /note="T -> R (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        62
+FT                   /note="R -> RPR (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        107
+FT                   /note="R -> A (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        116
+FT                   /note="R -> A (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        120
+FT                   /note="R -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        135
+FT                   /note="A -> E (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   TURN            37..39
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   HELIX           46..55
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   HELIX           65..77
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   HELIX           81..83
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   HELIX           84..93
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   STRAND          99..101
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   HELIX           116..123
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   TURN            124..127
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   TURN            129..132
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+FT   STRAND          139..141
+FT                   /evidence="ECO:0007744|PDB:1BEA"
+SQ   SEQUENCE   155 AA;  16302 MW;  A31A8AA3BA19DE7A CRC64;
+     MASSSSSSHR RLILAAAVLL SVLAAASASA GTSCVPGWAI PHNPLPSCRW YVTSRTCGIG
+     PRLPWPELKR RCCRELADIP AYCRCTALSI LMDGAIPPGP DAQLEGRLED LPGCPREVQR
+     GFAATLVTEA ECNLATISGV AECPWILGGG TMPSK
+//

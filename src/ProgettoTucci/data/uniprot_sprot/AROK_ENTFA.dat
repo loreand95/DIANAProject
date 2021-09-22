@@ -1,0 +1,115 @@
+ID   AROK_ENTFA              Reviewed;         168 AA.
+AC   Q834S1;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Shikimate kinase {ECO:0000255|HAMAP-Rule:MF_00109};
+DE            Short=SK {ECO:0000255|HAMAP-Rule:MF_00109};
+DE            EC=2.7.1.71 {ECO:0000255|HAMAP-Rule:MF_00109};
+GN   Name=aroK {ECO:0000255|HAMAP-Rule:MF_00109}; OrderedLocusNames=EF_1567;
+OS   Enterococcus faecalis (strain ATCC 700802 / V583).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+OC   Enterococcus.
+OX   NCBI_TaxID=226185;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700802 / V583;
+RX   PubMed=12663927; DOI=10.1126/science.1080613;
+RA   Paulsen I.T., Banerjei L., Myers G.S.A., Nelson K.E., Seshadri R.,
+RA   Read T.D., Fouts D.E., Eisen J.A., Gill S.R., Heidelberg J.F., Tettelin H.,
+RA   Dodson R.J., Umayam L.A., Brinkac L.M., Beanan M.J., Daugherty S.C.,
+RA   DeBoy R.T., Durkin S.A., Kolonay J.F., Madupu R., Nelson W.C.,
+RA   Vamathevan J.J., Tran B., Upton J., Hansen T., Shetty J., Khouri H.M.,
+RA   Utterback T.R., Radune D., Ketchum K.A., Dougherty B.A., Fraser C.M.;
+RT   "Role of mobile DNA in the evolution of vancomycin-resistant Enterococcus
+RT   faecalis.";
+RL   Science 299:2071-2074(2003).
+CC   -!- FUNCTION: Catalyzes the specific phosphorylation of the 3-hydroxyl
+CC       group of shikimic acid using ATP as a cosubstrate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00109}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + shikimate = 3-phosphoshikimate + ADP + H(+);
+CC         Xref=Rhea:RHEA:13121, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:36208, ChEBI:CHEBI:145989, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.71; Evidence={ECO:0000255|HAMAP-Rule:MF_00109};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00109};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00109};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       5/7. {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00109}.
+CC   -!- SIMILARITY: Belongs to the shikimate kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00109}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016830; AAO81354.1; -; Genomic_DNA.
+DR   RefSeq; NP_815284.1; NC_004668.1.
+DR   RefSeq; WP_002357579.1; NZ_KE136528.1.
+DR   SMR; Q834S1; -.
+DR   STRING; 226185.EF_1567; -.
+DR   EnsemblBacteria; AAO81354; AAO81354; EF_1567.
+DR   KEGG; efa:EF1567; -.
+DR   PATRIC; fig|226185.45.peg.1938; -.
+DR   eggNOG; COG0703; Bacteria.
+DR   HOGENOM; CLU_057607_4_3_9; -.
+DR   OMA; EVRDPLY; -.
+DR   BioCyc; EFAE226185:G1G0C-1553-MONOMER; -.
+DR   UniPathway; UPA00053; UER00088.
+DR   Proteomes; UP000001415; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004765; F:shikimate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00464; SK; 1.
+DR   HAMAP; MF_00109; Shikimate_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR031322; Shikimate/glucono_kinase.
+DR   InterPro; IPR000623; Shikimate_kinase/TSH1.
+DR   InterPro; IPR023000; Shikimate_kinase_CS.
+DR   Pfam; PF01202; SKI; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS01128; SHIKIMATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; ATP-binding;
+KW   Cytoplasm; Kinase; Magnesium; Metal-binding; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..168
+FT                   /note="Shikimate kinase"
+FT                   /id="PRO_0000237876"
+FT   NP_BIND         11..16
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   METAL           15
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         33
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         57
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         78
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         118
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         136
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+FT   BINDING         153
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00109"
+SQ   SEQUENCE   168 AA;  19004 MW;  882786323F0230AD CRC64;
+     MESIVLIGFM GAGKTTIGQS LANKLKMPHL DLDTALIEKI GRSIPDYFEK YGEAAFREQE
+     TQLLKELSKN TAVLSTGGGI VVGPENRSLL KSFQQVIYLH ATPEELLKRI TEDTENQRPL
+     AIERSSKEII TLFESRKNFY EECAKMTIDT TNRSPEEIIN EILQQLKE
+//

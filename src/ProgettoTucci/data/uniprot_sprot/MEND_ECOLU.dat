@@ -1,0 +1,110 @@
+ID   MEND_ECOLU              Reviewed;         556 AA.
+AC   B7N5N0;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 68.
+DE   RecName: Full=2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase {ECO:0000255|HAMAP-Rule:MF_01659};
+DE            Short=SEPHCHC synthase {ECO:0000255|HAMAP-Rule:MF_01659};
+DE            EC=2.2.1.9 {ECO:0000255|HAMAP-Rule:MF_01659};
+DE   AltName: Full=Menaquinone biosynthesis protein MenD {ECO:0000255|HAMAP-Rule:MF_01659};
+GN   Name=menD {ECO:0000255|HAMAP-Rule:MF_01659}; OrderedLocusNames=ECUMN_2607;
+OS   Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=585056;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UMN026 / ExPEC;
+RX   PubMed=19165319; DOI=10.1371/journal.pgen.1000344;
+RA   Touchon M., Hoede C., Tenaillon O., Barbe V., Baeriswyl S., Bidet P.,
+RA   Bingen E., Bonacorsi S., Bouchier C., Bouvet O., Calteau A., Chiapello H.,
+RA   Clermont O., Cruveiller S., Danchin A., Diard M., Dossat C., Karoui M.E.,
+RA   Frapy E., Garry L., Ghigo J.M., Gilles A.M., Johnson J., Le Bouguenec C.,
+RA   Lescat M., Mangenot S., Martinez-Jehanne V., Matic I., Nassif X., Oztas S.,
+RA   Petit M.A., Pichon C., Rouy Z., Ruf C.S., Schneider D., Tourret J.,
+RA   Vacherie B., Vallenet D., Medigue C., Rocha E.P.C., Denamur E.;
+RT   "Organised genome dynamics in the Escherichia coli species results in
+RT   highly diverse adaptive paths.";
+RL   PLoS Genet. 5:E1000344-E1000344(2009).
+CC   -!- FUNCTION: Catalyzes the thiamine diphosphate-dependent decarboxylation
+CC       of 2-oxoglutarate and the subsequent addition of the resulting succinic
+CC       semialdehyde-thiamine pyrophosphate anion to isochorismate to yield 2-
+CC       succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate (SEPHCHC).
+CC       {ECO:0000255|HAMAP-Rule:MF_01659}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + H(+) + isochorismate = 5-enolpyruvoyl-6-
+CC         hydroxy-2-succinyl-cyclohex-3-ene-1-carboxylate + CO2;
+CC         Xref=Rhea:RHEA:25593, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:29780, ChEBI:CHEBI:58818; EC=2.2.1.9;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01659};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01659};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01659};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01659};
+CC       Note=Binds 1 thiamine pyrophosphate per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01659};
+CC   -!- PATHWAY: Quinol/quinone metabolism; 1,4-dihydroxy-2-naphthoate
+CC       biosynthesis; 1,4-dihydroxy-2-naphthoate from chorismate: step 2/7.
+CC       {ECO:0000255|HAMAP-Rule:MF_01659}.
+CC   -!- PATHWAY: Quinol/quinone metabolism; menaquinone biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01659}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01659}.
+CC   -!- SIMILARITY: Belongs to the TPP enzyme family. MenD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01659}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU928163; CAR13789.1; -; Genomic_DNA.
+DR   RefSeq; WP_001306466.1; NC_011751.1.
+DR   RefSeq; YP_002413317.1; NC_011751.1.
+DR   SMR; B7N5N0; -.
+DR   EnsemblBacteria; CAR13789; CAR13789; ECUMN_2607.
+DR   KEGG; eum:ECUMN_2607; -.
+DR   PATRIC; fig|585056.7.peg.2787; -.
+DR   HOGENOM; CLU_006051_3_0_6; -.
+DR   OMA; HDTNGFL; -.
+DR   UniPathway; UPA00079; -.
+DR   UniPathway; UPA01057; UER00164.
+DR   Proteomes; UP000007097; Chromosome.
+DR   GO; GO:0070204; F:2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030976; F:thiamine pyrophosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009234; P:menaquinone biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01659; MenD; 1.
+DR   InterPro; IPR004433; MenaQ_synth_MenD.
+DR   InterPro; IPR032264; MenD_middle.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR012001; Thiamin_PyroP_enz_TPP-bd_dom.
+DR   InterPro; IPR011766; TPP_enzyme-bd_C.
+DR   PANTHER; PTHR42916; PTHR42916; 1.
+DR   Pfam; PF02775; TPP_enzyme_C; 1.
+DR   Pfam; PF16582; TPP_enzyme_M_2; 1.
+DR   Pfam; PF02776; TPP_enzyme_N; 1.
+DR   PIRSF; PIRSF004983; MenD; 1.
+DR   SUPFAM; SSF52518; SSF52518; 2.
+DR   TIGRFAMs; TIGR00173; menD; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Manganese; Menaquinone biosynthesis; Metal-binding;
+KW   Thiamine pyrophosphate; Transferase.
+FT   CHAIN           1..556
+FT                   /note="2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-
+FT                   carboxylate synthase"
+FT                   /id="PRO_1000187075"
+SQ   SEQUENCE   556 AA;  61427 MW;  80261CF928E05552 CRC64;
+     MSVSAFNRRW AAVILEALTR HGVRHICIAP GSRSTPLTLA AAENSAFIHH THFDERGLGH
+     LALGLAKVSK QPVAVIVTSG TAVANLYPAL IEAGLTGEKL ILLTADRPPE LIDCGANQAI
+     RQPGMFASHP THSISLPRPT QDIPARWLVS TIDHALGTLH AGGVHINCPF AEPLYGEMDD
+     TGLSWQQRLG DWWQDDKPWL REAPRLESEK QRDWFFWRQK RGVVVAGRMS AEEGKKVTLW
+     AQTLGWPLIG DVLSQTGQPL PCADLWLGNA KAISELQQAQ IVVQLGSSLT GKRLLQWQAI
+     CEPEEYWIVD DIEGRLDPAH HRGRRLIANI ADWLEQHPAE KRQPWCVEIP RLAEQAMQAV
+     IARRDAFGEA QLAHRISDYL PEQGQLFVGN SLVVRLIDAL SQLPAGYPVY SNRGASGIDG
+     LLSTAAGVQR ASGKPTLAIV GDLSALYDLN ALALLRQVSA PLVLIVVNNN GGQIFSLLPT
+     PKNERERFYL MPQNVHFEHA AAMFELKYHR PQNWQELETA LADAWRTPTT TVIEMVVNDT
+     DGAQTLQQLL AQVSHL
+//

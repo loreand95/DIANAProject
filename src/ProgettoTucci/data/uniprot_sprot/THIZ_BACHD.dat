@@ -1,0 +1,94 @@
+ID   THIZ_BACHD              Reviewed;         249 AA.
+AC   Q9K9G7;
+DT   07-JAN-2015, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 108.
+DE   RecName: Full=Formylaminopyrimidine import ATP-binding protein ThiZ {ECO:0000305};
+DE            Short=FAMP import ATP-binding protein {ECO:0000305};
+DE            EC=7.6.2.- {ECO:0000305};
+GN   Name=thiZ {ECO:0000303|PubMed:17618314};
+GN   OrderedLocusNames=BH2680 {ECO:0000312|EMBL:BAB06399.1};
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153
+OS   / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+RN   [2]
+RP   FUNCTION, AND PATHWAY.
+RX   PubMed=17618314; DOI=10.1038/nchembio.2007.13;
+RA   Jenkins A.H., Schyns G., Potot S., Sun G., Begley T.P.;
+RT   "A new thiamin salvage pathway.";
+RL   Nat. Chem. Biol. 3:492-497(2007).
+CC   -!- FUNCTION: Participates in a thiamine pyrimidine salvage pathway as part
+CC       of the ABC transporter complex ThiXYZ involved in the import of
+CC       thiamine degradation products such as the formylaminopyrimidine N-
+CC       formyl-4-amino-5-aminomethyl-2-methylpyrimidine (FAMP). Is likely
+CC       responsible for energy coupling to the transport system.
+CC       {ECO:0000303|PubMed:17618314, ECO:0000305}.
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC       {ECO:0000303|PubMed:17618314}.
+CC   -!- SUBUNIT: The complex is likely composed of an ATP-binding protein
+CC       (ThiZ), a transmembrane protein (ThiX) and a solute-binding protein
+CC       (ThiY). {ECO:0000303|PubMed:17618314, ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Peripheral membrane protein
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB06399.1; -; Genomic_DNA.
+DR   PIR; H83984; H83984.
+DR   RefSeq; WP_010898829.1; NC_002570.2.
+DR   SMR; Q9K9G7; -.
+DR   STRING; 272558.10175301; -.
+DR   EnsemblBacteria; BAB06399; BAB06399; BAB06399.
+DR   KEGG; bha:BH2680; -.
+DR   eggNOG; COG1116; Bacteria.
+DR   HOGENOM; CLU_000604_1_22_9; -.
+DR   OMA; IGFVTHS; -.
+DR   OrthoDB; 1832232at2; -.
+DR   BioCyc; BHAL272558:G1G3A-2750-MONOMER; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding;
+KW   Reference proteome; Translocase; Transport.
+FT   CHAIN           1..249
+FT                   /note="Formylaminopyrimidine import ATP-binding protein
+FT                   ThiZ"
+FT                   /id="PRO_0000431517"
+FT   DOMAIN          6..228
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   NP_BIND         39..46
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   249 AA;  28258 MW;  20E1E7AD8606885B CRC64;
+     MVKELLTFEE VSFAYSSSSP VIERLSFTVF ENEIVAILAK SGSGKSTLFR LITRLESPDQ
+     GTIVCHAQGK IGYMPQQDLL LPWLTILENV SLPLEIQGKD KKEAKIIAAS FFNRFGLVGT
+     ESLYPDALSG GMRQRAAFLR ATLTSETLLL LDEPFASLDS LTKTSMHHWL VSMWEKEKRT
+     LLLVTHDIEE ALLLSDRLFI FTNQPLHGFT EVQVPPDLRR KMETTEKMEQ QRSSLKKDIR
+     ALLIEESLR
+//

@@ -1,0 +1,93 @@
+ID   DAPD_BRUA2              Reviewed;         284 AA.
+AC   Q2YJQ7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-DEC-2005, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase {ECO:0000255|HAMAP-Rule:MF_00811};
+DE            EC=2.3.1.117 {ECO:0000255|HAMAP-Rule:MF_00811};
+DE   AltName: Full=Tetrahydrodipicolinate N-succinyltransferase {ECO:0000255|HAMAP-Rule:MF_00811};
+DE            Short=THDP succinyltransferase {ECO:0000255|HAMAP-Rule:MF_00811};
+DE            Short=THP succinyltransferase {ECO:0000255|HAMAP-Rule:MF_00811};
+DE            Short=Tetrahydropicolinate succinylase {ECO:0000255|HAMAP-Rule:MF_00811};
+GN   Name=dapD {ECO:0000255|HAMAP-Rule:MF_00811}; OrderedLocusNames=BAB2_0991;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-2,3,4,5-tetrahydrodipicolinate + H2O + succinyl-CoA = (S)-
+CC         2-succinylamino-6-oxoheptanedioate + CoA; Xref=Rhea:RHEA:17325,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15685, ChEBI:CHEBI:16845,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57292; EC=2.3.1.117;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00811};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (succinylase route): step 1/3. {ECO:0000255|HAMAP-Rule:MF_00811}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00811}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00811}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00811}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM040265; CAJ13157.1; -; Genomic_DNA.
+DR   RefSeq; WP_002965622.1; NZ_KN046823.1.
+DR   SMR; Q2YJQ7; -.
+DR   EnsemblBacteria; CAJ13157; CAJ13157; BAB2_0991.
+DR   GeneID; 45126330; -.
+DR   GeneID; 58777157; -.
+DR   KEGG; bmf:BAB2_0991; -.
+DR   PATRIC; fig|359391.11.peg.678; -.
+DR   HOGENOM; CLU_050859_0_1_5; -.
+DR   OMA; YFPIQKM; -.
+DR   BioCyc; BABO359391:G1GJA-3194-MONOMER; -.
+DR   UniPathway; UPA00034; UER00019.
+DR   Proteomes; UP000002719; Chromosome II.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008666; F:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.166.10; -; 1.
+DR   HAMAP; MF_00811; DapD; 1.
+DR   InterPro; IPR005664; DapD_Trfase_Hexpep_rpt_fam.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR023180; THP_succinylTrfase_dom1.
+DR   InterPro; IPR037133; THP_succinylTrfase_N_sf.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   Pfam; PF00132; Hexapep; 1.
+DR   Pfam; PF14602; Hexapep_2; 1.
+DR   Pfam; PF14805; THDPS_N_2; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR00965; dapD; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Cytoplasm;
+KW   Diaminopimelate biosynthesis; Lysine biosynthesis; Reference proteome;
+KW   Repeat; Transferase.
+FT   CHAIN           1..284
+FT                   /note="2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-
+FT                   succinyltransferase"
+FT                   /id="PRO_1000047122"
+FT   BINDING         111
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00811"
+FT   BINDING         148
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00811"
+SQ   SEQUENCE   284 AA;  30753 MW;  9EF76F51038A6350 CRC64;
+     MTKPDLASLE KTIEKAFDER DGINTATRGE VREAVEQSLI LLDRGEVRVA EKQADGNWHV
+     NQWLKKAVLL SFRLNPMEVI KGGPGQSSWW DKVPSKFDGW TANEFEKAGF RAVPNCIVRH
+     SAYIAPNAIL MPSFVNLGAY VDKGAMIDTW ATVGSCAQIG KNVHLSGGVG IGGVLEPMQA
+     GPTIIEDNCF IGARSEVVEG CIVREGSVLG MGVFIGKSTK IVDRATGEVF YGEVPPYSVV
+     VAGTMPGKNV PGENWGPSLY CAVIVKRADE KTRSKTSINE LLRD
+//

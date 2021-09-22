@@ -1,0 +1,102 @@
+ID   FABH_MYCTO              Reviewed;         335 AA.
+AC   P9WNG2; L0T424; O06399; P0A574;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 30.
+DE   RecName: Full=3-oxoacyl-[acyl-carrier-protein] synthase 3;
+DE            EC=2.3.1.180;
+DE   AltName: Full=3-oxoacyl-[acyl-carrier-protein] synthase III;
+DE   AltName: Full=Beta-ketoacyl-ACP synthase III;
+DE            Short=KAS III;
+DE   AltName: Full=MtFabH;
+GN   Name=fabH; OrderedLocusNames=MT0557;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Catalyzes the condensation reaction of fatty acid synthesis
+CC       by the addition to an acyl acceptor of two carbons from malonyl-ACP.
+CC       Catalyzes the first condensation reaction which initiates fatty acid
+CC       synthesis and may therefore play a role in governing the total rate of
+CC       fatty acid production. Possesses both acetoacetyl-ACP synthase and
+CC       acetyl transacylase activities. Has some substrate specificity for long
+CC       chain acyl-CoA such as myristoyl-CoA. Does not use acyl-CoA as primer.
+CC       Its substrate specificity determines the biosynthesis of mycolic acid
+CC       fatty acid chain, which is characteristic of mycobacterial cell wall
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + H(+) + malonyl-[ACP] = 3-oxobutanoyl-[ACP] + CO2
+CC         + CoA; Xref=Rhea:RHEA:12080, Rhea:RHEA-COMP:9623, Rhea:RHEA-
+CC         COMP:9625, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:78449, ChEBI:CHEBI:78450;
+CC         EC=2.3.1.180;
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the thiolase-like superfamily. FabH family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK44780.1; -; Genomic_DNA.
+DR   PIR; H70545; H70545.
+DR   RefSeq; WP_003402861.1; NZ_KK341227.1.
+DR   SMR; P9WNG2; -.
+DR   BindingDB; P9WNG2; -.
+DR   EnsemblBacteria; AAK44780; AAK44780; MT0557.
+DR   GeneID; 45424497; -.
+DR   KEGG; mtc:MT0557; -.
+DR   HOGENOM; CLU_039592_4_0_11; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0033818; F:beta-ketoacyl-acyl-carrier-protein synthase III activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00830; KAS_III; 1.
+DR   Gene3D; 3.40.47.10; -; 2.
+DR   HAMAP; MF_01815; FabH; 1.
+DR   InterPro; IPR013751; ACP_syn_III.
+DR   InterPro; IPR013747; ACP_syn_III_C.
+DR   InterPro; IPR004655; FabH_synth.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF08545; ACP_syn_III; 1.
+DR   Pfam; PF08541; ACP_syn_III_C; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   TIGRFAMs; TIGR00747; fabH; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; Multifunctional enzyme; Transferase.
+FT   CHAIN           1..335
+FT                   /note="3-oxoacyl-[acyl-carrier-protein] synthase 3"
+FT                   /id="PRO_0000427132"
+FT   REGION          259..263
+FT                   /note="ACP-binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        122
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        258
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        289
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   335 AA;  34873 MW;  6573BE1FAE5BCFB6 CRC64;
+     MTEIATTSGA RSVGLLSVGA YRPERVVTND EICQHIDSSD EWIYTRTGIK TRRFAADDES
+     AASMATEACR RALSNAGLSA ADIDGVIVTT NTHFLQTPPA APMVAASLGA KGILGFDLSA
+     GCAGFGYALG AAADMIRGGG AATMLVVGTE KLSPTIDMYD RGNCFIFADG AAAVVVGETP
+     FQGIGPTVAG SDGEQADAIR QDIDWITFAQ NPSGPRPFVR LEGPAVFRWA AFKMGDVGRR
+     AMDAAGVRPD QIDVFVPHQA NSRINELLVK NLQLRPDAVV ANDIEHTGNT SAASIPLAMA
+     ELLTTGAAKP GDLALLIGYG AGLSYAAQVV RMPKG
+//

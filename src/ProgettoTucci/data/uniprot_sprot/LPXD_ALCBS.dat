@@ -1,0 +1,91 @@
+ID   LPXD_ALCBS              Reviewed;         336 AA.
+AC   Q0VQE7;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   02-DEC-2020, entry version 83.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD {ECO:0000255|HAMAP-Rule:MF_00523}; OrderedLocusNames=ABO_1153;
+OS   Alcanivorax borkumensis (strain ATCC 700651 / DSM 11573 / NCIMB 13689 /
+OS   SK2).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Alcanivoracaceae; Alcanivorax.
+OX   NCBI_TaxID=393595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700651 / DSM 11573 / NCIMB 13689 / SK2;
+RX   PubMed=16878126; DOI=10.1038/nbt1232;
+RA   Schneiker S., Martins dos Santos V.A.P., Bartels D., Bekel T., Brecht M.,
+RA   Buhrmester J., Chernikova T.N., Denaro R., Ferrer M., Gertler C.,
+RA   Goesmann A., Golyshina O.V., Kaminski F., Khachane A.N., Lang S., Linke B.,
+RA   McHardy A.C., Meyer F., Nechitaylo T., Puehler A., Regenhardt D., Rupp O.,
+RA   Sabirova J.S., Selbitschka W., Yakimov M.M., Timmis K.N., Vorhoelter F.-J.,
+RA   Weidner S., Kaiser O., Golyshin P.N.;
+RT   "Genome sequence of the ubiquitous hydrocarbon-degrading marine bacterium
+RT   Alcanivorax borkumensis.";
+RL   Nat. Biotechnol. 24:997-1004(2006).
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine using 3-
+CC       hydroxyacyl-ACP as the acyl donor. Is involved in the biosynthesis of
+CC       lipid A, a phosphorylated glycolipid that anchors the
+CC       lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3R)-hydroxyacyl-[ACP] + a UDP-3-O-acyl-alpha-D-glucosamine
+CC         = a UDP-2-N,3-O-bis((3R)-3-hydroxyacyl)-alpha-D-glucosamine + H(+) +
+CC         holo-[ACP]; Xref=Rhea:RHEA:53836, Rhea:RHEA-COMP:9685, Rhea:RHEA-
+CC         COMP:9945, ChEBI:CHEBI:15378, ChEBI:CHEBI:64479, ChEBI:CHEBI:78827,
+CC         ChEBI:CHEBI:137740, ChEBI:CHEBI:137748; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00523};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family. LpxD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286690; CAL16601.1; -; Genomic_DNA.
+DR   RefSeq; WP_011588436.1; NC_008260.1.
+DR   SMR; Q0VQE7; -.
+DR   STRING; 393595.ABO_1153; -.
+DR   EnsemblBacteria; CAL16601; CAL16601; ABO_1153.
+DR   KEGG; abo:ABO_1153; -.
+DR   eggNOG; COG1044; Bacteria.
+DR   HOGENOM; CLU_049865_0_1_6; -.
+DR   OMA; QIQIAHN; -.
+DR   OrthoDB; 1602061at2; -.
+DR   BioCyc; ABOR393595:ABO_RS05960-MONOMER; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000008871; Chromosome.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:InterPro.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd03352; LbH_LpxD; 1.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR007691; LpxD.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   PANTHER; PTHR43378; PTHR43378; 1.
+DR   Pfam; PF00132; Hexapep; 3.
+DR   Pfam; PF14602; Hexapep_2; 1.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Reference proteome; Repeat; Transferase.
+FT   CHAIN           1..336
+FT                   /note="UDP-3-O-acylglucosamine N-acyltransferase"
+FT                   /id="PRO_0000264342"
+FT   ACT_SITE        237
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00523"
+SQ   SEQUENCE   336 AA;  34847 MW;  41093F2F0A25DB98 CRC64;
+     MLTLGELAKK LDAELIGEAS HVVDGLGTIQ SAGPSQLTFL ANPRYRSFLE QTNAGAVLIP
+     ESQREFCPVP ALIVKDPYLS FAKASAFFEV APQVQPGVHP AAVVDATAQI HTSASIGPNA
+     VVEAGVIVGE GAVIMANSVV GAGCHIGDQC RIWPNVTIYH GVTLGPRTTI HANCVIGGDG
+     FGFAFNGAGW TKLHQVGGVT IGADVEIGAG TTVDRGAIED TIIGDGVILD NQIQVAHNVV
+     IGDHTAIAGK AGIAGSAKIG SFCLIGGAAG IAGHIEVCDK VQILAMSLVS SSIKEPGTYG
+     SALPVDSQSR YRRNVARFRN LDDLARRVRK LERLSD
+//

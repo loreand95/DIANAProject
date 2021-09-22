@@ -1,0 +1,141 @@
+ID   NU5C_AGRST              Reviewed;         739 AA.
+AC   A1EA56;
+DT   20-JAN-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 1.
+DT   07-OCT-2020, entry version 52.
+DE   RecName: Full=NAD(P)H-quinone oxidoreductase subunit 5, chloroplastic;
+DE            EC=7.1.1.-;
+DE   AltName: Full=NAD(P)H dehydrogenase subunit 5;
+DE   AltName: Full=NADH-plastoquinone oxidoreductase subunit 5;
+GN   Name=ndhF;
+OS   Agrostis stolonifera (Creeping bentgrass).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP clade;
+OC   Pooideae; Poodae; Poeae; Poeae Chloroplast Group 1 (Aveneae type);
+OC   Agrostidinae; Agrostis.
+OX   NCBI_TaxID=63632;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Penn A-4;
+RX   PubMed=17534593; DOI=10.1007/s00122-007-0567-4;
+RA   Saski C., Lee S.-B., Fjellheim S., Guda C., Jansen R.K., Luo H.,
+RA   Tomkins J., Rognli O.A., Daniell H., Clarke J.L.;
+RT   "Complete chloroplast genome sequences of Hordeum vulgare, Sorghum bicolor
+RT   and Agrostis stolonifera, and comparative analyses with other grass
+RT   genomes.";
+RL   Theor. Appl. Genet. 115:571-590(2007).
+CC   -!- FUNCTION: NDH shuttles electrons from NAD(P)H:plastoquinone, via FMN
+CC       and iron-sulfur (Fe-S) centers, to quinones in the photosynthetic chain
+CC       and possibly in a chloroplast respiratory chain. The immediate electron
+CC       acceptor for the enzyme in this species is believed to be
+CC       plastoquinone. Couples the redox reaction to proton translocation, and
+CC       thus conserves the redox energy in a proton gradient (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADH = a plastoquinol + n
+CC         H(+)(out) + NAD(+); Xref=Rhea:RHEA:42608, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62192;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n
+CC         H(+)(out) + NADP(+); Xref=Rhea:RHEA:42612, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62192;
+CC   -!- SUBUNIT: NDH is composed of at least 16 different subunits, 5 of which
+CC       are encoded in the nucleus. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000250}; Multi-pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 5 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF115543; ABK79628.1; -; Genomic_DNA.
+DR   RefSeq; YP_874784.1; NC_008591.1.
+DR   GeneID; 4525032; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   InterPro; IPR002128; NADH_UbQ_OxRdtase_chlpt_su5_C.
+DR   InterPro; IPR003945; NADHpl_OxRdtase_5.
+DR   InterPro; IPR018393; NADHpl_OxRdtase_5_subgr.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   InterPro; IPR001516; Proton_antipo_N.
+DR   Pfam; PF01010; Proton_antipo_C; 1.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   Pfam; PF00662; Proton_antipo_N; 1.
+DR   PRINTS; PR01435; NPOXDRDTASE5.
+DR   TIGRFAMs; TIGR01974; NDH_I_L; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Membrane; NAD; NADP; Plastid; Plastoquinone; Quinone;
+KW   Thylakoid; Translocase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..739
+FT                   /note="NAD(P)H-quinone oxidoreductase subunit 5,
+FT                   chloroplastic"
+FT                   /id="PRO_0000360908"
+FT   TRANSMEM        9..29
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        39..59
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        89..109
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        125..145
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        147..167
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        185..205
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        219..239
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        280..300
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        327..347
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        354..374
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        396..416
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        425..445
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        542..562
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        610..630
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        719..739
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   739 AA;  82746 MW;  0FB9FC89321D7ABF CRC64;
+     MEHTYQYAWV IPLLPLPVIM SMGFGLFFIP TATKNLRRIW AFPSVLLLSI AMVFSVQLSI
+     QQINGSSIYQ YLWSWTVNND FSLEFGYLID PLTSIMLILI TTVGILVLIY SDGYMSHDEG
+     YLRFFVYISF FNTSMLGLVT SSNLIQIYFF WELVGMCSYL LIGFWFTRPL AASACQKAFV
+     TNRVGDFGLL LGILGFFWIT GSLEFRDLFK IANNWIPNNG INSLLTTLCA FLLFLGAVAK
+     SAQFPLHVWL PDAMEGPTPI SALIHAATMV AAGIFLLARL LPLFISLPLI MSLISLVGTI
+     TLFLGATLAL AQRDIKRSLA YSTMSQLGYM MLALGIGSYQ AALFHLITHA YSKALLFLGS
+     GSIIHSMEPL VGYSPDKSQN MVLMGGLRKY IPITRSTFLW GTLSLCGIPP LACFWSKDEI
+     LSNSWLYSPF FGIIASFTAG LTAFYMFRIY LLTFDGYLRV HFQNYSSTKE GPLYSISLWG
+     KRIPKGVNGD FVLSTTKSGV SFFSQNIPKM QGNTTNRIGC FSTSFGAKKT FAYPHETGNT
+     MLFPLLILLL FTFFIGFIGI SFDNGATDNG IAGLTILSKW LTPSINFTQE SSNSSINSYE
+     FITNAISSVS LAIFGLFIAY IFYGSAYSFF QNLDLQNSFY KESPKKAFFG KVKKKIYSWS
+     YNRGYIDIFY TRVFTLGIRG LTELTEFFDK GVIDGITNGV GLVSFCIGEE IKYVGGGRIS
+     SYLFFFLCYV SIFLFFFLF
+//

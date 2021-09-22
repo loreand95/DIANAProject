@@ -1,0 +1,148 @@
+ID   ACSA_SYNY3              Reviewed;         653 AA.
+AC   Q55404;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-DEC-2020, entry version 125.
+DE   RecName: Full=Acetyl-coenzyme A synthetase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            Short=AcCoA synthetase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            Short=Acs {ECO:0000255|HAMAP-Rule:MF_01123};
+DE            EC=6.2.1.1 {ECO:0000255|HAMAP-Rule:MF_01123};
+DE   AltName: Full=Acetate--CoA ligase {ECO:0000255|HAMAP-Rule:MF_01123};
+DE   AltName: Full=Acyl-activating enzyme {ECO:0000255|HAMAP-Rule:MF_01123};
+GN   Name=acsA {ECO:0000255|HAMAP-Rule:MF_01123}; Synonyms=acs;
+GN   OrderedLocusNames=sll0542;
+OS   Synechocystis sp. (strain PCC 6803 / Kazusa).
+OC   Bacteria; Cyanobacteria; Synechococcales; Merismopediaceae; Synechocystis;
+OC   unclassified Synechocystis.
+OX   NCBI_TaxID=1111708;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27184 / PCC 6803 / N-1;
+RX   PubMed=8590279; DOI=10.1093/dnares/2.4.153;
+RA   Kaneko T., Tanaka A., Sato S., Kotani H., Sazuka T., Miyajima N.,
+RA   Sugiura M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. I. Sequence features in the 1 Mb region
+RT   from map positions 64% to 92% of the genome.";
+RL   DNA Res. 2:153-166(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 6803 / Kazusa;
+RX   PubMed=8905231; DOI=10.1093/dnares/3.3.109;
+RA   Kaneko T., Sato S., Kotani H., Tanaka A., Asamizu E., Nakamura Y.,
+RA   Miyajima N., Hirosawa M., Sugiura M., Sasamoto S., Kimura T., Hosouchi T.,
+RA   Matsuno A., Muraki A., Nakazaki N., Naruo K., Okumura S., Shimpo S.,
+RA   Takeuchi C., Wada T., Watanabe A., Yamada M., Yasuda M., Tabata S.;
+RT   "Sequence analysis of the genome of the unicellular cyanobacterium
+RT   Synechocystis sp. strain PCC6803. II. Sequence determination of the entire
+RT   genome and assignment of potential protein-coding regions.";
+RL   DNA Res. 3:109-136(1996).
+CC   -!- FUNCTION: Catalyzes the conversion of acetate into acetyl-CoA (AcCoA),
+CC       an essential intermediate at the junction of anabolic and catabolic
+CC       pathways. AcsA undergoes a two-step reaction. In the first half
+CC       reaction, AcsA combines acetate with ATP to form acetyl-adenylate
+CC       (AcAMP) intermediate. In the second half reaction, it can then transfer
+CC       the acetyl group from AcAMP to the sulfhydryl group of CoA, forming the
+CC       product AcCoA. {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetate + ATP + CoA = acetyl-CoA + AMP + diphosphate;
+CC         Xref=Rhea:RHEA:23176, ChEBI:CHEBI:30089, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:456215; EC=6.2.1.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01123};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01123};
+CC   -!- PTM: Acetylated. Deacetylation by the SIR2-homolog deacetylase
+CC       activates the enzyme. {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01123}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000022; BAA10498.1; -; Genomic_DNA.
+DR   PIR; S75763; S75763.
+DR   SMR; Q55404; -.
+DR   STRING; 1148.1001254; -.
+DR   PaxDb; Q55404; -.
+DR   EnsemblBacteria; BAA10498; BAA10498; BAA10498.
+DR   KEGG; syn:sll0542; -.
+DR   eggNOG; COG0365; Bacteria.
+DR   InParanoid; Q55404; -.
+DR   OMA; DHWWHDL; -.
+DR   PhylomeDB; Q55404; -.
+DR   Proteomes; UP000001425; Chromosome.
+DR   GO; GO:0003987; F:acetate-CoA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016208; F:AMP binding; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019427; P:acetyl-CoA biosynthetic process from acetate; IEA:InterPro.
+DR   Gene3D; 3.40.50.12780; -; 1.
+DR   HAMAP; MF_01123; Ac_CoA_synth; 1.
+DR   InterPro; IPR011904; Ac_CoA_lig.
+DR   InterPro; IPR032387; ACAS_N.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR042099; AMP-dep_Synthh-like_sf.
+DR   Pfam; PF16177; ACAS_N; 1.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   TIGRFAMs; TIGR02188; Ac_CoA_lig_AcsA; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; ATP-binding; Ligase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..653
+FT                   /note="Acetyl-coenzyme A synthetase"
+FT                   /id="PRO_0000208391"
+FT   NP_BIND         392..394
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   NP_BIND         416..421
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   REGION          197..200
+FT                   /note="Coenzyme A binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   METAL           547
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   METAL           549
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   METAL           552
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         316
+FT                   /note="Coenzyme A"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         510
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         525
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         533
+FT                   /note="Coenzyme A; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   BINDING         536
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+FT   MOD_RES         619
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01123"
+SQ   SEQUENCE   653 AA;  73052 MW;  5EBCAD430EEFFA03 CRC64;
+     MSDTIESILQ EERLFDPPTE FSERAYVRSG REYEQLYSRA ASNPEKFWGE LAEQELHWFK
+     KWDQVLDWQP PFAKWFVGGQ LNISHNCLDR HLTTWRRNKA AIIWEGEPGD SRIITYAQLH
+     REVCQFANAL KSLGVQKGDR VAIYLPMIPE AAITMLACSR IGAPHSVVFG GFSAEALRDR
+     LVDAEAKLVI TADGGFRKDK AIALKQEVDK ALEHGAPSVE NVIVVQRTKA DVTMTAGRDH
+     WWHELQPQQS AHCPAEPIDS EDMLFILYTS GSTGKPKGVV HTTGGYNLYT HMTTKWIFDL
+     KDTDVYWCTA DVGWITGHSY IVYGPLSNGA TTVMYEGVPR PSNPGCFWDV IERYGVNIFY
+     TAPTAIRAFI RMGEAVPNAR DLSSLRLLGT VGEPINPEAW MWYHRVIGGG KCPIVDTWWQ
+     TETGGIMLTP LPGAIPTKPG SCTKPFPGIV AEIVDLDGNP VESDQGGFLV IKQPWPSMIR
+     DVYGDTDRFR HTYWEHIQPK EGQYLYFAGD GARRDKDGYF WVMGRVDDVI NVSGHRLGTM
+     EIESALVSHP LVAEAAVVGR PDELTGEAIF AFVSLEGNAE PSEELKKDLV KHVTEEIGAI
+     ARPAEIRFTD VLPKTRSGKI MRRLLRSLAS GQEISGDTST LEDRTVLDKL REG
+//

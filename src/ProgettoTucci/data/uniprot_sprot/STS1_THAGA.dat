@@ -1,0 +1,100 @@
+ID   STS1_THAGA              Reviewed;         561 AA.
+AC   K4L9M2;
+DT   13-NOV-2013, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2013, sequence version 1.
+DT   11-DEC-2019, entry version 26.
+DE   RecName: Full=Sesquiterpene synthase 1;
+DE            EC=4.2.3.13;
+DE   AltName: Full=D-cadinene synthase STS1;
+GN   Name=STS1;
+OS   Thapsia garganica (Deadly carrot).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; campanulids; Apiales; Apiaceae; Apioideae; Scandiceae; Daucinae;
+OC   Thapsia.
+OX   NCBI_TaxID=79022;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, AND CATALYTIC ACTIVITY.
+RC   TISSUE=Root;
+RX   PubMed=22938155; DOI=10.1042/bj20120654;
+RA   Pickel B., Drew D.P., Manczak T., Weitzel C., Simonsen H.T., Ro D.-K.;
+RT   "Identification and characterization of a kunzeaol synthase from Thapsia
+RT   garganica: implications for the biosynthesis of the pharmaceutical
+RT   thapsigargin.";
+RL   Biochem. J. 448:261-271(2012).
+CC   -!- FUNCTION: Involved in the biosynthesis of delta-cadinene.
+CC       {ECO:0000269|PubMed:22938155}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E)-farnesyl diphosphate = (1S,8aR)-delta-cadinene +
+CC         diphosphate; Xref=Rhea:RHEA:19525, ChEBI:CHEBI:15385,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:175763; EC=4.2.3.13;
+CC         Evidence={ECO:0000269|PubMed:22938155};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035; Evidence={ECO:0000250};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 3 manganese or magnesium ions per subunit. {ECO:0000250};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis; terpenoid biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- DOMAIN: The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for
+CC       the catalytic activity, presumably through binding to Mg(2+).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the terpene synthase family. Tpsa subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JQ290344; AFV09098.1; -; mRNA.
+DR   SMR; K4L9M2; -.
+DR   UniPathway; UPA00213; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047461; F:(+)-delta-cadinene synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.600.10; -; 1.
+DR   Gene3D; 1.50.10.130; -; 1.
+DR   InterPro; IPR008949; Isoprenoid_synthase_dom_sf.
+DR   InterPro; IPR034741; Terpene_cyclase-like_1_C.
+DR   InterPro; IPR001906; Terpene_synth_N.
+DR   InterPro; IPR036965; Terpene_synth_N_sf.
+DR   InterPro; IPR005630; Terpene_synthase_metal-bd.
+DR   InterPro; IPR008930; Terpenoid_cyclase/PrenylTrfase.
+DR   Pfam; PF01397; Terpene_synth; 1.
+DR   Pfam; PF03936; Terpene_synth_C; 1.
+DR   SFLD; SFLDG01019; Terpene_Cyclase_Like_1_C_Termi; 1.
+DR   SUPFAM; SSF48239; SSF48239; 1.
+DR   SUPFAM; SSF48576; SSF48576; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Lyase; Magnesium; Manganese; Metal-binding.
+FT   CHAIN           1..561
+FT                   /note="Sesquiterpene synthase 1"
+FT                   /id="PRO_0000424292"
+FT   MOTIF           313..317
+FT                   /note="DDXXD motif"
+FT   METAL           313
+FT                   /note="Manganese or magnesium 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           313
+FT                   /note="Manganese or magnesium 2"
+FT                   /evidence="ECO:0000250"
+FT   METAL           317
+FT                   /note="Manganese or magnesium 1"
+FT                   /evidence="ECO:0000250"
+FT   METAL           317
+FT                   /note="Manganese or magnesium 2"
+FT                   /evidence="ECO:0000250"
+FT   METAL           466
+FT                   /note="Manganese or magnesium 3"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   561 AA;  64339 MW;  B2D1ACA8C1F3420C CRC64;
+     MAVYVNSTTG PPPSVGRNSA GFHPSIWGDK FITSSNSAVQ KTDVDRKEEE KLQLLKQEVK
+     KMLTAGDTSQ QDLICLIDDI QRLGLSYHFE AEIDTLLQHV KHSYVEHYGK KNHDNLHDVA
+     LSFRLLRQEG HNISSDVFSK FQDSDGKFKE ELVEDVRGML SLFEAAHLRV HGENILEDAL
+     EFTTTHLNSY LNSNPSSSLA DLVRRALKYP LRKSFNRMVA RHYISVYHKF DWHKQVLLDM
+     AKCDFNLVQK VHQNELGYIT RWWKDLDFTN KLPFARDRVV ECYFWITGVY FEPRYAAPRK
+     FLTEVMSLTS IIDDIYDVYG TPDELVQLAD AIDKWDISIL DQLPEYVRHA YKPLLDTFAE
+     AEEEMANEGL PTYGVDYAKE AFKRLAVAYL QETKWLQAQY IPTFEEYLSV ALVSAGGNML
+     SVSSFVRMGN IATREAFEWL SKDPLIANGL SVIIRLSDDI VGHEFESQRP HIPSAVECYM
+     KSHDVTKETA YAELQKPIIK AWKDMNEGCL HPEAPPKPLL ERVLNLARVL NFLYDGHDGY
+     THSSTRTKDI ITTAFINPIP L
+//

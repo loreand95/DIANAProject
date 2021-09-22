@@ -1,0 +1,183 @@
+ID   AVRB_STRVR              Reviewed;         287 AA.
+AC   Q9F5K6;
+DT   05-SEP-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   07-APR-2021, entry version 65.
+DE   RecName: Full=23S rRNA (uridine(2479)-2'-O)-methyltransferase;
+DE            EC=2.1.1.208;
+DE   AltName: Full=Avilamycin resistance protein B;
+GN   Name=aviRb;
+OS   Streptomyces viridochromogenes.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1938;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=Tu57;
+RX   PubMed=11181344; DOI=10.1128/aac.45.3.690-695.2001;
+RA   Weitnauer G., Gaisser S., Trefzer A., Stockert S., Westrich L.,
+RA   Quiros L.M., Mendez C., Salas J.A., Bechthold A.;
+RT   "An ATP-binding cassette transporter and two rRNA methyltransferases are
+RT   involved in resistance to avilamycin in the producer organism Streptomyces
+RT   viridochromogenes Tu57.";
+RL   Antimicrob. Agents Chemother. 45:690-695(2001).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Tu57;
+RX   PubMed=12828631; DOI=10.1046/j.1365-2958.2003.03558.x;
+RA   Treede I., Jakobsen L., Kirpekar F., Vester B., Weitnauer G., Bechthold A.,
+RA   Douthwaite S.;
+RT   "The avilamycin resistance determinants AviRa and AviRb methylate 23S rRNA
+RT   at the guanosine 2535 base and the uridine 2479 ribose.";
+RL   Mol. Microbiol. 49:309-318(2003).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (2.37 ANGSTROMS) IN COMPLEX WITH
+RP   S-ADENOSYL-L-METHIONINE, SUBUNIT, AND MUTAGENESIS OF THR-135; ASN-139;
+RP   ARG-145; GLU-234 AND ASN-262.
+RC   STRAIN=Tu57;
+RX   PubMed=15581897; DOI=10.1016/j.jmb.2004.10.051;
+RA   Mosbacher T.G., Bechthold A., Schulz G.E.;
+RT   "Structure and function of the antibiotic resistance-mediating
+RT   methyltransferase AviRb from Streptomyces viridochromogenes.";
+RL   J. Mol. Biol. 345:535-545(2005).
+CC   -!- FUNCTION: Specifically methylates the 2'-O-ribose position of uridine-
+CC       2479 in 23S ribosomal RNA. Confers resistance to antibiotic avilamycin,
+CC       an orthosomycin antibiotic. {ECO:0000269|PubMed:11181344,
+CC       ECO:0000269|PubMed:12828631}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(2479) in 23S rRNA = 2'-O-
+CC         methyluridine(2479) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:43092, Rhea:RHEA-COMP:10335, Rhea:RHEA-COMP:10336,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74478; EC=2.1.1.208;
+CC         Evidence={ECO:0000269|PubMed:12828631};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:15581897}.
+CC   -!- SIMILARITY: Belongs to the class IV-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase TsnR/AvirB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF333038; AAG32066.1; -; Genomic_DNA.
+DR   PDB; 1X7O; X-ray; 2.37 A; A/B=1-287.
+DR   PDB; 1X7P; X-ray; 2.55 A; A/B=1-287.
+DR   PDBsum; 1X7O; -.
+DR   PDBsum; 1X7P; -.
+DR   SMR; Q9F5K6; -.
+DR   KEGG; ag:AAG32066; -.
+DR   BioCyc; MetaCyc:MONOMER-16328; -.
+DR   BRENDA; 2.1.1.208; 6116.
+DR   EvolutionaryTrace; Q9F5K6; -.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0008650; F:rRNA (uridine-2'-O-)-methyltransferase activity; IDA:UniProtKB.
+DR   GO; GO:0032259; P:methylation; IDA:UniProtKB.
+DR   GO; GO:0046677; P:response to antibiotic; IDA:UniProtKB.
+DR   GO; GO:0031167; P:rRNA methylation; IDA:UniProtKB.
+DR   Gene3D; 3.30.1330.30; -; 1.
+DR   Gene3D; 3.40.1280.10; -; 1.
+DR   InterPro; IPR029028; Alpha/beta_knot_MTases.
+DR   InterPro; IPR029064; L30e-like.
+DR   InterPro; IPR001537; SpoU_MeTrfase.
+DR   InterPro; IPR029026; tRNA_m1G_MTases_N.
+DR   Pfam; PF00588; SpoU_methylase; 1.
+DR   SUPFAM; SSF55315; SSF55315; 1.
+DR   SUPFAM; SSF75217; SSF75217; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antibiotic resistance; Methyltransferase;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..287
+FT                   /note="23S rRNA (uridine(2479)-2'-O)-methyltransferase"
+FT                   /id="PRO_0000418461"
+FT   REGION          210..211
+FT                   /note="S-adenosyl-L-methionine binding"
+FT   REGION          252..254
+FT                   /note="S-adenosyl-L-methionine binding"
+FT   BINDING         232
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         135
+FT                   /note="T->V: Slightly increases catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         139
+FT                   /note="N->A: Almost abolishes catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         145
+FT                   /note="R->A: Almost abolishes catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         234
+FT                   /note="E->A: Strongly impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         234
+FT                   /note="E->Q: Slightly impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         262
+FT                   /note="N->A: Almost abolishes catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   MUTAGEN         262
+FT                   /note="N->Q: Slightly impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15581897"
+FT   HELIX           20..27
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           32..38
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          40..45
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           46..54
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          59..67
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           72..80
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          83..88
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           90..93
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          95..97
+FT                   /evidence="ECO:0007744|PDB:1X7P"
+FT   STRAND          99..101
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          105..111
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           117..119
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          127..133
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           137..149
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          154..162
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           167..172
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   TURN            173..175
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           176..178
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          182..187
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           188..201
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          206..210
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          215..217
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           218..220
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          227..231
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   TURN            234..236
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           240..245
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          247..251
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   STRAND          255..258
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+FT   HELIX           263..278
+FT                   /evidence="ECO:0007744|PDB:1X7O"
+SQ   SEQUENCE   287 AA;  31215 MW;  27E742DB22E19DBE CRC64;
+     MARSRGERTP AARRITSRNA RFQQWQALLG NRNKRTRAGE FLVMGVRPIS LAVEHGWPVR
+     TLLYDGQREL SKWARELLRT VRTEQIAMAP DLLMELGEKN EAPPEVVAVV EMPADDLDRI
+     PVREDFLGVL FDRPTSPGNI GSIIRSADAL GAHGLIVAGH AADVYDPKSV RSSTGSLFSL
+     PAVRVPSPGE VMDWVEARRA AGTPIVLVGT DEHGDCDVFD FDFTQPTLLL IGNETAGLSN
+     AWRTLCDYTV SIPMAGSASS LNAANAATAI LYEAVRQRIS GRTATTP
+//

@@ -1,0 +1,124 @@
+ID   PA2_POROP               Reviewed;         121 AA.
+AC   C0HLF0;
+DT   16-JAN-2019, integrated into UniProtKB/Swiss-Prot.
+DT   16-JAN-2019, sequence version 1.
+DT   26-FEB-2020, entry version 5.
+DE   RecName: Full=Basic phospholipase A2 {ECO:0000303|PubMed:29886171};
+DE            Short=PoPLA2 {ECO:0000303|PubMed:29886171};
+DE            Short=PophPLA2 {ECO:0000303|PubMed:29886171};
+DE            Short=svPLA2 {ECO:0000305};
+DE            EC=3.1.1.4 {ECO:0000255|PROSITE-ProRule:PRU10035, ECO:0000269|PubMed:29886171};
+DE   AltName: Full=Phosphatidylcholine 2-acylhydrolase {ECO:0000305};
+OS   Porthidium ophryomegas (Slender hognose viper).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Porthidium.
+OX   NCBI_TaxID=44717;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, FUNCTION, CATALYTIC ACTIVITY, SUBUNIT,
+RP   COFACTOR, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Costa Rica {ECO:0000303|PubMed:29886171};
+RC   TISSUE=Venom {ECO:0000303|PubMed:29886171};
+RX   PubMed=29886171; DOI=10.1016/j.ijbiomac.2018.06.028;
+RA   Vindas J., Carrera Y., Lomonte B., Gutierrez J.M., Calvete J.J., Sanz L.,
+RA   Fernandez J.;
+RT   "A novel pentameric phospholipase A2 myotoxin (PophPLA2) from the venom of
+RT   the pit viper Porthidium ophryomegas.";
+RL   Int. J. Biol. Macromol. 118:1-8(2018).
+CC   -!- FUNCTION: Snake venom phospholipase A2 (PLA2) that displays moderate
+CC       myotoxic activity in vivo, and cytotoxic activity in vitro. In vitro,
+CC       shows anticoagulant activity on human plasma and in mice causes
+CC       inflammatory cell infiltration and myonecrosis in the gastrocnemius
+CC       muscles of CD-1 mice 3 hours after injection (100 ug). PLA2 catalyzes
+CC       the calcium-dependent hydrolysis of the 2-acyl groups in 3-sn-
+CC       phosphoglycerides. {ECO:0000269|PubMed:29886171}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15801,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168; EC=3.1.1.4;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU10035, ECO:0000255|PROSITE-
+CC         ProRule:PRU10036, ECO:0000269|PubMed:29886171};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000269|PubMed:29886171};
+CC   -!- SUBUNIT: Homopentamer. {ECO:0000269|PubMed:29886171}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:29886171}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000305|PubMed:29886171}.
+CC   -!- MASS SPECTROMETRY: Mass=14044; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:29886171};
+CC   -!- SIMILARITY: Belongs to the phospholipase A2 family. Group I subfamily.
+CC       D49 sub-subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; C0HLF0; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0004623; F:phospholipase A2 activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102567; F:phospholipase A2 activity (consuming 1,2-dipalmitoylphosphatidylcholine); IEA:UniProtKB-EC.
+DR   GO; GO:0102568; F:phospholipase A2 activity consuming 1,2-dioleoylphosphatidylethanolamine); IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0050482; P:arachidonic acid secretion; IEA:InterPro.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006644; P:phospholipid metabolic process; IEA:InterPro.
+DR   CDD; cd00125; PLA2c; 1.
+DR   Gene3D; 1.20.90.10; -; 1.
+DR   InterPro; IPR001211; PLipase_A2.
+DR   InterPro; IPR033112; PLipase_A2_Asp_AS.
+DR   InterPro; IPR016090; PLipase_A2_dom.
+DR   InterPro; IPR036444; PLipase_A2_dom_sf.
+DR   InterPro; IPR033113; PLipase_A2_His_AS.
+DR   PANTHER; PTHR11716; PTHR11716; 1.
+DR   Pfam; PF00068; Phospholip_A2_1; 1.
+DR   PRINTS; PR00389; PHPHLIPASEA2.
+DR   SMART; SM00085; PA2c; 1.
+DR   SUPFAM; SSF48619; SSF48619; 1.
+DR   PROSITE; PS00119; PA2_ASP; 1.
+DR   PROSITE; PS00118; PA2_HIS; 1.
+PE   1: Evidence at protein level;
+KW   Blood coagulation cascade inhibiting toxin; Calcium;
+KW   Direct protein sequencing; Disulfide bond; Hemostasis impairing toxin;
+KW   Hydrolase; Lipid degradation; Lipid metabolism; Metal-binding; Myotoxin;
+KW   Phosphoprotein; Secreted; Toxin.
+FT   CHAIN           1..121
+FT                   /note="Basic phospholipase A2"
+FT                   /evidence="ECO:0000269|PubMed:29886171"
+FT                   /id="PRO_0000446057"
+FT   ACT_SITE        47
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10035"
+FT   ACT_SITE        88
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10036"
+FT   METAL           27
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   METAL           29
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   METAL           31
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   METAL           48
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        26..114
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        28..44
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        43..94
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        49..121
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        50..87
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        57..80
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+FT   DISULFID        74..85
+FT                   /evidence="ECO:0000250|UniProtKB:P14421"
+SQ   SEQUENCE   121 AA;  14051 MW;  1B46CDEBA3AA261E CRC64;
+     NLFQFRKMIK KMTKKEPVVY YAFYGCYCGK GGRGKPKDAT DRCCFVHDCC YEKVTGCNPK
+     WGYYTYSMNK QIVCGGDDPC KKQVCECDKA AAICFRDNLK TYKKKYMSFP NFFCTDPSEK
+     C
+//

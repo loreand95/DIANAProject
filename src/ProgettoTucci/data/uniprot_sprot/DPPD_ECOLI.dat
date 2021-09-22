@@ -1,0 +1,163 @@
+ID   DPPD_ECOLI              Reviewed;         327 AA.
+AC   P0AAG0; P37314; Q2M7K3;
+DT   11-OCT-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2005, sequence version 1.
+DT   07-APR-2021, entry version 125.
+DE   RecName: Full=Dipeptide transport ATP-binding protein DppD {ECO:0000305};
+DE            EC=7.4.2.9 {ECO:0000305|PubMed:7536291};
+GN   Name=dppD; OrderedLocusNames=b3541, JW3510;
+OS   Escherichia coli (strain K12).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83333;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   SUBUNIT.
+RC   STRAIN=K12 / MM500;
+RX   PubMed=7536291; DOI=10.1111/j.1365-2958.1994.tb01340.x;
+RA   Abouhamad W.N., Manson M.D.;
+RT   "The dipeptide permease of Escherichia coli closely resembles other
+RT   bacterial transport systems and shows growth-phase-dependent expression.";
+RL   Mol. Microbiol. 14:1077-1092(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=8041620; DOI=10.1093/nar/22.13.2576;
+RA   Sofia H.J., Burland V., Daniels D.L., Plunkett G. III, Blattner F.R.;
+RT   "Analysis of the Escherichia coli genome. V. DNA sequence of the region
+RT   from 76.0 to 81.5 minutes.";
+RL   Nucleic Acids Res. 22:2576-2586(1994).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MG1655 / ATCC 47076;
+RX   PubMed=9278503; DOI=10.1126/science.277.5331.1453;
+RA   Blattner F.R., Plunkett G. III, Bloch C.A., Perna N.T., Burland V.,
+RA   Riley M., Collado-Vides J., Glasner J.D., Rode C.K., Mayhew G.F.,
+RA   Gregor J., Davis N.W., Kirkpatrick H.A., Goeden M.A., Rose D.J., Mau B.,
+RA   Shao Y.;
+RT   "The complete genome sequence of Escherichia coli K-12.";
+RL   Science 277:1453-1462(1997).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / W3110 / ATCC 27325 / DSM 5911;
+RX   PubMed=16738553; DOI=10.1038/msb4100049;
+RA   Hayashi K., Morooka N., Yamamoto Y., Fujita K., Isono K., Choi S.,
+RA   Ohtsubo E., Baba T., Wanner B.L., Mori H., Horiuchi T.;
+RT   "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655
+RT   and W3110.";
+RL   Mol. Syst. Biol. 2:E1-E5(2006).
+RN   [5]
+RP   FUNCTION IN 5-AMINOLEVULINIC ACID TRANSPORT.
+RX   PubMed=8444807; DOI=10.1128/jb.175.5.1452-1456.1993;
+RA   Verkamp E., Backman V.M., Bjoernsson J.M., Soell D., Eggertsson G.;
+RT   "The periplasmic dipeptide permease system transports 5-aminolevulinic acid
+RT   in Escherichia coli.";
+RL   J. Bacteriol. 175:1452-1456(1993).
+RN   [6]
+RP   FUNCTION IN HEME TRANSPORT, SUBUNIT, AND DISRUPTION PHENOTYPE.
+RX   PubMed=16905647; DOI=10.1073/pnas.0605440103;
+RA   Letoffe S., Delepelaire P., Wandersman C.;
+RT   "The housekeeping dipeptide permease is the Escherichia coli heme
+RT   transporter and functions with two optional peptide binding proteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:12891-12896(2006).
+CC   -!- FUNCTION: Part of the ABC transporter DppABCDF involved in dipeptide
+CC       transport (PubMed:7536291). Responsible for energy coupling to the
+CC       transport system (Probable). {ECO:0000269|PubMed:7536291, ECO:0000305}.
+CC   -!- FUNCTION: When a foreign outer membrane heme receptor is expressed in
+CC       E.coli, DppABCDF can also transport heme and its precursor, 5-
+CC       aminolevulinic acid (ALA), from the periplasm into the cytoplasm.
+CC       {ECO:0000269|PubMed:16905647, ECO:0000269|PubMed:8444807}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a dipeptide(out) + ATP + H2O = a dipeptide(in) + ADP + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:23120, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:90799, ChEBI:CHEBI:456216; EC=7.4.2.9;
+CC         Evidence={ECO:0000305|PubMed:7536291};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (DppD and
+CC       DppF), two transmembrane proteins (DppB and DppC) and a solute-binding
+CC       protein (DppA) (PubMed:7536291, PubMed:16905647). MppA can replace DppA
+CC       as binding protein for heme and ALA transport (PubMed:16905647).
+CC       {ECO:0000269|PubMed:16905647, ECO:0000269|PubMed:7536291}.
+CC   -!- INTERACTION:
+CC       P0AAG0; P0A968: cspD; NbExp=3; IntAct=EBI-548206, EBI-547937;
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000305}; Peripheral
+CC       membrane protein {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Inactivation of the gene abolishes use of heme as
+CC       an iron source. {ECO:0000269|PubMed:16905647}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L08399; AAA23705.1; -; Genomic_DNA.
+DR   EMBL; U00039; AAB18519.1; -; Genomic_DNA.
+DR   EMBL; U00096; AAC76566.1; -; Genomic_DNA.
+DR   EMBL; AP009048; BAE77753.1; -; Genomic_DNA.
+DR   PIR; S61404; S61404.
+DR   RefSeq; NP_417998.1; NC_000913.3.
+DR   RefSeq; WP_001196486.1; NZ_STEB01000018.1.
+DR   BioGRID; 4262534; 267.
+DR   BioGRID; 852373; 2.
+DR   ComplexPortal; CPX-4345; Heme/dipeptide ABC transporter complex, dppA variant.
+DR   ComplexPortal; CPX-4346; Heme/dipeptide ABC transporter complex, mppA variant.
+DR   DIP; DIP-47940N; -.
+DR   IntAct; P0AAG0; 2.
+DR   STRING; 511145.b3541; -.
+DR   jPOST; P0AAG0; -.
+DR   PaxDb; P0AAG0; -.
+DR   PRIDE; P0AAG0; -.
+DR   EnsemblBacteria; AAC76566; AAC76566; b3541.
+DR   EnsemblBacteria; BAE77753; BAE77753; BAE77753.
+DR   GeneID; 58390100; -.
+DR   GeneID; 948065; -.
+DR   KEGG; ecj:JW3510; -.
+DR   KEGG; eco:b3541; -.
+DR   PATRIC; fig|1411691.4.peg.3174; -.
+DR   EchoBASE; EB2511; -.
+DR   eggNOG; COG0444; Bacteria.
+DR   HOGENOM; CLU_000604_1_23_6; -.
+DR   InParanoid; P0AAG0; -.
+DR   PhylomeDB; P0AAG0; -.
+DR   BioCyc; EcoCyc:DPPD-MONOMER; -.
+DR   BioCyc; MetaCyc:DPPD-MONOMER; -.
+DR   PRO; PR:P0AAG0; -.
+DR   Proteomes; UP000000318; Chromosome.
+DR   Proteomes; UP000000625; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IDA:EcoCyc.
+DR   GO; GO:0005524; F:ATP binding; ISM:EcoCyc.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0015232; F:heme transmembrane transporter activity; IMP:EcoliWiki.
+DR   GO; GO:0015031; P:protein transport; IEA:UniProtKB-KW.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR013563; Oligopep_ABC_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF08352; oligo_HPY; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01727; oligo_HPY; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Membrane;
+KW   Nucleotide-binding; Peptide transport; Protein transport;
+KW   Reference proteome; Translocase; Transport.
+FT   CHAIN           1..327
+FT                   /note="Dipeptide transport ATP-binding protein DppD"
+FT                   /id="PRO_0000092313"
+FT   DOMAIN          4..254
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   NP_BIND         40..47
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   327 AA;  35844 MW;  1CBFD72388EE0569 CRC64;
+     MALLNVDKLS VHFGDESAPF RAVDRISYSV KQGEVVGIVG ESGSGKSVSS LAIMGLIDYP
+     GRVMAEKLEF NGQDLQRISE KERRNLVGAE VAMIFQDPMT SLNPCYTVGF QIMEAIKVHQ
+     GGNKSTRRQR AIDLLNQVGI PDPASRLDVY PHQLSGGMSQ RVMIAMAIAC RPKLLIADEP
+     TTALDVTIQA QIIELLLELQ QKENMALVLI THDLALVAEA AHKIIVMYAG QVVETGDAHA
+     IFHAPRHPYT QALLRALPEF AQDKERLASL PGVVPGKYDR PNGCLLNPRC PYATDRCRAE
+     EPALNMLADG RQSKCHYPLD DAGRPTL
+//

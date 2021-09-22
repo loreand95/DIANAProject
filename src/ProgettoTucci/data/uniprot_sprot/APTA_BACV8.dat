@@ -1,0 +1,87 @@
+ID   APTA_BACV8              Reviewed;         281 AA.
+AC   A6KXB4;
+DT   16-JAN-2019, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2007, sequence version 1.
+DT   07-APR-2021, entry version 68.
+DE   RecName: Full=Apulose-4-phosphate transketolase subunit A {ECO:0000305};
+DE            EC=2.2.1.13 {ECO:0000269|PubMed:29867142};
+DE   AltName: Full=Apulose-4-phosphate transketolase N-terminal subunit {ECO:0000305};
+GN   Name=aptA {ECO:0000305|PubMed:29867142};
+GN   OrderedLocusNames=BVU_0359 {ECO:0000312|EMBL:ABR38078.1};
+OS   Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 /
+OS   NCTC 11154).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Phocaeicola.
+OX   NCBI_TaxID=435590;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 / NCTC 11154;
+RX   PubMed=17579514; DOI=10.1371/journal.pbio.0050156;
+RA   Xu J., Mahowald M.A., Ley R.E., Lozupone C.A., Hamady M., Martens E.C.,
+RA   Henrissat B., Coutinho P.M., Minx P., Latreille P., Cordum H.,
+RA   Van Brunt A., Kim K., Fulton R.S., Fulton L.A., Clifton S.W., Wilson R.K.,
+RA   Knight R.D., Gordon J.I.;
+RT   "Evolution of symbiotic bacteria in the distal human intestine.";
+RL   PLoS Biol. 5:1574-1586(2007).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND SUBUNIT.
+RX   PubMed=29867142; DOI=10.1038/s41589-018-0067-7;
+RA   Carter M.S., Zhang X., Huang H., Bouvier J.T., Francisco B.S.,
+RA   Vetting M.W., Al-Obaidi N., Bonanno J.B., Ghosh A., Zallot R.G.,
+RA   Andersen H.M., Almo S.C., Gerlt J.A.;
+RT   "Functional assignment of multiple catabolic pathways for D-apiose.";
+RL   Nat. Chem. Biol. 14:696-705(2018).
+CC   -!- FUNCTION: Involved in catabolism of D-apiose. Catalyzes the transfer of
+CC       the glycolaldehyde group from apulose-4-phosphate to D-glyceraldehyde
+CC       3-phosphate, generating dihydroxyacetone phosphate and D-xylulose-5-
+CC       phosphate. {ECO:0000269|PubMed:29867142}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=apulose 4-phosphate + D-glyceraldehyde 3-phosphate = D-
+CC         xylulose 5-phosphate + dihydroxyacetone phosphate;
+CC         Xref=Rhea:RHEA:57024, ChEBI:CHEBI:57642, ChEBI:CHEBI:57737,
+CC         ChEBI:CHEBI:59776, ChEBI:CHEBI:141351; EC=2.2.1.13;
+CC         Evidence={ECO:0000269|PubMed:29867142};
+CC   -!- COFACTOR:
+CC       Name=thiamine diphosphate; Xref=ChEBI:CHEBI:58937;
+CC         Evidence={ECO:0000250|UniProtKB:P29401};
+CC   -!- PATHWAY: Carbohydrate metabolism. {ECO:0000269|PubMed:29867142}.
+CC   -!- SUBUNIT: Probable heterodimer composed of AptA and AptB.
+CC       {ECO:0000305|PubMed:29867142}.
+CC   -!- SIMILARITY: Belongs to the transketolase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000139; ABR38078.1; -; Genomic_DNA.
+DR   RefSeq; WP_011964721.1; NC_009614.1.
+DR   SMR; A6KXB4; -.
+DR   STRING; 435590.BVU_0359; -.
+DR   EnsemblBacteria; ABR38078; ABR38078; BVU_0359.
+DR   GeneID; 5301328; -.
+DR   KEGG; bvu:BVU_0359; -.
+DR   PATRIC; fig|435590.9.peg.371; -.
+DR   eggNOG; COG3959; Bacteria.
+DR   HOGENOM; CLU_009227_4_1_10; -.
+DR   OMA; GQGYIAQ; -.
+DR   OrthoDB; 1543182at2; -.
+DR   BioCyc; BVUL435590:G1G59-378-MONOMER; -.
+DR   Proteomes; UP000002861; Chromosome.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd02012; TPP_TK; 1.
+DR   InterPro; IPR029061; THDP-binding.
+DR   InterPro; IPR005474; Transketolase_N.
+DR   Pfam; PF00456; Transketolase_N; 1.
+DR   SUPFAM; SSF52518; SSF52518; 1.
+PE   1: Evidence at protein level;
+KW   Carbohydrate metabolism; Reference proteome; Thiamine pyrophosphate;
+KW   Transferase.
+FT   CHAIN           1..281
+FT                   /note="Apulose-4-phosphate transketolase subunit A"
+FT                   /id="PRO_0000446026"
+SQ   SEQUENCE   281 AA;  31468 MW;  9979AF79B9CF5103 CRC64;
+     MQVETLELQS EKNRKRLVEI VYKAKAGHIG GDLSCLNVLT ALYFDIMRVW PDKPKETKRD
+     RFVMSKGHCV EALYVTLEAK GFISREVTDT LGEFGSILSG HPTIEVPGIE VNTGALGHGL
+     SVGVGMAMAA KMDKADYKTY VLMGDGEQGE GSIYEAAMAG NQYKLDNLVA IIDRNRLQIS
+     GTTEEVMSLE SMRDRWTAFG WDVLEMNGDE MEDIIRTFRS IDYTNKKPHL LISHTTKGKG
+     VSYMEGIAKW HHGVPTAEQY EEAVREVSER IEKLEKENNG K
+//

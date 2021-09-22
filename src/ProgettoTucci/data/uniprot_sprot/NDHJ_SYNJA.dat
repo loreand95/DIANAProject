@@ -1,0 +1,96 @@
+ID   NDHJ_SYNJA              Reviewed;         181 AA.
+AC   Q2JT68;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=NAD(P)H-quinone oxidoreductase subunit J {ECO:0000255|HAMAP-Rule:MF_01357};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01357};
+DE   AltName: Full=NAD(P)H dehydrogenase subunit J;
+DE   AltName: Full=NADH-plastoquinone oxidoreductase subunit J {ECO:0000255|HAMAP-Rule:MF_01357};
+DE   AltName: Full=NDH-1 subunit J {ECO:0000255|HAMAP-Rule:MF_01357};
+DE            Short=NDH-J {ECO:0000255|HAMAP-Rule:MF_01357};
+GN   Name=ndhJ {ECO:0000255|HAMAP-Rule:MF_01357}; OrderedLocusNames=CYA_1996;
+OS   Synechococcus sp. (strain JA-3-3Ab) (Cyanobacteria bacterium Yellowstone
+OS   A-Prime).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus;
+OC   unclassified Synechococcus.
+OX   NCBI_TaxID=321327;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JA-3-3Ab;
+RX   PubMed=18059494; DOI=10.1038/ismej.2007.46;
+RA   Bhaya D., Grossman A.R., Steunou A.-S., Khuri N., Cohan F.M., Hamamura N.,
+RA   Melendrez M.C., Bateson M.M., Ward D.M., Heidelberg J.F.;
+RT   "Population level functional diversity in a microbial community revealed by
+RT   comparative genomic and metagenomic analyses.";
+RL   ISME J. 1:703-713(2007).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from an unknown electron donor, via
+CC       FMN and iron-sulfur (Fe-S) centers, to quinones in the respiratory
+CC       and/or the photosynthetic chain. The immediate electron acceptor for
+CC       the enzyme in this species is believed to be plastoquinone. Couples the
+CC       redox reaction to proton translocation, and thus conserves the redox
+CC       energy in a proton gradient. Cyanobacterial NDH-1 also plays a role in
+CC       inorganic carbon-concentration. {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADH = a plastoquinol + n
+CC         H(+)(out) + NAD(+); Xref=Rhea:RHEA:42608, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01357};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n
+CC         H(+)(out) + NADP(+); Xref=Rhea:RHEA:42612, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01357};
+CC   -!- SUBUNIT: NDH-1 can be composed of about 15 different subunits;
+CC       different subcomplexes with different compositions have been identified
+CC       which probably have different functions. {ECO:0000255|HAMAP-
+CC       Rule:MF_01357}.
+CC   -!- SUBCELLULAR LOCATION: Cellular thylakoid membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01357}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01357}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   -!- SIMILARITY: Belongs to the complex I 30 kDa subunit family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000239; ABD00139.1; -; Genomic_DNA.
+DR   RefSeq; WP_011430813.1; NC_007775.1.
+DR   SMR; Q2JT68; -.
+DR   STRING; 321327.CYA_1996; -.
+DR   EnsemblBacteria; ABD00139; ABD00139; CYA_1996.
+DR   KEGG; cya:CYA_1996; -.
+DR   eggNOG; COG0852; Bacteria.
+DR   HOGENOM; CLU_042628_9_1_3; -.
+DR   OMA; YELQDAY; -.
+DR   OrthoDB; 1735902at2; -.
+DR   BioCyc; SSP321327:G1G5O-1914-MONOMER; -.
+DR   Proteomes; UP000008818; Chromosome.
+DR   GO; GO:0031676; C:plasma membrane-derived thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019684; P:photosynthesis, light reaction; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.460.80; -; 1.
+DR   HAMAP; MF_01357; NDH1_NuoC; 1.
+DR   InterPro; IPR010218; NADH_DH_suC.
+DR   InterPro; IPR037232; NADH_quin_OxRdtase_su_C/D-like.
+DR   InterPro; IPR001268; NADH_UbQ_OxRdtase_30kDa_su.
+DR   InterPro; IPR020396; NADH_UbQ_OxRdtase_CS.
+DR   Pfam; PF00329; Complex1_30kDa; 1.
+DR   SUPFAM; SSF143243; SSF143243; 1.
+DR   TIGRFAMs; TIGR01961; NuoC_fam; 1.
+DR   PROSITE; PS00542; COMPLEX1_30K; 1.
+PE   3: Inferred from homology;
+KW   Membrane; NAD; NADP; Plastoquinone; Quinone; Thylakoid; Translocase;
+KW   Transport.
+FT   CHAIN           1..181
+FT                   /note="NAD(P)H-quinone oxidoreductase subunit J"
+FT                   /id="PRO_0000358211"
+SQ   SEQUENCE   181 AA;  20895 MW;  E26068248EFD9C13 CRC64;
+     MTEDKAQQKP SSTAEPTEPL ATLERGPVSQ FLADNGFDHQ YLGRDAAGVE LLEVERDFLL
+     PVCTALYAYG FNYLECQCGY DLGAGQPLVS LYHLIKLADG ADRPQEVRVQ VKLPRQDPRV
+     PSVYWIWKSA DWQERETYDM YGIIFEGHPN LKRILMPEDW IGWPLRKDYI TPDFYELQDA
+     Y
+//

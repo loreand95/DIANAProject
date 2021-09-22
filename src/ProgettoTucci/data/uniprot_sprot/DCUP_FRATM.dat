@@ -1,0 +1,95 @@
+ID   DCUP_FRATM              Reviewed;         344 AA.
+AC   B2SEW4;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   07-APR-2021, entry version 69.
+DE   RecName: Full=Uroporphyrinogen decarboxylase {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            Short=UPD {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            Short=URO-D {ECO:0000255|HAMAP-Rule:MF_00218};
+DE            EC=4.1.1.37 {ECO:0000255|HAMAP-Rule:MF_00218};
+GN   Name=hemE {ECO:0000255|HAMAP-Rule:MF_00218}; OrderedLocusNames=FTM_0110;
+OS   Francisella tularensis subsp. mediasiatica (strain FSC147).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=441952;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=FSC147;
+RX   PubMed=19521508; DOI=10.1371/journal.ppat.1000472;
+RA   Larsson P., Elfsmark D., Svensson K., Wikstroem P., Forsman M., Brettin T.,
+RA   Keim P., Johansson A.;
+RT   "Molecular evolutionary consequences of niche restriction in Francisella
+RT   tularensis, a facultative intracellular pathogen.";
+RL   PLoS Pathog. 5:E1000472-E1000472(2009).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of four acetate groups of
+CC       uroporphyrinogen-III to yield coproporphyrinogen-III.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4 H(+) + uroporphyrinogen III = 4 CO2 + coproporphyrinogen
+CC         III; Xref=Rhea:RHEA:19865, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57308, ChEBI:CHEBI:57309; EC=4.1.1.37;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00218};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 4/4.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   -!- SIMILARITY: Belongs to the uroporphyrinogen decarboxylase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00218}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000915; ACD30209.1; -; Genomic_DNA.
+DR   RefSeq; WP_012429077.1; NC_010677.1.
+DR   SMR; B2SEW4; -.
+DR   KEGG; ftm:FTM_0110; -.
+DR   HOGENOM; CLU_040933_0_0_6; -.
+DR   OMA; GSSKDFR; -.
+DR   BioCyc; FTUL441952:G1GAQ-119-MONOMER; -.
+DR   UniPathway; UPA00251; UER00321.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004853; F:uroporphyrinogen decarboxylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00717; URO-D; 1.
+DR   Gene3D; 3.20.20.210; -; 1.
+DR   HAMAP; MF_00218; URO_D; 1.
+DR   InterPro; IPR038071; UROD/MetE-like_sf.
+DR   InterPro; IPR006361; Uroporphyrinogen_deCO2ase_HemE.
+DR   InterPro; IPR000257; Uroporphyrinogen_deCOase.
+DR   Pfam; PF01208; URO-D; 1.
+DR   SUPFAM; SSF51726; SSF51726; 1.
+DR   TIGRFAMs; TIGR01464; hemE; 1.
+DR   PROSITE; PS00906; UROD_1; 1.
+DR   PROSITE; PS00907; UROD_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Decarboxylase; Lyase; Porphyrin biosynthesis.
+FT   CHAIN           1..344
+FT                   /note="Uroporphyrinogen decarboxylase"
+FT                   /id="PRO_1000099993"
+FT   REGION          23..27
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         73
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         149
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         204
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   BINDING         321
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+FT   SITE            73
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00218"
+SQ   SEQUENCE   344 AA;  38872 MW;  60D7406FFCEA67EF CRC64;
+     MRKLFLDAFG EKKLDKPPVW IMRQAGRYLP EYRAVRAKFD NFMDMCRNAD ACCEVALHPL
+     QRYDLDAAIV FSDILTIPEA MGMDLKFIKG TGPVFSEPIQ SQKDLDKLKS IEDSIGSLDY
+     VYNAVKTTSS AINVPLIGFT GSPWTLAAYM IEGSGSKQFN KLRKMMYANP QLMHSLLQRL
+     ADITIIYLLE QVKAGASSVM IFDTWGGILP LEHYKNFSLK YKEYIAKNVK QKINIPIVFF
+     TKGGSNFFEE IKDKSCDGVG VDWSVTLKQA RHRIGVGKVL QGNFDPAFLY GSKQSIRETV
+     RANIEFIQSD KLNNYIVNLG HGIYPDIDPD SVRVMIDAIR EFSA
+//

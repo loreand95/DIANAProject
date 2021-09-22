@@ -1,0 +1,104 @@
+ID   UPPP2_RHILO             Reviewed;         264 AA.
+AC   Q98NJ1;
+DT   05-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Undecaprenyl-diphosphatase 2 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE            EC=3.6.1.27 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Bacitracin resistance protein 2 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Undecaprenyl pyrophosphate phosphatase 2 {ECO:0000255|HAMAP-Rule:MF_01006};
+GN   Name=uppP2 {ECO:0000255|HAMAP-Rule:MF_01006}; Synonyms=bacA2, upk2;
+GN   OrderedLocusNames=mlr0116;
+OS   Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099)
+OS   (Mesorhizobium loti (strain MAFF 303099)).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Phyllobacteriaceae; Mesorhizobium.
+OX   NCBI_TaxID=266835;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LMG 29417 / CECT 9101 / MAFF 303099;
+RX   PubMed=11214968; DOI=10.1093/dnares/7.6.331;
+RA   Kaneko T., Nakamura Y., Sato S., Asamizu E., Kato T., Sasamoto S.,
+RA   Watanabe A., Idesawa K., Ishikawa A., Kawashima K., Kimura T., Kishida Y.,
+RA   Kiyokawa C., Kohara M., Matsumoto M., Matsuno A., Mochizuki Y.,
+RA   Nakayama S., Nakazaki N., Shimpo S., Sugimoto M., Takeuchi C., Yamada M.,
+RA   Tabata S.;
+RT   "Complete genome structure of the nitrogen-fixing symbiotic bacterium
+RT   Mesorhizobium loti.";
+RL   DNA Res. 7:331-338(2000).
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of undecaprenyl diphosphate
+CC       (UPP). Confers resistance to bacitracin. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-
+CC         trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:28094, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58405, ChEBI:CHEBI:60392; EC=3.6.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01006};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- MISCELLANEOUS: Bacitracin is thought to be involved in the inhibition
+CC       of peptidoglycan synthesis by sequestering undecaprenyl diphosphate,
+CC       thereby reducing the pool of lipid carrier available.
+CC   -!- SIMILARITY: Belongs to the UppP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000012; BAB47770.1; -; Genomic_DNA.
+DR   STRING; 266835.14021157; -.
+DR   EnsemblBacteria; BAB47770; BAB47770; BAB47770.
+DR   KEGG; mlo:mlr0116; -.
+DR   eggNOG; COG1968; Bacteria.
+DR   HOGENOM; CLU_060296_1_0_5; -.
+DR   OMA; VFKDRIL; -.
+DR   Proteomes; UP000000552; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050380; F:undecaprenyl-diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0016311; P:dephosphorylation; IEA:InterPro.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01006; Undec_diphosphatase; 1.
+DR   InterPro; IPR003824; UppP.
+DR   PANTHER; PTHR30622; PTHR30622; 1.
+DR   Pfam; PF02673; BacA; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Hydrolase; Membrane;
+KW   Peptidoglycan synthesis; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..264
+FT                   /note="Undecaprenyl-diphosphatase 2"
+FT                   /id="PRO_0000151186"
+FT   TRANSMEM        29..49
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        77..97
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        107..127
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        137..157
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        180..200
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        212..232
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        243..263
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+SQ   SEQUENCE   264 AA;  28109 MW;  E85B086E1FDE6453 CRC64;
+     MQGITELLPI SSTAHMRIVP ALLGWQDPGS AFSAAMQLAA LAAVISYFWG DVRDLLFGSL
+     DALTRRDFSD RHFRLASWIV LATIPIVIAG VALSGVLNAC NSPLRSLTVI GWSCIAMAIL
+     LALAEIFARH KRTIAEASLA DALLVGVAQI GALIPGVSRS GSTLTAALGL GFKRAEAARF
+     SFLLGLPAIA LAGLKELWEL HKVHLDAHGW SVLATGLVVA SISAFFAIWG LMRVLERFSA
+     WPFVIYRGLL GVVLLLGLAM GWLA
+//

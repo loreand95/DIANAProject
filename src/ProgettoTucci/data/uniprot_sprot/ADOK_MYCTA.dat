@@ -1,0 +1,190 @@
+ID   ADOK_MYCTA              Reviewed;         324 AA.
+AC   A5U4N0;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Adenosine kinase {ECO:0000303|PubMed:14594827};
+DE            Short=ADK {ECO:0000250|UniProtKB:P9WID5};
+DE            Short=AK {ECO:0000303|PubMed:14594827};
+DE            EC=2.7.1.20 {ECO:0000269|PubMed:14594827};
+GN   Name=adoK {ECO:0000303|PubMed:14594827}; Synonyms=cbhK;
+GN   OrderedLocusNames=MRA_2218;
+OS   Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=419947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25177 / H37Ra;
+RX   PubMed=18584054; DOI=10.1371/journal.pone.0002375;
+RA   Zheng H., Lu L., Wang B., Pu S., Zhang X., Zhu G., Shi W., Zhang L.,
+RA   Wang H., Wang S., Zhao G., Zhang Y.;
+RT   "Genetic basis of virulence attenuation revealed by comparative genomic
+RT   analysis of Mycobacterium tuberculosis strain H37Ra versus H37Rv.";
+RL   PLoS ONE 3:E2375-E2375(2008).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 2-16, FUNCTION, CATALYTIC ACTIVITY, COFACTOR,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, SUBSTRATE SPECIFICITY, SUBUNIT, ACTIVITY
+RP   REGULATION, AND PATHWAY.
+RC   STRAIN=ATCC 25177 / H37Ra;
+RX   PubMed=14594827; DOI=10.1128/jb.185.22.6548-6555.2003;
+RA   Long M.C., Escuyer V., Parker W.B.;
+RT   "Identification and characterization of a unique adenosine kinase from
+RT   Mycobacterium tuberculosis.";
+RL   J. Bacteriol. 185:6548-6555(2003).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of adenosine to adenosine
+CC       monophosphate (AMP). Can also catalyze the phosphorylation of the
+CC       adenosine analog 2-methyladenosine (methyl-Ado) to methyl-AMP, the
+CC       first step in the metabolism of this compound to an active form that
+CC       displays antitubercular activity. Is not active on guanosine, inosine,
+CC       deoxyadenosine, cytidine, uridine, or thymidine. Prefers dGTP and GTP
+CC       to ATP as phosphate donors in vitro. {ECO:0000269|PubMed:14594827}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + ATP = ADP + AMP + H(+); Xref=Rhea:RHEA:20824,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16335, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:456215, ChEBI:CHEBI:456216; EC=2.7.1.20;
+CC         Evidence={ECO:0000269|PubMed:14594827};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + GTP = AMP + GDP + H(+); Xref=Rhea:RHEA:52532,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16335, ChEBI:CHEBI:37565,
+CC         ChEBI:CHEBI:58189, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000269|PubMed:14594827};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + dGTP = AMP + dGDP + H(+); Xref=Rhea:RHEA:52536,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16335, ChEBI:CHEBI:58595,
+CC         ChEBI:CHEBI:61429, ChEBI:CHEBI:456215;
+CC         Evidence={ECO:0000269|PubMed:14594827};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000269|PubMed:14594827};
+CC   -!- ACTIVITY REGULATION: The enzyme is subject to substrate inhibition by
+CC       adenosine and is competitively inhibited by the adenosine analog
+CC       iodotubercidin. Unlike other adenosine kinases it is not stimulated by
+CC       inorganic phosphate. Activity is stimulated in the presence of
+CC       potassium, resulting in a 13- and 300-fold increase in the catalytic
+CC       efficiency with adenosine and methyl-Ado as substrate, respectively;
+CC       the stimulatory effects are not observed in the presence of NaCl or
+CC       LiCl. {ECO:0000269|PubMed:14594827}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.80 uM for adenosine (in the presence of 10 mM KCl)
+CC         {ECO:0000269|PubMed:14594827};
+CC         KM=3.4 uM for adenosine (in the absence of KCl)
+CC         {ECO:0000269|PubMed:14594827};
+CC         KM=79 uM for methyl-adenosine (in the presence of 10 mM KCl)
+CC         {ECO:0000269|PubMed:14594827};
+CC         KM=709 uM for methyl-adenosine (in the absence of KCl)
+CC         {ECO:0000269|PubMed:14594827};
+CC         KM=1100 uM for ATP (in the presence of 10 mM KCl)
+CC         {ECO:0000269|PubMed:14594827};
+CC         Vmax=180 nmol/min/mg enzyme with adenosine as substrate (in the
+CC         presence of 10 mM KCl) {ECO:0000269|PubMed:14594827};
+CC         Vmax=60 nmol/min/mg enzyme with adenosine as substrate (in the
+CC         absence of KCl) {ECO:0000269|PubMed:14594827};
+CC         Vmax=72 nmol/min/mg enzyme with methyl-adenosine as substrate (in the
+CC         presence of 10 mM KCl) {ECO:0000269|PubMed:14594827};
+CC         Vmax=2.3 nmol/min/mg enzyme with methyl-adenosine as substrate (in
+CC         the absence of KCl) {ECO:0000269|PubMed:14594827};
+CC         Note=GTP and dGTP are the best phosphate donors, with 2.5 and 4.7
+CC         times the activity observed with ATP, respectively. UTP, dATP, and
+CC         dTTP exhibit about 33% of the activity observed with ATP, while CTP
+CC         and dCTP are the worst phosphate donors, with 1.7 and 0.2% of the
+CC         activity observed with ATP, respectively. Since K(+) exists at
+CC         millimolar levels within cells, stimulation by K(+) is
+CC         physiologically relevant, and kinetic values obtained in the presence
+CC         of K(+) more closely reflect the true physiological state of the
+CC         enzyme than values obtained in the absence of K(+).
+CC         {ECO:0000269|PubMed:14594827};
+CC       pH dependence:
+CC         Optimum pH is 8-11. Activity decreases rapidly at values above pH 11
+CC         and below pH 8. Is inactive at pH 4.3. {ECO:0000269|PubMed:14594827};
+CC   -!- PATHWAY: Purine metabolism; AMP biosynthesis via salvage pathway; AMP
+CC       from adenosine: step 1/1. {ECO:0000305|PubMed:14594827}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:14594827}.
+CC   -!- SIMILARITY: Belongs to the carbohydrate kinase PfkB family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000611; ABQ73980.1; -; Genomic_DNA.
+DR   RefSeq; WP_003411414.1; NZ_CP016972.1.
+DR   SMR; A5U4N0; -.
+DR   STRING; 419947.MRA_2218; -.
+DR   EnsemblBacteria; ABQ73980; ABQ73980; MRA_2218.
+DR   GeneID; 45426178; -.
+DR   KEGG; mra:MRA_2218; -.
+DR   eggNOG; COG0524; Bacteria.
+DR   HOGENOM; CLU_027634_5_2_11; -.
+DR   OMA; AAQVGCM; -.
+DR   OrthoDB; 1604782at2; -.
+DR   SABIO-RK; A5U4N0; -.
+DR   UniPathway; UPA00588; UER00659.
+DR   Proteomes; UP000001988; Chromosome.
+DR   GO; GO:0004001; F:adenosine kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0044209; P:AMP salvage; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006166; P:purine ribonucleoside salvage; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.20; -; 1.
+DR   InterPro; IPR002173; Carboh/pur_kinase_PfkB_CS.
+DR   InterPro; IPR011611; PfkB_dom.
+DR   InterPro; IPR029056; Ribokinase-like.
+DR   Pfam; PF00294; PfkB; 1.
+DR   SUPFAM; SSF53613; SSF53613; 1.
+DR   PROSITE; PS00583; PFKB_KINASES_1; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Direct protein sequencing; Kinase; Magnesium;
+KW   Nucleotide-binding; Purine salvage; Transferase.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:14594827"
+FT   CHAIN           2..324
+FT                   /note="Adenosine kinase"
+FT                   /id="PRO_0000306417"
+FT   NP_BIND         223..228
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   REGION          172..173
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   ACT_SITE        257
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         8
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         12
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         36
+FT                   /note="Substrate; shared with dimeric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         48
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         52
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         102
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         116
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         195
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         256
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+FT   BINDING         257
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WID5"
+SQ   SEQUENCE   324 AA;  34472 MW;  0C072206A3210A1D CRC64;
+     MTIAVTGSIA TDHLMRFPGR FSEQLLPEHL HKVSLSFLVD DLVMHRGGVA GNMAFAIGVL
+     GGEVALVGAA GADFADYRDW LKARGVNCDH VLISETAHTA RFTCTTDVDM AQIASFYPGA
+     MSEARNIKLA DVVSAIGKPE LVIIGANDPE AMFLHTEECR KLGLAFAADP SQQLARLSGE
+     EIRRLVNGAA YLFTNDYEWD LLLSKTGWSE ADVMAQIDLR VTTLGPKGVD LVEPDGTTIH
+     VGVVPETSQT DPTGVGDAFR AGFLTGRSAG LGLERSAQLG SLVAVLVLES TGTQEWQWDY
+     EAAASRLAGA YGEHAAAEIV AVLA
+//

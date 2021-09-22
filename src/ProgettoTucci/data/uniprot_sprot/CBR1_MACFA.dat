@@ -1,0 +1,145 @@
+ID   CBR1_MACFA              Reviewed;         277 AA.
+AC   Q8MI29;
+DT   17-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Carbonyl reductase [NADPH] 1;
+DE            EC=1.1.1.184;
+DE   AltName: Full=15-hydroxyprostaglandin dehydrogenase [NADP(+)];
+DE            EC=1.1.1.141 {ECO:0000250|UniProtKB:Q28960};
+DE            EC=1.1.1.197;
+DE   AltName: Full=20-beta-hydroxysteroid dehydrogenase {ECO:0000250|UniProtKB:Q28960};
+DE   AltName: Full=NADPH-dependent carbonyl reductase 1;
+DE            EC=1.1.1.53 {ECO:0000250|UniProtKB:Q28960};
+DE   AltName: Full=Prostaglandin 9-ketoreductase {ECO:0000250|UniProtKB:Q28960};
+DE            Short=PG-9-KR {ECO:0000250|UniProtKB:Q28960};
+DE   AltName: Full=Prostaglandin-E(2) 9-reductase {ECO:0000250|UniProtKB:Q28960};
+DE            EC=1.1.1.189 {ECO:0000250|UniProtKB:Q28960};
+GN   Name=CBR1; Synonyms=PGDH2;
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cornea;
+RA   Fujimori K., Okada T., Habe T., Osama H., Urade Y.;
+RT   "Cloning of prostaglandin dehydrogenase type I cDNA from monkey.";
+RL   Submitted (APR-2001) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NADPH-dependent reductase with broad substrate specificity.
+CC       Catalyzes the reduction of a wide variety of carbonyl compounds
+CC       including quinones, prostaglandins, menadione, plus various
+CC       xenobiotics. Catalyzes the reduction of the antitumor anthracyclines
+CC       doxorubicin and daunorubicin to the cardiotoxic compounds doxorubicinol
+CC       and daunorubicinol. Can convert prostaglandin E2 to prostaglandin F2-
+CC       alpha (By similarity). Can bind glutathione, which explains its higher
+CC       affinity for glutathione-conjugated substrates. Catalyzes the reduction
+CC       of S-nitrosoglutathione (By similarity). {ECO:0000250|UniProtKB:P16152,
+CC       ECO:0000250|UniProtKB:Q28960}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a secondary alcohol + NADP(+) = a ketone + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:19257, ChEBI:CHEBI:15378, ChEBI:CHEBI:17087,
+CC         ChEBI:CHEBI:35681, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.184;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + prostaglandin F2alpha = H(+) + NADPH + prostaglandin
+CC         E2; Xref=Rhea:RHEA:24508, ChEBI:CHEBI:15378, ChEBI:CHEBI:57404,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:606564;
+CC         EC=1.1.1.189; Evidence={ECO:0000250|UniProtKB:Q28960};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:24510;
+CC         Evidence={ECO:0000250|UniProtKB:Q28960};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + prostaglandin E1 = 15-oxoprostaglandin E1 + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:11636, ChEBI:CHEBI:15378, ChEBI:CHEBI:57397,
+CC         ChEBI:CHEBI:57401, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.197;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NAD(+) + prostaglandin E2 = 15-oxoprostaglandin E2 + H(+) +
+CC         NADH; Xref=Rhea:RHEA:11876, ChEBI:CHEBI:15378, ChEBI:CHEBI:57400,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:606564;
+CC         EC=1.1.1.141; Evidence={ECO:0000250|UniProtKB:Q28960};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=androstan-3alpha,17beta-diol + NAD(+) = 17beta-
+CC         hydroxyandrostanone + H(+) + NADH; Xref=Rhea:RHEA:22400,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:18011, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:85278; EC=1.1.1.53;
+CC         Evidence={ECO:0000250|UniProtKB:Q28960};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:Q28960}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:Q28960}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB059654; BAB97216.1; -; mRNA.
+DR   RefSeq; NP_001306427.1; NM_001319498.1.
+DR   SMR; Q8MI29; -.
+DR   STRING; 9541.XP_005548781.1; -.
+DR   GeneID; 102141127; -.
+DR   KEGG; mcf:102141127; -.
+DR   eggNOG; KOG1208; Eukaryota.
+DR   BRENDA; 1.1.1.197; 1793.
+DR   Proteomes; UP000233100; Unplaced.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016404; F:15-hydroxyprostaglandin dehydrogenase (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0047021; F:15-hydroxyprostaglandin dehydrogenase (NADP+) activity; ISS:UniProtKB.
+DR   GO; GO:0047044; F:androstan-3-alpha,17-beta-diol dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004090; F:carbonyl reductase (NADPH) activity; ISS:UniProtKB.
+DR   GO; GO:0050221; F:prostaglandin-E2 9-reductase activity; ISS:UniProtKB.
+DR   GO; GO:0017144; P:drug metabolic process; ISS:UniProtKB.
+DR   GO; GO:0042373; P:vitamin K metabolic process; ISS:UniProtKB.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; NADP; Oxidoreductase; Phosphoprotein; Reference proteome.
+FT   CHAIN           1..277
+FT                   /note="Carbonyl reductase [NADPH] 1"
+FT                   /id="PRO_0000284144"
+FT   NP_BIND         10..34
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   NP_BIND         63..64
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   NP_BIND         194..198
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   NP_BIND         231..233
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   REGION          95..97
+FT                   /note="Glutathione binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   REGION          193..194
+FT                   /note="Glutathione binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   ACT_SITE        194
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         90
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   BINDING         106
+FT                   /note="Glutathione"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   BINDING         140
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P16152"
+FT   MOD_RES         30
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P48758"
+SQ   SEQUENCE   277 AA;  30473 MW;  3C93FD111F778C60 CRC64;
+     MKSGIRVALV TGSNKGIGLA IVRDLCRLFS GEVVLTARDV ARGQAAVQQL QAEGLSPRFH
+     QLDIDDLQSI RTLRDFLLKE YGGLDVLVNN AGIAFKVADP TPFHIQAEVT MKTNFFGTRD
+     VCTELLPLIK PQGRVVNISS MMSLRALKSC SPELQQKFRS ETITEEELVG LMNKFAEDTK
+     KGVHQKEGWP SSAYGVTKIG VTVLSRIHAR KLSEQRKGDK ILLNACCPGW VRTDMAGPSA
+     TKSPEEGAET PVYLALLPLD AEGPHGQFVM EKRVEQW
+//

@@ -1,0 +1,98 @@
+ID   COAA_HAEIN              Reviewed;         311 AA.
+AC   P44793;
+DT   01-NOV-1995, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1995, sequence version 1.
+DT   07-APR-2021, entry version 131.
+DE   RecName: Full=Pantothenate kinase;
+DE            EC=2.7.1.33;
+DE   AltName: Full=Pantothenic acid kinase;
+GN   Name=coaA; OrderedLocusNames=HI_0631;
+OS   Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Haemophilus.
+OX   NCBI_TaxID=71421;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=1916268; DOI=10.1016/0378-1119(91)90457-m;
+RA   Tomb J.-F., El-Hajj H., Smith H.O.;
+RT   "Nucleotide sequence of a cluster of genes involved in the transformation
+RT   of Haemophilus influenzae Rd.";
+RL   Gene 104:1-10(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51907 / DSM 11121 / KW20 / Rd;
+RX   PubMed=7542800; DOI=10.1126/science.7542800;
+RA   Fleischmann R.D., Adams M.D., White O., Clayton R.A., Kirkness E.F.,
+RA   Kerlavage A.R., Bult C.J., Tomb J.-F., Dougherty B.A., Merrick J.M.,
+RA   McKenney K., Sutton G.G., FitzHugh W., Fields C.A., Gocayne J.D.,
+RA   Scott J.D., Shirley R., Liu L.-I., Glodek A., Kelley J.M., Weidman J.F.,
+RA   Phillips C.A., Spriggs T., Hedblom E., Cotton M.D., Utterback T.R.,
+RA   Hanna M.C., Nguyen D.T., Saudek D.M., Brandon R.C., Fine L.D.,
+RA   Fritchman J.L., Fuhrmann J.L., Geoghagen N.S.M., Gnehm C.L., McDonald L.A.,
+RA   Small K.V., Fraser C.M., Smith H.O., Venter J.C.;
+RT   "Whole-genome random sequencing and assembly of Haemophilus influenzae
+RT   Rd.";
+RL   Science 269:496-512(1995).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantothenate + ATP = (R)-4'-phosphopantothenate + ADP +
+CC         H(+); Xref=Rhea:RHEA:16373, ChEBI:CHEBI:10986, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:29032, ChEBI:CHEBI:30616, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.33;
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 1/5.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic pantothenate kinase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L42023; AAC22291.1; -; Genomic_DNA.
+DR   PIR; I64082; I64082.
+DR   RefSeq; NP_438791.1; NC_000907.1.
+DR   RefSeq; WP_005667563.1; NC_000907.1.
+DR   SMR; P44793; -.
+DR   STRING; 71421.HI_0631; -.
+DR   EnsemblBacteria; AAC22291; AAC22291; HI_0631.
+DR   KEGG; hin:HI_0631; -.
+DR   PATRIC; fig|71421.8.peg.657; -.
+DR   eggNOG; COG1072; Bacteria.
+DR   HOGENOM; CLU_053818_1_1_6; -.
+DR   OMA; RKYTQVS; -.
+DR   PhylomeDB; P44793; -.
+DR   BioCyc; HINF71421:G1GJ1-658-MONOMER; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000000579; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016301; F:kinase activity; IBA:GO_Central.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IBA:GO_Central.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IBA:GO_Central.
+DR   CDD; cd02025; PanK; 1.
+DR   HAMAP; MF_00215; Pantothen_kinase_1; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004566; PanK.
+DR   InterPro; IPR006083; PRK/URK.
+DR   PANTHER; PTHR10285:SF139; PTHR10285:SF139; 1.
+DR   Pfam; PF00485; PRK; 1.
+DR   PIRSF; PIRSF000545; Pantothenate_kin; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00554; panK_bact; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Kinase;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..311
+FT                   /note="Pantothenate kinase"
+FT                   /id="PRO_0000194431"
+FT   NP_BIND         93..100
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   311 AA;  35907 MW;  E81F8BBC21EB1D4E CRC64;
+     MEFSTQQTPF LSFNREQWAE LRKSVPLKLT EQDLKPLLGF NEDLSLDEVS TIYLPLTRLI
+     NYYIDENLHR QTVLHRFLGR NNAKTPYIIS IAGSVAVGKS TSARILQSLL SHWPTERKVD
+     LITTDGFLYP LNKLKQDNLL QKKGFPVSYD TPKLIRFLAD VKSGKSNVTA PIYSHLTYDI
+     IPDKFDVVDK PDILILEGLN VLQTGNNKTD QTFVSDFVDF SIYVDAEEKL LKEWYIKRFL
+     KFRESAFNDP NSYFKHYASL SKEEAIATAS KIWDEINGLN LNQNILPTRE RANLILKKGH
+     NHQVELIKLR K
+//

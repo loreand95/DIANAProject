@@ -1,0 +1,84 @@
+ID   ARCA_BRADU              Reviewed;         420 AA.
+AC   Q89DX7;
+DT   03-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Arginine deiminase {ECO:0000255|HAMAP-Rule:MF_00242};
+DE            Short=ADI {ECO:0000255|HAMAP-Rule:MF_00242};
+DE            EC=3.5.3.6 {ECO:0000255|HAMAP-Rule:MF_00242};
+DE   AltName: Full=Arginine dihydrolase {ECO:0000255|HAMAP-Rule:MF_00242};
+DE            Short=AD {ECO:0000255|HAMAP-Rule:MF_00242};
+GN   Name=arcA {ECO:0000255|HAMAP-Rule:MF_00242}; OrderedLocusNames=bll7310;
+OS   Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 /
+OS   NBRC 14792 / USDA 110).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Bradyrhizobium.
+OX   NCBI_TaxID=224911;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110;
+RX   PubMed=12597275; DOI=10.1093/dnares/9.6.189;
+RA   Kaneko T., Nakamura Y., Sato S., Minamisawa K., Uchiumi T., Sasamoto S.,
+RA   Watanabe A., Idesawa K., Iriguchi M., Kawashima K., Kohara M.,
+RA   Matsumoto M., Shimpo S., Tsuruoka H., Wada T., Yamada M., Tabata S.;
+RT   "Complete genomic sequence of nitrogen-fixing symbiotic bacterium
+RT   Bradyrhizobium japonicum USDA110.";
+RL   DNA Res. 9:189-197(2002).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-arginine = L-citrulline + NH4(+);
+CC         Xref=Rhea:RHEA:19597, ChEBI:CHEBI:15377, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:32682, ChEBI:CHEBI:57743; EC=3.5.3.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00242};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via ADI
+CC       pathway; carbamoyl phosphate from L-arginine: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_00242}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00242}.
+CC   -!- SIMILARITY: Belongs to the arginine deiminase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00242}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000040; BAC52575.1; -; Genomic_DNA.
+DR   RefSeq; NP_773950.1; NC_004463.1.
+DR   RefSeq; WP_011090045.1; NZ_CP011360.1.
+DR   SMR; Q89DX7; -.
+DR   STRING; 224911.27355592; -.
+DR   EnsemblBacteria; BAC52575; BAC52575; BAC52575.
+DR   GeneID; 46494268; -.
+DR   KEGG; bja:bll7310; -.
+DR   PATRIC; fig|224911.44.peg.7386; -.
+DR   eggNOG; COG2235; Bacteria.
+DR   HOGENOM; CLU_052662_0_0_5; -.
+DR   InParanoid; Q89DX7; -.
+DR   OMA; SAWIYDG; -.
+DR   PhylomeDB; Q89DX7; -.
+DR   BioCyc; BDIA224911:G1G3J-7361-MONOMER; -.
+DR   UniPathway; UPA00254; UER00364.
+DR   Proteomes; UP000002526; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016990; F:arginine deiminase activity; IBA:GO_Central.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019546; P:arginine deiminase pathway; IBA:GO_Central.
+DR   HAMAP; MF_00242; Arg_deiminase; 1.
+DR   InterPro; IPR003876; Arg_deiminase.
+DR   PIRSF; PIRSF006356; Arg_deiminase; 1.
+DR   PRINTS; PR01466; ARGDEIMINASE.
+DR   TIGRFAMs; TIGR01078; arcA; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; Cytoplasm; Hydrolase; Reference proteome.
+FT   CHAIN           1..420
+FT                   /note="Arginine deiminase"
+FT                   /id="PRO_0000182205"
+FT   ACT_SITE        408
+FT                   /note="Amidino-cysteine intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00242"
+SQ   SEQUENCE   420 AA;  46410 MW;  5B291544579C5AA9 CRC64;
+     MAKQASESNR AFGVHSEVGQ LRKVMVCSPG RAHQRLTPSN CDTLLFDDVL WVENAKRDHF
+     DFVQKMRDRG VDVVEMHNLL TETVAIPEGR KWILDNQVVP DQVGLGLVDE LRGYLESLTP
+     RDLAETLIGG VSTHDFPDAH GGEMLKLVRE AAGMTEYLLP PLPNTLYTRD TTCWIYGGVT
+     LNSLYWPARH EEPILATAIY KFHPDFAGKV NVWWGDPTRD HGLATLEGGD VMPIGKGNVL
+     IGLSERTSRQ AISQVAAALF KKKAAERVIV AAMPKLRAAM HLDTVFTFAD RDCVLLYPDI
+     VNNIAAFSYR PADNSAGLEL RKDEKPFVDV VAEALGLKKL RVVETGGNAY MRERTQWDSG
+     ANLVCASPGV VFAYDRNTYT NTLLRKEGIE VITIVGAELG RGRGGGHCMT CPITRDAVDY
+//

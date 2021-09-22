@@ -1,0 +1,104 @@
+ID   ADD_SHIBS               Reviewed;         333 AA.
+AC   Q320Y0;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   10-FEB-2021, entry version 82.
+DE   RecName: Full=Adenosine deaminase {ECO:0000255|HAMAP-Rule:MF_00540};
+DE            EC=3.5.4.4 {ECO:0000255|HAMAP-Rule:MF_00540};
+DE   AltName: Full=Adenosine aminohydrolase {ECO:0000255|HAMAP-Rule:MF_00540};
+GN   Name=add {ECO:0000255|HAMAP-Rule:MF_00540}; OrderedLocusNames=SBO_1511;
+OS   Shigella boydii serotype 4 (strain Sb227).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300268;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sb227;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine + H(+) + H2O = inosine + NH4(+);
+CC         Xref=Rhea:RHEA:24408, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16335, ChEBI:CHEBI:17596, ChEBI:CHEBI:28938; EC=3.5.4.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00540};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00540};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00540};
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Adenosine and AMP deaminases family. Adenosine deaminase subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00540}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000036; ABB66128.1; -; Genomic_DNA.
+DR   RefSeq; WP_000567500.1; NC_007613.1.
+DR   SMR; Q320Y0; -.
+DR   EnsemblBacteria; ABB66128; ABB66128; SBO_1511.
+DR   KEGG; sbo:SBO_1511; -.
+DR   HOGENOM; CLU_039228_0_2_6; -.
+DR   OMA; QWCGADR; -.
+DR   Proteomes; UP000007067; Chromosome.
+DR   GO; GO:0004000; F:adenosine deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009168; P:purine ribonucleoside monophosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01320; ADA; 1.
+DR   HAMAP; MF_00540; A_deaminase; 1.
+DR   InterPro; IPR001365; A/AMP_deaminase_dom.
+DR   InterPro; IPR028893; A_deaminase.
+DR   InterPro; IPR006330; Ado/ade_deaminase.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   Pfam; PF00962; A_deaminase; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01430; aden_deam; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Nucleotide metabolism; Zinc.
+FT   CHAIN           1..333
+FT                   /note="Adenosine deaminase"
+FT                   /id="PRO_1000017704"
+FT   ACT_SITE        200
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   METAL           12
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   METAL           14
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   METAL           197
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   METAL           278
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   BINDING         14
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   BINDING         16
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   BINDING         170
+FT                   /note="Substrate; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   BINDING         279
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+FT   SITE            221
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00540"
+SQ   SEQUENCE   333 AA;  36301 MW;  B54F86C521060C9F CRC64;
+     MIDTTLPLTD IHRHLDGNIR PQTILELGRQ YNISLPAQSL ETLIPHVQVI ANEPDLVSFL
+     TKLDWGVKVL ASLDACRRVA FENIEDAARN GLHYVELRFS PGYMAMAHKL PVAGVVEAVI
+     DGVREGCRTF GVQAKLIGIM SRTFGEAACQ QELEAFLAHR DQITALDLAG DELGFPGSLF
+     LSHFNLARDA GWHITVHAGE AAGPESIWQA IRELGAERIG HGVKAIEDRA LMDFLAEQQI
+     GIESCLTSNI QTSTVAELAA HPLKTFLEHG IRAGINTDDP GVQGVDIIHE YTVAAPAAGL
+     SREQIRQAQI NGLEMAFLSA EEKRALREKV AAK
+//

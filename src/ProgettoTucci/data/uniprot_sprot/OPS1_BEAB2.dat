@@ -1,0 +1,222 @@
+ID   OPS1_BEAB2              Reviewed;        2211 AA.
+AC   J4UHQ6;
+DT   30-NOV-2016, integrated into UniProtKB/Swiss-Prot.
+DT   31-OCT-2012, sequence version 1.
+DT   07-APR-2021, entry version 42.
+DE   RecName: Full=Orsellinic acid synthase {ECO:0000250|UniProtKB:Q5AUX1};
+DE            Short=OAS {ECO:0000250|UniProtKB:Q5AUX1};
+DE            EC=2.3.1.- {ECO:0000269|PubMed:26305932};
+DE   AltName: Full=Non-reducing polyketide synthase OpS1 {ECO:0000303|PubMed:26305932};
+DE   AltName: Full=Oosporein biosynthesis protein 1 {ECO:0000303|PubMed:26305932};
+DE   AltName: Full=Oosporein synthase {ECO:0000303|PubMed:26305932};
+GN   Name=OpS1 {ECO:0000303|PubMed:26305932};
+GN   Synonyms=PKS9 {ECO:0000303|PubMed:26305932}; ORFNames=BBA_08179;
+OS   Beauveria bassiana (strain ARSEF 2860) (White muscardine disease fungus)
+OS   (Tritirachium shiotae).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Cordycipitaceae; Beauveria.
+OX   NCBI_TaxID=655819;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ARSEF 2860;
+RX   PubMed=22761991; DOI=10.1038/srep00483;
+RA   Xiao G., Ying S.-H., Zheng P., Wang Z.-L., Zhang S., Xie X.-Q., Shang Y.,
+RA   St Leger R.J., Zhao G.-P., Wang C., Feng M.-G.;
+RT   "Genomic perspectives on the evolution of fungal entomopathogenicity in
+RT   Beauveria bassiana.";
+RL   Sci. Rep. 2:483-483(2012).
+RN   [2]
+RP   FUNCTION, DISRUPTION PHENOTYPE, DOMAIN, INDUCTION, CATALYTIC ACTIVITY, AND
+RP   PATHWAY.
+RX   PubMed=26305932; DOI=10.1073/pnas.1503200112;
+RA   Feng P., Shang Y., Cen K., Wang C.;
+RT   "Fungal biosynthesis of the bibenzoquinone oosporein to evade insect
+RT   immunity.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 112:11365-11370(2015).
+CC   -!- FUNCTION: Non-reducing polyketide synthase; part of the gene cluster
+CC       that mediates the biosynthesis of the bibenzoquinone oosporein, a
+CC       metabolite required for fungal virulence that acts by evading host
+CC       immunity to facilitate fungal multiplication in insects
+CC       (PubMed:26305932). The non-reducing polyketide synthase OpS1 produces
+CC       orsellinic acid by condensing acetyl-CoA with 3 malonyl-CoA units
+CC       (PubMed:26305932). Orsellinic acid is then hydroxylated to benzenetriol
+CC       by the hydroxylase OpS4 (PubMed:26305932). The intermediate is oxidized
+CC       either nonenzymatically to 5,5'-dideoxy-oosporein or enzymatically to
+CC       benzenetetrol by the oxidoreductase OpS7 (PubMed:26305932). The latter
+CC       is further dimerized to oosporein by the catalase OpS5
+CC       (PubMed:26305932). OpS6 probably functions en route for protecting
+CC       cells against oxidative stress by scavenging any leaked free radical
+CC       form of benzenetetrol by activating the thiol group of glutathione
+CC       (PubMed:26305932). {ECO:0000269|PubMed:26305932}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + 2 H(+) + 3 malonyl-CoA = 3 CO2 + 4 CoA +
+CC         orsellinate; Xref=Rhea:RHEA:62972, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16162, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57288, ChEBI:CHEBI:57384;
+CC         Evidence={ECO:0000269|PubMed:26305932};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:62973;
+CC         Evidence={ECO:0000269|PubMed:26305932};
+CC   -!- PATHWAY: Secondary metabolite biosynthesis.
+CC       {ECO:0000269|PubMed:26305932}.
+CC   -!- INDUCTION: Expression is positively regulated by the oosporein cluster
+CC       specific regulator OpS3 that binds the promoter at a 5'-CGGA-3' motif
+CC       (PubMed:26305932). Expression is negatively regulated by the global
+CC       transcription factor Msn2 that binds the stress-response element 5'-
+CC       AGGGG-3' (PubMed:26305932). {ECO:0000269|PubMed:26305932}.
+CC   -!- DOMAIN: Multidomain protein; including a starter unit:ACP transacylase
+CC       (SAT) that selects the starter unit; a ketosynthase (KS) that catalyzes
+CC       repeated decarboxylative condensation to elongate the polyketide
+CC       backbone; a malonyl-CoA:ACP transacylase (MAT) that selects and
+CC       transfers the extender unit malonyl-CoA; a product template (PT) domain
+CC       that controls the immediate cyclization regioselectivity of the
+CC       reactive polyketide backbone; and an acyl-carrier protein (ACP) that
+CC       serves as the tether of the growing and completed polyketide via its
+CC       phosphopantetheinyl arm (By similarity).
+CC       {ECO:0000250|UniProtKB:Q5B0D0}.
+CC   -!- DOMAIN: The release of the polyketide chain from the non-reducing
+CC       polyketide synthase is mediated by the thioesterase (TE) domain
+CC       localized at the C-ter of the protein (By similarity).
+CC       {ECO:0000250|UniProtKB:Q5ATJ7}.
+CC   -!- DISRUPTION PHENOTYPE: Leads to the loss of oosporein production
+CC       (PubMed:26305932). {ECO:0000269|PubMed:26305932}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JH725181; EJP62792.1; -; Genomic_DNA.
+DR   RefSeq; XP_008601498.1; XM_008603276.1.
+DR   SMR; J4UHQ6; -.
+DR   PRIDE; J4UHQ6; -.
+DR   EnsemblFungi; EJP62792; EJP62792; BBA_08179.
+DR   GeneID; 19891191; -.
+DR   HOGENOM; CLU_000022_6_4_1; -.
+DR   InParanoid; J4UHQ6; -.
+DR   PHI-base; PHI:5037; -.
+DR   Proteomes; UP000002762; Unassembled WGS sequence.
+DR   GO; GO:0005835; C:fatty acid synthase complex; IEA:InterPro.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IEA:InterPro.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IEA:InterPro.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.1200.10; -; 2.
+DR   Gene3D; 3.10.129.110; -; 1.
+DR   Gene3D; 3.40.366.10; -; 2.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR014043; Acyl_transferase.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR003965; Fatty_acid_synthase.
+DR   InterPro; IPR018201; Ketoacyl_synth_AS.
+DR   InterPro; IPR014031; Ketoacyl_synth_C.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   InterPro; IPR020841; PKS_Beta-ketoAc_synthase_dom.
+DR   InterPro; IPR020807; PKS_dehydratase.
+DR   InterPro; IPR042104; PKS_dehydratase_sf.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR006162; Ppantetheine_attach_site.
+DR   InterPro; IPR032088; SAT.
+DR   InterPro; IPR001031; Thioesterase.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 1.
+DR   Pfam; PF02801; Ketoacyl-synt_C; 1.
+DR   Pfam; PF00550; PP-binding; 2.
+DR   Pfam; PF14765; PS-DH; 1.
+DR   Pfam; PF16073; SAT; 1.
+DR   Pfam; PF00975; Thioesterase; 1.
+DR   PRINTS; PR01483; FASYNTHASE.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SMART; SM00825; PKS_KS; 1.
+DR   SMART; SM00823; PKS_PP; 2.
+DR   SUPFAM; SSF47336; SSF47336; 2.
+DR   SUPFAM; SSF52151; SSF52151; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   SUPFAM; SSF55048; SSF55048; 1.
+DR   PROSITE; PS00606; B_KETOACYL_SYNTHASE; 1.
+DR   PROSITE; PS50075; CARRIER; 2.
+DR   PROSITE; PS00012; PHOSPHOPANTETHEINE; 1.
+PE   1: Evidence at protein level;
+KW   Multifunctional enzyme; Phosphopantetheine; Phosphoprotein;
+KW   Reference proteome; Transferase; Virulence.
+FT   CHAIN           1..2211
+FT                   /note="Orsellinic acid synthase"
+FT                   /id="PRO_0000438571"
+FT   DOMAIN          1681..1755
+FT                   /note="Carrier 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+FT   DOMAIN          1787..1865
+FT                   /note="Carrier 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+FT   REGION          44..246
+FT                   /note="N-terminal acylcarrier protein transacylase domain
+FT                   (SAT)"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:26305932"
+FT   REGION          383..808
+FT                   /note="Ketosynthase (KS) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:26305932"
+FT   REGION          910..1228
+FT                   /note="Malonyl-CoA:ACP transacylase (MAT) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:26305932"
+FT   REGION          1334..1573
+FT                   /note="Product template (PT) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:26305932"
+FT   REGION          1937..2204
+FT                   /note="Thioesterase (TE) domain"
+FT                   /evidence="ECO:0000255, ECO:0000305|PubMed:26305932"
+FT   ACT_SITE        549
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        1006
+FT                   /note="For acyl/malonyl transferase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   MOD_RES         1715
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+FT   MOD_RES         1824
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+SQ   SEQUENCE   2211 AA;  237462 MW;  ED327AD168F62FA7 CRC64;
+     MPSFFPVFSG LGSGSVFSEE NVGRAEENAL SPECAVLLQS CHRTFREQVS DAIARNILPE
+     DSIDLDDFAE PASLIRPLSK YSRNVVMQHA ALYLHQILAY MTSQKELGNL IGSAGFCTGL
+     LPAAVAAASQ TSVITLISQS HHFFQVALWI GIRSEQYRVD HLTNDTQDAD GESMLPCSYV
+     LEGVSEAAAQ DLLHKTNMGN EVFVSAILSP TRVTISGIPT KLSTFISKHL PANCRTTVAV
+     VHSLYHHESL LEVRNLVMAD LERQDTLLQA RVELSAPILS TKTGKPLALS SVTTLEQVAC
+     AILDLIFIEK VDWLNLQQSI VSHTSQDALD RPINIVNYGP GLGMAPSAFA QAQEKDVCIM
+     DAAKISKGSF QNSGASRLAW DDIAIVGMAV ELPGASDADT LWQNLVDGYQ ACSEIPPSRF
+     NVNDYNNGKG SRTLNTKYGN FLENPFLFDA EHFGISRREA KSMDPQQRIL LQTAYRALED
+     AGYVPDTTTS SARDTFGCWI GNATLDYVDN LRSDIDVYYS TGTLRAFLSA RISYVFGWSG
+     PSITLDTACS SSIVALHQAA RSILAGDCRS ALVGAANTIT SPDMYLGLDR AHFLSPSGQC
+     KAFDASADGY CRAEGCGVFV IKRLSDALAE GDRIHGVIKA IEINQSGNTH SITHPHVPTQ
+     EALFDKMFRE SRINPHEISV VEMHGTGTQA GDPNEVESVR RALCKARSPL NPVYLTSLKA
+     NIGHAEAVSG IAGLAKLILM TRNGYIPPQV SLKTLNPRIR PLGVDGAAID ANGTEWPRAG
+     PKKARMSMLN NFGAGGSNAA VIIGEHLSQD ESEAQQPACG ATIFVCGVSA KNDRALVKLQ
+     ETVADYLTSA GQSRKPPSLA DVCATLTSRR QMYNHRVAVV ASSLEELAEN LRSASSHNVS
+     KSICEAPEAV FIFSGQGSQY LGMGRELIEQ YEDFAHTVNV CDGWLVKNNY PSCLAVITGE
+     QRESEDDKVD AHTWQSFQSA IYVIEVALAK LLESWGIRPQ AVAGHSLGEY AALVTAGVIR
+     LMDGLKLVAH RAKLMMEQCD LGQTSMLAVN CSAAVITSII EASTDFEGLA ISCNNSETDC
+     VVGGPVPQLV LLKKHLTDRA QVRSKLLDVP MAFHTAAMDP ILEEFTAFAA REVRVFPPTL
+     PVVSNVLGRT VAVGEQAFSP EYFAKQCRGT VAFDDGIKHF LALGDCESTP YRWIEIGPHP
+     SVQPMLRGRL GKAATSHIQL TTLKKNVPPA STLSQLLSHF YQTSSGVNWR SVFSRNAHRR
+     FKLIQLPGMP FFPSEFHVPY REMAGEPAST SQSSGDAASN VVPNSFAVHA IQKLSHGASN
+     SCAIYETPAV LLKEFIEGHL VCGYALCPAS VYHEMVLAAL NDCQSAAGSS VVWGLSKVSY
+     CAPMVYDGNS NQVLRVVITP RLTLPDRYDF AVMSYVAGTD PNERSTVHCR GVVKQSNMAS
+     AELKYSRLQA SMKGSMDGLK HVGQLGAPAA SCVQVFSKRA MYEKIFTRVV EYSDPYQKVE
+     TIRIREDTGE ALATCVSPAP YLARDSSIPA SHAIFMDVLL HVAGFVSNLN LPNDVMGICK
+     EVGGATTLRA PVVRDGACAP FDVYCSTFDT QDSDGRSFTI SNAYAVDSSG VMAVFKGMVF
+     QHVKIPLIEQ ALKRATRSSP NAAVSASHPA QPKRRNDVTS FVNAQSVERM ALPRAAAPVR
+     AAPEVSVPEL VAKVCGLDAG QLGVDSRLDA HGVDSLMGIE IAAALSSALG VDVLPDTLGS
+     CDTVGDIERL CEALSPTPVG NDVDNDSPTP GSERGSDSAI STPASVSTVD ASSIDMVQIV
+     AELCGARAEA VSPDSELRAL GVDSLMFLEL ADRLQDLDRG IALSSNDLAD CQTIGDIERL
+     IVKRPGTPAY QSGISTKIYP EAVHASSEAV RLSAQQPATQ ISLLASEEAV LPQIERLLHL
+     SQQPEEIQVG SLDRKFSGKS PLFLIHDGSG ICTHYRGLRP LGRRVLALHD PKFLIQSSKQ
+     RSWASLTTMA NEYASSISST MGMTGGEDCI LGGWSFGGVV AFEAARILMS RGHRVKGVVL
+     IDSPPPIGHI PLSESIISAV TAQPAEKDAA AGSTTASKCV SPVASAIRKL VQQSFRICAG
+     LIGDFGTSAE LQQRGLSNKP VGPVPRVILL RSAVGWTPPR GYTGAAVEEM ENPWLQDRRD
+     RSLATAGWEI LTGGPIQCLD IPGNHFQVFD APNIAAVSAA LVDACSEFEL K
+//

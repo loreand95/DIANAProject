@@ -1,0 +1,78 @@
+ID   ACTP1_HETMG             Reviewed;          20 AA.
+AC   P58689;
+DT   31-JAN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   31-JAN-2002, sequence version 1.
+DT   22-APR-2020, entry version 64.
+DE   RecName: Full=Magnificalysin I {ECO:0000303|PubMed:8146870};
+DE            Short=HMg I;
+DE   AltName: Full=Cytolysin I;
+DE   AltName: Full=DELTA-stichotoxin {ECO:0000305};
+DE   Flags: Fragment;
+OS   Heteractis magnifica (Magnificent sea anemone) (Radianthus magnifica).
+OC   Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria;
+OC   Stichodactylidae; Heteractis.
+OX   NCBI_TaxID=38281;
+RN   [1]
+RP   PROTEIN SEQUENCE, TOXIC DOSE, HEMOLYTIC ACTIVITY, AND FUNCTION.
+RX   PubMed=8146870; DOI=10.1016/0041-0101(93)90341-f;
+RA   Khoo K.S., Kam W.K., Khoo H.E., Gopalakrishnakone P., Chung M.C.;
+RT   "Purification and partial characterization of two cytolysins from a
+RT   tropical sea anemone, Heteractis magnifica.";
+RL   Toxicon 31:1567-1579(1993).
+RN   [2]
+RP   REVIEW.
+RX   PubMed=19268680; DOI=10.1016/j.toxicon.2009.02.026;
+RA   Kristan K.C., Viero G., Dalla Serra M., Macek P., Anderluh G.;
+RT   "Molecular mechanism of pore formation by actinoporins.";
+RL   Toxicon 54:1125-1134(2009).
+CC   -!- FUNCTION: Pore-forming protein that forms cations-selective hydrophilic
+CC       pores of around 1 nm and causes cytolysis and hemolysis. Pore formation
+CC       is a multi-step process that involves specific recognition of membrane
+CC       sphingomyelin (but neither cholesterol nor phosphatidylcholine) using
+CC       aromatic rich region and adjacent phosphocholine (POC) binding site,
+CC       firm binding to the membrane (mainly driven by hydrophobic
+CC       interactions) accompanied by the transfer of the N-terminal region to
+CC       the lipid-water interface and finally pore formation after
+CC       oligomerization of monomers. {ECO:0000269|PubMed:8146870}.
+CC   -!- SUBUNIT: Tetramer in the presence of a lipidic interface. Monomer, in
+CC       soluble state (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Nematocyst. Target cell membrane.
+CC       Note=Forms an alpha-helical membrane channel in the prey.
+CC   -!- DOMAIN: The N-terminal region, before the pore is formed, is bound to
+CC       the lipid membrane. It partitions into the lipid-water interface and
+CC       stabilizes the monomeric molecule on the membrane. Finally, it
+CC       traverses the bilayer, thus forming the transmembrane pore.
+CC       {ECO:0000250|UniProtKB:P61914}.
+CC   -!- TOXIC DOSE: LD(50) is 140 ug/kg by intravenous injection into mice.
+CC       {ECO:0000269|PubMed:8146870}.
+CC   -!- MISCELLANEOUS: Hemolytic activity is 3.6 x 10(4) HU/mg.
+CC   -!- SIMILARITY: Belongs to the actinoporin family. Sea anemone subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0042151; C:nematocyst; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044218; C:other organism cell membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0006811; P:ion transport; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Cytolysis; Direct protein sequencing; Hemolysis; Ion transport; Membrane;
+KW   Nematocyst; Secreted; Target cell membrane; Target membrane; Toxin;
+KW   Transmembrane; Transport.
+FT   CHAIN           1..>20
+FT                   /note="Magnificalysin I"
+FT                   /id="PRO_0000221534"
+FT   REGION          1..10
+FT                   /note="Plays an important role in the hemolytic activity"
+FT                   /evidence="ECO:0000250"
+FT   REGION          9..>20
+FT                   /note="N-terminal region"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         20
+SQ   SEQUENCE   20 AA;  2003 MW;  ED9ABD98AC7C4EBC CRC64;
+     ALAGTIIAGA SLTFKILDEV
+//

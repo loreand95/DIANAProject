@@ -1,0 +1,91 @@
+ID   OMPC_SALTS              Reviewed;         378 AA.
+AC   A0A0H3NJI9;
+DT   26-FEB-2020, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2020, sequence version 2.
+DT   02-DEC-2020, entry version 17.
+DE   RecName: Full=Outer membrane porin C {ECO:0000305|PubMed:22538806};
+DE   AltName: Full=Outer membrane protein C;
+DE   AltName: Full=Porin OmpC;
+DE   Flags: Precursor;
+GN   Name=ompC {ECO:0000303|PubMed:22538806}; OrderedLocusNames=SL1344_2237;
+OS   Salmonella typhimurium (strain SL1344).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=216597;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL1344;
+RX   PubMed=22538806; DOI=10.1073/pnas.1201061109;
+RA   Kroger C., Dillon S.C., Cameron A.D., Papenfort K., Sivasankaran S.K.,
+RA   Hokamp K., Chao Y., Sittka A., Hebrard M., Handler K., Colgan A.,
+RA   Leekitcharoenphon P., Langridge G.C., Lohan A.J., Loftus B., Lucchini S.,
+RA   Ussery D.W., Dorman C.J., Thomson N.R., Vogel J., Hinton J.C.;
+RT   "The transcriptional landscape and small RNAs of Salmonella enterica
+RT   serovar Typhimurium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 109:E1277-E1286(2012).
+RN   [2]
+RP   SUBCELLULAR LOCATION, INDUCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=SL1344;
+RX   PubMed=2543631; DOI=10.1128/iai.57.7.2136-2140.1989;
+RA   Dorman C.J., Chatfield S., Higgins C.F., Hayward C., Dougan G.;
+RT   "Characterization of porin and ompR mutants of a virulent strain of
+RT   Salmonella typhimurium: ompR mutants are attenuated in vivo.";
+RL   Infect. Immun. 57:2136-2140(1989).
+CC   -!- FUNCTION: Forms pores that allow passive diffusion of small molecules
+CC       across the outer membrane. {ECO:0000305}.
+CC   -!- SUBUNIT: Homotrimer. Forms mixed heterotrimers with OmpF and with PhoE;
+CC       other mixed heterotrimers with other porins are also probable.
+CC       {ECO:0000250|UniProtKB:P06996}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000269|PubMed:2543631};
+CC       Multi-pass membrane protein {ECO:0000250|UniProtKB:P06996}.
+CC   -!- INDUCTION: By growth in high osmolarity conditions under control of
+CC       OmpR (at protein level). {ECO:0000269|PubMed:2543631}.
+CC   -!- DISRUPTION PHENOTYPE: No effect on virulence in male BALB/c mice.
+CC       {ECO:0000269|PubMed:2543631}.
+CC   -!- SIMILARITY: Belongs to the Gram-negative porin family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CBW18339.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FQ312003; CBW18339.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_000865526.1; NZ_QASL01000010.1.
+DR   SMR; A0A0H3NJI9; -.
+DR   EnsemblBacteria; CBW18339; CBW18339; SL1344_2237.
+DR   KEGG; sey:SL1344_2237; -.
+DR   PATRIC; fig|216597.6.peg.2492; -.
+DR   HOGENOM; CLU_058202_0_0_6; -.
+DR   OMA; KENSWTR; -.
+DR   Proteomes; UP000008962; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046930; C:pore complex; IEA:UniProtKB-KW.
+DR   GO; GO:0015288; F:porin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0034220; P:ion transmembrane transport; IEA:InterPro.
+DR   Gene3D; 2.40.160.10; -; 1.
+DR   InterPro; IPR023614; Porin_dom_sf.
+DR   InterPro; IPR001897; Porin_gammaproteobac.
+DR   InterPro; IPR001702; Porin_Gram-ve.
+DR   InterPro; IPR013793; Porin_Gram-ve_CS.
+DR   Pfam; PF00267; Porin_1; 1.
+DR   PRINTS; PR00183; ECOLIPORIN.
+DR   PRINTS; PR00182; ECOLNEIPORIN.
+DR   PROSITE; PS00576; GRAM_NEG_PORIN; 1.
+PE   1: Evidence at protein level;
+KW   Cell outer membrane; Ion transport; Membrane; Porin; Signal;
+KW   Stress response; Transmembrane; Transmembrane beta strand; Transport.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..378
+FT                   /note="Outer membrane porin C"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000448910"
+SQ   SEQUENCE   378 AA;  41239 MW;  58479E8685B43ED1 CRC64;
+     MKVKVLSLLV PALLVAGAAN AAEIYNKDGN KLDLFGKVDG LHYFSDDKGS DGDQTYMRIG
+     FKGETQVNDQ LTGYGQWEYQ IQGNQTEGSN DSWTRVAFAG LKFADAGSFD YGRNYGVTYD
+     VTSWTDVLPE FGGDTYGADN FMQQRGNGYA TYRNTDFFGL VDGLDFALQY QGKNGSVSGE
+     NTNGRSLLNQ NGDGYGGSLT YAIGEGFSVG GAITTSKRTA DQNNTANARL YGNGDRATVY
+     TGGLKYDANN IYLAAQYSQT YNATRFGTSN GSNPSTSYGF ANKAQNFEVV AQYQFDFGLR
+     PSVAYLQSKG KDISNGYGAS YGDQDIVKYV DVGATYYFNK NMSTYVDYKI NLLDKNDFTR
+     DAGINTDDIV ALGLVYQF
+//

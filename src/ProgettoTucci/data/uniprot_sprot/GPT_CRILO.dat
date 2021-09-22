@@ -1,0 +1,199 @@
+ID   GPT_CRILO               Reviewed;         408 AA.
+AC   P23338;
+DT   01-NOV-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1991, sequence version 1.
+DT   07-OCT-2020, entry version 90.
+DE   RecName: Full=UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase;
+DE            EC=2.7.8.15 {ECO:0000269|PubMed:2167312};
+DE   AltName: Full=GlcNAc-1-P transferase;
+DE            Short=G1PT;
+DE            Short=GPT;
+DE   AltName: Full=N-acetylglucosamine-1-phosphate transferase;
+GN   Name=DPAGT1; Synonyms=DPAGT2, GNPTA;
+OS   Cricetulus longicaudatus (Long-tailed dwarf hamster) (Chinese hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Cricetulus.
+OX   NCBI_TaxID=10030;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, ACTIVITY
+RP   REGULATION, AND PATHWAY.
+RX   PubMed=2167312;
+RA   Zhu X., Lehrman M.A.;
+RT   "Cloning, sequence, and expression of a cDNA encoding hamster UDP-
+RT   GlcNAc:dolichol phosphate N-acetylglucosamine-1-phosphate transferase.";
+RL   J. Biol. Chem. 265:14250-14255(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 248-271.
+RX   PubMed=2848842;
+RA   Lehrman M.A., Zhu X., Khounlo S.;
+RT   "Amplification and molecular cloning of the hamster tunicamycin-sensitive
+RT   N-acetylglucosamine-1-phosphate transferase gene. The hamster and yeast
+RT   enzymes share a common peptide sequence.";
+RL   J. Biol. Chem. 263:19796-19803(1988).
+CC   -!- FUNCTION: Catalyzes the initial step of dolichol-linked oligosaccharide
+CC       biosynthesis in N-linked protein glycosylation pathway: transfers
+CC       GlcNAc-1-P from UDP-GlcNAc onto the carrier lipid dolichyl phosphate
+CC       (P-dolichol), yielding GlcNAc-P-P-dolichol.
+CC       {ECO:0000269|PubMed:2167312}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dolichyl phosphate + UDP-N-acetyl-alpha-D-glucosamine = N-
+CC         acetyl-alpha-D-glucosaminyl-diphosphodolichol + UMP;
+CC         Xref=Rhea:RHEA:13289, Rhea:RHEA-COMP:9517, Rhea:RHEA-COMP:9519,
+CC         ChEBI:CHEBI:57683, ChEBI:CHEBI:57705, ChEBI:CHEBI:57865,
+CC         ChEBI:CHEBI:58427; EC=2.7.8.15;
+CC         Evidence={ECO:0000269|PubMed:2167312};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q9H3H5};
+CC   -!- ACTIVITY REGULATION: Inhibited by natural nucleoside antibiotic
+CC       tunicamycin, which acts as a structural analog and competitor of UDP-
+CC       GlcNAc. {ECO:0000269|PubMed:2167312}.
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000269|PubMed:2167312}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:Q9H3H5}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000250|UniProtKB:Q9H3H5}; Multi-pass membrane protein
+CC       {ECO:0000250|UniProtKB:Q9H3H5}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 4 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J05590; AAA36965.1; -; mRNA.
+DR   PIR; A37813; A37813.
+DR   SMR; P23338; -.
+DR   UniPathway; UPA00378; -.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008963; F:phospho-N-acetylmuramoyl-pentapeptide-transferase activity; IEA:InterPro.
+DR   GO; GO:0016757; F:transferase activity, transferring glycosyl groups; IEA:UniProtKB-KW.
+DR   GO; GO:0003975; F:UDP-N-acetylglucosamine-dolichyl-phosphate N-acetylglucosaminephosphotransferase activity; ISS:UniProtKB.
+DR   GO; GO:0006488; P:dolichol-linked oligosaccharide biosynthetic process; ISS:UniProtKB.
+DR   CDD; cd06855; GT_GPT_euk; 1.
+DR   InterPro; IPR000715; Glycosyl_transferase_4.
+DR   InterPro; IPR033895; GPT.
+DR   PANTHER; PTHR10571; PTHR10571; 1.
+DR   Pfam; PF00953; Glycos_transf_4; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosyltransferase; Magnesium;
+KW   Membrane; Metal-binding; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..408
+FT                   /note="UDP-N-acetylglucosamine--dolichyl-phosphate N-
+FT                   acetylglucosaminephosphotransferase"
+FT                   /id="PRO_0000108759"
+FT   TOPO_DOM        1..10
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        11..38
+FT                   /note="Helical; Name=Helix 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        39..58
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        59..78
+FT                   /note="Helical; Name=Helix 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        79..91
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        92..118
+FT                   /note="Helical; Name=Helix 3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        119..121
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        122..143
+FT                   /note="Helical; Name=Helix 4"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        144..166
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        167..186
+FT                   /note="Helical; Name=Helix 5"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        187..192
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        193..213
+FT                   /note="Helical; Name=Helix 6"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        214..218
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        219..242
+FT                   /note="Helical; Name=Helix 7"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        243..250
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        251..269
+FT                   /note="Helical; Name=Helix 8"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        270..271
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        272..293
+FT                   /note="Helical; Name=Helix 9"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        294..375
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        376..400
+FT                   /note="Helical; Name=Helix 10"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   TOPO_DOM        401..408
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000305"
+FT   REGION          44..46
+FT                   /note="UDP-N-acetylglucosamine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   REGION          178..186
+FT                   /note="Dolichol phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   REGION          301..303
+FT                   /note="UDP-N-acetylglucosamine binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   METAL           185
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   METAL           252
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         46
+FT                   /note="Inhibitor; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         56
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         119
+FT                   /note="Inhibitor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         125
+FT                   /note="Dolichol phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         185
+FT                   /note="Inhibitor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         191
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         252
+FT                   /note="Inhibitor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   BINDING         303
+FT                   /note="Inhibitor"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9H3H5"
+FT   CARBOHYD        146
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   408 AA;  46191 MW;  108C4D7598B8F4F3 CRC64;
+     MWAFPELPLP LLVNLFGSLL GFVATVTLIP AFRSHFIAAR LCGQDLNKLS RQQIPESQGV
+     ICGAVFLIIL FCFIPFPFLN CFVEEQCKAF PHHEFVALIG ALLAICCMIF LGFADDVLNL
+     PWRHKLLLPT AASLPLLMVY FTNFGNTTIV VPKPFRWILG LHLDLGILYY VYMGLLAVFC
+     TNAINILAGI NGLEAGQSLV ISASIIVFNL VELEGDYRDD HVFSLYFMIP FFFTTLGLLY
+     HNWYPSQVFV GDTFCYFAGM TFAVVGILGH FSKTMLLFFI PQVFNFLYSL PQLLHAIPCP
+     RHRIPRLNPK TGKLEMSYSK FKTKNLSFLG TFILKVAERL QLVTVHRGES EDGAFTECNN
+     MTLINLLLKI FGPIHERNLT LLLLLLQILS SAVTFSIRYQ LVRLFYDV
+//

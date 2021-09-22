@@ -1,0 +1,277 @@
+ID   HDHA_CLOSR              Reviewed;         262 AA.
+AC   G9FRD7;
+DT   02-DEC-2020, integrated into UniProtKB/Swiss-Prot.
+DT   22-FEB-2012, sequence version 1.
+DT   07-APR-2021, entry version 34.
+DE   RecName: Full=7alpha-hydroxysteroid dehydrogenase {ECO:0000303|PubMed:22198717, ECO:0000303|PubMed:26961171};
+DE            Short=7alpha-HSDH {ECO:0000303|PubMed:22198717, ECO:0000303|PubMed:26961171};
+DE            EC=1.1.1.- {ECO:0000269|PubMed:22198717, ECO:0000269|PubMed:24810359};
+DE   AltName: Full=NADP-dependent 7alpha-hydroxysteroid dehydrogenase {ECO:0000303|PubMed:22198717};
+GN   Name=hdha {ECO:0000303|PubMed:22198717};
+OS   Clostridium sardiniense (Clostridium absonum).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=29369;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 1-27, FUNCTION,
+RP   CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, SUBUNIT, AND
+RP   BIOTECHNOLOGY.
+RC   STRAIN=ATCC 27555 / DSM 599 / CIP 104302 / JCM 1381 / NCTC 10984 / HA 7103;
+RX   PubMed=22198717; DOI=10.1007/s00253-011-3798-x;
+RA   Ferrandi E.E., Bertolesi G.M., Polentini F., Negri A., Riva S., Monti D.;
+RT   "In search of sustainable chemical processes: cloning, recombinant
+RT   expression, and functional characterization of the 7alpha- and 7beta-
+RT   hydroxysteroid dehydrogenases from Clostridium absonum.";
+RL   Appl. Microbiol. Biotechnol. 95:1221-1223(2012).
+RN   [2]
+RP   INDUCTION BY BILE ACIDS.
+RX   PubMed=6945134; DOI=10.1016/0005-2760(81)90011-4;
+RA   MacDonald I.A., Roach P.D.;
+RT   "Bile induction of 7 alpha- and 7 beta-hydroxysteroid dehydrogenases in
+RT   Clostridium absonum.";
+RL   Biochim. Biophys. Acta 665:262-269(1981).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND MUTAGENESIS OF ARG-38 AND 261-PRO-ARG-262.
+RX   PubMed=24810359; DOI=10.2174/0929866521666140507160050;
+RA   Lou D., Wang B., Tan J., Zhu L.;
+RT   "Carboxyl-terminal and Arg38 are essential for activity of the 7alpha-
+RT   hydroxysteroid dehydrogenase from Clostridium absonum.";
+RL   Protein Pept. Lett. 21:894-900(2014).
+RN   [4] {ECO:0007744|PDB:5EPO}
+RP   X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) IN COMPLEX WITH NADP AND
+RP   TAUROCHENODEOXYCHOLATE, AND SUBUNIT.
+RX   PubMed=26961171; DOI=10.1038/srep22885;
+RA   Lou D., Wang B., Tan J., Zhu L., Cen X., Ji Q., Wang Y.;
+RT   "The three-dimensional structure of Clostridium absonum 7alpha-
+RT   hydroxysteroid dehydrogenase: new insights into the conserved arginines for
+RT   NADP(H) recognition.";
+RL   Sci. Rep. 6:22885-22885(2016).
+CC   -!- FUNCTION: 7alpha-hydroxysteroid dehydrogenase that catalyzes the
+CC       NADP(+)-dependent oxidation of the 7alpha-hydroxy group of 7alpha-
+CC       hydroxysteroids, such as cholate, chenodeoxycholate,
+CC       glycochenodeoxycholate and taurochenodeoxycholate, to the corresponding
+CC       7-oxosteroids (PubMed:22198717, PubMed:24810359). Is also able to
+CC       catalyze the reverse reduction reactions (PubMed:22198717). Together
+CC       with 7beta-HSDH encoded in the adjacent gene, is likely involved in the
+CC       epimerization of the hydroxy group at C-7 of primary bile acids through
+CC       7-keto bile acid intermediates (PubMed:22198717).
+CC       {ECO:0000269|PubMed:22198717, ECO:0000269|PubMed:24810359}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cholate + NADP(+) = 3alpha,12alpha-dihydroxy-7-oxo-5beta-
+CC         cholanate + H(+) + NADPH; Xref=Rhea:RHEA:48508, ChEBI:CHEBI:11893,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29747, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; Evidence={ECO:0000269|PubMed:22198717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:48509;
+CC         Evidence={ECO:0000305|PubMed:22198717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=chenodeoxycholate + NADP(+) = 7-oxolithocholate + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:53820, ChEBI:CHEBI:15378, ChEBI:CHEBI:36234,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:78605;
+CC         Evidence={ECO:0000269|PubMed:22198717, ECO:0000269|PubMed:24810359};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53821;
+CC         Evidence={ECO:0000305|PubMed:22198717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3alpha,7alpha-dihydroxy-12-oxo-5beta-cholanate + NADP(+) =
+CC         7,12-dioxo-lithocholate + H(+) + NADPH; Xref=Rhea:RHEA:53840,
+CC         ChEBI:CHEBI:11901, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:137789;
+CC         Evidence={ECO:0000269|PubMed:22198717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:53841;
+CC         Evidence={ECO:0000305|PubMed:22198717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7alpha-hydroxy-3,12-dioxo-5beta-cholanate + NADP(+) =
+CC         dehydrocholate + H(+) + NADPH; Xref=Rhea:RHEA:65024,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:137881, ChEBI:CHEBI:156270;
+CC         Evidence={ECO:0000269|PubMed:22198717};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65025;
+CC         Evidence={ECO:0000305|PubMed:22198717};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycochenodeoxycholate + NADP(+) = 7-oxoglycolithocholate +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:65056, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:36252, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:137818; Evidence={ECO:0000269|PubMed:24810359};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65057;
+CC         Evidence={ECO:0000305|PubMed:24810359};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + taurochenodeoxycholate = 7-oxotaurolithocholate +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:65060, ChEBI:CHEBI:9407,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:137724; Evidence={ECO:0000269|PubMed:24810359};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:65061;
+CC         Evidence={ECO:0000305|PubMed:24810359};
+CC   -!- ACTIVITY REGULATION: Activated by metal ions such as Mg(2+), Na(+) and
+CC       K(+). {ECO:0000269|PubMed:24810359}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=1.06 mM for cholate {ECO:0000269|PubMed:22198717};
+CC         KM=0.96 mM for 3alpha,12alpha-dihydroxy-7-oxo-5beta-cholanate
+CC         {ECO:0000269|PubMed:22198717};
+CC         KM=0.09 mM for chenodeoxycholate {ECO:0000269|PubMed:22198717};
+CC         KM=0.13 mM for 7-oxolithocholate {ECO:0000269|PubMed:22198717};
+CC         KM=5.70 mM for 3alpha,7alpha-dihydroxy-12-oxo-5beta-cholanate
+CC         {ECO:0000269|PubMed:22198717};
+CC         KM=1.14 mM for 7,12-dioxo-lithocholate {ECO:0000269|PubMed:22198717};
+CC         KM=3.50 mM for dehydrocholate {ECO:0000269|PubMed:22198717};
+CC         KM=0.013 mM for chenodeoxycholate {ECO:0000269|PubMed:24810359};
+CC         KM=0.012 mM for glycochenodeoxycholate {ECO:0000269|PubMed:24810359};
+CC         KM=0.016 mM for taurochenodeoxycholate {ECO:0000269|PubMed:24810359};
+CC         Note=kcat is 343000 sec(-1) for the oxidation of cholate. kcat is
+CC         13600 sec(-1) for the reduction of 3alpha,12alpha-dihydroxy-7-oxo-
+CC         5beta-cholanate. kcat is 9390 sec(-1) for the oxidation of
+CC         chenodeoxycholate. kcat is 977 sec(-1) for the reduction of 7-
+CC         oxolithocholate. kcat is 222000 sec(-1) for the oxidation of
+CC         3alpha,7alpha-dihydroxy-12-oxo-5beta-cholanate. kcat is 30600 sec(-1)
+CC         for the reduction of 7,12-dioxo-lithocholate. kcat is 22600 sec(-1)
+CC         for the reduction of dehydrocholate (PubMed:22198717). kcat is 21.2
+CC         sec(-1) for the oxidation of chenodeoxycholate. kcat is 19.6 sec(-1)
+CC         for the oxidation of glycochenodeoxycholate. kcat is 11.5 sec(-1) for
+CC         the oxidation of taurochenodeoxycholate (PubMed:24810359).
+CC         {ECO:0000269|PubMed:22198717, ECO:0000269|PubMed:24810359};
+CC       pH dependence:
+CC         Shows a maximum of activity between pH 7.5 and 8.0 both in the
+CC         oxidation reaction of cholate and in the reduction reaction of
+CC         3alpha,12alpha-dihydroxy-7-oxo-5beta-cholanate.
+CC         {ECO:0000269|PubMed:22198717};
+CC       Temperature dependence:
+CC         Optimum temperature is 40 degrees Celsius. No activity is detected
+CC         above 60 degrees Celsius. {ECO:0000269|PubMed:22198717};
+CC   -!- SUBUNIT: Homotetramer (PubMed:22198717, PubMed:26961171). A dynamic
+CC       equilibrium between dimers and tetramers seems to exist
+CC       (PubMed:26961171). {ECO:0000269|PubMed:22198717,
+CC       ECO:0000269|PubMed:26961171}.
+CC   -!- INDUCTION: Up-regulated by bile acids, when grown in the presence of
+CC       deoxycholate or chenodeoxycholate. {ECO:0000269|PubMed:6945134}.
+CC   -!- BIOTECHNOLOGY: Could be a promising candidate for further applications
+CC       in the epimerization reaction of bile acids at the C-7 position and
+CC       thus may be used as a biocatalyst for the synthesis of bile acids
+CC       derivatives of pharmacological interest. {ECO:0000305|PubMed:22198717}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JN191345; AET80685.1; -; Genomic_DNA.
+DR   PDB; 5EPO; X-ray; 2.00 A; A/B/C/D=1-262.
+DR   PDBsum; 5EPO; -.
+DR   SMR; G9FRD7; -.
+DR   SwissLipids; SLP:000001737; -.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0030573; P:bile acid catabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Bile acid catabolism; Direct protein sequencing;
+KW   Lipid degradation; Lipid metabolism; NADP; Nucleotide-binding;
+KW   Oxidoreductase; Steroid metabolism.
+FT   CHAIN           1..262
+FT                   /note="7alpha-hydroxysteroid dehydrogenase"
+FT                   /id="PRO_0000451449"
+FT   NP_BIND         13..18
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   NP_BIND         63..64
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   NP_BIND         191..195
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   ACT_SITE        158
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AET8"
+FT   BINDING         38
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   BINDING         90
+FT                   /note="NADP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   BINDING         145
+FT                   /note="Taurochenodeoxycholate"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   BINDING         158
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   BINDING         158
+FT                   /note="Taurochenodeoxycholate"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   BINDING         162
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:26961171,
+FT                   ECO:0007744|PDB:5EPO"
+FT   SITE            162
+FT                   /note="Lowers pKa of active site Tyr"
+FT                   /evidence="ECO:0000250|UniProtKB:P0AET8"
+FT   MUTAGEN         38
+FT                   /note="R->D: Loss of catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:24810359"
+FT   MUTAGEN         261..262
+FT                   /note="Missing: 5-fold reduction in catalytic efficiency."
+FT                   /evidence="ECO:0000269|PubMed:24810359"
+FT   TURN            3..6
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          8..13
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           17..28
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          32..38
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           40..52
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          56..61
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           68..81
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          86..89
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   TURN            96..98
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   TURN            102..104
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           107..134
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          138..143
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           146..148
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           156..176
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           177..179
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          181..188
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           194..199
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           202..210
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           220..231
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           233..235
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   STRAND          242..246
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   TURN            247..250
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+FT   HELIX           256..259
+FT                   /evidence="ECO:0007744|PDB:5EPO"
+SQ   SEQUENCE   262 AA;  28289 MW;  10D0D76D2A88EFB6 CRC64;
+     MKRLEGKVAI VTSSTRGIGR ASAEALAKEG ALVYLAARSE ELANEVIADI KKQGGVAKFV
+     YFNAREEETY TSMVEKVAEA EGRIDILVNN YGGTNVNLDK NLTAGDTDEF FRILKDNVQS
+     VYLPAKAAIP HMEKVGGGSI VNISTIGSVV PDISRIAYCV SKSAINSLTQ NIALQYARKN
+     IRCNAVLPGL IGTRAALENM TDEFRDSFLG HVPLNRVGRP EDIANAVLYY ASDDSGYVTG
+     MIHEVAGGFA LGTPQYSEYC PR
+//

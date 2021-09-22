@@ -1,0 +1,156 @@
+ID   REP75_PYRAB             Reviewed;         654 AA.
+AC   O54003;
+DT   28-NOV-2012, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   02-DEC-2020, entry version 46.
+DE   RecName: Full=Replication initiator protein;
+DE            Short=Rep75 protein;
+DE            EC=2.7.7.31;
+DE            EC=3.1.21.-;
+DE            EC=6.5.1.1;
+DE   AltName: Full=ORF1;
+GN   Name=rep75; Synonyms=orf1;
+OS   Pyrococcus abyssi (strain GE5 / Orsay).
+OG   Plasmid pGT5.
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=272844;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, COFACTOR, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, AND DNA-BINDING.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=9570403; DOI=10.1046/j.1365-2958.1998.00759.x;
+RA   Marsin S., Forterre P.;
+RT   "A rolling circle replication initiator protein with a nucleotidyl-
+RT   transferase activity encoded by the plasmid pGT5 from the hyperthermophilic
+RT   archaeon Pyrococcus abyssi.";
+RL   Mol. Microbiol. 27:1183-1192(1998).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=8655503; DOI=10.1128/jb.178.11.3232-3237.1996;
+RA   Erauso G., Marsin S., Benbouzid-Rollet N., Baucher M.F., Barbeyron T.,
+RA   Zivanovic Y., Prieur D., Forterre P.;
+RT   "Sequence of plasmid pGT5 from the archaeon Pyrococcus abyssi: evidence for
+RT   rolling-circle replication in a hyperthermophile.";
+RL   J. Bacteriol. 178:3232-3237(1996).
+RN   [3]
+RP   FUNCTION, BIOPHYSICOCHEMICAL PROPERTIES, ACTIVITY REGULATION, DNA
+RP   SEQUENCE-SPECIFICITY, AND MUTAGENESIS OF TYR-448 AND ARG-451.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=10417644; DOI=10.1046/j.1365-2958.1999.01498.x;
+RA   Marsin S., Forterre P.;
+RT   "The active site of the rolling circle replication protein Rep75 is
+RT   involved in site-specific nuclease, ligase and nucleotidyl transferase
+RT   activities.";
+RL   Mol. Microbiol. 33:537-545(1999).
+RN   [4]
+RP   FUNCTION AS A TOPOISOMERASE, AND MUTAGENESIS OF TYR-448 AND ARG-451.
+RC   STRAIN=GE5 / Orsay;
+RX   PubMed=10871346; DOI=10.1093/nar/28.11.2251;
+RA   Marsin S., Marguet E., Forterre P.;
+RT   "Topoisomerase activity of the hyperthermophilic replication initiator
+RT   protein Rep75.";
+RL   Nucleic Acids Res. 28:2251-2255(2000).
+CC   -!- FUNCTION: Required for rolling circle plasmid replication, has a site-
+CC       specific endonuclease/ligase activity (nicking and closing). In vitro
+CC       (no in vivo system yet exists) cleaves the double-stranded origin of
+CC       replication (dso) site, on an ssDNA template, remaining covalently
+CC       linked to the 5' end. Religates the appropriate substrates. Has
+CC       nucleotidyltransferase activity, adding ATP or dATP to the 3' end of
+CC       the nicked ssDNA site. Both activities require a G nucleotide at the 3'
+CC       end of the nicking site. Also has topoisomerase activity, nicking and
+CC       relaxing negatively supercoiled plasmids in a narrow concentration
+CC       range (25-50 molar ratio of protein:DNA). Topoisomerase is not
+CC       dependent on a dso sequence. Has no topoisomerase activity on slightly
+CC       positively supercoiled plasmid. {ECO:0000269|PubMed:10417644,
+CC       ECO:0000269|PubMed:10871346, ECO:0000269|PubMed:9570403}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.31;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (deoxyribonucleotide)(n)-3'-hydroxyl + 5'-phospho-
+CC         (deoxyribonucleotide)(m) = (deoxyribonucleotide)(n+m) + AMP +
+CC         diphosphate.; EC=6.5.1.1;
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000269|PubMed:9570403};
+CC       Note=DNA nicking and nucleotidyltransferase are strictly dependent on
+CC       Mn(2+); Mg(2+) is able to substitute in DNA nicking 5X less
+CC       efficiently. {ECO:0000269|PubMed:9570403};
+CC   -!- ACTIVITY REGULATION: ATP and dATP inhibit nicking and closing while
+CC       stimulating nucleotidyltransferase. {ECO:0000269|PubMed:10417644}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Temperature dependence:
+CC         Optimum temperature is 105 degrees Celsius for ssDNA nicking, 75
+CC         degrees Celsius for nucleotidyltransferase activity on a ssDNA
+CC         substrate. Optimum temperature for ssDNA closing is substrate
+CC         dependent, being 55 and 75 degrees Celsius for the 2 substrates
+CC         tested. Topoisomerase activity is only seen between 55 and 75 degrees
+CC         Celsius. {ECO:0000269|PubMed:10417644, ECO:0000269|PubMed:9570403};
+CC   -!- PTM: The N-terminus is blocked when overexpressed in E.coli.
+CC   -!- MISCELLANEOUS: Plasmids from hyperthermophilic archaea are relaxed to
+CC       positively supercoiled at physiological temperatures.
+CC   -!- SIMILARITY: Belongs to the Gram-positive plasmids replication protein
+CC       type 1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ002587; CAA05626.1; -; Genomic_DNA.
+DR   EMBL; U49503; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   SMR; O54003; -.
+DR   PRIDE; O54003; -.
+DR   eggNOG; ENOG502N5AJ; Archaea.
+DR   BRENDA; 2.7.7.31; 5242.
+DR   Proteomes; UP000000810; Plasmid pGT5.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003910; F:DNA ligase (ATP) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003912; F:DNA nucleotidylexotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003916; F:DNA topoisomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-KW.
+DR   GO; GO:0006276; P:plasmid maintenance; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Coiled coil; DNA replication; DNA-binding; Endonuclease;
+KW   Hydrolase; Isomerase; Ligase; Nuclease; Nucleotide-binding; Plasmid;
+KW   Plasmid copy control; Topoisomerase; Transferase.
+FT   CHAIN           1..654
+FT                   /note="Replication initiator protein"
+FT                   /id="PRO_0000420230"
+FT   COILED          535..585
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        448
+FT                   /note="O-(5'-phospho-DNA)-tyrosine intermediate"
+FT                   /evidence="ECO:0000305"
+FT   MUTAGEN         448
+FT                   /note="Y->F: Loss of nicking and closing activities, binds,
+FT                   not covalently, to ssDNA. Still has nucleotidyltransferase
+FT                   activity. Loss of topoisomerase activity. Loss of all
+FT                   activities; when associated with L-451."
+FT                   /evidence="ECO:0000269|PubMed:10417644,
+FT                   ECO:0000269|PubMed:10871346"
+FT   MUTAGEN         451
+FT                   /note="R->L: Loss of nucleotidyltransferase activity,
+FT                   reduced DNA closing but no loss of ssDNA nicking. Decreased
+FT                   plasmid nicking, no closing activity on supercoiled
+FT                   plasmids. Loss of all activities; when associated with F-
+FT                   448."
+FT                   /evidence="ECO:0000269|PubMed:10417644,
+FT                   ECO:0000269|PubMed:10871346"
+SQ   SEQUENCE   654 AA;  75224 MW;  16635E4BBDA50BB4 CRC64;
+     MVIYTSKFKN SLLDGLGVGH LSYDDQPILC NEVHPTLTLD TFISGGSSGS RPRPRWVYLD
+     ISTTNEGISE EFSSNTESKS PLLKVCGVSS KSSEGDGSSF IWFDKYRSVI SRLEHSGFVE
+     VERTVLKLRK ISKELRSINK QLSRLFLDDR ERAKLLSRKR KYLDFARALI GSISKSLTLY
+     ADRFFVEVPQ DYAKLIQKLG FSSDTLLLHL FVNSGVLEVF LDDNSSHKFR IAYISKVHAG
+     KYHPVKGISK GSQEAKRVLR DLLVLSELLE GSLVSYRSGG VETIHHLIPV RHFVLTAPKE
+     LSFSIWASLK KGDSSLFRAF KDAGAKAIKE FLSYLASKEH ISGNLLFGFT INVHVTGDKN
+     PFEPHFHIDA IVTFICYDKS STKWFRLNPL LSESDLKKLR DIWKNVLLSY FGELLSEDTK
+     SKDFDVWAGD NYYSLPLDVP QVFFELKYAS RKLFVNFVNY FEQSNFDESS VSDWDFVRFV
+     FEYSNRTERY GFLTNIKRYL SMSCSHLVEK RVQELEEFIS RIEFDLSVNG NKMSDSLKRA
+     LLERLEYLKD ELSELKERGF EYLFERALEK AEELLSNDNL TLERVIHILE TLFTALGKSI
+     VNYNFYVELE DVSFREFVDY LYDNHLSDVL VFSDRHRSIT IIRLIPPPDG GVPV
+//

@@ -1,0 +1,142 @@
+ID   MPAG_PENBR              Reviewed;         398 AA.
+AC   F1DBB3;
+DT   06-JUL-2016, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAY-2011, sequence version 1.
+DT   07-APR-2021, entry version 37.
+DE   RecName: Full=O-methyltransferase mpaG {ECO:0000303|PubMed:21398490};
+DE            EC=2.1.1.- {ECO:0000269|PubMed:25630520};
+DE   AltName: Full=Mycophenolic acid biosynthesis cluster protein G {ECO:0000303|PubMed:21398490};
+GN   Name=mpaG {ECO:0000303|PubMed:21398490};
+OS   Penicillium brevicompactum.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Penicillium.
+OX   NCBI_TaxID=5074 {ECO:0000312|EMBL:ADY00134.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=IBT 23078;
+RX   PubMed=21398490; DOI=10.1128/aem.03015-10;
+RA   Regueira T.B., Kildegaard K.R., Hansen B.G., Mortensen U.H., Hertweck C.,
+RA   Nielsen J.;
+RT   "Molecular basis for mycophenolic acid biosynthesis in Penicillium
+RT   brevicompactum.";
+RL   Appl. Environ. Microbiol. 77:3035-3043(2011).
+RN   [2]
+RP   FUNCTION.
+RC   STRAIN=IBT23078;
+RX   PubMed=22544261; DOI=10.1128/aem.07955-11;
+RA   Hansen B.G., Mnich E., Nielsen K.F., Nielsen J.B., Nielsen M.T.,
+RA   Mortensen U.H., Larsen T.O., Patil K.R.;
+RT   "Involvement of a natural fusion of a cytochrome p450 and a hydrolase in
+RT   mycophenolic Acid biosynthesis.";
+RL   Appl. Environ. Microbiol. 78:4908-4913(2012).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, MUTAGENESIS OF HIS-306; GLU-335 AND GLU-362,
+RP   ACTIVE SITE, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=25630520; DOI=10.1002/cbic.201402600;
+RA   Zhang W., Cao S., Qiu L., Qi F., Li Z., Yang Y., Huang S., Bai F., Liu C.,
+RA   Wan X., Li S.;
+RT   "Functional characterization of MpaG', the O-methyltransferase involved in
+RT   the biosynthesis of mycophenolic acid.";
+RL   ChemBioChem 16:565-569(2015).
+CC   -!- FUNCTION: O-methyltransferase; part of the gene cluster that mediates
+CC       the biosynthesis of mycophenolic acid (MPA), the first isolated
+CC       antibiotic natural product in the world obtained from a culture of
+CC       Penicillium brevicompactum in 1893 (PubMed:21398490, PubMed:22544261,
+CC       PubMed:25630520). The first step of the pathway is the synthesis of 5-
+CC       methylorsellinic acid (5MOA) by the cytosolic polyketide synthase mpaC
+CC       (PubMed:21398490). 5MOA is then converted to the phthalide compound
+CC       5,7-dihydroxy-4,6-dimethylphthalide (DHMP) by the endoplasmic
+CC       reticulum-bound cytochrome P450 monooxygenase mpaDE (PubMed:22544261).
+CC       MpaDE first catalyzes hydroxylation of 5-MOA to 4,6-dihydroxy-2-
+CC       (hydroxymethyl)-3-methylbenzoic acid (DHMB) (PubMed:22544261). MpaDE
+CC       then acts as a lactone synthase that catalyzes the ring closure to
+CC       convert DHMB is then converted to DHMP (PubMed:22544261). The next step
+CC       is the prenylation of DHMP by the Golgi apparatus-associated
+CC       prenyltransferase mpaA to yield farnesyl-DHMP (FDHMP)
+CC       (PubMed:25630520). The ER-bound oxygenase mpaB then mediates the
+CC       oxidative cleavage the C19-C20 double bond in FDHMP to yield FDHMP-3C
+CC       via a mycophenolic aldehyde intermediate (By similarity). The O-
+CC       methyltransferase mpaG catalyzes the methylation of FDHMP-3C to yield
+CC       MFDHMP-3C (By similarity). After the cytosolic methylation of FDHMP-3C,
+CC       MFDHMP-3C enters into peroxisomes probably via free diffusion due to
+CC       its low molecular weight (By similarity). Upon a peroxisomal CoA
+CC       ligation reaction, catalyzed by a beta-oxidation component enzyme acyl-
+CC       CoA ligase ACL891, MFDHMP-3C-CoA would then be restricted to
+CC       peroxisomes for the following beta-oxidation pathway steps (By
+CC       similarity). The peroxisomal beta-oxidation machinery than converts
+CC       MFDHMP-3C-CoA into MPA_CoA, via a beta-oxidation chain-shortening
+CC       process (By similarity). Finally mpaH acts as a peroxisomal acyl-CoA
+CC       hydrolase with high substrate specificity toward MPA-CoA to release the
+CC       final product MPA (By similarity). {ECO:0000250|UniProtKB:A0A0B5L781,
+CC       ECO:0000269|PubMed:21398490, ECO:0000269|PubMed:22544261,
+CC       ECO:0000269|PubMed:25630520}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=51.5 uM for demethylmycophenolic acid (DMMPA)
+CC         {ECO:0000269|PubMed:25630520};
+CC       pH dependence:
+CC         Optimum pH is 8.0. {ECO:0000269|PubMed:25630520};
+CC       Temperature dependence:
+CC         Optimum temperature is 45 degrees Celsius.
+CC         {ECO:0000269|PubMed:25630520};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:A0A0B5L781}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. Cation-independent O-methyltransferase family. COMT
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HQ731031; ADY00134.1; -; Genomic_DNA.
+DR   SMR; F1DBB3; -.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008171; F:O-methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR016461; COMT-like.
+DR   InterPro; IPR001077; O_MeTrfase_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   InterPro; IPR036390; WH_DNA-bd_sf.
+DR   Pfam; PF00891; Methyltransf_2; 1.
+DR   PIRSF; PIRSF005739; O-mtase; 1.
+DR   SUPFAM; SSF46785; SSF46785; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS51683; SAM_OMT_II; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Methyltransferase; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..398
+FT                   /note="O-methyltransferase mpaG"
+FT                   /id="PRO_0000436575"
+FT   ACT_SITE        306
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+FT   ACT_SITE        335
+FT                   /evidence="ECO:0000269|PubMed:25630520"
+FT   ACT_SITE        362
+FT                   /evidence="ECO:0000269|PubMed:25630520"
+FT   BINDING         264
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01020"
+FT   MUTAGEN         306
+FT                   /note="H->A: Completely looses methyltransferase activity
+FT                   towards demethylmycophenolic acid (DMMPA)."
+FT                   /evidence="ECO:0000269|PubMed:25630520"
+FT   MUTAGEN         335
+FT                   /note="E->A: Completely looses methyltransferase activity
+FT                   towards demethylmycophenolic acid (DMMPA)."
+FT                   /evidence="ECO:0000269|PubMed:25630520"
+FT   MUTAGEN         362
+FT                   /note="E->A: Completely looses methyltransferase activity
+FT                   towards demethylmycophenolic acid (DMMPA)."
+FT                   /evidence="ECO:0000269|PubMed:25630520"
+SQ   SEQUENCE   398 AA;  43434 MW;  CE40674483BC1687 CRC64;
+     MSAASPASII QELASAAKQY ENNESGAREA LIAQSRALIA SLEVPSEFIQ HTFWSQPALS
+     AIVRLATDVN LFQYLKDAQE EGLSAEALAS KTGMDVSLFA RLARHLVAMN VITSRNGVFY
+     GTALSNGLAA ENYQQSIRFC HDVSRPSFGA FPSFFKGNGY KTPALGTTDG PFQSAHKVDI
+     SFPQWLVGNP PYLQYFNSYM SAYRAGKPNW CDNGFYPVAD RLLNGFDASV SDVLLVDVGG
+     GRGHDIATFG SQFSPLPGRL VLQDREQVIN SIPADESRQF EATTHDIFTT QPVKNARAYY
+     MHSVPHGFGD EDAVKIMANL VPALAKGYSR VLLNEIVVDE ESPVMSATNM DLIMLAHMGA
+     KERTEADWRS ILTRAGLKVV NIYSYPGVAE SLIEAELA
+//

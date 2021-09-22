@@ -1,0 +1,105 @@
+ID   CA1A_CONEP              Reviewed;          56 AA.
+AC   P56638;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAR-2010, sequence version 2.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=Alpha-conotoxin EpI {ECO:0000303|PubMed:9624161, ECO:0000303|PubMed:9708977};
+DE   Flags: Precursor;
+OS   Conus episcopatus (Bishop's cone).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Darioconus.
+OX   NCBI_TaxID=88764;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RA   Watkins M., Olivera B.M., Hillyard D.R., Mcintosh M.J., Jones R.M.;
+RT   "Alpha-conotoxin peptides.";
+RL   Patent number JP2002534996, 22-OCT-2002.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 40-55, SYNTHESIS OF 40-55, DISULFIDE BONDS, SULFATION
+RP   AT TYR-54, AMIDATION AT CYS-55, MASS SPECTROMETRY, SUBCELLULAR LOCATION,
+RP   AND FUNCTION.
+RX   PubMed=9624161; DOI=10.1074/jbc.273.25.15667;
+RA   Loughnan M., Bond T., Atkins A., Cuevas J., Adams D.J., Broxton N.M.,
+RA   Livett B.G., Down J.G., Jones A., Alewood P.F., Lewis R.J.;
+RT   "Alpha-conotoxin EpI, a novel sulfated peptide from Conus episcopatus that
+RT   selectively targets neuronal nicotinic acetylcholine receptors.";
+RL   J. Biol. Chem. 273:15667-15674(1998).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.1 ANGSTROMS) OF 40-55, AMIDATION AT CYS-55, AND
+RP   DISULFIDE BONDS.
+RX   PubMed=9708977; DOI=10.1021/bi9806549;
+RA   Hu S.H., Loughnan M., Miller R., Weeks C.M., Blessing R.H., Alewood P.F.,
+RA   Lewis R.J., Martin J.L.;
+RT   "The 1.1-A resolution crystal structure of [Tyr15]EpI, a novel alpha-
+RT   conotoxin from Conus episcopatus, solved by direct methods.";
+RL   Biochemistry 37:11425-11433(1998).
+CC   -!- FUNCTION: Alpha-conotoxins act on postsynaptic membranes, they bind to
+CC       the nicotinic acetylcholine receptors (nAChR) and thus inhibit them.
+CC       This peptide blocks mammalian nicotinic acetylcholine receptors
+CC       composed of alpha-3-beta-2/CHRNA3-CHRNB2 and alpha-3-beta-4/CHRNA3-
+CC       CHRNB4 subunits. {ECO:0000269|PubMed:9624161}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9624161}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:9624161}.
+CC   -!- DOMAIN: The cysteine framework is I (CC-C-C). Alpha4/7 pattern.
+CC       {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=1787.02; Method=Electrospray; Note=Without
+CC       sulfation.; Evidence={ECO:0000269|PubMed:9624161};
+CC   -!- MASS SPECTROMETRY: Mass=1867.08; Method=Electrospray; Note=With
+CC       sulfation.; Evidence={ECO:0000269|PubMed:9624161};
+CC   -!- SIMILARITY: Belongs to the conotoxin A superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BD261428; -; NOT_ANNOTATED_CDS; Unassigned_DNA.
+DR   PIR; A59042; A59042.
+DR   PDB; 1A0M; X-ray; 1.10 A; A/B=40-55.
+DR   PDBsum; 1A0M; -.
+DR   SMR; P56638; -.
+DR   ConoServer; 405; EpI.
+DR   EvolutionaryTrace; P56638; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0035792; C:host cell postsynaptic membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030550; F:acetylcholine receptor inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR009958; Conotoxin_a-typ.
+DR   InterPro; IPR018072; Conotoxin_a-typ_CS.
+DR   Pfam; PF07365; Toxin_8; 1.
+DR   PROSITE; PS60014; ALPHA_CONOTOXIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Acetylcholine receptor inhibiting toxin; Amidation;
+KW   Direct protein sequencing; Disulfide bond; Ion channel impairing toxin;
+KW   Neurotoxin; Postsynaptic neurotoxin; Secreted; Signal; Sulfation; Toxin.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          17..39
+FT                   /evidence="ECO:0000269|PubMed:9624161"
+FT                   /id="PRO_0000392692"
+FT   PEPTIDE         40..55
+FT                   /note="Alpha-conotoxin EpI"
+FT                   /evidence="ECO:0000269|PubMed:9624161"
+FT                   /id="PRO_0000044457"
+FT   MOD_RES         54
+FT                   /note="Sulfotyrosine"
+FT                   /evidence="ECO:0000269|PubMed:9624161"
+FT   MOD_RES         55
+FT                   /note="Cysteine amide"
+FT                   /evidence="ECO:0000269|PubMed:9624161,
+FT                   ECO:0000269|PubMed:9708977"
+FT   DISULFID        41..47
+FT                   /evidence="ECO:0000269|PubMed:9708977,
+FT                   ECO:0000312|PDB:1A0M"
+FT   DISULFID        42..55
+FT                   /evidence="ECO:0000269|PubMed:9708977,
+FT                   ECO:0000312|PDB:1A0M"
+FT   HELIX           41..43
+FT                   /evidence="ECO:0007744|PDB:1A0M"
+FT   HELIX           45..50
+FT                   /evidence="ECO:0007744|PDB:1A0M"
+FT   TURN            52..54
+FT                   /evidence="ECO:0007744|PDB:1A0M"
+SQ   SEQUENCE   56 AA;  5977 MW;  B8523DFE3EF963CB CRC64;
+     MFTVFLLVVL ATTVVSFTSD RASDSRKDAA SGLIALTIKG CCSDPRCNMN NPDYCG
+//

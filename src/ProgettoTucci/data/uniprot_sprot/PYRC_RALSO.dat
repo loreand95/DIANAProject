@@ -1,0 +1,137 @@
+ID   PYRC_RALSO              Reviewed;         344 AA.
+AC   Q8Y249;
+DT   20-JUN-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Dihydroorotase {ECO:0000255|HAMAP-Rule:MF_00219};
+DE            Short=DHOase {ECO:0000255|HAMAP-Rule:MF_00219};
+DE            EC=3.5.2.3 {ECO:0000255|HAMAP-Rule:MF_00219};
+GN   Name=pyrC {ECO:0000255|HAMAP-Rule:MF_00219}; OrderedLocusNames=RSc0487;
+GN   ORFNames=RS05822;
+OS   Ralstonia solanacearum (strain GMI1000) (Pseudomonas solanacearum).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Ralstonia.
+OX   NCBI_TaxID=267608;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=GMI1000;
+RX   PubMed=11823852; DOI=10.1038/415497a;
+RA   Salanoubat M., Genin S., Artiguenave F., Gouzy J., Mangenot S., Arlat M.,
+RA   Billault A., Brottier P., Camus J.-C., Cattolico L., Chandler M.,
+RA   Choisne N., Claudel-Renard C., Cunnac S., Demange N., Gaspin C., Lavie M.,
+RA   Moisan A., Robert C., Saurin W., Schiex T., Siguier P., Thebault P.,
+RA   Whalen M., Wincker P., Levy M., Weissenbach J., Boucher C.A.;
+RT   "Genome sequence of the plant pathogen Ralstonia solanacearum.";
+RL   Nature 415:497-502(2002).
+CC   -!- FUNCTION: Catalyzes the reversible cyclization of carbamoyl aspartate
+CC       to dihydroorotate. {ECO:0000255|HAMAP-Rule:MF_00219}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-dihydroorotate + H2O = H(+) + N-carbamoyl-L-aspartate;
+CC         Xref=Rhea:RHEA:24296, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30864, ChEBI:CHEBI:32814; EC=3.5.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00219};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00219};
+CC       Note=Binds 2 Zn(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219};
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 3/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00219}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       DHOase family. Class II DHOase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00219}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL646052; CAD14015.1; -; Genomic_DNA.
+DR   RefSeq; WP_011000448.1; NC_003295.1.
+DR   SMR; Q8Y249; -.
+DR   STRING; 267608.RSc0487; -.
+DR   MEROPS; M38.A02; -.
+DR   EnsemblBacteria; CAD14015; CAD14015; RSc0487.
+DR   GeneID; 60499995; -.
+DR   KEGG; rso:RSc0487; -.
+DR   eggNOG; COG0418; Bacteria.
+DR   HOGENOM; CLU_041558_1_0_4; -.
+DR   OMA; TLHHISM; -.
+DR   BioCyc; RSOL267608:RS_RS02420-MONOMER; -.
+DR   UniPathway; UPA00070; UER00117.
+DR   Proteomes; UP000001436; Chromosome.
+DR   GO; GO:0004151; F:dihydroorotase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019856; P:pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   CDD; cd01294; DHOase; 1.
+DR   HAMAP; MF_00219; PyrC_classII; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR004721; DHOdimr.
+DR   InterPro; IPR002195; Dihydroorotase_CS.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   PANTHER; PTHR43137; PTHR43137; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   PIRSF; PIRSF001237; DHOdimr; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR00856; pyrC_dimer; 1.
+DR   PROSITE; PS00482; DIHYDROOROTASE_1; 1.
+DR   PROSITE; PS00483; DIHYDROOROTASE_2; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Pyrimidine biosynthesis; Reference proteome;
+KW   Zinc.
+FT   CHAIN           1..344
+FT                   /note="Dihydroorotase"
+FT                   /id="PRO_0000147215"
+FT   REGION          16..18
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   ACT_SITE        248
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           14
+FT                   /note="Zinc 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           16
+FT                   /note="Zinc 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           100
+FT                   /note="Zinc 1; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           100
+FT                   /note="Zinc 2; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           137
+FT                   /note="Zinc 2; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           175
+FT                   /note="Zinc 2; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   METAL           248
+FT                   /note="Zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         42
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         137
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         220
+FT                   /note="Substrate; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         252
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   BINDING         264
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+FT   MOD_RES         100
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00219"
+SQ   SEQUENCE   344 AA;  37816 MW;  4BE7FD71912CF610 CRC64;
+     MIDTLTIVRP DDWHLHLRDG DALADVVGDT ARQFGRAIIM PNLKPPVTTT AQARAYRERI
+     LAALPAGTRF EPLMTLYLTD NTTPEEVRAA RASGFVHGVK LYPAGATTNS DAGVTDLRRC
+     AKTLEAMQDV GMPLLVHGEV TDPTVDIFDR EAVFIDTVMQ PLRRDFPALK VVFEHITTKH
+     AAEYVRDAQG PVGATITAHH LLYNRNALFV GGIRPHYYCL PVLKRETHRL ALVAAATSGH
+     PRFFLGTDSA PHAKGLKEHA CGCAGCYTAL HAMELYAEAF EDANALDKLE GFASLHGPDF
+     YGLPRNAGTL TLTRSQWQLP AEVPFGEQML VPLRGGEMLR WKTV
+//

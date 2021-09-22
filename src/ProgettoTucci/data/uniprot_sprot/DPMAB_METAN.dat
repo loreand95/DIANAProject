@@ -1,0 +1,99 @@
+ID   DPMAB_METAN             Reviewed;         243 AA.
+AC   P9WEX7;
+DT   02-DEC-2020, integrated into UniProtKB/Swiss-Prot.
+DT   02-DEC-2020, sequence version 1.
+DT   10-FEB-2021, entry version 2.
+DE   RecName: Full=Terpene cyclase dpmaB {ECO:0000303|PubMed:32286350};
+DE            EC=4.2.3.- {ECO:0000305|PubMed:32286350};
+DE   AltName: Full=Diterpenoid pyrone biosynthesis cluster protein B {ECO:0000303|PubMed:32286350};
+GN   Name=dpmaB {ECO:0000303|PubMed:32286350}; ORFNames=MANI_006367;
+OS   Metarhizium anisopliae (Entomophthora anisopliae).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Hypocreomycetidae; Hypocreales; Clavicipitaceae; Metarhizium.
+OX   NCBI_TaxID=5530;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=25263348; DOI=10.1186/1471-2164-15-822;
+RA   Staats C.C., Junges A., Guedes R.L., Thompson C.E., de Morais G.L.,
+RA   Boldo J.T., de Almeida L.G., Andreis F.C., Gerber A.L., Sbaraini N.,
+RA   da Paixao R.L., Broetto L., Landell M., Santi L., Beys-da-Silva W.O.,
+RA   Silveira C.P., Serrano T.R., de Oliveira E.S., Kmetzsch L., Vainstein M.H.,
+RA   de Vasconcelos A.T., Schrank A.;
+RT   "Comparative genome analysis of entomopathogenic fungi reveals a complex
+RT   set of secreted proteins.";
+RL   BMC Genomics 15:822-822(2014).
+RN   [2]
+RP   FUNCTION, PATHWAY, AND BIOTECHNOLOGY.
+RX   PubMed=32286350; DOI=10.1038/s41467-020-15664-4;
+RA   Tsukada K., Shinki S., Kaneko A., Murakami K., Irie K., Murai M.,
+RA   Miyoshi H., Dan S., Kawaji K., Hayashi H., Kodama E.N., Hori A., Salim E.,
+RA   Kuraishi T., Hirata N., Kanda Y., Asai T.;
+RT   "Synthetic biology based construction of biological activity-related
+RT   library of fungal decalin-containing diterpenoid pyrones.";
+RL   Nat. Commun. 11:1830-1830(2020).
+CC   -!- FUNCTION: Terpene cyclase; part of the gene cluster that mediates the
+CC       biosynthesis of the diterpenoid pyrones subglutinols A and B
+CC       (PubMed:32286350). The first step of the pathway is the synthesis of
+CC       the alpha-pyrone moiety by the polyketide synthase dpmaA via
+CC       condensation of one acetyl-CoA starter unit with 3 malonyl-CoA units
+CC       and 2 methylations (Probable). The alpha-pyrone is then combined with
+CC       geranylgeranyl pyrophosphate (GGPP) formed by the GGPP synthase dpmaD
+CC       through the action of the prenyltransferase dpmaC to yield a linear
+CC       alpha-pyrone diterpenoid (Probable). Subsequent steps in the
+CC       diterpenoid pyrone biosynthetic pathway involve the decalin core
+CC       formation, which is initiated by the epoxidation of the C10-C11 olefin
+CC       by the FAD-dependent oxidoreductase dpmaE, and is followed by a
+CC       cyclization cascade catalyzed by the terpene cyclase dpmaB (Probable).
+CC       The dehydrogenase dpmaF is then involved in tetrahydrofuran (THF) ring
+CC       formation at the C5 unit to complete the formation of subglutinols A
+CC       and B (PubMed:32286350). {ECO:0000269|PubMed:32286350,
+CC       ECO:0000305|PubMed:32286350}.
+CC   -!- PATHWAY: Secondary metabolite biosynthesis; terpenoid biosynthesis.
+CC       {ECO:0000269|PubMed:32286350}.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000255}; Multi-pass membrane
+CC       protein {ECO:0000255}.
+CC   -!- BIOTECHNOLOGY: Diterpenoid pyrones display various biological
+CC       activities and subglutinol A shows insecticidal and anti-HIV
+CC       activities. {ECO:0000269|PubMed:32286350}.
+CC   -!- SIMILARITY: Belongs to the paxB family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; JNNZ01000128; KFG81920.1; -; Genomic_DNA.
+DR   UniPathway; UPA00213; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR039020; PaxB-like.
+DR   PANTHER; PTHR42038; PTHR42038; 1.
+PE   1: Evidence at protein level;
+KW   Lyase; Membrane; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..243
+FT                   /note="Terpene cyclase dpmaB"
+FT                   /id="PRO_0000451530"
+FT   TRANSMEM        11..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        51..71
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        141..161
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        169..189
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        207..227
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   243 AA;  27857 MW;  4D33DA3D952DC5BD CRC64;
+     MNAADISRAP PGYLEVAWIA DTCKLLMGLG WTTNYAGMIY KSLKDRTYGM ALMPLCCNFA
+     WELTYAVIYP FGSRQDKFTH YFGLMLNCGV MYTAVKNAER EWTHAPLVRR NLPFIFIICI
+     AAWTTAHLAL ALQIGPSHAQ AFSAYGCQLL LSVGALCQLL SRGSSRGASY FLWFCRFFGS
+     LVLIPQDVLR YRYWRQDHEY MGSPLYIWFV SIFLLLDGSY ALCLWYVRRF ESEQEEAKKA
+     KSI
+//

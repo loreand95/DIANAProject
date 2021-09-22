@@ -1,0 +1,102 @@
+ID   RUVC_GLOVI              Reviewed;         173 AA.
+AC   Q7NG73;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=Crossover junction endodeoxyribonuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE            EC=3.1.22.4 {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction nuclease RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+DE   AltName: Full=Holliday junction resolvase RuvC {ECO:0000255|HAMAP-Rule:MF_00034};
+GN   Name=ruvC {ECO:0000255|HAMAP-Rule:MF_00034}; OrderedLocusNames=gll3300;
+OS   Gloeobacter violaceus (strain ATCC 29082 / PCC 7421).
+OC   Bacteria; Cyanobacteria; Gloeobacteria; Gloeobacterales; Gloeobacteraceae;
+OC   Gloeobacter.
+OX   NCBI_TaxID=251221;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29082 / PCC 7421;
+RX   PubMed=14621292; DOI=10.1093/dnares/10.4.137;
+RA   Nakamura Y., Kaneko T., Sato S., Mimuro M., Miyashita H., Tsuchiya T.,
+RA   Sasamoto S., Watanabe A., Kawashima K., Kishida Y., Kiyokawa C., Kohara M.,
+RA   Matsumoto M., Matsuno A., Nakazaki N., Shimpo S., Takeuchi C., Yamada M.,
+RA   Tabata S.;
+RT   "Complete genome structure of Gloeobacter violaceus PCC 7421, a
+RT   cyanobacterium that lacks thylakoids.";
+RL   DNA Res. 10:137-145(2003).
+CC   -!- FUNCTION: Nuclease that resolves Holliday junction intermediates in
+CC       genetic recombination. Cleaves the cruciform structure in supercoiled
+CC       DNA by nicking to strands with the same polarity at sites symmetrically
+CC       opposed at the junction in the homologous arms and leaves a 5'-terminal
+CC       phosphate and a 3'-terminal hydroxyl group. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage at a junction such as a reciprocal
+CC         single-stranded crossover between two homologous DNA duplexes
+CC         (Holliday junction).; EC=3.1.22.4; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00034};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00034};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00034};
+CC   -!- SIMILARITY: Belongs to the RuvC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00034}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000045; BAC91241.1; -; Genomic_DNA.
+DR   RefSeq; NP_926246.1; NC_005125.1.
+DR   RefSeq; WP_011143290.1; NC_005125.1.
+DR   SMR; Q7NG73; -.
+DR   STRING; 251221.35213871; -.
+DR   EnsemblBacteria; BAC91241; BAC91241; BAC91241.
+DR   KEGG; gvi:gvip456; -.
+DR   PATRIC; fig|251221.4.peg.3332; -.
+DR   eggNOG; COG0817; Bacteria.
+DR   HOGENOM; CLU_091257_3_1_3; -.
+DR   InParanoid; Q7NG73; -.
+DR   OMA; AICHIWR; -.
+DR   OrthoDB; 1815080at2; -.
+DR   PhylomeDB; Q7NG73; -.
+DR   BioCyc; GVIO251221:G1G3K-3342-MONOMER; -.
+DR   Proteomes; UP000000557; Chromosome.
+DR   GO; GO:0008821; F:crossover junction endodeoxyribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006310; P:DNA recombination; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd16962; RuvC; 1.
+DR   Gene3D; 3.30.420.10; -; 1.
+DR   HAMAP; MF_00034; RuvC; 1.
+DR   InterPro; IPR012337; RNaseH-like_sf.
+DR   InterPro; IPR036397; RNaseH_sf.
+DR   InterPro; IPR020563; X-over_junc_endoDNase_Mg_BS.
+DR   InterPro; IPR002176; X-over_junc_endoDNase_RuvC.
+DR   PANTHER; PTHR30194; PTHR30194; 1.
+DR   Pfam; PF02075; RuvC; 1.
+DR   PRINTS; PR00696; RSOLVASERUVC.
+DR   SUPFAM; SSF53098; SSF53098; 1.
+DR   PROSITE; PS01321; RUVC; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA recombination; DNA repair; Hydrolase; Magnesium;
+KW   Metal-binding; Nuclease; Reference proteome.
+FT   CHAIN           1..173
+FT                   /note="Crossover junction endodeoxyribonuclease RuvC"
+FT                   /id="PRO_0000183100"
+FT   METAL           10
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   METAL           71
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   METAL           143
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+FT   METAL           146
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00034"
+SQ   SEQUENCE   173 AA;  18471 MW;  4D9D829FB4627B3B CRC64;
+     MCGMRILGLD PGVAILGYGV LDFFDSAPPV VCDYGIVQTS AKTAFEARLA AIYEDINSLF
+     SAHKPDLVAI EKLFFYKMGN TISVAQARGV VLLCAAQHGV PYVEFSPPQV KLALTGDGRA
+     DKRAIQEAVQ RELGLITMPK PDDAADALAI ALTGWFHHLP PAAREAVPAY SVG
+//

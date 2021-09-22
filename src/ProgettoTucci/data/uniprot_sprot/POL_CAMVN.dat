@@ -1,0 +1,110 @@
+ID   POL_CAMVN               Reviewed;         680 AA.
+AC   Q00962;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=Enzymatic polyprotein;
+DE   Includes:
+DE     RecName: Full=Aspartic protease;
+DE              EC=3.4.23.-;
+DE   Includes:
+DE     RecName: Full=Endonuclease;
+DE   Includes:
+DE     RecName: Full=Reverse transcriptase;
+DE              EC=2.7.7.49;
+GN   ORFNames=ORF V;
+OS   Cauliflower mosaic virus (strain NY8153) (CaMV).
+OC   Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+OC   Ortervirales; Caulimoviridae; Caulimovirus.
+OX   NCBI_TaxID=31557;
+OH   NCBI_TaxID=3702; Arabidopsis thaliana (Mouse-ear cress).
+OH   NCBI_TaxID=3705; Brassica.
+OH   NCBI_TaxID=3725; Raphanus.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=16653000; DOI=10.1104/pp.100.1.542;
+RA   Chenault K.D., Steffens D.L., Melcher U.K.;
+RT   "Nucleotide sequence of cauliflower mosaic virus isolate NY8153.";
+RL   Plant Physiol. 100:542-545(1992).
+CC   -!- FUNCTION: Encodes for at least two polypeptides: protease (PR) and
+CC       reverse transcriptase (RT). The protease processes the polyprotein in
+CC       cis. Reverse transcriptase is multifunctional enzyme that converts the
+CC       viral RNA genome into dsDNA in viral cytoplasmic capsids. This enzyme
+CC       displays a DNA polymerase activity that can copy either DNA or RNA
+CC       templates, and a ribonuclease H (RNase H) activity that cleaves the RNA
+CC       strand of RNA-DNA heteroduplexes in a partially processive 3'- to 5'-
+CC       endonucleasic mode. Neo-synthesized pregenomic RNA (pgRNA) are
+CC       encapsidated, and reverse-transcribed inside the nucleocapsid. Partial
+CC       (+)DNA is synthesized from the (-)DNA template and generates the
+CC       relaxed circular DNA (RC-DNA) genome. After budding and infection, the
+CC       RC-DNA migrates in the nucleus, and is converted into a plasmid-like
+CC       covalently closed circular DNA (cccDNA) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 2'-deoxyribonucleoside 5'-triphosphate + DNA(n) =
+CC         diphosphate + DNA(n+1); Xref=Rhea:RHEA:22508, Rhea:RHEA-COMP:11130,
+CC         Rhea:RHEA-COMP:11131, ChEBI:CHEBI:33019, ChEBI:CHEBI:61560,
+CC         ChEBI:CHEBI:83828; EC=2.7.7.49; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU00405};
+CC   -!- DOMAIN: The polymerase/reverse transcriptase (RT) and ribonuclease H
+CC       (RH) domains are structured in five subdomains: finger, palm, thumb,
+CC       connection and RNase H. Within the palm subdomain, the 'primer grip'
+CC       region is thought to be involved in the positioning of the primer
+CC       terminus for accommodating the incoming nucleotide. The RH domain
+CC       stabilizes the association of RT with primer-template (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the caulimoviridae enzymatic polyprotein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M90541; AAA46358.1; -; Genomic_DNA.
+DR   SMR; Q00962; -.
+DR   MEROPS; A03.001; -.
+DR   Proteomes; UP000008441; Genome.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003964; F:RNA-directed DNA polymerase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.70.10; -; 1.
+DR   Gene3D; 3.30.70.270; -; 2.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR000588; Pept_A3A.
+DR   InterPro; IPR021109; Peptidase_aspartic_dom_sf.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR000477; RT_dom.
+DR   InterPro; IPR041373; RT_RNaseH.
+DR   Pfam; PF02160; Peptidase_A3; 1.
+DR   Pfam; PF17917; RT_RNaseH; 1.
+DR   Pfam; PF00078; RVT_1; 1.
+DR   PRINTS; PR00731; CAULIMOPTASE.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50878; RT_POL; 1.
+PE   3: Inferred from homology;
+KW   Aspartyl protease; Endonuclease; Hydrolase; Nuclease;
+KW   Nucleotidyltransferase; Protease; Reference proteome;
+KW   RNA-directed DNA polymerase; Transferase.
+FT   CHAIN           1..680
+FT                   /note="Enzymatic polyprotein"
+FT                   /id="PRO_0000222053"
+FT   DOMAIN          273..453
+FT                   /note="Reverse transcriptase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00405"
+FT   REGION          41..131
+FT                   /note="Protease"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        46
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   680 AA;  78665 MW;  FCE02E09647C2221 CRC64;
+     MMNHLLLKTQ TQTEQVMNVT NPNSIYIKGR LYFKGYKKIE LHCFVDTGAS LCIASKFVIP
+     EEHWVNAERP IMVKIADGSS ITISKVCKDI DLIIVGVIFK IPTVYQQESG IDFIIGNNFC
+     QLYEPFIQFT DRVIFTKNKS YPVHIAKLTR AVRVGTEGFL ESMKKRSKTQ QPEPVNISTN
+     KIENPLEEIA ILSEGRRLSE EKLFITQQRM QKTEELLEKV CSENPLDPNK TKQWMKASIK
+     LSDPSKAIKV KPMKYSPMDR EEFDKQIKEL LDLKVIKPSK SPHMAPAFLV NNEAENGRGN
+     KRMVVNYKAM NKATVGDAYN LPNKDELLTL IRGKKIFSSF DCKSGFWQVL LDQESRPLTA
+     FTCPQGHYEW NVVPFGLKQA PSIFQRHMDE AFRVFRKFCC VYVDDIVVFS NNEEDHLLHV
+     AMILQKCNQH GIILSKKKAQ LFKKKINFLG LEIDEGTHKP QGHILEHINK FPDTLEDKKQ
+     LQRFLGILTY ASDYIPNLAQ MRQPLQAKLK ENVPWKWTKE DTLYMQKVKK NLQGFPPLHH
+     PLPEEKLIIE TDASDDYWGG MLKAIKINEG TNTELICRYR SGSFKAAERN YHSNDKETLA
+     VINTIKKFSI YLTPVHFLIR TDNTHFKSFV NLNYKGDSKL GRNIRWQAWL SHYSFDVEHI
+     KGTDNHFADF LSREFNKVNS
+//

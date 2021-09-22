@@ -1,0 +1,74 @@
+ID   RLR11_PLAHL             Reviewed;         160 AA.
+AC   A0A0P1ATM7;
+DT   16-OCT-2019, integrated into UniProtKB/Swiss-Prot.
+DT   20-JAN-2016, sequence version 1.
+DT   17-JUN-2020, entry version 15.
+DE   RecName: Full=Secreted RxLR effector protein RXLR-C11 {ECO:0000303|PubMed:30422341};
+DE   Flags: Precursor;
+GN   Name=RXLR-C11 {ECO:0000303|PubMed:30422341};
+OS   Plasmopara halstedii (Downy mildew of sunflower).
+OC   Eukaryota; Sar; Stramenopiles; Oomycota; Peronosporales; Peronosporaceae;
+OC   Plasmopara.
+OX   NCBI_TaxID=4781;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=26438312; DOI=10.1186/s12864-015-1904-7;
+RA   Sharma R., Xia X., Cano L.M., Evangelisti E., Kemen E., Judelson H.,
+RA   Oome S., Sambles C., van den Hoogen D.J., Kitner M., Klein J., Meijer H.J.,
+RA   Spring O., Win J., Zipper R., Bode H.B., Govers F., Kamoun S.,
+RA   Schornack S., Studholme D.J., Van den Ackerveken G., Thines M.;
+RT   "Genome analyses of the sunflower pathogen Plasmopara halstedii provide
+RT   insights into effector evolution in downy mildews and Phytophthora.";
+RL   BMC Genomics 16:741-741(2015).
+RN   [2]
+RP   DOMAIN, INDUCTION, FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=30422341; DOI=10.1111/tpj.14157;
+RA   Pecrix Y., Buendia L., Penouilh-Suzette C., Marechaux M., Legrand L.,
+RA   Bouchez O., Rengel D., Gouzy J., Cottret L., Vear F., Godiard L.;
+RT   "Sunflower resistance to multiple downy mildew pathotypes revealed by
+RT   recognition of conserved effectors of the oomycete Plasmopara halstedii.";
+RL   Plant J. 97:730-748(2019).
+CC   -!- FUNCTION: Secreted effector that suppresses pattern-triggered immunity
+CC       (PTI) in plant host. {ECO:0000269|PubMed:30422341}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:30422341}. Host cell
+CC       membrane {ECO:0000269|PubMed:30422341}. Host nucleus
+CC       {ECO:0000269|PubMed:30422341}.
+CC   -!- INDUCTION: Expression is up-regulated in spores.
+CC       {ECO:0000269|PubMed:30422341}.
+CC   -!- DOMAIN: The RxLR-dEER motif acts to carry the protein into the host
+CC       cell cytoplasm through binding to cell surface phosphatidylinositol-3-
+CC       phosphate. {ECO:0000305|PubMed:30422341}.
+CC   -!- SIMILARITY: Belongs to the RxLR effector family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CCYD01001204; CEG44407.1; -; Genomic_DNA.
+DR   EnsemblProtists; CEG44407; CEG44407; CEG44407.
+DR   Proteomes; UP000054928; Unassembled WGS sequence.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR031825; RXLR.
+DR   Pfam; PF16810; RXLR; 1.
+PE   2: Evidence at transcript level;
+KW   Host cell membrane; Host membrane; Host nucleus; Membrane;
+KW   Reference proteome; Secreted; Signal; Virulence.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           20..160
+FT                   /note="Secreted RxLR effector protein RXLR-C11"
+FT                   /id="PRO_5006058918"
+FT   MOTIF           58..75
+FT                   /note="RxLR-dEER"
+FT                   /evidence="ECO:0000305|PubMed:30422341"
+FT   COMPBIAS        80..157
+FT                   /note="Lys-rich"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00012"
+SQ   SEQUENCE   160 AA;  18187 MW;  6CDE4D11EB457528 CRC64;
+     MHFSLVLLVF AAIVIPICAD TSTTKDYDDK KSLQTSNFGT AAVANMLHVL QSSDNSKRLL
+     RMNDKAVISD HEEERSSLVK NKQKKLSYRI KKGWENVKKP FKKSAKIIEK PLKKGSKIII
+     EPFKKVSKII KKFAIKGAKI VKKPFKKSAR IIKKSFKNLN
+//

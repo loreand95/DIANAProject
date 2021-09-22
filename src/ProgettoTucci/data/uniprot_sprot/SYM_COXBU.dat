@@ -1,0 +1,126 @@
+ID   SYM_COXBU               Reviewed;         546 AA.
+AC   Q83B24;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 108.
+DE   RecName: Full=Methionine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            EC=6.1.1.10 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE   AltName: Full=Methionyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            Short=MetRS {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   Name=metG {ECO:0000255|HAMAP-Rule:MF_00098}; OrderedLocusNames=CBU_1695;
+OS   Coxiella burnetii (strain RSA 493 / Nine Mile phase I).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae;
+OC   Coxiella.
+OX   NCBI_TaxID=227377;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RSA 493 / Nine Mile phase I;
+RX   PubMed=12704232; DOI=10.1073/pnas.0931379100;
+RA   Seshadri R., Paulsen I.T., Eisen J.A., Read T.D., Nelson K.E., Nelson W.C.,
+RA   Ward N.L., Tettelin H., Davidsen T.M., Beanan M.J., DeBoy R.T.,
+RA   Daugherty S.C., Brinkac L.M., Madupu R., Dodson R.J., Khouri H.M.,
+RA   Lee K.H., Carty H.A., Scanlan D., Heinzen R.A., Thompson H.A., Samuel J.E.,
+RA   Fraser C.M., Heidelberg J.F.;
+RT   "Complete genome sequence of the Q-fever pathogen, Coxiella burnetii.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:5455-5460(2003).
+CC   -!- FUNCTION: Is required not only for elongation of protein synthesis but
+CC       also for the initiation of all mRNA translation through initiator
+CC       tRNA(fMet) aminoacylation. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-methionine + tRNA(Met) = AMP + diphosphate + L-
+CC         methionyl-tRNA(Met); Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667,
+CC         Rhea:RHEA-COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:78442, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00098};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00098};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       MetG type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016828; AAO91190.1; -; Genomic_DNA.
+DR   RefSeq; NP_820676.1; NC_002971.3.
+DR   RefSeq; WP_010958377.1; NC_002971.4.
+DR   SMR; Q83B24; -.
+DR   STRING; 227377.CBU_1695; -.
+DR   EnsemblBacteria; AAO91190; AAO91190; CBU_1695.
+DR   GeneID; 1209606; -.
+DR   KEGG; cbu:CBU_1695; -.
+DR   PATRIC; fig|227377.7.peg.1682; -.
+DR   eggNOG; COG0143; Bacteria.
+DR   HOGENOM; CLU_009710_7_0_6; -.
+DR   OMA; SDMHGTP; -.
+DR   BioCyc; CBUR227377:G1G0B-1664-MONOMER; -.
+DR   Proteomes; UP000002671; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IBA:GO_Central.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IBA:GO_Central.
+DR   GO; GO:0006418; P:tRNA aminoacylation for protein translation; IBA:GO_Central.
+DR   CDD; cd07957; Anticodon_Ia_Met; 1.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   Gene3D; 2.20.28.20; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00098; Met_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR041872; Anticodon_Met.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR023458; Met-tRNA_ligase_1.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR029038; MetRS_Zn.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF57770; SSF57770; 1.
+DR   TIGRFAMs; TIGR00398; metG; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..546
+FT                   /note="Methionine--tRNA ligase"
+FT                   /id="PRO_0000139128"
+FT   MOTIF           15..25
+FT                   /note="'HIGH' region"
+FT   MOTIF           332..336
+FT                   /note="'KMSKS' region"
+FT   METAL           146
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           149
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           159
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           162
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         335
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+SQ   SEQUENCE   546 AA;  62243 MW;  E091BCC19C54A40C CRC64;
+     MTTEKRQILV TAALPYANGP IHLGHMVEHI QADIWVRFQR LKGNDCLFIC GEDAHGTAIM
+     ITAQKQGLPP EALVAKMHKE HARDLGGFLI EYDNFYTTHS PENRELAELI YTRLKDKGDI
+     FAKTISQAYD PVKEIFLPDR FIRGTCPRCG AKDQYGDVCE VCGATYSPTE LIDPVSALSG
+     AKPIEKNSEH FFFSLNRYTQ LLKKWIDAGH LQPQVANKLK EWFSEDLKPW DISRDAPYFG
+     FEIPHAANKY FYVWLDAPIG YMASLKNLSK QRPSVNFDAY WKEGSQTELY HFVGKDIVYF
+     HALFWPAMLS GAGFRLPTTI YVHGYLTVNG QKMSKSRGTF ITAHHYLDHL SPEYLRYYYA
+     AKLSAQVEDI DLNLDDFIQR VNADLIGKYV NLASRCAGFI TKNFGGKLAN ELPEPDLYES
+     FLQTEQTITD YYESLNYSKA VRVIMSLADR ANQYIDAKKP WALAKEINQE AQVQAVCTQG
+     LNLFKILTTY LKPILPVTAK KVEQFLNCDE LNFANLKTPL LDHSVNPFEP LMQRLLPETA
+     AQLTHE
+//

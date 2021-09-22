@@ -1,0 +1,150 @@
+ID   LTAS_STAAS              Reviewed;         646 AA.
+AC   Q6GBB1;
+DT   02-OCT-2007, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 98.
+DE   RecName: Full=Lipoteichoic acid synthase;
+DE   Contains:
+DE     RecName: Full=Glycerol phosphate lipoteichoic acid synthase;
+DE              Short=LTA synthase;
+DE              EC=2.7.8.-;
+DE     AltName: Full=Polyglycerol phosphate synthase;
+DE   Contains:
+DE     RecName: Full=Processed glycerol phosphate lipoteichoic acid synthase;
+GN   Name=ltaS; OrderedLocusNames=SAS0684;
+OS   Staphylococcus aureus (strain MSSA476).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=282459;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MSSA476;
+RX   PubMed=15213324; DOI=10.1073/pnas.0402521101;
+RA   Holden M.T.G., Feil E.J., Lindsay J.A., Peacock S.J., Day N.P.J.,
+RA   Enright M.C., Foster T.J., Moore C.E., Hurst L., Atkin R., Barron A.,
+RA   Bason N., Bentley S.D., Chillingworth C., Chillingworth T., Churcher C.,
+RA   Clark L., Corton C., Cronin A., Doggett J., Dowd L., Feltwell T., Hance Z.,
+RA   Harris B., Hauser H., Holroyd S., Jagels K., James K.D., Lennard N.,
+RA   Line A., Mayes R., Moule S., Mungall K., Ormond D., Quail M.A.,
+RA   Rabbinowitsch E., Rutherford K.M., Sanders M., Sharp S., Simmonds M.,
+RA   Stevens K., Whitehead S., Barrell B.G., Spratt B.G., Parkhill J.;
+RT   "Complete genomes of two clinical Staphylococcus aureus strains: evidence
+RT   for the rapid evolution of virulence and drug resistance.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9786-9791(2004).
+CC   -!- FUNCTION: Catalyzes the polymerization of lipoteichoic acid (LTA)
+CC       polyglycerol phosphate, a reaction that presumably uses
+CC       phosphatidylglycerol (PG) as substrate. Is required for staphylococcal
+CC       growth and cell division process (By similarity). {ECO:0000250}.
+CC   -!- PATHWAY: Cell wall biogenesis; lipoteichoic acid biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SUBCELLULAR LOCATION: [Processed glycerol phosphate lipoteichoic acid
+CC       synthase]: Secreted {ECO:0000250}.
+CC   -!- PTM: Proteolytically cleaved. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the LTA synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571857; CAG42460.1; -; Genomic_DNA.
+DR   RefSeq; WP_000098285.1; NC_002953.3.
+DR   SMR; Q6GBB1; -.
+DR   GeneID; 59699355; -.
+DR   KEGG; sas:SAS0684; -.
+DR   HOGENOM; CLU_021310_0_0_9; -.
+DR   OMA; TNHYPYD; -.
+DR   BioCyc; SAUR282459:G1G3P-759-MONOMER; -.
+DR   UniPathway; UPA00556; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008484; F:sulfuric ester hydrolase activity; IEA:InterPro.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0070395; P:lipoteichoic acid biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.720.10; -; 1.
+DR   InterPro; IPR017850; Alkaline_phosphatase_core_sf.
+DR   InterPro; IPR012160; LtaS-like.
+DR   InterPro; IPR000917; Sulfatase_N.
+DR   Pfam; PF00884; Sulfatase; 1.
+DR   PIRSF; PIRSF005091; Mmb_sulf_HI1246; 1.
+DR   SUPFAM; SSF53649; SSF53649; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Cell wall biogenesis/degradation; Manganese; Membrane;
+KW   Metal-binding; Secreted; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..217
+FT                   /note="Glycerol phosphate lipoteichoic acid synthase"
+FT                   /id="PRO_0000305356"
+FT   CHAIN           218..646
+FT                   /note="Processed glycerol phosphate lipoteichoic acid
+FT                   synthase"
+FT                   /id="PRO_0000305357"
+FT   TOPO_DOM        1..7
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        8..28
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        29..43
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        44..64
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        65..68
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        69..89
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        90..119
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        120..140
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        141..153
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        154..174
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        175..646
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        61..100
+FT                   /note="Phe-rich"
+FT   ACT_SITE        300
+FT                   /evidence="ECO:0000250"
+FT   METAL           255
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   METAL           300
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   METAL           475
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   METAL           476
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         416
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            217..218
+FT                   /note="Cleavage"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   646 AA;  74400 MW;  788FE36EB4528BB0 CRC64;
+     MSSQKKKISL FAFFLLTVIT ITLKTYFSYY VDFSLGVKGL VQNLILLMNP YSLVALVLSV
+     FLFFKGKKAF WFMFIGGFLL TFLLYANVVY FRFFSDFLTF STLNQVGNVE SMGGAVSASF
+     KWYDFVYFID TLVYLFILIF KTKWLDTKAF SKKFVPVVMA ASVALFFLNL AFAETDRPEL
+     LTRTFDHKYL VKYLGPYNFT VYDGVKTIEN NQQKALASED DLTKVLNYTK QRQTEPNPEY
+     YGVAKKKNII KIHLESFQTF LINKKVNGKE VTPFLNKLSS GKEQFTYFPN FFHQTGQGKT
+     SDSEFTMDNS LYGLPQGSAF SLKGDNTYQS LPAILDQKQG YKSDVMHGDY KTFWNRDQVY
+     KHFGIDKFYD ATYYDMSDKN VVNLGLKDKI FFKDSANYQA KMKSPFYSHL ITLTNHYPFT
+     LDEKDATIEK SNTGDATVDG YIQTARYLDE ALEEYINDLK KKGLYDNSVI MIYGDHYGIS
+     ENHNNAMEKL LGEKITPAKF TDLNRTGFWI KIPGKSGGIN NEYAGQVDVM PTILHLAGID
+     TKNYLMFGTD LFSKGHNQVV PFRNGDFITK DYKYVNGKIY SNKNNELITT QPADFEKNKK
+     QVEKDLEMSD NVLNGDLFRF YKNPDFKKVN PSKYKYETGP KANSKK
+//

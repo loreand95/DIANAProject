@@ -1,0 +1,193 @@
+ID   PLTF_PSEF5              Reviewed;         498 AA.
+AC   Q4KCY5;
+DT   11-DEC-2019, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 91.
+DE   RecName: Full=L-proline--[L-prolyl-carrier protein] ligase {ECO:0000305};
+DE            EC=6.2.1.53 {ECO:0000269|PubMed:11880032};
+DE   AltName: Full=L-prolyl-AMP ligase {ECO:0000303|PubMed:11880032};
+GN   Name=pltF {ECO:0000312|EMBL:AAY92064.1};
+GN   OrderedLocusNames=PFL_2792 {ECO:0000312|EMBL:AAY92064.1};
+OS   Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=220664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-477 / NRRL B-23932 / Pf-5;
+RX   PubMed=15980861; DOI=10.1038/nbt1110;
+RA   Paulsen I.T., Press C.M., Ravel J., Kobayashi D.Y., Myers G.S.A.,
+RA   Mavrodi D.V., DeBoy R.T., Seshadri R., Ren Q., Madupu R., Dodson R.J.,
+RA   Durkin A.S., Brinkac L.M., Daugherty S.C., Sullivan S.A., Rosovitz M.J.,
+RA   Gwinn M.L., Zhou L., Schneider D.J., Cartinhour S.W., Nelson W.C.,
+RA   Weidman J., Watkins K., Tran K., Khouri H., Pierson E.A., Pierson L.S. III,
+RA   Thomashow L.S., Loper J.E.;
+RT   "Complete genome sequence of the plant commensal Pseudomonas fluorescens
+RT   Pf-5.";
+RL   Nat. Biotechnol. 23:873-878(2005).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RC   STRAIN=ATCC BAA-477 / NRRL B-23932 / Pf-5;
+RX   PubMed=11880032; DOI=10.1016/s1074-5521(02)00100-x;
+RA   Thomas M.G., Burkart M.D., Walsh C.T.;
+RT   "Conversion of L-proline to pyrrolyl-2-carboxyl-S-PCP during
+RT   undecylprodigiosin and pyoluteorin biosynthesis.";
+RL   Chem. Biol. 9:171-184(2002).
+CC   -!- FUNCTION: Involved in the biosynthesis of pyoluteorin. Catalyzes the
+CC       conversion of L-proline to L-prolyl-AMP and the transfer of the L-
+CC       prolyl group to acyl carrier protein PltL.
+CC       {ECO:0000269|PubMed:11880032}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + holo-[peptidyl-carrier protein] + L-proline = AMP +
+CC         diphosphate + L-prolyl-[peptidyl-carrier protein];
+CC         Xref=Rhea:RHEA:11656, Rhea:RHEA-COMP:11480, Rhea:RHEA-COMP:14109,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:60039,
+CC         ChEBI:CHEBI:64479, ChEBI:CHEBI:138622, ChEBI:CHEBI:456215;
+CC         EC=6.2.1.53; Evidence={ECO:0000269|PubMed:11880032};
+CC   -!- SIMILARITY: Belongs to the ATP-dependent AMP-binding enzyme family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000076; AAY92064.1; -; Genomic_DNA.
+DR   RefSeq; WP_011061084.1; NC_004129.6.
+DR   PDB; 6O6E; X-ray; 2.14 A; B=1-498.
+DR   PDBsum; 6O6E; -.
+DR   SMR; Q4KCY5; -.
+DR   STRING; 220664.PFL_2792; -.
+DR   DNASU; 3478039; -.
+DR   EnsemblBacteria; AAY92064; AAY92064; PFL_2792.
+DR   KEGG; pfl:PFL_2792; -.
+DR   PATRIC; fig|220664.5.peg.2848; -.
+DR   eggNOG; COG1020; Bacteria.
+DR   HOGENOM; CLU_000022_2_12_6; -.
+DR   OMA; GRESLWH; -.
+DR   OrthoDB; 377638at2; -.
+DR   BioCyc; MetaCyc:MONOMER-20313; -.
+DR   BioCyc; PPRO220664:G1G4K-2863-MONOMER; -.
+DR   Proteomes; UP000008540; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; ISS:JCVI.
+DR   GO; GO:0016874; F:ligase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.12780; -; 1.
+DR   InterPro; IPR010071; AA_adenyl_domain.
+DR   InterPro; IPR025110; AMP-bd_C.
+DR   InterPro; IPR020459; AMP-binding.
+DR   InterPro; IPR020845; AMP-binding_CS.
+DR   InterPro; IPR000873; AMP-dep_Synth/Lig.
+DR   InterPro; IPR042099; AMP-dep_Synthh-like_sf.
+DR   Pfam; PF00501; AMP-binding; 1.
+DR   Pfam; PF13193; AMP-binding_C; 1.
+DR   PRINTS; PR00154; AMPBINDING.
+DR   TIGRFAMs; TIGR01733; AA-adenyl-dom; 1.
+DR   PROSITE; PS00455; AMP_BINDING; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antibiotic biosynthesis; ATP-binding; Ligase;
+KW   Nucleotide-binding.
+FT   CHAIN           1..498
+FT                   /note="L-proline--[L-prolyl-carrier protein] ligase"
+FT                   /id="PRO_0000448663"
+FT   HELIX           4..14
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          18..22
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          27..29
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           30..47
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          54..60
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           63..74
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          78..81
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           88..98
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          101..105
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           110..115
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   TURN            117..120
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          121..127
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           135..137
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          154..161
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          169..174
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           175..189
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          196..199
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           207..217
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          221..224
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           227..229
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           233..242
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          246..250
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           252..261
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   TURN            264..266
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          274..277
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           284..293
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   TURN            294..296
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          297..303
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   TURN            306..308
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          312..316
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          330..332
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          337..341
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          354..360
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          365..367
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          375..385
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          391..403
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          406..409
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           410..418
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          424..433
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           434..436
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          438..444
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           453..461
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           466..468
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          471..475
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   STRAND          485..487
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+FT   HELIX           489..498
+FT                   /evidence="ECO:0007744|PDB:6O6E"
+SQ   SEQUENCE   498 AA;  54537 MW;  0A219EED5E35FE84 CRC64;
+     MKLLHERMMH SLARYPRQTA VVDEQDALSY EALELRIREF VAMLCALGVG QGQRILLWAH
+     KSVDLVAVMQ AALRLGVVYV PVDPLSPVSR LEKIAGDSQA VLVLCTAARL EELAGSALAQ
+     VRSVVLDDPA SAGYWRNIDT GSSVVPTLAI QPDDLAYILY TSGSTGVPKG VALSHGNALA
+     FVDWACERYC FQPGERFANH APLHFDLSVL DIYCALNVGA TVCLVPESIA FSPRLLTDFI
+     RQHEISIWYS VPSVLMMMMQ DGDLLSDIQD TLRVLLFAGE PFPVKHLRDL RAAYADVRLA
+     NLFGPTETNV CTAFEVGAID PERVLPVPIG TAASGNQVWA QKPDGSRCAV GEEGELVVQG
+     PTVMLGYFAK PAQEGPYKTG DMVRQRPDGN YEYLGRRDDM LKVRGNRIER GEVEAALLAH
+     PQVSEAAVLV VGEGMNAQLW GVLVAHTRDA LSLIDLKRHC AQRLPRYMII DKVLCLDALP
+     RNANGKVDRF ALARQVEG
+//

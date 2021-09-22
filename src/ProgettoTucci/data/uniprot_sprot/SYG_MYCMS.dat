@@ -1,0 +1,112 @@
+ID   SYG_MYCMS               Reviewed;         456 AA.
+AC   Q6MTE4;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 97.
+DE   RecName: Full=Glycine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00253};
+DE            EC=6.1.1.14 {ECO:0000255|HAMAP-Rule:MF_00253};
+DE   AltName: Full=Glycyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00253};
+DE            Short=GlyRS {ECO:0000255|HAMAP-Rule:MF_00253};
+GN   Name=glyQS {ECO:0000255|HAMAP-Rule:MF_00253}; Synonyms=glyS;
+GN   OrderedLocusNames=MSC_0464;
+OS   Mycoplasma mycoides subsp. mycoides SC (strain PG1).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=272632;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PG1;
+RX   PubMed=14762060; DOI=10.1101/gr.1673304;
+RA   Westberg J., Persson A., Holmberg A., Goesmann A., Lundeberg J.,
+RA   Johansson K.-E., Pettersson B., Uhlen M.;
+RT   "The genome sequence of Mycoplasma mycoides subsp. mycoides SC type strain
+RT   PG1T, the causative agent of contagious bovine pleuropneumonia (CBPP).";
+RL   Genome Res. 14:221-227(2004).
+CC   -!- FUNCTION: Catalyzes the attachment of glycine to tRNA(Gly).
+CC       {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + glycine + tRNA(Gly) = AMP + diphosphate + glycyl-
+CC         tRNA(Gly); Xref=Rhea:RHEA:16013, Rhea:RHEA-COMP:9664, Rhea:RHEA-
+CC         COMP:9683, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57305,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78522, ChEBI:CHEBI:456215;
+CC         EC=6.1.1.14; Evidence={ECO:0000255|HAMAP-Rule:MF_00253};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX293980; CAE77092.1; -; Genomic_DNA.
+DR   RefSeq; NP_975450.1; NC_005364.2.
+DR   STRING; 272632.MSC_0464; -.
+DR   EnsemblBacteria; CAE77092; CAE77092; MSC_0464.
+DR   KEGG; mmy:MSC_0464; -.
+DR   PATRIC; fig|272632.4.peg.504; -.
+DR   eggNOG; COG0423; Bacteria.
+DR   HOGENOM; CLU_015515_2_0_14; -.
+DR   OMA; YDYGQNG; -.
+DR   BioCyc; MMYC272632:G1G3L-495-MONOMER; -.
+DR   Proteomes; UP000001016; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004820; F:glycine-tRNA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0046983; F:protein dimerization activity; ISS:UniProtKB.
+DR   GO; GO:0006426; P:glycyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00774; GlyRS-like_core; 1.
+DR   Gene3D; 3.40.50.800; -; 1.
+DR   HAMAP; MF_00253_B; Gly_tRNA_synth_B; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR036621; Anticodon-bd_dom_sf.
+DR   InterPro; IPR027031; Gly-tRNA_synthase/POLG2.
+DR   InterPro; IPR022961; Gly_tRNA_ligase_bac.
+DR   InterPro; IPR033731; GlyRS-like_core.
+DR   InterPro; IPR002315; tRNA-synt_gly.
+DR   PANTHER; PTHR10745; PTHR10745; 3.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PRINTS; PR01043; TRNASYNTHGLY.
+DR   TIGRFAMs; TIGR00389; glyS_dimeric; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..456
+FT                   /note="Glycine--tRNA ligase"
+FT                   /id="PRO_0000072965"
+FT   NP_BIND         200..202
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   NP_BIND         210..215
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   NP_BIND         285..286
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   NP_BIND         329..332
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   REGION          215..219
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   REGION          325..329
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+FT   BINDING         168
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00253"
+SQ   SEQUENCE   456 AA;  53420 MW;  5541348FC24963BC CRC64;
+     MSKSIEKMIS HLKNQGFVFQ GSEIYGGLAN SWDYGPLGCE VKNKLKKVWW DFFVKKNPLN
+     VGLDSSIILN SKVWKASGHI DGFNDPLIDC KNCKSRWRAD KLIEEFDSSI NTGIMTSAQL
+     EDYINQNNIL CKKCQKKDFT QIRQFALMFK TNQGVLEDDS SIVYLRPETA QGIFINFKNV
+     QRSMRKKLPF GIGQIGKSFR NEITPGNFIF RTREFEQMEL EFFFDPSDQK DWFKYWLDQI
+     ELFLTKKICL DKSNYKIREN LKDELSHYAL KTSDIEFNFP FGWGELWGIS HRSDFDLKVH
+     QNLSKEDLTV LKEENNQKVL ANVIEPSVGV ERLMLAIFWQ AYTEEQLEEN NSRTVLKLPY
+     NLAPYQVAIT PLSKQLNQNA HQLFLELLKD FDAVYDETGN IGKRYRRQDA IGTPFVITYD
+     FQTLEDQKVT IRYRDTMKQE RILISQLKDF LNSQFN
+//

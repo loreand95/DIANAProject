@@ -1,0 +1,102 @@
+ID   RS27A_PYRFU             Reviewed;          50 AA.
+AC   Q8U443;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=30S ribosomal protein S27ae {ECO:0000255|HAMAP-Rule:MF_00777};
+DE   AltName: Full=Small ribosomal subunit protein eS31;
+GN   Name=rps27ae {ECO:0000255|HAMAP-Rule:MF_00777}; OrderedLocusNames=PF0252;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P.
+RT   horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+RN   [2] {ECO:0007744|PDB:4V6U}
+RP   STRUCTURE BY ELECTRON MICROSCOPY (6.60 ANGSTROMS) IN THE 70S RIBOSOME, AND
+RP   SUBUNIT.
+RX   PubMed=23222135; DOI=10.1093/nar/gks1259;
+RA   Armache J.P., Anger A.M., Marquez V., Franckenberg S., Frohlich T.,
+RA   Villa E., Berninghausen O., Thomm M., Arnold G.J., Beckmann R.,
+RA   Wilson D.N.;
+RT   "Promiscuous behaviour of archaeal ribosomal proteins: implications for
+RT   eukaryotic ribosome evolution.";
+RL   Nucleic Acids Res. 41:1284-1293(2013).
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00777};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00777};
+CC   -!- SUBUNIT: Part of the 30S ribosomal subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00777, ECO:0000269|PubMed:23222135}.
+CC   -!- SIMILARITY: Belongs to the eukaryotic ribosomal protein eS31 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00777}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009950; AAL80376.1; -; Genomic_DNA.
+DR   RefSeq; WP_011011367.1; NZ_CP023154.1.
+DR   PDB; 4V4N; EM; 9.00 A; Y=1-50.
+DR   PDB; 4V6U; EM; 6.60 A; AY=1-50.
+DR   PDB; 5JB3; EM; 5.34 A; Y=1-50.
+DR   PDB; 5JBH; EM; 5.34 A; Y=1-50.
+DR   PDBsum; 4V4N; -.
+DR   PDBsum; 4V6U; -.
+DR   PDBsum; 5JB3; -.
+DR   PDBsum; 5JBH; -.
+DR   SMR; Q8U443; -.
+DR   STRING; 186497.PF0252; -.
+DR   EnsemblBacteria; AAL80376; AAL80376; PF0252.
+DR   GeneID; 41712042; -.
+DR   KEGG; pfu:PF0252; -.
+DR   PATRIC; fig|186497.12.peg.264; -.
+DR   eggNOG; arCOG04183; Archaea.
+DR   HOGENOM; CLU_179743_2_0_2; -.
+DR   OMA; GVFMAEH; -.
+DR   OrthoDB; 123606at2157; -.
+DR   BioCyc; PFUR186497:G1FZR-260-MONOMER; -.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.20.25.660; -; 1.
+DR   HAMAP; MF_00777; Ribosomal_S27ae; 1.
+DR   InterPro; IPR002906; Ribosomal_S27a.
+DR   InterPro; IPR022845; Ribosomal_S27ae.
+DR   InterPro; IPR011332; Ribosomal_zn-bd.
+DR   InterPro; IPR038582; S27a-like_sf.
+DR   Pfam; PF01599; Ribosomal_S27; 1.
+DR   SMART; SM01402; Ribosomal_S27; 1.
+DR   SUPFAM; SSF57829; SSF57829; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Metal-binding; Reference proteome; Ribonucleoprotein;
+KW   Ribosomal protein; Zinc; Zinc-finger.
+FT   CHAIN           1..50
+FT                   /note="30S ribosomal protein S27ae"
+FT                   /id="PRO_0000137703"
+FT   ZN_FING         22..43
+FT                   /note="C4-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00777"
+FT   METAL           22
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00777"
+FT   METAL           25
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00777"
+FT   METAL           40
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00777"
+FT   METAL           43
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00777"
+SQ   SEQUENCE   50 AA;  5852 MW;  513E18CF66A790F4 CRC64;
+     MGQKWKLYEI KDGKVIRKNK FCPRCGPGVF MADHGDRWAC GKCGYTEWKK
+//

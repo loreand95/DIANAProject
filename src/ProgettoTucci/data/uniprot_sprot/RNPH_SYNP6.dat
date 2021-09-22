@@ -1,0 +1,93 @@
+ID   RNPH_SYNP6              Reviewed;         238 AA.
+AC   Q5N4V3;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-2005, sequence version 1.
+DT   02-DEC-2020, entry version 77.
+DE   RecName: Full=Ribonuclease PH {ECO:0000255|HAMAP-Rule:MF_00564};
+DE            Short=RNase PH {ECO:0000255|HAMAP-Rule:MF_00564};
+DE            EC=2.7.7.56 {ECO:0000255|HAMAP-Rule:MF_00564};
+DE   AltName: Full=tRNA nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_00564};
+GN   Name=rph {ECO:0000255|HAMAP-Rule:MF_00564}; OrderedLocusNames=syc0476_c;
+OS   Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) (Anacystis
+OS   nidulans).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus.
+OX   NCBI_TaxID=269084;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27144 / PCC 6301 / SAUG 1402/1;
+RX   PubMed=17211581; DOI=10.1007/s11120-006-9122-4;
+RA   Sugita C., Ogata K., Shikata M., Jikuya H., Takano J., Furumichi M.,
+RA   Kanehisa M., Omata T., Sugiura M., Sugita M.;
+RT   "Complete nucleotide sequence of the freshwater unicellular cyanobacterium
+RT   Synechococcus elongatus PCC 6301 chromosome: gene content and
+RT   organization.";
+RL   Photosyn. Res. 93:55-67(2007).
+CC   -!- FUNCTION: Phosphorolytic 3'-5' exoribonuclease that plays an important
+CC       role in tRNA 3'-end maturation. Removes nucleotide residues following
+CC       the 3'-CCA terminus of tRNAs; can also add nucleotides to the ends of
+CC       RNA molecules by using nucleoside diphosphates as substrates, but this
+CC       may not be physiologically important. Probably plays a role in
+CC       initiation of 16S rRNA degradation (leading to ribosome degradation)
+CC       during starvation. {ECO:0000255|HAMAP-Rule:MF_00564}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + tRNA(n+1) = a ribonucleoside 5'-diphosphate +
+CC         tRNA(n); Xref=Rhea:RHEA:10628, Rhea:RHEA-COMP:11132, Rhea:RHEA-
+CC         COMP:11133, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:83401;
+CC         EC=2.7.7.56; Evidence={ECO:0000255|HAMAP-Rule:MF_00564};
+CC   -!- SUBUNIT: Homohexameric ring arranged as a trimer of dimers.
+CC       {ECO:0000255|HAMAP-Rule:MF_00564}.
+CC   -!- SIMILARITY: Belongs to the RNase PH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00564}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP008231; BAD78666.1; -; Genomic_DNA.
+DR   RefSeq; WP_011242788.1; NC_006576.1.
+DR   SMR; Q5N4V3; -.
+DR   STRING; 269084.syc0476_c; -.
+DR   EnsemblBacteria; BAD78666; BAD78666; syc0476_c.
+DR   KEGG; syc:syc0476_c; -.
+DR   eggNOG; COG0689; Bacteria.
+DR   OMA; KGKGQGW; -.
+DR   BioCyc; SELO269084:G1G2F-501-MONOMER; -.
+DR   Proteomes; UP000001175; Chromosome.
+DR   GO; GO:0000175; F:3'-5'-exoribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009022; F:tRNA nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016075; P:rRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.230.70; -; 1.
+DR   HAMAP; MF_00564; RNase_PH; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR002381; RNase_PH_bac-type.
+DR   InterPro; IPR018336; RNase_PH_CS.
+DR   Pfam; PF01138; RNase_PH; 1.
+DR   Pfam; PF03725; RNase_PH_C; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55666; SSF55666; 1.
+DR   TIGRFAMs; TIGR01966; RNasePH; 1.
+DR   PROSITE; PS01277; RIBONUCLEASE_PH; 1.
+PE   3: Inferred from homology;
+KW   Nucleotidyltransferase; RNA-binding; rRNA processing; Transferase;
+KW   tRNA processing; tRNA-binding.
+FT   CHAIN           1..238
+FT                   /note="Ribonuclease PH"
+FT                   /id="PRO_0000139942"
+FT   REGION          125..127
+FT                   /note="Phosphate (substrate) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00564"
+FT   BINDING         87
+FT                   /note="Phosphate (substrate) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00564"
+SQ   SEQUENCE   238 AA;  26054 MW;  11B52A91DAE8F05F CRC64;
+     MAWIRPDGRR PDQLRAIAFQ RRFTQFPAGS VLAQFGQTQV LCTVTIQAGV PRWLTGQGQG
+     WLTAEYRMLP GATPDRQSRE WLKLSGRTQE IQRLIGRSLR AAIDLKKLGE RTLLIDADVL
+     QADAGTRTTA INGSWVALQD AIAQLIAQGE LTESPIQRSI AAVSVALIGG EAFLDPDYPE
+     DVQADVDCNV VMGDRGELIE IQGTAEANPF SRTQLNHILD LAEQGIAQIQ AAQLEALR
+//

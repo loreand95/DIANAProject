@@ -1,0 +1,108 @@
+ID   METAA_EUBE2             Reviewed;         310 AA.
+AC   C4Z0T6;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   10-FEB-2021, entry version 65.
+DE   RecName: Full=Homoserine O-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_00295};
+DE            Short=HAT {ECO:0000255|HAMAP-Rule:MF_00295};
+DE            EC=2.3.1.31 {ECO:0000255|HAMAP-Rule:MF_00295};
+DE   AltName: Full=Homoserine transacetylase {ECO:0000255|HAMAP-Rule:MF_00295};
+DE            Short=HTA {ECO:0000255|HAMAP-Rule:MF_00295};
+GN   Name=metAA {ECO:0000255|HAMAP-Rule:MF_00295};
+GN   OrderedLocusNames=EUBELI_01200;
+OS   Eubacterium eligens (strain ATCC 27750 / VPI C15-48).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae;
+OC   Lachnospira.
+OX   NCBI_TaxID=515620;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27750 / VPI C15-48;
+RX   PubMed=19321416; DOI=10.1073/pnas.0901529106;
+RA   Mahowald M.A., Rey F.E., Seedorf H., Turnbaugh P.J., Fulton R.S.,
+RA   Wollam A., Shah N., Wang C., Magrini V., Wilson R.K., Cantarel B.L.,
+RA   Coutinho P.M., Henrissat B., Crock L.W., Russell A., Verberkmoes N.C.,
+RA   Hettich R.L., Gordon J.I.;
+RT   "Characterizing a model human gut microbiota composed of members of its two
+RT   dominant bacterial phyla.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:5859-5864(2009).
+CC   -!- FUNCTION: Transfers an acetyl group from acetyl-CoA to L-homoserine,
+CC       forming acetyl-L-homoserine. {ECO:0000255|HAMAP-Rule:MF_00295}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-homoserine = CoA + O-acetyl-L-homoserine;
+CC         Xref=Rhea:RHEA:13701, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57476, ChEBI:CHEBI:57716; EC=2.3.1.31;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00295};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; O-acetyl-L-homoserine from L-homoserine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00295}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00295}.
+CC   -!- SIMILARITY: Belongs to the MetA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00295}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001104; ACR72199.1; -; Genomic_DNA.
+DR   RefSeq; WP_012739434.1; NC_012778.1.
+DR   SMR; C4Z0T6; -.
+DR   STRING; 515620.EUBELI_01200; -.
+DR   EnsemblBacteria; ACR72199; ACR72199; EUBELI_01200.
+DR   KEGG; eel:EUBELI_01200; -.
+DR   eggNOG; COG1897; Bacteria.
+DR   HOGENOM; CLU_057851_0_1_9; -.
+DR   OMA; CWAAHAA; -.
+DR   OrthoDB; 1601420at2; -.
+DR   UniPathway; UPA00051; UER00074.
+DR   Proteomes; UP000001476; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004414; F:homoserine O-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008899; F:homoserine O-succinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019281; P:L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine; IEA:InterPro.
+DR   CDD; cd03131; GATase1_HTS; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00295; MetA_acyltransf; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR005697; HST_MetA.
+DR   InterPro; IPR033752; MetA_family.
+DR   PANTHER; PTHR20919; PTHR20919; 1.
+DR   Pfam; PF04204; HTS; 1.
+DR   PIRSF; PIRSF000450; H_ser_succinyltr; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01001; metA; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Cytoplasm;
+KW   Methionine biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..310
+FT                   /note="Homoserine O-acetyltransferase"
+FT                   /id="PRO_1000204921"
+FT   ACT_SITE        142
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   ACT_SITE        235
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   ACT_SITE        237
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         163
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         192
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         249
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   SITE            111
+FT                   /note="Important for acyl-CoA specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   SITE            192
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+SQ   SEQUENCE   310 AA;  36167 MW;  718673C3136391D6 CRC64;
+     MPIKIQSDLP AKAELEEENI FVMDENRAIS QNIRPLEIIV LNLMPIKQDT ELQLLRGLSN
+     TPLQIDVTFL QMSSHVSKNT SASHIKKFYQ TFEEIKNNNY DGMIITGAPV EKLDFEEVNY
+     WDELITVMEW SNKHVTSTIH ICWGAQAGLY YHYGIKKELL PKKLSGVYKH RVMNRKEPLV
+     RGFDDVFMAP HSRYTQASRQ QILDNPRLKV LADSDEAGIY IVLGDGGKEI FVMGHPEYDR
+     LTLDQEYKRD IDKGIEPDLP VNYYPDDDCN RKPLLSWRSH ANNLYTNWLN YYVYQITPYD
+     LNESYDNYCI
+//

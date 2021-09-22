@@ -1,0 +1,156 @@
+ID   TPSD2_PICAB             Reviewed;         867 AA.
+AC   Q675L5;
+DT   02-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-NOV-2005, sequence version 2.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Bifunctional isopimaradiene synthase, chloroplastic;
+DE   AltName: Full=Diterpene synthase;
+DE   AltName: Full=PaTPS-Iso;
+DE   Includes:
+DE     RecName: Full=Isopimara-7,15-diene synthase;
+DE              Short=Isopimaradiene synthase;
+DE              EC=4.2.3.44;
+DE   Includes:
+DE     RecName: Full=Copalyl diphosphate synthase;
+DE              EC=5.5.1.12;
+DE   Flags: Precursor;
+GN   Name=TPS-ISO;
+OS   Picea abies (Norway spruce) (Picea excelsa).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Pinopsida; Pinidae; Pinales; Pinaceae; Picea.
+OX   NCBI_TaxID=3329;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, GENE FAMILY, AND
+RP   NOMENCLATURE.
+RX   PubMed=15310829; DOI=10.1104/pp.104.042028;
+RA   Martin D.M., Faeldt J., Bohlmann J.;
+RT   "Functional characterization of nine Norway Spruce TPS genes and evolution
+RT   of gymnosperm terpene synthases of the TPS-d subfamily.";
+RL   Plant Physiol. 135:1908-1927(2004).
+RN   [2]
+RP   SEQUENCE REVISION.
+RA   Martin D.M., Keeling C., Bohlmann J.;
+RL   Submitted (OCT-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in defensive oleoresin formation in conifers in
+CC       response to insect attack or other injury (By similarity). Involved in
+CC       diterpene (C20) olefins biosynthesis. Bifunctional enzyme that
+CC       catalyzes two sequential cyclizations of geranylgeranyl diphosphate
+CC       (GGPP) to isopimara-7,15-diene. {ECO:0000250,
+CC       ECO:0000269|PubMed:15310829}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E,10E)-geranylgeranyl diphosphate = (+)-copalyl
+CC         diphosphate; Xref=Rhea:RHEA:24316, ChEBI:CHEBI:58635,
+CC         ChEBI:CHEBI:58756; EC=5.5.1.12;
+CC         Evidence={ECO:0000269|PubMed:15310829};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(+)-copalyl diphosphate = diphosphate + isopimara-7,15-diene;
+CC         Xref=Rhea:RHEA:26128, ChEBI:CHEBI:33019, ChEBI:CHEBI:52280,
+CC         ChEBI:CHEBI:58635; EC=4.2.3.44;
+CC         Evidence={ECO:0000269|PubMed:15310829};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:Q40577};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000250|UniProtKB:Q40577};
+CC   -!- PATHWAY: Terpene metabolism; oleoresin biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast {ECO:0000250}.
+CC   -!- DOMAIN: The Asp-Xaa-Asp-Asp (DXDD) motif is important for the catalytic
+CC       activity in the class II active site relevant for the cyclization of
+CC       GGPP. The Asp-Asp-Xaa-Xaa-Asp/Glu (DDXXD/E) motif is important for the
+CC       catalytic activity in the class I active site, presumably through
+CC       binding to Mg(2+). {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the terpene synthase family. Tpsd subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY473620; AAS47690.2; -; mRNA.
+DR   SMR; Q675L5; -.
+DR   KEGG; ag:AAS47690; -.
+DR   BioCyc; MetaCyc:MONOMER-12744; -.
+DR   BRENDA; 4.2.3.35; 4815.
+DR   BRENDA; 4.2.3.44; 4815.
+DR   UniPathway; UPA00924; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050559; F:copalyl diphosphate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0010333; F:terpene synthase activity; IEA:InterPro.
+DR   GO; GO:0008152; P:metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.600.10; -; 1.
+DR   Gene3D; 1.50.10.130; -; 1.
+DR   InterPro; IPR008949; Isoprenoid_synthase_dom_sf.
+DR   InterPro; IPR034741; Terpene_cyclase-like_1_C.
+DR   InterPro; IPR001906; Terpene_synth_N.
+DR   InterPro; IPR036965; Terpene_synth_N_sf.
+DR   InterPro; IPR005630; Terpene_synthase_metal-bd.
+DR   InterPro; IPR008930; Terpenoid_cyclase/PrenylTrfase.
+DR   Pfam; PF01397; Terpene_synth; 1.
+DR   Pfam; PF03936; Terpene_synth_C; 1.
+DR   SFLD; SFLDG01019; Terpene_Cyclase_Like_1_C_Termi; 1.
+DR   SUPFAM; SSF48239; SSF48239; 2.
+DR   SUPFAM; SSF48576; SSF48576; 1.
+PE   1: Evidence at protein level;
+KW   Chloroplast; Isomerase; Lyase; Magnesium; Metal-binding;
+KW   Multifunctional enzyme; Plastid; Transit peptide.
+FT   TRANSIT         1..68
+FT                   /note="Chloroplast"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           69..867
+FT                   /note="Bifunctional isopimaradiene synthase, chloroplastic"
+FT                   /id="PRO_0000348953"
+FT   MOTIF           400..403
+FT                   /note="DXDD motif"
+FT                   /evidence="ECO:0000305"
+FT   MOTIF           619..623
+FT                   /note="DDXXD motif"
+FT                   /evidence="ECO:0000305"
+FT   METAL           400
+FT                   /note="Magnesium 4"
+FT                   /evidence="ECO:0000250|UniProtKB:C7BKP9"
+FT   METAL           402
+FT                   /note="Magnesium 4"
+FT                   /evidence="ECO:0000250|UniProtKB:C7BKP9"
+FT   METAL           619
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           619
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           623
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           623
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           763
+FT                   /note="Magnesium 3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           767
+FT                   /note="Magnesium 3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   METAL           771
+FT                   /note="Magnesium 3"
+FT                   /evidence="ECO:0000250|UniProtKB:Q40577"
+FT   BINDING         267
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q38802"
+FT   BINDING         487
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q38802"
+SQ   SEQUENCE   867 AA;  99203 MW;  7E27A5BBCC6062D7 CRC64;
+     MALLSSSLSS QIPTGSHPLT HTQCIPHFST TINAGISAGK PRSFYLRWGK GSNKIIACVG
+     EGTTSLPYQS AEKTDSLSAP TLVKREFPPG FWKDHVIDSL TSSHKVSAAE EKRMETLISE
+     IKNIFRSMGY GETNPSAYDT AWVARIPAVD GSEHPEFPET LEWILQNQLK DGSWGEGFYF
+     LAYDRILATL ACIITLTLWR TGETQIRKGI EFFKTQAGKI EDEADSHRPS GFEIVFPAML
+     KEAKVLGLDL PYELPFIKQI IEKREAKLER LPTNILYALP TTLLYSLEGL QEIVDWEKII
+     KLQSKDGSFL TSPASTAAVF MRTGNKKCLE FLNFVLKKFG NHVPCHYPLD LFERLWAVDT
+     VERLGIDHHF KEEIKDALDY VYSHWDERGI GWARENPIPD IDDTAMGLRI LRLHGYNVSS
+     DVLKTFRDEN GEFFCFLGQT QRGVTDMLNV NRCSHVAFPG ETIMQEAKLC TERYLRNALE
+     DVGAFDKWAL KKNIRGEVEY ALKYPWHRSM PRLEARSYIE HYGPNDVWLG KTMYMMPYIS
+     NLKYLELAKL DFNHVQSLHQ KELRDLRRWW KSSGLSELKF TRERVTEIYF SAASFIFEPE
+     FATCRDVYTK ISIFTVILDD LYDAHGTLDN LELFSEGVKR WDLSLVDRMP QDMKICFTVL
+     YNTVNEIAVE GRKRQGRDVL GYIRNVLEIL LAAHTKEAEW SAARYVPSFD EYIENASVSI
+     SLGTLVLISV LFTGEILTDD VLSKIGRGSR FLQLMGLTGR LVNDTKTYEA ERGQGEVASA
+     VQCYMKEHPE ISEEEALKHV YTVMENALDE LNREFVNNRD VPDSCRRLVF ETARIMQLFY
+     MEGDGLTLSH EMEIKEHVKN CLFQPVA
+//

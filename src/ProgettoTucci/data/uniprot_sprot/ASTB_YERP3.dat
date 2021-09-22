@@ -1,0 +1,99 @@
+ID   ASTB_YERP3              Reviewed;         447 AA.
+AC   A7FIL3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 71.
+DE   RecName: Full=N-succinylarginine dihydrolase {ECO:0000255|HAMAP-Rule:MF_01172};
+DE            EC=3.5.3.23 {ECO:0000255|HAMAP-Rule:MF_01172};
+GN   Name=astB {ECO:0000255|HAMAP-Rule:MF_01172};
+GN   OrderedLocusNames=YpsIP31758_2118;
+OS   Yersinia pseudotuberculosis serotype O:1b (strain IP 31758).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=349747;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP 31758;
+RX   PubMed=17784789; DOI=10.1371/journal.pgen.0030142;
+RA   Eppinger M., Rosovitz M.J., Fricke W.F., Rasko D.A., Kokorina G.,
+RA   Fayolle C., Lindler L.E., Carniel E., Ravel J.;
+RT   "The complete genome sequence of Yersinia pseudotuberculosis IP31758, the
+RT   causative agent of Far East scarlet-like fever.";
+RL   PLoS Genet. 3:1508-1523(2007).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of N(2)-succinylarginine into N(2)-
+CC       succinylornithine, ammonia and CO(2). {ECO:0000255|HAMAP-
+CC       Rule:MF_01172}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + 2 H2O + N(2)-succinyl-L-arginine = CO2 + N(2)-
+CC         succinyl-L-ornithine + 2 NH4(+); Xref=Rhea:RHEA:19533,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:58241, ChEBI:CHEBI:58514; EC=3.5.3.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01172};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via AST
+CC       pathway; L-glutamate and succinate from L-arginine: step 2/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   -!- SIMILARITY: Belongs to the succinylarginine dihydrolase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01172}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000720; ABS46480.1; -; Genomic_DNA.
+DR   RefSeq; WP_012105170.1; NC_009708.1.
+DR   SMR; A7FIL3; -.
+DR   EnsemblBacteria; ABS46480; ABS46480; YpsIP31758_2118.
+DR   KEGG; ypi:YpsIP31758_2118; -.
+DR   HOGENOM; CLU_053835_0_0_6; -.
+DR   OMA; TLNDWVD; -.
+DR   UniPathway; UPA00185; UER00280.
+DR   Proteomes; UP000002412; Chromosome.
+DR   GO; GO:0009015; F:N-succinylarginine dihydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019544; P:arginine catabolic process to glutamate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019545; P:arginine catabolic process to succinate; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.75.10.20; -; 1.
+DR   HAMAP; MF_01172; AstB; 1.
+DR   InterPro; IPR037031; AstB_sf.
+DR   InterPro; IPR007079; SuccinylArg_d-Hdrlase_AstB.
+DR   Pfam; PF04996; AstB; 1.
+DR   TIGRFAMs; TIGR03241; arg_catab_astB; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; Hydrolase.
+FT   CHAIN           1..447
+FT                   /note="N-succinylarginine dihydrolase"
+FT                   /id="PRO_1000065743"
+FT   REGION          19..28
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   REGION          137..138
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        174
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        249
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   ACT_SITE        370
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         110
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         213
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         251
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+FT   BINDING         364
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01172"
+SQ   SEQUENCE   447 AA;  49170 MW;  FFF7F472282949D1 CRC64;
+     MAGYEVNFDG LVGLTHHYAG LSFGNEASTT HQNHTSNPRL AAKQGLLKMK ALADLGYKQG
+     VLPPQERPAI GVLRKLGFSG SDEQVLSDVA RNAPRLLSAV SSASSMWTAN AATVSPSADS
+     ADGRVHFTVA NLHNKFHRAI EAETTAVLLP AVFNNHRHFV HHNALPSVTL LGDEGAANHN
+     RLGGEYASPA IQMFVYGRQG MESGAVPGRY PARQTREASQ AVARLHQLDP KRTVFVQQNP
+     AVIDQGVFHN DVIAVSNRNV LFHHELAFLS STQVMDDIRC KMAGLEQQLV NIEVPEAEVS
+     VADAVSTYLF NSQLLHKANG KMLLVIPQES QDNPSVWRYL SELVSGDGPI DELRVFDLRE
+     SMRNGGGPAC LRLRVVLNDA ELQAVNSRVM LTPALFVTLN NWVDQHYRDH LQFKDLADPH
+     LLQEGRQALD ELTRILNLGP VYPFQRN
+//

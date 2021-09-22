@@ -1,0 +1,115 @@
+ID   COAD_BACC1              Reviewed;         163 AA.
+AC   Q732D8;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151}; OrderedLocusNames=BCE_3976;
+OS   Bacillus cereus (strain ATCC 10987 / NRS 248).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=222523;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10987 / NRS 248;
+RX   PubMed=14960714; DOI=10.1093/nar/gkh258;
+RA   Rasko D.A., Ravel J., Oekstad O.A., Helgason E., Cer R.Z., Jiang L.,
+RA   Shores K.A., Fouts D.E., Tourasse N.J., Angiuoli S.V., Kolonay J.F.,
+RA   Nelson W.C., Kolstoe A.-B., Fraser C.M., Read T.D.;
+RT   "The genome sequence of Bacillus cereus ATCC 10987 reveals metabolic
+RT   adaptations and a large plasmid related to Bacillus anthracis pXO1.";
+RL   Nucleic Acids Res. 32:977-988(2004).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-pantetheine 4'-phosphate + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00151};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017194; AAS42879.1; -; Genomic_DNA.
+DR   RefSeq; WP_000200598.1; NC_003909.8.
+DR   SMR; Q732D8; -.
+DR   EnsemblBacteria; AAS42879; AAS42879; BCE_3976.
+DR   GeneID; 51135581; -.
+DR   GeneID; 59155508; -.
+DR   KEGG; bca:BCE_3976; -.
+DR   HOGENOM; CLU_100149_0_1_9; -.
+DR   OMA; EFQMALM; -.
+DR   BioCyc; BCER222523:G1G0J-3937-MONOMER; -.
+DR   UniPathway; UPA00241; UER00355.
+DR   Proteomes; UP000002527; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02163; PPAT; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21342:SF1; PTHR21342:SF1; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   TIGRFAMs; TIGR01510; coaD_prev_kdtB; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..163
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_0000156162"
+FT   NP_BIND         10..11
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         89..91
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         124..130
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         10
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         18
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         42
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         74
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         99
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            18
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+SQ   SEQUENCE   163 AA;  18379 MW;  479F6E013651C120 CRC64;
+     MTSIAISSGS FDPITLGHLD IIKRGAKVFD EVYVVVLNNS SKKPFFSVEE RLDLIREATK
+     DIPNVKVDSH SGLLVEYAKM RNANAILRGL RAVSDFEYEM QITSMNRKLD ENIETFFIMT
+     NNQYSFLSSS IVKEVARYGG SVVDLVPPVV ERALKEKFQT PLK
+//

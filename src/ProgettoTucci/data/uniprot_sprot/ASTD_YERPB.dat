@@ -1,0 +1,90 @@
+ID   ASTD_YERPB              Reviewed;         505 AA.
+AC   B2K296;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=N-succinylglutamate 5-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01174};
+DE            EC=1.2.1.71 {ECO:0000255|HAMAP-Rule:MF_01174};
+DE   AltName: Full=Succinylglutamic semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01174};
+DE            Short=SGSD {ECO:0000255|HAMAP-Rule:MF_01174};
+GN   Name=astD {ECO:0000255|HAMAP-Rule:MF_01174}; OrderedLocusNames=YPTS_2013;
+OS   Yersinia pseudotuberculosis serotype IB (strain PB1/+).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=502801;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PB1/+;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Munk A.C., Brettin T., Detter J.C.,
+RA   Han C., Tapia R., Schmutz J., Larimer F., Land M., Hauser L.,
+RA   Challacombe J.F., Green L., Lindler L.E., Nikolich M.P., Richardson P.;
+RT   "Complete sequence of Yersinia pseudotuberculosis PB1/+.";
+RL   Submitted (APR-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the NAD-dependent reduction of succinylglutamate
+CC       semialdehyde into succinylglutamate. {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-succinyl-L-glutamate 5-semialdehyde + NAD(+) = 2 H(+)
+CC         + N-succinyl-L-glutamate + NADH; Xref=Rhea:RHEA:10812,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:58520, ChEBI:CHEBI:58763; EC=1.2.1.71;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01174};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via AST
+CC       pathway; L-glutamate and succinate from L-arginine: step 4/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family. AstD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001048; ACC88979.1; -; Genomic_DNA.
+DR   RefSeq; WP_011192372.1; NZ_CP009780.1.
+DR   SMR; B2K296; -.
+DR   KEGG; ypb:YPTS_2013; -.
+DR   OMA; NWNKQLT; -.
+DR   BioCyc; YPSE502801:YPTS_RS10215-MONOMER; -.
+DR   UniPathway; UPA00185; UER00282.
+DR   GO; GO:0043824; F:succinylglutamate-semialdehyde dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019544; P:arginine catabolic process to glutamate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019545; P:arginine catabolic process to succinate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07095; ALDH_SGSD_AstD; 1.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   HAMAP; MF_01174; Aldedh_AstD; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR017649; SuccinylGlu_semiald_DH_AstD.
+DR   PANTHER; PTHR11699:SF197; PTHR11699:SF197; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR03240; arg_catab_astD; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; NAD; Oxidoreductase.
+FT   CHAIN           1..505
+FT                   /note="N-succinylglutamate 5-semialdehyde dehydrogenase"
+FT                   /id="PRO_1000138065"
+FT   NP_BIND         234..239
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+FT   ACT_SITE        257
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+FT   ACT_SITE        291
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+SQ   SEQUENCE   505 AA;  54766 MW;  C15181B9EF6AB4E9 CRC64;
+     MSQHVMFNAV LSSHPALFIQ GEWRIGNGVS FEKQDPMSQQ RLWQARAADH TDVTLACHAA
+     RAAFPAWARA SLEQRATVIQ QFAALLEQHK QSLARTISLE TSKPYWETLT EVQAMIGKVA
+     ISLQAYQTRT GHSQTPMGDS MSVLRHRPHG VLAVFGPYNF PGHLPNGHIV PALLAGNTVV
+     FKPSELTPWT AEETVKLWQE AGIPDGVLNL VQGGRETGEA LAAQPDIDGL LFTGSAHTGY
+     HLHRQLAGQP EKMLALEMGG NNALIVEQVK DRDAVVNLAI QSAFISAGQR CTCSRRLLVK
+     TGAEGDAFLL RFTAVAQALR IGRWDEQPAP FMGAVISSQA AERMLAAQQH LLLLGGESLL
+     NMTRPDSQSA LLTPGIIDIT NISEVPDEEY FGPLVSVIRY TDFTEALKIA NQTRFGLAVG
+     LVSEDRQQFE QLLLEARAGI VNWNKPLTGA SSAAPFGGVG ASGNHRPSAF YAADYCAWPM
+     ASLECEHLTL PATLSPGISF DLPKV
+//

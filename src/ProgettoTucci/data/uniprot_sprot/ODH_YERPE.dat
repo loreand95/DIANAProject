@@ -1,0 +1,219 @@
+ID   ODH_YERPE               Reviewed;         456 AA.
+AC   Q8CKU7; Q74VP6;
+DT   08-MAY-2019, integrated into UniProtKB/Swiss-Prot.
+DT   08-MAY-2019, sequence version 2.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Yersinopine synthase {ECO:0000305|PubMed:29618515};
+DE            EC=1.5.1.- {ECO:0000269|PubMed:29618515};
+DE   AltName: Full=Opine dehydrogenase {ECO:0000303|PubMed:29618515};
+DE            Short=ODH {ECO:0000303|PubMed:29618515};
+DE   AltName: Full=Yersinopine dehydrogenase {ECO:0000303|PubMed:29618515};
+GN   OrderedLocusNames=y2835 {ECO:0000312|EMBL:AAM86386.1},
+GN   YP_1249 {ECO:0000312|EMBL:AAS61492.1};
+OS   Yersinia pestis.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=632;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KIM10+ / Biovar Mediaevalis;
+RX   PubMed=12142430; DOI=10.1128/jb.184.16.4601-4611.2002;
+RA   Deng W., Burland V., Plunkett G. III, Boutin A., Mayhew G.F., Liss P.,
+RA   Perna N.T., Rose D.J., Mau B., Zhou S., Schwartz D.C., Fetherston J.D.,
+RA   Lindler L.E., Brubaker R.R., Plano G.V., Straley S.C., McDonough K.A.,
+RA   Nilles M.L., Matson J.S., Blattner F.R., Perry R.D.;
+RT   "Genome sequence of Yersinia pestis KIM.";
+RL   J. Bacteriol. 184:4601-4611(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=91001 / Biovar Mediaevalis;
+RX   PubMed=15368893; DOI=10.1093/dnares/11.3.179;
+RA   Song Y., Tong Z., Wang J., Wang L., Guo Z., Han Y., Zhang J., Pei D.,
+RA   Zhou D., Qin H., Pang X., Han Y., Zhai J., Li M., Cui B., Qi Z., Jin L.,
+RA   Dai R., Chen F., Li S., Ye C., Du Z., Lin W., Wang J., Yu J., Yang H.,
+RA   Wang J., Huang P., Yang R.;
+RT   "Complete genome sequence of Yersinia pestis strain 91001, an isolate
+RT   avirulent to humans.";
+RL   DNA Res. 11:179-197(2004).
+RN   [3] {ECO:0007744|PDB:6C4L, ECO:0007744|PDB:6C4M}
+RP   X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS) OF APOENZYME AND IN COMPLEX WITH
+RP   NADP, FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   SUBSTRATE SPECIFICITY, SUBUNIT, AND ACTIVE SITE.
+RX   PubMed=29618515; DOI=10.1074/jbc.ra118.002007;
+RA   McFarlane J.S., Davis C.L., Lamb A.L.;
+RT   "Staphylopine, pseudopaline, and yersinopine dehydrogenases: A structural
+RT   and kinetic analysis of a new functional class of opine dehydrogenase.";
+RL   J. Biol. Chem. 293:8009-8019(2018).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reductive condensation of
+CC       pyruvate to the intermediate formed by the adjacently encoded enzyme
+CC       y2836, namely (2S)-2-amino-4-{[(1S)-1-carboxy-2-(1H-imidazol-4-
+CC       yl)ethyl]amino}butanoate, leading to the production of yersinopine.
+CC       This is the last step in the biosynthesis of the metallophore
+CC       yersinopine, which is involved in metal acquisition and thus enables
+CC       bacterial growth inside the host, where metal access is limited.
+CC       Therefore, this enzyme probably contributes to Yersinia virulence.
+CC       Cannot use alpha-ketoglutarate in place of pyruvate, and displays only
+CC       poor efficiency with oxaloacetate and glyoxylate.
+CC       {ECO:0000269|PubMed:29618515}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NADP(+) + yersinopine = (2S)-2-amino-4-{[(1S)-1-carboxy-
+CC         2-(1H-imidazol-4-yl)ethyl]amino}butanoate + H(+) + NADPH + pyruvate;
+CC         Xref=Rhea:RHEA:59792, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:143196, ChEBI:CHEBI:143224;
+CC         Evidence={ECO:0000269|PubMed:29618515};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:59794;
+CC         Evidence={ECO:0000305|PubMed:29618515};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=73 uM for pyruvate (at pH 8.0 and 22 degrees Celsius)
+CC         {ECO:0000269|PubMed:29618515};
+CC         KM=1900 uM for oxaloacetate (at pH 8.0 and 22 degrees Celsius)
+CC         {ECO:0000269|PubMed:29618515};
+CC         KM=1900 uM for glyoxylate (at pH 8.0 and 22 degrees Celsius)
+CC         {ECO:0000269|PubMed:29618515};
+CC         Note=kcat is 0.30 sec(-1) with pyruvate as substrate. kcat is 0.29
+CC         sec(-1) with oxaloacetate as substrate. kcat is 0.22 sec(-1) with
+CC         glyoxylate as substrate (at pH 8.0 and 22 degrees Celsius).
+CC         {ECO:0000269|PubMed:29618515};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000269|PubMed:29618515}.
+CC   -!- SIMILARITY: Belongs to the staphylopine dehydrogenase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAM86386.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AAS61492.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009952; AAM86386.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AE017042; AAS61492.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_002211373.1; NZ_WUCM01000027.1.
+DR   PDB; 6C4L; X-ray; 2.00 A; C=1-456.
+DR   PDB; 6C4M; X-ray; 1.94 A; C=1-456.
+DR   PDBsum; 6C4L; -.
+DR   PDBsum; 6C4M; -.
+DR   SMR; Q8CKU7; -.
+DR   DNASU; 1147782; -.
+DR   EnsemblBacteria; AAM86386; AAM86386; y2835.
+DR   EnsemblBacteria; AAS61492; AAS61492; YP_1249.
+DR   GeneID; 49786545; -.
+DR   GeneID; 57977143; -.
+DR   KEGG; ypk:y2835; -.
+DR   KEGG; ypm:YP_1249; -.
+DR   HOGENOM; CLU_637619_0_0_6; -.
+DR   Proteomes; UP000001019; Chromosome.
+DR   Proteomes; UP000002490; Chromosome.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR016935; Opine_metallophore_DH.
+DR   Pfam; PF10100; Staph_opine_DH; 1.
+DR   PIRSF; PIRSF029692; UCP029692; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; NADP; Oxidoreductase.
+FT   CHAIN           1..456
+FT                   /note="Yersinopine synthase"
+FT                   /id="PRO_0000447041"
+FT   NP_BIND         12..15
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:29618515"
+FT   NP_BIND         35..40
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000269|PubMed:29618515"
+FT   ACT_SITE        242
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000305|PubMed:29618515"
+FT   BINDING         154
+FT                   /note="NADP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000269|PubMed:29618515"
+FT   HELIX           2..4
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          7..10
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           14..26
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          31..34
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           39..50
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          53..58
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           60..64
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          68..72
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          74..78
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           80..82
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          89..92
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           96..98
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           99..103
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           108..110
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          116..119
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           126..136
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          142..149
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          151..155
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          185..191
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          193..199
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           207..217
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   TURN            218..220
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          222..225
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           229..233
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           237..246
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           249..256
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   TURN            269..271
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   STRAND          272..275
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           276..295
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           303..310
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   TURN            316..318
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           321..326
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           327..329
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           332..346
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           363..365
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           383..401
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           407..427
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           429..431
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           434..436
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+FT   HELIX           441..453
+FT                   /evidence="ECO:0007744|PDB:6C4M"
+SQ   SEQUENCE   456 AA;  50860 MW;  BDA4F3B2B73B8485 CRC64;
+     MHNTLPTLIL GAGPAAIQLA VDISATGDAR LGLYNRPSTK GERLKQYLAL TPTLYLQGTG
+     KAQATQKESS VTIDCYIDQL AQAVGDWQRL ILAVPADHYY AVLQQIPWAA LPQLKSVILL
+     SSSMGSGLMV QNLLNAAGKR DVEVISLSSY YADTKYIRAE TQDISANTQD INAGTQDIGA
+     IQPYRAYTKA FKQRIYLANQ WGNAGSAEMS WLTAVLARHH IDTLPCSNLL AAERFSITNY
+     VHPPLALADT TLQALFYPEQ RSQYLYKTQP EGPVCPAVIA DLAGLADDYK RLLNRLGVEE
+     INLLRFLNDD NYPVPASMVS RRWIDEFPQL PPLEQQYALF VRYTALLVDP YSTPDEQGRF
+     YDFSAVKVAT VYQDANALWH LPRVPLEDVH KLRTLLLLAG ALDVVMPTAQ RLLQRFQQAL
+     KAFIDRVGEE HCHPSLLGDD CDRQAAIIEQ QWRSQT
+//

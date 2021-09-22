@@ -1,0 +1,105 @@
+ID   IOLA_LISMC              Reviewed;         488 AA.
+AC   C1KZ99;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   07-APR-2021, entry version 71.
+DE   RecName: Full=Malonate-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            EC=1.2.1.- {ECO:0000255|HAMAP-Rule:MF_01670};
+DE   AltName: Full=Methylmalonate-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MMSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            Short=MSDH {ECO:0000255|HAMAP-Rule:MF_01670};
+DE            EC=1.2.1.27 {ECO:0000255|HAMAP-Rule:MF_01670};
+GN   Name=iolA {ECO:0000255|HAMAP-Rule:MF_01670}; OrderedLocusNames=Lm4b_00401;
+OS   Listeria monocytogenes serotype 4b (strain CLIP80459).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+OX   NCBI_TaxID=568819;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CLIP80459;
+RX   PubMed=22530965; DOI=10.1186/1471-2164-13-144;
+RA   Hain T., Ghai R., Billion A., Kuenne C.T., Steinweg C., Izar B.,
+RA   Mohamed W., Mraheil M., Domann E., Schaffrath S., Karst U., Goesmann A.,
+RA   Oehm S., Puhler A., Merkl R., Vorwerk S., Glaser P., Garrido P.,
+RA   Rusniok C., Buchrieser C., Goebel W., Chakraborty T.;
+RT   "Comparative genomics and transcriptomics of lineages I, II, and III
+RT   strains of Listeria monocytogenes.";
+RL   BMC Genomics 13:144-144(2012).
+CC   -!- FUNCTION: Catalyzes the oxidation of malonate semialdehyde (MSA) and
+CC       methylmalonate semialdehyde (MMSA) into acetyl-CoA and propanoyl-CoA,
+CC       respectively. {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-oxopropanoate + CoA + NAD(+) = acetyl-CoA + CO2 + NADH;
+CC         Xref=Rhea:RHEA:22992, ChEBI:CHEBI:16526, ChEBI:CHEBI:33190,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57288, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; Evidence={ECO:0000255|HAMAP-Rule:MF_01670};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-methyl-3-oxopropanoate + CoA + H2O + NAD(+) = H(+) +
+CC         hydrogencarbonate + NADH + propanoyl-CoA; Xref=Rhea:RHEA:20804,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:17544,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57392, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57700, ChEBI:CHEBI:57945; EC=1.2.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01670};
+CC   -!- PATHWAY: Polyol metabolism; myo-inositol degradation into acetyl-CoA;
+CC       acetyl-CoA from myo-inositol: step 7/7. {ECO:0000255|HAMAP-
+CC       Rule:MF_01670}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family. IolA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01670}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM242711; CAS04169.1; -; Genomic_DNA.
+DR   RefSeq; WP_003728135.1; NC_012488.1.
+DR   SMR; C1KZ99; -.
+DR   KEGG; lmc:Lm4b_00401; -.
+DR   HOGENOM; CLU_005391_1_10_9; -.
+DR   OMA; LWRETDV; -.
+DR   BioCyc; LMON568819:LM4B_RS01995-MONOMER; -.
+DR   UniPathway; UPA00076; UER00148.
+DR   GO; GO:0018478; F:malonate-semialdehyde dehydrogenase (acetylating) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0102662; F:malonate-semialdehyde dehydrogenase (acetylating, NAD+) activity; IEA:RHEA.
+DR   GO; GO:0004491; F:methylmalonate-semialdehyde dehydrogenase (acylating) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019310; P:inositol catabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07085; ALDH_F6_MMSDH; 1.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   HAMAP; MF_01670; IolA; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR010061; MeMal-semiAld_DH.
+DR   InterPro; IPR023510; MSDH_GmP_bac.
+DR   PANTHER; PTHR43866; PTHR43866; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR01722; MMSDH; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+PE   3: Inferred from homology;
+KW   NAD; Oxidoreductase.
+FT   CHAIN           1..488
+FT                   /note="Malonate-semialdehyde dehydrogenase"
+FT                   /id="PRO_1000215882"
+FT   NP_BIND         176..180
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   ACT_SITE        284
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+FT   BINDING         382
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01670"
+SQ   SEQUENCE   488 AA;  53290 MW;  B23436CBA9108A4C CRC64;
+     MADVRKLKNY INGEWVESRA DKYEDVINPA TGEVLCQVPI STRAELDQAA VIAEQAFEKW
+     SQVAVPRRAR VLFSFQQLLI QHKEELARLI TLENGKNLSE ARGEVQRGIE NVEFAAGAPT
+     LMMGDSLASI ATDVEAANYR YPVGVVGGIA PFNFPMMVPC WMFPMAIALG NSFILKPSER
+     TPLLMEKLVE LFSEAGLPKG VFNVVYGAHD VVNGILENEI IKAVSFVGSK PVGEYVYKTG
+     SANLKRVQAL TGAKNHTIVL NDADLEDTVT NVISAAFGSA GERCMACAVV TVEEGIADEF
+     LAALRTAAQN VKIGNGLDDG VFLGPVIREE NQKRTIAYIE KGLEEGAKLT VDGRETGLSE
+     GHFVGPTILE DVTTDMTIWK DEIFAPVLSV IRVKNLQEAV RVANQSEFAN GACIFTNNAK
+     AIRYFREKID AGMLGVNLGV PAPMAFFPFS GWKSSFYGTL HANGKDSVDF YTHKKVVTAR
+     YSLKGYEE
+//

@@ -1,0 +1,193 @@
+ID   OTCC_MYCPE              Reviewed;         342 AA.
+AC   Q8EVF5;
+DT   11-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Ornithine carbamoyltransferase, catabolic {ECO:0000303|PubMed:23082227};
+DE            Short=OTCase {ECO:0000303|PubMed:23082227};
+DE            EC=2.1.3.3 {ECO:0000255|HAMAP-Rule:MF_01109};
+GN   Name=arcB; OrderedLocusNames=MYPE6090;
+OS   Mycoplasma penetrans (strain HF-2).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=272633;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HF-2;
+RX   PubMed=12466555; DOI=10.1093/nar/gkf667;
+RA   Sasaki Y., Ishikawa J., Yamashita A., Oshima K., Kenri T., Furuya K.,
+RA   Yoshino C., Horino A., Shiba T., Sasaki T., Hattori M.;
+RT   "The complete genomic sequence of Mycoplasma penetrans, an intracellular
+RT   bacterial pathogen in humans.";
+RL   Nucleic Acids Res. 30:5293-5300(2002).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.50 ANGSTROMS), FUNCTION, AND SUBUNIT.
+RX   PubMed=23082227; DOI=10.1371/journal.pone.0047886;
+RA   Gallego P., Planell R., Benach J., Querol E., Perez-Pons J.A., Reverter D.;
+RT   "Structural characterization of the enzymes composing the arginine
+RT   deiminase pathway in Mycoplasma penetrans.";
+RL   PLoS ONE 7:E47886-E47886(2012).
+CC   -!- FUNCTION: nvolved in the catabolism of arginine. Catalyzes the
+CC       phosphorolysis of citrulline, the reverse reaction of the biosynthetic
+CC       one, yielding ornithine and carbamoyl phosphate which serve to generate
+CC       ATP from ADP. {ECO:0000305|PubMed:23082227}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-ornithine = H(+) + L-citrulline +
+CC         phosphate; Xref=Rhea:RHEA:19513, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46911, ChEBI:CHEBI:57743,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01109};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via ADI
+CC       pathway; carbamoyl phosphate from L-arginine: step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_01109}.
+CC   -!- SUBUNIT: Dodecamer (tetramer of trimers).
+CC       {ECO:0000269|PubMed:23082227}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01109}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. OTCase family. {ECO:0000255|HAMAP-Rule:MF_01109}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000026; BAC44399.1; -; Genomic_DNA.
+DR   RefSeq; WP_011077431.1; NC_004432.1.
+DR   PDB; 4AMU; X-ray; 2.50 A; A/B/C/D=1-342.
+DR   PDB; 4ANF; X-ray; 2.60 A; A/B/C/D=1-342.
+DR   PDBsum; 4AMU; -.
+DR   PDBsum; 4ANF; -.
+DR   SMR; Q8EVF5; -.
+DR   STRING; 272633.26454069; -.
+DR   PRIDE; Q8EVF5; -.
+DR   EnsemblBacteria; BAC44399; BAC44399; BAC44399.
+DR   KEGG; mpe:MYPE6090; -.
+DR   eggNOG; COG0078; Bacteria.
+DR   HOGENOM; CLU_043846_3_1_14; -.
+DR   OMA; VATDVWV; -.
+DR   OrthoDB; 988597at2; -.
+DR   BioCyc; MPEN272633:G1G3E-634-MONOMER; -.
+DR   UniPathway; UPA00254; UER00365.
+DR   Proteomes; UP000002522; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004585; F:ornithine carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019547; P:arginine catabolic process to ornithine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019546; P:arginine deiminase pathway; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1370; -; 2.
+DR   HAMAP; MF_01109; OTCase; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   InterPro; IPR024904; OTCase_ArgI.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; SSF53671; 1.
+DR   TIGRFAMs; TIGR00658; orni_carb_tr; 1.
+DR   PROSITE; PS00097; CARBAMOYLTRANSFERASE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Arginine metabolism; Cytoplasm; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..342
+FT                   /note="Ornithine carbamoyltransferase, catabolic"
+FT                   /id="PRO_0000112953"
+FT   REGION          59..62
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   REGION          137..140
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   REGION          239..240
+FT                   /note="Ornithine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   REGION          276..277
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         83
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         110
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         169
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         235
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   BINDING         328
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01109"
+FT   HELIX           13..15
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           18..36
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   TURN            37..42
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   TURN            45..48
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          50..57
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           60..73
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          76..80
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           82..85
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          88..91
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           93..103
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          105..110
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           114..124
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          128..132
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           138..152
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          159..165
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           169..180
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          184..189
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           191..196
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           199..212
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          215..220
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           222..225
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   TURN            226..228
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          230..234
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           244..254
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           261..266
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          272..274
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          281..283
+FT                   /evidence="ECO:0007744|PDB:4ANF"
+FT   HELIX           286..294
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   STRAND          295..298
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           300..304
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           311..315
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+FT   HELIX           321..340
+FT                   /evidence="ECO:0007744|PDB:4AMU"
+SQ   SEQUENCE   342 AA;  38036 MW;  D21012AF209307A7 CRC64;
+     MPVNLKGRSL DSLLNFTTEE VQHLIDLSID LKKAKYQGLH INNRPLVGKN IAILFQKDST
+     RTRCAFEVAA SDLGAGVTYI GPSGSNMGKK ESIEDTAKVL GRFYDGIEFR GFAQSDVDAL
+     VKYSGVPVWN GLTDDEHPTQ IIADFMTMKE KFGNLKNKKI VFIGDYKNNV GVSTMIGAAF
+     NGMHVVMCGP DNYKNEIDKN VLAKCIELFK RNGGSLRFST DKILAAQDAD VIYTDVWVSL
+     GEPFELFDKR IGELKNFQVD MNMIKAAKND VIFLHCLPAF HDDHTSFSKE VATTLGAKYP
+     IVAKGEMEVT DEVFQSLHNK AFDQAENRMH SIKAIILSTI GY
+//

@@ -1,0 +1,97 @@
+ID   RNPH_FRATN              Reviewed;         235 AA.
+AC   A0Q4X5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Ribonuclease PH {ECO:0000255|HAMAP-Rule:MF_00564};
+DE            Short=RNase PH {ECO:0000255|HAMAP-Rule:MF_00564};
+DE            EC=2.7.7.56 {ECO:0000255|HAMAP-Rule:MF_00564};
+DE   AltName: Full=tRNA nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_00564};
+GN   Name=rph {ECO:0000255|HAMAP-Rule:MF_00564}; OrderedLocusNames=FTN_0387;
+OS   Francisella tularensis subsp. novicida (strain U112).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=401614;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=U112;
+RX   PubMed=17550600; DOI=10.1186/gb-2007-8-6-r102;
+RA   Rohmer L., Fong C., Abmayr S., Wasnick M., Larson Freeman T.J., Radey M.,
+RA   Guina T., Svensson K., Hayden H.S., Jacobs M., Gallagher L.A., Manoil C.,
+RA   Ernst R.K., Drees B., Buckley D., Haugen E., Bovee D., Zhou Y., Chang J.,
+RA   Levy R., Lim R., Gillett W., Guenthener D., Kang A., Shaffer S.A.,
+RA   Taylor G., Chen J., Gallis B., D'Argenio D.A., Forsman M., Olson M.V.,
+RA   Goodlett D.R., Kaul R., Miller S.I., Brittnacher M.J.;
+RT   "Comparison of Francisella tularensis genomes reveals evolutionary events
+RT   associated with the emergence of human pathogenic strains.";
+RL   Genome Biol. 8:R102.1-R102.16(2007).
+CC   -!- FUNCTION: Phosphorolytic 3'-5' exoribonuclease that plays an important
+CC       role in tRNA 3'-end maturation. Removes nucleotide residues following
+CC       the 3'-CCA terminus of tRNAs; can also add nucleotides to the ends of
+CC       RNA molecules by using nucleoside diphosphates as substrates, but this
+CC       may not be physiologically important. Probably plays a role in
+CC       initiation of 16S rRNA degradation (leading to ribosome degradation)
+CC       during starvation. {ECO:0000255|HAMAP-Rule:MF_00564}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + tRNA(n+1) = a ribonucleoside 5'-diphosphate +
+CC         tRNA(n); Xref=Rhea:RHEA:10628, Rhea:RHEA-COMP:11132, Rhea:RHEA-
+CC         COMP:11133, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:83401;
+CC         EC=2.7.7.56; Evidence={ECO:0000255|HAMAP-Rule:MF_00564};
+CC   -!- SUBUNIT: Homohexameric ring arranged as a trimer of dimers.
+CC       {ECO:0000255|HAMAP-Rule:MF_00564}.
+CC   -!- SIMILARITY: Belongs to the RNase PH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00564}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000439; ABK89290.1; -; Genomic_DNA.
+DR   RefSeq; WP_003038425.1; NZ_CP009633.1.
+DR   SMR; A0Q4X5; -.
+DR   PRIDE; A0Q4X5; -.
+DR   EnsemblBacteria; ABK89290; ABK89290; FTN_0387.
+DR   KEGG; ftn:FTN_0387; -.
+DR   OMA; KGKGQGW; -.
+DR   OrthoDB; 1824064at2; -.
+DR   BioCyc; FTUL401614:G1G75-404-MONOMER; -.
+DR   Proteomes; UP000000762; Chromosome.
+DR   GO; GO:0000175; F:3'-5'-exoribonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009022; F:tRNA nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016075; P:rRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   CDD; cd11362; RNase_PH_bact; 1.
+DR   Gene3D; 3.30.230.70; -; 1.
+DR   HAMAP; MF_00564; RNase_PH; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR002381; RNase_PH_bac-type.
+DR   InterPro; IPR018336; RNase_PH_CS.
+DR   Pfam; PF01138; RNase_PH; 1.
+DR   Pfam; PF03725; RNase_PH_C; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55666; SSF55666; 1.
+DR   TIGRFAMs; TIGR01966; RNasePH; 1.
+DR   PROSITE; PS01277; RIBONUCLEASE_PH; 1.
+PE   3: Inferred from homology;
+KW   Nucleotidyltransferase; RNA-binding; rRNA processing; Transferase;
+KW   tRNA processing; tRNA-binding.
+FT   CHAIN           1..235
+FT                   /note="Ribonuclease PH"
+FT                   /id="PRO_1000024809"
+FT   REGION          124..126
+FT                   /note="Phosphate (substrate) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00564"
+FT   BINDING         86
+FT                   /note="Phosphate (substrate) binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00564"
+SQ   SEQUENCE   235 AA;  25460 MW;  1C637A62C2ED4070 CRC64;
+     MRPSGRNNDQ LRNLKVTHNF TKHAEGSVLI EFGDTKVICT ASVVAGVPEF KKDSGEGWLT
+     AEYGMLPRST HTRMDREAAR GKQSGRTQEI QRLIGRALRA SVDLTAIGEN TIKVDCDVIQ
+     ADGGTRTASI TGASLAIADA IEYMKQNGML DEQANPLLSQ VAAISVGIYN NEPVLDLDYD
+     EDSNAETDMN VVMNSNGGII EIQGTAEGKD FSEEEFAKML GLAKKGIKEI FATVF
+//

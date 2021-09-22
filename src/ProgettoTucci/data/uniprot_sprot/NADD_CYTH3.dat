@@ -1,0 +1,83 @@
+ID   NADD_CYTH3              Reviewed;         192 AA.
+AC   Q11XI1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   02-DEC-2020, entry version 88.
+DE   RecName: Full=Probable nicotinate-nucleotide adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00244};
+DE            EC=2.7.7.18 {ECO:0000255|HAMAP-Rule:MF_00244};
+DE   AltName: Full=Deamido-NAD(+) diphosphorylase {ECO:0000255|HAMAP-Rule:MF_00244};
+DE   AltName: Full=Deamido-NAD(+) pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00244};
+DE   AltName: Full=Nicotinate mononucleotide adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00244};
+DE            Short=NaMN adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00244};
+GN   Name=nadD {ECO:0000255|HAMAP-Rule:MF_00244}; OrderedLocusNames=CHU_0598;
+OS   Cytophaga hutchinsonii (strain ATCC 33406 / DSM 1761 / CIP 103989 / NBRC
+OS   15051 / NCIMB 9469 / D465).
+OC   Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cytophagaceae;
+OC   Cytophaga.
+OX   NCBI_TaxID=269798;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33406 / NCIMB 9469;
+RX   PubMed=17400776; DOI=10.1128/aem.00225-07;
+RA   Xie G., Bruce D.C., Challacombe J.F., Chertkov O., Detter J.C., Gilna P.,
+RA   Han C.S., Lucas S., Misra M., Myers G.L., Richardson P., Tapia R.,
+RA   Thayer N., Thompson L.S., Brettin T.S., Henrissat B., Wilson D.B.,
+RA   McBride M.J.;
+RT   "Genome sequence of the cellulolytic gliding bacterium Cytophaga
+RT   hutchinsonii.";
+RL   Appl. Environ. Microbiol. 73:3536-3546(2007).
+CC   -!- FUNCTION: Catalyzes the reversible adenylation of nicotinate
+CC       mononucleotide (NaMN) to nicotinic acid adenine dinucleotide (NaAD).
+CC       {ECO:0000255|HAMAP-Rule:MF_00244}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(+) + nicotinate beta-D-ribonucleotide = deamido-NAD(+)
+CC         + diphosphate; Xref=Rhea:RHEA:22860, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57502,
+CC         ChEBI:CHEBI:58437; EC=2.7.7.18; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00244};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; deamido-NAD(+)
+CC       from nicotinate D-ribonucleotide: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00244}.
+CC   -!- SIMILARITY: Belongs to the NadD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00244}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000383; ABG57885.1; -; Genomic_DNA.
+DR   RefSeq; WP_011584001.1; NZ_FPJX01000001.1.
+DR   SMR; Q11XI1; -.
+DR   STRING; 269798.CHU_0598; -.
+DR   EnsemblBacteria; ABG57885; ABG57885; CHU_0598.
+DR   KEGG; chu:CHU_0598; -.
+DR   eggNOG; COG1057; Bacteria.
+DR   HOGENOM; CLU_069765_3_3_10; -.
+DR   OMA; IHIGHLI; -.
+DR   OrthoDB; 1433958at2; -.
+DR   BioCyc; CHUT269798:G1G6N-595-MONOMER; -.
+DR   UniPathway; UPA00253; UER00332.
+DR   Proteomes; UP000001822; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004515; F:nicotinate-nucleotide adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02165; NMNAT; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00244; NaMN_adenylyltr; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR005248; NadD/NMNAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+DR   TIGRFAMs; TIGR00482; TIGR00482; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; NAD; Nucleotide-binding; Nucleotidyltransferase;
+KW   Pyridine nucleotide biosynthesis; Reference proteome; Transferase.
+FT   CHAIN           1..192
+FT                   /note="Probable nicotinate-nucleotide adenylyltransferase"
+FT                   /id="PRO_0000336685"
+SQ   SEQUENCE   192 AA;  22437 MW;  D4EA611623634B7F CRC64;
+     MKIGLFFGSF NPIHVGHLII GNTMAETTDL DEVWYVVSPQ NPFKKNQSLL HEFDRFDMVT
+     AAIANNPKFR ASDIEFSLPK PSYTVDTLTY ISDKYPQHSF VLIIGEDNLD QFTNWKNHEQ
+     ILHHYSLYVY PRPDSSNSFL REHKNVRLVA APLLEISATY IRNLVKQEKS IRYLVSKEVE
+     ELILSRKYYS NY
+//

@@ -1,0 +1,76 @@
+ID   CYPLA_PSYBR             Reviewed;          29 AA.
+AC   C0HL24;
+DT   25-OCT-2017, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2017, sequence version 1.
+DT   22-APR-2020, entry version 5.
+DE   RecName: Full=Cyclotide psyleio A {ECO:0000303|PubMed:28006906};
+OS   Psychotria brachyceras.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Gentianales; Rubiaceae; Rubioideae; Psychotrieae;
+OC   Psychotria.
+OX   NCBI_TaxID=980682;
+RN   [1] {ECO:0000305}
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, IDENTIFICATION BY MASS SPECTROMETRY,
+RP   AND CYCLIZATION.
+RC   TISSUE=Leaf {ECO:0000303|PubMed:28006906};
+RX   PubMed=28006906; DOI=10.1021/acs.jnatprod.6b00492;
+RA   Matsuura H.N., Poth A.G., Yendo A.C., Fett-Neto A.G., Craik D.J.;
+RT   "Isolation and Characterization of Cyclotides from Brazilian Psychotria:
+RT   Significance in Plant Defense and Co-occurrence with Antioxidant
+RT   Alkaloids.";
+RL   J. Nat. Prod. 79:3006-3013(2016).
+CC   -!- FUNCTION: Probably participates in a plant defense mechanism.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00395}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin. {ECO:0000305}.
+CC   -!- PTM: This is a cyclic peptide. {ECO:0000255|PROSITE-ProRule:PRU00395,
+CC       ECO:0000269|PubMed:28006906}.
+CC   -!- MASS SPECTROMETRY: Mass=3354.22; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:28006906};
+CC   -!- SIMILARITY: Belongs to the cyclotide family. Moebius subfamily.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00395}.
+CC   -!- CAUTION: This peptide is cyclic. The start position was chosen by
+CC       similarity to Oak1 (kalata B1) for which the DNA sequence is known.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00395}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; C0HL24; -.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   InterPro; IPR005535; Cyclotide.
+DR   InterPro; IPR012324; Cyclotide_moebius_CS.
+DR   InterPro; IPR036146; Cyclotide_sf.
+DR   Pfam; PF03784; Cyclotide; 1.
+DR   PIRSF; PIRSF037891; Cycloviolacin; 1.
+DR   SUPFAM; SSF57038; SSF57038; 1.
+DR   PROSITE; PS51052; CYCLOTIDE; 1.
+DR   PROSITE; PS60009; CYCLOTIDE_MOEBIUS; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Disulfide bond; Knottin; Plant defense.
+FT   PEPTIDE         1..29
+FT                   /note="Cyclotide psyleio A"
+FT                   /evidence="ECO:0000269|PubMed:28006906"
+FT                   /id="PRO_0000441786"
+FT   DISULFID        5..19
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00395"
+FT   DISULFID        9..21
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00395"
+FT   DISULFID        14..26
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00395"
+FT   CROSSLNK        1..29
+FT                   /note="Cyclopeptide (Gly-Asp)"
+FT                   /evidence="ECO:0000305|PubMed:28006906"
+FT   UNSURE          2
+FT                   /note="L or I"
+FT                   /evidence="ECO:0000303|PubMed:28006906"
+FT   UNSURE          4
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:28006906"
+FT   UNSURE          25
+FT                   /note="I or L"
+FT                   /evidence="ECO:0000303|PubMed:28006906"
+SQ   SEQUENCE   29 AA;  3014 MW;  27D65EC60A12F23C CRC64;
+     GLPICGETCF TGTCNTPGCS CTYPICTRD
+//

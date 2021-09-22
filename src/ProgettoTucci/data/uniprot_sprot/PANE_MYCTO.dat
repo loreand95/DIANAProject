@@ -1,0 +1,104 @@
+ID   PANE_MYCTO              Reviewed;         295 AA.
+AC   P9WIL0; L0TBN6; Q50648;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   02-DEC-2020, entry version 32.
+DE   RecName: Full=2-dehydropantoate 2-reductase {ECO:0000250|UniProtKB:P0A9J4};
+DE            EC=1.1.1.169 {ECO:0000250|UniProtKB:P0A9J4};
+DE   AltName: Full=Ketopantoate reductase {ECO:0000250|UniProtKB:P0A9J4};
+DE            Short=KPR {ECO:0000250|UniProtKB:P0A9J4};
+GN   OrderedLocusNames=MT2649;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of ketopantoate into
+CC       pantoic acid. {ECO:0000250|UniProtKB:P0A9J4}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-pantoate + NADP(+) = 2-dehydropantoate + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:16233, ChEBI:CHEBI:11561, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15980, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.169; Evidence={ECO:0000250|UniProtKB:P0A9J4};
+CC   -!- PATHWAY: Cofactor biosynthesis; (R)-pantothenate biosynthesis; (R)-
+CC       pantoate from 3-methyl-2-oxobutanoate: step 2/2.
+CC       {ECO:0000250|UniProtKB:P0A9J4}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P0A9J4}.
+CC   -!- SIMILARITY: Belongs to the ketopantoate reductase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK46962.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK46962.1; ALT_INIT; Genomic_DNA.
+DR   PIR; D70724; D70724.
+DR   SMR; P9WIL0; -.
+DR   EnsemblBacteria; AAK46962; AAK46962; MT2649.
+DR   KEGG; mtc:MT2649; -.
+DR   HOGENOM; CLU_031468_4_0_11; -.
+DR   UniPathway; UPA00028; UER00004.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008677; F:2-dehydropantoate 2-reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1040.10; -; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR003710; ApbA.
+DR   InterPro; IPR013752; KPA_reductase.
+DR   InterPro; IPR013332; KPR_N.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF02558; ApbA; 1.
+DR   Pfam; PF08546; ApbA_C; 1.
+DR   SUPFAM; SSF48179; SSF48179; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00745; apbA_panE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; NADP; Oxidoreductase; Pantothenate biosynthesis.
+FT   CHAIN           1..295
+FT                   /note="2-dehydropantoate 2-reductase"
+FT                   /id="PRO_0000427988"
+FT   NP_BIND         9..14
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   ACT_SITE        177
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         100
+FT                   /note="NADP; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         100
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         126
+FT                   /note="NADP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         181
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         246
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+FT   BINDING         258
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A9J4"
+SQ   SEQUENCE   295 AA;  31033 MW;  BB2782E105F536C8 CRC64;
+     MATGIALVGP GAVGTTVAAL LHKAGYSPLL CGHTPRAGIE LRRDGADPIV VPGPVHTSPR
+     EVAGPVDVLI LAVKATQNDA ARPWLTRLCD ERTVVAVLQN GVEQVEQVQP HCPSSAVVPA
+     IVWCSAETQP QGWVRLRGEA ALVVPTGPAA EQFAGLLRGA GATVDCDPDF TTAAWRKLLV
+     NALAGFMVLS GRRSAMFRRD DVAALSRRYV AECLAVARAE GARLDDDVVD EVVRLVRSAP
+     QDMGTSMLAD RAAHRPLEWD LRNGVIVRKA RAHGLATPIS DVLVPLLAAA SDGPG
+//

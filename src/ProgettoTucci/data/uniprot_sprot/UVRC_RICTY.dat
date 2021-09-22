@@ -1,0 +1,105 @@
+ID   UVRC_RICTY              Reviewed;         626 AA.
+AC   Q68WG4;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   02-DEC-2020, entry version 88.
+DE   RecName: Full=UvrABC system protein C {ECO:0000255|HAMAP-Rule:MF_00203};
+DE            Short=Protein UvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000255|HAMAP-Rule:MF_00203}; OrderedLocusNames=RT0560;
+OS   Rickettsia typhi (strain ATCC VR-144 / Wilmington).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=257363;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-144 / Wilmington;
+RX   PubMed=15317790; DOI=10.1128/jb.186.17.5842-5855.2004;
+RA   McLeod M.P., Qin X., Karpathy S.E., Gioia J., Highlander S.K., Fox G.E.,
+RA   McNeill T.Z., Jiang H., Muzny D., Jacob L.S., Hawes A.C., Sodergren E.,
+RA   Gill R., Hume J., Morgan M., Fan G., Amin A.G., Gibbs R.A., Hong C.,
+RA   Yu X.-J., Walker D.H., Weinstock G.M.;
+RT   "Complete genome sequence of Rickettsia typhi and comparison with sequences
+RT   of other Rickettsiae.";
+RL   J. Bacteriol. 186:5842-5855(2004).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides of the
+CC       lesion. The N-terminal half is responsible for the 3' incision and the
+CC       C-terminal half is responsible for the 5' incision. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017197; AAU04028.1; -; Genomic_DNA.
+DR   RefSeq; WP_011191009.1; NC_006142.1.
+DR   SMR; Q68WG4; -.
+DR   STRING; 257363.RT0560; -.
+DR   EnsemblBacteria; AAU04028; AAU04028; RT0560.
+DR   KEGG; rty:RT0560; -.
+DR   eggNOG; COG0322; Bacteria.
+DR   HOGENOM; CLU_014841_3_2_5; -.
+DR   OMA; LFPIRQC; -.
+DR   OrthoDB; 1036075at2; -.
+DR   BioCyc; RTYP257363:G1G0L-566-MONOMER; -.
+DR   Proteomes; UP000000604; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.420.340; -; 1.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR000305; GIY-YIG_endonuc.
+DR   InterPro; IPR035901; GIY-YIG_endonuc_sf.
+DR   InterPro; IPR003583; Hlx-hairpin-Hlx_DNA-bd_motif.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR036876; UVR_dom_sf.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   InterPro; IPR038476; UvrC_homol_region_sf.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SMART; SM00278; HhH1; 2.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA excision; DNA repair; Excision nuclease;
+KW   SOS response.
+FT   CHAIN           1..626
+FT                   /note="UvrABC system protein C"
+FT                   /id="PRO_0000227470"
+FT   DOMAIN          20..97
+FT                   /note="GIY-YIG"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+FT   DOMAIN          207..242
+FT                   /note="UVR"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00203"
+SQ   SEQUENCE   626 AA;  72043 MW;  41FA97C44C89D757 CRC64;
+     MSLEISGREL IKSKIIDAPE CSGVYKMLDV SKQVIYVGKA KILKKRLTNY IKSDLDNKTL
+     RMIANTYFLE YIITHSEVEA LLLEAQLIKK FQPKFNILLK DDKSFPFIKL SLDHDFPQLL
+     KYRGKALSDG KLFGPFASNT QVNTTLTELQ KIFKLRSCTD NYFNSRTRPC LQYEIKRCYA
+     PCVGKINKEN YRVLVIQVKD FLQCRTRELQ ENLSKKMQEL SSQMRFEEAA EIRDRIKALS
+     YVQLKSRILD VVKNADIISI VHKDLHYCIE VALYRAGQPY GNIPYFFSST ENSTHEEVLE
+     YFLLQFYQKQ QVPSEIIMNH EINSKENVIE AIKKINNISD LSIIVPHKGD KAKLVHKAEV
+     NALFSLEQYL KKITKNTEIM FEVKKLFDLP EIPERIEIYD NSHIQGMFAV GVMVVAGKIG
+     FDKKEYRVFS LSSRNFTIGS EIELRDDIKG DDYGMLRQVL TRRFTRLKNE PNKLPSLMII
+     DGGKGHLTVV KEVMDKFGMN IPFVCMSKGR DRNAGLEQLH MQGKEVFTLD KNLLVMKYLQ
+     ILRDEAHNFA IKNHRLGRSR AIKISSLDDI DGVGEARKTA LLHYFGSYKA VCNATIDELA
+     KVKGISKSLA SMIFNVLNRK ISLDNS
+//

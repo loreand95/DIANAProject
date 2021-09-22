@@ -1,0 +1,85 @@
+ID   RDRP_PAV                Reviewed;         973 AA.
+AC   Q9J7Z2;
+DT   16-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 67.
+DE   RecName: Full=RNA-directed RNA polymerase;
+DE            Short=RdRp;
+DE            EC=2.7.7.48;
+DE   AltName: Full=RNA replicase;
+DE            Short=Protein A;
+OS   Pariacoto virus (PaV).
+OC   Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Magsaviricetes;
+OC   Nodamuvirales; Nodaviridae; Alphanodavirus.
+OX   NCBI_TaxID=103782;
+OH   NCBI_TaxID=37547; Spodoptera eridania (Southern armyworm).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=10799587; DOI=10.1128/jvi.74.11.5123-5132.2000;
+RA   Johnson K.N., Zeddam J.-L., Ball L.A.;
+RT   "Characterization and construction of functional cDNA clones of Pariacoto
+RT   virus, the first Alphanodavirus isolated outside Australasia.";
+RL   J. Virol. 74:5123-5132(2000).
+CC   -!- FUNCTION: RNA-dependent RNA polymerase which replicates the viral
+CC       genome composed of 2 RNA segments, RNA1 AND RNA2. {ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   -!- SIMILARITY: Belongs to the nodaviridae RNA polymerase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF171942; AAF71691.1; -; Genomic_RNA.
+DR   RefSeq; NP_620109.1; NC_003691.1.
+DR   GeneID; 956347; -.
+DR   KEGG; vg:956347; -.
+DR   Proteomes; UP000204174; Genome.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   Gene3D; 3.30.70.270; -; 1.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR043647; Noda_Vmethyltr_dom.
+DR   InterPro; IPR043128; Rev_trsase/Diguanyl_cyclase.
+DR   InterPro; IPR001205; RNA-dir_pol_C.
+DR   InterPro; IPR007094; RNA-dir_pol_PSvirus.
+DR   Pfam; PF19222; Noda_Vmethyltr; 1.
+DR   Pfam; PF00680; RdRP_1; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS50507; RDRP_SSRNA_POS; 1.
+PE   3: Inferred from homology;
+KW   Nucleotide-binding; Nucleotidyltransferase; RNA-directed RNA polymerase;
+KW   Transferase; Viral RNA replication.
+FT   CHAIN           1..973
+FT                   /note="RNA-directed RNA polymerase"
+FT                   /id="PRO_0000222449"
+FT   DOMAIN          558..683
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+FT   COMPBIAS        962..966
+FT                   /note="Poly-Thr"
+SQ   SEQUENCE   973 AA;  108099 MW;  C08835451D46EA1E CRC64;
+     MEEHIPLPSQ YESPKALPPR VPSSRWLRSL RPRLANSCLA LKIRAHESLV KIRLCKPYDA
+     QSRSKIIEKV IERRETRKTL AHQLKDLKLV PVARDHTHGR AAKFRTSANI WMNEAMRAAG
+     YEPYNVSMSN HDIERGNRYF YFAKDLTIPY RNDPVSDNTG FVFCDVDYYA DMEKWMQHFK
+     PMLLYTLVPE SLSYHCDDHS FHVNDDRVFF DVRGGASYSH QLWDYTGDTI CVRGKNKELL
+     VFTIEQKCIQ GDPHRRIIFL EPAARVAWPF YKPMKVEVGL KRKCMTAGQV NVLYEPIDDK
+     ISLSASGSRH TVETTGRTLA AITARMKNKT SPPMVADVER ILRDAGDKEA CVNAPILFEL
+     IPEAKFRVNV VKTTATPTHF QPLGPLRTED GETCGHAVTT TLATAPALLP MRGVNSDVAT
+     VNGRVKKPAN TVIPFKEYKE YASEFVEFLV PEPGVGHPWD TAAVREVQDN RQQKARINMV
+     AATVSTHSSN RLKAFIKAEA YAATNDPRNI TTMAPELTLM MSCFTYAFKE KILYEQPWYG
+     PGKTPKQVGR RLQSIAKHGT LESDYSRFDG SISEWLQKNV VKAAYMRFFK EHQRTEFQSW
+     FSKVFMQMGT TTAGVRYEAG WGTRSGSPIT TDGNTMLNAF VVYCCYRKLC HTPAEAWRKL
+     SQGALLTGDD AVLAHENGLE PALLDVVKNL GLKVEAKVNG PDDPVSFCGR IYPRLSDCIT
+     SFQDPLRTIP KLHLTTNKGV SPEQAAANRA HGYLATDKAT PIIGTWARRV IELTGDLKVK
+     GATREEQYKL SNAHQQLDPS LIETAMANIL GIDVGELKAL DKAVSEAKAL DQMPVVLGNC
+     YKHKIEAVVG GEVVGPGPRV ETVEPNHEQS SGTPEVVPEM AGHSERRDKS SNPRPGGKAE
+     GLSSKAGKPR VPTRPAADRK AAAGSGNRRG PTNGRRPIRD RAPRGGGRPN PGTTPPVSNS
+     ETTTTTAVVH ASA
+//

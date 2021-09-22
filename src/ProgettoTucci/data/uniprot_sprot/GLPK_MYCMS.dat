@@ -1,0 +1,124 @@
+ID   GLPK_MYCMS              Reviewed;         505 AA.
+AC   Q6MTY7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 97.
+DE   RecName: Full=Glycerol kinase {ECO:0000255|HAMAP-Rule:MF_00186};
+DE            EC=2.7.1.30 {ECO:0000255|HAMAP-Rule:MF_00186};
+DE   AltName: Full=ATP:glycerol 3-phosphotransferase {ECO:0000255|HAMAP-Rule:MF_00186};
+DE   AltName: Full=Glycerokinase {ECO:0000255|HAMAP-Rule:MF_00186};
+DE            Short=GK {ECO:0000255|HAMAP-Rule:MF_00186};
+GN   Name=glpK {ECO:0000255|HAMAP-Rule:MF_00186}; OrderedLocusNames=MSC_0258;
+OS   Mycoplasma mycoides subsp. mycoides SC (strain PG1).
+OC   Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+OX   NCBI_TaxID=272632;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PG1;
+RX   PubMed=14762060; DOI=10.1101/gr.1673304;
+RA   Westberg J., Persson A., Holmberg A., Goesmann A., Lundeberg J.,
+RA   Johansson K.-E., Pettersson B., Uhlen M.;
+RT   "The genome sequence of Mycoplasma mycoides subsp. mycoides SC type strain
+RT   PG1T, the causative agent of contagious bovine pleuropneumonia (CBPP).";
+RL   Genome Res. 14:221-227(2004).
+CC   -!- FUNCTION: Key enzyme in the regulation of glycerol uptake and
+CC       metabolism. Catalyzes the phosphorylation of glycerol to yield sn-
+CC       glycerol 3-phosphate. {ECO:0000255|HAMAP-Rule:MF_00186}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + glycerol = ADP + H(+) + sn-glycerol 3-phosphate;
+CC         Xref=Rhea:RHEA:21644, ChEBI:CHEBI:15378, ChEBI:CHEBI:17754,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57597, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.30; Evidence={ECO:0000255|HAMAP-Rule:MF_00186};
+CC   -!- ACTIVITY REGULATION: Inhibited by fructose 1,6-bisphosphate (FBP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00186}.
+CC   -!- PATHWAY: Polyol metabolism; glycerol degradation via glycerol kinase
+CC       pathway; sn-glycerol 3-phosphate from glycerol: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00186}.
+CC   -!- SIMILARITY: Belongs to the FGGY kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00186}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX293980; CAE76899.1; -; Genomic_DNA.
+DR   RefSeq; NP_975257.1; NC_005364.2.
+DR   SMR; Q6MTY7; -.
+DR   STRING; 272632.MSC_0258; -.
+DR   EnsemblBacteria; CAE76899; CAE76899; MSC_0258.
+DR   KEGG; mmy:MSC_0258; -.
+DR   PATRIC; fig|272632.4.peg.279; -.
+DR   eggNOG; COG0554; Bacteria.
+DR   HOGENOM; CLU_009281_2_3_14; -.
+DR   OMA; FMLMNIG; -.
+DR   BioCyc; MMYC272632:G1G3L-281-MONOMER; -.
+DR   UniPathway; UPA00618; UER00672.
+DR   Proteomes; UP000001016; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004370; F:glycerol kinase activity; ISS:UniProtKB.
+DR   GO; GO:0019563; P:glycerol catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006071; P:glycerol metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006072; P:glycerol-3-phosphate metabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00186; Glycerol_kin; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR000577; Carb_kinase_FGGY.
+DR   InterPro; IPR018485; Carb_kinase_FGGY_C.
+DR   InterPro; IPR018483; Carb_kinase_FGGY_CS.
+DR   InterPro; IPR018484; Carb_kinase_FGGY_N.
+DR   InterPro; IPR005999; Glycerol_kin.
+DR   Pfam; PF02782; FGGY_C; 1.
+DR   Pfam; PF00370; FGGY_N; 1.
+DR   PIRSF; PIRSF000538; GlpK; 1.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   TIGRFAMs; TIGR01311; glycerol_kin; 1.
+DR   PROSITE; PS00933; FGGY_KINASES_1; 1.
+DR   PROSITE; PS00445; FGGY_KINASES_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glycerol metabolism; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..505
+FT                   /note="Glycerol kinase"
+FT                   /id="PRO_1000020747"
+FT   NP_BIND         15..17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   NP_BIND         415..419
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   REGION          85..86
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   REGION          249..250
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         15
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         19
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         136
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         271
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         314
+FT                   /note="ATP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         318
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+FT   BINDING         333
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00186"
+SQ   SEQUENCE   505 AA;  57332 MW;  7A3A2667B51F2FD9 CRC64;
+     MTDSKKYILT LDEGTTSARA LITDKQGNII AVEQSEFTQY FPKEGWVEHD AIEIWNTQRS
+     ALVQVLNKSG IDPSQIEAIG ITNQRETAVI WNKETGLPIY NAIVWQDQRT ADYCQTFDKD
+     TLEMVKQRSG LIINPYFSGT KVKWILDNVP NARQLAKEGK LMFGTINTWL IYRLTGGEVF
+     VTDHTNAQRT LLYNIHTNDW DDELLKLFDI PRNILPEIKS CSEVYGYTFK GLFSKGNEQR
+     IKIASSIGDQ QSALFGQLCL EKGQVKVTYG TGCFILTNTG EEIVKSNHGL LTTVAYSFKD
+     KVYYALEGSV MIAGAAVQWL RDNLRIVYNA IETEWYADQV KDDRRVYVVP SFTGLGSPYW
+     DSFSRGAIFG LDRGTRREHI VRATLEAIVY QANDVVDAMR KDMKKPIEIF KVDGGAANNK
+     FLMQFQSNIS QSKVIKPTNV ETTAMGAAFM VGLAVGYWEN AEELKKTYKV HFELTPELSK
+     PEVDKLIKGW KVAVQRTFKW VEEIE
+//

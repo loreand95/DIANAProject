@@ -1,0 +1,157 @@
+ID   HDRC2_METAC             Reviewed;         161 AA.
+AC   Q8TIB9;
+DT   16-JAN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   02-DEC-2020, entry version 111.
+DE   RecName: Full=Ferredoxin/F(420)H(2)-dependent CoB-CoM heterodisulfide reductase subunit C {ECO:0000305};
+DE            EC=1.8.7.3 {ECO:0000269|PubMed:28174314};
+DE            EC=1.8.98.4 {ECO:0000269|PubMed:28174314};
+DE   AltName: Full=Coenzyme F420:CoB-CoM heterodisulfide,ferredoxin reductase subunit C {ECO:0000305};
+DE   AltName: Full=Ferredoxin:CoB-CoM heterodisulfide reductase subunit C {ECO:0000305};
+GN   Name=hdrC2 {ECO:0000303|PubMed:28174314}; OrderedLocusNames=MA_4236;
+OS   Methanosarcina acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 /
+OS   C2A).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=188937;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35395 / DSM 2834 / JCM 12185 / C2A;
+RX   PubMed=11932238; DOI=10.1101/gr.223902;
+RA   Galagan J.E., Nusbaum C., Roy A., Endrizzi M.G., Macdonald P., FitzHugh W.,
+RA   Calvo S., Engels R., Smirnov S., Atnoor D., Brown A., Allen N., Naylor J.,
+RA   Stange-Thomann N., DeArellano K., Johnson R., Linton L., McEwan P.,
+RA   McKernan K., Talamas J., Tirrell A., Ye W., Zimmer A., Barber R.D.,
+RA   Cann I., Graham D.E., Grahame D.A., Guss A.M., Hedderich R.,
+RA   Ingram-Smith C., Kuettner H.C., Krzycki J.A., Leigh J.A., Li W., Liu J.,
+RA   Mukhopadhyay B., Reeve J.N., Smith K., Springer T.A., Umayam L.A.,
+RA   White O., White R.H., de Macario E.C., Ferry J.G., Jarrell K.F., Jing H.,
+RA   Macario A.J.L., Paulsen I.T., Pritchett M., Sowers K.R., Swanson R.V.,
+RA   Zinder S.H., Lander E., Metcalf W.W., Birren B.;
+RT   "The genome of Methanosarcina acetivorans reveals extensive metabolic and
+RT   physiological diversity.";
+RL   Genome Res. 12:532-542(2002).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, SUBUNIT, AND SUBCELLULAR LOCATION.
+RC   STRAIN=ATCC 35395 / DSM 2834 / JCM 12185 / C2A;
+RX   PubMed=28174314; DOI=10.1128/mbio.02285-16;
+RA   Yan Z., Wang M., Ferry J.G.;
+RT   "A ferredoxin- and F420H2-dependent, electron-bifurcating, heterodisulfide
+RT   reductase with homologs in the domains Bacteria and Archaea.";
+RL   MBio 8:E02285-E02285(2017).
+CC   -!- FUNCTION: Part of a complex that catalyzes the reversible reduction of
+CC       CoM-S-S-CoB to the thiol-coenzymes H-S-CoM (coenzyme M) and H-S-CoB
+CC       (coenzyme B). Catalyzes the transfer of electrons from ferredoxin to
+CC       CoM-S-S-CoB during methanogenesis from acetate. Electrons transfer from
+CC       ferredoxin to CoM-S-S-CoB via HdrA2, HdrC2 and HdrB2. In addition, the
+CC       complex can use electron bifurcation to direct electron pairs from
+CC       reduced coenzyme F420 towards the reduction of both ferredoxin and CoB-
+CC       CoM heterodisulfide. This activity may take place during Fe(III)-
+CC       dependent anaerobic methane oxidation. {ECO:0000269|PubMed:28174314}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=coenzyme B + coenzyme M + 2 oxidized [2Fe-2S]-[ferredoxin] =
+CC         coenzyme M-coenzyme B heterodisulfide + 2 H(+) + 2 reduced [2Fe-2S]-
+CC         [ferredoxin]; Xref=Rhea:RHEA:55160, Rhea:RHEA-COMP:10000, Rhea:RHEA-
+CC         COMP:10001, ChEBI:CHEBI:15378, ChEBI:CHEBI:33737, ChEBI:CHEBI:33738,
+CC         ChEBI:CHEBI:58319, ChEBI:CHEBI:58411, ChEBI:CHEBI:58596; EC=1.8.7.3;
+CC         Evidence={ECO:0000269|PubMed:28174314};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=coenzyme B + coenzyme M + 4 H(+) + 2 oxidized coenzyme F420-
+CC         (gamma-Glu)(n) + 2 reduced [2Fe-2S]-[ferredoxin] = coenzyme M-
+CC         coenzyme B heterodisulfide + 2 oxidized [2Fe-2S]-[ferredoxin] + 2
+CC         reduced coenzyme F420-(gamma-Glu)(n); Xref=Rhea:RHEA:55744,
+CC         Rhea:RHEA-COMP:10000, Rhea:RHEA-COMP:10001, Rhea:RHEA-COMP:12939,
+CC         Rhea:RHEA-COMP:14378, ChEBI:CHEBI:15378, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:58319, ChEBI:CHEBI:58411,
+CC         ChEBI:CHEBI:58596, ChEBI:CHEBI:133980, ChEBI:CHEBI:139511;
+CC         EC=1.8.98.4; Evidence={ECO:0000269|PubMed:28174314};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00711,
+CC         ECO:0000269|PubMed:28174314};
+CC       Note=Binds 2 [4Fe-4S] cluster. {ECO:0000255|PROSITE-ProRule:PRU00711,
+CC       ECO:0000269|PubMed:28174314};
+CC   -!- PATHWAY: Cofactor metabolism; coenzyme M-coenzyme B heterodisulfide
+CC       reduction; coenzyme B and coenzyme M from coenzyme M-coenzyme B
+CC       heterodisulfide: step 1/1. {ECO:0000305}.
+CC   -!- SUBUNIT: The ferredoxin/F(420)H(2)-dependent CoB-CoM heterodisulfide
+CC       reductase is composed of three subunits; HdrA2, HdrB2 and HdrC2.
+CC       {ECO:0000269|PubMed:28174314}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:28174314}.
+CC   -!- SIMILARITY: Belongs to the HdrC family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE010299; AAM07581.1; -; Genomic_DNA.
+DR   RefSeq; WP_011024118.1; NC_003552.1.
+DR   SMR; Q8TIB9; -.
+DR   EnsemblBacteria; AAM07581; AAM07581; MA_4236.
+DR   GeneID; 1476130; -.
+DR   KEGG; mac:MA_4236; -.
+DR   HOGENOM; CLU_121273_0_0_2; -.
+DR   InParanoid; Q8TIB9; -.
+DR   OMA; DPDLWLC; -.
+DR   OrthoDB; 102216at2157; -.
+DR   PhylomeDB; Q8TIB9; -.
+DR   BioCyc; MACE188937:G1FZT-4514-MONOMER; -.
+DR   BioCyc; MetaCyc:MONOMER-20161; -.
+DR   UniPathway; UPA00647; UER00700.
+DR   Proteomes; UP000002487; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051912; F:CoB--CoM heterodisulfide reductase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015948; P:methanogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.1060.10; -; 1.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR017680; CoB/CoM_hetero-S_Rdtase_csu.
+DR   InterPro; IPR009051; Helical_ferredxn.
+DR   Pfam; PF13183; Fer4_8; 1.
+DR   SUPFAM; SSF46548; SSF46548; 1.
+DR   TIGRFAMs; TIGR03290; CoB_CoM_SS_C; 1.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding; Methanogenesis;
+KW   Oxidoreductase; Reference proteome; Repeat.
+FT   CHAIN           1..161
+FT                   /note="Ferredoxin/F(420)H(2)-dependent CoB-CoM
+FT                   heterodisulfide reductase subunit C"
+FT                   /id="PRO_0000150072"
+FT   DOMAIN          10..40
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   DOMAIN          51..82
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           19
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           22
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           25
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           29
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           62
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           65
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           68
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           72
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+SQ   SEQUENCE   161 AA;  18150 MW;  3D0339845B0DD95C CRC64;
+     MSEELLKLLK AEGLDLLSCM HCGICTGSCP SGRHTGLNTR RIIRDARKNR AAVLSDYDLW
+     LCTTCYTCQE RCPRGIPITD AILELRRLAV REGLMLPEHR FVSEMVLECG HAVPLDEETK
+     KKREELGLDP IPETVQKDPE ALEGLKTLLK TCKFDELVAK K
+//

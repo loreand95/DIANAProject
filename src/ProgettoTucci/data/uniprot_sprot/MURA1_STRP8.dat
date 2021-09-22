@@ -1,0 +1,104 @@
+ID   MURA1_STRP8             Reviewed;         423 AA.
+AC   P65459; Q9A0I4;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            EC=2.5.1.7 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=Enoylpyruvate transferase 1 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE   AltName: Full=UDP-N-acetylglucosamine enolpyruvyl transferase 1 {ECO:0000255|HAMAP-Rule:MF_00111};
+DE            Short=EPT 1 {ECO:0000255|HAMAP-Rule:MF_00111};
+GN   Name=murA1 {ECO:0000255|HAMAP-Rule:MF_00111}; Synonyms=murA;
+GN   OrderedLocusNames=spyM18_0821;
+OS   Streptococcus pyogenes serotype M18 (strain MGAS8232).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=186103;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MGAS8232;
+RX   PubMed=11917108; DOI=10.1073/pnas.062526099;
+RA   Smoot J.C., Barbian K.D., Van Gompel J.J., Smoot L.M., Chaussee M.S.,
+RA   Sylva G.L., Sturdevant D.E., Ricklefs S.M., Porcella S.F., Parkins L.D.,
+RA   Beres S.B., Campbell D.S., Smith T.M., Zhang Q., Kapur V., Daly J.A.,
+RA   Veasy L.G., Musser J.M.;
+RT   "Genome sequence and comparative microarray analysis of serotype M18 group
+RT   A Streptococcus strains associated with acute rheumatic fever outbreaks.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:4668-4673(2002).
+CC   -!- FUNCTION: Cell wall formation. Adds enolpyruvyl to UDP-N-
+CC       acetylglucosamine. {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine =
+CC         phosphate + UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine;
+CC         Xref=Rhea:RHEA:18681, ChEBI:CHEBI:43474, ChEBI:CHEBI:57705,
+CC         ChEBI:CHEBI:58702, ChEBI:CHEBI:68483; EC=2.5.1.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00111};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. MurA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00111}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009949; AAL97485.1; -; Genomic_DNA.
+DR   RefSeq; WP_002994428.1; NC_003485.1.
+DR   SMR; P65459; -.
+DR   KEGG; spm:spyM18_0821; -.
+DR   HOGENOM; CLU_027387_0_0_9; -.
+DR   OMA; CDPHRAT; -.
+DR   BioCyc; SPYO186103:G1FZQ-733-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008760; F:UDP-N-acetylglucosamine 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0019277; P:UDP-N-acetylgalactosamine biosynthetic process; IEA:InterPro.
+DR   CDD; cd01555; UdpNAET; 1.
+DR   Gene3D; 3.65.10.10; -; 2.
+DR   HAMAP; MF_00111; MurA; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR005750; UDP_GlcNAc_COvinyl_MurA.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   SUPFAM; SSF55205; SSF55205; 1.
+DR   TIGRFAMs; TIGR01072; murA; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell shape; Cell wall biogenesis/degradation;
+KW   Cytoplasm; Peptidoglycan synthesis; Pyruvate; Transferase.
+FT   CHAIN           1..423
+FT                   /note="UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1"
+FT                   /id="PRO_0000178940"
+FT   REGION          23..24
+FT                   /note="Phosphoenolpyruvate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   ACT_SITE        120
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         96
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         309
+FT                   /note="UDP-N-acetylglucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   BINDING         331
+FT                   /note="UDP-N-acetylglucosamine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+FT   MOD_RES         120
+FT                   /note="2-(S-cysteinyl)pyruvic acid O-phosphothioketal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00111"
+SQ   SEQUENCE   423 AA;  45670 MW;  57BC35087017A38E CRC64;
+     MDKIIIEGGQ TRLEGEVVIE GAKNAVLPLL AASILPSKGK TILRNVPILS DVFTMNNVVR
+     GLDIRVDFNE AANEITVDAS GHILDEAPYE YVSQMRASIV VLGPILARNG HAKVSMPGGC
+     TIGSRPINLH LKGLEAMGAT ITQKGGDITA QADRLQGAMI YMDFPSVGAT QNLMMAATLA
+     DGVTTIENAA REPEIVDLAQ FLNKMGARIR GAGTETLTIT GVTHLRGVEH DVVQDRIEAG
+     TFMVAAAMTS GNVLIRDAVW EHNRPLISKL MEMGVSVTEE EYGIRVQANT PKLKPVTVKT
+     LPHPGFPTDM QAQFTALMAV VNGESTMVET VFENRFQHLE EMRRMGLQSE ILRETAMIHG
+     GRQLQGAPVM STDLRASAAL ILTGIVAQGV TIVNNLVHLD RGYYQFHEKL AKLGATISRS
+     SEV
+//

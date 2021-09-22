@@ -1,0 +1,102 @@
+ID   UPPP_PSEP1              Reviewed;         276 AA.
+AC   A5W499;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUL-2007, sequence version 1.
+DT   02-DEC-2020, entry version 75.
+DE   RecName: Full=Undecaprenyl-diphosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+DE            EC=3.6.1.27 {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Bacitracin resistance protein {ECO:0000255|HAMAP-Rule:MF_01006};
+DE   AltName: Full=Undecaprenyl pyrophosphate phosphatase {ECO:0000255|HAMAP-Rule:MF_01006};
+GN   Name=uppP {ECO:0000255|HAMAP-Rule:MF_01006}; OrderedLocusNames=Pput_2827;
+OS   Pseudomonas putida (strain ATCC 700007 / DSM 6899 / BCRC 17059 / F1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=351746;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700007 / DSM 6899 / BCRC 17059 / F1;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chain P., Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Lykidis A., Parales R., Richardson P.;
+RT   "Complete sequence of Pseudomonas putida F1.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of undecaprenyl diphosphate
+CC       (UPP). Confers resistance to bacitracin. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-
+CC         trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:28094, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58405, ChEBI:CHEBI:60392; EC=3.6.1.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01006};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   -!- MISCELLANEOUS: Bacitracin is thought to be involved in the inhibition
+CC       of peptidoglycan synthesis by sequestering undecaprenyl diphosphate,
+CC       thereby reducing the pool of lipid carrier available.
+CC   -!- SIMILARITY: Belongs to the UppP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01006}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000712; ABQ78959.1; -; Genomic_DNA.
+DR   RefSeq; WP_012052561.1; NC_009512.1.
+DR   SMR; A5W499; -.
+DR   STRING; 351746.Pput_2827; -.
+DR   EnsemblBacteria; ABQ78959; ABQ78959; Pput_2827.
+DR   KEGG; ppf:Pput_2827; -.
+DR   eggNOG; COG1968; Bacteria.
+DR   HOGENOM; CLU_060296_2_0_6; -.
+DR   OMA; IEGPFRD; -.
+DR   OrthoDB; 1826154at2; -.
+DR   BioCyc; PPUT351746:G1G90-2935-MONOMER; -.
+DR   Proteomes; UP000006553; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050380; F:undecaprenyl-diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0016311; P:dephosphorylation; IEA:InterPro.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01006; Undec_diphosphatase; 1.
+DR   InterPro; IPR003824; UppP.
+DR   PANTHER; PTHR30622; PTHR30622; 1.
+DR   Pfam; PF02673; BacA; 1.
+DR   TIGRFAMs; TIGR00753; undec_PP_bacA; 1.
+PE   3: Inferred from homology;
+KW   Antibiotic resistance; Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Hydrolase; Membrane;
+KW   Peptidoglycan synthesis; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..276
+FT                   /note="Undecaprenyl-diphosphatase"
+FT                   /id="PRO_1000062809"
+FT   TRANSMEM        43..63
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        85..105
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        109..129
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        183..203
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        214..234
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+FT   TRANSMEM        249..269
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01006"
+SQ   SEQUENCE   276 AA;  30621 MW;  93D49BB9C69797BF CRC64;
+     MDFWTAFQAI ILGVVEGLTE FLPISSTGHQ IIVADLIGFG GERAMAFNII IQLAAILAVV
+     WEFRSKIFEV VFGLTHQPKA RRFTGNLLLA FMPAVVLGVL FADLIHEYLF NPVTVAAALV
+     VGGVIMLWAE RRKHRVEVDH VDDMRWSHAL KIGFIQCLAM IPGTSRSGST IIGGLLFGLS
+     RKAATEFSFF LAMPTMVGAA VYSGYKYRDL FQPGDLPVFA LGFVTSFIFA MIAVRALLKF
+     IANHSYAAFA WYRIVFGLFI LATWQFGWVD WSTAHG
+//

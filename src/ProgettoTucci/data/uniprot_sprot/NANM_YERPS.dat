@@ -1,0 +1,103 @@
+ID   NANM_YERPS              Reviewed;         392 AA.
+AC   Q66BP2;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 87.
+DE   RecName: Full=N-acetylneuraminate epimerase {ECO:0000255|HAMAP-Rule:MF_01195};
+DE            EC=5.1.3.24 {ECO:0000255|HAMAP-Rule:MF_01195};
+DE   AltName: Full=N-acetylneuraminate mutarotase {ECO:0000255|HAMAP-Rule:MF_01195};
+DE            Short=Neu5Ac mutarotase {ECO:0000255|HAMAP-Rule:MF_01195};
+DE   AltName: Full=Sialic acid epimerase {ECO:0000255|HAMAP-Rule:MF_01195};
+DE   Flags: Precursor;
+GN   Name=nanM {ECO:0000255|HAMAP-Rule:MF_01195}; OrderedLocusNames=YPTB1729;
+OS   Yersinia pseudotuberculosis serotype I (strain IP32953).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=273123;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP32953;
+RX   PubMed=15358858; DOI=10.1073/pnas.0404012101;
+RA   Chain P.S.G., Carniel E., Larimer F.W., Lamerdin J., Stoutland P.O.,
+RA   Regala W.M., Georgescu A.M., Vergez L.M., Land M.L., Motin V.L.,
+RA   Brubaker R.R., Fowler J., Hinnebusch J., Marceau M., Medigue C.,
+RA   Simonet M., Chenal-Francisque V., Souza B., Dacheux D., Elliott J.M.,
+RA   Derbise A., Hauser L.J., Garcia E.;
+RT   "Insights into the evolution of Yersinia pestis through whole-genome
+RT   comparison with Yersinia pseudotuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13826-13831(2004).
+CC   -!- FUNCTION: Converts alpha-N-acetylneuranimic acid (Neu5Ac) to the beta-
+CC       anomer, accelerating the equilibrium between the alpha- and beta-
+CC       anomers. Probably facilitates sialidase-negative bacteria to compete
+CC       sucessfully for limited amounts of extracellular Neu5Ac, which is
+CC       likely taken up in the beta-anomer. In addition, the rapid removal of
+CC       sialic acid from solution might be advantageous to the bacterium to
+CC       damp down host responses. {ECO:0000255|HAMAP-Rule:MF_01195}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-alpha-neuraminate = N-acetyl-beta-neuraminate;
+CC         Xref=Rhea:RHEA:25233, ChEBI:CHEBI:58705, ChEBI:CHEBI:58770;
+CC         EC=5.1.3.24; Evidence={ECO:0000255|HAMAP-Rule:MF_01195};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01195}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000255|HAMAP-Rule:MF_01195}.
+CC   -!- SIMILARITY: Belongs to the NanM family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01195}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX936398; CAH20968.1; -; Genomic_DNA.
+DR   RefSeq; WP_002211169.1; NZ_CP009712.1.
+DR   SMR; Q66BP2; -.
+DR   EnsemblBacteria; CAH20968; CAH20968; YPTB1729.
+DR   GeneID; 49786193; -.
+DR   GeneID; 57976723; -.
+DR   KEGG; ypo:BZ17_771; -.
+DR   KEGG; yps:YPTB1729; -.
+DR   PATRIC; fig|273123.14.peg.816; -.
+DR   OMA; PGGERNQ; -.
+DR   Proteomes; UP000001011; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016857; F:racemase and epimerase activity, acting on carbohydrates and derivatives; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 2.120.10.80; -; 2.
+DR   HAMAP; MF_01195; NanM; 1.
+DR   InterPro; IPR015915; Kelch-typ_b-propeller.
+DR   InterPro; IPR006652; Kelch_1.
+DR   InterPro; IPR019936; Mutatrotase_YjhT-like.
+DR   Pfam; PF01344; Kelch_1; 1.
+DR   SUPFAM; SSF117281; SSF117281; 1.
+DR   TIGRFAMs; TIGR03547; muta_rot_YjhT; 1.
+PE   3: Inferred from homology;
+KW   Carbohydrate metabolism; Isomerase; Kelch repeat; Periplasm; Repeat;
+KW   Signal.
+FT   SIGNAL          1..35
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01195"
+FT   CHAIN           36..392
+FT                   /note="N-acetylneuraminate epimerase"
+FT                   /id="PRO_5000098674"
+FT   REPEAT          56..100
+FT                   /note="Kelch 1"
+FT   REPEAT          102..155
+FT                   /note="Kelch 2"
+FT   REPEAT          157..192
+FT                   /note="Kelch 3"
+FT   REPEAT          193..238
+FT                   /note="Kelch 4"
+FT   REPEAT          241..290
+FT                   /note="Kelch 5"
+FT   REPEAT          312..361
+FT                   /note="Kelch 6"
+FT   REPEAT          363..392
+FT                   /note="Kelch 7"
+FT   ACT_SITE        247
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01195"
+SQ   SEQUENCE   392 AA;  42294 MW;  9A3643D1520C8540 CRC64;
+     MTQLYPQYKK QLTTKIVLFS ALSLLMMASL PNTYAEQYPD VPVPFKNGTG GKVENSLYVG
+     LGSAGVSWFR LDTDKTGAGW QKVANFPGQP REQAVTVVLA GKLYVFGGVG KTNANDTQVR
+     ALDDAYRFDP QTNQWQQLAT RAPRGLVGTV ATTLDGSQAV LLGGVNKAIF DGYFTDLASA
+     GSDEVRKSAV INAYFNQAPA DYFYNRDVLI YDPQKNQWKS GGLLPFLGTA GSAISRMDNR
+     LILINGEIKP GLRTAAVWQG LMQGNVLEWQ PQPDLIGAET GSAQEGLAGA FSGISHKTVL
+     VAGGANFPGA WKQFNRGHLY AHQGLEKQWH QQVYALVDNQ WRIAGKLPQP LGYGVSIQGP
+     DKVILIGGET TGGTATSAVT QLSWQGGKLH IE
+//

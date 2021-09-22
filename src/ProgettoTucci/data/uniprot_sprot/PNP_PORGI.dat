@@ -1,0 +1,127 @@
+ID   PNP_PORGI               Reviewed;         743 AA.
+AC   Q7MW79;
+DT   29-APR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   02-DEC-2020, entry version 100.
+DE   RecName: Full=Polyribonucleotide nucleotidyltransferase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            EC=2.7.7.8 {ECO:0000255|HAMAP-Rule:MF_01595};
+DE   AltName: Full=Polynucleotide phosphorylase {ECO:0000255|HAMAP-Rule:MF_01595};
+DE            Short=PNPase {ECO:0000255|HAMAP-Rule:MF_01595};
+GN   Name=pnp {ECO:0000255|HAMAP-Rule:MF_01595}; OrderedLocusNames=PG_0766;
+OS   Porphyromonas gingivalis (strain ATCC BAA-308 / W83).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae;
+OC   Porphyromonas.
+OX   NCBI_TaxID=242619;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-308 / W83;
+RX   PubMed=12949112; DOI=10.1128/jb.185.18.5591-5601.2003;
+RA   Nelson K.E., Fleischmann R.D., DeBoy R.T., Paulsen I.T., Fouts D.E.,
+RA   Eisen J.A., Daugherty S.C., Dodson R.J., Durkin A.S., Gwinn M.L.,
+RA   Haft D.H., Kolonay J.F., Nelson W.C., Mason T.M., Tallon L., Gray J.,
+RA   Granger D., Tettelin H., Dong H., Galvin J.L., Duncan M.J., Dewhirst F.E.,
+RA   Fraser C.M.;
+RT   "Complete genome sequence of the oral pathogenic bacterium Porphyromonas
+RT   gingivalis strain W83.";
+RL   J. Bacteriol. 185:5591-5601(2003).
+CC   -!- FUNCTION: Involved in mRNA degradation. Catalyzes the phosphorolysis of
+CC       single-stranded polyribonucleotides processively in the 3'- to 5'-
+CC       direction. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=phosphate + RNA(n+1) = a ribonucleoside 5'-diphosphate +
+CC         RNA(n); Xref=Rhea:RHEA:22096, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:43474, ChEBI:CHEBI:57930, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.8; Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01595};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   -!- SIMILARITY: Belongs to the polyribonucleotide nucleotidyltransferase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01595}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015924; AAQ65927.1; -; Genomic_DNA.
+DR   RefSeq; WP_004585303.1; NC_002950.2.
+DR   SMR; Q7MW79; -.
+DR   STRING; 242619.PG_0766; -.
+DR   DNASU; 2552025; -.
+DR   EnsemblBacteria; AAQ65927; AAQ65927; PG_0766.
+DR   KEGG; pgi:PG_0766; -.
+DR   eggNOG; COG1185; Bacteria.
+DR   HOGENOM; CLU_004217_2_2_10; -.
+DR   OMA; RYMHNYN; -.
+DR   OrthoDB; 122725at2; -.
+DR   Proteomes; UP000000588; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004654; F:polyribonucleotide nucleotidyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   Gene3D; 3.30.1370.10; -; 1.
+DR   Gene3D; 3.30.230.70; -; 2.
+DR   HAMAP; MF_01595; PNPase; 1.
+DR   InterPro; IPR001247; ExoRNase_PH_dom1.
+DR   InterPro; IPR015847; ExoRNase_PH_dom2.
+DR   InterPro; IPR036345; ExoRNase_PH_dom2_sf.
+DR   InterPro; IPR004087; KH_dom.
+DR   InterPro; IPR004088; KH_dom_type_1.
+DR   InterPro; IPR036612; KH_dom_type_1_sf.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR012162; PNPase.
+DR   InterPro; IPR027408; PNPase/RNase_PH_dom_sf.
+DR   InterPro; IPR015848; PNPase_PH_RNA-bd_bac/org-type.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR022967; S1_dom.
+DR   InterPro; IPR003029; S1_domain.
+DR   PANTHER; PTHR11252; PTHR11252; 1.
+DR   Pfam; PF00013; KH_1; 1.
+DR   Pfam; PF03726; PNPase; 1.
+DR   Pfam; PF01138; RNase_PH; 2.
+DR   Pfam; PF03725; RNase_PH_C; 2.
+DR   Pfam; PF00575; S1; 1.
+DR   PIRSF; PIRSF005499; PNPase; 1.
+DR   SMART; SM00322; KH; 1.
+DR   SMART; SM00316; S1; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF54211; SSF54211; 2.
+DR   SUPFAM; SSF54791; SSF54791; 1.
+DR   SUPFAM; SSF55666; SSF55666; 2.
+DR   TIGRFAMs; TIGR03591; polynuc_phos; 1.
+DR   PROSITE; PS50084; KH_TYPE_1; 1.
+DR   PROSITE; PS50126; S1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Magnesium; Metal-binding; Nucleotidyltransferase;
+KW   Reference proteome; RNA-binding; Transferase.
+FT   CHAIN           1..743
+FT                   /note="Polyribonucleotide nucleotidyltransferase"
+FT                   /id="PRO_0000329762"
+FT   DOMAIN          556..618
+FT                   /note="KH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   DOMAIN          628..698
+FT                   /note="S1 motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           489
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+FT   METAL           495
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01595"
+SQ   SEQUENCE   743 AA;  82258 MW;  A7E47E1F8FDEB855 CRC64;
+     MLNVVSKTID LGDGRSIKIE TGKLAKQADG AVTVTMGNTV LLATVCAAKD ANPGCDFMPL
+     QVEYKEKYSA IGRFPGGFTR REGKASDYEI LTCRLVDRAL RPLFPDNYHA EVFVNVILFS
+     ADGEDMPDAL AGLAASAALA VSDIPFNGPI SEVRVARVDG RYIVNPTFEQ LERADIDLMV
+     GATMDNIMMV EGEMDEVQES EMLEGIRVAH EAIKVQCKAQ LELSEAVGKL QKREYSHEVN
+     DEDLRKKVHD ECYARAYEVA TSGTGKHERG EAFEKIVEEF KAQYTEEELA EKAEMIARYY
+     HDVEKEAMRR AILDEGKRLD GRKTTEIRPI WIETDCLPGP HGSAIFTRGE TQSLTTVTLG
+     TKSDEKLVDD VLNYTKERFL LHYNFPPFST GEARPQRGVG RREIGHGNLA HRALKRMIPT
+     DYPYVVRVIS DILESNGSSS MATVCAGTLA LRDAGVQIRK PVSGIAMGLI SENQGKNYAI
+     LSDILGDEDH LGDMDFKVTG TKDGITATQM DIKVDGLSYE ILENALEQAK QGRLHILGKI
+     MEAQPETRDD LKPHAPRIEK MHIGKEFIGA VIGPGGKIIQ GIQEKSGATV NIEEVDGMGV
+     IEISGTNKPC IDAAIGMIKG IVAMPEVGET YPGKITSVMP YGCFVEFLPG KEGLLHISEV
+     DWKRFETIED TNLKEGESIN VKLLDIDPKT GKFKLSRKVL LEKPEGYVEP QPRERRERRE
+     GGREGGRNFE RRGGDRDHRE PRG
+//

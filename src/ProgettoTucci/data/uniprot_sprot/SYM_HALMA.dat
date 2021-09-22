@@ -1,0 +1,137 @@
+ID   SYM_HALMA               Reviewed;         717 AA.
+AC   Q5V1B3;
+DT   05-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 1.
+DT   02-DEC-2020, entry version 100.
+DE   RecName: Full=Methionine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            EC=6.1.1.10 {ECO:0000255|HAMAP-Rule:MF_00098};
+DE   AltName: Full=Methionyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00098};
+DE            Short=MetRS {ECO:0000255|HAMAP-Rule:MF_00098};
+GN   Name=metG {ECO:0000255|HAMAP-Rule:MF_00098}; OrderedLocusNames=rrnAC1800;
+OS   Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM
+OS   B-1809) (Halobacterium marismortui).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Halobacteriales;
+OC   Haloarculaceae; Haloarcula.
+OX   NCBI_TaxID=272569;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809;
+RX   PubMed=15520287; DOI=10.1101/gr.2700304;
+RA   Baliga N.S., Bonneau R., Facciotti M.T., Pan M., Glusman G., Deutsch E.W.,
+RA   Shannon P., Chiu Y., Weng R.S., Gan R.R., Hung P., Date S.V., Marcotte E.,
+RA   Hood L., Ng W.V.;
+RT   "Genome sequence of Haloarcula marismortui: a halophilic archaeon from the
+RT   Dead Sea.";
+RL   Genome Res. 14:2221-2234(2004).
+CC   -!- FUNCTION: Is required not only for elongation of protein synthesis but
+CC       also for the initiation of all mRNA translation through initiator
+CC       tRNA(fMet) aminoacylation. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-methionine + tRNA(Met) = AMP + diphosphate + L-
+CC         methionyl-tRNA(Met); Xref=Rhea:RHEA:13481, Rhea:RHEA-COMP:9667,
+CC         Rhea:RHEA-COMP:9698, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57844, ChEBI:CHEBI:78442, ChEBI:CHEBI:78530,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00098};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00098};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00098};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       MetG type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00098}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY596297; AAV46690.1; -; Genomic_DNA.
+DR   RefSeq; WP_011223852.1; NZ_CP039138.1.
+DR   SMR; Q5V1B3; -.
+DR   STRING; 272569.rrnAC1800; -.
+DR   EnsemblBacteria; AAV46690; AAV46690; rrnAC1800.
+DR   GeneID; 40152744; -.
+DR   KEGG; hma:rrnAC1800; -.
+DR   PATRIC; fig|272569.17.peg.2472; -.
+DR   eggNOG; arCOG00810; Archaea.
+DR   HOGENOM; CLU_009710_7_0_2; -.
+DR   OMA; SDMHGTP; -.
+DR   Proteomes; UP000001169; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004825; F:methionine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006431; P:methionyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd07957; Anticodon_Ia_Met; 1.
+DR   CDD; cd00814; MetRS_core; 1.
+DR   CDD; cd02800; tRNA_bind_EcMetRS_like; 1.
+DR   Gene3D; 2.20.28.20; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00098; Met_tRNA_synth_type1; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR041872; Anticodon_Met.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR004495; Met-tRNA-synth_bsu_C.
+DR   InterPro; IPR023458; Met-tRNA_ligase_1.
+DR   InterPro; IPR014758; Met-tRNA_synth.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR033911; MetRS_core.
+DR   InterPro; IPR029038; MetRS_Zn.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002547; tRNA-bd_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   Pfam; PF01588; tRNA_bind; 1.
+DR   PRINTS; PR01041; TRNASYNTHMET.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF57770; SSF57770; 1.
+DR   TIGRFAMs; TIGR00398; metG; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50886; TRBD; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; RNA-binding;
+KW   tRNA-binding; Zinc.
+FT   CHAIN           1..717
+FT                   /note="Methionine--tRNA ligase"
+FT                   /id="PRO_0000139184"
+FT   DOMAIN          619..717
+FT                   /note="tRNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   MOTIF           19..29
+FT                   /note="'HIGH' region"
+FT   MOTIF           356..360
+FT                   /note="'KMSKS' region"
+FT   METAL           150
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           153
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           162
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   METAL           166
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+FT   BINDING         359
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00098"
+SQ   SEQUENCE   717 AA;  80359 MW;  34CF5D8E18BF1C51 CRC64;
+     MSNDEFPTDQ PAVVTCGLPY ANGDLHVGHL RTYVDGDALS RALRRIGQQT AFVSGSDMHG
+     TPVAVNAAEE GVAPREFALD FHETYAETFP QFNIEFDNYG HTDDETNVEL TQEFVRSWVE
+     NDHVHEKEIE VAWDTEEDQP LPDRYVEGTC PYCGEQARGD ECDEGCQRHL EPGEIEAPVS
+     TLTGNPAEYR TREHKFLRLA DFQEYLQGFL DRLEGTDNAQ NQPREWIEGE LQDLCITRDM
+     DWGVDYPEDV DGGDELVLYV WVDAPIEYVA STKQYTERVG DDEYDWEAVW KIDSEERHGT
+     EWDDEWADDS GEIIHVIGRD IIQHHAVFWP AMLRGAGYNE PRSILATGFV GIDGNALSTS
+     RNRAVWADEY LDAGFHPDLF RYYIATGAQI DTDVDFSWDR FQERVNGELV GNVGNFIYRS
+     LLFAERNYDG TPDAAVSDDV RGRIEDAIAD FEAAVREYDI RELAEIAIEL SNYGNEYIQR
+     NEPWNLVDDD PEEAEQVIRD CVQLTKAVAV LMQPVLPGKA ERLWGQLGEQ GSVADVTLDS
+     ALEAPPAEFG EPAELFEQVE DDHIEALNEE LQERVEEASE ASAEASNEGG EAAGDEVDDG
+     DVDTADLQPL VEDRISFEDF EGVDMRVGEI RSAEPVEGAD KLLRLEVDIG HEVRQVVAGL
+     RQLHDAEKLP GTRVILLANM EKAELFGIES NGMVLAAGDE ADLLTTHEDA PLGTRIK
+//

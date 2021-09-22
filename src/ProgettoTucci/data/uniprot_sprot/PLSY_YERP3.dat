@@ -1,0 +1,99 @@
+ID   PLSY_YERP3              Reviewed;         216 AA.
+AC   A7FE72;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   10-FEB-2021, entry version 77.
+DE   RecName: Full=Glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Acyl-PO4 G3P acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Acyl-phosphate--glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=G3P acyltransferase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=GPAT {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            EC=2.3.1.275 {ECO:0000255|HAMAP-Rule:MF_01043};
+DE   AltName: Full=Lysophosphatidic acid synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+DE            Short=LPA synthase {ECO:0000255|HAMAP-Rule:MF_01043};
+GN   Name=plsY {ECO:0000255|HAMAP-Rule:MF_01043};
+GN   OrderedLocusNames=YpsIP31758_0557;
+OS   Yersinia pseudotuberculosis serotype O:1b (strain IP 31758).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=349747;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP 31758;
+RX   PubMed=17784789; DOI=10.1371/journal.pgen.0030142;
+RA   Eppinger M., Rosovitz M.J., Fricke W.F., Rasko D.A., Kokorina G.,
+RA   Fayolle C., Lindler L.E., Carniel E., Ravel J.;
+RT   "The complete genome sequence of Yersinia pseudotuberculosis IP31758, the
+RT   causative agent of Far East scarlet-like fever.";
+RL   PLoS Genet. 3:1508-1523(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of an acyl group from acyl-phosphate
+CC       (acyl-PO(4)) to glycerol-3-phosphate (G3P) to form lysophosphatidic
+CC       acid (LPA). This enzyme utilizes acyl-phosphate as fatty acyl donor,
+CC       but not acyl-CoA or acyl-ACP. {ECO:0000255|HAMAP-Rule:MF_01043}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an acyl phosphate + sn-glycerol 3-phosphate = a 1-acyl-sn-
+CC         glycero-3-phosphate + phosphate; Xref=Rhea:RHEA:34075,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57597, ChEBI:CHEBI:57970,
+CC         ChEBI:CHEBI:59918; EC=2.3.1.275; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01043};
+CC   -!- PATHWAY: Lipid metabolism; phospholipid metabolism. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SUBUNIT: Probably interacts with PlsX. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   -!- SIMILARITY: Belongs to the PlsY family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01043}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000720; ABS48253.1; -; Genomic_DNA.
+DR   RefSeq; WP_002217581.1; NC_009708.1.
+DR   EnsemblBacteria; ABS48253; ABS48253; YpsIP31758_0557.
+DR   GeneID; 49784601; -.
+DR   GeneID; 57973977; -.
+DR   KEGG; ypi:YpsIP31758_0557; -.
+DR   HOGENOM; CLU_081254_0_2_6; -.
+DR   OMA; WRHRGNL; -.
+DR   UniPathway; UPA00085; -.
+DR   Proteomes; UP000002412; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043772; F:acyl-phosphate glycerol-3-phosphate acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01043; PlsY; 1.
+DR   InterPro; IPR003811; G3P_acylTferase_PlsY.
+DR   PANTHER; PTHR30309; PTHR30309; 1.
+DR   Pfam; PF02660; G3P_acyltransf; 1.
+DR   SMART; SM01207; G3P_acyltransf; 1.
+DR   TIGRFAMs; TIGR00023; TIGR00023; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Lipid biosynthesis; Lipid metabolism;
+KW   Membrane; Phospholipid biosynthesis; Phospholipid metabolism; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..216
+FT                   /note="Glycerol-3-phosphate acyltransferase"
+FT                   /id="PRO_1000064240"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        56..76
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+FT   TRANSMEM        138..158
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01043"
+SQ   SEQUENCE   216 AA;  23620 MW;  C32D5C0152D5578D CRC64;
+     MSAIALGMII FAYLCGSISS AILVCRVARL PDPRTHGSGN PGATNVLRIG GRTAAVAVLL
+     FDILKGMLPV WIAYLLHIPP LYLGLTAIAA CLGHIYPVFF HFKGGKGVAT AFGAIAPIGW
+     DLTGLMTGTW LLTVLLSGYS SLGAIVSALI APFYVWWFKP QFTFPVAMLS CLILMRHHDN
+     IQRLWRGKEG KIWDKLRKKK QKTPAEEAAE LEEKED
+//

@@ -1,0 +1,78 @@
+ID   VSX2_XANOR              Reviewed;         136 AA.
+AC   Q56829; Q5H5B0;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 2.
+DT   02-DEC-2020, entry version 114.
+DE   RecName: Full=XorII very short patch repair endonuclease;
+DE            EC=3.1.-.-;
+DE   AltName: Full=V.XorII;
+GN   Name=vsr; Synonyms=xorIIV; OrderedLocusNames=XOO0606;
+OS   Xanthomonas oryzae pv. oryzae (strain KACC10331 / KXO85).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=291331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=JW89011;
+RX   PubMed=8078464; DOI=10.1007/bf00286690;
+RA   Choi S.H., Leach J.E.;
+RT   "Identification of the XorII methyltransferase gene and a vsr homolog from
+RT   Xanthomonas oryzae pv. oryzae.";
+RL   Mol. Gen. Genet. 244:383-390(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KACC10331 / KXO85;
+RX   PubMed=15673718; DOI=10.1093/nar/gki206;
+RA   Lee B.-M., Park Y.-J., Park D.-S., Kang H.-W., Kim J.-G., Song E.-S.,
+RA   Park I.-C., Yoon U.-H., Hahn J.-H., Koo B.-S., Lee G.-B., Kim H.,
+RA   Park H.-S., Yoon K.-O., Kim J.-H., Jung C.-H., Koh N.-H., Seo J.-S.,
+RA   Go S.-J.;
+RT   "The genome sequence of Xanthomonas oryzae pathovar oryzae KACC10331, the
+RT   bacterial blight pathogen of rice.";
+RL   Nucleic Acids Res. 33:577-586(2005).
+CC   -!- FUNCTION: May nick XorII sequences that contain T:G mispairs resulting
+CC       from m5C-deamination. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the vsr family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAW73860.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U06424; AAA50431.1; -; Genomic_DNA.
+DR   EMBL; AE013598; AAW73860.1; ALT_INIT; Genomic_DNA.
+DR   PIR; S46292; S46292.
+DR   RefSeq; WP_011257516.1; NC_006834.1.
+DR   SMR; Q56829; -.
+DR   REBASE; 10810; V.XorKIP.
+DR   REBASE; 203804; V.Keu1446ORF816P.
+DR   REBASE; 3690; V.XorIIP.
+DR   EnsemblBacteria; AAW73860; AAW73860; XOO0606.
+DR   KEGG; xoo:XOO0606; -.
+DR   HOGENOM; CLU_111913_1_1_6; -.
+DR   BioCyc; XORY291331:G1FZV-670-MONOMER; -.
+DR   Proteomes; UP000006735; Chromosome.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009307; P:DNA restriction-modification system; IEA:UniProtKB-KW.
+DR   GO; GO:0006298; P:mismatch repair; IEA:InterPro.
+DR   CDD; cd00221; Vsr; 1.
+DR   InterPro; IPR004603; DNA_mismatch_endonuc_vsr.
+DR   InterPro; IPR011335; Restrct_endonuc-II-like.
+DR   Pfam; PF03852; Vsr; 1.
+DR   PIRSF; PIRSF018267; VSR_endonuc; 1.
+DR   SUPFAM; SSF52980; SSF52980; 1.
+DR   TIGRFAMs; TIGR00632; vsr; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA repair; Endonuclease; Hydrolase; Nuclease;
+KW   Reference proteome; Restriction system.
+FT   CHAIN           1..136
+FT                   /note="XorII very short patch repair endonuclease"
+FT                   /id="PRO_0000200293"
+FT   CONFLICT        36
+FT                   /note="G -> A (in Ref. 1; AAA50431)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   136 AA;  15884 MW;  0EE4EB51958D9E3B CRC64;
+     MTDRLSPERR RYLMQQVRSK NTRPEKAVRS LLHSIGYRFR LHRKDLPGTP DIVFPSRRLV
+     LFVHGCFWHG HGCRIGQLPK SRLDYWSPKI EANRARDQRK EAALAAEGWR VAVVWQCELS
+     DLGALEARLR NILDPS
+//

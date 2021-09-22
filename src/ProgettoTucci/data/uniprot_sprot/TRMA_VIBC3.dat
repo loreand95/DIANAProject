@@ -1,0 +1,121 @@
+ID   TRMA_VIBC3              Reviewed;         369 AA.
+AC   A5F4M4; C3M291;
+DT   26-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 84.
+DE   RecName: Full=tRNA/tmRNA (uracil-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            EC=2.1.1.- {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            EC=2.1.1.35 {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tRNA (uracil(54)-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tRNA(m5U54)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            Short=RUMT {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tmRNA (uracil(341)-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+GN   Name=trmA {ECO:0000255|HAMAP-Rule:MF_01011};
+GN   OrderedLocusNames=VC0395_A2367, VC395_0026;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39541 / Classical Ogawa 395 /
+OS   O395).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=345073;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RA   Heidelberg J.;
+RL   Submitted (MAR-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39541 / Classical Ogawa 395 / O395;
+RX   PubMed=19115014; DOI=10.1371/journal.pone.0004053;
+RA   Feng L., Reeves P.R., Lan R., Ren Y., Gao C., Zhou Z., Ren Y., Cheng J.,
+RA   Wang W., Wang J., Qian W., Li D., Wang L.;
+RT   "A recalibrated molecular clock and independent origins for the cholera
+RT   pandemic clones.";
+RL   PLoS ONE 3:E4053-E4053(2008).
+CC   -!- FUNCTION: Dual-specificity methyltransferase that catalyzes the
+CC       formation of 5-methyluridine at position 54 (m5U54) in all tRNAs, and
+CC       that of position 341 (m5U341) in tmRNA (transfer-mRNA).
+CC       {ECO:0000255|HAMAP-Rule:MF_01011}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(54) in tRNA = 5-
+CC         methyluridine(54) in tRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42712, Rhea:RHEA-COMP:10167, Rhea:RHEA-COMP:10193,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.35;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01011};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(341) in tmRNA = 5-
+CC         methyluridine(341) in tmRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:43612, Rhea:RHEA-COMP:10630, Rhea:RHEA-COMP:10631,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01011};
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA M5U methyltransferase family. TrmA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01011}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000627; ABQ21133.1; -; Genomic_DNA.
+DR   EMBL; CP001235; ACP08055.1; -; Genomic_DNA.
+DR   RefSeq; WP_000212218.1; NZ_JAACZH010000014.1.
+DR   SMR; A5F4M4; -.
+DR   STRING; 345073.VC395_0026; -.
+DR   EnsemblBacteria; ABQ21133; ABQ21133; VC0395_A2367.
+DR   GeneID; 57741352; -.
+DR   KEGG; vco:VC0395_A2367; -.
+DR   KEGG; vcr:VC395_0026; -.
+DR   PATRIC; fig|345073.21.peg.27; -.
+DR   eggNOG; COG2265; Bacteria.
+DR   HOGENOM; CLU_043022_0_0_6; -.
+DR   OMA; DHMESGV; -.
+DR   Proteomes; UP000000249; Chromosome 2.
+DR   GO; GO:0030697; F:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01011; RNA_methyltr_TrmA; 1.
+DR   InterPro; IPR030390; MeTrfase_TrmA_AS.
+DR   InterPro; IPR030391; MeTrfase_TrmA_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR011869; TrmA_MeTrfase.
+DR   InterPro; IPR010280; U5_MeTrfase_fam.
+DR   PANTHER; PTHR47790; PTHR47790; 1.
+DR   Pfam; PF05958; tRNA_U5-meth_tr; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR02143; trmA_only; 1.
+DR   PROSITE; PS51687; SAM_MT_RNA_M5U; 1.
+DR   PROSITE; PS01230; TRMA_1; 1.
+DR   PROSITE; PS01231; TRMA_2; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..369
+FT                   /note="tRNA/tmRNA (uracil-C(5))-methyltransferase"
+FT                   /id="PRO_1000072916"
+FT   ACT_SITE        326
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   ACT_SITE        360
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         190
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         218
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         223
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         239
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         301
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+SQ   SEQUENCE   369 AA;  42578 MW;  17FAFC2E65D0F853 CRC64;
+     MATLDVNPEL YQAQLADKIA RLKAMFVDYS MPELEVFESP VANYRMRAEF RIWHEGDDMY
+     YIMFNQETRE KYRVDQFPAA SRLINDLMPL LMDAMKGSPI LRHKLFQVDF LSTLSGEILV
+     SLLYHRQLSE EWITAAQALK QRLNDEGFNL NLIGRARKMK VVLDRDYVVE NLQVNGQPYV
+     YKQVENSFTQ PNAKVAEKML EWAVDCTQES KGDLLELYCG NGNFSLALAQ NFERVLATEL
+     AKPSVEAAQF NIAANQIGNV QIIRMSAEEF TQAMEGKREF NRLKDAGVDL QSYRCNTIFV
+     DPPRSGMDID TCKMVQGYER ILYISCNPET LQENLQVLGE THQVVRFALF DQFPYTHHME
+     AGVMLERKK
+//

@@ -1,0 +1,139 @@
+ID   GLYA_CHLTB              Reviewed;         497 AA.
+AC   B0BC69;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   07-APR-2021, entry version 76.
+DE   RecName: Full=Serine hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=SHMT {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            Short=Serine methylase {ECO:0000255|HAMAP-Rule:MF_00051};
+DE            EC=2.1.2.1 {ECO:0000255|HAMAP-Rule:MF_00051};
+GN   Name=glyA {ECO:0000255|HAMAP-Rule:MF_00051}; OrderedLocusNames=CTLon_0687;
+OS   Chlamydia trachomatis serovar L2b (strain UCH-1/proctitis).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=471473;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCH-1/proctitis;
+RX   PubMed=18032721; DOI=10.1101/gr.7020108;
+RA   Thomson N.R., Holden M.T.G., Carder C., Lennard N., Lockey S.J., Marsh P.,
+RA   Skipp P., O'Connor C.D., Goodhead I., Norbertzcak H., Harris B., Ormond D.,
+RA   Rance R., Quail M.A., Parkhill J., Stephens R.S., Clarke I.N.;
+RT   "Chlamydia trachomatis: genome sequence analysis of lymphogranuloma
+RT   venereum isolates.";
+RL   Genome Res. 18:161-171(2008).
+CC   -!- FUNCTION: Catalyzes the reversible interconversion of serine and
+CC       glycine with tetrahydrofolate (THF) serving as the one-carbon carrier.
+CC       This reaction serves as the major source of one-carbon groups required
+CC       for the biosynthesis of purines, thymidylate, methionine, and other
+CC       important biomolecules. Also exhibits THF-independent aldolase activity
+CC       toward beta-hydroxyamino acids, producing glycine and aldehydes, via a
+CC       retro-aldol mechanism. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + glycine + H2O =
+CC         (6S)-5,6,7,8-tetrahydrofolate + L-serine; Xref=Rhea:RHEA:15481,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15636, ChEBI:CHEBI:33384,
+CC         ChEBI:CHEBI:57305, ChEBI:CHEBI:57453; EC=2.1.2.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00051};
+CC   -!- PATHWAY: One-carbon metabolism; tetrahydrofolate interconversion.
+CC       {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; glycine biosynthesis; glycine from L-
+CC       serine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00051}.
+CC   -!- SIMILARITY: Belongs to the SHMT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00051}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM884177; CAP07084.1; -; Genomic_DNA.
+DR   RefSeq; WP_009873807.1; NC_010280.2.
+DR   SMR; B0BC69; -.
+DR   KEGG; ctl:CTLon_0687; -.
+DR   HOGENOM; CLU_022477_2_1_0; -.
+DR   OMA; PLEHIIA; -.
+DR   UniPathway; UPA00193; -.
+DR   UniPathway; UPA00288; UER01023.
+DR   Proteomes; UP000000794; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004372; F:glycine hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019264; P:glycine biosynthetic process from serine; IEA:UniProtKB-UniRule.
+DR   GO; GO:0035999; P:tetrahydrofolate interconversion; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00378; SHMT; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00051; SHMT; 1.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR001085; Ser_HO-MeTrfase.
+DR   InterPro; IPR019798; Ser_HO-MeTrfase_PLP_BS.
+DR   InterPro; IPR039429; SHMT-like_dom.
+DR   PANTHER; PTHR11680; PTHR11680; 1.
+DR   Pfam; PF00464; SHMT; 2.
+DR   PIRSF; PIRSF000412; SHMT; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00096; SHMT; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; One-carbon metabolism;
+KW   Pyridoxal phosphate; Transferase.
+FT   CHAIN           1..497
+FT                   /note="Serine hydroxymethyltransferase"
+FT                   /id="PRO_1000091528"
+FT   REGION          180..182
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         59
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         79
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         81
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         89
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         176
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         232
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         260
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         288
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         295
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         319
+FT                   /note="Pyridoxal phosphate; via amide nitrogen and carbonyl
+FT                   oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   BINDING         419
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+FT   MOD_RES         289
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00051"
+SQ   SEQUENCE   497 AA;  54249 MW;  C1DC9DCA17C2C533 CRC64;
+     MASLLDRYLR NISDKSQQNL ASVAYLASLD HLLHAFPSIG QSIVQELKSQ RSRLKMIASE
+     NFSSLSVQLA MGNLLTDKYC EGSPFKRFYS CCENVDAIEW ECAETAKELF GAESAFVQPH
+     SGADANLLAI MSIITQKIQS PAVQQLGYKT INDLPEQEYE ALKAEMAQHK CLGPSLNSGG
+     HLTHGTVRMN IMSKLMHCLP YEVNLDTELF DYDEIAKIAK EHKPTVLIAG YSSYSRRFNF
+     ATLKQIAEDC GAVLWVDMAH FAGLVAGGVF VGEENPMPYA DIVTTTTHKT LRGPRGGLVL
+     AKKEYANTLN KACPLMMGGP LPHVIAAKAI ALKEAMTINF RKYAHKVVEN AQTLAEVFQR
+     NGLRLLTGGT DNHMLIIDLT SLGVPGRIAE DMLTSVGIAV NRNTIPSDAS GQWKTSGIRL
+     GTPALTTLGM GSAEMEEVAN IIVKVLRNIT VRSNAESGSS KSEGELSEGI AQEARQRVAD
+     LLGRFPLYPE IDLETLV
+//

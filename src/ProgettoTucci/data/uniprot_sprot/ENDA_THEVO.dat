@@ -1,0 +1,87 @@
+ID   ENDA_THEVO              Reviewed;         292 AA.
+AC   Q97BQ3;
+DT   11-OCT-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   10-FEB-2021, entry version 96.
+DE   RecName: Full=tRNA-splicing endonuclease {ECO:0000255|HAMAP-Rule:MF_01834};
+DE            EC=4.6.1.16 {ECO:0000255|HAMAP-Rule:MF_01834};
+DE   AltName: Full=tRNA-intron endonuclease {ECO:0000255|HAMAP-Rule:MF_01834};
+GN   Name=endA {ECO:0000255|HAMAP-Rule:MF_01834}; OrderedLocusNames=TV0402;
+GN   ORFNames=TVG0390826;
+OS   Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC
+OS   15438 / GSS1).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1;
+RX   PubMed=11121031; DOI=10.1073/pnas.97.26.14257;
+RA   Kawashima T., Amano N., Koike H., Makino S., Higuchi S., Kawashima-Ohya Y.,
+RA   Watanabe K., Yamazaki M., Kanehori K., Kawamoto T., Nunoshiba T.,
+RA   Yamamoto Y., Aramaki H., Makino K., Suzuki M.;
+RT   "Archaeal adaptation to higher temperatures revealed by genomic sequence of
+RT   Thermoplasma volcanium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:14257-14262(2000).
+CC   -!- FUNCTION: Endonuclease that removes tRNA introns. Cleaves pre-tRNA at
+CC       the 5'- and 3'-splice sites to release the intron. The products are an
+CC       intron and two tRNA half-molecules bearing 2',3' cyclic phosphate and
+CC       5'-OH termini. Recognizes a pseudosymmetric substrate in which 2 bulged
+CC       loops of 3 bases are separated by a stem of 4 bp (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=PretRNA = a 3'-half-tRNA molecule with a 5'-OH end + a 5'-
+CC         half-tRNA molecule with a 2',3'-cyclic phosphate end + an intron with
+CC         a 2',3'-cyclic phosphate and a 5'-hydroxyl terminus.; EC=4.6.1.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01834};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01834}.
+CC   -!- SIMILARITY: Belongs to the tRNA-intron endonuclease family. Archaeal
+CC       long subfamily. {ECO:0000255|HAMAP-Rule:MF_01834}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000011; BAB59544.1; -; Genomic_DNA.
+DR   RefSeq; WP_010916658.1; NC_002689.2.
+DR   SMR; Q97BQ3; -.
+DR   STRING; 273116.14324617; -.
+DR   EnsemblBacteria; BAB59544; BAB59544; BAB59544.
+DR   GeneID; 1440916; -.
+DR   KEGG; tvo:TVG0390826; -.
+DR   eggNOG; arCOG01701; Archaea.
+DR   HOGENOM; CLU_965070_0_0_2; -.
+DR   OMA; PYECLYL; -.
+DR   OrthoDB; 110254at2157; -.
+DR   Proteomes; UP000001017; Chromosome.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0000213; F:tRNA-intron endonuclease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006388; P:tRNA splicing, via endonucleolytic cleavage and ligation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.1350.10; -; 1.
+DR   HAMAP; MF_01834; EndA_long; 1.
+DR   InterPro; IPR011856; tRNA_endonuc-like_dom_sf.
+DR   InterPro; IPR036167; tRNA_intron_Endo_cat-like_sf.
+DR   InterPro; IPR006677; tRNA_intron_Endonuc_cat-like.
+DR   InterPro; IPR006676; tRNA_splic.
+DR   InterPro; IPR023516; tRNA_splic_arch_long.
+DR   Pfam; PF01974; tRNA_int_endo; 1.
+DR   SUPFAM; SSF53032; SSF53032; 1.
+DR   TIGRFAMs; TIGR00324; endA; 1.
+PE   3: Inferred from homology;
+KW   Lyase; tRNA processing.
+FT   CHAIN           1..292
+FT                   /note="tRNA-splicing endonuclease"
+FT                   /id="PRO_0000109491"
+FT   ACT_SITE        231
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01834"
+FT   ACT_SITE        238
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01834"
+FT   ACT_SITE        267
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01834"
+SQ   SEQUENCE   292 AA;  33923 MW;  CC93607C8E2966E1 CRC64;
+     MSDGLCNGIS FNVSEGHGPN YIVGRYKLGF VQQGILFLDP YECLYLYFKG RITFEDSEES
+     ALKKLFSITS VERYTAYTLL KNKGYRVHED NGTIFFRKST EIPRSVVVVR EYDEIDVGKF
+     FTERPDFYFT VDEEGDATIY RIDEIDIKGT ENNKIGKCSV TDFGDRHFTK DDLPHWMGTK
+     FHEYRMLTDF EANLIEGKEP KGMAEEVYRD LLSRGCIVKT GFKYGTNFRV YEGEKSEHAE
+     YLVSVVENKL IWYYISRAVR VASSVRKKMI FTTIIDGKIK YIMISRSKDI VI
+//

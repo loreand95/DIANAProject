@@ -1,0 +1,110 @@
+ID   GET1_ASHGO              Reviewed;         205 AA.
+AC   Q754R6;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-NOV-2009, sequence version 2.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Golgi to ER traffic protein 1 {ECO:0000255|HAMAP-Rule:MF_03113};
+DE   AltName: Full=Guided entry of tail-anchored proteins 1 {ECO:0000255|HAMAP-Rule:MF_03113};
+GN   Name=GET1 {ECO:0000255|HAMAP-Rule:MF_03113}; OrderedLocusNames=AFR006C;
+OS   Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)
+OS   (Yeast) (Eremothecium gossypii).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Eremothecium.
+OX   NCBI_TaxID=284811;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=15001715; DOI=10.1126/science.1095781;
+RA   Dietrich F.S., Voegeli S., Brachat S., Lerch A., Gates K., Steiner S.,
+RA   Mohr C., Poehlmann R., Luedi P., Choi S., Wing R.A., Flavier A.,
+RA   Gaffney T.D., Philippsen P.;
+RT   "The Ashbya gossypii genome as a tool for mapping the ancient Saccharomyces
+RT   cerevisiae genome.";
+RL   Science 304:304-307(2004).
+RN   [2]
+RP   GENOME REANNOTATION.
+RC   STRAIN=ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056;
+RX   PubMed=23749448; DOI=10.1534/g3.112.002881;
+RA   Dietrich F.S., Voegeli S., Kuo S., Philippsen P.;
+RT   "Genomes of Ashbya fungi isolated from insects reveal four mating-type
+RT   loci, numerous translocations, lack of transposons, and distinct gene
+RT   duplications.";
+RL   G3 (Bethesda) 3:1225-1239(2013).
+CC   -!- FUNCTION: Required for the post-translational delivery of tail-anchored
+CC       (TA) proteins to the endoplasmic reticulum. Together with GET2, acts as
+CC       a membrane receptor for soluble GET3, which recognizes and selectively
+CC       binds the transmembrane domain of TA proteins in the cytosol. The GET
+CC       complex cooperates with the HDEL receptor ERD2 to mediate the ATP-
+CC       dependent retrieval of resident ER proteins that contain a C-terminal
+CC       H-D-E-L retention signal from the Golgi to the ER. {ECO:0000255|HAMAP-
+CC       Rule:MF_03113}.
+CC   -!- SUBUNIT: Component of the Golgi to ER traffic (GET) complex, which is
+CC       composed of GET1, GET2 and GET3. {ECO:0000255|HAMAP-Rule:MF_03113}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_03113}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03113}. Golgi apparatus membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_03113}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_03113}.
+CC   -!- SIMILARITY: Belongs to the WRB/GET1 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_03113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016819; AAS53377.1; -; Genomic_DNA.
+DR   RefSeq; NP_985553.1; NM_210907.1.
+DR   SMR; Q754R6; -.
+DR   STRING; 33169.AAS53377; -.
+DR   GeneID; 4621792; -.
+DR   KEGG; ago:AGOS_AFR006C; -.
+DR   eggNOG; KOG4253; Eukaryota.
+DR   InParanoid; Q754R6; -.
+DR   Proteomes; UP000000591; Chromosome VI.
+DR   GO; GO:0005789; C:endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043529; C:GET complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000139; C:Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0071816; P:tail-anchored membrane protein insertion into ER membrane; IEA:InterPro.
+DR   GO; GO:0016192; P:vesicle-mediated transport; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.287.660; -; 1.
+DR   HAMAP; MF_03113; Get1; 1.
+DR   InterPro; IPR028945; Get1.
+DR   InterPro; IPR027538; Get1_fungi.
+DR   InterPro; IPR029012; Helix_hairpin_bin_sf.
+DR   Pfam; PF04420; CHD5; 1.
+PE   3: Inferred from homology;
+KW   Coiled coil; Endoplasmic reticulum; ER-Golgi transport; Golgi apparatus;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..205
+FT                   /note="Golgi to ER traffic protein 1"
+FT                   /id="PRO_0000388574"
+FT   TOPO_DOM        1..3
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TOPO_DOM        25..96
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TRANSMEM        97..117
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TOPO_DOM        118..156
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TRANSMEM        157..173
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   TOPO_DOM        174..205
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+FT   COILED          32..96
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03113"
+SQ   SEQUENCE   205 AA;  23342 MW;  D1CF9E117B22ED6F CRC64;
+     MDYWILLVLA FLVADKSWHL TGLLATKLTS PERLQQLIRE RQELHQQQQS LSAQDHYAKW
+     TKNNRRLDVL DRDIARVRKN YLESVEATKA RLAKLKLLVV TVPFTALKFY KGKLPVYALP
+     KGMFPRFIEG TLEHGWLYMA LAPLNMKQFS EGASVAVSLG IWLFALLRVL GAIEFVLETL
+     REQNPQVATE TAKVHARTAQ AASAN
+//

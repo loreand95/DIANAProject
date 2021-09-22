@@ -1,0 +1,112 @@
+ID   PUR9_TOLAT              Reviewed;         530 AA.
+AC   C4LA41;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUL-2009, sequence version 1.
+DT   02-DEC-2020, entry version 66.
+DE   RecName: Full=Bifunctional purine biosynthesis protein PurH {ECO:0000255|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE              EC=2.1.2.3 {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=AICAR transformylase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=IMP cyclohydrolase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE              EC=3.5.4.10 {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=ATIC {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=IMP synthase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=Inosinicase {ECO:0000255|HAMAP-Rule:MF_00139};
+GN   Name=purH {ECO:0000255|HAMAP-Rule:MF_00139}; OrderedLocusNames=Tola_0541;
+OS   Tolumonas auensis (strain DSM 9187 / TA4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales;
+OC   Aeromonadaceae; Tolumonas.
+OX   NCBI_TaxID=595494;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 9187 / TA4;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Tice H., Bruce D.,
+RA   Goodwin L., Pitluck S., Chertkov O., Brettin T., Detter J.C., Han C.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Spring S.,
+RA   Beller H.;
+RT   "Complete sequence of Tolumonas auensis DSM 9187.";
+RL   Submitted (MAY-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-10-formyltetrahydrofolate + 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide = (6S)-5,6,7,8-tetrahydrofolate + 5-
+CC         formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
+CC         Xref=Rhea:RHEA:22192, ChEBI:CHEBI:57453, ChEBI:CHEBI:57454,
+CC         ChEBI:CHEBI:58467, ChEBI:CHEBI:58475; EC=2.1.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00139};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IMP = 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-
+CC         carboxamide; Xref=Rhea:RHEA:18445, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58467; EC=3.5.4.10;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00139};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-
+CC       1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (10-formyl THF route):
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; IMP
+CC       from 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide: step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- DOMAIN: The IMP cyclohydrolase activity resides in the N-terminal
+CC       region. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- SIMILARITY: Belongs to the PurH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001616; ACQ92170.1; -; Genomic_DNA.
+DR   RefSeq; WP_012728769.1; NC_012691.1.
+DR   SMR; C4LA41; -.
+DR   STRING; 595494.Tola_0541; -.
+DR   EnsemblBacteria; ACQ92170; ACQ92170; Tola_0541.
+DR   KEGG; tau:Tola_0541; -.
+DR   eggNOG; COG0138; Bacteria.
+DR   HOGENOM; CLU_016316_5_2_6; -.
+DR   OMA; WRVAKFV; -.
+DR   OrthoDB; 1049662at2; -.
+DR   UniPathway; UPA00074; UER00133.
+DR   UniPathway; UPA00074; UER00135.
+DR   Proteomes; UP000009073; Chromosome.
+DR   GO; GO:0003937; F:IMP cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004643; F:phosphoribosylaminoimidazolecarboxamide formyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.140.20; -; 2.
+DR   Gene3D; 3.40.50.1380; -; 1.
+DR   HAMAP; MF_00139; PurH; 1.
+DR   InterPro; IPR024051; AICAR_Tfase_dup_dom_sf.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR002695; PurH-like.
+DR   PANTHER; PTHR11692; PTHR11692; 1.
+DR   Pfam; PF01808; AICARFT_IMPCHas; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PIRSF; PIRSF000414; AICARFT_IMPCHas; 1.
+DR   SMART; SM00798; AICARFT_IMPCHas; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF52335; SSF52335; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00355; purH; 1.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Multifunctional enzyme; Purine biosynthesis; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..530
+FT                   /note="Bifunctional purine biosynthesis protein PurH"
+FT                   /id="PRO_1000203255"
+FT   DOMAIN          1..148
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01202"
+SQ   SEQUENCE   530 AA;  57280 MW;  666614F6C764A14B CRC64;
+     MENARPIRRA LLSVSDKTGI VEFARALQQR GVELLSTGGT ARLLADAGLA VTEVSDYTGF
+     PEMMDGRVKT LHPKVHGGIL GRRNTDDAIM TQHGIKPIDL VAVNLYPFAA TVANPDCALE
+     DAIENIDIGG PTMVRSAAKN HKDVTIVVNA KDYTRVLAEM DANANSLTYT TRFDLAIAAF
+     EHTAAYDGMI ANYFGTKVPT YGVQDEASAD SKFPRTINFQ FIKKQDMRYG ENSHQAAAFY
+     VEADVKEASV STATQLQGKA LSYNNIADTD AALECVKEFA EPACVIVKHA NPCGVALGND
+     ILEAYNRAYQ TDPTSAFGGI IAFNRELDAA TAEAIVSRQF VEVIIAPVVS EEAKAVVAKK
+     ANVRLLECGQ WQGKANGFDV KRVNGGLLVQ DRDQGMVTLT DLKVVTKRQP TEQELKDLLF
+     CWKVGKFVKS NAIVYAKDSM TIGVGAGQMS RVYSAKIAGI KAADEGLEVK GSVMASDAFF
+     PFRDGIDAAA EAGITCVIQP GGSMRDQEVI DAADEHGMAM VFTNMRHFRH
+//

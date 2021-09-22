@@ -1,0 +1,79 @@
+ID   VAPC_RICBR              Reviewed;         134 AA.
+AC   Q1RHR2;
+DT   04-MAR-2015, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   10-FEB-2021, entry version 83.
+DE   RecName: Full=Ribonuclease VapC {ECO:0000303|PubMed:22046301};
+DE            Short=RNase VapC {ECO:0000305};
+DE            EC=3.1.-.- {ECO:0000305};
+DE   AltName: Full=Toxin VapC {ECO:0000303|PubMed:22046301};
+GN   Name=vapC {ECO:0000305}; Synonyms=vapC1 {ECO:0000303|PubMed:22046301};
+GN   OrderedLocusNames=RBE_1021;
+OS   Rickettsia bellii (strain RML369-C).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; belli group.
+OX   NCBI_TaxID=336407;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RML369-C;
+RX   PubMed=16703114; DOI=10.1371/journal.pgen.0020076;
+RA   Ogata H., La Scola B., Audic S., Renesto P., Blanc G., Robert C.,
+RA   Fournier P.-E., Claverie J.-M., Raoult D.;
+RT   "Genome sequence of Rickettsia bellii illuminates the role of amoebae in
+RT   gene exchanges between intracellular pathogens.";
+RL   PLoS Genet. 2:733-744(2006).
+RN   [2]
+RP   FUNCTION, AND EXPRESSION IN MOUSE.
+RC   STRAIN=RML369-C;
+RX   PubMed=22046301; DOI=10.1371/journal.pone.0026528;
+RA   Audoly G., Vincentelli R., Edouard S., Georgiades K., Mediannikov O.,
+RA   Gimenez G., Socolovschi C., Mege J.L., Cambillau C., Raoult D.;
+RT   "Effect of rickettsial toxin VapC on its eukaryotic host.";
+RL   PLoS ONE 6:E26528-E26528(2011).
+CC   -!- FUNCTION: Toxic component of a type II toxin-antitoxin (TA) system. Has
+CC       ssRNase activity. Its RNase activity is partially neutralized by
+CC       cognate antitoxin VapB. Rapidly induces apoptosis upon microinjection
+CC       into mouse fibroblasts (L929 line). Probably contributes to host cell
+CC       death if bacterial cell lysis occurs during host infection.
+CC       {ECO:0000269|PubMed:22046301}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:O66399};
+CC   -!- SIMILARITY: Belongs to the PINc/VapC protein family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000087; ABE05102.1; -; Genomic_DNA.
+DR   RefSeq; WP_011477680.1; NC_007940.1.
+DR   SMR; Q1RHR2; -.
+DR   STRING; 336407.RBE_1021; -.
+DR   EnsemblBacteria; ABE05102; ABE05102; RBE_1021.
+DR   KEGG; rbe:RBE_1021; -.
+DR   eggNOG; COG1487; Bacteria.
+DR   HOGENOM; CLU_118482_7_0_5; -.
+DR   OMA; QAYISPI; -.
+DR   OrthoDB; 1968541at2; -.
+DR   BioCyc; RBEL336407:G1G4P-1474-MONOMER; -.
+DR   Proteomes; UP000001951; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004518; F:nuclease activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR029060; PIN-like_dom_sf.
+DR   InterPro; IPR002716; PIN_dom.
+DR   Pfam; PF01850; PIN; 1.
+DR   SUPFAM; SSF88723; SSF88723; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Metal-binding; Nuclease; Toxin-antitoxin system.
+FT   CHAIN           1..134
+FT                   /note="Ribonuclease VapC"
+FT                   /id="PRO_0000432235"
+FT   DOMAIN          4..124
+FT                   /note="PINc"
+FT   METAL           6
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:O66399"
+SQ   SEQUENCE   134 AA;  15280 MW;  1B8D861CD6529B4E CRC64;
+     MGLIVDTSII IALERGKIST KAWSNYDQAY INPIVLTELL IGIDRVKDEN KRGQCLTFIE
+     YVKSLFTLLP FGIEEAYVYA KIIDNLYKER ITIGVHDLLI AATAITYNYP ILTLNTKDFK
+     RIPELEVLTV PLKD
+//

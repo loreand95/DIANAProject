@@ -1,0 +1,80 @@
+ID   GSPJ_KLEPN              Reviewed;         198 AA.
+AC   P15749;
+DT   01-APR-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1990, sequence version 1.
+DT   07-OCT-2020, entry version 77.
+DE   RecName: Full=Type II secretion system protein J;
+DE            Short=T2SS protein J;
+DE   AltName: Full=General secretion pathway protein J;
+DE   AltName: Full=Pullulanase secretion protein PulJ;
+DE   Flags: Precursor;
+GN   Name=pulJ;
+OS   Klebsiella pneumoniae.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Klebsiella.
+OX   NCBI_TaxID=573;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=UNF 5023;
+RX   PubMed=2129543; DOI=10.1007/bf00633815;
+RA   Reyss I., Pugsley A.P.;
+RT   "Five additional genes in the pulC-O operon of the Gram-negative bacterium
+RT   Klebsiella oxytoca UNF5023 which are required for pullulanase secretion.";
+RL   Mol. Gen. Genet. 222:176-184(1990).
+CC   -!- FUNCTION: Component of the type II secretion system required for the
+CC       energy-dependent secretion of extracellular factors such as proteases
+CC       and toxins from the periplasm. Part of the pseudopilus tip complex that
+CC       is critical for the recognition and binding of secretion substrates.
+CC       {ECO:0000250|UniProtKB:Q00517}.
+CC   -!- SUBUNIT: Type II secretion is composed of four main components: the
+CC       outer membrane complex, the inner membrane complex, the cytoplasmic
+CC       secretion ATPase and the periplasm-spanning pseudopilus. Interacts with
+CC       core component PulG. {ECO:0000250|UniProtKB:Q00517}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:Q00517}; Single-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- PTM: Cleaved by prepilin peptidase. {ECO:0000250|UniProtKB:Q00517}.
+CC   -!- PTM: Methylated by prepilin peptidase at the amino group of the N-
+CC       terminal phenylalanine once the leader sequence is cleaved by prepilin
+CC       peptidase. {ECO:0000250|UniProtKB:Q00517}.
+CC   -!- SIMILARITY: Belongs to the GSP J family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M32613; AAA25132.1; -; Genomic_DNA.
+DR   SMR; P15749; -.
+DR   TCDB; 3.A.15.1.1; the outer membrane protein secreting main terminal branch (mtb) family.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015627; C:type II protein secretion system complex; IEA:InterPro.
+DR   GO; GO:0015628; P:protein secretion by the type II secretion system; IEA:InterPro.
+DR   InterPro; IPR012902; N_methyl_site.
+DR   InterPro; IPR010055; T2SS_protein-GspJ.
+DR   Pfam; PF07963; N_methyl; 1.
+DR   Pfam; PF11612; T2SSJ; 1.
+DR   TIGRFAMs; TIGR01711; gspJ; 1.
+DR   TIGRFAMs; TIGR02532; IV_pilin_GFxxxE; 1.
+DR   PROSITE; PS00409; PROKAR_NTER_METHYL; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; Methylation;
+KW   Protein transport; Transmembrane; Transmembrane helix; Transport.
+FT   PROPEP          1..7
+FT                   /note="Leader sequence"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01070"
+FT                   /id="PRO_0000024254"
+FT   CHAIN           8..198
+FT                   /note="Type II secretion system protein J"
+FT                   /id="PRO_0000024255"
+FT   TRANSMEM        8..28
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   MOD_RES         8
+FT                   /note="N-methylphenylalanine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01070"
+SQ   SEQUENCE   198 AA;  22206 MW;  956977D5EF4E410D CRC64;
+     MIRRSSGFTL VEMLLALAIL AALSVAAVTV LQNVMRADTL TRDKSGRMQA LQQTFSQMAA
+     DFSQIIPRRS RDSASLFFAG RFQLGSDDGA IAFSRNGWPN PLGLLPRSEI QNVSYRLRGS
+     QLERLNYDQQ DPLPGSQPTV TIVLRDVRAF GLRFYASGRW QDEWQQAQTL PQGLEVTLTL
+     EPYGEIRRLF LLTPGDSR
+//

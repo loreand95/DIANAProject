@@ -1,0 +1,78 @@
+ID   CKR1A_CONRO             Reviewed;         103 AA.
+AC   P0DKY9;
+DT   03-APR-2013, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2013, sequence version 1.
+DT   22-APR-2020, entry version 14.
+DE   RecName: Full=Conantokin R1-A {ECO:0000303|PubMed:20572027};
+DE            Short=Con R1-A {ECO:0000305};
+DE            Short=ConRl-A {ECO:0000303|PubMed:20572027};
+DE   Flags: Precursor;
+OS   Conus rolani (Cone snail).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Asprella.
+OX   NCBI_TaxID=745791;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], SYNTHESIS OF 80-103, FUNCTION, CIRCULAR
+RP   DICHROISM ANALYSIS, AND GAMMA-CARBOXYGLUTAMATION AT GLU-82; GLU-83 AND
+RP   GLU-89.
+RX   PubMed=20572027; DOI=10.1002/psc.1249;
+RA   Gowd K.H., Watkins M., Twede V.D., Bulaj G.W., Olivera B.M.;
+RT   "Characterization of conantokin Rl-A: molecular phylogeny as
+RT   structure/function study.";
+RL   J. Pept. Sci. 16:375-382(2010).
+CC   -!- FUNCTION: Conantokins inhibit N-methyl-D-aspartate (NMDA) receptors.
+CC       This toxin has the highest potency for the NR2B/GRIN2B subunit
+CC       (IC(50)=0.11 uM), followed by NR2D/GRIN2D (IC(50)=0.48 uM), NR2A/GRIN2A
+CC       (IC(50)=2.1 uM), and NR2C/GRIN2C (IC(50)=6.1 uM) subunits when tested
+CC       on rat receptors. {ECO:0000269|PubMed:20572027}.
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:P58806};
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P58806};
+CC       Note=Divalent cations stabilize the toxin the in alpha-helix
+CC       conformation. {ECO:0000250|UniProtKB:P58806};
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:20572027}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:20572027}.
+CC   -!- MISCELLANEOUS: The mature peptide does not contain cysteine residue.
+CC       {ECO:0000305}.
+CC   -!- MISCELLANEOUS: The synthetic peptide exists as two interconvertible
+CC       conformers. {ECO:0000305|PubMed:20572027}.
+CC   -!- SIMILARITY: Belongs to the conotoxin B superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   ConoServer; 5842; conantokin-Rl1.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0035792; C:host cell postsynaptic membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Gamma-carboxyglutamic acid; Ion channel impairing toxin;
+KW   Ionotropic glutamate receptor inhibitor; Neurotoxin;
+KW   Postsynaptic neurotoxin; Secreted; Signal; Toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..79
+FT                   /evidence="ECO:0000305|PubMed:20572027"
+FT                   /id="PRO_0000421892"
+FT   PEPTIDE         80..103
+FT                   /note="Conantokin R1-A"
+FT                   /evidence="ECO:0000305|PubMed:20572027"
+FT                   /id="PRO_0000421893"
+FT   MOD_RES         82
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07231,
+FT                   ECO:0000305|PubMed:20572027"
+FT   MOD_RES         83
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07231,
+FT                   ECO:0000305|PubMed:20572027"
+FT   MOD_RES         89
+FT                   /note="4-carboxyglutamate"
+FT                   /evidence="ECO:0000305|PubMed:20572027"
+SQ   SEQUENCE   103 AA;  11759 MW;  FB9D74E31DD74387 CRC64;
+     MQLYTYLYLL VPLVTFHLIL GTGTLDHGGA LTERRSTDAT ALKPEPVLQK SAARSTDDNG
+     KDRLTQMKRI LKKRGNNPRA DEEYLKFIEE QRKQGKLDPT KFP
+//

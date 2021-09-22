@@ -1,0 +1,95 @@
+ID   LDHD_LACPE              Reviewed;         332 AA.
+AC   P26298;
+DT   01-MAY-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1992, sequence version 1.
+DT   10-FEB-2021, entry version 93.
+DE   RecName: Full=D-lactate dehydrogenase;
+DE            Short=D-LDH;
+DE            EC=1.1.1.28;
+DE   AltName: Full=D-specific 2-hydroxyacid dehydrogenase;
+OS   Lactobacillus pentosus.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+OC   Lactiplantibacillus.
+OX   NCBI_TaxID=1589;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 8041 / DSM 20314 / JCM 1558 / NCDO 363 / NCIMB 8026;
+RX   PubMed=1840590;
+RA   Ohta T., Taguchi H.;
+RT   "D-lactate dehydrogenase is a member of the D-isomer-specific 2-hydroxyacid
+RT   dehydrogenase family. Cloning, sequencing, and expression in Escherichia
+RT   coli of the D-lactate dehydrogenase gene of Lactobacillus plantarum.";
+RL   J. Biol. Chem. 266:12588-12594(1991).
+RN   [2]
+RP   X-RAY CRYSTALLOGRAPHY (2.6 ANGSTROMS).
+RX   PubMed=8740366; DOI=10.1016/s0969-2126(96)00049-4;
+RA   Stoll V.S., Kimber M.S., Pai E.F.;
+RT   "Insights into substrate binding by D-2-ketoacid dehydrogenases from the
+RT   structure of Lactobacillus pentosus D-lactate dehydrogenase.";
+RL   Structure 4:437-447(1996).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-lactate + NAD(+) = H(+) + NADH + pyruvate;
+CC         Xref=Rhea:RHEA:16369, ChEBI:CHEBI:15361, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16004, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.28;
+CC   -!- SUBUNIT: Homodimer.
+CC   -!- MISCELLANEOUS: Also active on D-glycerate.
+CC   -!- SIMILARITY: Belongs to the D-isomer specific 2-hydroxyacid
+CC       dehydrogenase family. {ECO:0000305}.
+CC   -!- CAUTION: Was originally thought to originate from L.plantarum.
+CC       {ECO:0000305|PubMed:1840590}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90339; BAA14352.1; -; Genomic_DNA.
+DR   PIR; A40885; A40885.
+DR   SMR; P26298; -.
+DR   SABIO-RK; P26298; -.
+DR   GO; GO:0008720; F:D-lactate dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   InterPro; IPR006139; D-isomer_2_OHA_DH_cat_dom.
+DR   InterPro; IPR029753; D-isomer_DH_CS.
+DR   InterPro; IPR029752; D-isomer_DH_CS1.
+DR   InterPro; IPR006140; D-isomer_DH_NAD-bd.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   Pfam; PF00389; 2-Hacid_dh; 1.
+DR   Pfam; PF02826; 2-Hacid_dh_C; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00065; D_2_HYDROXYACID_DH_1; 1.
+DR   PROSITE; PS00670; D_2_HYDROXYACID_DH_2; 1.
+DR   PROSITE; PS00671; D_2_HYDROXYACID_DH_3; 1.
+PE   1: Evidence at protein level;
+KW   NAD; Oxidoreductase.
+FT   CHAIN           1..332
+FT                   /note="D-lactate dehydrogenase"
+FT                   /id="PRO_0000075956"
+FT   NP_BIND         155..156
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P30901"
+FT   NP_BIND         206..207
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P30901"
+FT   NP_BIND         233..235
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P30901"
+FT   ACT_SITE        235
+FT                   /evidence="ECO:0000250|UniProtKB:P26297"
+FT   ACT_SITE        264
+FT                   /evidence="ECO:0000250|UniProtKB:P26297"
+FT   ACT_SITE        296
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P26297"
+FT   BINDING         175
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P26297"
+FT   BINDING         212
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250|UniProtKB:P30901"
+SQ   SEQUENCE   332 AA;  37183 MW;  FA63723C63B53EBE CRC64;
+     MKIIAYAVRD DERPFFDTWM KENPDVEVKL VPELLTEDNV DLAKGFDGAD VYQQKDYTAE
+     VLNKLADEGV KNISLRNVGV DNLDVPTVKA RGLNISNVPA YSPNAIAELS VTQLMQLLRQ
+     TPMFNKKLAK QDFRWAPDIA KELNTMTVGV IGTGRIGRAA IDIFKGFGAK VIGYDVYRNA
+     ELEKEGMYVD TLDELYAQAD VITLHVPALK DNYHMLNADA FSKMKDGAYI LNFARGTLID
+     SEDLIKALDS GKVAGAALVT YEYETKIFNK DLEGQTIDDK VFMNLFNRDN VLITPHTAFY
+     TETAVHNMVH VSMNSNKQFI ETGKADTQVK FD
+//

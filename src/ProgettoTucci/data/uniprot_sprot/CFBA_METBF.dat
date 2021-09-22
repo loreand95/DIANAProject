@@ -1,0 +1,128 @@
+ID   CFBA_METBF              Reviewed;         130 AA.
+AC   P61816; Q46FL4;
+DT   07-JUN-2004, integrated into UniProtKB/Swiss-Prot.
+DT   07-JUN-2004, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=Sirohydrochlorin cobaltochelatase {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000303|PubMed:12686546};
+DE            EC=4.99.1.3 {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000269|PubMed:12686546};
+DE   AltName: Full=CbiXS {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000303|PubMed:12686546};
+DE   AltName: Full=Sirohydrochlorin nickelchelatase {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000303|PubMed:28225763};
+DE            EC=4.99.1.11 {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000269|PubMed:28225763};
+GN   Name=cbiX {ECO:0000255|HAMAP-Rule:MF_00785, ECO:0000303|PubMed:12686546};
+GN   Synonyms=cfbA {ECO:0000255|HAMAP-Rule:MF_00785,
+GN   ECO:0000303|PubMed:28225763};
+OS   Methanosarcina barkeri (strain Fusaro / DSM 804).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Methanomicrobia;
+OC   Methanosarcinales; Methanosarcinaceae; Methanosarcina.
+OX   NCBI_TaxID=269797;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Fusaro / DSM 804;
+RX   PubMed=16980466; DOI=10.1128/jb.00810-06;
+RA   Maeder D.L., Anderson I., Brettin T.S., Bruce D.C., Gilna P., Han C.S.,
+RA   Lapidus A., Metcalf W.W., Saunders E., Tapia R., Sowers K.R.;
+RT   "The Methanosarcina barkeri genome: comparative analysis with
+RT   Methanosarcina acetivorans and Methanosarcina mazei reveals extensive
+RT   rearrangement within methanosarcinal genomes.";
+RL   J. Bacteriol. 188:7922-7931(2006).
+RN   [2]
+RP   FUNCTION AS A SIROHYDROCHLORIN COBALTOCHELATASE, CATALYTIC ACTIVITY,
+RP   PATHWAY, AND SUBUNIT.
+RX   PubMed=12686546; DOI=10.1074/jbc.m302468200;
+RA   Brindley A.A., Raux E., Leech H.K., Schubert H.L., Warren M.J.;
+RT   "A story of chelatase evolution: identification and characterization of a
+RT   small 13-15-kDa 'ancestral' cobaltochelatase (CbiXS) in the archaea.";
+RL   J. Biol. Chem. 278:22388-22395(2003).
+RN   [3]
+RP   FUNCTION AS A SIROHYDROCHLORIN NICKELCHELATASE, AND CATALYTIC ACTIVITY.
+RC   STRAIN=Fusaro / DSM 804;
+RX   PubMed=28225763; DOI=10.1038/nature21427;
+RA   Moore S.J., Sowa S.T., Schuchardt C., Deery E., Lawrence A.D., Ramos J.V.,
+RA   Billig S., Birkemeyer C., Chivers P.T., Howard M.J., Rigby S.E., Layer G.,
+RA   Warren M.J.;
+RT   "Elucidation of the biosynthesis of the methane catalyst coenzyme F430.";
+RL   Nature 543:78-82(2017).
+CC   -!- FUNCTION: Catalyzes the insertion of Co(2+) into sirohydrochlorin as
+CC       part of the anaerobic pathway to cobalamin biosynthesis
+CC       (PubMed:12686546). Involved in the biosynthesis of the unique nickel-
+CC       containing tetrapyrrole coenzyme F430, the prosthetic group of methyl-
+CC       coenzyme M reductase (MCR), which plays a key role in methanogenesis
+CC       and anaerobic methane oxidation (PubMed:28225763). Catalyzes the
+CC       insertion of Ni(2+) into sirohydrochlorin to yield Ni-sirohydrochlorin
+CC       (PubMed:28225763). {ECO:0000255|HAMAP-Rule:MF_00785,
+CC       ECO:0000269|PubMed:12686546, ECO:0000269|PubMed:28225763}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Co-sirohydrochlorin + 2 H(+) = Co(2+) + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:15893, ChEBI:CHEBI:15378, ChEBI:CHEBI:48828,
+CC         ChEBI:CHEBI:58351, ChEBI:CHEBI:60049; EC=4.99.1.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00785,
+CC         ECO:0000269|PubMed:12686546};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + Ni-sirohydrochlorin = Ni(2+) + sirohydrochlorin;
+CC         Xref=Rhea:RHEA:52796, ChEBI:CHEBI:15378, ChEBI:CHEBI:49786,
+CC         ChEBI:CHEBI:58351, ChEBI:CHEBI:136841; EC=4.99.1.11;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00785,
+CC         ECO:0000269|PubMed:28225763};
+CC   -!- PATHWAY: Cofactor biosynthesis; adenosylcobalamin biosynthesis;
+CC       cob(II)yrinate a,c-diamide from sirohydrochlorin (anaerobic route):
+CC       step 1/10. {ECO:0000255|HAMAP-Rule:MF_00785,
+CC       ECO:0000269|PubMed:12686546}.
+CC   -!- SUBUNIT: Homotetramer; dimer of dimers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00785, ECO:0000305|PubMed:12686546}.
+CC   -!- SIMILARITY: Belongs to the CbiX family. CbiXS subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00785}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000099; AAZ69328.1; -; Genomic_DNA.
+DR   RefSeq; WP_011305381.1; NC_007355.1.
+DR   PDB; 6M2A; X-ray; 2.23 A; A/B=90-104.
+DR   PDBsum; 6M2A; -.
+DR   SMR; P61816; -.
+DR   STRING; 269797.Mbar_A0344; -.
+DR   EnsemblBacteria; AAZ69328; AAZ69328; Mbar_A0344.
+DR   GeneID; 3626588; -.
+DR   KEGG; mba:Mbar_A0344; -.
+DR   eggNOG; arCOG02246; Archaea.
+DR   HOGENOM; CLU_065901_2_1_2; -.
+DR   OMA; HEHEKLE; -.
+DR   OrthoDB; 93992at2157; -.
+DR   BRENDA; 4.99.1.3; 3250.
+DR   UniPathway; UPA00148; UER00223.
+DR   Proteomes; UP000008156; Chromosome.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016852; F:sirohydrochlorin cobaltochelatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019251; P:anaerobic cobalamin biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015948; P:methanogenesis; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00785; CbiX; 1.
+DR   InterPro; IPR002762; CbiX-like.
+DR   InterPro; IPR023652; SiroHydchlorin_Cochelatase.
+DR   Pfam; PF01903; CbiX; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cobalamin biosynthesis; Cobalt; Lyase; Metal-binding;
+KW   Methanogenesis; Nickel.
+FT   CHAIN           1..130
+FT                   /note="Sirohydrochlorin cobaltochelatase"
+FT                   /id="PRO_0000150355"
+FT   REGION          73..78
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00785"
+FT   ACT_SITE        12
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00785"
+FT   METAL           12
+FT                   /note="Cobalt or nickel"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00785"
+FT   METAL           78
+FT                   /note="Cobalt or nickel"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00785"
+FT   BINDING         48
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00785"
+SQ   SEQUENCE   130 AA;  13850 MW;  CA3889CF8B6E8D8C CRC64;
+     MTEKLGILAI GHGSKLPYNK EVVTQIADYI ARKHSDVVVR AGFMENSEPT LGEAIEGFSG
+     TGVTKIAAVP VFLASGVHIT KDIPRILSLD ENGCGTLEID GKTVPLCYAN PLGADELIAD
+     LVFKRVQEAL
+//

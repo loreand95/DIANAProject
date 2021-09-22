@@ -1,0 +1,102 @@
+ID   BMNL1_BOMVA             Reviewed;         137 AA.
+AC   P29006;
+DT   01-DEC-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-1992, sequence version 1.
+DT   07-OCT-2020, entry version 63.
+DE   RecName: Full=Bombinin-like peptides 1;
+DE   Contains:
+DE     RecName: Full=Acidic peptide 1-1;
+DE   Contains:
+DE     RecName: Full=Bombinin-like peptide 1;
+DE              Short=BLP-1;
+DE   Contains:
+DE     RecName: Full=Octapeptide 1;
+DE   Contains:
+DE     RecName: Full=Acidic peptide 1-2;
+DE   Contains:
+DE     RecName: Full=Bombinin-H;
+DE   Flags: Precursor;
+OS   Bombina variegata (Yellow-bellied toad).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Bombinatoridae; Bombina.
+OX   NCBI_TaxID=8348;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AMIDATION AT ASN-70, AND PRELIMINARY PROTEIN
+RP   SEQUENCE OF 44-69.
+RC   TISSUE=Skin, and Skin secretion;
+RX   PubMed=1712299; DOI=10.1111/j.1432-1033.1991.tb16112.x;
+RA   Simmaco M., Barra D., Chiarini F., Noviello L., Melchiorri P., Kreil G.,
+RA   Richter K.;
+RT   "A family of bombinin-related peptides from the skin of Bombina
+RT   variegata.";
+RL   Eur. J. Biochem. 199:217-222(1991).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 117-136, D-AMINO ACID AT ILE-118, AND AMIDATION AT
+RP   ILE-136.
+RC   TISSUE=Skin secretion;
+RX   PubMed=8223491; DOI=10.1002/j.1460-2075.1993.tb06172.x;
+RA   Mignogna G., Simmaco M., Kreil G., Barra D.;
+RT   "Antibacterial and haemolytic peptides containing D-alloisoleucine from the
+RT   skin of Bombina variegata.";
+RL   EMBO J. 12:4829-4832(1993).
+CC   -!- FUNCTION: Has antimicrobial activity, but no hemolytic activity.
+CC       Preliminary evidence indicates that this peptide does not lyse and thus
+CC       kill the bacteria by its antimicrobial activity.
+CC   -!- FUNCTION: Bombinin H has antibacterial and hemolytic activity.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands.
+CC   -!- SIMILARITY: Belongs to the bombinin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X59695; CAA42216.1; -; mRNA.
+DR   PIR; S16222; S16222.
+DR   BMRB; P29006; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   InterPro; IPR007962; Bombinin.
+DR   Pfam; PF05298; Bombinin; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Amphibian defense peptide; Antibiotic; Antimicrobial;
+KW   Cleavage on pair of basic residues; Cytolysis; D-amino acid;
+KW   Direct protein sequencing; Hemolysis; Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   PEPTIDE         19..43
+FT                   /note="Acidic peptide 1-1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000003067"
+FT   PEPTIDE         44..70
+FT                   /note="Bombinin-like peptide 1"
+FT                   /id="PRO_0000003068"
+FT   PEPTIDE         74..81
+FT                   /note="Octapeptide 1"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000003069"
+FT   PEPTIDE         84..114
+FT                   /note="Acidic peptide 1-2"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000003070"
+FT   PEPTIDE         117..136
+FT                   /note="Bombinin-H"
+FT                   /id="PRO_0000003071"
+FT   MOD_RES         70
+FT                   /note="Asparagine amide"
+FT                   /evidence="ECO:0000269|PubMed:1712299"
+FT   MOD_RES         118
+FT                   /note="D-allo-isoleucine"
+FT                   /evidence="ECO:0000269|PubMed:8223491"
+FT   MOD_RES         136
+FT                   /note="Isoleucine amide"
+FT                   /evidence="ECO:0000269|PubMed:8223491"
+FT   VARIANT         117
+FT                   /note="I -> L"
+FT   VARIANT         124
+FT                   /note="L -> M"
+SQ   SEQUENCE   137 AA;  14982 MW;  3EC3EF6E47CA1F92 CRC64;
+     MNFKYIVAVS ILIASAYARS EENDIQSLSQ RDVLEEESLR EIRGIGGALL SAAKVGLKGL
+     AKGLAEHFAN GKRTAEEREV MKRLEAAMRD LDSFEHPEEA SEKETRGFNQ EEKEKRIIGP
+     VLGLVGSALG GLLKKIG
+//

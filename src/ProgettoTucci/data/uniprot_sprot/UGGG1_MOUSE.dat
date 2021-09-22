@@ -1,0 +1,249 @@
+ID   UGGG1_MOUSE             Reviewed;        1551 AA.
+AC   Q6P5E4; E9QQ49; Q6NV70;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   27-JUL-2011, sequence version 4.
+DT   07-APR-2021, entry version 143.
+DE   RecName: Full=UDP-glucose:glycoprotein glucosyltransferase 1;
+DE            Short=UGT1;
+DE            EC=2.4.1.- {ECO:0000250|UniProtKB:Q9NYU2};
+DE   AltName: Full=UDP--Glc:glycoprotein glucosyltransferase;
+DE   AltName: Full=UDP-glucose ceramide glucosyltransferase-like 1;
+DE   Flags: Precursor;
+GN   Name=Uggt1; Synonyms=Gt, Ugcgl1, Uggt, Ugt1, Ugtr;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [2] {ECO:0000312|EMBL:AAH62936.1}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J {ECO:0000312|EMBL:AAH62936.1}, and
+RC   ICR {ECO:0000312|EMBL:AAH68283.1};
+RC   TISSUE=Brain {ECO:0000312|EMBL:AAH62936.1}, and Trophoblast stem cell;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3] {ECO:0000305}
+RP   INTERACTION WITH SELENOF.
+RX   PubMed=11278576; DOI=10.1074/jbc.m009861200;
+RA   Korotkov K.V., Kumaraswamy E., Zhou Y., Hatfield D.L., Gladyshev V.N.;
+RT   "Association between the 15-kDa selenoprotein and UDP-glucose:glycoprotein
+RT   glucosyltransferase in the endoplasmic reticulum of mammalian cells.";
+RL   J. Biol. Chem. 276:15330-15336(2001).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, Brown adipose tissue, Heart, Kidney, Liver, Lung, Pancreas,
+RC   Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+CC   -!- FUNCTION: Recognizes glycoproteins with minor folding defects.
+CC       Reglucosylates single N-glycans near the misfolded part of the protein,
+CC       thus providing quality control for protein folding in the endoplasmic
+CC       reticulum. Reglucosylated proteins are recognized by calreticulin for
+CC       recycling to the endoplasmic reticulum and refolding or degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N(4)-(alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-
+CC         (1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-
+CC         alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-
+CC         GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-[protein] (N-glucan
+CC         mannose isomer 9A1,2,3B1,2,3) + UDP-alpha-D-glucose = H(+) + N(4)-
+CC         (alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-
+CC         Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-
+CC         (1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-
+CC         beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl-[protein] + UDP;
+CC         Xref=Rhea:RHEA:61304, Rhea:RHEA-COMP:14356, Rhea:RHEA-COMP:14357,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58223, ChEBI:CHEBI:58885,
+CC         ChEBI:CHEBI:59080, ChEBI:CHEBI:139493;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYU2};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYU2};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NYU2};
+CC   -!- PATHWAY: Protein modification; protein glycosylation.
+CC       {ECO:0000250|UniProtKB:Q9NYU2}.
+CC   -!- SUBUNIT: Monomer as well as in a tight complex with SELENOF
+CC       (PubMed:11278576). Interacts with METTL23 (By similarity). Part of a
+CC       large chaperone multiprotein complex comprising DNAJB11, HSP90B1,
+CC       HSPA5, HYOU, PDIA2, PDIA4, PDIA6, PPIB, SDF2L1, UGGT1 and very small
+CC       amounts of ERP29, but not, or at very low levels, CALR nor CANX (By
+CC       similarity). {ECO:0000250|UniProtKB:Q9JLA3,
+CC       ECO:0000250|UniProtKB:Q9NYU2, ECO:0000269|PubMed:11278576}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000250|UniProtKB:Q9NYU2, ECO:0000255|PROSITE-ProRule:PRU10138}.
+CC       Endoplasmic reticulum-Golgi intermediate compartment
+CC       {ECO:0000255|PROSITE-ProRule:PRU10138}.
+CC   -!- DOMAIN: The N-terminal non-catalytic domain is assumed to mediate
+CC       recognition of proteins with partial folding defects. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 8 family.
+CC       {ECO:0000250|UniProtKB:Q9JLA3}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC133102; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; BC062936; AAH62936.1; -; mRNA.
+DR   EMBL; BC068283; AAH68283.1; -; mRNA.
+DR   CCDS; CCDS48238.1; -.
+DR   RefSeq; NP_942602.2; NM_198899.2.
+DR   SMR; Q6P5E4; -.
+DR   BioGRID; 235693; 38.
+DR   CORUM; Q6P5E4; -.
+DR   STRING; 10090.ENSMUSP00000037930; -.
+DR   CAZy; GT24; Glycosyltransferase Family 24.
+DR   GlyConnect; 2809; 1 N-Linked glycan (1 site).
+DR   GlyGen; Q6P5E4; 3 sites.
+DR   iPTMnet; Q6P5E4; -.
+DR   PhosphoSitePlus; Q6P5E4; -.
+DR   SwissPalm; Q6P5E4; -.
+DR   EPD; Q6P5E4; -.
+DR   jPOST; Q6P5E4; -.
+DR   MaxQB; Q6P5E4; -.
+DR   PaxDb; Q6P5E4; -.
+DR   PeptideAtlas; Q6P5E4; -.
+DR   PRIDE; Q6P5E4; -.
+DR   ProteomicsDB; 275380; -.
+DR   Antibodypedia; 2454; 133 antibodies.
+DR   Ensembl; ENSMUST00000046875; ENSMUSP00000037930; ENSMUSG00000037470.
+DR   GeneID; 320011; -.
+DR   KEGG; mmu:320011; -.
+DR   UCSC; uc007app.2; mouse.
+DR   CTD; 56886; -.
+DR   MGI; MGI:2443162; Uggt1.
+DR   eggNOG; KOG1879; Eukaryota.
+DR   GeneTree; ENSGT00390000004600; -.
+DR   HOGENOM; CLU_002668_1_1_1; -.
+DR   InParanoid; Q6P5E4; -.
+DR   OMA; EFAIDIR; -.
+DR   OrthoDB; 231263at2759; -.
+DR   TreeFam; TF300320; -.
+DR   UniPathway; UPA00378; -.
+DR   BioGRID-ORCS; 320011; 2 hits in 53 CRISPR screens.
+DR   ChiTaRS; Uggt1; mouse.
+DR   PRO; PR:Q6P5E4; -.
+DR   Proteomes; UP000000589; Chromosome 1.
+DR   RNAct; Q6P5E4; protein.
+DR   Bgee; ENSMUSG00000037470; Expressed in fibroblast and 273 other tissues.
+DR   Genevisible; Q6P5E4; MM.
+DR   GO; GO:0005783; C:endoplasmic reticulum; ISO:MGI.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; ISS:UniProtKB.
+DR   GO; GO:0005793; C:endoplasmic reticulum-Golgi intermediate compartment; ISS:UniProtKB.
+DR   GO; GO:0032991; C:protein-containing complex; ISO:MGI.
+DR   GO; GO:0003980; F:UDP-glucose:glycoprotein glucosyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0051082; F:unfolded protein binding; ISS:UniProtKB.
+DR   GO; GO:0071712; P:ER-associated misfolded protein catabolic process; IBA:GO_Central.
+DR   GO; GO:0018279; P:protein N-linked glycosylation via asparagine; IBA:GO_Central.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   InterPro; IPR040497; Glyco_transf_24.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR009448; UDP-g_GGtrans.
+DR   InterPro; IPR040693; UGGT_TRXL_1.
+DR   InterPro; IPR040694; UGGT_TRXL_2.
+DR   InterPro; IPR040692; UGGT_TRXL_3.
+DR   InterPro; IPR040525; UGGT_TRXL_4.
+DR   PANTHER; PTHR11226; PTHR11226; 1.
+DR   Pfam; PF18404; Glyco_transf_24; 1.
+DR   Pfam; PF18400; Thioredoxin_12; 1.
+DR   Pfam; PF18401; Thioredoxin_13; 1.
+DR   Pfam; PF18402; Thioredoxin_14; 1.
+DR   Pfam; PF18403; Thioredoxin_15; 1.
+DR   Pfam; PF06427; UDP-g_GGTase; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+PE   1: Evidence at protein level;
+KW   Endoplasmic reticulum; Glycoprotein; Glycosyltransferase; Phosphoprotein;
+KW   Reference proteome; Signal; Transferase.
+FT   SIGNAL          1..42
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           43..1551
+FT                   /note="UDP-glucose:glycoprotein glucosyltransferase 1"
+FT                   /id="PRO_0000012272"
+FT   REGION          1244..1551
+FT                   /note="Glucosyltransferase"
+FT                   /evidence="ECO:0000250"
+FT   MOTIF           1548..1551
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   MOD_RES         1277
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NYU2"
+FT   CARBOHYD        269
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        536
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1228
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        319
+FT                   /note="K -> E (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        445
+FT                   /note="S -> F (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        824
+FT                   /note="S -> N (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        935
+FT                   /note="Q -> R (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1015
+FT                   /note="N -> T (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1058
+FT                   /note="I -> T (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1083
+FT                   /note="E -> Q (in Ref. 2; AAH62936)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        1212
+FT                   /note="K -> R (in Ref. 1; AAH68283)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   1551 AA;  176434 MW;  1036D2CCA2DC4A19 CRC64;
+     MCSRGDANTA DAAAARRVTG LRYNMRLLIA LALPCLFSLA EANSKAITTS LTTKWFSAPL
+     LLEASEFLAE DSQEKFWSFV EATQNIGSSD HHDTDHSYYD AVLEAAFRFL SPLQQNLLKF
+     CLSLRSYSAS IQAFQQIAVD EPPPEGCKSF LSVHGKQTCD LDTLESLLLT AADRPKPLLF
+     KGDHRYPSSN PESPVVILYS EIGHEEFSNI HHQLISKSNE GKINYVFRHY ISNPSKEPVY
+     LSGYGVELAI KSTEYKAKDD TQVKGTEVNA TVIGESDPID EVQGFLFGKL RELYPALEGQ
+     LKEFRKHLVE STNEMAPLKV WQLQDLSFQT AARILAASGA LSLVVMKDIS QNFPTKARAI
+     TKTAVSAQLR AEVEENQKYF KGTIGLQPGD SALFINGLHI DLDTQDIFSL FDTLRNEARV
+     MEGLHRLGIE GLSLHNILKL NIQPSETDYA VDIRSPAISW VNNLEVDSRY NSWPSSLQEL
+     LRPTFPGVIR QIRKNLHNMV FIIDPVHETT AELISIAEMF LSNHIPLRIG FIFVVNDSED
+     VDGMQDAGVA VLRAYNYVAQ EVDGYHAFQT LTQIYNKVRT GETVKVEHVV SVLEKKYPYV
+     EVNSILGIDS AYDQNRKEAR GYYEQTGVGP LPVVLFNGMP FEKEQLDPDE LETITMHKIL
+     ETTTFFQRAV YLGELSHDQD VVEYIMNQPN VVPRINSRIL TAKREYLDLT ASNNFYVDDF
+     ARFSALDSRG KTAAIANSMN YLTKKGMSSK EIYDDSFIRP VTFWIVGDFD SPSGRQLLYD
+     AIKHQKTSNN VRISMINNPS QEISDSSTPI FRAIWAALQT QASSSAKNFI TKMAKEETAE
+     ALAAGVDIAE FSVGGMDVSL FKEVFESSRM DFILSHALYC RDVLKLKKGQ RVVISNGRII
+     GPLEDNELFN QDDFHLLENI ILKTSGQKIK SHIQQLRVEE DVASDLVMKV DALLSAQPKG
+     EARIEYQFFE DKHSAIKLKP KEGETYYDVV AVVDPVTREA QRLAPLLLVL TQLINMNLRV
+     FMNCQSKLSD MPLKSFYRYV LEPEISFTAD SSFAKGPIAK FLDMPQSPLF TLNLNTPESW
+     MVESVRTPYD LDNIYLEEVD SIVAAEYELE YLLLEGHCYD ITTGQPPRGL QFTLGTSANP
+     TIVDTIVMAN LGYFQLKANP GAWILRLRKG RSDDIYRIYS HDGTDSPPDA NDVVVILNNF
+     KSKIIKVKVQ KKADMANEDL LSDGTNENES GFWDSFKWGF SGQKAEEVKQ DKDDIINIFS
+     VASGHLYERF LRIMMLSVLK NTKTPVKFWF LKNYLSPTFK EFIPYMAKKY NFQYELVQYK
+     WPRWLHQQTE KQRIIWGYKI LFLDVLFPLV VDKFLFVDAD QIVRTDLKEL RDFNLDGAPY
+     GYTPFCDSRR EMDGYRFWKS GYWASHLAGR KYHISALYVV DLKKFRKIAA GDRLRGQYQG
+     LSQDPNSLSN LDQDLPNNMI HQVPIKSLPQ EWLWCETWCD DASKKRAKTI DLCNNPMTKE
+     PKLEAAVRIV PEWQDYDQEI KQLQTLFQEE KELGTLHTEE TQEGSQKHEE L
+//

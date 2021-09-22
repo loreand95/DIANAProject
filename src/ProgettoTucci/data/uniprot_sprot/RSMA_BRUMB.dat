@@ -1,0 +1,107 @@
+ID   RSMA_BRUMB              Reviewed;         276 AA.
+AC   C0RI23;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   07-APR-2021, entry version 61.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase A {ECO:0000255|HAMAP-Rule:MF_00607};
+DE            EC=2.1.1.182 {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA dimethyladenosine transferase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=16S rRNA dimethylase {ECO:0000255|HAMAP-Rule:MF_00607};
+DE   AltName: Full=S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   Name=rsmA {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   Synonyms=ksgA {ECO:0000255|HAMAP-Rule:MF_00607};
+GN   OrderedLocusNames=BMEA_A0718;
+OS   Brucella melitensis biotype 2 (strain ATCC 23457).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=546272;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23457;
+RA   Setubal J.C., Boyle S., Crasta O.R., Gillespie J.J., Kenyon R.W., Lu J.,
+RA   Mane S., Nagrani S., Shallom J.M., Shallom S., Shukla M., Snyder E.E.,
+RA   Sobral B.W., Wattam A.R., Will R., Williams K., Yoo H., Munk C., Tapia R.,
+RA   Han C., Detter J.C., Bruce D., Brettin T.S.;
+RT   "Brucella melitensis ATCC 23457 whole genome shotgun sequencing project.";
+RL   Submitted (MAR-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically dimethylates two adjacent adenosines (A1518 and
+CC       A1519) in the loop of a conserved hairpin near the 3'-end of 16S rRNA
+CC       in the 30S particle. May play a critical role in biogenesis of 30S
+CC       subunits. {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(1518)/adenosine(1519) in 16S rRNA + 4 S-adenosyl-L-
+CC         methionine = 4 H(+) + N(6)-dimethyladenosine(1518)/N(6)-
+CC         dimethyladenosine(1519) in 16S rRNA + 4 S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:19609, Rhea:RHEA-COMP:10232, Rhea:RHEA-COMP:10233,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74411, ChEBI:CHEBI:74493; EC=2.1.1.182;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00607};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. rRNA adenine N(6)-methyltransferase family. RsmA
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00607}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001488; ACO00481.1; -; Genomic_DNA.
+DR   RefSeq; WP_002963824.1; NC_012441.1.
+DR   SMR; C0RI23; -.
+DR   EnsemblBacteria; ACO00481; ACO00481; BMEA_A0718.
+DR   GeneID; 45124130; -.
+DR   GeneID; 58776186; -.
+DR   KEGG; bmi:BMEA_A0718; -.
+DR   HOGENOM; CLU_041220_0_1_5; -.
+DR   OMA; YYIATRL; -.
+DR   BioCyc; BMEL546272:G1GV6-706-MONOMER; -.
+DR   Proteomes; UP000001748; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052908; F:16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.8.100; -; 1.
+DR   HAMAP; MF_00607; 16SrRNA_methyltr_A; 1.
+DR   InterPro; IPR001737; KsgA/Erm.
+DR   InterPro; IPR023165; rRNA_Ade_diMease-like.
+DR   InterPro; IPR020596; rRNA_Ade_Mease_Trfase_CS.
+DR   InterPro; IPR020598; rRNA_Ade_methylase_Trfase_N.
+DR   InterPro; IPR011530; rRNA_adenine_dimethylase.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11727; PTHR11727; 1.
+DR   Pfam; PF00398; RrnaAD; 1.
+DR   SMART; SM00650; rADc; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00755; ksgA; 1.
+DR   PROSITE; PS01131; RRNA_A_DIMETH; 1.
+DR   PROSITE; PS51689; SAM_RNA_A_N6_MT; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..276
+FT                   /note="Ribosomal RNA small subunit methyltransferase A"
+FT                   /id="PRO_1000147127"
+FT   BINDING         27
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         29
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         54
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         75
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         101
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+FT   BINDING         122
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00607"
+SQ   SEQUENCE   276 AA;  30306 MW;  630FAF866332B6BB CRC64;
+     MSIDSLPPLR EVIERHDLMP KKSLGQNFLF DLNLTSKIAR QAGDLRDQPV IEVGPGPGGL
+     TRALLAQGAY VTAIERDDRC LEALAEIAAH YPGRLRIIAG DALEQDFTAL FPEGPKPRIV
+     ANLPYNVGTQ LLLNWLLVEP WPPFYSSMTL MFQREVAERI VAKPDSDHYG RLGVLAGWRT
+     QAKIAFDVPP QAFTPPPKVM SSVVHIVPRE TPLPCRAEAL GQITQAAFGQ RRKMLRQSLK
+     SIGGAALLEK TGIDGTRRAE TLSVEEFVAL ANACLP
+//

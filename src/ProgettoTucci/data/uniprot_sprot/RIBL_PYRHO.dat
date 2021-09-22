@@ -1,0 +1,92 @@
+ID   RIBL_PYRHO              Reviewed;         148 AA.
+AC   O58466;
+DT   05-APR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   02-DEC-2020, entry version 102.
+DE   RecName: Full=FAD synthase {ECO:0000255|HAMAP-Rule:MF_02115};
+DE            EC=2.7.7.2 {ECO:0000255|HAMAP-Rule:MF_02115};
+DE   AltName: Full=FMN adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_02115};
+DE   AltName: Full=Flavin adenine dinucleotide synthase {ECO:0000255|HAMAP-Rule:MF_02115};
+GN   Name=ribL {ECO:0000255|HAMAP-Rule:MF_02115}; OrderedLocusNames=PH0735;
+OS   Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC
+OS   100139 / OT-3).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=70601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3;
+RX   PubMed=9679194; DOI=10.1093/dnares/5.2.55;
+RA   Kawarabayasi Y., Sawada M., Horikawa H., Haikawa Y., Hino Y., Yamamoto S.,
+RA   Sekine M., Baba S., Kosugi H., Hosoyama A., Nagai Y., Sakai M., Ogura K.,
+RA   Otsuka R., Nakazawa H., Takamiya M., Ohfuku Y., Funahashi T., Tanaka T.,
+RA   Kudoh Y., Yamazaki J., Kushida N., Oguchi A., Aoki K., Yoshizawa T.,
+RA   Nakamura Y., Robb F.T., Horikoshi K., Masuchi Y., Shizuya H., Kikuchi H.;
+RT   "Complete sequence and gene organization of the genome of a hyper-
+RT   thermophilic archaebacterium, Pyrococcus horikoshii OT3.";
+RL   DNA Res. 5:55-76(1998).
+CC   -!- FUNCTION: Catalyzes the transfer of the AMP portion of ATP to flavin
+CC       mononucleotide (FMN) to produce flavin adenine dinucleotide (FAD)
+CC       coenzyme. {ECO:0000255|HAMAP-Rule:MF_02115}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + FMN + H(+) = diphosphate + FAD; Xref=Rhea:RHEA:17237,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:57692, ChEBI:CHEBI:58210; EC=2.7.7.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02115};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02115};
+CC   -!- PATHWAY: Cofactor biosynthesis; FAD biosynthesis; FAD from FMN: step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_02115}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02115}.
+CC   -!- SIMILARITY: Belongs to the archaeal FAD synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_02115}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000001; BAA29826.1; -; Genomic_DNA.
+DR   PIR; H71120; H71120.
+DR   RefSeq; WP_010884831.1; NC_000961.1.
+DR   SMR; O58466; -.
+DR   STRING; 70601.3257143; -.
+DR   EnsemblBacteria; BAA29826; BAA29826; BAA29826.
+DR   GeneID; 1443066; -.
+DR   KEGG; pho:PH0735; -.
+DR   eggNOG; arCOG01222; Archaea.
+DR   OMA; FAKKHAD; -.
+DR   OrthoDB; 79845at2157; -.
+DR   BioCyc; PHOR70601:G1G39-719-MONOMER; -.
+DR   UniPathway; UPA00277; UER00407.
+DR   Proteomes; UP000000752; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003919; F:FMN adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006747; P:FAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046444; P:FMN metabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02115; FAD_synth_arch; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR024902; FAD_synth_RibL.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; FAD; Flavoprotein; FMN; Nucleotide-binding;
+KW   Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..148
+FT                   /note="FAD synthase"
+FT                   /id="PRO_0000406281"
+FT   NP_BIND         14..15
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02115"
+FT   NP_BIND         19..22
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02115"
+FT   BINDING         100
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02115"
+SQ   SEQUENCE   148 AA;  16737 MW;  07F566C19188FE38 CRC64;
+     MGSDRKIRVV VGGVFDIIHA GHVHFLKMAK ELGDELIVIV AHDETVKKRK GRPPINPAED
+     RAEVLKAIRY VDDVVIGKPG EISLDLIKRL KPDVIALGPD QDFDCEDLKR KLKSIGLNVE
+     VIRLPYLYKK DRAKTSKIIE RITEIFCD
+//

@@ -1,0 +1,140 @@
+ID   PT1_BACHD               Reviewed;         572 AA.
+AC   Q9K8D3;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 119.
+DE   RecName: Full=Phosphoenolpyruvate-protein phosphotransferase {ECO:0000250|UniProtKB:P08839};
+DE            EC=2.7.3.9 {ECO:0000250|UniProtKB:P08839};
+DE   AltName: Full=Phosphotransferase system, enzyme I {ECO:0000250|UniProtKB:P08839};
+GN   Name=ptsI; OrderedLocusNames=BH3073;
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153
+OS   / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+CC   -!- FUNCTION: General (non sugar-specific) component of the
+CC       phosphoenolpyruvate-dependent sugar phosphotransferase system (sugar
+CC       PTS). This major carbohydrate active-transport system catalyzes the
+CC       phosphorylation of incoming sugar substrates concomitantly with their
+CC       translocation across the cell membrane. Enzyme I transfers the
+CC       phosphoryl group from phosphoenolpyruvate (PEP) to the phosphoryl
+CC       carrier protein (HPr). {ECO:0000250|UniProtKB:P08839}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-histidyl-[protein] + phosphoenolpyruvate = N(pros)-phospho-
+CC         L-histidyl-[protein] + pyruvate; Xref=Rhea:RHEA:23880, Rhea:RHEA-
+CC         COMP:9745, Rhea:RHEA-COMP:9746, ChEBI:CHEBI:15361, ChEBI:CHEBI:29979,
+CC         ChEBI:CHEBI:58702, ChEBI:CHEBI:64837; EC=2.7.3.9;
+CC         Evidence={ECO:0000250|UniProtKB:P08839};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P08839};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P08839}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- DOMAIN: The N-terminal domain contains the HPr binding site, the
+CC       central domain the pyrophosphate/phosphate carrier histidine, and the
+CC       C-terminal domain the pyruvate binding site.
+CC       {ECO:0000250|UniProtKB:P08839}.
+CC   -!- MISCELLANEOUS: The reaction takes place in three steps, mediated by a
+CC       phosphocarrier histidine residue located on the surface of the central
+CC       domain. The two first partial reactions are catalyzed at an active site
+CC       located on the N-terminal domain, and the third partial reaction is
+CC       catalyzed at an active site located on the C-terminal domain. For
+CC       catalytic turnover, the central domain swivels from the concave surface
+CC       of the N-terminal domain to that of the C-terminal domain.
+CC       {ECO:0000250|UniProtKB:P08839}.
+CC   -!- SIMILARITY: Belongs to the PEP-utilizing enzyme family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB06792.1; -; Genomic_DNA.
+DR   PIR; A84034; A84034.
+DR   RefSeq; WP_010899217.1; NC_002570.2.
+DR   SMR; Q9K8D3; -.
+DR   STRING; 272558.10175695; -.
+DR   EnsemblBacteria; BAB06792; BAB06792; BAB06792.
+DR   KEGG; bha:BH3073; -.
+DR   eggNOG; COG1080; Bacteria.
+DR   HOGENOM; CLU_007308_7_0_9; -.
+DR   OMA; CNAEWAL; -.
+DR   OrthoDB; 467393at2; -.
+DR   BioCyc; BHAL272558:G1G3A-3146-MONOMER; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008965; F:phosphoenolpyruvate-protein phosphotransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.274.10; -; 1.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   InterPro; IPR008279; PEP-util_enz_mobile_dom.
+DR   InterPro; IPR018274; PEP_util_AS.
+DR   InterPro; IPR000121; PEP_util_C.
+DR   InterPro; IPR023151; PEP_util_CS.
+DR   InterPro; IPR036637; Phosphohistidine_dom_sf.
+DR   InterPro; IPR024692; PTS_EI.
+DR   InterPro; IPR006318; PTS_EI-like.
+DR   InterPro; IPR008731; PTS_EIN.
+DR   InterPro; IPR036618; PtsI_HPr-bd_sf.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_Kinase-like_dom_sf.
+DR   Pfam; PF05524; PEP-utilisers_N; 1.
+DR   Pfam; PF00391; PEP-utilizers; 1.
+DR   Pfam; PF02896; PEP-utilizers_C; 1.
+DR   PIRSF; PIRSF000732; PTS_enzyme_I; 1.
+DR   SUPFAM; SSF47831; SSF47831; 1.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   SUPFAM; SSF52009; SSF52009; 1.
+DR   TIGRFAMs; TIGR01417; PTS_I_fam; 1.
+DR   PROSITE; PS00742; PEP_ENZYMES_2; 1.
+DR   PROSITE; PS00370; PEP_ENZYMES_PHOS_SITE; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Kinase; Magnesium; Metal-binding; Phosphotransferase system;
+KW   Reference proteome; Sugar transport; Transferase; Transport.
+FT   CHAIN           1..572
+FT                   /note="Phosphoenolpyruvate-protein phosphotransferase"
+FT                   /id="PRO_0000147054"
+FT   REGION          455..456
+FT                   /note="PEP binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   ACT_SITE        190
+FT                   /note="Tele-phosphohistidine intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   ACT_SITE        503
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   METAL           432
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   METAL           456
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   BINDING         297
+FT                   /note="PEP"
+FT                   /evidence="ECO:0000250|UniProtKB:P23533"
+FT   BINDING         333
+FT                   /note="PEP"
+FT                   /evidence="ECO:0000250|UniProtKB:P08839"
+FT   BINDING         466
+FT                   /note="PEP"
+FT                   /evidence="ECO:0000250|UniProtKB:P23533"
+SQ   SEQUENCE   572 AA;  63238 MW;  3572D0B367E54A38 CRC64;
+     MHHKITGIAA SSGVAIAKAF IHLEPNVDIE KTSITDVSTE IEKLTAALEK SKEELRAIKD
+     QTEASMGADK AEIFAAHLLV LDDPELVDGI KGKIENEQMN AEYALKEVSD MFVSMFESMD
+     NEYMKERAAD IRDVSKRVLG HLIGVETGSL ATIAEETVII AEDLTPSDTA QLNKQFVKGF
+     ATDIGGRTSH SAIMSRSLEI PAVVGTKEVT EKIQHGDMVI VDGIEGIVIV NPTEEEVKAY
+     EEKRAAFEKQ KQEWAKLVGE PSTTKDGAHV ELAANIGTPK DVDGVLANGG EGIGLYRTEF
+     LYMDRDQLPT EEEQFEAYKE VVQRMDGKPV VIRTLDIGGD KELSYLQLPK ELNPFLGFRA
+     IRLCLEKQDI FRTQLRALLR ASTYGNLKVM FPMIATLEEL RQAKAIMQEE KDKLLSEGVD
+     VSDSIEVGIM VEIPSTAVAA NLFAKEVDFF SIGTNDLIQY TMAADRMNER VSYLYQPYHP
+     AILRLVDMVI KAAHSEGKWV GMCGEMAGDE VAIPLLLGLG LDEFSMSATS ILPARSQLLK
+     LSKEELKPFA QKALMLDTAE EVEQLVKKTY LK
+//

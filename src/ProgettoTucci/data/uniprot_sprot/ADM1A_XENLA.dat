@@ -1,0 +1,110 @@
+ID   ADM1A_XENLA             Reviewed;         404 AA.
+AC   Q6GN67; Q05AY8; Q9PVQ2;
+DT   01-MAY-2007, integrated into UniProtKB/Swiss-Prot.
+DT   17-APR-2007, sequence version 2.
+DT   02-DEC-2020, entry version 65.
+DE   RecName: Full=Proteasomal ubiquitin receptor ADRM1-A;
+DE   AltName: Full=Oocyte membrane protein;
+GN   Name=adrm1-a; Synonyms=xoom;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=10610020;
+RA   Hasegawa K., Shiraishi T., Kinoshita T.;
+RT   "Xoom: a novel oocyte membrane protein maternally expressed and involved in
+RT   the gastrulation movement of Xenopus embryos.";
+RL   Int. J. Dev. Biol. 43:479-485(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Embryo, and Fat body;
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (JUN-2004) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=10969733; DOI=10.1046/j.1440-169x.2000.00516.x;
+RA   Hasegawa K., Kinoshita T.;
+RT   "Xoom is required for epibolic movement of animal ectodermal cells in
+RT   Xenopus laevis gastrulation.";
+RL   Dev. Growth Differ. 42:337-346(2000).
+RN   [4]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=11148449; DOI=10.1046/j.1440-169x.2001.00549.x;
+RA   Hasegawa K., Sakurai N., Kinoshita T.;
+RT   "Xoom is maternally stored and functions as a transmembrane protein for
+RT   gastrulation movement in Xenopus embryos.";
+RL   Dev. Growth Differ. 43:25-31(2001).
+CC   -!- FUNCTION: Functions as a proteasomal ubiquitin receptor. Promotes the
+CC       deubiquitinating activity associated with the 26S proteasome (By
+CC       similarity). Required during gastrulation. {ECO:0000250,
+CC       ECO:0000269|PubMed:10969733, ECO:0000269|PubMed:11148449}.
+CC   -!- SUBUNIT: Interacts with the 26S proteasome. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000250}. Cytoplasm
+CC       {ECO:0000269|PubMed:11148449}. Note=May be associated with cell
+CC       membrane.
+CC   -!- DOMAIN: The PH domain mediates interactions with PSMD1 and ubiquitin.
+CC       Preferential binding to the proximal subunit of K48-linked diubiquitin
+CC       allows UCHL5 access to the distal subunit (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ADRM1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB026995; BAA86033.1; -; mRNA.
+DR   EMBL; BC073651; AAH73651.2; -; mRNA.
+DR   EMBL; BC123105; AAI23106.1; -; mRNA.
+DR   RefSeq; NP_001081367.1; NM_001087898.2.
+DR   GeneID; 397797; -.
+DR   KEGG; xla:397797; -.
+DR   CTD; 397797; -.
+DR   Xenbase; XB-GENE-6252580; adrm1.S.
+DR   OrthoDB; 1479349at2759; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000502; C:proteasome complex; IEA:UniProtKB-KW.
+DR   GO; GO:0007275; P:multicellular organism development; IEA:UniProtKB-KW.
+DR   Gene3D; 2.30.29.70; -; 1.
+DR   Gene3D; 3.40.190.140; -; 1.
+DR   InterPro; IPR006773; Rpn13/ADRM1.
+DR   InterPro; IPR038633; Rpn13/ADRM1_sf.
+DR   InterPro; IPR032368; RPN13_C.
+DR   InterPro; IPR038108; RPN13_C_sf.
+DR   PANTHER; PTHR12225; PTHR12225; 1.
+DR   Pfam; PF04683; Proteasom_Rpn13; 1.
+DR   Pfam; PF16550; RPN13_C; 1.
+DR   PROSITE; PS51916; DEUBAD; 1.
+DR   PROSITE; PS51917; PRU; 1.
+PE   2: Evidence at transcript level;
+KW   Cytoplasm; Developmental protein; Nucleus; Proteasome.
+FT   CHAIN           1..404
+FT                   /note="Proteasomal ubiquitin receptor ADRM1-A"
+FT                   /id="PRO_0000286072"
+FT   DOMAIN          17..130
+FT                   /note="Pru"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01265"
+FT   DOMAIN          21..129
+FT                   /note="PH"
+FT   DOMAIN          278..390
+FT                   /note="DEUBAD"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01264"
+FT   COMPBIAS        134..198
+FT                   /note="Gly-rich"
+FT   COMPBIAS        202..223
+FT                   /note="Ser-rich"
+FT   COMPBIAS        396..399
+FT                   /note="Poly-Glu"
+FT   CONFLICT        340
+FT                   /note="G -> S (in Ref. 1; BAA86033)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   404 AA;  42125 MW;  255B0EAEAF087C99 CRC64;
+     MSSGALFPSL VPGSRGSSSK YLVEFRAGKM SLKGSTVTPD KRKGLVYIQQ TDDSLIHFCW
+     KDRTSGSVED DLIIFPDDCE FKRVSQCTTG RVYVLKFKAG SKRLFFWMQE PKTDKDEEYC
+     RKLNEYLNNP PMPGALGGSG SGSHELSALG GEGGLQSLLG NMSHNQLMQL IGPTGLGGLG
+     GLGALTGPGL ASLLGSGGPT TSSSSSSSRS QSAAVTPSST TSSTRTTSAP VAPAAAPATT
+     PSPAVSSNDG ASEATSPTQP IQLSDLQNIL ATMNVPATGE GGQQVDLASV LTPEIMAPIL
+     ANAEVQERLT PYLPSGESLP QTADEIQNTL TSPQFQQALG MFSAALASGQ LGPLMSQFGL
+     PADAVDAANK GDIEAFAKAM QSTSSQKERE SSEKKEEEED MSLD
+//

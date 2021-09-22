@@ -1,0 +1,105 @@
+ID   RHAD_SALTI              Reviewed;         275 AA.
+AC   P69737;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   12-APR-2005, sequence version 1.
+DT   11-DEC-2019, entry version 78.
+DE   RecName: Full=Putative rhamnulose-1-phosphate aldolase;
+DE            EC=4.1.2.19 {ECO:0000255|HAMAP-Rule:MF_00770};
+GN   Name=rhaD {ECO:0000255|HAMAP-Rule:MF_00770};
+GN   OrderedLocusNames=STY3828, t3574;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+CC   -!- FUNCTION: Catalyzes the reversible cleavage of L-rhamnulose-1-phosphate
+CC       to dihydroxyacetone phosphate (DHAP) and L-lactaldehyde.
+CC       {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-rhamnulose 1-phosphate = (S)-lactaldehyde + dihydroxyacetone
+CC         phosphate; Xref=Rhea:RHEA:19689, ChEBI:CHEBI:18041,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:58313; EC=4.1.2.19;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00770};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00770};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00770};
+CC   -!- PATHWAY: Carbohydrate degradation; L-rhamnose degradation; glycerone
+CC       phosphate from L-rhamnose: step 3/3. {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- SIMILARITY: Belongs to the aldolase class II family. RhaD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00770}.
+CC   -!- CAUTION: Could be the product of a pseudogene. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AE014613; Type=Frameshift; Evidence={ECO:0000305};
+CC       Sequence=AL513382; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL513382; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; AE014613; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   SMR; P69737; -.
+DR   UniPathway; UPA00541; UER00603.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008994; F:rhamnulose-1-phosphate aldolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019301; P:rhamnose catabolic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.225.10; -; 1.
+DR   HAMAP; MF_00770; RhaD; 1.
+DR   InterPro; IPR001303; Aldolase_II/adducin_N.
+DR   InterPro; IPR036409; Aldolase_II/adducin_N_sf.
+DR   InterPro; IPR013447; Rhamnulose-1-P_Aldolase.
+DR   Pfam; PF00596; Aldolase_II; 1.
+DR   SMART; SM01007; Aldolase_II; 1.
+DR   SUPFAM; SSF53639; SSF53639; 1.
+DR   TIGRFAMs; TIGR02624; rhamnu_1P_ald; 1.
+PE   5: Uncertain;
+KW   Cytoplasm; Lyase; Metal-binding; Rhamnose metabolism; Zinc.
+FT   CHAIN           1..275
+FT                   /note="Putative rhamnulose-1-phosphate aldolase"
+FT                   /id="PRO_0000209669"
+FT   ACT_SITE        117
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           141
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           143
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+FT   METAL           212
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00770"
+SQ   SEQUENCE   275 AA;  30273 MW;  FB9F754430C4C42A CRC64;
+     MQNITDSWFV QGMIKATSDA WLKGWDERNG GNLTLRLDEA DIAPFSADFH EKPRYITLSQ
+     LMPLLANTPF IVTGSGKFFR NVQLDPAANL GVVKIDSDGA GYHILWGLTH DAVPTSELPA
+     HFLSHCERIK ATHGKDRVIM HCHATNLIAL TYVLENNTAL ITRKLWEGST ECLVVFPDGV
+     GILPWMVPGP DEIGQATAQE MQKHSLVLWP FHGVFGSGPT LNETFGLIDT AEKSAEVLVK
+     IYSMGGMKQT ITREELVALG KRFGVTPLAS AVELY
+//

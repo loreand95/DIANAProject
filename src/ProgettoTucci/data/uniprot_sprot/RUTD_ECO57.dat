@@ -1,0 +1,97 @@
+ID   RUTD_ECO57              Reviewed;         266 AA.
+AC   Q8XAU7;
+DT   16-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 105.
+DE   RecName: Full=Putative aminoacrylate hydrolase RutD;
+DE            EC=3.5.1.-;
+DE   AltName: Full=Aminohydrolase;
+GN   Name=rutD; OrderedLocusNames=Z1508, ECs1255;
+OS   Escherichia coli O157:H7.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=83334;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / EDL933 / ATCC 700927 / EHEC;
+RX   PubMed=11206551; DOI=10.1038/35054089;
+RA   Perna N.T., Plunkett G. III, Burland V., Mau B., Glasner J.D., Rose D.J.,
+RA   Mayhew G.F., Evans P.S., Gregor J., Kirkpatrick H.A., Posfai G.,
+RA   Hackett J., Klink S., Boutin A., Shao Y., Miller L., Grotbeck E.J.,
+RA   Davis N.W., Lim A., Dimalanta E.T., Potamousis K., Apodaca J.,
+RA   Anantharaman T.S., Lin J., Yen G., Schwartz D.C., Welch R.A.,
+RA   Blattner F.R.;
+RT   "Genome sequence of enterohaemorrhagic Escherichia coli O157:H7.";
+RL   Nature 409:529-533(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=O157:H7 / Sakai / RIMD 0509952 / EHEC;
+RX   PubMed=11258796; DOI=10.1093/dnares/8.1.11;
+RA   Hayashi T., Makino K., Ohnishi M., Kurokawa K., Ishii K., Yokoyama K.,
+RA   Han C.-G., Ohtsubo E., Nakayama K., Murata T., Tanaka M., Tobe T., Iida T.,
+RA   Takami H., Honda T., Sasakawa C., Ogasawara N., Yasunaga T., Kuhara S.,
+RA   Shiba T., Hattori M., Shinagawa H.;
+RT   "Complete genome sequence of enterohemorrhagic Escherichia coli O157:H7 and
+RT   genomic comparison with a laboratory strain K-12.";
+RL   DNA Res. 8:11-22(2001).
+CC   -!- FUNCTION: May increase the rate of spontaneous hydrolysis of
+CC       aminoacrylate to malonic semialdehyde. Required to remove a toxic
+CC       intermediate produce in the pyrimidine nitrogen degradation (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(Z)-3-aminoacrylate + H(+) + H2O = 3-oxopropanoate + NH4(+);
+CC         Xref=Rhea:RHEA:34947, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:28938, ChEBI:CHEBI:33190, ChEBI:CHEBI:59894;
+CC   -!- INDUCTION: Up-regulated by the nitrogen regulatory protein C (NtrC also
+CC       called GlnG) and repressed by RutR. {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the AB hydrolase superfamily. Hydrolase RutD
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005174; AAG55625.1; -; Genomic_DNA.
+DR   EMBL; BA000007; BAB34678.1; -; Genomic_DNA.
+DR   PIR; E85645; E85645.
+DR   PIR; G90785; G90785.
+DR   RefSeq; NP_309282.1; NC_002695.1.
+DR   RefSeq; WP_001301780.1; NZ_SEKU01000016.1.
+DR   SMR; Q8XAU7; -.
+DR   STRING; 155864.EDL933_1430; -.
+DR   ESTHER; ecoli-rutD; RutD.
+DR   EnsemblBacteria; AAG55625; AAG55625; Z1508.
+DR   EnsemblBacteria; BAB34678; BAB34678; ECs_1255.
+DR   GeneID; 912509; -.
+DR   KEGG; ece:Z1508; -.
+DR   KEGG; ecs:ECs1255; -.
+DR   PATRIC; fig|386585.9.peg.1358; -.
+DR   eggNOG; COG2021; Bacteria.
+DR   HOGENOM; CLU_020336_50_1_6; -.
+DR   Proteomes; UP000000558; Chromosome.
+DR   Proteomes; UP000002519; Chromosome.
+DR   GO; GO:0016811; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides; IEA:InterPro.
+DR   GO; GO:0019740; P:nitrogen utilization; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006212; P:uracil catabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1820; -; 1.
+DR   HAMAP; MF_00832; RutD; 1.
+DR   InterPro; IPR029058; AB_hydrolase.
+DR   InterPro; IPR022742; Hydrolase_4.
+DR   InterPro; IPR019913; Pyrimidine_utilisation_RutD.
+DR   Pfam; PF12146; Hydrolase_4; 1.
+DR   SUPFAM; SSF53474; SSF53474; 1.
+DR   TIGRFAMs; TIGR03611; RutD; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Reference proteome.
+FT   CHAIN           1..266
+FT                   /note="Putative aminoacrylate hydrolase RutD"
+FT                   /id="PRO_0000168801"
+FT   DOMAIN          14..240
+FT                   /note="AB hydrolase-1"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   266 AA;  28949 MW;  7F7980BAC6F33A32 CRC64;
+     MKLSLSPPPY ADAPVVVLIS GLGGSGSYWL PQLAVLEQEY QVVCYDQRGT GNNPDTLAED
+     YSITQMAAEL HQALVAAGIE HYAVVGHALG ALVGMQLALD HPASVTVLVC VNGWLRINAH
+     TRRCFQVRER LLYSGGAQAW VEAQPLFLYP ADWMAARAPR LEAEDALALA HFQGKNNLLR
+     RLNALKRADF SHHADRIRCP VQIICASDDL LVPSACSSEL HAALPDSQKM VMRYGGHACN
+     VTDPETFNAL LLNGLASLLH HREAAL
+//

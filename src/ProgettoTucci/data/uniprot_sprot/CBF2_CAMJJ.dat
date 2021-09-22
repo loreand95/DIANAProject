@@ -1,0 +1,82 @@
+ID   CBF2_CAMJJ              Reviewed;         273 AA.
+AC   A1VYV6; Q46105;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   10-FEB-2021, entry version 65.
+DE   RecName: Full=Putative peptidyl-prolyl cis-trans isomerase Cbf2;
+DE            Short=PPIase Cbf2;
+DE            EC=5.2.1.8;
+DE   AltName: Full=Cell-binding factor 2;
+DE   AltName: Full=Major antigen peb4A;
+DE   AltName: Full=Rotamase Cbf2;
+DE   Flags: Precursor;
+GN   Name=cbf2; Synonyms=peb4A; OrderedLocusNames=CJJ81176_0624;
+OS   Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=354242;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8525063; DOI=10.1016/0923-2508(96)80292-0;
+RA   Burucoa C., Fremaux C., Pei Z., Tummuru M., Blaser M.J., Cenatiempo Y.,
+RA   Fauchere J.L.;
+RT   "Nucleotide sequence and characterization of peb4A encoding an antigenic
+RT   protein in Campylobacter jejuni.";
+RL   Res. Microbiol. 146:467-476(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=81-176;
+RA   Fouts D.E., Nelson K.E., Sebastian Y.;
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X84703; CAA59175.1; -; Genomic_DNA.
+DR   EMBL; CP000538; EAQ73401.1; -; Genomic_DNA.
+DR   PIR; S52412; S52412.
+DR   RefSeq; WP_002856774.1; NC_008787.1.
+DR   SMR; A1VYV6; -.
+DR   STRING; 354242.CJJ81176_0624; -.
+DR   EnsemblBacteria; EAQ73401; EAQ73401; CJJ81176_0624.
+DR   KEGG; cjj:CJJ81176_0624; -.
+DR   eggNOG; COG0760; Bacteria.
+DR   HOGENOM; CLU_034646_1_1_7; -.
+DR   OMA; TYEQAKP; -.
+DR   Proteomes; UP000000646; Chromosome.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR000297; PPIase_PpiC.
+DR   InterPro; IPR023058; PPIase_PpiC_CS.
+DR   PROSITE; PS01096; PPIC_PPIASE_1; 1.
+DR   PROSITE; PS50198; PPIC_PPIASE_2; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Rotamase; Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..273
+FT                   /note="Putative peptidyl-prolyl cis-trans isomerase Cbf2"
+FT                   /id="PRO_0000281896"
+FT   DOMAIN          131..228
+FT                   /note="PpiC"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00278"
+FT   CONFLICT        10
+FT                   /note="A -> T (in Ref. 1; CAA59175)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        16
+FT                   /note="A -> V (in Ref. 1; CAA59175)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        35
+FT                   /note="A -> T (in Ref. 1; CAA59175)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   273 AA;  30430 MW;  46E94403BB70D12F CRC64;
+     MKKFSLVAAA LIAGVALNVN AATVATVNGK SISDAEVSEF FAPMLRGQDF KTLPDNQKKA
+     LIQQYIMQDL ILQDAKKQNL EKDPLYTKEL DRAKDAILVN VYQEKILNTI KIDAAKVKAF
+     YDQNKDKYVK PARVQAKHIL VATEKEAKDI INELKGLKGK ELDAKFSELA KEKSIDPGSK
+     NQGGELGWFD QSTMVKPFTD AAFALKNGTI TTTPVKTNFG YHVILKENSQ AKGQIKFDEV
+     KQGIENGLKF EEFKKVINQK GQDLLNSAKV EYK
+//

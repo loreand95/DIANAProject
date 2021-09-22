@@ -1,0 +1,74 @@
+ID   DRT1_PHYSA              Reviewed;          77 AA.
+AC   Q5DVA5;
+DT   22-APR-2020, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   17-JUN-2020, entry version 50.
+DE   RecName: Full=Dermatoxin-S1 {ECO:0000305};
+DE            Short=DRT-S1 {ECO:0000305};
+DE   AltName: Full=Dermatoxin {ECO:0000303|PubMed:15927704};
+DE   Flags: Precursor;
+GN   Name=DRT-S {ECO:0000303|PubMed:15927704};
+OS   Phyllomedusa sauvagei (Sauvage's leaf frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Hyloidea; Hylidae; Phyllomedusinae;
+OC   Phyllomedusa.
+OX   NCBI_TaxID=8395;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 45-76, MASS SPECTROMETRY,
+RP   AMIDATION AT GLN-76, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Skin secretion;
+RX   PubMed=15927704; DOI=10.1016/j.regpep.2005.01.017;
+RA   Chen T., Walker B., Zhou M., Shaw C.;
+RT   "Dermatoxin and phylloxin from the waxy monkey frog, Phyllomedusa sauvagei:
+RT   cloning of precursor cDNAs and structural characterization from lyophilized
+RT   skin secretion.";
+RL   Regul. Pept. 129:103-108(2005).
+CC   -!- FUNCTION: Antimicrobial peptide with potent activity against Gram-
+CC       positive bacteria B.megaterium, C.glutamicum and S.aureus and
+CC       mollicutes A.laidlawii and S.melliferum. Less active against Gram-
+CC       negative bacteria B.cepacia, P.aeruginosa, S.typhimurium and
+CC       S.meliloti. Probably acts by disturbing membrane functions with its
+CC       amphipathic structure. {ECO:0000250|UniProtKB:Q9PT75}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:15927704}. Target
+CC       cell membrane {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands.
+CC       {ECO:0000305|PubMed:15927704}.
+CC   -!- MASS SPECTROMETRY: Mass=2945.96; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:15927704};
+CC   -!- SIMILARITY: Belongs to the frog skin active peptide (FSAP) family.
+CC       Dermatoxin subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ865345; CAI26288.1; -; mRNA.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0044218; C:other organism cell membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0045087; P:innate immune response; IEA:UniProtKB-KW.
+DR   InterPro; IPR004275; Frog_antimicrobial_propeptide.
+DR   InterPro; IPR016322; FSAP.
+DR   Pfam; PF03032; FSAP_sig_propep; 1.
+DR   PIRSF; PIRSF001822; Dermaseptin_precursor; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Amphibian defense peptide; Antibiotic; Antimicrobial;
+KW   Cleavage on pair of basic residues; Direct protein sequencing; Immunity;
+KW   Innate immunity; Membrane; Secreted; Signal; Target cell membrane;
+KW   Target membrane.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..44
+FT                   /evidence="ECO:0000305|PubMed:15927704"
+FT                   /id="PRO_0000449668"
+FT   PEPTIDE         45..76
+FT                   /note="Dermatoxin-S1"
+FT                   /evidence="ECO:0000269|PubMed:15927704"
+FT                   /id="PRO_5004254443"
+FT   MOD_RES         76
+FT                   /note="Glutamine amide"
+FT                   /evidence="ECO:0000269|PubMed:15927704"
+SQ   SEQUENCE   77 AA;  8361 MW;  151D206871B19FA1 CRC64;
+     MAFLKKSLFL ILFLGLVPLS FCENDKREGE NEEEQDDDQS EEKRALGTLL KGVGSAVATV
+     GKMVADQFGK LLQAGQG
+//

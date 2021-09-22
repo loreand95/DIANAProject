@@ -1,0 +1,97 @@
+ID   EFEB_SHIF8              Reviewed;         421 AA.
+AC   Q0T616;
+DT   20-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   05-SEP-2006, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=Deferrochelatase/peroxidase EfeB;
+DE            EC=1.11.1.-;
+DE   Flags: Precursor;
+GN   Name=efeB; OrderedLocusNames=SFV_1030;
+OS   Shigella flexneri serotype 5b (strain 8401).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=373384;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=8401;
+RX   PubMed=16822325; DOI=10.1186/1471-2164-7-173;
+RA   Nie H., Yang F., Zhang X., Yang J., Chen L., Wang J., Xiong Z., Peng J.,
+RA   Sun L., Dong J., Xue Y., Xu X., Chen S., Yao Z., Shen Y., Jin Q.;
+RT   "Complete genome sequence of Shigella flexneri 5b and comparison with
+RT   Shigella flexneri 2a.";
+RL   BMC Genomics 7:173-173(2006).
+CC   -!- FUNCTION: Involved in the recovery of exogenous heme iron. Extracts
+CC       iron from heme while preserving the tetrapyrrol ring intact (By
+CC       similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344; Evidence={ECO:0000250};
+CC       Note=Binds 1 heme b (iron(II)-protoporphyrin IX) group non-covalently
+CC       per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. Part of a ferrous iron transporter composed of
+CC       EfeU, EfeO and EfeB (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the DyP-type peroxidase family. EfeB subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000266; ABF03249.1; -; Genomic_DNA.
+DR   RefSeq; WP_001199452.1; NC_008258.1.
+DR   SMR; Q0T616; -.
+DR   PeroxiBase; 5873; SflDyPrx01.
+DR   EnsemblBacteria; ABF03249; ABF03249; SFV_1030.
+DR   GeneID; 58391623; -.
+DR   KEGG; sfv:SFV_1030; -.
+DR   HOGENOM; CLU_039488_0_0_6; -.
+DR   OMA; PQQASMM; -.
+DR   BioCyc; SFLE373384:SFV_RS05690-MONOMER; -.
+DR   Proteomes; UP000000659; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004601; F:peroxidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0033212; P:iron import into cell; IEA:InterPro.
+DR   InterPro; IPR011008; Dimeric_a/b-barrel.
+DR   InterPro; IPR006314; Dyp_peroxidase.
+DR   InterPro; IPR006313; EfeB.
+DR   InterPro; IPR006311; TAT_signal.
+DR   Pfam; PF04261; Dyp_perox; 1.
+DR   SUPFAM; SSF54909; SSF54909; 1.
+DR   TIGRFAMs; TIGR01413; Dyp_perox_fam; 1.
+DR   TIGRFAMs; TIGR01412; tat_substr_1; 1.
+DR   PROSITE; PS51404; DYP_PEROXIDASE; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Heme; Iron; Metal-binding; Oxidoreductase; Periplasm; Peroxidase; Repeat;
+KW   Signal.
+FT   SIGNAL          1..33
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00648"
+FT   CHAIN           34..421
+FT                   /note="Deferrochelatase/peroxidase EfeB"
+FT                   /id="PRO_0000278549"
+FT   REGION          234..236
+FT                   /note="Heme binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          332..334
+FT                   /note="Heme binding"
+FT                   /evidence="ECO:0000250"
+FT   METAL           327
+FT                   /note="Iron (heme proximal ligand); via tele nitrogen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         345
+FT                   /note="Heme"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   421 AA;  46538 MW;  F9583A178F5B57AE CRC64;
+     MQYKDENGVN EPSRRRLLKG IGALAGSCPV AHAQKTQSAP GTLSPDARNE KQPFYGEHQA
+     GILTPQQAAM MLVAFDVLAS DKADLERLFR LLTQRFAFLS QGGAAPETPN PRLPPLDSGI
+     LGGYIAPDNL TITLSVGHSL FDERFGLAPQ MPKKLQKMTR FPNDSLDAAL CHGDVLLQIC
+     ANTQDTVNHA LRDIIKHTPD LLSVRWKREG FISDHAARSK GKETPINLLG FKDGTANPDS
+     QNDKLMQKVV WVTADQQEPA WTIGGSYQAV RLIQFRVEFW DRTPLKEQQT IFGRDKQTGA
+     PLGMQHEHDV PDYASDPEGK VIALDSHIRL ANPRTAESES SLMLRRGYSY SLGVTNSGQL
+     DMGLLFVCYQ HDLEKGFLTV QKRLNGEALE EYVKPIGGGY FFSLPGVKDA NDYLGRALLQ
+     V
+//

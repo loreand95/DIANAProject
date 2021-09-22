@@ -1,0 +1,114 @@
+ID   RPOC1_ACOGR             Reviewed;         682 AA.
+AC   Q5QA71;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   07-MAR-2006, sequence version 2.
+DT   02-DEC-2020, entry version 55.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01323};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01323};
+DE   AltName: Full=PEP {ECO:0000255|HAMAP-Rule:MF_01323};
+DE   AltName: Full=Plastid-encoded RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01323};
+DE            Short=RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01323};
+GN   Name=rpoC1 {ECO:0000255|HAMAP-Rule:MF_01323};
+OS   Acorus gramineus (Dwarf sweet flag).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; Liliopsida; Acoraceae; Acorus.
+OX   NCBI_TaxID=55184;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=15453916; DOI=10.1186/1471-2148-4-35;
+RA   Stefanovic S., Rice D.W., Palmer J.D.;
+RT   "Long branch attraction, taxon sampling, and the earliest angiosperms:
+RT   Amborella or monocots?";
+RL   BMC Evol. Biol. 4:35-35(2004).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01323}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01323};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01323};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01323};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01323};
+CC       Note=Binds 1 Zn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01323};
+CC   -!- SUBUNIT: In plastids the minimal PEP RNA polymerase catalytic core is
+CC       composed of four subunits: alpha, beta, beta', and beta''. When a
+CC       (nuclear-encoded) sigma factor is associated with the core the
+CC       holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01323}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast {ECO:0000255|HAMAP-
+CC       Rule:MF_01323}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta' chain family. RpoC1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01323}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAV74362.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY757820; AAV74362.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AY757819; AAV74362.1; JOINED; Genomic_DNA.
+DR   SMR; Q5QA71; -.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.274.100; -; 1.
+DR   HAMAP; MF_01323; RNApol_bact_RpoC1; 1.
+DR   InterPro; IPR000722; RNA_pol_asu.
+DR   InterPro; IPR006592; RNA_pol_N.
+DR   InterPro; IPR007080; RNA_pol_Rpb1_1.
+DR   InterPro; IPR042102; RNA_pol_Rpb1_3_sf.
+DR   InterPro; IPR034678; RNApol_RpoC1.
+DR   Pfam; PF04997; RNA_pol_Rpb1_1; 1.
+DR   Pfam; PF00623; RNA_pol_Rpb1_2; 1.
+DR   SMART; SM00663; RPOLA_N; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; DNA-directed RNA polymerase; Magnesium; Metal-binding;
+KW   Nucleotidyltransferase; Plastid; Transcription; Transferase; Zinc.
+FT   CHAIN           1..682
+FT                   /note="DNA-directed RNA polymerase subunit beta'"
+FT                   /id="PRO_0000067857"
+FT   METAL           69
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           71
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           87
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           90
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           489
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           491
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+FT   METAL           493
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01323"
+SQ   SEQUENCE   682 AA;  78591 MW;  8A8B0131AC1F80AE CRC64;
+     MIDRYKHQQL QIGSVSPQQI SAWANKILPN GEIVGEVTKP YTFHYKTNKP EKDGLFCERI
+     FGPIKSGICA CGNYRVIGAE KEDPKFCEQC GVEFIDSRIR RYQMGYIKLA CPVTHVWYLK
+     RLPSYIANLL DKPLKELEGL VYCDFSFARP IAKKPTFLRL RGLFEYEIQS WKYSIPLFFT
+     TQGFDTFRNR EISTGAGAIR EQLADLDLRI VIDNSSVEWK ELGDEGSTGN EWEDRKIGRR
+     KDFLVRRMEL AKHFIRTNVE PERMVLCLLP VLPPELRPII QIDGGKLMSS DINELYRRVI
+     YRNNTLTDLL KTSRSTPGEL VMCQEKLVQE AVDTLLDNGI RGQPMRDGHN KVYKSFSDVI
+     EGKEGRFRET LLGKRVDYSG RSVIVVGPSL SLHRCGLPRE IAIELFQTFV IRGLIRQHLA
+     SNIGIAKSKI REKEPIVWEI LQEVMQGHPV LLNRAPTLHR LGIQAFQPVL VEGRAICLHP
+     LVCKGFNADF DGDQMAVHVP LSLEAQAEAR LLMFSHMNLL SPAIGDPISV PTQDMLIGLY
+     VLTMGNHRGI FVNRYNPCNR RNYQNKTVDN NNYKHTKEKK PYFFSSYDAL GAYQQKRINL
+     HRPLWLRWRL DQRVIGSREV PIEVQYESLG TYQEIYGHYL IVRSVKKEIL CIYIRTTVGH
+     ISFYREIEES VQGFCRAYSY GT
+//

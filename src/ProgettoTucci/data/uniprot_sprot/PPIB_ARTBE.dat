@@ -1,0 +1,73 @@
+ID   PPIB_ARTBE              Reviewed;         226 AA.
+AC   O93826;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=Peptidyl-prolyl cis-trans isomerase B;
+DE            Short=PPIase B;
+DE            EC=5.2.1.8;
+DE   AltName: Full=Rotamase B;
+DE   Flags: Precursor;
+GN   Name=CPR2;
+OS   Arthroderma benhamiae (Trichophyton mentagrophytes).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Onygenales; Arthrodermataceae; Trichophyton.
+OX   NCBI_TaxID=63400;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=VUT-77011;
+RX   PubMed=10711599; DOI=10.1111/j.1348-0421.2000.tb01245.x;
+RA   Kano R., Nakamura Y., Watanabe S., Tsujimoto H., Hasegawa A.;
+RT   "Characterization of the cyclophilin of Trichophyton mentagrophytes.";
+RL   Microbiol. Immunol. 44:51-56(2000).
+CC   -!- FUNCTION: PPIases accelerate the folding of proteins. It catalyzes the
+CC       cis-trans isomerization of proline imidic peptide bonds in
+CC       oligopeptides (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC   -!- ACTIVITY REGULATION: Inhibited by cyclosporin A (CsA). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the cyclophilin-type PPIase family. PPIase B
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB019518; BAA34384.1; -; mRNA.
+DR   SMR; O93826; -.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006457; P:protein folding; IEA:InterPro.
+DR   Gene3D; 2.40.100.10; -; 1.
+DR   InterPro; IPR029000; Cyclophilin-like_dom_sf.
+DR   InterPro; IPR020892; Cyclophilin-type_PPIase_CS.
+DR   InterPro; IPR002130; Cyclophilin-type_PPIase_dom.
+DR   Pfam; PF00160; Pro_isomerase; 1.
+DR   PRINTS; PR00153; CSAPPISMRASE.
+DR   SUPFAM; SSF50891; SSF50891; 1.
+DR   PROSITE; PS00170; CSA_PPIASE_1; 1.
+DR   PROSITE; PS50072; CSA_PPIASE_2; 1.
+PE   2: Evidence at transcript level;
+KW   Endoplasmic reticulum; Glycoprotein; Isomerase; Rotamase; Signal.
+FT   SIGNAL          1..28
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           29..226
+FT                   /note="Peptidyl-prolyl cis-trans isomerase B"
+FT                   /id="PRO_0000233042"
+FT   DOMAIN          38..195
+FT                   /note="PPIase cyclophilin-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00156"
+FT   MOTIF           223..226
+FT                   /note="Prevents secretion from ER"
+FT   CARBOHYD        139
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   226 AA;  24764 MW;  4D563B4943B27F12 CRC64;
+     MARIGRILTL VVFAAVGLFL FMGQTVEAKG PKITSKVYFD IEHDGQPLGR IVMGLYGKTV
+     PKTAENFRAL ATGEKGFGYE GSTFHRVIKD FMIQGGDFTN GDGTGGKSIY GNKFEDENFK
+     LRHTKKGVLS MANAGKDTNG SQFFITTAIT AWLDGKHVVF GEVLEGYDIV DKIQVVPKGF
+     QDRPTKDVKI VKCGELDMKE EAEGEGTESP SKPDSEKEQA PVRDEI
+//

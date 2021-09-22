@@ -1,0 +1,140 @@
+ID   DSBD_ECOUT              Reviewed;         565 AA.
+AC   Q1R3C4;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   10-FEB-2021, entry version 100.
+DE   RecName: Full=Thiol:disulfide interchange protein DsbD {ECO:0000255|HAMAP-Rule:MF_00399};
+DE            EC=1.8.1.8 {ECO:0000255|HAMAP-Rule:MF_00399};
+DE   AltName: Full=Protein-disulfide reductase {ECO:0000255|HAMAP-Rule:MF_00399};
+DE            Short=Disulfide reductase {ECO:0000255|HAMAP-Rule:MF_00399};
+DE   Flags: Precursor;
+GN   Name=dsbD {ECO:0000255|HAMAP-Rule:MF_00399}; OrderedLocusNames=UTI89_C4733;
+OS   Escherichia coli (strain UTI89 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=364106;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UTI89 / UPEC;
+RX   PubMed=16585510; DOI=10.1073/pnas.0600938103;
+RA   Chen S.L., Hung C.-S., Xu J., Reigstad C.S., Magrini V., Sabo A.,
+RA   Blasiar D., Bieri T., Meyer R.R., Ozersky P., Armstrong J.R., Fulton R.S.,
+RA   Latreille J.P., Spieth J., Hooton T.M., Mardis E.R., Hultgren S.J.,
+RA   Gordon J.I.;
+RT   "Identification of genes subject to positive selection in uropathogenic
+RT   strains of Escherichia coli: a comparative genomics approach.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 103:5977-5982(2006).
+CC   -!- FUNCTION: Required to facilitate the formation of correct disulfide
+CC       bonds in some periplasmic proteins and for the assembly of the
+CC       periplasmic c-type cytochromes. Acts by transferring electrons from
+CC       cytoplasmic thioredoxin to the periplasm. This transfer involves a
+CC       cascade of disulfide bond formation and reduction steps.
+CC       {ECO:0000255|HAMAP-Rule:MF_00399}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-dithiol + NAD(+) = [protein]-disulfide + H(+) +
+CC         NADH; Xref=Rhea:RHEA:18749, Rhea:RHEA-COMP:10593, Rhea:RHEA-
+CC         COMP:10594, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.8.1.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00399};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-dithiol + NADP(+) = [protein]-disulfide + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:18753, Rhea:RHEA-COMP:10593, Rhea:RHEA-
+CC         COMP:10594, ChEBI:CHEBI:15378, ChEBI:CHEBI:29950, ChEBI:CHEBI:50058,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.8.1.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00399};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00399}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00399}.
+CC   -!- SIMILARITY: Belongs to the thioredoxin family. DsbD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00399}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000243; ABE10140.1; -; Genomic_DNA.
+DR   RefSeq; WP_000068942.1; NC_007946.1.
+DR   BMRB; Q1R3C4; -.
+DR   SMR; Q1R3C4; -.
+DR   EnsemblBacteria; ABE10140; ABE10140; UTI89_C4733.
+DR   KEGG; eci:UTI89_C4733; -.
+DR   HOGENOM; CLU_014657_3_0_6; -.
+DR   OMA; FVYVQGM; -.
+DR   Proteomes; UP000001952; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0047134; F:protein-disulfide reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0017004; P:cytochrome complex assembly; IEA:UniProtKB-UniRule.
+DR   CDD; cd02953; DsbDgamma; 1.
+DR   Gene3D; 2.60.40.1250; -; 1.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   HAMAP; MF_00399; DbsD; 1.
+DR   InterPro; IPR003834; Cyt_c_assmbl_TM_dom.
+DR   InterPro; IPR035671; DsbD_gamma.
+DR   InterPro; IPR028250; DsbDN.
+DR   InterPro; IPR036929; DsbDN_sf.
+DR   InterPro; IPR022910; Thiol_diS_interchange_DbsD.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   InterPro; IPR017937; Thioredoxin_CS.
+DR   InterPro; IPR013766; Thioredoxin_domain.
+DR   PANTHER; PTHR32234:SF0; PTHR32234:SF0; 1.
+DR   Pfam; PF11412; DsbC; 1.
+DR   Pfam; PF02683; DsbD; 1.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+DR   SUPFAM; SSF74863; SSF74863; 1.
+DR   PROSITE; PS00194; THIOREDOXIN_1; 1.
+DR   PROSITE; PS51352; THIOREDOXIN_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cytochrome c-type biogenesis;
+KW   Disulfide bond; Electron transport; Membrane; NAD; Oxidoreductase;
+KW   Redox-active center; Signal; Transmembrane; Transmembrane helix; Transport.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   CHAIN           20..565
+FT                   /note="Thiol:disulfide interchange protein DsbD"
+FT                   /id="PRO_0000304386"
+FT   TRANSMEM        163..183
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        208..228
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        243..263
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        289..309
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        323..343
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        357..377
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   TRANSMEM        384..404
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   DOMAIN          434..565
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   DISULFID        122..128
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   DISULFID        182..304
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+FT   DISULFID        480..483
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00399"
+SQ   SEQUENCE   565 AA;  61915 MW;  ADA960811AFC4C62 CRC64;
+     MAQRIFTLIL LLCSTSVFAG LFDAPGRSQF VPADQAFAFD FQQNQHDLNL TWQIKDGYYL
+     YRKQIRITPE HAKIADVQLP QGVWHEDEFY GKSEIYRDRL TLPVTINQAS AGATLTVTYQ
+     GCADAGFCYP PETKTVPLSE VVANNEASQP VSVPQQEQPT AQLPFSALWA LLIGIGIAFT
+     PCVLPMYPLI SGIVLGGKQR LSTARALLLT FIYVQGMALT YTALGLVVAA AGLQFQAALQ
+     HPYVLIGLAI VFTLLAMSMF GLFTLQLPSS LQTRLTLMSN RQQGGSPGGV FIMGAIAGLI
+     CSPCTTAPLS AILLYIAQSG NMWLGGGTLY LYALGMGLPL MLITVFGNRL LPKSGPWMEQ
+     VKTAFGFVIL ALPVFLLERV IGDIWGLRLW SALGVAFFGW AFITSLQAKR GWMRVVQIIL
+     LAAALVSVRP LQDWAFGETH TAQTQTHLNF TQIKTVDELN QALVEAKGKP VMLDLYADWC
+     VACKEFEKYT FSDPQVQKAL ADTVLLQANV TANDAQDVAL LKHLNVLGLP TILFFDGQGQ
+     EHPQARVTGF MDAETFSAHL RDRQP
+//

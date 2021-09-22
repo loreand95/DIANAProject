@@ -1,0 +1,137 @@
+ID   MNME_PASMU              Reviewed;         452 AA.
+AC   Q9CLQ1;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   10-FEB-2021, entry version 121.
+DE   RecName: Full=tRNA modification GTPase MnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+DE            EC=3.6.-.- {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Name=mnmE {ECO:0000255|HAMAP-Rule:MF_00379};
+GN   Synonyms=thdF {ECO:0000255|HAMAP-Rule:MF_00379},
+GN   trmE {ECO:0000255|HAMAP-Rule:MF_00379}; OrderedLocusNames=PM1166;
+OS   Pasteurella multocida (strain Pm70).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Pasteurella.
+OX   NCBI_TaxID=272843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pm70;
+RX   PubMed=11248100; DOI=10.1073/pnas.051634598;
+RA   May B.J., Zhang Q., Li L.L., Paustian M.L., Whittam T.S., Kapur V.;
+RT   "Complete genomic sequence of Pasteurella multocida Pm70.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3460-3465(2001).
+CC   -!- FUNCTION: Exhibits a very high intrinsic GTPase hydrolysis rate.
+CC       Involved in the addition of a carboxymethylaminomethyl (cmnm) group at
+CC       the wobble position (U34) of certain tRNAs, forming tRNA-
+CC       cmnm(5)s(2)U34. {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00379};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00379}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. TrmE GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00379}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAK03250.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004439; AAK03250.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_016533681.1; NC_002663.1.
+DR   SMR; Q9CLQ1; -.
+DR   EnsemblBacteria; AAK03250; AAK03250; PM1166.
+DR   KEGG; pmu:PM1166; -.
+DR   PATRIC; fig|272843.6.peg.1177; -.
+DR   HOGENOM; CLU_019624_4_1_6; -.
+DR   OMA; EFHCHGG; -.
+DR   BioCyc; PMUL272843:G1FZ8-1235-MONOMER; -.
+DR   Proteomes; UP000000809; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-UniRule.
+DR   CDD; cd04164; trmE; 1.
+DR   Gene3D; 1.20.120.430; -; 1.
+DR   Gene3D; 3.30.1360.120; -; 1.
+DR   HAMAP; MF_00379; GTPase_MnmE; 1.
+DR   InterPro; IPR031168; G_TrmE.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR018948; GTP-bd_TrmE_N.
+DR   InterPro; IPR004520; GTPase_MnmE.
+DR   InterPro; IPR027368; MnmE_dom2.
+DR   InterPro; IPR025867; MnmE_helical.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR027266; TrmE/GcvT_dom1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF12631; MnmE_helical; 1.
+DR   Pfam; PF10396; TrmE_N; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00450; mnmE_trmE_thdF; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51709; G_TRME; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Hydrolase; Magnesium; Metal-binding;
+KW   Nucleotide-binding; Potassium; Reference proteome; tRNA processing.
+FT   CHAIN           1..452
+FT                   /note="tRNA modification GTPase MnmE"
+FT                   /id="PRO_0000188898"
+FT   DOMAIN          214..375
+FT                   /note="TrmE-type G"
+FT   NP_BIND         224..229
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   NP_BIND         243..249
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   NP_BIND         268..271
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   NP_BIND         333..336
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           224
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           228
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           243
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           245
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           248
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   METAL           249
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         21
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         78
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         118
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+FT   BINDING         452
+FT                   /note="Formyltetrahydrofolate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00379"
+SQ   SEQUENCE   452 AA;  49536 MW;  AC730D30D9C084C6 CRC64;
+     MKETIVAQAT APGRGGIGIL RVSGPKAVEV AHTVLGKCPK PRMADYLPFK DSDGNVLDQG
+     IALYFKAPHS FTGEDVLELQ GHGGQVVLDL LLKRILQLEG LRLARPGEFS EQAFLNDKLD
+     LAQAEAIADL IDASSEQAAR SALKSLQGEF SNKVNQLVDS VIYLRTYVEA AIDFPDEEID
+     FLADGKIEAH LNDIITQLDH VRSEAKQGSI LREGMKVVIA GRPNAGKSSL LNALAGREAA
+     IVTDIAGTTR DVLREHIHID GMPLHIIDTA GLREATDEVE RIGIVRAWSE IEQADRILLM
+     LDSTEADNQD LEKVRSEFLT KLPSNIPVTI VRNKADLSGE NEGIVEQNGY TVITLSAKTQ
+     QGIALLREHL KQSMGYQTNM EGGFLARRRH LEALEQAATH LQQGHVQLTQ FYAGELLAEE
+     LRRVQNHLSE ITGQFTSDDL LGNIFSSFCI GK
+//

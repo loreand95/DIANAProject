@@ -1,0 +1,114 @@
+ID   RPOC2_PAUCH             Reviewed;        1372 AA.
+AC   B1X3M8;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   02-DEC-2020, entry version 45.
+DE   RecName: Full=DNA-directed RNA polymerase subunit beta'' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=DNA-directed RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE            Short=RNAP subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=PEP {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=Plastid-encoded RNA polymerase subunit beta'' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE            Short=RNA polymerase subunit beta'' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=RNA polymerase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+DE   AltName: Full=Transcriptase subunit beta' {ECO:0000255|HAMAP-Rule:MF_01324};
+GN   Name=rpoC2 {ECO:0000255|HAMAP-Rule:MF_01324}; OrderedLocusNames=PCC_0095;
+OS   Paulinella chromatophora.
+OG   Plastid; Organellar chromatophore.
+OC   Eukaryota; Sar; Rhizaria; Imbricatea; Silicofilosea; Euglyphida;
+OC   Paulinellidae; Paulinella.
+OX   NCBI_TaxID=39717;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=18356055; DOI=10.1016/j.cub.2008.02.051;
+RA   Nowack E.C.M., Melkonian M., Gloeckner G.;
+RT   "Chromatophore genome sequence of Paulinella sheds light on acquisition of
+RT   photosynthesis by eukaryotes.";
+RL   Curr. Biol. 18:410-418(2008).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_01324};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01324};
+CC       Note=Binds 1 Zn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01324};
+CC   -!- SUBUNIT: In plastids the minimal PEP RNA polymerase catalytic core is
+CC       composed of four subunits: alpha, beta, beta', and beta''. When a
+CC       (nuclear-encoded) sigma factor is associated with the core the
+CC       holoenzyme is formed, which can initiate transcription.
+CC       {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, organellar chromatophore.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase beta' chain family. RpoC2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01324}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000815; ACB42547.1; -; Genomic_DNA.
+DR   RefSeq; YP_002048757.1; NC_011087.1.
+DR   GeneID; 6481180; -.
+DR   GO; GO:0070111; C:organellar chromatophore; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009536; C:plastid; IEA:UniProtKB-KW.
+DR   GO; GO:0003677; F:DNA binding; IEA:InterPro.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   Gene3D; 1.10.132.30; -; 1.
+DR   Gene3D; 1.10.274.100; -; 1.
+DR   HAMAP; MF_01324; RNApol_bact_RpoC2; 1.
+DR   InterPro; IPR012756; DNA-dir_RpoC2_beta_pp.
+DR   InterPro; IPR042102; RNA_pol_Rpb1_3_sf.
+DR   InterPro; IPR007083; RNA_pol_Rpb1_4.
+DR   InterPro; IPR007081; RNA_pol_Rpb1_5.
+DR   InterPro; IPR038120; Rpb1_funnel_sf.
+DR   Pfam; PF05000; RNA_pol_Rpb1_4; 1.
+DR   Pfam; PF04998; RNA_pol_Rpb1_5; 1.
+DR   TIGRFAMs; TIGR02388; rpoC2_cyan; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Metal-binding; Nucleotidyltransferase;
+KW   Organellar chromatophore; Plastid; Transcription; Transferase; Zinc.
+FT   CHAIN           1..1372
+FT                   /note="DNA-directed RNA polymerase subunit beta''"
+FT                   /id="PRO_0000353587"
+FT   METAL           252
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           321
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           328
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+FT   METAL           331
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01324"
+SQ   SEQUENCE   1372 AA;  151182 MW;  539EED1ECEE78599 CRC64;
+     MTPSSNSVKT SRFNKVRTDI IGDTDLPNNL IKSLSKSPPH FYNHIIDKKG LRDIIAWAYK
+     SHGIAATAEL ADDIKDLGFK YATVAAVSIS IDDLKIPKEK KFLLEQAEEQ ITATEERYRL
+     GEITEVERHT KVIDTWTETN ERLVLAIKKN FNENDPLNSV WMMANSGARG NISQVRQLVG
+     MRGLMANPQG EIIDLPIRAN FKEGLTVTEY VISSYGARKG LVDTALRTAD SGYLTRRLVD
+     VAQDVIVRED DCGTERGIVV EADEKGNYGT KLVGRLAAQS VVVDNENRVL VRRNREIDLI
+     TACRIEAADI PSVIVRSPLT CEAARSVCRK CYGWALAHNA LVDLGEAVGI IAAQSIGEPG
+     TQLTMRTFHT GGVSTAETGL VRSTLEGSII FGSKARVRPY RTPHGVEAQQ AETDFVLQVK
+     PNNGKKSQKV DITNGSLLFV SDSQEVASDT ILAQIISGSS VKKSVEKATK DVICDLAGQV
+     RYDEALQPKE VIDRQGSATH KATRLGRVWV LSGDVYNLPP NAKPVIQGNS KVEEGEVLAE
+     SRLSSEHGGV VRLRESTGDS REVQIVTTSM TLKDFKLLGE STHSGEIWHL EAKDTTRYLL
+     KTQPGSKIGN GEVIAELADE RFRTKTGGLV KYAPGGLSIK KARSAKNGYE VNKGGTLLWI
+     PQETHEINKD ISLLMIEDGQ WIEDKTEVVK DIFSQIAGIV TVTQKNDILR EITVRPGTLY
+     PCNESKVIER FKGEGLLVDE EEIISKNLKA EKRVFVQSVE TSEGPQLLIR PVEEYTIPEV
+     AHLPELAIVK QNSGPYLGLK ATQRLNFKDG ELIKSVEGVE LLKTQLILET FDTTPQMTVD
+     VEKVTDKRSK TLERLQLVIL ETLLVRRDTI SDASHGSTHT ELQVNDGDLV KSGDVVATTQ
+     ILCKEVGIVQ LPKQIDNEPI RRIIVERDQD TMTIPLGSAP LVSVGQRLVD GDLLAENDPS
+     PCCGQVETIK NNTIIIRIGR PYMISSDSTL HVKDRELVQR GDSLALLVFE RQKTGDIVQG
+     LPRIEELLEA RRPRDSAVLC KQPGVLTLRH DEETDSSIAV IKSANGEETE YPILLGRNLM
+     VSVGQHIKAG ELLTDGPINP HELLEYLFAD LRSRKPLMEA AREAIAKVQS RLVTEVQNVY
+     KSQGVTIHNK HIEVIVRQMT SKVRIEDAGE TTLLPGELIE LRHVEKVNKA MFMTSSSPAV
+     FIPELLGITK ASLNTDSFIS AASFQETTRV LTEAAIEGKT DYLRGLKENV IIGRLIPAGT
+     GFSGFEEELR SEAGPHPDIL DEDPAGYRRM QNLRPDYTVD MPAAASASPA ALLDDPSDDE
+     LEATRSRHGI EVTTSNTAAF TRPVIVNKIM EDQILDPDII ASLQEEGLLT RE
+//

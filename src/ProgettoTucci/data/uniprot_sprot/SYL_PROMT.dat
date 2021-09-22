@@ -1,0 +1,104 @@
+ID   SYL_PROMT               Reviewed;         862 AA.
+AC   Q46L15;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 113.
+DE   RecName: Full=Leucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            EC=6.1.1.4 {ECO:0000255|HAMAP-Rule:MF_00049};
+DE   AltName: Full=Leucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00049};
+DE            Short=LeuRS {ECO:0000255|HAMAP-Rule:MF_00049};
+GN   Name=leuS {ECO:0000255|HAMAP-Rule:MF_00049}; OrderedLocusNames=PMN2A_0321;
+OS   Prochlorococcus marinus (strain NATL2A).
+OC   Bacteria; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus.
+OX   NCBI_TaxID=59920;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NATL2A;
+RX   PubMed=18159947; DOI=10.1371/journal.pgen.0030231;
+RA   Kettler G.C., Martiny A.C., Huang K., Zucker J., Coleman M.L., Rodrigue S.,
+RA   Chen F., Lapidus A., Ferriera S., Johnson J., Steglich C., Church G.M.,
+RA   Richardson P., Chisholm S.W.;
+RT   "Patterns and implications of gene gain and loss in the evolution of
+RT   Prochlorococcus.";
+RL   PLoS Genet. 3:2515-2528(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-leucine + tRNA(Leu) = AMP + diphosphate + L-leucyl-
+CC         tRNA(Leu); Xref=Rhea:RHEA:11688, Rhea:RHEA-COMP:9613, Rhea:RHEA-
+CC         COMP:9622, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57427,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78494, ChEBI:CHEBI:456215; EC=6.1.1.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00049};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00049}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000095; AAZ57813.1; -; Genomic_DNA.
+DR   RefSeq; WP_011293855.1; NC_007335.2.
+DR   SMR; Q46L15; -.
+DR   PRIDE; Q46L15; -.
+DR   EnsemblBacteria; AAZ57813; AAZ57813; PMN2A_0321.
+DR   KEGG; pmn:PMN2A_0321; -.
+DR   HOGENOM; CLU_004427_0_0_3; -.
+DR   OMA; PVFIADY; -.
+DR   OrthoDB; 32262at2; -.
+DR   PhylomeDB; Q46L15; -.
+DR   Proteomes; UP000002535; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004823; F:leucine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006429; P:leucyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_00049_B; Leu_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002302; Leu-tRNA-ligase.
+DR   InterPro; IPR025709; Leu_tRNA-synth_edit.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR015413; Methionyl/Leucyl_tRNA_Synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   PANTHER; PTHR43740; PTHR43740; 1.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 2.
+DR   Pfam; PF13603; tRNA-synt_1_2; 1.
+DR   Pfam; PF09334; tRNA-synt_1g; 1.
+DR   PRINTS; PR00985; TRNASYNTHLEU.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00396; leuS_bact; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN           1..862
+FT                   /note="Leucine--tRNA ligase"
+FT                   /id="PRO_0000334792"
+FT   MOTIF           51..61
+FT                   /note="'HIGH' region"
+FT   MOTIF           624..628
+FT                   /note="'KMSKS' region"
+FT   BINDING         627
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00049"
+SQ   SEQUENCE   862 AA;  99302 MW;  171CA10B0D90CA7C CRC64;
+     MNNTTSDIND QRYEPREVEA YWQKEWASDD LYRTNTEVNK ENTFYALSMF PYPSGSLHMG
+     HVRNYVITDV LARYKRMKGF NVLHPMGWDS FGLPAENAAI EREISPSTWT DKNISQMKDQ
+     LDRLGLSIDW SKEVTTCKEE YYKWTQYIFN QLHKNNLAYQ KKATVNWDPI DQTVLANEQV
+     DAEGKSWRSG AKVEKKELNQ WFLRITSFAE DLNKDLIKLN DWPDRVRVMQ KNWIGKSIGA
+     EITFEIKNSD QKITAFTTRI DTVYGVSYLV LASNHPLIDQ LISSNDIDKL NDFRQTQEKL
+     SDLERNSDTR QKLGMYLGVD AINPANNKEI PIWIGDYVIM EYGTGAVMGV PAHDSRDYQF
+     AKSYDLPIQY VIKPNIDEDE SYLNAEFVDK GIMINSDKFN GIESDIAKTQ ILEFGSNSNW
+     AKPKITYKLR DWLISRQRYW GCPIPIINCK KCGQVRVPDN DLPVVLPIDI KLTGKGKSPL
+     TTKTEWINTC CPKCGTEAKR ETDTMDTFMC SSWYFLRYIN PDNCEKPFLK SEIDKWLPVK
+     QYVGGIEHAI LHLLYSRFLT KALKKCGLIN IDEPFKKLLT QGMVQAVTFK NPNTNKYFSK
+     DQIKDIDNPK DPLTGENIEI IYEKMSKSKY NGVDPSVVID KYGADTARMF ILFKAPPEKD
+     LEWDDSDVEG QYRFIQRLWK FVINTFKLTN NNSRSNIEKE KSKDEEALRL INIAIKEITD
+     DLDNLQFNTA ISELMKVVNG LSLIVNYCSN ETLNKVISIL VKITSPFSPH IAEELWKTIG
+     NTQSIHLQSW PEFDAGAIEQ DTFKLMIQIN GKVRGSINAS KNLSKENLED LAIKTEAAIK
+     WMDGKEPKRI IVVPNKLVNI VI
+//

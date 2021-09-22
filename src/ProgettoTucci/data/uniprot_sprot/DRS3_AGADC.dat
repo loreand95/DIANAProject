@@ -1,0 +1,73 @@
+ID   DRS3_AGADC              Reviewed;          80 AA.
+AC   O93453;
+DT   04-MAY-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   02-DEC-2020, entry version 58.
+DE   RecName: Full=Dermaseptin-DA3 {ECO:0000303|PubMed:18644413};
+DE            Short=DRS-DA3 {ECO:0000303|PubMed:18644413};
+DE   AltName: Full=Dermaseptin PD-3-3 {ECO:0000303|PubMed:9774745};
+DE   Flags: Precursor;
+OS   Agalychnis dacnicolor (Giant mexican leaf frog) (Pachymedusa dacnicolor).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Neobatrachia; Hyloidea; Hylidae; Phyllomedusinae;
+OC   Agalychnis.
+OX   NCBI_TaxID=75988;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND AMIDATION AT LEU-77.
+RC   TISSUE=Skin;
+RX   PubMed=9774745; DOI=10.1016/s0167-4838(98)00202-7;
+RA   Wechselberger C.;
+RT   "Cloning of cDNAs encoding new peptides of the dermaseptin-family.";
+RL   Biochim. Biophys. Acta 1388:279-283(1998).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=18644413; DOI=10.1016/j.peptides.2008.06.017;
+RA   Amiche M., Ladram A., Nicolas P.;
+RT   "A consistent nomenclature of antimicrobial peptides isolated from frogs of
+RT   the subfamily Phyllomedusinae.";
+RL   Peptides 29:2074-2082(2008).
+CC   -!- FUNCTION: Possesses a potent antimicrobial activity against Gram-
+CC       positive and Gram-negative bacteria. Probably acts by disturbing
+CC       membrane functions with its amphipathic structure (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:9774745}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands.
+CC       {ECO:0000305|PubMed:9774745}.
+CC   -!- SIMILARITY: Belongs to the frog skin active peptide (FSAP) family.
+CC       Dermaseptin subfamily. {ECO:0000305}.
+CC   -!- WEB RESOURCE: Name=The antimicrobial peptide database;
+CC       URL="http://aps.unmc.edu/AP/database/query_output.php?ID=0968";
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ005191; CAA06428.1; -; mRNA.
+DR   SMR; O93453; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   InterPro; IPR022731; Dermaseptin.
+DR   InterPro; IPR004275; Frog_antimicrobial_propeptide.
+DR   Pfam; PF12121; DD_K; 1.
+DR   Pfam; PF03032; FSAP_sig_propep; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Amphibian defense peptide; Antibiotic; Antimicrobial;
+KW   Cleavage on pair of basic residues; Secreted; Signal.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..42
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000007081"
+FT   PEPTIDE         45..77
+FT                   /note="Dermaseptin-DA3"
+FT                   /evidence="ECO:0000305|PubMed:9774745"
+FT                   /id="PRO_0000007082"
+FT   PROPEP          79..80
+FT                   /evidence="ECO:0000305"
+FT                   /id="PRO_0000007083"
+FT   MOD_RES         77
+FT                   /note="Leucine amide"
+FT                   /evidence="ECO:0000305|PubMed:9774745"
+SQ   SEQUENCE   80 AA;  8717 MW;  3664B33E58241EDA CRC64;
+     MAFLKKSLFL VLFLGLVSLS ICEEKRENED EEEQEDDEQS EEKRGMWSKI KNAGKAAAKA
+     SKKAAGKAAL GAVSEALGEQ
+//

@@ -1,0 +1,181 @@
+ID   RPS4L_ARATH             Reviewed;        1217 AA.
+AC   Q9SCX6;
+DT   26-NOV-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-2000, sequence version 1.
+DT   12-AUG-2020, entry version 110.
+DE   RecName: Full=Disease resistance protein RPS4 {ECO:0000303|PubMed:10571887};
+DE            EC=3.2.2.6 {ECO:0000255|PROSITE-ProRule:PRU00204};
+DE   AltName: Full=Resistance to Pseudomonas syringae 4 {ECO:0000303|PubMed:10571887};
+GN   Name=RPS4 {ECO:0000303|PubMed:10571887};
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis.
+OX   NCBI_TaxID=3702 {ECO:0000312|EMBL:CAB53785.1};
+RN   [1] {ECO:0000312|EMBL:CAB53785.1}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=cv. Landsberg erecta;
+RX   PubMed=10571887; DOI=10.1046/j.1365-313x.1999.t01-1-00600.x;
+RA   Gassmann W., Hinsch M.E., Staskawicz B.J.;
+RT   "The Arabidopsis RPS4 bacterial-resistance gene is a member of the TIR-NBS-
+RT   LRR family of disease-resistance genes.";
+RL   Plant J. 20:265-277(1999).
+RN   [2]
+RP   FUNCTION, ALTERNATIVE SPLICING, AND MUTAGENESIS OF ASN-195 AND TYR-950.
+RX   PubMed=14523247; DOI=10.1105/tpc013474;
+RA   Zhang X.C., Gassmann W.;
+RT   "RPS4-mediated disease resistance requires the combined presence of RPS4
+RT   transcripts with full-length and truncated open reading frames.";
+RL   Plant Cell 15:2333-2342(2003).
+RN   [3]
+RP   ALTERNATIVE SPLICING, AND INDUCTION BY AVRRPS4.
+RC   STRAIN=cv. Columbia, cv. Landsberg erecta, and cv. Wassilewskija;
+RX   PubMed=17951452; DOI=10.1104/pp.107.108720;
+RA   Zhang X.C., Gassmann W.;
+RT   "Alternative splicing and mRNA levels of the disease resistance gene RPS4
+RT   are induced during defense responses.";
+RL   Plant Physiol. 145:1577-1587(2007).
+CC   -!- FUNCTION: Disease resistance (R) protein that specifically recognizes
+CC       the AvrRps4 type III effector avirulence protein from Pseudomonas
+CC       syringae. Resistance proteins guard the plant against pathogens that
+CC       contain an appropriate avirulence protein via an indirect interaction
+CC       with this avirulence protein. That triggers a defense system including
+CC       the hypersensitive response, which restricts the pathogen growth. The
+CC       combined presence of both regular and alternative RPS4 transcripts with
+CC       truncated open reading frames (ORFs) is necessary for function. RPS4
+CC       function is regulated at multiple levels, including gene expression,
+CC       alternative splicing, and protein stability.
+CC       {ECO:0000269|PubMed:14523247, ECO:0000269|PubMed:17951452}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) = ADP-D-ribose + H(+) + nicotinamide;
+CC         Xref=Rhea:RHEA:16301, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17154, ChEBI:CHEBI:57540, ChEBI:CHEBI:57967; EC=3.2.2.6;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:16302;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00204};
+CC   -!- SUBUNIT: Interacts with EDS1. {ECO:0000250|UniProtKB:Q9XGM3}.
+CC   -!- SUBCELLULAR LOCATION: Nucleus {ECO:0000255|PROSITE-ProRule:PRU00768}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced. Alternative transcripts
+CC         are necessary but not sufficient for resistance.;
+CC       Name=1;
+CC         IsoId=Q9SCX6-1; Sequence=Displayed;
+CC   -!- INDUCTION: Up-regulated by AvrRps4 in an EDS1-dependent manner.
+CC       {ECO:0000269|PubMed:17951452}.
+CC   -!- DOMAIN: The TIR domain is a signaling domain involved in cell death
+CC       induction. {ECO:0000250|UniProtKB:Q9XGM3}.
+CC   -!- DOMAIN: The TIR domain mediates NAD(+) hydrolase (NADase) activity.
+CC       Self-association of TIR domains is required for NADase activity.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00204}.
+CC   -!- MISCELLANEOUS: Only two amino-acid changes (N195D and Y950H) are linked
+CC       to a change from a resistant strain (cv. Columbia or cv. Landsberg
+CC       erecta) to a susceptible one (cv. RLD). {ECO:0000269|PubMed:10571887}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ249264; CAB53785.1; -; Genomic_DNA.
+DR   ExpressionAtlas; Q9SCX6; baseline and differential.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043531; F:ADP binding; IEA:InterPro.
+DR   GO; GO:0050135; F:NAD(P)+ nucleosidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061809; F:NAD+ nucleotidase, cyclic ADP-ribose generating; IEA:UniProtKB-EC.
+DR   GO; GO:0006952; P:defense response; IEA:UniProtKB-KW.
+DR   GO; GO:0007165; P:signal transduction; IEA:InterPro.
+DR   Gene3D; 3.40.50.10140; -; 1.
+DR   Gene3D; 3.80.10.10; -; 2.
+DR   InterPro; IPR011713; Leu-rich_rpt_3.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR002182; NB-ARC.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000157; TIR_dom.
+DR   InterPro; IPR035897; Toll_tir_struct_dom_sf.
+DR   Pfam; PF07725; LRR_3; 1.
+DR   Pfam; PF00931; NB-ARC; 1.
+DR   Pfam; PF01582; TIR; 1.
+DR   SMART; SM00255; TIR; 1.
+DR   SUPFAM; SSF52200; SSF52200; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS50104; TIR; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Hydrolase; Leucine-rich repeat; NAD; Nucleus;
+KW   Plant defense; Repeat.
+FT   CHAIN           1..1217
+FT                   /note="Disease resistance protein RPS4"
+FT                   /id="PRO_0000431386"
+FT   DOMAIN          14..175
+FT                   /note="TIR"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   DOMAIN          211..472
+FT                   /note="NB-ARC"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          260..285
+FT                   /note="LRR 1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          436..459
+FT                   /note="LRR 2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          614..636
+FT                   /note="LRR 3"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          682..706
+FT                   /note="LRR 4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          708..728
+FT                   /note="LRR 5"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          729..749
+FT                   /note="LRR 6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          750..774
+FT                   /note="LRR 7"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          796..818
+FT                   /note="LRR 8"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          819..842
+FT                   /note="LRR 9"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          861..887
+FT                   /note="LRR 10"
+FT                   /evidence="ECO:0000255"
+FT   MOTIF           1170..1177
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00768"
+FT   COMPBIAS        1098..1185
+FT                   /note="Lys-rich"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00012"
+FT   ACT_SITE        88
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00204"
+FT   MUTAGEN         195
+FT                   /note="N->D: Loss of resistance. Loss of resistance; when
+FT                   associated with H-950."
+FT                   /evidence="ECO:0000269|PubMed:14523247"
+FT   MUTAGEN         950
+FT                   /note="Y->H: Loss of resistance. Loss of resistance; when
+FT                   associated with D-195."
+FT                   /evidence="ECO:0000269|PubMed:14523247"
+SQ   SEQUENCE   1217 AA;  137761 MW;  34FD6949A2E2AEB5 CRC64;
+     METSSISTVE DKPPQHQVFI NFRGADLRRR FVSHLVTALK LNNINVFIDD YEDRGQPLDV
+     LLKRIEESKI VLAIFSGNYT ESVWCVRELE KIKDCTDEGT LVAIPIFYKL EPSTVRDLKG
+     KFGDRFRSMA KGDERKKKWK EAFNLIPNIM GIIIDKKSVE SEKVNEIVKA VKTALTGIPP
+     EGSHNAVVGA LGNSNAGTSS GDKKHETFGN EQRLKDLEEK LDRDKYKGTR IIGVVGMPGI
+     GKTTLLKELY KTWQGKFSRH ALIDQIRVKS KHLELDRLPQ MLLGELSKLN NPHVDNLKDP
+     YSQLHERKVL VVLDDVSKRE QIDALREILD WIKEGKEGSR VVIATSDMSL TNGLVDDTYM
+     VQNLNHRDSL QLFHYHAFID DQANPQKKDF MKLSEGFVHY ARGHPLALKV LGGELNKKSM
+     DHWNSKMKKL AQSPSPNIVS VFQVSYDELT TAQKDAFLDI ACFRSQDKDY VESLLASSDL
+     GSAEAMSAVK SLTDKFLINT CDGRVEMHDL LYKFSREVDL KASNQDGSRQ RRLWLHQHII
+     KGGIINVLQN KMKAANVRGI FLDLSEVEDE TSLDRDHFIN MGNLRYLKFY NSHCPQECKT
+     NNKINIPDKL KLPLKEVRCL HWLKFPLETL PNDFNPINLV DLKLPYSETE QLWEGDKDTP
+     CLRWVDLNHS SKLCSLSGLS KAEKLQRLNL EGCTTLKAFP HDMKKMKMLA FLNLKGCTSL
+     ESLPEMNLIS LKTLTLSGCS TFKEFPLISD NIETLYLDGT AISQLPMNME KLQRLVVLNM
+     KDCKMLEEIP GRVGELKALQ ELILSDCLNL KIFPEIDISF LNILLLDGTA IEVMPQLPSV
+     QYLCLSRNAK ISCLPVGISQ LSQLKWLDLK YCTSLTSVPE FPPNLQCLDA HGCSSLKTVS
+     KPLARIMPTE QNHSTFIFTN CENLEQAAKE EITSYAQRKC QLLSYARKRY NGGLVSESLF
+     STCFPGCEVP SWFCHETVGS ELEVKLLPHW HDKKLAGIAL CAVISCLDPQ DQVSRLSVTC
+     TFKVKDEDKS WVPYTCPVGS WTRHGGGKDK IELDHVFIGY TSCPHTIKCH EEGNSDECNP
+     TEASLKFTVT GGTSENGKYK VFKCGLSLVY AKDKDKNSAL ETKYDMLIGK SFQETSEGVD
+     GRVKKTKGKY VMPVEKNFQE TTEGVDGRVK KKKKTRMDNG RPKKKQRSGR DDNQTRMQVE
+     LQEGNINSVI MHTVKNF
+//

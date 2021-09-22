@@ -1,0 +1,112 @@
+ID   PANB_PYRIL              Reviewed;         261 AA.
+AC   A1RU92;
+DT   24-JUL-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 80.
+DE   RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00156};
+DE            EC=2.1.2.11 {ECO:0000255|HAMAP-Rule:MF_00156};
+DE   AltName: Full=Ketopantoate hydroxymethyltransferase {ECO:0000255|HAMAP-Rule:MF_00156};
+DE            Short=KPHMT {ECO:0000255|HAMAP-Rule:MF_00156};
+GN   Name=panB {ECO:0000255|HAMAP-Rule:MF_00156}; OrderedLocusNames=Pisl_1362;
+OS   Pyrobaculum islandicum (strain DSM 4184 / JCM 9189 / GEO3).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Pyrobaculum.
+OX   NCBI_TaxID=384616;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 4184 / JCM 9189 / GEO3;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Dalin E., Tice H., Pitluck S., Meincke L., Brettin T.,
+RA   Bruce D., Han C., Tapia R., Gilna P., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Mikhailova N., Lowe T., Richardson P.;
+RT   "Complete sequence of Pyrobaculum islandicum DSM 4184.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible reaction in which hydroxymethyl
+CC       group from 5,10-methylenetetrahydrofolate is transferred onto alpha-
+CC       ketoisovalerate to form ketopantoate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00156}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + 3-methyl-2-
+CC         oxobutanoate + H2O = (6S)-5,6,7,8-tetrahydrofolate + 2-
+CC         dehydropantoate; Xref=Rhea:RHEA:11824, ChEBI:CHEBI:11561,
+CC         ChEBI:CHEBI:11851, ChEBI:CHEBI:15377, ChEBI:CHEBI:15636,
+CC         ChEBI:CHEBI:57453; EC=2.1.2.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00156};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00156};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00156};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00156}.
+CC   -!- SUBUNIT: Homodecamer; pentamer of dimers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00156}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00156}.
+CC   -!- SIMILARITY: Belongs to the PanB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00156}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000504; ABL88524.1; -; Genomic_DNA.
+DR   RefSeq; WP_011763099.1; NC_008701.1.
+DR   SMR; A1RU92; -.
+DR   STRING; 384616.Pisl_1362; -.
+DR   EnsemblBacteria; ABL88524; ABL88524; Pisl_1362.
+DR   GeneID; 4616558; -.
+DR   KEGG; pis:Pisl_1362; -.
+DR   eggNOG; arCOG00584; Archaea.
+DR   HOGENOM; CLU_036645_1_0_2; -.
+DR   OMA; GHIGLMP; -.
+DR   OrthoDB; 60112at2157; -.
+DR   BioCyc; PISL384616:G1G7P-1501-MONOMER; -.
+DR   UniPathway; UPA00241; -.
+DR   Proteomes; UP000002595; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003864; F:3-methyl-2-oxobutanoate hydroxymethyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015940; P:pantothenate biosynthetic process; IEA:InterPro.
+DR   CDD; cd06557; KPHMT-like; 1.
+DR   Gene3D; 3.20.20.60; -; 1.
+DR   HAMAP; MF_00156; PanB; 1.
+DR   InterPro; IPR003700; Pantoate_hydroxy_MeTrfase.
+DR   InterPro; IPR015813; Pyrv/PenolPyrv_Kinase-like_dom.
+DR   InterPro; IPR040442; Pyrv_Kinase-like_dom_sf.
+DR   PANTHER; PTHR20881; PTHR20881; 1.
+DR   Pfam; PF02548; Pantoate_transf; 1.
+DR   PIRSF; PIRSF000388; Pantoate_hydroxy_MeTrfase; 1.
+DR   SUPFAM; SSF51621; SSF51621; 1.
+DR   TIGRFAMs; TIGR00222; panB; 1.
+PE   3: Inferred from homology;
+KW   Coenzyme A biosynthesis; Cytoplasm; Magnesium; Metal-binding; Transferase.
+FT   CHAIN           1..261
+FT                   /note="3-methyl-2-oxobutanoate hydroxymethyltransferase"
+FT                   /id="PRO_0000297426"
+FT   REGION          42..43
+FT                   /note="Alpha-ketoisovalerate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   ACT_SITE        179
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   METAL           42
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   METAL           81
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   METAL           112
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   BINDING         81
+FT                   /note="Alpha-ketoisovalerate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+FT   BINDING         110
+FT                   /note="Alpha-ketoisovalerate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00156"
+SQ   SEQUENCE   261 AA;  28291 MW;  0B15250C1C914617 CRC64;
+     MRRKTVLDFA KGRGPYVWIT AYDYPTAKAV DEAGVDGILV GDSLGMVLLG LPNTLGVTME
+     DMVRHTEAVA RAKPRALVVA DMPFMSYETG PEDALKNAAR LIRAGADAVK LEGGAEYAHI
+     VERLVKAGIP VMGHIGLTPQ RVLTIGGFRM VGKTEEQRRK VLEDAKALRD AGAFSIVLEF
+     VPASLAREVT QAVDIPTICI GSGPHCDGQI LVLHDVIGLS ERPPSFAKRY ADVAAAIREA
+     VSKYAEEVRK GLFPAREHYR E
+//

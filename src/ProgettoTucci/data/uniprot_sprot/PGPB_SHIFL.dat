@@ -1,0 +1,188 @@
+ID   PGPB_SHIFL              Reviewed;         254 AA.
+AC   P0A926; P18201;
+DT   19-JUL-2005, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   10-FEB-2021, entry version 101.
+DE   RecName: Full=Phosphatidylglycerophosphatase B;
+DE            EC=3.1.3.27;
+DE   AltName: Full=Diacylglycerol pyrophosphate phosphatase;
+DE            Short=DGPP phosphatase;
+DE            EC=3.1.3.81;
+DE   AltName: Full=Phosphatidate phosphatase;
+DE            EC=3.1.3.4;
+DE   AltName: Full=Undecaprenyl pyrophosphate phosphatase;
+DE            EC=3.6.1.27;
+DE   AltName: Full=Undecaprenyl-diphosphatase;
+GN   Name=pgpB; OrderedLocusNames=SF1282, S1365;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H., Yang J.,
+RA   Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J., Sun L.,
+RA   Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S., Cheng H.,
+RA   Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y., Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/iai.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W., Fournier G.,
+RA   Mayhew G.F., Plunkett G. III, Rose D.J., Darling A., Mau B., Perna N.T.,
+RA   Payne S.M., Runyen-Janecky L.J., Zhou S., Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella flexneri
+RT   serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Catalyzes the dephosphorylation of diacylglycerol diphosphate
+CC       (DGPP) to phosphatidate (PA) and the subsequent dephosphorylation of PA
+CC       to diacylglycerol (DAG). Also has undecaprenyl pyrophosphate
+CC       phosphatase activity, required for the biosynthesis of the lipid
+CC       carrier undecaprenyl phosphate. Can also use lysophosphatidic acid
+CC       (LPA) and phosphatidylglycerophosphate as substrates. The pattern of
+CC       activities varies according to subcellular location, PGP phosphatase
+CC       activity is higher in the cytoplasmic membrane, whereas PA and LPA
+CC       phosphatase activities are higher in the outer membrane. Activity is
+CC       independent of a divalent cation ion and insensitive to inhibition by
+CC       N-ethylmaleimide (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycero-3'-phosphate) +
+CC         H2O = 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + phosphate;
+CC         Xref=Rhea:RHEA:33751, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:60110, ChEBI:CHEBI:64716; EC=3.1.3.27;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycerol 3-diphosphate + H2O = a 1,2-diacyl-
+CC         sn-glycero-3-phosphate + H(+) + phosphate; Xref=Rhea:RHEA:27449,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58608, ChEBI:CHEBI:59996; EC=3.1.3.81;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphate + H2O = a 1,2-diacyl-sn-
+CC         glycerol + phosphate; Xref=Rhea:RHEA:27429, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:17815, ChEBI:CHEBI:43474, ChEBI:CHEBI:58608; EC=3.1.3.4;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans,octa-cis-undecaprenyl diphosphate + H2O = di-
+CC         trans,octa-cis-undecaprenyl phosphate + H(+) + phosphate;
+CC         Xref=Rhea:RHEA:28094, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58405, ChEBI:CHEBI:60392; EC=3.6.1.27;
+CC   -!- PATHWAY: Phospholipid metabolism; phosphatidylglycerol biosynthesis;
+CC       phosphatidylglycerol from CDP-diacylglycerol: step 2/2.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-pass
+CC       membrane protein {ECO:0000250}. Cell outer membrane {ECO:0000250};
+CC       Multi-pass membrane protein {ECO:0000250}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the PA-phosphatase related phosphoesterase
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005674; AAN42894.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP16778.1; -; Genomic_DNA.
+DR   RefSeq; NP_707187.1; NC_004337.2.
+DR   RefSeq; WP_001256538.1; NZ_WPGW01000009.1.
+DR   SMR; P0A926; -.
+DR   EnsemblBacteria; AAN42894; AAN42894; SF1282.
+DR   EnsemblBacteria; AAP16778; AAP16778; S1365.
+DR   GeneID; 1024235; -.
+DR   GeneID; 58388642; -.
+DR   KEGG; sfl:SF1282; -.
+DR   KEGG; sfx:S1365; -.
+DR   PATRIC; fig|198214.7.peg.1503; -.
+DR   HOGENOM; CLU_083863_0_0_6; -.
+DR   OMA; AWFLWCL; -.
+DR   OrthoDB; 1928533at2; -.
+DR   UniPathway; UPA00084; UER00504.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000810; F:diacylglycerol diphosphate phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008195; F:phosphatidate phosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008962; F:phosphatidylglycerophosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050380; F:undecaprenyl-diphosphatase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006655; P:phosphatidylglycerol biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0009395; P:phospholipid catabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR036938; P_Acid_Pase_2/haloperoxi_sf.
+DR   InterPro; IPR000326; P_Acid_Pase_2/haloperoxidase.
+DR   Pfam; PF01569; PAP2; 1.
+DR   SMART; SM00014; acidPPc; 1.
+DR   SUPFAM; SSF48317; SSF48317; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cell outer membrane; Hydrolase;
+KW   Lipid degradation; Lipid metabolism; Membrane; Phospholipid degradation;
+KW   Phospholipid metabolism; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   CHAIN           2..254
+FT                   /note="Phosphatidylglycerophosphatase B"
+FT                   /id="PRO_0000058364"
+FT   TRANSMEM        2..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        25..54
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TRANSMEM        55..66
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        67..71
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TRANSMEM        72..94
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        95..161
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TRANSMEM        162..176
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        177..182
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TRANSMEM        183..202
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        203..208
+FT                   /note="Periplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TRANSMEM        209..232
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   TOPO_DOM        233..254
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   REGION          97..105
+FT                   /note="Phosphatase sequence motif I"
+FT                   /evidence="ECO:0000305"
+FT   REGION          160..163
+FT                   /note="Phosphatase sequence motif II"
+FT                   /evidence="ECO:0000305"
+FT   REGION          200..211
+FT                   /note="Phosphatase sequence motif III"
+FT                   /evidence="ECO:0000305"
+FT   ACT_SITE        163
+FT                   /note="Proton donor; for a subset of substrates"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   ACT_SITE        207
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+FT   SITE            211
+FT                   /note="Stabilizes the active site histidine for
+FT                   nucleophilic attack"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A924"
+SQ   SEQUENCE   254 AA;  29021 MW;  9F4E6E88C34D458C CRC64;
+     MRSIARRTAV GAALLLVMPV AVWISGWRWQ PGEQSWLLKA AFWVTETVTQ PWGVITHLIL
+     FGWFLWCLRF RIKAAFVLFA ILAAAILVGQ GVKSWIKDKV QEPRPFVIWL EKTHHIPVDE
+     FYTLKRAERG NLVKEQLAEE KNIPQYLRSH WQKETGFAFP SGHTMFAASW ALLAVGLLWP
+     RRRTLTIAIL LVWATGVMGS RLLLGMHWPR DLVVATLISW ALVAVATWLA QRICGPLTPP
+     AEENREIAQR EQES
+//

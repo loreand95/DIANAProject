@@ -1,0 +1,111 @@
+ID   SYC_RICPR               Reviewed;         457 AA.
+AC   Q9ZE62;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   10-FEB-2021, entry version 116.
+DE   RecName: Full=Cysteine--tRNA ligase;
+DE            EC=6.1.1.16;
+DE   AltName: Full=Cysteinyl-tRNA synthetase;
+DE            Short=CysRS;
+GN   Name=cysS; OrderedLocusNames=RP085;
+OS   Rickettsia prowazekii (strain Madrid E).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=272947;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Madrid E;
+RX   PubMed=9823893; DOI=10.1038/24094;
+RA   Andersson S.G.E., Zomorodipour A., Andersson J.O., Sicheritz-Ponten T.,
+RA   Alsmark U.C.M., Podowski R.M., Naeslund A.K., Eriksson A.-S., Winkler H.H.,
+RA   Kurland C.G.;
+RT   "The genome sequence of Rickettsia prowazekii and the origin of
+RT   mitochondria.";
+RL   Nature 396:133-140(1998).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-
+CC         cysteinyl-tRNA(Cys); Xref=Rhea:RHEA:17773, Rhea:RHEA-COMP:9661,
+CC         Rhea:RHEA-COMP:9679, ChEBI:CHEBI:30616, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:35235, ChEBI:CHEBI:78442, ChEBI:CHEBI:78517,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.16;
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105; Evidence={ECO:0000250};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ235270; CAA14555.1; -; Genomic_DNA.
+DR   PIR; D71717; D71717.
+DR   RefSeq; NP_220478.1; NC_000963.1.
+DR   RefSeq; WP_004599732.1; NC_000963.1.
+DR   SMR; Q9ZE62; -.
+DR   STRING; 272947.RP085; -.
+DR   EnsemblBacteria; CAA14555; CAA14555; CAA14555.
+DR   GeneID; 57569212; -.
+DR   KEGG; rpr:RP085; -.
+DR   PATRIC; fig|272947.5.peg.85; -.
+DR   eggNOG; COG0215; Bacteria.
+DR   HOGENOM; CLU_013528_0_1_5; -.
+DR   OMA; AKYWMHN; -.
+DR   BioCyc; RPRO272947:G1GT0-86-MONOMER; -.
+DR   Proteomes; UP000002480; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004817; F:cysteine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006423; P:cysteinyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00672; CysRS_core; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00041; Cys_tRNA_synth; 1.
+DR   InterPro; IPR015803; Cys-tRNA-ligase.
+DR   InterPro; IPR015273; Cys-tRNA-synt_Ia_DALR.
+DR   InterPro; IPR024909; Cys-tRNA/MSH_ligase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR032678; tRNA-synt_1_cat_dom.
+DR   InterPro; IPR009080; tRNAsynth_Ia_anticodon-bd.
+DR   PANTHER; PTHR10890; PTHR10890; 1.
+DR   Pfam; PF01406; tRNA-synt_1e; 1.
+DR   PRINTS; PR00983; TRNASYNTHCYS.
+DR   SMART; SM00840; DALR_2; 1.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   TIGRFAMs; TIGR00435; cysS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..457
+FT                   /note="Cysteine--tRNA ligase"
+FT                   /id="PRO_0000159469"
+FT   MOTIF           31..41
+FT                   /note="'HIGH' region"
+FT   MOTIF           272..276
+FT                   /note="'KMSKS' region"
+FT   METAL           29
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250"
+FT   METAL           214
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250"
+FT   METAL           239
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250"
+FT   METAL           243
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         275
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   457 AA;  53303 MW;  1BEC03E8C6AA5F81 CRC64;
+     MKLHLYNTLT RTKEVFNPQD PANIKMYVCG PTVYDNPHIG NSRSVVVYDL LYRIIIKIFG
+     KKAVKYVRNI TDVDDKIIDR AELLGITIND LTDKVTREFH INMEYLGCML PTIEPKATEH
+     IDVMIEIIER LIAKDHAYIA DNHVYFDVLS APNYTELSNR NLEAMFEGVR IENSKTKKNP
+     QDFVLWKPAK KNEPENINFT SPWGLGRPGW HIECSAMSYK YLGQNFDIHG GGADLIFPHH
+     TNEIAQSRCA FPSSTYAKYW IHNGFLTVNG SKMSKSLGNF ITVRDLMDKQ IQGEVVRLFL
+     LSSHYRRPLD YNDKAIDDAK KTLDYWYRAI EHINVQKVDL PSNFMRSLFD DMNTPLAIKI
+     INDYAKCVFI SKTEAERKFN ASAIITCANF IGLMRKTQYE WFNRDVDEFY INELINKRLK
+     AKKQKNWLLA DKIRNQLLEK KIILEDKSNY ITIWRKE
+//

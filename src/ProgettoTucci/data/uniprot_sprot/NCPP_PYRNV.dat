@@ -1,0 +1,99 @@
+ID   NCPP_PYRNV              Reviewed;         182 AA.
+AC   B1YBH2;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   07-APR-2021, entry version 59.
+DE   RecName: Full=Probable inosine/xanthosine triphosphatase {ECO:0000255|HAMAP-Rule:MF_00648};
+DE            Short=ITPase/XTPase {ECO:0000255|HAMAP-Rule:MF_00648};
+DE            EC=3.6.1.73 {ECO:0000255|HAMAP-Rule:MF_00648};
+DE   AltName: Full=Non-canonical purine NTP phosphatase {ECO:0000255|HAMAP-Rule:MF_00648};
+DE   AltName: Full=Non-standard purine NTP phosphatase {ECO:0000255|HAMAP-Rule:MF_00648};
+DE   AltName: Full=Nucleoside-triphosphate phosphatase {ECO:0000255|HAMAP-Rule:MF_00648};
+DE            Short=NTPase {ECO:0000255|HAMAP-Rule:MF_00648};
+GN   OrderedLocusNames=Tneu_1859;
+OS   Pyrobaculum neutrophilum (strain DSM 2338 / JCM 9278 / NBRC 100436 /
+OS   V24Sta) (Thermoproteus neutrophilus).
+OC   Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae;
+OC   Pyrobaculum.
+OX   NCBI_TaxID=444157;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 2338 / JCM 9278 / NBRC 100436 / V24Sta;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Sims D., Brettin T., Detter J.C., Han C.,
+RA   Kuske C.R., Schmutz J., Larimer F., Land M., Hauser L., Kyrpides N.,
+RA   Mikhailova N., Biddle J.F., Zhang Z., Fitz-Gibbon S.T., Lowe T.M.,
+RA   Saltikov C., House C.H., Richardson P.;
+RT   "Complete sequence of Thermoproteus neutrophilus V24Sta.";
+RL   Submitted (MAR-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Phosphatase that hydrolyzes non-canonical purine nucleotides
+CC       such as XTP and ITP to their respective diphosphate derivatives.
+CC       Probably excludes non-canonical purines from DNA/RNA precursor pool,
+CC       thus preventing their incorporation into DNA/RNA and avoiding
+CC       chromosomal lesions. {ECO:0000255|HAMAP-Rule:MF_00648}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + XTP = H(+) + phosphate + XDP; Xref=Rhea:RHEA:28406,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:59884, ChEBI:CHEBI:61314; EC=3.6.1.73;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00648};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + ITP = H(+) + IDP + phosphate; Xref=Rhea:RHEA:28330,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58280, ChEBI:CHEBI:61402; EC=3.6.1.73;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00648};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00648};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00648};
+CC       Note=Binds 1 divalent metal cation per subunit; can use either Mg(2+)
+CC       or Mn(2+). {ECO:0000255|HAMAP-Rule:MF_00648};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00648}.
+CC   -!- SIMILARITY: Belongs to the YjjX NTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00648}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001014; ACB40774.1; -; Genomic_DNA.
+DR   SMR; B1YBH2; -.
+DR   STRING; 444157.Tneu_1859; -.
+DR   EnsemblBacteria; ACB40774; ACB40774; Tneu_1859.
+DR   KEGG; tne:Tneu_1859; -.
+DR   eggNOG; arCOG01221; Archaea.
+DR   HOGENOM; CLU_087417_0_1_2; -.
+DR   OMA; VTFAWMV; -.
+DR   BioCyc; PNEU444157:G12XQ-1856-MONOMER; -.
+DR   Proteomes; UP000001694; Chromosome.
+DR   GO; GO:0103023; F:ITPase activity; IEA:RHEA.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0017111; F:nucleoside-triphosphatase activity; ISS:UniProtKB.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.90.950.10; -; 1.
+DR   HAMAP; MF_00648; Non_canon_purine_NTPase_YjjX; 1.
+DR   InterPro; IPR029001; ITPase-like_fam.
+DR   InterPro; IPR002786; Non_canon_purine_NTPase.
+DR   InterPro; IPR026533; NTPase/PRRC1.
+DR   Pfam; PF01931; NTPase_I-T; 1.
+DR   SUPFAM; SSF52972; SSF52972; 1.
+DR   TIGRFAMs; TIGR00258; TIGR00258; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Manganese; Metal-binding; Nucleotide metabolism;
+KW   Nucleotide-binding.
+FT   CHAIN           1..182
+FT                   /note="Probable inosine/xanthosine triphosphatase"
+FT                   /id="PRO_1000130950"
+FT   REGION          65..66
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00648"
+FT   METAL           65
+FT                   /note="Manganese or magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00648"
+SQ   SEQUENCE   182 AA;  18929 MW;  E421C7DADDD9A9B3 CRC64;
+     MKVAVASRNP NKVRAVEEAY RLFGIPARVS SVDKPPSLPP QPVGLEAVVA GAVERAKAAL
+     AAAGEAEHGV GIEAGALEAG GRHLDVTVAA VADRGGLVTL GFGPAFQIPD VFLGDVLRGV
+     ELGVLAERHF GKAAVGYREG IIGLLTRGRV TRLDLNVVAV AMALVPRLPA NAQLYRFWKT
+     AP
+//

@@ -1,0 +1,85 @@
+ID   DLTC_BACVZ              Reviewed;          78 AA.
+AC   A7ZA76;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 89.
+DE   RecName: Full=D-alanyl carrier protein {ECO:0000255|HAMAP-Rule:MF_00565};
+DE            Short=DCP {ECO:0000255|HAMAP-Rule:MF_00565};
+DE   AltName: Full=D-alanine--poly(phosphoribitol) ligase subunit 2 {ECO:0000255|HAMAP-Rule:MF_00565};
+GN   Name=dltC {ECO:0000255|HAMAP-Rule:MF_00565}; OrderedLocusNames=RBAM_035730;
+OS   Bacillus velezensis (strain DSM 23117 / BGSC 10A6 / FZB42) (Bacillus
+OS   amyloliquefaciens subsp. plantarum).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus amyloliquefaciens group.
+OX   NCBI_TaxID=326423;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 23117 / BGSC 10A6 / FZB42;
+RX   PubMed=17704766; DOI=10.1038/nbt1325;
+RA   Chen X.H., Koumoutsi A., Scholz R., Eisenreich A., Schneider K.,
+RA   Heinemeyer I., Morgenstern B., Voss B., Hess W.R., Reva O., Junge H.,
+RA   Voigt B., Jungblut P.R., Vater J., Suessmuth R., Liesegang H.,
+RA   Strittmatter A., Gottschalk G., Borriss R.;
+RT   "Comparative analysis of the complete genome sequence of the plant growth-
+RT   promoting bacterium Bacillus amyloliquefaciens FZB42.";
+RL   Nat. Biotechnol. 25:1007-1014(2007).
+CC   -!- FUNCTION: Carrier protein involved in the D-alanylation of lipoteichoic
+CC       acid (LTA). The loading of thioester-linked D-alanine onto DltC is
+CC       catalyzed by D-alanine--D-alanyl carrier protein ligase DltA. The DltC-
+CC       carried D-alanyl group is further transferred to cell membrane
+CC       phosphatidylglycerol (PG) by forming an ester bond, probably catalyzed
+CC       by DltD. D-alanylation of LTA plays an important role in modulating the
+CC       properties of the cell wall in Gram-positive bacteria, influencing the
+CC       net charge of the cell wall. {ECO:0000255|HAMAP-Rule:MF_00565}.
+CC   -!- PATHWAY: Cell wall biogenesis; lipoteichoic acid biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00565}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00565}.
+CC   -!- PTM: 4'-phosphopantetheine is transferred from CoA to a specific serine
+CC       of apo-DCP. {ECO:0000255|HAMAP-Rule:MF_00565}.
+CC   -!- SIMILARITY: Belongs to the DltC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00565}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000560; ABS75902.1; -; Genomic_DNA.
+DR   RefSeq; WP_003150875.1; NC_009725.2.
+DR   SMR; A7ZA76; -.
+DR   EnsemblBacteria; ABS75902; ABS75902; RBAM_035730.
+DR   GeneID; 46868654; -.
+DR   GeneID; 56459989; -.
+DR   KEGG; bay:RBAM_035730; -.
+DR   HOGENOM; CLU_108696_19_0_9; -.
+DR   OMA; DEWNTPN; -.
+DR   BioCyc; BAMY326423:G1G84-3646-MONOMER; -.
+DR   UniPathway; UPA00556; -.
+DR   Proteomes; UP000001120; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0036370; F:D-alanyl carrier activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0070395; P:lipoteichoic acid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.1200.10; -; 1.
+DR   HAMAP; MF_00565; DltC; 1.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR003230; DltC.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   Pfam; PF00550; PP-binding; 1.
+DR   SUPFAM; SSF47336; SSF47336; 1.
+DR   TIGRFAMs; TIGR01688; dltC; 1.
+DR   PROSITE; PS50075; CARRIER; 1.
+PE   3: Inferred from homology;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Phosphopantetheine;
+KW   Phosphoprotein.
+FT   CHAIN           1..78
+FT                   /note="D-alanyl carrier protein"
+FT                   /id="PRO_1000024911"
+FT   DOMAIN          1..78
+FT                   /note="Carrier"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00565"
+FT   MOD_RES         36
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00565"
+SQ   SEQUENCE   78 AA;  8955 MW;  EBAC04ECC6CF44E8 CRC64;
+     MEFKQEVLDV LAEVCQEDAV KENPDIEIFE EGLLDSFGTV ELLVAIENRF GITVPITEFD
+     RDEWNTPNNI VNKLTELK
+//

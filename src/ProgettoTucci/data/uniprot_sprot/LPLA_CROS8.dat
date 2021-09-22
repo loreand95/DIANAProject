@@ -1,0 +1,109 @@
+ID   LPLA_CROS8              Reviewed;         338 AA.
+AC   A7MIG6;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   02-OCT-2007, sequence version 1.
+DT   10-FEB-2021, entry version 87.
+DE   RecName: Full=Lipoate-protein ligase A {ECO:0000255|HAMAP-Rule:MF_01602};
+DE            EC=6.3.1.20 {ECO:0000255|HAMAP-Rule:MF_01602};
+DE   AltName: Full=Lipoate--protein ligase {ECO:0000255|HAMAP-Rule:MF_01602};
+GN   Name=lplA {ECO:0000255|HAMAP-Rule:MF_01602}; OrderedLocusNames=ESA_03366;
+OS   Cronobacter sakazakii (strain ATCC BAA-894) (Enterobacter sakazakii).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Cronobacter.
+OX   NCBI_TaxID=290339;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-894;
+RX   PubMed=20221447; DOI=10.1371/journal.pone.0009556;
+RA   Kucerova E., Clifton S.W., Xia X.Q., Long F., Porwollik S., Fulton L.,
+RA   Fronick C., Minx P., Kyung K., Warren W., Fulton R., Feng D., Wollam A.,
+RA   Shah N., Bhonagiri V., Nash W.E., Hallsworth-Pepin K., Wilson R.K.,
+RA   McClelland M., Forsythe S.J.;
+RT   "Genome sequence of Cronobacter sakazakii BAA-894 and comparative genomic
+RT   hybridization analysis with other Cronobacter species.";
+RL   PLoS ONE 5:E9556-E9556(2010).
+CC   -!- FUNCTION: Catalyzes both the ATP-dependent activation of exogenously
+CC       supplied lipoate to lipoyl-AMP and the transfer of the activated lipoyl
+CC       onto the lipoyl domains of lipoate-dependent enzymes.
+CC       {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(R)-lipoate + ATP + L-lysyl-[lipoyl-carrier protein] = (R)-
+CC         N(6)-lipoyl-L-lysyl-[lipoyl-carrier protein] + AMP + diphosphate +
+CC         H(+); Xref=Rhea:RHEA:49288, Rhea:RHEA-COMP:10500, Rhea:RHEA-
+CC         COMP:10502, ChEBI:CHEBI:15378, ChEBI:CHEBI:29969, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:83088, ChEBI:CHEBI:83099,
+CC         ChEBI:CHEBI:456215; EC=6.3.1.20; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01602};
+CC   -!- PATHWAY: Protein modification; protein lipoylation via exogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from lipoate: step 1/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- PATHWAY: Protein modification; protein lipoylation via exogenous
+CC       pathway; protein N(6)-(lipoyl)lysine from lipoate: step 2/2.
+CC       {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- MISCELLANEOUS: In the transfer reaction, the free carboxyl group of
+CC       lipoic acid is attached via an amide linkage to the epsilon-amino group
+CC       of a specific lysine residue of lipoyl domains of lipoate-dependent
+CC       enzymes. {ECO:0000255|HAMAP-Rule:MF_01602}.
+CC   -!- SIMILARITY: Belongs to the LplA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01602}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000783; ABU78587.1; -; Genomic_DNA.
+DR   RefSeq; WP_012125836.1; NC_009778.1.
+DR   SMR; A7MIG6; -.
+DR   EnsemblBacteria; ABU78587; ABU78587; ESA_03366.
+DR   KEGG; esa:ESA_03366; -.
+DR   PATRIC; fig|290339.8.peg.2990; -.
+DR   HOGENOM; CLU_022986_0_1_6; -.
+DR   OMA; YHQIDNH; -.
+DR   OrthoDB; 871298at2; -.
+DR   BioCyc; CSAK290339:G1G9O-3204-MONOMER; -.
+DR   UniPathway; UPA00537; UER00594.
+DR   UniPathway; UPA00537; UER00595.
+DR   Proteomes; UP000000260; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016979; F:lipoate-protein ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009249; P:protein lipoylation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01602; LplA; 1.
+DR   InterPro; IPR004143; BPL_LPL_catalytic.
+DR   InterPro; IPR023741; Lipoate_ligase_A.
+DR   InterPro; IPR019491; Lipoate_protein_ligase_C.
+DR   InterPro; IPR004562; LipoylTrfase_LipoateP_Ligase.
+DR   PANTHER; PTHR12561; PTHR12561; 1.
+DR   Pfam; PF03099; BPL_LplA_LipB; 1.
+DR   Pfam; PF10437; Lip_prot_lig_C; 1.
+DR   TIGRFAMs; TIGR00545; lipoyltrans; 1.
+DR   PROSITE; PS51733; BPL_LPL_CATALYTIC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding.
+FT   CHAIN           1..338
+FT                   /note="Lipoate-protein ligase A"
+FT                   /id="PRO_1000069383"
+FT   DOMAIN          29..216
+FT                   /note="BPL/LPL catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01067"
+FT   NP_BIND         76..79
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01602"
+FT   BINDING         71
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01602"
+FT   BINDING         134
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01602"
+FT   BINDING         134
+FT                   /note="Lipoate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01602"
+SQ   SEQUENCE   338 AA;  37412 MW;  D024A7B5891AA991 CRC64;
+     MSSLRLLISD SYDPWFNLAV EECIFRQMPA TQRVLFLWRN ADTVVIGRAQ NPWKECNTRR
+     MEEDNVRLAR RSSGGGAVFH DLGNTCFTFM AGKPEYDKSV STAIVINALA QLGIPASASG
+     RNDLVVETAE GPRKISGSAY RETMDRGFHH GTLLLNADLS RLSNYLNPDK KKLQAKGITS
+     VRGRVANIHD LKPGVTHAQI CEAVTEAFFA YYGERVAAEV ISPDAFPDLP GFAETFARQS
+     SWEWNFGQAP AFTHQLDERF VWGGVELHFD VEKGHITRTQ LFTDSLNPAP LEALASRLQG
+     CVYQASALQG VCEALVSEFP AQAAELREVG AWMAQAVR
+//

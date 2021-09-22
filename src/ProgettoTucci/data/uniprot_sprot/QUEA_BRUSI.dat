@@ -1,0 +1,83 @@
+ID   QUEA_BRUSI              Reviewed;         363 AA.
+AC   B0CGP2;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   10-FEB-2021, entry version 66.
+DE   RecName: Full=S-adenosylmethionine:tRNA ribosyltransferase-isomerase {ECO:0000255|HAMAP-Rule:MF_00113};
+DE            EC=2.4.99.17 {ECO:0000255|HAMAP-Rule:MF_00113};
+DE   AltName: Full=Queuosine biosynthesis protein QueA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   Name=queA {ECO:0000255|HAMAP-Rule:MF_00113}; OrderedLocusNames=BSUIS_A1139;
+OS   Brucella suis (strain ATCC 23445 / NCTC 10510).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=470137;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23445 / NCTC 10510;
+RA   Setubal J.C., Bowns C., Boyle S., Crasta O.R., Czar M.J., Dharmanolla C.,
+RA   Gillespie J.J., Kenyon R.W., Lu J., Mane S., Mohapatra S., Nagrani S.,
+RA   Purkayastha A., Rajasimha H.K., Shallom J.M., Shallom S., Shukla M.,
+RA   Snyder E.E., Sobral B.W., Wattam A.R., Will R., Williams K., Yoo H.,
+RA   Bruce D., Detter C., Munk C., Brettin T.S.;
+RT   "Brucella suis ATCC 23445 whole genome shotgun sequencing project.";
+RL   Submitted (DEC-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Transfers and isomerizes the ribose moiety from AdoMet to the
+CC       7-aminomethyl group of 7-deazaguanine (preQ1-tRNA) to give
+CC       epoxyqueuosine (oQ-tRNA). {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanosine(34) in tRNA + S-adenosyl-L-
+CC         methionine = adenine + epoxyqueuosine(34) in tRNA + H(+) + L-
+CC         methionine; Xref=Rhea:RHEA:32155, Rhea:RHEA-COMP:10342, Rhea:RHEA-
+CC         COMP:10346, ChEBI:CHEBI:15378, ChEBI:CHEBI:16708, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:82833, ChEBI:CHEBI:82834;
+CC         EC=2.4.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00113};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SIMILARITY: Belongs to the QueA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000911; ABY38193.1; -; Genomic_DNA.
+DR   RefSeq; WP_002964220.1; NC_010169.1.
+DR   EnsemblBacteria; ABY38193; ABY38193; BSUIS_A1139.
+DR   GeneID; 45124474; -.
+DR   GeneID; 58775815; -.
+DR   KEGG; bmt:BSUIS_A1139; -.
+DR   HOGENOM; CLU_039110_1_1_5; -.
+DR   OMA; YSYGDGM; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000008545; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.40.10.240; -; 1.
+DR   Gene3D; 3.40.1780.10; -; 1.
+DR   HAMAP; MF_00113; QueA; 1.
+DR   InterPro; IPR003699; QueA.
+DR   InterPro; IPR042118; QueA_dom1.
+DR   InterPro; IPR042119; QueA_dom2.
+DR   InterPro; IPR036100; QueA_sf.
+DR   PANTHER; PTHR30307; PTHR30307; 1.
+DR   Pfam; PF02547; Queuosine_synth; 1.
+DR   SUPFAM; SSF111337; SSF111337; 1.
+DR   TIGRFAMs; TIGR00113; queA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Queuosine biosynthesis; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..363
+FT                   /note="S-adenosylmethionine:tRNA ribosyltransferase-
+FT                   isomerase"
+FT                   /id="PRO_1000075994"
+SQ   SEQUENCE   363 AA;  40174 MW;  972A658AA3E91CFD CRC64;
+     MRVDLFDFDL PEERIALRPV EPRDHAKLLH VRPGEPFEDR HVYDLPDLLQ PGDALVFNDT
+     KVIPAQLEGM RERTGNISQV SATLHMRVGP DRWKAFLRPA KRVKEGDRIR FGHSGTSCFL
+     GTLDATVAEK GDSGEALLVF DLSGAVLDEA IAAVGHIPLP PYIASKRPED ERDRKDYQTV
+     YAREEGAVAA PTAGLHFTPD LLEKIKARGI EEHFVTLHVG AGTFLPVKAD DTGDHKMHAE
+     IGHVSQRTAS ALNAVHERGG RIICVGTTSL RLIESATGED GVVRPWSGAT DIFITPGYRF
+     RAVDLLMTNF HLPRSTLFML VSAFSGLDTM HAAYNYAIAD GYRFYSYGDA SLLERIDHDR
+     HSA
+//

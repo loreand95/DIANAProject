@@ -1,0 +1,90 @@
+ID   RPIA_SHEPW              Reviewed;         218 AA.
+AC   B8CJW7;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 59.
+DE   RecName: Full=Ribose-5-phosphate isomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            EC=5.3.1.6 {ECO:0000255|HAMAP-Rule:MF_00170};
+DE   AltName: Full=Phosphoriboisomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            Short=PRI {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   Name=rpiA {ECO:0000255|HAMAP-Rule:MF_00170}; OrderedLocusNames=swp_0861;
+OS   Shewanella piezotolerans (strain WP3 / JCM 13877).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=225849;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=WP3 / JCM 13877;
+RX   PubMed=18398463; DOI=10.1371/journal.pone.0001937;
+RA   Wang F., Wang J., Jian H., Zhang B., Li S., Wang F., Zeng X., Gao L.,
+RA   Bartlett D.H., Yu J., Hu S., Xiao X.;
+RT   "Environmental adaptation: genomic analysis of the piezotolerant and
+RT   psychrotolerant deep-sea iron reducing bacterium Shewanella piezotolerans
+RT   WP3.";
+RL   PLoS ONE 3:E1937-E1937(2008).
+CC   -!- FUNCTION: Catalyzes the reversible conversion of ribose-5-phosphate to
+CC       ribulose 5-phosphate. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-ribose 5-phosphate = D-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:14657, ChEBI:CHEBI:58121, ChEBI:CHEBI:58273;
+CC         EC=5.3.1.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00170};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-ribose
+CC       5-phosphate from D-ribulose 5-phosphate (non-oxidative stage): step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SIMILARITY: Belongs to the ribose 5-phosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000472; ACJ27670.1; -; Genomic_DNA.
+DR   RefSeq; WP_020911049.1; NC_011566.1.
+DR   SMR; B8CJW7; -.
+DR   STRING; 225849.swp_0861; -.
+DR   EnsemblBacteria; ACJ27670; ACJ27670; swp_0861.
+DR   KEGG; swp:swp_0861; -.
+DR   eggNOG; COG0120; Bacteria.
+DR   HOGENOM; CLU_056590_1_1_6; -.
+DR   OMA; VAPMAYV; -.
+DR   OrthoDB; 1681738at2; -.
+DR   BioCyc; SPIE225849:G1G7F-772-MONOMER; -.
+DR   UniPathway; UPA00115; UER00412.
+DR   Proteomes; UP000000753; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IEA:UniProtKB-UniRule.
+DR   CDD; cd01398; RPI_A; 1.
+DR   HAMAP; MF_00170; Rib_5P_isom_A; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR020672; Ribose5P_isomerase_typA_subgr.
+DR   InterPro; IPR004788; Ribose5P_isomerase_type_A.
+DR   PANTHER; PTHR11934; PTHR11934; 1.
+DR   Pfam; PF06026; Rib_5-P_isom_A; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   TIGRFAMs; TIGR00021; rpiA; 1.
+PE   3: Inferred from homology;
+KW   Isomerase.
+FT   CHAIN           1..218
+FT                   /note="Ribose-5-phosphate isomerase A"
+FT                   /id="PRO_1000194721"
+FT   REGION          28..31
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          81..84
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          94..97
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   ACT_SITE        103
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   BINDING         121
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+SQ   SEQUENCE   218 AA;  23250 MW;  8CA734A5A22A89DA CRC64;
+     MTQDEMKKAA GWAALQYVEK DSIVGVGTGS TVNHFIDALA TMKADIDGAV SSSEASTEKM
+     KSLGIPVYDL NSVDDLSVYV DGADEINGHM DMIKGGGAAL TREKIVAAVA DKFICIVDNT
+     KQVDILGEFP LPVEVIPMAR SYVARQLVKL GGDPVYREGV VTDNGNIILD VYNMKIMTPK
+     ELEEQINAIV GVVTNGLFAM RGADVLLVGT PEGVKTVK
+//

@@ -1,0 +1,104 @@
+ID   O17_CONTE               Reviewed;          77 AA.
+AC   P56714; Q9U652; Q9U653;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   23-MAR-2010, sequence version 2.
+DT   07-APR-2021, entry version 87.
+DE   RecName: Full=Omega-conotoxin TxVII {ECO:0000303|PubMed:8679638};
+DE   Flags: Precursor;
+OS   Conus textile (Cloth-of-gold cone).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Cylinder.
+OX   NCBI_TaxID=6494;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=11158371; DOI=10.1093/oxfordjournals.molbev.a003786;
+RA   Conticello S.G., Gilad Y., Avidan N., Ben-Asher E., Levy Z., Fainzilber M.;
+RT   "Mechanisms for evolving hypervariability: the case of conopeptides.";
+RL   Mol. Biol. Evol. 18:120-131(2001).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 52-77, MASS SPECTROMETRY, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=8679638; DOI=10.1021/bi9602674;
+RA   Fainzilber M., Lodder J.C., van der Schors R.C., Li K.W., Yu Z.,
+RA   Burlingame A.L., Geraerts W.P.M., Kits K.S.;
+RT   "A novel hydrophobic omega-conotoxin blocks molluscan dihydropyridine-
+RT   sensitive calcium channels.";
+RL   Biochemistry 35:8748-8752(1996).
+RN   [3]
+RP   STRUCTURE BY NMR OF 52-77, AND DISULFIDE BONDS.
+RX   PubMed=11101291; DOI=10.1021/bi001506x;
+RA   Kobayashi K., Sasaki T., Sato K., Kohno T.;
+RT   "Three-dimensional solution structure of omega-conotoxin TxVII, an L-type
+RT   calcium channel blocker.";
+RL   Biochemistry 39:14761-14767(2000).
+CC   -!- FUNCTION: Omega-conotoxins act at presynaptic membranes, they bind and
+CC       block voltage-gated calcium channels (Cav). Specifically acts on L-type
+CC       channels. It blocks molluscan dihydropyridine-sensitive calcium
+CC       channels.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:8679638}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:8679638}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC       {ECO:0000269|PubMed:11101291}.
+CC   -!- DOMAIN: The cysteine framework is VI/VII (C-C-CC-C-C). {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=2832.23; Method=Electrospray;
+CC       Evidence={ECO:0000269|PubMed:8679638};
+CC   -!- SIMILARITY: Belongs to the conotoxin O1 superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF193263; AAF07974.1; -; mRNA.
+DR   EMBL; AF193264; AAF07975.1; -; mRNA.
+DR   PDB; 1F3K; NMR; -; A=52-77.
+DR   PDBsum; 1F3K; -.
+DR   SMR; P56714; -.
+DR   ConoServer; 1603; TxVII.
+DR   ConoServer; 1096; TxVII precursor.
+DR   ConoServer; 1097; TxVII precursor.
+DR   EvolutionaryTrace; P56714; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR004214; Conotoxin.
+DR   InterPro; IPR012321; Conotoxin_omega-typ_CS.
+DR   Pfam; PF02950; Conotoxin; 1.
+DR   PROSITE; PS60004; OMEGA_CONOTOXIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calcium channel impairing toxin;
+KW   Cleavage on pair of basic residues; Direct protein sequencing;
+KW   Disulfide bond; Ion channel impairing toxin; Knottin; Neurotoxin;
+KW   Presynaptic neurotoxin; Secreted; Signal; Toxin;
+KW   Voltage-gated calcium channel impairing toxin.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..49
+FT                   /id="PRO_0000392706"
+FT   PEPTIDE         52..77
+FT                   /note="Omega-conotoxin TxVII"
+FT                   /id="PRO_0000044479"
+FT   DISULFID        52..67
+FT                   /evidence="ECO:0000269|PubMed:11101291,
+FT                   ECO:0000312|PDB:1F3K"
+FT   DISULFID        59..71
+FT                   /evidence="ECO:0000269|PubMed:11101291,
+FT                   ECO:0000312|PDB:1F3K"
+FT   DISULFID        66..75
+FT                   /evidence="ECO:0000269|PubMed:11101291,
+FT                   ECO:0000312|PDB:1F3K"
+FT   CONFLICT        31
+FT                   /note="N -> K (in Ref. 1; AAF07974)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        34..35
+FT                   /note="PK -> SN (in Ref. 1; AAF07974)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          61..63
+FT                   /evidence="ECO:0007744|PDB:1F3K"
+FT   STRAND          72..74
+FT                   /evidence="ECO:0007744|PDB:1F3K"
+SQ   SEQUENCE   77 AA;  8545 MW;  5A640B4607F38272 CRC64;
+     MKLTCMMIVA VLFLTAWTFA TADDSGNGLE NLFPKAHHEM KNPEASKLNK RCKQADEPCD
+     VFSLDCCTGI CLGVCMW
+//

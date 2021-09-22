@@ -1,0 +1,78 @@
+ID   KCY_XANCB               Reviewed;         226 AA.
+AC   B0RSA3;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 67.
+DE   RecName: Full=Cytidylate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CK {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            EC=2.7.4.25 {ECO:0000255|HAMAP-Rule:MF_00238};
+DE   AltName: Full=Cytidine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CMP kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   Name=cmk {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   OrderedLocusNames=xcc-b100_1985;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J., Sidhu V.K.,
+RA   Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A., Niehaus K.,
+RA   Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use for
+RT   the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CMP = ADP + CDP; Xref=Rhea:RHEA:11600,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58069, ChEBI:CHEBI:60377,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dCMP = ADP + dCDP; Xref=Rhea:RHEA:25094,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57566, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   -!- SIMILARITY: Belongs to the cytidylate kinase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM920689; CAP51338.1; -; Genomic_DNA.
+DR   SMR; B0RSA3; -.
+DR   KEGG; xca:xcc-b100_1985; -.
+DR   HOGENOM; CLU_079959_2_0_6; -.
+DR   OMA; RAITWWM; -.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036430; F:CMP kinase activity; IEA:RHEA.
+DR   GO; GO:0036431; F:dCMP kinase activity; IEA:RHEA.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02020; CMPK; 1.
+DR   HAMAP; MF_00238; Cytidyl_kinase_type1; 1.
+DR   InterPro; IPR003136; Cytidylate_kin.
+DR   InterPro; IPR011994; Cytidylate_kinase_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF02224; Cytidylate_kin; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00017; cmk; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..226
+FT                   /note="Cytidylate kinase"
+FT                   /id="PRO_1000100700"
+FT   NP_BIND         12..20
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00238"
+SQ   SEQUENCE   226 AA;  24078 MW;  204E8080CF1CB49F CRC64;
+     MTDLSPVLTI DGPSGAGKGT VSRIVAARLG WHYLDSGALY RAVGVAASWA DLDVSDPAAL
+     VRCTFDTKVE FDEAGEAGLR VLVNGVDATG ELRLETTGAL ASAIAAIPEV RSALKERQRA
+     FRQPPGLVAD GRDMGTVIFP DAAFKVFLTA SAEERAGRRH KQLMEKGVSV IFDDLLREIM
+     ARDARDAQRV VAPLRPAEDA VLIDTSGIGI EDVVQRVVGL LDSRTP
+//

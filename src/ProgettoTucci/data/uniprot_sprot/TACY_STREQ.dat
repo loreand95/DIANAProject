@@ -1,0 +1,106 @@
+ID   TACY_STREQ              Reviewed;         574 AA.
+AC   Q54114;
+DT   15-JUL-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   17-JUN-2020, entry version 76.
+DE   RecName: Full=Streptolysin O;
+DE            Short=SLO;
+DE   AltName: Full=Thiol-activated cytolysin;
+DE   Flags: Precursor;
+GN   Name=slo;
+OS   Streptococcus dysgalactiae subsp. equisimilis (Streptococcus equisimilis).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=119602;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SIMD-1;
+RX   PubMed=7803818; DOI=10.3109/10425179409020859;
+RA   Okumura K., Hara A., Tanaka T., Nichiguchi I., Minamide W., Igarashi H.,
+RA   Yutsudo T.;
+RT   "Cloning and sequencing the streptolysin O genes of group C and group G
+RT   streptococci.";
+RL   DNA Seq. 4:325-328(1994).
+CC   -!- FUNCTION: A cholesterol-dependent toxin that causes cytolysis by
+CC       forming pores in cholesterol containing host membranes. After binding
+CC       to target membranes, the protein undergoes a major conformation change,
+CC       leading to its insertion in the host membrane and formation of an
+CC       oligomeric pore complex. Cholesterol is required for binding to host
+CC       membranes, membrane insertion and pore formation; cholesterol binding
+CC       is mediated by a Thr-Leu pair in the C-terminus. Can be reversibly
+CC       inactivated by oxidation. {ECO:0000250|UniProtKB:P13128}.
+CC   -!- SUBUNIT: Homooligomeric pore complex of 35 to 50 subunits; when
+CC       inserted in the host membrane. {ECO:0000250|UniProtKB:Q04IN8}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P0C2J9}. Host
+CC       cell membrane {ECO:0000250|UniProtKB:P13128}; Multi-pass membrane
+CC       protein {ECO:0000250|UniProtKB:Q04IN8}. Note=Probably secreted as
+CC       soluble protein by the accessory Sec system (By similarity). It then
+CC       inserts into the host cell membrane and forms pores formed by
+CC       transmembrane beta-strands (By similarity).
+CC       {ECO:0000250|UniProtKB:P0C2J9, ECO:0000250|UniProtKB:Q04IN8}.
+CC   -!- SIMILARITY: Belongs to the cholesterol-dependent cytolysin family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D16824; BAA04104.1; -; Genomic_DNA.
+DR   SMR; Q54114; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015485; F:cholesterol binding; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 2.60.40.1430; -; 1.
+DR   Gene3D; 3.90.840.10; -; 1.
+DR   InterPro; IPR035390; Thiol_cytolys_C.
+DR   InterPro; IPR038700; Thiol_cytolys_C_sf.
+DR   InterPro; IPR001869; Thiol_cytolysin.
+DR   InterPro; IPR036363; Thiol_cytolysin_ab_sf.
+DR   InterPro; IPR036359; Thiol_cytolysin_sf.
+DR   Pfam; PF17440; Thiol_cytolys_C; 1.
+DR   Pfam; PF01289; Thiol_cytolysin; 1.
+DR   PRINTS; PR01400; TACYTOLYSIN.
+DR   SUPFAM; SSF56978; SSF56978; 1.
+DR   PROSITE; PS00481; THIOL_CYTOLYSINS; 1.
+PE   3: Inferred from homology;
+KW   Cytolysis; Hemolysis; Host cell membrane; Host membrane; Lipid-binding;
+KW   Membrane; Secreted; Signal; Toxin; Transmembrane;
+KW   Transmembrane beta strand; Virulence.
+FT   SIGNAL          1..36
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           37..574
+FT                   /note="Streptolysin O"
+FT                   /id="PRO_0000034106"
+FT   TRANSMEM        263..276
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        283..292
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        361..370
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   TRANSMEM        378..390
+FT                   /note="Beta stranded"
+FT                   /evidence="ECO:0000250|UniProtKB:Q04IN8"
+FT   MOTIF           532..542
+FT                   /note="Conserved undecapeptide"
+FT                   /evidence="ECO:0000305"
+FT   MOTIF           564..565
+FT                   /note="Cholesterol binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0C2E9"
+SQ   SEQUENCE   574 AA;  63992 MW;  83345CEBDE1EBCFC CRC64;
+     MKDMSNKKIF KKYSRVAGLL TAALIVGNLV TANADSNKQN TANTETTTTN EQPKPESSEL
+     TTEKAGQKMD DMLNSNDMIK LAPKEMPLES AEKEEKKSED NKKSEEDHTE EINDKIYSLN
+     YNELEVLAKN GETIENFVPK EGVKKADKFI VIERKKKNIN TTPVDISIID SVTDRTYPAA
+     LQLANKGFTE NKPDAVVTKR NPQKIHIDLP GMGDKATVEV NDPTYANVST AIDNLVNQWH
+     DNYSGGNTLP ARTQYTESMV YSKSQIEAAL NVNSKILDGT LGIDFKSISK GEKKVMIAAY
+     KQIFYTVSAN LPNNPADVFD KSVTLKELQR KGVSNEAPPL FVSNVAYGRT VFVKLETSSK
+     SNDVEAAFSA ALKGTDVKTN GKYSDILENS SFTAVVLGGD AAEHNKVVTK DFDVIRNVIK
+     DNATFSRKNP AYPISYTSVF LKNNKIAGVN NRSEYVETTS TEYTSGKINL SHQGAYVAQY
+     EILWDEINYD DKGKEVITKR RWDNNWYSKT SPFSTVIPLG ANSRNIRIMA RECTGLAWEW
+     WRKVIDERDV KLSKEINVNI SGSTLSPYGS ITYK
+//

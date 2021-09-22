@@ -1,0 +1,97 @@
+ID   GUAC_SHIDS              Reviewed;         347 AA.
+AC   Q32JY8;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   10-FEB-2021, entry version 93.
+DE   RecName: Full=GMP reductase {ECO:0000255|HAMAP-Rule:MF_00596};
+DE            EC=1.7.1.7 {ECO:0000255|HAMAP-Rule:MF_00596};
+DE   AltName: Full=Guanosine 5'-monophosphate oxidoreductase {ECO:0000255|HAMAP-Rule:MF_00596};
+DE            Short=Guanosine monophosphate reductase {ECO:0000255|HAMAP-Rule:MF_00596};
+GN   Name=guaC {ECO:0000255|HAMAP-Rule:MF_00596}; OrderedLocusNames=SDY_0134;
+OS   Shigella dysenteriae serotype 1 (strain Sd197).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300267;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sd197;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: Catalyzes the irreversible NADPH-dependent deamination of GMP
+CC       to IMP. It functions in the conversion of nucleobase, nucleoside and
+CC       nucleotide derivatives of G to A nucleotides, and in maintaining the
+CC       intracellular balance of A and G nucleotides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00596}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + NADP(+) + NH4(+) = GMP + 2 H(+) + NADPH;
+CC         Xref=Rhea:RHEA:17185, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58053, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58349; EC=1.7.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00596};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00596}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family. GuaC type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00596}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000034; ABB60369.1; -; Genomic_DNA.
+DR   RefSeq; WP_001217371.1; NC_007606.1.
+DR   RefSeq; YP_401858.1; NC_007606.1.
+DR   SMR; Q32JY8; -.
+DR   EnsemblBacteria; ABB60369; ABB60369; SDY_0134.
+DR   KEGG; sdy:SDY_0134; -.
+DR   PATRIC; fig|300267.13.peg.152; -.
+DR   HOGENOM; CLU_022552_5_3_6; -.
+DR   OMA; AYKEYFG; -.
+DR   BioCyc; SDYS300267:G1G4A-140-MONOMER; -.
+DR   Proteomes; UP000002716; Chromosome.
+DR   GO; GO:1902560; C:GMP reductase complex; IEA:InterPro.
+DR   GO; GO:0003920; F:GMP reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006163; P:purine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00381; IMPDH; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00596; GMP_reduct_type1; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005993; GMPR.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000235; GMP_reductase; 1.
+DR   TIGRFAMs; TIGR01305; GMP_reduct_1; 1.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   Metal-binding; NADP; Oxidoreductase; Potassium; Reference proteome.
+FT   CHAIN           1..347
+FT                   /note="GMP reductase"
+FT                   /id="PRO_1000025619"
+FT   NP_BIND         108..131
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   NP_BIND         216..239
+FT                   /note="NADP; ribose moiety"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   ACT_SITE        186
+FT                   /note="Thioimidate intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   METAL           181
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   METAL           183
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+SQ   SEQUENCE   347 AA;  37398 MW;  B8E5900B0F01CFBE CRC64;
+     MRIEEDLKLG FKEVLIRPKR STLKSRSDVE LERQFTFKHS GQSWSGVPII AANMDTVGTF
+     SMASALASFD ILTAVHKHYS VEEWQAFINN SSADVLKHVM VSTGTSDADF EKTKQILDLN
+     PALNFVCIDV ANGYSEHFVQ FVAKAREAWP TKTICAGNVV TGEMCEELIL SGADIVKVGI
+     GPGSVCTTRV KTGVGYPQLS AVIECADAAH GLGGMIVSDG GCTTPGDVAK AFGGGADFVM
+     LGGMLAGHEE SGGRIVEENG EKFMLFYGMS SESAMKRHVG GVAEYRAAEG KTVKLPLRGP
+     VENTARDILG GLRSACTYVG ASRLKELTKR TTFIRVQEQE NRIFNNL
+//

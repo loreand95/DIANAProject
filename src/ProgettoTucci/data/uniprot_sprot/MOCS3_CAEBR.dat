@@ -1,0 +1,176 @@
+ID   MOCS3_CAEBR             Reviewed;         402 AA.
+AC   A8WRE3;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   14-APR-2009, sequence version 3.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Adenylyltransferase and sulfurtransferase MOCS3 {ECO:0000255|HAMAP-Rule:MF_03049};
+DE   AltName: Full=Molybdenum cofactor synthesis protein 3 {ECO:0000255|HAMAP-Rule:MF_03049};
+DE   Includes:
+DE     RecName: Full=Molybdopterin-synthase adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_03049};
+DE              EC=2.7.7.80 {ECO:0000255|HAMAP-Rule:MF_03049};
+DE     AltName: Full=Adenylyltransferase MOCS3 {ECO:0000255|HAMAP-Rule:MF_03049};
+DE     AltName: Full=Sulfur carrier protein MOCS2A adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_03049};
+DE   Includes:
+DE     RecName: Full=Molybdopterin-synthase sulfurtransferase {ECO:0000255|HAMAP-Rule:MF_03049};
+DE              EC=2.8.1.11 {ECO:0000255|HAMAP-Rule:MF_03049};
+DE     AltName: Full=Sulfur carrier protein MOCS2A sulfurtransferase {ECO:0000255|HAMAP-Rule:MF_03049};
+DE     AltName: Full=Sulfurtransferase MOCS3 {ECO:0000255|HAMAP-Rule:MF_03049};
+GN   Name=uba-4; Synonyms=moc-3; ORFNames=CBG01549;
+OS   Caenorhabditis briggsae.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6238;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AF16;
+RX   PubMed=14624247; DOI=10.1371/journal.pbio.0000045;
+RA   Stein L.D., Bao Z., Blasiar D., Blumenthal T., Brent M.R., Chen N.,
+RA   Chinwalla A., Clarke L., Clee C., Coghlan A., Coulson A., D'Eustachio P.,
+RA   Fitch D.H.A., Fulton L.A., Fulton R.E., Griffiths-Jones S., Harris T.W.,
+RA   Hillier L.W., Kamath R., Kuwabara P.E., Mardis E.R., Marra M.A.,
+RA   Miner T.L., Minx P., Mullikin J.C., Plumb R.W., Rogers J., Schein J.E.,
+RA   Sohrmann M., Spieth J., Stajich J.E., Wei C., Willey D., Wilson R.K.,
+RA   Durbin R.M., Waterston R.H.;
+RT   "The genome sequence of Caenorhabditis briggsae: a platform for comparative
+RT   genomics.";
+RL   PLoS Biol. 1:166-192(2003).
+CC   -!- FUNCTION: Plays a central role in 2-thiolation of mcm(5)S(2)U at tRNA
+CC       wobble positions of cytosolic tRNA(Lys), tRNA(Glu) and tRNA(Gln). Also
+CC       essential during biosynthesis of the molybdenum cofactor. Acts by
+CC       mediating the C-terminal thiocarboxylation of sulfur carriers URM1 and
+CC       MOCS2A. Its N-terminus first activates URM1 and MOCS2A as acyl-
+CC       adenylates (-COAMP), then the persulfide sulfur on the catalytic
+CC       cysteine is transferred to URM1 and MOCS2A to form thiocarboxylation (-
+CC       COSH) of their C-terminus. The reaction probably involves hydrogen
+CC       sulfide that is generated from the persulfide intermediate and that
+CC       acts as nucleophile towards URM1 and MOCS2A. Subsequently, a transient
+CC       disulfide bond is formed. Does not use thiosulfate as sulfur donor;
+CC       NFS1 probably acting as a sulfur donor for thiocarboxylation reactions.
+CC       {ECO:0000255|HAMAP-Rule:MF_03049}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[molybdopterin-synthase sulfur-carrier protein]-C-terminal
+CC         Gly-Gly + ATP + H(+) = [molybdopterin-synthase sulfur-carrier
+CC         protein]-C-terminal Gly-Gly-AMP + diphosphate; Xref=Rhea:RHEA:43616,
+CC         Rhea:RHEA-COMP:12159, Rhea:RHEA-COMP:12202, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:90618,
+CC         ChEBI:CHEBI:90778; EC=2.7.7.80; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03049};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[molybdopterin-synthase sulfur-carrier protein]-C-terminal
+CC         Gly-Gly-AMP + AH2 + S-sulfanyl-L-cysteinyl-[cysteine desulfurase] =
+CC         [molybdopterin-synthase sulfur-carrier protein]-C-terminal Gly-NH-
+CC         CH2-C(O)SH + A + AMP + H(+) + L-cysteinyl-[cysteine desulfurase];
+CC         Xref=Rhea:RHEA:48612, Rhea:RHEA-COMP:12157, Rhea:RHEA-COMP:12158,
+CC         Rhea:RHEA-COMP:12159, Rhea:RHEA-COMP:12160, ChEBI:CHEBI:13193,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17499, ChEBI:CHEBI:29950,
+CC         ChEBI:CHEBI:61963, ChEBI:CHEBI:90618, ChEBI:CHEBI:90619,
+CC         ChEBI:CHEBI:456215; EC=2.8.1.11; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03049};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03049};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_03049};
+CC   -!- PATHWAY: tRNA modification; 5-methoxycarbonylmethyl-2-thiouridine-tRNA
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_03049}.
+CC   -!- PATHWAY: Cofactor biosynthesis; molybdopterin biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_03049}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03049}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the HesA/MoeB/ThiF
+CC       family. UBA4 subfamily. {ECO:0000255|HAMAP-Rule:MF_03049}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAP23051.2; Type=Erroneous gene model prediction; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; HE601298; CAP23051.2; ALT_SEQ; Genomic_DNA.
+DR   SMR; A8WRE3; -.
+DR   STRING; 6238.CBG01549; -.
+DR   WormBase; CBG01549; CBP14176; WBGene00024772; Cbr-uba-4.
+DR   eggNOG; KOG2017; Eukaryota.
+DR   HOGENOM; CLU_013325_1_0_1; -.
+DR   InParanoid; A8WRE3; -.
+DR   OrthoDB; 1445129at2759; -.
+DR   UniPathway; UPA00344; -.
+DR   UniPathway; UPA00988; -.
+DR   Proteomes; UP000008549; Chromosome IV.
+DR   Proteomes; UP000008549; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005829; C:cytosol; ISS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0061605; F:molybdopterin-synthase adenylyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0061604; F:molybdopterin-synthase sulfurtransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0004792; F:thiosulfate sulfurtransferase activity; ISS:UniProtKB.
+DR   GO; GO:0042292; F:URM1 activating enzyme activity; IBA:GO_Central.
+DR   GO; GO:0006777; P:Mo-molybdopterin cofactor biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0032447; P:protein urmylation; IBA:GO_Central.
+DR   GO; GO:0002143; P:tRNA wobble position uridine thiolation; IBA:GO_Central.
+DR   Gene3D; 3.40.250.10; -; 1.
+DR   HAMAP; MF_03049; MOCS3_Uba4; 1.
+DR   InterPro; IPR028885; MOCS3/Uba4.
+DR   InterPro; IPR001763; Rhodanese-like_dom.
+DR   InterPro; IPR036873; Rhodanese-like_dom_sf.
+DR   InterPro; IPR000594; ThiF_NAD_FAD-bd.
+DR   InterPro; IPR035985; Ubiquitin-activating_enz.
+DR   Pfam; PF00581; Rhodanese; 1.
+DR   Pfam; PF00899; ThiF; 1.
+DR   SMART; SM00450; RHOD; 1.
+DR   SUPFAM; SSF69572; SSF69572; 1.
+DR   PROSITE; PS50206; RHODANESE_3; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Metal-binding; Molybdenum cofactor biosynthesis;
+KW   Multifunctional enzyme; Nucleotide-binding; Reference proteome;
+KW   Transferase; tRNA processing; Zinc.
+FT   CHAIN           1..402
+FT                   /note="Adenylyltransferase and sulfurtransferase MOCS3"
+FT                   /id="PRO_0000369197"
+FT   DOMAIN          303..400
+FT                   /note="Rhodanese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   NP_BIND         75..79
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   NP_BIND         136..137
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   ACT_SITE        195
+FT                   /note="Glycyl thioester intermediate; for
+FT                   adenylyltransferase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   ACT_SITE        359
+FT                   /note="Cysteine persulfide intermediate; for
+FT                   sulfurtransferase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   METAL           178
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   METAL           181
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   METAL           253
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   METAL           256
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   BINDING         47
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   BINDING         68
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+FT   BINDING         92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03049"
+SQ   SEQUENCE   402 AA;  43927 MW;  5134DF645F6CD449 CRC64;
+     MESKDWVAGI SKSDAGRYSR QLLVDDFGVS GQKNLKNTAV LIVGAGGLGC PVATYLGAAG
+     VGTLGIVDYD RISLDNLHRQ VAYKEDQVGQ SKSQGLADNV KLQNSGVTTV VHNVSLDSSN
+     AMEIFKNYDI VCDCTDNVAT RYLINDVCVL LNIPLVSGSA LRWDGQLSVY HYGPDCPCYR
+     CLFPSPPDPS SVTNCNEGGV LGPIVGTIGS MQALEVMKIA AKLSTTLAGK LLLFDGREGK
+     SRTIRLRKRD PKCAVCGDEP SITAPIDYML FCGAGAHDKI ENLKLLEPSV RVNVHEYQEI
+     RSAARKQFLL DTRPPVEFEI AHLPEAIDIT LNECRSLQAE ELSSRLGVDS QTSDVYVICH
+     RGNDSQRAVK LLKEKLGSIH FRDIIGGYEE WALKINDEFP LY
+//

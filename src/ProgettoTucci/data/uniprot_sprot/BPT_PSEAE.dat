@@ -1,0 +1,98 @@
+ID   BPT_PSEAE               Reviewed;         235 AA.
+AC   Q9I0M0;
+DT   25-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   10-FEB-2021, entry version 101.
+DE   RecName: Full=Aspartate/glutamate leucyltransferase {ECO:0000255|HAMAP-Rule:MF_00689};
+DE            EC=2.3.2.29 {ECO:0000255|HAMAP-Rule:MF_00689};
+GN   Name=bpt {ECO:0000255|HAMAP-Rule:MF_00689}; OrderedLocusNames=PA2618;
+OS   Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM
+OS   14847 / LMG 12228 / 1C / PRS 101 / PAO1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208964;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C /
+RC   PRS 101 / PAO1;
+RX   PubMed=10984043; DOI=10.1038/35023079;
+RA   Stover C.K., Pham X.-Q.T., Erwin A.L., Mizoguchi S.D., Warrener P.,
+RA   Hickey M.J., Brinkman F.S.L., Hufnagle W.O., Kowalik D.J., Lagrou M.,
+RA   Garber R.L., Goltry L., Tolentino E., Westbrock-Wadman S., Yuan Y.,
+RA   Brody L.L., Coulter S.N., Folger K.R., Kas A., Larbig K., Lim R.M.,
+RA   Smith K.A., Spencer D.H., Wong G.K.-S., Wu Z., Paulsen I.T., Reizer J.,
+RA   Saier M.H. Jr., Hancock R.E.W., Lory S., Olson M.V.;
+RT   "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic
+RT   pathogen.";
+RL   Nature 406:959-964(2000).
+CC   -!- FUNCTION: Functions in the N-end rule pathway of protein degradation
+CC       where it conjugates Leu from its aminoacyl-tRNA to the N-termini of
+CC       proteins containing an N-terminal aspartate or glutamate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00689}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-leucyl-tRNA(Leu) + N-terminal L-glutamyl-[protein] = H(+) +
+CC         N-terminal L-leucyl-L-glutamyl-[protein] + tRNA(Leu);
+CC         Xref=Rhea:RHEA:50412, Rhea:RHEA-COMP:9613, Rhea:RHEA-COMP:9622,
+CC         Rhea:RHEA-COMP:12664, Rhea:RHEA-COMP:12668, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:64721, ChEBI:CHEBI:78442, ChEBI:CHEBI:78494,
+CC         ChEBI:CHEBI:133041; EC=2.3.2.29; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00689};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-leucyl-tRNA(Leu) + N-terminal L-aspartyl-[protein] = H(+) +
+CC         N-terminal L-leucyl-L-aspartyl-[protein] + tRNA(Leu);
+CC         Xref=Rhea:RHEA:50420, Rhea:RHEA-COMP:9613, Rhea:RHEA-COMP:9622,
+CC         Rhea:RHEA-COMP:12669, Rhea:RHEA-COMP:12674, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:64720, ChEBI:CHEBI:78442, ChEBI:CHEBI:78494,
+CC         ChEBI:CHEBI:133042; EC=2.3.2.29; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00689};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00689}.
+CC   -!- SIMILARITY: Belongs to the R-transferase family. Bpt subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00689}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004091; AAG06006.1; -; Genomic_DNA.
+DR   PIR; H83318; H83318.
+DR   RefSeq; NP_251308.1; NC_002516.2.
+DR   RefSeq; WP_003108766.1; NZ_QZGE01000008.1.
+DR   SMR; Q9I0M0; -.
+DR   PaxDb; Q9I0M0; -.
+DR   DNASU; 882324; -.
+DR   EnsemblBacteria; AAG06006; AAG06006; PA2618.
+DR   GeneID; 882324; -.
+DR   KEGG; pae:PA2618; -.
+DR   PATRIC; fig|208964.12.peg.2740; -.
+DR   PseudoCAP; PA2618; -.
+DR   HOGENOM; CLU_077607_0_0_6; -.
+DR   InParanoid; Q9I0M0; -.
+DR   OMA; MVEDSHV; -.
+DR   PhylomeDB; Q9I0M0; -.
+DR   BioCyc; PAER208964:G1FZ6-2658-MONOMER; -.
+DR   Proteomes; UP000002438; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004057; F:arginyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008914; F:leucyltransferase activity; IEA:InterPro.
+DR   GO; GO:0071596; P:ubiquitin-dependent protein catabolic process via the N-end rule pathway; IEA:InterPro.
+DR   HAMAP; MF_00689; Bpt; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR017138; Asp_Glu_LeuTrfase.
+DR   InterPro; IPR030700; N-end_Aminoacyl_Trfase.
+DR   InterPro; IPR007472; N-end_Aminoacyl_Trfase_C.
+DR   InterPro; IPR007471; N-end_Aminoacyl_Trfase_N.
+DR   PANTHER; PTHR21367; PTHR21367; 2.
+DR   Pfam; PF04377; ATE_C; 1.
+DR   Pfam; PF04376; ATE_N; 1.
+DR   PIRSF; PIRSF037208; ATE_pro_prd; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; Reference proteome; Transferase.
+FT   CHAIN           1..235
+FT                   /note="Aspartate/glutamate leucyltransferase"
+FT                   /id="PRO_0000195108"
+SQ   SEQUENCE   235 AA;  27826 MW;  9EFE2A6C36E415FE CRC64;
+     MTELARLKFY ATQPHPCSYL PEEQATTLFL DPSQPMDTQL YASLSEVGFR RSGDHLYRPH
+     CQHCTACIAA RIPVADFSPN RQQRRILKRN AELQVIRKRP SFNEEYYDLY RRYIEQRHAD
+     GDMYPPSRDQ FATFLVRDLP FCCFFEFRLH GRLLAIAVTD VLPNGLSAVY TFYDPDEEQR
+     SLGRYAILWQ IAETERLGLQ AVYLGYWIKN CRKMNYKTQY RPIELFVNQR WVALT
+//

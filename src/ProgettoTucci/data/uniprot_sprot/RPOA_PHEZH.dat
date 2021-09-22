@@ -1,0 +1,97 @@
+ID   RPOA_PHEZH              Reviewed;         338 AA.
+AC   B4R8P1;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 65.
+DE   RecName: Full=DNA-directed RNA polymerase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE            Short=RNAP subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE            EC=2.7.7.6 {ECO:0000255|HAMAP-Rule:MF_00059};
+DE   AltName: Full=RNA polymerase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+DE   AltName: Full=Transcriptase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059};
+GN   Name=rpoA {ECO:0000255|HAMAP-Rule:MF_00059}; OrderedLocusNames=PHZ_c1254;
+OS   Phenylobacterium zucineum (strain HLK1).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+OC   Caulobacteraceae; Phenylobacterium.
+OX   NCBI_TaxID=450851;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HLK1;
+RX   PubMed=18700039; DOI=10.1186/1471-2164-9-386;
+RA   Luo Y., Xu X., Ding Z., Liu Z., Zhang B., Yan Z., Sun J., Hu S., Hu X.;
+RT   "Complete genome of Phenylobacterium zucineum - a novel facultative
+RT   intracellular bacterium isolated from human erythroleukemia cell line
+RT   K562.";
+RL   BMC Genomics 9:386-386(2008).
+CC   -!- FUNCTION: DNA-dependent RNA polymerase catalyzes the transcription of
+CC       DNA into RNA using the four ribonucleoside triphosphates as substrates.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00059};
+CC   -!- SUBUNIT: Homodimer. The RNAP catalytic core consists of 2 alpha, 1
+CC       beta, 1 beta' and 1 omega subunit. When a sigma factor is associated
+CC       with the core the holoenzyme is formed, which can initiate
+CC       transcription. {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- DOMAIN: The N-terminal domain is essential for RNAP assembly and basal
+CC       transcription, whereas the C-terminal domain is involved in interaction
+CC       with transcriptional regulators and with upstream promoter elements.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   -!- SIMILARITY: Belongs to the RNA polymerase alpha chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00059}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000747; ACG77668.1; -; Genomic_DNA.
+DR   RefSeq; WP_012521812.1; NC_011144.1.
+DR   SMR; B4R8P1; -.
+DR   STRING; 450851.PHZ_c1254; -.
+DR   EnsemblBacteria; ACG77668; ACG77668; PHZ_c1254.
+DR   KEGG; pzu:PHZ_c1254; -.
+DR   eggNOG; COG0202; Bacteria.
+DR   HOGENOM; CLU_053084_0_0_5; -.
+DR   OMA; LMKFRNF; -.
+DR   OrthoDB; 662686at2; -.
+DR   Proteomes; UP000001868; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003899; F:DNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046983; F:protein dimerization activity; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.170.120.12; -; 1.
+DR   Gene3D; 3.30.1360.10; -; 1.
+DR   HAMAP; MF_00059; RNApol_bact_RpoA; 1.
+DR   InterPro; IPR011262; DNA-dir_RNA_pol_insert.
+DR   InterPro; IPR011263; DNA-dir_RNA_pol_RpoA/D/Rpb3.
+DR   InterPro; IPR011773; DNA-dir_RpoA.
+DR   InterPro; IPR036603; RBP11-like.
+DR   InterPro; IPR011260; RNAP_asu_C.
+DR   InterPro; IPR036643; RNApol_insert_sf.
+DR   Pfam; PF01000; RNA_pol_A_bac; 1.
+DR   Pfam; PF03118; RNA_pol_A_CTD; 1.
+DR   Pfam; PF01193; RNA_pol_L; 1.
+DR   SMART; SM00662; RPOLD; 1.
+DR   SUPFAM; SSF55257; SSF55257; 1.
+DR   SUPFAM; SSF56553; SSF56553; 1.
+DR   TIGRFAMs; TIGR02027; rpoA; 1.
+PE   3: Inferred from homology;
+KW   DNA-directed RNA polymerase; Nucleotidyltransferase; Reference proteome;
+KW   Transcription; Transferase.
+FT   CHAIN           1..338
+FT                   /note="DNA-directed RNA polymerase subunit alpha"
+FT                   /id="PRO_1000091960"
+FT   REGION          1..234
+FT                   /note="Alpha N-terminal domain (alpha-NTD)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00059"
+FT   REGION          250..338
+FT                   /note="Alpha C-terminal domain (alpha-CTD)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00059"
+SQ   SEQUENCE   338 AA;  37288 MW;  9367B94264F86CDC CRC64;
+     MIERNWNELI RPEKPQIETG ADASRKARLV AEPLERGFGV TLGNSLRRVL LSSLQGAAVT
+     AVQIDGVVHE FSSLEGVRED VVDIVLNIKQ LALRMHAEGP KRMTLRATGP GAVTASQIEA
+     PADIEILNGD HVLCTLDDGA SVRMEFTVQT GKGYVPAEMN RPEDAPIGLI AVDSLFSPVK
+     RVAYRVEPTR QGQSLDYDKL IMEVETNGAV SPVDAVAYAA RILQDQLQIF ITFEEPKKKV
+     EGEAKPELPF NPALLKKVDE LELSVRSANC LKNDNIVYIG DLIQKTEAEM LRTPNFGRKS
+     LNEIKEVLAG MGLHLGMDVP NWPPENIEEL AKKFEDQM
+//

@@ -1,0 +1,130 @@
+ID   NU2C2_OENGL             Reviewed;         510 AA.
+AC   P0CD13; B0Z588;
+DT   09-FEB-2010, integrated into UniProtKB/Swiss-Prot.
+DT   09-FEB-2010, sequence version 1.
+DT   11-DEC-2019, entry version 25.
+DE   RecName: Full=NAD(P)H-quinone oxidoreductase subunit 2 B, chloroplastic {ECO:0000255|HAMAP-Rule:MF_00445};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NAD(P)H dehydrogenase, subunit 2 B {ECO:0000255|HAMAP-Rule:MF_00445};
+DE   AltName: Full=NADH-plastoquinone oxidoreductase subunit 2 B {ECO:0000255|HAMAP-Rule:MF_00445};
+GN   Name=ndhB2 {ECO:0000255|HAMAP-Rule:MF_00445};
+OS   Oenothera glazioviana (Large-flowered evening primrose) (Oenothera
+OS   erythrosepala).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; malvids; Myrtales; Onagraceae; Onagroideae; Onagreae; Oenothera.
+OX   NCBI_TaxID=482428;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Rr-lamarckiana Sweden;
+RX   PubMed=18299283; DOI=10.1093/nar/gkn081;
+RA   Greiner S., Wang X., Rauwolf U., Silber M.V., Mayer K., Meurer J.,
+RA   Haberer G., Herrmann R.G.;
+RT   "The complete nucleotide sequences of the five genetically distinct plastid
+RT   genomes of Oenothera, subsection Oenothera: I. Sequence evaluation and
+RT   plastome evolution.";
+RL   Nucleic Acids Res. 36:2366-2378(2008).
+CC   -!- FUNCTION: NDH shuttles electrons from NAD(P)H:plastoquinone, via FMN
+CC       and iron-sulfur (Fe-S) centers, to quinones in the photosynthetic chain
+CC       and possibly in a chloroplast respiratory chain. The immediate electron
+CC       acceptor for the enzyme in this species is believed to be
+CC       plastoquinone. Couples the redox reaction to proton translocation, and
+CC       thus conserves the redox energy in a proton gradient.
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADH = a plastoquinol + n
+CC         H(+)(out) + NAD(+); Xref=Rhea:RHEA:42608, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00445};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n
+CC         H(+)(out) + NADP(+); Xref=Rhea:RHEA:42612, Rhea:RHEA-COMP:9561,
+CC         Rhea:RHEA-COMP:9562, ChEBI:CHEBI:15378, ChEBI:CHEBI:17757,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:62192;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00445};
+CC   -!- SUBUNIT: NDH is composed of at least 16 different subunits, 5 of which
+CC       are encoded in the nucleus. {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}; Multi-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00445}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU262890; ABX10096.1; -; Genomic_DNA.
+DR   RefSeq; YP_001687327.1; NC_010360.2.
+DR   RefSeq; YP_001687342.1; NC_010360.2.
+DR   GeneID; 5955235; -.
+DR   GeneID; 5955320; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   GO; GO:0019684; P:photosynthesis, light reaction; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00445; NDH1_NuoN_1; 1.
+DR   InterPro; IPR010096; NADH-Q_OxRdtase_suN/2.
+DR   InterPro; IPR001750; ND/Mrp_mem.
+DR   Pfam; PF00361; Proton_antipo_M; 1.
+DR   TIGRFAMs; TIGR01770; NDH_I_N; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Membrane; NAD; NADP; Plastid; Plastoquinone; Quinone;
+KW   Thylakoid; Translocase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..510
+FT                   /note="NAD(P)H-quinone oxidoreductase subunit 2 B,
+FT                   chloroplastic"
+FT                   /id="PRO_0000391294"
+FT   TRANSMEM        26..46
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        57..77
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        99..119
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        124..144
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        149..169
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        183..203
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        227..247
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        295..315
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        323..342
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        354..374
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        395..415
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        418..438
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+FT   TRANSMEM        484..504
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00445"
+SQ   SEQUENCE   510 AA;  56573 MW;  85A27960A9DBBA9C CRC64;
+     MIWHVQNENL ILDSTRIFMK AFHLPLFDGS FIFPEGILIF GLILLLMIDS TSDQTDIPWF
+     YFISSISLVM SITALLFRWR EEPRILFSGN FQTNNFNEIF QFLILLCSTL CIPLSVEYIE
+     CTEMAITEFL LFVLTATLGG MFLCGANDLI TIFVAPECFS LCSYLLSGYT KKDVRSNEAT
+     MKYLLMGGAS SSILVHGFSW LYGSSGGEIE LQEIVNGLIN TQMYNSPGIS IALIFITVGI
+     GFKLSPAPSH QWTPDVYEGS PTPVVAFLSV TSKVAASASA TRIFDIPFYF SSNEWHPLLE
+     ILAILSMILG NLIAITQTSM KRMLAYSSIG QIGYVIIGII VGDANGGYAS MITYMLFYIS
+     MNLGTFACIV LFGLRTGTDN IRDYAGLYTK DPFLALSLAL CLLSLGGLPP LAGFFGKLHL
+     FWCGWQAGLY FLVSIGLFTS VVSIYYYLKI IKLLMTGRKQ EITPHVRNYR RSPLRSNNSI
+     ELSMIVCVIA STIPGISMNP IIAIAQDTLF
+//

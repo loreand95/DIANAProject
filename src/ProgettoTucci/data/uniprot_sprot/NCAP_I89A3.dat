@@ -1,0 +1,97 @@
+ID   NCAP_I89A3              Reviewed;         498 AA.
+AC   P69292; Q07539; Q08029;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   02-DEC-2020, entry version 60.
+DE   RecName: Full=Nucleoprotein {ECO:0000255|HAMAP-Rule:MF_04070};
+DE   AltName: Full=Nucleocapsid protein {ECO:0000255|HAMAP-Rule:MF_04070};
+DE            Short=Protein N {ECO:0000255|HAMAP-Rule:MF_04070};
+GN   Name=NP {ECO:0000255|HAMAP-Rule:MF_04070};
+OS   Influenza A virus (strain A/Guangdong/39/1989 H3N2).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=382812;
+OH   NCBI_TaxID=8782; Aves.
+OH   NCBI_TaxID=9606; Homo sapiens (Human).
+OH   NCBI_TaxID=9761; Mysticeti (baleen whales).
+OH   NCBI_TaxID=9709; Phocidae (true seals).
+OH   NCBI_TaxID=9823; Sus scrofa (Pig).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=8474171; DOI=10.1128/jvi.67.5.2723-2729.1993;
+RA   Shu L.L., Bean W.J., Webster R.G.;
+RT   "Analysis of the evolution and variation of the human influenza A virus
+RT   nucleoprotein gene from 1933 to 1990.";
+RL   J. Virol. 67:2723-2729(1993).
+CC   -!- FUNCTION: Encapsidates the negative strand viral RNA, protecting it
+CC       from nucleases. The encapsidated genomic RNA is termed the
+CC       ribonucleoprotein (RNP) and serves as template for transcription and
+CC       replication. The RNP needs to be localized in the host nucleus to start
+CC       an infectious cycle, but is too large to diffuse through the nuclear
+CC       pore complex. NP comprises at least 2 nuclear localization signals that
+CC       are responsible for the active RNP import into the nucleus through
+CC       cellular importin alpha/beta pathway. Later in the infection, nclear
+CC       export of RNPs are mediated through viral proteins NEP interacting with
+CC       M1 which binds nucleoproteins. It is possible that nucleoprotein binds
+CC       directly host exportin-1/XPO1 and plays an active role in RNPs nuclear
+CC       export. M1 interaction with RNP seems to hide nucleoprotein's nuclear
+CC       localization signals. Soon after a virion infects a new cell, M1
+CC       dissociates from the RNP under acidification of the virion driven by M2
+CC       protein. Dissociation of M1 from RNP unmasks nucleoprotein's nuclear
+CC       localization signals, targeting the RNP to the nucleus.
+CC       {ECO:0000255|HAMAP-Rule:MF_04070}.
+CC   -!- SUBUNIT: Homomultimerizes to form the nucleocapsid. May bind host
+CC       exportin-1/XPO1. Binds to viral genomic RNA. Protein-RNA contacts are
+CC       mediated by a combination of electrostatic interactions between
+CC       positively charged residues and the phosphate backbone and planar
+CC       interactions between aromatic side chains and bases.
+CC       {ECO:0000255|HAMAP-Rule:MF_04070}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000255|HAMAP-Rule:MF_04070}. Host
+CC       nucleus {ECO:0000255|HAMAP-Rule:MF_04070}.
+CC   -!- PTM: Late in virus-infected cells, may be cleaved from a 56-kDa protein
+CC       to a 53-kDa protein by a cellular caspase. This cleavage might be a
+CC       marker for the onset of apoptosis in infected cells or have a specific
+CC       function in virus host interaction. {ECO:0000255|HAMAP-Rule:MF_04070}.
+CC   -!- SIMILARITY: Belongs to the influenza viruses nucleoprotein family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04070}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L07373; AAA51490.1; -; Genomic_RNA.
+DR   SMR; P69292; -.
+DR   GO; GO:0019029; C:helical viral capsid; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0019013; C:viral nucleocapsid; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0075732; P:viral penetration into host nucleus; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_04070; INFV_NCAP; 1.
+DR   InterPro; IPR002141; Flu_NP.
+DR   Pfam; PF00506; Flu_NP; 1.
+PE   3: Inferred from homology;
+KW   Capsid protein; Helical capsid protein; Host nucleus;
+KW   Host-virus interaction; Ribonucleoprotein; RNA-binding;
+KW   Viral nucleoprotein; Viral penetration into host nucleus; Virion;
+KW   Virus entry into host cell.
+FT   CHAIN           1..498
+FT                   /note="Nucleoprotein"
+FT                   /id="PRO_0000079049"
+FT   MOTIF           1..18
+FT                   /note="Unconventional nuclear localization signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04070"
+FT   MOTIF           198..216
+FT                   /note="Bipartite nuclear localization signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04070"
+SQ   SEQUENCE   498 AA;  56225 MW;  28F46CA5BBD1DAC4 CRC64;
+     MASQGTKRSY EQMETDGERQ NATEIRASVG KMIDGIGRFY IQMCTELKLS DYEGRLIQNS
+     LTVERMVLSA FDERRNRYLE EHPSAGKDPK KTGGPIYKRV GGRWMRELVL YDKEEIRRIW
+     RQANNGDDAT RGLTHMMIWH SNLNDTTYQR TRALVRTGMD PRMCSLMQGS TLPRRSGAAG
+     AAVKGIGTMV MELIRMIKRG INDRNFWRGE NGRKTRSAYE RMCNILKGKF QTAAQRAMMD
+     QVRESRNPGN AEIEDLIFSA RSALILRGSV AHKSCLPACV YGPAVSSGYD FEKEGYSLVG
+     IDPFKLLQNS QVYSLIRPNE NPAHKSQLVW MACHSAAFED LRLLSFIRGT KVSPRGKLST
+     RGVQIASNEN MDNMESSTLE LRSRYWAIRT RSGGNTNQQR ASAGQISVQP TFSVQRNLPF
+     EKSTVMAAFT GNTEGRTSDM RAEIIRMMEG AKPEEVSFRG RGVFELSDEK ATNPIVPSFD
+     MSNEGSYFFG DNAEEYDN
+//

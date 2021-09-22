@@ -1,0 +1,96 @@
+ID   PROA_PROMH              Reviewed;         417 AA.
+AC   B4EUV1;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 86.
+DE   RecName: Full=Gamma-glutamyl phosphate reductase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            Short=GPR {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            EC=1.2.1.41 {ECO:0000255|HAMAP-Rule:MF_00412};
+DE   AltName: Full=Glutamate-5-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE   AltName: Full=Glutamyl-gamma-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+DE            Short=GSA dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00412};
+GN   Name=proA {ECO:0000255|HAMAP-Rule:MF_00412}; OrderedLocusNames=PMI0370;
+OS   Proteus mirabilis (strain HI4320).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Proteus.
+OX   NCBI_TaxID=529507;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HI4320;
+RX   PubMed=18375554; DOI=10.1128/jb.01981-07;
+RA   Pearson M.M., Sebaihia M., Churcher C., Quail M.A., Seshasayee A.S.,
+RA   Luscombe N.M., Abdellah Z., Arrosmith C., Atkin B., Chillingworth T.,
+RA   Hauser H., Jagels K., Moule S., Mungall K., Norbertczak H.,
+RA   Rabbinowitsch E., Walker D., Whithead S., Thomson N.R., Rather P.N.,
+RA   Parkhill J., Mobley H.L.T.;
+RT   "Complete genome sequence of uropathogenic Proteus mirabilis, a master of
+RT   both adherence and motility.";
+RL   J. Bacteriol. 190:4027-4037(2008).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of L-glutamate 5-
+CC       phosphate into L-glutamate 5-semialdehyde and phosphate. The product
+CC       spontaneously undergoes cyclization to form 1-pyrroline-5-carboxylate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-glutamate 5-semialdehyde + NADP(+) + phosphate = H(+) + L-
+CC         glutamyl 5-phosphate + NADPH; Xref=Rhea:RHEA:19541,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58066, ChEBI:CHEBI:58274, ChEBI:CHEBI:58349; EC=1.2.1.41;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00412};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-glutamate
+CC       5-semialdehyde from L-glutamate: step 2/2. {ECO:0000255|HAMAP-
+CC       Rule:MF_00412}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   -!- SIMILARITY: Belongs to the gamma-glutamyl phosphate reductase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00412}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM942759; CAR40950.1; -; Genomic_DNA.
+DR   RefSeq; WP_004244786.1; NC_010554.1.
+DR   SMR; B4EUV1; -.
+DR   STRING; 529507.PMI0370; -.
+DR   EnsemblBacteria; CAR40950; CAR40950; PMI0370.
+DR   GeneID; 6803645; -.
+DR   KEGG; pmr:PMI0370; -.
+DR   eggNOG; COG0014; Bacteria.
+DR   HOGENOM; CLU_030231_0_0_6; -.
+DR   OMA; PGVCNAM; -.
+DR   BioCyc; PMIR529507:G1GJY-377-MONOMER; -.
+DR   UniPathway; UPA00098; UER00360.
+DR   Proteomes; UP000008319; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004350; F:glutamate-5-semialdehyde dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07079; ALDH_F18-19_ProA-GPR; 1.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   HAMAP; MF_00412; ProA; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR020593; G-glutamylP_reductase_CS.
+DR   InterPro; IPR012134; Glu-5-SA_DH.
+DR   InterPro; IPR000965; GPR_dom.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   PIRSF; PIRSF000151; GPR; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR00407; proA; 1.
+DR   PROSITE; PS01223; PROA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; NADP; Oxidoreductase;
+KW   Proline biosynthesis.
+FT   CHAIN           1..417
+FT                   /note="Gamma-glutamyl phosphate reductase"
+FT                   /id="PRO_1000193636"
+SQ   SEQUENCE   417 AA;  45214 MW;  041400FF13850DD5 CRC64;
+     MLEQMGKAAR EASWHLAQLS TEQKNQALLV IADLLEQQEA IILAANEKDM VAARESNINA
+     AMLDRLLLTS ERLKAIADDV RQVCHLEDPV GQVIDGRLLD SGLRLERRRV PLGVVGVIYE
+     ARPNVTIDVA SLCLKTGNAA ILRGGKETHH TNQAVVAVIQ QALETCAIPA AAIQAIDKPD
+     RELVAKMLKM DEYIDMLIPR GGAGLHKLCR EQSTIPVITG GIGVCHTFVD ESADLDQALN
+     VIINAKVQRP SACNSLETLL VHEAIAESFL PQLSDAMAAQ KVTLHASQRA ITALKKGRAT
+     VVDVTEADYC DEWLSLDLNV EVVNDLTAAI AHIRQYGTAH SDAILTQSIS HADRFVRQVD
+     SAAVYVNAST RFTDGGQFGL GAEVAVSTQK LHARGPMGLD ALTTYKWIGY GDNTLRR
+//

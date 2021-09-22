@@ -1,0 +1,103 @@
+ID   AROD_PYRFU              Reviewed;         217 AA.
+AC   Q8U0A7;
+DT   10-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2002, sequence version 1.
+DT   07-APR-2021, entry version 95.
+DE   RecName: Full=3-dehydroquinate dehydratase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=3-dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            EC=4.2.1.10 {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I DHQase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE   AltName: Full=Type I dehydroquinase {ECO:0000255|HAMAP-Rule:MF_00214};
+DE            Short=DHQ1 {ECO:0000255|HAMAP-Rule:MF_00214};
+GN   Name=aroD {ECO:0000255|HAMAP-Rule:MF_00214}; OrderedLocusNames=PF1692;
+OS   Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1).
+OC   Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae;
+OC   Pyrococcus.
+OX   NCBI_TaxID=186497;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 43587 / DSM 3638 / JCM 8422 / Vc1;
+RX   PubMed=10430560;
+RA   Maeder D.L., Weiss R.B., Dunn D.M., Cherry J.L., Gonzalez J.M.,
+RA   DiRuggiero J., Robb F.T.;
+RT   "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P.
+RT   horikoshii inferred from complete genomic sequences.";
+RL   Genetics 152:1299-1305(1999).
+CC   -!- FUNCTION: Involved in the third step of the chorismate pathway, which
+CC       leads to the biosynthesis of aromatic amino acids. Catalyzes the cis-
+CC       dehydration of 3-dehydroquinate (DHQ) and introduces the first double
+CC       bond of the aromatic ring to yield 3-dehydroshikimate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydroquinate = 3-dehydroshikimate + H2O;
+CC         Xref=Rhea:RHEA:21096, ChEBI:CHEBI:15377, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:32364; EC=4.2.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00214};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       3/7. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   -!- SIMILARITY: Belongs to the type-I 3-dehydroquinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00214}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE009950; AAL81816.1; -; Genomic_DNA.
+DR   RefSeq; WP_011012838.1; NZ_CP023154.1.
+DR   SMR; Q8U0A7; -.
+DR   STRING; 186497.PF1692; -.
+DR   EnsemblBacteria; AAL81816; AAL81816; PF1692.
+DR   GeneID; 41713523; -.
+DR   KEGG; pfu:PF1692; -.
+DR   PATRIC; fig|186497.12.peg.1760; -.
+DR   eggNOG; arCOG02097; Archaea.
+DR   HOGENOM; CLU_064444_2_1_2; -.
+DR   OMA; ATMAMGE; -.
+DR   OrthoDB; 75928at2157; -.
+DR   BioCyc; PFUR186497:G1FZR-1748-MONOMER; -.
+DR   UniPathway; UPA00053; UER00086.
+DR   Proteomes; UP000001013; Chromosome.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00502; DHQase_I; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00214; AroD; 1.
+DR   InterPro; IPR018508; 3-dehydroquinate_DH_AS.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001381; DHquinase_I.
+DR   Pfam; PF01487; DHquinase_I; 1.
+DR   TIGRFAMs; TIGR01093; aroD; 1.
+DR   PROSITE; PS01028; DEHYDROQUINASE_I; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Lyase;
+KW   Reference proteome; Schiff base.
+FT   CHAIN           1..217
+FT                   /note="3-dehydroquinate dehydratase"
+FT                   /id="PRO_0000138835"
+FT   REGION          29..31
+FT                   /note="3-dehydroquinate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   ACT_SITE        114
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   ACT_SITE        141
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         56
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         178
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+FT   BINDING         200
+FT                   /note="3-dehydroquinate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00214"
+SQ   SEQUENCE   217 AA;  24830 MW;  2E53D4BC66B588E3 CRC64;
+     MPKLAGVIIA KTIEEAVKKI KLHEADLYEL RVDYLESMEN IELLLPHSNK LIVTVRKVEE
+     GGAKRIEEQE RLKLFEKFAK IKPAYFDVEL YSNIVEDVIN LSSKIGSKVI LSYHNFSKTP
+     SYQTLQSILD SMIELEPDII KIVTYARDFR DNIEVIKLYE NSENLIAFCM GEKGKISRIF
+     SALYSPFTYV SIDNSVAPGQ FTVGEMRKIL ELLGETK
+//

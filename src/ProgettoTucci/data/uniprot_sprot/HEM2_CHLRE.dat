@@ -1,0 +1,108 @@
+ID   HEM2_CHLRE              Reviewed;         390 AA.
+AC   Q42682;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   12-AUG-2020, entry version 93.
+DE   RecName: Full=Delta-aminolevulinic acid dehydratase, chloroplastic;
+DE            Short=ALADH;
+DE            EC=4.2.1.24;
+DE   AltName: Full=Porphobilinogen synthase;
+DE   Flags: Precursor;
+GN   Name=HEMB; Synonyms=ALAD;
+OS   Chlamydomonas reinhardtii (Chlamydomonas smithii).
+OC   Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes; Chlorophyceae;
+OC   Chlamydomonadales; Chlamydomonadaceae; Chlamydomonas.
+OX   NCBI_TaxID=3055;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=NO-;
+RX   PubMed=7894023; DOI=10.1007/bf00019326;
+RA   Matters G.L., Beale S.I.;
+RT   "Structure and expression of the Chlamydomonas reinhardtii alad gene
+RT   encoding the chlorophyll biosynthetic enzyme, delta-aminolevulinic acid
+RT   dehydratase (porphobilinogen synthase).";
+RL   Plant Mol. Biol. 27:607-617(1995).
+CC   -!- FUNCTION: Catalyzes an early step in the biosynthesis of tetrapyrroles.
+CC       Binds two molecules of 5-aminolevulinate per subunit, each at a
+CC       distinct site, and catalyzes their condensation to form porphobilinogen
+CC       (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 5-aminolevulinate = H(+) + 2 H2O + porphobilinogen;
+CC         Xref=Rhea:RHEA:24064, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:58126, ChEBI:CHEBI:356416; EC=4.2.1.24;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 2 magnesium ions per monomer. The first magnesium ion is
+CC       required for catalysis. The second functions as allosteric activator.
+CC       {ECO:0000250};
+CC   -!- PATHWAY: Porphyrin-containing compound metabolism; protoporphyrin-IX
+CC       biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 1/4.
+CC   -!- SUBUNIT: Homooctamer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast.
+CC   -!- SIMILARITY: Belongs to the ALAD family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U19876; AAA79515.1; -; mRNA.
+DR   PIR; S53487; S53487.
+DR   SMR; Q42682; -.
+DR   STRING; 3055.EDP06754; -.
+DR   ProMEX; Q42682; -.
+DR   eggNOG; KOG2794; Eukaryota.
+DR   UniPathway; UPA00251; UER00318.
+DR   GO; GO:0009507; C:chloroplast; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004655; F:porphobilinogen synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0015995; P:chlorophyll biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006782; P:protoporphyrinogen IX biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR001731; ALAD.
+DR   InterPro; IPR030656; ALAD_AS.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   PANTHER; PTHR11458; PTHR11458; 1.
+DR   Pfam; PF00490; ALAD; 1.
+DR   PRINTS; PR00144; DALDHYDRTASE.
+DR   SMART; SM01004; ALAD; 1.
+DR   PROSITE; PS00169; D_ALA_DEHYDRATASE; 1.
+PE   2: Evidence at transcript level;
+KW   Allosteric enzyme; Chlorophyll biosynthesis; Chloroplast;
+KW   Heme biosynthesis; Lyase; Magnesium; Metal-binding; Plastid;
+KW   Porphyrin biosynthesis; Transit peptide.
+FT   TRANSIT         1..24
+FT                   /note="Chloroplast"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           25..390
+FT                   /note="Delta-aminolevulinic acid dehydratase,
+FT                   chloroplastic"
+FT                   /id="PRO_0000013315"
+FT   ACT_SITE        251
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        312
+FT                   /note="Schiff-base intermediate with substrate"
+FT                   /evidence="ECO:0000250"
+FT   METAL           297
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         261
+FT                   /note="Substrate 1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         281
+FT                   /note="Substrate 1"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         338
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         377
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   390 AA;  43046 MW;  6114C4E0325A4242 CRC64;
+     MQMMQRNVVG QRPVAGSRRS LVVANVAEVT RPAVSTNGKH RTGVPEGTPI VTPQDLPSRP
+     RRNRRSESFR ASVREVNVSP ANFILPIFIH EESNQNVPIA SMPGINRLAY GKNVIDYVAE
+     PRSYGVNQVV VFPKTPDHLK TQTAEEAFNK NGLSQRTIRL LKDSFPDLEV YTDVALDPYN
+     SDGHDGIVSD AGVILNDETI EYLCRQAVSQ AEAGADVVSP SDMMDGRVGA IRRALDREGF
+     TNVSIMSYTA KYASAYYGPF RDALASAPKP GQAHRRIPPN KKTYQMDPAN YREAIREAKA
+     DEAEGADIMM VKPGMPYLDV VRLLRETSPL PVAVYHVSGE YAMLKAAAER GWLNEKDAVL
+     EAMTCFRRAG GDLILTYYGI EASKWLAGEK
+//

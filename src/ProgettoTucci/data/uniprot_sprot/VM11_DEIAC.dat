@@ -1,0 +1,105 @@
+ID   VM11_DEIAC              Reviewed;         417 AA.
+AC   Q9W7S2;
+DT   16-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   26-FEB-2020, entry version 77.
+DE   RecName: Full=Snake venom metalloproteinase aculysin-1;
+DE            Short=SVMP;
+DE            EC=3.4.24.-;
+DE   Flags: Precursor;
+GN   Name=wbfib {ECO:0000312|EMBL:CAB46429.1};
+OS   Deinagkistrodon acutus (Hundred-pace snake) (Agkistrodon acutus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Lepidosauria; Squamata; Bifurcata; Unidentata; Episquamata; Toxicofera;
+OC   Serpentes; Colubroidea; Viperidae; Crotalinae; Deinagkistrodon.
+OX   NCBI_TaxID=36307;
+RN   [1] {ECO:0000312|EMBL:CAB46429.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom gland {ECO:0000269|Ref.1};
+RA   Fan C.Y., Qian Y.C., Gong Y., Yang S.L.;
+RT   "Cloning and sequence analysis the cDNA of aculysin1 from Agkistrodon
+RT   acutus.";
+RL   Submitted (JAN-1998) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: This protein is an alkaline zinc metalloprotease from snake
+CC       venom that possesses weak hemorrhagic activity.
+CC       {ECO:0000250|UniProtKB:P60244}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000250|UniProtKB:P60244};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000250|UniProtKB:P60244};
+CC   -!- SUBUNIT: Monomer. {ECO:0000250|UniProtKB:P60244}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC   -!- SIMILARITY: Belongs to the venom metalloproteinase (M12B) family. P-I
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ223284; CAB46429.1; -; mRNA.
+DR   SMR; Q9W7S2; -.
+DR   MEROPS; M12.337; -.
+DR   GO; GO:0005576; C:extracellular region; ISS:UniProtKB.
+DR   GO; GO:0005509; F:calcium ion binding; ISS:UniProtKB.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; ISS:UniProtKB.
+DR   CDD; cd04269; ZnMc_adamalysin_II_like; 1.
+DR   Gene3D; 3.40.390.10; -; 1.
+DR   InterPro; IPR024079; MetalloPept_cat_dom_sf.
+DR   InterPro; IPR001590; Peptidase_M12B.
+DR   InterPro; IPR002870; Peptidase_M12B_N.
+DR   InterPro; IPR034027; Reprolysin_adamalysin.
+DR   Pfam; PF01562; Pep_M12B_propep; 1.
+DR   Pfam; PF01421; Reprolysin; 1.
+DR   PROSITE; PS50215; ADAM_MEPRO; 1.
+DR   PROSITE; PS00142; ZINC_PROTEASE; 1.
+PE   2: Evidence at transcript level;
+KW   Disulfide bond; Hemorrhagic toxin; Hemostasis impairing toxin; Hydrolase;
+KW   Metal-binding; Metalloprotease; Protease; Secreted; Signal; Toxin; Zinc;
+KW   Zymogen.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          21..189
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000235849"
+FT   CHAIN           190..392
+FT                   /note="Snake venom metalloproteinase aculysin-1"
+FT                   /id="PRO_0000235850"
+FT   PROPEP          393..417
+FT                   /evidence="ECO:0000250|UniProtKB:Q9PW36"
+FT                   /id="PRO_0000235851"
+FT   DOMAIN          197..392
+FT                   /note="Peptidase M12B"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   ACT_SITE        334
+FT                   /evidence="ECO:0000250|UniProtKB:P60244,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00276, ECO:0000255|PROSITE-
+FT                   ProRule:PRU10095"
+FT   METAL           333
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           337
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   METAL           343
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        308..387
+FT                   /evidence="ECO:0000250|UniProtKB:P60244,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   DISULFID        349..371
+FT                   /evidence="ECO:0000250|UniProtKB:P60244,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00276"
+FT   DISULFID        351..354
+FT                   /evidence="ECO:0000250|UniProtKB:P60244,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00276"
+SQ   SEQUENCE   417 AA;  47305 MW;  359950B27622BC97 CRC64;
+     MIQVLLVTIC LAAFPYQGSS IMLESGKVND YEVVYPQRLA PLPEGAVQQK YEDTMQYEFK
+     VNGETIVLHL EKNKGLFSKD YSETHYSPDG RKITTYPSVE DHCYYHGRIE NYEDSTASIS
+     ACNGLKGHFK IQGETYFIES LKLSDSEAHA VFKYENVEKE DETHKICGVT QNWKSYDPIK
+     KPSWLNLTPK QQTWPQTSVN LQLIVDHSMY AKYNSNSEKI TKTLQERVNI MKEIFKPLNL
+     DITLSGIEMW DKKDLITVKT AATDTLKLFA KWRQTDLLKR IDNDNAQLQT AVDFDGETVG
+     LAFKSTMCDK RYSAGIIQDH SAIPLLMAVT MAHELGHNLG MDHDDTSKCN CNVCIMAPRL
+     NTNPSKTFSD CSNNDYQKFL TDKKPKCIHK KSLKTDTVST SVSGNEPLDD NVDGFHA
+//

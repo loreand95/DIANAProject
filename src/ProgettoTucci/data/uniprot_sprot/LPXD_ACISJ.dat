@@ -1,0 +1,86 @@
+ID   LPXD_ACISJ              Reviewed;         326 AA.
+AC   A1W908;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=UDP-3-O-acylglucosamine N-acyltransferase {ECO:0000255|HAMAP-Rule:MF_00523};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_00523};
+GN   Name=lpxD {ECO:0000255|HAMAP-Rule:MF_00523}; OrderedLocusNames=Ajs_2575;
+OS   Acidovorax sp. (strain JS42).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Acidovorax; unclassified Acidovorax.
+OX   NCBI_TaxID=232721;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JS42;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Dalin E., Tice H., Pitluck S., Chertkov O., Brettin T.,
+RA   Bruce D., Han C., Tapia R., Gilna P., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Stahl D., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Acidovorax sp. JS42.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the N-acylation of UDP-3-O-acylglucosamine using 3-
+CC       hydroxyacyl-ACP as the acyl donor. Is involved in the biosynthesis of
+CC       lipid A, a phosphorylated glycolipid that anchors the
+CC       lipopolysaccharide to the outer membrane of the cell.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3R)-hydroxyacyl-[ACP] + a UDP-3-O-acyl-alpha-D-glucosamine
+CC         = a UDP-2-N,3-O-bis((3R)-3-hydroxyacyl)-alpha-D-glucosamine + H(+) +
+CC         holo-[ACP]; Xref=Rhea:RHEA:53836, Rhea:RHEA-COMP:9685, Rhea:RHEA-
+CC         COMP:9945, ChEBI:CHEBI:15378, ChEBI:CHEBI:64479, ChEBI:CHEBI:78827,
+CC         ChEBI:CHEBI:137740, ChEBI:CHEBI:137748; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00523};
+CC   -!- PATHWAY: Bacterial outer membrane biogenesis; LPS lipid A biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   -!- SIMILARITY: Belongs to the transferase hexapeptide repeat family. LpxD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00523}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000539; ABM42733.1; -; Genomic_DNA.
+DR   RefSeq; WP_011805770.1; NC_008782.1.
+DR   SMR; A1W908; -.
+DR   STRING; 232721.Ajs_2575; -.
+DR   EnsemblBacteria; ABM42733; ABM42733; Ajs_2575.
+DR   KEGG; ajs:Ajs_2575; -.
+DR   eggNOG; COG1044; Bacteria.
+DR   HOGENOM; CLU_049865_0_0_4; -.
+DR   OMA; QIQIAHN; -.
+DR   UniPathway; UPA00973; -.
+DR   Proteomes; UP000000645; Chromosome.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:InterPro.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd03352; LbH_LpxD; 1.
+DR   HAMAP; MF_00523; LpxD; 1.
+DR   InterPro; IPR001451; Hexapep.
+DR   InterPro; IPR018357; Hexapep_transf_CS.
+DR   InterPro; IPR007691; LpxD.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   InterPro; IPR020573; UDP_GlcNAc_AcTrfase_non-rep.
+DR   PANTHER; PTHR43378; PTHR43378; 1.
+DR   Pfam; PF00132; Hexapep; 2.
+DR   Pfam; PF14602; Hexapep_2; 1.
+DR   Pfam; PF04613; LpxD; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   TIGRFAMs; TIGR01853; lipid_A_lpxD; 1.
+DR   PROSITE; PS00101; HEXAPEP_TRANSFERASES; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Reference proteome; Repeat; Transferase.
+FT   CHAIN           1..326
+FT                   /note="UDP-3-O-acylglucosamine N-acyltransferase"
+FT                   /id="PRO_1000050921"
+FT   ACT_SITE        225
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00523"
+SQ   SEQUENCE   326 AA;  34504 MW;  E76038C0B534FF39 CRC64;
+     MSLRLGQIVD ALGGSLEGGE RDTEILRIAP LESSGPGDLS FLSNPRYQSQ LAASQAACVI
+     VAPAMRNAAL ERGACIVVEQ PYTYFAHVTQ LWVRAHGQGA PAGIHPSAVV DPQARVAPTA
+     SIGPLCVVER GAVIGAHTVL KSRVTVGERC TVGERCILHP GVVIGADGFG FAQQRGEWIK
+     IEQLGAVRIG NDVEIGANTC IDRGALDDTV IEDGVKLDNL IQIAHNVHIG RHTAMAGCSA
+     VAGSTRIGAH CTIAGAASIV GHLQLADNVH ISTNTVVTHS ITQPGQYTGV FPMDDNAKWE
+     KNAATLRQLY RLRERIKALE QTRKDG
+//

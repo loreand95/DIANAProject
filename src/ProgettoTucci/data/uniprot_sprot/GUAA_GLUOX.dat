@@ -1,0 +1,110 @@
+ID   GUAA_GLUOX              Reviewed;         533 AA.
+AC   Q5FPL0;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   02-DEC-2020, entry version 96.
+DE   RecName: Full=GMP synthase [glutamine-hydrolyzing] {ECO:0000255|HAMAP-Rule:MF_00344};
+DE            EC=6.3.5.2 {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=GMP synthetase {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=Glutamine amidotransferase {ECO:0000255|HAMAP-Rule:MF_00344};
+GN   Name=guaA {ECO:0000255|HAMAP-Rule:MF_00344}; OrderedLocusNames=GOX1950;
+OS   Gluconobacter oxydans (strain 621H) (Gluconobacter suboxydans).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Gluconobacter.
+OX   NCBI_TaxID=290633;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=621H;
+RX   PubMed=15665824; DOI=10.1038/nbt1062;
+RA   Prust C., Hoffmeister M., Liesegang H., Wiezer A., Fricke W.F.,
+RA   Ehrenreich A., Gottschalk G., Deppenmeier U.;
+RT   "Complete genome sequence of the acetic acid bacterium Gluconobacter
+RT   oxydans.";
+RL   Nat. Biotechnol. 23:195-200(2005).
+CC   -!- FUNCTION: Catalyzes the synthesis of GMP from XMP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00344}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + XMP = AMP + diphosphate + GMP + 2
+CC         H(+) + L-glutamate; Xref=Rhea:RHEA:11680, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57464, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00344};
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis; GMP from XMP (L-Gln
+CC       route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000009; AAW61686.1; -; Genomic_DNA.
+DR   RefSeq; WP_011253463.1; NZ_LT900338.1.
+DR   SMR; Q5FPL0; -.
+DR   STRING; 290633.GOX1950; -.
+DR   PRIDE; Q5FPL0; -.
+DR   EnsemblBacteria; AAW61686; AAW61686; GOX1950.
+DR   KEGG; gox:GOX1950; -.
+DR   eggNOG; COG0518; Bacteria.
+DR   eggNOG; COG0519; Bacteria.
+DR   HOGENOM; CLU_014340_0_5_5; -.
+DR   OMA; KRKIIGH; -.
+DR   UniPathway; UPA00189; UER00296.
+DR   Proteomes; UP000006375; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003922; F:GMP synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016462; F:pyrophosphatase activity; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd01742; GATase1_GMP_Synthase; 1.
+DR   CDD; cd01997; GMP_synthase_C; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00344; GMP_synthase; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR001674; GMP_synth_C.
+DR   InterPro; IPR004739; GMP_synth_GATase.
+DR   InterPro; IPR022955; GMP_synthase.
+DR   InterPro; IPR025777; GMPS_ATP_PPase_dom.
+DR   InterPro; IPR022310; NAD/GMP_synthase.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00117; GATase; 1.
+DR   Pfam; PF00958; GMP_synt_C; 1.
+DR   Pfam; PF02540; NAD_synthase; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR00884; guaA_Cterm; 1.
+DR   TIGRFAMs; TIGR00888; guaA_Nterm; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+DR   PROSITE; PS51553; GMPS_ATP_PPASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; GMP biosynthesis; Ligase;
+KW   Nucleotide-binding; Purine biosynthesis; Reference proteome.
+FT   CHAIN           1..533
+FT                   /note="GMP synthase [glutamine-hydrolyzing]"
+FT                   /id="PRO_0000229432"
+FT   DOMAIN          22..215
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   DOMAIN          216..408
+FT                   /note="GMPS ATP-PPase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   NP_BIND         243..249
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        99
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        189
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        191
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+SQ   SEQUENCE   533 AA;  58925 MW;  8458C696EAA0BB0C CRC64;
+     MTLTQQDAST VEKLDETLHE DRILILDFGS QVTQLIARRV RESGVYCEIW PFTATEEKIR
+     AFNPRGIILS GSPASVHDEN APPIPNVVFA LNRPVLGICY GQQAMCQMLG GKVESHEHRE
+     FGRAYIDIAE DCSLFRGVWA RGKREQVWMS HGDRVTQLPP GFRAVAHSEG APFAIIADEG
+     RRLYGVQFHP EVVHTPHGAA LIRNFTHNVA GCSGTWTMAG FRELEIARIR KQVGSGRVIC
+     GLSGGVDSSV AAKLIHDAIG DQLTCIFVDP GIMRTGEADE VVKTFRGRFN IRLVHRDASE
+     LFLKELAGVT DPETKRKTIG RLFIEVFEEE AAKLGGAQFL AQGTLYPDVI ESVSFSGGPS
+     VTIKSHHNVG GLPDRMNMEL VEPLRELFKD EVRMLGRELG IPESIVGRHP FPGPGLAIRI
+     PGDVTKEKLD LLRKVDAIYL EEIRRAGLYD AIWQAFAVLL PVRTVGVMGD GRTYDQACAL
+     RAVTSTDGMT AEVYPFDFAF LNRVAGRIVN EVRGINRVTY DITSKPPGTI EWE
+//

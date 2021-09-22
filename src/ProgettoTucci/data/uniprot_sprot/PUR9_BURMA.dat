@@ -1,0 +1,116 @@
+ID   PUR9_BURMA              Reviewed;         521 AA.
+AC   Q62HA6;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=Bifunctional purine biosynthesis protein PurH {ECO:0000255|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=Phosphoribosylaminoimidazolecarboxamide formyltransferase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE              EC=2.1.2.3 {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=AICAR transformylase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE   Includes:
+DE     RecName: Full=IMP cyclohydrolase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE              EC=3.5.4.10 {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=ATIC {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=IMP synthase {ECO:0000255|HAMAP-Rule:MF_00139};
+DE     AltName: Full=Inosinicase {ECO:0000255|HAMAP-Rule:MF_00139};
+GN   Name=purH {ECO:0000255|HAMAP-Rule:MF_00139}; OrderedLocusNames=BMA2356;
+OS   Burkholderia mallei (strain ATCC 23344).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=243160;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23344;
+RX   PubMed=15377793; DOI=10.1073/pnas.0403306101;
+RA   Nierman W.C., DeShazer D., Kim H.S., Tettelin H., Nelson K.E.,
+RA   Feldblyum T.V., Ulrich R.L., Ronning C.M., Brinkac L.M., Daugherty S.C.,
+RA   Davidsen T.D., DeBoy R.T., Dimitrov G., Dodson R.J., Durkin A.S.,
+RA   Gwinn M.L., Haft D.H., Khouri H.M., Kolonay J.F., Madupu R., Mohammoud Y.,
+RA   Nelson W.C., Radune D., Romero C.M., Sarria S., Selengut J., Shamblin C.,
+RA   Sullivan S.A., White O., Yu Y., Zafar N., Zhou L., Fraser C.M.;
+RT   "Structural flexibility in the Burkholderia mallei genome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14246-14251(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6S)-10-formyltetrahydrofolate + 5-amino-1-(5-phospho-beta-D-
+CC         ribosyl)imidazole-4-carboxamide = (6S)-5,6,7,8-tetrahydrofolate + 5-
+CC         formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide;
+CC         Xref=Rhea:RHEA:22192, ChEBI:CHEBI:57453, ChEBI:CHEBI:57454,
+CC         ChEBI:CHEBI:58467, ChEBI:CHEBI:58475; EC=2.1.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00139};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IMP = 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-
+CC         carboxamide; Xref=Rhea:RHEA:18445, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:58053, ChEBI:CHEBI:58467; EC=3.5.4.10;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00139};
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; 5-
+CC       formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide from 5-amino-
+CC       1-(5-phospho-D-ribosyl)imidazole-4-carboxamide (10-formyl THF route):
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- PATHWAY: Purine metabolism; IMP biosynthesis via de novo pathway; IMP
+CC       from 5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide: step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- DOMAIN: The IMP cyclohydrolase activity resides in the N-terminal
+CC       region. {ECO:0000255|HAMAP-Rule:MF_00139}.
+CC   -!- SIMILARITY: Belongs to the PurH family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000010; AAU50213.1; -; Genomic_DNA.
+DR   RefSeq; WP_004194285.1; NC_006348.1.
+DR   RefSeq; YP_103914.1; NC_006348.1.
+DR   SMR; Q62HA6; -.
+DR   STRING; 243160.BMA2356; -.
+DR   EnsemblBacteria; AAU50213; AAU50213; BMA2356.
+DR   GeneID; 56593686; -.
+DR   KEGG; bma:BMA2356; -.
+DR   PATRIC; fig|243160.12.peg.2427; -.
+DR   eggNOG; COG0138; Bacteria.
+DR   HOGENOM; CLU_016316_5_2_4; -.
+DR   OMA; WRVAKFV; -.
+DR   BioCyc; BMAL243160:G1G3W-7602-MONOMER; -.
+DR   UniPathway; UPA00074; UER00133.
+DR   UniPathway; UPA00074; UER00135.
+DR   Proteomes; UP000006693; Chromosome 1.
+DR   GO; GO:0003937; F:IMP cyclohydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004643; F:phosphoribosylaminoimidazolecarboxamide formyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006189; P:'de novo' IMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.140.20; -; 2.
+DR   Gene3D; 3.40.50.1380; -; 1.
+DR   HAMAP; MF_00139; PurH; 1.
+DR   InterPro; IPR024051; AICAR_Tfase_dup_dom_sf.
+DR   InterPro; IPR016193; Cytidine_deaminase-like.
+DR   InterPro; IPR011607; MGS-like_dom.
+DR   InterPro; IPR036914; MGS-like_dom_sf.
+DR   InterPro; IPR002695; PurH-like.
+DR   PANTHER; PTHR11692; PTHR11692; 1.
+DR   Pfam; PF01808; AICARFT_IMPCHas; 1.
+DR   Pfam; PF02142; MGS; 1.
+DR   PIRSF; PIRSF000414; AICARFT_IMPCHas; 1.
+DR   SMART; SM00798; AICARFT_IMPCHas; 1.
+DR   SMART; SM00851; MGS; 1.
+DR   SUPFAM; SSF52335; SSF52335; 1.
+DR   SUPFAM; SSF53927; SSF53927; 1.
+DR   TIGRFAMs; TIGR00355; purH; 1.
+DR   PROSITE; PS51855; MGS; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Multifunctional enzyme; Purine biosynthesis; Transferase.
+FT   CHAIN           1..521
+FT                   /note="Bifunctional purine biosynthesis protein PurH"
+FT                   /id="PRO_1000018856"
+FT   DOMAIN          1..145
+FT                   /note="MGS-like"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01202"
+SQ   SEQUENCE   521 AA;  55458 MW;  CDDA7B76B25BB0E6 CRC64;
+     MIKQALISVS DKTGIVDFAK ALSALGVKLL STGGTAKLLA DAGLPVTEVA DYTGFPEMLD
+     GRVKTLHPKV HGGILARRDL PEHMQALEAH GIPTIDLLVV NLYPFVQTIA KDDCTLADAI
+     ENIDIGGPTM LRSAAKNHRD VTVVVDPADY AVVLDEMKAN GNTLGYKTNF RLATKVFAHT
+     AQYDGAITNY LTSLGDDLQH GSRSAYPATL NLAFDKVQDL RYGENPHQSA AFYRDVATPA
+     GALANYRQLQ GKELSYNNIA DSDAAWECVK TFDAPACVII KHANPCGVAV GADAGEAYAK
+     AFQTDPTSAF GGIIAFNREV DEAAAQAVAK QFVEVLIAPS FSDAAKQVFA AKQNVRLLEI
+     ALGEGHNAFD LKRVGGGLLV QSLDSKNVQP RELRVVTKRH PTPKEMDDLL FAWRVAKYVK
+     SNAIVFCGNG MTLGVGAGQM SRVDSARIAS IKAQNAGLTL AGSAVASDAF FPFRDGLDVV
+     VAAGATCVIQ PGGSVRDDEV IAAADEHNIA MVVTGVRHFR H
+//

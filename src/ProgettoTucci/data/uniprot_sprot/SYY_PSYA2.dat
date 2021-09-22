@@ -1,0 +1,108 @@
+ID   SYY_PSYA2               Reviewed;         403 AA.
+AC   Q4FQ91;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 102.
+DE   RecName: Full=Tyrosine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            EC=6.1.1.1 {ECO:0000255|HAMAP-Rule:MF_02007};
+DE   AltName: Full=Tyrosyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02007};
+DE            Short=TyrRS {ECO:0000255|HAMAP-Rule:MF_02007};
+GN   Name=tyrS {ECO:0000255|HAMAP-Rule:MF_02007}; OrderedLocusNames=Psyc_1970;
+OS   Psychrobacter arcticus (strain DSM 17307 / VKM B-2377 / 273-4).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Psychrobacter.
+OX   NCBI_TaxID=259536;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17307 / VKM B-2377 / 273-4;
+RX   PubMed=20154119; DOI=10.1128/aem.02101-09;
+RA   Ayala-del-Rio H.L., Chain P.S., Grzymski J.J., Ponder M.A., Ivanova N.,
+RA   Bergholz P.W., Di Bartolo G., Hauser L., Land M., Bakermans C.,
+RA   Rodrigues D., Klappenbach J., Zarka D., Larimer F., Richardson P.,
+RA   Murray A., Thomashow M., Tiedje J.M.;
+RT   "The genome sequence of Psychrobacter arcticus 273-4, a psychroactive
+RT   Siberian permafrost bacterium, reveals mechanisms for adaptation to low-
+RT   temperature growth.";
+RL   Appl. Environ. Microbiol. 76:2304-2312(2010).
+CC   -!- FUNCTION: Catalyzes the attachment of tyrosine to tRNA(Tyr) in a two-
+CC       step reaction: tyrosine is first activated by ATP to form Tyr-AMP and
+CC       then transferred to the acceptor end of tRNA(Tyr). {ECO:0000255|HAMAP-
+CC       Rule:MF_02007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-tyrosine + tRNA(Tyr) = AMP + diphosphate + H(+) + L-
+CC         tyrosyl-tRNA(Tyr); Xref=Rhea:RHEA:10220, Rhea:RHEA-COMP:9706,
+CC         Rhea:RHEA-COMP:9707, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:58315, ChEBI:CHEBI:78442,
+CC         ChEBI:CHEBI:78536, ChEBI:CHEBI:456215; EC=6.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02007};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase family.
+CC       TyrS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_02007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000082; AAZ19817.1; -; Genomic_DNA.
+DR   RefSeq; WP_011281226.1; NC_007204.1.
+DR   SMR; Q4FQ91; -.
+DR   STRING; 259536.Psyc_1970; -.
+DR   EnsemblBacteria; AAZ19817; AAZ19817; Psyc_1970.
+DR   KEGG; par:Psyc_1970; -.
+DR   eggNOG; COG0162; Bacteria.
+DR   HOGENOM; CLU_024003_5_0_6; -.
+DR   OMA; VNYMMAK; -.
+DR   OrthoDB; 402899at2; -.
+DR   BioCyc; PARC259536:PSYC_RS10210-MONOMER; -.
+DR   Proteomes; UP000000546; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004831; F:tyrosine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006437; P:tyrosyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00165; S4; 1.
+DR   CDD; cd00805; TyrRS_core; 1.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_02007; Tyr_tRNA_synth_type2; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR036986; S4_RNA-bd_sf.
+DR   InterPro; IPR002307; Tyr-tRNA-ligase.
+DR   InterPro; IPR024088; Tyr-tRNA-ligase_bac-type.
+DR   InterPro; IPR024108; Tyr-tRNA-ligase_bac_2.
+DR   PANTHER; PTHR11766; PTHR11766; 1.
+DR   PANTHER; PTHR11766:SF1; PTHR11766:SF1; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01040; TRNASYNTHTYR.
+DR   TIGRFAMs; TIGR00234; tyrS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis; RNA-binding.
+FT   CHAIN           1..403
+FT                   /note="Tyrosine--tRNA ligase"
+FT                   /id="PRO_0000236757"
+FT   DOMAIN          342..402
+FT                   /note="S4 RNA-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+FT   MOTIF           46..55
+FT                   /note="'HIGH' region"
+FT   MOTIF           230..234
+FT                   /note="'KMSKS' region"
+FT   BINDING         233
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02007"
+SQ   SEQUENCE   403 AA;  44947 MW;  606510F86B75D02B CRC64;
+     MTEKTYTLEE QLALIQRGAQ EILSEEDLVK KLKLNRPLRI KAGFDPTAPD LHLGHTVLIN
+     KLKHFQDLGH EIYFLIGDYT AKIGDPSGKN STRPPLTDEQ IKANAETYAE QVFKILDKEK
+     TRVVFNSEWF NDMSAADMIQ LASHQTVSRM LERDDFSKRY ASQTPIAIHE FLYPLVQGYD
+     SIALKADVEL GGTDQTFNLL MGRTLQGRYG QEQQVCITVP ILEGLDGVNK MSKSLNNYVG
+     IYDAPGTMYQ KLLSMPDTLI RRYFEFLSFK PMEEVENLMA EMEDGRNPQE IKRILAEELI
+     ERFHDADAAA NAHKSAGNVL ADGELPVDLP EVTLELEGQD ALFITQILNQ AALAKNSSSA
+     KDMIKRGAVK VDGEVVDAGF SLTAGQTVVI QAGKKAYAKV TVD
+//

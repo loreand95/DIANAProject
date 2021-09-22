@@ -1,0 +1,104 @@
+ID   MIAA_FRATN              Reviewed;         308 AA.
+AC   A0Q6S4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   10-FEB-2021, entry version 82.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185}; OrderedLocusNames=FTN_1052;
+OS   Francisella tularensis subsp. novicida (strain U112).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+OC   Francisellaceae; Francisella.
+OX   NCBI_TaxID=401614;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=U112;
+RX   PubMed=17550600; DOI=10.1186/gb-2007-8-6-r102;
+RA   Rohmer L., Fong C., Abmayr S., Wasnick M., Larson Freeman T.J., Radey M.,
+RA   Guina T., Svensson K., Hayden H.S., Jacobs M., Gallagher L.A., Manoil C.,
+RA   Ernst R.K., Drees B., Buckley D., Haugen E., Bovee D., Zhou Y., Chang J.,
+RA   Levy R., Lim R., Gillett W., Guenthener D., Kang A., Shaffer S.A.,
+RA   Taylor G., Chen J., Gallis B., D'Argenio D.A., Forsman M., Olson M.V.,
+RA   Goodlett D.R., Kaul R., Miller S.I., Brittnacher M.J.;
+RT   "Comparison of Francisella tularensis genomes reveals evolutionary events
+RT   associated with the emergence of human pathogenic strains.";
+RL   Genome Biol. 8:R102.1-R102.16(2007).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate =
+CC         diphosphate + N(6)-dimethylallyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000439; ABK89939.1; -; Genomic_DNA.
+DR   RefSeq; WP_003039547.1; NZ_CP009633.1.
+DR   SMR; A0Q6S4; -.
+DR   PRIDE; A0Q6S4; -.
+DR   EnsemblBacteria; ABK89939; ABK89939; FTN_1052.
+DR   KEGG; ftn:FTN_1052; -.
+DR   OMA; YAKRQFT; -.
+DR   OrthoDB; 1069591at2; -.
+DR   BioCyc; FTUL401614:G1G75-1095-MONOMER; -.
+DR   Proteomes; UP000000762; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11088; PTHR11088; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Transferase; tRNA processing.
+FT   CHAIN           1..308
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_1000020601"
+FT   NP_BIND         10..17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          12..17
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          35..38
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          159..163
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            101
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            123
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   308 AA;  34898 MW;  8021B9CFA922152B CRC64;
+     MSKLIYGLAG PTASGKTSLS ILLAKKINAE IISVDSSLVY KGMDIGTAKP TLQEQDGIKH
+     HLIDIIEPTG NFSVADFISS VNKLKKEIWA RGREVLLVGG TMLYFKGLIE GLSALPESQA
+     EIREALEYQK KAKGLQYLHQ QLSEIDPQSA QKINPNDQQR IFRALEVIMI SGKKYSELVK
+     TSKVGGLDEE LKLCALVPND RSILHKNIES RFRQMLDQGF LDEVQNLRKN RMLTKETTAI
+     RSVGYRQAWE YLDGDISYDE FVKKGIVATR QLAKRQLTWI RNWQSSINIV AMENETKELD
+     ILKYFGYK
+//

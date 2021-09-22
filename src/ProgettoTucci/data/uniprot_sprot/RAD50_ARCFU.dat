@@ -1,0 +1,134 @@
+ID   RAD50_ARCFU             Reviewed;         886 AA.
+AC   O29230;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   02-DEC-2020, entry version 131.
+DE   RecName: Full=DNA double-strand break repair Rad50 ATPase {ECO:0000255|HAMAP-Rule:MF_00449};
+GN   Name=rad50 {ECO:0000255|HAMAP-Rule:MF_00449}; OrderedLocusNames=AF_1032;
+OS   Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 /
+OS   NBRC 100126).
+OC   Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae;
+OC   Archaeoglobus.
+OX   NCBI_TaxID=224325;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126;
+RX   PubMed=9389475; DOI=10.1038/37052;
+RA   Klenk H.-P., Clayton R.A., Tomb J.-F., White O., Nelson K.E., Ketchum K.A.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Peterson J.D., Richardson D.L.,
+RA   Kerlavage A.R., Graham D.E., Kyrpides N.C., Fleischmann R.D.,
+RA   Quackenbush J., Lee N.H., Sutton G.G., Gill S.R., Kirkness E.F.,
+RA   Dougherty B.A., McKenney K., Adams M.D., Loftus B.J., Peterson S.N.,
+RA   Reich C.I., McNeil L.K., Badger J.H., Glodek A., Zhou L., Overbeek R.,
+RA   Gocayne J.D., Weidman J.F., McDonald L.A., Utterback T.R., Cotton M.D.,
+RA   Spriggs T., Artiach P., Kaine B.P., Sykes S.M., Sadow P.W., D'Andrea K.P.,
+RA   Bowman C., Fujii C., Garland S.A., Mason T.M., Olsen G.J., Fraser C.M.,
+RA   Smith H.O., Woese C.R., Venter J.C.;
+RT   "The complete genome sequence of the hyperthermophilic, sulphate-reducing
+RT   archaeon Archaeoglobus fulgidus.";
+RL   Nature 390:364-370(1997).
+CC   -!- FUNCTION: Part of the Rad50/Mre11 complex, which is involved in the
+CC       early steps of DNA double-strand break (DSB) repair. The complex may
+CC       facilitate opening of the processed DNA ends to aid in the recruitment
+CC       of HerA and NurA. Rad50 controls the balance between DNA end bridging
+CC       and DNA resection via ATP-dependent structural rearrangements of the
+CC       Rad50/Mre11 complex. {ECO:0000255|HAMAP-Rule:MF_00449}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00449};
+CC       Note=Binds 1 zinc ion per homodimer. {ECO:0000255|HAMAP-Rule:MF_00449};
+CC   -!- SUBUNIT: Homodimer. Forms a heterotetramer composed of two Mre11
+CC       subunits and two Rad50 subunits. {ECO:0000255|HAMAP-Rule:MF_00449}.
+CC   -!- DOMAIN: The two conserved Cys that bind zinc constitute the zinc-hook,
+CC       which separates the large intramolecular coiled coil regions. The 2 Cys
+CC       residues coordinate one molecule of zinc with the help of the 2 Cys
+CC       residues of the zinc-hook of another Rad50 molecule, thereby forming a
+CC       V-shaped homodimer. {ECO:0000255|HAMAP-Rule:MF_00449}.
+CC   -!- SIMILARITY: Belongs to the SMC family. RAD50 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00449}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000782; AAB90211.1; -; Genomic_DNA.
+DR   PIR; H69378; H69378.
+DR   RefSeq; WP_010878532.1; NC_000917.1.
+DR   SMR; O29230; -.
+DR   STRING; 224325.AF_1032; -.
+DR   PRIDE; O29230; -.
+DR   EnsemblBacteria; AAB90211; AAB90211; AF_1032.
+DR   GeneID; 1484255; -.
+DR   KEGG; afu:AF_1032; -.
+DR   eggNOG; arCOG00368; Archaea.
+DR   HOGENOM; CLU_004785_0_2_2; -.
+DR   OMA; LRCAIYR; -.
+DR   OrthoDB; 1771at2157; -.
+DR   BioCyc; AFUL224325:G1G17-1063-MONOMER; -.
+DR   Proteomes; UP000002199; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006302; P:double-strand break repair; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00449; RAD50; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR022982; Rad50_ATPase_archaeal.
+DR   InterPro; IPR038734; YhaN_AAA.
+DR   InterPro; IPR013134; Zn_hook_RAD50.
+DR   Pfam; PF13514; AAA_27; 1.
+DR   Pfam; PF04423; Rad50_zn_hook; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   PROSITE; PS51131; ZN_HOOK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coiled coil; DNA damage; DNA repair; Hydrolase; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Zinc.
+FT   CHAIN           1..886
+FT                   /note="DNA double-strand break repair Rad50 ATPase"
+FT                   /id="PRO_0000138650"
+FT   DOMAIN          392..489
+FT                   /note="Zinc-hook"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   NP_BIND         33..39
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   NP_BIND         792..797
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   COILED          183..360
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   COILED          400..433
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   COILED          489..518
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   COILED          545..713
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   COMPBIAS        792..831
+FT                   /note="Ala/Asp-rich (DA-box)"
+FT   METAL           437
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   METAL           440
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   BINDING         13
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+FT   BINDING         128
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00449"
+SQ   SEQUENCE   886 AA;  103635 MW;  D35641D499AA8B58 CRC64;
+     MILLKELQIK NFRSHSDSKI EFDTGINLIA GRNGAGKSSI LEAILVAFYG LKPATLRKND
+     LVRVNSSGYS LSLTFSLNGD DYTISRKSNG ESILTGKEIV EGDSNITEWV ERHLCPAHVF
+     TGAIYVRQGE IDSIIRDDES RERIIRQITR IEDYENAWKN LGAVIRMLER EKERLKEFLS
+     QEEQIKRQKE EKKAEIERIS EEIKSIESLR EKLSEEVRNL ESRLKELEEH KSRLESLRKQ
+     ESSVLQEVRG LEEKLRELEK QLKEVVERIE DLEKKAKEVK ELKPKAERYS ILEKLLSEIN
+     QALRDVEKRE GDLTREAAGI QAQLKKAEED NSKLEEITKR IEELERELER FEKSHRLLET
+     LKPKMDRMQG IKAKLEEKNL TPDKVEKMYD LLSKAKEEEK EITEKLKKLI AKKSSLKTRG
+     AQLKKAVEEL KSAERTCPVC GRELDEEHRK NIMAEYTREM KRIAEELAKA DEIEKKLKER
+     LEKVEKALEK QETVLKYRQM VDELKALENE LSSHDAEKLS AESEEYRKVK ERLDGLRGQQ
+     KILLSSASRI KELKSSLREI EEALKNVESE RGELHRKIRE EGFESLEELE REVQSLRPFY
+     NKWLELKDAE SRLESELKRR EKLEDEISEA IAKLEEANGK AEEIRGQIDE LLRIYSEEEH
+     RRLSDEHLRK SKELAGLKSR LETLRESLQS AEKDLKFLEE QLAKMDEYRK KVEVFEKIAI
+     PELTRIREKF RKYRNLVAEN SMREVERYAS QIFEELTEGK YSGVRLKKTT ERGKEKLKVF
+     VVYQGEEREI GFLSGGEIIA LGLAFRLALS MFMIRGKIPL LILDEPTPFL DEERRRKLVD
+     ITTNYLRKIP QVIIVSHDEE LKDAADKVIF VESQGGVSRV RYVEAQ
+//

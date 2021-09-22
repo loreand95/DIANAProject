@@ -1,0 +1,110 @@
+ID   TORA_VIBPA              Reviewed;         820 AA.
+AC   Q87QI7;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   10-FEB-2021, entry version 103.
+DE   RecName: Full=Trimethylamine-N-oxide reductase;
+DE            Short=TMAO reductase;
+DE            Short=Trimethylamine oxidase;
+DE            EC=1.7.2.3;
+DE   Flags: Precursor;
+GN   Name=torA; OrderedLocusNames=VP1162;
+OS   Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=223926;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RIMD 2210633;
+RX   PubMed=12620739; DOI=10.1016/s0140-6736(03)12659-1;
+RA   Makino K., Oshima K., Kurokawa K., Yokoyama K., Uda T., Tagomori K.,
+RA   Iijima Y., Najima M., Nakano M., Yamashita A., Kubota Y., Kimura S.,
+RA   Yasunaga T., Honda T., Shinagawa H., Hattori M., Iida T.;
+RT   "Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism
+RT   distinct from that of V. cholerae.";
+RL   Lancet 361:743-749(2003).
+CC   -!- FUNCTION: Reduces trimethylamine-N-oxide (TMAO) into trimethylamine; an
+CC       anaerobic reaction coupled to energy-yielding reactions. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(III)cytochrome c] + H2O + trimethylamine = 2
+CC         [Fe(II)cytochrome c] + 3 H(+) + trimethylamine N-oxide;
+CC         Xref=Rhea:RHEA:24236, Rhea:RHEA-COMP:10350, Rhea:RHEA-COMP:14399,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:15724,
+CC         ChEBI:CHEBI:29033, ChEBI:CHEBI:29034, ChEBI:CHEBI:58389; EC=1.7.2.3;
+CC   -!- COFACTOR:
+CC       Name=Mo-bis(molybdopterin guanine dinucleotide);
+CC         Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000250};
+CC       Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide) (Mo-
+CC       bis-MGD) cofactor per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the prokaryotic molybdopterin-containing
+CC       oxidoreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000031; BAC59425.1; -; Genomic_DNA.
+DR   RefSeq; NP_797541.1; NC_004603.1.
+DR   RefSeq; WP_005462326.1; NC_004603.1.
+DR   SMR; Q87QI7; -.
+DR   STRING; 223926.28806150; -.
+DR   EnsemblBacteria; BAC59425; BAC59425; BAC59425.
+DR   KEGG; vpa:VP1162; -.
+DR   PATRIC; fig|223926.6.peg.1103; -.
+DR   eggNOG; COG0243; Bacteria.
+DR   HOGENOM; CLU_000422_13_3_6; -.
+DR   OMA; KPWVRHA; -.
+DR   Proteomes; UP000002493; Chromosome 1.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030151; F:molybdenum ion binding; IEA:InterPro.
+DR   GO; GO:0043546; F:molybdopterin cofactor binding; IEA:InterPro.
+DR   GO; GO:0050626; F:trimethylamine-N-oxide reductase (cytochrome c) activity; IEA:UniProtKB-EC.
+DR   CDD; cd02793; MopB_CT_DMSOR-BSOR-TMAOR; 1.
+DR   InterPro; IPR009010; Asp_de-COase-like_dom_sf.
+DR   InterPro; IPR041954; CT_DMSOR/BSOR/TMAOR.
+DR   InterPro; IPR041460; Molybdopterin_N.
+DR   InterPro; IPR006657; MoPterin_dinucl-bd_dom.
+DR   InterPro; IPR006656; Mopterin_OxRdtase.
+DR   InterPro; IPR006655; Mopterin_OxRdtase_prok_CS.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   InterPro; IPR011887; TorA.
+DR   Pfam; PF00384; Molybdopterin; 1.
+DR   Pfam; PF18364; Molybdopterin_N; 1.
+DR   Pfam; PF01568; Molydop_binding; 1.
+DR   SUPFAM; SSF50692; SSF50692; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   TIGRFAMs; TIGR02164; torA; 1.
+DR   PROSITE; PS00490; MOLYBDOPTERIN_PROK_2; 1.
+DR   PROSITE; PS00932; MOLYBDOPTERIN_PROK_3; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Metal-binding; Molybdenum; Oxidoreductase; Periplasm; Reference proteome;
+KW   Signal.
+FT   SIGNAL          1..33
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00648"
+FT   CHAIN           34..820
+FT                   /note="Trimethylamine-N-oxide reductase"
+FT                   /id="PRO_0000019160"
+FT   METAL           179
+FT                   /note="Molybdenum"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   820 AA;  92542 MW;  9D2E92390C187151 CRC64;
+     MAITRRSFLK GVATTSAASV IGPSLLASAS ANAAESTGTW KVTGSHWGAF RAHIYAGKVQ
+     EIKPLELDKN PTEMLNGIKG IIYSPSRVRY PMVRLDWLKK HKYSADTRGN NRFIRVTWDE
+     ALDLFYRELE RVQKEYGPWA LHAGQTGWNQ TGSFNNCTAH MQRAVGMHGN FITKVGDYST
+     GAGQTIMPYV LGSTEVYAQG TSWSEILENS DNIILWANDP VKNLQVGWNC ETHESFKYLA
+     ELKEKVAKGE INVLSVDPVK NKTQRYLEND HLYINPMTDV AFMLAVAHVL YNENLYDKKF
+     IDTYCLGFEE FIQYVQGKTK DKVEKTPEWA AAICGVKADK IREFARMLVS GRTQILMGWC
+     IQRQEHGEQP YWAAAVVAAM VGQIGLPGGG ISYGHHYSSI GVPSTGFAGP GGFPRNLDQG
+     MKPKWDNNDF NGYSRTIPVA RWIDCLLEPG KEINYNGGKV KLPDFKMMVI SGCNPWHHHQ
+     DRNRMKKAFR KLQTVVTIEF AWTATCRFSD IVLPACTQWE RNDIDVYGSY SNKGLIAMHR
+     LVDPLFQSKP DFQIMSELTQ RFGRREEYTR GMSEMEWIES LYNDCKKANE GKFEMPEFNE
+     FWEKSVLDFG EGKPWVRHAD FRKDPELNPL GTPSGFIEIT SRKIGRYGYE HCQEHPMWFE
+     KSERSHGGPG SDKYPFWLQS CHPDKRLHSQ MCESEEFRAT YAVQGREPVY INPIDAKAKG
+     IKDGDLVRVF NGRGQLLAGA VLTDSYPRGV IRIEEGAWYG PLNEKEGAIC TYGDPNTLTQ
+     DIGSSELAQA TSANTCIVDF EKFTGKVPPV TSFGGPIEVA
+//

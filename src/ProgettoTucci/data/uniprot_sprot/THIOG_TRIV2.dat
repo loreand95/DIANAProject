@@ -1,0 +1,147 @@
+ID   THIOG_TRIV2             Reviewed;         652 AA.
+AC   Q3M859;
+DT   30-MAY-2006, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2005, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=Bifunctional protein ThiO/ThiG;
+DE   Includes:
+DE     RecName: Full=Probable FAD-dependent glycine oxidase;
+DE              EC=1.4.3.19;
+DE   Includes:
+DE     RecName: Full=Thiazole synthase;
+DE              EC=2.8.1.10;
+GN   Name=thiO/thiG; OrderedLocusNames=Ava_3219;
+OS   Trichormus variabilis (strain ATCC 29413 / PCC 7937) (Anabaena variabilis).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Trichormus.
+OX   NCBI_TaxID=240292;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29413 / PCC 7937;
+RX   PubMed=25197444; DOI=10.4056/sigs.3899418;
+RA   Thiel T., Pratte B.S., Zhong J., Goodwin L., Copeland A., Lucas S., Han C.,
+RA   Pitluck S., Land M.L., Kyrpides N.C., Woyke T.;
+RT   "Complete genome sequence of Anabaena variabilis ATCC 29413.";
+RL   Stand. Genomic Sci. 9:562-573(2014).
+CC   -!- FUNCTION: Catalyzes the FAD-dependent oxidative deamination of glycine.
+CC       Is essential for thiamine biosynthesis since the oxidation of glycine
+CC       catalyzed by ThiO generates the glycine imine intermediate
+CC       (dehydroglycine) required for the biosynthesis of the thiazole ring of
+CC       thiamine pyrophosphate. {ECO:0000250}.
+CC   -!- FUNCTION: Catalyzes the rearrangement of 1-deoxy-D-xylulose 5-phosphate
+CC       (DXP) to produce the thiazole phosphate moiety of thiamine. Sulfur is
+CC       provided by the thiocarboxylate moiety of the carrier protein ThiS. In
+CC       vitro, sulfur can be provided by H(2)S. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=glycine + H2O + O2 = glyoxylate + H2O2 + NH4(+);
+CC         Xref=Rhea:RHEA:11532, ChEBI:CHEBI:15377, ChEBI:CHEBI:15379,
+CC         ChEBI:CHEBI:16240, ChEBI:CHEBI:28938, ChEBI:CHEBI:36655,
+CC         ChEBI:CHEBI:57305; EC=1.4.3.19;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-deoxy-D-xylulose 5-phosphate + 2-iminoacetate + [sulfur-
+CC         carrier protein ThiS]-C-terminal Gly-NH-CH2-C(O)SH = 2-[(2R,5Z)-2-
+CC         carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate + [sulfur-
+CC         carrier protein ThiS]-C-terminal Gly-Gly + 2 H(+) + 2 H2O;
+CC         Xref=Rhea:RHEA:26297, Rhea:RHEA-COMP:12908, Rhea:RHEA-COMP:12909,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:62899, ChEBI:CHEBI:77846, ChEBI:CHEBI:90619,
+CC         ChEBI:CHEBI:90778; EC=2.8.1.10;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC   -!- PATHWAY: Cofactor biosynthesis; thiamine diphosphate biosynthesis.
+CC   -!- SUBUNIT: Interacts with ThiH and ThiS. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the DAO family. ThiO
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the ThiG family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000117; ABA22827.1; -; Genomic_DNA.
+DR   STRING; 240292.Ava_3219; -.
+DR   PRIDE; Q3M859; -.
+DR   EnsemblBacteria; ABA22827; ABA22827; Ava_3219.
+DR   KEGG; ava:Ava_3219; -.
+DR   eggNOG; COG0665; Bacteria.
+DR   eggNOG; COG2022; Bacteria.
+DR   HOGENOM; CLU_024913_0_0_3; -.
+DR   OMA; QTKAPGH; -.
+DR   UniPathway; UPA00060; -.
+DR   Proteomes; UP000002533; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0043799; F:glycine oxidase activity; IEA:UniProtKB-EC.
+DR   GO; GO:1990107; F:thiazole synthase activity; IEA:RHEA.
+DR   GO; GO:0009229; P:thiamine diphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04728; ThiG; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   Gene3D; 3.50.50.60; -; 1.
+DR   HAMAP; MF_00443; ThiG; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006076; FAD-dep_OxRdtase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR012727; Gly_oxidase_ThiO.
+DR   InterPro; IPR033983; Thiazole_synthase_ThiG.
+DR   InterPro; IPR008867; ThiG.
+DR   PANTHER; PTHR34266; PTHR34266; 1.
+DR   Pfam; PF01266; DAO; 1.
+DR   Pfam; PF05690; ThiG; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR02352; thiamin_ThiO; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; Multifunctional enzyme; Oxidoreductase;
+KW   Schiff base; Thiamine biosynthesis; Transferase.
+FT   CHAIN           1..652
+FT                   /note="Bifunctional protein ThiO/ThiG"
+FT                   /id="PRO_0000236329"
+FT   NP_BIND         5..19
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         44..46
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         325..331
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1..366
+FT                   /note="ThiO"
+FT   REGION          393..652
+FT                   /note="ThiG"
+FT   REGION          581..582
+FT                   /note="DXP binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          603..604
+FT                   /note="DXP binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        494
+FT                   /note="Schiff-base intermediate with DXP"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         52
+FT                   /note="Glycine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         173
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         301
+FT                   /note="Glycine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         327
+FT                   /note="Glycine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         555
+FT                   /note="DXP; via amide nitrogen"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   652 AA;  70273 MW;  CC632A583086D3A7 CRC64;
+     MTRDIVIIGG GVIGLAIAVE LKLRGTKVTV LCRDFPAAAA HAAAGMLAPD AEEITDEAMK
+     SLCWRSRSLY PEWTSKLEDL TGLNTGYWPC GILAPVYEGQ ESKGVRIQEN KGESPAYWLE
+     KAVIHQYQPG LGEDVVGGWW YPEDAQVNNQ ALARVLWAAA ESLGVELNDG ITVEGLLQQQ
+     GQVVGVQTNT GIIQAEHYVL ATGAWANELL PLPVTPRKGQ MLRVRVPESV PELPLKRVLF
+     GENIYIVPRR DRSIIIGATS EDVGFTPHNT PAGIQTLLQG AIRLYPQLQD YPIQEFWWGF
+     RPATPDELPI LGTSHCANLT LATGHYRNGI LLAPITAALI ADFIVEQKSD PLLSHFHYSR
+     FQKQASTTPM FTHSANFSNG HAKNPPLPTL DSSLIIAGKS FHSRLMTGTG KYRSIEEMQQ
+     SVVASGCEIV TVAVRRVQTK APGHEGLAEA LDWSRIWMLP NTAGCQTAEE AIRVARLGRE
+     MAKLLGQEDN NFVKLEVIPD PKYLLPDPIG TLQAAEQLVK EGFAVLPYIN ADPMLAKRLE
+     DVGCATVMPL ASPIGSGQGL KTTANIQIII ENAKIPVVVD AGIGAPSEAS QAMELGADAL
+     LINSAIALAQ NPAAMAQAMN LATVAGRLAY LAGRMPIKTY ASASSPVTGT IS
+//

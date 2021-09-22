@@ -1,0 +1,119 @@
+ID   HUTI_STAAC              Reviewed;         412 AA.
+AC   Q5HDM7;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   15-FEB-2005, sequence version 1.
+DT   10-FEB-2021, entry version 102.
+DE   RecName: Full=Imidazolonepropionase {ECO:0000255|HAMAP-Rule:MF_00372};
+DE            EC=3.5.2.7 {ECO:0000255|HAMAP-Rule:MF_00372};
+DE   AltName: Full=Imidazolone-5-propionate hydrolase {ECO:0000255|HAMAP-Rule:MF_00372};
+GN   Name=hutI {ECO:0000255|HAMAP-Rule:MF_00372}; OrderedLocusNames=SACOL2323;
+OS   Staphylococcus aureus (strain COL).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93062;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=COL;
+RX   PubMed=15774886; DOI=10.1128/jb.187.7.2426-2438.2005;
+RA   Gill S.R., Fouts D.E., Archer G.L., Mongodin E.F., DeBoy R.T., Ravel J.,
+RA   Paulsen I.T., Kolonay J.F., Brinkac L.M., Beanan M.J., Dodson R.J.,
+RA   Daugherty S.C., Madupu R., Angiuoli S.V., Durkin A.S., Haft D.H.,
+RA   Vamathevan J.J., Khouri H., Utterback T.R., Lee C., Dimitrov G., Jiang L.,
+RA   Qin H., Weidman J., Tran K., Kang K.H., Hance I.R., Nelson K.E.,
+RA   Fraser C.M.;
+RT   "Insights on evolution of virulence and resistance from the complete genome
+RT   analysis of an early methicillin-resistant Staphylococcus aureus strain and
+RT   a biofilm-producing methicillin-resistant Staphylococcus epidermidis
+RT   strain.";
+RL   J. Bacteriol. 187:2426-2438(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-imidazolone-5-propanoate + H2O = N-formimidoyl-L-glutamate;
+CC         Xref=Rhea:RHEA:23660, ChEBI:CHEBI:15377, ChEBI:CHEBI:58928,
+CC         ChEBI:CHEBI:77893; EC=3.5.2.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00372};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00372};
+CC       Note=Binds 1 zinc or iron ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00372};
+CC   -!- PATHWAY: Amino-acid degradation; L-histidine degradation into L-
+CC       glutamate; N-formimidoyl-L-glutamate from L-histidine: step 3/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       HutI family. {ECO:0000255|HAMAP-Rule:MF_00372}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000046; AAW37152.1; -; Genomic_DNA.
+DR   RefSeq; WP_000998767.1; NC_002951.2.
+DR   SMR; Q5HDM7; -.
+DR   EnsemblBacteria; AAW37152; AAW37152; SACOL2323.
+DR   KEGG; sac:SACOL2323; -.
+DR   HOGENOM; CLU_041647_0_1_9; -.
+DR   OMA; CNPGSSF; -.
+DR   BioCyc; SAUR93062:G1G4B-2555-MONOMER; -.
+DR   UniPathway; UPA00379; UER00551.
+DR   Proteomes; UP000000530; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050480; F:imidazolonepropionase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019556; P:histidine catabolic process to glutamate and formamide; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019557; P:histidine catabolic process to glutamate and formate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01296; Imidazolone-5PH; 1.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_00372; HutI; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR005920; HutI.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   PANTHER; PTHR42752; PTHR42752; 1.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   SUPFAM; SSF51338; SSF51338; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01224; hutI; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Histidine metabolism; Hydrolase; Iron; Metal-binding; Zinc.
+FT   CHAIN           1..412
+FT                   /note="Imidazolonepropionase"
+FT                   /id="PRO_0000160958"
+FT   METAL           76
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           78
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           242
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   METAL           317
+FT                   /note="Zinc or iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         85
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         98
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         148
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         181
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+FT   BINDING         245
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00372"
+SQ   SEQUENCE   412 AA;  45039 MW;  9CBBB04A4EC54600 CRC64;
+     MNDLIINHIA ELILPRSTDK PLKGKELDEL NVVKNGTVVI KDGKIVYAGT HTDDYDATET
+     IDASGKVVSP ALVDAHTHLT FGGSREHEMS LKRQGKSYLE ILEMGGGILS TVNATRETSE
+     DDLFKKAEHD LLTMIKHGVL AVESKSGYGL DRENELKQLK VSNRLAEKYD LDMKHTFLGP
+     HAVPKEASSN EAFLEEMIAL LPEVKQYADF ADIFCETGVF TIEQSQHYMQ KAKEAGFKVK
+     IHADEIDPLG GLELAIDEQA ISADHLVASS DKGKEKLRNS DTVAVLLPAT TFYLGKEDYA
+     DARGMLDNNG AIALATDYNP GSSVTNNLQL VMAIAALKLK LSPNEVWNAV TVNAAKAIDI
+     NAGTINTGDK ANLVIWDAPN HEYIPYHFGI NHAEKVIKDG KVIVDNTVSF KA
+//

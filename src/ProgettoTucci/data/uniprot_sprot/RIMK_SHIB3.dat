@@ -1,0 +1,107 @@
+ID   RIMK_SHIB3              Reviewed;         300 AA.
+AC   B2TUM8;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   02-DEC-2020, entry version 68.
+DE   RecName: Full=Ribosomal protein S6--L-glutamate ligase {ECO:0000255|HAMAP-Rule:MF_01552};
+DE            EC=6.3.2.- {ECO:0000255|HAMAP-Rule:MF_01552};
+DE   AltName: Full=Poly-alpha-glutamate synthase {ECO:0000255|HAMAP-Rule:MF_01552};
+DE   AltName: Full=Ribosomal protein S6 modification protein {ECO:0000255|HAMAP-Rule:MF_01552};
+GN   Name=rimK {ECO:0000255|HAMAP-Rule:MF_01552};
+GN   OrderedLocusNames=SbBS512_E2480;
+OS   Shigella boydii serotype 18 (strain CDC 3083-94 / BS512).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=344609;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 3083-94 / BS512;
+RA   Rasko D.A., Rosovitz M., Maurelli A.T., Myers G., Seshadri R., Cer R.,
+RA   Jiang L., Ravel J., Sebastian Y.;
+RT   "Complete sequence of Shigella boydii serotype 18 strain BS512.";
+RL   Submitted (MAY-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Is an L-glutamate ligase that catalyzes the ATP-dependent
+CC       post-translational addition of glutamate residues to the C-terminus of
+CC       ribosomal protein S6 (RpsF). Is also able to catalyze the synthesis of
+CC       poly-alpha-glutamate in vitro, via ATP hydrolysis from unprotected
+CC       glutamate as substrate. The number of glutamate residues added to
+CC       either RpsF or to poly-alpha-glutamate changes with pH.
+CC       {ECO:0000255|HAMAP-Rule:MF_01552}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01552};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01552};
+CC       Note=Binds 2 magnesium or manganese ions per subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_01552};
+CC   -!- SIMILARITY: Belongs to the RimK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01552}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001063; ACD08108.1; -; Genomic_DNA.
+DR   RefSeq; WP_000684324.1; NC_010658.1.
+DR   SMR; B2TUM8; -.
+DR   EnsemblBacteria; ACD08108; ACD08108; SbBS512_E2480.
+DR   KEGG; sbc:SbBS512_E2480; -.
+DR   HOGENOM; CLU_054353_0_1_6; -.
+DR   OMA; NYLRCYM; -.
+DR   Proteomes; UP000001030; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0018169; F:ribosomal S6-glutamic acid ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0018410; P:C-terminal protein amino acid modification; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1490.20; -; 1.
+DR   HAMAP; MF_01552; RimK; 1.
+DR   InterPro; IPR011761; ATP-grasp.
+DR   InterPro; IPR013651; ATP-grasp_RimK-type.
+DR   InterPro; IPR013815; ATP_grasp_subdomain_1.
+DR   InterPro; IPR023533; RimK.
+DR   InterPro; IPR041107; Rimk_N.
+DR   InterPro; IPR004666; RpS6_RimK/Lys_biosynth_LsyX.
+DR   Pfam; PF08443; RimK; 1.
+DR   Pfam; PF18030; Rimk_N; 1.
+DR   TIGRFAMs; TIGR00768; rimK_fam; 1.
+DR   PROSITE; PS50975; ATP_GRASP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Magnesium; Manganese; Metal-binding;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..300
+FT                   /note="Ribosomal protein S6--L-glutamate ligase"
+FT                   /id="PRO_1000146949"
+FT   DOMAIN          104..287
+FT                   /note="ATP-grasp"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   NP_BIND         178..179
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   NP_BIND         211..213
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   METAL           248
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   METAL           260
+FT                   /note="Magnesium or manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   METAL           260
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   METAL           262
+FT                   /note="Magnesium or manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   BINDING         141
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+FT   BINDING         187
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01552"
+SQ   SEQUENCE   300 AA;  32463 MW;  C0AF020787ED41DD CRC64;
+     MKIAILSRDG TLYSCKRLRE AAIQRGHLVE ILDPLSCYMN INPAASSIHY KGRKLPHFDA
+     VIPRIGTAIT FYGTAALRQF EMLGSYPLNE SVAIARARDK LRSMQLLARQ GIDLPVTGIA
+     HSPDDTSDLI DMVGGAPLVV KLVEGTQGIG VVLAETRQAA ESVIDAFRGL NAHILVQEYI
+     KEAQGCDIRC LVVGDEVVAA IERRAKEGDF RSNLHRGGAA SVASITPQER EIAIKAARTM
+     ALDVAGVDIL RANRGPLVME VNASPGLEGI EKTTGIDIAG KMIRWIERYA TTEYCLKTGG
+//

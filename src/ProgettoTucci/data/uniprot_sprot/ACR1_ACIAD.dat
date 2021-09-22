@@ -1,0 +1,97 @@
+ID   ACR1_ACIAD              Reviewed;         295 AA.
+AC   Q6F7B8; P94129;
+DT   01-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   22-JAN-2014, sequence version 2.
+DT   12-AUG-2020, entry version 115.
+DE   RecName: Full=Fatty acyl-CoA reductase;
+DE            EC=1.2.1.n2;
+GN   Name=acr1; OrderedLocusNames=ACIAD3383;
+OS   Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter.
+OX   NCBI_TaxID=62977;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY, AND
+RP   SUBSTRATE SPECIFICITY.
+RC   STRAIN=ATCC 33305 / BD413 / ADP1;
+RX   PubMed=9139916; DOI=10.1128/jb.179.9.2969-2975.1997;
+RA   Reiser S., Somerville C.;
+RT   "Isolation of mutants of Acinetobacter calcoaceticus deficient in wax ester
+RT   synthesis and complementation of one mutation with a gene encoding a fatty
+RT   acyl coenzyme A reductase.";
+RL   J. Bacteriol. 179:2969-2975(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33305 / BD413 / ADP1;
+RX   PubMed=15514110; DOI=10.1093/nar/gkh910;
+RA   Barbe V., Vallenet D., Fonknechten N., Kreimeyer A., Oztas S., Labarre L.,
+RA   Cruveiller S., Robert C., Duprat S., Wincker P., Ornston L.N.,
+RA   Weissenbach J., Marliere P., Cohen G.N., Medigue C.;
+RT   "Unique features revealed by the genome sequence of Acinetobacter sp. ADP1,
+RT   a versatile and naturally transformation competent bacterium.";
+RL   Nucleic Acids Res. 32:5766-5779(2004).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of long chain acyl-
+CC       CoA (with chain lengths of 14 to 22 carbons) to the corresponding
+CC       aldehyde. {ECO:0000269|PubMed:9139916}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=CoA + hexadecanal + NADP(+) = H(+) + hexadecanoyl-CoA + NADPH;
+CC         Xref=Rhea:RHEA:27270, ChEBI:CHEBI:15378, ChEBI:CHEBI:17600,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57379, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.2.1.n2;
+CC         Evidence={ECO:0000269|PubMed:9139916};
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAG70047.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U77680; AAC45217.1; -; Genomic_DNA.
+DR   EMBL; CR543861; CAG70047.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_004923651.1; NC_005966.1.
+DR   SMR; Q6F7B8; -.
+DR   STRING; 62977.ACIAD3383; -.
+DR   PRIDE; Q6F7B8; -.
+DR   EnsemblBacteria; CAG70047; CAG70047; ACIAD3383.
+DR   GeneID; 45235577; -.
+DR   KEGG; aci:ACIAD3383; -.
+DR   eggNOG; COG4221; Bacteria.
+DR   HOGENOM; CLU_010194_2_1_6; -.
+DR   OrthoDB; 1582456at2; -.
+DR   BioCyc; ASP62977:ACIAD_RS15310-MONOMER; -.
+DR   Proteomes; UP000000430; Chromosome.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Lipid metabolism; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..295
+FT                   /note="Fatty acyl-CoA reductase"
+FT                   /id="PRO_0000382695"
+FT   NP_BIND         21..28
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        166
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         153
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        234
+FT                   /note="K -> T (in Ref. 1; AAC45217)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   295 AA;  32529 MW;  A81F1A7B9FC4B34D CRC64;
+     MNKKLEALFR ENVKGKVALI TGASSGIGLT IAKRIAAAGA HVLLVARTQE TLEEVKAAIE
+     QQGGQASIFP CDLTDMNAID QLSQQIMASV DHVDFLINNA GRSIRRAVHE SFDRFHDFER
+     TMQLNYFGAV RLVLNLLPHM IKRKNGQIIN ISSIGVLANA TRFSAYVASK AALDAFSRCL
+     SAEVLKHKIS ITSIYMPLVR TPMIAPTKIY KYVPTLSPEE AADLIVYAIV KRPKRIATHL
+     GRLASITYAI APDINNILMS IGFNLFPSST AALGEQEKLN LLQRAYARLF PGEHW
+//

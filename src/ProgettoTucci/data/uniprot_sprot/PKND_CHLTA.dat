@@ -1,0 +1,105 @@
+ID   PKND_CHLTA              Reviewed;         934 AA.
+AC   Q3KM61;
+DT   13-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   08-NOV-2005, sequence version 1.
+DT   10-FEB-2021, entry version 85.
+DE   RecName: Full=Serine/threonine-protein kinase PknD {ECO:0000255|HAMAP-Rule:MF_01957};
+DE            EC=2.7.11.1 {ECO:0000255|HAMAP-Rule:MF_01957};
+GN   Name=pknD {ECO:0000255|HAMAP-Rule:MF_01957}; OrderedLocusNames=CTA_0323;
+OS   Chlamydia trachomatis serovar A (strain ATCC VR-571B / DSM 19440 / HAR-13).
+OC   Bacteria; Chlamydiae; Chlamydiales; Chlamydiaceae;
+OC   Chlamydia/Chlamydophila group; Chlamydia.
+OX   NCBI_TaxID=315277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-571B / DSM 19440 / HAR-13;
+RX   PubMed=16177312; DOI=10.1128/iai.73.10.6407-6418.2005;
+RA   Carlson J.H., Porcella S.F., McClarty G., Caldwell H.D.;
+RT   "Comparative genomic analysis of Chlamydia trachomatis oculotropic and
+RT   genitotropic strains.";
+RL   Infect. Immun. 73:6407-6418(2005).
+CC   -!- FUNCTION: Together with the serine/threonine kinase Pkn1, may play a
+CC       role in the specific interactions with host proteins during
+CC       intracellular growth. {ECO:0000255|HAMAP-Rule:MF_01957}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01957};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000255|HAMAP-Rule:MF_01957};
+CC   -!- PTM: Autophosphorylated on serine and threonine residues.
+CC       {ECO:0000255|HAMAP-Rule:MF_01957}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr protein
+CC       kinase family. {ECO:0000255|HAMAP-Rule:MF_01957}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000051; AAX50561.1; -; Genomic_DNA.
+DR   RefSeq; WP_011324674.1; NC_007429.1.
+DR   PRIDE; Q3KM61; -.
+DR   EnsemblBacteria; AAX50561; AAX50561; CTA_0323.
+DR   KEGG; cta:CTA_0323; -.
+DR   HOGENOM; CLU_303227_0_0_0; -.
+DR   OMA; SIFHKIC; -.
+DR   BioCyc; CTRA315277:G1G4F-324-MONOMER; -.
+DR   Proteomes; UP000002532; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106311; F:protein threonine kinase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 1.25.40.10; -; 1.
+DR   HAMAP; MF_01957; PknD_kinase; 1.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   InterPro; IPR023507; Ser/Thr_kinase_PknD.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Nucleotide-binding; Phosphoprotein;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN           1..934
+FT                   /note="Serine/threonine-protein kinase PknD"
+FT                   /id="PRO_0000239299"
+FT   DOMAIN          4..296
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01957"
+FT   NP_BIND         10..18
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01957"
+FT   ACT_SITE        138
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01957"
+FT   BINDING         33
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01957"
+SQ   SEQUENCE   934 AA;  107668 MW;  7C3E66E729AED843 CRC64;
+     MQRYELIRLI GKGGMGEVYL AHDKACSRRV ALKRIREDLS GNALLRQRFL REAKIAADLI
+     HPGIVPVYSI CSDGEAVYYT MPYIEGFSLK SLLKSVWQKE VLSKELEEKT SVKSFLPIFD
+     KICATVEYIH SKGVLHRDLK PDNILLGLFG EVVIIDWGAA IFKHAKELKL EQDDEAAVSF
+     DERNICYSSM TIPGKIVGTP DYMAPESLLG VEASEKTDIY ALGLILYQML TLAFPYRRKK
+     GRKLSYRDVV LPPIEMSPYR EIPPSLSQIA MKAIAINPAD RFSSIQELRQ ALQPYLQGDP
+     EWTVKATLMA KEKSCWKYYD PILLSRYFPV LASSPAQWYN FMLSEVEISA STRVEYTVTK
+     SAVHEGMGIL FLPSKEAERG EFYCGYGLWF SVQNHELTVS LIKNGIEIQK KSQEMISQQS
+     RFAILIEKSD NRIAVFVEQA LFILHIDYLP SLGNRLGVII QDLQGMSNIA ISESIGALRV
+     SCLAVPDAFL SEKLYDQAAI FYRKIRDSFP GRKESYEAQF RLGVTLLTQI EEQGGDLTQA
+     LSSFDYLHGG AGAPLEYLGK ALVYQRNGSF VEEIRCLLFA LKRYSQHPEI PRLEDHLCFR
+     LYDSLHKHRS EALVFMLLIL WIAPEKISVR EEERFLRIIY HKQQATLFCQ VDKAPLQFRS
+     SKMELFLSFW TGFSLFLPEL FRRAGGLRDY QALADIFYVA GVSGNREAFM QFSTALANVS
+     DEITFPESLH NQKVAELMFF VKGVEALRNK DYQKAKKLLW KTPFTLQLYA LDMFHIQAFL
+     DEEIESFIDL LQAIYDPTSE EERDHILVYI IQTHLWNRDL ERAYKLLNDR FPLDEELAEY
+     SEAFILWGCY LALTGDRVAV KAHFSRCRYK YGKSALIGKC VDGDIFDYLD NLVWWEKKMT
+     LFQSYFLLRC LNESPRRYEK YRQAYLSMEN NFFD
+//

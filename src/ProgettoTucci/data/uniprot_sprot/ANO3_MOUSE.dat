@@ -1,0 +1,285 @@
+ID   ANO3_MOUSE              Reviewed;         981 AA.
+AC   A2AHL1; A2AHL0;
+DT   04-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   05-FEB-2008, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Anoctamin-3 {ECO:0000250|UniProtKB:Q9BYT9};
+DE   AltName: Full=Transmembrane protein 16C {ECO:0000312|EMBL:CAM25697.1};
+GN   Name=Ano3 {ECO:0000250|UniProtKB:Q9BYT9};
+GN   Synonyms=Tmem16c {ECO:0000312|EMBL:CAM25697.1,
+GN   ECO:0000312|MGI:MGI:3613666};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [2] {ECO:0000305}
+RP   DEVELOPMENTAL STAGE.
+RX   PubMed=18729231; DOI=10.1002/dvdy.21676;
+RA   Rock J.R., Harfe B.D.;
+RT   "Expression of TMEM16 paralogs during murine embryogenesis.";
+RL   Dev. Dyn. 237:2566-2574(2008).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=20056604; DOI=10.1074/jbc.m109.065367;
+RA   Schreiber R., Uliyakina I., Kongsuphol P., Warth R., Mirza M.,
+RA   Martins J.R., Kunzelmann K.;
+RT   "Expression and function of epithelial anoctamins.";
+RL   J. Biol. Chem. 285:7838-7845(2010).
+RN   [4]
+RP   REVIEW.
+RX   PubMed=22302790; DOI=10.1113/expphysiol.2011.058214;
+RA   Winpenny J.P., Gray M.A.;
+RT   "The anoctamin (TMEM16) gene family: calcium-activated chloride channels
+RT   come of age.";
+RL   Exp. Physiol. 97:175-176(2012).
+RN   [5]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND TISSUE SPECIFICITY.
+RX   PubMed=23532839; DOI=10.1074/jbc.m113.457937;
+RA   Suzuki J., Fujii T., Imao T., Ishihara K., Kuba H., Nagata S.;
+RT   "Calcium-dependent phospholipid scramblase activity of TMEM16 protein
+RT   family members.";
+RL   J. Biol. Chem. 288:13305-13316(2013).
+RN   [6]
+RP   FUNCTION, AND INTERACTION WITH KCNT1.
+RX   PubMed=23872594; DOI=10.1038/nn.3468;
+RA   Huang F., Wang X., Ostertag E.M., Nuwal T., Huang B., Jan Y.N.,
+RA   Basbaum A.I., Jan L.Y.;
+RT   "TMEM16C facilitates Na(+)-activated K+ currents in rat sensory neurons and
+RT   regulates pain processing.";
+RL   Nat. Neurosci. 16:1284-1290(2013).
+CC   -!- FUNCTION: Has calcium-dependent phospholipid scramblase activity;
+CC       scrambles phosphatidylcholine and galactosylceramide (PubMed:23532839).
+CC       Does not exhibit calcium-activated chloride channel (CaCC) activity
+CC       (PubMed:23532839). Seems to act as potassium channel regulator and may
+CC       inhibit pain signaling; can facilitate KCNT1/Slack channel activity by
+CC       promoting its full single-channel conductance at very low sodium
+CC       concentrations and by increasing its sodium sensitivity
+CC       (PubMed:23872594). {ECO:0000269|PubMed:23532839,
+CC       ECO:0000269|PubMed:23872594}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine(in) = a 1,2-diacyl-
+CC         sn-glycero-3-phosphocholine(out); Xref=Rhea:RHEA:38571,
+CC         ChEBI:CHEBI:57643; Evidence={ECO:0000269|PubMed:23532839};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:38573;
+CC         Evidence={ECO:0000305|PubMed:23532839};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-D-galactosyl-(1<->1')-N-acylsphing-4-enine(out) = a
+CC         beta-D-galactosyl-(1<->1')-N-acylsphing-4-enine(in);
+CC         Xref=Rhea:RHEA:38899, ChEBI:CHEBI:18390;
+CC         Evidence={ECO:0000269|PubMed:23532839};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:38900;
+CC         Evidence={ECO:0000305|PubMed:23532839};
+CC   -!- SUBUNIT: Interacts with KCNT1/Slack. {ECO:0000269|PubMed:23872594}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000255}. Note=Shows an intracellular localization.
+CC       {ECO:0000250}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=1;
+CC         IsoId=A2AHL1-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=A2AHL1-2; Sequence=VSP_052958, VSP_052959;
+CC   -!- TISSUE SPECIFICITY: Predominantly expressed in neuronal tissues.
+CC       Expressed in brain. {ECO:0000269|PubMed:20056604,
+CC       ECO:0000269|PubMed:23532839}.
+CC   -!- DEVELOPMENTAL STAGE: In the developing gastrointestinal tract,
+CC       expressed in the intestinal epithelium at 14.5 dpc and in an incomplete
+CC       ring of cells in the mesenchyme of the esophagus, stomach and small
+CC       intestine at 16.5 dpc. In the developing skeleton, expressed in the
+CC       perichondria of the neural arch of developing vertebrae at 14.5 dpc and
+CC       16.5 dpc. At 14.5 dpc, also expressed in perichondria of developing
+CC       ribs. At 14.5 dpc and 16.5 dpc, detected in dorsal root ganglia and
+CC       neural tube. In developing skin, expression is detected in the most
+CC       suprabasal layers at 16.5 dpc. Not detected in the lung at 14.5 dpc or
+CC       16.5 dpc. {ECO:0000269|PubMed:18729231}.
+CC   -!- MISCELLANEOUS: The term 'anoctamin' was coined because these channels
+CC       are anion selective and have eight (OCT) transmembrane segments. There
+CC       is some dissatisfaction in the field with the Ano nomenclature because
+CC       it is not certain that all the members of this family are anion
+CC       channels or have the 8-transmembrane topology.
+CC   -!- SIMILARITY: Belongs to the anoctamin family.
+CC       {ECO:0000250|UniProtKB:Q9BYT9}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL731700; CAM18324.1; -; Genomic_DNA.
+DR   EMBL; AL731779; CAM18324.1; JOINED; Genomic_DNA.
+DR   EMBL; AL731700; CAM18325.1; -; Genomic_DNA.
+DR   EMBL; AL731779; CAM18325.1; JOINED; Genomic_DNA.
+DR   EMBL; BX005257; CAM18325.1; JOINED; Genomic_DNA.
+DR   EMBL; AL731779; CAM25696.1; -; Genomic_DNA.
+DR   EMBL; AL731700; CAM25696.1; JOINED; Genomic_DNA.
+DR   EMBL; AL731779; CAM25697.1; -; Genomic_DNA.
+DR   EMBL; AL731700; CAM25697.1; JOINED; Genomic_DNA.
+DR   EMBL; BX005257; CAM25697.1; JOINED; Genomic_DNA.
+DR   EMBL; BX005257; CAM27817.1; -; Genomic_DNA.
+DR   EMBL; AL731700; CAM27817.1; JOINED; Genomic_DNA.
+DR   EMBL; AL731779; CAM27817.1; JOINED; Genomic_DNA.
+DR   CCDS; CCDS50658.1; -. [A2AHL1-1]
+DR   RefSeq; NP_001121575.1; NM_001128103.2. [A2AHL1-1]
+DR   BioGRID; 230734; 4.
+DR   STRING; 10090.ENSMUSP00000097219; -.
+DR   SwissLipids; SLP:000000377; -.
+DR   GlyGen; A2AHL1; 4 sites.
+DR   iPTMnet; A2AHL1; -.
+DR   PhosphoSitePlus; A2AHL1; -.
+DR   jPOST; A2AHL1; -.
+DR   PaxDb; A2AHL1; -.
+DR   PRIDE; A2AHL1; -.
+DR   ProteomicsDB; 282108; -. [A2AHL1-1]
+DR   ProteomicsDB; 282109; -. [A2AHL1-2]
+DR   Antibodypedia; 25359; 112 antibodies.
+DR   Ensembl; ENSMUST00000099623; ENSMUSP00000097219; ENSMUSG00000074968. [A2AHL1-1]
+DR   GeneID; 228432; -.
+DR   KEGG; mmu:228432; -.
+DR   UCSC; uc008lmy.1; mouse. [A2AHL1-2]
+DR   UCSC; uc012caw.2; mouse. [A2AHL1-1]
+DR   CTD; 63982; -.
+DR   MGI; MGI:3613666; Ano3.
+DR   eggNOG; KOG2514; Eukaryota.
+DR   GeneTree; ENSGT00940000156257; -.
+DR   HOGENOM; CLU_006685_1_3_1; -.
+DR   InParanoid; A2AHL1; -.
+DR   OMA; SRIVHHM; -.
+DR   OrthoDB; 1263362at2759; -.
+DR   PhylomeDB; A2AHL1; -.
+DR   TreeFam; TF314265; -.
+DR   Reactome; R-MMU-2672351; Stimuli-sensing channels.
+DR   BioGRID-ORCS; 228432; 2 hits in 52 CRISPR screens.
+DR   ChiTaRS; Ano3; mouse.
+DR   PRO; PR:A2AHL1; -.
+DR   Proteomes; UP000000589; Chromosome 2.
+DR   RNAct; A2AHL1; protein.
+DR   Bgee; ENSMUSG00000074968; Expressed in visual cortex and 130 other tissues.
+DR   ExpressionAtlas; A2AHL1; baseline and differential.
+DR   Genevisible; A2AHL1; MM.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005254; F:chloride channel activity; IBA:GO_Central.
+DR   GO; GO:0017128; F:phospholipid scramblase activity; IDA:MGI.
+DR   GO; GO:0046983; F:protein dimerization activity; IEA:InterPro.
+DR   GO; GO:0061591; P:calcium activated galactosylceramide scrambling; IDA:MGI.
+DR   GO; GO:0061590; P:calcium activated phosphatidylcholine scrambling; IDA:MGI.
+DR   GO; GO:1902476; P:chloride transmembrane transport; IBA:GO_Central.
+DR   GO; GO:0050982; P:detection of mechanical stimulus; ISO:MGI.
+DR   GO; GO:0016048; P:detection of temperature stimulus; ISO:MGI.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   InterPro; IPR032394; Anoct_dimer.
+DR   InterPro; IPR007632; Anoctamin.
+DR   InterPro; IPR031292; Anoctamin-3.
+DR   PANTHER; PTHR12308; PTHR12308; 1.
+DR   PANTHER; PTHR12308:SF16; PTHR12308:SF16; 1.
+DR   Pfam; PF16178; Anoct_dimer; 1.
+DR   Pfam; PF04547; Anoctamin; 1.
+PE   1: Evidence at protein level;
+KW   Alternative splicing; Cell membrane; Glycoprotein; Lipid transport;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..981
+FT                   /note="Anoctamin-3"
+FT                   /id="PRO_0000353188"
+FT   TOPO_DOM        1..403
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        404..424
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        425..469
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        470..490
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        491..550
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        551..571
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        572..592
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        593..613
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        614..640
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        641..661
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        662..761
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        762..782
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        783..810
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        811..831
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        832..914
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        915..935
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        936..981
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        425
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        448
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        455
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        866
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   VAR_SEQ         625..637
+FT                   /note="EYPRTESEWENSF -> GKFIFLILLVVSK (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_052958"
+FT   VAR_SEQ         638..981
+FT                   /note="Missing (in isoform 2)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_052959"
+SQ   SEQUENCE   981 AA;  114568 MW;  E851D80BC49F4977 CRC64;
+     MVHHSGSIQS FKQQKGMNIS KSEITTEASL KPSRRSLPCL AQSYAHSKSL SQSASLFQST
+     ESESQAPTSV TFLSADKPEH VTSEESRKDS TLKCSFADLS DFCLALGKDK DYLDESEHAN
+     YDRSRLLNDF VTKDKPASKT KLSKNDMSYI ASSGLLFKDG KKRIDYILVY RKTNIQYDKR
+     NTFEKNLRAE GLMLEKEPAI ANPDIMFIKI HIPWDTLCKY AERLNIRVPF RKKCYYTDQK
+     NKSKSRVQNY FKRIKKWMSQ NPMVLDKSAF PELEESDCYT GPFSRARIHH FIINNKDTFF
+     SNATRSRIVY HMLERTKYEN GISKVGIRKL ITNGSYIAAF PPHEGAYKSS LPIKTHGPQN
+     NRHLLYERWA RWGMWYKHQP LDLIRMYFGE KIGLYFAWLG WYTGMLIPAA VVGLCVFFYG
+     LVTMNESQVS QEICKATEVF MCPLCDKNCS LQRLNDSCIY AKVTYLFDNG GTVFFAIFMA
+     IWATVFLEFW KRRRSILTYT WDLIEWEEEE ETLRPQFEAK YYRMEVINPI TGKPEPHQPS
+     SDKVTRLLVS VSGIFFMISL VITAVFAVVV YRLVVMEQFA SFKWNFVKQH WQFATSGAAV
+     CINFIIIMLL NLAYEKIAYL LTNLEYPRTE SEWENSFALK MFLFQFVNLN SSIFYIAFFL
+     GRFVGHPGKY NKLFERWRLE ECHPSGCLID LCLQMGVIMF LKQIWNNFME LGYPLIQNWW
+     SRHKIKRGIQ DASIPQWEND WNLQPMNIHG LMDEYLEMVL QFGFTTIFVA AFPLAPLLAL
+     LNNIIEIRLD AYKFVTQWRR PLPARATDIG IWLGILEGIG ILAVITNAFV IAITSDYIPR
+     FVYEYKYGPC ANHVKQNENC LKGYVNNSLS FFDLSELGMG KSGYCRYRDY RGPPWSSKPY
+     EFTLQYWHIL AARLAFIIVF EHLVFGIKSF IAYLIPDIPK GLRERIRREK YLVQEMMYEA
+     ELEHLQQQRR KSGQPIHHEW P
+//

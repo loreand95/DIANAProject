@@ -1,0 +1,97 @@
+ID   RHLB_ALIFM              Reviewed;         432 AA.
+AC   B5FF87;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   14-OCT-2008, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=ATP-dependent RNA helicase RhlB {ECO:0000255|HAMAP-Rule:MF_00661};
+DE            EC=3.6.4.13 {ECO:0000255|HAMAP-Rule:MF_00661};
+GN   Name=rhlB {ECO:0000255|HAMAP-Rule:MF_00661}; OrderedLocusNames=VFMJ11_0054;
+OS   Aliivibrio fischeri (strain MJ11) (Vibrio fischeri).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Aliivibrio.
+OX   NCBI_TaxID=388396;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MJ11;
+RA   Mandel M.J., Stabb E.V., Ruby E.G., Ferriera S., Johnson J., Kravitz S.,
+RA   Beeson K., Sutton G., Rogers Y.-H., Friedman R., Frazier M., Venter J.C.;
+RT   "Complete sequence of Vibrio fischeri strain MJ11.";
+RL   Submitted (AUG-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: DEAD-box RNA helicase involved in RNA degradation. Has RNA-
+CC       dependent ATPase activity and unwinds double-stranded RNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00661};
+CC   -!- SUBUNIT: Component of the RNA degradosome, which is a multiprotein
+CC       complex involved in RNA processing and mRNA degradation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. RhlB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00661}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001139; ACH65016.1; -; Genomic_DNA.
+DR   RefSeq; WP_012532773.1; NC_011184.1.
+DR   SMR; B5FF87; -.
+DR   PRIDE; B5FF87; -.
+DR   EnsemblBacteria; ACH65016; ACH65016; VFMJ11_0054.
+DR   KEGG; vfm:VFMJ11_0054; -.
+DR   HOGENOM; CLU_003041_28_3_6; -.
+DR   OMA; RNPIRIL; -.
+DR   Proteomes; UP000001857; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006401; P:RNA catabolic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00661; DEAD_helicase_RhlB; 1.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR023554; RNA_helicase_ATP-dep_RhlB.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Helicase; Hydrolase; Nucleotide-binding;
+KW   RNA-binding.
+FT   CHAIN           1..432
+FT                   /note="ATP-dependent RNA helicase RhlB"
+FT                   /id="PRO_1000131312"
+FT   DOMAIN          40..219
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00661"
+FT   DOMAIN          245..390
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00661"
+FT   NP_BIND         53..60
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00661"
+FT   MOTIF           9..37
+FT                   /note="Q motif"
+FT   MOTIF           165..168
+FT                   /note="DEAD box"
+SQ   SEQUENCE   432 AA;  48620 MW;  A75FB6CC8D8FD752 CRC64;
+     MKKTHITEQN FADLGLQPQV IDGLNAKGFI KCTPIQAKAL PVLLAGQDIA GQAQTGTGKT
+     LAFLTATFNH LLTTPAPEGR KITQPRAIIM APTRELAIQI FNDAESLIAS TGLKAALAYG
+     GERYEKQQQV IEQGVDILIG TTGRIIDFYK QGHIDFKMIQ AVVLDEADRM FDLGFIKDIR
+     FIFRRMPAPT ERLNMLFSAT LSYRVQELAF EHMQEPEHVV VEPEQKTGHR IKEELFYPSN
+     DHKMALLQTL IEEEWPDRAI IFANTKHKCE SVWGHLAADK HRVGLLTGDV PQKKRERILE
+     EFTQGNVDIL VATDVAARGL HIPQVTHVFN FDLPNEAEDY VHRIGRTGRA GASGNSISFA
+     CEEYAINLPA IEEYIEHSIP QSDYDASALL EDLPAPLRLQ RRPQQNRRNN NGQRQGGNRK
+     HSRPRQPRNT QS
+//

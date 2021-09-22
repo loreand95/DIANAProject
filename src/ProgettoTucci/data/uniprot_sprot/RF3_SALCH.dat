@@ -1,0 +1,100 @@
+ID   RF3_SALCH               Reviewed;         529 AA.
+AC   Q57G48;
+DT   27-JUN-2006, integrated into UniProtKB/Swiss-Prot.
+DT   10-MAY-2005, sequence version 1.
+DT   10-FEB-2021, entry version 93.
+DE   RecName: Full=Peptide chain release factor 3 {ECO:0000255|HAMAP-Rule:MF_00072};
+DE            Short=RF-3 {ECO:0000255|HAMAP-Rule:MF_00072};
+GN   Name=prfC {ECO:0000255|HAMAP-Rule:MF_00072}; OrderedLocusNames=SCH_4408;
+OS   Salmonella choleraesuis (strain SC-B67).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=321314;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SC-B67;
+RX   PubMed=15781495; DOI=10.1093/nar/gki297;
+RA   Chiu C.-H., Tang P., Chu C., Hu S., Bao Q., Yu J., Chou Y.-Y., Wang H.-S.,
+RA   Lee Y.-S.;
+RT   "The genome sequence of Salmonella enterica serovar Choleraesuis, a highly
+RT   invasive and resistant zoonotic pathogen.";
+RL   Nucleic Acids Res. 33:1690-1698(2005).
+CC   -!- FUNCTION: Increases the formation of ribosomal termination complexes
+CC       and stimulates activities of RF-1 and RF-2. It binds guanine
+CC       nucleotides and has strong preference for UGA stop codons. It may
+CC       interact directly with the ribosome. The stimulation of RF-1 and RF-2
+CC       is significantly reduced by GTP and GDP, but not by GMP.
+CC       {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. PrfC subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00072}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017220; AAX68314.1; -; Genomic_DNA.
+DR   RefSeq; WP_000175965.1; NC_006905.1.
+DR   EnsemblBacteria; AAX68314; AAX68314; SCH_4408.
+DR   KEGG; sec:SCH_4408; -.
+DR   HOGENOM; CLU_002794_2_1_6; -.
+DR   OMA; VFKIHAN; -.
+DR   Proteomes; UP000000538; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0016149; F:translation release factor activity, codon specific; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006449; P:regulation of translational termination; IEA:UniProtKB-UniRule.
+DR   CDD; cd04169; RF3; 1.
+DR   Gene3D; 3.30.70.3280; -; 1.
+DR   HAMAP; MF_00072; Rel_fac_3; 1.
+DR   InterPro; IPR035647; EFG_III/V.
+DR   InterPro; IPR004161; EFTu-like_2.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004548; PrfC.
+DR   InterPro; IPR032090; RF3_C.
+DR   InterPro; IPR038467; RF3_C_sf.
+DR   InterPro; IPR041732; RF3_GTP-bd.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; T_Tr_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel_sf.
+DR   PANTHER; PTHR43556; PTHR43556; 1.
+DR   Pfam; PF00009; GTP_EFTU; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   Pfam; PF16658; RF3_C; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54980; SSF54980; 1.
+DR   TIGRFAMs; TIGR00503; prfC; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; GTP-binding; Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..529
+FT                   /note="Peptide chain release factor 3"
+FT                   /id="PRO_0000242205"
+FT   DOMAIN          11..280
+FT                   /note="tr-type G"
+FT   NP_BIND         20..27
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00072"
+FT   NP_BIND         88..92
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00072"
+FT   NP_BIND         142..145
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00072"
+SQ   SEQUENCE   529 AA;  59563 MW;  88FCE03468648834 CRC64;
+     MTLSPYLQEV AKRRTFAIIS HPDAGKTTIT EKVLLFGQAI QTAGTVKGRG SSQHAKSDWM
+     EMEKQRGISI TTSVMQFPYH DCLVNLLDTP GHEDFSEDTY RTLTAVDCCL MVIDAAKGVE
+     DRTRKLMEVT RLRDTPILTF MNKLDRDIRD PMELLDEVEN ELKIGCAPIT WPIGCGKLFK
+     GVYHLYKDET YLYQTGKGHT IQEVRIVKGL NNPDLDAAVG EDLAQQLRDE LELVQGASNE
+     FDEELFLAGE ITPVFFGTAL GNFGVDHMLD GLVAWAPAPM PRQTDTRTVE ASEEKFTGFV
+     FKIQANMDPK HRDRVAFMRV VSGKYEKGMK LRQVRTGKDV VISDALTFMA GDRSHVEEAY
+     PGDILGLHNH GTIQIGDTFT QGEMMKFTGI PNFAPELFRR IRLKDPLKQK QLLKGLVQLS
+     EEGAVQVFRP ISNNDLIVGA VGVLQFDVVV ARLKSEYNVE AIYESVNVAT ARWVESADAK
+     KFEEFKRKNE TQLALDGGDN LTYIAPTMVN LNLTQERYPD VQFRKTREH
+//

@@ -1,0 +1,87 @@
+ID   CMOA_VIBCM              Reviewed;         246 AA.
+AC   C3LLL0;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   02-DEC-2020, entry version 64.
+DE   RecName: Full=Carboxy-S-adenosyl-L-methionine synthase {ECO:0000255|HAMAP-Rule:MF_01589};
+DE            Short=Cx-SAM synthase {ECO:0000255|HAMAP-Rule:MF_01589};
+DE            EC=2.1.3.- {ECO:0000255|HAMAP-Rule:MF_01589};
+GN   Name=cmoA {ECO:0000255|HAMAP-Rule:MF_01589}; OrderedLocusNames=VCM66_1119;
+OS   Vibrio cholerae serotype O1 (strain M66-2).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=579112;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=M66-2;
+RX   PubMed=19115014; DOI=10.1371/journal.pone.0004053;
+RA   Feng L., Reeves P.R., Lan R., Ren Y., Gao C., Zhou Z., Ren Y., Cheng J.,
+RA   Wang W., Wang J., Qian W., Li D., Wang L.;
+RT   "A recalibrated molecular clock and independent origins for the cholera
+RT   pandemic clones.";
+RL   PLoS ONE 3:E4053-E4053(2008).
+CC   -!- FUNCTION: Catalyzes the conversion of S-adenosyl-L-methionine (SAM) to
+CC       carboxy-S-adenosyl-L-methionine (Cx-SAM). {ECO:0000255|HAMAP-
+CC       Rule:MF_01589}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=prephenate + S-adenosyl-L-methionine = 3-phenylpyruvate +
+CC         carboxy-S-adenosyl-L-methionine + H2O; Xref=Rhea:RHEA:51692,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:18005, ChEBI:CHEBI:29934,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:134278; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01589};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01589}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. Cx-SAM synthase family. {ECO:0000255|HAMAP-Rule:MF_01589}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001233; ACP05436.1; -; Genomic_DNA.
+DR   SMR; C3LLL0; -.
+DR   EnsemblBacteria; ACP05436; ACP05436; VCM66_1119.
+DR   KEGG; vcm:VCM66_1119; -.
+DR   HOGENOM; CLU_078475_0_0_6; -.
+DR   OMA; MIELYYL; -.
+DR   Proteomes; UP000001217; Chromosome I.
+DR   GO; GO:0016743; F:carboxyl- or carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:1904047; F:S-adenosyl-L-methionine binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   HAMAP; MF_01589; Cx_SAM_synthase; 1.
+DR   InterPro; IPR005271; CmoA.
+DR   InterPro; IPR041698; Methyltransf_25.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR43861:SF2; PTHR43861:SF2; 1.
+DR   Pfam; PF13649; Methyltransf_25; 1.
+DR   PIRSF; PIRSF006325; MeTrfase_bac; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00740; TIGR00740; 1.
+PE   3: Inferred from homology;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..246
+FT                   /note="Carboxy-S-adenosyl-L-methionine synthase"
+FT                   /id="PRO_1000185689"
+FT   REGION          68..70
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+FT   REGION          93..94
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+FT   REGION          121..122
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+FT   BINDING         43
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+FT   BINDING         136
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+FT   BINDING         203
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01589"
+SQ   SEQUENCE   246 AA;  27787 MW;  CDEDC80E023E3D6F CRC64;
+     MRSAMNPKDT LFSAPIDKIG DFTFDERVAE VFPDMIQRSV PGYSNIISAI GMLAERFVKP
+     HSKIYDLGCS LGAATLSMRR HIKQEGCQII AVDNSAAMVE RCKLHLNAYR SDTPVQVIEA
+     DIRDIAIENA SVVVLNFTLQ FLAPDDRYAL LEKIYAGLRP GGILILSEKF VFSDQEAHEL
+     LIDLHHDFKR ANGYSELEIS QKRSAIENVM RPDSIQTHKQ RFATLGFSSF EVWFQCFNFG
+     SMFAIK
+//

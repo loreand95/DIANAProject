@@ -1,0 +1,77 @@
+ID   MQO_GLUOX               Reviewed;         500 AA.
+AC   Q5FP90;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=Probable malate:quinone oxidoreductase {ECO:0000255|HAMAP-Rule:MF_00212};
+DE            EC=1.1.5.4 {ECO:0000255|HAMAP-Rule:MF_00212};
+DE   AltName: Full=MQO {ECO:0000255|HAMAP-Rule:MF_00212};
+DE   AltName: Full=Malate dehydrogenase [quinone] {ECO:0000255|HAMAP-Rule:MF_00212};
+GN   Name=mqo {ECO:0000255|HAMAP-Rule:MF_00212}; OrderedLocusNames=GOX2070;
+OS   Gluconobacter oxydans (strain 621H) (Gluconobacter suboxydans).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales;
+OC   Acetobacteraceae; Gluconobacter.
+OX   NCBI_TaxID=290633;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=621H;
+RX   PubMed=15665824; DOI=10.1038/nbt1062;
+RA   Prust C., Hoffmeister M., Liesegang H., Wiezer A., Fricke W.F.,
+RA   Ehrenreich A., Gottschalk G., Deppenmeier U.;
+RT   "Complete genome sequence of the acetic acid bacterium Gluconobacter
+RT   oxydans.";
+RL   Nat. Biotechnol. 23:195-200(2005).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(S)-malate + a quinone = a quinol + oxaloacetate;
+CC         Xref=Rhea:RHEA:46012, ChEBI:CHEBI:15589, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:132124; EC=1.1.5.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00212};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00212};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle;
+CC       oxaloacetate from (S)-malate (quinone route): step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00212}.
+CC   -!- SIMILARITY: Belongs to the MQO family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00212}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000009; AAW61806.1; -; Genomic_DNA.
+DR   RefSeq; WP_011253583.1; NZ_LT900338.1.
+DR   STRING; 290633.GOX2070; -.
+DR   EnsemblBacteria; AAW61806; AAW61806; GOX2070.
+DR   KEGG; gox:GOX2070; -.
+DR   eggNOG; COG0579; Bacteria.
+DR   HOGENOM; CLU_028151_0_0_5; -.
+DR   OMA; RCDNPEV; -.
+DR   UniPathway; UPA00223; UER01008.
+DR   Proteomes; UP000006375; Chromosome.
+DR   GO; GO:0052589; F:malate dehydrogenase (menaquinone) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008924; F:malate dehydrogenase (quinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; -; 1.
+DR   HAMAP; MF_00212; MQO; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR006231; MQO.
+DR   Pfam; PF06039; Mqo; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR01320; mal_quin_oxido; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Oxidoreductase; Reference proteome;
+KW   Tricarboxylic acid cycle.
+FT   CHAIN           1..500
+FT                   /note="Probable malate:quinone oxidoreductase"
+FT                   /id="PRO_1000023803"
+SQ   SEQUENCE   500 AA;  54100 MW;  2606F40BFFB27467 CRC64;
+     MPSLSSLCPD IVLIGAGIMS STLAALLREL DPSLSMVMFE TLSDCGQESS YAWNNAGTGH
+     AGNCELNYTP QRADGSVDIS KALAVNTEFD LSRQLWAHWV REGRIADPAA FVQPCPHISL
+     VWGAENVAFL KARYEAMVAH HCFADMEYTD DPAVIAQWAP LAMAGRDTTQ PVAATRIREG
+     TDVNFGALTH ALTASLKTDR SVSIHYNHRV TDLTRTEDGR WRVTATDTES GHAITVLTRF
+     VFIGAGGNAL PLLQKSGIPE ATHYAGFPVS GLWLRCTDPA ITRQHHAKVY GKAPVGSPPM
+     SVPHLDTRVI DGKSCLLFGP YAGFSTKFLK SGSWTDYFRS LTPKNIIPAL TAGKDNLGLL
+     DYLVKQVIQT NEARFQALLD FYPTARPEDW SKVVAGQRVQ IIRPDSGLHG KLRFGTELVK
+     NADRSLVAVL GASPGASIAA SVALQVVQGC FPERLVEGDW LPRLRQVFPA YGVDLTQDAA
+     ACATLRRDTA QVLGIASEAG
+//

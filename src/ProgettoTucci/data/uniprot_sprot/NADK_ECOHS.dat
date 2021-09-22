@@ -1,0 +1,102 @@
+ID   NADK_ECOHS              Reviewed;         292 AA.
+AC   A8A3C1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 79.
+DE   RecName: Full=NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000255|HAMAP-Rule:MF_00361}; OrderedLocusNames=EcHS_A2773;
+OS   Escherichia coli O9:H4 (strain HS).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=331112;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HS;
+RX   PubMed=18676672; DOI=10.1128/jb.00619-08;
+RA   Rasko D.A., Rosovitz M.J., Myers G.S.A., Mongodin E.F., Fricke W.F.,
+RA   Gajer P., Crabtree J., Sebaihia M., Thomson N.R., Chaudhuri R.,
+RA   Henderson I.R., Sperandio V., Ravel J.;
+RT   "The pangenome structure of Escherichia coli: comparative genomic analysis
+RT   of E. coli commensal and pathogenic isolates.";
+RL   J. Bacteriol. 190:6881-6893(2008).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance of
+CC       NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + NAD(+) = ADP + H(+) + NADP(+); Xref=Rhea:RHEA:18629,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:456216; EC=2.7.1.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000802; ABV07025.1; -; Genomic_DNA.
+DR   RefSeq; WP_001059169.1; NC_009800.1.
+DR   SMR; A8A3C1; -.
+DR   GeneID; 58463078; -.
+DR   KEGG; ecx:EcHS_A2773; -.
+DR   HOGENOM; CLU_008831_0_1_6; -.
+DR   OMA; VNLGHVG; -.
+DR   Proteomes; UP000001123; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_N.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_C.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase_sf.
+DR   InterPro; IPR002504; NADK.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; NAD; NADP; Nucleotide-binding; Transferase.
+FT   CHAIN           1..292
+FT                   /note="NAD kinase"
+FT                   /id="PRO_1000079491"
+FT   NP_BIND         73..74
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   NP_BIND         147..148
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   NP_BIND         188..193
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   ACT_SITE        73
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         158
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         175
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         177
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+FT   BINDING         247
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00361"
+SQ   SEQUENCE   292 AA;  32566 MW;  D1E631658408F2E1 CRC64;
+     MNNHFKCIGI VGHPRHPTAL TTHEMLYRWL CTKGYEVIVE QQIAHELQLK NVKTGTLAEI
+     GQLADLAVVV GGDGNMLGAA RTLARYDIKV IGINRGNLGF LTDLDPDNAQ QQLADVLEGH
+     YISEKRFLLE AQVCQQDCQK RISTAINEVV LHPGKVAHMI EFEVYIDEIF AFSQRSDGLI
+     ISTPTGSTAY SLSAGGPILT PSLDAITLVP MFPHTLSARP LVINSSSTIR LRFSHRRNDL
+     EISCDSQIAL PIQEGEDVLI RRCDYHLNLI HPKDYSYFNT LSTKLGWSKK LF
+//

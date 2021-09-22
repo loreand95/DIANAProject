@@ -1,0 +1,97 @@
+ID   HYAS3_XENLA             Reviewed;         190 AA.
+AC   O57426;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   07-APR-2021, entry version 66.
+DE   RecName: Full=Hyaluronan synthase 3;
+DE            EC=2.4.1.212;
+DE   AltName: Full=Hyaluronate synthase 3;
+DE   AltName: Full=Hyaluronic acid synthase 3;
+DE            Short=HA synthase 3;
+DE            Short=xHAS3;
+DE   Flags: Fragment;
+GN   Name=has3;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=9442026; DOI=10.1074/jbc.273.4.1923;
+RA   Spicer A.P., McDonald J.A.;
+RT   "Characterization and molecular evolution of a vertebrate hyaluronan
+RT   synthase gene family.";
+RL   J. Biol. Chem. 273:1923-1932(1998).
+CC   -!- FUNCTION: Catalyzes the addition of GlcNAc or GlcUA monosaccharides to
+CC       the nascent hyaluronan polymer. Therefore, it is essential to
+CC       hyaluronan synthesis a major component of most extracellular matrices
+CC       that has a structural role in tissues architectures and regulates cell
+CC       adhesion, migration and differentiation (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[hyaluronan](n) + UDP-N-acetyl-alpha-D-glucosamine = H(+) + N-
+CC         acetyl-beta-D-glucosaminyl-(1->4)-[hyaluronan](n) + UDP;
+CC         Xref=Rhea:RHEA:20465, Rhea:RHEA-COMP:12583, Rhea:RHEA-COMP:12585,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57705, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132153, ChEBI:CHEBI:132154; EC=2.4.1.212;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-acetyl-beta-D-glucosaminyl-(1->4)-[hyaluronan](n) + UDP-
+CC         alpha-D-glucuronate = [hyaluronan](n+1) + H(+) + UDP;
+CC         Xref=Rhea:RHEA:12528, Rhea:RHEA-COMP:12585, Rhea:RHEA-COMP:12587,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58052, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:132153, ChEBI:CHEBI:132154; EC=2.4.1.212;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- PATHWAY: Glycan biosynthesis; hyaluronan biosynthesis.
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the NodC/HAS family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF015778; AAB94539.1; -; Genomic_DNA.
+DR   CAZy; GT2; Glycosyltransferase Family 2.
+DR   OMA; RTTHIGQ; -.
+DR   UniPathway; UPA00341; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0050501; F:hyaluronan synthase activity; ISS:UniProtKB.
+DR   GO; GO:0085029; P:extracellular matrix assembly; ISS:UniProtKB.
+DR   GO; GO:0045226; P:extracellular polysaccharide biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0030213; P:hyaluronan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+PE   3: Inferred from homology;
+KW   Glycosyltransferase; Membrane; Transferase; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN           <1..>190
+FT                   /note="Hyaluronan synthase 3"
+FT                   /id="PRO_0000197181"
+FT   TOPO_DOM        <1..103
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        104..124
+FT                   /note="Helical; Name=3"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        125..134
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        135..155
+FT                   /note="Helical; Name=4"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        156..166
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        167..187
+FT                   /note="Helical; Name=5"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        188..>190
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   NON_TER         1
+FT   NON_TER         190
+SQ   SEQUENCE   190 AA;  22609 MW;  EFD418FAE9B6F867 CRC64;
+     SYFGCVQCIS GPLGMYRNSL LQYFLEDWYH QTFLGQKCSF GDDRHLTNRV LSMGFRTKYT
+     ARSRCLTETP TRYLRWLNQQ TRWSKSYFRE WLYNALWFHK HHLWMTYESV VTGFFPFFLV
+     ATVVQLFYRG RVWNILLFLL TVQLVGILKA TYACILRGNA EMIFMSLYSL LYMTSLLPAK
+     IFAVITINKS
+//

@@ -1,0 +1,115 @@
+ID   KKCCC_EMEND             Reviewed;         518 AA.
+AC   Q9Y898;
+DT   07-JUN-2017, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=Calcium/calmodulin-dependent protein kinase kinase cmkC {ECO:0000305};
+DE            EC=2.7.11.17 {ECO:0000269|PubMed:10988293};
+DE   AltName: Full=CaMK kinase C {ECO:0000303|PubMed:10988293};
+DE            Short=CaMKK C {ECO:0000303|PubMed:10988293};
+DE   AltName: Full=CaMKK alpha/beta homolog {ECO:0000303|PubMed:10988293};
+GN   Name=cmkC {ECO:0000303|PubMed:10988293};
+OS   Emericella nidulans (Aspergillus nidulans).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Nidulantes.
+OX   NCBI_TaxID=162425 {ECO:0000312|EMBL:AAD38851.1};
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, CATALYTIC ACTIVITY, AND DISRUPTION
+RP   PHENOTYPE.
+RC   STRAIN=GR5;
+RX   PubMed=10988293; DOI=10.1074/jbc.m006422200;
+RA   Joseph J.D., Means A.R.;
+RT   "Identification and characterization of two Ca2+/CaM-dependent protein
+RT   kinases required for normal nuclear division in Aspergillus nidulans.";
+RL   J. Biol. Chem. 275:38230-38238(2000).
+CC   -!- FUNCTION: Calcium/calmodulin-dependent protein kinase that operates in
+CC       the calcium-triggered CaMKK-CaMK1 signaling cascade. Phosphorylates and
+CC       activates cmkB in vitro. Required in G1-phase of the cell cycle for
+CC       proper timing of the initial nuclear division after germination as well
+CC       as for subsequent nuclear division cycles. Required for the normal
+CC       temporal regulation of nimX activity. {ECO:0000269|PubMed:10988293}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.17;
+CC         Evidence={ECO:0000269|PubMed:10988293};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.17; Evidence={ECO:0000269|PubMed:10988293};
+CC   -!- ACTIVITY REGULATION: Activated by Ca(2+)/calmodulin. Binding of
+CC       calmodulin may relieve intrasteric autoinhibition.
+CC       {ECO:0000250|UniProtKB:P97756}.
+CC   -!- DOMAIN: The autoinhibitory domain overlaps with the calmodulin binding
+CC       region and may be involved in intrasteric autoinhibition.
+CC       {ECO:0000250|UniProtKB:P97756}.
+CC   -!- DISRUPTION PHENOTYPE: Not lethal, but spores germinate with delayed
+CC       kinetics and this lag corresponds to a delay in the G1-phase activation
+CC       of the cyclin-dependent kinase nimX. Does not activate cmkB.
+CC       {ECO:0000269|PubMed:10988293}.
+CC   -!- SIMILARITY: Belongs to the protein kinase superfamily. Ser/Thr protein
+CC       kinase family. {ECO:0000255|PROSITE-ProRule:PRU00159}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF156028; AAD38851.1; -; mRNA.
+DR   SMR; Q9Y898; -.
+DR   OMA; DEQCRCW; -.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005516; F:calmodulin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004683; F:calmodulin-dependent protein kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:RHEA.
+DR   GO; GO:0106311; F:protein threonine kinase activity; IEA:RHEA.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR000719; Prot_kinase_dom.
+DR   InterPro; IPR017441; Protein_kinase_ATP_BS.
+DR   InterPro; IPR008271; Ser/Thr_kinase_AS.
+DR   Pfam; PF00069; Pkinase; 1.
+DR   SMART; SM00220; S_TKc; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   PROSITE; PS00107; PROTEIN_KINASE_ATP; 1.
+DR   PROSITE; PS50011; PROTEIN_KINASE_DOM; 1.
+DR   PROSITE; PS00108; PROTEIN_KINASE_ST; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Calmodulin-binding; Cell cycle; Cell division; Kinase;
+KW   Nucleotide-binding; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN           1..518
+FT                   /note="Calcium/calmodulin-dependent protein kinase kinase
+FT                   cmkC"
+FT                   /id="PRO_0000440634"
+FT   DOMAIN          81..376
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   NP_BIND         87..95
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   REGION          404..409
+FT                   /note="Autoinhibitory domain"
+FT                   /evidence="ECO:0000250|UniProtKB:P97756, ECO:0000305"
+FT   REGION          407..431
+FT                   /note="Calmodulin-binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P97756, ECO:0000305"
+FT   ACT_SITE        243
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+FT   BINDING         109
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00159"
+SQ   SEQUENCE   518 AA;  59153 MW;  5F9AF1CFDE340C00 CRC64;
+     MANEGAGSLQ QDASPGSSAR PEPYPRPSPA RYASTPSFES PQRHHRRNPI ARRPVKETLN
+     ARSEYTLSQD DGTADDRINQ YVIKQEIGRG SFGAVHVAVD QYGNEYAVKE FSKARLRKRA
+     KSQLLRQSRG PKRSSRWPKL PFSSPGTGTW RRRDEKCSLF YQRRNCHYEE VTPQQSSILD
+     RGTGRPDPRF SYMVMEMCKK GVVMKVTLEE RADPYDDERC RCWFRDLILG IEYLHAQGIV
+     HRDIKPDNCL ITNDDVLKVV DFGVSEMFVL NSDMFTAKSA GSPAFLPPEL CVVKHGDVSG
+     KAADIWSMGV TLYCLRYGKL PFEEHSIIEL YDAIKNRPIV CDGETDEVFK DLMLRILEKD
+     PAKRIQMDEL REHPWVTKNG MDPLLPKSEN TAEIVDLPTE EEMFSAITKN FGHVLAVMKA
+     AKKFKSLQGP TRASTPIQSI LGQEYETHFV EPPTQMDPEE SVSLPSPLPY KKTQSLNTYN
+     RRAWERDDVV KGYHPQRRKL SLVLRQRAAN RVLRTALF
+//

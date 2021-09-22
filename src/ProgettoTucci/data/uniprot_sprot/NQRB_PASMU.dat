@@ -1,0 +1,116 @@
+ID   NQRB_PASMU              Reviewed;         410 AA.
+AC   Q9CLB0;
+DT   14-AUG-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   10-FEB-2021, entry version 117.
+DE   RecName: Full=Na(+)-translocating NADH-quinone reductase subunit B {ECO:0000255|HAMAP-Rule:MF_00426};
+DE            Short=Na(+)-NQR subunit B {ECO:0000255|HAMAP-Rule:MF_00426};
+DE            Short=Na(+)-translocating NQR subunit B {ECO:0000255|HAMAP-Rule:MF_00426};
+DE            EC=7.2.1.1 {ECO:0000255|HAMAP-Rule:MF_00426};
+DE   AltName: Full=NQR complex subunit B {ECO:0000255|HAMAP-Rule:MF_00426};
+DE   AltName: Full=NQR-1 subunit B {ECO:0000255|HAMAP-Rule:MF_00426};
+GN   Name=nqrB {ECO:0000255|HAMAP-Rule:MF_00426}; OrderedLocusNames=PM1329;
+OS   Pasteurella multocida (strain Pm70).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Pasteurella.
+OX   NCBI_TaxID=272843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Pm70;
+RX   PubMed=11248100; DOI=10.1073/pnas.051634598;
+RA   May B.J., Zhang Q., Li L.L., Paustian M.L., Whittam T.S., Kapur V.;
+RT   "Complete genomic sequence of Pasteurella multocida Pm70.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:3460-3465(2001).
+CC   -!- FUNCTION: NQR complex catalyzes the reduction of ubiquinone-1 to
+CC       ubiquinol by two successive reactions, coupled with the transport of
+CC       Na(+) ions from the cytoplasm to the periplasm. NqrA to NqrE are
+CC       probably involved in the second step, the conversion of ubisemiquinone
+CC       to ubiquinol. {ECO:0000255|HAMAP-Rule:MF_00426}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ubiquinone + H(+) + n Na(+)(in) + NADH = a ubiquinol + n
+CC         Na(+)(out) + NAD(+); Xref=Rhea:RHEA:47748, Rhea:RHEA-COMP:9565,
+CC         Rhea:RHEA-COMP:9566, ChEBI:CHEBI:15378, ChEBI:CHEBI:16389,
+CC         ChEBI:CHEBI:17976, ChEBI:CHEBI:29101, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=7.2.1.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00426};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00426};
+CC   -!- SUBUNIT: Composed of six subunits; NqrA, NqrB, NqrC, NqrD, NqrE and
+CC       NqrF. {ECO:0000255|HAMAP-Rule:MF_00426}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00426}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00426}.
+CC   -!- SIMILARITY: Belongs to the NqrB/RnfD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00426}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004439; AAK03413.1; -; Genomic_DNA.
+DR   RefSeq; WP_005723927.1; NC_002663.1.
+DR   EnsemblBacteria; AAK03413; AAK03413; PM1329.
+DR   KEGG; pmu:PM1329; -.
+DR   HOGENOM; CLU_042020_1_1_6; -.
+DR   OMA; FNPAYPE; -.
+DR   BioCyc; PMUL272843:G1FZ8-1400-MONOMER; -.
+DR   Proteomes; UP000000809; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0016655; F:oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0022904; P:respiratory electron transport chain; IEA:InterPro.
+DR   GO; GO:0006814; P:sodium ion transport; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   HAMAP; MF_00426; NqrB; 1.
+DR   InterPro; IPR010966; NqrB.
+DR   InterPro; IPR004338; NqrB/RnfD.
+DR   PANTHER; PTHR30578; PTHR30578; 1.
+DR   Pfam; PF03116; NQR2_RnfD_RnfE; 1.
+DR   PIRSF; PIRSF016055; NADH-UbQ_OxRdtase_B_su; 1.
+DR   TIGRFAMs; TIGR01937; nqrB; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Flavoprotein; FMN; Ion transport;
+KW   Membrane; NAD; Phosphoprotein; Reference proteome; Sodium;
+KW   Sodium transport; Translocase; Transmembrane; Transmembrane helix;
+KW   Transport; Ubiquinone.
+FT   CHAIN           1..410
+FT                   /note="Na(+)-translocating NADH-quinone reductase subunit
+FT                   B"
+FT                   /id="PRO_0000074440"
+FT   TRANSMEM        56..76
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        126..146
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        156..176
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        267..287
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        294..314
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        319..339
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        355..375
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   TRANSMEM        378..398
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+FT   MOD_RES         233
+FT                   /note="FMN phosphoryl threonine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00426"
+SQ   SEQUENCE   410 AA;  44563 MW;  5CEFA87266BBBC8E CRC64;
+     MGLKHFIEKI EPAFLPGGKY EKWYALFEAT ATFLYTPGTV THKASHVRDA LDSKRMMVLV
+     WLSLFPAMFY GMYNVGAQAI LATDALGTLQ QAISGHWQYA LSHALGADLT LSAGWASKML
+     LGATYFLPIY LTIFLVGGFW EVLFAMVRKH EINEGFFVTS ILLALIVPPT LPLWQAALAT
+     TFGVVVAKEI FGGVGKNFMN PALAARAFLF FAYPAQISGD TVWVAADGFS GATALSQWAV
+     GGEAGLKHVV TGQPITWMDA FIGNIPGSIG EVSTLALIIG AAIIVFARIA SWRIIAGVMI
+     GMIATSALFN LIGSSTNPLF AMPWYWHFVL GGFALGMFFM ATDPVSAAFT NKGKWWYGIL
+     IGAMAVLIRV VNPAYPEGMM LAILFANLFA PVFDYLVVQA NIKRRRARNV
+//

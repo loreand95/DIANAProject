@@ -1,0 +1,140 @@
+ID   PCKA_PARD8              Reviewed;         535 AA.
+AC   A6LFQ4;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-JUL-2007, sequence version 1.
+DT   10-FEB-2021, entry version 80.
+DE   RecName: Full=Phosphoenolpyruvate carboxykinase (ATP) {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PCK {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PEP carboxykinase {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            Short=PEPCK {ECO:0000255|HAMAP-Rule:MF_00453};
+DE            EC=4.1.1.49 {ECO:0000255|HAMAP-Rule:MF_00453};
+GN   Name=pckA {ECO:0000255|HAMAP-Rule:MF_00453}; OrderedLocusNames=BDI_2805;
+OS   Parabacteroides distasonis (strain ATCC 8503 / DSM 20701 / CIP 104284 / JCM
+OS   5825 / NCTC 11152).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Tannerellaceae;
+OC   Parabacteroides.
+OX   NCBI_TaxID=435591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 8503 / DSM 20701 / CIP 104284 / JCM 5825 / NCTC 11152;
+RX   PubMed=17579514; DOI=10.1371/journal.pbio.0050156;
+RA   Xu J., Mahowald M.A., Ley R.E., Lozupone C.A., Hamady M., Martens E.C.,
+RA   Henrissat B., Coutinho P.M., Minx P., Latreille P., Cordum H.,
+RA   Van Brunt A., Kim K., Fulton R.S., Fulton L.A., Clifton S.W., Wilson R.K.,
+RA   Knight R.D., Gordon J.I.;
+RT   "Evolution of symbiotic bacteria in the distal human intestine.";
+RL   PLoS Biol. 5:1574-1586(2007).
+CC   -!- FUNCTION: Involved in the gluconeogenesis. Catalyzes the conversion of
+CC       oxaloacetate (OAA) to phosphoenolpyruvate (PEP) through direct
+CC       phosphoryl transfer between the nucleoside triphosphate and OAA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + oxaloacetate = ADP + CO2 + phosphoenolpyruvate;
+CC         Xref=Rhea:RHEA:18617, ChEBI:CHEBI:16452, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58702, ChEBI:CHEBI:456216;
+CC         EC=4.1.1.49; Evidence={ECO:0000255|HAMAP-Rule:MF_00453};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00453};
+CC       Note=Binds 1 Mn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00453};
+CC   -!- PATHWAY: Carbohydrate biosynthesis; gluconeogenesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   -!- SIMILARITY: Belongs to the phosphoenolpyruvate carboxykinase (ATP)
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00453}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000140; ABR44518.1; -; Genomic_DNA.
+DR   RefSeq; WP_005860732.1; NZ_LR215978.1.
+DR   SMR; A6LFQ4; -.
+DR   STRING; 435591.BDI_2805; -.
+DR   EnsemblBacteria; ABR44518; ABR44518; BDI_2805.
+DR   GeneID; 57235806; -.
+DR   KEGG; pdi:BDI_2805; -.
+DR   eggNOG; COG1866; Bacteria.
+DR   HOGENOM; CLU_018247_0_1_10; -.
+DR   OMA; MRYAGEM; -.
+DR   OrthoDB; 146648at2; -.
+DR   BioCyc; PDIS435591:G1G5A-2880-MONOMER; -.
+DR   UniPathway; UPA00138; -.
+DR   Proteomes; UP000000566; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004612; F:phosphoenolpyruvate carboxykinase (ATP) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006094; P:gluconeogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd00484; PEPCK_ATP; 1.
+DR   Gene3D; 3.40.449.10; -; 2.
+DR   Gene3D; 3.90.228.20; -; 1.
+DR   HAMAP; MF_00453; PEPCK_ATP; 1.
+DR   InterPro; IPR001272; PEP_carboxykinase_ATP.
+DR   InterPro; IPR013035; PEP_carboxykinase_C.
+DR   InterPro; IPR008210; PEP_carboxykinase_N.
+DR   InterPro; IPR015994; PEPCK_ATP_CS.
+DR   PANTHER; PTHR30031; PTHR30031; 1.
+DR   Pfam; PF01293; PEPCK_ATP; 1.
+DR   PIRSF; PIRSF006294; PEP_crbxkin; 1.
+DR   SUPFAM; SSF68923; SSF68923; 1.
+DR   TIGRFAMs; TIGR00224; pckA; 1.
+DR   PROSITE; PS00532; PEPCK_ATP; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Decarboxylase; Gluconeogenesis; Lyase; Manganese;
+KW   Metal-binding; Nucleotide-binding; Reference proteome.
+FT   CHAIN           1..535
+FT                   /note="Phosphoenolpyruvate carboxykinase (ATP)"
+FT                   /id="PRO_1000026334"
+FT   NP_BIND         243..251
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   NP_BIND         444..445
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   METAL           207
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   METAL           226
+FT                   /note="Manganese; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   METAL           264
+FT                   /note="Manganese"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         59
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         201
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         207
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         207
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         226
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         292
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         328
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         328
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+FT   BINDING         450
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00453"
+SQ   SEQUENCE   535 AA;  58960 MW;  78AA79161FA6B3D0 CRC64;
+     MANLDLSKYG IVDVKEIVHN PSYDVLFAEE TKPSLEGFEK GQVTELGAVN VMTGIYTGRS
+     PKDKFFVKNE ASEDSVWWTS DEYKNDNKPC SEAAWADLKA KAVKELSGKR LFVVDTFCGA
+     NEATRLKVRF IMEVAWQAHF VTNMFIRPTA EELANYGEPD FVSFNAAKAK VDNYKELGLN
+     SETATVFNLK TKEQVILNTW YGGEMKKGIF SIMNYLNPLR GIASMHCSAN TDKEGKSSAI
+     FFGLSGTGKT TLSTDPKRLL IGDDEHGWDN EGVFNYEGGC YAKVINLDKE SEPDIYNAIK
+     RDALLENVTV AADGKIDFAD KSVTENTRVS YPIYHIENIV KPVSKGPHAK QVIFLSADAF
+     GVLPPVSILT PEQTQYYFLS GFTAKLAGTE RGITEPTPTF SACFGAAFLS LHPTKYGEEL
+     VKKMEMTGAK AYLVNTGWNG SGKRISIKDT RGIIDAILDG SINEAPTKKI PYFDFEVPTA
+     LPGVDPKILD PRDTYADPAQ WDEKAKDLAA RFQKNFAKFT GNEAGKALVA AGPQL
+//

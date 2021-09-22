@@ -1,0 +1,84 @@
+ID   MTOX_YERPS              Reviewed;         371 AA.
+AC   Q669J9;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=N-methyl-L-tryptophan oxidase {ECO:0000255|HAMAP-Rule:MF_00515};
+DE            Short=MTOX {ECO:0000255|HAMAP-Rule:MF_00515};
+DE            EC=1.5.3.- {ECO:0000255|HAMAP-Rule:MF_00515};
+GN   Name=solA {ECO:0000255|HAMAP-Rule:MF_00515}; OrderedLocusNames=YPTB2485;
+OS   Yersinia pseudotuberculosis serotype I (strain IP32953).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=273123;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IP32953;
+RX   PubMed=15358858; DOI=10.1073/pnas.0404012101;
+RA   Chain P.S.G., Carniel E., Larimer F.W., Lamerdin J., Stoutland P.O.,
+RA   Regala W.M., Georgescu A.M., Vergez L.M., Land M.L., Motin V.L.,
+RA   Brubaker R.R., Fowler J., Hinnebusch J., Marceau M., Medigue C.,
+RA   Simonet M., Chenal-Francisque V., Souza B., Dacheux D., Elliott J.M.,
+RA   Derbise A., Hauser L.J., Garcia E.;
+RT   "Insights into the evolution of Yersinia pestis through whole-genome
+RT   comparison with Yersinia pseudotuberculosis.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:13826-13831(2004).
+CC   -!- FUNCTION: Catalyzes the oxidative demethylation of N-methyl-L-
+CC       tryptophan. {ECO:0000255|HAMAP-Rule:MF_00515}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N(alpha)-methyl-L-tryptophan + O2 = formaldehyde + H2O2
+CC         + L-tryptophan; Xref=Rhea:RHEA:28006, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15379, ChEBI:CHEBI:16240, ChEBI:CHEBI:16842,
+CC         ChEBI:CHEBI:57283, ChEBI:CHEBI:57912; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00515};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00515};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_00515};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00515}.
+CC   -!- SIMILARITY: Belongs to the MSOX/MTOX family. MTOX subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00515}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX936398; CAH21723.1; -; Genomic_DNA.
+DR   RefSeq; WP_002211850.1; NZ_CP009712.1.
+DR   SMR; Q669J9; -.
+DR   EnsemblBacteria; CAH21723; CAH21723; YPTB2485.
+DR   GeneID; 49785511; -.
+DR   GeneID; 57976231; -.
+DR   KEGG; ypo:BZ17_4152; -.
+DR   KEGG; yps:YPTB2485; -.
+DR   PATRIC; fig|273123.14.peg.4374; -.
+DR   OMA; RIIRHAY; -.
+DR   Proteomes; UP000001011; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0050131; F:N-methyl-L-amino-acid oxidase activity; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 1.
+DR   HAMAP; MF_00515; MTOX; 1.
+DR   InterPro; IPR006076; FAD-dep_OxRdtase.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023493; Me_Trp_Oxase_MTOX.
+DR   Pfam; PF01266; DAO; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; Oxidoreductase.
+FT   CHAIN           1..371
+FT                   /note="N-methyl-L-tryptophan oxidase"
+FT                   /id="PRO_0000213772"
+FT   NP_BIND         4..34
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00515"
+FT   MOD_RES         307
+FT                   /note="S-8alpha-FAD cysteine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00515"
+SQ   SEQUENCE   371 AA;  40467 MW;  4376B8954E78DC6E CRC64;
+     MDYDLIVIGS GSVGSAAGYY ASQAGLNVLM IDSAMPPHQA GSHHGETRIM RHAYGEGEKY
+     VPLVLRAQAL WDQLAAQTGE KLFQACGVIN LGPDNSTFLQ NVQRSAQQYD LPVETLNSTQ
+     IREKWPVFTV PDNYIAVFEP QSGYLRSELA VKTLIKAVTE AGCGILFNCP VTAIESHQAG
+     VDVVTIDGTY SATKVVVTAG TWVKELLPTL PVTPVRKVFS WHQADGRYSE ANHFPAFTVE
+     MPDNILYYGF PAQNDALKLG KHHGGQLIES AAQRKPFGRY AEDGTEVFSF LRHFLPGVGV
+     CLRGEACSYD MSPDEDFIID TLPEDERVMV VSGLSGHGFK FATALGEVAA LFAQDKPSPI
+     DISAFSLARF R
+//

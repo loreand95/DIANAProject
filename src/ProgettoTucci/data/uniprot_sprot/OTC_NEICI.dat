@@ -1,0 +1,149 @@
+ID   OTC_NEICI               Reviewed;         262 AA.
+AC   Q01322; O86378; O88141;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   12-AUG-2020, entry version 97.
+DE   RecName: Full=Ornithine carbamoyltransferase;
+DE            Short=OTCase;
+DE            EC=2.1.3.3;
+DE   Flags: Fragment;
+GN   Name=argF;
+OS   Neisseria cinerea.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=483;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LNP 1646;
+RX   PubMed=1406254; DOI=10.1111/j.1365-2958.1992.tb01387.x;
+RA   Zhou J., Spratt B.G.;
+RT   "Sequence diversity within the argF, fbp and recA genes of natural isolates
+RT   of Neisseria meningitidis: interspecies recombination within the argF
+RT   gene.";
+RL   Mol. Microbiol. 6:2135-2146(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 16-247.
+RC   STRAIN=ATCC 14685 / DSM 4630 / CIP 73.16 / NCTC 10294 / NRL 30003,
+RC   LCDC 81-176, and Vedros M601;
+RX   PubMed=10368955; DOI=10.1093/oxfordjournals.molbev.a026162;
+RA   Smith N.H., Holmes E.C., Donovan G.M., Carpenter G.A., Spratt B.G.;
+RT   "Networks and groups within the genus Neisseria: analysis of argF, recA,
+RT   rho, and 16S rRNA sequences from human Neisseria species.";
+RL   Mol. Biol. Evol. 16:773-783(1999).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-ornithine = H(+) + L-citrulline +
+CC         phosphate; Xref=Rhea:RHEA:19513, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46911, ChEBI:CHEBI:57743,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.3;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 1/3.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. OTCase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X64869; CAA46081.1; -; Genomic_DNA.
+DR   EMBL; AJ223890; CAA11621.1; -; Genomic_DNA.
+DR   EMBL; AJ223891; CAA11622.1; -; Genomic_DNA.
+DR   EMBL; AJ223892; CAA11623.1; -; Genomic_DNA.
+DR   PIR; S24718; S24718.
+DR   SMR; Q01322; -.
+DR   UniPathway; UPA00068; UER00112.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004585; F:ornithine carbamoyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.1370; -; 2.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; SSF53671; 1.
+DR   TIGRFAMs; TIGR00658; orni_carb_tr; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm; Transferase.
+FT   CHAIN           <1..>262
+FT                   /note="Ornithine carbamoyltransferase"
+FT                   /id="PRO_0000112958"
+FT   REGION          3..7
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          81..84
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          182..183
+FT                   /note="Ornithine binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          219..222
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         30
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         54
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         114
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         178
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         247
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            94
+FT                   /note="Important for structural integrity"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         50
+FT                   /note="G -> A (in strain: NCTC 10294)"
+FT   VARIANT         57..60
+FT                   /note="AQET -> GQDV (in strain: Vedros M601 and LCDC 81-
+FT                   176)"
+FT   VARIANT         57
+FT                   /note="A -> G (in strain: NCTC 10294)"
+FT   VARIANT         60
+FT                   /note="T -> V (in strain: NCTC 10294)"
+FT   VARIANT         108
+FT                   /note="I -> V (in strain: Vedros M601, LCDC 81-176 and NCTC
+FT                   10294)"
+FT   VARIANT         116
+FT                   /note="A -> G (in strain: NCTC 10294)"
+FT   VARIANT         121
+FT                   /note="V -> I (in strain: NCTC 10294)"
+FT   VARIANT         136..137
+FT                   /note="KT -> QS (in strain: NCTC 10294)"
+FT   VARIANT         143..153
+FT                   /note="NIVARARAVAE -> GIIAAAHAAAK (in strain: NCTC 10294)"
+FT   VARIANT         157
+FT                   /note="G -> A (in strain: NCTC 10294)"
+FT   VARIANT         160
+FT                   /note="L -> T (in strain: NCTC 10294)"
+FT   VARIANT         165..166
+FT                   /note="TK -> AH (in strain: NCTC 10294)"
+FT   VARIANT         171..172
+FT                   /note="GA -> NV (in strain: NCTC 10294)"
+FT   VARIANT         205
+FT                   /note="E -> D (in strain: Vedros M601 and LCDC 81-176)"
+FT   VARIANT         209
+FT                   /note="V -> A (in strain: Vedros M601, LCDC 81-176 and NCTC
+FT                   10294)"
+FT   VARIANT         213..214
+FT                   /note="SK -> PQ (in strain: Vedros M601, LCDC 81-176 and
+FT                   NCTC 10294)"
+FT   NON_TER         1
+FT   NON_TER         262
+SQ   SEQUENCE   262 AA;  29037 MW;  589D1721FD5E8B4A CRC64;
+     KTSTRTRCAF EVAARDQGAG VTYLEPSASQ IGHKESIKDT ARVLGRMYDG IEYRGFAQET
+     VEELAKYAGV PVFNGLTNEF HPTQMLADAL TMREHSGKPL NQTAFAYIGD ARYNMANSLL
+     VLGAKLGMDV RIGAPKTLWP SENIVARARA VAEETGGKIL LTENTKEAVK GADFIHTDVW
+     VSMGEPKEVW QERIDLLKDY RVTPELMAVS GNSKVKFMHC LPAFHNRETK VGEWIYETFG
+     LNGVEVTEEV FESPASIVFD QA
+//

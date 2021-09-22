@@ -1,0 +1,88 @@
+ID   PDRP_RICRO              Reviewed;         273 AA.
+AC   B0BVQ7;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   02-DEC-2020, entry version 69.
+DE   RecName: Full=Putative pyruvate, phosphate dikinase regulatory protein {ECO:0000255|HAMAP-Rule:MF_00921};
+DE            Short=PPDK regulatory protein {ECO:0000255|HAMAP-Rule:MF_00921};
+DE            EC=2.7.11.32 {ECO:0000255|HAMAP-Rule:MF_00921};
+DE            EC=2.7.4.27 {ECO:0000255|HAMAP-Rule:MF_00921};
+GN   OrderedLocusNames=RrIowa_0001;
+OS   Rickettsia rickettsii (strain Iowa).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=452659;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Iowa;
+RX   PubMed=18025092; DOI=10.1128/iai.00952-07;
+RA   Ellison D.W., Clark T.R., Sturdevant D.E., Virtaneva K., Porcella S.F.,
+RA   Hackstadt T.;
+RT   "Genomic comparison of virulent Rickettsia rickettsii Sheila Smith and
+RT   avirulent Rickettsia rickettsii Iowa.";
+RL   Infect. Immun. 76:542-550(2008).
+CC   -!- FUNCTION: Bifunctional serine/threonine kinase and phosphorylase
+CC       involved in the regulation of the pyruvate, phosphate dikinase (PPDK)
+CC       by catalyzing its phosphorylation/dephosphorylation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00921}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ADP + N(tele)-phospho-L-histidyl/L-threonyl-[pyruvate,
+CC         phosphate dikinase] = AMP + H(+) + N(tele)-phospho-L-histidyl/O-
+CC         phospho-L-threonyl-[pyruvate, phosphate dikinase];
+CC         Xref=Rhea:RHEA:43692, Rhea:RHEA-COMP:10650, Rhea:RHEA-COMP:10651,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:61977,
+CC         ChEBI:CHEBI:83586, ChEBI:CHEBI:456215, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.32; Evidence={ECO:0000255|HAMAP-Rule:MF_00921};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + N(tele)-phospho-L-histidyl/O-phospho-L-threonyl-
+CC         [pyruvate, phosphate dikinase] + phosphate = diphosphate + N(tele)-
+CC         phospho-L-histidyl/L-threonyl-[pyruvate, phosphate dikinase];
+CC         Xref=Rhea:RHEA:43696, Rhea:RHEA-COMP:10650, Rhea:RHEA-COMP:10651,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30013, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:61977, ChEBI:CHEBI:83586; EC=2.7.4.27;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00921};
+CC   -!- SIMILARITY: Belongs to the pyruvate, phosphate/water dikinase
+CC       regulatory protein family. PDRP subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00921}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000766; ABY71933.1; -; Genomic_DNA.
+DR   RefSeq; WP_012150225.1; NC_010263.3.
+DR   SMR; B0BVQ7; -.
+DR   STRING; 452659.RrIowa_0001; -.
+DR   EnsemblBacteria; ABY71933; ABY71933; RrIowa_0001.
+DR   GeneID; 45538607; -.
+DR   KEGG; rrj:RrIowa_0001; -.
+DR   eggNOG; COG1806; Bacteria.
+DR   HOGENOM; CLU_046206_2_0_5; -.
+DR   OMA; TSKTPTC; -.
+DR   BioCyc; RRIC452659:G1G9G-1-MONOMER; -.
+DR   Proteomes; UP000000796; Chromosome.
+DR   GO; GO:0043531; F:ADP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:InterPro.
+DR   GO; GO:0016776; F:phosphotransferase activity, phosphate group as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006470; P:protein dephosphorylation; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00921; PDRP; 1.
+DR   InterPro; IPR005177; Kinase-pyrophosphorylase.
+DR   InterPro; IPR026565; PPDK_reg.
+DR   PANTHER; PTHR31756; PTHR31756; 1.
+DR   Pfam; PF03618; Kinase-PPPase; 1.
+PE   3: Inferred from homology;
+KW   Kinase; Nucleotide-binding; Serine/threonine-protein kinase; Transferase.
+FT   CHAIN           1..273
+FT                   /note="Putative pyruvate, phosphate dikinase regulatory
+FT                   protein"
+FT                   /id="PRO_1000084470"
+FT   NP_BIND         149..156
+FT                   /note="ADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00921"
+SQ   SEQUENCE   273 AA;  31650 MW;  A588039EE17FC446 CRC64;
+     MTKLIIHLVS DSSVQTAKYA ANSALAQFTS VKPKLYHWPM IRNLELLNEV LSKIEYKHGI
+     VLYTIADQEL RKTLTKFCYE LKIPCISVIG KIIKEMSVFS GIEIEKEQNY NYKFDKTYFD
+     TLNAIDYAIR HDDGQMLNEL SEADIILIGP SRTSKTPTSV FLAYNGLKAA NIPYVYNCPF
+     PDFIEKDIDQ LVVGLVINPN RLIEIREARL NLLQINENKS YTDFNIVQKE CLEVRKICDQ
+     RNWPVIDVST RSIEETAALI MRIYYNRKNK YNK
+//

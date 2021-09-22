@@ -1,0 +1,90 @@
+ID   RLMI_SHEPC              Reviewed;         396 AA.
+AC   A4Y9L4;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase I {ECO:0000255|HAMAP-Rule:MF_01857};
+DE            EC=2.1.1.191 {ECO:0000255|HAMAP-Rule:MF_01857};
+DE   AltName: Full=23S rRNA m5C1962 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01857};
+DE   AltName: Full=rRNA (cytosine-C(5)-)-methyltransferase RlmI {ECO:0000255|HAMAP-Rule:MF_01857};
+GN   Name=rlmI {ECO:0000255|HAMAP-Rule:MF_01857};
+GN   OrderedLocusNames=Sputcn32_2932;
+OS   Shewanella putrefaciens (strain CN-32 / ATCC BAA-453).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=319224;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CN-32 / ATCC BAA-453;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chain P., Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Mikhailova N., Romine M.F., Fredrickson J.,
+RA   Tiedje J., Richardson P.;
+RT   "Complete sequence of Shewanella putrefaciens CN-32.";
+RL   Submitted (APR-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the cytosine at position 1962
+CC       (m5C1962) of 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1962) in 23S rRNA + S-adenosyl-L-methionine = 5-
+CC         methylcytidine(1962) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42912, Rhea:RHEA-COMP:10382, Rhea:RHEA-COMP:10386,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74483, ChEBI:CHEBI:82748; EC=2.1.1.191;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01857};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RlmI family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01857}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000681; ABP76647.1; -; Genomic_DNA.
+DR   RefSeq; WP_011788387.1; NC_009438.1.
+DR   SMR; A4Y9L4; -.
+DR   STRING; 319224.Sputcn32_2932; -.
+DR   EnsemblBacteria; ABP76647; ABP76647; Sputcn32_2932.
+DR   GeneID; 45043430; -.
+DR   KEGG; spc:Sputcn32_2932; -.
+DR   eggNOG; COG1092; Bacteria.
+DR   HOGENOM; CLU_014042_0_0_6; -.
+DR   OMA; VMDVFDY; -.
+DR   BioCyc; SPUT319224:G1G8R-3074-MONOMER; -.
+DR   Proteomes; UP000006699; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016434; F:rRNA (cytosine) methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.30.130.10; -; 1.
+DR   HAMAP; MF_01857; 23SrRNA_methyltr_I; 1.
+DR   InterPro; IPR002478; PUA.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   InterPro; IPR041532; RlmI_PUA-like.
+DR   InterPro; IPR023542; rRNA_lsu_MeTfrase_I.
+DR   InterPro; IPR019614; SAM-dep_methyl-trfase.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF10672; Methyltrans_SAM; 1.
+DR   Pfam; PF17785; PUA_3; 1.
+DR   SMART; SM00359; PUA; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   SUPFAM; SSF88697; SSF88697; 1.
+DR   PROSITE; PS50890; PUA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..396
+FT                   /note="Ribosomal RNA large subunit methyltransferase I"
+FT                   /id="PRO_0000366261"
+FT   DOMAIN          2..79
+FT                   /note="PUA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01857"
+SQ   SEQUENCE   396 AA;  44100 MW;  50213E116D4C93C0 CRC64;
+     MAIRIKLKPG REKSLERRHP WVFSNAIHNI KGKPEAGETV DVVAHDGHWL GRGAWSPESQ
+     IQVRIWTFDR EEEIDRAFFA RRLQRAQIGR NDLIREQGLT GYRLVAAESD GLPGITIDRY
+     ANVLVCQLLS TGADLWRDTL VELLAEQYPD CAIYERSDVD SRKKEGLLPV TGLLHGTLPE
+     MPVIIEENGI KIAVDVIKGH KTGFYLDQRD NRAIAARFVK DKSVLNCFCY TGTFGLYAAK
+     AGAASIENVD VSSLALATAR LNMQVNGLSD DNVHYNEADV FKLLRQYRDE GKTFDVIVLD
+     PPKFADNKAQ LNGACRGYKD INMIALQLLN PGGVLLTFSC SGLMPADLFQ KIVADAALDA
+     KREIQFIERL SQASDHPIGS AFPEGFYLKG LVARAW
+//

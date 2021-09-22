@@ -1,0 +1,118 @@
+ID   PGK_STRT2               Reviewed;         399 AA.
+AC   Q8VVB6; Q5M2M8;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 100.
+DE   RecName: Full=Phosphoglycerate kinase {ECO:0000255|HAMAP-Rule:MF_00145};
+DE            EC=2.7.2.3 {ECO:0000255|HAMAP-Rule:MF_00145};
+GN   Name=pgk {ECO:0000255|HAMAP-Rule:MF_00145}; OrderedLocusNames=stu1782;
+OS   Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=264199;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RA   van den Bogaard P.T.C., Kleerebezem M., Hols P., Crispie F., Kuipers O.P.,
+RA   de Vos W.M.;
+RT   "Modulation of glycolysis by lactose availability in Streptococcus
+RT   thermophilus.";
+RL   Submitted (NOV-2001) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-250 / LMG 18311;
+RX   PubMed=15543133; DOI=10.1038/nbt1034;
+RA   Bolotin A., Quinquis B., Renault P., Sorokin A., Ehrlich S.D.,
+RA   Kulakauskas S., Lapidus A., Goltsman E., Mazur M., Pusch G.D., Fonstein M.,
+RA   Overbeek R., Kyprides N., Purnelle B., Prozzi D., Ngui K., Masuy D.,
+RA   Hancy F., Burteau S., Boutry M., Delcour J., Goffeau A., Hols P.;
+RT   "Complete sequence and comparative genome analysis of the dairy bacterium
+RT   Streptococcus thermophilus.";
+RL   Nat. Biotechnol. 22:1554-1558(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2R)-3-phosphoglycerate + ATP = (2R)-3-phospho-glyceroyl
+CC         phosphate + ADP; Xref=Rhea:RHEA:14801, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:57604, ChEBI:CHEBI:58272, ChEBI:CHEBI:456216; EC=2.7.2.3;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00145};
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; pyruvate from D-
+CC       glyceraldehyde 3-phosphate: step 2/5. {ECO:0000255|HAMAP-
+CC       Rule:MF_00145}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   -!- SIMILARITY: Belongs to the phosphoglycerate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00145}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF442554; AAL35380.1; -; Genomic_DNA.
+DR   EMBL; CP000023; AAV61381.1; -; Genomic_DNA.
+DR   RefSeq; WP_011226568.1; NC_006448.1.
+DR   SMR; Q8VVB6; -.
+DR   STRING; 264199.stu1782; -.
+DR   EnsemblBacteria; AAV61381; AAV61381; stu1782.
+DR   KEGG; stl:stu1782; -.
+DR   PATRIC; fig|264199.4.peg.1759; -.
+DR   eggNOG; COG0126; Bacteria.
+DR   HOGENOM; CLU_025427_0_2_9; -.
+DR   OMA; DMIFDIG; -.
+DR   BioCyc; STHE264199:G1G41-1687-MONOMER; -.
+DR   UniPathway; UPA00109; UER00185.
+DR   Proteomes; UP000001170; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004618; F:phosphoglycerate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006096; P:glycolytic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1260; -; 2.
+DR   HAMAP; MF_00145; Phosphoglyc_kinase; 1.
+DR   InterPro; IPR001576; Phosphoglycerate_kinase.
+DR   InterPro; IPR015911; Phosphoglycerate_kinase_CS.
+DR   InterPro; IPR015824; Phosphoglycerate_kinase_N.
+DR   InterPro; IPR036043; Phosphoglycerate_kinase_sf.
+DR   PANTHER; PTHR11406; PTHR11406; 1.
+DR   Pfam; PF00162; PGK; 1.
+DR   PIRSF; PIRSF000724; Pgk; 1.
+DR   PRINTS; PR00477; PHGLYCKINASE.
+DR   SUPFAM; SSF53748; SSF53748; 1.
+DR   PROSITE; PS00111; PGLYCERATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Glycolysis; Kinase; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..399
+FT                   /note="Phosphoglycerate kinase"
+FT                   /id="PRO_0000146021"
+FT   NP_BIND         355..358
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   REGION          21..23
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   REGION          59..62
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         36
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         120
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         158
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         209
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         297
+FT                   /note="ATP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+FT   BINDING         328
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00145"
+SQ   SEQUENCE   399 AA;  42233 MW;  AC13244DFD0BB98F CRC64;
+     MAKLTVKDVE LKGKKVLVRV DFNVPVKDGV ITNDNRITAA LPTIKYILEQ GGRAILFSHL
+     GRVKEEADKE GKSLAPVAAD LAAKLGQDVK FIPGVTRGAE LEAAVNSLED GQVLLVENTR
+     FEDVDGKKES KNDPELGKYW ASLGDGIFVN DAFGTAHRAH ASNVGISANV EKAVAGFLLE
+     NEIAYIQEAV ENPERPFVAI LGGSKVSDKI GVIENLLEKA DKVLIGGGMT YTFFKAQGIE
+     IGNSLVEEDK LDVAKALLEK SNGKLILPVD SKEANAFADY TEVKYTEGEA VDPGFLGLDI
+     GPKSIAKFDE ALTGAKTVVW NGPMGVFENP DFQAGTIGVM DAIVKQPGVK SIIGGGDSAA
+     AAINLGYADK FSWISTGGGA SMELLEGKEL PGLAALTEK
+//

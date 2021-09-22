@@ -1,0 +1,120 @@
+ID   NODD2_HYPPI             Reviewed;         434 AA.
+AC   A0A2I6PIZ6;
+DT   10-APR-2019, integrated into UniProtKB/Swiss-Prot.
+DT   28-MAR-2018, sequence version 1.
+DT   26-FEB-2020, entry version 6.
+DE   RecName: Full=Indole diterpene prenyltransferase nodD2 {ECO:0000303|PubMed:29283570};
+DE            EC=2.5.1.- {ECO:0000305|PubMed:29283570};
+DE   AltName: Full=Nodulisporic acid biosynthesis cluster protein D2 {ECO:0000303|PubMed:29283570};
+GN   Name=nodD2 {ECO:0000303|PubMed:29283570};
+OS   Hypoxylon pulicicidum.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes;
+OC   Xylariomycetidae; Xylariales; Hypoxylaceae; Hypoxylon.
+OX   NCBI_TaxID=1243767;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], IDENTIFICATION, FUNCTION, AND PATHWAY.
+RC   STRAIN=MF5954 / ATCC 74245;
+RX   PubMed=29283570; DOI=10.1021/jacs.7b10909;
+RA   Van de Bittner K.C., Nicholson M.J., Bustamante L.Y., Kessans S.A., Ram A.,
+RA   van Dolleweerd C.J., Scott B., Parker E.J.;
+RT   "Heterologous biosynthesis of nodulisporic acid F.";
+RL   J. Am. Chem. Soc. 140:582-585(2018).
+CC   -!- FUNCTION: Indole diterpene prenyltransferase; part of the gene cluster
+CC       that mediates the biosynthesis of the indole diterpenes nodulisporic
+CC       acids (NA). Nodulisporic acid A (NAA) and its chemically modified
+CC       derivatives are of particular significance because of their highly
+CC       potent insecticidal activity against blood-feeding arthropods and lack
+CC       of observable adverse effects on mammals, in particular the
+CC       tremogenicity associated with the paspaline-derived IDTs is not
+CC       observed (PubMed:29283570). The geranylgeranyl diphosphate (GGPP)
+CC       synthase ggs1, localized outside of the cluster, is proposed to
+CC       catalyze the first step in nodulisporic acid biosynthesis via
+CC       conversion of farnesyl pyrophosphate and isopentyl pyrophosphate into
+CC       geranylgeranyl pyrophosphate (GGPP) (PubMed:29283570). Condensation of
+CC       indole-3-glycerol phosphate with GGPP by the prenyl transferase nodC
+CC       then forms 3-geranylgeranylindole (3-GGI) (PubMed:29283570).
+CC       Epoxidation by the FAD-dependent monooxygenase nodM leads to a single-
+CC       epoxidized-GGI that is substrate of the terpene cyclase nodB for
+CC       cyclization to yield emindole SB (PubMed:29283570). The terminal methyl
+CC       carbon, C28, of emindole SB is then oxidized by the cytochrome P450
+CC       monooxygenase nodW to produce nodulisporic acid F (NAF), the
+CC       pentacyclic core of NAA (PubMed:29283570). NAF is converted to
+CC       nodulisporic acid E (NAE) via prenylation. This step is probably
+CC       performed by one of the indole diterpene prenyltransferases nodD1 or
+CC       nodD2 (Probable). Several oxidation steps performed by the FAD-linked
+CC       oxidoreductase nodO and one of the cytochrome P450 monooxygenase nodR,
+CC       nodX or nodZ further convert NAE to nodulisporic acid D (NAD)
+CC       (Probable). NAD is substrate of cytochrome P450 monooxygenase nodJ to
+CC       produce the precursor of nodulisporic acid C (NAC), converted to NAC by
+CC       one of the indole diterpene prenyltransferases nodD1 or nodD2
+CC       (Probable). The FAD-dependent monooxygenase nodY2 then oxidizes NAC to
+CC       nodulisporic acid B (NAB) (Probable). Finally NAB is converted to NAA
+CC       by one of the cytochrome P450 monooxygenases nodR, nodX or nodZ
+CC       (Probable). {ECO:0000269|PubMed:29283570, ECO:0000305|PubMed:29283570}.
+CC   -!- PATHWAY: Secondary metabolite biosynthesis.
+CC       {ECO:0000305|PubMed:29283570}.
+CC   -!- SIMILARITY: Belongs to the tryptophan dimethylallyltransferase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; MG182145; AUM60055.1; -; Genomic_DNA.
+DR   SMR; A0A2I6PIZ6; -.
+DR   GO; GO:0016765; F:transferase activity, transferring alkyl or aryl (other than methyl) groups; IEA:InterPro.
+DR   GO; GO:0009820; P:alkaloid metabolic process; IEA:InterPro.
+DR   CDD; cd13929; PT-DMATS_CymD; 1.
+DR   InterPro; IPR017795; Aro_prenylTrfase_DMATS.
+DR   InterPro; IPR012148; DMATS-type_fun.
+DR   PANTHER; PTHR40627; PTHR40627; 1.
+DR   Pfam; PF11991; Trp_DMAT; 1.
+DR   PIRSF; PIRSF000509; Trp_DMAT; 1.
+DR   TIGRFAMs; TIGR03429; arom_pren_DMATS; 1.
+PE   3: Inferred from homology;
+KW   Transferase.
+FT   CHAIN           1..434
+FT                   /note="Indole diterpene prenyltransferase nodD2"
+FT                   /id="PRO_0000446556"
+FT   REGION          85..86
+FT                   /note="L-tryptophan binding"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         94
+FT                   /note="L-tryptophan"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         107
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         194
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         268
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         270
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         272
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         351
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         353
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         418
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+FT   BINDING         422
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:Q50EL0"
+SQ   SEQUENCE   434 AA;  49261 MW;  AA9FCC45107E57F3 CRC64;
+     MDSTGRQPLS QDGQPWQALA SGLGFPDEDQ KYWWSVMAPL LGELMKWANY PVDKQYLVLA
+     FCHEYILPFC GPRPTAEGGI FWPTLITKDG TPFEPSLNFY KNKATLRVGY APACELSGSN
+     DDPINQRAPI AALEHQKRVL PQQNLKWVDN FKKAWFIDND DAVALKARVH NELFEQAAVQ
+     CLIGYVFSDY TQVKVAMSPL WKSVQTGQQI SRVIWDTFRQ LGDDASSYLD CLSVLEEYTE
+     SKQAKLAQVQ PSFVNFDVNL KGDYQQSRLK VYYATPCTAF DTMVQVFTLG GRLKGPEVDH
+     AIECLRVLWP SVLAVPENHP DDQDLPRRYH SVAVTQFNFE LWPGAKLPVP QIYLPTNFYG
+     RDELEIAEGL EGFFKTLGWS EPFHAYKQNY IATCATPEGK WKAIQHDVSF SFKDSSPYVS
+     VYYKPELSVL SSPS
+//

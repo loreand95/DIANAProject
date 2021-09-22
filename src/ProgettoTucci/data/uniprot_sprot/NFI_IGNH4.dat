@@ -1,0 +1,88 @@
+ID   NFI_IGNH4               Reviewed;         211 AA.
+AC   A8A9B8;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   02-DEC-2020, entry version 63.
+DE   RecName: Full=Endonuclease V {ECO:0000255|HAMAP-Rule:MF_00801};
+DE            EC=3.1.21.7 {ECO:0000255|HAMAP-Rule:MF_00801};
+DE   AltName: Full=Deoxyinosine 3'endonuclease {ECO:0000255|HAMAP-Rule:MF_00801};
+DE   AltName: Full=Deoxyribonuclease V {ECO:0000255|HAMAP-Rule:MF_00801};
+DE            Short=DNase V {ECO:0000255|HAMAP-Rule:MF_00801};
+GN   Name=nfi {ECO:0000255|HAMAP-Rule:MF_00801}; OrderedLocusNames=Igni_0337;
+OS   Ignicoccus hospitalis (strain KIN4/I / DSM 18386 / JCM 14125).
+OC   Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+OC   Desulfurococcaceae; Ignicoccus.
+OX   NCBI_TaxID=453591;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KIN4/I / DSM 18386 / JCM 14125;
+RX   PubMed=19000309; DOI=10.1186/gb-2008-9-11-r158;
+RA   Podar M., Anderson I., Makarova K.S., Elkins J.G., Ivanova N., Wall M.A.,
+RA   Lykidis A., Mavromatis K., Sun H., Hudson M.E., Chen W., Deciu C.,
+RA   Hutchison D., Eads J.R., Anderson A., Fernandes F., Szeto E., Lapidus A.,
+RA   Kyrpides N.C., Saier M.H. Jr., Richardson P.M., Rachel R., Huber H.,
+RA   Eisen J.A., Koonin E.V., Keller M., Stetter K.O.;
+RT   "A genomic analysis of the archaeal system Ignicoccus hospitalis-
+RT   Nanoarchaeum equitans.";
+RL   Genome Biol. 9:R158.1-R158.18(2008).
+CC   -!- FUNCTION: DNA repair enzyme involved in the repair of deaminated bases.
+CC       Selectively cleaves double-stranded DNA at the second phosphodiester
+CC       bond 3' to a deoxyinosine leaving behind the intact lesion on the
+CC       nicked DNA. {ECO:0000255|HAMAP-Rule:MF_00801}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endonucleolytic cleavage at apurinic or apyrimidinic sites to
+CC         products with a 5'-phosphate.; EC=3.1.21.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00801};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00801};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00801}.
+CC   -!- SIMILARITY: Belongs to the endonuclease V family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00801}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000816; ABU81520.1; -; Genomic_DNA.
+DR   RefSeq; WP_011998372.1; NC_009776.1.
+DR   SMR; A8A9B8; -.
+DR   STRING; 453591.Igni_0337; -.
+DR   EnsemblBacteria; ABU81520; ABU81520; Igni_0337.
+DR   GeneID; 5562626; -.
+DR   KEGG; iho:Igni_0337; -.
+DR   eggNOG; arCOG00929; Archaea.
+DR   HOGENOM; CLU_047631_1_1_2; -.
+DR   OMA; GIATHIG; -.
+DR   OrthoDB; 80668at2157; -.
+DR   BioCyc; IHOS453591:G1G9W-351-MONOMER; -.
+DR   Proteomes; UP000000262; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0043737; F:deoxyribonuclease V activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-UniRule.
+DR   CDD; cd06559; Endonuclease_V; 1.
+DR   HAMAP; MF_00801; Endonuclease_5; 1.
+DR   InterPro; IPR007581; Endonuclease-V.
+DR   PANTHER; PTHR28511; PTHR28511; 1.
+DR   Pfam; PF04493; Endonuclease_5; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA damage; DNA repair; Endonuclease; Hydrolase; Magnesium;
+KW   Metal-binding; Nuclease; Reference proteome.
+FT   CHAIN           1..211
+FT                   /note="Endonuclease V"
+FT                   /id="PRO_1000083696"
+FT   METAL           37
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00801"
+FT   METAL           102
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00801"
+FT   SITE            73
+FT                   /note="Interaction with target DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00801"
+SQ   SEQUENCE   211 AA;  23551 MW;  8F9054D48B48C420 CRC64;
+     MTFDRRRASE LQRKLSELVK EEDCFDPEAV EAVGGLDVSY KGDVGVSALS LIDYKTLRPL
+     KHYYVVARVP IPYVPGFLAF REAPLHLTLI KKVKGYDLLL VDGHGRTHPR GLGIASHVGV
+     TSGVPTVGVA KRRLVGEEER CGERECLVHE GKVVAYVIRR GKQKLYVSVG HCVSLETAYQ
+     IVKRLTVRRL PEPIAWADRI SRSLARSLQL P
+//

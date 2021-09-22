@@ -1,0 +1,92 @@
+ID   EPI1_PHYIN              Reviewed;         149 AA.
+AC   Q6PQH2;
+DT   16-OCT-2019, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 42.
+DE   RecName: Full=Extracellular protease inhibitor 1 {ECO:0000303|PubMed:15096512};
+DE   AltName: Full=Secreted effector EPI1 {ECO:0000303|PubMed:15096512};
+DE   Flags: Precursor;
+GN   Name=EPI1 {ECO:0000303|PubMed:15096512};
+OS   Phytophthora infestans (Potato late blight fungus) (Botrytis infestans).
+OC   Eukaryota; Sar; Stramenopiles; Oomycota; Peronosporales; Peronosporaceae;
+OC   Phytophthora.
+OX   NCBI_TaxID=4787;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION, INTERACTION
+RP   WITH HOST P69B, AND INDUCTION.
+RC   STRAIN=90128;
+RX   PubMed=15096512; DOI=10.1074/jbc.m400941200;
+RA   Tian M., Huitema E., Da Cunha L., Torto-Alalibo T., Kamoun S.;
+RT   "A Kazal-like extracellular serine protease inhibitor from Phytophthora
+RT   infestans targets the tomato pathogenesis-related protease P69B.";
+RL   J. Biol. Chem. 279:26370-26377(2004).
+CC   -!- FUNCTION: Secreted effector that interacts with and inhibits the
+CC       pathogenesis-related P69B subtilisin-like serine protease of host
+CC       tomato (PubMed:15096512). Inhibition of host proteases by a pathogen
+CC       extracellular protease inhibitor forms a specific type of defense-
+CC       counterdefense mechanism between plants and microbial pathogens
+CC       (PubMed:15096512). {ECO:0000269|PubMed:15096512}.
+CC   -!- SUBUNIT: Interacts with host subtilisin-like protease P69B.
+CC       {ECO:0000269|PubMed:15096512}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:15096512}.
+CC       Note=Localizes to host apoplast where it targets defense proteases for
+CC       inhibition. {ECO:0000269|PubMed:15096512}.
+CC   -!- INDUCTION: Expressed during host infection with the highest mRNA levels
+CC       3 days post-inoculation (PubMed:15096512). EPI1 and its host target
+CC       P69B are concurrently expressed during infection of tomato by
+CC       P.infestans (PubMed:15096512). {ECO:0000269|PubMed:15096512}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY586273; AAT00500.1; -; mRNA.
+DR   MEROPS; I01.040; -.
+DR   PHI-base; PHI:4251; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004867; F:serine-type endopeptidase inhibitor activity; IEA:UniProtKB-KW.
+DR   GO; GO:0052054; P:negative regulation by symbiont of host peptidase activity; IDA:PAMGO_VMD.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   InterPro; IPR002350; Kazal_dom.
+DR   InterPro; IPR036058; Kazal_dom_sf.
+DR   Pfam; PF07648; Kazal_2; 2.
+DR   SMART; SM00280; KAZAL; 2.
+DR   SUPFAM; SSF100895; SSF100895; 2.
+DR   PROSITE; PS51465; KAZAL_2; 2.
+PE   1: Evidence at protein level;
+KW   Disulfide bond; Glycoprotein; Protease inhibitor; Repeat; Secreted;
+KW   Serine protease inhibitor; Signal; Virulence.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           17..149
+FT                   /note="Extracellular protease inhibitor 1"
+FT                   /id="PRO_5004278549"
+FT   DOMAIN          29..86
+FT                   /note="Kazal-like 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DOMAIN          88..141
+FT                   /note="Kazal-like 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   SITE            41..42
+FT                   /note="Reactive bond"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   SITE            100..101
+FT                   /note="Reactive bond"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   CARBOHYD        67
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00498"
+FT   DISULFID        35..65
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        39..58
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        94..124
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        98..117
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+FT   DISULFID        106..139
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00798"
+SQ   SEQUENCE   149 AA;  16097 MW;  27AD694A4497F188 CRC64;
+     MKSALLFTLV VAAVHAQSPQ VISPAPRRES NEIDCPEYCL DVYDPVGDGE GNTYSNECYM
+     KRAKCHNETT PPAWKDLVLI TGSSTGEQPP SKKCSTVCPD VELPVCGSNR VRYGNPCELR
+     IAACEHPELN IVEDSGKACV GSKVTPQEG
+//

@@ -1,0 +1,88 @@
+ID   NCSB3_STRCZ             Reviewed;         410 AA.
+AC   Q84HB6;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=2-hydroxy-5-methyl-1-naphthoate 7-hydroxylase {ECO:0000303|PubMed:15797213};
+DE            EC=1.14.15.31 {ECO:0000269|PubMed:20735485};
+DE   AltName: Full=Neocarzinostatin biosynthesis protein B3 {ECO:0000305};
+DE   AltName: Full=P450 hydroxylase {ECO:0000303|PubMed:20735485};
+GN   Name=ncsB3 {ECO:0000303|PubMed:15797213};
+OS   Streptomyces carzinostaticus.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=1897;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PATHWAY.
+RC   STRAIN=ATCC 15944 / E-793 / F-51;
+RX   PubMed=15797213; DOI=10.1016/j.chembiol.2004.12.013;
+RA   Liu W., Nonaka K., Nie L., Zhang J., Christenson S.D., Bae J.,
+RA   Van Lanen S.G., Zazopoulos E., Farnet C.M., Yang C.F., Shen B.;
+RT   "The neocarzinostatin biosynthetic gene cluster from Streptomyces
+RT   carzinostaticus ATCC 15944 involving two iterative type I polyketide
+RT   synthases.";
+RL   Chem. Biol. 12:293-302(2005).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=20735485; DOI=10.1111/j.1574-6968.2010.02075.x;
+RA   Hang V.T., Oh T.J., Yamaguchi T., Sohng J.K.;
+RT   "In vivo characterization of NcsB3 to establish the complete biosynthesis
+RT   of the naphthoic acid moiety of the neocarzinostatin chromophore.";
+RL   FEMS Microbiol. Lett. 311:119-125(2010).
+CC   -!- FUNCTION: Involved in the biosynthesis of the naphthoic acid (NA)
+CC       moiety in the chromophore of the enedyine antitumor antibiotic
+CC       neocarzinostatin (NCS). Catalyzes the hydroxylation at C-7 position of
+CC       2-hydroxy-5-methyl-1-naphthoate to yield 2,7-dihydroxy-5-methyl-1-
+CC       naphthoate. {ECO:0000269|PubMed:20735485}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-hydroxy-5-methyl-1-naphthoate + 2 H(+) + O2 + 2 reduced
+CC         [2Fe-2S]-[ferredoxin] = 2,7-dihydroxy-5-methyl-1-naphthoate + H2O + 2
+CC         oxidized [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:42828, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:15379, ChEBI:CHEBI:33737,
+CC         ChEBI:CHEBI:33738, ChEBI:CHEBI:78281, ChEBI:CHEBI:82757;
+CC         EC=1.14.15.31; Evidence={ECO:0000269|PubMed:20735485};
+CC   -!- COFACTOR:
+CC       Name=heme; Xref=ChEBI:CHEBI:30413;
+CC         Evidence={ECO:0000250|UniProtKB:Q00441};
+CC   -!- PATHWAY: Antibiotic biosynthesis. {ECO:0000305|PubMed:15797213}.
+CC   -!- SIMILARITY: Belongs to the cytochrome P450 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY117439; AAM77997.1; -; Genomic_DNA.
+DR   SMR; Q84HB6; -.
+DR   KEGG; ag:AAM77997; -.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:InterPro.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016705; F:oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen; IDA:UniProtKB.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.630.10; -; 1.
+DR   InterPro; IPR001128; Cyt_P450.
+DR   InterPro; IPR002397; Cyt_P450_B.
+DR   InterPro; IPR017972; Cyt_P450_CS.
+DR   InterPro; IPR036396; Cyt_P450_sf.
+DR   Pfam; PF00067; p450; 1.
+DR   PRINTS; PR00359; BP450.
+DR   SUPFAM; SSF48264; SSF48264; 1.
+DR   PROSITE; PS00086; CYTOCHROME_P450; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; Heme; Iron; Metal-binding; Monooxygenase;
+KW   Oxidoreductase.
+FT   CHAIN           1..410
+FT                   /note="2-hydroxy-5-methyl-1-naphthoate 7-hydroxylase"
+FT                   /id="PRO_0000430703"
+FT   METAL           350
+FT                   /note="Iron (heme axial ligand)"
+FT                   /evidence="ECO:0000250|UniProtKB:Q00441"
+SQ   SEQUENCE   410 AA;  45493 MW;  4646AB890FDACF42 CRC64;
+     MCPYRLDPEG ADTHGETARL REQGPIARVE LQDGVLAWSV HDYAVAKQIM ADERFSKNPR
+     KNWPAYINGE ISNGWPLITW VAMDTMATQD GADHARLRKL LLKAFTERRV ESMRPHIEKT
+     VKELLDNMAA KADDEIVDIK EMFHAELPTR LMCDLFGVPE ERRAEVLAGG HKNIDTRISS
+     EAAEANLGQW QEAISDLVEY KRHHPGDDLT SALIEARDEG SRLSDSELIG TLHLLLGAGS
+     ETLVNALAHS SLALLVDADL RKKVTSGEIP WVNVWEETLR VESPVAHLPF RYATEDFEIG
+     GVKISKGDPL LVDFAGIGRD PAVHSDAPDE FDALRPDKTH LSFGHGVHYC LGARLAKHAW
+     MIGIPALFER FPDMELAVRR DELKGQGSFV VNGHASLPVH LKGRAAALAR
+//

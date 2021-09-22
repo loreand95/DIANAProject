@@ -1,0 +1,115 @@
+ID   MALT_PHOLL              Reviewed;         904 AA.
+AC   Q7N976;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 114.
+DE   RecName: Full=HTH-type transcriptional regulator MalT {ECO:0000255|HAMAP-Rule:MF_01247};
+DE   AltName: Full=ATP-dependent transcriptional activator MalT {ECO:0000255|HAMAP-Rule:MF_01247};
+GN   Name=malT {ECO:0000255|HAMAP-Rule:MF_01247}; OrderedLocusNames=plu0471;
+OS   Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 /
+OS   TT01).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Photorhabdus.
+OX   NCBI_TaxID=243265;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15139 / CIP 105565 / TT01;
+RX   PubMed=14528314; DOI=10.1038/nbt886;
+RA   Duchaud E., Rusniok C., Frangeul L., Buchrieser C., Givaudan A.,
+RA   Taourit S., Bocs S., Boursaux-Eude C., Chandler M., Charles J.-F.,
+RA   Dassa E., Derose R., Derzelle S., Freyssinet G., Gaudriault S., Medigue C.,
+RA   Lanois A., Powell K., Siguier P., Vincent R., Wingate V., Zouine M.,
+RA   Glaser P., Boemare N., Danchin A., Kunst F.;
+RT   "The genome sequence of the entomopathogenic bacterium Photorhabdus
+RT   luminescens.";
+RL   Nat. Biotechnol. 21:1307-1313(2003).
+CC   -!- FUNCTION: Positively regulates the transcription of the maltose regulon
+CC       whose gene products are responsible for uptake and catabolism of malto-
+CC       oligosaccharides. Specifically binds to the promoter region of its
+CC       target genes, recognizing a short DNA motif called the MalT box.
+CC       {ECO:0000255|HAMAP-Rule:MF_01247}.
+CC   -!- ACTIVITY REGULATION: Activated by ATP and maltotriose, which are both
+CC       required for DNA binding. {ECO:0000255|HAMAP-Rule:MF_01247}.
+CC   -!- SUBUNIT: Monomer in solution. Oligomerizes to an active state in the
+CC       presence of the positive effectors ATP and maltotriose.
+CC       {ECO:0000255|HAMAP-Rule:MF_01247}.
+CC   -!- SIMILARITY: Belongs to the MalT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01247}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571860; CAE12766.1; -; Genomic_DNA.
+DR   RefSeq; WP_011144857.1; NC_005126.1.
+DR   SMR; Q7N976; -.
+DR   STRING; 243265.plu0471; -.
+DR   PRIDE; Q7N976; -.
+DR   EnsemblBacteria; CAE12766; CAE12766; plu0471.
+DR   GeneID; 57252214; -.
+DR   KEGG; plu:plu0471; -.
+DR   eggNOG; COG2909; Bacteria.
+DR   HOGENOM; CLU_006325_3_0_6; -.
+DR   OMA; SDWVSNA; -.
+DR   OrthoDB; 1377603at2; -.
+DR   BioCyc; PLUM243265:PLU_RS02300-MONOMER; -.
+DR   Proteomes; UP000002514; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003700; F:DNA-binding transcription factor activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0045913; P:positive regulation of carbohydrate metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045893; P:positive regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   CDD; cd06170; LuxR_C_like; 1.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   Gene3D; 1.25.40.10; -; 1.
+DR   HAMAP; MF_01247; HTH_type_MalT; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR016032; Sig_transdc_resp-reg_C-effctor.
+DR   InterPro; IPR011990; TPR-like_helical_dom_sf.
+DR   InterPro; IPR041617; TPR_MalT.
+DR   InterPro; IPR023768; Tscrpt_reg_HTH_MalT.
+DR   InterPro; IPR000792; Tscrpt_reg_LuxR_C.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   Pfam; PF00196; GerE; 1.
+DR   Pfam; PF17874; TPR_MalT; 1.
+DR   PRINTS; PR00038; HTHLUXR.
+DR   SMART; SM00421; HTH_LUXR; 1.
+DR   SUPFAM; SSF46894; SSF46894; 1.
+DR   SUPFAM; SSF48452; SSF48452; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00622; HTH_LUXR_1; 1.
+DR   PROSITE; PS50043; HTH_LUXR_2; 1.
+PE   3: Inferred from homology;
+KW   Activator; ATP-binding; Carbohydrate metabolism; DNA-binding;
+KW   Nucleotide-binding; Reference proteome; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..904
+FT                   /note="HTH-type transcriptional regulator MalT"
+FT                   /id="PRO_0000184166"
+FT   DOMAIN          832..897
+FT                   /note="HTH luxR-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01247"
+FT   NP_BIND         39..46
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01247"
+FT   DNA_BIND        856..875
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01247"
+SQ   SEQUENCE   904 AA;  103872 MW;  84FC3A19038FF779 CRC64;
+     MLIPSKLSRP VRLNNTVLRE RLLIRLNESS NYRLVLITSP AGYGKTTLVS QWAAGQDNLG
+     WYSLDESDNQ PERFASYLIA ALQQATQGHC VKSEVLAQKH QYANLPALFA QLFIELSEWR
+     RPIFLVIDDY HLIVNNMIHE AMRFFLRHQP ENLTLTILSR NLPSLGVANL RVREQLLEID
+     SQQLAFDYQE TQQFFDKRLT TSLDADDCKR LCNEVAGWAT ALQLIALSAR QSCDAAELSA
+     KRLSGINAGH LSDYLVDEVL NQVGSSTREF LLRSSILRSM NDGLIVRLTG EENGQQRLEE
+     TERQGLFIQR MDDSGEWFRF HPLFASFLRQ RCQWEMALQL PELHRAAAEG WLAQGYPGEA
+     IHHALAAGDT AMLRDILLQH AWSLFNHSEL SLLEECMNAL PYEQLLESPR LVLLQAWLAQ
+     SQHRYSEVNT LLNQAEQALQ QKQIAIEPDL LAEFDALRAQ VAMNSGKPEM ADKLAKQALA
+     ALLPQNEYSR IVATSVEGEV LHCRGELADA LARMQQTEQL ARRFHVHHYA LWALLQQSEI
+     LLAQGYLQTA YETQNKAFEL IREQHLEQLP MHEFLLRIRS QLLWCWSRLD EAEEAARRGL
+     EVLSNFQPQQ QLQCLTQLAK CSLTRGDIDN ARRYLARCEN LLSNGQYHRD WRTNTDKLRV
+     IIWQSMDDKS AAIRWLAQTE RPESVSNHFN QGQWRNIARA QILLGLYDEA ESILDTLNQH
+     ARELQLISDL NRNLLLCNLL YWHIGRKSEA QSALIEALSL ANRTGFISHF VIEGELMAQQ
+     LRQLIQLNTL SELELHRAQR ILRDINRQHR HKFAHFDESF VTQLLTHPDV PELIRNSPLT
+     QREWQVLGLI YSGYSNDQIA AELDVATTTI KTHIRNLYQK LGIANRQEAI QQAQQLMQMM
+     GLGV
+//

@@ -1,0 +1,122 @@
+ID   PDXJ_HELPJ              Reviewed;         262 AA.
+AC   Q9ZJ29;
+DT   08-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1999, sequence version 1.
+DT   02-DEC-2020, entry version 114.
+DE   RecName: Full=Pyridoxine 5'-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00279};
+DE            Short=PNP synthase {ECO:0000255|HAMAP-Rule:MF_00279};
+DE            EC=2.6.99.2 {ECO:0000255|HAMAP-Rule:MF_00279};
+GN   Name=pdxJ {ECO:0000255|HAMAP-Rule:MF_00279}; OrderedLocusNames=jhp_1489;
+OS   Helicobacter pylori (strain J99 / ATCC 700824) (Campylobacter pylori J99).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=85963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=J99 / ATCC 700824;
+RX   PubMed=9923682; DOI=10.1038/16495;
+RA   Alm R.A., Ling L.-S.L., Moir D.T., King B.L., Brown E.D., Doig P.C.,
+RA   Smith D.R., Noonan B., Guild B.C., deJonge B.L., Carmel G., Tummino P.J.,
+RA   Caruso A., Uria-Nickelsen M., Mills D.M., Ives C., Gibson R., Merberg D.,
+RA   Mills S.D., Jiang Q., Taylor D.E., Vovis G.F., Trust T.J.;
+RT   "Genomic sequence comparison of two unrelated isolates of the human gastric
+RT   pathogen Helicobacter pylori.";
+RL   Nature 397:176-180(1999).
+CC   -!- FUNCTION: Catalyzes the complicated ring closure reaction between the
+CC       two acyclic compounds 1-deoxy-D-xylulose-5-phosphate (DXP) and 3-amino-
+CC       2-oxopropyl phosphate (1-amino-acetone-3-phosphate or AAP) to form
+CC       pyridoxine 5'-phosphate (PNP) and inorganic phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00279}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-deoxy-D-xylulose 5-phosphate + 3-amino-2-oxopropyl phosphate
+CC         = H(+) + 2 H2O + phosphate + pyridoxine 5'-phosphate;
+CC         Xref=Rhea:RHEA:15265, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57279, ChEBI:CHEBI:57792,
+CC         ChEBI:CHEBI:58589; EC=2.6.99.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00279};
+CC   -!- PATHWAY: Cofactor biosynthesis; pyridoxine 5'-phosphate biosynthesis;
+CC       pyridoxine 5'-phosphate from D-erythrose 4-phosphate: step 5/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_00279}.
+CC   -!- SUBUNIT: Homooctamer; tetramer of dimers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00279}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00279}.
+CC   -!- SIMILARITY: Belongs to the PNP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00279}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE001439; AAD07063.1; -; Genomic_DNA.
+DR   PIR; C71801; C71801.
+DR   RefSeq; WP_001210881.1; NZ_CP011330.1.
+DR   SMR; Q9ZJ29; -.
+DR   STRING; 85963.jhp_1489; -.
+DR   EnsemblBacteria; AAD07063; AAD07063; jhp_1489.
+DR   KEGG; hpj:jhp_1489; -.
+DR   PATRIC; fig|85963.30.peg.1052; -.
+DR   eggNOG; COG0854; Bacteria.
+DR   OMA; TSNAGWD; -.
+DR   BioCyc; HPYL85963:G1G1A-1598-MONOMER; -.
+DR   UniPathway; UPA00244; UER00313.
+DR   Proteomes; UP000000804; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0033856; F:pyridoxine 5'-phosphate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008615; P:pyridoxine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00003; PNPsynthase; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00279; PdxJ; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR004569; PyrdxlP_synth_PdxJ.
+DR   InterPro; IPR036130; Pyridoxine-5'_phos_synth.
+DR   PANTHER; PTHR30456; PTHR30456; 1.
+DR   Pfam; PF03740; PdxJ; 1.
+DR   SUPFAM; SSF63892; SSF63892; 1.
+DR   TIGRFAMs; TIGR00559; pdxJ; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Pyridoxine biosynthesis; Transferase.
+FT   CHAIN           1..262
+FT                   /note="Pyridoxine 5'-phosphate synthase"
+FT                   /id="PRO_0000190118"
+FT   REGION          8..9
+FT                   /note="1-deoxy-D-xylulose 5-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   REGION          237..238
+FT                   /note="3-amino-2-oxopropyl phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   ACT_SITE        43
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   ACT_SITE        70
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   ACT_SITE        215
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         6
+FT                   /note="3-amino-2-oxopropyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         17
+FT                   /note="3-amino-2-oxopropyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         45
+FT                   /note="1-deoxy-D-xylulose 5-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         50
+FT                   /note="1-deoxy-D-xylulose 5-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         102
+FT                   /note="1-deoxy-D-xylulose 5-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   BINDING         216
+FT                   /note="3-amino-2-oxopropyl phosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+FT   SITE            151
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00279"
+SQ   SEQUENCE   262 AA;  29767 MW;  6A95D8EF1821A755 CRC64;
+     MRFGLNIDHI VTLREVRKTY EPEILEALFI AKNTHKVDLI TIHLREDKRH IQNEDVLRLL
+     EISPLPINIE CSINAEITDF LCSLKNKPSK VTIVPENRNE VTTEGGLDCS LKGLEEVIRA
+     YHNKGIEVSL FVDPLKDALH FAKEHQVKQV EFHTGVYANL HNALYSNANN QIHAISTLKD
+     KCPKELKEEL HNAFLQLRRM SKEAFFMGIV VCAGHGLNYS NVKELLKIPS LRELNIGHSV
+     VSKAVLVGLE KAILEMAQLI KR
+//

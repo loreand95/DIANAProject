@@ -1,0 +1,113 @@
+ID   GUAC_SHIFL              Reviewed;         347 AA.
+AC   Q83SM9;
+DT   15-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   10-FEB-2021, entry version 118.
+DE   RecName: Full=GMP reductase {ECO:0000255|HAMAP-Rule:MF_00596};
+DE            EC=1.7.1.7 {ECO:0000255|HAMAP-Rule:MF_00596};
+DE   AltName: Full=Guanosine 5'-monophosphate oxidoreductase {ECO:0000255|HAMAP-Rule:MF_00596};
+DE            Short=Guanosine monophosphate reductase {ECO:0000255|HAMAP-Rule:MF_00596};
+GN   Name=guaC {ECO:0000255|HAMAP-Rule:MF_00596};
+GN   OrderedLocusNames=SF0101, S0103;
+OS   Shigella flexneri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=301 / Serotype 2a;
+RX   PubMed=12384590; DOI=10.1093/nar/gkf566;
+RA   Jin Q., Yuan Z., Xu J., Wang Y., Shen Y., Lu W., Wang J., Liu H., Yang J.,
+RA   Yang F., Zhang X., Zhang J., Yang G., Wu H., Qu D., Dong J., Sun L.,
+RA   Xue Y., Zhao A., Gao Y., Zhu J., Kan B., Ding K., Chen S., Cheng H.,
+RA   Yao Z., He B., Chen R., Ma D., Qiang B., Wen Y., Hou Y., Yu J.;
+RT   "Genome sequence of Shigella flexneri 2a: insights into pathogenicity
+RT   through comparison with genomes of Escherichia coli K12 and O157.";
+RL   Nucleic Acids Res. 30:4432-4441(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700930 / 2457T / Serotype 2a;
+RX   PubMed=12704152; DOI=10.1128/iai.71.5.2775-2786.2003;
+RA   Wei J., Goldberg M.B., Burland V., Venkatesan M.M., Deng W., Fournier G.,
+RA   Mayhew G.F., Plunkett G. III, Rose D.J., Darling A., Mau B., Perna N.T.,
+RA   Payne S.M., Runyen-Janecky L.J., Zhou S., Schwartz D.C., Blattner F.R.;
+RT   "Complete genome sequence and comparative genomics of Shigella flexneri
+RT   serotype 2a strain 2457T.";
+RL   Infect. Immun. 71:2775-2786(2003).
+CC   -!- FUNCTION: Catalyzes the irreversible NADPH-dependent deamination of GMP
+CC       to IMP. It functions in the conversion of nucleobase, nucleoside and
+CC       nucleotide derivatives of G to A nucleotides, and in maintaining the
+CC       intracellular balance of A and G nucleotides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00596}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=IMP + NADP(+) + NH4(+) = GMP + 2 H(+) + NADPH;
+CC         Xref=Rhea:RHEA:17185, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58053, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58349; EC=1.7.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00596};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00596}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family. GuaC type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00596}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005674; AAN41766.1; -; Genomic_DNA.
+DR   EMBL; AE014073; AAP15647.1; -; Genomic_DNA.
+DR   RefSeq; NP_706059.1; NC_004337.2.
+DR   RefSeq; WP_001217323.1; NZ_WPGW01000007.1.
+DR   SMR; Q83SM9; -.
+DR   EnsemblBacteria; AAN41766; AAN41766; SF0101.
+DR   EnsemblBacteria; AAP15647; AAP15647; S0103.
+DR   GeneID; 1024535; -.
+DR   KEGG; sfl:SF0101; -.
+DR   KEGG; sfx:S0103; -.
+DR   PATRIC; fig|198214.7.peg.115; -.
+DR   HOGENOM; CLU_022552_5_3_6; -.
+DR   OMA; AYKEYFG; -.
+DR   OrthoDB; 532857at2; -.
+DR   Proteomes; UP000001006; Chromosome.
+DR   Proteomes; UP000002673; Chromosome.
+DR   GO; GO:1902560; C:GMP reductase complex; IEA:InterPro.
+DR   GO; GO:0003920; F:GMP reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0006163; P:purine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00381; IMPDH; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00596; GMP_reduct_type1; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR005993; GMPR.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000235; GMP_reductase; 1.
+DR   TIGRFAMs; TIGR01305; GMP_reduct_1; 1.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   Metal-binding; NADP; Oxidoreductase; Potassium; Reference proteome.
+FT   CHAIN           1..347
+FT                   /note="GMP reductase"
+FT                   /id="PRO_0000093740"
+FT   NP_BIND         108..131
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   NP_BIND         216..239
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   ACT_SITE        186
+FT                   /note="Thioimidate intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   METAL           181
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+FT   METAL           183
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00596"
+SQ   SEQUENCE   347 AA;  37384 MW;  F7C919837982EB40 CRC64;
+     MRIEEDLKLG FKDVLIRPKR STLKSRSDVE LERQFTFKHS GQSWSGVPII AANMDTVGTF
+     SMASALASFD ILTAVHKHFS VEEWQAFINN SSADVLKHVM VSTGTSDADF EKTKQILDLN
+     PALNFVCIDV ANGYSEHFVQ FVAKAREAWP TKTICAGNVV TGEMCEELIL SGADIVKVGI
+     GPGSVCTTRV KTGVGYPQLS AVIECADAAH GLGGMIVSDG GCTTPGDVAK AFGGGADFVM
+     LGGMLAGHEE SGGRIVEENG EKFMLFYGMS SESAMKRHVG GVAEYRAAEG KTVKLPLRGQ
+     VENTARDILG GLRSACTYVG ASRLKELTKR TTFIRVLEQE NRIFNNL
+//

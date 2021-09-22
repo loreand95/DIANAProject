@@ -1,0 +1,121 @@
+ID   SYD_LEUCK               Reviewed;         589 AA.
+AC   B1MY98;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   10-FEB-2021, entry version 85.
+DE   RecName: Full=Aspartate--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            EC=6.1.1.12 {ECO:0000255|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Aspartyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            Short=AspRS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   Name=aspS {ECO:0000255|HAMAP-Rule:MF_00044}; OrderedLocusNames=LCK_00668;
+OS   Leuconostoc citreum (strain KM20).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae;
+OC   Leuconostoc.
+OX   NCBI_TaxID=349519;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KM20;
+RX   PubMed=18281406; DOI=10.1128/jb.01862-07;
+RA   Kim J.F., Jeong H., Lee J.-S., Choi S.-H., Ha M., Hur C.-G., Kim J.-S.,
+RA   Lee S., Park H.-S., Park Y.-H., Oh T.K.;
+RT   "Complete genome sequence of Leuconostoc citreum KM20.";
+RL   J. Bacteriol. 190:3093-3094(2008).
+CC   -!- FUNCTION: Catalyzes the attachment of L-aspartate to tRNA(Asp) in a
+CC       two-step reaction: L-aspartate is first activated by ATP to form Asp-
+CC       AMP and then transferred to the acceptor end of tRNA(Asp).
+CC       {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-aspartate + tRNA(Asp) = AMP + diphosphate + L-
+CC         aspartyl-tRNA(Asp); Xref=Rhea:RHEA:19649, Rhea:RHEA-COMP:9660,
+CC         Rhea:RHEA-COMP:9678, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78516,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.12; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00044};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ489736; ACA82500.1; -; Genomic_DNA.
+DR   RefSeq; WP_004907210.1; NC_010471.1.
+DR   SMR; B1MY98; -.
+DR   STRING; 349519.LCK_00668; -.
+DR   EnsemblBacteria; ACA82500; ACA82500; LCK_00668.
+DR   KEGG; lci:LCK_00668; -.
+DR   eggNOG; COG0173; Bacteria.
+DR   HOGENOM; CLU_014330_3_2_9; -.
+DR   OMA; YQLDVEM; -.
+DR   OrthoDB; 226836at2; -.
+DR   Proteomes; UP000002166; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004815; F:aspartate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006422; P:aspartyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.30; -; 1.
+DR   HAMAP; MF_00044; Asp_tRNA_synth_type1; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004524; Asp-tRNA-ligase_1.
+DR   InterPro; IPR002312; Asp/Asn-tRNA-synth_IIb.
+DR   InterPro; IPR004115; GAD-like_sf.
+DR   InterPro; IPR029351; GAD_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   PANTHER; PTHR22594:SF5; PTHR22594:SF5; 1.
+DR   Pfam; PF02938; GAD; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR01042; TRNASYNTHASP.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF55261; SSF55261; 1.
+DR   TIGRFAMs; TIGR00459; aspS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..589
+FT                   /note="Aspartate--tRNA ligase"
+FT                   /id="PRO_1000091010"
+FT   NP_BIND         220..222
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   NP_BIND         536..539
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   REGION          198..201
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         174
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         220
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         229
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         448
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         484
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         491
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+SQ   SEQUENCE   589 AA;  66595 MW;  85FDD9A807D06A6A CRC64;
+     MKRTTYAGLV DEKYLNQTVT LSGWVQKRRD FGDLIFVDLR DREGIVQLTF NATHAEALAV
+     AENMRNEYVI SVTGQVVRRE ASQINNKIHS GQIEIDVIEA EILATSKTPP FYIEDNVNAN
+     EELKLQYRYL DLRRPEMQKN LRIRSKIMSS AMHFMDQNDF INIETPILAK STPEGARDYL
+     VPSRIFPGSF YALPQSPQLF KQLLMGSGFD RYFQIARAFR DEDLRGDRQP EFTQMDVETS
+     FMSADEIREL VNAWVKAMMS DVVNFDLDTT KIPTLTWQES MDRFGTDKPD LRIAYELKDV
+     SETVKSSEFG VFAKAVEAGG VVKAIAVPGG AENYSRKDID KMAQYIERFG AKGLAWLKVT
+     DEGISGPIAK FFPNHAALLQ VTGAKPGDLL LFGAGRNDIV AATLDYLRRQ TAKDLNLIDM
+     TNPWAFAWIV DWPLFEYSED FDRWIAAHHP FTMPNEEDLH YLDDGEDPHQ AHAQSYDLVL
+     NGYELGSGSI RIHRMDIQEK MLKALGFTPE AAHEAFGFLL EGMTFGFPPM GGIALGLDRL
+     AMLLAGQENI REVIAFPKNS RATEPMTQAP TRVDHKQVND LGLFVSDVE
+//

@@ -1,0 +1,119 @@
+ID   CARA_BACCR              Reviewed;         365 AA.
+AC   Q819S2;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 2.
+DT   10-FEB-2021, entry version 127.
+DE   RecName: Full=Carbamoyl-phosphate synthase small chain {ECO:0000255|HAMAP-Rule:MF_01209};
+DE            EC=6.3.5.5 {ECO:0000255|HAMAP-Rule:MF_01209};
+DE   AltName: Full=Carbamoyl-phosphate synthetase glutamine chain {ECO:0000255|HAMAP-Rule:MF_01209};
+GN   Name=carA {ECO:0000255|HAMAP-Rule:MF_01209}; OrderedLocusNames=BC_3887;
+OS   Bacillus cereus (strain ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB
+OS   9373 / NRRL B-3711).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=226900;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14579 / DSM 31 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NRRL
+RC   B-3711;
+RX   PubMed=12721630; DOI=10.1038/nature01582;
+RA   Ivanova N., Sorokin A., Anderson I., Galleron N., Candelon B., Kapatral V.,
+RA   Bhattacharyya A., Reznik G., Mikhailova N., Lapidus A., Chu L., Mazur M.,
+RA   Goltsman E., Larsen N., D'Souza M., Walunas T., Grechkin Y., Pusch G.,
+RA   Haselkorn R., Fonstein M., Ehrlich S.D., Overbeek R., Kyrpides N.C.;
+RT   "Genome sequence of Bacillus cereus and comparative analysis with Bacillus
+RT   anthracis.";
+RL   Nature 423:87-91(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 ATP + H2O + hydrogencarbonate + L-glutamine = 2 ADP +
+CC         carbamoyl phosphate + 2 H(+) + L-glutamate + phosphate;
+CC         Xref=Rhea:RHEA:18633, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17544, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58228, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:456216; EC=6.3.5.5; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01209};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; carbamoyl
+CC       phosphate from bicarbonate: step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via de novo pathway;
+CC       (S)-dihydroorotate from bicarbonate: step 1/3. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SUBUNIT: Composed of two chains; the small (or glutamine) chain
+CC       promotes the hydrolysis of glutamine to ammonia, which is used by the
+CC       large (or ammonia) chain to synthesize carbamoyl phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_01209}.
+CC   -!- SIMILARITY: Belongs to the CarA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01209}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAP10808.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016877; AAP10808.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_833607.1; NC_004722.1.
+DR   RefSeq; WP_000828686.1; NZ_CP034551.1.
+DR   SMR; Q819S2; -.
+DR   MetOSite; Q819S2; -.
+DR   EnsemblBacteria; AAP10808; AAP10808; BC_3887.
+DR   KEGG; bce:BC3887; -.
+DR   PATRIC; fig|226900.8.peg.4009; -.
+DR   HOGENOM; CLU_035901_2_1_9; -.
+DR   OMA; CFNTGMT; -.
+DR   UniPathway; UPA00068; UER00171.
+DR   UniPathway; UPA00070; UER00115.
+DR   Proteomes; UP000001417; Chromosome.
+DR   GO; GO:0005951; C:carbamoyl-phosphate synthase complex; IBA:GO_Central.
+DR   GO; GO:0005737; C:cytoplasm; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004088; F:carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006207; P:'de novo' pyrimidine nucleobase biosynthetic process; IEA:InterPro.
+DR   GO; GO:0044205; P:'de novo' UMP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IBA:GO_Central.
+DR   CDD; cd01744; GATase1_CPSase; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   Gene3D; 3.50.30.20; -; 1.
+DR   HAMAP; MF_01209; CPSase_S_chain; 1.
+DR   InterPro; IPR006274; CarbamoylP_synth_ssu.
+DR   InterPro; IPR002474; CarbamoylP_synth_ssu_N.
+DR   InterPro; IPR036480; CarbP_synth_ssu_N_sf.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR035686; CPSase_GATase1.
+DR   InterPro; IPR017926; GATASE.
+DR   Pfam; PF00988; CPSase_sm_chain; 1.
+DR   Pfam; PF00117; GATase; 1.
+DR   SMART; SM01097; CPSase_sm_chain; 1.
+DR   SUPFAM; SSF52021; SSF52021; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01368; CPSaseIIsmall; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; ATP-binding;
+KW   Glutamine amidotransferase; Ligase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Reference proteome.
+FT   CHAIN           1..365
+FT                   /note="Carbamoyl-phosphate synthase small chain"
+FT                   /id="PRO_0000112249"
+FT   DOMAIN          170..357
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01209"
+FT   REGION          1..166
+FT                   /note="CPSase"
+FT   ACT_SITE        245
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01209"
+FT   ACT_SITE        330
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01209"
+FT   ACT_SITE        332
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01209"
+SQ   SEQUENCE   365 AA;  40362 MW;  0C08E19086E4665A CRC64;
+     MKRQLILEDG TVLIGTGFGG EIEKSGEVVF TTGMTGYQET LSDPSYCGQI VTFTYPLIGN
+     YGINRDDFES IHPSVNGLIV NEICNHPSNF RNEISLNDYL KERNIPGLAG IDTRKLTRKI
+     RQYGTLRGRL CNMDADVEYI VSQLKATVFT DHVKRVSTKD PYPSPGRGHR VVLVDFGMKH
+     GILRELNKRD CDVIVVPYNT TAEEILRLSP DGIMLSNGPG DPKDVPEAIE MLKDIIGKVP
+     LFGICLGHQL FALASGANTS KLKFGHRGLN HPVKNLATGK VAITSQNHGY AVEEESVENT
+     DLEITHVALN DGTVEGLRHK KFPAFTVQYH PEASAGPEDA NDLFEDFLTM IENFKKEGEE
+     LCQNA
+//

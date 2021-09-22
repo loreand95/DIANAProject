@@ -1,0 +1,103 @@
+ID   ASTD_PSEFS              Reviewed;         488 AA.
+AC   C3JXY7;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   07-APR-2021, entry version 88.
+DE   RecName: Full=N-succinylglutamate 5-semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01174};
+DE            EC=1.2.1.71 {ECO:0000255|HAMAP-Rule:MF_01174};
+DE   AltName: Full=Succinylglutamic semialdehyde dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01174};
+DE            Short=SGSD {ECO:0000255|HAMAP-Rule:MF_01174};
+GN   Name=astD {ECO:0000255|HAMAP-Rule:MF_01174}; OrderedLocusNames=PFLU_4754;
+OS   Pseudomonas fluorescens (strain SBW25).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=216595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SBW25;
+RX   PubMed=19432983; DOI=10.1186/gb-2009-10-5-r51;
+RA   Silby M.W., Cerdeno-Tarraga A.M., Vernikos G.S., Giddens S.R.,
+RA   Jackson R.W., Preston G.M., Zhang X.-X., Moon C.D., Gehrig S.M.,
+RA   Godfrey S.A.C., Knight C.G., Malone J.G., Robinson Z., Spiers A.J.,
+RA   Harris S., Challis G.L., Yaxley A.M., Harris D., Seeger K., Murphy L.,
+RA   Rutter S., Squares R., Quail M.A., Saunders E., Mavromatis K.,
+RA   Brettin T.S., Bentley S.D., Hothersall J., Stephens E., Thomas C.M.,
+RA   Parkhill J., Levy S.B., Rainey P.B., Thomson N.R.;
+RT   "Genomic and genetic analyses of diversity and plant interactions of
+RT   Pseudomonas fluorescens.";
+RL   Genome Biol. 10:R51.1-R51.16(2009).
+CC   -!- FUNCTION: Catalyzes the NAD-dependent reduction of succinylglutamate
+CC       semialdehyde into succinylglutamate. {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-succinyl-L-glutamate 5-semialdehyde + NAD(+) = 2 H(+)
+CC         + N-succinyl-L-glutamate + NADH; Xref=Rhea:RHEA:10812,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:58520, ChEBI:CHEBI:58763; EC=1.2.1.71;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01174};
+CC   -!- PATHWAY: Amino-acid degradation; L-arginine degradation via AST
+CC       pathway; L-glutamate and succinate from L-arginine: step 4/5.
+CC       {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family. AstD
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01174}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM181176; CAY51578.1; -; Genomic_DNA.
+DR   RefSeq; WP_015885473.1; NC_012660.1.
+DR   SMR; C3JXY7; -.
+DR   STRING; 216595.PFLU_4754; -.
+DR   PRIDE; C3JXY7; -.
+DR   EnsemblBacteria; CAY51578; CAY51578; PFLU_4754.
+DR   KEGG; pfs:PFLU_4754; -.
+DR   PATRIC; fig|216595.4.peg.4888; -.
+DR   eggNOG; COG1012; Bacteria.
+DR   HOGENOM; CLU_005391_1_0_6; -.
+DR   OMA; NWNKQLT; -.
+DR   OrthoDB; 744602at2; -.
+DR   BioCyc; PFLU216595:G1G1K-7267-MONOMER; -.
+DR   UniPathway; UPA00185; UER00282.
+DR   Proteomes; UP000002332; Chromosome.
+DR   GO; GO:0043824; F:succinylglutamate-semialdehyde dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019544; P:arginine catabolic process to glutamate; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019545; P:arginine catabolic process to succinate; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07095; ALDH_SGSD_AstD; 1.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   HAMAP; MF_01174; Aldedh_AstD; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   InterPro; IPR017649; SuccinylGlu_semiald_DH_AstD.
+DR   PANTHER; PTHR11699:SF197; PTHR11699:SF197; 1.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR03240; arg_catab_astD; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   3: Inferred from homology;
+KW   Arginine metabolism; NAD; Oxidoreductase.
+FT   CHAIN           1..488
+FT                   /note="N-succinylglutamate 5-semialdehyde dehydrogenase"
+FT                   /id="PRO_1000213743"
+FT   NP_BIND         221..226
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+FT   ACT_SITE        244
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+FT   ACT_SITE        278
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01174"
+SQ   SEQUENCE   488 AA;  51512 MW;  4A3B5764CB4BA347 CRC64;
+     MNSLYIAGSW LAGQGELFES RNPVTQHVLW AGNGATAEQV ESAVQAARQA FPAWARRPLE
+     ERISVLETFA ATLKNRADEI ARCIGEETGK PLWESVTEVT SMANKIAISV QSYRERTGEK
+     SGPLGDATAV LRHKPHGVVA VFGPYNFPGH LPNGHIVPAL LAGNTVLFKP SELTPKVAEL
+     TVQCWIEAGL PAGVLNLLQG ARETGIALAA NPGIDGLFFT GSSRTGNHLH QQFSGRPDKI
+     LALEMGGNNP LVVDEVADVD AAVYTIIQSA FISAGQRCTC ARRLLVPEGA WGDALLARLV
+     AVSATIAVGA FDQQPAPFMG SVISLAAAKA LMDAQELMLA NGAVALLEMT QPQDQAALLT
+     PGIIDVTGVT AREDEELFGP LLQVIRYADF AAAIAEANNT QYGLAAGLLS DSEARYQQFW
+     LESRAGIVNW NKQLTGAAST APFGGVGASG NHRASAYYAA DYCAYPVASL ETPSLVVPAT
+     LTPGVRLS
+//

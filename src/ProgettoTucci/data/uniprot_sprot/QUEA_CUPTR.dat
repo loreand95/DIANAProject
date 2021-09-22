@@ -1,0 +1,86 @@
+ID   QUEA_CUPTR              Reviewed;         355 AA.
+AC   B3R6J3;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   10-FEB-2021, entry version 75.
+DE   RecName: Full=S-adenosylmethionine:tRNA ribosyltransferase-isomerase {ECO:0000255|HAMAP-Rule:MF_00113};
+DE            EC=2.4.99.17 {ECO:0000255|HAMAP-Rule:MF_00113};
+DE   AltName: Full=Queuosine biosynthesis protein QueA {ECO:0000255|HAMAP-Rule:MF_00113};
+GN   Name=queA {ECO:0000255|HAMAP-Rule:MF_00113}; OrderedLocusNames=RALTA_A2587;
+OS   Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CCUG 44338 / CIP
+OS   107171 / LMG 19424 / R1) (Ralstonia taiwanensis (strain LMG 19424)).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Cupriavidus.
+OX   NCBI_TaxID=977880;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17343 / BCRC 17206 / CIP 107171 / LMG 19424 / R1;
+RX   PubMed=18490699; DOI=10.1101/gr.076448.108;
+RA   Amadou C., Pascal G., Mangenot S., Glew M., Bontemps C., Capela D.,
+RA   Carrere S., Cruveiller S., Dossat C., Lajus A., Marchetti M., Poinsot V.,
+RA   Rouy Z., Servin B., Saad M., Schenowitz C., Barbe V., Batut J., Medigue C.,
+RA   Masson-Boivin C.;
+RT   "Genome sequence of the beta-rhizobium Cupriavidus taiwanensis and
+RT   comparative genomics of rhizobia.";
+RL   Genome Res. 18:1472-1483(2008).
+CC   -!- FUNCTION: Transfers and isomerizes the ribose moiety from AdoMet to the
+CC       7-aminomethyl group of 7-deazaguanine (preQ1-tRNA) to give
+CC       epoxyqueuosine (oQ-tRNA). {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanosine(34) in tRNA + S-adenosyl-L-
+CC         methionine = adenine + epoxyqueuosine(34) in tRNA + H(+) + L-
+CC         methionine; Xref=Rhea:RHEA:32155, Rhea:RHEA-COMP:10342, Rhea:RHEA-
+CC         COMP:10346, ChEBI:CHEBI:15378, ChEBI:CHEBI:16708, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:82833, ChEBI:CHEBI:82834;
+CC         EC=2.4.99.17; Evidence={ECO:0000255|HAMAP-Rule:MF_00113};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00113}.
+CC   -!- SIMILARITY: Belongs to the QueA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00113}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU633749; CAQ70518.1; -; Genomic_DNA.
+DR   RefSeq; WP_012353814.1; NC_010528.1.
+DR   STRING; 977880.RALTA_A2587; -.
+DR   EnsemblBacteria; CAQ70518; CAQ70518; RALTA_A2587.
+DR   KEGG; cti:RALTA_A2587; -.
+DR   eggNOG; COG0809; Bacteria.
+DR   HOGENOM; CLU_039110_1_0_4; -.
+DR   OMA; YSYGDGM; -.
+DR   OrthoDB; 368001at2; -.
+DR   BioCyc; CTAI977880:RALTA_RS12585-MONOMER; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000001692; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016853; F:isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016740; F:transferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.40.10.240; -; 1.
+DR   Gene3D; 3.40.1780.10; -; 1.
+DR   HAMAP; MF_00113; QueA; 1.
+DR   InterPro; IPR003699; QueA.
+DR   InterPro; IPR042118; QueA_dom1.
+DR   InterPro; IPR042119; QueA_dom2.
+DR   InterPro; IPR036100; QueA_sf.
+DR   PANTHER; PTHR30307; PTHR30307; 1.
+DR   Pfam; PF02547; Queuosine_synth; 1.
+DR   SUPFAM; SSF111337; SSF111337; 1.
+DR   TIGRFAMs; TIGR00113; queA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Queuosine biosynthesis; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..355
+FT                   /note="S-adenosylmethionine:tRNA ribosyltransferase-
+FT                   isomerase"
+FT                   /id="PRO_1000094771"
+SQ   SEQUENCE   355 AA;  38882 MW;  D479203F295B5C42 CRC64;
+     MLTLSDFDFP LPPELIAQSA LPDRSASRLL VVERLAPGDT ADAVHMADRA FSDIVDYLRP
+     DDLLVFNDTR VIKARFFGHK PSGGKVEVLV ERVLDTHTVL AQVRASKTPV EGSALHLADD
+     AFAVTVGPRV DQFFTLRFPE PALDLIERYG RLPLPPYITH DPDAYDETRY QTVYARSPGA
+     VAAPTAGLHF DDALFARLDA AGVRRAFLTL HVGAGTFQPV RTENLAEHKM HSEWYAISED
+     LAQAVRETRA RGGRVIAVGT TSLRALESAA QPDGTLAAGS GDTDIFITPG YRFRLVDALI
+     TNFHLPKSTL LMLVSALAGV QAIRAAYRHA VEQRYRFFSY GDAMLLTRQP DAAAA
+//

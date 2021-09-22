@@ -1,0 +1,108 @@
+ID   RLMKL_MANSM             Reviewed;         715 AA.
+AC   Q65UK6;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   02-DEC-2020, entry version 107.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase K/L {ECO:0000255|HAMAP-Rule:MF_01858};
+DE   Includes:
+DE     RecName: Full=23S rRNA m2G2445 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01858};
+DE              EC=2.1.1.173 {ECO:0000255|HAMAP-Rule:MF_01858};
+DE     AltName: Full=rRNA (guanine-N(2)-)-methyltransferase RlmL {ECO:0000255|HAMAP-Rule:MF_01858};
+DE   Includes:
+DE     RecName: Full=23S rRNA m7G2069 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01858};
+DE              EC=2.1.1.264 {ECO:0000255|HAMAP-Rule:MF_01858};
+DE     AltName: Full=rRNA (guanine-N(7)-)-methyltransferase RlmK {ECO:0000255|HAMAP-Rule:MF_01858};
+GN   Name=rlmL {ECO:0000255|HAMAP-Rule:MF_01858}; OrderedLocusNames=MS0747;
+OS   Mannheimia succiniciproducens (strain MBEL55E).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Basfia.
+OX   NCBI_TaxID=221988;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MBEL55E;
+RX   PubMed=15378067; DOI=10.1038/nbt1010;
+RA   Hong S.H., Kim J.S., Lee S.Y., In Y.H., Choi S.S., Rih J.-K., Kim C.H.,
+RA   Jeong H., Hur C.G., Kim J.J.;
+RT   "The genome sequence of the capnophilic rumen bacterium Mannheimia
+RT   succiniciproducens.";
+RL   Nat. Biotechnol. 22:1275-1281(2004).
+CC   -!- FUNCTION: Specifically methylates the guanine in position 2445
+CC       (m2G2445) and the guanine in position 2069 (m7G2069) of 23S rRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(2445) in 23S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(2)-methylguanosine(2445) in 23S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42740, Rhea:RHEA-COMP:10215, Rhea:RHEA-COMP:10216,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74269, ChEBI:CHEBI:74481; EC=2.1.1.173;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01858};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(2069) in 23S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(2)-methylguanosine(2069) in 23S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:43772, Rhea:RHEA-COMP:10688, Rhea:RHEA-COMP:10689,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74269, ChEBI:CHEBI:74481; EC=2.1.1.264;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01858};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RlmKL family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016827; AAU37354.1; -; Genomic_DNA.
+DR   RefSeq; WP_011199926.1; NC_006300.1.
+DR   SMR; Q65UK6; -.
+DR   STRING; 221988.MS0747; -.
+DR   PRIDE; Q65UK6; -.
+DR   EnsemblBacteria; AAU37354; AAU37354; MS0747.
+DR   KEGG; msu:MS0747; -.
+DR   eggNOG; COG0116; Bacteria.
+DR   eggNOG; COG1092; Bacteria.
+DR   HOGENOM; CLU_014042_2_0_6; -.
+DR   OMA; WIRGYEA; -.
+DR   OrthoDB; 307177at2; -.
+DR   BioCyc; MSUC221988:MS_RS03470-MONOMER; -.
+DR   Proteomes; UP000000607; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052915; F:23S rRNA (guanine(2445)-N(2))-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01858; 23SrRNA_methyltr_KL; 1.
+DR   InterPro; IPR017244; 23SrRNA_methyltr_KL.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR000241; RNA_methylase_dom.
+DR   InterPro; IPR019614; SAM-dep_methyl-trfase.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR004114; THUMP_dom.
+DR   Pfam; PF10672; Methyltrans_SAM; 1.
+DR   Pfam; PF02926; THUMP; 1.
+DR   Pfam; PF01170; UPF0020; 1.
+DR   PIRSF; PIRSF037618; RNA_Mtase_bacteria_prd; 1.
+DR   SMART; SM00981; THUMP; 1.
+DR   SUPFAM; SSF53335; SSF53335; 2.
+DR   PROSITE; PS51165; THUMP; 1.
+DR   PROSITE; PS01261; UPF0020; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; RNA-binding; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..715
+FT                   /note="Ribosomal RNA large subunit methyltransferase K/L"
+FT                   /id="PRO_0000366774"
+FT   DOMAIN          43..154
+FT                   /note="THUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01858"
+SQ   SEQUENCE   715 AA;  81275 MW;  9B4EEF7EC847319C CRC64;
+     MKELFATTAR GFEELLKLEL SSLGATECQV AQGGVHFMAD DETQYRALLW SRLSSRILLP
+     IVKTKIYSDL DLYSAVVRQN WLAYFDERVR FLVDFNGTNR EIRHTQFGAM RVKDGIVDYF
+     ERNGKARPNV DKDYPDIRIH AYLNRDDLVL SLDLSGEALH LRGYREDSGA APLRETLAAA
+     IVLRSGWKQG TPLVDPMCGS GTLLIEAAQM EAKIAPQLHR MHWGFDFWRG HNQAAWEKVK
+     REAVAMAEAE FNKNPNPHFY GFDLDHRVLQ KAQRNAQNAG VAHLIKWKQG DVAALKNPTP
+     EDKGTVICNP PYGERLGTTP ALIALYSVFG QRLKEQFPGW NASIFSSEQG LLDCLRMRSH
+     RQFKAKNGPL DCIQKNYQIS DRTLSPENKS AVENAGEFKP NANVATDFAN RLQKNIKKIE
+     KWAKQEGIEA YRLYDADLPD YNLAVDHYGD HIVVQEYAAP KNIDENKARQ RLLDAVTATL
+     AVTGVETNKL ILKVRQKQKG ANQYEKLANK GEYFYVNEYG AKLWVNLTDY LDTGLFLDHR
+     LTRRMVGQMA KGKDFLNLFA YTGSATVHAA LGGAKSTTTV DMSNTYLNWA EQNLILNEAD
+     GKQHKLIQAD CLQWLANCAQ QFDLIFVDPP TFSNSKRMED SWDVQRDHIK LMGNLKRILR
+     PNGTIVFSNN KRGFKMDFEG LTRLGLKAEE ISAKTLPLDF ERNKQIHNCW IVEFV
+//

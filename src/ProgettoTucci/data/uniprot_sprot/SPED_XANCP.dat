@@ -1,0 +1,149 @@
+ID   SPED_XANCP              Reviewed;         264 AA.
+AC   Q9X4I6;
+DT   24-OCT-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1999, sequence version 1.
+DT   07-APR-2021, entry version 119.
+DE   RecName: Full=S-adenosylmethionine decarboxylase proenzyme {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            Short=AdoMetDC {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            Short=SAMDC {ECO:0000255|HAMAP-Rule:MF_00465};
+DE            EC=4.1.1.50 {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase beta chain {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Contains:
+DE     RecName: Full=S-adenosylmethionine decarboxylase alpha chain {ECO:0000255|HAMAP-Rule:MF_00465};
+DE   Flags: Precursor;
+GN   Name=speD {ECO:0000255|HAMAP-Rule:MF_00465}; OrderedLocusNames=XCC0473;
+OS   Xanthomonas campestris pv. campestris (strain ATCC 33913 / DSM 3586 / NCPPB
+OS   528 / LMG 568 / P 25).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=190485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Xc17;
+RA   Tseng Y.H., Lee T.C.;
+RT   "Xanthomonas campestris locus eps8 involved in xanthan polysaccharide
+RT   synthesis contains clp gene.";
+RL   Submitted (MAR-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33913 / DSM 3586 / NCPPB 528 / LMG 568 / P 25;
+RX   PubMed=12024217; DOI=10.1038/417459a;
+RA   da Silva A.C.R., Ferro J.A., Reinach F.C., Farah C.S., Furlan L.R.,
+RA   Quaggio R.B., Monteiro-Vitorello C.B., Van Sluys M.A., Almeida N.F. Jr.,
+RA   Alves L.M.C., do Amaral A.M., Bertolini M.C., Camargo L.E.A., Camarotte G.,
+RA   Cannavan F., Cardozo J., Chambergo F., Ciapina L.P., Cicarelli R.M.B.,
+RA   Coutinho L.L., Cursino-Santos J.R., El-Dorry H., Faria J.B.,
+RA   Ferreira A.J.S., Ferreira R.C.C., Ferro M.I.T., Formighieri E.F.,
+RA   Franco M.C., Greggio C.C., Gruber A., Katsuyama A.M., Kishi L.T.,
+RA   Leite R.P., Lemos E.G.M., Lemos M.V.F., Locali E.C., Machado M.A.,
+RA   Madeira A.M.B.N., Martinez-Rossi N.M., Martins E.C., Meidanis J.,
+RA   Menck C.F.M., Miyaki C.Y., Moon D.H., Moreira L.M., Novo M.T.M.,
+RA   Okura V.K., Oliveira M.C., Oliveira V.R., Pereira H.A., Rossi A.,
+RA   Sena J.A.D., Silva C., de Souza R.F., Spinola L.A.F., Takita M.A.,
+RA   Tamura R.E., Teixeira E.C., Tezza R.I.D., Trindade dos Santos M.,
+RA   Truffi D., Tsai S.M., White F.F., Setubal J.C., Kitajima J.P.;
+RT   "Comparison of the genomes of two Xanthomonas pathogens with differing host
+RT   specificities.";
+RL   Nature 417:459-463(2002).
+CC   -!- FUNCTION: Catalyzes the decarboxylation of S-adenosylmethionine to S-
+CC       adenosylmethioninamine (dcAdoMet), the propylamine donor required for
+CC       the synthesis of the polyamines spermine and spermidine from the
+CC       diamine putrescine. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + S-adenosyl-L-methionine = CO2 + S-adenosyl 3-
+CC         (methylsulfanyl)propylamine; Xref=Rhea:RHEA:15981, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:57443, ChEBI:CHEBI:59789; EC=4.1.1.50;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00465};
+CC   -!- COFACTOR:
+CC       Name=pyruvate; Xref=ChEBI:CHEBI:15361;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00465};
+CC       Note=Binds 1 pyruvoyl group covalently per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00465};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; S-adenosylmethioninamine
+CC       biosynthesis; S-adenosylmethioninamine from S-adenosyl-L-methionine:
+CC       step 1/1. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- SUBUNIT: Heterooctamer of four alpha and four beta chains arranged as a
+CC       tetramer of alpha/beta heterodimers. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- PTM: Is synthesized initially as an inactive proenzyme. Formation of
+CC       the active enzyme involves a self-maturation process in which the
+CC       active site pyruvoyl group is generated from an internal serine residue
+CC       via an autocatalytic post-translational modification. Two non-identical
+CC       subunits are generated from the proenzyme in this reaction, and the
+CC       pyruvate is formed at the N-terminus of the alpha chain, which is
+CC       derived from the carboxyl end of the proenzyme. The post-translation
+CC       cleavage follows an unusual pathway, termed non-hydrolytic serinolysis,
+CC       in which the side chain hydroxyl group of the serine supplies its
+CC       oxygen atom to form the C-terminus of the beta chain, while the
+CC       remainder of the serine residue undergoes an oxidative deamination to
+CC       produce ammonia and the pyruvoyl group blocking the N-terminus of the
+CC       alpha chain. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   -!- SIMILARITY: Belongs to the prokaryotic AdoMetDC family. Type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00465}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF111840; AAD20600.1; -; Genomic_DNA.
+DR   EMBL; AE008922; AAM39791.1; -; Genomic_DNA.
+DR   RefSeq; NP_635867.1; NC_003902.1.
+DR   RefSeq; WP_005990692.1; NC_003902.1.
+DR   STRING; 340.xcc-b100_0503; -.
+DR   EnsemblBacteria; AAM39791; AAM39791; XCC0473.
+DR   GeneID; 46982672; -.
+DR   GeneID; 58020833; -.
+DR   KEGG; xcc:XCC0473; -.
+DR   PATRIC; fig|190485.4.peg.520; -.
+DR   eggNOG; COG1586; Bacteria.
+DR   HOGENOM; CLU_092007_0_0_6; -.
+DR   OMA; HVTVHTY; -.
+DR   UniPathway; UPA00331; UER00451.
+DR   Proteomes; UP000001010; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004014; F:adenosylmethionine decarboxylase activity; IBA:GO_Central.
+DR   GO; GO:0006557; P:S-adenosylmethioninamine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008295; P:spermidine biosynthetic process; IBA:GO_Central.
+DR   HAMAP; MF_00465; AdoMetDC_2; 1.
+DR   InterPro; IPR003826; AdoMetDC_fam_prok.
+DR   InterPro; IPR009165; S-AdoMet_deCO2ase_bac.
+DR   InterPro; IPR016067; S-AdoMet_deCO2ase_core.
+DR   PANTHER; PTHR33866; PTHR33866; 1.
+DR   Pfam; PF02675; AdoMet_dc; 1.
+DR   PIRSF; PIRSF001356; SAM_decarboxylas; 1.
+DR   SUPFAM; SSF56276; SSF56276; 1.
+DR   TIGRFAMs; TIGR03331; SAM_DCase_Eco; 1.
+PE   3: Inferred from homology;
+KW   Autocatalytic cleavage; Decarboxylase; Lyase; Polyamine biosynthesis;
+KW   Pyruvate; Reference proteome; S-adenosyl-L-methionine; Schiff base;
+KW   Spermidine biosynthesis; Zymogen.
+FT   CHAIN           1..112
+FT                   /note="S-adenosylmethionine decarboxylase beta chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT                   /id="PRO_0000030067"
+FT   CHAIN           113..264
+FT                   /note="S-adenosylmethionine decarboxylase alpha chain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT                   /id="PRO_0000030068"
+FT   ACT_SITE        113
+FT                   /note="Schiff-base intermediate with substrate; via pyruvic
+FT                   acid"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   ACT_SITE        118
+FT                   /note="Proton acceptor; for processing activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   ACT_SITE        141
+FT                   /note="Proton donor; for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   SITE            112..113
+FT                   /note="Cleavage (non-hydrolytic); by autolysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+FT   MOD_RES         113
+FT                   /note="Pyruvic acid (Ser); by autocatalysis"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00465"
+SQ   SEQUENCE   264 AA;  30815 MW;  68AFBDF6403E03AB CRC64;
+     MVKPLPRLRL QGFNNLTKAL SFNIYDVCYA RTEEERQRYI EYIDEQYDAD RLTQILTDVA
+     EIIGANILNI ARQDYDPQGA SVTILISEEP VIDKKQAGKE LISDAVVAHM DKSHITVHTY
+     PETHPQEGIA TFRADIDVAT CGVISPLKAL NYLIESLESD IVIMDYRVRG FTRDVKGKKH
+     YIDHKINSIQ HFLAKNVKSR YEMFDVNVYQ ENIFHTKMHL KDFDLDQYLF EERAKNLSFK
+     ERMKIETLLK REIEELFHGR NLSE
+//

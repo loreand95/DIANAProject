@@ -1,0 +1,123 @@
+ID   NFS1_CANMA              Reviewed;         484 AA.
+AC   P87187; P87188; P87189;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   11-DEC-2019, entry version 91.
+DE   RecName: Full=Cysteine desulfurase, mitochondrial {ECO:0000250|UniProtKB:P25374};
+DE            EC=2.8.1.7 {ECO:0000250|UniProtKB:P25374};
+DE   AltName: Full=tRNA-splicing protein SPL1 {ECO:0000303|PubMed:9544248};
+DE   Flags: Precursor;
+GN   Name=SPL1 {ECO:0000303|PubMed:9544248};
+OS   Candida maltosa (Yeast).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Debaryomycetaceae; Candida/Lodderomyces clade; Candida.
+OX   NCBI_TaxID=5479;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CHAU1, and L4;
+RX   PubMed=9544248;
+RX   DOI=10.1002/(sici)1097-0061(199802)14:3<287::aid-yea213>3.0.co;2-u;
+RA   Plant E.P., Becher D., Poulter R.T.M.;
+RT   "The SPL1 tRNA splicing gene of Candida maltosa and Candida albicans.";
+RL   Yeast 14:287-295(1998).
+CC   -!- FUNCTION: Catalyzes the removal of elemental sulfur from cysteine to
+CC       produce alanine. It supplies the inorganic sulfur for iron-sulfur (Fe-
+CC       S) clusters. Plays a role in both tRNA-processing and mitochondrial
+CC       metabolism. Involved in the 2-thio-modification of both 5-
+CC       carboxymethylaminomethyl-2-thiouridine in mitochondrial tRNAs and 5-
+CC       methoxycarbonylmethyl-2-thiouridine (mcm5s2U) in cytoplasmic tRNAs.
+CC       {ECO:0000250|UniProtKB:P25374}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[sulfur carrier]-H + L-cysteine = [sulfur carrier]-SH + L-
+CC         alanine; Xref=Rhea:RHEA:43892, Rhea:RHEA-COMP:14737, Rhea:RHEA-
+CC         COMP:14739, ChEBI:CHEBI:29917, ChEBI:CHEBI:35235, ChEBI:CHEBI:57972,
+CC         ChEBI:CHEBI:64428; EC=2.8.1.7;
+CC         Evidence={ECO:0000250|UniProtKB:P25374};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000250|UniProtKB:P0A6B9};
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000250|UniProtKB:P25374}.
+CC   -!- SIMILARITY: Belongs to the class-V pyridoxal-phosphate-dependent
+CC       aminotransferase family. NifS/IscS subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF000115; AAC49935.1; -; Genomic_DNA.
+DR   EMBL; AF000116; AAC49936.1; -; Genomic_DNA.
+DR   EMBL; AF000117; AAC49937.1; -; Genomic_DNA.
+DR   EMBL; AF000118; AAC49938.1; -; Genomic_DNA.
+DR   SMR; P87187; -.
+DR   PRIDE; P87187; -.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0031071; F:cysteine desulfurase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:InterPro.
+DR   GO; GO:0044571; P:[2Fe-2S] cluster assembly; IEA:InterPro.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00331; Cys_desulf_IscS; 1.
+DR   InterPro; IPR000192; Aminotrans_V_dom.
+DR   InterPro; IPR020578; Aminotrans_V_PyrdxlP_BS.
+DR   InterPro; IPR010240; Cys_deSase_IscS.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   PANTHER; PTHR11601:SF34; PTHR11601:SF34; 1.
+DR   Pfam; PF00266; Aminotran_5; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   PROSITE; PS00595; AA_TRANSFER_CLASS_5; 1.
+PE   3: Inferred from homology;
+KW   Iron; Iron-sulfur; Metal-binding; Mitochondrion; Pyridoxal phosphate;
+KW   Transferase; Transit peptide; tRNA processing.
+FT   TRANSIT         1..?
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           ?..484
+FT                   /note="Cysteine desulfurase, mitochondrial"
+FT                   /id="PRO_0000001302"
+FT   REGION          153..154
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   REGION          281..283
+FT                   /note="Pyridoxal phosphate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   ACT_SITE        408
+FT                   /note="Cysteine persulfide intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B7"
+FT   METAL           408
+FT                   /note="Iron-sulfur (2Fe-2S); via persulfide group"
+FT                   /evidence="ECO:0000250|UniProtKB:O29689"
+FT   BINDING         233
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:O29689"
+FT   BINDING         261
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   BINDING         321
+FT                   /note="Pyridoxal phosphate"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   MOD_RES         284
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A6B9"
+FT   VARIANT         374
+FT                   /note="T -> A (in strain: CHAU1)"
+FT   CONFLICT        155
+FT                   /note="E -> A (in Ref. 1; AAC49936)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        217
+FT                   /note="Missing (in Ref. 1; AAC49936)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   484 AA;  53124 MW;  AAE3D2E33370CF8C CRC64;
+     MYKTVLKNSG RIQRNFIFRN VSSTLQRSLA TSASTSSSTT TSNAETGELH VSTPLDSPSV
+     HPPDGSSISL KSATRDASLF GTRPIYLDVQ ATTPVDPRVL DKMLEFYTGL YGNPHSSTHA
+     YGWETDKEVE KARGYIADVI NADPKEIIFT SGATETNNMA IKGVPRFYKK TKKHIITTQT
+     EHKCVLDSAR HMQDEGFDIT YLPVNSEGLI NLDDLKKAIR KDTVLVSVMA VNNEIGVIQP
+     LKEIGQICRE NKIFFHTDAA QAYGKIPIDV NEMNIDLLSI SSHKIYGPKG IGACYVRRRP
+     RVRLDPIITG GGQERGLRSG TLAPPLVAGF GEAARLMKQE SAFDKKHIEK LSTKLKNGLL
+     SIPSTQFNGC NNPTYQYPGC VNVSFAYIEG ESLLMALKDI ALSSGSACTS ASLEPSYVLH
+     ALGADDALAH SSIRFGIGRF TTEAEVDYVI QAINERVDFL RKMSPLWEMV QGGIDLNSIE
+     WSGH
+//

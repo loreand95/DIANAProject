@@ -1,0 +1,159 @@
+ID   NUDC_SALPC              Reviewed;         257 AA.
+AC   C0Q2S8;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 55.
+DE   RecName: Full=NAD-capped RNA hydrolase NudC {ECO:0000255|HAMAP-Rule:MF_00297};
+DE            Short=DeNADding enzyme NudC {ECO:0000255|HAMAP-Rule:MF_00297};
+DE            EC=3.6.1.- {ECO:0000255|HAMAP-Rule:MF_00297};
+DE   AltName: Full=NADH pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_00297};
+DE            EC=3.6.1.22 {ECO:0000255|HAMAP-Rule:MF_00297};
+GN   Name=nudC {ECO:0000255|HAMAP-Rule:MF_00297}; OrderedLocusNames=SPC_3997;
+OS   Salmonella paratyphi C (strain RKS4594).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=476213;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RKS4594;
+RX   PubMed=19229335; DOI=10.1371/journal.pone.0004510;
+RA   Liu W.-Q., Feng Y., Wang Y., Zou Q.-H., Chen F., Guo J.-T., Peng Y.-H.,
+RA   Jin Y., Li Y.-G., Hu S.-N., Johnston R.N., Liu G.-R., Liu S.-L.;
+RT   "Salmonella paratyphi C: genetic divergence from Salmonella choleraesuis
+RT   and pathogenic convergence with Salmonella typhi.";
+RL   PLoS ONE 4:E4510-E4510(2009).
+CC   -!- FUNCTION: mRNA decapping enzyme that specifically removes the
+CC       nicotinamide adenine dinucleotide (NAD) cap from a subset of mRNAs by
+CC       hydrolyzing the diphosphate linkage to produce nicotinamide
+CC       mononucleotide (NMN) and 5' monophosphate mRNA. The NAD-cap is present
+CC       at the 5'-end of some mRNAs and stabilizes RNA against 5'-processing.
+CC       Has preference for mRNAs with a 5'-end purine. Catalyzes the hydrolysis
+CC       of a broad range of dinucleotide pyrophosphates. {ECO:0000255|HAMAP-
+CC       Rule:MF_00297}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 5'-end NAD(+)-phospho-ribonucleoside in mRNA + H2O = a 5'-
+CC         end phospho-adenosine-phospho-ribonucleoside in mRNA + beta-
+CC         nicotinamide D-ribonucleotide + 2 H(+); Xref=Rhea:RHEA:60876,
+CC         Rhea:RHEA-COMP:15698, Rhea:RHEA-COMP:15719, ChEBI:CHEBI:14649,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:144029,
+CC         ChEBI:CHEBI:144051; Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60877;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NAD(+) = AMP + beta-nicotinamide D-ribonucleotide + 2
+CC         H(+); Xref=Rhea:RHEA:11800, ChEBI:CHEBI:14649, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57540, ChEBI:CHEBI:456215;
+CC         EC=3.6.1.22; Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + NADH = AMP + 2 H(+) + reduced beta-nicotinamide D-
+CC         ribonucleotide; Xref=Rhea:RHEA:48868, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57945, ChEBI:CHEBI:90832,
+CC         ChEBI:CHEBI:456215; EC=3.6.1.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00297};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Note=Divalent metal cations. Mg(2+) or Mn(2+). {ECO:0000255|HAMAP-
+CC       Rule:MF_00297};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00297};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00297};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00297}.
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. NudC subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00297}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000857; ACN48064.1; -; Genomic_DNA.
+DR   RefSeq; WP_000373957.1; NC_012125.1.
+DR   SMR; C0Q2S8; -.
+DR   EnsemblBacteria; ACN48064; ACN48064; SPC_3997.
+DR   KEGG; sei:SPC_3997; -.
+DR   HOGENOM; CLU_037162_0_1_6; -.
+DR   OMA; FHAEYAG; -.
+DR   Proteomes; UP000001599; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000210; F:NAD+ diphosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00297; Nudix_NudC; 1.
+DR   InterPro; IPR022925; NADH_pyroPase_NudC.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR015376; Znr_NADH_PPase.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   Pfam; PF09297; zf-NADH-PPase; 1.
+DR   SUPFAM; SSF55811; SSF55811; 2.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Magnesium; Manganese; Metal-binding; NAD; Zinc.
+FT   CHAIN           1..257
+FT                   /note="NAD-capped RNA hydrolase NudC"
+FT                   /id="PRO_1000191836"
+FT   DOMAIN          125..248
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   REGION          192..199
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   MOTIF           159..180
+FT                   /note="Nudix box"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           98
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           101
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           116
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           119
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           158
+FT                   /note="Divalent metal cation 1; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           174
+FT                   /note="Divalent metal cation 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           174
+FT                   /note="Divalent metal cation 3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           178
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           178
+FT                   /note="Divalent metal cation 3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           219
+FT                   /note="Divalent metal cation 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   METAL           219
+FT                   /note="Divalent metal cation 3"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   BINDING         69
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   BINDING         111
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   BINDING         124
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+FT   BINDING         241
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00297"
+SQ   SEQUENCE   257 AA;  29560 MW;  E25990411FC8ACD9 CRC64;
+     MDRIIEKLES GWWIVSHEQK LWLPYGELPH GLAANFDLVG QRALRIGEWQ GEPVWLVLQH
+     RRHDMGSVRQ VIDQDAGLFQ LAGRGVQLAE FYRSHKFCGY CGHPMHPSKT EWAMLCSHCR
+     ERYYPQIAPC IIVAIRREDS ILLAQHVRHR NGVHTVLAGF VEVGETLEQA VAREVMEESG
+     IKVKNLRYVT SQPWPFPQSL MTAFMAEYDS GEIAIDPKEL LEANWYHYDD LPLLPPPGTV
+     ARRLIEDTVA MCRAEYD
+//

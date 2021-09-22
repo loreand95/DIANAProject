@@ -1,0 +1,96 @@
+ID   RPIA_PSE14              Reviewed;         223 AA.
+AC   Q48CC1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2005, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=Ribose-5-phosphate isomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            EC=5.3.1.6 {ECO:0000255|HAMAP-Rule:MF_00170};
+DE   AltName: Full=Phosphoriboisomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            Short=PRI {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   Name=rpiA {ECO:0000255|HAMAP-Rule:MF_00170}; OrderedLocusNames=PSPPH_4880;
+OS   Pseudomonas savastanoi pv. phaseolicola (strain 1448A / Race 6)
+OS   (Pseudomonas syringae pv. phaseolicola (strain 1448A / Race 6)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=264730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1448A / Race 6;
+RX   PubMed=16159782; DOI=10.1128/jb.187.18.6488-6498.2005;
+RA   Joardar V., Lindeberg M., Jackson R.W., Selengut J., Dodson R.,
+RA   Brinkac L.M., Daugherty S.C., DeBoy R.T., Durkin A.S., Gwinn Giglio M.,
+RA   Madupu R., Nelson W.C., Rosovitz M.J., Sullivan S.A., Crabtree J.,
+RA   Creasy T., Davidsen T.M., Haft D.H., Zafar N., Zhou L., Halpin R.,
+RA   Holley T., Khouri H.M., Feldblyum T.V., White O., Fraser C.M.,
+RA   Chatterjee A.K., Cartinhour S., Schneider D., Mansfield J.W., Collmer A.,
+RA   Buell R.;
+RT   "Whole-genome sequence analysis of Pseudomonas syringae pv. phaseolicola
+RT   1448A reveals divergence among pathovars in genes involved in virulence and
+RT   transposition.";
+RL   J. Bacteriol. 187:6488-6498(2005).
+CC   -!- FUNCTION: Catalyzes the reversible conversion of ribose-5-phosphate to
+CC       ribulose 5-phosphate. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-ribose 5-phosphate = D-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:14657, ChEBI:CHEBI:58121, ChEBI:CHEBI:58273;
+CC         EC=5.3.1.6; Evidence={ECO:0000255|HAMAP-Rule:MF_00170};
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-ribose
+CC       5-phosphate from D-ribulose 5-phosphate (non-oxidative stage): step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SIMILARITY: Belongs to the ribose 5-phosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000058; AAZ36429.1; -; Genomic_DNA.
+DR   RefSeq; WP_002555749.1; NC_005773.3.
+DR   SMR; Q48CC1; -.
+DR   STRING; 264730.PSPPH_4880; -.
+DR   EnsemblBacteria; AAZ36429; AAZ36429; PSPPH_4880.
+DR   GeneID; 47448985; -.
+DR   KEGG; psp:PSPPH_4880; -.
+DR   eggNOG; COG0120; Bacteria.
+DR   HOGENOM; CLU_056590_1_1_6; -.
+DR   OMA; VAPMAYV; -.
+DR   OrthoDB; 1681738at2; -.
+DR   UniPathway; UPA00115; UER00412.
+DR   Proteomes; UP000000551; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IEA:UniProtKB-UniRule.
+DR   CDD; cd01398; RPI_A; 1.
+DR   HAMAP; MF_00170; Rib_5P_isom_A; 1.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   InterPro; IPR020672; Ribose5P_isomerase_typA_subgr.
+DR   InterPro; IPR004788; Ribose5P_isomerase_type_A.
+DR   PANTHER; PTHR11934; PTHR11934; 1.
+DR   Pfam; PF06026; Rib_5-P_isom_A; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   TIGRFAMs; TIGR00021; rpiA; 1.
+PE   3: Inferred from homology;
+KW   Isomerase.
+FT   CHAIN           1..223
+FT                   /note="Ribose-5-phosphate isomerase A"
+FT                   /id="PRO_1000016960"
+FT   REGION          32..35
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          85..88
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   REGION          98..101
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   ACT_SITE        107
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+FT   BINDING         125
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00170"
+SQ   SEQUENCE   223 AA;  23352 MW;  F171606DE6549427 CRC64;
+     MTQDQLKQAV AQAAVDFILP KLDDKSIVGV GTGSTANCFI DALAKHKAAF DGAVASSEAT
+     AARLKGHGIP VYELNTVSDL EFYVDGADES DEHLNLIKGG GAALTREKIV AAVAKTFICI
+     ADGSKLVPVL GAFPLPVEVI PMARSHVARQ LVKLGGDPVY REGVLTDNGN IIIDVHNMSI
+     TNPVELEAQI NAIVGVVTNG LFAARPADLL LLGTTEGVKT LTR
+//

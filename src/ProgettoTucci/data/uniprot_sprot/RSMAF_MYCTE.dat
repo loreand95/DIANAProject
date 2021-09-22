@@ -1,0 +1,83 @@
+ID   RSMAF_MYCTE             Reviewed;         254 AA.
+AC   H8F2P5;
+DT   26-JUN-2013, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2012, sequence version 1.
+DT   10-FEB-2021, entry version 32.
+DE   RecName: Full=Anti-sigma-M factor RsmA;
+DE   AltName: Full=Regulator of SigM;
+DE   AltName: Full=Sigma-M anti-sigma factor RsmA;
+GN   Name=rsmA; OrderedLocusNames=ERDMAN_4292;
+OS   Mycobacterium tuberculosis (strain ATCC 35801 / TMC 107 / Erdman).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=652616;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 35801 / TMC 107 / Erdman;
+RX   PubMed=22535945; DOI=10.1128/jb.00353-12;
+RA   Miyoshi-Akiyama T., Matsumura K., Iwai H., Funatogawa K., Kirikae T.;
+RT   "Complete annotated genome sequence of Mycobacterium tuberculosis Erdman.";
+RL   J. Bacteriol. 194:2770-2770(2012).
+RN   [2]
+RP   PROBABLE CLEAVAGE BY RIP1.
+RC   STRAIN=ATCC 35801 / TMC 107 / Erdman;
+RX   PubMed=20545848; DOI=10.1111/j.1365-2958.2010.07232.x;
+RA   Sklar J.G., Makinoshima H., Schneider J.S., Glickman M.S.;
+RT   "M. tuberculosis intramembrane protease Rip1 controls transcription through
+RT   three anti-sigma factor substrates.";
+RL   Mol. Microbiol. 77:605-617(2010).
+CC   -!- FUNCTION: An anti-sigma factor for extracytoplasmic function (ECF)
+CC       sigma factor SigM. ECF sigma factors are held in an inactive form by an
+CC       anti-sigma factor until released by regulated intramembrane proteolysis
+CC       (RIP). RIP occurs when an extracytoplasmic signal triggers a concerted
+CC       proteolytic cascade to transmit information and elicit cellular
+CC       responses. The membrane-spanning regulatory substrate protein is first
+CC       cut extracytoplasmically (site-1 protease, S1P), then within the
+CC       membrane itself (site-2 protease, S2P, Rip1), while cytoplasmic
+CC       proteases finish degrading the regulatory protein, liberating the sigma
+CC       factor (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with ECF RNA polymerase sigma factor SigM; this
+CC       should inhibit the interaction of SigM with the RNA polymerase
+CC       catalytic core. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- DOMAIN: The cytosolic domain interacts with sigma factor SigM.
+CC       {ECO:0000250}.
+CC   -!- PTM: Probably cleaved within the membrane by Rip1 near the cytoplasmic
+CC       membrane interface.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP012340; BAL68056.1; -; Genomic_DNA.
+DR   RefSeq; WP_003400148.1; NZ_KK339488.1.
+DR   EnsemblBacteria; BAL68056; BAL68056; ERDMAN_4292.
+DR   KEGG; mtn:ERDMAN_4292; -.
+DR   PATRIC; fig|652616.3.peg.4374; -.
+DR   HOGENOM; CLU_080969_0_0_11; -.
+DR   BioCyc; MTUB652616:G1HGE-4272-MONOMER; -.
+DR   Proteomes; UP000007568; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+PE   1: Evidence at protein level;
+KW   Cell membrane; Membrane; Transcription; Transcription regulation;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN           1..254
+FT                   /note="Anti-sigma-M factor RsmA"
+FT                   /id="PRO_0000422685"
+FT   TOPO_DOM        1..112
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        113..133
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        134..254
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   254 AA;  25769 MW;  986EF457CDF41B0C CRC64;
+     MSAADKDPDK HSADADPPLT VELLADLQAG LLDDATAARI RSRVRSDPQA QQILRALNRV
+     RRDVAAMGAD PAWGPAARPA VVDSISAALR SARPNSSPGA AHAARPHVHP VRMIAGAAGL
+     CAVATAIGVG AVVDAPPPAP SAPTTAQHIT VSKPAPVIPL SRPQVLDLLH HTPDYGPPGG
+     PLGDPSRRTS CLSGLGYPAS TPVLGAQPID IDARPAVLLV IPADTPDKLA VFAVAPHCSA
+     ADTGLLASTV VPRA
+//

@@ -1,0 +1,110 @@
+ID   ATPB_SYNP6              Reviewed;         484 AA.
+AC   P07890;
+DT   01-AUG-1988, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1988, sequence version 1.
+DT   07-APR-2021, entry version 152.
+DE   RecName: Full=ATP synthase subunit beta {ECO:0000255|HAMAP-Rule:MF_01347};
+DE            EC=7.1.2.2 {ECO:0000255|HAMAP-Rule:MF_01347};
+DE   AltName: Full=ATP synthase F1 sector subunit beta {ECO:0000255|HAMAP-Rule:MF_01347};
+DE   AltName: Full=F-ATPase subunit beta {ECO:0000255|HAMAP-Rule:MF_01347};
+GN   Name=atpD {ECO:0000255|HAMAP-Rule:MF_01347};
+GN   Synonyms=atpB {ECO:0000255|HAMAP-Rule:MF_01347};
+GN   OrderedLocusNames=syc1787_c;
+OS   Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) (Anacystis
+OS   nidulans).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus.
+OX   NCBI_TaxID=269084;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=3041005; DOI=10.1016/0022-2836(87)90667-x;
+RA   Cozens A.L., Walker J.E.;
+RT   "The organization and sequence of the genes for ATP synthase subunits in
+RT   the cyanobacterium Synechococcus 6301. Support for an endosymbiotic origin
+RT   of chloroplasts.";
+RL   J. Mol. Biol. 194:359-383(1987).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 27144 / PCC 6301 / SAUG 1402/1;
+RX   PubMed=17211581; DOI=10.1007/s11120-006-9122-4;
+RA   Sugita C., Ogata K., Shikata M., Jikuya H., Takano J., Furumichi M.,
+RA   Kanehisa M., Omata T., Sugiura M., Sugita M.;
+RT   "Complete nucleotide sequence of the freshwater unicellular cyanobacterium
+RT   Synechococcus elongatus PCC 6301 chromosome: gene content and
+RT   organization.";
+RL   Photosyn. Res. 93:55-67(2007).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. The catalytic sites are hosted primarily by the
+CC       beta subunits. {ECO:0000255|HAMAP-Rule:MF_01347}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + 4 H(+)(in) + H2O = ADP + 5 H(+)(out) + phosphate;
+CC         Xref=Rhea:RHEA:57720, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.1.2.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01347};
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has four main
+CC       subunits: a(1), b(1), b'(1) and c(9-12). {ECO:0000255|HAMAP-
+CC       Rule:MF_01347}.
+CC   -!- SUBCELLULAR LOCATION: Cellular thylakoid membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01347}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01347}.
+CC   -!- SIMILARITY: Belongs to the ATPase alpha/beta chains family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01347}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X05925; CAA29362.1; -; Genomic_DNA.
+DR   EMBL; AP008231; BAD79977.1; -; Genomic_DNA.
+DR   PIR; S10837; PWYCB.
+DR   RefSeq; WP_011244097.1; NC_006576.1.
+DR   SMR; P07890; -.
+DR   STRING; 269084.syc1787_c; -.
+DR   EnsemblBacteria; BAD79977; BAD79977; syc1787_c.
+DR   KEGG; syc:syc1787_c; -.
+DR   eggNOG; COG0055; Bacteria.
+DR   OMA; FNMIMDG; -.
+DR   BioCyc; SELO269084:G1G2F-1928-MONOMER; -.
+DR   Proteomes; UP000001175; Chromosome.
+DR   GO; GO:0031676; C:plasma membrane-derived thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IEA:UniProtKB-KW.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046961; F:proton-transporting ATPase activity, rotational mechanism; IEA:UniProtKB-EC.
+DR   Gene3D; 1.10.1140.10; -; 1.
+DR   HAMAP; MF_01347; ATP_synth_beta_bact; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR005722; ATP_synth_F1_bsu.
+DR   InterPro; IPR020003; ATPase_a/bsu_AS.
+DR   InterPro; IPR004100; ATPase_F1/V1/A1_a/bsu_N.
+DR   InterPro; IPR036121; ATPase_F1/V1/A1_a/bsu_N_sf.
+DR   InterPro; IPR000194; ATPase_F1/V1/A1_a/bsu_nucl-bd.
+DR   InterPro; IPR024034; ATPase_F1/V1_b/a_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF00006; ATP-synt_ab; 1.
+DR   Pfam; PF02874; ATP-synt_ab_N; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50615; SSF50615; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR01039; atpD; 1.
+DR   PROSITE; PS00152; ATPASE_ALPHA_BETA; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; ATP-binding; CF(1); Hydrogen ion transport; Ion transport;
+KW   Membrane; Nucleotide-binding; Thylakoid; Translocase; Transport.
+FT   CHAIN           1..484
+FT                   /note="ATP synthase subunit beta"
+FT                   /id="PRO_0000144482"
+FT   NP_BIND         162..169
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01347"
+SQ   SEQUENCE   484 AA;  52213 MW;  2D53DCFE80C13FAA CRC64;
+     MVTTTEKTNI GYIRQVIGPV VDVEFPAGKL PQIYNALVIK GKNEAGQDLS VTCEVQQLLG
+     DRKVRAVSMS TTDGLVRGLE VIDTGAPISV PVGEATLGRI FNVLGEPVDE LGPVNAATTS
+     PIHRDAPKLT DLETKPKVFE TGIKVIDLLA PYRQGGKIGL FGGAGVGKTV LIQELINNIA
+     KEHGGVSVFG GVGERTREGN DLYQEFKESG VIDEKNIANS KVALVYGQMN EPPGARMRVG
+     LSALTMAEHF RDVNKQDVLL FIDNIFRFVQ AGSEVSALLG RMPSAVGYQP TLGTDVGQLQ
+     ERITSTLEGS ITSIQAVYVP ADDLTDPAPA TTFAHLDATT VLSRGLASKG IYPAVDPLDS
+     TSTMLQPSIV GEEHYRTARA VQSTLQRYKE LQDIIAILGL DELSEEDRQT VARARKIEKF
+     LSQPFFVAEV FTGSPGKYVK LEDTISGFNR ILNGELDDLP EQAFYLVGDI QEAIEKGAKL
+     KAES
+//

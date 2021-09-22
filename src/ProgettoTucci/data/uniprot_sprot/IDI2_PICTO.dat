@@ -1,0 +1,134 @@
+ID   IDI2_PICTO              Reviewed;         349 AA.
+AC   Q6L1S1;
+DT   30-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=Isopentenyl-diphosphate delta-isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            Short=IPP isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            EC=5.3.3.2 {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Isopentenyl diphosphate:dimethylallyl diphosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Isopentenyl pyrophosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE   AltName: Full=Type 2 isopentenyl diphosphate isomerase {ECO:0000255|HAMAP-Rule:MF_00354};
+DE            Short=IDI-2 {ECO:0000255|HAMAP-Rule:MF_00354};
+GN   Name=fni {ECO:0000255|HAMAP-Rule:MF_00354}; OrderedLocusNames=PTO0496;
+OS   Picrophilus torridus (strain ATCC 700027 / DSM 9790 / JCM 10055 / NBRC
+OS   100828).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Picrophilaceae; Picrophilus.
+OX   NCBI_TaxID=263820;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700027 / DSM 9790 / JCM 10055 / NBRC 100828;
+RX   PubMed=15184674; DOI=10.1073/pnas.0401356101;
+RA   Fuetterer O., Angelov A., Liesegang H., Gottschalk G., Schleper C.,
+RA   Schepers B., Dock C., Antranikian G., Liebl W.;
+RT   "Genome sequence of Picrophilus torridus and its implications for life
+RT   around pH 0.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:9091-9096(2004).
+CC   -!- FUNCTION: Involved in the biosynthesis of isoprenoids. Catalyzes the
+CC       1,3-allylic rearrangement of the homoallylic substrate isopentenyl
+CC       (IPP) to its allylic isomer, dimethylallyl diphosphate (DMAPP).
+CC       {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=isopentenyl diphosphate = dimethylallyl diphosphate;
+CC         Xref=Rhea:RHEA:23284, ChEBI:CHEBI:57623, ChEBI:CHEBI:128769;
+CC         EC=5.3.3.2; Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=NADPH; Xref=ChEBI:CHEBI:57783;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00354};
+CC   -!- SUBUNIT: Homooctamer. Dimer of tetramers. {ECO:0000255|HAMAP-
+CC       Rule:MF_00354}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   -!- SIMILARITY: Belongs to the IPP isomerase type 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00354}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017261; AAT43081.1; -; Genomic_DNA.
+DR   RefSeq; WP_011177297.1; NC_005877.1.
+DR   SMR; Q6L1S1; -.
+DR   STRING; 263820.PTO0496; -.
+DR   EnsemblBacteria; AAT43081; AAT43081; PTO0496.
+DR   GeneID; 2844616; -.
+DR   KEGG; pto:PTO0496; -.
+DR   PATRIC; fig|263820.9.peg.522; -.
+DR   eggNOG; arCOG00613; Archaea.
+DR   HOGENOM; CLU_065515_1_0_2; -.
+DR   OMA; WDWGIPT; -.
+DR   OrthoDB; 42330at2157; -.
+DR   BioCyc; PTOR263820:G1G0U-536-MONOMER; -.
+DR   Proteomes; UP000000438; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0010181; F:FMN binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004452; F:isopentenyl-diphosphate delta-isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070402; F:NADPH binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:InterPro.
+DR   GO; GO:0008299; P:isoprenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02811; IDI-2_FMN; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_00354; Idi_2; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000262; FMN-dep_DH.
+DR   InterPro; IPR011179; IPdP_isomerase.
+DR   PANTHER; PTHR43665; PTHR43665; 1.
+DR   Pfam; PF01070; FMN_dh; 2.
+DR   PIRSF; PIRSF003314; IPP_isomerase; 1.
+DR   TIGRFAMs; TIGR02151; IPP_isom_2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Flavoprotein; FMN; Isomerase; Isoprene biosynthesis; Magnesium;
+KW   Metal-binding; NADP; Reference proteome.
+FT   CHAIN           1..349
+FT                   /note="Isopentenyl-diphosphate delta-isomerase"
+FT                   /id="PRO_0000134448"
+FT   NP_BIND         62..64
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   NP_BIND         269..271
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   NP_BIND         290..291
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   REGION          5..6
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   REGION          92..94
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   METAL           160
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         61
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         92
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         120
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         159
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         189
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+FT   BINDING         219
+FT                   /note="FMN; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00354"
+SQ   SEQUENCE   349 AA;  38839 MW;  D76268073BD4EAEE CRC64;
+     MIENRKEEHI KIAENENVVS EHNFWDDIRI VHRAIPEVDF NDIDTGVKFL GKQFNYPILI
+     SSMTGGTETA KIINKNLAMT AEHFKIGMGV GSMRVAVKNK NTADTFSVIN DYKIPAKFAN
+     IGAPQLVRQD SDSLSDNDIE YIYNLINADF LIVHFNFLQE MVQPEGDRNS KGVIKRLKDI
+     AGSYNVIAKE TGSGFSKEDA LSLLDAGVKA IDVGGLGGTS FAAIEYYRAQ KANDEIKMHT
+     GKAFWNWGIP SPASIKYCSL GEPVIGSGGL RNGLDLAKAI MFGATLGGFA RELLKDANTS
+     FDDVKRQMEM IINDLKITMM LTSSRNIDEL KHARYITLEP LRSWLEVYK
+//

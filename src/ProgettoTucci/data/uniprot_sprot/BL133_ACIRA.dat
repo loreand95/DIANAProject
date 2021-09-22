@@ -1,0 +1,85 @@
+ID   BL133_ACIRA             Reviewed;         273 AA.
+AC   B3U538;
+DT   29-OCT-2014, integrated into UniProtKB/Swiss-Prot.
+DT   02-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 31.
+DE   RecName: Full=Beta-lactamase OXA-133 {ECO:0000305};
+DE            EC=3.5.2.6 {ECO:0000250|UniProtKB:Q51574};
+DE   AltName: Full=BlaOXA-23-like protein {ECO:0000303|PubMed:19015330};
+DE   Flags: Precursor;
+GN   Name=blaOXA-133 {ECO:0000303|PubMed:19015330};
+OS   Acinetobacter radioresistens.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Acinetobacter.
+OX   NCBI_TaxID=40216;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], INDUCTION, AND FUNCTION.
+RC   STRAIN=251-39C;
+RX   PubMed=19015330; DOI=10.1128/aac.00999-08;
+RA   Mendes R.E., Bell J.M., Turnidge J.D., Castanheira M., Deshpande L.M.,
+RA   Jones R.N.;
+RT   "Codetection of blaOXA-23-like gene (blaOXA-133) and blaOXA-58 in
+RT   Acinetobacter radioresistens: report from the SENTRY antimicrobial
+RT   surveillance program.";
+RL   Antimicrob. Agents Chemother. 53:843-844(2009).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of beta-lactam antibiotics.
+CC       {ECO:0000250|UniProtKB:Q51574, ECO:0000303|PubMed:19015330}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-lactam + H2O = a substituted beta-amino acid;
+CC         Xref=Rhea:RHEA:20401, ChEBI:CHEBI:15377, ChEBI:CHEBI:35627,
+CC         ChEBI:CHEBI:140347; EC=3.5.2.6;
+CC         Evidence={ECO:0000250|UniProtKB:Q51574};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00303}; Lipid-anchor {ECO:0000255|PROSITE-ProRule:PRU00303}.
+CC   -!- INDUCTION: Is transcribed at very low levels, about 1,500-fold lower
+CC       than those for blaOXA-58. {ECO:0000269|PubMed:19015330}.
+CC   -!- SIMILARITY: Belongs to the class-D beta-lactamase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EU571228; ACE63186.1; -; Genomic_DNA.
+DR   RefSeq; WP_063861038.1; NG_049433.1.
+DR   SMR; B3U538; -.
+DR   KEGG; ag:ACE63186; -.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008800; F:beta-lactamase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008658; F:penicillin binding; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.710.10; -; 1.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR001460; PCN-bd_Tpept.
+DR   Pfam; PF00905; Transpeptidase; 1.
+DR   SUPFAM; SSF56601; SSF56601; 1.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   2: Evidence at transcript level;
+KW   Antibiotic resistance; Cell membrane; Hydrolase; Lipoprotein; Membrane;
+KW   Palmitate; Signal.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   CHAIN           18..273
+FT                   /note="Beta-lactamase OXA-133"
+FT                   /id="PRO_0000430517"
+FT   REGION          216..218
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        79
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000250|UniProtKB:P14559"
+FT   MOD_RES         82
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P14489"
+FT   LIPID           18
+FT                   /note="N-palmitoyl cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+FT   LIPID           18
+FT                   /note="S-diacylglycerol cysteine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00303"
+SQ   SEQUENCE   273 AA;  31174 MW;  F4A8F619AE6486A7 CRC64;
+     MNKYFTCYVV ASLFFSGCTV QHNLINETQS QIVQGHNQVI HQYFDEKNTS GVLVIQTDKK
+     INLYGNALSR ANTEYVPAST FKMLNALIGL ENQKTDINEI FKWKGEKRSF TTWEKDMTLG
+     EAMKLSAVPV YQELARRIGL DLMQKEVERI DFGNAEIGQQ VDNFWLIGPL KVTPIQEVEF
+     VSQLAHTQLP FSEKVQANVK NMLLLEENNG YKIFGKTGWA MDIKPQVGWL TGWVEQPDGK
+     IVAFALNMEM RSEMPASIRN ELLMKSLKQL NII
+//

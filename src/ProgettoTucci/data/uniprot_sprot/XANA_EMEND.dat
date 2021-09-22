@@ -1,0 +1,208 @@
+ID   XANA_EMEND              Reviewed;         370 AA.
+AC   Q4QZZ9;
+DT   16-JAN-2019, integrated into UniProtKB/Swiss-Prot.
+DT   19-JUL-2005, sequence version 1.
+DT   07-APR-2021, entry version 50.
+DE   RecName: Full=Alpha-ketoglutarate-dependent xanthine dioxygenase xanA {ECO:0000303|PubMed:15948966};
+DE            EC=1.14.11.48 {ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948, ECO:0000269|PubMed:18036331};
+GN   Name=xanA {ECO:0000303|PubMed:15948966};
+OS   Emericella nidulans (Aspergillus nidulans).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Nidulantes.
+OX   NCBI_TaxID=162425;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], FUNCTION, CATALYTIC ACTIVITY,
+RP   BIOPHYSICOCHEMICAL PROPERTIES, AND MUTAGENESIS OF ALA-167.
+RC   STRAIN=Glasgow wild type;
+RX   PubMed=15948966; DOI=10.1111/j.1365-2958.2005.04686.x;
+RA   Cultrone A., Scazzocchio C., Rochet M., Montero-Moran G., Drevet C.,
+RA   Fernandez-Martin R.;
+RT   "Convergent evolution of hydroxylation mechanisms in the fungal kingdom:
+RT   molybdenum cofactor-independent hydroxylation of xanthine via alpha-
+RT   ketoglutarate-dependent dioxygenases.";
+RL   Mol. Microbiol. 57:276-290(2005).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL PROPERTIES, COFACTOR,
+RP   ACTIVITY REGULATION, SUBSTRATE SPECIFICITY, PHOSPHORYLATION, AND
+RP   GLYCOSYLATION.
+RX   PubMed=17429948; DOI=10.1021/bi700065h;
+RA   Montero-Moran G.M., Li M., Rendon-Huerta E., Jourdan F., Lowe D.J.,
+RA   Stumpff-Kane A.W., Feig M., Scazzocchio C., Hausinger R.P.;
+RT   "Purification and characterization of the FeII- and alpha-ketoglutarate-
+RT   dependent xanthine hydroxylase from Aspergillus nidulans.";
+RL   Biochemistry 46:5293-5304(2007).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, ACTIVITY REGULATION, SUBSTRATE
+RP   SPECIFICITY, AND MUTAGENESIS OF GLN-101; LYS-122; GLU-137; ASP-138;
+RP   HIS-149; ASP-151; HIS-340; GLN-356; CYS-357 AND ASN-358.
+RX   PubMed=18036331; DOI=10.1016/j.abb.2007.11.002;
+RA   Li M., Mueller T.A., Fraser B.A., Hausinger R.P.;
+RT   "Characterization of active site variants of xanthine hydroxylase from
+RT   Aspergillus nidulans.";
+RL   Arch. Biochem. Biophys. 470:44-53(2008).
+RN   [4]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=24970358; DOI=10.1016/j.fgb.2014.06.005;
+RA   Galanopoulou K., Scazzocchio C., Galinou M.E., Liu W., Borbolis F.,
+RA   Karachaliou M., Oestreicher N., Hatzinikolaou D.G., Diallinas G.,
+RA   Amillis S.;
+RT   "Purine utilization proteins in the Eurotiales: cellular
+RT   compartmentalization, phylogenetic conservation and divergence.";
+RL   Fungal Genet. Biol. 69:96-108(2014).
+CC   -!- FUNCTION: Alpha-ketoglutarate-dependent xanthine dioxygenase is a non-
+CC       heme mononuclear Fe(2+) enzyme that decarboxylates alpha-ketoglutarate
+CC       to succinate and CO(2) while hydroxylating xanthine to generate uric
+CC       acid (PubMed:15948966, PubMed:17429948, PubMed:18036331). Allows
+CC       xanthine utilization as a nitrogen source (PubMed:15948966). Whereas
+CC       xanA is highly specific for xanthine, alpha-ketoadipic acid can replace
+CC       alpha-ketoglutarate as a cosubstrate (PubMed:17429948). Exhibits
+CC       ferroxidase activity in the absence of substrates (PubMed:18036331).
+CC       {ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948,
+CC       ECO:0000269|PubMed:18036331}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-oxoglutarate + O2 + xanthine = CO2 + succinate + urate;
+CC         Xref=Rhea:RHEA:43120, ChEBI:CHEBI:15379, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:16810, ChEBI:CHEBI:17712, ChEBI:CHEBI:17775,
+CC         ChEBI:CHEBI:30031; EC=1.14.11.48;
+CC         Evidence={ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948,
+CC         ECO:0000269|PubMed:18036331};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:43121;
+CC         Evidence={ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948,
+CC         ECO:0000269|PubMed:18036331};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000269|PubMed:17429948, ECO:0000269|PubMed:18036331};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000250|UniProtKB:P37610};
+CC   -!- ACTIVITY REGULATION: Cu(2+) and Zn(2+) completely inhibit the xanthine
+CC       dioxygenase activity, whereas Co(2+), Mn(2+), and Ni(2+) partially
+CC       inhibit the activity. The inactive metal ions are presumed to compete
+CC       for the Fe(2+)-binding site (PubMed:17429948). N-oxalylglycine (NOG), a
+CC       known inhibitor of several Fe(2+)/alpha-ketoglutarate-dependent
+CC       dioxygenase family members, competes with alpha-ketoglutarate and
+CC       provides a Ki of 0.12 uM for inhibition (PubMed:17429948). 6,8-
+CC       dihydroxypurine acts as a slow-binding competitive inhibitor
+CC       (PubMed:18036331). The thiol-specific inhibitors 5,5'-dithiobis(2-
+CC       nitrobenzoic acid) (DTNB) and iodoacetamide, inhibit also the catalytic
+CC       activity (PubMed:18036331). {ECO:0000269|PubMed:17429948,
+CC       ECO:0000269|PubMed:18036331}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=31.1 uM for 2-oxoglutarate (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:17429948, ECO:0000269|PubMed:18036331};
+CC         KM=50.0 uM for 2-oxoglutarate (at 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948};
+CC         KM=45.2 uM for xanthine (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:17429948, ECO:0000269|PubMed:18036331};
+CC         KM=46.0 uM for xanthine (at 30 degrees Celsius)
+CC         {ECO:0000269|PubMed:15948966, ECO:0000269|PubMed:17429948};
+CC         KM=0.16 mM for alpha-ketoadipic acid (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:17429948};
+CC         KM=0.4 mM for 9-methylxanthine (at 25 degrees Celsius)
+CC         {ECO:0000269|PubMed:18036331};
+CC       pH dependence:
+CC         Optimum pH is 6.5 to 7.4. {ECO:0000269|PubMed:15948966,
+CC         ECO:0000269|PubMed:17429948};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, cytosol {ECO:0000269|PubMed:24970358}.
+CC   -!- PTM: Glycosylated (PubMed:17429948). Is subject to both N- and O-linked
+CC       glycosylation (PubMed:17429948). {ECO:0000269|PubMed:17429948}.
+CC   -!- PTM: Phosphorylated. {ECO:0000269|PubMed:17429948}.
+CC   -!- SIMILARITY: Belongs to the TfdA dioxygenase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ877916; CAI47587.1; -; Genomic_DNA.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0097641; F:alpha-ketoglutarate-dependent xanthine dioxygenase activity; IEA:RHEA.
+DR   GO; GO:0051213; F:dioxygenase activity; IDA:AspGD.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0034418; P:urate biosynthetic process; IMP:AspGD.
+DR   GO; GO:0009115; P:xanthine catabolic process; IDA:AspGD.
+DR   Gene3D; 3.60.130.10; -; 1.
+DR   InterPro; IPR042098; TauD-like_sf.
+DR   InterPro; IPR003819; TauD/TfdA-like.
+DR   Pfam; PF02668; TauD; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Dioxygenase; Glycoprotein; Iron; Metal-binding; Oxidoreductase;
+KW   Phosphoprotein.
+FT   CHAIN           1..370
+FT                   /note="Alpha-ketoglutarate-dependent xanthine dioxygenase
+FT                   xanA"
+FT                   /id="PRO_0000446004"
+FT   METAL           149
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610,
+FT                   ECO:0000269|PubMed:18036331"
+FT   METAL           151
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610,
+FT                   ECO:0000269|PubMed:18036331"
+FT   METAL           340
+FT                   /note="Iron; catalytic"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610,
+FT                   ECO:0000269|PubMed:18036331"
+FT   BINDING         107
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610"
+FT   BINDING         195
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610"
+FT   BINDING         325
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610"
+FT   BINDING         352
+FT                   /note="2-oxoglutarate"
+FT                   /evidence="ECO:0000250|UniProtKB:P37610"
+FT   MUTAGEN         101
+FT                   /note="Q->A: Leads to elevated ferroxidase activity in the
+FT                   absence of substrates."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         122
+FT                   /note="K->A: Affects the binding of 2-oxoglutarate."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         137
+FT                   /note="E->A: Exhibits relatively enhanced activity and
+FT                   affects the inhibition by 6,8-dihydroxypurine."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         138
+FT                   /note="D->A: Exhibits relatively enhanced activity and
+FT                   affects the inhibition by 6,8-dihydroxypurine."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         149
+FT                   /note="H->A: Impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         151
+FT                   /note="D->A: Impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         167
+FT                   /note="A->D: In xanA1; impairs catalytic activity."
+FT                   /evidence="ECO:0000269|PubMed:15948966"
+FT   MUTAGEN         340
+FT                   /note="H->A: Exhibits only 0.17% of the wild-type enzyme
+FT                   activity."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         356
+FT                   /note="Q->A: Leads to elevated ferroxidase activity in the
+FT                   absence of substrates and affects the inhibition by 6,8-
+FT                   dihydroxypurine."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         357
+FT                   /note="C->A: Exhibits relatively enhanced activity,
+FT                   resistance to thiol-specific inhibitors such as DTNB or
+FT                   iodoacetamide, and elevated ferroxidase activity in the
+FT                   absence of substrates."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+FT   MUTAGEN         358
+FT                   /note="N->A: Exhibits a 23-fold decrease in kcat/Km and
+FT                   affects the inhibition by 6,8-dihydroxypurine."
+FT                   /evidence="ECO:0000269|PubMed:18036331"
+SQ   SEQUENCE   370 AA;  41305 MW;  5E3A746FDBFAC33A CRC64;
+     MPAITVKPLT PPAGSAIDFG AVITDVDLEH LTDGDFSTIR SALYTHLVVV LKNQHQLTPK
+     AQYELTRRFD PSATQYGHGK TLDAKRSILH PDLKTIPHQP QVQVIGHGFI DSYEGLENIT
+     LKHPHHRTFH RDPIPQEDDY DSTRFYRWHI DAALYGLNPP IVTTLLAVKV PGGRRQTVRY
+     DDGSGETMDV PLGTTAFASG ERMFELLSEE DKEFALSSRV EYAPHPYIWM SPARSLPTGL
+     GLHSDDLELP LSELPPIDES AIQILPMVWK NPATGKPALQ IHPSAVRKIH CGDGTVIDDL
+     KKVREIAYKL QRPAISPQYV YAHDWEEGDL VLFHNRGVLH SVVGAFGEGE VRLFRQCNLA
+     AGEGVVPYRE
+//

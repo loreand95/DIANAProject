@@ -1,0 +1,95 @@
+ID   FER_THETR               Reviewed;          55 AA.
+AC   P00200; P00199;
+DT   21-JUL-1986, integrated into UniProtKB/Swiss-Prot.
+DT   21-JUL-1986, sequence version 1.
+DT   12-AUG-2020, entry version 90.
+DE   RecName: Full=Ferredoxin;
+OS   Thermoanaerobacterium thermosaccharolyticum (Clostridium
+OS   thermosaccharolyticum).
+OC   Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+OC   Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium.
+OX   NCBI_TaxID=1517;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RX   PubMed=4768897;
+RA   Tanaka M., Haniu M., Yasunobu K.T., Himes R.H., Akagi J.M.;
+RT   "The primary structure of the Clostridium thermosaccharolyticum ferredoxin,
+RT   a heat-stable ferredoxin.";
+RL   J. Biol. Chem. 248:5215-5217(1973).
+RN   [2]
+RP   PROTEIN SEQUENCE.
+RC   STRAIN=Tartarivorum;
+RX   PubMed=4934841;
+RA   Tanaka M., Haniu M., Matsueda G., Yasunobu K.T., Himes R.H., Akagi J.M.,
+RA   Barnes E.M., Devanathan T.;
+RT   "The primary structure of the Clostridium tartarivorum ferredoxin, a heat-
+RT   stable ferredoxin.";
+RL   J. Biol. Chem. 246:3953-3960(1971).
+CC   -!- FUNCTION: Ferredoxins are iron-sulfur proteins that transfer electrons
+CC       in a wide variety of metabolic reactions.
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC       Note=Binds 2 [4Fe-4S] clusters.;
+CC   -!- CAUTION: PubMed:4934841 authors considered 'C.tartarivorum' as a
+CC       separate species. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   PIR; A92138; FECLCT.
+DR   SMR; P00200; -.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   InterPro; IPR017896; 4Fe4S_Fe-S-bd.
+DR   InterPro; IPR017900; 4Fe4S_Fe_S_CS.
+DR   InterPro; IPR000813; 7Fe_ferredoxin.
+DR   Pfam; PF12838; Fer4_7; 1.
+DR   PRINTS; PR00354; 7FE8SFRDOXIN.
+DR   PROSITE; PS00198; 4FE4S_FER_1; 2.
+DR   PROSITE; PS51379; 4FE4S_FER_2; 2.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Direct protein sequencing; Electron transport; Iron; Iron-sulfur;
+KW   Metal-binding; Repeat; Transport.
+FT   CHAIN           1..55
+FT                   /note="Ferredoxin"
+FT                   /id="PRO_0000159116"
+FT   DOMAIN          2..27
+FT                   /note="4Fe-4S ferredoxin-type 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   DOMAIN          28..55
+FT                   /note="4Fe-4S ferredoxin-type 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00711"
+FT   METAL           8
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           11
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           14
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           18
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           37
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           40
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           43
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   METAL           47
+FT                   /note="Iron-sulfur 1 (4Fe-4S)"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        31
+FT                   /note="E -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        44
+FT                   /note="E -> Q (in Ref. 2; AA sequence)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   55 AA;  5545 MW;  7C965887CC64E53C CRC64;
+     AHIITDECIS CGACAAECPV EAIHEGTGKY EVDADTCIDC GACEAVCPTG AVKAE
+//

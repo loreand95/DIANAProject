@@ -1,0 +1,252 @@
+ID   FUMH_MACFA              Reviewed;         510 AA.
+AC   Q60HF9;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-OCT-2020, entry version 81.
+DE   RecName: Full=Fumarate hydratase, mitochondrial {ECO:0000250|UniProtKB:P07954};
+DE            Short=Fumarase {ECO:0000250|UniProtKB:P07954};
+DE            EC=4.2.1.2 {ECO:0000250|UniProtKB:P07954};
+DE   Flags: Precursor;
+GN   Name=FH {ECO:0000250|UniProtKB:P07954};
+GN   ORFNames=QorA-13820 {ECO:0000303|Ref.1};
+OS   Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini;
+OC   Cercopithecidae; Cercopithecinae; Macaca.
+OX   NCBI_TaxID=9541;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Occipital cortex;
+RA   Kusuda J., Osada N., Tanuma R., Hirata M., Sugano S., Hashimoto K.;
+RT   "Isolation and characterization of cDNA for macaque neurological disease
+RT   genes.";
+RL   Submitted (OCT-2003) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the reversible stereospecific interconversion of
+CC       fumarate to L-malate (By similarity). Experiments in other species have
+CC       demonstrated that specific isoforms of this protein act in defined
+CC       pathways and favor one direction over the other (Probable).
+CC       {ECO:0000250|UniProtKB:P07954, ECO:0000305}.
+CC   -!- FUNCTION: [Isoform Mitochondrial]: Catalyzes the hydration of fumarate
+CC       to L-malate in the tricarboxylic acid (TCA) cycle to facilitate a
+CC       transition step in the production of energy in the form of NADH.
+CC       {ECO:0000250|UniProtKB:P10173}.
+CC   -!- FUNCTION: [Isoform Cytoplasmic]: Catalyzes the dehydration of L-malate
+CC       to fumarate. Fumarate metabolism in the cytosol plays a role during
+CC       urea cycle and arginine metabolism; fumarate being a by-product of the
+CC       urea cycle and amino-acid catabolism (By similarity). Also plays a role
+CC       in DNA repair by promoting non-homologous end-joining (NHEJ). In
+CC       response to DNA damage and phosphorylation by PRKDC, translocates to
+CC       the nucleus and accumulates at DNA double-strand breaks (DSBs): acts by
+CC       catalyzing formation of fumarate, an inhibitor of KDM2B histone
+CC       demethylase activity, resulting in enhanced dimethylation of histone H3
+CC       'Lys-36' (H3K36me2) (By similarity). {ECO:0000250|UniProtKB:P07954,
+CC       ECO:0000250|UniProtKB:P97807}.
+CC   -!- CATALYTIC ACTIVITY: [Isoform Mitochondrial]:
+CC       Reaction=(S)-malate = fumarate + H2O; Xref=Rhea:RHEA:12460,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15589, ChEBI:CHEBI:29806; EC=4.2.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P10173};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:12462;
+CC         Evidence={ECO:0000250|UniProtKB:P10173};
+CC   -!- CATALYTIC ACTIVITY: [Isoform Cytoplasmic]:
+CC       Reaction=(S)-malate = fumarate + H2O; Xref=Rhea:RHEA:12460,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15589, ChEBI:CHEBI:29806; EC=4.2.1.2;
+CC         Evidence={ECO:0000250|UniProtKB:P97807};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:12461;
+CC         Evidence={ECO:0000250|UniProtKB:P97807};
+CC   -!- PATHWAY: Carbohydrate metabolism; tricarboxylic acid cycle; (S)-malate
+CC       from fumarate: step 1/1. {ECO:0000250|UniProtKB:P10173}.
+CC   -!- SUBUNIT: Homotetramer. Interacts with H2AZ1.
+CC       {ECO:0000250|UniProtKB:P07954}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform Mitochondrial]: Mitochondrion
+CC       {ECO:0000250|UniProtKB:P07954}.
+CC   -!- SUBCELLULAR LOCATION: [Isoform Cytoplasmic]: Cytoplasm, cytosol
+CC       {ECO:0000250|UniProtKB:P07954}. Nucleus {ECO:0000250|UniProtKB:P07954}.
+CC       Chromosome {ECO:0000250|UniProtKB:P07954}. Note=Translocates to the
+CC       nucleus in response to DNA damage: localizes to DNA double-strand
+CC       breaks (DSBs) following phosphorylation by PRKDC.
+CC       {ECO:0000250|UniProtKB:P07954}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative initiation; Named isoforms=2;
+CC       Name=Mitochondrial {ECO:0000250|UniProtKB:P07954};
+CC         IsoId=Q60HF9-1; Sequence=Displayed;
+CC       Name=Cytoplasmic {ECO:0000250|UniProtKB:P07954};
+CC         IsoId=Q60HF9-2; Sequence=VSP_018966;
+CC   -!- PTM: [Isoform Cytoplasmic]: Phosphorylation at Thr-236 by PRKDC in
+CC       response to DNA damage promotes translocation to the nucleus and
+CC       recruitment to DNA double-strand breaks (DSBs).
+CC       {ECO:0000250|UniProtKB:P07954}.
+CC   -!- MISCELLANEOUS: There are 2 substrate-binding sites: the catalytic A
+CC       site, and the non-catalytic B site that may play a role in the transfer
+CC       of substrate or product between the active site and the solvent.
+CC       Alternatively, the B site may bind allosteric effectors.
+CC       {ECO:0000250|UniProtKB:P05042, ECO:0000250|UniProtKB:P9WN93}.
+CC   -!- SIMILARITY: Belongs to the class-II fumarase/aspartase family. Fumarase
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB125168; BAD51956.1; -; mRNA.
+DR   SMR; Q60HF9; -.
+DR   STRING; 9541.XP_005539729.1; -.
+DR   eggNOG; KOG1317; Eukaryota.
+DR   UniPathway; UPA00223; UER01007.
+DR   Proteomes; UP000233100; Unplaced.
+DR   GO; GO:0005694; C:chromosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005829; C:cytosol; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005739; C:mitochondrion; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005634; C:nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045239; C:tricarboxylic acid cycle enzyme complex; IEA:InterPro.
+DR   GO; GO:0004333; F:fumarate hydratase activity; ISS:UniProtKB.
+DR   GO; GO:0006974; P:cellular response to DNA damage stimulus; ISS:UniProtKB.
+DR   GO; GO:0006281; P:DNA repair; IEA:UniProtKB-KW.
+DR   GO; GO:0006106; P:fumarate metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006108; P:malate metabolic process; ISS:UniProtKB.
+DR   GO; GO:0000415; P:negative regulation of histone H3-K36 methylation; ISS:UniProtKB.
+DR   GO; GO:2001034; P:positive regulation of double-strand break repair via nonhomologous end joining; ISS:UniProtKB.
+DR   GO; GO:0000821; P:regulation of arginine metabolic process; ISS:UniProtKB.
+DR   GO; GO:0006099; P:tricarboxylic acid cycle; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0000050; P:urea cycle; ISS:UniProtKB.
+DR   CDD; cd01362; Fumarase_classII; 1.
+DR   Gene3D; 1.10.275.10; -; 1.
+DR   HAMAP; MF_00743; FumaraseC; 1.
+DR   InterPro; IPR005677; Fum_hydII.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR018951; Fumarase_C_C.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   PANTHER; PTHR11444; PTHR11444; 1.
+DR   Pfam; PF10415; FumaraseC_C; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; SSF48557; 1.
+DR   TIGRFAMs; TIGR00979; fumC_II; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+PE   2: Evidence at transcript level;
+KW   Acetylation; Alternative initiation; Chromosome; Cytoplasm; DNA damage;
+KW   DNA repair; Lyase; Mitochondrion; Nucleus; Phosphoprotein;
+KW   Reference proteome; Transit peptide; Tricarboxylic acid cycle.
+FT   TRANSIT         1..44
+FT                   /note="Mitochondrion"
+FT                   /evidence="ECO:0000250|UniProtKB:P10173"
+FT   CHAIN           45..510
+FT                   /note="Fumarate hydratase, mitochondrial"
+FT                   /id="PRO_0000010321"
+FT   REGION          145..147
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P05042"
+FT   REGION          176..179
+FT                   /note="Substrate binding (B site)"
+FT                   /evidence="ECO:0000250|UniProtKB:P05042"
+FT   REGION          186..188
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P05042"
+FT   REGION          371..373
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WN93"
+FT   ACT_SITE        235
+FT                   /note="Proton donor/acceptor"
+FT                   /evidence="ECO:0000250|UniProtKB:P05042"
+FT   ACT_SITE        365
+FT                   /evidence="ECO:0000250|UniProtKB:P9WN93"
+FT   BINDING         234
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WN93"
+FT   BINDING         366
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WN93"
+FT   SITE            378
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P05042"
+FT   MOD_RES         61
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         61
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         66
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         66
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         80
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         80
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         85
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         90
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         94
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         115
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         115
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         122
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         122
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         213
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         223
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         223
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         236
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         256
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         292
+FT                   /note="N6-acetyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         292
+FT                   /note="N6-succinyllysine; alternate"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         366
+FT                   /note="Phosphoserine"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+FT   MOD_RES         467
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         473
+FT                   /note="N6-succinyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   MOD_RES         502
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P97807"
+FT   VAR_SEQ         1..43
+FT                   /note="Missing (in isoform Cytoplasmic)"
+FT                   /evidence="ECO:0000305"
+FT                   /id="VSP_018966"
+FT   INIT_MET        Q60HF9-2:1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250|UniProtKB:P07954"
+SQ   SEQUENCE   510 AA;  54766 MW;  F5FC970E977DEA09 CRC64;
+     MYRALWLLAR SRRLVRPPAS ALASAPGLSG AAVPSFWPPN AARMASQNSF RIEYDTFGEL
+     KVPNDKYYGA QTVRSTMNFK IGGVTERMPT PVIKAFGILK RAAAEVNQDY GLDPKIANAI
+     MKAADEVAEG KLNDHFPLVV WQTGSGTQTN MNVNEVISNR AIEMLGGELG SKIPVHPNDH
+     VNKSQSSNDT FPTAMHIAAA IEVHEVLLPG LQKLHDALDA KSKEFAQIIK IGRTHTQDAV
+     PLTLGQEFSG YVQQVKYAVT RIKAAMPRIY ELAAGGTAVG TGLNTRIGFA EKVAAKVAAL
+     TGLPFVTAPN KFEALAAHDA LVELSGAMNT TACSLMKIAN DIRFLGSGPR SGLGELILPE
+     NEPGSSIMPG KVNPTQCEAM TMVAAQVMGN HVAVTVGGSN GHFELNVFKP MMIKNVLHSA
+     RLLGDASVSF TENCVVGIQA NTERINKLMN ESLMLVTALN PHIGYDKAAK IAKTAHKNGS
+     TLKETAIELG YLTAEQFDEW VKPKDMLGPK
+//

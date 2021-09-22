@@ -1,0 +1,183 @@
+ID   MFTC_MYCS2              Reviewed;         392 AA.
+AC   A0QSB8;
+DT   10-FEB-2021, integrated into UniProtKB/Swiss-Prot.
+DT   09-JAN-2007, sequence version 1.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Mycofactocin maturase MftC;
+DE   AltName: Full=[Mycofactocin precursor peptide]-pyrrolidinone derivative synthase;
+DE            EC=4.1.99.- {ECO:0000250|UniProtKB:A0PM49};
+DE   AltName: Full=[Mycofactocin precursor peptide]-tyrosine decarboxylase;
+DE            EC=1.3.98.- {ECO:0000269|PubMed:27158836};
+GN   Name=mftC {ECO:0000303|PubMed:27158836};
+GN   OrderedLocusNames=MSMEG_1423 {ECO:0000312|EMBL:ABK73068.1};
+OS   Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155) (Mycobacterium
+OS   smegmatis).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycolicibacterium.
+OX   NCBI_TaxID=246196;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RA   Fleischmann R.D., Dodson R.J., Haft D.H., Merkel J.S., Nelson W.C.,
+RA   Fraser C.M.;
+RL   Submitted (OCT-2006) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, AND REACTION MECHANISM.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=27158836; DOI=10.1021/acs.biochem.6b00355;
+RA   Bruender N.A., Bandarian V.;
+RT   "The Radical S-Adenosyl-L-methionine Enzyme MftC Catalyzes an Oxidative
+RT   Decarboxylation of the C-Terminus of the MftA Peptide.";
+RL   Biochemistry 55:2813-2816(2016).
+RN   [3]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=31113891; DOI=10.1128/mbio.00190-19;
+RA   Krishnamoorthy G., Kaiser P., Lozza L., Hahnke K., Mollenkopf H.J.,
+RA   Kaufmann S.H.E.;
+RT   "Mycofactocin Is Associated with Ethanol Metabolism in Mycobacteria.";
+RL   MBio 10:E00190-E00190(2019).
+RN   [4]
+RP   DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 700084 / mc(2)155;
+RX   PubMed=33014324; DOI=10.1039/d0sc01172j;
+RA   Pena-Ortiz L., Graca A.P., Guo H., Braga D., Koellner T.G., Regestein L.,
+RA   Beemelmanns C., Lackner G.;
+RT   "Structure elucidation of the redox cofactor mycofactocin reveals oligo-
+RT   glycosylation by MftF.";
+RL   Chem. Sci. 11:5182-5190(2020).
+CC   -!- FUNCTION: Radical S-adenosylmethionine (SAM) enzyme responsible for the
+CC       first step of the biosynthesis of the enzyme cofactor mycofactocin
+CC       (MFT). Catalyzes two reactions at the C-terminus of the mycofactocin
+CC       precursor (the MftA peptide). The first one is the oxidative
+CC       decarboxylation of the C-terminal L-tyrosine of MftA, forming an
+CC       unsaturated tyramine moiety (PubMed:27158836). The second reaction is
+CC       the cross-linking of the tyramine with the penultimate L-valine
+CC       residue, forming a five-membered lactam ring (By similarity). Its
+CC       activity requires the presence of the MftB chaperone (PubMed:27158836).
+CC       Is required for the in vivo ethanol assimilation in M.smegmatis
+CC       (PubMed:31113891). {ECO:0000250|UniProtKB:A0PM49,
+CC       ECO:0000269|PubMed:27158836, ECO:0000269|PubMed:31113891}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[mycofactocin precursor peptide]-C-terminal glycyl-L-valyl-L-
+CC         tyrosine + S-adenosyl-L-methionine = 5'-deoxyadenosine +
+CC         [mycofactocin precursor peptide]-C-terminal glycyl-N-{[2-(4-
+CC         hydroxyphenyl)ethenyl]-3-methylbutanamide} + CO2 + L-methionine;
+CC         Xref=Rhea:RHEA:65492, Rhea:RHEA-COMP:16815, Rhea:RHEA-COMP:16816,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:17319, ChEBI:CHEBI:57844,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:156515, ChEBI:CHEBI:156517;
+CC         Evidence={ECO:0000269|PubMed:27158836};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[mycofactocin precursor peptide]-C-terminal glycyl-N-{[2-(4-
+CC         hydroxyphenyl)ethenyl]-3-methylbutanamide} + AH2 + S-adenosyl-L-
+CC         methionine = 5'-deoxyadenosine + [mycofactocin precursor peptide]-C-
+CC         terminal glycyl-N-{5-[(4-hydroxyphenyl)methyl]-4,4-dimethyl-2-
+CC         oxopyrrolidin-3-yl}acetamide + A + H(+) + L-methionine;
+CC         Xref=Rhea:RHEA:65500, Rhea:RHEA-COMP:16816, Rhea:RHEA-COMP:16818,
+CC         ChEBI:CHEBI:13193, ChEBI:CHEBI:15378, ChEBI:CHEBI:17319,
+CC         ChEBI:CHEBI:17499, ChEBI:CHEBI:57844, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:156517, ChEBI:CHEBI:156518;
+CC         Evidence={ECO:0000250|UniProtKB:A0PM49};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU01266,
+CC         ECO:0000269|PubMed:27158836};
+CC       Note=Binds 3 [4Fe-4S] clusters. One cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine (Probable). All
+CC       three [Fe-S] clusters are required for MftC modification of MftA (By
+CC       similarity). {ECO:0000250|UniProtKB:A0PM49,
+CC       ECO:0000305|PubMed:27158836};
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene lose the ability to
+CC       utilize ethanol as the sole growth substrate (PubMed:31113891).
+CC       Glycosylated mycofactocins are not detected in this mutant
+CC       (PubMed:33014324). {ECO:0000269|PubMed:31113891,
+CC       ECO:0000269|PubMed:33014324}.
+CC   -!- SIMILARITY: Belongs to the radical SAM superfamily. MftC family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000480; ABK73068.1; -; Genomic_DNA.
+DR   RefSeq; WP_011727659.1; NZ_SIJM01000016.1.
+DR   RefSeq; YP_885806.1; NC_008596.1.
+DR   SMR; A0QSB8; -.
+DR   STRING; 246196.MSMEI_1388; -.
+DR   EnsemblBacteria; ABK73068; ABK73068; MSMEG_1423.
+DR   GeneID; 45743042; -.
+DR   KEGG; msm:MSMEG_1423; -.
+DR   PATRIC; fig|246196.19.peg.1410; -.
+DR   eggNOG; COG0535; Bacteria.
+DR   OMA; GFCFISH; -.
+DR   OrthoDB; 1172757at2; -.
+DR   Proteomes; UP000000757; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016829; F:lyase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   InterPro; IPR023885; 4Fe4S-binding_SPASM_dom.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR023913; Mycofactocin_rSAM_pep_mat.
+DR   InterPro; IPR017200; PqqE-like.
+DR   InterPro; IPR007197; rSAM.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   Pfam; PF13186; SPASM; 1.
+DR   PIRSF; PIRSF037420; PQQ_syn_pqqE; 1.
+DR   SFLD; SFLDF00316; C-terminal_tyrosine_decarboxyl; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR03962; mycofact_rSAM; 1.
+DR   TIGRFAMs; TIGR04085; rSAM_more_4Fe4S; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Iron; Iron-sulfur; Lyase; Metal-binding; Oxidoreductase;
+KW   Reference proteome; S-adenosyl-L-methionine.
+FT   CHAIN           1..392
+FT                   /note="Mycofactocin maturase MftC"
+FT                   /id="PRO_0000452060"
+FT   DOMAIN          18..228
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   METAL           32
+FT                   /note="Iron-sulfur 1 (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           36
+FT                   /note="Iron-sulfur 1 (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           39
+FT                   /note="Iron-sulfur 1 (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           253
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           260
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           271
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           312
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           315
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           321
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           325
+FT                   /note="Iron-sulfur 2 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+FT   METAL           343
+FT                   /note="Iron-sulfur 3 (4Fe-4S)"
+FT                   /evidence="ECO:0000250|UniProtKB:A0PM49"
+SQ   SEQUENCE   392 AA;  42378 MW;  B1C3F7BAB8B5E80A CRC64;
+     MTSVQPVPRL VEQFERGLDA PICLTWELTY ACNLACVHCL SSSGKRDPRE LSTQQCKDII
+     DELERMQVFY VNIGGGEPTV RSDFWELVDY ATAHHVGVKF STNGVRITPE VAAKLAASDY
+     VDVQISLDGA NAEVNDAVRG KGSFDMAVRA LENLSNAGFT DAKISVVVTR QNVDQLDEFA
+     ALAARYGATL RITRLRPSGR GADVWDDLHP TAEQQRQLYD WLVAKGDRVL TGDSFFHLSG
+     LGAPGALAGL NLCGAGRVVC LIDPVGDVYA CPFAIHDKFL AGNILSDGGF QNVWQHSELF
+     RELREPQSAG ACASCGHFDA CRGGCMAAKF FTGLPLDGPD PECVEGWGAP ALEKERVKPK
+     PSGDHSRGTK QGPVALKLLT KPPARFCNES PV
+//

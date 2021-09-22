@@ -1,0 +1,97 @@
+ID   ATPE_SALTY              Reviewed;         139 AA.
+AC   P0A1B7; Q9RFL2;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   10-FEB-2021, entry version 100.
+DE   RecName: Full=ATP synthase epsilon chain {ECO:0000255|HAMAP-Rule:MF_00530};
+DE   AltName: Full=ATP synthase F1 sector epsilon subunit {ECO:0000255|HAMAP-Rule:MF_00530};
+DE   AltName: Full=F-ATPase epsilon subunit {ECO:0000255|HAMAP-Rule:MF_00530};
+GN   Name=atpC {ECO:0000255|HAMAP-Rule:MF_00530}; OrderedLocusNames=STM3864;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=TA98;
+RA   Kim H.-K., Heo N.-J., Ghim S.-Y., Song B.-H.;
+RT   "Molecular structure of nonacistronic atp genes encoding ATP synthase in
+RT   Salmonella typhimurium.";
+RL   Submitted (SEP-1999) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton gradient
+CC       across the membrane. {ECO:0000255|HAMAP-Rule:MF_00530}.
+CC   -!- SUBUNIT: F-type ATPases have 2 components, CF(1) - the catalytic core
+CC       - and CF(0) - the membrane proton channel. CF(1) has five subunits:
+CC       alpha(3), beta(3), gamma(1), delta(1), epsilon(1). CF(0) has three main
+CC       subunits: a, b and c.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00530}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00530}.
+CC   -!- SIMILARITY: Belongs to the ATPase epsilon chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00530}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAF19363.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF188265; AAF19363.1; ALT_INIT; mRNA.
+DR   EMBL; AE006468; AAL22722.1; -; Genomic_DNA.
+DR   RefSeq; NP_462763.1; NC_003197.2.
+DR   RefSeq; WP_001251971.1; NC_003197.2.
+DR   SMR; P0A1B7; -.
+DR   PaxDb; P0A1B7; -.
+DR   EnsemblBacteria; AAL22722; AAL22722; STM3864.
+DR   GeneID; 1255391; -.
+DR   GeneID; 57002500; -.
+DR   KEGG; stm:STM3864; -.
+DR   PATRIC; fig|99287.12.peg.4093; -.
+DR   HOGENOM; CLU_084338_2_0_6; -.
+DR   OMA; MGGFAEI; -.
+DR   PhylomeDB; P0A1B7; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0045261; C:proton-transporting ATP synthase complex, catalytic core F(1); IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015986; P:ATP synthesis coupled proton transport; IBA:GO_Central.
+DR   CDD; cd12152; F1-ATPase_delta; 1.
+DR   Gene3D; 2.60.15.10; -; 1.
+DR   HAMAP; MF_00530; ATP_synth_epsil_bac; 1.
+DR   InterPro; IPR036794; ATP_F1_dsu/esu_C_sf.
+DR   InterPro; IPR001469; ATP_synth_F1_dsu/esu.
+DR   InterPro; IPR020547; ATP_synth_F1_dsu/esu_C.
+DR   InterPro; IPR020546; ATP_synth_F1_dsu/esu_N.
+DR   InterPro; IPR036771; ATPsynth_dsu/esu_N.
+DR   PANTHER; PTHR13822; PTHR13822; 1.
+DR   Pfam; PF00401; ATP-synt_DE; 1.
+DR   Pfam; PF02823; ATP-synt_DE_N; 1.
+DR   SUPFAM; SSF46604; SSF46604; 1.
+DR   SUPFAM; SSF51344; SSF51344; 1.
+DR   TIGRFAMs; TIGR01216; ATP_synt_epsi; 1.
+PE   2: Evidence at transcript level;
+KW   ATP synthesis; Cell inner membrane; Cell membrane; CF(1);
+KW   Hydrogen ion transport; Ion transport; Membrane; Reference proteome;
+KW   Transport.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..139
+FT                   /note="ATP synthase epsilon chain"
+FT                   /id="PRO_0000188197"
+SQ   SEQUENCE   139 AA;  15064 MW;  58E6129542314F7F CRC64;
+     MAMTYHLDVV SAEQQMFSGL VEKIQVTGSE GELGIYPGHA PLLTAIKPGM IRIVKQHGHE
+     EFIYLSGGIL EVQPGSVTVL ADTAIRGQDL DEARALEAKR KAEEHIKSSH GDVDYAQASA
+     ELAKAIAKLR VIELTKKAM
+//

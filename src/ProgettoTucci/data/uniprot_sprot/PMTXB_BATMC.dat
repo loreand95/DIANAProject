@@ -1,0 +1,97 @@
+ID   PMTXB_BATMC             Reviewed;          13 AA.
+AC   P69392;
+DT   01-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2005, sequence version 1.
+DT   26-FEB-2020, entry version 37.
+DE   RecName: Full=Beta-pompilidotoxin;
+DE            Short=Beta-PMTX;
+OS   Batozonellus maculifrons (Solitary wasp).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Holometabola; Hymenoptera; Apocrita; Aculeata; Pompiloidea;
+OC   Pompilidae; Pompilinae; Batozonellus.
+OX   NCBI_TaxID=308766;
+RN   [1]
+RP   PROTEIN SEQUENCE, MASS SPECTROMETRY, SYNTHESIS, AND SUBCELLULAR LOCATION.
+RC   TISSUE=Venom;
+RX   PubMed=9784394; DOI=10.1006/bbrc.1998.9299;
+RA   Konno K., Hisada M., Itagaki Y., Naoki H., Kawai N., Miwa A., Yasuhara T.,
+RA   Takayama H.;
+RT   "Isolation and structure of pompilidotoxins, novel peptide neurotoxins in
+RT   solitary wasp venoms.";
+RL   Biochem. Biophys. Res. Commun. 250:612-616(1998).
+RN   [2]
+RP   FUNCTION.
+RC   TISSUE=Venom;
+RX   PubMed=11755223; DOI=10.1016/s0168-0102(01)00294-2;
+RA   Yokota H., Tsubokawa H., Miyawaki T., Konno K., Nakayama H., Masuzawa T.,
+RA   Kawai N.;
+RT   "Modulation of synaptic transmission in hippocampal CA1 neurons by a novel
+RT   neurotoxin (beta-pompilidotoxin) derived from wasp venom.";
+RL   Neurosci. Res. 41:365-371(2001).
+RN   [3]
+RP   FUNCTION.
+RC   TISSUE=Venom;
+RX   PubMed=12123851; DOI=10.1016/s0304-3940(02)00432-9;
+RA   Miyawaki T., Tsubokawa H., Yokota H., Oguro K., Konno K., Masuzawa T.,
+RA   Kawai N.;
+RT   "Differential effects of novel wasp toxin on rat hippocampal
+RT   interneurons.";
+RL   Neurosci. Lett. 328:25-28(2002).
+RN   [4]
+RP   FUNCTION.
+RC   TISSUE=Venom;
+RX   PubMed=14715935; DOI=10.1523/jneurosci.3807-03.2004;
+RA   Grieco T.M., Raman I.M.;
+RT   "Production of resurgent current in Nav1.6-null Purkinje neurons by slowing
+RT   sodium channel inactivation with beta-pompilidotoxin.";
+RL   J. Neurosci. 24:35-42(2004).
+RN   [5]
+RP   FUNCTION, SYNTHESIS, AND MUTAGENESIS OF ARG-1 AND LYS-3.
+RX   PubMed=20059541; DOI=10.1111/j.1742-4658.2009.07533.x;
+RA   Schiavon E., Stevens M., Zaharenko A.J., Konno K., Tytgat J., Wanke E.;
+RT   "Voltage-gated sodium channel isoform-specific effects of
+RT   pompilidotoxins.";
+RL   FEBS J. 277:918-930(2010).
+CC   -!- FUNCTION: Inhibits sodium channel (Nav) inactivation. Shows two types
+CC       of inhibitory activities on channels. Inhibition of insect DmNav1/para
+CC       and hNav1.6/SCN8A shows a large increase in the steady-state current
+CC       component without any increase in the slow component, whereas
+CC       inhibition of hNav1.1/SCN1A, hNav1.2/SCN2A, hNav1.3/SCN3A and
+CC       hNav1.7/SCN9A shows a large increase in the slow component with only a
+CC       small steady-state component (PubMed:20059541). Is 5-fold more potent
+CC       than alpha-PMTX for inducing repetitive action potentials in lobster
+CC       neuromuscular junctions. {ECO:0000269|PubMed:11755223,
+CC       ECO:0000269|PubMed:12123851, ECO:0000269|PubMed:14715935,
+CC       ECO:0000269|PubMed:20059541}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:9784394}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland. {ECO:0000305}.
+CC   -!- MASS SPECTROMETRY: Mass=1530; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:9784394};
+CC   -!- MISCELLANEOUS: Does not inactivate (neither slow nor steady-state
+CC       components) hNav1.4/SCN4A and hNav1.5/SCN5A sodium channels, although
+CC       some very small inhibitory effects are seen for the hNav1.5/SCN5A
+CC       isoform. {ECO:0000269|PubMed:20059541}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Ion channel impairing toxin; Neurotoxin;
+KW   Presynaptic neurotoxin; Secreted; Toxin;
+KW   Voltage-gated sodium channel impairing toxin.
+FT   PEPTIDE         1..13
+FT                   /note="Beta-pompilidotoxin"
+FT                   /id="PRO_0000044537"
+FT   MUTAGEN         1
+FT                   /note="R->K: Similar order of inhibition potency on
+FT                   different Nav isoforms; alone or when associated with R-3."
+FT                   /evidence="ECO:0000269|PubMed:20059541"
+FT   MUTAGEN         3
+FT                   /note="K->R: Similar order of inhibition potency on
+FT                   different Nav isoforms; alone or when associated with K-1."
+FT                   /evidence="ECO:0000269|PubMed:20059541"
+SQ   SEQUENCE   13 AA;  1559 MW;  5CF5604A5C40A9C7 CRC64;
+     RIKIGLFDQL SRL
+//

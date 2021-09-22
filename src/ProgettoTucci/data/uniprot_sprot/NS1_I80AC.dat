@@ -1,0 +1,122 @@
+ID   NS1_I80AC               Reviewed;         230 AA.
+AC   O57306;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-1998, sequence version 1.
+DT   07-OCT-2020, entry version 84.
+DE   RecName: Full=Non-structural protein 1 {ECO:0000255|HAMAP-Rule:MF_04066};
+DE            Short=NS1 {ECO:0000255|HAMAP-Rule:MF_04066};
+DE   AltName: Full=NS1A {ECO:0000255|HAMAP-Rule:MF_04066};
+GN   Name=NS {ECO:0000255|HAMAP-Rule:MF_04066};
+OS   Influenza A virus (strain A/Gull/Massachusetts/26/1980 H13N6).
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Insthoviricetes; Articulavirales; Orthomyxoviridae; Alphainfluenzavirus.
+OX   NCBI_TaxID=385626;
+OH   NCBI_TaxID=8782; Aves.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=9660072; DOI=10.1016/s0168-1702(98)00011-2;
+RA   Suarez D.L., Perdue M.L.;
+RT   "Multiple alignment comparison of the non-structural genes of influenza A
+RT   viruses.";
+RL   Virus Res. 54:59-69(1998).
+CC   -!- FUNCTION: Prevents the establishment of the cellular antiviral state by
+CC       inhibiting TRIM25-mediated DDX58 ubiquitination, which normally
+CC       triggers the antiviral transduction signal that leads to the activation
+CC       of type I IFN genes by transcription factors IRF3 and IRF7. Prevents
+CC       human EIF2AK2/PKR activation, either by binding double-strand RNA, or
+CC       by interacting directly with EIF2AK2/PKR. This function may be
+CC       important at the very beginning of the infection, when NS1 is mainly
+CC       present in the cytoplasm. Also binds poly(A) and U6 snRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- FUNCTION: Inhibits post-transcriptional processing of cellular pre-
+CC       mRNA, by binding and inhibiting two cellular proteins that are required
+CC       for the 3'-end processing of cellular pre-mRNAs: the 30 kDa cleavage
+CC       and polyadenylation specificity factor/CPSF4 and the poly(A)-binding
+CC       protein 2/PABPN1. In turn, unprocessed 3' end pre-mRNAs accumulate in
+CC       the host nucleus and are no longer exported to the cytoplasm. Cellular
+CC       protein synthesis is thereby shut off very early after virus infection.
+CC       Viral protein synthesis is not affected by the inhibition of the
+CC       cellular 3' end processing machinery because the poly(A) tails of viral
+CC       mRNAs are produced by the viral polymerase through a stuttering
+CC       mechanism. {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- SUBUNIT: Homodimer. Interacts with host TRIM25 (via coiled coil); this
+CC       interaction specifically inhibits TRIM25 multimerization and TRIM25-
+CC       mediated DDX58 CARD ubiquitination. Interacts with human EIF2AK2/PKR,
+CC       CPSF4, IVNS1ABP and PABPN1. {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- SUBCELLULAR LOCATION: Host nucleus {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC       Host cytoplasm {ECO:0000255|HAMAP-Rule:MF_04066}. Note=In uninfected,
+CC       transfected cells, NS1 is localized in the nucleus. Only in virus
+CC       infected cells, the nuclear export signal is unveiled, presumably by a
+CC       viral protein, and a fraction of NS1 is exported in the cytoplasm.
+CC       {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=2;
+CC       Name=NS1;
+CC         IsoId=O57306-1; Sequence=Displayed;
+CC       Name=NEP; Synonyms=NS2;
+CC         IsoId=P69265-1; Sequence=External;
+CC   -!- DOMAIN: The dsRNA-binding region is required for suppression of RNA
+CC       silencing. {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- PTM: Upon interferon induction, ISGylated via host HERC5; this results
+CC       in the impairment of NS1 interaction with RNA targets due to its
+CC       inability to form homodimers and to interact with host EIF2AK2/PKR.
+CC       {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   -!- SIMILARITY: Belongs to the influenza A viruses NS1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_04066}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U96744; AAB93947.1; -; Genomic_RNA.
+DR   SMR; O57306; -.
+DR   GO; GO:0030430; C:host cell cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042025; C:host cell nucleus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0039524; P:suppression by virus of host mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0039580; P:suppression by virus of host PKR activity; IEA:UniProtKB-KW.
+DR   GO; GO:0039540; P:suppression by virus of host RIG-I activity; IEA:UniProtKB-KW.
+DR   GO; GO:0039502; P:suppression by virus of host type I interferon-mediated signaling pathway; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.420.330; -; 1.
+DR   HAMAP; MF_04066; INFV_NS1; 1.
+DR   InterPro; IPR004208; NS1.
+DR   InterPro; IPR000256; NS1A.
+DR   InterPro; IPR038064; NS1A_effect_dom-like_sf.
+DR   InterPro; IPR009068; S15_NS1_RNA-bd.
+DR   Pfam; PF00600; Flu_NS1; 1.
+DR   SUPFAM; SSF143021; SSF143021; 1.
+DR   SUPFAM; SSF47060; SSF47060; 1.
+PE   3: Inferred from homology;
+KW   Alternative splicing; Eukaryotic host gene expression shutoff by virus;
+KW   Host cytoplasm; Host gene expression shutoff by virus;
+KW   Host mRNA suppression by virus; Host nucleus; Host-virus interaction;
+KW   Inhibition of host innate immune response by virus;
+KW   Inhibition of host interferon signaling pathway by virus;
+KW   Inhibition of host PKR by virus;
+KW   Inhibition of host pre-mRNA processing by virus;
+KW   Inhibition of host RIG-I by virus; Inhibition of host RLR pathway by virus;
+KW   Interferon antiviral system evasion; RNA-binding; Ubl conjugation;
+KW   Viral immunoevasion.
+FT   CHAIN           1..230
+FT                   /note="Non-structural protein 1"
+FT                   /id="PRO_0000324270"
+FT   REGION          1..73
+FT                   /note="RNA-binding and homodimerization"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04066"
+FT   REGION          180..215
+FT                   /note="CPSF4-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04066"
+FT   REGION          223..230
+FT                   /note="PABPN1-binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04066"
+FT   MOTIF           34..38
+FT                   /note="Nuclear localization signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04066"
+FT   MOTIF           137..146
+FT                   /note="Nuclear export signal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_04066"
+SQ   SEQUENCE   230 AA;  25822 MW;  2296E133321C382F CRC64;
+     MDSNTVSSFQ VDCFLWHVRK RFADQEMGDA PFLDRIRRDQ KSLKGRSITL GIDIEAATRA
+     GKLIIERILD EESDEALKMN IASVPASRYV TDMTPEEMSR DWFMLMPKQK FAGPLCIRMD
+     QAILDKNIVL KANFSVAFDR LETLILLRAF TSEGAIVGEI SQLPSLPGHT SEDVKNAIGI
+     LIGGLEWNDN TVRVSETLQR FAWGSSNENG RPPFAPKQER KMAGTVESEV
+//

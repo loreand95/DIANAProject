@@ -1,0 +1,122 @@
+ID   RLMD_PSYCK              Reviewed;         513 AA.
+AC   Q1QDU2;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   16-MAY-2006, sequence version 1.
+DT   02-DEC-2020, entry version 89.
+DE   RecName: Full=23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD {ECO:0000255|HAMAP-Rule:MF_01010};
+DE            EC=2.1.1.190 {ECO:0000255|HAMAP-Rule:MF_01010};
+DE   AltName: Full=23S rRNA(m5U1939)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01010};
+GN   Name=rlmD {ECO:0000255|HAMAP-Rule:MF_01010}; Synonyms=rumA;
+GN   OrderedLocusNames=Pcryo_0378;
+OS   Psychrobacter cryohalolentis (strain ATCC BAA-1226 / DSM 17306 / VKM B-2378
+OS   / K5).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Moraxellaceae; Psychrobacter.
+OX   NCBI_TaxID=335284;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1226 / DSM 17306 / VKM B-2378 / K5;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C., Glavina T.,
+RA   Hammon N., Israni S., Dalin E., Tice H., Pitluck S., Brettin T., Bruce D.,
+RA   Han C., Tapia R., Sims D.R., Gilna P., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Richardson P.;
+RT   "Complete sequence of chromosome of Psychrobacter cryohalolentis K5.";
+RL   Submitted (MAR-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of 5-methyl-uridine at position 1939
+CC       (m5U1939) in 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_01010}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(1939) in 23S rRNA = 5-
+CC         methyluridine(1939) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42908, Rhea:RHEA-COMP:10278, Rhea:RHEA-COMP:10279,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.190;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01010};
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA M5U methyltransferase family. RlmD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01010}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000323; ABE74161.1; -; Genomic_DNA.
+DR   RefSeq; WP_011512747.1; NC_007969.1.
+DR   SMR; Q1QDU2; -.
+DR   STRING; 335284.Pcryo_0378; -.
+DR   EnsemblBacteria; ABE74161; ABE74161; Pcryo_0378.
+DR   KEGG; pcr:Pcryo_0378; -.
+DR   eggNOG; COG2265; Bacteria.
+DR   HOGENOM; CLU_014689_8_2_6; -.
+DR   OMA; PAWGYRY; -.
+DR   Proteomes; UP000002425; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0070041; F:rRNA (uridine-C5-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01010; 23SrRNA_methyltr_RlmD; 1.
+DR   InterPro; IPR001566; 23S_rRNA_MeTrfase_RlmD.
+DR   InterPro; IPR030390; MeTrfase_TrmA_AS.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR002792; TRAM_dom.
+DR   InterPro; IPR010280; U5_MeTrfase_fam.
+DR   PANTHER; PTHR11061; PTHR11061; 1.
+DR   Pfam; PF05958; tRNA_U5-meth_tr; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS51687; SAM_MT_RNA_M5U; 1.
+DR   PROSITE; PS50926; TRAM; 1.
+DR   PROSITE; PS01230; TRMA_1; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Metal-binding; Methyltransferase;
+KW   rRNA processing; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..513
+FT                   /note="23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD"
+FT                   /id="PRO_0000282055"
+FT   DOMAIN          42..114
+FT                   /note="TRAM"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   ACT_SITE        468
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   METAL           128
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   METAL           134
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   METAL           137
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   METAL           216
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         341
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         370
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         375
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         394
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         421
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+FT   BINDING         442
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01010"
+SQ   SEQUENCE   513 AA;  57071 MW;  9840FADA3A999111 CRC64;
+     MQPTDSKTLT NVDATEQANE TQTITIPPNK KKSKPSSKTR RRLKDAEPLP FTIDGLSHDG
+     RGVAVYGNGF GETDGHITDK HGKKIFVSFA LPGESALVKI TNSRTSFEEG DAVRITANPN
+     PERVVPPCPH FGVCGGCNLQ HWQPDAQITF KQSVLAEMLV HQANVAPDHW LEPVVGDRLG
+     YRTKARLGVR YVVKKETALV GFRERSSNFL AELNECHILD PRIGFEIENL KTLISTLDSR
+     DKIAQLELAM GEHLPELPDG DQPVALIVRN LEPLSDGDID KLKVFFAARN WQLYLQSKGA
+     DSIQRIALRD TDDLSEQFGR LYYQLPEYDL TFEFIPTDFT QVNLSVNRQM TKLACDLLDL
+     KAGERVLDLF SGLGNFSLPL ARLVGETGSV VGVEGSEAMT ARAADNARRN GINNTEFYSQ
+     DLTHDCTDKP WANQGFDALL IDPPRSGAWE IMQYLPKFNA ERIVYVSCNP ATLARDTKAL
+     LEQGYRLTHA GVMDMFCHTG HVESIARFEK ISA
+//

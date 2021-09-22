@@ -1,0 +1,108 @@
+ID   PDXS_MYCLB              Reviewed;         307 AA.
+AC   B8ZUG3;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   03-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 72.
+DE   RecName: Full=Pyridoxal 5'-phosphate synthase subunit PdxS {ECO:0000255|HAMAP-Rule:MF_01824};
+DE            Short=PLP synthase subunit PdxS {ECO:0000255|HAMAP-Rule:MF_01824};
+DE            EC=4.3.3.6 {ECO:0000255|HAMAP-Rule:MF_01824};
+DE   AltName: Full=Pdx1 {ECO:0000255|HAMAP-Rule:MF_01824};
+GN   Name=pdxS {ECO:0000255|HAMAP-Rule:MF_01824}; OrderedLocusNames=MLBr00450;
+OS   Mycobacterium leprae (strain Br4923).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium.
+OX   NCBI_TaxID=561304;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Br4923;
+RX   PubMed=19881526; DOI=10.1038/ng.477;
+RA   Monot M., Honore N., Garnier T., Zidane N., Sherafi D., Paniz-Mondolfi A.,
+RA   Matsuoka M., Taylor G.M., Donoghue H.D., Bouwman A., Mays S., Watson C.,
+RA   Lockwood D., Khamispour A., Dowlati Y., Jianping S., Rea T.H.,
+RA   Vera-Cabrera L., Stefani M.M., Banu S., Macdonald M., Sapkota B.R.,
+RA   Spencer J.S., Thomas J., Harshman K., Singh P., Busso P., Gattiker A.,
+RA   Rougemont J., Brennan P.J., Cole S.T.;
+RT   "Comparative genomic and phylogeographic analysis of Mycobacterium
+RT   leprae.";
+RL   Nat. Genet. 41:1282-1289(2009).
+CC   -!- FUNCTION: Catalyzes the formation of pyridoxal 5'-phosphate from ribose
+CC       5-phosphate (RBP), glyceraldehyde 3-phosphate (G3P) and ammonia. The
+CC       ammonia is provided by the PdxT subunit. Can also use ribulose 5-
+CC       phosphate and dihydroxyacetone phosphate as substrates, resulting from
+CC       enzyme-catalyzed isomerization of RBP and G3P, respectively.
+CC       {ECO:0000255|HAMAP-Rule:MF_01824}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-ribose 5-phosphate + D-glyceraldehyde 3-phosphate +
+CC         L-glutamine = H(+) + 3 H2O + L-glutamate + phosphate + pyridoxal 5'-
+CC         phosphate; Xref=Rhea:RHEA:31507, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:58273, ChEBI:CHEBI:58359, ChEBI:CHEBI:59776,
+CC         ChEBI:CHEBI:597326; EC=4.3.3.6; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01824};
+CC   -!- PATHWAY: Cofactor biosynthesis; pyridoxal 5'-phosphate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01824}.
+CC   -!- SUBUNIT: In the presence of PdxT, forms a dodecamer of heterodimers.
+CC       {ECO:0000255|HAMAP-Rule:MF_01824}.
+CC   -!- SIMILARITY: Belongs to the PdxS/SNZ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01824}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM211192; CAR70543.1; -; Genomic_DNA.
+DR   RefSeq; WP_010907728.1; NC_011896.1.
+DR   SMR; B8ZUG3; -.
+DR   EnsemblBacteria; CAR70543; CAR70543; MLBr00450.
+DR   KEGG; mlb:MLBr00450; -.
+DR   HOGENOM; CLU_055352_1_0_11; -.
+DR   OMA; RYANRGW; -.
+DR   OrthoDB; 784095at2; -.
+DR   UniPathway; UPA00245; -.
+DR   Proteomes; UP000006900; Chromosome.
+DR   GO; GO:0036381; F:pyridoxal 5'-phosphate synthase (glutamine hydrolysing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042823; P:pyridoxal phosphate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd04727; pdxS; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01824; PdxS; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR001852; PdxS/SNZ.
+DR   InterPro; IPR033755; PdxS/SNZ_N.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   PANTHER; PTHR31829; PTHR31829; 1.
+DR   Pfam; PF01680; SOR_SNZ; 1.
+DR   PIRSF; PIRSF029271; Pdx1; 1.
+DR   SUPFAM; SSF51366; SSF51366; 1.
+DR   TIGRFAMs; TIGR00343; TIGR00343; 1.
+DR   PROSITE; PS01235; PDXS_SNZ_1; 1.
+DR   PROSITE; PS51129; PDXS_SNZ_2; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Pyridoxal phosphate; Schiff base.
+FT   CHAIN           1..307
+FT                   /note="Pyridoxal 5'-phosphate synthase subunit PdxS"
+FT                   /id="PRO_1000188236"
+FT   REGION          248..249
+FT                   /note="D-ribose 5-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+FT   ACT_SITE        94
+FT                   /note="Schiff-base intermediate with D-ribose 5-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+FT   BINDING         37
+FT                   /note="D-ribose 5-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+FT   BINDING         166
+FT                   /note="D-ribose 5-phosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+FT   BINDING         178
+FT                   /note="Glyceraldehyde 3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+FT   BINDING         227
+FT                   /note="D-ribose 5-phosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01824"
+SQ   SEQUENCE   307 AA;  32571 MW;  E7C3998258AE187E CRC64;
+     MDSAAQSNQA QSVFGQTGTA RVKRGMAEML KGGVIMDVVI PEQARIAEGS GAVAVMALER
+     VPSDIRAQGG VSRMSDPDMI ESIIAAVTIP VMAKARIGHF VEAQILQSLG VDYIDESEVL
+     TPADYTHHID KWKFTVPFVC GATNLGEALR RINEGAAMIR SKGEAGTGDV SNATTHMRAI
+     AGDIRRLTSL SEDELYVAAK ELHAPYELVI EVARTNKLPV TLFTAGGIAT PADAAMMMQL
+     GAEGIFVGSG IFKSSDPAQR AAAIVKATTF YDDPDVLAKV SRGLGEAMAG IDVEQIAQPD
+     RLAQRGW
+//

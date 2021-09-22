@@ -1,0 +1,117 @@
+ID   ERA_PSEE4               Reviewed;         300 AA.
+AC   Q1I5V9;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   10-FEB-2021, entry version 87.
+DE   RecName: Full=GTPase Era {ECO:0000255|HAMAP-Rule:MF_00367};
+GN   Name=era {ECO:0000255|HAMAP-Rule:MF_00367}; OrderedLocusNames=PSEEN4289;
+OS   Pseudomonas entomophila (strain L48).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=384676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L48;
+RX   PubMed=16699499; DOI=10.1038/nbt1212;
+RA   Vodovar N., Vallenet D., Cruveiller S., Rouy Z., Barbe V., Acosta C.,
+RA   Cattolico L., Jubin C., Lajus A., Segurens B., Vacherie B., Wincker P.,
+RA   Weissenbach J., Lemaitre B., Medigue C., Boccard F.;
+RT   "Complete genome sequence of the entomopathogenic and metabolically
+RT   versatile soil bacterium Pseudomonas entomophila.";
+RL   Nat. Biotechnol. 24:673-679(2006).
+CC   -!- FUNCTION: An essential GTPase that binds both GDP and GTP, with rapid
+CC       nucleotide exchange. Plays a role in 16S rRNA processing and 30S
+CC       ribosomal subunit biogenesis and possibly also in cell cycle regulation
+CC       and energy metabolism. {ECO:0000255|HAMAP-Rule:MF_00367}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00367}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm. Cell inner membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_00367}; Peripheral membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_00367}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-like
+CC       GTPase superfamily. Era GTPase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00367, ECO:0000255|PROSITE-ProRule:PRU01050}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CT573326; CAK16976.1; -; Genomic_DNA.
+DR   RefSeq; WP_011535347.1; NC_008027.1.
+DR   SMR; Q1I5V9; -.
+DR   STRING; 384676.PSEEN4289; -.
+DR   EnsemblBacteria; CAK16976; CAK16976; PSEEN4289.
+DR   KEGG; pen:PSEEN4289; -.
+DR   eggNOG; COG1159; Bacteria.
+DR   HOGENOM; CLU_038009_1_2_6; -.
+DR   OMA; HVKVAKD; -.
+DR   OrthoDB; 984717at2; -.
+DR   BioCyc; PENT384676:PSEEN_RS19840-MONOMER; -.
+DR   Proteomes; UP000000658; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070181; F:small ribosomal subunit rRNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0042274; P:ribosomal small subunit biogenesis; IEA:UniProtKB-UniRule.
+DR   CDD; cd04163; Era; 1.
+DR   Gene3D; 3.30.300.20; -; 1.
+DR   HAMAP; MF_00367; GTPase_Era; 1.
+DR   InterPro; IPR030388; G_ERA_dom.
+DR   InterPro; IPR006073; GTP-bd.
+DR   InterPro; IPR005662; GTP-bd_Era.
+DR   InterPro; IPR015946; KH_dom-like_a/b.
+DR   InterPro; IPR004044; KH_dom_type_2.
+DR   InterPro; IPR009019; KH_sf_prok-type.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF07650; KH_2; 1.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54814; SSF54814; 1.
+DR   TIGRFAMs; TIGR00436; era; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS51713; G_ERA; 1.
+DR   PROSITE; PS50823; KH_TYPE_2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cytoplasm; GTP-binding; Membrane;
+KW   Nucleotide-binding; Ribosome biogenesis; RNA-binding; rRNA-binding.
+FT   CHAIN           1..300
+FT                   /note="GTPase Era"
+FT                   /id="PRO_1000079720"
+FT   DOMAIN          8..176
+FT                   /note="Era-type G"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   DOMAIN          199..283
+FT                   /note="KH type-2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         16..23
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         63..67
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   NP_BIND         125..128
+FT                   /note="GTP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00367"
+FT   REGION          16..23
+FT                   /note="G1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          42..46
+FT                   /note="G2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          63..66
+FT                   /note="G3"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          125..128
+FT                   /note="G4"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+FT   REGION          155..157
+FT                   /note="G5"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01050"
+SQ   SEQUENCE   300 AA;  34087 MW;  A0B1063182864FF9 CRC64;
+     MTENTSTRCG YVAIVGRPNV GKSTLLNHIL GQKLAITSRK PQTTRHNMLG IKTEGDVQAI
+     YVDTPGMHKA NDKALNRYMN RNASAALKDV DVVIFVVDRT RWTDEDQLVL ERVQYVTGPL
+     IIAVNKTDRM EEKAELIPHL QWLQEQLPNA EVMPISAQQG HNLDALEAQI AKHLPENDHF
+     FPEDQITDRS SRFLAAELVR EKIMRQLGAE LPYQITVEIE EFKQQGHVLH IHALILVERD
+     GQKKIIIGDK GERIKRIGSE ARKDMEVLFD SKVMLNLWVK VKGGWSDDER ALRSLGYGDL
+//

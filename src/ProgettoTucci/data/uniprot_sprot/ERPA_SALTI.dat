@@ -1,0 +1,100 @@
+ID   ERPA_SALTI              Reviewed;         114 AA.
+AC   Q8XFF3; Q7ANK3;
+DT   13-NOV-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-NOV-2007, sequence version 2.
+DT   07-APR-2021, entry version 115.
+DE   RecName: Full=Iron-sulfur cluster insertion protein ErpA {ECO:0000255|HAMAP-Rule:MF_01380};
+GN   Name=erpA {ECO:0000255|HAMAP-Rule:MF_01380};
+GN   OrderedLocusNames=STY0226, t0205;
+OS   Salmonella typhi.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=90370;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700931 / Ty2;
+RX   PubMed=12644504; DOI=10.1128/jb.185.7.2330-2337.2003;
+RA   Deng W., Liou S.-R., Plunkett G. III, Mayhew G.F., Rose D.J., Burland V.,
+RA   Kodoyianni V., Schwartz D.C., Blattner F.R.;
+RT   "Comparative genomics of Salmonella enterica serovar Typhi strains Ty2 and
+RT   CT18.";
+RL   J. Bacteriol. 185:2330-2337(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CT18;
+RX   PubMed=11677608; DOI=10.1038/35101607;
+RA   Parkhill J., Dougan G., James K.D., Thomson N.R., Pickard D., Wain J.,
+RA   Churcher C.M., Mungall K.L., Bentley S.D., Holden M.T.G., Sebaihia M.,
+RA   Baker S., Basham D., Brooks K., Chillingworth T., Connerton P., Cronin A.,
+RA   Davis P., Davies R.M., Dowd L., White N., Farrar J., Feltwell T.,
+RA   Hamlin N., Haque A., Hien T.T., Holroyd S., Jagels K., Krogh A.,
+RA   Larsen T.S., Leather S., Moule S., O'Gaora P., Parry C., Quail M.A.,
+RA   Rutherford K.M., Simmonds M., Skelton J., Stevens K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Complete genome sequence of a multiple drug resistant Salmonella enterica
+RT   serovar Typhi CT18.";
+RL   Nature 413:848-852(2001).
+CC   -!- FUNCTION: Required for insertion of 4Fe-4S clusters for at least IspG.
+CC       {ECO:0000255|HAMAP-Rule:MF_01380}.
+CC   -!- COFACTOR:
+CC       Name=iron-sulfur cluster; Xref=ChEBI:CHEBI:30408;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01380};
+CC       Note=Binds 1 iron-sulfur cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01380};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01380}.
+CC   -!- SIMILARITY: Belongs to the HesB/IscA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01380}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAO67936.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=CAD01358.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014613; AAO67936.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; AL513382; CAD01358.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; NP_454812.1; NC_003198.1.
+DR   RefSeq; WP_001278668.1; NZ_WSUR01000009.1.
+DR   SMR; Q8XFF3; -.
+DR   STRING; 220341.16501485; -.
+DR   EnsemblBacteria; AAO67936; AAO67936; t0205.
+DR   GeneID; 57493835; -.
+DR   KEGG; stt:t0205; -.
+DR   KEGG; sty:STY0226; -.
+DR   PATRIC; fig|220341.7.peg.227; -.
+DR   eggNOG; COG0316; Bacteria.
+DR   HOGENOM; CLU_069054_5_3_6; -.
+DR   Proteomes; UP000000541; Chromosome.
+DR   Proteomes; UP000002670; Chromosome.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051536; F:iron-sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016226; P:iron-sulfur cluster assembly; IEA:UniProtKB-UniRule.
+DR   Gene3D; 2.60.300.12; -; 1.
+DR   HAMAP; MF_01380; Fe_S_insert_ErpA; 1.
+DR   InterPro; IPR000361; FeS_biogenesis.
+DR   InterPro; IPR016092; FeS_cluster_insertion.
+DR   InterPro; IPR017870; FeS_cluster_insertion_CS.
+DR   InterPro; IPR023063; FeS_cluster_insertion_RrpA.
+DR   InterPro; IPR035903; HesB-like_dom_sf.
+DR   Pfam; PF01521; Fe-S_biosyn; 1.
+DR   SUPFAM; SSF89360; SSF89360; 1.
+DR   TIGRFAMs; TIGR00049; TIGR00049; 1.
+DR   PROSITE; PS01152; HESB; 1.
+PE   3: Inferred from homology;
+KW   Iron; Iron-sulfur; Metal-binding.
+FT   CHAIN           1..114
+FT                   /note="Iron-sulfur cluster insertion protein ErpA"
+FT                   /id="PRO_0000311545"
+FT   METAL           42
+FT                   /note="Iron-sulfur"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01380"
+FT   METAL           106
+FT                   /note="Iron-sulfur"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01380"
+FT   METAL           108
+FT                   /note="Iron-sulfur"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01380"
+SQ   SEQUENCE   114 AA;  12099 MW;  4A423BE486F4914E CRC64;
+     MSDDVALPLQ FTDAAANKVK SLIADEDNPN LKLRVYITGG GCSGFQYGFT FDDQVNEGDM
+     TIEKQGVGLV VDPMSLQYLV GGSVDYTEGL EGSRFIVTNP NAKSTCGCGS SFSI
+//

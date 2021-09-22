@@ -1,0 +1,105 @@
+ID   MIAA_HISS2              Reviewed;         311 AA.
+AC   B0UUU6;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   10-FEB-2021, entry version 76.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185}; OrderedLocusNames=HSM_1569;
+OS   Histophilus somni (strain 2336) (Haemophilus somnus).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Histophilus.
+OX   NCBI_TaxID=228400;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2336;
+RG   US DOE Joint Genome Institute;
+RA   Siddaramappa S., Duncan A.J., Challacombe J.F., Rainey D., Gillaspy A.F.,
+RA   Carson M., Gipson J., Gipson M., Bruce D., Detter J.C., Han C.S., Land M.,
+RA   Tapia R., Thompson L.S., Orvis J., Zaitshik J., Barnes G., Brettin T.S.,
+RA   Dyer D.W., Inzana T.J.;
+RT   "Complete sequence of Haemophilus somnus 2336.";
+RL   Submitted (FEB-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate =
+CC         diphosphate + N(6)-dimethylallyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00185};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00185}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000947; ACA31328.1; -; Genomic_DNA.
+DR   RefSeq; WP_012340709.1; NC_010519.1.
+DR   SMR; B0UUU6; -.
+DR   EnsemblBacteria; ACA31328; ACA31328; HSM_1569.
+DR   KEGG; hsm:HSM_1569; -.
+DR   HOGENOM; CLU_032616_0_0_6; -.
+DR   OMA; YAKRQFT; -.
+DR   OrthoDB; 1069591at2; -.
+DR   BioCyc; HSOM228400:G1GB8-1639-MONOMER; -.
+DR   Proteomes; UP000008543; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR039657; Dimethylallyltransferase.
+DR   InterPro; IPR018022; IPT.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR11088; PTHR11088; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Magnesium; Nucleotide-binding; Reference proteome;
+KW   Transferase; tRNA processing.
+FT   CHAIN           1..311
+FT                   /note="tRNA dimethylallyltransferase"
+FT                   /id="PRO_1000077398"
+FT   NP_BIND         12..19
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          14..19
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          37..40
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          161..165
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   REGION          241..246
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            103
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+FT   SITE            125
+FT                   /note="Interaction with substrate tRNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00185"
+SQ   SEQUENCE   311 AA;  35642 MW;  3BDA7A6A61DA3D97 CRC64;
+     MNKKSTAIFL MGPTASGKTD LAIQLHQELP VEVISVDSAL IYKGMDIGTA KPNAQELALT
+     PHRLIDIKDP SENYSAAEFR RDALREMQKI TQQGKIPLLV GGTMLYYKAL LEGLSPLPSA
+     DEKVRLEIEQ KAEKFGWATL HNELAKIDPI SAQRINPNDS QRINRALEVF YLTGQSLTEL
+     TAQKGEEIPY HIIHFAIAPE RAVLHQRIEQ RFHKMIEQGF QQEVEKLYQR SDLHPNLPSI
+     RCVGYRQMWE YLQGNYGKDE MIFRGICATR QLAKRQLTWL RGWKSPIEWL DSLNPKSAKE
+     KIIKTIKHNC K
+//

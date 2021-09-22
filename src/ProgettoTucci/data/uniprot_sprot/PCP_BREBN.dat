@@ -1,0 +1,85 @@
+ID   PCP_BREBN               Reviewed;         215 AA.
+AC   C0ZCX0;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-MAY-2009, sequence version 1.
+DT   10-FEB-2021, entry version 66.
+DE   RecName: Full=Pyrrolidone-carboxylate peptidase {ECO:0000255|HAMAP-Rule:MF_00417};
+DE            EC=3.4.19.3 {ECO:0000255|HAMAP-Rule:MF_00417};
+DE   AltName: Full=5-oxoprolyl-peptidase {ECO:0000255|HAMAP-Rule:MF_00417};
+DE   AltName: Full=Pyroglutamyl-peptidase I {ECO:0000255|HAMAP-Rule:MF_00417};
+DE            Short=PGP-I {ECO:0000255|HAMAP-Rule:MF_00417};
+DE            Short=Pyrase {ECO:0000255|HAMAP-Rule:MF_00417};
+GN   Name=pcp {ECO:0000255|HAMAP-Rule:MF_00417}; OrderedLocusNames=BBR47_26520;
+OS   Brevibacillus brevis (strain 47 / JCM 6285 / NBRC 100599).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Brevibacillus.
+OX   NCBI_TaxID=358681;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=47 / JCM 6285 / NBRC 100599;
+RA   Hosoyama A., Yamada R., Hongo Y., Terui Y., Ankai A., Masuyama W.,
+RA   Sekiguchi M., Takeda T., Asano K., Ohji S., Ichikawa N., Narita S.,
+RA   Aoki N., Miura H., Matsushita S., Sekigawa T., Yamagata H., Yoshikawa H.,
+RA   Udaka S., Tanikawa S., Fujita N.;
+RT   "Brevibacillus brevis strain 47, complete genome.";
+RL   Submitted (MAR-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Removes 5-oxoproline from various penultimate amino acid
+CC       residues except L-proline. {ECO:0000255|HAMAP-Rule:MF_00417}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal pyroglutamyl group from a
+CC         polypeptide, the second amino acid generally not being Pro.;
+CC         EC=3.4.19.3; Evidence={ECO:0000255|HAMAP-Rule:MF_00417};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00417}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00417}.
+CC   -!- SIMILARITY: Belongs to the peptidase C15 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00417}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP008955; BAH43629.1; -; Genomic_DNA.
+DR   RefSeq; WP_015890949.1; NC_012491.1.
+DR   SMR; C0ZCX0; -.
+DR   STRING; 358681.BBR47_26520; -.
+DR   MEROPS; C15.001; -.
+DR   EnsemblBacteria; BAH43629; BAH43629; BBR47_26520.
+DR   KEGG; bbe:BBR47_26520; -.
+DR   eggNOG; COG2039; Bacteria.
+DR   HOGENOM; CLU_043960_4_0_9; -.
+DR   OMA; LCGYIYL; -.
+DR   OrthoDB; 1927224at2; -.
+DR   BioCyc; BBRE358681:G1G2J-2754-MONOMER; -.
+DR   Proteomes; UP000001877; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IEA:InterPro.
+DR   GO; GO:0016920; F:pyroglutamyl-peptidase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd00501; Peptidase_C15; 1.
+DR   Gene3D; 3.40.630.20; -; 1.
+DR   HAMAP; MF_00417; Pyrrolid_peptidase; 1.
+DR   InterPro; IPR000816; Peptidase_C15.
+DR   InterPro; IPR016125; Peptidase_C15-like.
+DR   InterPro; IPR036440; Peptidase_C15-like_sf.
+DR   InterPro; IPR029762; PGP-I_bact-type.
+DR   InterPro; IPR033694; PGPEP1_Cys_AS.
+DR   PANTHER; PTHR23402; PTHR23402; 1.
+DR   Pfam; PF01470; Peptidase_C15; 1.
+DR   PIRSF; PIRSF015592; Prld-crbxl_pptds; 1.
+DR   PRINTS; PR00706; PYROGLUPTASE.
+DR   SUPFAM; SSF53182; SSF53182; 1.
+DR   TIGRFAMs; TIGR00504; pyro_pdase; 1.
+DR   PROSITE; PS01334; PYRASE_CYS; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Protease; Reference proteome; Thiol protease.
+FT   CHAIN           1..215
+FT                   /note="Pyrrolidone-carboxylate peptidase"
+FT                   /id="PRO_1000192222"
+FT   ACT_SITE        80
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00417"
+FT   ACT_SITE        143
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00417"
+FT   ACT_SITE        167
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00417"
+SQ   SEQUENCE   215 AA;  23605 MW;  67322FB9F4ADE688 CRC64;
+     MKTILVTGFD PFGGEIVNPA WESVKELGKI ESDLYKVELR QIPTVFEKSI EHLYAAIEET
+     KPDIVLCIGQ AGGRGDIAVE RVAINVNDAR IPDNEGNQPI DTPIRENGPT GYWSTLPIKA
+     IVHELKQKGI PASISQTAGT YVCNHLFYGL MHYLAEKKAS VRGGFIHIPY LPEQAARQAD
+     QPSMALETIV KGLQLAIETT ISHDRDIVME GGQIS
+//

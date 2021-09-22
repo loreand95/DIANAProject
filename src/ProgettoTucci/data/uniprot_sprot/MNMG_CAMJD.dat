@@ -1,0 +1,99 @@
+ID   MNMG_CAMJD              Reviewed;         619 AA.
+AC   A7H2I7;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 74.
+DE   RecName: Full=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+DE   AltName: Full=Glucose-inhibited division protein A {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Name=mnmG {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   Synonyms=gidA {ECO:0000255|HAMAP-Rule:MF_00129};
+GN   OrderedLocusNames=JJD26997_0541;
+OS   Campylobacter jejuni subsp. doylei (strain ATCC BAA-1458 / RM4099 /
+OS   269.97).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Campylobacteraceae; Campylobacter.
+OX   NCBI_TaxID=360109;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1458 / RM4099 / 269.97;
+RA   Fouts D.E., Mongodin E.F., Puiu D., Sebastian Y., Miller W.G.,
+RA   Mandrell R.E., Lastovica A.J., Nelson K.E.;
+RT   "Complete genome sequence of Campylobacter jejuni subsp doylei 269.97
+RT   isolated from human blood.";
+RL   Submitted (JUL-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NAD-binding protein involved in the addition of a
+CC       carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of
+CC       certain tRNAs, forming tRNA-cmnm(5)s(2)U34. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00129};
+CC   -!- SUBUNIT: Homodimer. Heterotetramer of two MnmE and two MnmG subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00129}.
+CC   -!- SIMILARITY: Belongs to the MnmG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00129}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000768; ABS43449.1; -; Genomic_DNA.
+DR   SMR; A7H2I7; -.
+DR   EnsemblBacteria; ABS43449; ABS43449; JJD26997_0541.
+DR   KEGG; cjd:JJD26997_0541; -.
+DR   HOGENOM; CLU_007831_2_2_7; -.
+DR   OMA; FRPGYAI; -.
+DR   BioCyc; CJEJ360109:G1G9I-502-MONOMER; -.
+DR   Proteomes; UP000002302; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002098; P:tRNA wobble uridine modification; IEA:InterPro.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_00129; MnmG_GidA; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR026904; GidA-assoc_3.
+DR   InterPro; IPR004416; MnmG.
+DR   InterPro; IPR002218; MnmG-rel.
+DR   InterPro; IPR020595; MnmG-rel_CS.
+DR   InterPro; IPR040131; MnmG_N.
+DR   PANTHER; PTHR11806; PTHR11806; 1.
+DR   PANTHER; PTHR11806:SF0; PTHR11806:SF0; 1.
+DR   Pfam; PF01134; GIDA; 1.
+DR   Pfam; PF13932; GIDA_assoc; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   TIGRFAMs; TIGR00136; gidA; 1.
+DR   PROSITE; PS01280; GIDA_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; FAD; Flavoprotein; NAD; tRNA processing.
+FT   CHAIN           1..619
+FT                   /note="tRNA uridine 5-carboxymethylaminomethyl modification
+FT                   enzyme MnmG"
+FT                   /id="PRO_1000016574"
+FT   NP_BIND         8..13
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   NP_BIND         267..281
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         120
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         175
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+FT   BINDING         364
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00129"
+SQ   SEQUENCE   619 AA;  69138 MW;  E35283A9F5049641 CRC64;
+     MFDVIVIGGG HAGVEASAAA ARMGKKTLLL TTLIEQIGAA SCNPAIGGLA KGHLVKELDA
+     MGGFMGEITD EAGIQFRILN ESKGVAVQGS RVQIDMDKYR IIARNKLLKL PNLEISQEQV
+     SALIVENDKV KGVKTNLENI YFAKKVILTT GTFLNGLIHV GENKLQAGRV GELASVNLGN
+     YLQTLGLKMG RLKTGTCPRV DATSIDFSVL EIQDGDVNPK AFSFRSRNFN PTQLPCYIAR
+     TNTTTHEIIK NNFYRAPLFT GQIEGVGPRY CPSIEDKINR FSDKESHHLF IEPQTIDATE
+     YYINGFSTSL PYEVQTQMLH SVKGFENAKI TRFGYAIEYD YIEPTELKHT LELKKIKNLY
+     CAGQINGTTG YEEAAVQGFM AGINASLSID MKEPLILRRD EAYIGVLIDD LVVKGTKEPY
+     RMFTSRAEFR LLLREENAIL RLGKYGYVLG LLSEQDFAYI QNIANNLQKG LEFLLSKEFT
+     PNNQNNAFLE SLGEDKISSI VNFQKIVARA SFDIEKLKKL DPMFETMDNY SLREILNEAK
+     YCHYISMQKA QVEKMKNLSE LKIPENFDFK SVSGLSNEVV EKLNHHKPPT IFAASQISGI
+     TPAALDILQI YIKMQKKKA
+//

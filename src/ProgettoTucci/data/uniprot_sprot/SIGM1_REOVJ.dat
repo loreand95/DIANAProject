@@ -1,0 +1,114 @@
+ID   SIGM1_REOVJ             Reviewed;         462 AA.
+AC   P04507; Q85663;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   22-JUL-2008, sequence version 3.
+DT   02-DEC-2020, entry version 105.
+DE   RecName: Full=Outer capsid protein sigma-1;
+DE            Short=Sigma1;
+DE   AltName: Full=Cell attachment protein;
+DE   AltName: Full=Hemagglutinin;
+GN   Name=S1;
+OS   Reovirus type 2 (strain D5/Jones) (T2J) (Mammalian orthoreovirus 2).
+OC   Viruses; Riboviria; Orthornavirae; Duplornaviricota; Resentoviricetes;
+OC   Reovirales; Reoviridae; Spinareovirinae; Orthoreovirus.
+OX   NCBI_TaxID=10885;
+OH   NCBI_TaxID=40674; Mammalia.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=3855545; DOI=10.1073/pnas.82.1.24;
+RA   Cashdollar L.W., Chmelo R.A., Wiener J.R., Joklik W.K.;
+RT   "Sequences of the S1 genes of the three serotypes of reovirus.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 82:24-28(1985).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2305549; DOI=10.1016/0042-6822(90)90093-7;
+RA   Duncan R., Horne D., Cashdollar L.W., Joklik W.K., Lee P.W.K.;
+RT   "Identification of conserved domains in the cell attachment proteins of the
+RT   three serotypes of reovirus.";
+RL   Virology 174:399-409(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=2335823; DOI=10.1128/jvi.64.6.2976-2989.1990;
+RA   Nibert M.L., Dermody T.S., Fields B.N.;
+RT   "Structure of the reovirus cell-attachment protein: a model for the domain
+RT   organization of sigma 1.";
+RL   J. Virol. 64:2976-2989(1990).
+CC   -!- FUNCTION: Fiber-like molecule that attaches the virion to the host cell
+CC       membrane by binding to the primary receptor F11R/JAM-A and to sialic
+CC       acid containing proteins (coreceptor). The interaction of sigma-1 with
+CC       F11R is required for NF-kB activation and apoptosis. Binding to both
+CC       sialic acid and F11R is required to induce maximal levels of apoptosis
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Homotrimer. Interacts (via the head region) with human F11R
+CC       (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Virion {ECO:0000250}. Note=Found in the outer
+CC       capsid (36 copies). {ECO:0000250}.
+CC   -!- PTM: Undergoes dramatic conformational rearrangements during viral
+CC       disassembly in the endocytic pathway. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the orthoreovirus sigma-1 protein family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA66879.1; Type=Frameshift; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M10261; AAA66879.1; ALT_FRAME; Genomic_RNA.
+DR   EMBL; M32861; AAA47268.1; -; Genomic_RNA.
+DR   EMBL; M35964; AAA47251.1; -; Genomic_RNA.
+DR   PIR; A04123; HMXRH2.
+DR   PIR; C34829; C34829.
+DR   SMR; P04507; -.
+DR   Proteomes; UP000006370; Genome.
+DR   GO; GO:0039624; C:viral outer capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0007155; P:cell adhesion; IEA:InterPro.
+DR   GO; GO:0046718; P:viral entry into host cell; IEA:UniProtKB-KW.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   InterPro; IPR008982; Adenovirus_pIV-like_att.
+DR   InterPro; IPR002592; Vir_attach_sigma1_reovir.
+DR   Pfam; PF01664; Reo_sigma1; 1.
+DR   SUPFAM; SSF49835; SSF49835; 1.
+PE   3: Inferred from homology;
+KW   Capsid protein; Coiled coil; Glycoprotein; Hemagglutinin;
+KW   Host-virus interaction; Outer capsid protein;
+KW   Viral attachment to host cell; Virion; Virus entry into host cell.
+FT   CHAIN           1..462
+FT                   /note="Outer capsid protein sigma-1"
+FT                   /id="PRO_0000040666"
+FT   REGION          1..317
+FT                   /note="Tail"
+FT   REGION          318..462
+FT                   /note="Head"
+FT   COILED          18..49
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        237
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        243
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        297
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        413
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        147
+FT                   /note="V -> L (in Ref. 2; AAA47268)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        207
+FT                   /note="L -> V (in Ref. 3; AAA47251)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        439
+FT                   /note="H -> Y (in Ref. 3; AAA47251)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   462 AA;  50466 MW;  87383752835EEA8F CRC64;
+     MSDLVQLIRR EILLLTGNGE SANSKHEIEE IKKQIKDISA DVNRISNIVD SIQGQLGGLS
+     VRVSAIESGV SENGNRIDRL ERDVSGISAS VSGIDSRLSE LGDRVNVAEQ RIGQLDTVTD
+     NLLERASRLE TEVSAITNDL GSLNTRVTTE LNDVRQTIAA IDTRLTTLET DAVTSVGQGL
+     QKTGNSIKVI VGTGMWFDRN NVLQLFLSNQ QKGLGFIDNG MVVKIDTQYF SFDSNGNITL
+     NNNISGLPAR TGSLEASRID VVAPPLVIQS TGSTRLLRLM YEAVDFVVTN NVLTLRNRSV
+     TPTFKFPLEL NSADNSVSIH RNYRIRLGQW SGQLEYHTPS LRWNAPVTVN LMRVDDWLIL
+     SFTRFSTSGI LASGKFVLNF VTGLSPGWAT GSTEPSTTTN PLSTTFAAIQ FINGSSRVDA
+     FRILGVAEWN AGELEITNHG GTYTAHTNVD WAPMTIMYPC LG
+//

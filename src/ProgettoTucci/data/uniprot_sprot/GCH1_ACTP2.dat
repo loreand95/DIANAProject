@@ -1,0 +1,90 @@
+ID   GCH1_ACTP2              Reviewed;         218 AA.
+AC   A3N0R3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-APR-2007, sequence version 1.
+DT   02-DEC-2020, entry version 88.
+DE   RecName: Full=GTP cyclohydrolase 1 {ECO:0000255|HAMAP-Rule:MF_00223};
+DE            EC=3.5.4.16 {ECO:0000255|HAMAP-Rule:MF_00223};
+DE   AltName: Full=GTP cyclohydrolase I {ECO:0000255|HAMAP-Rule:MF_00223};
+DE            Short=GTP-CH-I {ECO:0000255|HAMAP-Rule:MF_00223};
+GN   Name=folE {ECO:0000255|HAMAP-Rule:MF_00223}; OrderedLocusNames=APL_0903;
+OS   Actinobacillus pleuropneumoniae serotype 5b (strain L20).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+OC   Pasteurellaceae; Actinobacillus.
+OX   NCBI_TaxID=416269;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L20;
+RX   PubMed=18065534; DOI=10.1128/jb.01845-07;
+RA   Foote S.J., Bosse J.T., Bouevitch A.B., Langford P.R., Young N.M.,
+RA   Nash J.H.E.;
+RT   "The complete genome sequence of Actinobacillus pleuropneumoniae L20
+RT   (serotype 5b).";
+RL   J. Bacteriol. 190:1495-1496(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=GTP + H2O = 7,8-dihydroneopterin 3'-triphosphate + formate +
+CC         H(+); Xref=Rhea:RHEA:17473, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:15740, ChEBI:CHEBI:37565, ChEBI:CHEBI:58462; EC=3.5.4.16;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00223};
+CC   -!- PATHWAY: Cofactor biosynthesis; 7,8-dihydroneopterin triphosphate
+CC       biosynthesis; 7,8-dihydroneopterin triphosphate from GTP: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00223}.
+CC   -!- SUBUNIT: Toroid-shaped homodecamer, composed of two pentamers of five
+CC       dimers. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase I family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00223}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000569; ABN73999.1; -; Genomic_DNA.
+DR   RefSeq; WP_005601234.1; NC_009053.1.
+DR   SMR; A3N0R3; -.
+DR   STRING; 416269.APL_0903; -.
+DR   EnsemblBacteria; ABN73999; ABN73999; APL_0903.
+DR   KEGG; apl:APL_0903; -.
+DR   eggNOG; COG0302; Bacteria.
+DR   HOGENOM; CLU_049768_3_2_6; -.
+DR   OMA; VACVIDA; -.
+DR   BioCyc; APLE416269:G1G87-951-MONOMER; -.
+DR   UniPathway; UPA00848; UER00151.
+DR   Proteomes; UP000001432; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003934; F:GTP cyclohydrolase I activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0035998; P:7,8-dihydroneopterin 3'-triphosphate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046654; P:tetrahydrofolate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.286.10; -; 1.
+DR   Gene3D; 3.30.1130.10; -; 1.
+DR   HAMAP; MF_00223; FolE; 1.
+DR   InterPro; IPR043133; GTP-CH-I_C/QueF.
+DR   InterPro; IPR043134; GTP-CH-I_N.
+DR   InterPro; IPR001474; GTP_CycHdrlase_I.
+DR   InterPro; IPR018234; GTP_CycHdrlase_I_CS.
+DR   InterPro; IPR020602; GTP_CycHdrlase_I_dom.
+DR   PANTHER; PTHR11109; PTHR11109; 1.
+DR   Pfam; PF01227; GTP_cyclohydroI; 1.
+DR   TIGRFAMs; TIGR00063; folE; 1.
+DR   PROSITE; PS00859; GTP_CYCLOHYDROL_1_1; 1.
+PE   3: Inferred from homology;
+KW   GTP-binding; Hydrolase; Metal-binding; Nucleotide-binding;
+KW   One-carbon metabolism; Reference proteome; Zinc.
+FT   CHAIN           1..218
+FT                   /note="GTP cyclohydrolase 1"
+FT                   /id="PRO_1000043653"
+FT   METAL           109
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00223"
+FT   METAL           112
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00223"
+FT   METAL           180
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00223"
+SQ   SEQUENCE   218 AA;  24838 MW;  BEA6700DD5D9B600 CRC64;
+     MSIISAEAQK VREALIAKGI ETPTVQLTKD KDSRRAEIQQ HMRSVLELLG LDLQDDSLEE
+     TPHRLAKMYV DEIFSGLDYA TFPKITNIEN RMKVSEMVLV DDITLTSTCE HHFVTIDGKV
+     AVAYYPKKWV IGLSKINRVV QFFAQRPQVQ ERFTEQILTA FQTILETDDV AVFVKATHFC
+     VKCRGVKDTN SYTVTSAFGG VFLEDRETRK EFLGLINK
+//

@@ -1,0 +1,128 @@
+ID   TRPC_VIBPA              Reviewed;         481 AA.
+AC   P22098;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   04-APR-2003, sequence version 2.
+DT   02-DEC-2020, entry version 132.
+DE   RecName: Full=Tryptophan biosynthesis protein TrpCF;
+DE   Includes:
+DE     RecName: Full=Indole-3-glycerol phosphate synthase;
+DE              Short=IGPS;
+DE              EC=4.1.1.48;
+DE   Includes:
+DE     RecName: Full=N-(5'-phospho-ribosyl)anthranilate isomerase;
+DE              Short=PRAI;
+DE              EC=5.3.1.24;
+GN   Name=trpC; Synonyms=trpC-TRPF; OrderedLocusNames=VP1959;
+OS   Vibrio parahaemolyticus serotype O3:K6 (strain RIMD 2210633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=223926;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=BB22;
+RX   PubMed=1773058; DOI=10.3109/10425179109020770;
+RA   Crawford I.P., Han C.Y., Silverman M.;
+RT   "Sequence and features of the tryptophan operon of Vibrio
+RT   parahemolyticus.";
+RL   DNA Seq. 1:189-196(1991).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RIMD 2210633;
+RX   PubMed=12620739; DOI=10.1016/s0140-6736(03)12659-1;
+RA   Makino K., Oshima K., Kurokawa K., Yokoyama K., Uda T., Tagomori K.,
+RA   Iijima Y., Najima M., Nakano M., Yamashita A., Kubota Y., Kimura S.,
+RA   Yasunaga T., Honda T., Shinagawa H., Hattori M., Iida T.;
+RT   "Genome sequence of Vibrio parahaemolyticus: a pathogenic mechanism
+RT   distinct from that of V. cholerae.";
+RL   Lancet 361:743-749(2003).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes two sequential steps of
+CC       tryptophan biosynthetic pathway. The first reaction is catalyzed by the
+CC       isomerase, coded by the TrpF domain; the second reaction is catalyzed
+CC       by the synthase, coded by the TrpC domain (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=N-(5-phospho-beta-D-ribosyl)anthranilate = 1-(2-
+CC         carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate;
+CC         Xref=Rhea:RHEA:21540, ChEBI:CHEBI:18277, ChEBI:CHEBI:58613;
+CC         EC=5.3.1.24;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(2-carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate + H(+)
+CC         = (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + CO2 + H2O;
+CC         Xref=Rhea:RHEA:23476, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:58613, ChEBI:CHEBI:58866; EC=4.1.1.48;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 3/5.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-tryptophan biosynthesis; L-
+CC       tryptophan from chorismate: step 4/5.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the TrpC family.
+CC       {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the TrpF family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X17149; CAA35034.1; -; Genomic_DNA.
+DR   EMBL; BA000031; BAC60222.1; -; Genomic_DNA.
+DR   RefSeq; NP_798338.1; NC_004603.1.
+DR   SMR; P22098; -.
+DR   STRING; 223926.28806951; -.
+DR   EnsemblBacteria; BAC60222; BAC60222; BAC60222.
+DR   KEGG; vpa:VP1959; -.
+DR   PATRIC; fig|223926.6.peg.1874; -.
+DR   eggNOG; COG0134; Bacteria.
+DR   eggNOG; COG0135; Bacteria.
+DR   HOGENOM; CLU_007713_1_1_6; -.
+DR   OMA; YDIIGIN; -.
+DR   UniPathway; UPA00035; UER00042.
+DR   UniPathway; UPA00035; UER00043.
+DR   Proteomes; UP000002493; Chromosome 1.
+DR   GO; GO:0004425; F:indole-3-glycerol-phosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004640; F:phosphoribosylanthranilate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000162; P:tryptophan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00331; IGPS; 1.
+DR   CDD; cd00405; PRAI; 1.
+DR   Gene3D; 3.20.20.70; -; 2.
+DR   HAMAP; MF_00134_B; IGPS_B; 1.
+DR   HAMAP; MF_00135; PRAI; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR013798; Indole-3-glycerol_P_synth.
+DR   InterPro; IPR001468; Indole-3-GlycerolPSynthase_CS.
+DR   InterPro; IPR001240; PRAI.
+DR   InterPro; IPR011060; RibuloseP-bd_barrel.
+DR   Pfam; PF00218; IGPS; 1.
+DR   Pfam; PF00697; PRAI; 1.
+DR   SUPFAM; SSF51366; SSF51366; 2.
+DR   PROSITE; PS00614; IGPS; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Decarboxylase;
+KW   Isomerase; Lyase; Multifunctional enzyme; Reference proteome;
+KW   Tryptophan biosynthesis.
+FT   CHAIN           1..481
+FT                   /note="Tryptophan biosynthesis protein TrpCF"
+FT                   /id="PRO_0000154286"
+FT   REGION          1..283
+FT                   /note="Indole-3-glycerol phosphate synthase"
+FT   REGION          284..481
+FT                   /note="N-(5'-phosphoribosyl)anthranilate isomerase"
+FT   CONFLICT        203
+FT                   /note="R -> K (in Ref. 1; CAA35034)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        449
+FT                   /note="G -> A (in Ref. 1; CAA35034)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        476
+FT                   /note="H -> R (in Ref. 1; CAA35034)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   481 AA;  52974 MW;  BC575AD8FB57FC00 CRC64;
+     MKMTDFNTQQ ANNLSEHVSK KEAEMAEVLA KIVRDKYQWV AERKASQHLS TFQSDLLPSD
+     RSFYDALSGD KTVFITECKK ASPSKGLIRN DFDLDYIASV YNNYADAISV LTDEKYFQGS
+     FDFLPQVRRQ VKQPVLCKDF MVDTYQVYLA RHYGADAVLL MLSVLNDEEY KALEEAAHSL
+     NMGILTEVSN EEELHRAVQL GARVIGINNR NLRDLTTDLN RTKALAPTIR KLAPNATVIS
+     ESGIYTHQQV RDLAEYADGF LIGSSLMAED NLELAVRKVT LGENKVCGLT HPDDAAKAYQ
+     AGAVFGGLIF VEKSKRAVDF ESARLTMSGA PLNYVGVFQN HDVDYVASIV TSLGLKAVQL
+     HGLEDQEYVN QLKTELPVGV EIWKAYGVAD TKPSLLADNI DRHLLDAQVG TQTGGTGHVF
+     DWSLIGDPSQ IMLAGGLSPE NAQQAAKLGC LGLDLNSGVE SAPGKKDSQK LQAAFHAIRN
+     Y
+//

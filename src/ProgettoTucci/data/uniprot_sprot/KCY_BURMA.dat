@@ -1,0 +1,85 @@
+ID   KCY_BURMA               Reviewed;         228 AA.
+AC   Q62M26;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   25-OCT-2004, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Cytidylate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CK {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            EC=2.7.4.25 {ECO:0000255|HAMAP-Rule:MF_00238};
+DE   AltName: Full=Cytidine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+DE            Short=CMP kinase {ECO:0000255|HAMAP-Rule:MF_00238};
+GN   Name=cmk {ECO:0000255|HAMAP-Rule:MF_00238}; OrderedLocusNames=BMA0429;
+OS   Burkholderia mallei (strain ATCC 23344).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; pseudomallei group.
+OX   NCBI_TaxID=243160;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23344;
+RX   PubMed=15377793; DOI=10.1073/pnas.0403306101;
+RA   Nierman W.C., DeShazer D., Kim H.S., Tettelin H., Nelson K.E.,
+RA   Feldblyum T.V., Ulrich R.L., Ronning C.M., Brinkac L.M., Daugherty S.C.,
+RA   Davidsen T.D., DeBoy R.T., Dimitrov G., Dodson R.J., Durkin A.S.,
+RA   Gwinn M.L., Haft D.H., Khouri H.M., Kolonay J.F., Madupu R., Mohammoud Y.,
+RA   Nelson W.C., Radune D., Romero C.M., Sarria S., Selengut J., Shamblin C.,
+RA   Sullivan S.A., White O., Yu Y., Zafar N., Zhou L., Fraser C.M.;
+RT   "Structural flexibility in the Burkholderia mallei genome.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 101:14246-14251(2004).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + CMP = ADP + CDP; Xref=Rhea:RHEA:11600,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58069, ChEBI:CHEBI:60377,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dCMP = ADP + dCDP; Xref=Rhea:RHEA:25094,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57566, ChEBI:CHEBI:58593,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.25; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00238};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   -!- SIMILARITY: Belongs to the cytidylate kinase family. Type 1 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00238}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000010; AAU48804.1; -; Genomic_DNA.
+DR   RefSeq; WP_004189396.1; NC_006348.1.
+DR   RefSeq; YP_102242.1; NC_006348.1.
+DR   SMR; Q62M26; -.
+DR   STRING; 243160.BMA0429; -.
+DR   EnsemblBacteria; AAU48804; AAU48804; BMA0429.
+DR   GeneID; 56596443; -.
+DR   KEGG; bma:BMA0429; -.
+DR   PATRIC; fig|243160.12.peg.436; -.
+DR   eggNOG; COG0283; Bacteria.
+DR   HOGENOM; CLU_079959_2_0_4; -.
+DR   OMA; RAITWWM; -.
+DR   BioCyc; BMAL243160:G1G3W-1442-MONOMER; -.
+DR   Proteomes; UP000006693; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0036430; F:CMP kinase activity; IEA:RHEA.
+DR   GO; GO:0036431; F:dCMP kinase activity; IEA:RHEA.
+DR   GO; GO:0006220; P:pyrimidine nucleotide metabolic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02020; CMPK; 1.
+DR   HAMAP; MF_00238; Cytidyl_kinase_type1; 1.
+DR   InterPro; IPR003136; Cytidylate_kin.
+DR   InterPro; IPR011994; Cytidylate_kinase_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF02224; Cytidylate_kin; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00017; cmk; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding; Transferase.
+FT   CHAIN           1..228
+FT                   /note="Cytidylate kinase"
+FT                   /id="PRO_0000131894"
+FT   NP_BIND         17..25
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00238"
+SQ   SEQUENCE   228 AA;  24367 MW;  84471B8596B1EBBE CRC64;
+     MKSTRPFHPT PVITIDGPTA SGKGTVAALV AAHLGFHLLD SGALYRLAAL ASIRYQVEPD
+     DADALASLVD GLHITFREGC AQLDGVDVSD EIRAEAVGNR ASAIAVHASV RAALVARQRA
+     FRKTPGLVAD GRDMGTLIFP DAVLKVFLTA SVEARAARRH KQLMQKGFSA NIDNLLQDLR
+     ERDARDSNRA AAPLKPAADA KPLDTSALTI EQSVEQVLAW YRELGQPA
+//

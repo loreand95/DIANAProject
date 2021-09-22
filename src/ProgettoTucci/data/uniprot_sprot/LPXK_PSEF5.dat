@@ -1,0 +1,88 @@
+ID   LPXK_PSEF5              Reviewed;         336 AA.
+AC   Q4KFT5;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   02-AUG-2005, sequence version 1.
+DT   07-APR-2021, entry version 81.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409}; OrderedLocusNames=PFL_1778;
+OS   Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=220664;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-477 / NRRL B-23932 / Pf-5;
+RX   PubMed=15980861; DOI=10.1038/nbt1110;
+RA   Paulsen I.T., Press C.M., Ravel J., Kobayashi D.Y., Myers G.S.A.,
+RA   Mavrodi D.V., DeBoy R.T., Seshadri R., Ren Q., Madupu R., Dodson R.J.,
+RA   Durkin A.S., Brinkac L.M., Daugherty S.C., Sullivan S.A., Rosovitz M.J.,
+RA   Gwinn M.L., Zhou L., Schneider D.J., Cartinhour S.W., Nelson W.C.,
+RA   Weidman J., Watkins K., Tran K., Khouri H., Pierson E.A., Pierson L.S. III,
+RA   Thomashow L.S., Loper J.E.;
+RT   "Complete genome sequence of the plant commensal Pseudomonas fluorescens
+RT   Pf-5.";
+RL   Nat. Biotechnol. 23:873-878(2005).
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position of a
+CC       tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-P) to form
+CC       tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-beta-D-
+CC         glucosaminyl)-(1->6)-(2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-alpha-
+CC         D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis((3R)-3-
+CC         hydroxytetradecanoyl)-4-O-phospho-beta-D-glucosaminyl)-(1->6)-(2-N,3-
+CC         O-bis((3R)-3-hydroxytetradecanoyl)-alpha-D-glucosaminyl phosphate).;
+CC         EC=2.7.1.130; Evidence={ECO:0000255|HAMAP-Rule:MF_00409};
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid IV(A)
+CC       from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and UDP-N-
+CC       acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000076; AAY91067.1; -; Genomic_DNA.
+DR   RefSeq; WP_011060102.1; NC_004129.6.
+DR   SMR; Q4KFT5; -.
+DR   STRING; 220664.PFL_1778; -.
+DR   EnsemblBacteria; AAY91067; AAY91067; PFL_1778.
+DR   KEGG; pfl:PFL_1778; -.
+DR   PATRIC; fig|220664.5.peg.1812; -.
+DR   eggNOG; COG1663; Bacteria.
+DR   HOGENOM; CLU_038816_2_0_6; -.
+DR   OMA; MDDGFQN; -.
+DR   OrthoDB; 1382484at2; -.
+DR   BioCyc; PPRO220664:G1G4K-1810-MONOMER; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000008540; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   PANTHER; PTHR42724; PTHR42724; 1.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Nucleotide-binding; Transferase.
+FT   CHAIN           1..336
+FT                   /note="Tetraacyldisaccharide 4'-kinase"
+FT                   /id="PRO_0000229969"
+FT   NP_BIND         60..67
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00409"
+SQ   SEQUENCE   336 AA;  37068 MW;  CB13E65503B0907C CRC64;
+     MALSDRLLNA WYNGHPALKL LRPLECLYRR VVTGKRQRFL AGEGAIYQPP VPLIVVGNIT
+     VGGTGKTPLI LWLVEHCQRL GLRVGVVSRG YGAKPAQLPW RVSAEDCAAV AGDEPLLIVQ
+     RCGVPLMIDP DRGRAVQALL AAEPLDLILS DDGLQHYRLA RDLELVLIDA ARGLGNRRCL
+     PAGPLREPAE RLQSVDAVLY NGAVDDRDDG FAFHLKPSVL VNLRSGERRA LEHFAPGQAL
+     HAVAGIGNPQ RFFNTLETLH WRPVPHAFAD HAQYSAQALT FTPSLPLVMT EKDAVKCRAF
+     AADDWWYLAV DAQPSPAFVA WFDTQLMRLL PDRLLP
+//

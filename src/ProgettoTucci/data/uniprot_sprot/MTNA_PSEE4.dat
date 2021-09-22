@@ -1,0 +1,99 @@
+ID   MTNA_PSEE4              Reviewed;         358 AA.
+AC   Q1IDA4;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=Methylthioribose-1-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_01678};
+DE            Short=M1Pi {ECO:0000255|HAMAP-Rule:MF_01678};
+DE            Short=MTR-1-P isomerase {ECO:0000255|HAMAP-Rule:MF_01678};
+DE            EC=5.3.1.23 {ECO:0000255|HAMAP-Rule:MF_01678};
+DE   AltName: Full=S-methyl-5-thioribose-1-phosphate isomerase {ECO:0000255|HAMAP-Rule:MF_01678};
+GN   Name=mtnA {ECO:0000255|HAMAP-Rule:MF_01678}; OrderedLocusNames=PSEEN1486;
+OS   Pseudomonas entomophila (strain L48).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=384676;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=L48;
+RX   PubMed=16699499; DOI=10.1038/nbt1212;
+RA   Vodovar N., Vallenet D., Cruveiller S., Rouy Z., Barbe V., Acosta C.,
+RA   Cattolico L., Jubin C., Lajus A., Segurens B., Vacherie B., Wincker P.,
+RA   Weissenbach J., Lemaitre B., Medigue C., Boccard F.;
+RT   "Complete genome sequence of the entomopathogenic and metabolically
+RT   versatile soil bacterium Pseudomonas entomophila.";
+RL   Nat. Biotechnol. 24:673-679(2006).
+CC   -!- FUNCTION: Catalyzes the interconversion of methylthioribose-1-phosphate
+CC       (MTR-1-P) into methylthioribulose-1-phosphate (MTRu-1-P).
+CC       {ECO:0000255|HAMAP-Rule:MF_01678}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-methyl-5-thio-alpha-D-ribose 1-phosphate = S-methyl-5-thio-
+CC         D-ribulose 1-phosphate; Xref=Rhea:RHEA:19989, ChEBI:CHEBI:58533,
+CC         ChEBI:CHEBI:58548; EC=5.3.1.23; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01678};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via salvage
+CC       pathway; L-methionine from S-methyl-5-thio-alpha-D-ribose 1-phosphate:
+CC       step 1/6. {ECO:0000255|HAMAP-Rule:MF_01678}.
+CC   -!- SIMILARITY: Belongs to the eIF-2B alpha/beta/delta subunits family.
+CC       MtnA subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CT573326; CAK14355.1; -; Genomic_DNA.
+DR   RefSeq; WP_011532770.1; NC_008027.1.
+DR   SMR; Q1IDA4; -.
+DR   STRING; 384676.PSEEN1486; -.
+DR   EnsemblBacteria; CAK14355; CAK14355; PSEEN1486.
+DR   KEGG; pen:PSEEN1486; -.
+DR   eggNOG; COG0182; Bacteria.
+DR   HOGENOM; CLU_016218_1_2_6; -.
+DR   OMA; CETRPLN; -.
+DR   OrthoDB; 1290468at2; -.
+DR   BioCyc; PENT384676:PSEEN_RS06900-MONOMER; -.
+DR   UniPathway; UPA00904; UER00874.
+DR   Proteomes; UP000000658; Chromosome.
+DR   GO; GO:0046523; F:S-methyl-5-thioribose-1-phosphate isomerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019509; P:L-methionine salvage from methylthioadenosine; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0019284; P:L-methionine salvage from S-adenosylmethionine; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.120.420; -; 1.
+DR   Gene3D; 3.40.50.10470; -; 1.
+DR   HAMAP; MF_01678; Salvage_MtnA; 1.
+DR   InterPro; IPR000649; IF-2B-related.
+DR   InterPro; IPR005251; IF-M1Pi.
+DR   InterPro; IPR042529; IF_2B-like_C.
+DR   InterPro; IPR011559; Initiation_fac_2B_a/b/d.
+DR   InterPro; IPR027363; M1Pi_N.
+DR   InterPro; IPR037171; NagB/RpiA_transferase-like.
+DR   Pfam; PF01008; IF-2B; 1.
+DR   SUPFAM; SSF100950; SSF100950; 1.
+DR   TIGRFAMs; TIGR00524; eIF-2B_rel; 1.
+DR   TIGRFAMs; TIGR00512; salvage_mtnA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Isomerase; Methionine biosynthesis.
+FT   CHAIN           1..358
+FT                   /note="Methylthioribose-1-phosphate isomerase"
+FT                   /id="PRO_0000357222"
+FT   REGION          54..56
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01678"
+FT   REGION          256..257
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01678"
+FT   ACT_SITE        246
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01678"
+FT   BINDING         96
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01678"
+FT   BINDING         205
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01678"
+SQ   SEQUENCE   358 AA;  38535 MW;  25970816C942C893 CRC64;
+     MREQLMAAET VTGIEWHDGA LHLLDQRLLP LEQCWLTCTD VAQVAEAISE MVVRGAPAIG
+     ISAAYGLVLA LRQRLAEGEG WEESLEEDFL MLGEARPTPA NLFWALNRMR ERLQRLRPGD
+     DVLAVMEAEA IAIHESDREA NLTMAQFGVE QIRKHQGSEQ ALLTHGNAGA LATGGFGTAL
+     GVIRAATLEG MVEQVYVCES RPWLQGSRLT AWELAADGVP VTVVADAAAG HLMKTKGISW
+     VVVGADCIAA NGDVAAKIGT YQIAVAAMHH GLRFMVVAPS SSIDLNLATG EDIPLETRGV
+     EELLEVAGIQ VTADVEVYNP VVDVTPADLI DVIVTEKGVV ERPDAAKIAQ LMCRKRLH
+//

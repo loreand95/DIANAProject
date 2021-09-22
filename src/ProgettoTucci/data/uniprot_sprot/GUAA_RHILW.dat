@@ -1,0 +1,111 @@
+ID   GUAA_RHILW              Reviewed;         520 AA.
+AC   B5ZYE9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=GMP synthase [glutamine-hydrolyzing] {ECO:0000255|HAMAP-Rule:MF_00344};
+DE            EC=6.3.5.2 {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=GMP synthetase {ECO:0000255|HAMAP-Rule:MF_00344};
+DE   AltName: Full=Glutamine amidotransferase {ECO:0000255|HAMAP-Rule:MF_00344};
+GN   Name=guaA {ECO:0000255|HAMAP-Rule:MF_00344}; OrderedLocusNames=Rleg2_4308;
+OS   Rhizobium leguminosarum bv. trifolii (strain WSM2304).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae;
+OC   Rhizobium/Agrobacterium group; Rhizobium.
+OX   NCBI_TaxID=395492;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=WSM2304;
+RX   PubMed=21304679; DOI=10.4056/sigs.44642;
+RA   Reeve W., O'Hara G., Chain P., Ardley J., Brau L., Nandesena K., Tiwari R.,
+RA   Malfatti S., Kiss H., Lapidus A., Copeland A., Nolan M., Land M.,
+RA   Ivanova N., Mavromatis K., Markowitz V., Kyrpides N., Melino V., Denton M.,
+RA   Yates R., Howieson J.;
+RT   "Complete genome sequence of Rhizobium leguminosarum bv trifolii strain
+RT   WSM2304, an effective microsymbiont of the South American clover Trifolium
+RT   polymorphum.";
+RL   Stand. Genomic Sci. 2:66-76(2010).
+CC   -!- FUNCTION: Catalyzes the synthesis of GMP from XMP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00344}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + XMP = AMP + diphosphate + GMP + 2
+CC         H(+) + L-glutamate; Xref=Rhea:RHEA:11680, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29985, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57464, ChEBI:CHEBI:58115,
+CC         ChEBI:CHEBI:58359, ChEBI:CHEBI:456215; EC=6.3.5.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00344};
+CC   -!- PATHWAY: Purine metabolism; GMP biosynthesis; GMP from XMP (L-Gln
+CC       route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00344}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001191; ACI57566.1; -; Genomic_DNA.
+DR   RefSeq; WP_012559677.1; NC_011369.1.
+DR   SMR; B5ZYE9; -.
+DR   STRING; 395492.Rleg2_4308; -.
+DR   EnsemblBacteria; ACI57566; ACI57566; Rleg2_4308.
+DR   KEGG; rlt:Rleg2_4308; -.
+DR   eggNOG; COG0518; Bacteria.
+DR   eggNOG; COG0519; Bacteria.
+DR   HOGENOM; CLU_014340_0_5_5; -.
+DR   OMA; KRKIIGH; -.
+DR   OrthoDB; 504464at2; -.
+DR   UniPathway; UPA00189; UER00296.
+DR   Proteomes; UP000008330; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003922; F:GMP synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016462; F:pyrophosphatase activity; IEA:InterPro.
+DR   GO; GO:0006541; P:glutamine metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd01742; GATase1_GMP_Synthase; 1.
+DR   CDD; cd01997; GMP_synthase_C; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00344; GMP_synthase; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR017926; GATASE.
+DR   InterPro; IPR001674; GMP_synth_C.
+DR   InterPro; IPR004739; GMP_synth_GATase.
+DR   InterPro; IPR022955; GMP_synthase.
+DR   InterPro; IPR025777; GMPS_ATP_PPase_dom.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   Pfam; PF00117; GATase; 1.
+DR   Pfam; PF00958; GMP_synt_C; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR00884; guaA_Cterm; 1.
+DR   TIGRFAMs; TIGR00888; guaA_Nterm; 1.
+DR   PROSITE; PS51273; GATASE_TYPE_1; 1.
+DR   PROSITE; PS51553; GMPS_ATP_PPASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Glutamine amidotransferase; GMP biosynthesis; Ligase;
+KW   Nucleotide-binding; Purine biosynthesis; Reference proteome.
+FT   CHAIN           1..520
+FT                   /note="GMP synthase [glutamine-hydrolyzing]"
+FT                   /id="PRO_1000120379"
+FT   DOMAIN          9..202
+FT                   /note="Glutamine amidotransferase type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   DOMAIN          203..395
+FT                   /note="GMPS ATP-PPase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   NP_BIND         230..236
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        86
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        176
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+FT   ACT_SITE        178
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00344"
+SQ   SEQUENCE   520 AA;  57322 MW;  1F83A5D757E59DE5 CRC64;
+     MTQTAHPDSV LIVDFGSQVT QLIARRVREA GVYCEIVPFQ SAEEGFNRLQ PKAVILSGSP
+     ASTVDEGSPR APQIVFDSGL PVFGICYGQQ TMCMQLGGKV ESGHHREFGR AFLDVDKDCQ
+     LFEGLWSSGS RHQVWMSHGD RVTALPDGFE VVATSSNAPY AFIADEKRKY YGVQFHPEVV
+     HTPDGAKLIG NFIHNIAGIK GDWSMSAYRQ KAVDEIRKQV GDKRVICALS GGVDSSVAAL
+     LIHEAVGDQL TCILVDHGLM RKDEAANVVA MFREHYNLHL LHVDASDRFI GELEGVSDPE
+     TKRKIIGRLF IETFEEEAKK LGGADFLGQG TLYPDVIESV SFTGGPSVTI KSHHNVGGLP
+     ERMKMQLVEP LRELFKDEVR ALGRELGLPD SFIGRHPFPG PGLAIRCPGG ISREKLEILR
+     EADAIYLDEI RKAGLYDAIW QAFAVLLPVQ TVGVMGDGRT YEFVCALRAV TSVDGMTADF
+     YHYDMEFLGR AATRIINEVR GINRVVYDVT SKPPGTIEWE
+//

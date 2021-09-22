@@ -1,0 +1,111 @@
+ID   ISPT_RICBR              Reviewed;         226 AA.
+AC   Q1RII8;
+DT   20-FEB-2007, integrated into UniProtKB/Swiss-Prot.
+DT   20-FEB-2007, sequence version 2.
+DT   10-FEB-2021, entry version 86.
+DE   RecName: Full=Isoprenyl transferase {ECO:0000255|HAMAP-Rule:MF_01139};
+DE            EC=2.5.1.- {ECO:0000255|HAMAP-Rule:MF_01139};
+GN   Name=uppS {ECO:0000255|HAMAP-Rule:MF_01139}; OrderedLocusNames=RBE_0745;
+OS   Rickettsia bellii (strain RML369-C).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; belli group.
+OX   NCBI_TaxID=336407;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RML369-C;
+RX   PubMed=16703114; DOI=10.1371/journal.pgen.0020076;
+RA   Ogata H., La Scola B., Audic S., Renesto P., Blanc G., Robert C.,
+RA   Fournier P.-E., Claverie J.-M., Raoult D.;
+RT   "Genome sequence of Rickettsia bellii illuminates the role of amoebae in
+RT   gene exchanges between intracellular pathogens.";
+RL   PLoS Genet. 2:733-744(2006).
+CC   -!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)
+CC       with allylic pyrophosphates generating different type of terpenoids.
+CC       {ECO:0000255|HAMAP-Rule:MF_01139}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01139};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01139};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01139}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01139}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABE04826.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000087; ABE04826.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_041804680.1; NC_007940.1.
+DR   SMR; Q1RII8; -.
+DR   STRING; 336407.RBE_0745; -.
+DR   EnsemblBacteria; ABE04826; ABE04826; RBE_0745.
+DR   KEGG; rbe:RBE_0745; -.
+DR   eggNOG; COG0020; Bacteria.
+DR   HOGENOM; CLU_038505_1_1_5; -.
+DR   OrthoDB; 1630604at2; -.
+DR   BioCyc; RBEL336407:G1G4P-1070-MONOMER; -.
+DR   Proteomes; UP000001951; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004659; F:prenyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   Gene3D; 3.40.1180.10; -; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   PANTHER; PTHR10291; PTHR10291; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; SSF64005; 1.
+DR   TIGRFAMs; TIGR00055; uppS; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Metal-binding; Transferase.
+FT   CHAIN           1..226
+FT                   /note="Isoprenyl transferase"
+FT                   /id="PRO_0000277927"
+FT   REGION          13..16
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   REGION          57..59
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   REGION          180..182
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        12
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        60
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   METAL           12
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   METAL           193
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         17
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         25
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         29
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         61
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         63
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         174
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+SQ   SEQUENCE   226 AA;  26069 MW;  D0B53CC3E06EFE1A CRC64;
+     MTNIKHLAII MDGNARWAAT HNLPKSEGHR AGADKVHELL PEFINLKIPY ITLYTFSSEN
+     WQRSNTEISF LMRLLNIYLK KELDNLHKNG IKIKVIGRLN LLSDSLQKQI NNAIELTKDN
+     NKLTLCIAFS YGSRQEITDA CTKIIASGKT EILESDIQNA LYDPEMPDVD LLIRPGGVFR
+     ISNFLLWQAA YAELYFSQKY WPDFNKEDII NAIDDYSKRK RTFGKR
+//

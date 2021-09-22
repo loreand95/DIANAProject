@@ -1,0 +1,115 @@
+ID   PDXA_BACTN              Reviewed;         364 AA.
+AC   Q89ZK3;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   10-FEB-2021, entry version 99.
+DE   RecName: Full=4-hydroxythreonine-4-phosphate dehydrogenase {ECO:0000250|UniProtKB:P19624};
+DE            EC=1.1.1.262 {ECO:0000250|UniProtKB:P19624};
+DE   AltName: Full=4-(phosphohydroxy)-L-threonine dehydrogenase {ECO:0000250|UniProtKB:P19624};
+GN   Name=pdxA {ECO:0000250|UniProtKB:P19624}; OrderedLocusNames=BT_4374;
+OS   Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 /
+OS   E50 / VPI-5482).
+OC   Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae;
+OC   Bacteroides.
+OX   NCBI_TaxID=226186;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482;
+RX   PubMed=12663928; DOI=10.1126/science.1080029;
+RA   Xu J., Bjursell M.K., Himrod J., Deng S., Carmichael L.K., Chiang H.C.,
+RA   Hooper L.V., Gordon J.I.;
+RT   "A genomic view of the human-Bacteroides thetaiotaomicron symbiosis.";
+RL   Science 299:2074-2076(2003).
+CC   -!- FUNCTION: Catalyzes the NAD(P)-dependent oxidation of 4-(phosphooxy)-L-
+CC       threonine (HTP) into 2-amino-3-oxo-4-(phosphooxy)butyric acid which
+CC       spontaneously decarboxylates to form 3-amino-2-oxopropyl phosphate
+CC       (AHAP). {ECO:0000250|UniProtKB:P19624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-(phosphooxy)-L-threonine + NAD(+) = 3-amino-2-oxopropyl
+CC         phosphate + CO2 + NADH; Xref=Rhea:RHEA:32275, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57279, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:58452; EC=1.1.1.262;
+CC         Evidence={ECO:0000250|UniProtKB:P19624};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250|UniProtKB:P19624};
+CC       Note=Binds 1 divalent metal cation per subunit.
+CC       {ECO:0000250|UniProtKB:P19624};
+CC   -!- PATHWAY: Cofactor biosynthesis; pyridoxine 5'-phosphate biosynthesis;
+CC       pyridoxine 5'-phosphate from D-erythrose 4-phosphate: step 4/5.
+CC       {ECO:0000250|UniProtKB:P19624}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250|UniProtKB:P19624}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:P19624}.
+CC   -!- MISCELLANEOUS: The active site is located at the dimer interface.
+CC       {ECO:0000250|UniProtKB:P19624}.
+CC   -!- SIMILARITY: Belongs to the PdxA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE015928; AAO79479.1; -; Genomic_DNA.
+DR   RefSeq; NP_813285.1; NC_004663.1.
+DR   RefSeq; WP_008760044.1; NC_004663.1.
+DR   SMR; Q89ZK3; -.
+DR   STRING; 226186.BT_4374; -.
+DR   PaxDb; Q89ZK3; -.
+DR   PRIDE; Q89ZK3; -.
+DR   EnsemblBacteria; AAO79479; AAO79479; BT_4374.
+DR   GeneID; 31618160; -.
+DR   KEGG; bth:BT_4374; -.
+DR   PATRIC; fig|226186.12.peg.4451; -.
+DR   eggNOG; COG1995; Bacteria.
+DR   HOGENOM; CLU_040168_4_0_10; -.
+DR   InParanoid; Q89ZK3; -.
+DR   OMA; HKGVINE; -.
+DR   BioCyc; BTHE:G13PU-9356-MONOMER; -.
+DR   UniPathway; UPA00244; UER00312.
+DR   Proteomes; UP000001414; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050570; F:4-hydroxythreonine-4-phosphate dehydrogenase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008615; P:pyridoxine biosynthetic process; IEA:UniProtKB-KW.
+DR   InterPro; IPR005255; PdxA_fam.
+DR   PANTHER; PTHR30004; PTHR30004; 1.
+DR   Pfam; PF04166; PdxA; 1.
+DR   TIGRFAMs; TIGR00557; pdxA; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Metal-binding; NAD; NADP; Oxidoreductase;
+KW   Pyridoxine biosynthesis; Reference proteome.
+FT   CHAIN           1..364
+FT                   /note="4-hydroxythreonine-4-phosphate dehydrogenase"
+FT                   /id="PRO_1000051491"
+FT   METAL           169
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   METAL           214
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   METAL           269
+FT                   /note="Divalent metal cation; shared with dimeric partner"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   BINDING         138
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   BINDING         139
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   BINDING         277
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   BINDING         286
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+FT   BINDING         295
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P19624"
+SQ   SEQUENCE   364 AA;  40325 MW;  FD60351E6D30985A CRC64;
+     MEENKIRIGI TQGDINGVGY EVILKTFSDP TMLELCTPII YGSPKVAAYH RKALDVQANF
+     SIVNTASEAG YNRLSVVNCT DDEVKVEFSK PDPEAGKAAL GALERAIEEY REGLIDVIVT
+     APINKHTIQS EEFSFPGHTE YIEERLGNGN KSLMILMKND FRVALVTTHI PVREIATTIT
+     KELIQEKLMI FHRCLKQDFG IGAPRIAVLS LNPHAGDGGL LGMEEQEIII PAMKEMEEKG
+     IICYGPYAAD GFMGSGNYTH FDGILAMYHD QGLAPFKALA MEDGVNYTAG LPVVRTSPAH
+     GTAYDIAGKG LASEDSFRQA IYVAIDVFRN RQREKAARVN PLRKQYYEKR DDSDKLKLDT
+     VDED
+//

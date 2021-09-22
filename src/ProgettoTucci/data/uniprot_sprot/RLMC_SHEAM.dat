@@ -1,0 +1,109 @@
+ID   RLMC_SHEAM              Reviewed;         384 AA.
+AC   A1S382;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=23S rRNA (uracil(747)-C(5))-methyltransferase RlmC {ECO:0000255|HAMAP-Rule:MF_01012};
+DE            EC=2.1.1.189 {ECO:0000255|HAMAP-Rule:MF_01012};
+DE   AltName: Full=23S rRNA(m5U747)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01012};
+GN   Name=rlmC {ECO:0000255|HAMAP-Rule:MF_01012}; Synonyms=rumB;
+GN   OrderedLocusNames=Sama_0630;
+OS   Shewanella amazonensis (strain ATCC BAA-1098 / SB2B).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=326297;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-1098 / SB2B;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Munk A.C., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Fredrickson J.,
+RA   Richardson P.;
+RT   "Complete sequence of Shewanella amazonensis SB2B.";
+RL   Submitted (DEC-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the formation of 5-methyl-uridine at position 747
+CC       (m5U747) in 23S rRNA. {ECO:0000255|HAMAP-Rule:MF_01012}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(747) in 23S rRNA = 5-
+CC         methyluridine(747) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42628, Rhea:RHEA-COMP:10154, Rhea:RHEA-COMP:10155,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.189;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01012};
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA M5U methyltransferase family. RlmC subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000507; ABL98838.1; -; Genomic_DNA.
+DR   SMR; A1S382; -.
+DR   STRING; 326297.Sama_0630; -.
+DR   EnsemblBacteria; ABL98838; ABL98838; Sama_0630.
+DR   KEGG; saz:Sama_0630; -.
+DR   eggNOG; COG2265; Bacteria.
+DR   HOGENOM; CLU_014689_0_0_6; -.
+DR   OMA; YCGVGGF; -.
+DR   BioCyc; SAMA326297:G1G7Q-673-MONOMER; -.
+DR   Proteomes; UP000009175; Chromosome.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070041; F:rRNA (uridine-C5-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01012; 23SrRNA_methyltr_RlmC; 1.
+DR   InterPro; IPR011825; 23SrRNA_MeTrfase_RlmC.
+DR   InterPro; IPR030390; MeTrfase_TrmA_AS.
+DR   InterPro; IPR030391; MeTrfase_TrmA_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR010280; U5_MeTrfase_fam.
+DR   PANTHER; PTHR11061; PTHR11061; 1.
+DR   Pfam; PF05958; tRNA_U5-meth_tr; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR02085; meth_trns_rumB; 1.
+DR   PROSITE; PS51687; SAM_MT_RNA_M5U; 1.
+DR   PROSITE; PS01230; TRMA_1; 1.
+DR   PROSITE; PS01231; TRMA_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Iron; Iron-sulfur; Metal-binding; Methyltransferase;
+KW   Reference proteome; rRNA processing; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..384
+FT                   /note="23S rRNA (uracil(747)-C(5))-methyltransferase RlmC"
+FT                   /id="PRO_0000282012"
+FT   ACT_SITE        336
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   METAL           3
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   METAL           11
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   METAL           14
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   METAL           87
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   BINDING         212
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   BINDING         241
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   BINDING         262
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+FT   BINDING         309
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01012"
+SQ   SEQUENCE   384 AA;  42244 MW;  A91941E731D8AA98 CRC64;
+     MSCDYFNRGL CQSCRLMSKP VTEQLLEKEA RLTHLLGGLP VDERLAPVSG PEFGFRNKAK
+     MVVMGAAHAP VLGIPGPDGQ PVDLSHCPLY PQDMQALLLE LTSFVRRAGI PPYRVDKAKG
+     ELKFILLTRS AVRGEFMLRF VLRSKDAIPR IERELPKLLA DFPAIKVVSV NLQPVHMARL
+     EGEEEIFLTQ ATRLDEVFNG VPLFIRPKSF FQTNPEVASR LYATAAKWVD ELSPKSLWDL
+     FCGVGGFGLH CANESLPVTG IEIEAEAIDC AKTSAAAMGL DNLSFAALDS TDFAMGQQAQ
+     EVPEVIIVNP PRRGIGEELC ERLSAFGPRA IIYSSCNPET LAKDLALISG YRIARVQLFD
+     MFPHSDHFEV LCLLLKEAAC ASAD
+//

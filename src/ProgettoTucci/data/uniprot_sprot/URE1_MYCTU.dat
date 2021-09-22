@@ -1,0 +1,221 @@
+ID   URE1_MYCTU              Reviewed;         577 AA.
+AC   P9WFF1; L0T9F6; P0A660; P50042;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 40.
+DE   RecName: Full=Urease subunit alpha {ECO:0000255|HAMAP-Rule:MF_01953};
+DE            EC=3.5.1.5 {ECO:0000255|HAMAP-Rule:MF_01953};
+DE   AltName: Full=Urea amidohydrolase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01953};
+GN   Name=ureC {ECO:0000255|HAMAP-Rule:MF_01953}; OrderedLocusNames=Rv1850;
+GN   ORFNames=MTCY359.23c;
+OS   Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83332;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 2-28, CATALYTIC
+RP   ACTIVITY, COFACTOR, INTERACTION WITH UREA AND UREB, AND BIOPHYSICOCHEMICAL
+RP   PROPERTIES.
+RC   STRAIN=ATCC 35801 / TMC 107 / Erdman;
+RX   PubMed=7559354; DOI=10.1128/jb.177.19.5644-5652.1995;
+RA   Clemens D.L., Lee B.-Y., Horwitz M.A.;
+RT   "Purification, characterization, and genetic analysis of Mycobacterium
+RT   tuberculosis urease, a potentially critical determinant of host-pathogen
+RT   interaction.";
+RL   J. Bacteriol. 177:5644-5652(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=7568014; DOI=10.1073/pnas.92.19.8768;
+RA   Reyrat J.-M., Berthet F.-X., Gicquel B.;
+RT   "The urease locus of Mycobacterium tuberculosis and its utilization for the
+RT   demonstration of allelic exchange in Mycobacterium bovis bacillus Calmette-
+RT   Guerin.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:8768-8772(1995).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=9634230; DOI=10.1038/31159;
+RA   Cole S.T., Brosch R., Parkhill J., Garnier T., Churcher C.M., Harris D.E.,
+RA   Gordon S.V., Eiglmeier K., Gas S., Barry C.E. III, Tekaia F., Badcock K.,
+RA   Basham D., Brown D., Chillingworth T., Connor R., Davies R.M., Devlin K.,
+RA   Feltwell T., Gentles S., Hamlin N., Holroyd S., Hornsby T., Jagels K.,
+RA   Krogh A., McLean J., Moule S., Murphy L.D., Oliver S., Osborne J.,
+RA   Quail M.A., Rajandream M.A., Rogers J., Rutter S., Seeger K., Skelton S.,
+RA   Squares S., Squares R., Sulston J.E., Taylor K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Deciphering the biology of Mycobacterium tuberculosis from the complete
+RT   genome sequence.";
+RL   Nature 393:537-544(1998).
+RN   [4]
+RP   IDENTIFICATION AS A DRUG TARGET [LARGE SCALE ANALYSIS].
+RX   PubMed=19099550; DOI=10.1186/1752-0509-2-109;
+RA   Raman K., Yeturu K., Chandra N.;
+RT   "targetTB: a target identification pipeline for Mycobacterium tuberculosis
+RT   through an interactome, reactome and genome-scale structural analysis.";
+RL   BMC Syst. Biol. 2:109-109(2008).
+RN   [5]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=21969609; DOI=10.1074/mcp.m111.011627;
+RA   Kelkar D.S., Kumar D., Kumar P., Balakrishnan L., Muthusamy B., Yadav A.K.,
+RA   Shrivastava P., Marimuthu A., Anand S., Sundaram H., Kingsbury R.,
+RA   Harsha H.C., Nair B., Prasad T.S., Chauhan D.S., Katoch K., Katoch V.M.,
+RA   Kumar P., Chaerkady R., Ramachandran S., Dash D., Pandey A.;
+RT   "Proteogenomic analysis of Mycobacterium tuberculosis by high resolution
+RT   mass spectrometry.";
+RL   Mol. Cell. Proteomics 10:M111.011627-M111.011627(2011).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + H2O + urea = CO2 + 2 NH4(+); Xref=Rhea:RHEA:20557,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16199,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:28938; EC=3.5.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01953,
+CC         ECO:0000269|PubMed:7559354};
+CC   -!- COFACTOR:
+CC       Name=Ni cation; Xref=ChEBI:CHEBI:25516;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01953,
+CC         ECO:0000269|PubMed:7559354};
+CC       Note=Binds 2 nickel ions per subunit. {ECO:0000255|HAMAP-Rule:MF_01953,
+CC       ECO:0000269|PubMed:7559354};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=0.3 mM for urea {ECO:0000269|PubMed:7559354};
+CC         Vmax=0.05 mmol/min/mg enzyme {ECO:0000269|PubMed:7559354};
+CC       pH dependence:
+CC         Optimum pH is 7.2. {ECO:0000269|PubMed:7559354};
+CC   -!- PATHWAY: Nitrogen metabolism; urea degradation; CO(2) and NH(3) from
+CC       urea (urease route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- SUBUNIT: Heterotrimer of UreA (gamma), UreB (beta) and UreC (alpha)
+CC       subunits. Three heterotrimers associate to form the active enzyme.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- PTM: Carboxylation allows a single lysine to coordinate two nickel
+CC       ions. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- MISCELLANEOUS: Was identified as a high-confidence drug target.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Urease alpha subunit family. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U33011; AAC43475.1; -; Genomic_DNA.
+DR   EMBL; L41141; AAC37007.1; -; Genomic_DNA.
+DR   EMBL; AL123456; CCP44616.1; -; Genomic_DNA.
+DR   PIR; B70665; B70665.
+DR   RefSeq; NP_216366.1; NC_000962.3.
+DR   RefSeq; WP_003899049.1; NZ_NVQJ01000013.1.
+DR   SMR; P9WFF1; -.
+DR   STRING; 83332.Rv1850; -.
+DR   MEROPS; M38.982; -.
+DR   PaxDb; P9WFF1; -.
+DR   GeneID; 885359; -.
+DR   KEGG; mtu:Rv1850; -.
+DR   TubercuList; Rv1850; -.
+DR   eggNOG; COG0804; Bacteria.
+DR   OMA; GFDSHIH; -.
+DR   PhylomeDB; P9WFF1; -.
+DR   UniPathway; UPA00258; UER00370.
+DR   Proteomes; UP000001584; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009039; F:urease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043419; P:urea catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00375; Urease_alpha; 1.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_01953; Urease_alpha; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   InterPro; IPR011612; Urease_alpha_N_dom.
+DR   InterPro; IPR017950; Urease_AS.
+DR   InterPro; IPR005848; Urease_asu.
+DR   InterPro; IPR017951; Urease_asu_c.
+DR   InterPro; IPR029754; Urease_Ni-bd.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   Pfam; PF00449; Urease_alpha; 1.
+DR   PRINTS; PR01752; UREASE.
+DR   SUPFAM; SSF51338; SSF51338; 2.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01792; urease_alph; 1.
+DR   PROSITE; PS01120; UREASE_1; 1.
+DR   PROSITE; PS00145; UREASE_2; 1.
+DR   PROSITE; PS51368; UREASE_3; 1.
+PE   1: Evidence at protein level;
+KW   Cytoplasm; Direct protein sequencing; Hydrolase; Metal-binding; Nickel;
+KW   Reference proteome.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000269|PubMed:7559354"
+FT   CHAIN           2..577
+FT                   /note="Urease subunit alpha"
+FT                   /id="PRO_0000067549"
+FT   DOMAIN          136..577
+FT                   /note="Urease"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   ACT_SITE        327
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           141
+FT                   /note="Nickel 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           143
+FT                   /note="Nickel 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           224
+FT                   /note="Nickel 1; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           224
+FT                   /note="Nickel 2; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           253
+FT                   /note="Nickel 2; via pros nitrogen"
+FT   METAL           279
+FT                   /note="Nickel 2; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           367
+FT                   /note="Nickel 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   BINDING         226
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   MOD_RES         224
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   CONFLICT        62
+FT                   /note="G -> A (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        67
+FT                   /note="A -> T (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        89
+FT                   /note="A -> T (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        96..97
+FT                   /note="GR -> AP (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        104
+FT                   /note="A -> T (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        153
+FT                   /note="A -> T (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        174
+FT                   /note="A -> T (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        372
+FT                   /note="G -> D (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        448
+FT                   /note="A -> V (in Ref. 2; AAC37007)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   577 AA;  60825 MW;  010FB33C3FDFED12 CRC64;
+     MARLSRERYA QLYGPTTGDR IRLADTNLLV EVTEDRCGGP GLAGDEAVFG GGKVLRESMG
+     QGRASRADGA PDTVITGAVI IDYWGIIKAD IGIRDGRIVG IGKAGNPDIM TGVHRDLVVG
+     PSTEIISGNR RIVTAGTVDC HVHLICPQII VEALAAGTTT IIGGGTGPAE GTKATTVTPG
+     EWHLARMLES LDGWPVNFAL LGKGNTVNPD ALWEQLRGGA SGFKLHEDWG STPAAIDTCL
+     AVADVAGVQV ALHSDTLNET GFVEDTIGAI AGRSIHAYHT EGAGGGHAPD IITVAAQPNV
+     LPSSTNPTRP HTVNTLDEHL DMLMVCHHLN PRIPEDLAFA ESRIRPSTIA AEDVLHDMGA
+     ISMIGSDSQA MGRVGEVVLR TWQTAHVMKA RRGALEGDPS GSQAADNNRV RRYIAKYTIC
+     PAIAHGMDHL IGSVEVGKLA DLVLWEPAFF GVRPHVVLKG GAIAWAAMGD ANASIPTPQP
+     VLPRPMFGAA AATAAATSVH FVAPQSIDAR LADRLAVNRG LAPVADVRAV GKTDLPLNDA
+     LPSIEVDPDT FTVRIDGQVW QPQPAAELPM TQRYFLF
+//

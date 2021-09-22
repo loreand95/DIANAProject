@@ -1,0 +1,80 @@
+ID   TIAS_THEVO              Reviewed;         437 AA.
+AC   Q97B59;
+DT   03-MAY-2011, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=tRNA(Ile2) 2-agmatinylcytidine synthetase TiaS {ECO:0000255|HAMAP-Rule:MF_01892};
+DE            Short=tRNA(Ile2)-agm2C synthetase {ECO:0000255|HAMAP-Rule:MF_01892};
+DE            EC=6.3.4.22 {ECO:0000255|HAMAP-Rule:MF_01892};
+DE   AltName: Full=tRNA(Ile2) agmatidine synthetase {ECO:0000255|HAMAP-Rule:MF_01892};
+GN   Name=tiaS {ECO:0000255|HAMAP-Rule:MF_01892}; OrderedLocusNames=TV0599;
+GN   ORFNames=TVG0590669;
+OS   Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC
+OS   15438 / GSS1).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1;
+RX   PubMed=11121031; DOI=10.1073/pnas.97.26.14257;
+RA   Kawashima T., Amano N., Koike H., Makino S., Higuchi S., Kawashima-Ohya Y.,
+RA   Watanabe K., Yamazaki M., Kanehori K., Kawamoto T., Nunoshiba T.,
+RA   Yamamoto Y., Aramaki H., Makino K., Suzuki M.;
+RT   "Archaeal adaptation to higher temperatures revealed by genomic sequence of
+RT   Thermoplasma volcanium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:14257-14262(2000).
+CC   -!- FUNCTION: ATP-dependent agmatine transferase that catalyzes the
+CC       formation of 2-agmatinylcytidine (agm2C) at the wobble position (C34)
+CC       of tRNA(Ile2), converting the codon specificity from AUG to AUA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01892}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=agmatine + ATP + cytidine(34) in tRNA(Ile2) + H2O = 2-
+CC         agmatinylcytidine(34) in tRNA(Ile2) + AMP + 2 H(+) + 2 phosphate;
+CC         Xref=Rhea:RHEA:43608, Rhea:RHEA-COMP:10625, Rhea:RHEA-COMP:10626,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58145, ChEBI:CHEBI:82748,
+CC         ChEBI:CHEBI:83545, ChEBI:CHEBI:456215; EC=6.3.4.22;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01892};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01892}.
+CC   -!- SIMILARITY: Belongs to the TiaS family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01892}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000011; BAB59741.1; -; Genomic_DNA.
+DR   RefSeq; WP_010916857.1; NC_002689.2.
+DR   SMR; Q97B59; -.
+DR   STRING; 273116.14324814; -.
+DR   EnsemblBacteria; BAB59741; BAB59741; BAB59741.
+DR   GeneID; 1441705; -.
+DR   KEGG; tvo:TVG0590669; -.
+DR   eggNOG; arCOG01115; Archaea.
+DR   HOGENOM; CLU_675459_0_0_2; -.
+DR   OMA; GMCTTYL; -.
+DR   OrthoDB; 58019at2157; -.
+DR   Proteomes; UP000001017; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0002101; P:tRNA wobble cytosine modification; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01892; tRNA_Ile2_agm2C_synt; 1.
+DR   InterPro; IPR013696; DUF1743.
+DR   InterPro; IPR024913; tRNA_Ile2__agm2C_synt.
+DR   Pfam; PF08489; DUF1743; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Ligase; Nucleotide-binding; tRNA processing.
+FT   CHAIN           1..437
+FT                   /note="tRNA(Ile2) 2-agmatinylcytidine synthetase TiaS"
+FT                   /id="PRO_0000407306"
+SQ   SEQUENCE   437 AA;  49674 MW;  FB358153AB562755 CRC64;
+     MFLAFDDTDS PSGMCTTYLM EEFLRKVNLD VIGYPRLVRL NPNIRYKTRG NGALSVHLGR
+     GIGKKHTIGE LHGKILYGYA EGEDEYDENV LYVMKDLVEK YSELDYFNTN PGIVVSKNPF
+     PENYYWSALE REIRIEEAEN FITENNGKFL KFKSGRGIIG SGAAISWPAT RTTYEILAYK
+     YPHPEEIETE KKMRLSILAD TFRGTFNNVD IANKYPAIFP NPKTPVIFGI RGLYPSVLAN
+     AAKKVIDDGS INYDSTVTYL TNQATDDHII DEPNVIEDLH SYKITAEIID KPFSVAGGHY
+     FVRSISRAGE FTAAAFEPTK EFRHTFSKLM PGDTVTFYGS FTNGNLNVEK MQIISVSRVF
+     SRVTPLCKFC NTRTKSKGKN DFRCPKCGRR YNTPDYHEVK REISPGKYDV PVVARRHLSM
+     PFEIESMFKT KINALEA
+//

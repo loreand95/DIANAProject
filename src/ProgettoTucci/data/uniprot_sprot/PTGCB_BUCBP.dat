@@ -1,0 +1,149 @@
+ID   PTGCB_BUCBP             Reviewed;         479 AA.
+AC   Q89AG6;
+DT   14-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=PTS system glucose-specific EIICB component {ECO:0000250|UniProtKB:P69786};
+DE   AltName: Full=EIICB-Glc {ECO:0000250|UniProtKB:P69786};
+DE            Short=EII-Glc {ECO:0000250|UniProtKB:P69786};
+DE   Includes:
+DE     RecName: Full=Glucose permease IIC component {ECO:0000250|UniProtKB:P69786};
+DE     AltName: Full=PTS system glucose-specific EIIC component {ECO:0000250|UniProtKB:P69786};
+DE   Includes:
+DE     RecName: Full=Glucose-specific phosphotransferase enzyme IIB component {ECO:0000250|UniProtKB:P69786};
+DE              EC=2.7.1.199 {ECO:0000250|UniProtKB:P69786};
+DE     AltName: Full=PTS system glucose-specific EIIB component {ECO:0000250|UniProtKB:P69786};
+GN   Name=ptsG; OrderedLocusNames=bbp_326;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Erwiniaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- FUNCTION: The phosphoenolpyruvate-dependent sugar phosphotransferase
+CC       system (sugar PTS), a major carbohydrate active transport system,
+CC       catalyzes the phosphorylation of incoming sugar substrates
+CC       concomitantly with their translocation across the cell membrane. The
+CC       enzyme II complex composed of PtsG and Crr is involved in glucose
+CC       transport. {ECO:0000250|UniProtKB:P69786}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-glucose(out) + N(pros)-phospho-L-histidyl-[protein] = D-
+CC         glucose 6-phosphate(in) + L-histidyl-[protein]; Xref=Rhea:RHEA:33367,
+CC         Rhea:RHEA-COMP:9745, Rhea:RHEA-COMP:9746, ChEBI:CHEBI:4167,
+CC         ChEBI:CHEBI:29979, ChEBI:CHEBI:61548, ChEBI:CHEBI:64837;
+CC         EC=2.7.1.199; Evidence={ECO:0000250|UniProtKB:P69786};
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00426}; Multi-pass membrane protein {ECO:0000255|PROSITE-
+CC       ProRule:PRU00426}.
+CC   -!- DOMAIN: The EIIB domain is phosphorylated by phospho-EIIA on a
+CC       cysteinyl or histidyl residue, depending on the transported sugar.
+CC       Then, it transfers the phosphoryl group to the sugar substrate
+CC       concomitantly with the sugar uptake processed by the EIIC domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00421}.
+CC   -!- DOMAIN: The EIIC domain forms the PTS system translocation channel and
+CC       contains the specific substrate-binding site. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00426}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016826; AAO27048.1; -; Genomic_DNA.
+DR   RefSeq; WP_011091449.1; NC_004545.1.
+DR   SMR; Q89AG6; -.
+DR   STRING; 224915.bbp_326; -.
+DR   EnsemblBacteria; AAO27048; AAO27048; bbp_326.
+DR   GeneID; 56470865; -.
+DR   KEGG; bab:bbp_326; -.
+DR   eggNOG; COG1263; Bacteria.
+DR   eggNOG; COG1264; Bacteria.
+DR   HOGENOM; CLU_012312_1_0_6; -.
+DR   OMA; AWAFNRF; -.
+DR   OrthoDB; 2035550at2; -.
+DR   BioCyc; BAPH224915:G1G09-329-MONOMER; -.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005355; F:glucose transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0016301; F:kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008982; F:protein-N(PI)-phosphohistidine-sugar phosphotransferase activity; IEA:InterPro.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   CDD; cd00212; PTS_IIB_glc; 1.
+DR   Gene3D; 3.30.1360.60; -; 1.
+DR   InterPro; IPR036878; Glu_permease_IIB.
+DR   InterPro; IPR018113; PTrfase_EIIB_Cys.
+DR   InterPro; IPR003352; PTS_EIIC.
+DR   InterPro; IPR013013; PTS_EIIC_1.
+DR   InterPro; IPR001996; PTS_IIB_1.
+DR   InterPro; IPR011299; PTS_IIBC_glc.
+DR   Pfam; PF00367; PTS_EIIB; 1.
+DR   Pfam; PF02378; PTS_EIIC; 1.
+DR   SUPFAM; SSF55604; SSF55604; 1.
+DR   TIGRFAMs; TIGR00826; EIIB_glc; 1.
+DR   TIGRFAMs; TIGR02002; PTS-II-BC-glcB; 1.
+DR   PROSITE; PS51098; PTS_EIIB_TYPE_1; 1.
+DR   PROSITE; PS01035; PTS_EIIB_TYPE_1_CYS; 1.
+DR   PROSITE; PS51103; PTS_EIIC_TYPE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Kinase; Membrane; Phosphoprotein;
+KW   Phosphotransferase system; Reference proteome; Sugar transport;
+KW   Transferase; Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..479
+FT                   /note="PTS system glucose-specific EIICB component"
+FT                   /id="PRO_0000186527"
+FT   TRANSMEM        15..35
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        51..71
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        80..100
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        112..132
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        152..172
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        252..272
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        280..300
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        305..325
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   TRANSMEM        356..376
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   DOMAIN          1..388
+FT                   /note="PTS EIIC type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00426"
+FT   DOMAIN          399..479
+FT                   /note="PTS EIIB type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00421"
+FT   ACT_SITE        421
+FT                   /note="Phosphocysteine intermediate; for EIIB activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P69786,
+FT                   ECO:0000255|PROSITE-ProRule:PRU00421"
+FT   MOD_RES         421
+FT                   /note="Phosphocysteine"
+FT                   /evidence="ECO:0000250|UniProtKB:P69786"
+SQ   SEQUENCE   479 AA;  52157 MW;  FF1B60760B4D9ABD CRC64;
+     MFKNAFSNLQ KIGRSLMLPV SVLPIAGILL GIGSANFKII PHTISNIMTE AGSSVFSNMP
+     LIFAIGIALG FTKNDGVSAL AAVVSYGIMT KTLSITIPIF SNLSDINVNQ KYLLDTGILG
+     GIIAGSISAY IFNTFYRIQL PEYLGFFAGR RFVPIASGLI SIIFGCILSI IWPPIGNVIK
+     TFSEWAAYQN PTLAFGIYGT VERALVPFGL HHIWNVPFQM QIGEYNNSIG QIFHGDIARY
+     MAGDSTAGKL SGGFIFKMYG LPFAALAMWH CANKKNKAKI GGIMMSGALT AILTGITEPI
+     EFSFILVAPI LYVIHAILAG LAFPICILLN MRSGTSFSHG LIDFIVLSGN SNNFWLFPIV
+     GLFYGILYYG IFYFMIKKFN LKTPGREKSI TYINQKTIKE TALLVISILG GKTNIINLDA
+     CITRLRITVL DISKVNQKKL KNLGASGVIV SGSGIQIVFG TQSDHIKTEI DNYMSNTNQ
+//

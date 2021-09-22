@@ -1,0 +1,128 @@
+ID   URE1_STAA9              Reviewed;         571 AA.
+AC   A5IV71;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Urease subunit alpha {ECO:0000255|HAMAP-Rule:MF_01953};
+DE            EC=3.5.1.5 {ECO:0000255|HAMAP-Rule:MF_01953};
+DE   AltName: Full=Urea amidohydrolase subunit alpha {ECO:0000255|HAMAP-Rule:MF_01953};
+GN   Name=ureC {ECO:0000255|HAMAP-Rule:MF_01953};
+GN   OrderedLocusNames=SaurJH9_2314;
+OS   Staphylococcus aureus (strain JH9).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=359786;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JH9;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Pitluck S., Chain P.,
+RA   Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., Tomasz A., Richardson P.;
+RT   "Complete sequence of chromosome of Staphylococcus aureus subsp. aureus
+RT   JH9.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 H(+) + H2O + urea = CO2 + 2 NH4(+); Xref=Rhea:RHEA:20557,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16199,
+CC         ChEBI:CHEBI:16526, ChEBI:CHEBI:28938; EC=3.5.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01953};
+CC   -!- COFACTOR:
+CC       Name=Ni cation; Xref=ChEBI:CHEBI:25516;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01953};
+CC       Note=Binds 2 nickel ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01953};
+CC   -!- PATHWAY: Nitrogen metabolism; urea degradation; CO(2) and NH(3) from
+CC       urea (urease route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- SUBUNIT: Heterotrimer of UreA (gamma), UreB (beta) and UreC (alpha)
+CC       subunits. Three heterotrimers associate to form the active enzyme.
+CC       {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- PTM: Carboxylation allows a single lysine to coordinate two nickel
+CC       ions. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Urease alpha subunit family. {ECO:0000255|HAMAP-Rule:MF_01953}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000703; ABQ50094.1; -; Genomic_DNA.
+DR   RefSeq; WP_000008677.1; NC_009487.1.
+DR   SMR; A5IV71; -.
+DR   MEROPS; M38.982; -.
+DR   KEGG; saj:SaurJH9_2314; -.
+DR   HOGENOM; CLU_000980_0_0_9; -.
+DR   OMA; GFDSHIH; -.
+DR   UniPathway; UPA00258; UER00370.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016151; F:nickel cation binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009039; F:urease activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043419; P:urea catabolic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00375; Urease_alpha; 1.
+DR   Gene3D; 2.30.40.10; -; 1.
+DR   HAMAP; MF_01953; Urease_alpha; 1.
+DR   InterPro; IPR006680; Amidohydro-rel.
+DR   InterPro; IPR011059; Metal-dep_hydrolase_composite.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   InterPro; IPR011612; Urease_alpha_N_dom.
+DR   InterPro; IPR017950; Urease_AS.
+DR   InterPro; IPR005848; Urease_asu.
+DR   InterPro; IPR017951; Urease_asu_c.
+DR   InterPro; IPR029754; Urease_Ni-bd.
+DR   Pfam; PF01979; Amidohydro_1; 1.
+DR   Pfam; PF00449; Urease_alpha; 1.
+DR   PRINTS; PR01752; UREASE.
+DR   SUPFAM; SSF51338; SSF51338; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01792; urease_alph; 1.
+DR   PROSITE; PS01120; UREASE_1; 1.
+DR   PROSITE; PS00145; UREASE_2; 1.
+DR   PROSITE; PS51368; UREASE_3; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Metal-binding; Nickel.
+FT   CHAIN           1..571
+FT                   /note="Urease subunit alpha"
+FT                   /id="PRO_1000088499"
+FT   ACT_SITE        324
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           138
+FT                   /note="Nickel 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           140
+FT                   /note="Nickel 1; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           221
+FT                   /note="Nickel 1; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           221
+FT                   /note="Nickel 2; via carbamate group"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           250
+FT                   /note="Nickel 2; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           276
+FT                   /note="Nickel 2; via tele nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   METAL           364
+FT                   /note="Nickel 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   BINDING         223
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+FT   MOD_RES         221
+FT                   /note="N6-carboxylysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01953"
+SQ   SEQUENCE   571 AA;  61766 MW;  2B8824A71FC4431D CRC64;
+     MSFKMTQNQY TSLYGPTVGD SIRLGDTNLF AQIEKDYAVY GEEATFGGGK SIRDGMAQNP
+     RVTRDDVNVA DLVISNAVII DYDKVVKADI GIKNGYIFAI GNAGNPDIMD NVDIIIGSTT
+     DIIAAEGKIV TAGGIDTHVH FINPEQAEVA LESGITTHIG GGTGASEGSK ATTVTPGPWH
+     IHRMLEAAEG LPINVGFTGK GQATNPTALI EQINAGAIGL KVHEDWGATP SALSHALDVA
+     DEFDVQIALH ADTLNEAGFM EDTMAAVKDR VLHMYHTEGA GGGHAPDLIK SAAFSNILPS
+     STNPTLPYTH NTVDEHLDMV MITHHLNAAI PEDIAFADSR IRKETIAAED VLQDMGVFSM
+     ISSDSQAMGR VGEVITRTWQ VAHRMKEQRG PLDGDFEHND NNRIKRYIAK YTINPAITHG
+     ISEYVGSIEP GKLADIVLWD PIFFGVKPEL VVKGGLINSA VNGDANGSIP TSEPMKYRKM
+     YGQYGGNLTS TSMTFVSKTA YENGINRALN LKRMVRPVKN IRQLSKADMK NNSATPKLDV
+     DPQTYEVYVD GENITSNAAT ELPLTQRYFL F
+//

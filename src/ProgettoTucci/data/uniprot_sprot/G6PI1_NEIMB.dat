@@ -1,0 +1,103 @@
+ID   G6PI1_NEIMB             Reviewed;         548 AA.
+AC   Q9JYX3;
+DT   02-NOV-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 108.
+DE   RecName: Full=Glucose-6-phosphate isomerase 1;
+DE            Short=GPI 1;
+DE            EC=5.3.1.9;
+DE   AltName: Full=Phosphoglucose isomerase 1;
+DE            Short=PGI 1;
+DE   AltName: Full=Phosphohexose isomerase 1;
+DE            Short=PHI 1;
+GN   Name=pgi1; OrderedLocusNames=NMB1388;
+OS   Neisseria meningitidis serogroup B (strain MC58).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=122586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MC58;
+RX   PubMed=10710307; DOI=10.1126/science.287.5459.1809;
+RA   Tettelin H., Saunders N.J., Heidelberg J.F., Jeffries A.C., Nelson K.E.,
+RA   Eisen J.A., Ketchum K.A., Hood D.W., Peden J.F., Dodson R.J., Nelson W.C.,
+RA   Gwinn M.L., DeBoy R.T., Peterson J.D., Hickey E.K., Haft D.H.,
+RA   Salzberg S.L., White O., Fleischmann R.D., Dougherty B.A., Mason T.M.,
+RA   Ciecko A., Parksey D.S., Blair E., Cittone H., Clark E.B., Cotton M.D.,
+RA   Utterback T.R., Khouri H.M., Qin H., Vamathevan J.J., Gill J., Scarlato V.,
+RA   Masignani V., Pizza M., Grandi G., Sun L., Smith H.O., Fraser C.M.,
+RA   Moxon E.R., Rappuoli R., Venter J.C.;
+RT   "Complete genome sequence of Neisseria meningitidis serogroup B strain
+RT   MC58.";
+RL   Science 287:1809-1815(2000).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=aldehydo-D-glucose 6-phosphate = keto-D-fructose 6-phosphate;
+CC         Xref=Rhea:RHEA:11816, ChEBI:CHEBI:57579, ChEBI:CHEBI:57584;
+CC         EC=5.3.1.9;
+CC   -!- PATHWAY: Carbohydrate degradation; glycolysis; D-glyceraldehyde 3-
+CC       phosphate and glycerone phosphate from D-glucose: step 2/4.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the GPI family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE002098; AAF41752.1; -; Genomic_DNA.
+DR   PIR; C81089; C81089.
+DR   RefSeq; NP_274402.1; NC_003112.2.
+DR   RefSeq; WP_002225136.1; NC_003112.2.
+DR   SMR; Q9JYX3; -.
+DR   PaxDb; Q9JYX3; -.
+DR   EnsemblBacteria; AAF41752; AAF41752; NMB1388.
+DR   KEGG; nme:NMB1388; -.
+DR   PATRIC; fig|122586.8.peg.1740; -.
+DR   HOGENOM; CLU_017947_3_1_4; -.
+DR   OMA; TNSQHAF; -.
+DR   BioCyc; NMEN122586:G1G1B-1342-MONOMER; -.
+DR   UniPathway; UPA00109; UER00181.
+DR   Proteomes; UP000000425; Chromosome.
+DR   GO; GO:0005829; C:cytosol; IBA:GO_Central.
+DR   GO; GO:0004347; F:glucose-6-phosphate isomerase activity; IBA:GO_Central.
+DR   GO; GO:0048029; F:monosaccharide binding; IBA:GO_Central.
+DR   GO; GO:0006094; P:gluconeogenesis; IBA:GO_Central.
+DR   GO; GO:0051156; P:glucose 6-phosphate metabolic process; IBA:GO_Central.
+DR   GO; GO:0006096; P:glycolytic process; IBA:GO_Central.
+DR   CDD; cd05015; SIS_PGI_1; 1.
+DR   CDD; cd05016; SIS_PGI_2; 1.
+DR   Gene3D; 1.10.1390.10; -; 1.
+DR   HAMAP; MF_00473; G6P_isomerase; 1.
+DR   InterPro; IPR001672; G6P_Isomerase.
+DR   InterPro; IPR023096; G6P_Isomerase_C.
+DR   InterPro; IPR018189; Phosphoglucose_isomerase_CS.
+DR   InterPro; IPR035476; SIS_PGI_1.
+DR   InterPro; IPR035482; SIS_PGI_2.
+DR   PANTHER; PTHR11469; PTHR11469; 1.
+DR   Pfam; PF00342; PGI; 1.
+DR   PRINTS; PR00662; G6PISOMERASE.
+DR   PROSITE; PS00765; P_GLUCOSE_ISOMERASE_1; 1.
+DR   PROSITE; PS00174; P_GLUCOSE_ISOMERASE_2; 1.
+DR   PROSITE; PS51463; P_GLUCOSE_ISOMERASE_3; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Gluconeogenesis; Glycolysis; Isomerase; Reference proteome.
+FT   CHAIN           1..548
+FT                   /note="Glucose-6-phosphate isomerase 1"
+FT                   /id="PRO_0000180693"
+FT   ACT_SITE        353
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        384
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        512
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   548 AA;  62084 MW;  28A85A19BFF174E1 CRC64;
+     MKHLHDLPAW SKLWNHFDDS KTLHMREMFE QDPQRAERYW LQVGGLTLDY SKNRINDETM
+     SLLFELAREA GVPERMRQMF HGEKINTTEN RAVLHVALRN RTNSPIVVDG EDVMPKVNRV
+     LQRMGEFAHE VRSGSWLGYT NQVITDVVNI GIGGSDLGPL MMCTALKPFG HPRLNMHFVS
+     NVDGSQLRDV LSKVHPETTL FIIASKTFTT QETLTNALTA REWFLNHAGD EEAVAKHFAA
+     VSTNQKAVAE FGIDTANMFE FWDWVGGRYS LWSAIGLPIM LYLGEENFIE MLNGAHLMDQ
+     HFINTPLERN LPVILALIGI WYINYYGGGS HVIAPYDQHL HRLPKFIQQL DMESNGKQVT
+     LDGKAVGHET SPIIWGETGI NGQHAFFQLL HQGTHITPID LIASLEKRSN LPGHHEILLA
+     NVFAQAEAFM RGKTPDEVRA ELKAQGMDEV RIEELVPHKT FSGNRPTNLI LMDKVNPRNM
+     GSLIAMYEHK TFVQGIIWGI NSFDQWGVEL GKQLAKTILG ELTGETGPQK HDSSTERLIN
+     LYLQTNRK
+//

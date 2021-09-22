@@ -1,0 +1,118 @@
+ID   CATNT_BACHD             Reviewed;         375 AA.
+AC   Q9KC89;
+DT   16-AUG-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   02-DEC-2020, entry version 109.
+DE   RecName: Full=CC-adding tRNA nucleotidyltransferase {ECO:0000303|PubMed:16109934};
+DE            Short=C-adding TNT {ECO:0000305};
+DE            EC=2.7.7.- {ECO:0000269|PubMed:16109934};
+DE   AltName: Full=CC-adding enzyme {ECO:0000303|PubMed:16109934};
+DE   AltName: Full=NTSFI {ECO:0000303|PubMed:16109934};
+GN   OrderedLocusNames=BH1684 {ECO:0000312|EMBL:BAB05403.1};
+OS   Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153
+OS   / C-125).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Alkalihalobacillus.
+OX   NCBI_TaxID=272558;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125;
+RX   PubMed=11058132; DOI=10.1093/nar/28.21.4317;
+RA   Takami H., Nakasone K., Takaki Y., Maeno G., Sasaki R., Masui N., Fuji F.,
+RA   Hirama C., Nakamura Y., Ogasawara N., Kuhara S., Horikoshi K.;
+RT   "Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans
+RT   and genomic sequence comparison with Bacillus subtilis.";
+RL   Nucleic Acids Res. 28:4317-4331(2000).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RX   PubMed=16109934; DOI=10.1128/jb.187.17.5927-5936.2005;
+RA   Bralley P., Chang S.A., Jones G.H.;
+RT   "A phylogeny of bacterial RNA nucleotidyltransferases: Bacillus halodurans
+RT   contains two tRNA nucleotidyltransferases.";
+RL   J. Bacteriol. 187:5927-5936(2005).
+CC   -!- FUNCTION: tRNA nucleotidyltransferase involved in the synthesis of the
+CC       tRNA CCA terminus. Adds the two cytidine residues to tRNA.
+CC       {ECO:0000269|PubMed:16109934}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a tRNA precursor + 2 CTP = a tRNA with a 3' CC end + 2
+CC         diphosphate; Xref=Rhea:RHEA:60008, Rhea:RHEA-COMP:10465, Rhea:RHEA-
+CC         COMP:15488, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563, ChEBI:CHEBI:74896,
+CC         ChEBI:CHEBI:83069; Evidence={ECO:0000269|PubMed:16109934};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:60009;
+CC         Evidence={ECO:0000269|PubMed:16109934};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:O67911};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is 9.5. {ECO:0000269|PubMed:16109934};
+CC   -!- SIMILARITY: Belongs to the tRNA nucleotidyltransferase/poly(A)
+CC       polymerase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000004; BAB05403.1; -; Genomic_DNA.
+DR   PIR; D83860; D83860.
+DR   RefSeq; WP_010897846.1; NC_002570.2.
+DR   SMR; Q9KC89; -.
+DR   STRING; 272558.10174301; -.
+DR   EnsemblBacteria; BAB05403; BAB05403; BAB05403.
+DR   KEGG; bha:BH1684; -.
+DR   eggNOG; COG0617; Bacteria.
+DR   HOGENOM; CLU_015961_3_0_9; -.
+DR   OMA; RAVRFMS; -.
+DR   OrthoDB; 2018439at2; -.
+DR   BioCyc; BHAL272558:G1G3A-1770-MONOMER; -.
+DR   Proteomes; UP000001258; Chromosome.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016779; F:nucleotidyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0000049; F:tRNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-KW.
+DR   CDD; cd05398; NT_ClassII-CCAase; 1.
+DR   Gene3D; 3.30.460.10; -; 1.
+DR   InterPro; IPR032810; CCA-adding_enz_C.
+DR   InterPro; IPR043519; NT_sf.
+DR   InterPro; IPR002646; PolA_pol_head_dom.
+DR   InterPro; IPR032828; PolyA_RNA-bd.
+DR   Pfam; PF01743; PolyA_pol; 1.
+DR   Pfam; PF12627; PolyA_pol_RNAbd; 1.
+DR   Pfam; PF13735; tRNA_NucTran2_2; 1.
+DR   SUPFAM; SSF81301; SSF81301; 1.
+PE   1: Evidence at protein level;
+KW   Magnesium; Metal-binding; Nucleotide-binding; Nucleotidyltransferase;
+KW   Reference proteome; RNA-binding; Transferase; tRNA processing;
+KW   tRNA-binding.
+FT   CHAIN           1..375
+FT                   /note="CC-adding tRNA nucleotidyltransferase"
+FT                   /id="PRO_0000139029"
+FT   NP_BIND         27..30
+FT                   /note="CTP"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   NP_BIND         95..96
+FT                   /note="CTP"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   NP_BIND         137..146
+FT                   /note="CTP"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   METAL           40
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   METAL           42
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   BINDING         100
+FT                   /note="CTP; via carbonyl oxygen"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+FT   BINDING         177
+FT                   /note="CTP"
+FT                   /evidence="ECO:0000250|UniProtKB:O67911"
+SQ   SEQUENCE   375 AA;  42113 MW;  7133A060EEFD3D93 CRC64;
+     MDDVIKKGLS IVSELRDHGF EAYIVGGAVR DYHIGRKPKD VDVVTSASPE EIRTLYPHAF
+     QINRQFQTLT VHLQKVAIEV STLRGGSIED DLCSRDFTIN AMALAMNGDI IDPTGGKTDL
+     ENGVIRSFHP EARFKEDPLR MLRAPRFASE LGFTVAKGTA EAIKGSCSLL ADVAVERVEK
+     ELTQLMIGTH RSSGWCLLHE TGLYPFIPGV SLSKETVLRM KEISRSPGLL PADGFWAILY
+     LLENCSMKLP LAKEKKKRIR TIVHYVGERQ NHSWNETMLY QASLSVATVV EQIRALFGQA
+     SVHEEELRQL WSSLPIQTRT ELAVTGRDVM AHFQKKGGPW LADTLADIEE AVLLKHIENE
+     KKSIIQWLEE RRVES
+//

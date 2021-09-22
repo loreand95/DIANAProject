@@ -1,0 +1,90 @@
+ID   HIS1_NITEU              Reviewed;         216 AA.
+AC   Q82W27;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=ATP phosphoribosyltransferase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRT {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            Short=ATP-PRTase {ECO:0000255|HAMAP-Rule:MF_01018};
+DE            EC=2.4.2.17 {ECO:0000255|HAMAP-Rule:MF_01018};
+GN   Name=hisG {ECO:0000255|HAMAP-Rule:MF_01018}; OrderedLocusNames=NE0871;
+OS   Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC
+OS   14298).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=228410;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298;
+RX   PubMed=12700255; DOI=10.1128/jb.185.9.2759-2773.2003;
+RA   Chain P., Lamerdin J.E., Larimer F.W., Regala W., Lao V., Land M.L.,
+RA   Hauser L., Hooper A.B., Klotz M.G., Norton J., Sayavedra-Soto L.A.,
+RA   Arciero D.M., Hommes N.G., Whittaker M.M., Arp D.J.;
+RT   "Complete genome sequence of the ammonia-oxidizing bacterium and obligate
+RT   chemolithoautotroph Nitrosomonas europaea.";
+RL   J. Bacteriol. 185:2759-2773(2003).
+CC   -!- FUNCTION: Catalyzes the condensation of ATP and 5-phosphoribose 1-
+CC       diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial
+CC       role in the pathway because the rate of histidine biosynthesis seems to
+CC       be controlled primarily by regulation of HisG enzymatic activity.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-(5-phospho-beta-D-ribosyl)-ATP + diphosphate = 5-phospho-
+CC         alpha-D-ribose 1-diphosphate + ATP; Xref=Rhea:RHEA:18473,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:58017,
+CC         ChEBI:CHEBI:73183; EC=2.4.2.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01018};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBUNIT: Heteromultimer composed of HisG and HisZ subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   -!- DOMAIN: Lacks the C-terminal regulatory region which is replaced by
+CC       HisZ.
+CC   -!- SIMILARITY: Belongs to the ATP phosphoribosyltransferase family. Short
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01018}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL954747; CAD84782.1; -; Genomic_DNA.
+DR   RefSeq; WP_011111482.1; NC_004757.1.
+DR   SMR; Q82W27; -.
+DR   STRING; 228410.NE0871; -.
+DR   EnsemblBacteria; CAD84782; CAD84782; NE0871.
+DR   KEGG; neu:NE0871; -.
+DR   eggNOG; COG0040; Bacteria.
+DR   HOGENOM; CLU_038115_2_0_4; -.
+DR   OMA; YVMMDYD; -.
+DR   OrthoDB; 1419568at2; -.
+DR   PhylomeDB; Q82W27; -.
+DR   UniPathway; UPA00031; UER00006.
+DR   Proteomes; UP000001416; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003879; F:ATP phosphoribosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd13595; PBP2_HisGs; 1.
+DR   HAMAP; MF_01018; HisG_Short; 1.
+DR   InterPro; IPR013820; ATP_PRibTrfase_cat.
+DR   InterPro; IPR018198; ATP_PRibTrfase_CS.
+DR   InterPro; IPR001348; ATP_PRibTrfase_HisG.
+DR   InterPro; IPR024893; ATP_PRibTrfase_HisG_short.
+DR   PANTHER; PTHR21403; PTHR21403; 1.
+DR   Pfam; PF01634; HisG; 1.
+DR   TIGRFAMs; TIGR00070; hisG; 1.
+DR   PROSITE; PS01316; ATP_P_PHORIBOSYLTR; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; ATP-binding; Cytoplasm; Glycosyltransferase;
+KW   Histidine biosynthesis; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..216
+FT                   /note="ATP phosphoribosyltransferase"
+FT                   /id="PRO_0000151920"
+SQ   SEQUENCE   216 AA;  23527 MW;  04553145C00F674A CRC64;
+     MPDITIALSK GRIFEDTIPF LKAAGIVPSD DPDTSRKLII GTNRPDVRLV MVRATDVPTY
+     VQYGAADLGV AGKDVLLEHD GIGLYQPLDL KIARCRMMVA VRDDYDYASA VFRGARLRVA
+     TKYVKTARNH FAAKGMHVDL IKLYGSMELA PLVDLADAIV DLVSTGSTLK ANHLQAIEEI
+     MPISARLIVN QAALKLKNTA IQPLLETFSA AVPKNL
+//

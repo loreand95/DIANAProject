@@ -1,0 +1,107 @@
+ID   MLTF_SHIF8              Reviewed;         518 AA.
+AC   Q0T1W2;
+DT   25-NOV-2008, integrated into UniProtKB/Swiss-Prot.
+DT   25-NOV-2008, sequence version 2.
+DT   02-DEC-2020, entry version 86.
+DE   RecName: Full=Membrane-bound lytic murein transglycosylase F {ECO:0000255|HAMAP-Rule:MF_02016};
+DE            EC=4.2.2.n1 {ECO:0000255|HAMAP-Rule:MF_02016};
+DE   AltName: Full=Murein lyase F {ECO:0000255|HAMAP-Rule:MF_02016};
+DE   Flags: Precursor;
+GN   Name=mltF {ECO:0000255|HAMAP-Rule:MF_02016}; OrderedLocusNames=SFV_2606;
+OS   Shigella flexneri serotype 5b (strain 8401).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=373384;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=8401;
+RX   PubMed=16822325; DOI=10.1186/1471-2164-7-173;
+RA   Nie H., Yang F., Zhang X., Yang J., Chen L., Wang J., Xiong Z., Peng J.,
+RA   Sun L., Dong J., Xue Y., Xu X., Chen S., Yao Z., Shen Y., Jin Q.;
+RT   "Complete genome sequence of Shigella flexneri 5b and comparison with
+RT   Shigella flexneri 2a.";
+RL   BMC Genomics 7:173-173(2006).
+CC   -!- FUNCTION: Murein-degrading enzyme that degrades murein glycan strands
+CC       and insoluble, high-molecular weight murein sacculi, with the
+CC       concomitant formation of a 1,6-anhydromuramoyl product. Lytic
+CC       transglycosylases (LTs) play an integral role in the metabolism of the
+CC       peptidoglycan (PG) sacculus. Their lytic action creates space within
+CC       the PG sacculus to allow for its expansion as well as for the insertion
+CC       of various structures such as secretion systems and flagella.
+CC       {ECO:0000255|HAMAP-Rule:MF_02016}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Exolytic cleavage of the (1->4)-beta-glycosidic linkage
+CC         between N-acetylmuramic acid (MurNAc) and N-acetylglucosamine
+CC         (GlcNAc) residues in peptidoglycan, from either the reducing or the
+CC         non-reducing ends of the peptidoglycan chains, with concomitant
+CC         formation of a 1,6-anhydrobond in the MurNAc residue.; EC=4.2.2.n1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02016};
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane; Peripheral membrane protein.
+CC       Note=Attached to the inner leaflet of the outer membrane.
+CC       {ECO:0000255|HAMAP-Rule:MF_02016}.
+CC   -!- DOMAIN: The N-terminal domain does not have lytic activity and probably
+CC       modulates enzymatic activity. The C-terminal domain is the catalytic
+CC       active domain. {ECO:0000255|HAMAP-Rule:MF_02016}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the bacterial solute-
+CC       binding protein 3 family. {ECO:0000255|HAMAP-Rule:MF_02016}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the transglycosylase
+CC       Slt family. {ECO:0000255|HAMAP-Rule:MF_02016}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABF04703.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000266; ABF04703.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_000734232.1; NC_008258.1.
+DR   SMR; Q0T1W2; -.
+DR   CAZy; GH23; Glycoside Hydrolase Family 23.
+DR   EnsemblBacteria; ABF04703; ABF04703; SFV_2606.
+DR   KEGG; sfv:SFV_2606; -.
+DR   HOGENOM; CLU_027494_0_1_6; -.
+DR   BioCyc; SFLE373384:SFV_RS14480-MONOMER; -.
+DR   Proteomes; UP000000659; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016837; F:carbon-oxygen lyase activity, acting on polysaccharides; IEA:InterPro.
+DR   GO; GO:0008933; F:lytic transglycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016998; P:cell wall macromolecule catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0000270; P:peptidoglycan metabolic process; IEA:InterPro.
+DR   HAMAP; MF_02016; MltF; 1.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   InterPro; IPR023703; MltF.
+DR   InterPro; IPR001638; Solute-binding_3/MltF_N.
+DR   InterPro; IPR000189; Transglyc_AS.
+DR   InterPro; IPR008258; Transglycosylase_SLT_dom_1.
+DR   Pfam; PF00497; SBP_bac_3; 1.
+DR   Pfam; PF01464; SLT; 1.
+DR   SMART; SM00062; PBPb; 1.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+DR   PROSITE; PS00922; TRANSGLYCOSYLASE; 1.
+PE   3: Inferred from homology;
+KW   Cell outer membrane; Cell wall biogenesis/degradation; Lyase; Membrane;
+KW   Signal.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02016"
+FT   CHAIN           22..518
+FT                   /note="Membrane-bound lytic murein transglycosylase F"
+FT                   /id="PRO_0000353985"
+FT   REGION          22..269
+FT                   /note="Non-LT domain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02016"
+FT   REGION          270..518
+FT                   /note="LT domain"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02016"
+FT   ACT_SITE        314
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02016"
+SQ   SEQUENCE   518 AA;  58331 MW;  1C234D603CD97A46 CRC64;
+     MKKLKINYLF IGILALLLAV ALWPSIPWFG KADNRIAAIQ ARGELRVSTI HTPLTYNKIN
+     GKPFGLDYEL AKQFADYLGV KLKVTVRQNI SQLFDDLDNG NADLLAAGLV YNSERVKNYQ
+     PSPTYYSVSQ QLVYKVGQYR PRTLGNLTAE QLTVAPGHVV VNDLQTLKET KFPELSWKVD
+     DKKGSAELME DVIEGKLDYT IADSVAISLF QRVHPELAVA LDITDEQPVT WFSPLDGDNT
+     LSAALLDFFN EMNEDGTLAR IEEKYLGHGD DFDYVDTRTF LRAVDAVLPQ LKPLFEKYAE
+     EIDWRLLAAI AYQESHWDAQ ATSPTGVRGM MMLTKNTAQS LGITDRTDAE QSISGGVRYL
+     QDMMSKVPES VPENERIWFA LAAYNMGYAH MLDARALTAK TKGNPDSWAD VKQRLPLLSQ
+     KPYYSKLTYG YARGHEAYAY VENIRKYQIS LVGYLQEKEK QATEAAMQLA QDYPAVSPTE
+     LGKEKFPFLS FLSQSSSNYL THSPSLLFSR KGSEEKQN
+//

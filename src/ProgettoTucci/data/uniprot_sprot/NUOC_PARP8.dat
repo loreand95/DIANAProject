@@ -1,0 +1,87 @@
+ID   NUOC_PARP8              Reviewed;         200 AA.
+AC   B2JDM6;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   02-DEC-2020, entry version 70.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit C {ECO:0000255|HAMAP-Rule:MF_01357};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01357};
+DE   AltName: Full=NADH dehydrogenase I subunit C {ECO:0000255|HAMAP-Rule:MF_01357};
+DE   AltName: Full=NDH-1 subunit C {ECO:0000255|HAMAP-Rule:MF_01357};
+GN   Name=nuoC {ECO:0000255|HAMAP-Rule:MF_01357}; OrderedLocusNames=Bphy_2007;
+OS   Paraburkholderia phymatum (strain DSM 17167 / CIP 108236 / LMG 21445 /
+OS   STM815) (Burkholderia phymatum).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Paraburkholderia.
+OX   NCBI_TaxID=391038;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 17167 / CIP 108236 / LMG 21445 / STM815;
+RX   PubMed=25197461; DOI=10.4056/sigs.4861021;
+RA   Moulin L., Klonowska A., Caroline B., Booth K., Vriezen J.A., Melkonian R.,
+RA   James E.K., Young J.P., Bena G., Hauser L., Land M., Kyrpides N., Bruce D.,
+RA   Chain P., Copeland A., Pitluck S., Woyke T., Lizotte-Waniewski M.,
+RA   Bristow J., Riley M.;
+RT   "Complete genome sequence of Burkholderia phymatum STM815(T), a broad host
+RT   range and efficient nitrogen-fixing symbiont of Mimosa species.";
+RL   Stand. Genomic Sci. 9:763-774(2014).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01357};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoB, C,
+CC       D, E, F, and G constitute the peripheral sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01357}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01357}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   -!- SIMILARITY: Belongs to the complex I 30 kDa subunit family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01357}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001043; ACC71186.1; -; Genomic_DNA.
+DR   RefSeq; WP_012401395.1; NZ_CADFGH010000002.1.
+DR   SMR; B2JDM6; -.
+DR   STRING; 391038.Bphy_2007; -.
+DR   EnsemblBacteria; ACC71186; ACC71186; Bphy_2007.
+DR   KEGG; bph:Bphy_2007; -.
+DR   eggNOG; COG0852; Bacteria.
+DR   HOGENOM; CLU_042628_2_1_4; -.
+DR   OMA; MERETYD; -.
+DR   OrthoDB; 1735902at2; -.
+DR   BioCyc; BPHY391038:G1GBS-2071-MONOMER; -.
+DR   Proteomes; UP000001192; Chromosome 1.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008137; F:NADH dehydrogenase (ubiquinone) activity; IEA:InterPro.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.460.80; -; 1.
+DR   HAMAP; MF_01357; NDH1_NuoC; 1.
+DR   InterPro; IPR010218; NADH_DH_suC.
+DR   InterPro; IPR037232; NADH_quin_OxRdtase_su_C/D-like.
+DR   InterPro; IPR001268; NADH_UbQ_OxRdtase_30kDa_su.
+DR   InterPro; IPR020396; NADH_UbQ_OxRdtase_CS.
+DR   Pfam; PF00329; Complex1_30kDa; 1.
+DR   SUPFAM; SSF143243; SSF143243; 1.
+DR   TIGRFAMs; TIGR01961; NuoC_fam; 1.
+DR   PROSITE; PS00542; COMPLEX1_30K; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone;
+KW   Reference proteome; Translocase; Transport; Ubiquinone.
+FT   CHAIN           1..200
+FT                   /note="NADH-quinone oxidoreductase subunit C"
+FT                   /id="PRO_0000358069"
+SQ   SEQUENCE   200 AA;  23007 MW;  893749FD387E9CF7 CRC64;
+     MASKLETLKA NLEAAFGGRL TSITESIGEL TIVVKADDFL EVATRLRDDA KLHFEQLIDL
+     CGIDYQTYGE GAYDGPRFAA VLHLLSITNN WRLRVRVFAP DDDVPLIPSV VEIWNSANWY
+     EREAFDLYGI VFEGHPDLRR ILTDYGFIGH PFRKDFPVSG YVEMRYDPEE KRVVYQPVTI
+     EPREITPRVI REDRYGGLKH
+//

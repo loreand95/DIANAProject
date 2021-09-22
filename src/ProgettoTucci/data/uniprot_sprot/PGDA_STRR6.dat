@@ -1,0 +1,267 @@
+ID   PGDA_STRR6              Reviewed;         463 AA.
+AC   Q8DP63;
+DT   13-NOV-2013, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 107.
+DE   RecName: Full=Peptidoglycan-N-acetylglucosamine deacetylase {ECO:0000303|PubMed:10781617};
+DE            Short=Peptidoglycan GlcNAc deacetylase {ECO:0000305};
+DE            EC=3.5.1.104 {ECO:0000269|PubMed:10781617, ECO:0000269|PubMed:16221761};
+DE   AltName: Full=Peptidoglycan N-deacetylase {ECO:0000303|PubMed:16221761};
+DE            Short=PG N-deacetylase {ECO:0000305};
+GN   Name=pgdA {ECO:0000303|PubMed:10781617}; OrderedLocusNames=spr1333;
+OS   Streptococcus pneumoniae (strain ATCC BAA-255 / R6).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=171101;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-255 / R6;
+RX   PubMed=11544234; DOI=10.1128/jb.183.19.5709-5717.2001;
+RA   Hoskins J., Alborn W.E. Jr., Arnold J., Blaszczak L.C., Burgett S.,
+RA   DeHoff B.S., Estrem S.T., Fritz L., Fu D.-J., Fuller W., Geringer C.,
+RA   Gilmour R., Glass J.S., Khoja H., Kraft A.R., Lagace R.E., LeBlanc D.J.,
+RA   Lee L.N., Lefkowitz E.J., Lu J., Matsushima P., McAhren S.M., McHenney M.,
+RA   McLeaster K., Mundy C.W., Nicas T.I., Norris F.H., O'Gara M., Peery R.B.,
+RA   Robertson G.T., Rockey P., Sun P.-M., Winkler M.E., Yang Y.,
+RA   Young-Bellido M., Zhao G., Zook C.A., Baltz R.H., Jaskunas S.R.,
+RA   Rosteck P.R. Jr., Skatrud P.L., Glass J.I.;
+RT   "Genome of the bacterium Streptococcus pneumoniae strain R6.";
+RL   J. Bacteriol. 183:5709-5717(2001).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, GENE NAME, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=R36A;
+RX   PubMed=10781617; DOI=10.1074/jbc.m910189199;
+RA   Vollmer W., Tomasz A.;
+RT   "The pgdA gene encodes for a peptidoglycan N-acetylglucosamine deacetylase
+RT   in Streptococcus pneumoniae.";
+RL   J. Biol. Chem. 275:20496-20501(2000).
+RN   [3]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=R36A;
+RX   PubMed=12438406; DOI=10.1128/iai.70.12.7176-7178.2002;
+RA   Vollmer W., Tomasz A.;
+RT   "Peptidoglycan N-acetylglucosamine deacetylase, a putative virulence factor
+RT   in Streptococcus pneumoniae.";
+RL   Infect. Immun. 70:7176-7178(2002).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.35 ANGSTROMS) OF 38-463 OF WILD-TYPE AND MUTANT
+RP   ASN-275 IN COMPLEX WITH ACETATE PRODUCT AND ZINC, FUNCTION, CATALYTIC
+RP   ACTIVITY, COFACTOR, ACTIVITY REGULATION, BIOPHYSICOCHEMICAL PROPERTIES,
+RP   REACTION MECHANISM, ACTIVE SITE, AND MUTAGENESIS OF ASP-275; HIS-326;
+RP   ARG-364; ASP-391 AND HIS-417.
+RX   PubMed=16221761; DOI=10.1073/pnas.0504339102;
+RA   Blair D.E., Schuttelkopf A.W., MacRae J.I., van Aalten D.M.;
+RT   "Structure and metal-dependent mechanism of peptidoglycan deacetylase, a
+RT   streptococcal virulence factor.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:15429-15434(2005).
+CC   -!- FUNCTION: Catalyzes the deacetylation of N-acetylglucosamine (GlcNAc)
+CC       residues in peptidoglycan, a modification that confers host lysozyme
+CC       resistance and contributes to pneumococcal virulence.
+CC       {ECO:0000269|PubMed:10781617, ECO:0000269|PubMed:12438406,
+CC       ECO:0000269|PubMed:16221761}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Peptidoglycan-N-acetyl-D-glucosamine + H(2)O = peptidoglycan-
+CC         D-glucosamine + acetate.; EC=3.5.1.104;
+CC         Evidence={ECO:0000269|PubMed:10781617, ECO:0000269|PubMed:16221761};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000269|PubMed:16221761};
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000269|PubMed:16221761};
+CC       Note=Zn(2+). Although displays higher activity with Co(2+) than with
+CC       Zn(2+) in vitro, bioavailability may well limit this enzyme to be zinc-
+CC       dependent. {ECO:0000269|PubMed:16221761};
+CC   -!- ACTIVITY REGULATION: Enzymatic activity is inhibited by EDTA in vitro.
+CC       {ECO:0000269|PubMed:16221761}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=3.8 mM for GlcNAc3 {ECO:0000269|PubMed:16221761};
+CC         Note=kcat is 0.55 sec(-1) with GlcNAc3 as substrate.
+CC         {ECO:0000269|PubMed:16221761};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -!- DISRUPTION PHENOTYPE: Cells lacking this gene produce fully N-
+CC       acetylated glycan, become hypersensitive to exogenous lysozyme in the
+CC       stationary phase of growth, and show reduced virulence in the
+CC       intraperitoneal mouse model. {ECO:0000269|PubMed:10781617,
+CC       ECO:0000269|PubMed:12438406}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE007317; AAL00137.1; -; Genomic_DNA.
+DR   PIR; D98038; D98038.
+DR   RefSeq; NP_358926.1; NC_003098.1.
+DR   RefSeq; WP_001854799.1; NC_003098.1.
+DR   PDB; 2C1G; X-ray; 1.75 A; A=38-463.
+DR   PDB; 2C1I; X-ray; 1.35 A; A=38-463.
+DR   PDBsum; 2C1G; -.
+DR   PDBsum; 2C1I; -.
+DR   SMR; Q8DP63; -.
+DR   STRING; 171101.spr1333; -.
+DR   BindingDB; Q8DP63; -.
+DR   ChEMBL; CHEMBL4295617; -.
+DR   PRIDE; Q8DP63; -.
+DR   EnsemblBacteria; AAL00137; AAL00137; spr1333.
+DR   GeneID; 60232726; -.
+DR   KEGG; spr:spr1333; -.
+DR   PATRIC; fig|171101.6.peg.1445; -.
+DR   eggNOG; COG0726; Bacteria.
+DR   HOGENOM; CLU_037608_1_1_9; -.
+DR   OMA; FFMMGSK; -.
+DR   BioCyc; SPNE171101:SPR1333-MONOMER; -.
+DR   BRENDA; 3.5.1.104; 1960.
+DR   EvolutionaryTrace; Q8DP63; -.
+DR   Proteomes; UP000000586; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0060241; F:lysozyme inhibitor activity; IMP:UniProtKB.
+DR   GO; GO:0050119; F:N-acetylglucosamine deacetylase activity; IDA:UniProtKB.
+DR   GO; GO:0008270; F:zinc ion binding; IDA:UniProtKB.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0042545; P:cell wall modification; IDA:UniProtKB.
+DR   GO; GO:0009405; P:pathogenesis; IMP:UniProtKB.
+DR   InterPro; IPR011330; Glyco_hydro/deAcase_b/a-brl.
+DR   InterPro; IPR002509; NODB_dom.
+DR   InterPro; IPR017219; Peptidoglycan_deacetylase.
+DR   InterPro; IPR040802; PgdA_N.
+DR   Pfam; PF18627; PgdA_N; 1.
+DR   Pfam; PF01522; Polysacc_deac_1; 1.
+DR   PIRSF; PIRSF037479; PG_GlcNAc_deacetylase; 1.
+DR   SUPFAM; SSF88713; SSF88713; 1.
+DR   PROSITE; PS51677; NODB; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Carbohydrate metabolism; Cell membrane; Cobalt; Hydrolase;
+KW   Membrane; Metal-binding; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Virulence; Zinc.
+FT   CHAIN           1..463
+FT                   /note="Peptidoglycan-N-acetylglucosamine deacetylase"
+FT                   /id="PRO_0000424440"
+FT   TRANSMEM        18..38
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          268..442
+FT                   /note="NodB homology"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01014"
+FT   ACT_SITE        275
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   ACT_SITE        417
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   METAL           276
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   METAL           326
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   METAL           330
+FT                   /note="Zinc; via tele nitrogen"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   BINDING         367
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   SITE            391
+FT                   /note="Raises pKa of active site His"
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   MUTAGEN         275
+FT                   /note="D->N: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   MUTAGEN         326
+FT                   /note="H->A: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   MUTAGEN         364
+FT                   /note="R->S: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   MUTAGEN         391
+FT                   /note="D->N: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   MUTAGEN         417
+FT                   /note="H->S: Loss of activity."
+FT                   /evidence="ECO:0000269|PubMed:16221761"
+FT   HELIX           47..61
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          65..72
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          75..84
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           90..102
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          110..119
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          125..135
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          138..141
+FT                   /evidence="ECO:0007744|PDB:2C1G"
+FT   STRAND          144..156
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           164..167
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           171..184
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           208..210
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          213..216
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          219..222
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          234..237
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           238..244
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           247..249
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           252..265
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          269..276
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   TURN            280..282
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           283..292
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          298..301
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           303..305
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   TURN            306..308
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           310..318
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          322..325
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           333..335
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           338..356
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           366..368
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           372..376
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          381..383
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          386..388
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           391..394
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           397..407
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          412..417
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           421..436
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           444..448
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   HELIX           449..451
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+FT   STRAND          457..461
+FT                   /evidence="ECO:0007744|PDB:2C1I"
+SQ   SEQUENCE   463 AA;  52675 MW;  12E1935E66521EDE CRC64;
+     MNKSRLGRGR HGKTRHVLLA LIGILAISIC LLGGFIAFKI YQQKSFEQKI ESLKKEKDDQ
+     LSEGNQKEHF RQGQAEVIAY YPLQGEKVIS SVRELINQDV KDKLESKDNL VFYYTEQEES
+     GLKGVVNRNV TKQIYDLVAF KIEETEKTSL GKVHLTEDGQ PFTLDQLFSD ASKAKEQLIK
+     ELTSFIEDKK IEQDQSEQIV KNFSDQDLSA WNFDYKDSQI ILYPSPVVEN LEEIALPVSA
+     FFDVIQSSYL LEKDAALYQS YFDKKHQKVV ALTFDDGPNP ATTPQVLETL AKYDIKATFF
+     VLGKNVSGNE DLVKRIKSEG HVVGNHSWSH PILSQLSLDE AKKQITDTED VLTKVLGSSS
+     KLMRPPYGAI TDDIRNSLDL SFIMWDVDSL DWKSKNEASI LTEIQHQVAN GSIVLMHDIH
+     SPTVNALPRV IEYLKNQGYT FVTIPEMLNT RLKAHELYYS RDE
+//

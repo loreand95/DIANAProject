@@ -1,0 +1,94 @@
+ID   STXA_SHIDS              Reviewed;         315 AA.
+AC   Q32GM1;
+DT   04-DEC-2007, integrated into UniProtKB/Swiss-Prot.
+DT   06-DEC-2005, sequence version 1.
+DT   10-FEB-2021, entry version 73.
+DE   RecName: Full=Shiga toxin subunit A;
+DE            EC=3.2.2.22;
+DE   Flags: Precursor;
+GN   Name=stxA; OrderedLocusNames=SDY_1389;
+OS   Shigella dysenteriae serotype 1 (strain Sd197).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Shigella.
+OX   NCBI_TaxID=300267;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Sd197;
+RX   PubMed=16275786; DOI=10.1093/nar/gki954;
+RA   Yang F., Yang J., Zhang X., Chen L., Jiang Y., Yan Y., Tang X., Wang J.,
+RA   Xiong Z., Dong J., Xue Y., Zhu Y., Xu X., Sun L., Chen S., Nie H., Peng J.,
+RA   Xu J., Wang Y., Yuan Z., Wen Y., Yao Z., Shen Y., Qiang B., Hou Y., Yu J.,
+RA   Jin Q.;
+RT   "Genome dynamics and diversity of Shigella species, the etiologic agents of
+RT   bacillary dysentery.";
+RL   Nucleic Acids Res. 33:6445-6458(2005).
+CC   -!- FUNCTION: The A subunit is responsible for inhibiting protein synthesis
+CC       through the catalytic inactivation of 60S ribosomal subunits. After
+CC       endocytosis, the A subunit is cleaved by furin in two fragments, A1 and
+CC       A2: A1 is the catalytically active fragment, and A2 is essential for
+CC       holotoxin assembly with the B subunits (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Endohydrolysis of the N-glycosidic bond at one specific
+CC         adenosine on the 28S rRNA.; EC=3.2.2.22;
+CC   -!- SUBUNIT: Shiga toxin contains a single subunit A and five copies of
+CC       subunit B. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ribosome-inactivating protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000034; ABB61534.1; -; Genomic_DNA.
+DR   RefSeq; WP_000691354.1; NC_007606.1.
+DR   RefSeq; YP_403025.1; NC_007606.1.
+DR   SMR; Q32GM1; -.
+DR   EnsemblBacteria; ABB61534; ABB61534; SDY_1389.
+DR   KEGG; sdy:SDY_1389; -.
+DR   PATRIC; fig|300267.13.peg.1650; -.
+DR   HOGENOM; CLU_870802_0_0_6; -.
+DR   OMA; CNMKIII; -.
+DR   BioCyc; SDYS300267:G1G4A-1562-MONOMER; -.
+DR   Proteomes; UP000002716; Chromosome.
+DR   GO; GO:0030598; F:rRNA N-glycosylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0017148; P:negative regulation of translation; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.420.10; -; 1.
+DR   Gene3D; 4.10.470.10; -; 1.
+DR   InterPro; IPR036041; Ribosome-inact_prot_sf.
+DR   InterPro; IPR001574; Ribosome_inactivat_prot.
+DR   InterPro; IPR017988; Ribosome_inactivat_prot_CS.
+DR   InterPro; IPR016138; Ribosome_inactivat_prot_sub1.
+DR   InterPro; IPR016139; Ribosome_inactivat_prot_sub2.
+DR   InterPro; IPR016331; Shiga-like_toxin_subunit_A.
+DR   Pfam; PF00161; RIP; 1.
+DR   PIRSF; PIRSF001924; Shigella_toxin_subunit_A; 1.
+DR   SUPFAM; SSF56371; SSF56371; 1.
+DR   PROSITE; PS00275; SHIGA_RICIN; 1.
+PE   3: Inferred from homology;
+KW   Disulfide bond; Hydrolase; Protein synthesis inhibitor; Reference proteome;
+KW   Signal; Toxin; Virulence.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           23..315
+FT                   /note="Shiga toxin subunit A"
+FT                   /id="PRO_0000312303"
+FT   REGION          23..273
+FT                   /note="A1"
+FT   REGION          274..315
+FT                   /note="A2"
+FT   ACT_SITE        189
+FT                   /evidence="ECO:0000250"
+FT   SITE            273..274
+FT                   /note="Cleavage; by furin"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        264..283
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   315 AA;  34814 MW;  8A423DF7ABF58F30 CRC64;
+     MKIIIFRVLT FFFVIFSVNV VAKEFTLDFS TAKTYVDSLN VIRSAIGTPL QTISSGGTSL
+     LMIDSGTGDN LFAVDVRGID PEEGRFNNLR LIVERNNLYV TGFVNRTNNV FYRFADFSHV
+     TFPGTTAVTL SGDSSYTTLQ RVAGISRTGM QINRHSLTTS YLDLMSHSGT SLTQSVARAM
+     LRFVTVTAEA LRFRQIQRGF RTTLDDLSGR SYVMTAEDVD LTLNWGRLSS VLPDYHGQDS
+     VRVGRISFGS INAILGSVAL ILNCHHHASR VARMASDEFP SMCPADGRVR GITHNKILWD
+     SSTLGAILMR RTISS
+//

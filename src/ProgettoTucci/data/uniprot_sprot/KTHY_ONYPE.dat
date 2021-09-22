@@ -1,0 +1,84 @@
+ID   KTHY_ONYPE              Reviewed;         207 AA.
+AC   Q7WSH2; Q6YQZ3;
+DT   15-FEB-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Thymidylate kinase {ECO:0000255|HAMAP-Rule:MF_00165};
+DE            EC=2.7.4.9 {ECO:0000255|HAMAP-Rule:MF_00165};
+DE   AltName: Full=dTMP kinase {ECO:0000255|HAMAP-Rule:MF_00165};
+GN   Name=tmk {ECO:0000255|HAMAP-Rule:MF_00165}; Synonyms=tmk-B;
+GN   OrderedLocusNames=PAM_230;
+OS   Onion yellows phytoplasma (strain OY-M).
+OC   Bacteria; Tenericutes; Mollicutes; Acholeplasmatales; Acholeplasmataceae;
+OC   Candidatus Phytoplasma; Candidatus Phytoplasma asteris.
+OX   NCBI_TaxID=262768;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=12904564; DOI=10.1099/mic.0.25834-0;
+RA   Miyata S., Oshima K., Kakizawa S., Nishigawa H., Jung H.-Y., Kuboyama T.,
+RA   Ugaki M., Namba S.;
+RT   "Two different thymidylate kinase gene homologues, including one that has
+RT   catalytic activity, are encoded in the onion yellows phytoplasma genome.";
+RL   Microbiology 149:2243-2250(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=OY-M;
+RX   PubMed=14661021; DOI=10.1038/ng1277;
+RA   Oshima K., Kakizawa S., Nishigawa H., Jung H.-Y., Wei W., Suzuki S.,
+RA   Arashida R., Nakata D., Miyata S., Ugaki M., Namba S.;
+RT   "Reductive evolution suggested from the complete genome sequence of a
+RT   plant-pathogenic phytoplasma.";
+RL   Nat. Genet. 36:27-29(2004).
+CC   -!- FUNCTION: Phosphorylation of dTMP to form dTDP in both de novo and
+CC       salvage pathways of dTTP synthesis. {ECO:0000255|HAMAP-Rule:MF_00165}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + dTMP = ADP + dTDP; Xref=Rhea:RHEA:13517,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58369, ChEBI:CHEBI:63528,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00165};
+CC   -!- SIMILARITY: Belongs to the thymidylate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00165}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB094668; BAC81721.1; -; Genomic_DNA.
+DR   EMBL; AP006628; BAD04315.1; -; Genomic_DNA.
+DR   SMR; Q7WSH2; -.
+DR   STRING; 262768.PAM_230; -.
+DR   EnsemblBacteria; BAD04315; BAD04315; PAM_230.
+DR   KEGG; poy:PAM_230; -.
+DR   eggNOG; COG0125; Bacteria.
+DR   HOGENOM; CLU_049131_0_2_14; -.
+DR   OMA; VMTREPG; -.
+DR   OrthoDB; 1585072at2; -.
+DR   BioCyc; OYEL262768:G1G26-276-MONOMER; -.
+DR   Proteomes; UP000002523; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004798; F:thymidylate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006233; P:dTDP biosynthetic process; IEA:InterPro.
+DR   GO; GO:0006235; P:dTTP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00165; Thymidylate_kinase; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039430; Thymidylate_kin-like_dom.
+DR   InterPro; IPR018095; Thymidylate_kin_CS.
+DR   InterPro; IPR018094; Thymidylate_kinase.
+DR   Pfam; PF02223; Thymidylate_kin; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00041; DTMP_kinase; 1.
+DR   PROSITE; PS01331; THYMIDYLATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Nucleotide biosynthesis; Nucleotide-binding;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..207
+FT                   /note="Thymidylate kinase"
+FT                   /id="PRO_0000155315"
+FT   NP_BIND         7..14
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00165"
+SQ   SEQUENCE   207 AA;  24083 MW;  189AAD655D674ABD CRC64;
+     MFISFEGCEG TGKTTHSRYL FEKLSKKYSC VLTKEPGGGL FNEVIRNILL HSSNKQIDFH
+     TEALLFAADR AEHLSKLIIP ALQQNKIVIC DRYLDSTIAY QVYARGLSQD FVLNINNFAL
+     NYIPNITFYL DLDPKIGIQR VKQFRPKEIN SFDLQKLSFH KKVRKGYLDL CQKDQQKRIF
+     LIDASKPLEN IYNIIEQKLK EVFQIEL
+//

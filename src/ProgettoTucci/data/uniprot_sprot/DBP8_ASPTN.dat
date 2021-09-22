@@ -1,0 +1,104 @@
+ID   DBP8_ASPTN              Reviewed;         527 AA.
+AC   Q0CNX1;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   10-FEB-2021, entry version 76.
+DE   RecName: Full=ATP-dependent RNA helicase dbp8;
+DE            EC=3.6.4.13;
+GN   Name=dbp8; ORFNames=ATEG_04613;
+OS   Aspergillus terreus (strain NIH 2624 / FGSC A1156).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=341663;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NIH 2624 / FGSC A1156;
+RA   Birren B.W., Lander E.S., Galagan J.E., Nusbaum C., Devon K., Henn M.,
+RA   Ma L.-J., Jaffe D.B., Butler J., Alvarez P., Gnerre S., Grabherr M.,
+RA   Kleber M., Mauceli E.W., Brockman W., Rounsley S., Young S.K., LaButti K.,
+RA   Pushparaj V., DeCaprio D., Crawford M., Koehrsen M., Engels R.,
+RA   Montgomery P., Pearson M., Howarth C., Larson L., Luoma S., White J.,
+RA   Alvarado L., Kodira C.D., Zeng Q., Oleary S., Yandava C., Denning D.W.,
+RA   Nierman W.C., Milne T., Madden K.;
+RT   "Annotation of the Aspergillus terreus NIH2624 genome.";
+RL   Submitted (SEP-2005) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: ATP-binding RNA helicase involved in 40S ribosomal subunit
+CC       biogenesis and is required for the normal formation of 18S rRNAs
+CC       through pre-rRNA processing at A0, A1 and A2 sites. Required for
+CC       vegetative growth (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- SUBCELLULAR LOCATION: Nucleus, nucleolus {ECO:0000250}.
+CC   -!- DOMAIN: The Q motif is unique to and characteristic of the DEAD box
+CC       family of RNA helicases and controls ATP binding and hydrolysis.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. DDX49/DBP8
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CH476599; EAU35060.1; -; Genomic_DNA.
+DR   RefSeq; XP_001213791.1; XM_001213791.1.
+DR   SMR; Q0CNX1; -.
+DR   STRING; 33178.CADATEAP00008139; -.
+DR   EnsemblFungi; EAU35060; EAU35060; ATEG_04613.
+DR   GeneID; 4320029; -.
+DR   VEuPathDB; FungiDB:ATEG_04613; -.
+DR   eggNOG; KOG0340; Eukaryota.
+DR   HOGENOM; CLU_003041_1_1_1; -.
+DR   OMA; FGCQALV; -.
+DR   OrthoDB; 744428at2759; -.
+DR   Proteomes; UP000007963; Unassembled WGS sequence.
+DR   GO; GO:0005730; C:nucleolus; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006364; P:rRNA processing; IEA:UniProtKB-KW.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Helicase; Hydrolase; Nucleotide-binding; Nucleus;
+KW   Reference proteome; Ribosome biogenesis; RNA-binding; rRNA processing.
+FT   CHAIN           1..527
+FT                   /note="ATP-dependent RNA helicase dbp8"
+FT                   /id="PRO_0000281711"
+FT   DOMAIN          117..296
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          324..486
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   NP_BIND         130..137
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOTIF           86..114
+FT                   /note="Q motif"
+FT   MOTIF           239..242
+FT                   /note="DEAD box"
+SQ   SEQUENCE   527 AA;  57521 MW;  9E03E22ED26E1E4D CRC64;
+     MENDHSSSDE HEHENPELQT RAPKRRRLSE TSEDDEYVAA PTPLPTLSRI KKKEPKDENK
+     DTSTGTDNPV LIKDALEMGL QDAGESSFKA LNVAPWLIGS LTTMAVRKPT AIQRACIPEI
+     LKGRDCIGGS RTGSGKTIAF AVPILQKWAE DPFGIFAVVL TPTRELALQI YEQFKAISAP
+     QSMKPVLITG GTDMRPQALA LSQRPHVVIA TPGRLADHIQ TSGEDTVRGL KRVRMVVLDE
+     ADRLLAPGPG SMLPDVETCL SALPPSSERQ TLLFTATVTP EVRALKSMPR ASTKPPVFVT
+     EIEAGGTTSA GADGAAPKST LPPTLKQTYL KVPMTHREAF LHVLLSTDGN AGKPAIIFCN
+     HTKTADLLER LLRRLAHRVT SLHSLLPQSE RSSNLARFRA SAARILVATD VASRGLDIPS
+     VALVVNYDVP RNPDDYVHRV GRTARAGRRG EAVTLVGQRD VQLVLAIEER VGRQMEEWSE
+     EGVSVEGRVV RTGVLKEVGS AKREALIEIE EGRDVLGRKR NKLKKVR
+//

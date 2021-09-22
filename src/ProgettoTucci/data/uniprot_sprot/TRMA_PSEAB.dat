@@ -1,0 +1,111 @@
+ID   TRMA_PSEAB              Reviewed;         363 AA.
+AC   Q02FV3;
+DT   20-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   14-NOV-2006, sequence version 1.
+DT   02-DEC-2020, entry version 73.
+DE   RecName: Full=tRNA/tmRNA (uracil-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            EC=2.1.1.- {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            EC=2.1.1.35 {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tRNA (uracil(54)-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tRNA(m5U54)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+DE            Short=RUMT {ECO:0000255|HAMAP-Rule:MF_01011};
+DE   AltName: Full=tmRNA (uracil(341)-C(5))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01011};
+GN   Name=trmA {ECO:0000255|HAMAP-Rule:MF_01011}; OrderedLocusNames=PA14_62450;
+OS   Pseudomonas aeruginosa (strain UCBPP-PA14).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=208963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=UCBPP-PA14;
+RX   PubMed=17038190; DOI=10.1186/gb-2006-7-10-r90;
+RA   Lee D.G., Urbach J.M., Wu G., Liberati N.T., Feinbaum R.L., Miyata S.,
+RA   Diggins L.T., He J., Saucier M., Deziel E., Friedman L., Li L., Grills G.,
+RA   Montgomery K., Kucherlapati R., Rahme L.G., Ausubel F.M.;
+RT   "Genomic analysis reveals that Pseudomonas aeruginosa virulence is
+RT   combinatorial.";
+RL   Genome Biol. 7:R90.1-R90.14(2006).
+CC   -!- FUNCTION: Dual-specificity methyltransferase that catalyzes the
+CC       formation of 5-methyluridine at position 54 (m5U54) in all tRNAs, and
+CC       that of position 341 (m5U341) in tmRNA (transfer-mRNA).
+CC       {ECO:0000255|HAMAP-Rule:MF_01011}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(54) in tRNA = 5-
+CC         methyluridine(54) in tRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42712, Rhea:RHEA-COMP:10167, Rhea:RHEA-COMP:10193,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; EC=2.1.1.35;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01011};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(341) in tmRNA = 5-
+CC         methyluridine(341) in tmRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:43612, Rhea:RHEA-COMP:10630, Rhea:RHEA-COMP:10631,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74447; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01011};
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA M5U methyltransferase family. TrmA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01011}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000438; ABJ14102.1; -; Genomic_DNA.
+DR   RefSeq; WP_004365367.1; NZ_CP034244.1.
+DR   SMR; Q02FV3; -.
+DR   PRIDE; Q02FV3; -.
+DR   EnsemblBacteria; ABJ14102; ABJ14102; PA14_62450.
+DR   KEGG; pau:PA14_62450; -.
+DR   HOGENOM; CLU_043022_0_0_6; -.
+DR   OMA; DHMESGV; -.
+DR   BioCyc; PAER208963:G1G74-5281-MONOMER; -.
+DR   Proteomes; UP000000653; Chromosome.
+DR   GO; GO:0030697; F:S-adenosylmethionine-dependent tRNA (m5U54) methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01011; RNA_methyltr_TrmA; 1.
+DR   InterPro; IPR030390; MeTrfase_TrmA_AS.
+DR   InterPro; IPR030391; MeTrfase_TrmA_CS.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR011869; TrmA_MeTrfase.
+DR   InterPro; IPR010280; U5_MeTrfase_fam.
+DR   PANTHER; PTHR47790; PTHR47790; 1.
+DR   Pfam; PF05958; tRNA_U5-meth_tr; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR02143; trmA_only; 1.
+DR   PROSITE; PS51687; SAM_MT_RNA_M5U; 1.
+DR   PROSITE; PS01230; TRMA_1; 1.
+DR   PROSITE; PS01231; TRMA_2; 1.
+PE   3: Inferred from homology;
+KW   Methyltransferase; S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN           1..363
+FT                   /note="tRNA/tmRNA (uracil-C(5))-methyltransferase"
+FT                   /id="PRO_0000281450"
+FT   ACT_SITE        321
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   ACT_SITE        355
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         187
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         215
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         220
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         236
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+FT   BINDING         296
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01011"
+SQ   SEQUENCE   363 AA;  41278 MW;  51015449996F804A CRC64;
+     MSRPQFDPSA YAAQLEDKKS RLAGLLAPFA APAPEIFESP REHYRLRAEF RLWRETGNEK
+     RHYAMFEQGD KHTPILIEDF PIASRRINEL MPRLKAAWAD PALGFKLFQV EFLTTLAGDA
+     LITLCYHRPI DDAWRQAAEK LAAELGVNLV GRSRGKRIVV GRDYVEEELS VAGRRFRYRQ
+     PEGAFTQPNG EVNQKMLGWA YEALGQRDDD LLELYCGNGN FTLPLATRVR KVLATEISKS
+     SVNAALANLA DNAVDNVSLV RLSAEELTQA LNEVRPFRRL ADIDLKSYAF GNVFVDPPRA
+     GMDPDTCELT RRFERILYIS CNPETLAQNI AQLHDTHRIS RCALFDQFPY THHMESGVLL
+     ERR
+//

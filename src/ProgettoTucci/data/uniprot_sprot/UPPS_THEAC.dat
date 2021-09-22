@@ -1,0 +1,120 @@
+ID   UPPS_THEAC              Reviewed;         258 AA.
+AC   Q9HKQ0;
+DT   16-FEB-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2001, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=Tritrans,polycis-undecaprenyl-diphosphate synthase (geranylgeranyl-diphosphate specific) {ECO:0000255|HAMAP-Rule:MF_01139};
+DE            EC=2.5.1.89 {ECO:0000255|HAMAP-Rule:MF_01139};
+DE   AltName: Full=Undecaprenyl diphosphate synthase {ECO:0000255|HAMAP-Rule:MF_01139};
+DE            Short=UDS {ECO:0000255|HAMAP-Rule:MF_01139};
+DE   AltName: Full=Undecaprenyl pyrophosphate synthase {ECO:0000255|HAMAP-Rule:MF_01139};
+DE            Short=UPP synthase {ECO:0000255|HAMAP-Rule:MF_01139};
+GN   Name=uppS {ECO:0000255|HAMAP-Rule:MF_01139}; OrderedLocusNames=Ta0546;
+OS   Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC
+OS   15155 / AMRC-C165).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273075;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165;
+RX   PubMed=11029001; DOI=10.1038/35035069;
+RA   Ruepp A., Graml W., Santos-Martinez M.-L., Koretke K.K., Volker C.,
+RA   Mewes H.-W., Frishman D., Stocker S., Lupas A.N., Baumeister W.;
+RT   "The genome sequence of the thermoacidophilic scavenger Thermoplasma
+RT   acidophilum.";
+RL   Nature 407:508-513(2000).
+CC   -!- FUNCTION: Catalyzes the sequential condensation of isopentenyl
+CC       diphosphate (IPP) with geranylgeranyl diphosphate (GGPP) to yield
+CC       (2Z,6Z,10Z,14Z,18Z,22Z,26Z,30E,34E,38E)-undecaprenyl diphosphate
+CC       (tritrans,heptacis-UPP). It is probably the precursor of glycosyl
+CC       carrier lipids. {ECO:0000255|HAMAP-Rule:MF_01139}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=geranylgeranyl diphosphate + 7 isopentenyl diphosphate = 7
+CC         diphosphate + tri-trans,hepta-cis-undecaprenyl diphosphate;
+CC         Xref=Rhea:RHEA:27622, ChEBI:CHEBI:33019, ChEBI:CHEBI:57533,
+CC         ChEBI:CHEBI:60388, ChEBI:CHEBI:128769; EC=2.5.1.89;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01139};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01139};
+CC       Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01139};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01139}.
+CC   -!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01139}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL445064; CAC11686.1; -; Genomic_DNA.
+DR   RefSeq; WP_010900971.1; NC_002578.1.
+DR   SMR; Q9HKQ0; -.
+DR   STRING; 273075.Ta0546; -.
+DR   EnsemblBacteria; CAC11686; CAC11686; CAC11686.
+DR   GeneID; 1456140; -.
+DR   KEGG; tac:Ta0546; -.
+DR   eggNOG; arCOG01532; Archaea.
+DR   HOGENOM; CLU_038505_2_0_2; -.
+DR   OMA; PRTEGHK; -.
+DR   OrthoDB; 50844at2157; -.
+DR   BioCyc; TACI273075:G1GT7-575-MONOMER; -.
+DR   Proteomes; UP000001024; Chromosome.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004659; F:prenyltransferase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd00475; Cis_IPPS; 1.
+DR   Gene3D; 3.40.1180.10; -; 1.
+DR   HAMAP; MF_01139; ISPT; 1.
+DR   InterPro; IPR001441; UPP_synth-like.
+DR   InterPro; IPR018520; UPP_synth-like_CS.
+DR   InterPro; IPR036424; UPP_synth-like_sf.
+DR   PANTHER; PTHR10291; PTHR10291; 1.
+DR   Pfam; PF01255; Prenyltransf; 1.
+DR   SUPFAM; SSF64005; SSF64005; 1.
+DR   TIGRFAMs; TIGR00055; uppS; 1.
+DR   PROSITE; PS01066; UPP_SYNTHASE; 1.
+PE   3: Inferred from homology;
+KW   Magnesium; Metal-binding; Reference proteome; Transferase.
+FT   CHAIN           1..258
+FT                   /note="Tritrans,polycis-undecaprenyl-diphosphate synthase
+FT                   (geranylgeranyl-diphosphate specific)"
+FT                   /id="PRO_0000123744"
+FT   REGION          38..41
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   REGION          82..84
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   REGION          213..215
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        37
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   ACT_SITE        85
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   METAL           37
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   METAL           226
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         54
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         86
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+FT   BINDING         207
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01139"
+SQ   SEQUENCE   258 AA;  30531 MW;  BA51C3A7CEA59EF3 CRC64;
+     MSVSNKLGDL ASKVYENVLL EEVKKYPRPR HIGIITDGNR RYARNVGISE NEGHVKGKEK
+     VEEVVDWCME LDIRIVTFYA FSTENFRRSP EEVDFLFHLI DNAFKSLLKD ERVYKNRINV
+     KVIGNLSILP AYLRQTIHIV EETTKNFNNY QLNLAIGYGG REEILDAIKR ITRDAMDGKL
+     NIDELDEEKF RMYLYDGRIP DPDLILRTSG EERISNFLLW QSAYSELYFS DVYWPEFSKL
+     DFLRAIYSYQ RRQRRFGR
+//

@@ -1,0 +1,182 @@
+ID   GP_BUNGE                Reviewed;        1437 AA.
+AC   P12430;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1989, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=Envelopment polyprotein;
+DE   AltName: Full=M polyprotein;
+DE   Contains:
+DE     RecName: Full=Glycoprotein N {ECO:0000250|UniProtKB:P04505};
+DE              Short=Gn;
+DE     AltName: Full=Glycoprotein G2;
+DE   Contains:
+DE     RecName: Full=Non-structural protein M {ECO:0000250|UniProtKB:P04505};
+DE              Short=NSm;
+DE   Contains:
+DE     RecName: Full=Glycoprotein C {ECO:0000250|UniProtKB:P04505};
+DE              Short=Gc;
+DE     AltName: Full=Glycoprotein G1;
+DE   Flags: Precursor;
+GN   Name=GP;
+OS   Bunyavirus germiston.
+OC   Viruses; Riboviria; Orthornavirae; Negarnaviricota; Polyploviricotina;
+OC   Ellioviricetes; Bunyavirales; Peribunyaviridae; Orthobunyavirus.
+OX   NCBI_TaxID=11574;
+OH   NCBI_TaxID=53527; Culex.
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=3176688; DOI=10.1016/0168-1702(88)90068-8;
+RA   Pardigon N., Vialat P., Gerbaud S., Girard M., Bouloy M.;
+RT   "Nucleotide sequence of the M segment of Germiston virus: comparison of the
+RT   M gene product of several bunyaviruses.";
+RL   Virus Res. 11:73-85(1988).
+CC   -!- FUNCTION: Glycoprotein C and Glycoprotein N interact with each other
+CC       and are present at the surface of the virion. They are able to attach
+CC       the virion to a cell receptor and to promote fusion of membranes after
+CC       endocytosis of the virion (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Glycoprotein C and Glycoprotein N interact with each other.
+CC       {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Glycoprotein C]: Virion membrane {ECO:0000305};
+CC       Single-pass type I membrane protein {ECO:0000305}. Host Golgi apparatus
+CC       membrane {ECO:0000305}; Single-pass type I membrane protein
+CC       {ECO:0000305}. Host endoplasmic reticulum membrane {ECO:0000305};
+CC       Single-pass type I membrane protein {ECO:0000305}. Note=Glycoprotein C
+CC       alone is retained in the membrane of the endoplasmic reticulum, but not
+CC       transported to the Golgi. Coexpression of Glycoprotein C and
+CC       Glycoprotein N results in efficient transport of Glycoprotein C to the
+CC       Golgi complex, indicating that their interaction is essential for
+CC       proper targeting to this organelle, where virion budding occurs (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Glycoprotein N]: Virion membrane {ECO:0000305};
+CC       Single-pass type I membrane protein {ECO:0000305}. Host Golgi apparatus
+CC       membrane {ECO:0000305}; Single-pass type I membrane protein
+CC       {ECO:0000305}. Note=Glycoprotein N is retained in the Golgi complex
+CC       through a Golgi retention signal, which resides in the Glycoprotein N
+CC       transmembrane region. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: [Non-structural protein M]: Host Golgi apparatus
+CC       membrane {ECO:0000305}; Multi-pass membrane protein {ECO:0000305}.
+CC   -!- PTM: Specific enzymatic cleavages in vivo yield mature proteins
+CC       including nonstructural protein NSm, Glycoprotein C, and Glycoprotein
+CC       N.
+CC   -!- SIMILARITY: Belongs to the orthobunyavirus envelope glycoprotein
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M21951; AAA42778.1; -; Genomic_RNA.
+DR   PIR; S07430; S07430.
+DR   SMR; P12430; -.
+DR   GO; GO:0044167; C:host cell endoplasmic reticulum membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0044178; C:host cell Golgi membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0039654; P:fusion of virus membrane with host endosome membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0019048; P:modulation by virus of host process; IEA:InterPro.
+DR   GO; GO:0019062; P:virion attachment to host cell; IEA:UniProtKB-KW.
+DR   InterPro; IPR005167; Bunya_G1.
+DR   InterPro; IPR005168; Bunya_G2.
+DR   InterPro; IPR026400; Bunya_nonstruc_pro_NSm.
+DR   InterPro; IPR014413; M_poly_OrthobunV.
+DR   Pfam; PF03557; Bunya_G1; 1.
+DR   Pfam; PF03563; Bunya_G2; 1.
+DR   PIRSF; PIRSF003944; M_poly_OrthobunV; 1.
+DR   TIGRFAMs; TIGR04210; bunya_NSm; 1.
+PE   3: Inferred from homology;
+KW   Fusion of virus membrane with host endosomal membrane;
+KW   Fusion of virus membrane with host membrane; Glycoprotein;
+KW   Host endoplasmic reticulum; Host Golgi apparatus; Host membrane;
+KW   Host-virus interaction; Membrane; Signal; Transmembrane;
+KW   Transmembrane helix; Viral attachment to host cell;
+KW   Viral penetration into host cytoplasm; Virion; Virus entry into host cell.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           22..1437
+FT                   /note="Envelopment polyprotein"
+FT                   /id="PRO_0000036786"
+FT   CHAIN           22..306
+FT                   /note="Glycoprotein N"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000036787"
+FT   CHAIN           307..481
+FT                   /note="Non-structural protein M"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000036788"
+FT   CHAIN           482..1437
+FT                   /note="Glycoprotein C"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000036789"
+FT   TOPO_DOM        22..207
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        208..228
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        229..312
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        313..333
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        334..373
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        374..394
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        395..460
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        461..481
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        482..1391
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        1392..1412
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        1413..1437
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   SITE            481..482
+FT                   /note="Cleavage; by host signal peptidase"
+FT                   /evidence="ECO:0000250"
+FT   CARBOHYD        65
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        88
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        627
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        1173
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   1437 AA;  162494 MW;  C4FB3001BD09A30D CRC64;
+     MAISTSLLIV ALLIKLCLVN TAPPISKCFQ DGILIAELKS SSGISEFCIK DDISILKSEI
+     TYSKNDTGIF MHSKVFRHWT VADWKQCNHT SAGGSTNVLE VDKNLNLVAK NYMCTRPCVI
+     TIDKENAQLL FQTEQLNQFE VTGTTISTGW FKSKTSVSLD NTCEHIKVTC GKKSLQFHAC
+     FKQHMSCVRF LHRSVLPGYM ASSICQNIEL IIIIILTLAI FIFMCIITRT YICYLMLPLF
+     APIAYLYGWL YNRSCKKCIC CGLAYHPFTN CGSYCVCGSR FETSDRMRLH RESGLCQGFK
+     SLRVARSLCK SKGSSLVISI LTAMLILSFI TPLEAMTTNY PDDKKFTLKE VNDIVLGRDM
+     EQELKSSILI LMSICGIGII LIFFGLTVLL EIVLELIAKR STIFCKECNL IHDKKSMTYR
+     GDFTNKCGFC PCGELEDPEG LVIHTTRKSC TYYIKIRNLK LIMLIFSIVI LMQNATMLVV
+     AGENCWTNTE IKADCVGPLI GPSACTNKGS KTYKTVAQEL VTASKITQLD ADKYVLLGDT
+     IESALDAITS QKHYSAMHLL ETMFLMKHCD YYKVYEHNSG YSQTKWRLIA IANSFDICTN
+     TPTPNFCKCL SDSSCSTTTL NFATSMNATY TSKVEFFNHD FTLFLDIFEA AFPGSATAFL
+     FKKIKEKNPY QAFEMMGKIA NKYPNNKLLV VILKYGQYMV GLSHASTYQL KQEWVAKSLS
+     LTRAQRTGLK MSMANAEPGP ATKECSDAKT IACLTPKFQV EVNNLMSCGA SPNFKIYVKT
+     GELYKAHDRN SVWCLNDMHC LTPYTPANAE IITTMKKMDC WQDNPKQPTD EYAIPKRSCQ
+     MKDRGLCNSG ADKWKIIKCD NHKLFYTDAL ERRDPASIVG SNHCFSEKCQ IERYPINPTS
+     LTNCEWLYRA VRPEYIKKLS LQTIEEYKKA IADKLTHTLQ LYHFAPLLEN LPHIKPTYKY
+     ITAQGTYTAD GIEGASITTS IPALSGTSVG FKINAKDGTD LLDIVVYIKA SVVKSIYNHI
+     YDTGPTININ SKHDELCTGQ CPKKIPADPN WLTFSQERTS RWGCEEFGCL AINTGCVYGS
+     CQDVIRTETK VYRKANEETV MLTVCITYPG HTFCTDVNAH EPKITDELEL QFKTIDIKSL
+     PNLVAVTNHK LYTGQINDLG TFGQMCGNVQ KTNTSHTGAG TPKFDYTCYS ASRKDIIIRR
+     CYNNNYDSCR LLNQESDLLF DDNHETLVVY NNKRLNGELA LKLLLGDIQY KLYTENMELE
+     LEAKCVGCVG CFESYQCNLQ ITSSLDETAL YLVPVSHFHD RIQIKTTKKD YAMKISCTRD
+     PGDKASFRVC GKSYDFNFHT VPKNDKIEVN VGDETSYIKE KDNRCGRWLC RVRDEGLSVI
+     FEPLNNFFGN YLNMFLYILG GIILLFLALY ILMPMCARLR DELKRNERLH QMEMKKR
+//

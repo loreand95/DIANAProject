@@ -1,0 +1,166 @@
+ID   CYSJ_ENT38              Reviewed;         601 AA.
+AC   A4WDW1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAY-2007, sequence version 1.
+DT   10-FEB-2021, entry version 101.
+DE   RecName: Full=Sulfite reductase [NADPH] flavoprotein alpha-component {ECO:0000255|HAMAP-Rule:MF_01541};
+DE            Short=SiR-FP {ECO:0000255|HAMAP-Rule:MF_01541};
+DE            EC=1.8.1.2 {ECO:0000255|HAMAP-Rule:MF_01541};
+GN   Name=cysJ {ECO:0000255|HAMAP-Rule:MF_01541}; OrderedLocusNames=Ent638_3227;
+OS   Enterobacter sp. (strain 638).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Enterobacter.
+OX   NCBI_TaxID=399742;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=638;
+RX   PubMed=20485560; DOI=10.1371/journal.pgen.1000943;
+RA   Taghavi S., van der Lelie D., Hoffman A., Zhang Y.B., Walla M.D.,
+RA   Vangronsveld J., Newman L., Monchy S.;
+RT   "Genome sequence of the plant growth promoting endophytic bacterium
+RT   Enterobacter sp. 638.";
+RL   PLoS Genet. 6:E1000943-E1000943(2010).
+CC   -!- FUNCTION: Component of the sulfite reductase complex that catalyzes the
+CC       6-electron reduction of sulfite to sulfide. This is one of several
+CC       activities required for the biosynthesis of L-cysteine from sulfate.
+CC       The flavoprotein component catalyzes the electron flow from NADPH ->
+CC       FAD -> FMN to the hemoprotein component. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3 H2O + hydrogen sulfide + 3 NADP(+) = 4 H(+) + 3 NADPH +
+CC         sulfite; Xref=Rhea:RHEA:13801, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17359, ChEBI:CHEBI:29919, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.8.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01541};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01541};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_01541};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01541};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000255|HAMAP-Rule:MF_01541};
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; hydrogen
+CC       sulfide from sulfite (NADPH route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   -!- SUBUNIT: Alpha(8)-beta(8). The alpha component is a flavoprotein, the
+CC       beta component is a hemoprotein. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: Belongs to the NADPH-dependent sulphite reductase
+CC       flavoprotein subunit CysJ family. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the flavodoxin
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01541}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the flavoprotein
+CC       pyridine nucleotide cytochrome reductase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01541}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000653; ABP61891.1; -; Genomic_DNA.
+DR   RefSeq; WP_015960220.1; NC_009436.1.
+DR   SMR; A4WDW1; -.
+DR   STRING; 399742.Ent638_3227; -.
+DR   EnsemblBacteria; ABP61891; ABP61891; Ent638_3227.
+DR   KEGG; ent:Ent638_3227; -.
+DR   eggNOG; COG0369; Bacteria.
+DR   HOGENOM; CLU_001570_17_7_6; -.
+DR   OMA; QKRYQRD; -.
+DR   OrthoDB; 707164at2; -.
+DR   UniPathway; UPA00140; UER00207.
+DR   Proteomes; UP000000230; Chromosome.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0010181; F:FMN binding; IEA:InterPro.
+DR   GO; GO:0004783; F:sulfite reductase (NADPH) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019344; P:cysteine biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.20.990.10; -; 1.
+DR   Gene3D; 3.40.50.360; -; 1.
+DR   Gene3D; 3.40.50.80; -; 1.
+DR   HAMAP; MF_01541; CysJ; 1.
+DR   InterPro; IPR010199; CysJ.
+DR   InterPro; IPR003097; CysJ-like_FAD-binding.
+DR   InterPro; IPR029758; CysJ_Proteobact.
+DR   InterPro; IPR017927; FAD-bd_FR_type.
+DR   InterPro; IPR001094; Flavdoxin-like.
+DR   InterPro; IPR008254; Flavodoxin/NO_synth.
+DR   InterPro; IPR001709; Flavoprot_Pyr_Nucl_cyt_Rdtase.
+DR   InterPro; IPR029039; Flavoprotein-like_sf.
+DR   InterPro; IPR039261; FNR_nucleotide-bd.
+DR   InterPro; IPR023173; NADPH_Cyt_P450_Rdtase_alpha.
+DR   InterPro; IPR001433; OxRdtase_FAD/NAD-bd.
+DR   InterPro; IPR017938; Riboflavin_synthase-like_b-brl.
+DR   Pfam; PF00667; FAD_binding_1; 1.
+DR   Pfam; PF00258; Flavodoxin_1; 1.
+DR   Pfam; PF00175; NAD_binding_1; 1.
+DR   PIRSF; PIRSF000207; SiR-FP_CysJ; 1.
+DR   PRINTS; PR00369; FLAVODOXIN.
+DR   PRINTS; PR00371; FPNCR.
+DR   SUPFAM; SSF52218; SSF52218; 1.
+DR   SUPFAM; SSF52343; SSF52343; 1.
+DR   SUPFAM; SSF63380; SSF63380; 1.
+DR   TIGRFAMs; TIGR01931; cysJ; 1.
+DR   PROSITE; PS51384; FAD_FR; 1.
+DR   PROSITE; PS50902; FLAVODOXIN_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cysteine biosynthesis; Electron transport; FAD;
+KW   Flavoprotein; FMN; NADP; Oxidoreductase; Transport.
+FT   CHAIN           1..601
+FT                   /note="Sulfite reductase [NADPH] flavoprotein alpha-
+FT                   component"
+FT                   /id="PRO_1000087635"
+FT   DOMAIN          64..202
+FT                   /note="Flavodoxin-like"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   DOMAIN          236..450
+FT                   /note="FAD-binding FR-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         70..75
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         117..120
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         153..162
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         388..391
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         406..408
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         421..424
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         521..522
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   NP_BIND         527..531
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         324
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         358
+FT                   /note="FAD; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         563
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+FT   BINDING         601
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01541"
+SQ   SEQUENCE   601 AA;  66366 MW;  D4C25C7138BF8496 CRC64;
+     MTTQAPPSNL LPLNPEQLAR LQAATTDFSP TQLAWVSGYF WGMLNQQPGA VVNAPATAVE
+     IPAITLISAS QTGNARRVAE ALRDDLLAAK LNVNLVNAGD YKFKQIASEK LVVVVASTQG
+     EGEPAEEAVA LHKFLFSKKA PKLDGTAFAV FGLGDTSYEF FCQSGKDFDS KLAELGAERL
+     LDRVDADVEY QAAAAEWRAR IVDVLKARVP KDTPAQAANS ASGAVNEVST SPYTKEEPLV
+     ASLSVNQKIT GRDSEKDVRH IEIDLGDSGL RYQPGDALGV WYQNDPALVK ELVELLWLKG
+     TEQVNVEGKT LPLSEALQWH FELTVNTANI VENYATLTRS ETLLPLVGDK AKLQHYAATT
+     PIVDMVRFSP AQLDAEALIG LLRPLTPRLY SIASSQAEVE SEVHITVGAV RFDIEGRARA
+     GGASSFLADR VEEEGEVRVF IEHNDNFRLP ANPETPVIMI GPGTGIAPFR AFMQQRAAEE
+     APGKNWLFFG NPHFTEDFLY QVEWQRYVKE GVLSRIDLAW SRDQKQKIYV QDKLREQGAE
+     LWAWINNGAH LYVCGDANRM AKDVEQALLE VIAEFGGMDI ETADEFLSEL RVERRYQRDV
+     Y
+//

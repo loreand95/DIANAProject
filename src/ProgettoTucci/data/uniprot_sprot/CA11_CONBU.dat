@@ -1,0 +1,94 @@
+ID   CA11_CONBU              Reviewed;          63 AA.
+AC   P0CY86;
+DT   28-JUN-2011, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUN-2011, sequence version 1.
+DT   22-APR-2020, entry version 22.
+DE   RecName: Full=Alpha-conotoxin-like Bu1.1 {ECO:0000303|PubMed:20143226, ECO:0000303|PubMed:26948522, ECO:0000303|Ref.2};
+DE   AltName: Full=Bu18 {ECO:0000303|PubMed:21266071};
+DE   Flags: Precursor;
+OS   Conus bullatus (Bubble cone).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Textilia.
+OX   NCBI_TaxID=89438;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Venom duct;
+RX   PubMed=21266071; DOI=10.1186/1471-2164-12-60;
+RA   Hu H., Bandyopadhyay P.K., Olivera B.M., Yandell M.;
+RT   "Characterization of the Conus bullatus genome and its venom-duct
+RT   transcriptome.";
+RL   BMC Genomics 12:60-60(2011).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE OF 6-63.
+RA   Watkins M., Hillyard D.R., McIntosh M.J., Jones R.M., Olivera B.M.;
+RT   "Alpha-conotoxin peptides.";
+RL   Patent number EP1852440, 07-NOV-2007.
+RN   [3]
+RP   NOMENCLATURE.
+RX   PubMed=20143226; DOI=10.1007/s00239-010-9321-7;
+RA   Puillandre N., Watkins M., Olivera B.M.;
+RT   "Evolution of conus peptide genes: duplication and positive selection in
+RT   the A-Superfamily.";
+RL   J. Mol. Evol. 70:190-202(2010).
+RN   [4]
+RP   SYNTHESIS OF 48-62.
+RX   PubMed=26948522; DOI=10.1002/anie.201600297;
+RA   Carstens B.B., Berecki G., Daniel J.T., Lee H.S., Jackson K.A., Tae H.S.,
+RA   Sadeghi M., Castro J., O'Donnell T., Deiteren A., Brierley S.M.,
+RA   Craik D.J., Adams D.J., Clark R.J.;
+RT   "Structure-activity studies of cysteine-rich alpha-conotoxins that inhibit
+RT   high-voltage-activated calcium channels via GABA(B) receptor activation
+RT   reveal a minimal functional motif.";
+RL   Angew. Chem. Int. Ed. 55:4692-4696(2016).
+CC   -!- FUNCTION: Alpha-conotoxins act on postsynaptic membranes, they bind to
+CC       the nicotinic acetylcholine receptors (nAChR) and thus inhibit them (By
+CC       similarity). {ECO:0000250|UniProtKB:P0CE73}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305|PubMed:26948522}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:26948522}.
+CC   -!- DOMAIN: The cysteine framework is I (CC-C-C). Alpha4/4 pattern.
+CC   -!- MISCELLANEOUS: Does not inhibits high voltage-activated (HVA) calcium
+CC       channel currents in rat DRG neurons (at 1 uM toxin) (PubMed:26948522).
+CC       {ECO:0000269|PubMed:26948522}.
+CC   -!- SIMILARITY: Belongs to the conotoxin A superfamily. {ECO:0000305}.
+CC   -!- CAUTION: The synthetic peptide described in PubMed:26948522 shows the
+CC       toxin without C-terminal amidation. {ECO:0000269|PubMed:26948522}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FB299970; CAR81556.1; -; Unassigned_DNA.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0035792; C:host cell postsynaptic membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0030550; F:acetylcholine receptor inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR009958; Conotoxin_a-typ.
+DR   Pfam; PF07365; Toxin_8; 1.
+PE   3: Inferred from homology;
+KW   Acetylcholine receptor inhibiting toxin; Amidation; Disulfide bond;
+KW   Ion channel impairing toxin; Neurotoxin; Postsynaptic neurotoxin; Secreted;
+KW   Signal; Toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..47
+FT                   /evidence="ECO:0000305|PubMed:26948522"
+FT                   /id="PRO_0000409988"
+FT   PEPTIDE         48..62
+FT                   /note="Alpha-conotoxin-like Bu1.1"
+FT                   /evidence="ECO:0000305|PubMed:26948522"
+FT                   /id="PRO_0000409989"
+FT   MOD_RES         62
+FT                   /note="Cysteine amide"
+FT                   /evidence="ECO:0000305"
+FT   DISULFID        51..57
+FT                   /evidence="ECO:0000250|UniProtKB:P69657"
+FT   DISULFID        52..62
+FT                   /evidence="ECO:0000250|UniProtKB:P69657"
+FT   CONFLICT        13
+FT                   /note="I -> V (in Ref. 2; CAR81556)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   63 AA;  6789 MW;  9E4CFE75BE9FCA17 CRC64;
+     MGMRMMFTVF LLIVLATTVV SFSTDDESDG SNEEPSADQT ARSSMNRAPG CCNNPACVKH
+     RCG
+//

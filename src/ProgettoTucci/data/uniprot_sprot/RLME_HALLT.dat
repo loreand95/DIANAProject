@@ -1,0 +1,103 @@
+ID   RLME_HALLT              Reviewed;         269 AA.
+AC   B9LSX2;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   24-MAR-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase E {ECO:0000255|HAMAP-Rule:MF_01547};
+DE            EC=2.1.1.166 {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=23S rRNA Um2552 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=rRNA (uridine-2'-O-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Name=rlmE {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Synonyms=rrmJ {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   OrderedLocusNames=Hlac_0434;
+OS   Halorubrum lacusprofundi (strain ATCC 49239 / DSM 5036 / JCM 8891 / ACAM
+OS   34).
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Haloferacales;
+OC   Halorubraceae; Halorubrum.
+OX   NCBI_TaxID=416348;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49239 / DSM 5036 / JCM 8891 / ACAM 34;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., Sims D., Brettin T., Detter J.C., Han C.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Ivanova N., Anderson I.,
+RA   DasSarma S., Cavicchioli R., Richardson P.;
+RT   "Complete sequence of chromosome1 of Halorubrum lacusprofundi ATCC 49239.";
+RL   Submitted (JAN-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the uridine in position 2552 of 23S
+CC       rRNA at the 2'-O position of the ribose in the fully assembled 50S
+CC       ribosomal subunit. {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=S-adenosyl-L-methionine + uridine(2552) in 23S rRNA = 2'-O-
+CC         methyluridine(2552) in 23S rRNA + H(+) + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42720, Rhea:RHEA-COMP:10202, Rhea:RHEA-COMP:10203,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:65315, ChEBI:CHEBI:74478; EC=2.1.1.166;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01547};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding methyltransferase
+CC       superfamily. RNA methyltransferase RlmE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01547}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001365; ACM56037.1; -; Genomic_DNA.
+DR   RefSeq; WP_012659674.1; NC_012029.1.
+DR   SMR; B9LSX2; -.
+DR   STRING; 416348.Hlac_0434; -.
+DR   EnsemblBacteria; ACM56037; ACM56037; Hlac_0434.
+DR   GeneID; 7401052; -.
+DR   KEGG; hla:Hlac_0434; -.
+DR   eggNOG; arCOG00079; Archaea.
+DR   HOGENOM; CLU_009422_4_4_2; -.
+DR   OMA; HRQTDHL; -.
+DR   Proteomes; UP000000740; Chromosome 1.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008650; F:rRNA (uridine-2'-O-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01547; RNA_methyltr_E; 1.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR015507; rRNA-MeTfrase_E.
+DR   InterPro; IPR002877; rRNA_MeTrfase_FtsJ_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR002792; TRAM_dom.
+DR   Pfam; PF01728; FtsJ; 1.
+DR   Pfam; PF01938; TRAM; 1.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS50926; TRAM; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; rRNA processing; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..269
+FT                   /note="Ribosomal RNA large subunit methyltransferase E"
+FT                   /id="PRO_1000185298"
+FT   DOMAIN          198..256
+FT                   /note="TRAM"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   ACT_SITE        151
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         48
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         50
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         68
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         86
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+FT   BINDING         111
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01547"
+SQ   SEQUENCE   269 AA;  29382 MW;  50D0D5E22C79D62B CRC64;
+     MSGKDEYYNK SKQQGYRARS AYKLKQIDEE ANLFERGDTV VDLGAAPGGW LQVAAEEVGE
+     SGTVVGVDLQ RIDDLDDHDV ETIRGDMTEE RTRHYLREAI GERGADVVIS DMAPNMTGEY
+     ALDHARSVHL ARQAFDVAEE LLAPGGDFVV KVFQGEDLDA FREDVRAEFE YLRTVSPPAS
+     RDSSSEVYLV AKGLNTAPVA AGDRIEVTVE ERGDEGDGIA YVEGYSIFVS DADVGETVTV
+     EVVDAKPRFG FATRVDVGTP DSDESDEGE
+//

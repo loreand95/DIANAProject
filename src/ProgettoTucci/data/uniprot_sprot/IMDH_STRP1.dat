@@ -1,0 +1,171 @@
+ID   IMDH_STRP1              Reviewed;         493 AA.
+AC   P0C0H7; P50099; P68838; Q48W00;
+DT   13-SEP-2005, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2007, sequence version 2.
+DT   07-APR-2021, entry version 116.
+DE   RecName: Full=Inosine-5'-monophosphate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01964};
+DE            Short=IMP dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01964};
+DE            Short=IMPD {ECO:0000255|HAMAP-Rule:MF_01964};
+DE            Short=IMPDH {ECO:0000255|HAMAP-Rule:MF_01964};
+DE            EC=1.1.1.205 {ECO:0000255|HAMAP-Rule:MF_01964};
+GN   Name=guaB {ECO:0000255|HAMAP-Rule:MF_01964};
+GN   OrderedLocusNames=SPy_2206, M5005_Spy1857;
+OS   Streptococcus pyogenes serotype M1.
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Streptococcus.
+OX   NCBI_TaxID=301447;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700294 / SF370 / Serotype M1;
+RX   PubMed=11296296; DOI=10.1073/pnas.071559398;
+RA   Ferretti J.J., McShan W.M., Ajdic D.J., Savic D.J., Savic G., Lyon K.,
+RA   Primeaux C., Sezate S., Suvorov A.N., Kenton S., Lai H.S., Lin S.P.,
+RA   Qian Y., Jia H.G., Najar F.Z., Ren Q., Zhu H., Song L., White J., Yuan X.,
+RA   Clifton S.W., Roe B.A., McLaughlin R.E.;
+RT   "Complete genome sequence of an M1 strain of Streptococcus pyogenes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 98:4658-4663(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-947 / MGAS5005 / Serotype M1;
+RX   PubMed=16088826; DOI=10.1086/432514;
+RA   Sumby P., Porcella S.F., Madrigal A.G., Barbian K.D., Virtaneva K.,
+RA   Ricklefs S.M., Sturdevant D.E., Graham M.R., Vuopio-Varkila J., Hoe N.P.,
+RA   Musser J.M.;
+RT   "Evolutionary origin and emergence of a highly successful clone of serotype
+RT   M1 group A Streptococcus involved multiple horizontal gene transfer
+RT   events.";
+RL   J. Infect. Dis. 192:771-782(2005).
+CC   -!- FUNCTION: Catalyzes the conversion of inosine 5'-phosphate (IMP) to
+CC       xanthosine 5'-phosphate (XMP), the first committed and rate-limiting
+CC       step in the de novo synthesis of guanine nucleotides, and therefore
+CC       plays an important role in the regulation of cell growth.
+CC       {ECO:0000255|HAMAP-Rule:MF_01964}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + IMP + NAD(+) = H(+) + NADH + XMP; Xref=Rhea:RHEA:11708,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:57464,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:58053;
+CC         EC=1.1.1.205; Evidence={ECO:0000255|HAMAP-Rule:MF_01964};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01964};
+CC   -!- ACTIVITY REGULATION: Mycophenolic acid (MPA) is a non-competitive
+CC       inhibitor that prevents formation of the closed enzyme conformation by
+CC       binding to the same site as the amobile flap. In contrast, mizoribine
+CC       monophosphate (MZP) is a competitive inhibitor that induces the closed
+CC       conformation. MPA is a potent inhibitor of mammalian IMPDHs but a poor
+CC       inhibitor of the bacterial enzymes. MZP is a more potent inhibitor of
+CC       bacterial IMPDH. {ECO:0000255|HAMAP-Rule:MF_01964}.
+CC   -!- PATHWAY: Purine metabolism; XMP biosynthesis via de novo pathway; XMP
+CC       from IMP: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01964}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01964}.
+CC   -!- SIMILARITY: Belongs to the IMPDH/GMPR family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01964}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE004092; AAK34834.1; -; Genomic_DNA.
+DR   EMBL; CP000017; AAZ52475.1; -; Genomic_DNA.
+DR   RefSeq; NP_270113.1; NC_002737.2.
+DR   SMR; P0C0H7; -.
+DR   PaxDb; P0C0H7; -.
+DR   EnsemblBacteria; AAK34834; AAK34834; SPy_2206.
+DR   KEGG; spy:SPy_2206; -.
+DR   KEGG; spz:M5005_Spy1857; -.
+DR   PATRIC; fig|160490.10.peg.1911; -.
+DR   HOGENOM; CLU_022552_1_0_9; -.
+DR   UniPathway; UPA00601; UER00295.
+DR   Proteomes; UP000000750; Chromosome.
+DR   GO; GO:0003938; F:IMP dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006177; P:GMP biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00381; IMPDH; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   HAMAP; MF_01964; IMPDH; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR000644; CBS_dom.
+DR   InterPro; IPR005990; IMP_DH.
+DR   InterPro; IPR015875; IMP_DH/GMP_Rdtase_CS.
+DR   InterPro; IPR001093; IMP_DH_GMPRt.
+DR   Pfam; PF00571; CBS; 2.
+DR   Pfam; PF00478; IMPDH; 1.
+DR   PIRSF; PIRSF000130; IMPDH; 1.
+DR   SMART; SM00116; CBS; 2.
+DR   TIGRFAMs; TIGR01302; IMP_dehydrog; 1.
+DR   PROSITE; PS51371; CBS; 2.
+DR   PROSITE; PS00487; IMP_DH_GMP_RED; 1.
+PE   3: Inferred from homology;
+KW   CBS domain; GMP biosynthesis; Metal-binding; NAD; Oxidoreductase;
+KW   Potassium; Purine biosynthesis; Repeat.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..493
+FT                   /note="Inosine-5'-monophosphate dehydrogenase"
+FT                   /id="PRO_0000093715"
+FT   DOMAIN          97..155
+FT                   /note="CBS 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   DOMAIN          159..219
+FT                   /note="CBS 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   NP_BIND         303..305
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   REGION          343..345
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   REGION          366..367
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   REGION          390..394
+FT                   /note="IMP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   ACT_SITE        310
+FT                   /note="Thioimidate intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   ACT_SITE        406
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           305
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           307
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           310
+FT                   /note="Potassium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           475
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           476
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   METAL           477
+FT                   /note="Potassium; via carbonyl oxygen; shared with
+FT                   tetrameric partner"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   BINDING         253
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   BINDING         308
+FT                   /note="IMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+FT   BINDING         421
+FT                   /note="IMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01964"
+SQ   SEQUENCE   493 AA;  52807 MW;  9C317AD598CB5740 CRC64;
+     MSNWDTKFLK KGYTFDDVLL IPAESHVLPN EVDLKTKLAD NLTLNIPIIT AAMDTVTGSK
+     MAIAIARAGG LGVIHKNMSI TEQAEEVRKV KRSENGVIID PFFLTPEHKV SEAEELMQRY
+     RISGVPIVET LANRKLVGII TNRDMRFISD YNAPISEHMT SEHLVTAAVG TDLETAERIL
+     HEHRIEKLPL VDNSGRLSGL ITIKDIEKVI EFPHAAKDEF GRLLVAAAVG VTSDTFERAE
+     ALFEAGADAI VIDTAHGHSA GVLRKIAEIR AHFPNRTLIA GNIATAEGAR ALYDAGVDVV
+     KVGIGPGSIC TTRVVAGVGV PQVTAIYDAA AVAREYGKTI IADGGIKYSG DIVKALAAGG
+     NAVMLGSMFA GTDEAPGETE IYQGRKFKTY RGMGSIAAMK KGSSDRYFQG SVNEANKLVP
+     EGIEGRVAYK GAASDIVFQM LGGIRSGMGY VGAGDIQELH ENAQFVEMSG AGLIESHPHD
+     VQITNEAPNY SVH
+//

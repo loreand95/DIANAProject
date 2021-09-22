@@ -1,0 +1,112 @@
+ID   PURR_YERE8              Reviewed;         341 AA.
+AC   A1JP52;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=HTH-type transcriptional repressor PurR {ECO:0000255|HAMAP-Rule:MF_01277};
+DE   AltName: Full=Pur regulon repressor {ECO:0000255|HAMAP-Rule:MF_01277};
+DE   AltName: Full=Purine nucleotide synthesis repressor {ECO:0000255|HAMAP-Rule:MF_01277};
+GN   Name=purR {ECO:0000255|HAMAP-Rule:MF_01277}; OrderedLocusNames=YE2158;
+OS   Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 /
+OS   8081).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Yersiniaceae; Yersinia.
+OX   NCBI_TaxID=393305;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 13174 / 8081;
+RX   PubMed=17173484; DOI=10.1371/journal.pgen.0020206;
+RA   Thomson N.R., Howard S., Wren B.W., Holden M.T.G., Crossman L.,
+RA   Challis G.L., Churcher C., Mungall K., Brooks K., Chillingworth T.,
+RA   Feltwell T., Abdellah Z., Hauser H., Jagels K., Maddison M., Moule S.,
+RA   Sanders M., Whitehead S., Quail M.A., Dougan G., Parkhill J.,
+RA   Prentice M.B.;
+RT   "The complete genome sequence and comparative genome analysis of the high
+RT   pathogenicity Yersinia enterocolitica strain 8081.";
+RL   PLoS Genet. 2:2039-2051(2006).
+CC   -!- FUNCTION: Is the main repressor of the genes involved in the de novo
+CC       synthesis of purine nucleotides, regulating purB, purC, purEK, purF,
+CC       purHD, purL, purMN and guaBA expression. PurR is allosterically
+CC       activated to bind its cognate DNA by binding the purine corepressors,
+CC       hypoxanthine or guanine, thereby effecting transcription repression.
+CC       {ECO:0000255|HAMAP-Rule:MF_01277}.
+CC   -!- PATHWAY: Purine metabolism; purine nucleotide biosynthesis
+CC       [regulation].
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01277}.
+CC   -!- DOMAIN: Consists of two structural and functional domains: an N-
+CC       terminal DNA-binding domain, approximately the first 60 residues, and a
+CC       larger C-terminal domain, approximately 280 residues, which imparts the
+CC       function of corepressor binding and oligomerization.
+CC       {ECO:0000255|HAMAP-Rule:MF_01277}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM286415; CAL12228.1; -; Genomic_DNA.
+DR   RefSeq; WP_005165644.1; NC_008800.1.
+DR   RefSeq; YP_001006398.1; NC_008800.1.
+DR   SMR; A1JP52; -.
+DR   STRING; 393305.YE2158; -.
+DR   EnsemblBacteria; CAL12228; CAL12228; YE2158.
+DR   GeneID; 58352694; -.
+DR   KEGG; yen:YE2158; -.
+DR   PATRIC; fig|393305.7.peg.2323; -.
+DR   eggNOG; COG1609; Bacteria.
+DR   HOGENOM; CLU_037628_6_2_6; -.
+DR   OMA; NMEMLAN; -.
+DR   UniPathway; UPA00488; -.
+DR   Proteomes; UP000000642; Chromosome.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0045892; P:negative regulation of transcription, DNA-templated; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006164; P:purine nucleotide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd01392; HTH_LacI; 1.
+DR   Gene3D; 1.10.260.40; -; 1.
+DR   HAMAP; MF_01277; HTH_type_PurR; 1.
+DR   InterPro; IPR000843; HTH_LacI.
+DR   InterPro; IPR010982; Lambda_DNA-bd_dom_sf.
+DR   InterPro; IPR028082; Peripla_BP_I.
+DR   InterPro; IPR023588; Tscrpt_reg_HTH_PurR.
+DR   Pfam; PF00356; LacI; 1.
+DR   PRINTS; PR00036; HTHLACI.
+DR   SMART; SM00354; HTH_LACI; 1.
+DR   SUPFAM; SSF47413; SSF47413; 1.
+DR   SUPFAM; SSF53822; SSF53822; 1.
+DR   PROSITE; PS00356; HTH_LACI_1; 1.
+DR   PROSITE; PS50932; HTH_LACI_2; 1.
+PE   3: Inferred from homology;
+KW   DNA-binding; Purine biosynthesis; Repressor; Transcription;
+KW   Transcription regulation.
+FT   CHAIN           1..341
+FT                   /note="HTH-type transcriptional repressor PurR"
+FT                   /id="PRO_1000085880"
+FT   DOMAIN          2..56
+FT                   /note="HTH lacI-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   DNA_BIND        4..23
+FT                   /note="H-T-H motif"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   DNA_BIND        48..56
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   BINDING         73
+FT                   /note="Hypoxanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   BINDING         190
+FT                   /note="Hypoxanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   BINDING         192
+FT                   /note="Hypoxanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   BINDING         221
+FT                   /note="Hypoxanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+FT   BINDING         275
+FT                   /note="Hypoxanthine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01277"
+SQ   SEQUENCE   341 AA;  37873 MW;  4D7556B58D0FA6CD CRC64;
+     MATIKDVAKH AGVSTTTVSH VINKTRFVAE NTKAAVWAAI KELHYSPSAV ARSLKVNHTK
+     SIGLLATSSE APYFAEVIEA VENSCYSKGY TLILCNSHNN LDKQKAYLAM LAQKRVDGLL
+     VMCSEYPEQL LGMLEDYRNI PMVVMDWGTA RGDFTDSIID NAFEGGYLAG RYLIERGHRD
+     IGAIPGQLSR NTGGGRHQGF LKALEEANIT LREEWVVQGD FEPESGYKAM HQILTQKHRP
+     TAVFCGGDIM AMGAICAADE LGLRVPQDIS VIGYDNVRNA RYFSPALTTI HQPKERLGET
+     AFAMLLDRIV SKREDPQTIE VHPKLVERRS VADGPFRDYR R
+//

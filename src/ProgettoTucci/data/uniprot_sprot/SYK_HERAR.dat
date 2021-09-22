@@ -1,0 +1,108 @@
+ID   SYK_HERAR               Reviewed;         511 AA.
+AC   A4G778;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   17-APR-2007, sequence version 1.
+DT   10-FEB-2021, entry version 90.
+DE   RecName: Full=Lysine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            EC=6.1.1.6 {ECO:0000255|HAMAP-Rule:MF_00252};
+DE   AltName: Full=Lysyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00252};
+DE            Short=LysRS {ECO:0000255|HAMAP-Rule:MF_00252};
+GN   Name=lysS {ECO:0000255|HAMAP-Rule:MF_00252}; OrderedLocusNames=HEAR2230;
+OS   Herminiimonas arsenicoxydans.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Oxalobacteraceae; Herminiimonas.
+OX   NCBI_TaxID=204773;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ULPAs1;
+RX   PubMed=17432936; DOI=10.1371/journal.pgen.0030053;
+RA   Muller D., Medigue C., Koechler S., Barbe V., Barakat M., Talla E.,
+RA   Bonnefoy V., Krin E., Arsene-Ploetze F., Carapito C., Chandler M.,
+RA   Cournoyer B., Cruveiller S., Dossat C., Duval S., Heymann M., Leize E.,
+RA   Lieutaud A., Lievremont D., Makita Y., Mangenot S., Nitschke W., Ortet P.,
+RA   Perdrial N., Schoepp B., Siguier P., Simeonova D.D., Rouy Z., Segurens B.,
+RA   Turlin E., Vallenet D., van Dorsselaer A., Weiss S., Weissenbach J.,
+RA   Lett M.-C., Danchin A., Bertin P.N.;
+RT   "A tale of two oxidation states: bacterial colonization of arsenic-rich
+RT   environments.";
+RL   PLoS Genet. 3:518-530(2007).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-lysine + tRNA(Lys) = AMP + diphosphate + L-lysyl-
+CC         tRNA(Lys); Xref=Rhea:RHEA:20792, Rhea:RHEA-COMP:9696, Rhea:RHEA-
+CC         COMP:9697, ChEBI:CHEBI:30616, ChEBI:CHEBI:32551, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529, ChEBI:CHEBI:456215; EC=6.1.1.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00252};
+CC       Note=Binds 3 Mg(2+) ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00252};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00252}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CU207211; CAL62365.1; -; Genomic_DNA.
+DR   RefSeq; WP_011871635.1; NC_009138.1.
+DR   SMR; A4G778; -.
+DR   STRING; 204773.HEAR2230; -.
+DR   EnsemblBacteria; CAL62365; CAL62365; HEAR2230.
+DR   KEGG; har:HEAR2230; -.
+DR   eggNOG; COG1190; Bacteria.
+DR   HOGENOM; CLU_008255_6_0_4; -.
+DR   OMA; EIFGEKC; -.
+DR   OrthoDB; 63621at2; -.
+DR   BioCyc; HARS204773:HEAR_RS10370-MONOMER; -.
+DR   Proteomes; UP000006697; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004824; F:lysine-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006430; P:lysyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   CDD; cd00775; LysRS_core; 1.
+DR   CDD; cd04322; LysRS_N; 1.
+DR   HAMAP; MF_00252; Lys_tRNA_synth_class2; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR002313; Lys-tRNA-ligase_II.
+DR   InterPro; IPR044136; Lys-tRNA-ligase_II_N.
+DR   InterPro; IPR018149; Lys-tRNA-synth_II_C.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR00982; TRNASYNTHLYS.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   TIGRFAMs; TIGR00499; lysS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase; Magnesium;
+KW   Metal-binding; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..511
+FT                   /note="Lysine--tRNA ligase"
+FT                   /id="PRO_1000012878"
+FT   METAL           421
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           428
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+FT   METAL           428
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00252"
+SQ   SEQUENCE   511 AA;  57531 MW;  03AA2433E962064F CRC64;
+     MTTHNDDAAA SLPIDENKII AERRAKLSAL REQGIAFPND FRPQHKAADL QEKYGSKTRE
+     ELEAEPVTVV LAGRMMLKRE AGKKAAFATL QDASGSKADG RIQIYVTLNL TGEAAMAALH
+     HYDLGDILGV SGTLFKTKTD ELTIKVSELR LITKSLRPLP DKFHGLADQE TKYRQRYVDL
+     IMNEDTRRTF KARTAAISSI RRFMERNDFM EVETPMLHTI PGGAAAKPFT THHNALDMEM
+     FLRIAPELYL KRLVVGGFDR VFEINRNFRN EGVSIRHNPE FTMMEFYAAY TDYKWLMDFT
+     EAVIRQAAID AHGTATLTYG GRELDLAKPF HRLTIVGAIN KFAPQYTHEQ LHDAEYIKAE
+     LKKFGVKPHA HSGLGALQLA LFEETAEAQL WEPTYIIDYP VEVSPLARAS DTVAGITERF
+     ELFMVGREIA NGFSELNDAE DQAARFQAQV AAKDAGDEEA MYYDADYIRA LEYGMPPTGG
+     CGIGIDRLMM IITDSPNIRD VLLFPHLRRE D
+//

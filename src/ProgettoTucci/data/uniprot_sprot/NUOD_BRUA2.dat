@@ -1,0 +1,87 @@
+ID   NUOD_BRUA2              Reviewed;         396 AA.
+AC   Q2YNG0;
+DT   16-DEC-2008, integrated into UniProtKB/Swiss-Prot.
+DT   07-FEB-2006, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit D {ECO:0000255|HAMAP-Rule:MF_01358};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01358};
+DE   AltName: Full=NADH dehydrogenase I subunit D {ECO:0000255|HAMAP-Rule:MF_01358};
+DE   AltName: Full=NDH-1 subunit D {ECO:0000255|HAMAP-Rule:MF_01358};
+GN   Name=nuoD {ECO:0000255|HAMAP-Rule:MF_01358}; OrderedLocusNames=BAB1_0825;
+OS   Brucella abortus (strain 2308).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=359391;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2308;
+RX   PubMed=16299333; DOI=10.1128/iai.73.12.8353-8361.2005;
+RA   Chain P.S., Comerci D.J., Tolmasky M.E., Larimer F.W., Malfatti S.A.,
+RA   Vergez L.M., Aguero F., Land M.L., Ugalde R.A., Garcia E.;
+RT   "Whole-genome analyses of speciation events in pathogenic Brucellae.";
+RL   Infect. Immun. 73:8353-8361(2005).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01358}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01358};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoB, C,
+CC       D, E, F, and G constitute the peripheral sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01358}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01358}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01358}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_01358}.
+CC   -!- SIMILARITY: Belongs to the complex I 49 kDa subunit family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01358}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM040264; CAJ10781.1; -; Genomic_DNA.
+DR   RefSeq; WP_002966770.1; NZ_KN046823.1.
+DR   SMR; Q2YNG0; -.
+DR   EnsemblBacteria; CAJ10781; CAJ10781; BAB1_0825.
+DR   GeneID; 3787517; -.
+DR   KEGG; bmf:BAB1_0825; -.
+DR   PATRIC; fig|359391.11.peg.3135; -.
+DR   HOGENOM; CLU_015134_1_1_5; -.
+DR   OMA; IMGTSME; -.
+DR   BioCyc; BABO359391:G1GJA-844-MONOMER; -.
+DR   Proteomes; UP000002719; Chromosome I.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0050136; F:NADH dehydrogenase (quinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.645.20; -; 1.
+DR   HAMAP; MF_01358; NDH1_NuoD; 1.
+DR   InterPro; IPR001135; NADH_Q_OxRdtase_suD.
+DR   InterPro; IPR038290; NADH_Q_OxRdtase_suD_sf.
+DR   InterPro; IPR014029; NADH_UbQ_OxRdtase_49kDa_CS.
+DR   InterPro; IPR022885; NDH1_su_D/H.
+DR   InterPro; IPR029014; NiFe-Hase_large.
+DR   Pfam; PF00346; Complex1_49kDa; 1.
+DR   SUPFAM; SSF56762; SSF56762; 1.
+DR   TIGRFAMs; TIGR01962; NuoD; 1.
+DR   PROSITE; PS00535; COMPLEX1_49K; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone;
+KW   Reference proteome; Translocase; Transport; Ubiquinone.
+FT   CHAIN           1..396
+FT                   /note="NADH-quinone oxidoreductase subunit D"
+FT                   /id="PRO_0000357783"
+SQ   SEQUENCE   396 AA;  45027 MW;  B030C5D34855971D CRC64;
+     MAETQVRNFN INFGPQHPAA HGVLRLVLEL DGEVVERVDP HIGLLHRGTE KLMEAKTYLQ
+     AVPYLDRLDY VAPMNQEHAY ALAVERLLDI EVPKRGQLIR VLYSEIGRIL NHLLNVTTQA
+     MDVGALTPPL WGFEEREKLM VFYERACGAR MHAAYFRPGG VHQDLPDQLI EDIGKWIDPF
+     FTTLKNLDDL ITPNRIFKQR NVDIGVVKLE DAWAWGFSGV MVRGSGAAWD LRKSQPYECY
+     SEMEFDIPVG KNGDCYDRYL IRMEEMRQSA RIMRQCVDLL LGKERVGPVS NTDHKIVPPK
+     RGEMKRSMEA LIHHFKLYTE GYHVPAGEVY AAVEAPKGEF GVYLVSDGSN KPYRFKLRAP
+     GFAHLQAMDF LCRGHMLADV SAILGSLDIV FGEVDR
+//

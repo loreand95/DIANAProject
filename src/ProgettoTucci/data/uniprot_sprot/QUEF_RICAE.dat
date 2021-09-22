@@ -1,0 +1,97 @@
+ID   QUEF_RICAE              Reviewed;         273 AA.
+AC   C3PMB3;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   16-JUN-2009, sequence version 1.
+DT   02-DEC-2020, entry version 61.
+DE   RecName: Full=NADPH-dependent 7-cyano-7-deazaguanine reductase {ECO:0000255|HAMAP-Rule:MF_00817};
+DE            EC=1.7.1.13 {ECO:0000255|HAMAP-Rule:MF_00817};
+DE   AltName: Full=7-cyano-7-carbaguanine reductase {ECO:0000255|HAMAP-Rule:MF_00817};
+DE   AltName: Full=NADPH-dependent nitrile oxidoreductase {ECO:0000255|HAMAP-Rule:MF_00817};
+DE   AltName: Full=PreQ(0) reductase {ECO:0000255|HAMAP-Rule:MF_00817};
+GN   Name=queF {ECO:0000255|HAMAP-Rule:MF_00817}; OrderedLocusNames=RAF_ORF0098;
+OS   Rickettsia africae (strain ESF-5).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; spotted fever group.
+OX   NCBI_TaxID=347255;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ESF-5;
+RX   PubMed=19379498; DOI=10.1186/1471-2164-10-166;
+RA   Fournier P.-E., El Karkouri K., Leroy Q., Robert C., Giumelli B.,
+RA   Renesto P., Socolovschi C., Parola P., Audic S., Raoult D.;
+RT   "Analysis of the Rickettsia africae genome reveals that virulence
+RT   acquisition in Rickettsia species may be explained by genome reduction.";
+RL   BMC Genomics 10:166-166(2009).
+CC   -!- FUNCTION: Catalyzes the NADPH-dependent reduction of 7-cyano-7-
+CC       deazaguanine (preQ0) to 7-aminomethyl-7-deazaguanine (preQ1).
+CC       {ECO:0000255|HAMAP-Rule:MF_00817}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-aminomethyl-7-carbaguanine + 2 NADP(+) = 7-cyano-7-
+CC         deazaguanine + 3 H(+) + 2 NADPH; Xref=Rhea:RHEA:13409,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:45075, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:58703; EC=1.7.1.13;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00817};
+CC   -!- PATHWAY: tRNA modification; tRNA-queuosine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00817}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00817}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00817}.
+CC   -!- SIMILARITY: Belongs to the GTP cyclohydrolase I family. QueF type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00817}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001612; ACP53073.1; -; Genomic_DNA.
+DR   RefSeq; WP_012719368.1; NC_012633.1.
+DR   SMR; C3PMB3; -.
+DR   EnsemblBacteria; ACP53073; ACP53073; RAF_ORF0098.
+DR   KEGG; raf:RAF_ORF0098; -.
+DR   HOGENOM; CLU_054738_0_0_5; -.
+DR   OMA; QCVERIY; -.
+DR   BioCyc; RAFR347255:G1GVG-158-MONOMER; -.
+DR   UniPathway; UPA00392; -.
+DR   Proteomes; UP000002305; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046857; F:oxidoreductase activity, acting on other nitrogenous compounds as donors, with NAD or NADP as acceptor; IEA:InterPro.
+DR   GO; GO:0033739; F:preQ1 synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1130.10; -; 2.
+DR   HAMAP; MF_00817; QueF_type2; 1.
+DR   InterPro; IPR043133; GTP-CH-I_C/QueF.
+DR   InterPro; IPR029500; QueF.
+DR   InterPro; IPR029139; QueF_N.
+DR   InterPro; IPR016428; QueF_type2.
+DR   Pfam; PF14489; QueF; 1.
+DR   Pfam; PF14819; QueF_N; 1.
+DR   PIRSF; PIRSF004750; Nitrile_oxidored_YqcD_prd; 1.
+DR   TIGRFAMs; TIGR03138; QueF; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; NADP; Oxidoreductase; Queuosine biosynthesis.
+FT   CHAIN           1..273
+FT                   /note="NADPH-dependent 7-cyano-7-deazaguanine reductase"
+FT                   /id="PRO_1000213074"
+FT   NP_BIND         83..84
+FT                   /note="NADPH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+FT   NP_BIND         247..248
+FT                   /note="NADPH"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+FT   REGION          81..83
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+FT   REGION          218..219
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+FT   ACT_SITE        179
+FT                   /note="Thioimide intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+FT   ACT_SITE        186
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00817"
+SQ   SEQUENCE   273 AA;  31182 MW;  CD6B96D5182A1A51 CRC64;
+     MPLSTSLLGK KSTYKDSYDV TLLFKIPRIN NRNELGINSN NLPFYGVDVW NTYELSCLNK
+     NGKPWVGVGT FYIPTDSENI VESKSFKLYL NSFNNFVVES VKELERIILQ DLSNVTHAKV
+     TGRIFSINTK VEFGVPSGKN IDDLDIVCNN YGAPDNSLIE YEDVLVEEEI NSNLLKSNCL
+     VTGQPDWGTI VIKYKGKKLK YDSFLKYLIS FRNCNEFAEQ CAERIFTDIK NAISPDFLSI
+     YIVYARRGGI DICPYRSTDK SYTLPSDKRF IRQ
+//

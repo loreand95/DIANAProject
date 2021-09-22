@@ -1,0 +1,88 @@
+ID   LPXK_SALTY              Reviewed;         325 AA.
+AC   Q8ZQC2;
+DT   10-MAY-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 91.
+DE   RecName: Full=Tetraacyldisaccharide 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+DE            EC=2.7.1.130 {ECO:0000255|HAMAP-Rule:MF_00409};
+DE   AltName: Full=Lipid A 4'-kinase {ECO:0000255|HAMAP-Rule:MF_00409};
+GN   Name=lpxK {ECO:0000255|HAMAP-Rule:MF_00409}; OrderedLocusNames=STM0985;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Transfers the gamma-phosphate of ATP to the 4'-position of a
+CC       tetraacyldisaccharide 1-phosphate intermediate (termed DS-1-P) to form
+CC       tetraacyldisaccharide 1,4'-bis-phosphate (lipid IVA).
+CC       {ECO:0000255|HAMAP-Rule:MF_00409}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + (2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-beta-D-
+CC         glucosaminyl)-(1->6)-(2-N,3-O-bis((3R)-3-hydroxytetradecanoyl)-alpha-
+CC         D-glucosaminyl phosphate) = ADP + (2-N,3-O-bis((3R)-3-
+CC         hydroxytetradecanoyl)-4-O-phospho-beta-D-glucosaminyl)-(1->6)-(2-N,3-
+CC         O-bis((3R)-3-hydroxytetradecanoyl)-alpha-D-glucosaminyl phosphate).;
+CC         EC=2.7.1.130; Evidence={ECO:0000255|HAMAP-Rule:MF_00409};
+CC   -!- PATHWAY: Glycolipid biosynthesis; lipid IV(A) biosynthesis; lipid IV(A)
+CC       from (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] and UDP-N-
+CC       acetyl-alpha-D-glucosamine: step 6/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   -!- SIMILARITY: Belongs to the LpxK family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00409}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL19919.1; -; Genomic_DNA.
+DR   RefSeq; NP_459960.1; NC_003197.2.
+DR   RefSeq; WP_000561681.1; NC_003197.2.
+DR   SMR; Q8ZQC2; -.
+DR   PaxDb; Q8ZQC2; -.
+DR   EnsemblBacteria; AAL19919; AAL19919; STM0985.
+DR   GeneID; 1252503; -.
+DR   KEGG; stm:STM0985; -.
+DR   PATRIC; fig|99287.12.peg.1038; -.
+DR   HOGENOM; CLU_038816_2_0_6; -.
+DR   OMA; MDDGFQN; -.
+DR   PhylomeDB; Q8ZQC2; -.
+DR   UniPathway; UPA00359; UER00482.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009029; F:tetraacyldisaccharide 4'-kinase activity; IBA:GO_Central.
+DR   GO; GO:0009245; P:lipid A biosynthetic process; IBA:GO_Central.
+DR   GO; GO:0009244; P:lipopolysaccharide core region biosynthetic process; IBA:GO_Central.
+DR   HAMAP; MF_00409; LpxK; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003758; Tetraacyldisaccharide_4-kinase.
+DR   PANTHER; PTHR42724; PTHR42724; 1.
+DR   Pfam; PF02606; LpxK; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00682; lpxK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Lipid A biosynthesis; Lipid biosynthesis;
+KW   Lipid metabolism; Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN           1..325
+FT                   /note="Tetraacyldisaccharide 4'-kinase"
+FT                   /id="PRO_0000190950"
+FT   NP_BIND         55..62
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00409"
+SQ   SEQUENCE   325 AA;  34995 MW;  CF61D1412A687912 CRC64;
+     MIARIWSGES PLWRLLLPLS WLYGLVSGAI RLSYKLGFKR AWRAPVPVVV VGNLTAGGNG
+     KTPVVIWLVE KLQQRGVRVG VVSRGYGGKA AAYPLLLTPE TTTAEAGDEP VLIYQRTGAP
+     VAVAPERAAA VKAILAAHNV QIIITDDGLQ HYRLARDIEI VVIDGVRRFG NGWWLPAGPM
+     RERASRLKTV DAAIVNGGVA RAGEIPMQLA PGLAVNLRTG ARCDVAQLSN IVAMAGIGHP
+     PRFFATLEAC GAHPQKCVPL ADHQTLAPAD VQALVGEGQT LVMTEKDAVK CRAFAEDNWW
+     FLPVDARLSG EQPDKLLQHI TSLVR
+//

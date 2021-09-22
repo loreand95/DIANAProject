@@ -1,0 +1,102 @@
+ID   GATA_COXBU              Reviewed;         483 AA.
+AC   Q83BM9;
+DT   15-DEC-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   10-FEB-2021, entry version 88.
+DE   RecName: Full=Glutamyl-tRNA(Gln) amidotransferase subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            Short=Glu-ADT subunit A {ECO:0000255|HAMAP-Rule:MF_00120};
+DE            EC=6.3.5.7 {ECO:0000255|HAMAP-Rule:MF_00120};
+GN   Name=gatA {ECO:0000255|HAMAP-Rule:MF_00120}; OrderedLocusNames=CBU_1474;
+OS   Coxiella burnetii (strain RSA 493 / Nine Mile phase I).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae;
+OC   Coxiella.
+OX   NCBI_TaxID=227377;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=RSA 493 / Nine Mile phase I;
+RX   PubMed=12704232; DOI=10.1073/pnas.0931379100;
+RA   Seshadri R., Paulsen I.T., Eisen J.A., Read T.D., Nelson K.E., Nelson W.C.,
+RA   Ward N.L., Tettelin H., Davidsen T.M., Beanan M.J., DeBoy R.T.,
+RA   Daugherty S.C., Brinkac L.M., Madupu R., Dodson R.J., Khouri H.M.,
+RA   Lee K.H., Carty H.A., Scanlan D., Heinzen R.A., Thompson H.A., Samuel J.E.,
+RA   Fraser C.M., Heidelberg J.F.;
+RT   "Complete genome sequence of the Q-fever pathogen, Coxiella burnetii.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:5455-5460(2003).
+CC   -!- FUNCTION: Allows the formation of correctly charged Gln-tRNA(Gln)
+CC       through the transamidation of misacylated Glu-tRNA(Gln) in organisms
+CC       which lack glutaminyl-tRNA synthetase. The reaction takes place in the
+CC       presence of glutamine and ATP through an activated gamma-phospho-Glu-
+CC       tRNA(Gln). {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-glutamine + L-glutamyl-tRNA(Gln) = ADP + H(+) +
+CC         L-glutamate + L-glutaminyl-tRNA(Gln) + phosphate;
+CC         Xref=Rhea:RHEA:17521, Rhea:RHEA-COMP:9681, Rhea:RHEA-COMP:9684,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:29985,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:58359,
+CC         ChEBI:CHEBI:78520, ChEBI:CHEBI:78521, ChEBI:CHEBI:456216; EC=6.3.5.7;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00120};
+CC   -!- SUBUNIT: Heterotrimer of A, B and C subunits. {ECO:0000255|HAMAP-
+CC       Rule:MF_00120}.
+CC   -!- SIMILARITY: Belongs to the amidase family. GatA subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00120}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016828; AAO90971.1; -; Genomic_DNA.
+DR   RefSeq; NP_820457.1; NC_002971.3.
+DR   RefSeq; WP_005772005.1; NZ_LM994641.1.
+DR   SMR; Q83BM9; -.
+DR   STRING; 227377.CBU_1474; -.
+DR   EnsemblBacteria; AAO90971; AAO90971; CBU_1474.
+DR   GeneID; 1209384; -.
+DR   KEGG; cbu:CBU_1474; -.
+DR   PATRIC; fig|227377.7.peg.1474; -.
+DR   eggNOG; COG0154; Bacteria.
+DR   HOGENOM; CLU_009600_0_3_6; -.
+DR   OMA; MYLSDIF; -.
+DR   BioCyc; CBUR227377:G1G0B-1460-MONOMER; -.
+DR   Proteomes; UP000002671; Chromosome.
+DR   GO; GO:0030956; C:glutamyl-tRNA(Gln) amidotransferase complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0050567; F:glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.1300.10; -; 1.
+DR   HAMAP; MF_00120; GatA; 1.
+DR   InterPro; IPR000120; Amidase.
+DR   InterPro; IPR020556; Amidase_CS.
+DR   InterPro; IPR023631; Amidase_dom.
+DR   InterPro; IPR036928; AS_sf.
+DR   InterPro; IPR004412; GatA.
+DR   PANTHER; PTHR11895; PTHR11895; 1.
+DR   Pfam; PF01425; Amidase; 1.
+DR   SUPFAM; SSF75304; SSF75304; 1.
+DR   TIGRFAMs; TIGR00132; gatA; 1.
+DR   PROSITE; PS00571; AMIDASES; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..483
+FT                   /note="Glutamyl-tRNA(Gln) amidotransferase subunit A"
+FT                   /id="PRO_0000105160"
+FT   ACT_SITE        76
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        151
+FT                   /note="Charge relay system"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+FT   ACT_SITE        175
+FT                   /note="Acyl-ester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00120"
+SQ   SEQUENCE   483 AA;  52562 MW;  92A5234E89180E64 CRC64;
+     MHQKTIAELK QDLRDKTISS VELTQHFLDR IKTINPTLNS FISITEEYAL TQAKAADARL
+     AKGEATSLTG IPIAQKDIFC TKDIKTSCGS KMLDNFIAPY DATVVEQLNK AGAILIGKTN
+     MDEFAMGSSN ENSYFGAVKN PWDLERVPGG SSGGSAAAVA ARLVPGATGT DTGGSIRQPA
+     ALCGITGLKP TYGRVSRYGM IAFASSLDQA GPMAQTAEDA ALLLNALAGH DAKDSTSINK
+     NVPDYTATLT TSLEGLKVGL PKEYFGEGLN SSIAESIETV KKTLEKMGAT FIEIQLPHTD
+     FAAPAYYVLA PAECSSNLAR YDGVRYGYRC DKPVDLDDLY KRSRTEGFGS EVKRRIMIGT
+     YVLSAGYYDA YYLKAQKIRR LIRDDFMKAF ETVDVILTPA TPTPAFKLNE KIADPVAMYL
+     SDVYTIAVNL AGLPAIAFPA GFMDQLPIGA QLIGNYFEEA RLLNITHRYQ QETDWHKQSP
+     KLR
+//

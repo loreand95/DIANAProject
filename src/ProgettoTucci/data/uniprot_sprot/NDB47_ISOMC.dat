@@ -1,0 +1,85 @@
+ID   NDB47_ISOMC             Reviewed;          74 AA.
+AC   C7B247;
+DT   20-APR-2010, integrated into UniProtKB/Swiss-Prot.
+DT   22-SEP-2009, sequence version 1.
+DT   11-DEC-2019, entry version 18.
+DE   RecName: Full=Imcroporin {ECO:0000303|PubMed:28941793};
+DE   AltName: Full=Non-disulfide-bridged peptide 4.7 {ECO:0000303|PubMed:24184590};
+DE            Short=NDBP-4.7 {ECO:0000303|PubMed:24184590};
+DE   Flags: Precursor;
+OS   Isometrus maculatus (Lesser brown scorpion) (Scorpio maculatus).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida;
+OC   Scorpiones; Buthida; Buthoidea; Buthidae; Isometrus.
+OX   NCBI_TaxID=497827;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], SYNTHESIS, FUNCTION, AND TISSUE SPECIFICITY.
+RC   TISSUE=Venom gland;
+RX   PubMed=19451300; DOI=10.1128/aac.01436-08;
+RA   Zhao Z., Ma Y., Dai C., Zhao R., Li S., Wu Y., Cao Z., Li W.;
+RT   "Imcroporin, a new cationic antimicrobial peptide from the venom of the
+RT   scorpion Isometrus maculates.";
+RL   Antimicrob. Agents Chemother. 53:3472-3477(2009).
+RN   [2]
+RP   NOMENCLATURE.
+RX   PubMed=24184590; DOI=10.1016/j.peptides.2013.10.021;
+RA   Almaaytah A., Albalas Q.;
+RT   "Scorpion venom peptides with no disulfide bridges: a review.";
+RL   Peptides 51:35-45(2014).
+RN   [3]
+RP   PROTEIN SEQUENCE OF 23-39, SUBCELLULAR LOCATION, MASS SPECTROMETRY,
+RP   IDENTIFICATION BY MASS SPECTROMETRY, AND AMIDATION AT LYS-39.
+RC   TISSUE=Venom {ECO:0000303|PubMed:28941793};
+RX   PubMed=28941793; DOI=10.1016/j.toxicon.2017.09.010;
+RA   Miyashita M., Kitanaka A., Yakio M., Yamazaki Y., Nakagawa Y., Miyagawa H.;
+RT   "Complete de novo sequencing of antimicrobial peptides in the venom of the
+RT   scorpion Isometrus maculatus.";
+RL   Toxicon 139:1-12(2017).
+CC   -!- FUNCTION: Has potent antibacterial activity against Gram-positive
+CC       bacteria M.luteus, B.thuringiensis, S.aureus and B.subtilis, but not
+CC       Gram-negative bacteria. Shows a weak cytotoxicity effect against
+CC       mammalian cell lines and relatively low hemolytic activity against
+CC       human erythrocytes. {ECO:0000269|PubMed:19451300}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:28941793}. Target
+CC       cell membrane {ECO:0000305|PubMed:28941793}. Note=Probably forms a
+CC       helical membrane channel in the prey. {ECO:0000305|PubMed:28941793}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000269|PubMed:19451300}.
+CC   -!- MASS SPECTROMETRY: Mass=1760.0; Method=MALDI; Note=Amidated.;
+CC       Evidence={ECO:0000269|PubMed:28941793};
+CC   -!- MASS SPECTROMETRY: Mass=1761.0; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:28941793};
+CC   -!- MISCELLANEOUS: A fragment comprising residues 4-17 has been detected in
+CC       venom but it is unclear whether it has a physiological role or is
+CC       simply due to degradation. {ECO:0000305|PubMed:28941793}.
+CC   -!- SIMILARITY: Belongs to the non-disulfide-bridged peptide (NDBP)
+CC       superfamily. Short antimicrobial peptide (group 4) family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ750949; ACT78488.1; -; mRNA.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016020; C:membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0044218; C:other organism cell membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+PE   1: Evidence at protein level;
+KW   Amidation; Antibiotic; Antimicrobial; Cleavage on pair of basic residues;
+KW   Direct protein sequencing; Membrane; Secreted; Signal;
+KW   Target cell membrane; Target membrane.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000269|PubMed:28941793"
+FT   PEPTIDE         23..39
+FT                   /note="Imcroporin"
+FT                   /evidence="ECO:0000269|PubMed:28941793"
+FT                   /id="PRO_0000393447"
+FT   PROPEP          45..74
+FT                   /evidence="ECO:0000305|PubMed:28941793"
+FT                   /id="PRO_0000393448"
+FT   MOD_RES         39
+FT                   /note="Lysine amide; partial"
+FT                   /evidence="ECO:0000269|PubMed:28941793"
+SQ   SEQUENCE   74 AA;  8777 MW;  CFF4AE6A2C2F1529 CRC64;
+     MKFQYLLAVF LIVLVVTDHC QAFFSLLPSL IGGLVSAIKG RRRRQLEARF EPKQRNFRKR
+     ELDFEKLFAN MPDY
+//

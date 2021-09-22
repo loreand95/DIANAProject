@@ -1,0 +1,112 @@
+ID   H1A01_CYRHA             Reviewed;          83 AA.
+AC   D2Y1X6; P83591;
+DT   02-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAR-2010, sequence version 1.
+DT   07-APR-2021, entry version 29.
+DE   RecName: Full=Mu-theraphotoxin-Hhn2b 1;
+DE            Short=Mu-TRTX-Hhn2b;
+DE   AltName: Full=Hainantoxin-1;
+DE   AltName: Full=Hainantoxin-I;
+DE            Short=HnTx-I;
+DE   AltName: Full=Peptide F5-19.03;
+DE   Flags: Precursor;
+OS   Cyriopagopus hainanus (Chinese bird spider) (Haplopelma hainanum).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Chelicerata; Arachnida; Araneae;
+OC   Mygalomorphae; Theraphosidae; Haplopelma.
+OX   NCBI_TaxID=209901;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], PROTEIN SEQUENCE OF 49-81, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Venom, and Venom gland;
+RX   PubMed=20192277; DOI=10.1021/pr1000016;
+RA   Tang X., Zhang Y., Hu W., Xu D., Tao H., Yang X., Li Y., Jiang L.,
+RA   Liang S.;
+RT   "Molecular diversification of peptide toxins from the tarantula Haplopelma
+RT   hainanum (Ornithoctonus hainana) venom based on transcriptomic, peptidomic,
+RT   and genomic analyses.";
+RL   J. Proteome Res. 9:2550-2564(2010).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 49-81.
+RC   TISSUE=Venom;
+RX   PubMed=12727268; DOI=10.1016/s0041-0101(02)00280-5;
+RA   Xiao Y.-C., Liang S.-P.;
+RT   "Purification and characterization of Hainantoxin-V, a tetrodotoxin-
+RT   sensitive sodium channel inhibitor from the venom of the spider
+RT   Selenocosmia hainana.";
+RL   Toxicon 41:643-650(2003).
+RN   [3]
+RP   SEQUENCE REVISION TO 78-81, FUNCTION, TOXIN TARGET, SUBUNIT, SUBCELLULAR
+RP   LOCATION, TISSUE SPECIFICITY, MASS SPECTROMETRY, DISULFIDE BONDS, AMIDATION
+RP   AT LEU-81, IC(50), AND STRUCTURE BY NMR.
+RC   TISSUE=Venom;
+RX   PubMed=14675784; DOI=10.1016/s0014-5793(03)01303-6;
+RA   Li D.-L., Xiao Y.-C., Hu W.-J., Xie J.-Y., Bosmans F., Tytgat J.,
+RA   Liang S.-P.;
+RT   "Function and solution structure of hainantoxin-I, a novel insect sodium
+RT   channel inhibitor from the Chinese bird spider Selenocosmia hainana.";
+RL   FEBS Lett. 555:616-622(2003).
+CC   -!- FUNCTION: Is a depressant toxin. Blocks the SCN2A/SCN1B (Nav1.2/Beta1)
+CC       sodium channel receptor (IC(50) is 68 +-6 uM) and the insect sodium
+CC       channel para/tipE (IC(50) is 4.3 +-0.3 uM), without altering the
+CC       activation or inactivation kinetics. {ECO:0000269|PubMed:14675784}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:14675784}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:14675784}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom gland.
+CC       {ECO:0000269|PubMed:14675784}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC   -!- MASS SPECTROMETRY: Mass=3608.02; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:14675784};
+CC   -!- SIMILARITY: Belongs to the neurotoxin 10 (Hwtx-1) family. 14 (Hntx-1)
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; GU292853; ADB56669.1; -; mRNA.
+DR   PDB; 1NIX; NMR; -; A=49-81.
+DR   PDBsum; 1NIX; -.
+DR   BMRB; D2Y1X6; -.
+DR   SMR; D2Y1X6; -.
+DR   ArachnoServer; AS000338; mu-theraphotoxin-Hhn2b.
+DR   EvolutionaryTrace; D2Y1X6; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR011696; Huwentoxin-1.
+DR   InterPro; IPR013140; Huwentoxin_CS1.
+DR   Pfam; PF07740; Toxin_12; 1.
+DR   PROSITE; PS60021; HWTX_1; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amidation; Direct protein sequencing; Disulfide bond;
+KW   Ion channel impairing toxin; Knottin; Neurotoxin; Secreted; Signal; Toxin;
+KW   Voltage-gated sodium channel impairing toxin.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          22..48
+FT                   /evidence="ECO:0000269|PubMed:12727268,
+FT                   ECO:0000269|PubMed:20192277"
+FT                   /id="PRO_0000400495"
+FT   PEPTIDE         49..81
+FT                   /note="Mu-theraphotoxin-Hhn2b 1"
+FT                   /id="PRO_0000045004"
+FT   MOD_RES         81
+FT                   /note="Leucine amide"
+FT                   /evidence="ECO:0000269|PubMed:14675784"
+FT   DISULFID        50..65
+FT                   /evidence="ECO:0000269|PubMed:14675784"
+FT   DISULFID        57..70
+FT                   /evidence="ECO:0000269|PubMed:14675784"
+FT   DISULFID        64..77
+FT                   /evidence="ECO:0000269|PubMed:14675784"
+FT   TURN            59..62
+FT                   /evidence="ECO:0007744|PDB:1NIX"
+FT   STRAND          68..70
+FT                   /evidence="ECO:0007744|PDB:1NIX"
+FT   STRAND          72..79
+FT                   /evidence="ECO:0007744|PDB:1NIX"
+SQ   SEQUENCE   83 AA;  9240 MW;  A72E5B88B0E04922 CRC64;
+     MKASMFLALA GLVLLFVVCY ASESEEKEFP RELISKIFAV DDFKGEEREC KGFGKSCVPG
+     KNECCSGYAC NSRDKWCKVL LGK
+//

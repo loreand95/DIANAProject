@@ -1,0 +1,109 @@
+ID   HSDB_ARAHY              Reviewed;         353 AA.
+AC   A7LB59;
+DT   17-JUN-2020, integrated into UniProtKB/Swiss-Prot.
+DT   11-SEP-2007, sequence version 1.
+DT   02-DEC-2020, entry version 45.
+DE   RecName: Full=11-beta-hydroxysteroid dehydrogenase B {ECO:0000305};
+DE            EC=1.1.1.146 {ECO:0000250|UniProtKB:Q8LKV5};
+DE   AltName: Full=17-beta-hydroxysteroid dehydrogenase B {ECO:0000305};
+DE            EC=1.1.1.- {ECO:0000250|UniProtKB:Q8LKV5};
+DE   AltName: Full=Steroleosin-B {ECO:0000303|PubMed:25860789, ECO:0000312|EMBL:ABS28873.1};
+GN   Name=STO-B {ECO:0000312|EMBL:ABS28873.1};
+OS   Arachis hypogaea (Peanut).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50 kb inversion clade;
+OC   dalbergioids sensu lato; Dalbergieae; Pterocarpus clade; Arachis.
+OX   NCBI_TaxID=3818 {ECO:0000312|EMBL:ABS28873.1};
+RN   [1] {ECO:0000312|EMBL:ABS28873.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Shanyou 523 {ECO:0000303|Ref.1};
+RA   Fu G., Li C., Wang L., Huang S.;
+RT   "Cloning and characterization of two genes encoding peanut seed
+RT   steroleosins.";
+RL   Submitted (JUN-2007) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   PROTEIN SEQUENCE OF 86-92; 114-125; 115-125; 238-252; 253-266; 281-292;
+RP   305-313 AND 324-337, SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   TISSUE=Seed {ECO:0000269|PubMed:25860789};
+RX   PubMed=25860789; DOI=10.1371/journal.pone.0123419;
+RA   Schwager C., Kull S., Krause S., Schocker F., Petersen A., Becker W.M.,
+RA   Jappe U.;
+RT   "Development of a novel strategy to isolate lipophilic allergens (oleosins)
+RT   from peanuts.";
+RL   PLoS ONE 10:E0123419-E0123419(2015).
+CC   -!- FUNCTION: Has dehydrogenase activity against 11 beta-hydroxysteroid and
+CC       17 beta-hydroxysteroid. May be involved in signal transduction
+CC       regulated by various sterols. {ECO:0000250|UniProtKB:Q8LKV5}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an 11beta-hydroxysteroid + NADP(+) = an 11-oxosteroid + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:11388, ChEBI:CHEBI:15378, ChEBI:CHEBI:35346,
+CC         ChEBI:CHEBI:47787, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349;
+CC         EC=1.1.1.146; Evidence={ECO:0000250|UniProtKB:Q8LKV5};
+CC   -!- SUBCELLULAR LOCATION: Lipid droplet {ECO:0000269|PubMed:25860789}.
+CC       Membrane {ECO:0000255}; Single-pass type II membrane protein
+CC       {ECO:0000305}. Note=Surface of oil bodies. Exists at a monolayer
+CC       lipid/water interface. {ECO:0000305}.
+CC   -!- TISSUE SPECIFICITY: Expressed in seeds (at protein level).
+CC       {ECO:0000269|PubMed:25860789}.
+CC   -!- DOMAIN: The proline-knob motif may be involved in the targeting to oil
+CC       bodies. {ECO:0000250|UniProtKB:Q93W57}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; EF695403; ABS28873.1; -; mRNA.
+DR   SMR; A7LB59; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0012511; C:monolayer-surrounded lipid storage body; IDA:UniProtKB.
+DR   GO; GO:0070524; F:11-beta-hydroxysteroid dehydrogenase (NADP+) activity; ISS:UniProtKB.
+DR   GO; GO:0072582; F:17-beta-hydroxysteroid dehydrogenase (NADP+) activity; ISS:UniProtKB.
+DR   GO; GO:0050661; F:NADP binding; ISS:UniProtKB.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   Pfam; PF00106; adh_short; 1.
+DR   PRINTS; PR00081; GDHRDH.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   1: Evidence at protein level;
+KW   Direct protein sequencing; Lipid droplet; Membrane; NADP; Oxidoreductase;
+KW   Signal-anchor; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..353
+FT                   /note="11-beta-hydroxysteroid dehydrogenase B"
+FT                   /id="PRO_5002712241"
+FT   TRANSMEM        10..30
+FT                   /note="Helical; Signal-anchor for type II membrane protein"
+FT                   /evidence="ECO:0000255"
+FT   NP_BIND         54..80
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P14061"
+FT   NP_BIND         197..201
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P28845"
+FT   MOTIF           13..26
+FT                   /note="Proline-knob"
+FT                   /evidence="ECO:0000250|UniProtKB:Q93W57"
+FT   ACT_SITE        197
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         105
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P14061"
+FT   BINDING         184
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P28845"
+FT   BINDING         201
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P14061"
+SQ   SEQUENCE   353 AA;  39598 MW;  9170A1DB52B5B290 CRC64;
+     MDLINSVLNL FVPPASLITL AFSWPALCFP HACEWLYNTV YGDNMDGKVV IITGASSGIG
+     EQIAYEYALR RACLVLVARR EHRLRGIAEN ARRMGARHVM IVAADVVKED ECRRFVNETI
+     NFYGRVDHLV NTVSLGHTFY FEEVTDTSVF PVLLDINFWG NIYPTLVALP YLHRTNGRVI
+     INASVESWLP LPRMSLYAAA KAALVNFYET LRFELRDEVG VTIATHGWIG SEMTSGKFML
+     EEGAEMQWKE EREMNVIGGP VEEFARLMVA GACRGDAYVK YPSWYDVFLL YRVFAPNVLN
+     WAFRLLIAPQ GTKRTSSYVG TGRSLEGRPM LEAPSPRTAL LAPYSFSGGG QLS
+//

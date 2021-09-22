@@ -1,0 +1,101 @@
+ID   IL10_PIG                Reviewed;         175 AA.
+AC   Q29055;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   02-DEC-2020, entry version 122.
+DE   RecName: Full=Interleukin-10;
+DE            Short=IL-10;
+DE   AltName: Full=Cytokine synthesis inhibitory factor;
+DE            Short=CSIF;
+DE   Flags: Precursor;
+GN   Name=IL10;
+OS   Sus scrofa (Pig).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Laurasiatheria; Artiodactyla; Suina; Suidae; Sus.
+OX   NCBI_TaxID=9823;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Spleen;
+RX   PubMed=7708727; DOI=10.1073/pnas.92.7.2800;
+RA   Blancho G., Gianello P., Germana S., Baetscher M., Sachs D.H., Leguern C.;
+RT   "Molecular identification of porcine interleukin 10: regulation of
+RT   expression in a kidney allograft model.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 92:2800-2804(1995).
+CC   -!- FUNCTION: Major immune regulatory cytokine that acts on many cells of
+CC       the immune system where it has profound anti-inflammatory functions,
+CC       limiting excessive tissue disruption caused by inflammation.
+CC       Mechanistically, IL10 binds to its heterotetrameric receptor comprising
+CC       IL10RA and IL10RB leading to JAK1 and STAT2-mediated phosphorylation of
+CC       STAT3. In turn, STAT3 translocates to the nucleus where it drives
+CC       expression of anti-inflammatory mediators. Targets antigen-presenting
+CC       cells (APCs) such as macrophages and monocytes and inhibits their
+CC       release of pro-inflammatory cytokines including granulocyte-macrophage
+CC       colony-stimulating factor /GM-CSF, granulocyte colony-stimulating
+CC       factor/G-CSF, IL-1 alpha, IL-1 beta, IL-6, IL-8 and TNF-alpha.
+CC       Interferes also with antigen presentation by reducing the expression of
+CC       MHC-class II and co-stimulatory molecules, thereby inhibiting their
+CC       ability to induce T cell activation (By similarity). In addition,
+CC       controls the inflammatory response of macrophages by reprogramming
+CC       essential metabolic pathways including mTOR signaling (By similarity).
+CC       {ECO:0000250|UniProtKB:P18893, ECO:0000250|UniProtKB:P22301}.
+CC   -!- SUBUNIT: Homodimer. Interacts with IL10RA and IL10RB.
+CC       {ECO:0000250|UniProtKB:P22301}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250|UniProtKB:P22301}.
+CC   -!- SIMILARITY: Belongs to the IL-10 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L20001; AAA74410.1; -; mRNA.
+DR   PIR; I46591; I46591.
+DR   RefSeq; NP_999206.1; NM_214041.1.
+DR   SMR; Q29055; -.
+DR   STRING; 9823.ENSSSCP00000016594; -.
+DR   PaxDb; Q29055; -.
+DR   Ensembl; ENSSSCT00005007269; ENSSSCP00005004226; ENSSSCG00005004875.
+DR   GeneID; 397106; -.
+DR   KEGG; ssc:397106; -.
+DR   CTD; 3586; -.
+DR   eggNOG; ENOG502S22U; Eukaryota.
+DR   HOGENOM; CLU_127747_0_0_1; -.
+DR   InParanoid; Q29055; -.
+DR   OMA; MIQFYLV; -.
+DR   OrthoDB; 1389566at2759; -.
+DR   TreeFam; TF333253; -.
+DR   Proteomes; UP000008227; Unplaced.
+DR   Proteomes; UP000314985; Unplaced.
+DR   Bgee; ENSSSCG00000015652; Expressed in blood and 20 other tissues.
+DR   ExpressionAtlas; Q29055; baseline and differential.
+DR   Genevisible; Q29055; SS.
+DR   GO; GO:0005615; C:extracellular space; IEA:UniProtKB-KW.
+DR   GO; GO:0005125; F:cytokine activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006955; P:immune response; IEA:InterPro.
+DR   InterPro; IPR009079; 4_helix_cytokine-like_core.
+DR   InterPro; IPR000098; IL-10.
+DR   InterPro; IPR020443; IL-10/19/20/22/24/26_fam.
+DR   InterPro; IPR020423; IL-10_CS.
+DR   Pfam; PF00726; IL10; 1.
+DR   PRINTS; PR01294; INTRLEUKIN10.
+DR   SMART; SM00188; IL10; 1.
+DR   SUPFAM; SSF47266; SSF47266; 1.
+DR   PROSITE; PS00520; INTERLEUKIN_10; 1.
+PE   2: Evidence at transcript level;
+KW   Cytokine; Disulfide bond; Glycoprotein; Reference proteome; Secreted;
+KW   Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           19..175
+FT                   /note="Interleukin-10"
+FT                   /id="PRO_0000015370"
+FT   CARBOHYD        130
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        26..122
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        76..128
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   175 AA;  19934 MW;  DB85B9984C1570BF CRC64;
+     MPSSALLYCL IFLAGVAASI KSENSCIHFP TSLPHMLREL RAAFGPVKSF FQTKDQMGDL
+     LLTGSLLEDF KGYLGCQALS EMIQFYLEDV MPKAESDGED IKEHVNSLGE KLKTLRLRLR
+     RCHQFLPCEN KSKAVEEVKS AFSKLQERGV YKAMGEFDIF INYIEAYMTM KMRKN
+//

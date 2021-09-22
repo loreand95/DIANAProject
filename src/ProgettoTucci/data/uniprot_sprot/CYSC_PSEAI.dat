@@ -1,0 +1,67 @@
+ID   CYSC_PSEAI              Reviewed;         214 AA.
+AC   P29811;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   11-DEC-2019, entry version 82.
+DE   RecName: Full=Probable adenylyl-sulfate kinase;
+DE            EC=2.7.1.25;
+DE   AltName: Full=APS kinase;
+DE   AltName: Full=ATP adenosine-5'-phosphosulfate 3'-phosphotransferase;
+DE   AltName: Full=Adenosine-5'-phosphosulfate kinase;
+OS   Pseudomonas aeruginosa.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=PST-I;
+RX   PubMed=1649572; DOI=10.1128/aac.35.5.892;
+RA   Vliegenthart J.S., Ketelaar-Van Gaalen P.A.G., van de Klundert J.A.M.;
+RT   "Nucleotide sequence of the aacC3 gene, a gentamicin resistance determinant
+RT   encoding aminoglycoside-(3)-N-acetyltransferase III expressed in
+RT   Pseudomonas aeruginosa but not in Escherichia coli.";
+RL   Antimicrob. Agents Chemother. 35:892-897(1991).
+CC   -!- FUNCTION: Catalyzes the synthesis of activated sulfate. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine 5'-phosphosulfate + ATP = 3'-phosphoadenylyl sulfate
+CC         + ADP + H(+); Xref=Rhea:RHEA:24152, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:58243, ChEBI:CHEBI:58339,
+CC         ChEBI:CHEBI:456216; EC=2.7.1.25;
+CC   -!- PATHWAY: Sulfur metabolism; hydrogen sulfide biosynthesis; sulfite from
+CC       sulfate: step 2/3.
+CC   -!- SIMILARITY: Belongs to the APS kinase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X55652; CAA39183.1; -; Genomic_DNA.
+DR   PIR; S18729; S18729.
+DR   SMR; P29811; -.
+DR   UniPathway; UPA00140; UER00205.
+DR   GO; GO:0004020; F:adenylylsulfate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070814; P:hydrogen sulfide biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0000103; P:sulfate assimilation; IEA:UniProtKB-UniRule.
+DR   CDD; cd02027; APSK; 1.
+DR   HAMAP; MF_00065; Adenylyl_sulf_kinase; 1.
+DR   InterPro; IPR002891; APS_kinase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00455; apsK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Kinase; Nucleotide-binding; Phosphoprotein; Transferase.
+FT   CHAIN           1..214
+FT                   /note="Probable adenylyl-sulfate kinase"
+FT                   /id="PRO_0000105914"
+FT   NP_BIND         13..20
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+FT   ACT_SITE        87
+FT                   /note="Phosphoserine intermediate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   214 AA;  23922 MW;  B0C207AC0DE9949E CRC64;
+     MIEHPGFVLW FTGLSGAGKT TIAVALENQL RARGIRIERL DGDTVRQSLT KDLGFSKEDR
+     DKNIERVTFV AKLLSRNNVA VLSSFISPYA ATRDHVRGET TNFIEVFVDA PLETCIERDV
+     KGMYKKAIAG EIPNFTGISD PYEAPANPDI HVKTHEQTLE ESVQTIIRRS SHGWNRTNTF
+     PLKSRPNPPH RHKSKSSRAG EPFISPVFVL SIIA
+//

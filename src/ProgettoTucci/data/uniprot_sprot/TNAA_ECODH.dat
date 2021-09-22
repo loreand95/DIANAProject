@@ -1,0 +1,98 @@
+ID   TNAA_ECODH              Reviewed;         471 AA.
+AC   B1X9T7;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=Tryptophanase {ECO:0000255|HAMAP-Rule:MF_00544};
+DE            EC=4.1.99.1 {ECO:0000255|HAMAP-Rule:MF_00544};
+DE   AltName: Full=L-tryptophan indole-lyase {ECO:0000255|HAMAP-Rule:MF_00544};
+DE            Short=TNase {ECO:0000255|HAMAP-Rule:MF_00544};
+GN   Name=tnaA {ECO:0000255|HAMAP-Rule:MF_00544};
+GN   OrderedLocusNames=ECDH10B_3895;
+OS   Escherichia coli (strain K12 / DH10B).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=316385;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / DH10B;
+RX   PubMed=18245285; DOI=10.1128/jb.01695-07;
+RA   Durfee T., Nelson R., Baldwin S., Plunkett G. III, Burland V., Mau B.,
+RA   Petrosino J.F., Qin X., Muzny D.M., Ayele M., Gibbs R.A., Csorgo B.,
+RA   Posfai G., Weinstock G.M., Blattner F.R.;
+RT   "The complete genome sequence of Escherichia coli DH10B: insights into the
+RT   biology of a laboratory workhorse.";
+RL   J. Bacteriol. 190:2597-2606(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-tryptophan = indole + NH4(+) + pyruvate;
+CC         Xref=Rhea:RHEA:19553, ChEBI:CHEBI:15361, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:16881, ChEBI:CHEBI:28938, ChEBI:CHEBI:57912; EC=4.1.99.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00544};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00544};
+CC   -!- PATHWAY: Amino-acid degradation; L-tryptophan degradation via pyruvate
+CC       pathway; indole and pyruvate from L-tryptophan: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00544}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00544}.
+CC   -!- SIMILARITY: Belongs to the beta-eliminating lyase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00544}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000948; ACB04752.1; -; Genomic_DNA.
+DR   RefSeq; WP_001295247.1; NC_010473.1.
+DR   SMR; B1X9T7; -.
+DR   GeneID; 58463277; -.
+DR   KEGG; ecd:ECDH10B_3895; -.
+DR   HOGENOM; CLU_047223_0_0_6; -.
+DR   OMA; EMYQYGD; -.
+DR   BioCyc; ECOL316385:ECDH10B_RS19835-MONOMER; -.
+DR   UniPathway; UPA00332; UER00452.
+DR   GO; GO:0009034; F:tryptophanase activity; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.640.10; -; 1.
+DR   Gene3D; 3.90.1150.10; -; 1.
+DR   HAMAP; MF_00544; Tryptophanase; 1.
+DR   InterPro; IPR001597; ArAA_b-elim_lyase/Thr_aldolase.
+DR   InterPro; IPR011166; Beta-eliminating_lyase.
+DR   InterPro; IPR015424; PyrdxlP-dep_Trfase.
+DR   InterPro; IPR015422; PyrdxlP-dep_Trfase_dom1.
+DR   InterPro; IPR015421; PyrdxlP-dep_Trfase_major.
+DR   InterPro; IPR013440; TNase.
+DR   InterPro; IPR018176; Tryptophanase_CS.
+DR   Pfam; PF01212; Beta_elim_lyase; 1.
+DR   PIRSF; PIRSF001386; Trpase; 1.
+DR   SUPFAM; SSF53383; SSF53383; 1.
+DR   TIGRFAMs; TIGR02617; tnaA_trp_ase; 1.
+DR   PROSITE; PS00853; BETA_ELIM_LYASE; 1.
+PE   3: Inferred from homology;
+KW   Acetylation; Lyase; Pyridoxal phosphate; Tryptophan catabolism.
+FT   CHAIN           1..471
+FT                   /note="Tryptophanase"
+FT                   /id="PRO_1000128910"
+FT   MOD_RES         5
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00544"
+FT   MOD_RES         115
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00544"
+FT   MOD_RES         156
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00544"
+FT   MOD_RES         270
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00544"
+FT   MOD_RES         450
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00544"
+SQ   SEQUENCE   471 AA;  52773 MW;  5AFC1F41BD9D0034 CRC64;
+     MENFKHLPEP FRIRVIEPVK RTTRAYREEA IIKSGMNPFL LDSEDVFIDL LTDSGTGAVT
+     QSMQAAMMRG DEAYSGSRSY YALAESVKNI FGYQYTIPTH QGRGAEQIYI PVLIKKREQE
+     KGLDRSKMVA FSNYFFDTTQ GHSQINGCTV RNVYIKEAFD TGVRYDFKGN FDLEGLERGI
+     EEVGPNNVPY IVATITSNSA GGQPVSLANL KAMYSIAKKY DIPVVMDSAR FAENAYFIKQ
+     REAEYKDWTI EQITRETYKY ADMLAMSAKK DAMVPMGGLL CMKDDSFFDV YTECRTLCVV
+     QEGFPTYGGL EGGAMERLAV GLYDGMNLDW LAYRIAQVQY LVDGLEEIGV VCQQAGGHAA
+     FVDAGKLLPH IPADQFPAQA LACELYKVAG IRAVEIGSFL LGRDPKTGKQ LPCPAELLRL
+     TIPRATYTQT HMDFIIEAFK HVKENAANIK GLTFTYEPKV LRHFTAKLKE V
+//

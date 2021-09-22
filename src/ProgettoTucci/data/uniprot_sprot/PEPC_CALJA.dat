@@ -1,0 +1,110 @@
+ID   PEPC_CALJA              Reviewed;         388 AA.
+AC   Q9N2D3;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   10-FEB-2021, entry version 116.
+DE   RecName: Full=Gastricsin;
+DE            EC=3.4.23.3;
+DE   AltName: Full=Pepsinogen C;
+DE   Flags: Precursor;
+GN   Name=PGC;
+OS   Callithrix jacchus (White-tufted-ear marmoset).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Platyrrhini; Cebidae;
+OC   Callitrichinae; Callithrix; Callithrix.
+OX   NCBI_TaxID=9483;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 17-26, FUNCTION, AND
+RP   ACTIVITY REGULATION.
+RC   TISSUE=Gastric mucosa;
+RX   PubMed=10788784; DOI=10.1093/oxfordjournals.jbchem.a022668;
+RA   Kageyama T.;
+RT   "New World monkey pepsinogens A and C, and prochymosins. Purification,
+RT   characterization of enzymatic properties, cDNA cloning, and molecular
+RT   evolution.";
+RL   J. Biochem. 127:761-770(2000).
+CC   -!- FUNCTION: Hydrolyzes a variety of proteins.
+CC       {ECO:0000269|PubMed:10788784}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=More restricted specificity than pepsin A, but shows
+CC         preferential cleavage at Tyr-|-Xaa bonds. High activity on
+CC         hemoglobin.; EC=3.4.23.3;
+CC   -!- ACTIVITY REGULATION: Inhibited by pepstatin.
+CC       {ECO:0000269|PubMed:10788784}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       pH dependence:
+CC         Optimum pH is about 2.;
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the peptidase A1 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AB038385; BAA90872.1; -; mRNA.
+DR   PIR; JC7246; JC7246.
+DR   RefSeq; XP_002746573.1; XM_002746527.2.
+DR   SMR; Q9N2D3; -.
+DR   STRING; 9483.ENSCJAP00000007671; -.
+DR   MEROPS; A01.003; -.
+DR   GeneID; 100404738; -.
+DR   KEGG; cjc:100404738; -.
+DR   CTD; 5225; -.
+DR   eggNOG; KOG1339; Eukaryota.
+DR   HOGENOM; CLU_013253_3_0_1; -.
+DR   InParanoid; Q9N2D3; -.
+DR   OMA; LSNNGYC; -.
+DR   OrthoDB; 1619495at2759; -.
+DR   TreeFam; TF314990; -.
+DR   Proteomes; UP000008225; Unplaced.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004190; F:aspartic-type endopeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007586; P:digestion; IEA:UniProtKB-KW.
+DR   Gene3D; 2.40.70.10; -; 2.
+DR   InterPro; IPR001461; Aspartic_peptidase_A1.
+DR   InterPro; IPR001969; Aspartic_peptidase_AS.
+DR   InterPro; IPR012848; Aspartic_peptidase_N.
+DR   InterPro; IPR033735; Gastricsin.
+DR   InterPro; IPR033121; PEPTIDASE_A1.
+DR   InterPro; IPR021109; Peptidase_aspartic_dom_sf.
+DR   PANTHER; PTHR13683; PTHR13683; 1.
+DR   PANTHER; PTHR13683:SF292; PTHR13683:SF292; 1.
+DR   Pfam; PF07966; A1_Propeptide; 1.
+DR   Pfam; PF00026; Asp; 1.
+DR   PRINTS; PR00792; PEPSIN.
+DR   SUPFAM; SSF50630; SSF50630; 1.
+DR   PROSITE; PS00141; ASP_PROTEASE; 2.
+DR   PROSITE; PS51767; PEPTIDASE_A1; 1.
+PE   1: Evidence at protein level;
+KW   Aspartyl protease; Digestion; Direct protein sequencing; Disulfide bond;
+KW   Hydrolase; Protease; Reference proteome; Secreted; Signal; Zymogen.
+FT   SIGNAL          1..16
+FT                   /evidence="ECO:0000269|PubMed:10788784"
+FT   PROPEP          17..59
+FT                   /note="Activation peptide"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000026052"
+FT   CHAIN           60..388
+FT                   /note="Gastricsin"
+FT                   /id="PRO_0000026053"
+FT   DOMAIN          73..385
+FT                   /note="Peptidase A1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01103"
+FT   ACT_SITE        91
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10094"
+FT   ACT_SITE        276
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10094"
+FT   DISULFID        104..109
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        267..271
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        310..343
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   388 AA;  42503 MW;  0BC48DBD1F7D2D8C CRC64;
+     MKWMVVAFIC LQLLEATVVK VPLKKFKSIR ETMKEKGLLW EFLKTHKHDP ARKYRVSDLS
+     VSYEPMDYMD AAYFGEISIG TPPQNFLVLF DTGSSNLWVP SVYCQSQACT SHSRFNPSAS
+     STYSSNGQTF SLQYGSGSLT GFFGYDTLTV QSIQVPNQEF GLSENEPGTN FVYAQFDGIM
+     GLAYPALSMG GATTAMQGML QEGALTSPVF SFYLSNQQGS SGGAVIFGGV DSSLYTGQIY
+     WAPVTQELYW QIGIEEFLIG GQASGWCSEG CQAIVDTGTS LLTVPQQYMS AFLEATGAQE
+     DEYGQFLVNC DSIQNLPTLT FIINGVEFPL PPSSYILSNN GYCTVGVEPT YLSSQNSQPL
+     WILGDVFLRS YYSVFDLGNN RVGFATAA
+//

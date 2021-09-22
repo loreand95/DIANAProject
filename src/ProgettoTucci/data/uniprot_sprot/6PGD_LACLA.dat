@@ -1,0 +1,135 @@
+ID   6PGD_LACLA              Reviewed;         472 AA.
+AC   Q9CHU6;
+DT   26-SEP-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2001, sequence version 1.
+DT   10-FEB-2021, entry version 126.
+DE   RecName: Full=6-phosphogluconate dehydrogenase, decarboxylating;
+DE            EC=1.1.1.44;
+GN   Name=gnd; OrderedLocusNames=LL0622; ORFNames=L0046;
+OS   Lactococcus lactis subsp. lactis (strain IL1403) (Streptococcus lactis).
+OC   Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+OC   Lactococcus.
+OX   NCBI_TaxID=272623;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=IL1403;
+RX   PubMed=11337471; DOI=10.1101/gr.gr-1697r;
+RA   Bolotin A., Wincker P., Mauger S., Jaillon O., Malarme K., Weissenbach J.,
+RA   Ehrlich S.D., Sorokin A.;
+RT   "The complete genome sequence of the lactic acid bacterium Lactococcus
+RT   lactis ssp. lactis IL1403.";
+RL   Genome Res. 11:731-753(2001).
+CC   -!- FUNCTION: Catalyzes the oxidative decarboxylation of 6-phosphogluconate
+CC       to ribulose 5-phosphate and CO(2), with concomitant reduction of NADP
+CC       to NADPH. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=6-phospho-D-gluconate + NADP(+) = CO2 + D-ribulose 5-phosphate
+CC         + NADPH; Xref=Rhea:RHEA:10116, ChEBI:CHEBI:16526, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58121, ChEBI:CHEBI:58349, ChEBI:CHEBI:58759; EC=1.1.1.44;
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribulose 5-phosphate from D-glucose 6-phosphate (oxidative stage): step
+CC       3/3.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the 6-phosphogluconate dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE005176; AAK04720.1; -; Genomic_DNA.
+DR   PIR; F86702; F86702.
+DR   RefSeq; NP_266778.1; NC_002662.1.
+DR   RefSeq; WP_003129534.1; NC_002662.1.
+DR   SMR; Q9CHU6; -.
+DR   STRING; 272623.L0046; -.
+DR   PaxDb; Q9CHU6; -.
+DR   EnsemblBacteria; AAK04720; AAK04720; L0046.
+DR   KEGG; lla:L0046; -.
+DR   PATRIC; fig|272623.7.peg.664; -.
+DR   eggNOG; COG0362; Bacteria.
+DR   HOGENOM; CLU_024540_4_2_9; -.
+DR   OMA; VIMVKAG; -.
+DR   BioCyc; LLAC272623:L0046-MONOMER; -.
+DR   UniPathway; UPA00115; UER00410.
+DR   Proteomes; UP000002196; Chromosome.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0004616; F:phosphogluconate dehydrogenase (decarboxylating) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019521; P:D-gluconate metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0006098; P:pentose-phosphate shunt; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 1.10.1040.10; -; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR013328; 6PGD_dom2.
+DR   InterPro; IPR006114; 6PGDH_C.
+DR   InterPro; IPR006113; 6PGDH_Gnd/GntZ.
+DR   InterPro; IPR006115; 6PGDH_NADP-bd.
+DR   InterPro; IPR006184; 6PGdom_BS.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR006183; Pgluconate_DH.
+DR   PANTHER; PTHR11811; PTHR11811; 1.
+DR   Pfam; PF00393; 6PGD; 1.
+DR   Pfam; PF03446; NAD_binding_2; 1.
+DR   PIRSF; PIRSF000109; 6PGD; 1.
+DR   PRINTS; PR00076; 6PGDHDRGNASE.
+DR   SMART; SM01350; 6PGD; 1.
+DR   SUPFAM; SSF48179; SSF48179; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00873; gnd; 1.
+DR   PROSITE; PS00461; 6PGD; 1.
+PE   3: Inferred from homology;
+KW   Gluconate utilization; NADP; Oxidoreductase; Pentose shunt;
+KW   Reference proteome.
+FT   CHAIN           1..472
+FT                   /note="6-phosphogluconate dehydrogenase, decarboxylating"
+FT                   /id="PRO_0000090045"
+FT   NP_BIND         10..15
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         33..35
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   NP_BIND         74..76
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   REGION          128..130
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          187..188
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        184
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        191
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         102
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         102
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         192
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         262
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         289
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         447
+FT                   /note="Substrate; shared with dimeric partner"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         453
+FT                   /note="Substrate; shared with dimeric partner"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   472 AA;  52424 MW;  6EF4F504F217E55F CRC64;
+     MAQANFGVVG MAVMGKNLAL NVESRGYTVA IYNRTTSKTE EVYKEHQDKN LVLTKTLEEF
+     VGSLEKPRRI MLMVQAGAAT DATIKSLLPL LDKGDILIDG GNTHFPDTMR RNAELADSGI
+     NFIGTGVSGG EKGALLGPSM MPGGQKEAYD LVAPIFEQIA AKAPQDGKPC VAYMGANGAG
+     HYVKMVHNGI EYGDMQLIAE SYDLLKRVLG LSNAEIQAIF EEWNEGELDS YLIEITKEVL
+     KRKDDEGEGY IVDKILDKAG NKGTGKWTSE SALDLGVPLP LITESVFARY ISTYKDERVK
+     ASKVLSGPAV NFSGDKKEVI EKIRKALYFS KIMSYAQGFA QLRKASEEFD WDLPYGTIAQ
+     IWRAGCIIRA EFLQNITDAF DKDSELENLL LDDYFVDITK RYQEAVRDVV SLAVQAGIPI
+     PTFTSAISYY DSYRSENLPA NLIQAQRDYF GAHTYERTDK AGIFHYDWYT ED
+//

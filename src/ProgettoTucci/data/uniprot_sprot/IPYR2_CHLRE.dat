@@ -1,0 +1,110 @@
+ID   IPYR2_CHLRE             Reviewed;         192 AA.
+AC   Q949J1;
+DT   17-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=Soluble inorganic pyrophosphatase 2;
+DE            EC=3.6.1.1;
+DE   AltName: Full=Pyrophosphate phospho-hydrolase 2;
+DE            Short=PPase 2;
+GN   Name=ppa2; Synonyms=ppaII;
+OS   Chlamydomonas reinhardtii (Chlamydomonas smithii).
+OC   Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes; Chlorophyceae;
+OC   Chlamydomonadales; Chlamydomonadaceae; Chlamydomonas.
+OX   NCBI_TaxID=3055;
+RN   [1] {ECO:0000305, ECO:0000312|EMBL:CAC42763.1}
+RP   NUCLEOTIDE SEQUENCE [MRNA], CATALYTIC ACTIVITY, BIOPHYSICOCHEMICAL
+RP   PROPERTIES, SUBUNIT, SUBCELLULAR LOCATION, AND MASS SPECTROMETRY.
+RC   STRAIN=21gr / CC-1690;
+RX   PubMed=16313235; DOI=10.1042/bj20051657;
+RA   Gomez-Garcia M.R., Losada M., Serrano A.;
+RT   "A novel subfamily of monomeric inorganic pyrophosphatases in
+RT   photosynthetic eukaryotes.";
+RL   Biochem. J. 395:211-221(2006).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=diphosphate + H2O = H(+) + 2 phosphate; Xref=Rhea:RHEA:24576,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:33019,
+CC         ChEBI:CHEBI:43474; EC=3.6.1.1;
+CC         Evidence={ECO:0000269|PubMed:16313235};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000250|UniProtKB:P0A7A9};
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=65.2 uM for Mg2-PPi {ECO:0000269|PubMed:16313235};
+CC       pH dependence:
+CC         Optimum pH is 7.5. {ECO:0000269|PubMed:16313235};
+CC   -!- SUBUNIT: Monomer. {ECO:0000269|PubMed:16313235}.
+CC   -!- SUBCELLULAR LOCATION: Mitochondrion {ECO:0000269|PubMed:16313235}.
+CC   -!- PTM: The N-terminus is blocked. {ECO:0000269|PubMed:16313235}.
+CC   -!- MASS SPECTROMETRY: Mass=24350; Method=MALDI;
+CC       Evidence={ECO:0000269|PubMed:16313235};
+CC   -!- SIMILARITY: Belongs to the PPase family. {ECO:0000255}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ298232; CAC42763.1; -; mRNA.
+DR   RefSeq; XP_001694912.1; XM_001694860.1.
+DR   SMR; Q949J1; -.
+DR   STRING; 3055.EDP02064; -.
+DR   PRIDE; Q949J1; -.
+DR   ProMEX; Q949J1; -.
+DR   EnsemblPlants; PNW78720; PNW78720; CHLRE_09g387875v5.
+DR   GeneID; 5720576; -.
+DR   Gramene; PNW78720; PNW78720; CHLRE_09g387875v5.
+DR   KEGG; cre:CHLREDRAFT_174103; -.
+DR   eggNOG; KOG1626; Eukaryota.
+DR   HOGENOM; CLU_073198_2_1_1; -.
+DR   OMA; KHMANGR; -.
+DR   OrthoDB; 1429691at2759; -.
+DR   BRENDA; 3.6.1.1; 1318.
+DR   SABIO-RK; Q949J1; -.
+DR   GO; GO:0005739; C:mitochondrion; IDA:UniProtKB.
+DR   GO; GO:0004427; F:inorganic diphosphatase activity; IDA:UniProtKB.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:InterPro.
+DR   GO; GO:0006796; P:phosphate-containing compound metabolic process; IEA:InterPro.
+DR   CDD; cd00412; pyrophosphatase; 1.
+DR   Gene3D; 3.90.80.10; -; 1.
+DR   HAMAP; MF_00209; Inorganic_PPase; 1.
+DR   InterPro; IPR008162; Pyrophosphatase.
+DR   InterPro; IPR036649; Pyrophosphatase_sf.
+DR   PANTHER; PTHR10286; PTHR10286; 1.
+DR   Pfam; PF00719; Pyrophosphatase; 1.
+DR   SUPFAM; SSF50324; SSF50324; 1.
+DR   PROSITE; PS00387; PPASE; 1.
+PE   1: Evidence at protein level;
+KW   Hydrolase; Magnesium; Metal-binding; Mitochondrion.
+FT   CHAIN           1..192
+FT                   /note="Soluble inorganic pyrophosphatase 2"
+FT                   /id="PRO_0000253939"
+FT   METAL           74
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7A9"
+FT   METAL           79
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7A9"
+FT   METAL           79
+FT                   /note="Magnesium 2"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7A9"
+FT   METAL           111
+FT                   /note="Magnesium 1"
+FT                   /evidence="ECO:0000250|UniProtKB:P0A7A9"
+FT   BINDING         38
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WI55"
+FT   BINDING         52
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WI55"
+FT   BINDING         64
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WI55"
+FT   BINDING         148
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WI55"
+SQ   SEQUENCE   192 AA;  22175 MW;  A1CA190C3C3FE597 CRC64;
+     MSFYRGTASH PWHDLHPGND APNFVSCVIE IPRGSKVKYE LDKDTGLCFV DRILYSSVVY
+     PHNYGFVPKT LCEDGDPLDV LVLMQEPVVP MCFLRAKPIG VMQMLDQGER DDKLIAVHAD
+     DPEYKGFTDI SQLPPHRLAE IKRFFEDYKK NEHKEVVVDD FLGAEEAKKV VKDSLNMYQE
+     HYVPRKLRNV YE
+//

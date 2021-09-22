@@ -1,0 +1,106 @@
+ID   MURG_LEGPL              Reviewed;         363 AA.
+AC   Q5WY98;
+DT   07-MAR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-APR-2021, entry version 103.
+DE   RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase {ECO:0000255|HAMAP-Rule:MF_00033};
+DE            EC=2.4.1.227 {ECO:0000255|HAMAP-Rule:MF_00033};
+DE   AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase {ECO:0000255|HAMAP-Rule:MF_00033};
+GN   Name=murG {ECO:0000255|HAMAP-Rule:MF_00033}; OrderedLocusNames=lpl0841;
+OS   Legionella pneumophila (strain Lens).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=297245;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Lens;
+RX   PubMed=15467720; DOI=10.1038/ng1447;
+RA   Cazalet C., Rusniok C., Brueggemann H., Zidane N., Magnier A., Ma L.,
+RA   Tichit M., Jarraud S., Bouchier C., Vandenesch F., Kunst F., Etienne J.,
+RA   Glaser P., Buchrieser C.;
+RT   "Evidence in the Legionella pneumophila genome for exploitation of host
+RT   cell functions and high genome plasticity.";
+RL   Nat. Genet. 36:1165-1173(2004).
+CC   -!- FUNCTION: Cell wall formation. Catalyzes the transfer of a GlcNAc
+CC       subunit on undecaprenyl-pyrophosphoryl-MurNAc-pentapeptide (lipid
+CC       intermediate I) to form undecaprenyl-pyrophosphoryl-MurNAc-
+CC       (pentapeptide)GlcNAc (lipid intermediate II). {ECO:0000255|HAMAP-
+CC       Rule:MF_00033}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=di-trans-octa-cis-undecaprenyl diphospho-N-acetyl-alpha-D-
+CC         muramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-
+CC         alanine + UDP-N-acetyl-alpha-D-glucosamine = di-trans-octa-cis-
+CC         undecaprenyl diphospho-[N-acetyl-alpha-D-glucosaminyl-(1->4)]-N-
+CC         acetyl-alpha-D-muramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-
+CC         D-alanyl-D-alanine + H(+) + UDP; Xref=Rhea:RHEA:31227,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57705, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:61387, ChEBI:CHEBI:61388; EC=2.4.1.227;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00033};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00033}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00033}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00033}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_00033}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 28 family. MurG
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00033}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR628337; CAH15075.1; -; Genomic_DNA.
+DR   RefSeq; WP_011215000.1; NC_006369.1.
+DR   SMR; Q5WY98; -.
+DR   CAZy; GT28; Glycosyltransferase Family 28.
+DR   EnsemblBacteria; CAH15075; CAH15075; lpl0841.
+DR   KEGG; lpf:lpl0841; -.
+DR   LegioList; lpl0841; -.
+DR   HOGENOM; CLU_037404_0_0_6; -.
+DR   OMA; QGARRLN; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000002517; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051991; F:UDP-N-acetyl-D-glucosamine:N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol 4-beta-N-acetylglucosaminlytransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050511; F:undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005975; P:carbohydrate metabolic process; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0030259; P:lipid glycosylation; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   HAMAP; MF_00033; MurG; 1.
+DR   InterPro; IPR006009; GlcNAc_MurG.
+DR   InterPro; IPR007235; Glyco_trans_28_C.
+DR   InterPro; IPR004276; GlycoTrans_28_N.
+DR   Pfam; PF04101; Glyco_tran_28_C; 1.
+DR   Pfam; PF03033; Glyco_transf_28; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Glycosyltransferase; Membrane;
+KW   Peptidoglycan synthesis; Transferase.
+FT   CHAIN           1..363
+FT                   /note="UDP-N-acetylglucosamine--N-acetylmuramyl-
+FT                   (pentapeptide) pyrophosphoryl-undecaprenol N-
+FT                   acetylglucosamine transferase"
+FT                   /id="PRO_0000225063"
+FT   REGION          12..14
+FT                   /note="UDP-N-acetyl-alpha-D-glucosamine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00033"
+FT   BINDING         166
+FT                   /note="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00033"
+FT   BINDING         196
+FT                   /note="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00033"
+FT   BINDING         291
+FT                   /note="UDP-N-acetyl-alpha-D-glucosamine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00033"
+SQ   SEQUENCE   363 AA;  39666 MW;  7F553592719BBA57 CRC64;
+     MSPSIVFTGG GTAGHVTPNI ALIKEFRKEG WNVEYIGSVS GIEKEMIEPL DIPFHGVSSG
+     KLRRYFSLKN LLDPFKIVLG IIQSSLLFYK IKPDVVFSKG GFVAFPVVVG AWLNRIPVVA
+     HESDMSPGLA NRLSFPFVNK ICLTFDAGKK YFKRQDKIEV TGTPIRQQLL TGNRMKGLEL
+     CGFNSSKPCL LVVGGSLGAG SINSCIRSAL KQLTSEFQVI HLCGKGKLDS SLVGVEGYCQ
+     FEYANEELAD LFAASSVVIS RAGANSLYEI LALGKPHILI PISSQVSRGD QIQNARYFQG
+     LGISVVIQDE LLKADVLLQA LQDVMRKKDE IDNKIKALKI ESATDKIVAI IKEQAHVQTP
+     RIV
+//

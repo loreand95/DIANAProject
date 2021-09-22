@@ -1,0 +1,84 @@
+ID   RSMG_SHESR              Reviewed;         206 AA.
+AC   Q0HPF1;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   03-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase G {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            EC=2.1.1.170 {ECO:0000255|HAMAP-Rule:MF_00074};
+DE   AltName: Full=16S rRNA 7-methylguanosine methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+DE            Short=16S rRNA m7G methyltransferase {ECO:0000255|HAMAP-Rule:MF_00074};
+GN   Name=rsmG {ECO:0000255|HAMAP-Rule:MF_00074};
+GN   OrderedLocusNames=Shewmr7_4027;
+OS   Shewanella sp. (strain MR-7).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=60481;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MR-7;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Kiss H., Brettin T., Bruce D., Han C., Tapia R., Gilna P., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Mikhailova N., Nealson K.,
+RA   Konstantinidis K., Klappenbach J., Tiedje J., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Shewanella sp. MR-7.";
+RL   Submitted (AUG-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Specifically methylates the N7 position of guanine in
+CC       position 527 of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(527) in 16S rRNA + S-adenosyl-L-methionine = N(7)-
+CC         methylguanosine(527) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42732, Rhea:RHEA-COMP:10209, Rhea:RHEA-COMP:10210,
+CC         ChEBI:CHEBI:57856, ChEBI:CHEBI:59789, ChEBI:CHEBI:74269,
+CC         ChEBI:CHEBI:74480; EC=2.1.1.170; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00074};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RNA
+CC       methyltransferase RsmG family. {ECO:0000255|HAMAP-Rule:MF_00074}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000444; ABI45004.1; -; Genomic_DNA.
+DR   RefSeq; WP_011627716.1; NC_008322.1.
+DR   SMR; Q0HPF1; -.
+DR   EnsemblBacteria; ABI45004; ABI45004; Shewmr7_4027.
+DR   KEGG; shm:Shewmr7_4027; -.
+DR   HOGENOM; CLU_065341_2_0_6; -.
+DR   OMA; YPRKAGI; -.
+DR   OrthoDB; 1590629at2; -.
+DR   Proteomes; UP000001960; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00074; 16SrRNA_methyltr_G; 1.
+DR   InterPro; IPR003682; rRNA_ssu_MeTfrase_G.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR31760; PTHR31760; 1.
+DR   Pfam; PF02527; GidB; 1.
+DR   PIRSF; PIRSF003078; GidB; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00138; rsmG_gidB; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; rRNA processing; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..206
+FT                   /note="Ribosomal RNA small subunit methyltransferase G"
+FT                   /id="PRO_1000010205"
+FT   REGION          125..126
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         74
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         79
+FT                   /note="S-adenosyl-L-methionine; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+FT   BINDING         140
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00074"
+SQ   SEQUENCE   206 AA;  23278 MW;  6078A70D92473237 CRC64;
+     MLSAQLEAYL AEINLPATAE QKKQLLDFVG MLNKWNKAYN LTSVRDPEAM LVRHIMDSLV
+     VSPHLQGEHF IDVGTGPGLP GIPLAIMNPD KTFVLLDSLG KRIRFQKQVA FELGIHNISS
+     IESRVEAYQP EQKFDGVLSR AFASIHDMLT WCHHLPAEHG QFYALKGQLS DEEMQQIPAG
+     FVVTETIELK VPRLDEQRHL LKIIKE
+//

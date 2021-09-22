@@ -1,0 +1,134 @@
+ID   TSRM_STRLU              Reviewed;         599 AA.
+AC   C0JRZ9;
+DT   20-JAN-2016, integrated into UniProtKB/Swiss-Prot.
+DT   05-MAY-2009, sequence version 1.
+DT   02-DEC-2020, entry version 41.
+DE   RecName: Full=Tryptophan 2-C-methyltransferase {ECO:0000305};
+DE            EC=2.1.1.106 {ECO:0000269|PubMed:23064318};
+GN   Name=tsrM {ECO:0000303|PubMed:19265401}; Synonyms=trsT;
+OS   Streptomyces laurentii.
+OC   Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+OC   Streptomyces.
+OX   NCBI_TaxID=39478;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=ATCC 31255;
+RX   PubMed=19246004; DOI=10.1016/j.chembiol.2009.01.007;
+RA   Liao R., Duan L., Lei C., Pan H., Ding Y., Zhang Q., Chen D., Shen B.,
+RA   Yu Y., Liu W.;
+RT   "Thiopeptide biosynthesis featuring ribosomally synthesized precursor
+RT   peptides and conserved posttranslational modifications.";
+RL   Chem. Biol. 16:141-147(2009).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=ATCC 31255;
+RX   PubMed=19265401; DOI=10.1021/ja807890a;
+RA   Kelly W.L., Pan L., Li C.;
+RT   "Thiostrepton biosynthesis: prototype for a new family of bacteriocins.";
+RL   J. Am. Chem. Soc. 131:4327-4334(2009).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, MUTAGENESIS OF CYS-253; CYS-257 AND CYS-260,
+RP   COFACTOR, AND REACTION MECHANISM.
+RX   PubMed=23064318; DOI=10.1038/nchembio.1091;
+RA   Pierre S., Guillot A., Benjdia A., Sandstroem C., Langella P., Berteau O.;
+RT   "Thiostrepton tryptophan methyltransferase expands the chemistry of radical
+RT   SAM enzymes.";
+RL   Nat. Chem. Biol. 8:957-959(2012).
+CC   -!- FUNCTION: Involved in the biosynthetic pathway of the antibiotic
+CC       thiostrepton A. First, TsrM catalyzes the transfer of a methyl group
+CC       from S-adenosyl methionine (SAM) to cobalamin, leading to the formation
+CC       of methylcobalamin (CH3-cobalamin) and S-adenosyl-L-homocysteine (SAH).
+CC       Then the methyl group is transferred to the C2 position of tryptophan
+CC       (Trp) with the concerted action of the radical SAM [4Fe-4S] center,
+CC       leading to the production of methyltryptophan.
+CC       {ECO:0000269|PubMed:19246004, ECO:0000269|PubMed:19265401,
+CC       ECO:0000269|PubMed:23064318}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-tryptophan + S-adenosyl-L-methionine = 2-methyl-L-tryptophan
+CC         + H(+) + S-adenosyl-L-homocysteine; Xref=Rhea:RHEA:17321,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:57912,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:85908; EC=2.1.1.106;
+CC         Evidence={ECO:0000269|PubMed:23064318};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000269|PubMed:23064318};
+CC       Note=Binds 1 [4Fe-4S] cluster. The cluster is coordinated with 3
+CC       cysteines and an exchangeable S-adenosyl-L-methionine.
+CC       {ECO:0000269|PubMed:23064318};
+CC   -!- COFACTOR:
+CC       Name=cob(II)alamin; Xref=ChEBI:CHEBI:16304;
+CC         Evidence={ECO:0000269|PubMed:23064318};
+CC   -!- MISCELLANEOUS: TsrM has a totally new mechanism among
+CC       methyltransferases and radical SAM enzymes. TsrM is not able to use
+CC       methylcobalamin directly but instead coordinates free cobalamin. SAM
+CC       serves exclusively as a methyl donor and not as a radical source, and
+CC       the methyl group of SAM is not directly transferred to tryptophan.
+CC       {ECO:0000269|PubMed:23064318}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FJ652572; ACN52303.1; -; Genomic_DNA.
+DR   EMBL; FJ436358; ACN80682.1; -; Genomic_DNA.
+DR   KEGG; ag:ACN52303; -.
+DR   BioCyc; MetaCyc:MONOMER-19353; -.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0031419; F:cobalamin binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0030772; F:tryptophan 2-C-methyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0017000; P:antibiotic biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.80.30.20; -; 1.
+DR   InterPro; IPR030969; B12_rSAM_trp_MT.
+DR   InterPro; IPR006158; Cobalamin-bd.
+DR   InterPro; IPR006638; Elp3/MiaB/NifB.
+DR   InterPro; IPR007197; rSAM.
+DR   InterPro; IPR023404; rSAM_horseshoe.
+DR   Pfam; PF02310; B12-binding; 1.
+DR   Pfam; PF04055; Radical_SAM; 1.
+DR   SFLD; SFLDF00322; tryptophan_2-C-methyltransfera; 1.
+DR   SMART; SM00729; Elp3; 1.
+DR   TIGRFAMs; TIGR04428; B12_rSAM_trp_MT; 1.
+DR   PROSITE; PS51332; B12_BINDING; 1.
+DR   PROSITE; PS51918; RADICAL_SAM; 1.
+PE   1: Evidence at protein level;
+KW   4Fe-4S; Antibiotic biosynthesis; Cobalamin; Cobalt; Iron; Iron-sulfur;
+KW   Metal-binding; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..599
+FT                   /note="Tryptophan 2-C-methyltransferase"
+FT                   /id="PRO_0000435308"
+FT   DOMAIN          4..149
+FT                   /note="B12-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00666"
+FT   DOMAIN          239..492
+FT                   /note="Radical SAM core"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01266"
+FT   METAL           253
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+FT   METAL           257
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+FT   METAL           260
+FT                   /note="Iron-sulfur (4Fe-4S-S-AdoMet)"
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+FT   MUTAGEN         253
+FT                   /note="C->A: Loss of methyltransferase activity."
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+FT   MUTAGEN         257
+FT                   /note="C->A: Loss of methyltransferase activity."
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+FT   MUTAGEN         260
+FT                   /note="C->A: Loss of methyltransferase activity."
+FT                   /evidence="ECO:0000269|PubMed:23064318"
+SQ   SEQUENCE   599 AA;  66061 MW;  A3829A2EEE2C851A CRC64;
+     MLRKGTVALI NPNQIHPPIA PYALDVLTTA LEASGFEAHV LDLTFHLDDW RQTLRDYFRA
+     ERPLLVGVTC RNTDTVYALE QRPFVDGYKA VIDEVRRLTA APVVAGGVGF STMPFALVDY
+     FGIEYGVKGP GEKIICDLAR ALAEGRSADR IHIPGLLVNR GPGNVTRVAP PALDPRAAPA
+     PSSSPSPSPA PSSSSAPVPV PLSFAAVGHH ESRAWQAETE LPYTRRSGEP YKVDNLRYYR
+     EGGLGSILTK NGCVYKCSFC VEPDAKGTQF ARRGITAVVD EMEALTAQGI HDLHTTDSEF
+     NLSIAHSKNL LREIVRRRDH DATSPLRDLR LWVYCQPSPF DEEFAELLAA AGCAGVNIGA
+     DHTRPEMLDG WKVTAKGTRY YDFADTERLV QLCHRNGMLT MVEALFGMPG ETLETMRDCV
+     DRMMELDATV TGFSLGLRLL PYMGLAKSLA EQCDGVRTVR GLQSNNASGP IVLKQLHQCD
+     GPIEYERQFM FDESGDFRLV CYFSPDLPEA PGTADSPDGI WRASVDFLWD RIPKSEQYRV
+     MLPTLSGSSE NDNNYADNPF LTSLNRKGYT GAFWAHWRDR EAIMSGATLP LGELAEAVR
+//

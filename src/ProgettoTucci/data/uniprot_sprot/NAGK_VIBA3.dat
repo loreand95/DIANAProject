@@ -1,0 +1,93 @@
+ID   NAGK_VIBA3              Reviewed;         302 AA.
+AC   B7VNU4;
+DT   28-JUL-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   02-DEC-2020, entry version 55.
+DE   RecName: Full=N-acetyl-D-glucosamine kinase {ECO:0000255|HAMAP-Rule:MF_01271};
+DE            EC=2.7.1.59 {ECO:0000255|HAMAP-Rule:MF_01271};
+DE   AltName: Full=GlcNAc kinase {ECO:0000255|HAMAP-Rule:MF_01271};
+GN   Name=nagK {ECO:0000255|HAMAP-Rule:MF_01271}; OrderedLocusNames=VS_1507;
+OS   Vibrio atlanticus (strain LGP32) (Vibrio splendidus (strain Mel32)).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=575788;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LGP32;
+RA   Mazel D., Le Roux F.;
+RT   "Vibrio splendidus str. LGP32 complete genome.";
+RL   Submitted (FEB-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the phosphorylation of N-acetyl-D-glucosamine
+CC       (GlcNAc) derived from cell-wall degradation, yielding GlcNAc-6-P.
+CC       {ECO:0000255|HAMAP-Rule:MF_01271}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + N-acetyl-D-glucosamine = ADP + H(+) + N-acetyl-D-
+CC         glucosamine 6-phosphate; Xref=Rhea:RHEA:17417, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57513, ChEBI:CHEBI:456216,
+CC         ChEBI:CHEBI:506227; EC=2.7.1.59; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01271};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan recycling.
+CC       {ECO:0000255|HAMAP-Rule:MF_01271}.
+CC   -!- SIMILARITY: Belongs to the ROK (NagC/XylR) family. NagK subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01271}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; FM954972; CAV18676.1; -; Genomic_DNA.
+DR   RefSeq; WP_012603950.1; NC_011753.2.
+DR   SMR; B7VNU4; -.
+DR   STRING; 575788.VS_1507; -.
+DR   EnsemblBacteria; CAV18676; CAV18676; VS_1507.
+DR   KEGG; vsp:VS_1507; -.
+DR   eggNOG; COG1940; Bacteria.
+DR   HOGENOM; CLU_036604_0_3_6; -.
+DR   OMA; VNVPGWR; -.
+DR   OrthoDB; 1130699at2; -.
+DR   UniPathway; UPA00544; -.
+DR   Proteomes; UP000009100; Chromosome 1.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0045127; F:N-acetylglucosamine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006044; P:N-acetylglucosamine metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009254; P:peptidoglycan turnover; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01271; GlcNAc_kinase; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR023505; N-acetyl-D-glucosamine_kinase.
+DR   InterPro; IPR000600; ROK.
+DR   PANTHER; PTHR18964; PTHR18964; 1.
+DR   Pfam; PF00480; ROK; 1.
+DR   SUPFAM; SSF53067; SSF53067; 1.
+DR   PROSITE; PS01125; ROK; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Carbohydrate metabolism; Kinase; Metal-binding;
+KW   Nucleotide-binding; Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..302
+FT                   /note="N-acetyl-D-glucosamine kinase"
+FT                   /id="PRO_1000165176"
+FT   NP_BIND         4..11
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+FT   NP_BIND         133..140
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+FT   METAL           157
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+FT   METAL           177
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+FT   METAL           179
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+FT   METAL           184
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01271"
+SQ   SEQUENCE   302 AA;  32820 MW;  B7FA4E58A87C649F CRC64;
+     MYYGFDVGGT KIEFGAFNEK LERVATERVP TPTEDYQLLL DTIAGLVKKY DNEFSCEGKI
+     GLGLPGMEDA DDGTMLVVNV PASTGKPLRK DLEALIGRSV KIENDANCFA LSEAWDDELK
+     DEPSVAGLIL GTGFGGGLVY EGKVFSGRNH VAGELGHMRL PLDAWFHLGD NAPLLGCGCG
+     KKGCLDSYLS GRGFELIYEH YFGEKKKAIE IIQAYNEGES KAAEHVDRFM ELLAICFANL
+     FTGLDPHVVA LGGGLSNFEL IYEEMPKRIP KYLLSVAKCP KIIKAKHGDS GGVRGAAFLN
+     IK
+//

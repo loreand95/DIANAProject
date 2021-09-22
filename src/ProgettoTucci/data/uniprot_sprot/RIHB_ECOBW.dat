@@ -1,0 +1,98 @@
+ID   RIHB_ECOBW              Reviewed;         313 AA.
+AC   C4ZU12;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   28-JUL-2009, sequence version 1.
+DT   07-APR-2021, entry version 59.
+DE   RecName: Full=Pyrimidine-specific ribonucleoside hydrolase RihB {ECO:0000255|HAMAP-Rule:MF_01433};
+DE            EC=3.2.2.8 {ECO:0000255|HAMAP-Rule:MF_01433};
+DE   AltName: Full=Cytidine/uridine-specific hydrolase {ECO:0000255|HAMAP-Rule:MF_01433};
+GN   Name=rihB {ECO:0000255|HAMAP-Rule:MF_01433}; OrderedLocusNames=BWG_1944;
+OS   Escherichia coli (strain K12 / MC4100 / BW2952).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=595496;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=K12 / MC4100 / BW2952;
+RX   PubMed=19376874; DOI=10.1128/jb.00118-09;
+RA   Ferenci T., Zhou Z., Betteridge T., Ren Y., Liu Y., Feng L., Reeves P.R.,
+RA   Wang L.;
+RT   "Genomic sequencing reveals regulatory mutations and recombinational events
+RT   in the widely used MC4100 lineage of Escherichia coli K-12.";
+RL   J. Bacteriol. 191:4025-4029(2009).
+CC   -!- FUNCTION: Hydrolyzes cytidine or uridine to ribose and cytosine or
+CC       uracil, respectively. Has a clear preference for cytidine over uridine.
+CC       Strictly specific for ribonucleosides. {ECO:0000255|HAMAP-
+CC       Rule:MF_01433}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a pyrimidine ribonucleoside + H2O = a pyrimidine nucleobase +
+CC         D-ribose; Xref=Rhea:RHEA:56816, ChEBI:CHEBI:15377, ChEBI:CHEBI:26432,
+CC         ChEBI:CHEBI:47013, ChEBI:CHEBI:141014; EC=3.2.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01433};
+CC   -!- COFACTOR:
+CC       Name=Ca(2+); Xref=ChEBI:CHEBI:29108;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01433};
+CC       Note=Binds 1 Ca(2+) ion per monomer. {ECO:0000255|HAMAP-Rule:MF_01433};
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_01433}.
+CC   -!- SIMILARITY: Belongs to the IUNH family. RihB subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01433}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001396; ACR65475.1; -; Genomic_DNA.
+DR   RefSeq; WP_000415429.1; NC_012759.1.
+DR   SMR; C4ZU12; -.
+DR   GeneID; 57729674; -.
+DR   KEGG; ebw:BWG_1944; -.
+DR   HOGENOM; CLU_036838_2_0_6; -.
+DR   OMA; REKAHEW; -.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050263; F:ribosylpyrimidine nucleosidase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006206; P:pyrimidine nucleobase metabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046133; P:pyrimidine ribonucleoside catabolic process; IEA:InterPro.
+DR   Gene3D; 3.90.245.10; -; 1.
+DR   HAMAP; MF_01433; Pyrim_hydro_RihB; 1.
+DR   InterPro; IPR015910; I/U_nuclsd_hydro_CS.
+DR   InterPro; IPR001910; Inosine/uridine_hydrolase_dom.
+DR   InterPro; IPR023186; IUNH.
+DR   InterPro; IPR022977; Pyrim_hydro_RihB.
+DR   InterPro; IPR036452; Ribo_hydro-like.
+DR   PANTHER; PTHR12304; PTHR12304; 1.
+DR   Pfam; PF01156; IU_nuc_hydro; 1.
+DR   SUPFAM; SSF53590; SSF53590; 1.
+DR   PROSITE; PS01247; IUNH; 1.
+PE   3: Inferred from homology;
+KW   Calcium; Glycosidase; Hydrolase; Metal-binding.
+FT   CHAIN           1..313
+FT                   /note="Pyrimidine-specific ribonucleoside hydrolase RihB"
+FT                   /id="PRO_1000215278"
+FT   ACT_SITE        11
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   METAL           11
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   METAL           16
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   METAL           124
+FT                   /note="Calcium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   METAL           240
+FT                   /note="Calcium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   BINDING         227
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+FT   BINDING         239
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01433"
+SQ   SEQUENCE   313 AA;  33748 MW;  BA3FA8B975474B28 CRC64;
+     MEKRKIILDC DPGHDDAIAI MMAAKHPAID LLGITIVAGN QTLDKTLING LNVCQKLEIN
+     VPVYAGMPQP IMRQQIVADN IHGETGLDGP VFEPLTRQAE STHAVKYIID TLMASDGDIT
+     LVPVGPLSNI AVAMRMQPAI LPKIREIVLM GGAYGTGNFT PSAEFNIFAD PEAARVVFTS
+     GVPLVMMGLD LTNQTVCTPD VIARMERAGG PAGELFSDIM NFTLKTQFEN YGLAGGPVHD
+     ATCIGYLINP DGIKTQEMYV EVDVNSGPCY GRTVCDELGV LGKPANTKVG ITIDTDWFWG
+     LVEECVRGYI KTH
+//

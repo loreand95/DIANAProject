@@ -1,0 +1,100 @@
+ID   RBS_RHOSH               Reviewed;         129 AA.
+AC   P27998;
+DT   01-AUG-1992, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1992, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Ribulose bisphosphate carboxylase small subunit {ECO:0000255|HAMAP-Rule:MF_00859};
+DE            Short=RuBisCO small subunit {ECO:0000255|HAMAP-Rule:MF_00859};
+GN   Name=cbbS {ECO:0000255|HAMAP-Rule:MF_00859}; Synonyms=rbcS;
+OS   Rhodobacter sphaeroides (Rhodopseudomonas sphaeroides).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+OC   Rhodobacteraceae; Rhodobacter.
+OX   NCBI_TaxID=1063;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND INDUCTION.
+RX   PubMed=1907281;
+RA   Gibson J.L., Falcone D.L., Tabita F.R.;
+RT   "Nucleotide sequence, transcriptional analysis, and expression of genes
+RT   encoded within the form I CO2 fixation operon of Rhodobacter sphaeroides.";
+RL   J. Biol. Chem. 266:14646-14653(1991).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND BIOPHYSICOCHEMICAL PROPERTIES.
+RC   STRAIN=FI;
+RX   PubMed=9882445; DOI=10.1006/abbi.1998.0979;
+RA   Horken K.M., Tabita F.R.;
+RT   "Closely related form I ribulose bisphosphate carboxylase/oxygenase
+RT   molecules that possess different CO2/O2 substrate specificities.";
+RL   Arch. Biochem. Biophys. 361:183-194(1999).
+CC   -!- FUNCTION: RuBisCO catalyzes two reactions: the carboxylation of D-
+CC       ribulose 1,5-bisphosphate, the primary event in carbon dioxide
+CC       fixation, as well as the oxidative fragmentation of the pentose
+CC       substrate. Both reactions occur simultaneously and in competition at
+CC       the same active site. Although the small subunit is not catalytic it is
+CC       essential for maximal activity. {ECO:0000255|HAMAP-Rule:MF_00859,
+CC       ECO:0000269|PubMed:9882445}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=50 uM for ribulose 1,5-bisphosphate {ECO:0000269|PubMed:9882445};
+CC         KM=22 uM for CO(2) {ECO:0000269|PubMed:9882445};
+CC         Vmax=2.5 umol/min/mg enzyme with CO(2) as substrate
+CC         {ECO:0000269|PubMed:9882445};
+CC         Note=The CO(2)/O(2) specificity factor (tau) is 56.;
+CC   -!- SUBUNIT: Heterohexadecamer of 8 large and 8 small subunits.
+CC       {ECO:0000255|HAMAP-Rule:MF_00859, ECO:0000305|PubMed:9882445}.
+CC   -!- INDUCTION: Expression of this form I ribulose-bisphosphate carboxylase
+CC       operon predominates when carbon dioxide is limiting.
+CC       {ECO:0000269|PubMed:1907281}.
+CC   -!- MISCELLANEOUS: The basic functional RuBisCO is composed of a large
+CC       chain homodimer in a 'head-to-tail' conformation. In form I RuBisCO
+CC       this homodimer is arranged in a barrel-like tetramer with the small
+CC       subunits forming a tetrameric 'cap' on each end of the 'barrel'.
+CC       {ECO:0000255|HAMAP-Rule:MF_00859}.
+CC   -!- SIMILARITY: Belongs to the RuBisCO small chain family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00859}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M64624; AAA26116.1; -; Genomic_DNA.
+DR   PIR; E40767; RKRFAS.
+DR   PDB; 5NV3; EM; 3.39 A; I/J/K/L/M/N/O/P=1-129.
+DR   PDBsum; 5NV3; -.
+DR   SMR; P27998; -.
+DR   SABIO-RK; P27998; -.
+DR   GO; GO:0004497; F:monooxygenase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0016984; F:ribulose-bisphosphate carboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0019253; P:reductive pentose-phosphate cycle; IEA:UniProtKB-KW.
+DR   CDD; cd03527; RuBisCO_small; 1.
+DR   Gene3D; 3.30.190.10; -; 1.
+DR   HAMAP; MF_00859; RuBisCO_S_bact; 1.
+DR   InterPro; IPR000894; RuBisCO_sc_dom.
+DR   InterPro; IPR036385; RuBisCO_ssu_sf.
+DR   Pfam; PF00101; RuBisCO_small; 1.
+DR   SMART; SM00961; RuBisCO_small; 1.
+DR   SUPFAM; SSF55239; SSF55239; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Calvin cycle; Carbon dioxide fixation; Photosynthesis.
+FT   CHAIN           1..129
+FT                   /note="Ribulose bisphosphate carboxylase small subunit"
+FT                   /id="PRO_0000198622"
+FT   HELIX           16..29
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          32..39
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   HELIX           61..74
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          76..85
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          88..90
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          93..101
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          109..115
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+FT   STRAND          121..127
+FT                   /evidence="ECO:0007744|PDB:5NV3"
+SQ   SEQUENCE   129 AA;  15164 MW;  7BDEFED2F5C8D74E CRC64;
+     MRITQGCFSF LPDLTDEQIS AQVDYCLGRG WAVSLEHTDD PHPRNTYWEM WGMPMFDLRD
+     PKGVMIELDE CRKAWPGRYI RINAFDSTRG FETVTMSFIV NRPEVEPSLR MERTEVDGRS
+     IRYTHSIVR
+//

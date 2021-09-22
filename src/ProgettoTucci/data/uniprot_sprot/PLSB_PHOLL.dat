@@ -1,0 +1,101 @@
+ID   PLSB_PHOLL              Reviewed;         818 AA.
+AC   Q7MZB7;
+DT   24-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 108.
+DE   RecName: Full=Glycerol-3-phosphate acyltransferase {ECO:0000255|HAMAP-Rule:MF_00393};
+DE            Short=GPAT {ECO:0000255|HAMAP-Rule:MF_00393};
+DE            EC=2.3.1.15 {ECO:0000255|HAMAP-Rule:MF_00393};
+GN   Name=plsB {ECO:0000255|HAMAP-Rule:MF_00393}; OrderedLocusNames=plu4376;
+OS   Photorhabdus laumondii subsp. laumondii (strain DSM 15139 / CIP 105565 /
+OS   TT01).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Morganellaceae; Photorhabdus.
+OX   NCBI_TaxID=243265;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 15139 / CIP 105565 / TT01;
+RX   PubMed=14528314; DOI=10.1038/nbt886;
+RA   Duchaud E., Rusniok C., Frangeul L., Buchrieser C., Givaudan A.,
+RA   Taourit S., Bocs S., Boursaux-Eude C., Chandler M., Charles J.-F.,
+RA   Dassa E., Derose R., Derzelle S., Freyssinet G., Gaudriault S., Medigue C.,
+RA   Lanois A., Powell K., Siguier P., Vincent R., Wingate V., Zouine M.,
+RA   Glaser P., Boemare N., Danchin A., Kunst F.;
+RT   "The genome sequence of the entomopathogenic bacterium Photorhabdus
+RT   luminescens.";
+RL   Nat. Biotechnol. 21:1307-1313(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an acyl-CoA + sn-glycerol 3-phosphate = a 1-acyl-sn-glycero-3-
+CC         phosphate + CoA; Xref=Rhea:RHEA:15325, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57597, ChEBI:CHEBI:57970, ChEBI:CHEBI:58342; EC=2.3.1.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00393};
+CC   -!- PATHWAY: Phospholipid metabolism; CDP-diacylglycerol biosynthesis; CDP-
+CC       diacylglycerol from sn-glycerol 3-phosphate: step 1/3.
+CC       {ECO:0000255|HAMAP-Rule:MF_00393}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00393}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00393}; Cytoplasmic side {ECO:0000255|HAMAP-Rule:MF_00393}.
+CC   -!- DOMAIN: The HXXXXD motif is essential for acyltransferase activity and
+CC       may constitute the binding site for the phosphate moiety of the
+CC       glycerol-3-phosphate. {ECO:0000255|HAMAP-Rule:MF_00393}.
+CC   -!- SIMILARITY: Belongs to the GPAT/DAPAT family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00393}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571873; CAE16748.1; -; Genomic_DNA.
+DR   RefSeq; WP_011148466.1; NC_005126.1.
+DR   STRING; 243265.plu4376; -.
+DR   PRIDE; Q7MZB7; -.
+DR   EnsemblBacteria; CAE16748; CAE16748; plu4376.
+DR   GeneID; 57255951; -.
+DR   KEGG; plu:plu4376; -.
+DR   eggNOG; COG2937; Bacteria.
+DR   HOGENOM; CLU_015407_0_0_6; -.
+DR   OMA; EVIYVPC; -.
+DR   OrthoDB; 580383at2; -.
+DR   BioCyc; PLUM243265:PLU_RS21610-MONOMER; -.
+DR   UniPathway; UPA00557; UER00612.
+DR   Proteomes; UP000002514; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004366; F:glycerol-3-phosphate O-acyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0102420; F:sn-1-glycerol-3-phosphate C16:0-DCA-CoA acyl transferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0016024; P:CDP-diacylglycerol biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd07993; LPLAT_DHAPAT-like; 1.
+DR   HAMAP; MF_00393; Glyc3P_acyltrans; 1.
+DR   InterPro; IPR022284; GPAT/DHAPAT.
+DR   InterPro; IPR041728; GPAT/DHAPAT_LPLAT.
+DR   InterPro; IPR028354; GPAT_PlsB.
+DR   InterPro; IPR002123; Plipid/glycerol_acylTrfase.
+DR   PANTHER; PTHR12563; PTHR12563; 1.
+DR   Pfam; PF01553; Acyltransferase; 1.
+DR   PIRSF; PIRSF500064; GPAT; 1.
+DR   PIRSF; PIRSF000437; GPAT_DHAPAT; 1.
+DR   SMART; SM00563; PlsC; 1.
+DR   TIGRFAMs; TIGR03703; plsB; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cell inner membrane; Cell membrane; Lipid biosynthesis;
+KW   Lipid metabolism; Membrane; Phospholipid biosynthesis;
+KW   Phospholipid metabolism; Reference proteome; Transferase.
+FT   CHAIN           1..818
+FT                   /note="Glycerol-3-phosphate acyltransferase"
+FT                   /id="PRO_0000195227"
+FT   MOTIF           305..310
+FT                   /note="HXXXXD motif"
+SQ   SEQUENCE   818 AA;  93638 MW;  DCE3FD98858A0E62 CRC64;
+     MSSWRKIYYK LLNLPLKILV KSKLIPTDPI TELRLDTTRP ILYVLPYHSK ADLLALRQQC
+     LEQDLPDPLN LLEIGDTELP SYVFIDNGPR VFRYCAPKQE SVKIFHAYLD LHRNNPNLDI
+     QLLPVSVMFG RSPGREGQNA PHLRLLNGIQ KFFAILWLGR DSFVRFSNTV SLRYMATEHG
+     TDKTIAHKLA RVARMHYSRQ RLAAVGPRLP VRQELFNKLL ASKAIEKAVS DEARTKKISH
+     EKARQNAINM MEEIAANFSY ETVRLSGRVL GWTWNRLYQG INVHNAERIR RLAQDGHELV
+     YAPCHRSHMD YLLLSYVLYH QGLVPPHIAA GINLNFWPAG PIFRRLGAFF IRRTFKGNKL
+     YATIFREYLG ELFARGYSVE YFMEGGRSRT GRLLDPKTGT LSMTLQALLR GESRPITIIP
+     IYIGYEHVME VATYAKELRG ATKEKEGFFQ MIRGLRKLRN LGQGYVNFGE PIPLIQYLNN
+     HVPSWRDSID PIEFHRPEWF NPTVNQLSEK IMVNINNTAA ANAINLCSTA LLASRQRALT
+     REQLLEQLDC YIQLMRNAPY ATDVTVPKKT AEELLEHALQ MDKFEVDKDS MGDIIILPRD
+     RAVLMTYYRN NIQHLLVLPS LIACIVIHHR RISREALLSQ VAIIYPLLKA ELFMRYSKTE
+     LPEVVNTLIN ELTRQCLICN KEHGMLVLNP ARIRPLQLLA AGIRETLQRY AITLSLLNAN
+     PVISRGVLEK ESRMLAQRLS VLHGINAPEF FDKAVFTTSV NTLREEGYIS DSGNAITANT
+     QELYQVLGEL MSPEIRLTIE SVSLPPEHND TEESAREG
+//

@@ -1,0 +1,136 @@
+ID   UCRI_BRADU              Reviewed;         176 AA.
+AC   P51130;
+DT   01-OCT-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1996, sequence version 1.
+DT   07-APR-2021, entry version 130.
+DE   RecName: Full=Ubiquinol-cytochrome c reductase iron-sulfur subunit;
+DE            EC=7.1.1.8;
+DE   AltName: Full=Rieske iron-sulfur protein;
+DE            Short=RISP;
+GN   Name=petA; Synonyms=fbcF; OrderedLocusNames=blr2485;
+OS   Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 /
+OS   NBRC 14792 / USDA 110).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Bradyrhizobium.
+OX   NCBI_TaxID=224911;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110;
+RX   PubMed=2541921; DOI=10.1016/0092-8674(89)90137-2;
+RA   Thoeny-Meyer L., Stax D., Hennecke H.;
+RT   "An unusual gene cluster for the cytochrome bc1 complex in Bradyrhizobium
+RT   japonicum and its requirement for effective root nodule symbiosis.";
+RL   Cell 57:683-697(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110;
+RX   PubMed=12597275; DOI=10.1093/dnares/9.6.189;
+RA   Kaneko T., Nakamura Y., Sato S., Minamisawa K., Uchiumi T., Sasamoto S.,
+RA   Watanabe A., Idesawa K., Iriguchi M., Kawashima K., Kohara M.,
+RA   Matsumoto M., Shimpo S., Tsuruoka H., Wada T., Yamada M., Tabata S.;
+RT   "Complete genomic sequence of nitrogen-fixing symbiotic bacterium
+RT   Bradyrhizobium japonicum USDA110.";
+RL   DNA Res. 9:189-197(2002).
+CC   -!- FUNCTION: Component of the ubiquinol-cytochrome c reductase complex
+CC       (complex III or cytochrome b-c1 complex), which is a respiratory chain
+CC       that generates an electrochemical potential coupled to ATP synthesis.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 [Fe(III)cytochrome c](out) + a quinol = 2 [Fe(II)cytochrome
+CC         c](out) + a quinone + 2 H(+)(out); Xref=Rhea:RHEA:11484, Rhea:RHEA-
+CC         COMP:10350, Rhea:RHEA-COMP:14399, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:24646, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034,
+CC         ChEBI:CHEBI:132124; EC=7.1.1.8;
+CC   -!- COFACTOR:
+CC       Name=[2Fe-2S] cluster; Xref=ChEBI:CHEBI:49601;
+CC         Evidence={ECO:0000255|PROSITE-ProRule:PRU00628};
+CC       Note=Binds 1 [2Fe-2S] cluster per subunit. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00628};
+CC   -!- SUBUNIT: The main subunits of complex b-c1 are: cytochrome b,
+CC       cytochrome c1 and the Rieske protein.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane; Single-pass membrane protein.
+CC   -!- DEVELOPMENTAL STAGE: Required for nitrogen fixation in root nodules on
+CC       soybeans, but not for aerobic growth. It seems however to be expressed
+CC       under many growth conditions (aerobic, microaerobic and in nodule
+CC       bacteroids).
+CC   -!- MISCELLANEOUS: The Rieske protein is a high potential 2Fe-2S protein.
+CC   -!- SIMILARITY: Belongs to the Rieske iron-sulfur protein family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; J03176; AAA26199.1; -; Genomic_DNA.
+DR   EMBL; BA000040; BAC47750.1; -; Genomic_DNA.
+DR   PIR; A32382; A32382.
+DR   RefSeq; NP_769125.1; NC_004463.1.
+DR   RefSeq; WP_011085272.1; NZ_CP011360.1.
+DR   SMR; P51130; -.
+DR   STRING; 224911.27350741; -.
+DR   EnsemblBacteria; BAC47750; BAC47750; BAC47750.
+DR   GeneID; 46489524; -.
+DR   KEGG; bja:blr2485; -.
+DR   PATRIC; fig|224911.44.peg.2056; -.
+DR   eggNOG; COG0723; Bacteria.
+DR   HOGENOM; CLU_055690_0_2_5; -.
+DR   InParanoid; P51130; -.
+DR   OMA; EVPTHEF; -.
+DR   PhylomeDB; P51130; -.
+DR   BioCyc; BDIA224911:G1G3J-2507-MONOMER; -.
+DR   Proteomes; UP000002526; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051537; F:2 iron, 2 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016491; F:oxidoreductase activity; IBA:GO_Central.
+DR   GO; GO:0008121; F:ubiquinol-cytochrome-c reductase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 2.102.10.10; -; 1.
+DR   InterPro; IPR017941; Rieske_2Fe-2S.
+DR   InterPro; IPR036922; Rieske_2Fe-2S_sf.
+DR   InterPro; IPR014349; Rieske_Fe-S_prot.
+DR   InterPro; IPR005805; Rieske_Fe-S_prot_C.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   InterPro; IPR019470; Ubiq_cytC_Rdtase_Fe-S_su_TAT.
+DR   InterPro; IPR006317; Ubiquinol_cyt_c_Rdtase_Fe-S-su.
+DR   PANTHER; PTHR10134; PTHR10134; 1.
+DR   Pfam; PF00355; Rieske; 1.
+DR   Pfam; PF10399; UCR_Fe-S_N; 1.
+DR   PRINTS; PR00162; RIESKE.
+DR   SUPFAM; SSF50022; SSF50022; 1.
+DR   TIGRFAMs; TIGR01416; Rieske_proteo; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS51296; RIESKE; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   2: Evidence at transcript level;
+KW   2Fe-2S; Cell membrane; Disulfide bond; Electron transport; Iron;
+KW   Iron-sulfur; Membrane; Metal-binding; Reference proteome; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport.
+FT   CHAIN           1..176
+FT                   /note="Ubiquinol-cytochrome c reductase iron-sulfur
+FT                   subunit"
+FT                   /id="PRO_0000127759"
+FT   TRANSMEM        15..36
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          87..174
+FT                   /note="Rieske"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           119
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           121
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           138
+FT                   /note="Iron-sulfur (2Fe-2S)"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   METAL           141
+FT                   /note="Iron-sulfur (2Fe-2S); via pros nitrogen"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+FT   DISULFID        124..140
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00628"
+SQ   SEQUENCE   176 AA;  18823 MW;  19C636F520E3FBF5 CRC64;
+     MTTASSADHP TRRDFLFVAT GAAAAVGGAA ALWPFISQMN PDASTIAAGA PIEVDLSPIA
+     EGQDIKVFWR GKPIYISHRT KKQIDEARAV NVASLPDPQS DEARVKSGHE QWLVVIGICT
+     HLGCIPIAHE GNYDGFFCPC HGSQYDSSGR IRQGPAPANL PVPPYQFVSD TKIQIG
+//

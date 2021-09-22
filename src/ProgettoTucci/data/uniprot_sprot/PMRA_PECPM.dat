@@ -1,0 +1,94 @@
+ID   PMRA_PECPM              Reviewed;         222 AA.
+AC   Q70FH0; K4FN56;
+DT   18-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 93.
+DE   RecName: Full=Transcriptional regulatory protein PmrA;
+GN   Name=pmrA; OrderedLocusNames=W5S_4173;
+OS   Pectobacterium parmentieri.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Pectobacteriaceae; Pectobacterium.
+OX   NCBI_TaxID=1905730;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND FUNCTION.
+RC   STRAIN=SCC3193;
+RX   PubMed=14617142; DOI=10.1046/j.1365-2958.2003.03729.x;
+RA   Hyytiaeinen H., Sjoeblom S., Palomaeki T., Tuikkala A., Palva E.T.;
+RT   "The PmrA-PmrB two-component system responding to acidic pH and iron
+RT   controls virulence in the plant pathogen Erwinia carotovora ssp.
+RT   carotovora.";
+RL   Mol. Microbiol. 50:795-807(2003).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SCC3193;
+RX   PubMed=23045508; DOI=10.1128/jb.00681-12;
+RA   Koskinen J.P., Laine P., Niemi O., Nykyri J., Harjunpaa H., Auvinen P.,
+RA   Paulin L., Pirhonen M., Palva T., Holm L.;
+RT   "Genome sequence of Pectobacterium sp. strain SCC3193.";
+RL   J. Bacteriol. 194:6004-6004(2012).
+CC   -!- FUNCTION: Member of the two-component regulatory system PmrB/PmrA
+CC       involved in regulation of virulence. Unphosphorylated PmrA represses
+CC       extracellular enzyme genes. Phosphorylation of PmrA by PmrB relieves
+CC       such repression, which leads to activation of extracellular enzyme
+CC       genes. Phosphorylated PmrA seems to repress expression of the pmrCAB
+CC       operon. {ECO:0000269|PubMed:14617142}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000305}.
+CC   -!- PTM: Phosphorylated by PmrB. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ583007; CAE47079.1; -; Genomic_DNA.
+DR   EMBL; CP003415; AFI92229.1; -; Genomic_DNA.
+DR   RefSeq; WP_014701628.1; NC_017845.1.
+DR   SMR; Q70FH0; -.
+DR   STRING; 1166016.W5S_4173; -.
+DR   EnsemblBacteria; AFI92229; AFI92229; W5S_4173.
+DR   KEGG; pec:W5S_4173; -.
+DR   PATRIC; fig|1166016.3.peg.4250; -.
+DR   eggNOG; COG0745; Bacteria.
+DR   HOGENOM; CLU_000445_30_1_6; -.
+DR   OMA; ELMMRTP; -.
+DR   OrthoDB; 1020672at2; -.
+DR   Proteomes; UP000008044; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   GO; GO:0006355; P:regulation of transcription, DNA-templated; IEA:InterPro.
+DR   CDD; cd00383; trans_reg_C; 1.
+DR   Gene3D; 1.10.10.10; -; 1.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001867; OmpR/PhoB-type_DNA-bd.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   InterPro; IPR039420; WalR-like.
+DR   InterPro; IPR036388; WH-like_DNA-bd_sf.
+DR   PANTHER; PTHR48111; PTHR48111; 1.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   Pfam; PF00486; Trans_reg_C; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SMART; SM00862; Trans_reg_C; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS51755; OMPR_PHOB; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; DNA-binding; Phosphoprotein; Repressor; Transcription;
+KW   Transcription regulation; Two-component regulatory system; Virulence.
+FT   CHAIN           1..222
+FT                   /note="Transcriptional regulatory protein PmrA"
+FT                   /id="PRO_0000232703"
+FT   DOMAIN          2..116
+FT                   /note="Response regulatory"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+FT   DNA_BIND        124..218
+FT                   /note="OmpR/PhoB-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01091"
+FT   MOD_RES         51
+FT                   /note="4-aspartylphosphate"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00169"
+SQ   SEQUENCE   222 AA;  24868 MW;  A27A6DB780A1099B CRC64;
+     MKLLIVEDDK LLQEGLLLAL SHEGYACDCA GTAKEADALI GSAHYSLVIL DLGLPDDDGL
+     ALLSRWRKNN YQHPVLILTA RDKVDDRVSG LDVGADDYLA KPFALTELQA RVRALIRRNQ
+     GSSNSKIQVD NITLDLNNQQ VLLDEKPVVL TPKEFAILSR LVLKAGYQVH RELLHQDIYA
+     WNDDPSSNSL EVHIHNLRQK IGKDRIRTLR GFGYLLTKGE QP
+//

@@ -1,0 +1,115 @@
+ID   DGGGP_SULTO             Reviewed;         278 AA.
+AC   Q971A3;
+DT   23-SEP-2008, integrated into UniProtKB/Swiss-Prot.
+DT   01-DEC-2001, sequence version 1.
+DT   02-DEC-2020, entry version 96.
+DE   RecName: Full=Digeranylgeranylglyceryl phosphate synthase {ECO:0000255|HAMAP-Rule:MF_01286};
+DE            Short=DGGGP synthase {ECO:0000255|HAMAP-Rule:MF_01286};
+DE            Short=DGGGPS {ECO:0000255|HAMAP-Rule:MF_01286};
+DE            EC=2.5.1.42 {ECO:0000255|HAMAP-Rule:MF_01286};
+DE   AltName: Full=(S)-2,3-di-O-geranylgeranylglyceryl phosphate synthase {ECO:0000255|HAMAP-Rule:MF_01286};
+DE   AltName: Full=Geranylgeranylglycerol-phosphate geranylgeranyltransferase {ECO:0000255|HAMAP-Rule:MF_01286};
+GN   OrderedLocusNames=STK_14510;
+OS   Sulfurisphaera tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7)
+OS   (Sulfolobus tokodaii).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Sulfurisphaera.
+OX   NCBI_TaxID=273063;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 16993 / JCM 10545 / NBRC 100140 / 7;
+RX   PubMed=11572479; DOI=10.1093/dnares/8.4.123;
+RA   Kawarabayasi Y., Hino Y., Horikawa H., Jin-no K., Takahashi M., Sekine M.,
+RA   Baba S., Ankai A., Kosugi H., Hosoyama A., Fukui S., Nagai Y.,
+RA   Nishijima K., Otsuka R., Nakazawa H., Takamiya M., Kato Y., Yoshizawa T.,
+RA   Tanaka T., Kudoh Y., Yamazaki J., Kushida N., Oguchi A., Aoki K.,
+RA   Masuda S., Yanagii M., Nishimura M., Yamagishi A., Oshima T., Kikuchi H.;
+RT   "Complete genome sequence of an aerobic thermoacidophilic Crenarchaeon,
+RT   Sulfolobus tokodaii strain7.";
+RL   DNA Res. 8:123-140(2001).
+CC   -!- FUNCTION: Prenyltransferase that catalyzes the transfer of the
+CC       geranylgeranyl moiety of geranylgeranyl diphosphate (GGPP) to the C2
+CC       hydroxyl of (S)-3-O-geranylgeranylglyceryl phosphate (GGGP). This
+CC       reaction is the second ether-bond-formation step in the biosynthesis of
+CC       archaeal membrane lipids. {ECO:0000255|HAMAP-Rule:MF_01286}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2E,6E,10E)-geranylgeranyl diphosphate + sn-3-O-
+CC         (geranylgeranyl)glycerol 1-phosphate = 2,3-bis-(O-geranylgeranyl)-sn-
+CC         glycerol 1-phosphate + diphosphate; Xref=Rhea:RHEA:18109,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:57677, ChEBI:CHEBI:58756,
+CC         ChEBI:CHEBI:58837; EC=2.5.1.42; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01286};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01286};
+CC   -!- PATHWAY: Membrane lipid metabolism; glycerophospholipid metabolism.
+CC       {ECO:0000255|HAMAP-Rule:MF_01286}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000255|HAMAP-Rule:MF_01286};
+CC       Multi-pass membrane protein {ECO:0000255|HAMAP-Rule:MF_01286}.
+CC   -!- SIMILARITY: Belongs to the UbiA prenyltransferase family. DGGGP
+CC       synthase subfamily. {ECO:0000255|HAMAP-Rule:MF_01286}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000023; BAB66520.1; -; Genomic_DNA.
+DR   RefSeq; WP_010979498.1; NC_003106.2.
+DR   STRING; 273063.STK_14510; -.
+DR   EnsemblBacteria; BAB66520; BAB66520; STK_14510.
+DR   GeneID; 1459484; -.
+DR   KEGG; sto:STK_14510; -.
+DR   PATRIC; fig|273063.9.peg.1653; -.
+DR   eggNOG; arCOG00476; Archaea.
+DR   OMA; DYFDYEI; -.
+DR   OrthoDB; 104789at2157; -.
+DR   BioCyc; STOK273063:G1G3D-1675-MONOMER; -.
+DR   UniPathway; UPA00940; -.
+DR   Proteomes; UP000001015; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047295; F:geranylgeranylglycerol-phosphate geranylgeranyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006650; P:glycerophospholipid metabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008654; P:phospholipid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01286; DGGGP_synth; 1.
+DR   InterPro; IPR023547; DGGGP_synth.
+DR   InterPro; IPR000537; UbiA_prenyltransferase.
+DR   Pfam; PF01040; UbiA; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Lipid biosynthesis; Lipid metabolism; Magnesium; Membrane;
+KW   Phospholipid biosynthesis; Phospholipid metabolism; Reference proteome;
+KW   Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..278
+FT                   /note="Digeranylgeranylglyceryl phosphate synthase"
+FT                   /id="PRO_0000350720"
+FT   TRANSMEM        15..35
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        36..56
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        89..109
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        133..153
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        159..179
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        203..223
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        225..245
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+FT   TRANSMEM        258..278
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01286"
+SQ   SEQUENCE   278 AA;  30909 MW;  EA21FE328D506E40 CRC64;
+     MSVKAYFELV RIHNVIGSAI SVFMGYVVAS EWKIVPIKLI LAMIVVSVIA AGGYIINDVF
+     DIEIDKINKP NRPLPSGRIK ISRARSLSIV LFLVGIVLSV LLNIYAFIIA LLTVLALYYY
+     AKDLKKQGLV GNLIVALTSA LSAFYGGLAF FEGSWVIRTL IPTLYIFFFT LTREFVKGIE
+     DVKGDMTNGV KTLAVRVGIE KTWFISKIIL VILIVTSFIP YFFGFNIIYL IGILFLDIIL
+     ILVVLLRHDI ESASKARAYM KVYALGTLIL FALGTLPI
+//

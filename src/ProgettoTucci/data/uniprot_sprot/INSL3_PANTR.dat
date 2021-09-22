@@ -1,0 +1,94 @@
+ID   INSL3_PANTR             Reviewed;         131 AA.
+AC   Q5CZK3;
+DT   12-APR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   29-MAR-2005, sequence version 1.
+DT   10-FEB-2021, entry version 81.
+DE   RecName: Full=Insulin-like 3;
+DE   AltName: Full=Leydig insulin-like peptide;
+DE            Short=Ley-I-L;
+DE   AltName: Full=Relaxin-like factor;
+DE   Contains:
+DE     RecName: Full=Insulin-like 3 B chain;
+DE   Contains:
+DE     RecName: Full=Insulin-like 3 A chain;
+DE   Flags: Precursor;
+GN   Name=INSL3; Synonyms=RLF;
+OS   Pan troglodytes (Chimpanzee).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pan.
+OX   NCBI_TaxID=9598;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=16136131; DOI=10.1038/nature04072;
+RG   Chimpanzee sequencing and analysis consortium;
+RT   "Initial sequence of the chimpanzee genome and comparison with the human
+RT   genome.";
+RL   Nature 437:69-87(2005).
+RN   [2]
+RP   IDENTIFICATION.
+RX   PubMed=15707501; DOI=10.1186/1471-2148-5-14;
+RA   Wilkinson T.N., Speed T.P., Tregear G.W., Bathgate R.A.D.;
+RT   "Evolution of the relaxin-like peptide family.";
+RL   BMC Evol. Biol. 5:14-14(2005).
+CC   -!- FUNCTION: Seems to play a role in testicular function. May be a trophic
+CC       hormone with a role in testicular descent in fetal life. Is a ligand
+CC       for LGR8 receptor (By similarity). {ECO:0000250}.
+CC   -!- SUBUNIT: Heterodimer of a B chain and an A chain linked by two
+CC       disulfide bonds. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the insulin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   BMRB; Q5CZK3; -.
+DR   SMR; Q5CZK3; -.
+DR   STRING; 9598.ENSPTRP00000018236; -.
+DR   PaxDb; Q5CZK3; -.
+DR   eggNOG; ENOG502TFQJ; Eukaryota.
+DR   InParanoid; Q5CZK3; -.
+DR   Proteomes; UP000002277; Unplaced.
+DR   GO; GO:0005615; C:extracellular space; IBA:GO_Central.
+DR   GO; GO:0001664; F:G protein-coupled receptor binding; IBA:GO_Central.
+DR   GO; GO:0005179; F:hormone activity; IEA:UniProtKB-KW.
+DR   GO; GO:0007193; P:adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway; IBA:GO_Central.
+DR   InterPro; IPR040113; INSL3.
+DR   InterPro; IPR043387; INSL3/INSL4.
+DR   InterPro; IPR016179; Insulin-like.
+DR   InterPro; IPR036438; Insulin-like_sf.
+DR   InterPro; IPR022353; Insulin_CS.
+DR   PANTHER; PTHR10423; PTHR10423; 1.
+DR   PANTHER; PTHR10423:SF6; PTHR10423:SF6; 1.
+DR   Pfam; PF00049; Insulin; 1.
+DR   SMART; SM00078; IlGF; 1.
+DR   SUPFAM; SSF56994; SSF56994; 1.
+DR   PROSITE; PS00262; INSULIN; 1.
+PE   3: Inferred from homology;
+KW   Cleavage on pair of basic residues; Disulfide bond; Hormone;
+KW   Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..20
+FT                   /evidence="ECO:0000250"
+FT   PEPTIDE         21..55
+FT                   /note="Insulin-like 3 B chain"
+FT                   /id="PRO_0000016146"
+FT   PROPEP          58..104
+FT                   /note="C peptide like"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000016147"
+FT   PEPTIDE         106..131
+FT                   /note="Insulin-like 3 A chain"
+FT                   /id="PRO_0000016148"
+FT   DISULFID        34..116
+FT                   /note="Interchain (between B and A chains)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        46..129
+FT                   /note="Interchain (between B and A chains)"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        115..120
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   131 AA;  14544 MW;  C560625CAB009136 CRC64;
+     MDPRLPAWAL VLLGPALVFA LGPAPTPEMR EKLCGHHFVR ALVRVCGGPR WSTEARRPAA
+     GGDREWLQWL ERRHLLHGLV ANSNLTLGPG LQPLPQTSHH HRHHRAAATN PARYCCLSGC
+     TQQDLLTLCP Y
+//

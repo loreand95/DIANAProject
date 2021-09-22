@@ -1,0 +1,211 @@
+ID   COAD_HELPY              Reviewed;         157 AA.
+AC   O26010;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1998, sequence version 1.
+DT   07-APR-2021, entry version 125.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000303|PubMed:21527250};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000269|PubMed:24040220};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000303|PubMed:21527250};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151}; Synonyms=kdtB;
+GN   OrderedLocusNames=HP_1475;
+OS   Helicobacter pylori (strain ATCC 700392 / 26695) (Campylobacter pylori).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Helicobacter.
+OX   NCBI_TaxID=85962;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 700392 / 26695;
+RX   PubMed=9252185; DOI=10.1038/41483;
+RA   Tomb J.-F., White O., Kerlavage A.R., Clayton R.A., Sutton G.G.,
+RA   Fleischmann R.D., Ketchum K.A., Klenk H.-P., Gill S.R., Dougherty B.A.,
+RA   Nelson K.E., Quackenbush J., Zhou L., Kirkness E.F., Peterson S.N.,
+RA   Loftus B.J., Richardson D.L., Dodson R.J., Khalak H.G., Glodek A.,
+RA   McKenney K., FitzGerald L.M., Lee N., Adams M.D., Hickey E.K., Berg D.E.,
+RA   Gocayne J.D., Utterback T.R., Peterson J.D., Kelley J.M., Cotton M.D.,
+RA   Weidman J.F., Fujii C., Bowman C., Watthey L., Wallin E., Hayes W.S.,
+RA   Borodovsky M., Karp P.D., Smith H.O., Fraser C.M., Venter J.C.;
+RT   "The complete genome sequence of the gastric pathogen Helicobacter
+RT   pylori.";
+RL   Nature 388:539-547(1997).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RC   STRAIN=ATCC 700392 / 26695;
+RX   PubMed=24040220; DOI=10.1371/journal.pone.0074271;
+RA   Cheng C.S., Jia K.F., Chen T., Chang S.Y., Lin M.S., Yin H.S.;
+RT   "Experimentally validated novel inhibitors of Helicobacter pylori
+RT   phosphopantetheine adenylyltransferase discovered by virtual high-
+RT   throughput screening.";
+RL   PLoS ONE 8:E74271-E74271(2013).
+RN   [3]
+RP   X-RAY CRYSTALLOGRAPHY (1.80 ANGSTROMS) IN COMPLEX WITH COENZYME A, SUBUNIT,
+RP   AND ACTIVITY REGULATION.
+RC   STRAIN=ATCC 700392 / 26695;
+RX   PubMed=21527250; DOI=10.1016/j.bbrc.2011.04.058;
+RA   Cheng C.S., Chen C.H., Luo Y.C., Chen W.T., Chang S.Y., Lyu P.C., Kao M.C.,
+RA   Yin H.S.;
+RT   "Crystal structure and biophysical characterisation of Helicobacter pylori
+RT   phosphopantetheine adenylyltransferase.";
+RL   Biochem. Biophys. Res. Commun. 408:356-361(2011).
+RN   [4]
+RP   X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF MUTANT VAL-4/TYR-76, MUTAGENESIS
+RP   OF 4-ILE--ASN-76, AND ATP-BINDING.
+RC   STRAIN=ATCC 700392 / 26695;
+RX   PubMed=22694317; DOI=10.1080/07391102.2012.682213;
+RA   Cheng C.S., Chen W.T., Chen Y.W., Chen C.H., Luo Y.C., Lyu P.C., Yin H.S.;
+RT   "Substitution of asparagine 76 by a tyrosine residue induces domain
+RT   swapping in Helicobacter pylori phosphopantetheine adenylyltransferase.";
+RL   J. Biomol. Struct. Dyn. 30:488-502(2012).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151, ECO:0000269|PubMed:24040220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-pantetheine 4'-phosphate + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151, ECO:0000269|PubMed:24040220};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00151};
+CC   -!- ACTIVITY REGULATION: Tightly binds to CoA, which is presumably a
+CC       feedback inhibitor (PubMed:21527250). Potently inhibited by D-
+CC       amethopterin, which simultaneously occupies the 4'-
+CC       phosphopantetheine- and ATP-binding sites; following treatment with D-
+CC       amethopterin, H.pylori exhibits morphological characteristics
+CC       associated with cell death, showing that D-amethopterin displays
+CC       antimicrobial activity (PubMed:24040220). {ECO:0000269|PubMed:24040220,
+CC       ECO:0000305|PubMed:21527250}.
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151,
+CC       ECO:0000269|PubMed:21527250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000511; AAD08514.1; -; Genomic_DNA.
+DR   PIR; C64704; C64704.
+DR   RefSeq; NP_208266.1; NC_000915.1.
+DR   RefSeq; WP_001169234.1; NC_018939.1.
+DR   PDB; 3NV7; X-ray; 1.75 A; A=1-157.
+DR   PDB; 3OTW; X-ray; 1.80 A; A/B/C/D/E/F=1-157.
+DR   PDBsum; 3NV7; -.
+DR   PDBsum; 3OTW; -.
+DR   SMR; O26010; -.
+DR   STRING; 85962.C694_07635; -.
+DR   PaxDb; O26010; -.
+DR   PRIDE; O26010; -.
+DR   EnsemblBacteria; AAD08514; AAD08514; HP_1475.
+DR   KEGG; hpy:HP1475; -.
+DR   PATRIC; fig|85962.47.peg.1586; -.
+DR   eggNOG; COG0669; Bacteria.
+DR   OMA; EFQMALM; -.
+DR   BioCyc; HPY:HP1475-MONOMER; -.
+DR   BRENDA; 2.7.7.3; 2604.
+DR   UniPathway; UPA00241; UER00355.
+DR   EvolutionaryTrace; O26010; -.
+DR   Proteomes; UP000000429; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02163; PPAT; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21342:SF1; PTHR21342:SF1; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   TIGRFAMs; TIGR01510; coaD_prev_kdtB; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..157
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_0000156217"
+FT   NP_BIND         10..11
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         89..91
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151,
+FT                   ECO:0000305|PubMed:21527250, ECO:0007744|PDB:3OTW"
+FT   NP_BIND         124..130
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         10
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151,
+FT                   ECO:0000305|PubMed:21527250, ECO:0007744|PDB:3OTW"
+FT   BINDING         18
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         42
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151,
+FT                   ECO:0000305|PubMed:21527250, ECO:0007744|PDB:3OTW"
+FT   BINDING         74
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151,
+FT                   ECO:0000305|PubMed:21527250, ECO:0007744|PDB:3OTW"
+FT   BINDING         88
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         99
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            18
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   MUTAGEN         4
+FT                   /note="I->V: Forms a domain-swapped homotetramer; when
+FT                   associated with Y-76."
+FT                   /evidence="ECO:0000269|PubMed:22694317"
+FT   MUTAGEN         76
+FT                   /note="N->Y: Forms a domain-swapped homotetramer; when
+FT                   associated with V-4."
+FT                   /evidence="ECO:0000269|PubMed:22694317"
+FT   STRAND          4..9
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           16..26
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   STRAND          29..37
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           40..42
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           48..59
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   STRAND          65..70
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           74..80
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   STRAND          85..89
+FT                   /evidence="ECO:0007744|PDB:3OTW"
+FT   HELIX           96..108
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   STRAND          114..118
+FT                   /evidence="ECO:0007744|PDB:3OTW"
+FT   HELIX           122..125
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           129..137
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   TURN            143..145
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   TURN            148..150
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+FT   HELIX           151..154
+FT                   /evidence="ECO:0007744|PDB:3NV7"
+SQ   SEQUENCE   157 AA;  17668 MW;  4250742EAB58E097 CRC64;
+     MQKIGIYPGT FDPVTNGHID IIHRSSELFE KLIVAVAHSS AKNPMFSLDE RLKMIQLATK
+     SFKNVECVAF EGLLANLAKE YHCKVLVRGL RVVSDFEYEL QMGYANKSLN HELETLYFMP
+     TLQNAFISSS IVRSIIAHKG DASHLVPKEI YPLISKA
+//

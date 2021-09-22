@@ -1,0 +1,173 @@
+ID   GBPA_VIBCH              Reviewed;         485 AA.
+AC   Q9KLD5;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   07-APR-2021, entry version 87.
+DE   RecName: Full=GlcNAc-binding protein A;
+DE   Flags: Precursor;
+GN   Name=gbpA; OrderedLocusNames=VC_A0811;
+OS   Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=243277;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 39315 / El Tor Inaba N16961;
+RX   PubMed=10952301; DOI=10.1038/35020000;
+RA   Heidelberg J.F., Eisen J.A., Nelson W.C., Clayton R.A., Gwinn M.L.,
+RA   Dodson R.J., Haft D.H., Hickey E.K., Peterson J.D., Umayam L.A., Gill S.R.,
+RA   Nelson K.E., Read T.D., Tettelin H., Richardson D.L., Ermolaeva M.D.,
+RA   Vamathevan J.J., Bass S., Qin H., Dragoi I., Sellers P., McDonald L.A.,
+RA   Utterback T.R., Fleischmann R.D., Nierman W.C., White O., Salzberg S.L.,
+RA   Smith H.O., Colwell R.R., Mekalanos J.J., Venter J.C., Fraser C.M.;
+RT   "DNA sequence of both chromosomes of the cholera pathogen Vibrio
+RT   cholerae.";
+RL   Nature 406:477-483(2000).
+RN   [2]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RC   STRAIN=Classical CG842 / Serotype O1;
+RX   PubMed=16341015; DOI=10.1038/nature04249;
+RA   Kirn T.J., Jude B.A., Taylor R.K.;
+RT   "A colonization factor links Vibrio cholerae environmental survival and
+RT   human infection.";
+RL   Nature 438:863-866(2005).
+CC   -!- FUNCTION: Probably interacts with GlcNAc residues. May promote
+CC       attachment to both epithelial cell surfaces and chitin. This function
+CC       enhances bacterial colonization in the gastrointestinal tract and may
+CC       also be important in the environment by augment colonization of
+CC       chitinous structures, leading to improved survival. Promotes bacterial
+CC       attachment to, and colonization of, zooplankton in the aquatic
+CC       ecosystem. {ECO:0000269|PubMed:16341015}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:16341015}.
+CC       Note=Secreted via the type II secretion pathway EPS (extracellular
+CC       protein secretion).
+CC   -!- SIMILARITY: Belongs to the GbpA family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE003853; AAF96709.1; -; Genomic_DNA.
+DR   PIR; A82414; A82414.
+DR   RefSeq; NP_233197.1; NC_002506.1.
+DR   RefSeq; WP_000744635.1; NZ_LT906615.1.
+DR   PDB; 2XWX; X-ray; 1.80 A; A/B=24-414.
+DR   PDBsum; 2XWX; -.
+DR   SMR; Q9KLD5; -.
+DR   STRING; 243277.VC_A0811; -.
+DR   CAZy; AA10; Auxiliary Activities 10.
+DR   CAZy; CBM73; Carbohydrate-Binding Module Family 73.
+DR   PRIDE; Q9KLD5; -.
+DR   DNASU; 2611865; -.
+DR   EnsemblBacteria; AAF96709; AAF96709; VC_A0811.
+DR   GeneID; 57742190; -.
+DR   KEGG; vch:VCA0811; -.
+DR   PATRIC; fig|243277.26.peg.3431; -.
+DR   eggNOG; COG3397; Bacteria.
+DR   HOGENOM; CLU_039396_2_0_6; -.
+DR   OMA; WTFTANH; -.
+DR   BioCyc; VCHO:VCA0811-MONOMER; -.
+DR   Proteomes; UP000000584; Chromosome 2.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008061; F:chitin binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004568; F:chitinase activity; ISS:TIGR.
+DR   GO; GO:0006032; P:chitin catabolic process; ISS:TIGR.
+DR   HAMAP; MF_01905; GbpA; 1.
+DR   InterPro; IPR004302; Cellulose/chitin-bd_N.
+DR   InterPro; IPR041029; GbpA_2.
+DR   InterPro; IPR020879; GlcNAc-bd_A.
+DR   InterPro; IPR014756; Ig_E-set.
+DR   Pfam; PF18416; GbpA_2; 1.
+DR   Pfam; PF03067; LPMO_10; 1.
+DR   SUPFAM; SSF81296; SSF81296; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Chitin-binding; Reference proteome; Secreted; Signal.
+FT   SIGNAL          1..23
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           24..485
+FT                   /note="GlcNAc-binding protein A"
+FT                   /id="PRO_0000229723"
+FT   DOMAIN          24..201
+FT                   /note="Chitin-binding type-4"
+FT   DOMAIN          437..478
+FT                   /note="Chitin-binding type-3"
+FT   STRAND          25..28
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          30..32
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           40..43
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   TURN            47..49
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           57..61
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           63..65
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          67..70
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   TURN            72..74
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          75..77
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   TURN            82..86
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           88..94
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          104..106
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          108..119
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          123..131
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           143..145
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          151..159
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          163..171
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          176..201
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          211..217
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          228..235
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           241..243
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          246..248
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           252..255
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   HELIX           257..271
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          273..281
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          284..286
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          292..297
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          304..310
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          319..323
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          327..330
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          337..355
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          361..369
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          374..380
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          386..397
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+FT   STRAND          402..413
+FT                   /evidence="ECO:0007744|PDB:2XWX"
+SQ   SEQUENCE   485 AA;  53628 MW;  975D21307B02BCE4 CRC64;
+     MKKQPKMTAI ALILSGISGL AYGHGYVSAV ENGVAEGRVT LCKFAANGTG EKNTHCGAIQ
+     YEPQSVEGPD GFPVTGPRDG KIASAESALA AALDEQTADR WVKRPIQAGP QTFEWTFTAN
+     HVTKDWKYYI TKPNWNPNQP LSRDAFDLNP FCVVEGNMVQ PPKRVSHECI VPEREGYQVI
+     LAVWDVGDTA ASFYNVIDVK FDGNGPVLPD WNPAGQIIPS MDLSIGDTVY TRVFDNDGEN
+     PAYRTELKID SETLTKANQW SYALATKINQ TQKQQRAGQL NGDQFVPVYG TNPIYLKEGS
+     GLKSVEIGYQ IEAPQPEYSL TVSGLAKEYE IGEQPIQLDL TLEAQGEMSA ELTVYNHHQK
+     PLASWSQAMT DGELKSITLE LSEAKAGHHM LVSRIKDRDG NLQDQQTLDF MLVEPQTPPT
+     PGDYDFVFPN GLKEYVAGTK VLASDGAIYQ CKPWPYSGYC QQWTSNATQY QPGTGSHWEM
+     AWDKR
+//

@@ -1,0 +1,94 @@
+ID   MURC_SYNPX              Reviewed;         467 AA.
+AC   Q7UA71;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   07-APR-2021, entry version 112.
+DE   RecName: Full=UDP-N-acetylmuramate--L-alanine ligase {ECO:0000255|HAMAP-Rule:MF_00046};
+DE            EC=6.3.2.8 {ECO:0000255|HAMAP-Rule:MF_00046};
+DE   AltName: Full=UDP-N-acetylmuramoyl-L-alanine synthetase {ECO:0000255|HAMAP-Rule:MF_00046};
+GN   Name=murC {ECO:0000255|HAMAP-Rule:MF_00046}; OrderedLocusNames=SYNW0029;
+OS   Synechococcus sp. (strain WH8102).
+OC   Bacteria; Cyanobacteria; Synechococcales; Synechococcaceae; Synechococcus;
+OC   unclassified Synechococcus.
+OX   NCBI_TaxID=84588;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=WH8102;
+RX   PubMed=12917641; DOI=10.1038/nature01943;
+RA   Palenik B., Brahamsha B., Larimer F.W., Land M.L., Hauser L., Chain P.,
+RA   Lamerdin J.E., Regala W., Allen E.E., McCarren J., Paulsen I.T.,
+RA   Dufresne A., Partensky F., Webb E.A., Waterbury J.;
+RT   "The genome of a motile marine Synechococcus.";
+RL   Nature 424:1037-1042(2003).
+CC   -!- FUNCTION: Cell wall formation. {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-alanine + UDP-N-acetyl-alpha-D-muramate = ADP + H(+) +
+CC         phosphate + UDP-N-acetyl-alpha-D-muramoyl-L-alanine;
+CC         Xref=Rhea:RHEA:23372, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57972, ChEBI:CHEBI:70757,
+CC         ChEBI:CHEBI:83898, ChEBI:CHEBI:456216; EC=6.3.2.8;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00046};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00046}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00046}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX569689; CAE06544.1; -; Genomic_DNA.
+DR   RefSeq; WP_011126907.1; NC_005070.1.
+DR   SMR; Q7UA71; -.
+DR   STRING; 84588.SYNW0029; -.
+DR   EnsemblBacteria; CAE06544; CAE06544; SYNW0029.
+DR   KEGG; syw:SYNW0029; -.
+DR   eggNOG; COG0773; Bacteria.
+DR   HOGENOM; CLU_028104_2_2_3; -.
+DR   OMA; DITYQLR; -.
+DR   OrthoDB; 307881at2; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001422; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008763; F:UDP-N-acetylmuramate-L-alanine ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_00046; MurC; 1.
+DR   InterPro; IPR036565; Mur-like_cat_sf.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR036615; Mur_ligase_C_dom_sf.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005758; UDP-N-AcMur_Ala_ligase_MurC.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   TIGRFAMs; TIGR01082; murC; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN           1..467
+FT                   /note="UDP-N-acetylmuramate--L-alanine ligase"
+FT                   /id="PRO_0000182175"
+FT   NP_BIND         121..127
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00046"
+SQ   SEQUENCE   467 AA;  50515 MW;  44D4D9D3F7DE1536 CRC64;
+     MSRPLERQHP VHFIGVGGIG MSALAKILVD RGHPVSGSDP RVTPTSHQLM QLGVTVVHEQ
+     TEATIETLLS NGRRPIVVVS TAIPTSNPEL RRARDAGLEI WHRSDLLAAL IDQQASIAVA
+     GSHGKTTTST LTTTLLMEAG EDPTAIIGGI VPCLGSNGHA GHGRLLVAEA DESDGSLVKF
+     RPQLGLITNL ELDHTDHYDG LDDLINTMRL FADGCDQVLA NRDCPILKEH IQPDAWWSVT
+     SANGVDFAAL PLQLDGDRCL ARFYENGAPV GDFMLPLPGL HNLSNAAGAL AACRMEGIPF
+     ERLVNGLTAL KPPGRRFDLR GTWEGRYIVD DYAHHPSEVK ATLAMAQLMV SSGRSPFPSP
+     PQRLLAVFQP HRFSRTQEFL ESFASALQNC DSLLLAPVYS AGEEPLKGVC SQTLADRIQE
+     LKPDLEIAVA DNLDHLTQLV RTRSQREDLV LAMGAGDVNG LWPRLSA
+//

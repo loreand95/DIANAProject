@@ -1,0 +1,98 @@
+ID   PHL1_BACCE              Reviewed;         333 AA.
+AC   P09599;
+DT   01-JUL-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1989, sequence version 1.
+DT   10-FEB-2021, entry version 104.
+DE   RecName: Full=Sphingomyelinase C;
+DE            Short=SMase;
+DE            EC=3.1.4.12;
+DE   AltName: Full=Cereolysin B;
+DE   AltName: Full=SMPLC;
+DE   AltName: Full=Sphingomyelin phosphodiesterase;
+DE   Flags: Precursor;
+GN   Name=sph;
+OS   Bacillus cereus.
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=1396;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=SE-1;
+RX   PubMed=2848222; DOI=10.1093/nar/16.21.10370;
+RA   Johansen T., Haugli F.B., Ikezawa H., Little C.;
+RT   "Bacillus cereus strain SE-1: nucleotide sequence of the sphingomyelinase C
+RT   gene.";
+RL   Nucleic Acids Res. 16:10370-10370(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=VKM B-164;
+RX   PubMed=8387306;
+RA   Kuzmin N.P., Gavrilenko I.V., Krukov V.M., Karpov A.V.;
+RT   "Nucleotide sequence of phospholipase C and sphingomyelinase genes from
+RT   Bacillus cereus BKM-B164.";
+RL   Bioorg. Khim. 19:133-138(1993).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-188.
+RC   STRAIN=SE-1;
+RX   PubMed=3137122; DOI=10.1016/0378-1119(88)90466-0;
+RA   Johansen T., Holm T., Guddal P.H., Sletten K., Haugli F.B., Little C.;
+RT   "Cloning and sequencing of the gene encoding the phosphatidylcholine-
+RT   preferring phospholipase C of Bacillus cereus.";
+RL   Gene 65:293-304(1988).
+CC   -!- FUNCTION: Required, with sphingomyelinase, to effect target cell lysis
+CC       (hemolysis).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a sphingomyelin + H2O = an N-acylsphing-4-enine + H(+) +
+CC         phosphocholine; Xref=Rhea:RHEA:19253, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17636, ChEBI:CHEBI:52639,
+CC         ChEBI:CHEBI:295975; EC=3.1.4.12;
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC   -!- ACTIVITY REGULATION: Activated by cobalt and manganese ions.
+CC   -!- SUBCELLULAR LOCATION: Secreted.
+CC   -!- SIMILARITY: Belongs to the neutral sphingomyelinase family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=CAA45501.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X64141; CAA45503.1; -; Genomic_DNA.
+DR   EMBL; X12854; CAA31333.1; -; Genomic_DNA.
+DR   EMBL; X64140; CAA45501.1; ALT_INIT; Genomic_DNA.
+DR   PIR; S01950; S01950.
+DR   RefSeq; WP_000676778.1; NZ_MIFD01000014.1.
+DR   SMR; P09599; -.
+DR   STRING; 1396.DJ87_4437; -.
+DR   GeneID; 59156455; -.
+DR   eggNOG; COG3568; Bacteria.
+DR   BRENDA; 3.1.4.12; 648.
+DR   SABIO-RK; P09599; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004767; F:sphingomyelin phosphodiesterase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   CDD; cd09078; nSMase; 1.
+DR   Gene3D; 3.60.10.10; -; 1.
+DR   InterPro; IPR036691; Endo/exonu/phosph_ase_sf.
+DR   InterPro; IPR005135; Endo/exonuclease/phosphatase.
+DR   InterPro; IPR017766; Sphingomyelinase/PLipase_C.
+DR   Pfam; PF03372; Exo_endo_phos; 1.
+DR   SUPFAM; SSF56219; SSF56219; 1.
+DR   TIGRFAMs; TIGR03395; sphingomy; 1.
+PE   3: Inferred from homology;
+KW   Cytolysis; Disulfide bond; Hemolysis; Hydrolase; Secreted; Signal.
+FT   SIGNAL          1..27
+FT   CHAIN           28..333
+FT                   /note="Sphingomyelinase C"
+FT                   /id="PRO_0000019899"
+FT   DISULFID        150..186
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   333 AA;  36949 MW;  035EF97D690C8378 CRC64;
+     MKGKLLKGVL SFGIGLGVLY GGSSVQADTS TDQNNTLKVM THNVYMLSTN LYPNWGQSQR
+     ADLIGAADYI KNQDVVILNE VFDNSASDRL LGNLKKEYPN QTAVLGRSNG NEWDKTLGSY
+     SSSTPEDGGV AIVSKWPIVE KIQYVFAKGC GPDNLSNKGF VYTKIKKNDR FVHVIGTHLQ
+     AEDSMCGKTS PASVRTNQLK EIQDFIKNKN IPNDEYVLFG GDMNVNKINA ENNSDSEYAS
+     MFKTLHASIP SYTGHTATWD ATTNSIAKYN FPDSPAEYLD YIIASKDHAN PSFIENKVLQ
+     PKSPQWTVTS WLKKYTYDDY SDHYPVAATI SMK
+//

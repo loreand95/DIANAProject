@@ -1,0 +1,87 @@
+ID   NUOK_BRUSI              Reviewed;         102 AA.
+AC   B0CLD9;
+DT   15-DEC-2009, integrated into UniProtKB/Swiss-Prot.
+DT   26-FEB-2008, sequence version 1.
+DT   10-FEB-2021, entry version 69.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01456};
+DE   AltName: Full=NADH dehydrogenase I subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+DE   AltName: Full=NDH-1 subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+GN   Name=nuoK {ECO:0000255|HAMAP-Rule:MF_01456}; OrderedLocusNames=BSUIS_A0851;
+OS   Brucella suis (strain ATCC 23445 / NCTC 10510).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=470137;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 23445 / NCTC 10510;
+RA   Setubal J.C., Bowns C., Boyle S., Crasta O.R., Czar M.J., Dharmanolla C.,
+RA   Gillespie J.J., Kenyon R.W., Lu J., Mane S., Mohapatra S., Nagrani S.,
+RA   Purkayastha A., Rajasimha H.K., Shallom J.M., Shallom S., Shukla M.,
+RA   Snyder E.E., Sobral B.W., Wattam A.R., Will R., Williams K., Yoo H.,
+RA   Bruce D., Detter C., Munk C., Brettin T.S.;
+RT   "Brucella suis ATCC 23445 whole genome shotgun sequencing project.";
+RL   Submitted (DEC-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01456};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01456}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01456}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 4L family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000911; ABY37919.1; -; Genomic_DNA.
+DR   RefSeq; WP_002963947.1; NC_010169.1.
+DR   SMR; B0CLD9; -.
+DR   EnsemblBacteria; ABY37919; ABY37919; BSUIS_A0851.
+DR   GeneID; 45124246; -.
+DR   GeneID; 55590524; -.
+DR   KEGG; bmt:BSUIS_A0851; -.
+DR   HOGENOM; CLU_144724_2_0_5; -.
+DR   OMA; NLMGFSN; -.
+DR   Proteomes; UP000008545; Chromosome I.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050136; F:NADH dehydrogenase (quinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   HAMAP; MF_01456; NDH1_NuoK; 1.
+DR   InterPro; IPR001133; NADH_UbQ_OxRdtase_chain4L/K.
+DR   InterPro; IPR039428; NUOK/Mnh_C1-like.
+DR   PANTHER; PTHR11434; PTHR11434; 1.
+DR   Pfam; PF00420; Oxidored_q2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..102
+FT                   /note="NADH-quinone oxidoreductase subunit K"
+FT                   /id="PRO_0000389978"
+FT   TRANSMEM        5..25
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+FT   TRANSMEM        31..51
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+FT   TRANSMEM        66..86
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+SQ   SEQUENCE   102 AA;  10942 MW;  E3EC572231BD3204 CRC64;
+     MEIGIAHYLT VSAILFTLGV FGIFLNRKNV IVILMSIELI LLSVNLNFVA FSSQLGDLVG
+     QVFALFVLTV AAAEAAIGLA ILVVFFRNRG SIAVEDVNVM KG
+//

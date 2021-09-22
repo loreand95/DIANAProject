@@ -1,0 +1,124 @@
+ID   METAA_HYPNA             Reviewed;         305 AA.
+AC   Q0BX37;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   07-APR-2021, entry version 99.
+DE   RecName: Full=Homoserine O-acetyltransferase {ECO:0000255|HAMAP-Rule:MF_00295};
+DE            Short=HAT {ECO:0000255|HAMAP-Rule:MF_00295, ECO:0000303|PubMed:28581482};
+DE            EC=2.3.1.31 {ECO:0000255|HAMAP-Rule:MF_00295, ECO:0000269|PubMed:28581482};
+DE   AltName: Full=Homoserine transacetylase {ECO:0000255|HAMAP-Rule:MF_00295};
+DE            Short=HTA {ECO:0000255|HAMAP-Rule:MF_00295};
+GN   Name=metAA {ECO:0000255|HAMAP-Rule:MF_00295, ECO:0000303|PubMed:28581482};
+GN   OrderedLocusNames=HNE_3283;
+OS   Hyphomonas neptunium (strain ATCC 15444).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Hyphomonadales;
+OC   Hyphomonadaceae; Hyphomonas.
+OX   NCBI_TaxID=228405;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 15444;
+RX   PubMed=16980487; DOI=10.1128/jb.00111-06;
+RA   Badger J.H., Hoover T.R., Brun Y.V., Weiner R.M., Laub M.T., Alexandre G.,
+RA   Mrazek J., Ren Q., Paulsen I.T., Nelson K.E., Khouri H.M., Radune D.,
+RA   Sosa J., Dodson R.J., Sullivan S.A., Rosovitz M.J., Madupu R.,
+RA   Brinkac L.M., Durkin A.S., Daugherty S.C., Kothari S.P., Giglio M.G.,
+RA   Zhou L., Haft D.H., Selengut J.D., Davidsen T.M., Yang Q., Zafar N.,
+RA   Ward N.L.;
+RT   "Comparative genomic evidence for a close relationship between the
+RT   dimorphic prosthecate bacteria Hyphomonas neptunium and Caulobacter
+RT   crescentus.";
+RL   J. Bacteriol. 188:6841-6850(2006).
+RN   [2]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=28581482; DOI=10.1038/nchembio.2397;
+RA   Bastard K., Perret A., Mariage A., Bessonnet T., Pinet-Turpault A.,
+RA   Petit J.L., Darii E., Bazire P., Vergne-Vaxelaire C., Brewee C., Debard A.,
+RA   Pellouin V., Besnard-Gonnet M., Artiguenave F., Medigue C., Vallenet D.,
+RA   Danchin A., Zaparucha A., Weissenbach J., Salanoubat M., de Berardinis V.;
+RT   "Parallel evolution of non-homologous isofunctional enzymes in methionine
+RT   biosynthesis.";
+RL   Nat. Chem. Biol. 13:858-866(2017).
+CC   -!- FUNCTION: Transfers an acetyl group from acetyl-CoA to L-homoserine,
+CC       forming acetyl-L-homoserine. {ECO:0000255|HAMAP-Rule:MF_00295,
+CC       ECO:0000269|PubMed:28581482}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=acetyl-CoA + L-homoserine = CoA + O-acetyl-L-homoserine;
+CC         Xref=Rhea:RHEA:13701, ChEBI:CHEBI:57287, ChEBI:CHEBI:57288,
+CC         ChEBI:CHEBI:57476, ChEBI:CHEBI:57716; EC=2.3.1.31;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00295,
+CC         ECO:0000269|PubMed:28581482};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-methionine biosynthesis via de novo
+CC       pathway; O-acetyl-L-homoserine from L-homoserine: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00295}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00295}.
+CC   -!- SIMILARITY: Belongs to the MetA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00295}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000158; ABI77869.1; -; Genomic_DNA.
+DR   RefSeq; WP_011648251.1; NC_008358.1.
+DR   SMR; Q0BX37; -.
+DR   STRING; 228405.HNE_3283; -.
+DR   EnsemblBacteria; ABI77869; ABI77869; HNE_3283.
+DR   KEGG; hne:HNE_3283; -.
+DR   eggNOG; COG1897; Bacteria.
+DR   HOGENOM; CLU_057851_0_1_5; -.
+DR   OMA; CWAAHAA; -.
+DR   OrthoDB; 1601420at2; -.
+DR   BioCyc; HNEP228405:G1G5G-3253-MONOMER; -.
+DR   UniPathway; UPA00051; UER00074.
+DR   Proteomes; UP000001959; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004414; F:homoserine O-acetyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008899; F:homoserine O-succinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019281; P:L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine; IEA:InterPro.
+DR   CDD; cd03131; GATase1_HTS; 1.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   HAMAP; MF_00295; MetA_acyltransf; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR005697; HST_MetA.
+DR   InterPro; IPR033752; MetA_family.
+DR   PANTHER; PTHR20919; PTHR20919; 1.
+DR   Pfam; PF04204; HTS; 1.
+DR   PIRSF; PIRSF000450; H_ser_succinyltr; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+DR   TIGRFAMs; TIGR01001; metA; 1.
+PE   1: Evidence at protein level;
+KW   Acyltransferase; Amino-acid biosynthesis; Cytoplasm;
+KW   Methionine biosynthesis; Transferase.
+FT   CHAIN           1..305
+FT                   /note="Homoserine O-acetyltransferase"
+FT                   /id="PRO_1000021816"
+FT   ACT_SITE        142
+FT                   /note="Acyl-thioester intermediate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   ACT_SITE        235
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   ACT_SITE        237
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         163
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         192
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   BINDING         249
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   SITE            111
+FT                   /note="Important for acyl-CoA specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+FT   SITE            192
+FT                   /note="Important for substrate specificity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00295"
+SQ   SEQUENCE   305 AA;  35435 MW;  C97068FF439F0DFF CRC64;
+     MPIRIPDTLP ARETLLKEGV AVMTETDAVR QDIRPLQIAL LNLMPNKIRT ETQIARLIGA
+     SPLQVELTLV RVGGHTPKNT SQEHLISFYQ TWEEIRERKF DGFIITGAPI EQMPFEEVNY
+     WEELTQIFDW TQTNVHSPFY ICWGAMAAAY HFHGLPKYQL EAKAFGVFRH RNLDLASPYL
+     SGFSDDFAIP VSRWTEVRRA DVLERQSLRL LIDSDDTGPC LLEDRARRSL YMFNHVEYDS
+     FSLKEEFERD REAGKQIQVP FGYYPGDDPA RQPLNRWRSH AHLLFGNWIN QTYQSTPFSL
+     DEIGQ
+//

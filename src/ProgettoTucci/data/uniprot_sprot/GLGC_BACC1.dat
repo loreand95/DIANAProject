@@ -1,0 +1,101 @@
+ID   GLGC_BACC1              Reviewed;         376 AA.
+AC   Q72YJ4;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Glucose-1-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            EC=2.7.7.27 {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE            Short=ADPGlc PPase {ECO:0000255|HAMAP-Rule:MF_00624};
+DE   AltName: Full=ADP-glucose synthase {ECO:0000255|HAMAP-Rule:MF_00624};
+GN   Name=glgC {ECO:0000255|HAMAP-Rule:MF_00624}; OrderedLocusNames=BCE_5027;
+OS   Bacillus cereus (strain ATCC 10987 / NRS 248).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+OC   Bacillus cereus group.
+OX   NCBI_TaxID=222523;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 10987 / NRS 248;
+RX   PubMed=14960714; DOI=10.1093/nar/gkh258;
+RA   Rasko D.A., Ravel J., Oekstad O.A., Helgason E., Cer R.Z., Jiang L.,
+RA   Shores K.A., Fouts D.E., Tourasse N.J., Angiuoli S.V., Kolonay J.F.,
+RA   Nelson W.C., Kolstoe A.-B., Fraser C.M., Read T.D.;
+RT   "The genome sequence of Bacillus cereus ATCC 10987 reveals metabolic
+RT   adaptations and a large plasmid related to Bacillus anthracis pXO1.";
+RL   Nucleic Acids Res. 32:977-988(2004).
+CC   -!- FUNCTION: Involved in the biosynthesis of ADP-glucose, a building block
+CC       required for the elongation reactions to produce glycogen. Catalyzes
+CC       the reaction between ATP and alpha-D-glucose 1-phosphate (G1P) to
+CC       produce pyrophosphate and ADP-Glc. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=alpha-D-glucose 1-phosphate + ATP + H(+) = ADP-alpha-D-glucose
+CC         + diphosphate; Xref=Rhea:RHEA:12120, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57498,
+CC         ChEBI:CHEBI:58601; EC=2.7.7.27; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00624};
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   -!- SIMILARITY: Belongs to the bacterial/plant glucose-1-phosphate
+CC       adenylyltransferase family. {ECO:0000255|HAMAP-Rule:MF_00624}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017194; AAS43928.1; -; Genomic_DNA.
+DR   RefSeq; WP_000057613.1; NC_003909.8.
+DR   SMR; Q72YJ4; -.
+DR   EnsemblBacteria; AAS43928; AAS43928; BCE_5027.
+DR   GeneID; 51136576; -.
+DR   GeneID; 59158832; -.
+DR   KEGG; bca:BCE_5027; -.
+DR   HOGENOM; CLU_029499_14_0_9; -.
+DR   OMA; HCVLGVR; -.
+DR   BioCyc; BCER222523:G1G0J-4970-MONOMER; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000002527; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008878; F:glucose-1-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_00624; GlgC; 1.
+DR   InterPro; IPR011831; ADP-Glc_PPase.
+DR   InterPro; IPR005836; ADP_Glu_pyroP_CS.
+DR   InterPro; IPR023049; GlgC_bac.
+DR   InterPro; IPR005835; NTP_transferase_dom.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   InterPro; IPR011004; Trimer_LpxA-like_sf.
+DR   Pfam; PF00483; NTP_transferase; 1.
+DR   SUPFAM; SSF51161; SSF51161; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   TIGRFAMs; TIGR02091; glgC; 1.
+DR   PROSITE; PS00808; ADP_GLC_PYROPHOSPH_1; 1.
+DR   PROSITE; PS00809; ADP_GLC_PYROPHOSPH_2; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Carbohydrate metabolism; Glycogen biosynthesis;
+KW   Glycogen metabolism; Nucleotide-binding; Nucleotidyltransferase;
+KW   Transferase.
+FT   CHAIN           1..376
+FT                   /note="Glucose-1-phosphate adenylyltransferase"
+FT                   /id="PRO_0000195276"
+FT   REGION          181..182
+FT                   /note="Alpha-D-glucose 1-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         101
+FT                   /note="Alpha-D-glucose 1-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         166
+FT                   /note="Alpha-D-glucose 1-phosphate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+FT   BINDING         192
+FT                   /note="Alpha-D-glucose 1-phosphate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00624"
+SQ   SEQUENCE   376 AA;  42033 MW;  E70CF3E7335BBB80 CRC64;
+     MAQKQKCVAM LLAGGKGSRL SALTKNLAKP AVPFGGKYRI IDFTLSNCAN SGIETVGILT
+     QYQPLELHNY IGIGNAWDLD RVSGGVTVLP PYAESSGVKW YTGTASAIYQ NLNYLSQYEP
+     EYVLILSGDH IYKMDYSKML DYHIEKEADV SISVIEVPWD EASRFGIMNT NEEMEIVEFE
+     EKPQFPRSNL ASMGIYIFNW AILKEYLEMD ARNPESSNDF GKDVLPLLLD EGKKLMAYPF
+     EGYWKDVGTV KSLWEANMDL LRDETSLNLN DRNWRIYSVN PNEPPQYIAE KAKVEESLIN
+     EGCVIEGDVK HSVLFQGVTV EEGSMVIDSV VMPGAKIGKN VVIERAIVGS EMVIEDGTII
+     RPEKNVDDVV LIAEGK
+//

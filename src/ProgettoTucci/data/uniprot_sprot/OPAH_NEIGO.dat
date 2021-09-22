@@ -1,0 +1,135 @@
+ID   OPAH_NEIGO              Reviewed;         238 AA.
+AC   Q04884;
+DT   01-OCT-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-1993, sequence version 1.
+DT   07-APR-2021, entry version 78.
+DE   RecName: Full=Opacity protein opA60;
+DE   Flags: Precursor; Fragment;
+GN   Name=opaH;
+OS   Neisseria gonorrhoeae.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=MS11 / F3;
+RX   PubMed=8440254; DOI=10.1002/j.1460-2075.1993.tb05697.x;
+RA   Kupsch E.-M., Knepper B., Kuroki T., Heuer I., Meyer T.F.;
+RT   "Variable opacity (Opa) outer membrane proteins account for the cell
+RT   tropisms displayed by Neisseria gonorrhoeae for human leukocytes and
+RT   epithelial cells.";
+RL   EMBO J. 12:641-650(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=MS11 / V18;
+RX   PubMed=1815562; DOI=10.1111/j.1365-2958.1991.tb00813.x;
+RA   Bhat K.S., Gibbs C.P., Barrera O., Morrison S.G., Jaehnig F., Stern A.,
+RA   Kupsch E.-M., Meyer T.F., Swanson J.;
+RT   "The opacity proteins of Neisseria gonorrhoeae strain MS11 are encoded by a
+RT   family of 11 complete genes.";
+RL   Mol. Microbiol. 5:1889-1901(1991).
+RN   [3]
+RP   ERRATUM OF PUBMED:1815562.
+RX   PubMed=1584024; DOI=10.1111/j.1365-2958.1992.tb02172.x;
+RA   Bhat K.S., Gibbs C.P., Barrera O., Morrison S.G., Jaehnig F., Stern S.,
+RA   Kupsch E.-M., Meyer T.F., Swanson J.;
+RL   Mol. Microbiol. 6:1073-1076(1992).
+CC   -!- FUNCTION: Implicated in a number of adherence functions. OPA proteins
+CC       are implicated in pathogenesis and are subject to phase variation.
+CC   -!- INTERACTION:
+CC       Q04884; P13688: CEACAM1; Xeno; NbExp=3; IntAct=EBI-26495102, EBI-4314481;
+CC       Q04884; P40198: CEACAM3; Xeno; NbExp=3; IntAct=EBI-26495102, EBI-12851752;
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane.
+CC   -!- SIMILARITY: Belongs to the opacity porin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z18939; CAA79372.1; -; Genomic_DNA.
+DR   EMBL; X60711; CAA43121.1; -; Genomic_DNA.
+DR   PIR; S16619; S16619.
+DR   PDB; 2MAF; NMR; -; A=1-238.
+DR   PDB; 2MLH; NMR; -; A=1-238.
+DR   PDBsum; 2MAF; -.
+DR   PDBsum; 2MLH; -.
+DR   SMR; Q04884; -.
+DR   IntAct; Q04884; 2.
+DR   PRIDE; Q04884; -.
+DR   Reactome; R-HSA-202733; Cell surface interactions at the vascular wall.
+DR   GO; GO:0009279; C:cell outer membrane; TAS:Reactome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015288; F:porin activity; IEA:InterPro.
+DR   GO; GO:0050900; P:leukocyte migration; TAS:Reactome.
+DR   DisProt; DP00756; -.
+DR   InterPro; IPR006315; OM_autotransptr_brl.
+DR   InterPro; IPR011250; OMP/PagP_b-brl.
+DR   InterPro; IPR003394; Porin_opacity.
+DR   Pfam; PF02462; Opacity; 1.
+DR   SUPFAM; SSF56925; SSF56925; 1.
+DR   TIGRFAMs; TIGR01414; autotrans_barl; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell outer membrane; Membrane; Signal; Transmembrane;
+KW   Transmembrane beta strand.
+FT   SIGNAL          <1..1
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           2..>238
+FT                   /note="Opacity protein opA60"
+FT                   /id="PRO_0000021912"
+FT   VARIANT         2..4
+FT                   /note="SED -> MLKA (in strain: MS11 / V18)"
+FT   VARIANT         234
+FT                   /note="V -> M (in strain: MS11 / V18)"
+FT   NON_TER         1
+FT   NON_TER         238
+FT   STRAND          7..15
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          37..39
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          41..43
+FT                   /evidence="ECO:0007744|PDB:2MLH"
+FT   TURN            49..51
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          55..62
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          65..72
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          85..87
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          89..92
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          99..101
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   TURN            103..105
+FT                   /evidence="ECO:0007744|PDB:2MLH"
+FT   STRAND          115..124
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          128..142
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   HELIX           161..163
+FT                   /evidence="ECO:0007744|PDB:2MLH"
+FT   STRAND          168..170
+FT                   /evidence="ECO:0007744|PDB:2MLH"
+FT   STRAND          171..173
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   TURN            180..182
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          184..186
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          191..194
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          196..203
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          206..212
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          219..221
+FT                   /evidence="ECO:0007744|PDB:2MLH"
+FT   STRAND          222..224
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+FT   STRAND          229..237
+FT                   /evidence="ECO:0007744|PDB:2MAF"
+SQ   SEQUENCE   238 AA;  27073 MW;  883A3560C2DF1B9F CRC64;
+     ASEDGGRGPY VQADLAYAYE HITHDYPEPT APNKNKISTV SDYFRNIRTR SVHPRVSVGY
+     DFGGWRIAAD YARYRKWNNN KYSVNIENVR IRKENGIRID RKTENQENGT FHAVSSLGLS
+     AIYDFQINDK FKPYIGARVA YGHVRHSIDS TKKTIEVTTV PSNAPNGAVT TYNTDPKTQN
+     DYQSNSIRRV GLGVIAGVGF DITPKLTLDA GYRYHNWGRL ENTRFKTHEA SLGVRYRF
+//

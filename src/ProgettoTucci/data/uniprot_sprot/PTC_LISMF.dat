@@ -1,0 +1,109 @@
+ID   PTC_LISMF               Reviewed;         341 AA.
+AC   Q725C8;
+DT   07-DEC-2004, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 97.
+DE   RecName: Full=Putrescine carbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_02102};
+DE            Short=PTC {ECO:0000255|HAMAP-Rule:MF_02102};
+DE            Short=PTCase {ECO:0000255|HAMAP-Rule:MF_02102};
+DE            EC=2.1.3.6 {ECO:0000255|HAMAP-Rule:MF_02102};
+DE   AltName: Full=Putrescine transcarbamoylase {ECO:0000255|HAMAP-Rule:MF_02102};
+DE   AltName: Full=Putrescine transcarbamylase {ECO:0000255|HAMAP-Rule:MF_02102};
+GN   Name=ptcA {ECO:0000255|HAMAP-Rule:MF_02102}; Synonyms=argF-1;
+GN   OrderedLocusNames=LMOf2365_0045;
+OS   Listeria monocytogenes serotype 4b (strain F2365).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+OX   NCBI_TaxID=265669;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=F2365;
+RX   PubMed=15115801; DOI=10.1093/nar/gkh562;
+RA   Nelson K.E., Fouts D.E., Mongodin E.F., Ravel J., DeBoy R.T., Kolonay J.F.,
+RA   Rasko D.A., Angiuoli S.V., Gill S.R., Paulsen I.T., Peterson J.D.,
+RA   White O., Nelson W.C., Nierman W.C., Beanan M.J., Brinkac L.M.,
+RA   Daugherty S.C., Dodson R.J., Durkin A.S., Madupu R., Haft D.H.,
+RA   Selengut J., Van Aken S.E., Khouri H.M., Fedorova N., Forberger H.A.,
+RA   Tran B., Kathariou S., Wonderling L.D., Uhlich G.A., Bayles D.O.,
+RA   Luchansky J.B., Fraser C.M.;
+RT   "Whole genome comparisons of serotype 4b and 1/2a strains of the food-borne
+RT   pathogen Listeria monocytogenes reveal new insights into the core genome
+RT   components of this species.";
+RL   Nucleic Acids Res. 32:2386-2395(2004).
+CC   -!- FUNCTION: Catalyzes the phosphorolysis of N-carbamoylputrescine to form
+CC       carbamoyl phosphate and putrescine. Is involved in the degradation
+CC       pathway of the polyamine agmatine. {ECO:0000255|HAMAP-Rule:MF_02102}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + putrescine = H(+) + N-
+CC         carbamoylputrescine + phosphate; Xref=Rhea:RHEA:21936,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:43474, ChEBI:CHEBI:58228,
+CC         ChEBI:CHEBI:58318, ChEBI:CHEBI:326268; EC=2.1.3.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02102};
+CC   -!- PATHWAY: Amine and polyamine biosynthesis; putrescine biosynthesis via
+CC       agmatine pathway; putrescine from N-carbamoylputrescine (transferase
+CC       route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_02102}.
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000255|HAMAP-Rule:MF_02102}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02102}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. PTCase family. {ECO:0000255|HAMAP-Rule:MF_02102}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017262; AAT02833.1; -; Genomic_DNA.
+DR   RefSeq; WP_003724872.1; NC_002973.6.
+DR   SMR; Q725C8; -.
+DR   KEGG; lmf:LMOf2365_0045; -.
+DR   HOGENOM; CLU_043846_3_1_9; -.
+DR   OMA; VVYTTRW; -.
+DR   BioCyc; LMON265669:G1G0V-45-MONOMER; -.
+DR   UniPathway; UPA00534; UER00941.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0050231; F:putrescine carbamoyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0033390; P:putrescine biosynthetic process from arginine via N-carbamoylputrescine; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.1370; -; 2.
+DR   HAMAP; MF_02102; PTCase; 1.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   InterPro; IPR024903; PtcA.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; SSF53671; 1.
+DR   TIGRFAMs; TIGR00658; orni_carb_tr; 1.
+DR   TIGRFAMs; TIGR04384; putr_carbamoyl; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Polyamine biosynthesis; Transferase.
+FT   CHAIN           1..341
+FT                   /note="Putrescine carbamoyltransferase"
+FT                   /id="PRO_0000112944"
+FT   REGION          54..58
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+FT   REGION          271..274
+FT                   /note="Putrescine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+FT   BINDING         105
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+FT   BINDING         132
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+FT   SITE            29
+FT                   /note="Important for structural integrity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+FT   SITE            145
+FT                   /note="Important for structural integrity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_02102"
+SQ   SEQUENCE   341 AA;  38469 MW;  8027DF93BDBE9D12 CRC64;
+     MNKKRDFIDT KDFSKEEILF MIEIGRKMKE SIKNGHYPQL LKHKTLGMIF EQSSTRTRVS
+     FETAMTQLGG HAQYLAPGQI QLGGHESVGD TAKVLSRLVD ILMARVERHQ TVVELANTAA
+     IPVINGMSDY NHPTQELGDA ITMFEHLPKG KKIEDCKIVF VGDATQVCAS TMFMATKLGM
+     DFVQFGPKGF QLREEHLKIA EENCKVSGGS YLITEDVDIA LKDADFIYTD VWYGLYEAEL
+     SEEERMKTFY PKYQVNKELI SKAAPHVKFM HCLPATRGEE VTDEVLDAPY SVVIDEAENR
+     LTAMRALLVY FMNPYVREAG FAVAEKYDAE LELLLRNGAG L
+//

@@ -1,0 +1,131 @@
+ID   PCOA_ECOLX              Reviewed;         605 AA.
+AC   Q47452;
+DT   27-APR-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   10-FEB-2021, entry version 112.
+DE   RecName: Full=Copper resistance protein A;
+DE   Flags: Precursor;
+GN   Name=pcoA;
+OS   Escherichia coli.
+OG   Plasmid pRJ1004.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=562;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8594334; DOI=10.1111/j.1365-2958.1995.mmi_17061153.x;
+RA   Brown N.L., Barrett S.R., Camakaris J., Lee B.T.O., Rouch D.A.;
+RT   "Molecular genetics and transport analysis of the copper-resistance
+RT   determinant (pco) from Escherichia coli plasmid pRJ1004.";
+RL   Mol. Microbiol. 17:1153-1166(1995).
+CC   -!- FUNCTION: Required for the copper-inducible expression of copper
+CC       resistance. May have oxidase activity (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000305}.
+CC   -!- PTM: Predicted to be exported by the Tat system. The position of the
+CC       signal peptide cleavage has not been experimentally proven.
+CC   -!- SIMILARITY: Belongs to the multicopper oxidase family. CopA subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X83541; CAA58525.1; -; Genomic_DNA.
+DR   PIR; S70159; S52253.
+DR   RefSeq; WP_000925242.1; NZ_WVVM01000015.1.
+DR   SMR; Q47452; -.
+DR   STRING; 481805.EcolC_3416; -.
+DR   GeneID; 57729085; -.
+DR   eggNOG; COG2132; Bacteria.
+DR   GO; GO:0042597; C:periplasmic space; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005507; F:copper ion binding; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   CDD; cd13848; CuRO_1_CopA; 1.
+DR   CDD; cd13874; CuRO_2_CopA; 1.
+DR   CDD; cd13896; CuRO_3_CopA; 1.
+DR   Gene3D; 2.60.40.420; -; 3.
+DR   InterPro; IPR001117; Cu-oxidase.
+DR   InterPro; IPR011706; Cu-oxidase_2.
+DR   InterPro; IPR011707; Cu-oxidase_3.
+DR   InterPro; IPR006376; Cu-R_CopA.
+DR   InterPro; IPR033138; Cu_oxidase_CS.
+DR   InterPro; IPR002355; Cu_oxidase_Cu_BS.
+DR   InterPro; IPR008972; Cupredoxin.
+DR   InterPro; IPR034284; CuRO_1_CopA.
+DR   InterPro; IPR034282; CuRO_2_CopA.
+DR   InterPro; IPR034279; CuRO_3_CopA.
+DR   InterPro; IPR006311; TAT_signal.
+DR   InterPro; IPR019546; TAT_signal_bac_arc.
+DR   Pfam; PF00394; Cu-oxidase; 1.
+DR   Pfam; PF07731; Cu-oxidase_2; 1.
+DR   Pfam; PF07732; Cu-oxidase_3; 1.
+DR   SUPFAM; SSF49503; SSF49503; 3.
+DR   TIGRFAMs; TIGR01480; copper_res_A; 1.
+DR   TIGRFAMs; TIGR01409; TAT_signal_seq; 1.
+DR   PROSITE; PS00079; MULTICOPPER_OXIDASE1; 1.
+DR   PROSITE; PS00080; MULTICOPPER_OXIDASE2; 1.
+DR   PROSITE; PS51318; TAT; 1.
+PE   3: Inferred from homology;
+KW   Copper; Metal-binding; Oxidoreductase; Periplasm; Plasmid; Repeat; Signal.
+FT   SIGNAL          1..41
+FT                   /note="Tat-type signal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00648"
+FT   CHAIN           42..605
+FT                   /note="Copper resistance protein A"
+FT                   /id="PRO_0000002950"
+FT   REPEAT          382..389
+FT                   /note="1"
+FT   REPEAT          414..421
+FT                   /note="2"
+FT   REPEAT          422..429
+FT                   /note="3"
+FT   REGION          382..429
+FT                   /note="3 X 8 AA tandem repeats of D-H-X-X-M-X-G-M"
+FT   METAL           100
+FT                   /note="Copper 1; type 2"
+FT                   /evidence="ECO:0000250"
+FT   METAL           102
+FT                   /note="Copper 2; type 3"
+FT                   /evidence="ECO:0000250"
+FT   METAL           142
+FT                   /note="Copper 2; type 3"
+FT                   /evidence="ECO:0000250"
+FT   METAL           144
+FT                   /note="Copper 3; type 3"
+FT                   /evidence="ECO:0000250"
+FT   METAL           538
+FT                   /note="Copper 4; type 1"
+FT                   /evidence="ECO:0000255"
+FT   METAL           541
+FT                   /note="Copper 1; type 2"
+FT                   /evidence="ECO:0000255"
+FT   METAL           543
+FT                   /note="Copper 3; type 3"
+FT                   /evidence="ECO:0000255"
+FT   METAL           586
+FT                   /note="Copper 3; type 3"
+FT                   /evidence="ECO:0000255"
+FT   METAL           587
+FT                   /note="Copper 4; type 1"
+FT                   /evidence="ECO:0000255"
+FT   METAL           588
+FT                   /note="Copper 2; type 3"
+FT                   /evidence="ECO:0000255"
+FT   METAL           592
+FT                   /note="Copper 4; type 1"
+FT                   /evidence="ECO:0000255"
+FT   METAL           597
+FT                   /note="Copper 4; type 1"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   605 AA;  67307 MW;  8EECA182D56B27D8 CRC64;
+     MLLKTSRRTF LKGLTLSGVA GSLGVWSFNA RSSLSLPVAA SLQGTQFDLT IGETAVNITG
+     SERQAKTING GLPGPVLRWK EGDTITLKVK NRLNEQTSIH WHGIILPANM DGVPGLSFMG
+     IEPDDTYVYT FKVKQNGTYW YHSHSGLQEQ EGVYGAIIID AREPEPFAYD REHVVMLSDW
+     TDENPHSLLK KLKKQSDYYN FNKPTVGSFF RDVNTRGLSA TIADRKMWAE MKMNPTDLAD
+     VSGYTYTYLM NGQAPLKNWT GLFRPGEKIR LRFINGSAMT YFDIRIPGLK MTVVAADGQY
+     VNPVTVDEFR IAVAETYDVI VEPQGEAYTI FAQSMDRTGY ARGTLATREG LSAAVPPLDP
+     RPLLTMEDMG MGGMGHDMAG MDHSQMGGMD NSGEMMSMDG ADLPDSGTSS APMDHSSMAG
+     MDHSRMAGMP GMQSHPASET DNPLVDMQAM SVSPKLNDPG IGLRNNGRKV LTYADLKSRF
+     EDPDGREPGR TIELHLTGHM EKFAWSFNGI KFSDAAPVLL KYGERLRITL INDTMMTHPI
+     HLHGMWSDLE DENGNFMVRK HTIDVPPGTK RSYRVTADAL GRWAYHCHLL YHMEMGMFRE
+     VRVEE
+//

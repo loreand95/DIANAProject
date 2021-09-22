@@ -1,0 +1,127 @@
+ID   AROA_KORCO              Reviewed;         423 AA.
+AC   B1L5R5;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   29-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 80.
+DE   RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            EC=2.5.1.19 {ECO:0000255|HAMAP-Rule:MF_00210};
+DE   AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            Short=EPSP synthase {ECO:0000255|HAMAP-Rule:MF_00210};
+DE            Short=EPSPS {ECO:0000255|HAMAP-Rule:MF_00210};
+GN   Name=aroA {ECO:0000255|HAMAP-Rule:MF_00210}; OrderedLocusNames=Kcr_1048;
+OS   Korarchaeum cryptofilum (strain OPF8).
+OC   Archaea; Candidatus Korarchaeota; Candidatus Korarchaeum.
+OX   NCBI_TaxID=374847;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=OPF8;
+RX   PubMed=18535141; DOI=10.1073/pnas.0801980105;
+RA   Elkins J.G., Podar M., Graham D.E., Makarova K.S., Wolf Y., Randau L.,
+RA   Hedlund B.P., Brochier-Armanet C., Kunin V., Anderson I., Lapidus A.,
+RA   Goltsman E., Barry K., Koonin E.V., Hugenholtz P., Kyrpides N., Wanner G.,
+RA   Richardson P., Keller M., Stetter K.O.;
+RT   "A korarchaeal genome reveals new insights into the evolution of the
+RT   Archaea.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 105:8102-8107(2008).
+CC   -!- FUNCTION: Catalyzes the transfer of the enolpyruvyl moiety of
+CC       phosphoenolpyruvate (PEP) to the 5-hydroxyl of shikimate-3-phosphate
+CC       (S3P) to produce enolpyruvyl shikimate-3-phosphate and inorganic
+CC       phosphate. {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phosphoshikimate + phosphoenolpyruvate = 5-O-(1-
+CC         carboxyvinyl)-3-phosphoshikimate + phosphate; Xref=Rhea:RHEA:21256,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701, ChEBI:CHEBI:58702,
+CC         ChEBI:CHEBI:145989; EC=2.5.1.19; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00210};
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00210}.
+CC   -!- SIMILARITY: Belongs to the EPSP synthase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00210}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000968; ACB07794.1; -; Genomic_DNA.
+DR   RefSeq; WP_012309691.1; NC_010482.1.
+DR   STRING; 374847.Kcr_1048; -.
+DR   PRIDE; B1L5R5; -.
+DR   EnsemblBacteria; ACB07794; ACB07794; Kcr_1048.
+DR   GeneID; 6094325; -.
+DR   KEGG; kcr:Kcr_1048; -.
+DR   eggNOG; arCOG04134; Archaea.
+DR   HOGENOM; CLU_024321_0_0_2; -.
+DR   InParanoid; B1L5R5; -.
+DR   OMA; YEDHRMA; -.
+DR   OrthoDB; 80060at2157; -.
+DR   BioCyc; CKOR374847:G1GBF-1088-MONOMER; -.
+DR   UniPathway; UPA00053; -.
+DR   Proteomes; UP000001686; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003866; F:3-phosphoshikimate 1-carboxyvinyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IBA:GO_Central.
+DR   CDD; cd01556; EPSP_synthase; 1.
+DR   Gene3D; 3.65.10.10; -; 2.
+DR   HAMAP; MF_00210; EPSP_synth; 1.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR006264; EPSP_synthase.
+DR   InterPro; IPR023193; EPSP_synthase_CS.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   PIRSF; PIRSF000505; EPSPS; 1.
+DR   SUPFAM; SSF55205; SSF55205; 1.
+DR   TIGRFAMs; TIGR01356; aroA; 1.
+DR   PROSITE; PS00104; EPSP_SYNTHASE_1; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; Cytoplasm;
+KW   Reference proteome; Transferase.
+FT   CHAIN           1..423
+FT                   /note="3-phosphoshikimate 1-carboxyvinyltransferase"
+FT                   /id="PRO_1000204166"
+FT   REGION          19..20
+FT                   /note="Shikimate-3-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   REGION          87..90
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   REGION          164..166
+FT                   /note="Shikimate-3-phosphate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   ACT_SITE        304
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   ACT_SITE        332
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         24
+FT                   /note="Shikimate-3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         118
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         192
+FT                   /note="Shikimate-3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         331
+FT                   /note="Shikimate-3-phosphate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         335
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+FT   BINDING         377
+FT                   /note="Phosphoenolpyruvate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00210"
+SQ   SEQUENCE   423 AA;  45450 MW;  9C4EA6C63DB37761 CRC64;
+     MIEVKPSQAQ GSVRAPPSKS YSHRALAVSL LCEAPSKIEN ISRARDVIAT INAIKSFGAK
+     LSDNLTEIKI EPPQRPSIPD DVIDCGGSGT TIRFFAPIST LTEGGYTVLT GNDSLRRRPM
+     GPIIDAINKL GGWAISSRMN GLPPLIVRGG GLKGGEVEID GSISSQFFSG LMIASTRFER
+     GLKIKPIGEL VSRPYLEMTK EVLRRSGSHV ELNEEIKVEP VPPKGLEFKI PGDYGLAAFH
+     MLTASVTGGK VIVEDLDSTV PQADYAAIDV LRSFGVEVQE VGSRVIVEGR PKRGSKLNLK
+     DSPDIFPIAC VLASFVSEIS EIRGVAHARV KESDRVANMA SELKKVGVEV KELYDGLVIR
+     GGSPKGGVKL DSHGDHRIFM ALLALAAATR EGCIIEGEDS VADSYPSFLE DSMKLGIDVR
+     YNL
+//

@@ -1,0 +1,94 @@
+ID   GSID_ECOL6              Reviewed;         303 AA.
+AC   Q8FJK8;
+DT   06-MAR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   02-DEC-2020, entry version 97.
+DE   RecName: Full=Glutathione transport system permease protein GsiD {ECO:0000250|UniProtKB:P75799};
+GN   Name=gsiD {ECO:0000250|UniProtKB:P75799}; OrderedLocusNames=c0917;
+OS   Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Escherichia.
+OX   NCBI_TaxID=199310;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CFT073 / ATCC 700928 / UPEC;
+RX   PubMed=12471157; DOI=10.1073/pnas.252529799;
+RA   Welch R.A., Burland V., Plunkett G. III, Redford P., Roesch P., Rasko D.,
+RA   Buckles E.L., Liou S.-R., Boutin A., Hackett J., Stroud D., Mayhew G.F.,
+RA   Rose D.J., Zhou S., Schwartz D.C., Perna N.T., Mobley H.L.T.,
+RA   Donnenberg M.S., Blattner F.R.;
+RT   "Extensive mosaic structure revealed by the complete genome sequence of
+RT   uropathogenic Escherichia coli.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:17020-17024(2002).
+CC   -!- FUNCTION: Part of the ABC transporter complex GsiABCD involved in
+CC       glutathione import. Probably responsible for the translocation of the
+CC       substrate across the membrane. {ECO:0000250|UniProtKB:P75799}.
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (GsiA),
+CC       two transmembrane proteins (GsiC and GsiD) and a solute-binding protein
+CC       (GsiB). {ECO:0000250|UniProtKB:P75799}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000250|UniProtKB:P75799}; Multi-pass membrane protein
+CC       {ECO:0000255}.
+CC   -!- SIMILARITY: Belongs to the binding-protein-dependent transport system
+CC       permease family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014075; AAN79390.1; -; Genomic_DNA.
+DR   RefSeq; WP_001236019.1; NC_004431.1.
+DR   STRING; 199310.c0917; -.
+DR   EnsemblBacteria; AAN79390; AAN79390; c0917.
+DR   KEGG; ecc:c0917; -.
+DR   eggNOG; COG1173; Bacteria.
+DR   HOGENOM; CLU_028518_1_1_6; -.
+DR   OMA; DMVMAPH; -.
+DR   BioCyc; ECOL199310:C0917-MONOMER; -.
+DR   Proteomes; UP000001410; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0055085; P:transmembrane transport; IEA:InterPro.
+DR   CDD; cd06261; TM_PBP2; 1.
+DR   Gene3D; 1.10.3720.10; -; 1.
+DR   InterPro; IPR000515; MetI-like.
+DR   InterPro; IPR035906; MetI-like_sf.
+DR   InterPro; IPR025966; OppC_N.
+DR   Pfam; PF00528; BPD_transp_1; 1.
+DR   Pfam; PF12911; OppC_N; 1.
+DR   SUPFAM; SSF161098; SSF161098; 1.
+DR   PROSITE; PS50928; ABC_TM1; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..303
+FT                   /note="Glutathione transport system permease protein GsiD"
+FT                   /id="PRO_0000280005"
+FT   TRANSMEM        40..60
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        105..125
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        144..164
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        165..185
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        222..242
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        266..286
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          101..290
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+SQ   SEQUENCE   303 AA;  33224 MW;  FA7F6AABFF32DB63 CRC64;
+     MRLFNWRRQA ALNAMPLVKP DQVRTPWHEF WRRFRRQHMA MTAALFVILL IVVAIFARWI
+     APYDAENYFD YDNLNNGPSL QHWFGVDSLG RDIFSRVLVG AQISLAAGVF AVFIGAAIGT
+     LLGLLAGYYE GWWDRLIMRI CDVLFAFPGI LLAIAVVAVL GSGIANVIIA VAIFSIPAFA
+     RLVRGNTLVL KQQTFIESAR SIGASDMTIL LRHILPGTVS SIVVFFTMRI GTSIISAASL
+     SFLGLGAQPP TPEWGAMLNE ARADMVIAPH VAVFPALAIF LTVLAFNLLG DGLRDALDPK
+     IKG
+//

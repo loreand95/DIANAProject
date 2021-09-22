@@ -1,0 +1,91 @@
+ID   RSMH_LEPBA              Reviewed;         314 AA.
+AC   B0S989;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   08-APR-2008, sequence version 1.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW;
+GN   OrderedLocusNames=LBF_1709;
+OS   Leptospira biflexa serovar Patoc (strain Patoc 1 / Ames).
+OC   Bacteria; Spirochaetes; Leptospirales; Leptospiraceae; Leptospira.
+OX   NCBI_TaxID=355278;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Patoc 1 / Ames;
+RX   PubMed=18270594; DOI=10.1371/journal.pone.0001607;
+RA   Picardeau M., Bulach D.M., Bouchier C., Zuerner R.L., Zidane N.,
+RA   Wilson P.J., Creno S., Kuczek E.S., Bommezzadri S., Davis J.C., McGrath A.,
+RA   Johnson M.J., Boursaux-Eude C., Seemann T., Rouy Z., Coppel R.L.,
+RA   Rood J.I., Lajus A., Davies J.K., Medigue C., Adler B.;
+RT   "Genome sequence of the saprophyte Leptospira biflexa provides insights
+RT   into the evolution of Leptospira and the pathogenesis of leptospirosis.";
+RL   PLoS ONE 3:E1607-E1607(2008).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=cytidine(1402) in 16S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(4)-methylcytidine(1402) in 16S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42928, Rhea:RHEA-COMP:10286, Rhea:RHEA-COMP:10287,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74506, ChEBI:CHEBI:82748; EC=2.1.1.199;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01007};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000777; ABZ94216.1; -; Genomic_DNA.
+DR   RefSeq; WP_012388746.1; NC_010842.1.
+DR   SMR; B0S989; -.
+DR   KEGG; lbf:LBF_1709; -.
+DR   HOGENOM; CLU_038422_2_0_12; -.
+DR   OMA; NPAKRTF; -.
+DR   BioCyc; LBIF355278:LBF_RS08710-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 1.10.150.170; -; 1.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11265; PTHR11265; 1.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   PIRSF; PIRSF004486; MraW; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   SUPFAM; SSF81799; SSF81799; 1.
+DR   TIGRFAMs; TIGR00006; TIGR00006; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; rRNA processing; S-adenosyl-L-methionine;
+KW   Transferase.
+FT   CHAIN           1..314
+FT                   /note="Ribosomal RNA small subunit methyltransferase H"
+FT                   /id="PRO_0000386954"
+FT   REGION          37..39
+FT                   /note="S-adenosyl-L-methionine binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         56
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         86
+FT                   /note="S-adenosyl-L-methionine; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         108
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+FT   BINDING         115
+FT                   /note="S-adenosyl-L-methionine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01007"
+SQ   SEQUENCE   314 AA;  35549 MW;  D99F6F8DA7B29AF8 CRC64;
+     MLESPHIPVL PSEVISLLQQ TKNPNPQWFL DGTAGEGGHS KLILKTFPEA KLILIDRDAV
+     MLERAKKEIL KEIGSLDRVH AFQMNFSEVD SELLQEVGCP SLDGALVDLG VSLFHFLHSG
+     RGFTFKNDEP LDMRLEANIG GKTAADVVNY SSVLHLKKVF WEYGEERWAL KIANNIVQTR
+     HKKKFGTNTD LVKLVEASIP RKFWPKESHP ATRIFQALRI EVNEELVHAE KGIRALAQCL
+     GIGGVLTCIS FHSLEDRIVK WTFRDLKDNG PFEILTKKPI LPSETEIKEN RASRSAKLRG
+     LMKINPIKES RWEK
+//

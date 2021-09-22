@@ -1,0 +1,111 @@
+ID   COAD_BORBZ              Reviewed;         163 AA.
+AC   B7J0E9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-FEB-2009, sequence version 1.
+DT   07-APR-2021, entry version 72.
+DE   RecName: Full=Phosphopantetheine adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            EC=2.7.7.3 {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Dephospho-CoA pyrophosphorylase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE   AltName: Full=Pantetheine-phosphate adenylyltransferase {ECO:0000255|HAMAP-Rule:MF_00151};
+DE            Short=PPAT {ECO:0000255|HAMAP-Rule:MF_00151};
+GN   Name=coaD {ECO:0000255|HAMAP-Rule:MF_00151}; OrderedLocusNames=BbuZS7_0723;
+OS   Borrelia burgdorferi (strain ZS7).
+OC   Bacteria; Spirochaetes; Spirochaetales; Borreliaceae; Borreliella.
+OX   NCBI_TaxID=445985;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ZS7;
+RX   PubMed=20935092; DOI=10.1128/jb.01158-10;
+RA   Schutzer S.E., Fraser-Liggett C.M., Casjens S.R., Qiu W.G., Dunn J.J.,
+RA   Mongodin E.F., Luft B.J.;
+RT   "Whole-genome sequences of thirteen isolates of Borrelia burgdorferi.";
+RL   J. Bacteriol. 193:1018-1020(2011).
+CC   -!- FUNCTION: Reversibly transfers an adenylyl group from ATP to 4'-
+CC       phosphopantetheine, yielding dephospho-CoA (dPCoA) and pyrophosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-pantetheine 4'-phosphate + H(+) = 3'-dephospho-CoA +
+CC         diphosphate; Xref=Rhea:RHEA:19801, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57328,
+CC         ChEBI:CHEBI:61723; EC=2.7.7.3; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00151};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00151};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from (R)-
+CC       pantothenate: step 4/5. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00151}.
+CC   -!- SIMILARITY: Belongs to the bacterial CoaD family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00151}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001205; ACK74920.1; -; Genomic_DNA.
+DR   RefSeq; WP_002656002.1; NC_011728.1.
+DR   SMR; B7J0E9; -.
+DR   PRIDE; B7J0E9; -.
+DR   EnsemblBacteria; ACK74920; ACK74920; BbuZS7_0723.
+DR   GeneID; 56567511; -.
+DR   KEGG; bbz:BbuZS7_0723; -.
+DR   HOGENOM; CLU_100149_1_1_12; -.
+DR   OMA; EFQMALM; -.
+DR   OrthoDB; 1846503at2; -.
+DR   UniPathway; UPA00241; UER00355.
+DR   Proteomes; UP000006901; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004595; F:pantetheine-phosphate adenylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00151; PPAT_bact; 1.
+DR   InterPro; IPR004821; Cyt_trans-like.
+DR   InterPro; IPR001980; PPAT.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR21342:SF1; PTHR21342:SF1; 1.
+DR   Pfam; PF01467; CTP_transf_like; 1.
+DR   PRINTS; PR01020; LPSBIOSNTHSS.
+DR   TIGRFAMs; TIGR01510; coaD_prev_kdtB; 1.
+DR   TIGRFAMs; TIGR00125; cyt_tran_rel; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Cytoplasm; Magnesium;
+KW   Nucleotide-binding; Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..163
+FT                   /note="Phosphopantetheine adenylyltransferase"
+FT                   /id="PRO_1000118070"
+FT   NP_BIND         9..10
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         90..92
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   NP_BIND         125..131
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         9
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         17
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         41
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         75
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         89
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   BINDING         100
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+FT   SITE            17
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00151"
+SQ   SEQUENCE   163 AA;  19016 MW;  BE4005981467DBE4 CRC64;
+     MRVAVFPGSF DPITWGHIDL IKRSLAIFDK VIVLVAKNKS KKYFLSDIER FSLTKDVISS
+     LNFSNVLVDR YSGFIVDYAL INSIKFIVRG IRAFNDFDIE FERYLVNNKL NFEIDTIFLP
+     SSAEHLYVRS DFVKELMLKK DVDLSNFVPE LVFNRLKSKF IDK
+//

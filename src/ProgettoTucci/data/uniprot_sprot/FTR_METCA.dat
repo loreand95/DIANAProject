@@ -1,0 +1,108 @@
+ID   FTR_METCA               Reviewed;         298 AA.
+AC   Q9ADT1; Q603E9;
+DT   10-OCT-2002, integrated into UniProtKB/Swiss-Prot.
+DT   07-DEC-2004, sequence version 2.
+DT   02-DEC-2020, entry version 107.
+DE   RecName: Full=Formylmethanofuran--tetrahydromethanopterin formyltransferase;
+DE            EC=2.3.1.101;
+DE   AltName: Full=H4MPT formyltransferase;
+GN   Name=ffsA; OrderedLocusNames=MCA2858;
+OS   Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales;
+OC   Methylococcaceae; Methylococcus.
+OX   NCBI_TaxID=243233;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 33009 / NCIMB 11132 / Bath;
+RX   PubMed=10376840; DOI=10.1099/13500872-145-5-1235;
+RA   Stolyar S., Costello A.M., Peeples T.L., Lidstrom M.E.;
+RT   "Role of multiple gene copies in particulate methane monooxygenase activity
+RT   in the methane-oxidizing bacterium Methylococcus capsulatus Bath.";
+RL   Microbiology 145:1235-1244(1999).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 33009 / NCIMB 11132 / Bath;
+RX   PubMed=11160118; DOI=10.1128/jb.183.5.1810-1812.2001;
+RA   Stolyar S., Franke M., Lidstrom M.E.;
+RT   "Expression of individual copies of Methylococcus capsulatus bath
+RT   particulate methane monooxygenase genes.";
+RL   J. Bacteriol. 183:1810-1812(2001).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33009 / NCIMB 11132 / Bath;
+RX   PubMed=15383840; DOI=10.1371/journal.pbio.0020303;
+RA   Ward N.L., Larsen O., Sakwa J., Bruseth L., Khouri H.M., Durkin A.S.,
+RA   Dimitrov G., Jiang L., Scanlan D., Kang K.H., Lewis M.R., Nelson K.E.,
+RA   Methe B.A., Wu M., Heidelberg J.F., Paulsen I.T., Fouts D.E., Ravel J.,
+RA   Tettelin H., Ren Q., Read T.D., DeBoy R.T., Seshadri R., Salzberg S.L.,
+RA   Jensen H.B., Birkeland N.K., Nelson W.C., Dodson R.J., Grindhaug S.H.,
+RA   Holt I.E., Eidhammer I., Jonasen I., Vanaken S., Utterback T.R.,
+RA   Feldblyum T.V., Fraser C.M., Lillehaug J.R., Eisen J.A.;
+RT   "Genomic insights into methanotrophy: the complete genome sequence of
+RT   Methylococcus capsulatus (Bath).";
+RL   PLoS Biol. 2:1616-1628(2004).
+CC   -!- FUNCTION: Catalyzes the transfer of a formyl group from 5-formyl
+CC       tetrahydromethanopterin (5-formyl-H(4)MPT) to methanofuran (MFR) so as
+CC       to produce formylmethanofuran (formyl-MFR) and tetrahydromethanopterin
+CC       (H(4)MPT).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=5,6,7,8-tetrahydromethanopterin + H(+) + N-formylmethanofuran
+CC         = methanofuran + N(5)-formyl-5,6,7,8-tetrahydromethanopterin;
+CC         Xref=Rhea:RHEA:18061, ChEBI:CHEBI:15378, ChEBI:CHEBI:57727,
+CC         ChEBI:CHEBI:58018, ChEBI:CHEBI:58103, ChEBI:CHEBI:58151;
+CC         EC=2.3.1.101;
+CC   -!- PATHWAY: One-carbon metabolism; formaldehyde degradation; formate from
+CC       formaldehyde (H(4)MPT route): step 4/5.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the FTR family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; U94337; AAK30007.1; -; Genomic_DNA.
+DR   EMBL; AE017282; AAU91105.1; -; Genomic_DNA.
+DR   RefSeq; WP_010962053.1; NC_002977.6.
+DR   SMR; Q9ADT1; -.
+DR   STRING; 243233.MCA2858; -.
+DR   EnsemblBacteria; AAU91105; AAU91105; MCA2858.
+DR   KEGG; mca:MCA2858; -.
+DR   eggNOG; COG2037; Bacteria.
+DR   HOGENOM; CLU_081314_0_0_6; -.
+DR   OMA; SVIMCPA; -.
+DR   OrthoDB; 895502at2; -.
+DR   BioCyc; MCAP243233:G1G0X-2824-MONOMER; -.
+DR   UniPathway; UPA00562; UER00704.
+DR   Proteomes; UP000006821; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030270; F:formylmethanofuran-tetrahydromethanopterin N-formyltransferase activity; ISS:JCVI.
+DR   GO; GO:0046294; P:formaldehyde catabolic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0015947; P:methane metabolic process; ISS:JCVI.
+DR   GO; GO:0006730; P:one-carbon metabolic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.70.520; -; 2.
+DR   HAMAP; MF_00579; FTR; 1.
+DR   InterPro; IPR014053; ForMFR_H4MPT_ForTrfase.
+DR   InterPro; IPR002770; ForMFR_H4MPT_ForTrfase_C.
+DR   InterPro; IPR023447; ForMFR_H4MPT_ForTrfase_fd-like.
+DR   InterPro; IPR022667; ForMFR_H4MPT_ForTrfase_N.
+DR   Pfam; PF01913; FTR; 1.
+DR   Pfam; PF02741; FTR_C; 1.
+DR   PIRSF; PIRSF006414; Ftr_formyl_trnsf; 1.
+DR   SUPFAM; SSF55112; SSF55112; 2.
+DR   TIGRFAMs; TIGR03119; one_C_fhcD; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cytoplasm; One-carbon metabolism; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..298
+FT                   /note="Formylmethanofuran--tetrahydromethanopterin
+FT                   formyltransferase"
+FT                   /id="PRO_0000138123"
+FT   CONFLICT        12
+FT                   /note="F -> S (in Ref. 1 and 2)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   298 AA;  31545 MW;  58455F5DD1113C12 CRC64;
+     MIINGVHIDE TFAEAFPMRA TRVIVTAQNL KWAHHAAQAM TGFATSVIAC GCEAGIEREL
+     DPAETPDGRP GVSALLFAMG GKGLAKQLET RAGQCVLTSP TSALFAGIVE GEQIPLGKNL
+     RYFGDGFQIS KRIGGKRYWR IPVMDGEFLC QETTGMIKAV GGGNFLILAE SQPQALAACE
+     AAIEAMRRIP NVIMPFPGGV VRSGSKVGSK YKTLPASTND AFCPTLKGQT RTELSPEIES
+     VMEIVIDGLS DADIAKAMRA GIEAACGLGA ANGIRRISAG NYGGKLGPFL FHLREIMA
+//

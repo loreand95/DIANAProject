@@ -1,0 +1,84 @@
+ID   PSBF_IPOOB              Reviewed;          39 AA.
+AC   Q7H8I8;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   10-FEB-2021, entry version 66.
+DE   RecName: Full=Cytochrome b559 subunit beta {ECO:0000255|HAMAP-Rule:MF_00643};
+DE   AltName: Full=PSII reaction center subunit VI {ECO:0000255|HAMAP-Rule:MF_00643};
+GN   Name=psbF {ECO:0000255|HAMAP-Rule:MF_00643};
+OS   Ipomoea obscura (Obscure morning glory) (Convolvulus obscurus).
+OG   Plastid; Chloroplast.
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Convolvulaceae; Ipomoeeae; Ipomoea.
+OX   NCBI_TaxID=89652;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   AGRICOLA=IND23320510;
+RA   Stefanovic S., Krueger L., Olmstead R.G.;
+RT   "Monophyly of the Convolvulaceae and circumscription of their major
+RT   lineages based on DNA sequences of multiple chloroplast loci.";
+RL   Am. J. Bot. 89:1510-1522(2002).
+CC   -!- FUNCTION: This b-type cytochrome is tightly associated with the
+CC       reaction center of photosystem II (PSII). PSII is a light-driven
+CC       water:plastoquinone oxidoreductase that uses light energy to abstract
+CC       electrons from H(2)O, generating O(2) and a proton gradient
+CC       subsequently used for ATP formation. It consists of a core antenna
+CC       complex that captures photons, and an electron transfer chain that
+CC       converts photonic excitation into a charge separation.
+CC       {ECO:0000255|HAMAP-Rule:MF_00643}.
+CC   -!- COFACTOR:
+CC       Name=heme b; Xref=ChEBI:CHEBI:60344;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00643};
+CC       Note=With its partner (PsbE) binds heme. PSII binds additional
+CC       chlorophylls, carotenoids and specific lipids. {ECO:0000255|HAMAP-
+CC       Rule:MF_00643};
+CC   -!- SUBUNIT: Heterodimer of an alpha subunit and a beta subunit. PSII is
+CC       composed of 1 copy each of membrane proteins PsbA, PsbB, PsbC, PsbD,
+CC       PsbE, PsbF, PsbH, PsbI, PsbJ, PsbK, PsbL, PsbM, PsbT, PsbX, PsbY, PsbZ,
+CC       Ycf12, at least 3 peripheral proteins of the oxygen-evolving complex
+CC       and a large number of cofactors. It forms dimeric complexes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00643}.
+CC   -!- SUBCELLULAR LOCATION: Plastid, chloroplast thylakoid membrane
+CC       {ECO:0000255|HAMAP-Rule:MF_00643}; Single-pass membrane protein
+CC       {ECO:0000255|HAMAP-Rule:MF_00643}.
+CC   -!- SIMILARITY: Belongs to the PsbE/PsbF family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00643}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY100866; AAM55586.1; -; Genomic_DNA.
+DR   SMR; Q7H8I8; -.
+DR   GO; GO:0009535; C:chloroplast thylakoid membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0009539; C:photosystem II reaction center; IEA:InterPro.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0020037; F:heme binding; IEA:InterPro.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009767; P:photosynthetic electron transport chain; IEA:InterPro.
+DR   HAMAP; MF_00643; PSII_PsbF; 1.
+DR   InterPro; IPR006241; PSII_cyt_b559_bsu.
+DR   InterPro; IPR006216; PSII_cyt_b559_CS.
+DR   InterPro; IPR013081; PSII_cyt_b559_N.
+DR   PANTHER; PTHR33391:SF14; PTHR33391:SF14; 1.
+DR   Pfam; PF00283; Cytochrom_B559; 1.
+DR   PIRSF; PIRSF000037; PsbF; 1.
+DR   TIGRFAMs; TIGR01333; cyt_b559_beta; 1.
+DR   PROSITE; PS00537; CYTOCHROME_B559; 1.
+PE   3: Inferred from homology;
+KW   Chloroplast; Electron transport; Heme; Iron; Membrane; Metal-binding;
+KW   Photosynthesis; Photosystem II; Plastid; Thylakoid; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..39
+FT                   /note="Cytochrome b559 subunit beta"
+FT                   /id="PRO_0000200407"
+FT   TRANSMEM        14..30
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00643"
+FT   METAL           18
+FT                   /note="Iron (heme axial ligand); shared with alpha subunit"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00643"
+SQ   SEQUENCE   39 AA;  4484 MW;  F61251852D6E1C6F CRC64;
+     MTIDRTYPIF TVRWLAVHGL AVPTVFFLGS ISAMQFIQR
+//

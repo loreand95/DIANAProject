@@ -1,0 +1,96 @@
+ID   FENR_POLNA              Reviewed;         366 AA.
+AC   A1VQ12;
+DT   03-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   06-FEB-2007, sequence version 1.
+DT   02-DEC-2020, entry version 84.
+DE   RecName: Full=Ferredoxin--NADP reductase {ECO:0000255|HAMAP-Rule:MF_01685};
+DE            Short=FNR {ECO:0000255|HAMAP-Rule:MF_01685};
+DE            Short=Fd-NADP(+) reductase {ECO:0000255|HAMAP-Rule:MF_01685};
+DE            EC=1.18.1.2 {ECO:0000255|HAMAP-Rule:MF_01685};
+GN   OrderedLocusNames=Pnap_2433;
+OS   Polaromonas naphthalenivorans (strain CJ2).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Polaromonas.
+OX   NCBI_TaxID=365044;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CJ2;
+RX   PubMed=19453698; DOI=10.1111/j.1462-2920.2009.01947.x;
+RA   Yagi J.M., Sims D., Brettin T., Bruce D., Madsen E.L.;
+RT   "The genome of Polaromonas naphthalenivorans strain CJ2, isolated from coal
+RT   tar-contaminated sediment, reveals physiological and metabolic versatility
+RT   and evolution through extensive horizontal gene transfer.";
+RL   Environ. Microbiol. 11:2253-2270(2009).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + NADP(+) + 2 reduced [2Fe-2S]-[ferredoxin] = NADPH + 2
+CC         oxidized [2Fe-2S]-[ferredoxin]; Xref=Rhea:RHEA:20125, Rhea:RHEA-
+CC         COMP:10000, Rhea:RHEA-COMP:10001, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:33737, ChEBI:CHEBI:33738, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.18.1.2; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01685};
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01685};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000255|HAMAP-Rule:MF_01685};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01685}.
+CC   -!- SIMILARITY: Belongs to the ferredoxin--NADP reductase type 2 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01685}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000529; ABM37740.1; -; Genomic_DNA.
+DR   RefSeq; WP_011801818.1; NC_008781.1.
+DR   SMR; A1VQ12; -.
+DR   STRING; 365044.Pnap_2433; -.
+DR   PRIDE; A1VQ12; -.
+DR   EnsemblBacteria; ABM37740; ABM37740; Pnap_2433.
+DR   KEGG; pna:Pnap_2433; -.
+DR   eggNOG; COG0492; Bacteria.
+DR   HOGENOM; CLU_031864_5_5_4; -.
+DR   OMA; PEKVIYD; -.
+DR   OrthoDB; 692968at2; -.
+DR   Proteomes; UP000000644; Chromosome.
+DR   GO; GO:0004324; F:ferredoxin-NADP+ reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050661; F:NADP binding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   HAMAP; MF_01685; FENR2; 1.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR022890; Fd--NADP_Rdtase_type_2.
+DR   SUPFAM; SSF51905; SSF51905; 2.
+PE   3: Inferred from homology;
+KW   FAD; Flavoprotein; NADP; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..366
+FT                   /note="Ferredoxin--NADP reductase"
+FT                   /id="PRO_0000364898"
+FT   BINDING         51
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         59
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         64
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         104
+FT                   /note="FAD; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         139
+FT                   /note="FAD; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         308
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+FT   BINDING         349
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01685"
+SQ   SEQUENCE   366 AA;  39881 MW;  411EE8F6F2D319E1 CRC64;
+     MEPQLNQEVI NTAALHDGPI ETDAVIVGAG PVGLFQVFEL GLLEIKAHII DSLAYPGGQP
+     IELYPDKPIY DIPAIPVCTG KELTDNLMKQ IEPFGPTFHL GQEVSVLEKQ EDGRFFVETS
+     KGTKFLTKTI FIAAGVGAFQ PKLLRVDGLD KFDNSQLFYR VKNPADFAGK NLIIVGGGDS
+     ALDWALNFVA EGPNKAESVI LIHRRDGFKA APANVAKMKE LCDAYEMQFI IGQVTGYDEK
+     EGRLTAAKVT GADGITRVVP LDVMLVFFGL SPKLGPIAHW GLDIERKQIK VDTEKFSTNI
+     PGIFAVGDIN TYPGKKKLIL SGFHECALAA FGAAPFIFPD KKIHLQYTTT SPKLHKVLGV
+     ESPVFD
+//

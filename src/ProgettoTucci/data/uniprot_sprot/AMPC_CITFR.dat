@@ -1,0 +1,208 @@
+ID   AMPC_CITFR              Reviewed;         381 AA.
+AC   P05193;
+DT   13-AUG-1987, integrated into UniProtKB/Swiss-Prot.
+DT   13-AUG-1987, sequence version 1.
+DT   07-APR-2021, entry version 104.
+DE   RecName: Full=Beta-lactamase;
+DE            EC=3.5.2.6;
+DE   AltName: Full=Cephalosporinase;
+DE   Flags: Precursor;
+GN   Name=ampC; Synonyms=blaC;
+OS   Citrobacter freundii.
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Citrobacter; Citrobacter freundii complex.
+OX   NCBI_TaxID=546;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=OS60;
+RX   PubMed=3486121; DOI=10.1111/j.1432-1033.1986.tb09601.x;
+RA   Lindberg F., Normark S.;
+RT   "Sequence of the Citrobacter freundii OS60 chromosomal ampC beta-lactamase
+RT   gene.";
+RL   Eur. J. Biochem. 156:441-445(1986).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=GN346;
+RX   PubMed=1969344; DOI=10.1111/j.1432-1033.1990.tb15365.x;
+RA   Tsukamoto K., Tachibana K., Yamazaki N., Ishii Y., Ujiie K., Nishida N.,
+RA   Sawai T.;
+RT   "Role of lysine-67 in the active site of class C beta-lactamase from
+RT   Citrobacter freundii GN346.";
+RL   Eur. J. Biochem. 188:15-22(1990).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 21-381, AND INHIBITION BY SULBACTAM.
+RC   STRAIN=GN346;
+RX   PubMed=3263684; DOI=10.1093/clinids/10.4.721;
+RA   Sawai T., Yamaguchi A., Tsukamoto K.;
+RT   "Amino acid sequence, active-site residue, and effect of suicide inhibitors
+RT   on cephalosporinase of Citrobacter freundii GN346.";
+RL   Rev. Infect. Dis. 10:721-725(1988).
+RN   [4]
+RP   PROTEIN SEQUENCE OF 66-87.
+RX   PubMed=3496243; DOI=10.1016/0014-5793(87)81031-1;
+RA   Yamaguchi A., Adachi H., Sawai T.;
+RT   "Identification of the active site of Citrobacter freundii beta-lactamase
+RT   using dansyl-penicillin.";
+RL   FEBS Lett. 218:126-130(1987).
+RN   [5]
+RP   X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS).
+RX   PubMed=2300174; DOI=10.1038/343284a0;
+RA   Oefner C., D'Arcy A.A., Daly J.J., Gubernator K., Charnas R.L., Heinze I.,
+RA   Hubschwerlen C., Winkler F.K.;
+RT   "Refined crystal structure of beta-lactamase from Citrobacter freundii
+RT   indicates a mechanism for beta-lactam hydrolysis.";
+RL   Nature 343:284-288(1990).
+CC   -!- FUNCTION: This protein is a serine beta-lactamase with a substrate
+CC       specificity for cephalosporins.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a beta-lactam + H2O = a substituted beta-amino acid;
+CC         Xref=Rhea:RHEA:20401, ChEBI:CHEBI:15377, ChEBI:CHEBI:35627,
+CC         ChEBI:CHEBI:140347; EC=3.5.2.6; Evidence={ECO:0000255|PROSITE-
+CC         ProRule:PRU10102};
+CC   -!- ACTIVITY REGULATION: Sulbactam is an effective progressive inhibitor
+CC       but a poor competitive inhibitor.
+CC   -!- SUBCELLULAR LOCATION: Periplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-C beta-lactamase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X03866; CAA27494.1; -; Genomic_DNA.
+DR   EMBL; X51632; CAA35959.1; -; Genomic_DNA.
+DR   PIR; S08296; S08296.
+DR   PDB; 1RGY; X-ray; 1.52 A; A=22-381.
+DR   PDBsum; 1RGY; -.
+DR   SMR; P05193; -.
+DR   BindingDB; P05193; -.
+DR   ChEMBL; CHEMBL1255130; -.
+DR   DrugBank; DB00355; Aztreonam.
+DR   DrugCentral; P05193; -.
+DR   MEROPS; S12.006; -.
+DR   SABIO-RK; P05193; -.
+DR   EvolutionaryTrace; P05193; -.
+DR   GO; GO:0030288; C:outer membrane-bounded periplasmic space; IEA:InterPro.
+DR   GO; GO:0008800; F:beta-lactamase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0017001; P:antibiotic catabolic process; IEA:InterPro.
+DR   GO; GO:0046677; P:response to antibiotic; IMP:CACAO.
+DR   Gene3D; 3.40.710.10; -; 1.
+DR   InterPro; IPR001466; Beta-lactam-related.
+DR   InterPro; IPR012338; Beta-lactam/transpept-like.
+DR   InterPro; IPR001586; Beta-lactam_class-C_AS.
+DR   Pfam; PF00144; Beta-lactamase; 1.
+DR   SUPFAM; SSF56601; SSF56601; 1.
+DR   PROSITE; PS00336; BETA_LACTAMASE_C; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Antibiotic resistance; Direct protein sequencing; Hydrolase;
+KW   Periplasm; Signal.
+FT   SIGNAL          1..20
+FT   CHAIN           21..381
+FT                   /note="Beta-lactamase"
+FT                   /id="PRO_0000016957"
+FT   REGION          335..337
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        84
+FT                   /note="Acyl-ester intermediate"
+FT   ACT_SITE        170
+FT                   /note="Proton acceptor"
+FT   VARIANT         97
+FT                   /note="R -> A (in strain: GN346)"
+FT   VARIANT         143
+FT                   /note="G -> D (in strain: GN346)"
+FT   VARIANT         145
+FT                   /note="V -> I (in strain: GN346)"
+FT   VARIANT         150
+FT                   /note="E -> A (in strain: GN346)"
+FT   VARIANT         185
+FT                   /note="S -> P (in strain: GN346)"
+FT   VARIANT         224
+FT                   /note="L -> R (in strain: GN346)"
+FT   VARIANT         243
+FT                   /note="V -> L (in strain: GN346)"
+FT   VARIANT         325
+FT                   /note="A -> V (in strain: GN346)"
+FT   VARIANT         368
+FT                   /note="A -> V (in strain: GN346)"
+FT   CONFLICT        98
+FT                   /note="I -> T (in Ref. 3)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           25..43
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          46..54
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          57..67
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   TURN            68..71
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          79..81
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           83..85
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           86..99
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           109..112
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           119..121
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           126..130
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           148..157
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          166..168
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           172..182
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   TURN            183..187
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           190..197
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   TURN            198..203
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          207..210
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           213..218
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          222..224
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          227..229
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           237..240
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           247..258
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           260..262
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           266..275
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          277..282
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          285..287
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          292..297
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           300..306
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           309..312
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          319..325
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          329..338
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          343..349
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           350..352
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   STRAND          354..362
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+FT   HELIX           366..378
+FT                   /evidence="ECO:0007744|PDB:1RGY"
+SQ   SEQUENCE   381 AA;  41975 MW;  3F955F6933F0D76B CRC64;
+     MMKKSICCAL LLTASFSTFA AAKTEQQIAD IVNRTITPLM QEQAIPGMAV AIIYEGKPYY
+     FTWGKADIAN NHPVTQQTLF ELGSVSKTFN GVLGGDRIAR GEIKLSDPVT KYWPELTGKQ
+     WRGISLLHLA TYTAGGLPLQ IPGDVTDKAE LLRFYQNWQP QWTPGAKRLY ANSSIGLFGA
+     LAVKSSGMSY EEAMTRRVLQ PLKLAHTWIT VPQSEQKNYA WGYLEGKPVH VSPGQLDAEA
+     YGVKSSVIDM ARWVQANMDA SHVQEKTLQQ GIELAQSRYW RIGDMYQGLG WEMLNWPLKA
+     DSIINGSDSK VALAALPAVE VNPPAPAVKA SWVHKTGSTG GFGSYVAFVP EKNLGIVMLA
+     NKSYPNPARV EAAWRILEKL Q
+//

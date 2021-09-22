@@ -1,0 +1,92 @@
+ID   ILVD_STAA1              Reviewed;         562 AA.
+AC   A7X4M5;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   07-APR-2021, entry version 77.
+DE   RecName: Full=Dihydroxy-acid dehydratase {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            Short=DAD {ECO:0000255|HAMAP-Rule:MF_00012};
+DE            EC=4.2.1.9 {ECO:0000255|HAMAP-Rule:MF_00012};
+GN   Name=ilvD {ECO:0000255|HAMAP-Rule:MF_00012}; OrderedLocusNames=SAHV_2038;
+OS   Staphylococcus aureus (strain Mu3 / ATCC 700698).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=418127;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Mu3 / ATCC 700698;
+RX   PubMed=17954695; DOI=10.1128/aac.00534-07;
+RA   Neoh H.-M., Cui L., Yuzawa H., Takeuchi F., Matsuo M., Hiramatsu K.;
+RT   "Mutated response regulator graR is responsible for phenotypic conversion
+RT   of Staphylococcus aureus from heterogeneous vancomycin-intermediate
+RT   resistance to vancomycin-intermediate resistance.";
+RL   Antimicrob. Agents Chemother. 52:45-53(2008).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2,3-dihydroxy-3-methylbutanoate = 3-methyl-2-oxobutanoate +
+CC         H2O; Xref=Rhea:RHEA:20936, ChEBI:CHEBI:11424, ChEBI:CHEBI:11851,
+CC         ChEBI:CHEBI:15377; EC=4.2.1.9; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00012};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00012};
+CC       Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_00012};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-isoleucine biosynthesis; L-
+CC       isoleucine from 2-oxobutanoate: step 3/4. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-valine biosynthesis; L-valine from
+CC       pyruvate: step 3/4. {ECO:0000255|HAMAP-Rule:MF_00012}.
+CC   -!- SIMILARITY: Belongs to the IlvD/Edd family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00012}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AP009324; BAF78921.1; -; Genomic_DNA.
+DR   RefSeq; WP_001255780.1; NC_009782.1.
+DR   SMR; A7X4M5; -.
+DR   KEGG; saw:SAHV_2038; -.
+DR   HOGENOM; CLU_014271_4_2_9; -.
+DR   OMA; IPGHVHL; -.
+DR   BioCyc; SAUR418127:G1G2S-2270-MONOMER; -.
+DR   UniPathway; UPA00047; UER00057.
+DR   UniPathway; UPA00049; UER00061.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004160; F:dihydroxy-acid dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009097; P:isoleucine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009099; P:valine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.50.30.80; -; 1.
+DR   HAMAP; MF_00012; IlvD; 1.
+DR   InterPro; IPR042096; Dihydro-acid_dehy_C.
+DR   InterPro; IPR004404; DihydroxyA_deHydtase.
+DR   InterPro; IPR000581; DiOHA_6PGluconate_deHydtase.
+DR   InterPro; IPR020558; DiOHA_6PGluconate_deHydtase_CS.
+DR   InterPro; IPR037237; IlvD/EDD_N.
+DR   Pfam; PF00920; ILVD_EDD; 1.
+DR   SUPFAM; SSF143975; SSF143975; 1.
+DR   TIGRFAMs; TIGR00110; ilvD; 1.
+DR   PROSITE; PS00886; ILVD_EDD_1; 1.
+DR   PROSITE; PS00887; ILVD_EDD_2; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Amino-acid biosynthesis; Branched-chain amino acid biosynthesis;
+KW   Iron; Iron-sulfur; Lyase; Metal-binding.
+FT   CHAIN           1..562
+FT                   /note="Dihydroxy-acid dehydratase"
+FT                   /id="PRO_1000001065"
+FT   METAL           121
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+FT   METAL           194
+FT                   /note="Iron-sulfur (4Fe-4S)"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00012"
+SQ   SEQUENCE   562 AA;  60022 MW;  8BA15749968D14D5 CRC64;
+     MRSDMIKKGD HQAPARSLLH ATGALKSPTD MNKPFVAICN SYIDIVPGHV HLRELADIAK
+     EAIREAGAIP FEFNTIGVDD GIAMGHIGMR YSLPSREIIA DAAETVINAH WFDGVFYIPN
+     CDKITPGMIL AAMRTNVPAI FCSGGPMKAG LSAHGKALTL SSMFEAVGAF KEGSISKEEF
+     LDMEQNACPT CGSCAGMFTA NSMNCLMEVL GLALPYNGTA LAVSDQRREM IRQAAFKLVE
+     NIKNDLKPRD IVTREAIDDA FALDMAMGGS TNTVLHTLAI ANEAGIDYDL ERINAIAKRT
+     PYLSKIAPSS SYSMHDVHEA GGVPAIINEL MKKDGTLHPD RITVTGKTLR ENNEGKEIKN
+     FDVIHPLDAP YDAQGGLSIL FGNIAPKGAV IKVGGVDPSI KTFTGKAICF NSHDEAVEAI
+     DNRTVRAGHV VVIRYEGPKG GPGMPEMLAP TSSIVGRGLG KDVALITDGR FSGATRGIAV
+     GHISPEAASG GPIALIEDGD EITIDLTNRT LNVNQPEDVL ARRRESLTPF KAKVKTGYLA
+     RYTALVTSAN TGGVMQVPEN LI
+//

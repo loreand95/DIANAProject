@@ -1,0 +1,151 @@
+ID   RDRP_GFKVM              Reviewed;        1949 AA.
+AC   Q8UZB6;
+DT   30-NOV-2010, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2002, sequence version 1.
+DT   02-DEC-2020, entry version 81.
+DE   RecName: Full=RNA replication protein;
+DE   Includes:
+DE     RecName: Full=RNA-directed RNA polymerase;
+DE              EC=2.7.7.48;
+DE   Includes:
+DE     RecName: Full=Helicase;
+DE              EC=3.6.4.13;
+DE   Includes:
+DE     RecName: Full=Methyltransferase;
+DE              EC=2.1.1.-;
+OS   Grapevine fleck virus (isolate Italy/MT48) (GFkV).
+OC   Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Alsuviricetes;
+OC   Tymovirales; Tymoviridae; Maculavirus.
+OX   NCBI_TaxID=652668;
+OH   NCBI_TaxID=29760; Vitis vinifera (Grape).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=11458008; DOI=10.1099/0022-1317-82-8-2009;
+RA   Sabanadzovic S., Ghanem-Sabanadzovic N.A., Saldarelli P., Martelli G.P.;
+RT   "Complete nucleotide sequence and genome organization of Grapevine fleck
+RT   virus.";
+RL   J. Gen. Virol. 82:2009-2015(2001).
+CC   -!- FUNCTION: RNA replication protein replicates the viral genomic RNA. The
+CC       central part of this protein possibly functions as an ATP-binding
+CC       helicase and/or methyltransferase (Probable). {ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48; Evidence={ECO:0000255|PROSITE-ProRule:PRU00539};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AJ309022; CAC84400.1; -; Genomic_RNA.
+DR   RefSeq; NP_542612.1; NC_003347.1.
+DR   SMR; Q8UZB6; -.
+DR   MEROPS; C21.001; -.
+DR   GeneID; 929660; -.
+DR   KEGG; vg:929660; -.
+DR   Proteomes; UP000000399; Genome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004197; F:cysteine-type endopeptidase activity; IEA:InterPro.
+DR   GO; GO:0008174; F:mRNA methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006396; P:RNA processing; IEA:InterPro.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   GO; GO:0039694; P:viral RNA genome replication; IEA:InterPro.
+DR   Gene3D; 3.90.70.100; -; 1.
+DR   InterPro; IPR027351; (+)RNA_virus_helicase_core_dom.
+DR   InterPro; IPR002588; Alphavirus-like_MT_dom.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR008043; Peptidase_C21.
+DR   InterPro; IPR007094; RNA-dir_pol_PSvirus.
+DR   InterPro; IPR043629; Salyut_dom.
+DR   InterPro; IPR001788; Tymovirus_RNA-dep_RNA_pol.
+DR   InterPro; IPR043181; TYMV_endopept_dom.
+DR   Pfam; PF05381; Peptidase_C21; 1.
+DR   Pfam; PF00978; RdRP_2; 1.
+DR   Pfam; PF19227; Salyut; 1.
+DR   Pfam; PF01443; Viral_helicase1; 1.
+DR   Pfam; PF01660; Vmethyltransf; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+DR   PROSITE; PS51743; ALPHAVIRUS_MT; 1.
+DR   PROSITE; PS51738; PEPTIDASE_C21; 1.
+DR   PROSITE; PS51657; PSRV_HELICASE; 1.
+DR   PROSITE; PS50507; RDRP_SSRNA_POS; 1.
+PE   4: Predicted;
+KW   ATP-binding; Hydrolase; Methyltransferase; Multifunctional enzyme;
+KW   Nucleotide-binding; Nucleotidyltransferase; Protease; Reference proteome;
+KW   RNA-directed RNA polymerase; Thiol protease; Transferase;
+KW   Viral RNA replication.
+FT   CHAIN           1..1949
+FT                   /note="RNA replication protein"
+FT                   /id="PRO_0000402500"
+FT   DOMAIN          171..341
+FT                   /note="Alphavirus-like MT"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01079"
+FT   DOMAIN          762..922
+FT                   /note="Peptidase C21"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01074"
+FT   DOMAIN          1017..1175
+FT                   /note="(+)RNA virus helicase ATP-binding"
+FT   DOMAIN          1176..1308
+FT                   /note="(+)RNA virus helicase C-terminal"
+FT   DOMAIN          1682..1788
+FT                   /note="RdRp catalytic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00539"
+FT   NP_BIND         1048..1055
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255"
+FT   COMPBIAS        37..118
+FT                   /note="Pro-rich"
+FT   COMPBIAS        662..780
+FT                   /note="Pro-rich"
+FT   COMPBIAS        891..965
+FT                   /note="Pro-rich"
+FT   ACT_SITE        814
+FT                   /note="For protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01074"
+FT   ACT_SITE        900
+FT                   /note="For protease activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01074"
+SQ   SEQUENCE   1949 AA;  215590 MW;  980657CBE3536119 CRC64;
+     MVLTLCFHSD RDHHFLSTLP LAEIRRLAPG GFSVFVPEDL LPHLSPSPSC PTPPLPRELT
+     WSAACNPTNF PHLFRHHRPP PPCTRLTPRP PPPTPAPPSA STLPRVFHGG APPAAFQPAI
+     DFLHNTIQKD TIASSIIAAL NPSLTSSLTL YPYALPPRWP SALNQAGIPA TSYGHQSHPH
+     PIHKTIETHL LHEHWANRAT LPSTVMFMKR SKFDKLRVSN AALVKSASNF LHLLNPILTA
+     RDADRYTHLP LPDTLPSTPL YFMHHSLMYF SPSQIAGLFL AAPFLERLYA SLVLPAESTI
+     GSHPFFPSLY RYRTTGEHLH YVLEGNPSSS YTQPLTATQW LTTSSITAGD LHLTVTVLES
+     WFSVHSILIT RGVRPLELPR DIISLPSPDA VLLPNPSAFD IPLRSRLVPR DVCESLFVYV
+     RAVRTLRTTD PAGFIRTQSN KAEFDWVTAE AWDHLAQFAL LTAPVRPNTY FLPLLSPLAV
+     VRHWLFRKQR PIFATLTLLS ASTAAAIPIA IARLRTHSVT QLTILGHHFT PPKILARLPV
+     ALKRLIPKRL LPHLPSHLRP PPSWSPVFTL TFSELPKARF LTFPISGQTH TLLRQLHVPA
+     ILFAPQRPSR PLIFAGLLIG TVPVLYGAYR WFVSRFDPQT VYNRYSDLLH RPTWHLTFER
+     EPLSCFPTPF LPHPSSHPRR ARRLPPLPPA PPLPPQPPPP PPPQPSPHPP LFPASIPSPP
+     PRPSSPPPPA TSPASTPALT PIPAPKTAPP LTFPSPTLVA EPDAPVTARP SPLPLAPSRP
+     FSELYPGHYA DHSGSFFLQQ PLVASSVPYP ALDCLLVSCS AASGIPKEDL WATLCHIFPP
+     SDLVSDLGLS TNHLTALAFT YQWLVTLRSG ELVQRHGLLS APFAFEITHT PPVPPATVGH
+     FALSAPLTPT SACLTGGAPS PVISGPKASA SLPRARFGPR PEAPRPPLTP PGFTPITEPT
+     PATSPFALAA LRFRLNRQPL PIRQVHAYSI ALPRAKNLVS NLKNGFDGLV SSLPASDRTN
+     LLPLIQALDH TADFPPARPP VGLIHIAGFA GCGKSYPIQQ LLATQTFRHF RVVTPTTELR
+     HEWKRALKLE GPSSWRVSTW ETALAKRASV LVIDEVYKLP RGYLDLALLA DPTVEFVIIL
+     GDPLQGSYNP TNPDSSNHRL IPEEDHLRPF IDFYCLWTRR LPRLVADFFG VPTTNPTRGH
+     LAFASLNTTQ SPLLVPSDSM ARALTAGGHR AITYAASQGS TYPAPVHIFL DRNSNLVTNH
+     VALVALTRSR SGVHFRPRAQ DLPRHPQHLF TAFYKYAIDL LAHEADPSKP RPTPVDVTLL
+     FQQQLRGLTI LRDPSFSRIT GGATHAFLAH APLFTNLHGL RPTTFPDNLP TAPTYLARSL
+     PYHQTESYPT SALPHRVFPA STTDWSAADD HPRVNPTFVA ETRLPLQSEL APTLPSQPEP
+     SPTYHSPATF ETVYPGVDGE ALARTFLAAT DPLELEIFFR NNWSNQFPFI NRPDTVACNP
+     LTLVAPTHNQ KQDPTLLHAS LAKRLRFRDS TAPYTITAKD QALGYILYHS LQRAYCRSPE
+     PVPFDPVLFA SCIAENDFAQ LTSKTQATIQ ANAFRSDPDW RHTFVRIFSK TQHKVNENSL
+     FTSWKACQTL ALMHDYLILV LGPVKKYQRI LDSRDRPAHL YIHAGQTPHQ LSEWCQNHLT
+     PSVHLANDYT AFDQSQHGEA VVLEAWKMRR ASIPEPFITL HVHVKTNIEC QFGPLTCMRI
+     TGEPGTYDDN TDYNLAILYT QYLLHRTPVL VSGDDSLVDR VPPMNPSWPA LAPLFALKPK
+     PETSPFGLFC GYFVGPAGAV RAPRALFAKL AIALEDGSLP EKIASYVAEF SVGQSLGDSL
+     WSLIPPELVI YQSACFDLIC RHASPQLKLA LRLGEVPDWG SLLSQLKLRF LTRPLFALLD
+     AHTRVMVRTH KAHLLPSGHA LHPSTEPFY
+//

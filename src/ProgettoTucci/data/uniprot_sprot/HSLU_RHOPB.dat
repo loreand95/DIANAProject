@@ -1,0 +1,102 @@
+ID   HSLU_RHOPB              Reviewed;         434 AA.
+AC   Q21CK9;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   18-APR-2006, sequence version 1.
+DT   10-FEB-2021, entry version 94.
+DE   RecName: Full=ATP-dependent protease ATPase subunit HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+DE   AltName: Full=Unfoldase HslU {ECO:0000255|HAMAP-Rule:MF_00249};
+GN   Name=hslU {ECO:0000255|HAMAP-Rule:MF_00249}; OrderedLocusNames=RPC_0302;
+OS   Rhodopseudomonas palustris (strain BisB18).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Rhodopseudomonas.
+OX   NCBI_TaxID=316056;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=BisB18;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chain P., Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Pelletier D.A., Kyrpides N., Anderson I., Oda Y., Harwood C.S.,
+RA   Richardson P.;
+RT   "Complete sequence of Rhodopseudomonas palustris BisB18.";
+RL   Submitted (MAR-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: ATPase subunit of a proteasome-like degradation complex; this
+CC       subunit has chaperone activity. The binding of ATP and its subsequent
+CC       hydrolysis by HslU are essential for unfolding of protein substrates
+CC       subsequently hydrolyzed by HslV. HslU recognizes the N-terminal part of
+CC       its protein substrates and unfolds these before they are guided to HslV
+CC       for hydrolysis. {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SUBUNIT: A double ring-shaped homohexamer of HslV is capped on each
+CC       side by a ring-shaped HslU homohexamer. The assembly of the HslU/HslV
+CC       complex is dependent on binding of ATP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00249}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   -!- SIMILARITY: Belongs to the ClpX chaperone family. HslU subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00249}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000301; ABD85877.1; -; Genomic_DNA.
+DR   RefSeq; WP_011470785.1; NC_007925.1.
+DR   SMR; Q21CK9; -.
+DR   STRING; 316056.RPC_0302; -.
+DR   EnsemblBacteria; ABD85877; ABD85877; RPC_0302.
+DR   KEGG; rpc:RPC_0302; -.
+DR   eggNOG; COG1220; Bacteria.
+DR   HOGENOM; CLU_033123_0_0_5; -.
+DR   OMA; KYGMIKT; -.
+DR   OrthoDB; 718259at2; -.
+DR   BioCyc; RPAL316056:G1G6B-310-MONOMER; -.
+DR   Proteomes; UP000001948; Chromosome.
+DR   GO; GO:0009376; C:HslUV protease complex; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATPase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008233; F:peptidase activity; IEA:InterPro.
+DR   GO; GO:0043335; P:protein unfolding; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00249; HslU; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR019489; Clp_ATPase_C.
+DR   InterPro; IPR004491; HslU.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   PANTHER; PTHR48102:SF3; PTHR48102:SF3; 1.
+DR   Pfam; PF00004; AAA; 1.
+DR   Pfam; PF07724; AAA_2; 1.
+DR   Pfam; PF10431; ClpB_D2-small; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM01086; ClpB_D2-small; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00390; hslU; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chaperone; Cytoplasm; Nucleotide-binding; Reference proteome;
+KW   Stress response.
+FT   CHAIN           1..434
+FT                   /note="ATP-dependent protease ATPase subunit HslU"
+FT                   /id="PRO_1000012788"
+FT   NP_BIND         60..65
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         18
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         247
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         312
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+FT   BINDING         384
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00249"
+SQ   SEQUENCE   434 AA;  47674 MW;  7F4C5AD6E83DE79C CRC64;
+     MTDFSPREIV SELDRFIVGQ HDAKRAVSIA LRNRWRRLQL EGSLREEVLP KNILMIGPTG
+     VGKTEIARRL AKLAGAPFIK VEATKFTEVG YVGRDVEQII RDLVEVAISQ VREKKRKDVE
+     ARAQIAAEER VLDALVGANS SATTRDSFRK KLRAGELNDK EIEVETQSTG GGSPMFEIPG
+     MPGAQMGAIS LGDIFGKMGG RTKTRRLTVE DSHELLVNEE ADKLLDSDQL VQEAINAVEN
+     NGIVFLDEID KICVRDGRSG GEVSREGVQR DLLPLIEGTT VSTKHGAVKT DHILFIASGA
+     FHIAKPSDLL PELQGRLPIR VELSALTRDD MRRILTEPEA SLIKQYVALL QTEGVTLEIT
+     DEAIDALADV AVAVNSSVEN IGARRLQTVM ERVLDEISFT APDRDGETIQ VDAAYVQKHV
+     GDLAKNADLS RFIL
+//

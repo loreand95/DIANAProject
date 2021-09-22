@@ -1,0 +1,108 @@
+ID   M4H33_BOMMX             Reviewed;         144 AA.
+AC   Q58T52;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   26-APR-2005, sequence version 1.
+DT   07-APR-2021, entry version 42.
+DE   RecName: Full=Maximins 4/H3 type 3;
+DE   Contains:
+DE     RecName: Full=Maximin-4;
+DE   Contains:
+DE     RecName: Full=Maximin-H3;
+DE   Flags: Precursor;
+OS   Bombina maxima (Giant fire-bellied toad) (Chinese red belly toad).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Bombinatoridae; Bombina.
+OX   NCBI_TaxID=161274;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND AMIDATION AT ASN-70 AND ILE-143.
+RC   TISSUE=Skin;
+RX   PubMed=15770703; DOI=10.1002/eji.200425615;
+RA   Lee W.-H., Li Y., Lai R., Li S., Zhang Y., Wang W.;
+RT   "Variety of antimicrobial peptides in the Bombina maxima toad and evidence
+RT   of their rapid diversification.";
+RL   Eur. J. Immunol. 35:1220-1229(2005).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 44-70, FUNCTION OF MAXIMIN-4, SUBCELLULAR LOCATION, AND
+RP   TISSUE SPECIFICITY.
+RC   TISSUE=Skin secretion;
+RA   Chen T.B., McClean S., Orr D.F., Bjourson A.J., Rao P.F., Shaw C.;
+RT   "Isolation and structural characterisation of antimicrobial peptides from
+RT   the venom of the Chinese large-webbed bell toad (Bombina maxima).";
+RL   Submitted (JUL-2001) to UniProtKB.
+RN   [3]
+RP   PROTEIN SEQUENCE OF 44-70 AND 124-143, AMIDATION AT ASN-70 AND ILE-143,
+RP   FUNCTION OF MAXIMIN-4 AND MAXIMIN-H3, AND MASS SPECTROMETRY.
+RC   TISSUE=Skin, and Skin secretion;
+RX   PubMed=11835991; DOI=10.1016/s0196-9781(01)00641-6;
+RA   Lai R., Zheng Y.-T., Shen J.-H., Liu G.-J., Liu H., Lee W.-H., Tang S.-Z.,
+RA   Zhang Y.;
+RT   "Antimicrobial peptides from skin secretions of Chinese red belly toad
+RT   Bombina maxima.";
+RL   Peptides 23:427-435(2002).
+CC   -!- FUNCTION: Maximin-4 shows antibacterial activity against both Gram-
+CC       positive and Gram-negative bacteria. It shows also antimicrobial
+CC       activity against the fungus C.albicans, but not against A.flavus nor
+CC       P.uticale. It has little hemolytic activity. It does not possess a
+CC       significant cytotoxicity against tumor cell lines. It does not possess
+CC       a significant anti-HIV activity.
+CC   -!- FUNCTION: Maximin-H3 shows antibacterial activity against both Gram-
+CC       positive and Gram-negative bacteria. It shows also antimicrobial
+CC       activity against the fungus C.albicans. Shows strong hemolytic
+CC       activity.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|Ref.2}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the skin glands. {ECO:0000269|Ref.2}.
+CC   -!- MASS SPECTROMETRY: [Maximin-4]: Mass=2612; Method=FAB;
+CC       Evidence={ECO:0000269|PubMed:11835991};
+CC   -!- MASS SPECTROMETRY: [Maximin-H3]: Mass=1944; Method=FAB;
+CC       Evidence={ECO:0000269|PubMed:11835991};
+CC   -!- SIMILARITY: Belongs to the bombinin family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY849008; AAX50229.1; -; mRNA.
+DR   PDB; 2MHW; NMR; -; A=44-70.
+DR   PDBsum; 2MHW; -.
+DR   SMR; Q58T52; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0042742; P:defense response to bacterium; IEA:UniProtKB-KW.
+DR   GO; GO:0050832; P:defense response to fungus; IEA:UniProtKB-KW.
+DR   GO; GO:0044179; P:hemolysis in other organism; IEA:UniProtKB-KW.
+DR   InterPro; IPR007962; Bombinin.
+DR   Pfam; PF05298; Bombinin; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Amidation; Amphibian defense peptide; Antibiotic;
+KW   Antimicrobial; Cleavage on pair of basic residues; Cytolysis;
+KW   Direct protein sequencing; Fungicide; Hemolysis; Secreted; Signal.
+FT   SIGNAL          1..18
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          19..43
+FT                   /id="PRO_0000003160"
+FT   PEPTIDE         44..70
+FT                   /note="Maximin-4"
+FT                   /id="PRO_0000003161"
+FT   PROPEP          74..123
+FT                   /evidence="ECO:0000269|PubMed:11835991"
+FT                   /id="PRO_0000003162"
+FT   PEPTIDE         124..143
+FT                   /note="Maximin-H3"
+FT                   /id="PRO_0000003163"
+FT   MOD_RES         70
+FT                   /note="Asparagine amide"
+FT                   /evidence="ECO:0000269|PubMed:11835991,
+FT                   ECO:0000269|PubMed:15770703"
+FT   MOD_RES         143
+FT                   /note="Isoleucine amide"
+FT                   /evidence="ECO:0000269|PubMed:11835991,
+FT                   ECO:0000269|PubMed:15770703"
+FT   STRAND          46..50
+FT                   /evidence="ECO:0007744|PDB:2MHW"
+FT   HELIX           51..58
+FT                   /evidence="ECO:0007744|PDB:2MHW"
+FT   HELIX           61..67
+FT                   /evidence="ECO:0007744|PDB:2MHW"
+SQ   SEQUENCE   144 AA;  15916 MW;  6D887F728B18E2ED CRC64;
+     MNFKYIIAVS FFIASAYART EEKDVQSLSQ RDVLEEESLR EIRGIGGVLL SAGKAALKGL
+     AKVLAEKYAN GKRTAEDHEV MKRLEAVMRD LDSLDHPEEA SERQTRGFNQ EEIANLFTKK
+     EKRILGPVLG LVGNALGGLI KKIG
+//

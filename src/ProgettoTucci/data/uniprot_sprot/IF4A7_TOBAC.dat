@@ -1,0 +1,96 @@
+ID   IF4A7_TOBAC             Reviewed;         413 AA.
+AC   Q40470;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1997, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=Eukaryotic initiation factor 4A-7;
+DE            Short=eIF-4A-7;
+DE            EC=3.6.4.13;
+DE   AltName: Full=ATP-dependent RNA helicase eIF4A-7;
+OS   Nicotiana tabacum (Common tobacco).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae; Pentapetalae;
+OC   asterids; lamiids; Solanales; Solanaceae; Nicotianoideae; Nicotianeae;
+OC   Nicotiana.
+OX   NCBI_TaxID=4097;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. SR1;
+RX   PubMed=7858215; DOI=10.1007/bf00019489;
+RA   Owttrim G.W., Mandel T., Trachsel H., Thomas A.A., Kuhlemeier C.;
+RT   "Characterization of the tobacco eIF-4A gene family.";
+RL   Plant Mol. Biol. 26:1747-1757(1994).
+CC   -!- FUNCTION: ATP-dependent RNA helicase which is a subunit of the eIF4F
+CC       complex involved in cap recognition and is required for mRNA binding to
+CC       ribosome. In the current model of translation initiation, eIF4A unwinds
+CC       RNA secondary structures in the 5'-UTR of mRNAs which is necessary to
+CC       allow efficient binding of the small ribosomal subunit, and subsequent
+CC       scanning for the initiator codon (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.13;
+CC   -!- SUBUNIT: eIF4F is a multi-subunit complex, the composition of which
+CC       varies with external and internal environmental conditions. It is
+CC       composed of at least EIF4A, EIF4E and EIF4G (By similarity).
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the DEAD box helicase family. eIF4A subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X79137; CAA55738.1; -; mRNA.
+DR   PIR; S52019; S52019.
+DR   RefSeq; NP_001312302.1; NM_001325373.1.
+DR   SMR; Q40470; -.
+DR   GeneID; 107783883; -.
+DR   KEGG; nta:107783883; -.
+DR   Proteomes; UP000084051; Genome assembly.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003724; F:RNA helicase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003743; F:translation initiation factor activity; IBA:GO_Central.
+DR   GO; GO:0002183; P:cytoplasmic translational initiation; IBA:GO_Central.
+DR   InterPro; IPR011545; DEAD/DEAH_box_helicase_dom.
+DR   InterPro; IPR014001; Helicase_ATP-bd.
+DR   InterPro; IPR001650; Helicase_C.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR000629; RNA-helicase_DEAD-box_CS.
+DR   InterPro; IPR014014; RNA_helicase_DEAD_Q_motif.
+DR   Pfam; PF00270; DEAD; 1.
+DR   Pfam; PF00271; Helicase_C; 1.
+DR   SMART; SM00487; DEXDc; 1.
+DR   SMART; SM00490; HELICc; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00039; DEAD_ATP_HELICASE; 1.
+DR   PROSITE; PS51192; HELICASE_ATP_BIND_1; 1.
+DR   PROSITE; PS51194; HELICASE_CTER; 1.
+DR   PROSITE; PS51195; Q_MOTIF; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Helicase; Hydrolase; Initiation factor; Nucleotide-binding;
+KW   Protein biosynthesis; Reference proteome; RNA-binding.
+FT   CHAIN           1..413
+FT                   /note="Eukaryotic initiation factor 4A-7"
+FT                   /id="PRO_0000054954"
+FT   DOMAIN          71..241
+FT                   /note="Helicase ATP-binding"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   DOMAIN          252..413
+FT                   /note="Helicase C-terminal"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00542"
+FT   NP_BIND         84..91
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00541"
+FT   MOTIF           40..68
+FT                   /note="Q motif"
+FT   MOTIF           189..192
+FT                   /note="DEAD box"
+SQ   SEQUENCE   413 AA;  46897 MW;  C1FE4FFF99032CE6 CRC64;
+     MAGLAPEGSQ FDARQYDAKM TELLGTEQEE FFTSYDEVYD SFDAMGLQEN LLRGIYAYGF
+     EKPSAIQQRG IVPFCKGLDV IQQAQSGTGK TATFCSGVLQ QLDYSLVECQ ALVLAPTREL
+     AQQIEKVMRA LGDYLGVKVH ACVGGTSVRE DQRILQSGVH VVVGTPGRVF DMLRRQSLRP
+     DHIKMFVLDE ADEMLSRGFK DQIYDIFQLL PPKIQVGVFS ATMPPEALEI TRKFMNKPVR
+     ILVKRDDVTL EGIKQFYVNV DKEEWKLETL CDLYETLAIT QSVIFVNTRR KVDWLTDKMR
+     TRDHTVSATH GDMDQNTRDI IMREFRSGSS RVLITTDLLA RGIDVQQVSL VINYDLPTQP
+     ENYLHRIGRS GRFGRKGVAI NFVIKDDERM LSDIQRFYNV VIEELPANVA DLL
+//

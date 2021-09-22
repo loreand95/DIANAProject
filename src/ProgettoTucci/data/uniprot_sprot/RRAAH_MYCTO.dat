@@ -1,0 +1,96 @@
+ID   RRAAH_MYCTO             Reviewed;         157 AA.
+AC   P9WGY2; L0TFG1; P0A666; P96224;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   07-APR-2021, entry version 37.
+DE   RecName: Full=Putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase;
+DE            Short=HMG aldolase;
+DE            EC=4.1.3.17;
+DE   AltName: Full=Oxaloacetate decarboxylase;
+DE            Short=OAA decarboxylase;
+DE            EC=4.1.1.112;
+DE   AltName: Full=Regulator of ribonuclease activity homolog;
+DE   AltName: Full=RraA-like protein;
+GN   Name=rraA; OrderedLocusNames=MT3968;
+OS   Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83331;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC 1551 / Oshkosh;
+RX   PubMed=12218036; DOI=10.1128/jb.184.19.5479-5490.2002;
+RA   Fleischmann R.D., Alland D., Eisen J.A., Carpenter L., White O.,
+RA   Peterson J.D., DeBoy R.T., Dodson R.J., Gwinn M.L., Haft D.H., Hickey E.K.,
+RA   Kolonay J.F., Nelson W.C., Umayam L.A., Ermolaeva M.D., Salzberg S.L.,
+RA   Delcher A., Utterback T.R., Weidman J.F., Khouri H.M., Gill J., Mikula A.,
+RA   Bishai W., Jacobs W.R. Jr., Venter J.C., Fraser C.M.;
+RT   "Whole-genome comparison of Mycobacterium tuberculosis clinical and
+RT   laboratory strains.";
+RL   J. Bacteriol. 184:5479-5490(2002).
+CC   -!- FUNCTION: Catalyzes the aldol cleavage of 4-hydroxy-4-methyl-2-
+CC       oxoglutarate (HMG) into 2 molecules of pyruvate. Also contains a
+CC       secondary oxaloacetate (OAA) decarboxylase activity due to the common
+CC       pyruvate enolate transition state formed following C-C bond cleavage in
+CC       the retro-aldol and decarboxylation reactions (By similarity).
+CC       {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-hydroxy-4-methyl-2-oxoglutarate = 2 pyruvate;
+CC         Xref=Rhea:RHEA:22748, ChEBI:CHEBI:15361, ChEBI:CHEBI:58276;
+CC         EC=4.1.3.17;
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H(+) + oxaloacetate = CO2 + pyruvate; Xref=Rhea:RHEA:15641,
+CC         ChEBI:CHEBI:15361, ChEBI:CHEBI:15378, ChEBI:CHEBI:16452,
+CC         ChEBI:CHEBI:16526; EC=4.1.1.112;
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000250};
+CC       Note=Divalent metal cation. {ECO:0000250};
+CC   -!- SUBUNIT: Homotrimer. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class II aldolase/RraA-like family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE000516; AAK48335.1; -; Genomic_DNA.
+DR   PIR; B70655; B70655.
+DR   RefSeq; WP_003399786.1; NZ_KK341227.1.
+DR   SMR; P9WGY2; -.
+DR   EnsemblBacteria; AAK48335; AAK48335; MT3968.
+DR   GeneID; 45427857; -.
+DR   KEGG; mtc:MT3968; -.
+DR   PATRIC; fig|83331.31.peg.4267; -.
+DR   HOGENOM; CLU_072626_4_0_11; -.
+DR   Proteomes; UP000001020; Chromosome.
+DR   GO; GO:0047443; F:4-hydroxy-4-methyl-2-oxoglutarate aldolase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008948; F:oxaloacetate decarboxylase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008428; F:ribonuclease inhibitor activity; IEA:InterPro.
+DR   GO; GO:0051252; P:regulation of RNA metabolic process; IEA:InterPro.
+DR   CDD; cd16841; RraA_family; 1.
+DR   InterPro; IPR010203; RraA.
+DR   InterPro; IPR005493; RraA/RraA-like.
+DR   InterPro; IPR036704; RraA/RraA-like_sf.
+DR   Pfam; PF03737; RraA-like; 1.
+DR   SUPFAM; SSF89562; SSF89562; 1.
+DR   TIGRFAMs; TIGR01935; NOT-MenG; 1.
+PE   3: Inferred from homology;
+KW   Lyase; Metal-binding.
+FT   CHAIN           1..157
+FT                   /note="Putative 4-hydroxy-4-methyl-2-oxoglutarate aldolase"
+FT                   /id="PRO_0000428282"
+FT   REGION          78..81
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000250"
+FT   METAL           101
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         100
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   157 AA;  16235 MW;  92BD93F60B66E793 CRC64;
+     MAISFRPTAD LVDDIGPDVR SCDLQFRQFG GRSQFAGPIS TVRCFQDNAL LKSVLSQPSA
+     GGVLVIDGAG SLHTALVGDV IAELARSTGW TGLIVHGAVR DAAALRGIDI GIKALGTNPR
+     KSTKTGAGER DVEITLGGVT FVPGDIAYSD DDGIIVV
+//

@@ -1,0 +1,96 @@
+ID   NNRE_LEGP2              Reviewed;         270 AA.
+AC   D5TAM8;
+DT   21-MAR-2012, integrated into UniProtKB/Swiss-Prot.
+DT   13-JUL-2010, sequence version 1.
+DT   07-APR-2021, entry version 44.
+DE   RecName: Full=NAD(P)H-hydrate epimerase {ECO:0000255|HAMAP-Rule:MF_01966};
+DE            EC=5.1.99.6 {ECO:0000255|HAMAP-Rule:MF_01966};
+DE   AltName: Full=NAD(P)HX epimerase {ECO:0000255|HAMAP-Rule:MF_01966};
+GN   Name=nnrE {ECO:0000255|HAMAP-Rule:MF_01966}; OrderedLocusNames=lpa_04097;
+OS   Legionella pneumophila serogroup 1 (strain 2300/99 Alcoy).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=423212;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=2300/99 Alcoy;
+RX   PubMed=20236513; DOI=10.1186/1471-2164-11-181;
+RA   D'Auria G., Jimenez-Hernandez N., Peris-Bondia F., Moya A., Latorre A.;
+RT   "Legionella pneumophila pangenome reveals strain-specific virulence
+RT   factors.";
+RL   BMC Genomics 11:181-181(2010).
+CC   -!- FUNCTION: Catalyzes the epimerization of the S- and R-forms of
+CC       NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or
+CC       heat-dependent hydration. This is a prerequisite for the S-specific
+CC       NAD(P)H-hydrate dehydratase to allow the repair of both epimers of
+CC       NAD(P)HX. {ECO:0000255|HAMAP-Rule:MF_01966}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-NADHX = (6S)-NADHX; Xref=Rhea:RHEA:32215,
+CC         ChEBI:CHEBI:64074, ChEBI:CHEBI:64075; EC=5.1.99.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01966};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(6R)-NADPHX = (6S)-NADPHX; Xref=Rhea:RHEA:32227,
+CC         ChEBI:CHEBI:64076, ChEBI:CHEBI:64077; EC=5.1.99.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01966};
+CC   -!- COFACTOR:
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01966};
+CC       Note=Binds 1 potassium ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01966};
+CC   -!- SIMILARITY: Belongs to the NnrE/AIBP family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01966}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001828; ADG26213.1; -; Genomic_DNA.
+DR   RefSeq; WP_013101985.1; NC_014125.1.
+DR   KEGG; lpa:lpa_04097; -.
+DR   HOGENOM; CLU_024853_0_1_6; -.
+DR   OMA; IKAANHI; -.
+DR   BioCyc; LPNE423212:LPA_RS14625-MONOMER; -.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0052856; F:NADHX epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0052857; F:NADPHX epimerase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.10260; -; 1.
+DR   HAMAP; MF_01966; NADHX_epimerase; 1.
+DR   InterPro; IPR004443; YjeF_N_dom.
+DR   InterPro; IPR036652; YjeF_N_dom_sf.
+DR   Pfam; PF03853; YjeF_N; 1.
+DR   SUPFAM; SSF64153; SSF64153; 1.
+DR   TIGRFAMs; TIGR00197; yjeF_nterm; 1.
+DR   PROSITE; PS51385; YJEF_N; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Metal-binding; NAD; NADP; Nucleotide-binding; Potassium.
+FT   CHAIN           1..270
+FT                   /note="NAD(P)H-hydrate epimerase"
+FT                   /id="PRO_0000416363"
+FT   DOMAIN          25..234
+FT                   /note="YjeF N-terminal"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   REGION          73..77
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   REGION          148..154
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   METAL           74
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   METAL           144
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   METAL           180
+FT                   /note="Potassium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+FT   BINDING         177
+FT                   /note="NAD(P)HX"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01966"
+SQ   SEQUENCE   270 AA;  30356 MW;  50C87666A07B04F8 CRC64;
+     MNYYFTKGKP QLVNMKTPIY LVTQFQQLMD LMQNQYEVSC LELMQRSGKA ACDFLVYRWP
+     KVKKISIFCG RGDNGGQGYV LAQQAKKMGM VPTVWQVGHQ MSMSKPPQMH KEVWYEMNSC
+     HQQGIVLHTY SPDIDLGDPE LIVDALFGVG LYGHVRPEIA LLLQRLQQFT VPILAIEVPT
+     GINASTGEIA GNALAATATI TFLCMKLGLL INDGKIYSGE IAFDDLLAPE AIYQQVKGIE
+     ESSLLDSSTF FSKKIWYRNK TQKGWQLSIN
+//

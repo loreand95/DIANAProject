@@ -55,7 +55,7 @@ function loadTable(query){
 
     confTable = {
         'pagination': {
-          'limit': 10
+          'limit': 100
         },
         data : ()=>{
             return searchAPI(query).then((response)=>{

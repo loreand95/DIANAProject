@@ -1,0 +1,101 @@
+ID   AZOR_SHEDO              Reviewed;         197 AA.
+AC   Q12IH3;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   22-AUG-2006, sequence version 1.
+DT   10-FEB-2021, entry version 89.
+DE   RecName: Full=FMN-dependent NADH:quinone oxidoreductase {ECO:0000255|HAMAP-Rule:MF_01216};
+DE            EC=1.6.5.- {ECO:0000255|HAMAP-Rule:MF_01216};
+DE   AltName: Full=Azo-dye reductase {ECO:0000255|HAMAP-Rule:MF_01216};
+DE   AltName: Full=FMN-dependent NADH-azo compound oxidoreductase {ECO:0000255|HAMAP-Rule:MF_01216};
+DE   AltName: Full=FMN-dependent NADH-azoreductase {ECO:0000255|HAMAP-Rule:MF_01216};
+DE            EC=1.7.1.17 {ECO:0000255|HAMAP-Rule:MF_01216};
+GN   Name=azoR {ECO:0000255|HAMAP-Rule:MF_01216}; OrderedLocusNames=Sden_3478;
+OS   Shewanella denitrificans (strain OS217 / ATCC BAA-1090 / DSM 15013).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=318161;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=OS217 / ATCC BAA-1090 / DSM 15013;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Brettin T., Bruce D., Han C., Tapia R., Gilna P., Kiss H., Schmutz J.,
+RA   Larimer F., Land M., Hauser L., Kyrpides N., Lykidis A., Richardson P.;
+RT   "Complete sequence of Shewanella denitrificans OS217.";
+RL   Submitted (MAR-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Quinone reductase that provides resistance to thiol-specific
+CC       stress caused by electrophilic quinones. {ECO:0000255|HAMAP-
+CC       Rule:MF_01216}.
+CC   -!- FUNCTION: Also exhibits azoreductase activity. Catalyzes the reductive
+CC       cleavage of the azo bond in aromatic azo compounds to the corresponding
+CC       amines. {ECO:0000255|HAMAP-Rule:MF_01216}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 a quinone + H(+) + NADH = 2 a 1,4-benzosemiquinone + NAD(+);
+CC         Xref=Rhea:RHEA:65952, ChEBI:CHEBI:15378, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945, ChEBI:CHEBI:132124, ChEBI:CHEBI:134225;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01216};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=anthranilate + N,N-dimethyl-1,4-phenylenediamine + 2 NAD(+) =
+CC         2-(4-dimethylaminophenyl)diazenylbenzoate + 2 H(+) + 2 NADH;
+CC         Xref=Rhea:RHEA:55872, ChEBI:CHEBI:15378, ChEBI:CHEBI:15783,
+CC         ChEBI:CHEBI:16567, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945,
+CC         ChEBI:CHEBI:71579; EC=1.7.1.17; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01216};
+CC   -!- COFACTOR:
+CC       Name=FMN; Xref=ChEBI:CHEBI:58210;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01216};
+CC       Note=Binds 1 FMN per subunit. {ECO:0000255|HAMAP-Rule:MF_01216};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01216}.
+CC   -!- SIMILARITY: Belongs to the azoreductase type 1 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01216}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000302; ABE56753.1; -; Genomic_DNA.
+DR   RefSeq; WP_011497894.1; NC_007954.1.
+DR   SMR; Q12IH3; -.
+DR   STRING; 318161.Sden_3478; -.
+DR   EnsemblBacteria; ABE56753; ABE56753; Sden_3478.
+DR   KEGG; sdn:Sden_3478; -.
+DR   eggNOG; COG1182; Bacteria.
+DR   HOGENOM; CLU_088964_0_0_6; -.
+DR   OMA; AGITFKY; -.
+DR   OrthoDB; 1402654at2; -.
+DR   BioCyc; SDEN318161:G1G6C-3660-MONOMER; -.
+DR   Proteomes; UP000001982; Chromosome.
+DR   GO; GO:0009055; F:electron transfer activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0010181; F:FMN binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016652; F:oxidoreductase activity, acting on NAD(P)H, NAD(P) as acceptor; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016661; F:oxidoreductase activity, acting on other nitrogenous compounds as donors; IEA:InterPro.
+DR   Gene3D; 3.40.50.360; -; 1.
+DR   HAMAP; MF_01216; Azoreductase_type1; 1.
+DR   InterPro; IPR003680; Flavodoxin_fold.
+DR   InterPro; IPR029039; Flavoprotein-like_sf.
+DR   InterPro; IPR023048; NADH-azoreductase_FMN-depdnt.
+DR   Pfam; PF02525; Flavodoxin_2; 1.
+DR   SUPFAM; SSF52218; SSF52218; 1.
+PE   3: Inferred from homology;
+KW   Flavoprotein; FMN; NAD; Oxidoreductase; Reference proteome.
+FT   CHAIN           1..197
+FT                   /note="FMN-dependent NADH:quinone oxidoreductase"
+FT                   /id="PRO_1000066522"
+FT   NP_BIND         16..18
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01216"
+FT   NP_BIND         93..96
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01216"
+FT   NP_BIND         137..140
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01216"
+FT   BINDING         10
+FT                   /note="FMN"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01216"
+SQ   SEQUENCE   197 AA;  21134 MW;  29BF51E8FFF15C23 CRC64;
+     MAKVLVLKSS ILGDYSQSSA LIGHLMSHWQ QQGAQMTVRD LAADPVPVLD GEIATGMRGG
+     DNLSPRQQQV LDLSDELIAE LKSHDTLVIA APMYNFSIPT QLKNWIDLIA RAGVTFTYTE
+     TGPKGLLEGK RAVVVTTRGG MHKEGASDHI VPYLKTVLGF IGITEVEFVY AEALNMGPDA
+     TAQGLLEAKT ALDSLTA
+//

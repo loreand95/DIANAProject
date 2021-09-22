@@ -1,0 +1,86 @@
+ID   NUOK_XANCB              Reviewed;         101 AA.
+AC   B0RRA8;
+DT   15-DEC-2009, integrated into UniProtKB/Swiss-Prot.
+DT   20-MAY-2008, sequence version 1.
+DT   07-APR-2021, entry version 69.
+DE   RecName: Full=NADH-quinone oxidoreductase subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+DE            EC=7.1.1.- {ECO:0000255|HAMAP-Rule:MF_01456};
+DE   AltName: Full=NADH dehydrogenase I subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+DE   AltName: Full=NDH-1 subunit K {ECO:0000255|HAMAP-Rule:MF_01456};
+GN   Name=nuoK {ECO:0000255|HAMAP-Rule:MF_01456};
+GN   OrderedLocusNames=xcc-b100_1643;
+OS   Xanthomonas campestris pv. campestris (strain B100).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales;
+OC   Xanthomonadaceae; Xanthomonas.
+OX   NCBI_TaxID=509169;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=B100;
+RX   PubMed=18304669; DOI=10.1016/j.jbiotec.2007.12.013;
+RA   Vorhoelter F.-J., Schneiker S., Goesmann A., Krause L., Bekel T.,
+RA   Kaiser O., Linke B., Patschkowski T., Rueckert C., Schmid J., Sidhu V.K.,
+RA   Sieber V., Tauch A., Watt S.A., Weisshaar B., Becker A., Niehaus K.,
+RA   Puehler A.;
+RT   "The genome of Xanthomonas campestris pv. campestris B100 and its use for
+RT   the reconstruction of metabolic pathways involved in xanthan
+RT   biosynthesis.";
+RL   J. Biotechnol. 134:33-45(2008).
+CC   -!- FUNCTION: NDH-1 shuttles electrons from NADH, via FMN and iron-sulfur
+CC       (Fe-S) centers, to quinones in the respiratory chain. The immediate
+CC       electron acceptor for the enzyme in this species is believed to be
+CC       ubiquinone. Couples the redox reaction to proton translocation (for
+CC       every two electrons transferred, four hydrogen ions are translocated
+CC       across the cytoplasmic membrane), and thus conserves the redox energy
+CC       in a proton gradient. {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a quinone + 5 H(+)(in) + NADH = a quinol + 4 H(+)(out) +
+CC         NAD(+); Xref=Rhea:RHEA:57888, ChEBI:CHEBI:15378, ChEBI:CHEBI:24646,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57945, ChEBI:CHEBI:132124;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01456};
+CC   -!- SUBUNIT: NDH-1 is composed of 14 different subunits. Subunits NuoA, H,
+CC       J, K, L, M, N constitute the membrane sector of the complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01456}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01456}.
+CC   -!- SIMILARITY: Belongs to the complex I subunit 4L family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01456}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AM920689; CAP50993.1; -; Genomic_DNA.
+DR   SMR; B0RRA8; -.
+DR   KEGG; xca:xcc-b100_1643; -.
+DR   HOGENOM; CLU_144724_2_0_6; -.
+DR   OMA; NLMGFSN; -.
+DR   Proteomes; UP000001188; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050136; F:NADH dehydrogenase (quinone) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0048038; F:quinone binding; IEA:UniProtKB-KW.
+DR   GO; GO:0042773; P:ATP synthesis coupled electron transport; IEA:InterPro.
+DR   HAMAP; MF_01456; NDH1_NuoK; 1.
+DR   InterPro; IPR001133; NADH_UbQ_OxRdtase_chain4L/K.
+DR   InterPro; IPR039428; NUOK/Mnh_C1-like.
+DR   PANTHER; PTHR11434; PTHR11434; 1.
+DR   Pfam; PF00420; Oxidored_q2; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Membrane; NAD; Quinone; Translocase;
+KW   Transmembrane; Transmembrane helix; Transport; Ubiquinone.
+FT   CHAIN           1..101
+FT                   /note="NADH-quinone oxidoreductase subunit K"
+FT                   /id="PRO_0000390275"
+FT   TRANSMEM        4..24
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+FT   TRANSMEM        30..50
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+FT   TRANSMEM        62..82
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01456"
+SQ   SEQUENCE   101 AA;  10879 MW;  730B4EE4236118A1 CRC64;
+     MITLGHLLGL GAVLFCISLA GIFLNRKNVI VLLMSIELML LSVNVNFIAF SRELGDTAGQ
+     LFVFFILTVA AAEAAIGLAI LVTLFRTRRT INVAEVDTLK G
+//

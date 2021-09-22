@@ -1,0 +1,138 @@
+ID   MSBA_SHEON              Reviewed;         601 AA.
+AC   Q8EDF0;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 113.
+DE   RecName: Full=ATP-dependent lipid A-core flippase {ECO:0000255|HAMAP-Rule:MF_01703};
+DE            EC=7.5.2.6 {ECO:0000255|HAMAP-Rule:MF_01703};
+DE   AltName: Full=Lipid A export ATP-binding/permease protein MsbA {ECO:0000255|HAMAP-Rule:MF_01703};
+GN   Name=msbA {ECO:0000255|HAMAP-Rule:MF_01703}; OrderedLocusNames=SO_2802;
+OS   Shewanella oneidensis (strain MR-1).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+OC   Shewanellaceae; Shewanella.
+OX   NCBI_TaxID=211586;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MR-1;
+RX   PubMed=12368813; DOI=10.1038/nbt749;
+RA   Heidelberg J.F., Paulsen I.T., Nelson K.E., Gaidos E.J., Nelson W.C.,
+RA   Read T.D., Eisen J.A., Seshadri R., Ward N.L., Methe B.A., Clayton R.A.,
+RA   Meyer T., Tsapin A., Scott J., Beanan M.J., Brinkac L.M., Daugherty S.C.,
+RA   DeBoy R.T., Dodson R.J., Durkin A.S., Haft D.H., Kolonay J.F., Madupu R.,
+RA   Peterson J.D., Umayam L.A., White O., Wolf A.M., Vamathevan J.J.,
+RA   Weidman J.F., Impraim M., Lee K., Berry K.J., Lee C., Mueller J.,
+RA   Khouri H.M., Gill J., Utterback T.R., McDonald L.A., Feldblyum T.V.,
+RA   Smith H.O., Venter J.C., Nealson K.H., Fraser C.M.;
+RT   "Genome sequence of the dissimilatory metal ion-reducing bacterium
+RT   Shewanella oneidensis.";
+RL   Nat. Biotechnol. 20:1118-1123(2002).
+CC   -!- FUNCTION: Involved in lipopolysaccharide (LPS) biosynthesis.
+CC       Translocates lipid A-core from the inner to the outer leaflet of the
+CC       inner membrane. Transmembrane domains (TMD) form a pore in the inner
+CC       membrane and the ATP-binding domain (NBD) is responsible for energy
+CC       generation. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H(2)O + lipid A-core oligosaccharide(Side 1) = ADP +
+CC         phosphate + lipid A-core oligosaccharide(Side 2).; EC=7.5.2.6;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01703};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01703}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01703}.
+CC   -!- DOMAIN: In MsbA the ATP-binding domain (NBD) and the transmembrane
+CC       domain (TMD) are fused. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Lipid exporter
+CC       (TC 3.A.1.106) family. {ECO:0000255|HAMAP-Rule:MF_01703}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014299; AAN55824.1; -; Genomic_DNA.
+DR   RefSeq; NP_718380.1; NC_004347.2.
+DR   RefSeq; WP_011072735.1; NZ_CP053946.1.
+DR   SMR; Q8EDF0; -.
+DR   STRING; 211586.SO_2802; -.
+DR   PaxDb; Q8EDF0; -.
+DR   KEGG; son:SO_2802; -.
+DR   PATRIC; fig|211586.12.peg.2703; -.
+DR   eggNOG; COG1132; Bacteria.
+DR   HOGENOM; CLU_000604_84_3_6; -.
+DR   OMA; MLYTPIK; -.
+DR   OrthoDB; 643917at2; -.
+DR   PhylomeDB; Q8EDF0; -.
+DR   BioCyc; SONE211586:G1GMP-2588-MONOMER; -.
+DR   Proteomes; UP000008186; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0034040; F:ATPase-coupled lipid transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   Gene3D; 1.20.1560.10; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR011917; ABC_transpr_lipidA.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR24221; PTHR24221; 1.
+DR   Pfam; PF00664; ABC_membrane; 1.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF90123; SSF90123; 1.
+DR   TIGRFAMs; TIGR02203; MsbA_lipidA; 1.
+DR   PROSITE; PS50929; ABC_TM1F; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+DR   PROSITE; PS51239; MSBA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Lipid transport; Membrane;
+KW   Nucleotide-binding; Reference proteome; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..601
+FT                   /note="ATP-dependent lipid A-core flippase"
+FT                   /id="PRO_0000092599"
+FT   TRANSMEM        32..52
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        81..101
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        160..180
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        183..203
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        267..287
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   TRANSMEM        296..316
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   DOMAIN          28..328
+FT                   /note="ABC transmembrane type-1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   DOMAIN          360..597
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+FT   NP_BIND         394..401
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01703"
+SQ   SEQUENCE   601 AA;  65712 MW;  054C0A99C5B9B5E9 CRC64;
+     MTASPKNEMW TVFKRLMGYL KPMKGMFLLS VVGLIVYGLV DAAFISFIGP FIDKGFSSSA
+     PAISNGIALP TSQGFHADNQ VLLMAPIVVI LMFSLRGFAN FVSTYGISYM SARLIMDMRQ
+     QVFEHYLSLP VSYMDKENTG NLISKVTFDT EQIARASGSA LISIVRDSVT IIGMLGLMFY
+     NSWKLSLCIL VIGPIMGVVI TIVSRRFRKV SKQIQTAMGD VSAATEQMIK GHKNVLAFGG
+     QETETARFAK INDRNRHQNM KLAVAQAVSQ PLIMVIGSFA LAFVLYAASL DSMKADLTAG
+     TFATILGAMM AMLQPIKNLT RVNAEFQRGI AACTTVFELL DTVPESDTGT YTVARAKGNL
+     RFDNVSFSYE GQERRALEKI DFEVSQGQTL ALVGRSGSGK STIASLVTRF YTGLESGDIL
+     LDDVSIYDYS LKSLRSQVAL VSQQVTLFND TIANNIAYAY PGEVTREQII EAATLAHAME
+     FIEQLPDGLD TQVGENGVLL SGGQRQRIAI ARAMLRDAPV LILDEATSAL DTESEKAIQQ
+     GLDNLRQNRT SVVIAHRLST IESADQILVV DQGRIVERGT HKSLLELGGM YAKLYQMQFG
+     S
+//

@@ -1,0 +1,192 @@
+ID   ISPDF_BRUSU             Reviewed;         390 AA.
+AC   Q8G0H4; G0KA42;
+DT   07-NOV-2003, integrated into UniProtKB/Swiss-Prot.
+DT   07-NOV-2003, sequence version 2.
+DT   07-APR-2021, entry version 105.
+DE   RecName: Full=Bifunctional enzyme IspD/IspF {ECO:0000255|HAMAP-Rule:MF_01520};
+DE   Includes:
+DE     RecName: Full=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              EC=2.7.7.60 {ECO:0000255|HAMAP-Rule:MF_01520};
+DE     AltName: Full=4-diphosphocytidyl-2C-methyl-D-erythritol synthase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE     AltName: Full=MEP cytidylyltransferase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              Short=MCT {ECO:0000255|HAMAP-Rule:MF_01520};
+DE   Includes:
+DE     RecName: Full=2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              Short=MECDP-synthase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              Short=MECPP-synthase {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              Short=MECPS {ECO:0000255|HAMAP-Rule:MF_01520};
+DE              EC=4.6.1.12 {ECO:0000255|HAMAP-Rule:MF_01520};
+GN   Name=ispDF {ECO:0000255|HAMAP-Rule:MF_01520};
+GN   OrderedLocusNames=BR1120, BS1330_I1116;
+OS   Brucella suis biovar 1 (strain 1330).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Brucellaceae;
+OC   Brucella.
+OX   NCBI_TaxID=204722;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1330;
+RX   PubMed=12271122; DOI=10.1073/pnas.192319099;
+RA   Paulsen I.T., Seshadri R., Nelson K.E., Eisen J.A., Heidelberg J.F.,
+RA   Read T.D., Dodson R.J., Umayam L.A., Brinkac L.M., Beanan M.J.,
+RA   Daugherty S.C., DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R.,
+RA   Nelson W.C., Ayodeji B., Kraul M., Shetty J., Malek J.A., Van Aken S.E.,
+RA   Riedmuller S., Tettelin H., Gill S.R., White O., Salzberg S.L.,
+RA   Hoover D.L., Lindler L.E., Halling S.M., Boyle S.M., Fraser C.M.;
+RT   "The Brucella suis genome reveals fundamental similarities between animal
+RT   and plant pathogens and symbionts.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:13148-13153(2002).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=1330;
+RX   PubMed=22038969; DOI=10.1128/jb.06181-11;
+RA   Tae H., Shallom S., Settlage R., Preston D., Adams L.G., Garner H.R.;
+RT   "Revised genome sequence of Brucella suis 1330.";
+RL   J. Bacteriol. 193:6410-6410(2011).
+CC   -!- FUNCTION: Bifunctional enzyme that catalyzes the formation of 4-
+CC       diphosphocytidyl-2-C-methyl-D-erythritol from CTP and 2-C-methyl-D-
+CC       erythritol 4-phosphate (MEP) (IspD), and catalyzes the conversion of 4-
+CC       diphosphocytidyl-2-C-methyl-D-erythritol 2-phosphate (CDP-ME2P) to 2-C-
+CC       methyl-D-erythritol 2,4-cyclodiphosphate (ME-CPP) with a corresponding
+CC       release of cytidine 5-monophosphate (CMP) (IspF). {ECO:0000255|HAMAP-
+CC       Rule:MF_01520}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-C-methyl-D-erythritol 4-phosphate + CTP + H(+) = 4-CDP-2-C-
+CC         methyl-D-erythritol + diphosphate; Xref=Rhea:RHEA:13429,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:33019, ChEBI:CHEBI:37563,
+CC         ChEBI:CHEBI:57823, ChEBI:CHEBI:58262; EC=2.7.7.60;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01520};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=4-CDP-2-C-methyl-D-erythritol 2-phosphate = 2-C-methyl-D-
+CC         erythritol 2,4-cyclic diphosphate + CMP; Xref=Rhea:RHEA:23864,
+CC         ChEBI:CHEBI:57919, ChEBI:CHEBI:58483, ChEBI:CHEBI:60377; EC=4.6.1.12;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01520};
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01520};
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 2/6. {ECO:0000255|HAMAP-Rule:MF_01520}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate biosynthesis
+CC       via DXP pathway; isopentenyl diphosphate from 1-deoxy-D-xylulose 5-
+CC       phosphate: step 4/6. {ECO:0000255|HAMAP-Rule:MF_01520}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the IspD/TarI
+CC       cytidylyltransferase family. IspD subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_01520}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the IspF family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01520}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAN30040.1; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC       Sequence=AEM18458.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE014291; AAN30040.1; ALT_INIT; Genomic_DNA.
+DR   EMBL; CP002997; AEM18458.1; ALT_INIT; Genomic_DNA.
+DR   SMR; Q8G0H4; -.
+DR   EnsemblBacteria; AEM18458; AEM18458; BS1330_I1116.
+DR   KEGG; bms:BR1120; -.
+DR   KEGG; bsi:BS1330_I1116; -.
+DR   HOGENOM; CLU_042800_1_1_5; -.
+DR   UniPathway; UPA00056; UER00093.
+DR   UniPathway; UPA00056; UER00095.
+DR   Proteomes; UP000007104; Chromosome I.
+DR   GO; GO:0008685; F:2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050518; F:2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd02516; CDP-ME_synthetase; 1.
+DR   CDD; cd00554; MECDP_synthase; 1.
+DR   Gene3D; 3.30.1330.50; -; 1.
+DR   Gene3D; 3.90.550.10; -; 1.
+DR   HAMAP; MF_01520; IspDF; 1.
+DR   HAMAP; MF_00107; IspF; 1.
+DR   InterPro; IPR001228; IspD.
+DR   InterPro; IPR026596; IspD/F.
+DR   InterPro; IPR034683; IspD/TarI.
+DR   InterPro; IPR018294; ISPD_synthase_CS.
+DR   InterPro; IPR003526; MECDP_synthase.
+DR   InterPro; IPR020555; MECDP_synthase_CS.
+DR   InterPro; IPR036571; MECDP_synthase_sf.
+DR   InterPro; IPR029044; Nucleotide-diphossugar_trans.
+DR   Pfam; PF01128; IspD; 1.
+DR   Pfam; PF02542; YgbB; 1.
+DR   SUPFAM; SSF53448; SSF53448; 1.
+DR   SUPFAM; SSF69765; SSF69765; 1.
+DR   TIGRFAMs; TIGR00453; ispD; 1.
+DR   TIGRFAMs; TIGR00151; ispF; 1.
+DR   PROSITE; PS01295; ISPD; 1.
+DR   PROSITE; PS01350; ISPF; 1.
+PE   3: Inferred from homology;
+KW   Isoprene biosynthesis; Lyase; Metal-binding; Multifunctional enzyme;
+KW   Nucleotidyltransferase; Transferase.
+FT   CHAIN           1..390
+FT                   /note="Bifunctional enzyme IspD/IspF"
+FT                   /id="PRO_0000075661"
+FT   REGION          1..229
+FT                   /note="2-C-methyl-D-erythritol 4-phosphate
+FT                   cytidylyltransferase"
+FT   REGION          230..390
+FT                   /note="2-C-methyl-D-erythritol 2,4-cyclodiphosphate
+FT                   synthase"
+FT   REGION          236..238
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   REGION          262..263
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   REGION          266..274
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   REGION          284..286
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   REGION          359..363
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   METAL           236
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   METAL           238
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   METAL           270
+FT                   /note="Divalent metal cation"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   BINDING         293
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   BINDING         367
+FT                   /note="Substrate; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   BINDING         370
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            8
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            17
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            148
+FT                   /note="Positions MEP for the nucleophilic attack"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            205
+FT                   /note="Positions MEP for the nucleophilic attack"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            262
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+FT   SITE            361
+FT                   /note="Transition state stabilizer"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01520"
+SQ   SEQUENCE   390 AA;  41840 MW;  06F648D2956CB10B CRC64;
+     MAAGRGERAG QSAEGPKQYR LIGAEAVLAR TLRAFTDCPL IGTIAVVIHP DDHALYRRAV
+     PEKHENVILV TGGPTRQEST RLGLLALKDE APQYVLIHDG VRPFIGQDLL ERIIANLTPD
+     NGVLPALAVP DTLKRAAADG MVETTISRTG LFAAQTPQAF PYAPILDAHE KAFAINRTDF
+     TDDAAIAEWQ EIAVRIIEGS ADNTKLTWAK DIEMADKRLR QDHAVFPDIR TGNGYDVHSF
+     EPGDHVTLCG VKIPHEAKLN GHSDADVALH ALTDALLATR GAGDIGTHFP PSDSQWKGAA
+     SRIFIEHAAK IVREAGGRIA NVDVTLISEA PKIGPHRAAM TQALCDMLGI AADRVSIKAT
+     TNEKLGFVGR REGIAAIATA TVIYPGEVPE
+//

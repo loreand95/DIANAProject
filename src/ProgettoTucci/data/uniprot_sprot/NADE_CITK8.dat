@@ -1,0 +1,111 @@
+ID   NADE_CITK8              Reviewed;         276 AA.
+AC   A8AHD1;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   23-OCT-2007, sequence version 1.
+DT   02-DEC-2020, entry version 76.
+DE   RecName: Full=NH(3)-dependent NAD(+) synthetase {ECO:0000255|HAMAP-Rule:MF_00193};
+DE            EC=6.3.1.5 {ECO:0000255|HAMAP-Rule:MF_00193};
+GN   Name=nadE {ECO:0000255|HAMAP-Rule:MF_00193}; OrderedLocusNames=CKO_01765;
+OS   Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Citrobacter.
+OX   NCBI_TaxID=290338;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-895 / CDC 4225-83 / SGSC4696;
+RG   The Citrobacter koseri Genome Sequencing Project;
+RA   McClelland M., Sanderson E.K., Porwollik S., Spieth J., Clifton W.S.,
+RA   Latreille P., Courtney L., Wang C., Pepin K., Bhonagiri V., Nash W.,
+RA   Johnson M., Thiruvilangam P., Wilson R.;
+RL   Submitted (AUG-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the ATP-dependent amidation of deamido-NAD to form
+CC       NAD. Uses ammonia as a nitrogen source. {ECO:0000255|HAMAP-
+CC       Rule:MF_00193}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + deamido-NAD(+) + NH4(+) = AMP + diphosphate + H(+) +
+CC         NAD(+); Xref=Rhea:RHEA:21188, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:33019, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:58437, ChEBI:CHEBI:456215; EC=6.3.1.5;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00193};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; NAD(+) from
+CC       deamido-NAD(+) (ammonia route): step 1/1. {ECO:0000255|HAMAP-
+CC       Rule:MF_00193}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00193}.
+CC   -!- SIMILARITY: Belongs to the NAD synthetase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00193}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000822; ABV12894.1; -; Genomic_DNA.
+DR   RefSeq; WP_012132631.1; NC_009792.1.
+DR   SMR; A8AHD1; -.
+DR   EnsemblBacteria; ABV12894; ABV12894; CKO_01765.
+DR   GeneID; 45135789; -.
+DR   KEGG; cko:CKO_01765; -.
+DR   HOGENOM; CLU_059327_3_0_6; -.
+DR   OMA; CAINPIG; -.
+DR   OrthoDB; 1152435at2; -.
+DR   BioCyc; CKOS290338:G1G9Z-1557-MONOMER; -.
+DR   UniPathway; UPA00253; UER00333.
+DR   Proteomes; UP000008148; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004359; F:glutaminase activity; IEA:InterPro.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003952; F:NAD+ synthase (glutamine-hydrolyzing) activity; IEA:InterPro.
+DR   GO; GO:0008795; F:NAD+ synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd00553; NAD_synthase; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00193; NadE_ammonia_dep; 1.
+DR   InterPro; IPR022310; NAD/GMP_synthase.
+DR   InterPro; IPR003694; NAD_synthase.
+DR   InterPro; IPR022926; NH(3)-dep_NAD(+)_synth.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR23090; PTHR23090; 1.
+DR   Pfam; PF02540; NAD_synthase; 1.
+DR   TIGRFAMs; TIGR00552; nadE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Magnesium; Metal-binding; NAD; Nucleotide-binding;
+KW   Reference proteome.
+FT   CHAIN           1..276
+FT                   /note="NH(3)-dependent NAD(+) synthetase"
+FT                   /id="PRO_1000077546"
+FT   NP_BIND         46..53
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   NP_BIND         260..261
+FT                   /note="Deamido-NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   METAL           52
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   METAL           165
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         140
+FT                   /note="Deamido-NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         160
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         173
+FT                   /note="Deamido-NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         180
+FT                   /note="Deamido-NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         189
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+FT   BINDING         211
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00193"
+SQ   SEQUENCE   276 AA;  30580 MW;  00DE894E635A0107 CRC64;
+     MTLQQEIIRA LGAKPHINAE EEIRRSVDFL KAYLKTYPFL KSLVLGISGG QDSTLTGKLC
+     QTAITELREE TGNDALQFIA VRLPFGVQAD EQDCQDAIAF IQPDRVLTVN IKGAVLASEQ
+     ALREAGIELS DFVRGNEKAR ERMKAQYSIA GMTNGVVVGT DHAAEAVTGF FTKYGDGGTD
+     INPLFRLNKR QGKQLLAALG CPEHLYKKAP TADLEDDRPS LPDEAALGVT YDNIDDYLEG
+     KTLDASIAKI IEGWYIRTEH KRRTPITVFD DFWKRS
+//

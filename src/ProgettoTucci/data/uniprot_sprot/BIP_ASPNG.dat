@@ -1,0 +1,128 @@
+ID   BIP_ASPNG               Reviewed;         672 AA.
+AC   P83616; O13280; O14453;
+DT   11-JUL-2003, integrated into UniProtKB/Swiss-Prot.
+DT   11-JUL-2003, sequence version 1.
+DT   07-APR-2021, entry version 82.
+DE   RecName: Full=Endoplasmic reticulum chaperone BiP {ECO:0000305};
+DE            EC=3.6.4.10 {ECO:0000250|UniProtKB:P11021};
+DE   AltName: Full=Immunoglobulin heavy chain-binding protein homolog {ECO:0000305};
+DE            Short=BiP {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=bipA;
+OS   Aspergillus niger.
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Eurotiomycetes;
+OC   Eurotiomycetidae; Eurotiales; Aspergillaceae; Aspergillus;
+OC   Aspergillus subgen. Circumdati.
+OX   NCBI_TaxID=5061 {ECO:0000305};
+RN   [1] {ECO:0000305}
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND INDUCTION.
+RC   STRAIN=ATCC 9089 / N402 {ECO:0000269|PubMed:9370263};
+RX   PubMed=9370263; DOI=10.1016/s0378-1119(97)00290-4;
+RA   van Gemeren I.A., Punt P.J., Drint-Kuyvenhoven A., Broekhuijsen M.P.,
+RA   van't Hoog A., Beijersbergen A., Verrips C.T., van den Hondel C.A.M.J.J.;
+RT   "The ER chaperone encoding bipA gene of black Aspergilli is induced by heat
+RT   shock and unfolded proteins.";
+RL   Gene 198:43-52(1997).
+CC   -!- FUNCTION: Probably plays a role in facilitating the assembly of
+CC       multimeric protein complexes inside the ER. Is required for secretory
+CC       polypeptide translocation. May physically associate with SEC63 protein
+CC       in the endoplasmic reticulum and this interaction may be regulated by
+CC       ATP hydrolysis. {ECO:0000250|UniProtKB:P16474}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O = ADP + H(+) + phosphate; Xref=Rhea:RHEA:13065,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=3.6.4.10;
+CC         Evidence={ECO:0000250|UniProtKB:P11021};
+CC   -!- ACTIVITY REGULATION: The chaperone activity is regulated by ATP-induced
+CC       allosteric coupling of the nucleotide-binding (NBD) and substrate-
+CC       binding (SBD) domains. In the ADP-bound and nucleotide-free (apo)
+CC       states, the two domains have little interaction. In contrast, in the
+CC       ATP-bound state the two domains are tightly coupled, which results in
+CC       drastically accelerated kinetics in both binding and release of
+CC       polypeptide substrates. J domain-containing co-chaperones stimulate the
+CC       ATPase activity and are required for efficient substrate recognition.
+CC       {ECO:0000250|UniProtKB:P11021}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen
+CC       {ECO:0000250|UniProtKB:P16474, ECO:0000255|PROSITE-ProRule:PRU10138}.
+CC   -!- INDUCTION: By heat shock and tunicamycin. Not induced by carbon source
+CC       starvation. {ECO:0000269|PubMed:9370263}.
+CC   -!- SIMILARITY: Belongs to the heat shock protein 70 family.
+CC       {ECO:0000255|RuleBase:RU003322, ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Y08868; CAA70091.1; -; Genomic_DNA.
+DR   SMR; P83616; -.
+DR   STRING; 5061.CADANGAP00008595; -.
+DR   PRIDE; P83616; -.
+DR   eggNOG; KOG0100; Eukaryota.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; NAS:UniProtKB.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0006986; P:response to unfolded protein; IDA:UniProtKB.
+DR   GO; GO:0032940; P:secretion by cell; NAS:UniProtKB.
+DR   CDD; cd10241; HSPA5-like_NBD; 1.
+DR   Gene3D; 1.20.1270.10; -; 1.
+DR   Gene3D; 2.60.34.10; -; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR042050; BIP_NBD.
+DR   InterPro; IPR018181; Heat_shock_70_CS.
+DR   InterPro; IPR029048; HSP70_C_sf.
+DR   InterPro; IPR029047; HSP70_peptide-bd_sf.
+DR   InterPro; IPR013126; Hsp_70_fam.
+DR   PANTHER; PTHR19375; PTHR19375; 1.
+DR   Pfam; PF00012; HSP70; 1.
+DR   SUPFAM; SSF100920; SSF100920; 1.
+DR   SUPFAM; SSF100934; SSF100934; 1.
+DR   SUPFAM; SSF53067; SSF53067; 2.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+DR   PROSITE; PS00297; HSP70_1; 1.
+DR   PROSITE; PS00329; HSP70_2; 1.
+DR   PROSITE; PS01036; HSP70_3; 1.
+PE   2: Evidence at transcript level;
+KW   ATP-binding; Chaperone; Endoplasmic reticulum; Hydrolase;
+KW   Nucleotide-binding; Signal; Stress response.
+FT   SIGNAL          1..38
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           39..672
+FT                   /note="Endoplasmic reticulum chaperone BiP"
+FT                   /id="PRO_0000013578"
+FT   NP_BIND         57..60
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   NP_BIND         246..248
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   NP_BIND         312..319
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   NP_BIND         383..386
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   REGION          145..299
+FT                   /note="Nucleotide-binding (NBD)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   REGION          419..519
+FT                   /note="Substrate-binding (SBD)"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+FT   MOTIF           669..672
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   BINDING         116
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000250|UniProtKB:P11021"
+SQ   SEQUENCE   672 AA;  73459 MW;  C701807FCE08C175 CRC64;
+     MARISHQGAA KPFTAWTTIF YLLLVFIAPL AFFGTAHAQD ETSPQESYGT VIGIDLGTTY
+     SCVGVMQNGK VEILVNDQGN RITPSYVAFT DEERLVGDAA KNQYAANPRR TIFDIKRLIG
+     RKFDDKDVQK DAKHFPYKVV NKDGKPHVKV DVNQTPKTLT PEEVSAMVLG KMKEIAEGYL
+     GKKVTHAVVT VPAYFNDAQR QATKDAGTIA GLNVLRVVNE PTAAAIAYGL DKTGDERQVI
+     VYDLGGGTFD VSLLSIDNGV FEVLATAGDT HLGGEDFDQR VMDHFVKLYN KKNNVDVTKD
+     LKAMGKLKRE VEKAKRTLSS QMSTRIEIEA FHNGEDFSET LTRAKFEELN MDLFKKTLKP
+     VEQVLKDAKV KKSEVDDIVL VGGSTRIPKV QALLEEFFGG KKASKGINPD EAVAFGAAVQ
+     GGVLSGEEGT GDVVLMDVNP LTLGIETTGG VMTKLIPRNT VIPTRKSQIF STAADNQPTV
+     LIQVYEGERS LTKDNNLLGK FELTGIPPAP RGVPQIEVSF DLDANGILKV HASDKGTGKA
+     ESITITNDKG RLSQEEIDRM VAEAEEFAEE DKAIKAKIEA RNTLENYAFS LKNQVNDENG
+     LGGQIDEDDK QTILDAVKEV TEWLEDNAAT ATTEDFEEQK EQLSNVAYPI TSKLYGSAPA
+     DEDDEPSGHD EL
+//

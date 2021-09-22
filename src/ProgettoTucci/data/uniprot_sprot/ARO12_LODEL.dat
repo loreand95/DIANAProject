@@ -1,0 +1,315 @@
+ID   ARO12_LODEL             Reviewed;        1551 AA.
+AC   A5H2P4;
+DT   05-APR-2011, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   07-APR-2021, entry version 94.
+DE   RecName: Full=Pentafunctional AROM polypeptide 2 {ECO:0000255|HAMAP-Rule:MF_03143};
+DE   Includes:
+DE     RecName: Full=3-dehydroquinate synthase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              Short=DHQS {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              EC=4.2.3.4 {ECO:0000255|HAMAP-Rule:MF_03143};
+DE   Includes:
+DE     RecName: Full=3-phosphoshikimate 1-carboxyvinyltransferase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              EC=2.5.1.19 {ECO:0000255|HAMAP-Rule:MF_03143};
+DE     AltName: Full=5-enolpyruvylshikimate-3-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              Short=EPSP synthase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              Short=EPSPS {ECO:0000255|HAMAP-Rule:MF_03143};
+DE   Includes:
+DE     RecName: Full=Shikimate kinase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              Short=SK {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              EC=2.7.1.71 {ECO:0000255|HAMAP-Rule:MF_03143};
+DE   Includes:
+DE     RecName: Full=3-dehydroquinate dehydratase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              Short=3-dehydroquinase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              EC=4.2.1.10 {ECO:0000255|HAMAP-Rule:MF_03143};
+DE   Includes:
+DE     RecName: Full=Shikimate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_03143};
+DE              EC=1.1.1.25 {ECO:0000255|HAMAP-Rule:MF_03143};
+GN   Name=ARO1-2 {ECO:0000255|HAMAP-Rule:MF_03143}; ORFNames=LELG_05759;
+OS   Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC
+OS   1676 / NRRL YB-4239) (Yeast) (Saccharomyces elongisporus).
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Debaryomycetaceae; Candida/Lodderomyces clade;
+OC   Lodderomyces.
+OX   NCBI_TaxID=379508;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 11503 / BCRC 21390 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL
+RC   YB-4239;
+RX   PubMed=19465905; DOI=10.1038/nature08064;
+RA   Butler G., Rasmussen M.D., Lin M.F., Santos M.A.S., Sakthikumar S.,
+RA   Munro C.A., Rheinbay E., Grabherr M., Forche A., Reedy J.L., Agrafioti I.,
+RA   Arnaud M.B., Bates S., Brown A.J.P., Brunke S., Costanzo M.C.,
+RA   Fitzpatrick D.A., de Groot P.W.J., Harris D., Hoyer L.L., Hube B.,
+RA   Klis F.M., Kodira C., Lennard N., Logue M.E., Martin R., Neiman A.M.,
+RA   Nikolaou E., Quail M.A., Quinn J., Santos M.C., Schmitzberger F.F.,
+RA   Sherlock G., Shah P., Silverstein K.A.T., Skrzypek M.S., Soll D.,
+RA   Staggs R., Stansfield I., Stumpf M.P.H., Sudbery P.E., Srikantha T.,
+RA   Zeng Q., Berman J., Berriman M., Heitman J., Gow N.A.R., Lorenz M.C.,
+RA   Birren B.W., Kellis M., Cuomo C.A.;
+RT   "Evolution of pathogenicity and sexual reproduction in eight Candida
+RT   genomes.";
+RL   Nature 459:657-662(2009).
+CC   -!- FUNCTION: The AROM polypeptide catalyzes 5 consecutive enzymatic
+CC       reactions in prechorismate polyaromatic amino acid biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-phospho-2-dehydro-3-deoxy-D-arabino-heptonate = 3-
+CC         dehydroquinate + phosphate; Xref=Rhea:RHEA:21968, ChEBI:CHEBI:32364,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:58394; EC=4.2.3.4;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03143};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-dehydroquinate = 3-dehydroshikimate + H2O;
+CC         Xref=Rhea:RHEA:21096, ChEBI:CHEBI:15377, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:32364; EC=4.2.1.10; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03143};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=NADP(+) + shikimate = 3-dehydroshikimate + H(+) + NADPH;
+CC         Xref=Rhea:RHEA:17737, ChEBI:CHEBI:15378, ChEBI:CHEBI:16630,
+CC         ChEBI:CHEBI:36208, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349; EC=1.1.1.25;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_03143};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + shikimate = 3-phosphoshikimate + ADP + H(+);
+CC         Xref=Rhea:RHEA:13121, ChEBI:CHEBI:15378, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:36208, ChEBI:CHEBI:145989, ChEBI:CHEBI:456216;
+CC         EC=2.7.1.71; Evidence={ECO:0000255|HAMAP-Rule:MF_03143};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=3-phosphoshikimate + phosphoenolpyruvate = 5-O-(1-
+CC         carboxyvinyl)-3-phosphoshikimate + phosphate; Xref=Rhea:RHEA:21256,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:57701, ChEBI:CHEBI:58702,
+CC         ChEBI:CHEBI:145989; EC=2.5.1.19; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_03143};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC       Note=Binds 2 Zn(2+) ions per subunit.;
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       2/7. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       3/7. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       4/7. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       5/7. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- PATHWAY: Metabolic intermediate biosynthesis; chorismate biosynthesis;
+CC       chorismate from D-erythrose 4-phosphate and phosphoenolpyruvate: step
+CC       6/7. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the sugar phosphate
+CC       cyclases superfamily. Dehydroquinate synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SIMILARITY: In the 2nd section; belongs to the EPSP synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SIMILARITY: In the 3rd section; belongs to the shikimate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SIMILARITY: In the 4th section; belongs to the type-I 3-dehydroquinase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the shikimate
+CC       dehydrogenase family. {ECO:0000255|HAMAP-Rule:MF_03143}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DS236867; EDK47578.1; -; Genomic_DNA.
+DR   RefSeq; XP_001528849.1; XM_001528799.1.
+DR   SMR; A5H2P4; -.
+DR   STRING; 36914.XP_001528849.1; -.
+DR   EnsemblFungi; EDK47578; EDK47578; LELG_05759.
+DR   GeneID; 5236044; -.
+DR   KEGG; lel:LELG_05759; -.
+DR   eggNOG; KOG0692; Eukaryota.
+DR   HOGENOM; CLU_001201_1_2_1; -.
+DR   InParanoid; A5H2P4; -.
+DR   OMA; ITENARM; -.
+DR   OrthoDB; 39786at2759; -.
+DR   UniPathway; UPA00053; UER00085.
+DR   UniPathway; UPA00053; UER00086.
+DR   UniPathway; UPA00053; UER00087.
+DR   UniPathway; UPA00053; UER00088.
+DR   UniPathway; UPA00053; UER00089.
+DR   Proteomes; UP000001996; Unassembled WGS sequence.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003855; F:3-dehydroquinate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003856; F:3-dehydroquinate synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003866; F:3-phosphoshikimate 1-carboxyvinyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004764; F:shikimate 3-dehydrogenase (NADP+) activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004765; F:shikimate kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009073; P:aromatic amino acid family biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008652; P:cellular amino acid biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0009423; P:chorismate biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd00502; DHQase_I; 1.
+DR   CDD; cd01556; EPSP_synthase; 1.
+DR   CDD; cd00464; SK; 1.
+DR   Gene3D; 3.20.20.70; -; 1.
+DR   Gene3D; 3.65.10.10; -; 2.
+DR   HAMAP; MF_00210; EPSP_synth; 1.
+DR   HAMAP; MF_03143; Pentafunct_AroM; 1.
+DR   HAMAP; MF_00109; Shikimate_kinase; 1.
+DR   InterPro; IPR013785; Aldolase_TIM.
+DR   InterPro; IPR016037; DHQ_synth_AroB.
+DR   InterPro; IPR030960; DHQS/DOIS.
+DR   InterPro; IPR001381; DHquinase_I.
+DR   InterPro; IPR001986; Enolpyruvate_Tfrase_dom.
+DR   InterPro; IPR036968; Enolpyruvate_Tfrase_sf.
+DR   InterPro; IPR006264; EPSP_synthase.
+DR   InterPro; IPR023193; EPSP_synthase_CS.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR008289; Pentafunct_AroM.
+DR   InterPro; IPR013792; RNA3'P_cycl/enolpyr_Trfase_a/b.
+DR   InterPro; IPR041121; SDH_C.
+DR   InterPro; IPR031322; Shikimate/glucono_kinase.
+DR   InterPro; IPR013708; Shikimate_DH-bd_N.
+DR   InterPro; IPR010110; Shikimate_DH_AroM-type.
+DR   InterPro; IPR000623; Shikimate_kinase/TSH1.
+DR   InterPro; IPR023000; Shikimate_kinase_CS.
+DR   Pfam; PF01761; DHQ_synthase; 1.
+DR   Pfam; PF01487; DHquinase_I; 1.
+DR   Pfam; PF00275; EPSP_synthase; 1.
+DR   Pfam; PF18317; SDH_C; 1.
+DR   Pfam; PF08501; Shikimate_dh_N; 1.
+DR   Pfam; PF01202; SKI; 1.
+DR   PIRSF; PIRSF000514; Pentafunct_AroM; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF55205; SSF55205; 1.
+DR   TIGRFAMs; TIGR01356; aroA; 1.
+DR   TIGRFAMs; TIGR01357; aroB; 1.
+DR   TIGRFAMs; TIGR01093; aroD; 1.
+DR   TIGRFAMs; TIGR01809; Shik-DH-AROM; 1.
+DR   PROSITE; PS00104; EPSP_SYNTHASE_1; 1.
+DR   PROSITE; PS00885; EPSP_SYNTHASE_2; 1.
+DR   PROSITE; PS01128; SHIKIMATE_KINASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Aromatic amino acid biosynthesis; ATP-binding;
+KW   Cytoplasm; Kinase; Lyase; Metal-binding; Multifunctional enzyme; NADP;
+KW   Nucleotide-binding; Oxidoreductase; Reference proteome; Transferase; Zinc.
+FT   CHAIN           1..1551
+FT                   /note="Pentafunctional AROM polypeptide 2"
+FT                   /id="PRO_0000406721"
+FT   NP_BIND         42..44
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   NP_BIND         80..83
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   NP_BIND         111..113
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   NP_BIND         136..137
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   NP_BIND         176..179
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   NP_BIND         861..868
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   REGION          1..379
+FT                   /note="3-dehydroquinate synthase"
+FT   REGION          191..194
+FT                   /note="Substrate binding 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   REGION          257..261
+FT                   /note="Substrate binding 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   REGION          392..835
+FT                   /note="EPSP synthase"
+FT   REGION          854..1044
+FT                   /note="Shikimate kinase"
+FT   REGION          1045..1258
+FT                   /note="3-dehydroquinase"
+FT   REGION          1271..1551
+FT                   /note="Shikimate dehydrogenase"
+FT   ACT_SITE        253
+FT                   /note="Proton acceptor; for 3-dehydroquinate synthase
+FT                   activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   ACT_SITE        268
+FT                   /note="Proton acceptor; for 3-dehydroquinate synthase
+FT                   activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   ACT_SITE        1162
+FT                   /note="Proton acceptor; for 3-dehydroquinate dehydratase
+FT                   activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   ACT_SITE        1191
+FT                   /note="Schiff-base intermediate with substrate; for 3-
+FT                   dehydroquinate dehydratase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   METAL           191
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   METAL           264
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   METAL           280
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         116
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         127
+FT                   /note="Substrate 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         143
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         149
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         158
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         159
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         187
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         243
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         264
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         280
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+FT   BINDING         351
+FT                   /note="Substrate 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_03143"
+SQ   SEQUENCE   1551 AA;  170135 MW;  54B2F7CB4DC4E0D0 CRC64;
+     MSIEKVSILG KESIHVGYGI QSHIVEETIK CLASSTYVII SDTNMSKTPT YEKLQDSFQK
+     ELAKQRPQSR LLTYLIPPGE NHKNRETKAE VEDFLLQQGC TRDTVILAVG GGVIGDMIGF
+     VAATFMRGVR VVQVPTTLLS MVDSSVGGKT AIDTELGKNF IGAFHQPEFV FCDVSFLQTL
+     PKRQLINGMA EVVKTAAIWD ETEFTRLEGF AKRFLAEISA PTPNLESIKD ELIKTVLGSV
+     RVKAFVVSAD EKEGGLRNLL NFGHTIGHAI EAILTPEALH GECVSIGMIK EAELSRYLGI
+     LPPSAVARLS KCLAAYGLPI SVDEKIFSKI IGAKKNNLKI DSLIKKMLID KKNDGSKIRC
+     VLLESIGKCY ESKAHQIFKE DIQVVMTDEV FVHPFANRHP ESVSITPPGS KSISNRALIL
+     AALGEGTTRI KNLLHSDDTK HMLDAVVLMK GATVSFEDSG DTVVVQGHGG KLFACKEEIY
+     LGNAGTASRF LTAVAALVNS TQDEKSVTLT GNARMQERPI AALVDALTTN GSKVDYLNKQ
+     GSLPLKIEAG NGFKGGRIEL AATTSSQYVS AILMCAPYAE KEVTLSLVGG KPISQLYIDM
+     TIAMMKDFGV DVTKSETEEY TYHIPKAVYQ NPQEYVVESD ASSATYPLAF AALTNSSCTI
+     PNIGSSSLQG DARFAVDVLK PMGCTVEQTS KSTTVTGPPI GTLKALPEID MEPMTDAFLT
+     ASVVAAVSQG TTTISGIANQ RVKECNRIKA MVDELAKFGV SADETEDGIS IHGVQLKDLK
+     TPGGRGVKTY DDHRVAMSFS LLAGLCKDPV LIQERSTTGK TWPGWWDVLH SKFNAKLEGH
+     EYIRQRSGSL RNGDRSIVII GMRAAGKTTL SRWLAEHLNF KLLDLDQYLE KKLAVDIKLL
+     VKEKGWDYFR EKETEVLNEC LEKFGKGHIL ATGGGIVEGE KPREALKNYT KSGGIVLHLH
+     RDLKETVNFL SKDPTRPAYS DDIEEVWKRR EKWYHECSNY HFYSTHCTSE AEFANLKLVF
+     AKFVSKITGD DTFVLPATRS TFVTLTYPDL RKVPSLIKDV SETSNAVELR VDLLANQETA
+     YIAEQIGLLR SVATDLPILY TVRTKSQCGQ YPDEDEEGMR KLLMFGLKMG VDIIDLQLIS
+     SPSTIAEVIS KRGHTKIIAS HHDFTGDLKW DNVEWKNKYA QGVSIDADFV KLVGMAKTFD
+     DNLLLENFRR QNTEKPLIGI NMGPQGKLSR VLNKVLTPVT HELITDKPIG VGQLSLKEIN
+     QALFQIGGLL EKEFWVVGFP VSHSRSPALH NAAYAALGLP YKFDIFETDD AEKVYTQLMQ
+     KPTFGGLAVT IPLKLDIKKY CTELSESAKL IGAVNTVTPI ADGRKGFLGD NTDWIGIANS
+     FKKADFALAS GVTNGLVVGG GGTSRAAIFA LHSLGCQKIY LLNRTESKLQ DLVDSFPDYD
+     LEILLEKNAS SVSIGLVVSC VPGDKALDET LMKKLDGVLS NNKGDKQTRP LLLEAAYKPR
+     VTPIMELAKE KYDWTVIPGV EMLVNQGEAQ FKLHTGYTAP YKVIHSAVLN E
+//

@@ -1,0 +1,93 @@
+ID   DKGB_SALTY              Reviewed;         267 AA.
+AC   Q8ZRM7;
+DT   27-MAR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   27-MAR-2002, sequence version 1.
+DT   07-APR-2021, entry version 100.
+DE   RecName: Full=2,5-diketo-D-gluconic acid reductase B;
+DE            Short=2,5-DKG reductase B;
+DE            Short=2,5-DKGR B;
+DE            Short=25DKGR-B;
+DE            EC=1.1.1.346;
+DE   AltName: Full=AKR5D;
+GN   Name=dkgB; OrderedLocusNames=STM0255;
+OS   Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=99287;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=LT2 / SGSC1412 / ATCC 700720;
+RX   PubMed=11677609; DOI=10.1038/35101614;
+RA   McClelland M., Sanderson K.E., Spieth J., Clifton S.W., Latreille P.,
+RA   Courtney L., Porwollik S., Ali J., Dante M., Du F., Hou S., Layman D.,
+RA   Leonard S., Nguyen C., Scott K., Holmes A., Grewal N., Mulvaney E.,
+RA   Ryan E., Sun H., Florea L., Miller W., Stoneking T., Nhan M., Waterston R.,
+RA   Wilson R.K.;
+RT   "Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.";
+RL   Nature 413:852-856(2001).
+CC   -!- FUNCTION: Catalyzes the reduction of 2,5-diketo-D-gluconic acid (25DKG)
+CC       to 2-keto-L-gulonic acid (2KLG). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-dehydro-L-idonate + NADP(+) = 2,5-didehydro-D-gluconate +
+CC         H(+) + NADPH; Xref=Rhea:RHEA:35111, ChEBI:CHEBI:11449,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:36602, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349; EC=1.1.1.346;
+CC   -!- SUBUNIT: Monomer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- MISCELLANEOUS: 2-keto-L-gulonic acid is a key intermediate in the
+CC       production of L-ascorbic acid (vitamin C).
+CC   -!- SIMILARITY: Belongs to the aldo/keto reductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006468; AAL19212.1; -; Genomic_DNA.
+DR   RefSeq; NP_459253.1; NC_003197.2.
+DR   RefSeq; WP_000154872.1; NC_003197.2.
+DR   SMR; Q8ZRM7; -.
+DR   PaxDb; Q8ZRM7; -.
+DR   EnsemblBacteria; AAL19212; AAL19212; STM0255.
+DR   GeneID; 1251773; -.
+DR   KEGG; stm:STM0255; -.
+DR   PATRIC; fig|99287.12.peg.264; -.
+DR   HOGENOM; CLU_023205_0_1_6; -.
+DR   OMA; RNPSWVN; -.
+DR   PhylomeDB; Q8ZRM7; -.
+DR   Proteomes; UP000001014; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047834; F:D-threo-aldose 1-dehydrogenase activity; IEA:InterPro.
+DR   GO; GO:0019853; P:L-ascorbic acid biosynthetic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.20.20.100; -; 1.
+DR   InterPro; IPR020471; AKR.
+DR   InterPro; IPR018170; Aldo/ket_reductase_CS.
+DR   InterPro; IPR023210; NADP_OxRdtase_dom.
+DR   InterPro; IPR036812; NADP_OxRdtase_dom_sf.
+DR   PANTHER; PTHR43827; PTHR43827; 1.
+DR   Pfam; PF00248; Aldo_ket_red; 1.
+DR   PIRSF; PIRSF000097; AKR; 1.
+DR   PRINTS; PR00069; ALDKETRDTASE.
+DR   SUPFAM; SSF51430; SSF51430; 1.
+DR   PROSITE; PS00798; ALDOKETO_REDUCTASE_1; 1.
+DR   PROSITE; PS00062; ALDOKETO_REDUCTASE_2; 1.
+PE   3: Inferred from homology;
+KW   Ascorbate biosynthesis; Cytoplasm; NADP; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN           1..267
+FT                   /note="2,5-diketo-D-gluconic acid reductase B"
+FT                   /id="PRO_0000124607"
+FT   NP_BIND         179..231
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        39
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         97
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   267 AA;  29153 MW;  2E46FECC55B18876 CRC64;
+     MTIPAFGLGT FRLKDDVVIA SVKTALELGY RAVDTAQIYD NEAAVGQAIA ESGVPRNELY
+     ITTKIWIENL SKDKLIPSLK ESLKKLRTDY VDLTLIHWPS PGDAVSVEEF MQALLEAKKQ
+     GLTREIGISN FTIPLMEKAI AAVGADNIAT NQIELSPYLQ NRKVVDWAKA HGIHITSYMT
+     LAYGKALKDE VIARIAAKHN ATPAQVILAW AMGEGYSVIP SSTRRENLAS SLLAQDLHLD
+     AEDKNAIAAL DCNDRLVSPE GLAPAWD
+//

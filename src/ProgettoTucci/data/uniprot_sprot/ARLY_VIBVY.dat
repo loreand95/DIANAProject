@@ -1,0 +1,109 @@
+ID   ARLY_VIBVY              Reviewed;         624 AA.
+AC   Q7MH73;
+DT   01-MAR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   07-APR-2021, entry version 121.
+DE   RecName: Full=Bifunctional protein ArgH;
+DE   Includes:
+DE     RecName: Full=Argininosuccinate lyase;
+DE              Short=ASAL;
+DE              EC=4.3.2.1;
+DE     AltName: Full=Arginosuccinase;
+DE   Includes:
+DE     RecName: Full=Probable acetyltransferase;
+DE              EC=2.3.1.-;
+GN   Name=argH; OrderedLocusNames=VV2999;
+OS   Vibrio vulnificus (strain YJ016).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae;
+OC   Vibrio.
+OX   NCBI_TaxID=196600;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=YJ016;
+RX   PubMed=14656965; DOI=10.1101/gr.1295503;
+RA   Chen C.-Y., Wu K.-M., Chang Y.-C., Chang C.-H., Tsai H.-C., Liao T.-L.,
+RA   Liu Y.-M., Chen H.-J., Shen A.B.-T., Li J.-C., Su T.-L., Shao C.-P.,
+RA   Lee C.-T., Hor L.-I., Tsai S.-F.;
+RT   "Comparative genome analysis of Vibrio vulnificus, a marine pathogen.";
+RL   Genome Res. 13:2577-2587(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2-(N(omega)-L-arginino)succinate = fumarate + L-arginine;
+CC         Xref=Rhea:RHEA:24020, ChEBI:CHEBI:29806, ChEBI:CHEBI:32682,
+CC         ChEBI:CHEBI:57472; EC=4.3.2.1;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 3/3.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the lyase 1 family.
+CC       Argininosuccinate lyase subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000037; BAC95763.1; -; Genomic_DNA.
+DR   RefSeq; WP_011079348.1; NC_005139.1.
+DR   SMR; Q7MH73; -.
+DR   STRING; 672.VV93_v1c27270; -.
+DR   PRIDE; Q7MH73; -.
+DR   EnsemblBacteria; BAC95763; BAC95763; BAC95763.
+DR   GeneID; 57910000; -.
+DR   KEGG; vvy:VV2999; -.
+DR   eggNOG; COG0165; Bacteria.
+DR   eggNOG; COG1246; Bacteria.
+DR   HOGENOM; CLU_027272_2_3_6; -.
+DR   OMA; MPGRTHL; -.
+DR   OrthoDB; 751464at2; -.
+DR   UniPathway; UPA00068; UER00114.
+DR   Proteomes; UP000002675; Chromosome I.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004056; F:argininosuccinate lyase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008080; F:N-acetyltransferase activity; IEA:InterPro.
+DR   GO; GO:0042450; P:arginine biosynthetic process via ornithine; IEA:InterPro.
+DR   CDD; cd01359; Argininosuccinate_lyase; 1.
+DR   Gene3D; 1.10.275.10; -; 1.
+DR   HAMAP; MF_00006; Arg_succ_lyase; 1.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR029419; Arg_succ_lyase_C.
+DR   InterPro; IPR009049; Argininosuccinate_lyase.
+DR   InterPro; IPR011244; ASAL_AGS_AcTrfase.
+DR   InterPro; IPR024083; Fumarase/histidase_N.
+DR   InterPro; IPR020557; Fumarate_lyase_CS.
+DR   InterPro; IPR000362; Fumarate_lyase_fam.
+DR   InterPro; IPR022761; Fumarate_lyase_N.
+DR   InterPro; IPR000182; GNAT_dom.
+DR   InterPro; IPR008948; L-Aspartase-like.
+DR   PANTHER; PTHR43814; PTHR43814; 1.
+DR   Pfam; PF00583; Acetyltransf_1; 1.
+DR   Pfam; PF14698; ASL_C2; 1.
+DR   Pfam; PF00206; Lyase_1; 1.
+DR   PIRSF; PIRSF036456; ASAL_AGS; 1.
+DR   PRINTS; PR00149; FUMRATELYASE.
+DR   SUPFAM; SSF48557; SSF48557; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR00838; argH; 1.
+DR   PROSITE; PS00163; FUMARATE_LYASES; 1.
+DR   PROSITE; PS51186; GNAT; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm;
+KW   Lyase; Multifunctional enzyme; Transferase.
+FT   CHAIN           1..624
+FT                   /note="Bifunctional protein ArgH"
+FT                   /id="PRO_0000137849"
+FT   DOMAIN          464..614
+FT                   /note="N-acetyltransferase"
+FT   REGION          1..466
+FT                   /note="Argininosuccinate lyase"
+FT   REGION          467..624
+FT                   /note="Probable acetyltransferase"
+SQ   SEQUENCE   624 AA;  69430 MW;  3DCAAC6A7D2EEE7F CRC64;
+     MALWGGRFTQ AADTRFKDFN DSLRFDYRLA EQDIVGSIAW SKALLSVNVL SKEEQQKLEF
+     ALNELKLEVM EDPHQILHSD AEDIHSWVEQ QLIGKVGDLG KKLHTGRSRN DQVATDLKLW
+     CRQQGHQLLL GLDKLQTQMV NVAKQHQATV LPGYTHLQRA QPVTFAHWCL AYVEMFERDY
+     SRLSDALTRL DTCPLGSGAL AGTAYPIDRE QLAQDLGFRR ATRNSLDSVS DRDHVMELMS
+     VASISMLHLS RLAEDMIFYN SGESGFIELA DTVTSGSSLM PQKKNPDALE LIRGKTGRVY
+     GSLAGMMMTV KALPLAYNKD MQEDKEGLFD ALDTWNDCME MAALCFDGIK VNGERTLEAA
+     KQGYANSTEL ADYLVAKGIP FREAHHIVGV AVVGAIAQGC ALEELSLEQL QSFSPVIEAD
+     VYQILTIESC LEKRSALGGV SPKQVAYAVE QADKRLAARD TTLVKVRPAR ITDIETLESM
+     VAYWANLGEN LPRTRSEIIR DIGLFAVSEH QGLVTGCASL YIYDSGLAEI RSLGIEAGWQ
+     RQGQGTAVVQ YLIDKAKDMA IKKLFVLTRA PEFFLKQNFV QTSKSLLPEK VLKDCDQCPR
+     QHACDEVALE FNLSEQIISQ VKVA
+//

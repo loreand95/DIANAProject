@@ -1,0 +1,89 @@
+ID   CLPP_RHOFT              Reviewed;         202 AA.
+AC   Q21Y67;
+DT   17-OCT-2006, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 2.
+DT   02-DEC-2020, entry version 90.
+DE   RecName: Full=ATP-dependent Clp protease proteolytic subunit {ECO:0000255|HAMAP-Rule:MF_00444};
+DE            EC=3.4.21.92 {ECO:0000255|HAMAP-Rule:MF_00444};
+DE   AltName: Full=Endopeptidase Clp {ECO:0000255|HAMAP-Rule:MF_00444};
+GN   Name=clpP {ECO:0000255|HAMAP-Rule:MF_00444}; OrderedLocusNames=Rfer_1554;
+OS   Rhodoferax ferrireducens (strain ATCC BAA-621 / DSM 15236 / T118)
+OS   (Albidiferax ferrireducens).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Comamonadaceae; Rhodoferax.
+OX   NCBI_TaxID=338969;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-621 / DSM 15236 / T118;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Pitluck S., Brettin T., Bruce D.,
+RA   Han C., Tapia R., Gilna P., Kiss H., Schmutz J., Larimer F., Land M.,
+RA   Kyrpides N., Ivanova N., Richardson P.;
+RT   "Complete sequence of chromosome of Rhodoferax ferrireducens DSM 15236.";
+RL   Submitted (FEB-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Cleaves peptides in various proteins in a process that
+CC       requires ATP hydrolysis. Has a chymotrypsin-like activity. Plays a
+CC       major role in the degradation of misfolded proteins.
+CC       {ECO:0000255|HAMAP-Rule:MF_00444}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of proteins to small peptides in the presence of
+CC         ATP and magnesium. Alpha-casein is the usual test substrate. In the
+CC         absence of ATP, only oligopeptides shorter than five residues are
+CC         hydrolyzed (such as succinyl-Leu-Tyr-|-NHMec, and Leu-Tyr-Leu-|-Tyr-
+CC         Trp, in which cleavage of the -Tyr-|-Leu- and -Tyr-|-Trp bonds also
+CC         occurs).; EC=3.4.21.92; Evidence={ECO:0000255|HAMAP-Rule:MF_00444};
+CC   -!- SUBUNIT: Fourteen ClpP subunits assemble into 2 heptameric rings which
+CC       stack back to back to give a disk-like structure with a central cavity,
+CC       resembling the structure of eukaryotic proteasomes. {ECO:0000255|HAMAP-
+CC       Rule:MF_00444}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00444}.
+CC   -!- SIMILARITY: Belongs to the peptidase S14 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00444}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=ABD69286.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000267; ABD69286.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_041791699.1; NC_007908.1.
+DR   SMR; Q21Y67; -.
+DR   STRING; 338969.Rfer_1554; -.
+DR   MEROPS; S14.001; -.
+DR   EnsemblBacteria; ABD69286; ABD69286; Rfer_1554.
+DR   KEGG; rfr:Rfer_1554; -.
+DR   eggNOG; COG0740; Bacteria.
+DR   HOGENOM; CLU_058707_3_2_4; -.
+DR   OrthoDB; 1728970at2; -.
+DR   Proteomes; UP000008332; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004176; F:ATP-dependent peptidase activity; IEA:InterPro.
+DR   GO; GO:0004252; F:serine-type endopeptidase activity; IEA:UniProtKB-UniRule.
+DR   CDD; cd07017; S14_ClpP_2; 1.
+DR   HAMAP; MF_00444; ClpP; 1.
+DR   InterPro; IPR001907; ClpP.
+DR   InterPro; IPR029045; ClpP/crotonase-like_dom_sf.
+DR   InterPro; IPR023562; ClpP/TepA.
+DR   InterPro; IPR033135; ClpP_His_AS.
+DR   PANTHER; PTHR10381; PTHR10381; 1.
+DR   Pfam; PF00574; CLP_protease; 1.
+DR   PRINTS; PR00127; CLPPROTEASEP.
+DR   SUPFAM; SSF52096; SSF52096; 1.
+DR   TIGRFAMs; TIGR00493; clpP; 1.
+DR   PROSITE; PS00382; CLP_PROTEASE_HIS; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Protease; Reference proteome; Serine protease.
+FT   CHAIN           1..202
+FT                   /note="ATP-dependent Clp protease proteolytic subunit"
+FT                   /id="PRO_0000252842"
+FT   ACT_SITE        106
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00444"
+FT   ACT_SITE        131
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00444"
+SQ   SEQUENCE   202 AA;  22179 MW;  6F2527D92057039E CRC64;
+     MGAMQTQALG MVPMVIEQSG RGERSYDIYS RLLKERVIFL VGPVNDYVAN LVVAQLLFLE
+     SDNPDKDISF YINSPGGSVS AGMAIFDTMN FVKPDVSTLC TGMAASMGAF LLAAGAKGKR
+     FSLPNSKVMI HQPSGGSQGQ ATEIEIQARE ILKTREQLNK ILAERTGQPL ARIERDTERD
+     YYMSADECKE YGLIDQVISK RA
+//

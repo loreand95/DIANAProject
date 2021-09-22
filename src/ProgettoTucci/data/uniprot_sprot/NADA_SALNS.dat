@@ -1,0 +1,101 @@
+ID   NADA_SALNS              Reviewed;         347 AA.
+AC   B4SZF9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   02-DEC-2020, entry version 71.
+DE   RecName: Full=Quinolinate synthase A {ECO:0000255|HAMAP-Rule:MF_00567};
+DE            EC=2.5.1.72 {ECO:0000255|HAMAP-Rule:MF_00567};
+GN   Name=nadA {ECO:0000255|HAMAP-Rule:MF_00567};
+GN   OrderedLocusNames=SNSL254_A0820;
+OS   Salmonella newport (strain SL254).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=423368;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SL254;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: Catalyzes the condensation of iminoaspartate with
+CC       dihydroxyacetone phosphate to form quinolinate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00567}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=dihydroxyacetone phosphate + iminosuccinate = H(+) + 2 H2O +
+CC         phosphate + quinolinate; Xref=Rhea:RHEA:25888, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:29959, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57642, ChEBI:CHEBI:77875; EC=2.5.1.72;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00567};
+CC   -!- COFACTOR:
+CC       Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00567};
+CC       Note=Binds 1 [4Fe-4S] cluster per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00567};
+CC   -!- PATHWAY: Cofactor biosynthesis; NAD(+) biosynthesis; quinolinate from
+CC       iminoaspartate: step 1/1. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   -!- SIMILARITY: Belongs to the quinolinate synthase A family. Type 1
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_00567}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001113; ACF62134.1; -; Genomic_DNA.
+DR   RefSeq; WP_000115334.1; NZ_CCMR01000003.1.
+DR   SMR; B4SZF9; -.
+DR   EnsemblBacteria; ACF62134; ACF62134; SNSL254_A0820.
+DR   KEGG; see:SNSL254_A0820; -.
+DR   HOGENOM; CLU_047382_1_0_6; -.
+DR   OMA; CFCSTMN; -.
+DR   UniPathway; UPA00253; UER00327.
+DR   Proteomes; UP000008824; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0051539; F:4 iron, 4 sulfur cluster binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008987; F:quinolinate synthetase A activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009435; P:NAD biosynthetic process; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.40.50.10800; -; 3.
+DR   HAMAP; MF_00567; NadA_type1; 1.
+DR   InterPro; IPR003473; NadA.
+DR   InterPro; IPR036094; NadA_sf.
+DR   InterPro; IPR023513; Quinolinate_synth_A_type1.
+DR   PANTHER; PTHR30573; PTHR30573; 1.
+DR   Pfam; PF02445; NadA; 1.
+DR   SUPFAM; SSF142754; SSF142754; 1.
+DR   TIGRFAMs; TIGR00550; nadA; 1.
+PE   3: Inferred from homology;
+KW   4Fe-4S; Cytoplasm; Iron; Iron-sulfur; Metal-binding;
+KW   Pyridine nucleotide biosynthesis; Transferase.
+FT   CHAIN           1..347
+FT                   /note="Quinolinate synthase A"
+FT                   /id="PRO_1000129426"
+FT   BINDING         47
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         68
+FT                   /note="Iminoaspartate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         139
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         156
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         226
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+FT   BINDING         243
+FT                   /note="Iminoaspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00567"
+SQ   SEQUENCE   347 AA;  37927 MW;  FD5AA227CC2ED057 CRC64;
+     MSVMFDPQAA IYPFPPKPTP LNDDEKQFYR EKIKRLLKER NAVMVAHYYT DPEIQQLAEE
+     TGGCISDSLE MARFGAKHAA STLLVAGVRF MGETAKILSP EKNILMPTLA AECSLDLGCP
+     IDEFSAFCDA HPDRTVVVYA NTSAAVKARA DWVVTSSIAV ELIEHLDSLG EKIIWAPDRH
+     LGNYVQKQTG ADVLCWQGAC IVHDEFKTQA LTRLKKIYPD AALLVHPESP QSIVEMADAV
+     GSTSQLIKAA KTLPHRQLIV ATDRGIFYKM QQAVPEKELL EAPTAGEGAT CRSCAHCPWM
+     AMNGLKAIAE GLEQGGAAHE IQVDAALREG ALLPLNRMLD FAATLRA
+//

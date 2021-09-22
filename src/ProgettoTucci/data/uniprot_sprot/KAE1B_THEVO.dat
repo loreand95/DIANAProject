@@ -1,0 +1,185 @@
+ID   KAE1B_THEVO             Reviewed;         527 AA.
+AC   Q978W6;
+DT   11-SEP-2007, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2001, sequence version 1.
+DT   10-FEB-2021, entry version 132.
+DE   RecName: Full=Probable bifunctional tRNA threonylcarbamoyladenosine biosynthesis protein {ECO:0000255|HAMAP-Rule:MF_01447};
+DE   Includes:
+DE     RecName: Full=tRNA N6-adenosine threonylcarbamoyltransferase {ECO:0000255|HAMAP-Rule:MF_01447};
+DE              EC=2.3.1.234 {ECO:0000255|HAMAP-Rule:MF_01447};
+DE     AltName: Full=N6-L-threonylcarbamoyladenine synthase;
+DE              Short=t(6)A synthase;
+DE     AltName: Full=t(6)A37 threonylcarbamoyladenosine biosynthesis protein Kae1 {ECO:0000255|HAMAP-Rule:MF_01447};
+DE     AltName: Full=tRNA threonylcarbamoyladenosine biosynthesis protein Kae1 {ECO:0000255|HAMAP-Rule:MF_01447};
+DE   Includes:
+DE     RecName: Full=Serine/threonine-protein kinase Bud32 {ECO:0000255|HAMAP-Rule:MF_01447};
+DE              EC=2.7.11.1 {ECO:0000255|HAMAP-Rule:MF_01447};
+GN   OrderedLocusNames=TV1299; ORFNames=TVG1340828;
+OS   Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC
+OS   15438 / GSS1).
+OC   Archaea; Euryarchaeota; Diaforarchaea group; Thermoplasmata;
+OC   Thermoplasmatales; Thermoplasmataceae; Thermoplasma.
+OX   NCBI_TaxID=273116;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1;
+RX   PubMed=11121031; DOI=10.1073/pnas.97.26.14257;
+RA   Kawashima T., Amano N., Koike H., Makino S., Higuchi S., Kawashima-Ohya Y.,
+RA   Watanabe K., Yamazaki M., Kanehori K., Kawamoto T., Nunoshiba T.,
+RA   Yamamoto Y., Aramaki H., Makino K., Suzuki M.;
+RT   "Archaeal adaptation to higher temperatures revealed by genomic sequence of
+RT   Thermoplasma volcanium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 97:14257-14262(2000).
+CC   -!- FUNCTION: Required for the formation of a threonylcarbamoyl group on
+CC       adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning
+CC       with adenine. Is a component of the KEOPS complex that is probably
+CC       involved in the transfer of the threonylcarbamoyl moiety of
+CC       threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37. The Kae1 domain
+CC       likely plays a direct catalytic role in this reaction. The Bud32 domain
+CC       probably displays kinase activity that regulates Kae1 function.
+CC       {ECO:0000255|HAMAP-Rule:MF_01447}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-
+CC         [protein]; Xref=Rhea:RHEA:17989, Rhea:RHEA-COMP:9863, Rhea:RHEA-
+CC         COMP:11604, ChEBI:CHEBI:15378, ChEBI:CHEBI:29999, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:83421, ChEBI:CHEBI:456216; EC=2.7.11.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01447};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-
+CC         threonyl-[protein]; Xref=Rhea:RHEA:46608, Rhea:RHEA-COMP:11060,
+CC         Rhea:RHEA-COMP:11605, ChEBI:CHEBI:15378, ChEBI:CHEBI:30013,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:61977, ChEBI:CHEBI:456216;
+CC         EC=2.7.11.1; Evidence={ECO:0000255|HAMAP-Rule:MF_01447};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenosine(37) in tRNA + L-threonylcarbamoyladenylate = AMP +
+CC         H(+) + N(6)-L-threonylcarbamoyladenosine(37) in tRNA;
+CC         Xref=Rhea:RHEA:37059, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10163,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:73682, ChEBI:CHEBI:74411,
+CC         ChEBI:CHEBI:74418, ChEBI:CHEBI:456215; EC=2.3.1.234;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01447};
+CC   -!- COFACTOR:
+CC       Name=Fe(2+); Xref=ChEBI:CHEBI:29033;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01447};
+CC       Note=Binds 1 Fe(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01447};
+CC   -!- SUBUNIT: Component of the KEOPS complex that consists of Kae1, Bud32,
+CC       Cgi121 and Pcc1; the whole complex dimerizes. {ECO:0000255|HAMAP-
+CC       Rule:MF_01447}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01447}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the KAE1 / TsaD
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01447}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the protein kinase
+CC       superfamily. Tyr protein kinase family. BUD32 subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01447}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000011; BAB60441.1; -; Genomic_DNA.
+DR   RefSeq; WP_010917534.1; NC_002689.2.
+DR   SMR; Q978W6; -.
+DR   STRING; 273116.14325538; -.
+DR   DNASU; 1441416; -.
+DR   EnsemblBacteria; BAB60441; BAB60441; BAB60441.
+DR   GeneID; 1441416; -.
+DR   KEGG; tvo:TVG1340828; -.
+DR   eggNOG; arCOG01183; Archaea.
+DR   eggNOG; arCOG01185; Archaea.
+DR   HOGENOM; CLU_023208_2_2_2; -.
+DR   OMA; GETMDTG; -.
+DR   OrthoDB; 9881at2157; -.
+DR   Proteomes; UP000001017; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0000408; C:EKC/KEOPS complex; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005506; F:iron ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004222; F:metalloendopeptidase activity; IEA:InterPro.
+DR   GO; GO:0061711; F:N(6)-L-threonylcarbamoyladenine synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0106310; F:protein serine kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004712; F:protein serine/threonine/tyrosine kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0106311; F:protein threonine kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0002949; P:tRNA threonylcarbamoyladenosine modification; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01446; Kae1; 1.
+DR   HAMAP; MF_01447; Kae1_Bud32_arch; 1.
+DR   InterPro; IPR043129; ATPase_NBD.
+DR   InterPro; IPR022495; Bud32.
+DR   InterPro; IPR000905; Gcp-like_dom.
+DR   InterPro; IPR017861; KAE1/TsaD.
+DR   InterPro; IPR022449; Kae1_arc.
+DR   InterPro; IPR034680; Kae1_archaea_euk.
+DR   InterPro; IPR011009; Kinase-like_dom_sf.
+DR   InterPro; IPR017860; Peptidase_M22_CS.
+DR   InterPro; IPR009220; tRNA_threonyl_synthase/kinase.
+DR   InterPro; IPR008266; Tyr_kinase_AS.
+DR   PANTHER; PTHR11735; PTHR11735; 1.
+DR   PANTHER; PTHR11735:SF14; PTHR11735:SF14; 1.
+DR   Pfam; PF00814; TsaD; 1.
+DR   PIRSF; PIRSF036401; Gcp_STYKS; 1.
+DR   PRINTS; PR00789; OSIALOPTASE.
+DR   SUPFAM; SSF53067; SSF53067; 1.
+DR   SUPFAM; SSF56112; SSF56112; 1.
+DR   TIGRFAMs; TIGR03724; arch_bud32; 1.
+DR   TIGRFAMs; TIGR03722; arch_KAE1; 1.
+DR   TIGRFAMs; TIGR00329; gcp_kae1; 1.
+DR   PROSITE; PS01016; GLYCOPROTEASE; 1.
+DR   PROSITE; PS00109; PROTEIN_KINASE_TYR; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; ATP-binding; Cytoplasm; Iron; Kinase; Metal-binding;
+KW   Multifunctional enzyme; Nucleotide-binding;
+KW   Serine/threonine-protein kinase; Transferase; tRNA processing.
+FT   CHAIN           1..527
+FT                   /note="Probable bifunctional tRNA
+FT                   threonylcarbamoyladenosine biosynthesis protein"
+FT                   /id="PRO_0000303662"
+FT   DOMAIN          330..527
+FT                   /note="Protein kinase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   NP_BIND         333..341
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   REGION          1..324
+FT                   /note="Kae1"
+FT   REGION          128..132
+FT                   /note="Threonylcarbamoyl-AMP binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   ACT_SITE        445
+FT                   /note="Proton acceptor; for kinase activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   METAL           107
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   METAL           111
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   METAL           128
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   METAL           285
+FT                   /note="Iron"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   BINDING         160
+FT                   /note="Threonylcarbamoyl-AMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   BINDING         173
+FT                   /note="Threonylcarbamoyl-AMP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   BINDING         177
+FT                   /note="Threonylcarbamoyl-AMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   BINDING         257
+FT                   /note="Threonylcarbamoyl-AMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+FT   BINDING         354
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01447"
+SQ   SEQUENCE   527 AA;  58291 MW;  E66A4EF292645941 CRC64;
+     MIVLGLEGTA HTISCGILDE NSIMANVSSM YKPKTGGIHP TQAAAHHVDK VSEVIAKAIE
+     IAGIKPSDID LVAFSMGPGL GPSLRVTSTA ARTLAVTLKR PIIGVNHPLG HIEIGKRLSG
+     AQDPVMLYVS GGNTQVIAHL NGRYRVLGET LDIGIGNMID KFARYAGIPF PGGPEIEKLA
+     KDGRKLLTLP YSVKGMDTSF SGILTSALEY LKKGEPVEDI SFSIQETAFS MLVEVLERAL
+     YVSGKDEVLM AGGVALNNRL REMVSEMGRE VDATTYMTDK NYCMDNGAMI AQAGLLMYKS
+     GIRMNIEDTS INPRYRIDEV DAPWVIEKNV KYRDAGAESR IVNTDFYGRS AVKKIRIAKG
+     YRLKELDERI RGERMKNEFT VIRRMRDAGI CVPIVYDYDP FEKTLTLSQI QGELLRDVIR
+     ARPNVMGNVG HDVAVMHKNK ISHGDLTVNN IIVSDRICFI DASMGKVNAE LEDLAVDVYT
+     LEDSINSLSE NGKTLMKEFK MSYRANFPQA NDVLNIVEDI RRRHRYV
+//

@@ -1,0 +1,101 @@
+ID   ALDA_STAAN              Reviewed;         495 AA.
+AC   Q7A825;
+DT   22-NOV-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   02-DEC-2020, entry version 98.
+DE   RecName: Full=Putative aldehyde dehydrogenase AldA;
+DE            EC=1.2.1.3;
+GN   Name=aldA; OrderedLocusNames=SA0162;
+OS   Staphylococcus aureus (strain N315).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=158879;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=N315;
+RX   PubMed=11418146; DOI=10.1016/s0140-6736(00)04403-2;
+RA   Kuroda M., Ohta T., Uchiyama I., Baba T., Yuzawa H., Kobayashi I., Cui L.,
+RA   Oguchi A., Aoki K., Nagai Y., Lian J.-Q., Ito T., Kanamori M.,
+RA   Matsumaru H., Maruyama A., Murakami H., Hosoyama A., Mizutani-Ui Y.,
+RA   Takahashi N.K., Sawano T., Inoue R., Kaito C., Sekimizu K., Hirakawa H.,
+RA   Kuhara S., Goto S., Yabuzaki J., Kanehisa M., Yamashita A., Oshima K.,
+RA   Furuya K., Yoshino C., Shiba T., Hattori M., Ogasawara N., Hayashi H.,
+RA   Hiramatsu K.;
+RT   "Whole genome sequencing of meticillin-resistant Staphylococcus aureus.";
+RL   Lancet 357:1225-1240(2001).
+RN   [2]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RC   STRAIN=N315;
+RX   PubMed=15590099; DOI=10.1016/j.mimet.2004.09.017;
+RA   Scherl A., Francois P., Bento M., Deshusses J.M., Charbonnier Y.,
+RA   Converset V., Huyghe A., Walter N., Hoogland C., Appel R.D., Sanchez J.-C.,
+RA   Zimmermann-Ivol C.G., Corthals G.L., Hochstrasser D.F., Schrenzel J.;
+RT   "Correlation of proteomic and transcriptomic profiles of Staphylococcus
+RT   aureus during the post-exponential phase of growth.";
+RL   J. Microbiol. Methods 60:247-257(2005).
+RN   [3]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=N315;
+RA   Vaezzadeh A.R., Deshusses J., Lescuyer P., Hochstrasser D.F.;
+RT   "Shotgun proteomic analysis of total and membrane protein extracts of S.
+RT   aureus strain N315.";
+RL   Submitted (OCT-2007) to UniProtKB.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=an aldehyde + H2O + NAD(+) = a carboxylate + 2 H(+) + NADH;
+CC         Xref=Rhea:RHEA:16185, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:17478, ChEBI:CHEBI:29067, ChEBI:CHEBI:57540,
+CC         ChEBI:CHEBI:57945; EC=1.2.1.3;
+CC   -!- SIMILARITY: Belongs to the aldehyde dehydrogenase family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BA000018; BAB41382.1; -; Genomic_DNA.
+DR   PIR; C89778; C89778.
+DR   RefSeq; WP_000290397.1; NC_002745.2.
+DR   SMR; Q7A825; -.
+DR   SWISS-2DPAGE; Q7A825; -.
+DR   EnsemblBacteria; BAB41382; BAB41382; BAB41382.
+DR   KEGG; sau:SA0162; -.
+DR   HOGENOM; CLU_005391_0_2_9; -.
+DR   OMA; NYIVGGL; -.
+DR   BioCyc; SAUR158879:G1G21-173-MONOMER; -.
+DR   Proteomes; UP000000751; Chromosome.
+DR   GO; GO:0004029; F:aldehyde dehydrogenase (NAD+) activity; IEA:UniProtKB-EC.
+DR   GO; GO:0043878; F:glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.309.10; -; 1.
+DR   Gene3D; 3.40.605.10; -; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR016163; Ald_DH_C.
+DR   InterPro; IPR016160; Ald_DH_CS_CYS.
+DR   InterPro; IPR029510; Ald_DH_CS_GLU.
+DR   InterPro; IPR016162; Ald_DH_N.
+DR   InterPro; IPR015590; Aldehyde_DH_dom.
+DR   Pfam; PF00171; Aldedh; 1.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   PROSITE; PS00070; ALDEHYDE_DEHYDR_CYS; 1.
+DR   PROSITE; PS00687; ALDEHYDE_DEHYDR_GLU; 1.
+PE   1: Evidence at protein level;
+KW   NAD; Oxidoreductase.
+FT   CHAIN           1..495
+FT                   /note="Putative aldehyde dehydrogenase AldA"
+FT                   /id="PRO_0000056457"
+FT   NP_BIND         212..218
+FT                   /note="NAD"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        256
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        290
+FT                   /evidence="ECO:0000250"
+SQ   SEQUENCE   495 AA;  53660 MW;  36B448F85BFECD02 CRC64;
+     MAVNVRDYIA ENYGLFINGE FVKGSSDETI EVTNPATGET LSHITRAKDK DVDHAVKVAQ
+     EAFESWSLTS KSERAQMLRD IGDKLMAQKD KIAMIETLNN GKPIRETTAI DIPFAARHFH
+     YFASVIETEE GTVNDIDKDT MSIVRHEPIG VVGAVVAWNF PMLLAAWKIA PAIAAGNTIV
+     IQPSSSTPLS LLEVAKIFQE VLPKGVVNIL TGKGSESGNA IFNHDGVDKL SFTGSTDVGY
+     QVAEAAAKHL VPATLELGGK SANIILDDAN LDLAVEGIQL GILFNQGEVC SAGSRLLVHE
+     KIYDQLVPRL QEAFSNIKVG DPQDEATQMG SQTGKDQLDK IQSYIDAAKE SDAQILAGGH
+     RLTENGLDKG FFFEPTLIAV PDNHHKLAQE EIFGPVLTVI KVKDDQEAID IANDSEYGLA
+     GGVFSQNITR ALNIAKAVRT GRIWINTYNQ VPEGAPFGGY KKSGIGRETY KGALSNYQQV
+     KNIYIDTSNA LKGLY
+//

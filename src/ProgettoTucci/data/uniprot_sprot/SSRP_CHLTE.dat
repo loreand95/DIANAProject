@@ -1,0 +1,86 @@
+ID   SSRP_CHLTE              Reviewed;         157 AA.
+AC   Q8KEW8;
+DT   10-JAN-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2002, sequence version 1.
+DT   02-DEC-2020, entry version 97.
+DE   RecName: Full=SsrA-binding protein {ECO:0000255|HAMAP-Rule:MF_00023};
+DE   AltName: Full=Small protein B {ECO:0000255|HAMAP-Rule:MF_00023};
+GN   Name=smpB {ECO:0000255|HAMAP-Rule:MF_00023}; OrderedLocusNames=CT0564;
+OS   Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS)
+OS   (Chlorobium tepidum).
+OC   Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum.
+OX   NCBI_TaxID=194439;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 49652 / DSM 12025 / NBRC 103806 / TLS;
+RX   PubMed=12093901; DOI=10.1073/pnas.132181499;
+RA   Eisen J.A., Nelson K.E., Paulsen I.T., Heidelberg J.F., Wu M., Dodson R.J.,
+RA   DeBoy R.T., Gwinn M.L., Nelson W.C., Haft D.H., Hickey E.K., Peterson J.D.,
+RA   Durkin A.S., Kolonay J.F., Yang F., Holt I.E., Umayam L.A., Mason T.M.,
+RA   Brenner M., Shea T.P., Parksey D.S., Nierman W.C., Feldblyum T.V.,
+RA   Hansen C.L., Craven M.B., Radune D., Vamathevan J.J., Khouri H.M.,
+RA   White O., Gruber T.M., Ketchum K.A., Venter J.C., Tettelin H., Bryant D.A.,
+RA   Fraser C.M.;
+RT   "The complete genome sequence of Chlorobium tepidum TLS, a photosynthetic,
+RT   anaerobic, green-sulfur bacterium.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 99:9509-9514(2002).
+CC   -!- FUNCTION: Required for rescue of stalled ribosomes mediated by trans-
+CC       translation. Binds to transfer-messenger RNA (tmRNA), required for
+CC       stable association of tmRNA with ribosomes. tmRNA and SmpB together
+CC       mimic tRNA shape, replacing the anticodon stem-loop with SmpB. tmRNA is
+CC       encoded by the ssrA gene; the 2 termini fold to resemble tRNA(Ala) and
+CC       it encodes a 'tag peptide', a short internal open reading frame. During
+CC       trans-translation Ala-aminoacylated tmRNA acts like a tRNA, entering
+CC       the A-site of stalled ribosomes, displacing the stalled mRNA. The
+CC       ribosome then switches to translate the ORF on the tmRNA; the nascent
+CC       peptide is terminated with the 'tag peptide' encoded by the tmRNA and
+CC       targeted for degradation. The ribosome is freed to recommence
+CC       translation, which seems to be the essential function of trans-
+CC       translation. {ECO:0000255|HAMAP-Rule:MF_00023}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00023}.
+CC       Note=The tmRNA-SmpB complex associates with stalled 70S ribosomes.
+CC       {ECO:0000255|HAMAP-Rule:MF_00023}.
+CC   -!- SIMILARITY: Belongs to the SmpB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00023}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE006470; AAM71806.1; -; Genomic_DNA.
+DR   RefSeq; NP_661464.1; NC_002932.3.
+DR   RefSeq; WP_010932251.1; NC_002932.3.
+DR   SMR; Q8KEW8; -.
+DR   STRING; 194439.CT0564; -.
+DR   EnsemblBacteria; AAM71806; AAM71806; CT0564.
+DR   KEGG; cte:CT0564; -.
+DR   PATRIC; fig|194439.7.peg.528; -.
+DR   eggNOG; COG0691; Bacteria.
+DR   HOGENOM; CLU_108953_0_1_10; -.
+DR   OMA; WTNHSAR; -.
+DR   OrthoDB; 1720952at2; -.
+DR   BioCyc; CTEP194439:G1FZE-589-MONOMER; -.
+DR   Proteomes; UP000001007; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070929; P:trans-translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd09294; SmpB; 1.
+DR   Gene3D; 2.40.280.10; -; 1.
+DR   HAMAP; MF_00023; SmpB; 1.
+DR   InterPro; IPR023620; SmpB.
+DR   InterPro; IPR000037; SsrA-bd_prot.
+DR   InterPro; IPR020081; SsrA-bd_prot_CS.
+DR   PANTHER; PTHR30308; PTHR30308; 1.
+DR   Pfam; PF01668; SmpB; 1.
+DR   SUPFAM; SSF74982; SSF74982; 1.
+DR   TIGRFAMs; TIGR00086; smpB; 1.
+DR   PROSITE; PS01317; SSRP; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Reference proteome; RNA-binding.
+FT   CHAIN           1..157
+FT                   /note="SsrA-binding protein"
+FT                   /id="PRO_0000102931"
+SQ   SEQUENCE   157 AA;  18280 MW;  BE136317A67A68D2 CRC64;
+     MSKKQGKPEY VTAISNRKAR FEYEILDTIE AGIELLGSEV KSVRLGKASL SESYAMIHHG
+     QVWLENMQIT PYEHNTLDTL EPKRSRRLLL HKAEIMRLQS KISEKGLTLI PLKAYFNKRG
+     VLKIELGLAR GKKLYDKRET IKNRDAKRQL QQLRKQY
+//

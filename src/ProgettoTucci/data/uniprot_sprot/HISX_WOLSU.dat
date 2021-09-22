@@ -1,0 +1,127 @@
+ID   HISX_WOLSU              Reviewed;         432 AA.
+AC   Q7M8K9;
+DT   13-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   15-DEC-2003, sequence version 1.
+DT   02-DEC-2020, entry version 99.
+DE   RecName: Full=Histidinol dehydrogenase {ECO:0000255|HAMAP-Rule:MF_01024};
+DE            Short=HDH {ECO:0000255|HAMAP-Rule:MF_01024};
+DE            EC=1.1.1.23 {ECO:0000255|HAMAP-Rule:MF_01024};
+GN   Name=hisD {ECO:0000255|HAMAP-Rule:MF_01024}; OrderedLocusNames=WS1587;
+OS   Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC
+OS   11488 / FDC 602W) (Vibrio succinogenes).
+OC   Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+OC   Helicobacteraceae; Wolinella.
+OX   NCBI_TaxID=273121;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W;
+RX   PubMed=14500908; DOI=10.1073/pnas.1932838100;
+RA   Baar C., Eppinger M., Raddatz G., Simon J., Lanz C., Klimmek O.,
+RA   Nandakumar R., Gross R., Rosinus A., Keller H., Jagtap P., Linke B.,
+RA   Meyer F., Lederer H., Schuster S.C.;
+RT   "Complete genome sequence and analysis of Wolinella succinogenes.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:11690-11695(2003).
+CC   -!- FUNCTION: Catalyzes the sequential NAD-dependent oxidations of L-
+CC       histidinol to L-histidinaldehyde and then to L-histidine.
+CC       {ECO:0000255|HAMAP-Rule:MF_01024}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-histidinol + 2 NAD(+) = 3 H(+) + L-histidine + 2 NADH;
+CC         Xref=Rhea:RHEA:20641, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:57540, ChEBI:CHEBI:57595, ChEBI:CHEBI:57699,
+CC         ChEBI:CHEBI:57945; EC=1.1.1.23; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01024};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01024};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01024};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 9/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01024}.
+CC   -!- SIMILARITY: Belongs to the histidinol dehydrogenase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01024}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX571661; CAE10626.1; -; Genomic_DNA.
+DR   SMR; Q7M8K9; -.
+DR   STRING; 273121.WS1587; -.
+DR   EnsemblBacteria; CAE10626; CAE10626; WS1587.
+DR   KEGG; wsu:WS1587; -.
+DR   eggNOG; COG0141; Bacteria.
+DR   HOGENOM; CLU_006732_3_3_7; -.
+DR   OMA; QAEHDPM; -.
+DR   UniPathway; UPA00031; UER00014.
+DR   Proteomes; UP000000422; Chromosome.
+DR   GO; GO:0004399; F:histidinol dehydrogenase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0051287; F:NAD binding; IEA:InterPro.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd06572; Histidinol_dh; 1.
+DR   HAMAP; MF_01024; HisD; 1.
+DR   InterPro; IPR016161; Ald_DH/histidinol_DH.
+DR   InterPro; IPR001692; Histidinol_DH_CS.
+DR   InterPro; IPR022695; Histidinol_DH_monofunct.
+DR   InterPro; IPR012131; Hstdl_DH.
+DR   PANTHER; PTHR21256; PTHR21256; 1.
+DR   Pfam; PF00815; Histidinol_dh; 1.
+DR   PIRSF; PIRSF000099; Histidinol_dh; 1.
+DR   PRINTS; PR00083; HOLDHDRGNASE.
+DR   SUPFAM; SSF53720; SSF53720; 1.
+DR   TIGRFAMs; TIGR00069; hisD; 1.
+DR   PROSITE; PS00611; HISOL_DEHYDROGENASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Histidine biosynthesis; Metal-binding; NAD;
+KW   Oxidoreductase; Reference proteome; Zinc.
+FT   CHAIN           1..432
+FT                   /note="Histidinol dehydrogenase"
+FT                   /id="PRO_0000135879"
+FT   ACT_SITE        330
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   ACT_SITE        331
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   METAL           262
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   METAL           265
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   METAL           364
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   METAL           423
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         240
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         262
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         265
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         331
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         364
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         418
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+FT   BINDING         423
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01024"
+SQ   SEQUENCE   432 AA;  47077 MW;  B16897BD6F174B82 CRC64;
+     MRKIKRLNSS LAEFRREFDE LLLRGNVDMD TVIPVVSGLI KEIRTQGDAA LLAHVAKFDR
+     WNPKSAMELK IDPSLMKRAY EGLEASLREA LHSAYNRIHS FHSKQKPQSW LDFEENGTIL
+     GQKVTPMDRA GLYIPGGKAA YPSSLLMNAI PAIVAGVKEI VVCTPTPENE PNELLLAACH
+     LCGIKEVYKV GGASAIAAMA YGTESLGRVD VITGPGNIYV ATAKKLVFGQ VNIDMVAGPS
+     EIGILADESA KAPWVALDLL SQAEHDEMAS SILVTPSVEL ADAVDVEVER ALERLDRKEI
+     SSKSIYTRGA IIIAKDMNEA VSLMNEIAPE HLEVLVENPF GWLPEIRHAG AIFLGENTPE
+     PIGDYIAGPN HTLPTGGTAR FYSPLSTEHF MKKSSILSFS ERGIRELGHH CAKLAQTEGL
+     DAHKESVLAR LV
+//

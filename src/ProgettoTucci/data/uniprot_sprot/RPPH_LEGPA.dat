@@ -1,0 +1,73 @@
+ID   RPPH_LEGPA              Reviewed;         175 AA.
+AC   Q5X115;
+DT   04-APR-2006, integrated into UniProtKB/Swiss-Prot.
+DT   23-NOV-2004, sequence version 1.
+DT   07-APR-2021, entry version 85.
+DE   RecName: Full=RNA pyrophosphohydrolase {ECO:0000255|HAMAP-Rule:MF_00298};
+DE            EC=3.6.1.- {ECO:0000255|HAMAP-Rule:MF_00298};
+DE   AltName: Full=(Di)nucleoside polyphosphate hydrolase {ECO:0000255|HAMAP-Rule:MF_00298};
+GN   Name=rppH {ECO:0000255|HAMAP-Rule:MF_00298};
+GN   Synonyms=nudH {ECO:0000255|HAMAP-Rule:MF_00298}; OrderedLocusNames=lpp2931;
+OS   Legionella pneumophila (strain Paris).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=297246;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Paris;
+RX   PubMed=15467720; DOI=10.1038/ng1447;
+RA   Cazalet C., Rusniok C., Brueggemann H., Zidane N., Magnier A., Ma L.,
+RA   Tichit M., Jarraud S., Bouchier C., Vandenesch F., Kunst F., Etienne J.,
+RA   Glaser P., Buchrieser C.;
+RT   "Evidence in the Legionella pneumophila genome for exploitation of host
+RT   cell functions and high genome plasticity.";
+RL   Nat. Genet. 36:1165-1173(2004).
+CC   -!- FUNCTION: Accelerates the degradation of transcripts by removing
+CC       pyrophosphate from the 5'-end of triphosphorylated RNA, leading to a
+CC       more labile monophosphorylated state that can stimulate subsequent
+CC       ribonuclease cleavage. {ECO:0000255|HAMAP-Rule:MF_00298}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00298};
+CC   -!- SIMILARITY: Belongs to the Nudix hydrolase family. RppH subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00298}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR628336; CAH14084.1; -; Genomic_DNA.
+DR   RefSeq; WP_010948558.1; NC_006368.1.
+DR   SMR; Q5X115; -.
+DR   GeneID; 57036871; -.
+DR   KEGG; lpp:lpp2931; -.
+DR   LegioList; lpp2931; -.
+DR   HOGENOM; CLU_087195_3_1_6; -.
+DR   OMA; PCVGIML; -.
+DR   GO; GO:0016818; F:hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides; IEA:UniProtKB-UniRule.
+DR   CDD; cd03671; Ap4A_hydrolase_plant_like; 1.
+DR   HAMAP; MF_00298; Nudix_RppH; 1.
+DR   InterPro; IPR020476; Nudix_hydrolase.
+DR   InterPro; IPR015797; NUDIX_hydrolase-like_dom_sf.
+DR   InterPro; IPR020084; NUDIX_hydrolase_CS.
+DR   InterPro; IPR000086; NUDIX_hydrolase_dom.
+DR   InterPro; IPR022927; RppH.
+DR   Pfam; PF00293; NUDIX; 1.
+DR   PRINTS; PR00502; NUDIXFAMILY.
+DR   SUPFAM; SSF55811; SSF55811; 1.
+DR   PROSITE; PS51462; NUDIX; 1.
+DR   PROSITE; PS00893; NUDIX_BOX; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase.
+FT   CHAIN           1..175
+FT                   /note="RNA pyrophosphohydrolase"
+FT                   /id="PRO_0000231913"
+FT   DOMAIN          7..150
+FT                   /note="Nudix hydrolase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00298"
+FT   MOTIF           39..60
+FT                   /note="Nudix box"
+SQ   SEQUENCE   175 AA;  20709 MW;  7F77D9B3DB4550D5 CRC64;
+     MVIDRAGYRL NVGIILVNDS DRVFWGRRSG HDAWQFPQGG LAPGETAMQA MYRELHEEVG
+     LDKGDVEILG STRRWLKYRL PKQYLRHGSE PLVIGQKQKW YLLKLVTSEQ KVRLDLSDSP
+     EFDSWRWVDF HEPEQQVIFF KRQVYIQALK ELEPLLKKER RTPYGLKRKR GNQRA
+//

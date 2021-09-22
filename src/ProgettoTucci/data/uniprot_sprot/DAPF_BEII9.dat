@@ -1,0 +1,119 @@
+ID   DAPF_BEII9              Reviewed;         297 AA.
+AC   B2IEM1;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   10-JUN-2008, sequence version 1.
+DT   02-DEC-2020, entry version 68.
+DE   RecName: Full=Diaminopimelate epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            Short=DAP epimerase {ECO:0000255|HAMAP-Rule:MF_00197};
+DE            EC=5.1.1.7 {ECO:0000255|HAMAP-Rule:MF_00197};
+DE   AltName: Full=PLP-independent amino acid racemase {ECO:0000255|HAMAP-Rule:MF_00197};
+GN   Name=dapF {ECO:0000255|HAMAP-Rule:MF_00197}; OrderedLocusNames=Bind_3404;
+OS   Beijerinckia indica subsp. indica (strain ATCC 9039 / DSM 1715 / NCIB
+OS   8712).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Beijerinckiaceae; Beijerinckia.
+OX   NCBI_TaxID=395963;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 9039 / DSM 1715 / NCIB 8712;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Glavina del Rio T., Dalin E., Tice H.,
+RA   Bruce D., Goodwin L., Pitluck S., LaButti K., Schmutz J., Larimer F.,
+RA   Land M., Hauser L., Kyrpides N., Mikhailova N., Dunfield P.F., Dedysh S.N.,
+RA   Liesack W., Saw J.H., Alam M., Chen Y., Murrell J.C., Richardson P.;
+RT   "Complete sequence of chromosome of Beijerinckia indica subsp. indica ATCC
+RT   9039.";
+RL   Submitted (MAR-2008) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the stereoinversion of LL-2,6-diaminoheptanedioate
+CC       (L,L-DAP) to meso-diaminoheptanedioate (meso-DAP), a precursor of L-
+CC       lysine and an essential component of the bacterial peptidoglycan.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=(2S,6S)-2,6-diaminoheptanedioate = meso-2,6-
+CC         diaminoheptanedioate; Xref=Rhea:RHEA:15393, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:57791; EC=5.1.1.7; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00197};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; DL-2,6-diaminopimelate from LL-2,6-diaminopimelate: step 1/1.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   -!- SIMILARITY: Belongs to the diaminopimelate epimerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00197}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001016; ACB96961.1; -; Genomic_DNA.
+DR   RefSeq; WP_012386309.1; NC_010581.1.
+DR   SMR; B2IEM1; -.
+DR   STRING; 395963.Bind_3404; -.
+DR   EnsemblBacteria; ACB96961; ACB96961; Bind_3404.
+DR   KEGG; bid:Bind_3404; -.
+DR   eggNOG; COG0253; Bacteria.
+DR   HOGENOM; CLU_053306_1_0_5; -.
+DR   OMA; HVAMRVH; -.
+DR   OrthoDB; 1921631at2; -.
+DR   UniPathway; UPA00034; UER00025.
+DR   Proteomes; UP000001695; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008837; F:diaminopimelate epimerase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00197; DAP_epimerase; 1.
+DR   InterPro; IPR018510; DAP_epimerase_AS.
+DR   InterPro; IPR001653; DAP_epimerase_DapF.
+DR   PANTHER; PTHR31689; PTHR31689; 1.
+DR   Pfam; PF01678; DAP_epimerase; 2.
+DR   TIGRFAMs; TIGR00652; DapF; 1.
+DR   PROSITE; PS01326; DAP_EPIMERASE; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Isomerase; Lysine biosynthesis;
+KW   Reference proteome.
+FT   CHAIN           1..297
+FT                   /note="Diaminopimelate epimerase"
+FT                   /id="PRO_1000099220"
+FT   REGION          79..80
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   REGION          223..224
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   REGION          233..234
+FT                   /note="Substrate binding"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        78
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   ACT_SITE        232
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         17
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         49
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         69
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         172
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   BINDING         205
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            174
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+FT   SITE            223
+FT                   /note="Could be important to modulate the pK values of the
+FT                   two catalytic cysteine residues"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00197"
+SQ   SEQUENCE   297 AA;  31270 MW;  E8B04CA4162E5F10 CRC64;
+     MSALANRFVT KMNGLGNAIV VLDLRGTGIV ISAAEARAIG QGKGLHFDQL MVLHDPLSPG
+     SAAFMRIYNI DGSLAGACGN GTRCVAWTLL REDHRIGAEL MLETAAGQLA CLKLAEDRFS
+     VDMGKPAFAW DAIPLAHPVP DTNAVDLARD LAVLPPVDPD ALRKASMVNM GNPHAVLFVA
+     DQDACDLALV GPVLEHHPLF PDRANISIAT VVSPDHIVLK VWERGAGATL ACGSAACATL
+     VAAVRHGLAA REARISLPGG DLTIAWRAAD DHVIMTGPVT FEFTTRLDPS LFQALVA
+//

@@ -1,0 +1,154 @@
+ID   HIS7_BUCBP              Reviewed;         357 AA.
+AC   P59454;
+DT   28-MAR-2003, integrated into UniProtKB/Swiss-Prot.
+DT   28-MAR-2003, sequence version 1.
+DT   07-APR-2021, entry version 118.
+DE   RecName: Full=Histidine biosynthesis bifunctional protein HisB {ECO:0000255|HAMAP-Rule:MF_01022};
+DE   Includes:
+DE     RecName: Full=Histidinol-phosphatase {ECO:0000255|HAMAP-Rule:MF_01022};
+DE              EC=3.1.3.15 {ECO:0000255|HAMAP-Rule:MF_01022};
+DE   Includes:
+DE     RecName: Full=Imidazoleglycerol-phosphate dehydratase {ECO:0000255|HAMAP-Rule:MF_01022};
+DE              Short=IGPD {ECO:0000255|HAMAP-Rule:MF_01022};
+DE              EC=4.2.1.19 {ECO:0000255|HAMAP-Rule:MF_01022};
+GN   Name=hisB {ECO:0000255|HAMAP-Rule:MF_01022}; OrderedLocusNames=bbp_096;
+OS   Buchnera aphidicola subsp. Baizongia pistaciae (strain Bp).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Erwiniaceae; Buchnera.
+OX   NCBI_TaxID=224915;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bp;
+RX   PubMed=12522265; DOI=10.1073/pnas.0235981100;
+RA   van Ham R.C.H.J., Kamerbeek J., Palacios C., Rausell C., Abascal F.,
+RA   Bastolla U., Fernandez J.M., Jimenez L., Postigo M., Silva F.J.,
+RA   Tamames J., Viguera E., Latorre A., Valencia A., Moran F., Moya A.;
+RT   "Reductive genome evolution in Buchnera aphidicola.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:581-586(2003).
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate = 3-(imidazol-
+CC         4-yl)-2-oxopropyl phosphate + H2O; Xref=Rhea:RHEA:11040,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:57766, ChEBI:CHEBI:58278; EC=4.2.1.19;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01022};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + L-histidinol phosphate = L-histidinol + phosphate;
+CC         Xref=Rhea:RHEA:14465, ChEBI:CHEBI:15377, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:57699, ChEBI:CHEBI:57980; EC=3.1.3.15;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01022};
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01022};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01022};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 6/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01022}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-histidine biosynthesis; L-histidine
+CC       from 5-phospho-alpha-D-ribose 1-diphosphate: step 8/9.
+CC       {ECO:0000255|HAMAP-Rule:MF_01022}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01022}.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the histidinol-
+CC       phosphatase family. {ECO:0000255|HAMAP-Rule:MF_01022}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the
+CC       imidazoleglycerol-phosphate dehydratase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01022}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016826; AAO26831.1; -; Genomic_DNA.
+DR   RefSeq; WP_011091232.1; NC_004545.1.
+DR   SMR; P59454; -.
+DR   STRING; 224915.bbp_096; -.
+DR   EnsemblBacteria; AAO26831; AAO26831; bbp_096.
+DR   GeneID; 56470640; -.
+DR   KEGG; bab:bbp_096; -.
+DR   eggNOG; COG0131; Bacteria.
+DR   eggNOG; COG0241; Bacteria.
+DR   HOGENOM; CLU_044308_0_0_6; -.
+DR   OMA; PEDTFWP; -.
+DR   OrthoDB; 1278103at2; -.
+DR   BioCyc; BAPH224915:G1G09-99-MONOMER; -.
+DR   UniPathway; UPA00031; UER00011.
+DR   UniPathway; UPA00031; UER00013.
+DR   Proteomes; UP000000601; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004401; F:histidinol-phosphatase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0004424; F:imidazoleglycerol-phosphate dehydratase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0000105; P:histidine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd07914; IGPD; 1.
+DR   Gene3D; 3.30.230.40; -; 2.
+DR   Gene3D; 3.40.50.1000; -; 1.
+DR   HAMAP; MF_01022; Bifunc_HisB; 1.
+DR   HAMAP; MF_00076; HisB; 1.
+DR   InterPro; IPR036412; HAD-like_sf.
+DR   InterPro; IPR006549; HAD-SF_hydro_IIIA.
+DR   InterPro; IPR023214; HAD_sf.
+DR   InterPro; IPR020566; His_synth_bifunc_HisB.
+DR   InterPro; IPR005954; HisB_N.
+DR   InterPro; IPR006543; Histidinol-phos.
+DR   InterPro; IPR038494; IGPD_sf.
+DR   InterPro; IPR000807; ImidazoleglycerolP_deHydtase.
+DR   InterPro; IPR020565; ImidazoleglycerP_deHydtase_CS.
+DR   InterPro; IPR013954; PNK3P.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   PANTHER; PTHR23133; PTHR23133; 1.
+DR   Pfam; PF00475; IGPD; 1.
+DR   Pfam; PF08645; PNK3P; 1.
+DR   SUPFAM; SSF54211; SSF54211; 2.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01662; HAD-SF-IIIA; 1.
+DR   TIGRFAMs; TIGR01261; hisB_Nterm; 1.
+DR   TIGRFAMs; TIGR01656; Histidinol-ppas; 1.
+DR   PROSITE; PS00954; IGP_DEHYDRATASE_1; 1.
+DR   PROSITE; PS00955; IGP_DEHYDRATASE_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cytoplasm; Histidine biosynthesis; Hydrolase;
+KW   Lyase; Magnesium; Metal-binding; Multifunctional enzyme;
+KW   Reference proteome; Zinc.
+FT   CHAIN           1..357
+FT                   /note="Histidine biosynthesis bifunctional protein HisB"
+FT                   /id="PRO_0000158203"
+FT   REGION          1..168
+FT                   /note="Histidinol-phosphatase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   REGION          169..357
+FT                   /note="Imidazoleglycerol-phosphate dehydratase"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   ACT_SITE        9
+FT                   /note="Nucleophile"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   ACT_SITE        11
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           9
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           11
+FT                   /note="Magnesium; via carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           93
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           95
+FT                   /note="Zinc; via pros nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           101
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           103
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+FT   METAL           130
+FT                   /note="Magnesium"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01022"
+SQ   SEQUENCE   357 AA;  40586 MW;  C931AA4CBADA1CAC CRC64;
+     MSEKVLFIDR DGTLISEPLD NFQVDSFDKL EFKQDVISSL ITLKKFNYKF VMVTNQDGLG
+     SKNFPYKSFI RPHEFMIDVF LSQGIKFEEV LICPHELKSG CQCRKPNLGM VQHWLLNDML
+     DKQHSCVIGD RKTDMILANN MGILGIRYGT KQGNSWSDIV FKLTKKHDRH AKVVRNTKET
+     NVSIEVWLDK QGGSLINTGL NMFNHMLDQI AVHSCIRMKI ISSGDICVDD HHTVEDVGIV
+     LGKAILKALG NKLGINRFGF ALPMDDSSSY CLLDISGRPF LKFRSYFKHQ YIGDMSSEMV
+     RHFFQSLAFA MKCTLHLRSM GINDHHRLES LFKVFGKTLK QAIVVSGKNL PSSKGLL
+//

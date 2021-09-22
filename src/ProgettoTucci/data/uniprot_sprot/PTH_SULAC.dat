@@ -1,0 +1,83 @@
+ID   PTH_SULAC               Reviewed;         120 AA.
+AC   Q877G5; Q4JAN6;
+DT   10-MAY-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   02-DEC-2020, entry version 86.
+DE   RecName: Full=Peptidyl-tRNA hydrolase {ECO:0000255|HAMAP-Rule:MF_00628};
+DE            Short=PTH {ECO:0000255|HAMAP-Rule:MF_00628};
+DE            EC=3.1.1.29 {ECO:0000255|HAMAP-Rule:MF_00628};
+GN   Name=pth {ECO:0000255|HAMAP-Rule:MF_00628}; OrderedLocusNames=Saci_0770;
+OS   Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC
+OS   15157 / NCIMB 11770).
+OC   Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+OC   Sulfolobus.
+OX   NCBI_TaxID=330779;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770;
+RA   Esnault C., Trehin A., Duguet M.;
+RT   "AAA family ATPase in the archeae Sulfolobus acidocaldarius.";
+RL   Submitted (MAR-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770;
+RX   PubMed=15995215; DOI=10.1128/jb.187.14.4992-4999.2005;
+RA   Chen L., Bruegger K., Skovgaard M., Redder P., She Q., Torarinsson E.,
+RA   Greve B., Awayez M., Zibat A., Klenk H.-P., Garrett R.A.;
+RT   "The genome of Sulfolobus acidocaldarius, a model organism of the
+RT   Crenarchaeota.";
+RL   J. Bacteriol. 187:4992-4999(2005).
+CC   -!- FUNCTION: The natural substrate for this enzyme may be peptidyl-tRNAs
+CC       which drop off the ribosome during protein synthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00628}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-acyl-L-alpha-aminoacyl-tRNA = an N-acyl-L-amino acid +
+CC         H(+) + tRNA; Xref=Rhea:RHEA:54448, Rhea:RHEA-COMP:10123, Rhea:RHEA-
+CC         COMP:13883, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:59874,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:138191; EC=3.1.1.29;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00628};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00628}.
+CC   -!- SIMILARITY: Belongs to the PTH2 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00628}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAY80143.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY255679; AAP13474.1; -; Genomic_DNA.
+DR   EMBL; CP000077; AAY80143.1; ALT_INIT; Genomic_DNA.
+DR   RefSeq; WP_015385493.1; NC_007181.1.
+DR   SMR; Q877G5; -.
+DR   STRING; 330779.Saci_0770; -.
+DR   PRIDE; Q877G5; -.
+DR   EnsemblBacteria; AAY80143; AAY80143; Saci_0770.
+DR   GeneID; 3473833; -.
+DR   KEGG; sai:Saci_0770; -.
+DR   PATRIC; fig|330779.12.peg.736; -.
+DR   eggNOG; arCOG04228; Archaea.
+DR   HOGENOM; CLU_073661_2_2_2; -.
+DR   BioCyc; SACI330779:G1G4L-754-MONOMER; -.
+DR   Proteomes; UP000001018; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004045; F:aminoacyl-tRNA hydrolase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-UniRule.
+DR   CDD; cd02430; PTH2; 1.
+DR   Gene3D; 3.40.1490.10; -; 1.
+DR   HAMAP; MF_00628; Pept_tRNA_hydro_arch; 1.
+DR   InterPro; IPR023476; Pep_tRNA_hydro_II_dom_sf.
+DR   InterPro; IPR034759; Pept_tRNA_hydro_arch.
+DR   InterPro; IPR002833; PTH2.
+DR   PANTHER; PTHR12649; PTHR12649; 1.
+DR   Pfam; PF01981; PTH2; 1.
+DR   SUPFAM; SSF102462; SSF102462; 1.
+DR   TIGRFAMs; TIGR00283; arch_pth2; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Hydrolase; Reference proteome.
+FT   CHAIN           1..120
+FT                   /note="Peptidyl-tRNA hydrolase"
+FT                   /id="PRO_0000120303"
+SQ   SEQUENCE   120 AA;  13148 MW;  2FE443DD10B1F69C CRC64;
+     MKMAVLVRTD LDMGKGKIAA QVAHAAVSLV LEIVQKRSKA EWKEWLEMWI NQGQPKIVLK
+     VKNLDELLEK YNKALQSGLP ATIIQDAGKT QIEPGTITCA GIGPGPEEMI DNITGDLKLL
+//

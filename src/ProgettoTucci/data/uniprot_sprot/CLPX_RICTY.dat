@@ -1,0 +1,104 @@
+ID   CLPX_RICTY              Reviewed;         425 AA.
+AC   Q68W45;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   11-OCT-2004, sequence version 1.
+DT   10-FEB-2021, entry version 97.
+DE   RecName: Full=ATP-dependent Clp protease ATP-binding subunit ClpX {ECO:0000255|HAMAP-Rule:MF_00175};
+GN   Name=clpX {ECO:0000255|HAMAP-Rule:MF_00175}; OrderedLocusNames=RT0687;
+OS   Rickettsia typhi (strain ATCC VR-144 / Wilmington).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales;
+OC   Rickettsiaceae; Rickettsieae; Rickettsia; typhus group.
+OX   NCBI_TaxID=257363;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC VR-144 / Wilmington;
+RX   PubMed=15317790; DOI=10.1128/jb.186.17.5842-5855.2004;
+RA   McLeod M.P., Qin X., Karpathy S.E., Gioia J., Highlander S.K., Fox G.E.,
+RA   McNeill T.Z., Jiang H., Muzny D., Jacob L.S., Hawes A.C., Sodergren E.,
+RA   Gill R., Hume J., Morgan M., Fan G., Amin A.G., Gibbs R.A., Hong C.,
+RA   Yu X.-J., Walker D.H., Weinstock G.M.;
+RT   "Complete genome sequence of Rickettsia typhi and comparison with sequences
+RT   of other Rickettsiae.";
+RL   J. Bacteriol. 186:5842-5855(2004).
+CC   -!- FUNCTION: ATP-dependent specificity component of the Clp protease. It
+CC       directs the protease to specific substrates. Can perform chaperone
+CC       functions in the absence of ClpP. {ECO:0000255|HAMAP-Rule:MF_00175}.
+CC   -!- SUBUNIT: Component of the ClpX-ClpP complex. Forms a hexameric ring
+CC       that, in the presence of ATP, binds to fourteen ClpP subunits assembled
+CC       into a disk-like structure with a central cavity, resembling the
+CC       structure of eukaryotic proteasomes. {ECO:0000255|HAMAP-Rule:MF_00175}.
+CC   -!- SIMILARITY: Belongs to the ClpX chaperone family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00175}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE017197; AAU04147.1; -; Genomic_DNA.
+DR   RefSeq; WP_011191124.1; NC_006142.1.
+DR   SMR; Q68W45; -.
+DR   STRING; 257363.RT0687; -.
+DR   EnsemblBacteria; AAU04147; AAU04147; RT0687.
+DR   KEGG; rty:RT0687; -.
+DR   eggNOG; COG1219; Bacteria.
+DR   HOGENOM; CLU_014218_8_2_5; -.
+DR   OMA; HYKRVQA; -.
+DR   OrthoDB; 718259at2; -.
+DR   BioCyc; RTYP257363:G1G0L-692-MONOMER; -.
+DR   Proteomes; UP000000604; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   GO; GO:0046983; F:protein dimerization activity; IEA:InterPro.
+DR   GO; GO:0051082; F:unfolded protein binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   GO; GO:0006457; P:protein folding; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.50.30; -; 1.
+DR   HAMAP; MF_00175; ClpX; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003959; ATPase_AAA_core.
+DR   InterPro; IPR019489; Clp_ATPase_C.
+DR   InterPro; IPR004487; Clp_protease_ATP-bd_su_ClpX.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR010603; Znf_CppX_C4.
+DR   InterPro; IPR038366; Znf_CppX_C4_sf.
+DR   Pfam; PF07724; AAA_2; 1.
+DR   Pfam; PF10431; ClpB_D2-small; 1.
+DR   Pfam; PF06689; zf-C4_ClpX; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM01086; ClpB_D2-small; 1.
+DR   SMART; SM00994; zf-C4_ClpX; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00382; clpX; 1.
+DR   PROSITE; PS51902; CLPX_ZB; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Chaperone; Metal-binding; Nucleotide-binding; Zinc.
+FT   CHAIN           1..425
+FT                   /note="ATP-dependent Clp protease ATP-binding subunit ClpX"
+FT                   /id="PRO_0000160414"
+FT   DOMAIN          1..53
+FT                   /note="ClpX-type ZB"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01250"
+FT   NP_BIND         117..124
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00175"
+FT   METAL           12
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01250"
+FT   METAL           15
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01250"
+FT   METAL           34
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01250"
+FT   METAL           37
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU01250"
+SQ   SEQUENCE   425 AA;  47010 MW;  BA6D79DDF6033B69 CRC64;
+     MVVDADKKEL ICSFCSKKQH EVKKLIAGPA VFICDECIDL CTDIMKEESK VALKQITASI
+     PTPQKICKIL NDYVVGQDKA KKILAVAVYN HYKRLEYVQS GNNDVELNKS NILLIGPTGS
+     GKTLLAQTLA KILDVPFTMA DATSLTEAGY VGEDVENILL RLLISAEFNI AKAQKGIIYI
+     DEVDKIARKS DNPSITRDVS GEGVQQALLK IMEGTVASVP PQGGRKHPQQ DFVQLDTSNI
+     LFICGGAFMG IDRIIRSRTN HSSIGFAANI NIDKEKNNNE VLKSLEIEDL TKFGLIPEFI
+     GRLPIVTTLE ELDKESLITI LTKPKNAIVK QYQKQFELDD AELVIEYSAL EAIAEKALVK
+     KTGARGLRSI LEHLLLDSMY KVAELKKQRV TLTKEVVDGL IEPVMTSIIS TKLNKKQQMI
+     EDIPA
+//

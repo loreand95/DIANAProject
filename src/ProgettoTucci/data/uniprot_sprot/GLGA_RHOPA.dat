@@ -1,0 +1,89 @@
+ID   GLGA_RHOPA              Reviewed;         483 AA.
+AC   Q6NCT7;
+DT   15-MAR-2005, integrated into UniProtKB/Swiss-Prot.
+DT   05-JUL-2004, sequence version 1.
+DT   07-APR-2021, entry version 90.
+DE   RecName: Full=Glycogen synthase {ECO:0000255|HAMAP-Rule:MF_00484};
+DE            EC=2.4.1.21 {ECO:0000255|HAMAP-Rule:MF_00484};
+DE   AltName: Full=Starch [bacterial glycogen] synthase {ECO:0000255|HAMAP-Rule:MF_00484};
+GN   Name=glgA {ECO:0000255|HAMAP-Rule:MF_00484}; Synonyms=glgA1;
+GN   OrderedLocusNames=RPA0382;
+OS   Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009).
+OC   Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+OC   Bradyrhizobiaceae; Rhodopseudomonas.
+OX   NCBI_TaxID=258594;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-98 / CGA009;
+RX   PubMed=14704707; DOI=10.1038/nbt923;
+RA   Larimer F.W., Chain P., Hauser L., Lamerdin J.E., Malfatti S., Do L.,
+RA   Land M.L., Pelletier D.A., Beatty J.T., Lang A.S., Tabita F.R.,
+RA   Gibson J.L., Hanson T.E., Bobst C., Torres y Torres J.L., Peres C.,
+RA   Harrison F.H., Gibson J., Harwood C.S.;
+RT   "Complete genome sequence of the metabolically versatile photosynthetic
+RT   bacterium Rhodopseudomonas palustris.";
+RL   Nat. Biotechnol. 22:55-61(2004).
+CC   -!- FUNCTION: Synthesizes alpha-1,4-glucan chains using ADP-glucose.
+CC       {ECO:0000255|HAMAP-Rule:MF_00484}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[(1->4)-alpha-D-glucosyl](n) + ADP-alpha-D-glucose = [(1->4)-
+CC         alpha-D-glucosyl](n+1) + ADP + H(+); Xref=Rhea:RHEA:18189, Rhea:RHEA-
+CC         COMP:9584, Rhea:RHEA-COMP:9587, ChEBI:CHEBI:15378, ChEBI:CHEBI:15444,
+CC         ChEBI:CHEBI:57498, ChEBI:CHEBI:456216; EC=2.4.1.21;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00484};
+CC   -!- PATHWAY: Glycan biosynthesis; glycogen biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00484}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 1 family.
+CC       Bacterial/plant glycogen synthase subfamily. {ECO:0000255|HAMAP-
+CC       Rule:MF_00484}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX572594; CAE25826.1; -; Genomic_DNA.
+DR   RefSeq; WP_011155950.1; NC_005296.1.
+DR   SMR; Q6NCT7; -.
+DR   STRING; 258594.RPA0382; -.
+DR   CAZy; GT5; Glycosyltransferase Family 5.
+DR   PRIDE; Q6NCT7; -.
+DR   EnsemblBacteria; CAE25826; CAE25826; RPA0382.
+DR   GeneID; 57612818; -.
+DR   KEGG; rpa:RPA0382; -.
+DR   eggNOG; COG0297; Bacteria.
+DR   HOGENOM; CLU_009583_18_4_5; -.
+DR   OMA; TWCPWYM; -.
+DR   PhylomeDB; Q6NCT7; -.
+DR   BioCyc; RPAL258594:TX73_RS01980-MONOMER; -.
+DR   UniPathway; UPA00164; -.
+DR   Proteomes; UP000001426; Chromosome.
+DR   GO; GO:0033201; F:alpha-1,4-glucan synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004373; F:glycogen (starch) synthase activity; IEA:InterPro.
+DR   GO; GO:0009011; F:starch synthase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0005978; P:glycogen biosynthetic process; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_00484; Glycogen_synth; 1.
+DR   InterPro; IPR001296; Glyco_trans_1.
+DR   InterPro; IPR011835; GS/SS.
+DR   InterPro; IPR013534; Starch_synth_cat_dom.
+DR   Pfam; PF08323; Glyco_transf_5; 1.
+DR   Pfam; PF00534; Glycos_transf_1; 1.
+DR   TIGRFAMs; TIGR02095; glgA; 1.
+PE   3: Inferred from homology;
+KW   Glycogen biosynthesis; Glycosyltransferase; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..483
+FT                   /note="Glycogen synthase"
+FT                   /id="PRO_0000188641"
+FT   BINDING         18
+FT                   /note="ADP-glucose"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00484"
+SQ   SEQUENCE   483 AA;  51088 MW;  5CA0D7C2F4E93627 CRC64;
+     MTTLAVLSVA SELFPLIKTG GLADVAGALP AALRANDVAV TSLLPGYPAV LGGIEDPQQV
+     HSFNELFGGT ARLLAARCGD LDLFVLDAPH LYVRPGNPYV GPDGKDWPDN GLRFAALAQV
+     GAALGQGLLP HYKPDVLHAH DWQTGLLPAY LKYSGRPGPK TVFTIHNLAF QGRFPYELLG
+     RLGLPERAFG LDGIEYYGGI GYLKAGLQLA DRITTVSPTY AAEIQGSEAG MGLDGLLRLR
+     ADRLSGILNG IDTDVWNPAS DALISATYDV ESIAARARNK KVLQARFGLK PEPGALLYGV
+     ISRLSWQKGL DLLLEALPQL IGGGAQLALL GSGDAELEQG YAAAARKYPG QVGAVIGYDE
+     ALAHQIQAGA DALLVPSRFE PCGLTQLCAL RYGAVPVVAR VGGLADTVVD ANEMATATGV
+     ATGVQFAPVT TDALIKAFGK TRALFADVVA WRNLQINGMT TDVSWKNPAQ HYAKLYRDLV
+     AER
+//

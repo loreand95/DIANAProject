@@ -1,0 +1,106 @@
+ID   FKB14_PONAB             Reviewed;         211 AA.
+AC   Q5R941;
+DT   10-MAY-2005, integrated into UniProtKB/Swiss-Prot.
+DT   21-DEC-2004, sequence version 1.
+DT   07-APR-2021, entry version 84.
+DE   RecName: Full=Peptidyl-prolyl cis-trans isomerase FKBP14;
+DE            Short=PPIase FKBP14;
+DE            EC=5.2.1.8 {ECO:0000250|UniProtKB:Q9NWM8};
+DE   AltName: Full=FK506-binding protein 14;
+DE            Short=FKBP-14;
+DE   AltName: Full=Rotamase;
+DE   Flags: Precursor;
+GN   Name=FKBP14;
+OS   Pongo abelii (Sumatran orangutan) (Pongo pygmaeus abelii).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Pongo.
+OX   NCBI_TaxID=9601;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Heart;
+RG   The German cDNA consortium;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: PPIase which accelerates the folding of proteins during
+CC       protein synthesis. Has a preference for substrates containing 4-
+CC       hydroxylproline modifications, including type III collagen. May also
+CC       target type VI and type X collagens. {ECO:0000250|UniProtKB:Q9NWM8}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[protein]-peptidylproline (omega=180) = [protein]-
+CC         peptidylproline (omega=0); Xref=Rhea:RHEA:16237, Rhea:RHEA-
+CC         COMP:10747, Rhea:RHEA-COMP:10748, ChEBI:CHEBI:83833,
+CC         ChEBI:CHEBI:83834; EC=5.2.1.8;
+CC         Evidence={ECO:0000250|UniProtKB:Q9NWM8};
+CC   -!- ACTIVITY REGULATION: Inhibited by tacrolimus/FK506.
+CC       {ECO:0000250|UniProtKB:Q9NWM8}.
+CC   -!- SUBUNIT: Monomer. Homodimer. Interacts with type III, type IV and type
+CC       X collagens. {ECO:0000250|UniProtKB:Q9NWM8}.
+CC   -!- SUBCELLULAR LOCATION: Endoplasmic reticulum lumen {ECO:0000255|PROSITE-
+CC       ProRule:PRU10138}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CR859554; CAH91719.1; -; mRNA.
+DR   RefSeq; NP_001127454.1; NM_001133982.1.
+DR   SMR; Q5R941; -.
+DR   STRING; 9601.ENSPPYP00000019820; -.
+DR   GeneID; 100174527; -.
+DR   KEGG; pon:100174527; -.
+DR   CTD; 55033; -.
+DR   eggNOG; KOG0549; Eukaryota.
+DR   InParanoid; Q5R941; -.
+DR   OMA; MMLVHYE; -.
+DR   OrthoDB; 1507309at2759; -.
+DR   Proteomes; UP000001595; Unplaced.
+DR   GO; GO:0005788; C:endoplasmic reticulum lumen; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005509; F:calcium ion binding; IEA:InterPro.
+DR   GO; GO:0003755; F:peptidyl-prolyl cis-trans isomerase activity; IEA:UniProtKB-KW.
+DR   InterPro; IPR011992; EF-hand-dom_pair.
+DR   InterPro; IPR018247; EF_Hand_1_Ca_BS.
+DR   InterPro; IPR002048; EF_hand_dom.
+DR   InterPro; IPR001179; PPIase_FKBP_dom.
+DR   Pfam; PF13499; EF-hand_7; 1.
+DR   Pfam; PF00254; FKBP_C; 1.
+DR   SUPFAM; SSF47473; SSF47473; 1.
+DR   PROSITE; PS00018; EF_HAND_1; 1.
+DR   PROSITE; PS50222; EF_HAND_2; 2.
+DR   PROSITE; PS00014; ER_TARGET; 1.
+DR   PROSITE; PS50059; FKBP_PPIASE; 1.
+PE   2: Evidence at transcript level;
+KW   Calcium; Disulfide bond; Endoplasmic reticulum; Glycoprotein; Isomerase;
+KW   Metal-binding; Reference proteome; Repeat; Rotamase; Signal.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           20..211
+FT                   /note="Peptidyl-prolyl cis-trans isomerase FKBP14"
+FT                   /id="PRO_0000025523"
+FT   DOMAIN          45..135
+FT                   /note="PPIase FKBP-type"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00277"
+FT   DOMAIN          135..170
+FT                   /note="EF-hand 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   DOMAIN          179..211
+FT                   /note="EF-hand 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         148..159
+FT                   /note="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   CA_BIND         192..203
+FT                   /note="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00448"
+FT   MOTIF           208..211
+FT                   /note="Prevents secretion from ER"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10138"
+FT   CARBOHYD        176
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        38..96
+FT                   /evidence="ECO:0000250|UniProtKB:Q9NWM8"
+SQ   SEQUENCE   211 AA;  24172 MW;  858184954FE10029 CRC64;
+     MRLFLWNAVL TLFVTSLIGA LIPEPEVKIE VLQKPFICHR KTKGGDLMLV HYEGYLEKDG
+     SLFHSTHKHN NGQPIWFTLG ILEALKGWDQ GLKGMCVGEK RKLIIPPALG YGKEGKGKIP
+     PESTLIFNID LLEIRNGPRS HESFQEMDLN DDWKLSKDEV KAYLKKEFEK HGAVVNESHH
+     DALVEDIFDK EDEDKDGFIS AREFTYKHDE L
+//

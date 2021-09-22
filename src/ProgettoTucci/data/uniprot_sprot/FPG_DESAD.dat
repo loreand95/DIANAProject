@@ -1,0 +1,137 @@
+ID   FPG_DESAD               Reviewed;         274 AA.
+AC   C6BUX8;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-SEP-2009, sequence version 1.
+DT   07-APR-2021, entry version 63.
+DE   RecName: Full=Formamidopyrimidine-DNA glycosylase {ECO:0000255|HAMAP-Rule:MF_00103};
+DE            Short=Fapy-DNA glycosylase {ECO:0000255|HAMAP-Rule:MF_00103};
+DE            EC=3.2.2.23 {ECO:0000255|HAMAP-Rule:MF_00103};
+DE   AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM {ECO:0000255|HAMAP-Rule:MF_00103};
+DE            Short=AP lyase MutM {ECO:0000255|HAMAP-Rule:MF_00103};
+DE            EC=4.2.99.18 {ECO:0000255|HAMAP-Rule:MF_00103};
+GN   Name=mutM {ECO:0000255|HAMAP-Rule:MF_00103};
+GN   Synonyms=fpg {ECO:0000255|HAMAP-Rule:MF_00103};
+GN   OrderedLocusNames=Desal_0043;
+OS   Desulfovibrio salexigens (strain ATCC 14822 / DSM 2638 / NCIB 8403 / VKM
+OS   B-1763).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+OC   Desulfovibrionaceae; Maridesulfovibrio.
+OX   NCBI_TaxID=526222;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 14822 / DSM 2638 / NCIB 8403 / VKM B-1763;
+RG   US DOE Joint Genome Institute;
+RA   Lucas S., Copeland A., Lapidus A., Glavina del Rio T., Tice H., Bruce D.,
+RA   Goodwin L., Pitluck S., Munk A.C., Brettin T., Detter J.C., Han C.,
+RA   Tapia R., Larimer F., Land M., Hauser L., Kyrpides N., Anderson I.,
+RA   Wall J.D., Arkin A.P., Dehal P., Chivian D., Giles B., Hazen T.C.;
+RT   "Complete sequence of Desulfovibrio salexigens DSM 2638.";
+RL   Submitted (JUN-2009) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Involved in base excision repair of DNA damaged by oxidation
+CC       or by mutagenic agents. Acts as DNA glycosylase that recognizes and
+CC       removes damaged bases. Has a preference for oxidized purines, such as
+CC       7,8-dihydro-8-oxoguanine (8-oxoG). Has AP (apurinic/apyrimidinic) lyase
+CC       activity and introduces nicks in the DNA strand. Cleaves the DNA
+CC       backbone by beta-delta elimination to generate a single-strand break at
+CC       the site of the removed base with both 3'- and 5'-phosphates.
+CC       {ECO:0000255|HAMAP-Rule:MF_00103}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Hydrolysis of DNA containing ring-opened 7-methylguanine
+CC         residues, releasing 2,6-diamino-4-hydroxy-5-(N-
+CC         methyl)formamidopyrimidine.; EC=3.2.2.23;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00103};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=The C-O-P bond 3' to the apurinic or apyrimidinic site in DNA
+CC         is broken by a beta-elimination reaction, leaving a 3'-terminal
+CC         unsaturated sugar and a product with a terminal 5'-phosphate.;
+CC         EC=4.2.99.18; Evidence={ECO:0000255|HAMAP-Rule:MF_00103};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00103};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_00103};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00103}.
+CC   -!- SIMILARITY: Belongs to the FPG family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00103}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001649; ACS78115.1; -; Genomic_DNA.
+DR   RefSeq; WP_012765641.1; NC_012881.1.
+DR   SMR; C6BUX8; -.
+DR   STRING; 526222.Desal_0043; -.
+DR   EnsemblBacteria; ACS78115; ACS78115; Desal_0043.
+DR   KEGG; dsa:Desal_0043; -.
+DR   eggNOG; COG0266; Bacteria.
+DR   HOGENOM; CLU_038423_1_2_7; -.
+DR   OMA; GVHLRMT; -.
+DR   OrthoDB; 1162346at2; -.
+DR   BioCyc; DSAL526222:G1GF5-45-MONOMER; -.
+DR   Proteomes; UP000002601; Chromosome.
+DR   GO; GO:0140078; F:class I DNA-(apurinic or apyrimidinic site) endonuclease activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003684; F:damaged DNA binding; IEA:InterPro.
+DR   GO; GO:0008534; F:oxidized purine nucleobase lesion DNA N-glycosylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006284; P:base-excision repair; IEA:InterPro.
+DR   Gene3D; 3.20.190.10; -; 1.
+DR   HAMAP; MF_00103; Fapy_DNA_glycosyl; 1.
+DR   InterPro; IPR015886; DNA_glyclase/AP_lyase_DNA-bd.
+DR   InterPro; IPR015887; DNA_glyclase_Znf_dom_DNA_BS.
+DR   InterPro; IPR020629; Formamido-pyr_DNA_Glyclase.
+DR   InterPro; IPR012319; FPG_cat.
+DR   InterPro; IPR035937; MutM-like_N-ter.
+DR   InterPro; IPR010979; Ribosomal_S13-like_H2TH.
+DR   InterPro; IPR000214; Znf_DNA_glyclase/AP_lyase.
+DR   InterPro; IPR010663; Znf_FPG/IleRS.
+DR   Pfam; PF01149; Fapy_DNA_glyco; 1.
+DR   Pfam; PF06831; H2TH; 1.
+DR   Pfam; PF06827; zf-FPG_IleRS; 1.
+DR   SMART; SM00898; Fapy_DNA_glyco; 1.
+DR   SMART; SM01232; H2TH; 1.
+DR   SUPFAM; SSF46946; SSF46946; 1.
+DR   SUPFAM; SSF81624; SSF81624; 1.
+DR   TIGRFAMs; TIGR00577; fpg; 1.
+DR   PROSITE; PS51068; FPG_CAT; 1.
+DR   PROSITE; PS01242; ZF_FPG_1; 1.
+DR   PROSITE; PS51066; ZF_FPG_2; 1.
+PE   3: Inferred from homology;
+KW   DNA damage; DNA repair; DNA-binding; Glycosidase; Hydrolase; Lyase;
+KW   Metal-binding; Multifunctional enzyme; Reference proteome; Zinc;
+KW   Zinc-finger.
+FT   INIT_MET        1
+FT                   /note="Removed"
+FT                   /evidence="ECO:0000250"
+FT   CHAIN           2..274
+FT                   /note="Formamidopyrimidine-DNA glycosylase"
+FT                   /id="PRO_1000202822"
+FT   ZN_FING         237..271
+FT                   /note="FPG-type"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   ACT_SITE        2
+FT                   /note="Schiff-base intermediate with DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   ACT_SITE        3
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   ACT_SITE        58
+FT                   /note="Proton donor; for beta-elimination activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   ACT_SITE        261
+FT                   /note="Proton donor; for delta-elimination activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   BINDING         92
+FT                   /note="DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   BINDING         111
+FT                   /note="DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+FT   BINDING         152
+FT                   /note="DNA"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00103"
+SQ   SEQUENCE   274 AA;  30222 MW;  CF79EA1EF0FF42DC CRC64;
+     MPELPEVEVI SRGLAESLEG KTIESVKILN HSSVKMPWYL FSSRVAGEKI TRIHRRAKLL
+     IMDLGDDLHI TFHLKMTGRV LAHEGPTTPE PHTRIVFGLT DGGSIEFHDT RKFGEVRALN
+     NEELQEWDFY KNLGPEPLEV TAEELAERIT GRKAQIKGLL LNQSVVAGCG NIYADESLFR
+     SGIHPKAKAS DLSNESLVKL FTELQAVLKQ AIQENGSSIR DYVDAGGDAG GFQNSFKVYG
+     KKGEPCPDCG KIFEGATVAG RTSTFCSNCQ KMKD
+//

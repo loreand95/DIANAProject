@@ -1,0 +1,117 @@
+ID   DAPE_SALSV              Reviewed;         375 AA.
+AC   B4TR55;
+DT   26-MAY-2009, integrated into UniProtKB/Swiss-Prot.
+DT   23-SEP-2008, sequence version 1.
+DT   07-APR-2021, entry version 66.
+DE   RecName: Full=Succinyl-diaminopimelate desuccinylase {ECO:0000255|HAMAP-Rule:MF_01690};
+DE            Short=SDAP desuccinylase {ECO:0000255|HAMAP-Rule:MF_01690};
+DE            EC=3.5.1.18 {ECO:0000255|HAMAP-Rule:MF_01690};
+DE   AltName: Full=N-succinyl-LL-2,6-diaminoheptanedioate amidohydrolase {ECO:0000255|HAMAP-Rule:MF_01690};
+GN   Name=dapE {ECO:0000255|HAMAP-Rule:MF_01690}; OrderedLocusNames=SeSA_A2716;
+OS   Salmonella schwarzengrund (strain CVM19633).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+OC   Enterobacteriaceae; Salmonella.
+OX   NCBI_TaxID=439843;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CVM19633;
+RX   PubMed=21602358; DOI=10.1128/jb.00297-11;
+RA   Fricke W.F., Mammel M.K., McDermott P.F., Tartera C., White D.G.,
+RA   Leclerc J.E., Ravel J., Cebula T.A.;
+RT   "Comparative genomics of 28 Salmonella enterica isolates: evidence for
+RT   CRISPR-mediated adaptive sublineage evolution.";
+RL   J. Bacteriol. 193:3556-3568(2011).
+CC   -!- FUNCTION: Catalyzes the hydrolysis of N-succinyl-L,L-diaminopimelic
+CC       acid (SDAP), forming succinate and LL-2,6-diaminoheptanedioate (DAP),
+CC       an intermediate involved in the bacterial biosynthesis of lysine and
+CC       meso-diaminopimelic acid, an essential component of bacterial cell
+CC       walls. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=H2O + N-succinyl-(2S,6S)-2,6-diaminoheptanedioate = (2S,6S)-
+CC         2,6-diaminoheptanedioate + succinate; Xref=Rhea:RHEA:22608,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:30031, ChEBI:CHEBI:57609,
+CC         ChEBI:CHEBI:58087; EC=3.5.1.18; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01690};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01690};
+CC       Note=Binds 1 Zn(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01690};
+CC   -!- COFACTOR:
+CC       Name=Co(2+); Xref=ChEBI:CHEBI:48828;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01690};
+CC       Note=Binds 1 Co(2+) ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01690};
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-lysine biosynthesis via DAP
+CC       pathway; LL-2,6-diaminopimelate from (S)-tetrahydrodipicolinate
+CC       (succinylase route): step 3/3. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   -!- SIMILARITY: Belongs to the peptidase M20A family. DapE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01690}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001127; ACF88706.1; -; Genomic_DNA.
+DR   RefSeq; WP_001277825.1; NC_011094.1.
+DR   SMR; B4TR55; -.
+DR   MEROPS; M20.010; -.
+DR   EnsemblBacteria; ACF88706; ACF88706; SeSA_A2716.
+DR   KEGG; sew:SeSA_A2716; -.
+DR   HOGENOM; CLU_021802_4_0_6; -.
+DR   OMA; LNSHHDT; -.
+DR   UniPathway; UPA00034; UER00021.
+DR   Proteomes; UP000001865; Chromosome.
+DR   GO; GO:0050897; F:cobalt ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009014; F:succinyl-diaminopimelate desuccinylase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0019877; P:diaminopimelate biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009089; P:lysine biosynthetic process via diaminopimelate; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01690; DapE; 1.
+DR   InterPro; IPR001261; ArgE/DapE_CS.
+DR   InterPro; IPR036264; Bact_exopeptidase_dim_dom.
+DR   InterPro; IPR005941; DapE_proteobac.
+DR   InterPro; IPR002933; Peptidase_M20.
+DR   InterPro; IPR011650; Peptidase_M20_dimer.
+DR   Pfam; PF07687; M20_dimer; 1.
+DR   Pfam; PF01546; Peptidase_M20; 1.
+DR   SUPFAM; SSF55031; SSF55031; 1.
+DR   TIGRFAMs; TIGR01246; dapE_proteo; 1.
+DR   PROSITE; PS00758; ARGE_DAPE_CPG2_1; 1.
+DR   PROSITE; PS00759; ARGE_DAPE_CPG2_2; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Cobalt; Diaminopimelate biosynthesis; Hydrolase;
+KW   Lysine biosynthesis; Metal-binding; Zinc.
+FT   CHAIN           1..375
+FT                   /note="Succinyl-diaminopimelate desuccinylase"
+FT                   /id="PRO_0000375721"
+FT   ACT_SITE        68
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   ACT_SITE        133
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           66
+FT                   /note="Cobalt or zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           99
+FT                   /note="Cobalt or zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           99
+FT                   /note="Cobalt or zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           134
+FT                   /note="Cobalt or zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           162
+FT                   /note="Cobalt or zinc 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+FT   METAL           348
+FT                   /note="Cobalt or zinc 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01690"
+SQ   SEQUENCE   375 AA;  41578 MW;  ED6165EDEEB262A0 CRC64;
+     MSCPVIELTQ QLIRRPSLSP DDAGCQALMI ERLRKIGFTI EHMDFGDTQN FWAWRGRGET
+     LAFAGHTDVV PAGDVDRWIN PPFEPTIRDG MLFGRGAADM KGSLAAMVVA AERFVAQHPH
+     HRGRLAFLIT SDEEASAKNG TVKVVEALMA RNERLDYCLV GEPSSTEIVG DVVKNGRRGS
+     LTCNLTIHGV QGHVAYPHLA DNPVHRAAPF LNELVAIEWD RGNDFFPATS MQVANIQAGT
+     GSNNVIPGEL FVQFNFRFST ELTDEMIKER VHALLEKHQL RYTVDWWLSG QPFLTARGKL
+     VDAVVNAIEH YNEIKPQLLT TGGTSDGRFI ARMGAQVVEL GPVNATIHKI NECVNAADLQ
+     LLARMYQRIM EQLVA
+//

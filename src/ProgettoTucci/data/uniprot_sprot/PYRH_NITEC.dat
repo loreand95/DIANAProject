@@ -1,0 +1,110 @@
+ID   PYRH_NITEC              Reviewed;         237 AA.
+AC   Q0AEH6;
+DT   18-MAR-2008, integrated into UniProtKB/Swiss-Prot.
+DT   17-OCT-2006, sequence version 1.
+DT   02-DEC-2020, entry version 85.
+DE   RecName: Full=Uridylate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UK {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            EC=2.7.4.22 {ECO:0000255|HAMAP-Rule:MF_01220};
+DE   AltName: Full=Uridine monophosphate kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMP kinase {ECO:0000255|HAMAP-Rule:MF_01220};
+DE            Short=UMPK {ECO:0000255|HAMAP-Rule:MF_01220};
+GN   Name=pyrH {ECO:0000255|HAMAP-Rule:MF_01220}; OrderedLocusNames=Neut_2033;
+OS   Nitrosomonas eutropha (strain DSM 101675 / C91 / Nm57).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales;
+OC   Nitrosomonadaceae; Nitrosomonas.
+OX   NCBI_TaxID=335283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=DSM 101675 / C91 / Nm57;
+RX   PubMed=17991028; DOI=10.1111/j.1462-2920.2007.01409.x;
+RA   Stein L.Y., Arp D.J., Berube P.M., Chain P.S., Hauser L., Jetten M.S.,
+RA   Klotz M.G., Larimer F.W., Norton J.M., Op den Camp H.J.M., Shin M., Wei X.;
+RT   "Whole-genome analysis of the ammonia-oxidizing bacterium, Nitrosomonas
+RT   eutropha C91: implications for niche adaptation.";
+RL   Environ. Microbiol. 9:2993-3007(2007).
+CC   -!- FUNCTION: Catalyzes the reversible phosphorylation of UMP to UDP.
+CC       {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + UMP = ADP + UDP; Xref=Rhea:RHEA:24400,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:57865, ChEBI:CHEBI:58223,
+CC         ChEBI:CHEBI:456216; EC=2.7.4.22; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_01220};
+CC   -!- ACTIVITY REGULATION: Inhibited by UTP. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   -!- PATHWAY: Pyrimidine metabolism; CTP biosynthesis via de novo pathway;
+CC       UDP from UMP (UMPK route): step 1/1. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01220}.
+CC   -!- SIMILARITY: Belongs to the UMP kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01220}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000450; ABI60256.1; -; Genomic_DNA.
+DR   RefSeq; WP_011635053.1; NC_008344.1.
+DR   SMR; Q0AEH6; -.
+DR   STRING; 335283.Neut_2033; -.
+DR   EnsemblBacteria; ABI60256; ABI60256; Neut_2033.
+DR   KEGG; net:Neut_2033; -.
+DR   eggNOG; COG0528; Bacteria.
+DR   HOGENOM; CLU_033861_0_0_4; -.
+DR   OMA; PIIVFDM; -.
+DR   OrthoDB; 1043239at2; -.
+DR   UniPathway; UPA00159; UER00275.
+DR   Proteomes; UP000001966; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0033862; F:UMP kinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044210; P:'de novo' CTP biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   CDD; cd04254; AAK_UMPK-PyrH-Ec; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_01220_B; PyrH_B; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR011817; Uridylate_kinase.
+DR   InterPro; IPR015963; Uridylate_kinase_bac.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   PIRSF; PIRSF005650; Uridylate_kin; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   TIGRFAMs; TIGR02075; pyrH_bact; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cytoplasm; Kinase; Nucleotide-binding;
+KW   Pyrimidine biosynthesis; Transferase.
+FT   CHAIN           1..237
+FT                   /note="Uridylate kinase"
+FT                   /id="PRO_0000323906"
+FT   NP_BIND         11..14
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   NP_BIND         134..141
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         53
+FT                   /note="UMP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         54
+FT                   /note="ATP; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         58
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         73
+FT                   /note="UMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         161
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         167
+FT                   /note="ATP; via amide nitrogen and carbonyl oxygen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+FT   BINDING         170
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01220"
+SQ   SEQUENCE   237 AA;  25921 MW;  E3551110F04401ED CRC64;
+     MPAVYKRILL KLSGEALMGD AQYGIDRTVV ERIVVEIAGV LQLGVEVAIV VGGGNIFRGM
+     KSAGDGMDRV TADYMGMLAT TMNALALHDA MRRNGVVSRV QSALRIDQVV EPYIRGKALR
+     YLNERKVVIF AAGTGNPFFT TDTAAALRGM EMNANIVLKA TKVDGIYTSD PFENKDAQRF
+     RNLTFDEAIN KNLQVMDATA LTLCRDQKLP INVFSIFKTG ALKRVIMGED EGTLVII
+//

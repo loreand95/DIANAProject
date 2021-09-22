@@ -1,0 +1,103 @@
+ID   ADE_GEOUR               Reviewed;         355 AA.
+AC   A5G460;
+DT   20-MAY-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-JUN-2007, sequence version 1.
+DT   02-DEC-2020, entry version 82.
+DE   RecName: Full=Adenine deaminase {ECO:0000255|HAMAP-Rule:MF_01962};
+DE            Short=ADE {ECO:0000255|HAMAP-Rule:MF_01962};
+DE            EC=3.5.4.2 {ECO:0000255|HAMAP-Rule:MF_01962};
+DE   AltName: Full=Adenine aminohydrolase {ECO:0000255|HAMAP-Rule:MF_01962};
+DE            Short=AAH {ECO:0000255|HAMAP-Rule:MF_01962};
+GN   OrderedLocusNames=Gura_2399;
+OS   Geobacter uraniireducens (strain Rf4) (Geobacter uraniumreducens).
+OC   Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales;
+OC   Geobacteraceae; Geobacter.
+OX   NCBI_TaxID=351605;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Rf4;
+RG   US DOE Joint Genome Institute;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Dalin E., Tice H., Pitluck S.,
+RA   Chertkov O., Brettin T., Bruce D., Han C., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Mikhailova N., Shelobolina E., Aklujkar M.,
+RA   Lovley D., Richardson P.;
+RT   "Complete sequence of Geobacter uraniireducens Rf4.";
+RL   Submitted (MAY-2007) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Catalyzes the hydrolytic deamination of adenine to
+CC       hypoxanthine. Plays an important role in the purine salvage pathway and
+CC       in nitrogen catabolism. {ECO:0000255|HAMAP-Rule:MF_01962}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=adenine + H(+) + H2O = hypoxanthine + NH4(+);
+CC         Xref=Rhea:RHEA:23688, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:16708, ChEBI:CHEBI:17368, ChEBI:CHEBI:28938; EC=3.5.4.2;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01962};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01962};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01962};
+CC   -!- SIMILARITY: Belongs to the metallo-dependent hydrolases superfamily.
+CC       Adenosine and AMP deaminases family. Adenine deaminase type 2
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01962}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000698; ABQ26578.1; -; Genomic_DNA.
+DR   RefSeq; WP_011939269.1; NC_009483.1.
+DR   SMR; A5G460; -.
+DR   EnsemblBacteria; ABQ26578; ABQ26578; Gura_2399.
+DR   KEGG; gur:Gura_2399; -.
+DR   HOGENOM; CLU_039228_7_0_7; -.
+DR   OMA; DERLMQR; -.
+DR   OrthoDB; 554648at2; -.
+DR   BioCyc; GURA351605:G1G8X-2479-MONOMER; -.
+DR   Proteomes; UP000006695; Chromosome.
+DR   GO; GO:0000034; F:adenine deaminase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0006146; P:adenine catabolic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0043103; P:hypoxanthine salvage; IEA:UniProtKB-UniRule.
+DR   GO; GO:0009117; P:nucleotide metabolic process; IEA:UniProtKB-KW.
+DR   CDD; cd01320; ADA; 1.
+DR   HAMAP; MF_01962; Adenine_deaminase; 1.
+DR   InterPro; IPR001365; A/AMP_deaminase_dom.
+DR   InterPro; IPR028892; ADE.
+DR   InterPro; IPR006330; Ado/ade_deaminase.
+DR   InterPro; IPR032466; Metal_Hydrolase.
+DR   Pfam; PF00962; A_deaminase; 1.
+DR   SUPFAM; SSF51556; SSF51556; 1.
+DR   TIGRFAMs; TIGR01430; aden_deam; 1.
+PE   3: Inferred from homology;
+KW   Hydrolase; Metal-binding; Nucleotide metabolism; Reference proteome; Zinc.
+FT   CHAIN           1..355
+FT                   /note="Adenine deaminase"
+FT                   /id="PRO_1000081924"
+FT   ACT_SITE        207
+FT                   /note="Proton donor"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   METAL           24
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   METAL           26
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   METAL           204
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   METAL           285
+FT                   /note="Zinc; catalytic"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   BINDING         286
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+FT   SITE            228
+FT                   /note="Important for catalytic activity"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01962"
+SQ   SEQUENCE   355 AA;  39950 MW;  8B721CB2FE1BD307 CRC64;
+     MNFDCIPRED LHGILCHMPK AELHIHIEGS LEPELIFELA TRNRIQLPYP TIDELRAAYA
+     FTDLQSFLDI YYAGASVLQK EADFFDMAWA YLKRAKAENV VHAEIFFDPQ THTARGIPFE
+     TVINGLDRAI RRGREELGLS ASLILCFLRH LSEEDAFAAL EDALPFRDKF IGVGLDSSER
+     GNPPEKFTRV FARCRELGLR LVAHAGEEGS AEYISHSLDL LKAERIDHGV HCLDDPKLVA
+     RLVQQRIPLT VCPLSNVKLC VFPSLSAHNI GKLLAAGIAA TINSDDPAYF GGYLNRNYTA
+     TFAALPGLGA KEAYQLARNS FEASFVNENI KEGWIRELDE FFTHYRENEG KWLPL
+//

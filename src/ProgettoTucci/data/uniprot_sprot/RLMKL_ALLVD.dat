@@ -1,0 +1,116 @@
+ID   RLMKL_ALLVD             Reviewed;         735 AA.
+AC   Q1W3E0; D3RVT1;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   02-MAY-2006, sequence version 1.
+DT   02-DEC-2020, entry version 78.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase K/L {ECO:0000255|HAMAP-Rule:MF_01858};
+DE   Includes:
+DE     RecName: Full=23S rRNA m2G2445 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01858};
+DE              EC=2.1.1.173 {ECO:0000255|HAMAP-Rule:MF_01858};
+DE     AltName: Full=rRNA (guanine-N(2)-)-methyltransferase RlmL {ECO:0000255|HAMAP-Rule:MF_01858};
+DE   Includes:
+DE     RecName: Full=23S rRNA m7G2069 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01858};
+DE              EC=2.1.1.264 {ECO:0000255|HAMAP-Rule:MF_01858};
+DE     AltName: Full=rRNA (guanine-N(7)-)-methyltransferase RlmK {ECO:0000255|HAMAP-Rule:MF_01858};
+GN   Name=rlmL {ECO:0000255|HAMAP-Rule:MF_01858}; OrderedLocusNames=Alvin_2173;
+OS   Allochromatium vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB
+OS   10441 / D) (Chromatium vinosum).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae;
+OC   Allochromatium.
+OX   NCBI_TaxID=572477;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=16995898; DOI=10.1111/j.1365-2958.2006.05408.x;
+RA   Hensen D., Sperling D., Trueper H.G., Brune D.C., Dahl C.;
+RT   "Thiosulphate oxidation in the phototrophic sulphur bacterium
+RT   Allochromatium vinosum.";
+RL   Mol. Microbiol. 62:794-810(2006).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB 10441 / D;
+RX   PubMed=22675582; DOI=10.4056/sigs.2335270;
+RA   Weissgerber T., Zigann R., Bruce D., Chang Y.J., Detter J.C., Han C.,
+RA   Hauser L., Jeffries C.D., Land M., Munk A.C., Tapia R., Dahl C.;
+RT   "Complete genome sequence of Allochromatium vinosum DSM 180(T).";
+RL   Stand. Genomic Sci. 5:311-330(2011).
+CC   -!- FUNCTION: Specifically methylates the guanine in position 2445
+CC       (m2G2445) and the guanine in position 2069 (m7G2069) of 23S rRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(2445) in 23S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(2)-methylguanosine(2445) in 23S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:42740, Rhea:RHEA-COMP:10215, Rhea:RHEA-COMP:10216,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74269, ChEBI:CHEBI:74481; EC=2.1.1.173;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01858};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=guanosine(2069) in 23S rRNA + S-adenosyl-L-methionine = H(+) +
+CC         N(2)-methylguanosine(2069) in 23S rRNA + S-adenosyl-L-homocysteine;
+CC         Xref=Rhea:RHEA:43772, Rhea:RHEA-COMP:10688, Rhea:RHEA-COMP:10689,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:57856, ChEBI:CHEBI:59789,
+CC         ChEBI:CHEBI:74269, ChEBI:CHEBI:74481; EC=2.1.1.264;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01858};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RlmKL family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01858}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; DQ441405; ABE01365.1; -; Genomic_DNA.
+DR   EMBL; CP001896; ADC63094.1; -; Genomic_DNA.
+DR   RefSeq; WP_012971366.1; NC_013851.1.
+DR   SMR; Q1W3E0; -.
+DR   STRING; 572477.Alvin_2173; -.
+DR   EnsemblBacteria; ADC63094; ADC63094; Alvin_2173.
+DR   KEGG; alv:Alvin_2173; -.
+DR   eggNOG; COG0116; Bacteria.
+DR   eggNOG; COG1092; Bacteria.
+DR   HOGENOM; CLU_014042_2_0_6; -.
+DR   OMA; WIRGYEA; -.
+DR   OrthoDB; 307177at2; -.
+DR   BioCyc; AVIN572477:G1GHE-2194-MONOMER; -.
+DR   Proteomes; UP000001441; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0052915; F:23S rRNA (guanine(2445)-N(2))-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0070043; F:rRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-UniRule.
+DR   HAMAP; MF_01858; 23SrRNA_methyltr_KL; 1.
+DR   InterPro; IPR017244; 23SrRNA_methyltr_KL.
+DR   InterPro; IPR002052; DNA_methylase_N6_adenine_CS.
+DR   InterPro; IPR000241; RNA_methylase_dom.
+DR   InterPro; IPR019614; SAM-dep_methyl-trfase.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR004114; THUMP_dom.
+DR   Pfam; PF10672; Methyltrans_SAM; 1.
+DR   Pfam; PF02926; THUMP; 1.
+DR   Pfam; PF01170; UPF0020; 1.
+DR   PIRSF; PIRSF037618; RNA_Mtase_bacteria_prd; 1.
+DR   SMART; SM00981; THUMP; 1.
+DR   SUPFAM; SSF53335; SSF53335; 2.
+DR   PROSITE; PS51165; THUMP; 1.
+DR   PROSITE; PS01261; UPF0020; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Methyltransferase; Reference proteome; RNA-binding;
+KW   rRNA processing; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..735
+FT                   /note="Ribosomal RNA large subunit methyltransferase K/L"
+FT                   /id="PRO_0000366729"
+FT   DOMAIN          45..156
+FT                   /note="THUMP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01858"
+SQ   SEQUENCE   735 AA;  82627 MW;  FF10C9FDC9052A93 CRC64;
+     MSDHIFFASA PKHLGSLLAE ELTRLGMAGA AETRGGARFS GRIEDGYRAC LWSRIANRIL
+     LPLAQVSLGG PDEIHDSALE IPWEDHLTPD RTFAIQFDGQ LQGVTNPHFA ILQVKDAIAD
+     RFNRLYGRRP SVDPDDPDLR IHLYGNRDSL SFSLDLSGES LHQRGYRDAG SAAPLKENLA
+     AALLLRAGWP EIAAEGGALL DPMCGSGTLI IEGALIAADI APGLLRERFG FHGWTQHDEP
+     AWQRLLAEAR LRRTAGLKRL GSLRGYDVNP NAIRTSLHHL ERAGLAGLAH FERRELSDCH
+     PGREDDEGLV IVNPPYGERL GADEDLTQLY ARLGSVLKER FVGWRAAVFT SSPELGKSLG
+     LRATRIHSLY NGPIECRLLS FQIEPRYFVS HLPRPLPPEE RSPGAAMFAN RLSKNLKALR
+     KWRQRDGIDC LRIYDADLPE YALAIDLYEG ERRWVHVQEY AAPPSVDPKR ARQRLREALG
+     LIPEVLEVPG EQVFLKVRRQ QKGRAQYERL AETGRFHEVS EYGLRFLVNF EDYLDTGLFL
+     DHRDVRRLIG SLSDGKRFLN LFAYTGTATV HAAKGGAAST TTVDLSRTYL EWAGRNLELN
+     GIRGPNHQLI QADCLRWIDS MAGQRRFDLI FLDPPSFSTS KRMHGTLDIQ RDHVDIIQAT
+     MRLLEPGGRL IFSNNLRRFR IDLEGLAPFE VSDISAQTLP RDFARNPRIH NCWVIQHPES
+     ASNRRNGSDD EDRHA
+//

@@ -1,0 +1,89 @@
+ID   NCMP_SACSY              Reviewed;         280 AA.
+AC   A0A1X9WEP1; A0A5Q0HFI8;
+DT   07-APR-2021, integrated into UniProtKB/Swiss-Prot.
+DT   30-AUG-2017, sequence version 1.
+DT   07-APR-2021, entry version 9.
+DE   RecName: Full=Nocamycin O-methyltransferase {ECO:0000305};
+DE            EC=2.1.1.351 {ECO:0000269|PubMed:28818448};
+DE   AltName: Full=Carboxylate O-methyltransferase {ECO:0000303|PubMed:28599654};
+GN   Name=ncmP {ECO:0000303|PubMed:28599654};
+GN   ORFNames=EKG83_19125 {ECO:0000312|EMBL:QFZ24352.1};
+OS   Saccharothrix syringae (Nocardiopsis syringae).
+OC   Bacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae;
+OC   Saccharothrix.
+OX   NCBI_TaxID=103733;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=ATCC 51364 / DSM 43886 / JCM 6844 / KCTC 9398 / NBRC 14523 / NRRL
+RC   B-16468 / INA 2240;
+RX   PubMed=28599654; DOI=10.1186/s12934-017-0718-5;
+RA   Mo X., Shi C., Gui C., Zhang Y., Ju J., Wang Q.;
+RT   "Identification of nocamycin biosynthetic gene cluster from Saccharothrix
+RT   syringae NRRL B-16468 and generation of new nocamycin derivatives by
+RT   manipulating gene cluster.";
+RL   Microb. Cell Fact. 16:100-100(2017).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 51364 / DSM 43886 / JCM 6844 / KCTC 9398 / NBRC 14523 / NRRL
+RC   B-16468 / INA 2240;
+RX   PubMed=33136202; DOI=10.1007/s00284-020-02272-0;
+RA   Mo X., Yang S.;
+RT   "Complete genome of nocamycin-producing strain Saccharothrix syringae NRRL
+RT   B-16468 reveals the biosynthetic potential for secondary metabolites.";
+RL   Curr. Microbiol. 0:0-0(2020).
+RN   [3]
+RP   FUNCTION, CATALYTIC ACTIVITY, PATHWAY, AND DISRUPTION PHENOTYPE.
+RC   STRAIN=ATCC 51364 / DSM 43886 / JCM 6844 / KCTC 9398 / NBRC 14523 / NRRL
+RC   B-16468 / INA 2240;
+RX   PubMed=28818448; DOI=10.1016/j.bmcl.2017.08.010;
+RA   Mo X., Gui C., Wang Q.;
+RT   "Elucidation of a carboxylate O-methyltransferase NcmP in nocamycin
+RT   biosynthetic pathway.";
+RL   Bioorg. Med. Chem. Lett. 27:4431-4435(2017).
+CC   -!- FUNCTION: Involved in the biosynthesis of nocamycin I and nocamycin II
+CC       (PubMed:28818448). Catalyzes the methylation of nocamycin E to yield
+CC       nocamycin I (PubMed:28818448). {ECO:0000269|PubMed:28818448}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=nocamycin E + S-adenosyl-L-methionine = nocamycin I + S-
+CC         adenosyl-L-homocysteine; Xref=Rhea:RHEA:56844, ChEBI:CHEBI:57856,
+CC         ChEBI:CHEBI:59789, ChEBI:CHEBI:141048, ChEBI:CHEBI:141049;
+CC         EC=2.1.1.351; Evidence={ECO:0000269|PubMed:28818448};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:56845;
+CC         Evidence={ECO:0000269|PubMed:28818448};
+CC   -!- PATHWAY: Antibiotic biosynthesis. {ECO:0000269|PubMed:28818448}.
+CC   -!- DISRUPTION PHENOTYPE: Mutant loses the capability to produce nocamycin
+CC       I and nocamycin II. Mutant produces a new nocamycin intermediate, 21-
+CC       demethyl-nocamycin I, which was designated as nocamycin E.
+CC       {ECO:0000269|PubMed:28818448}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=QFZ24352.1; Type=Erroneous initiation; Note=Extended N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; KY287782; ARS01468.1; -; Genomic_DNA.
+DR   EMBL; CP034550; QFZ24352.1; ALT_INIT; Genomic_DNA.
+DR   KEGG; ag:ARS01468; -.
+DR   BioCyc; MetaCyc:MONOMER-20309; -.
+DR   Proteomes; UP000325787; Chromosome.
+DR   GO; GO:0008168; F:methyltransferase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0032259; P:methylation; IEA:UniProtKB-KW.
+DR   InterPro; IPR041698; Methyltransf_25.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF13649; Methyltransf_25; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic biosynthesis; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN           1..280
+FT                   /note="Nocamycin O-methyltransferase"
+FT                   /id="PRO_0000452109"
+SQ   SEQUENCE   280 AA;  29006 MW;  581A96A947709D59 CRC64;
+     MVFDRLAGIY DATGVEFFRP VARRLLDLVD PRPGVDLLDV GCGRGAVLFP AAERVGPGGT
+     VVGIDIAEPM VRATAAEAAE RGLGTVSVRL GDGADPAFPA GSFDVVTASM SAALFPDLPA
+     VAARYARLLR PDGRIGLTGP VPPPSLREWA LGPLRVGAVV DAIAPEAVAA THPRIAALLG
+     AHPFGAPGAV ADALRAAGFV EVRELHEDLE LRAPSAEALV GWTWSNGLRV YWELVEPDRR
+     AAVAAELVRD LTAHAAGGPI TATYPVAYVT GRLRPAGGTP
+//

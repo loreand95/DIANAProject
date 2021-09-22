@@ -1,0 +1,135 @@
+ID   OTC_NEIMU               Reviewed;         262 AA.
+AC   Q01326; O86399;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   12-AUG-2020, entry version 95.
+DE   RecName: Full=Ornithine carbamoyltransferase;
+DE            Short=OTCase;
+DE            EC=2.1.3.3;
+DE   Flags: Fragment;
+GN   Name=argF;
+OS   Neisseria mucosa.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=488;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=LNP 405;
+RX   PubMed=1406254; DOI=10.1111/j.1365-2958.1992.tb01387.x;
+RA   Zhou J., Spratt B.G.;
+RT   "Sequence diversity within the argF, fbp and recA genes of natural isolates
+RT   of Neisseria meningitidis: interspecies recombination within the argF
+RT   gene.";
+RL   Mol. Microbiol. 6:2135-2146(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 16-247.
+RC   STRAIN=Vedros M1801;
+RX   PubMed=10368955; DOI=10.1093/oxfordjournals.molbev.a026162;
+RA   Smith N.H., Holmes E.C., Donovan G.M., Carpenter G.A., Spratt B.G.;
+RT   "Networks and groups within the genus Neisseria: analysis of argF, recA,
+RT   rho, and 16S rRNA sequences from human Neisseria species.";
+RL   Mol. Biol. Evol. 16:773-783(1999).
+CC   -!- FUNCTION: Reversibly catalyzes the transfer of the carbamoyl group from
+CC       carbamoyl phosphate (CP) to the N(epsilon) atom of ornithine (ORN) to
+CC       produce L-citrulline. {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=carbamoyl phosphate + L-ornithine = H(+) + L-citrulline +
+CC         phosphate; Xref=Rhea:RHEA:19513, ChEBI:CHEBI:15378,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:46911, ChEBI:CHEBI:57743,
+CC         ChEBI:CHEBI:58228; EC=2.1.3.3;
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-arginine biosynthesis; L-arginine
+CC       from L-ornithine and carbamoyl phosphate: step 1/3.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the aspartate/ornithine carbamoyltransferase
+CC       superfamily. OTCase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X64873; CAA46085.1; -; Genomic_DNA.
+DR   EMBL; AJ223896; CAA11627.1; -; Genomic_DNA.
+DR   PIR; S24727; S24727.
+DR   SMR; Q01326; -.
+DR   UniPathway; UPA00068; UER00112.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016597; F:amino acid binding; IEA:InterPro.
+DR   GO; GO:0004585; F:ornithine carbamoyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006526; P:arginine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.1370; -; 2.
+DR   InterPro; IPR006132; Asp/Orn_carbamoyltranf_P-bd.
+DR   InterPro; IPR006130; Asp/Orn_carbamoylTrfase.
+DR   InterPro; IPR036901; Asp/Orn_carbamoylTrfase_sf.
+DR   InterPro; IPR006131; Asp_carbamoyltransf_Asp/Orn-bd.
+DR   InterPro; IPR002292; Orn/put_carbamltrans.
+DR   Pfam; PF00185; OTCace; 1.
+DR   Pfam; PF02729; OTCace_N; 1.
+DR   PRINTS; PR00100; AOTCASE.
+DR   PRINTS; PR00102; OTCASE.
+DR   SUPFAM; SSF53671; SSF53671; 1.
+DR   TIGRFAMs; TIGR00658; orni_carb_tr; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis; Arginine biosynthesis; Cytoplasm; Transferase.
+FT   CHAIN           <1..>262
+FT                   /note="Ornithine carbamoyltransferase"
+FT                   /id="PRO_0000112967"
+FT   REGION          3..7
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          81..84
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          182..183
+FT                   /note="Ornithine binding"
+FT                   /evidence="ECO:0000250"
+FT   REGION          219..222
+FT                   /note="Carbamoyl phosphate binding"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         30
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         54
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         114
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         178
+FT                   /note="Ornithine"
+FT                   /evidence="ECO:0000250"
+FT   BINDING         247
+FT                   /note="Carbamoyl phosphate"
+FT                   /evidence="ECO:0000250"
+FT   SITE            94
+FT                   /note="Important for structural integrity"
+FT                   /evidence="ECO:0000250"
+FT   VARIANT         32
+FT                   /note="R -> G (in strain: Vedros M1801)"
+FT   VARIANT         48
+FT                   /note="Y -> F (in strain: Vedros M1801)"
+FT   VARIANT         97
+FT                   /note="G -> D (in strain: Vedros M1801)"
+FT   VARIANT         103
+FT                   /note="T -> V (in strain: Vedros M1801)"
+FT   VARIANT         123
+FT                   /note="G -> A (in strain: Vedros M1801)"
+FT   VARIANT         137
+FT                   /note="T -> S (in strain: Vedros M1801)"
+FT   VARIANT         145..149
+FT                   /note="VARAR -> IETVQ (in strain: Vedros M1801)"
+FT   VARIANT         153
+FT                   /note="E -> K (in strain: Vedros M1801)"
+FT   VARIANT         158
+FT                   /note="K -> R (in strain: Vedros M1801)"
+FT   VARIANT         166
+FT                   /note="E -> Q (in strain: Vedros M1801)"
+FT   VARIANT         209..211
+FT                   /note="VSG -> AAE (in strain: Vedros M1801)"
+FT   NON_TER         1
+FT   NON_TER         262
+SQ   SEQUENCE   262 AA;  29063 MW;  BDE7B8F8D1CC48B4 CRC64;
+     KTSTRTRCAF EVAARDQGAG VTYLEPSASQ IRHKESIKDT ARVLGRMYDG IEYRGFGQDV
+     VEELAKYAGV PVFNGLTNEF HPTQMLADAL TMREHSGKPL NQTAFAYVGD ARYNMANSLL
+     VLGAKLGMDV RIGAPKTLWP SENIVARARA VAEETGGKIL LTENAEEAVK GVDFIHTDVW
+     VSMGEPKEAW QERIDLLKDY RVTPELMAVS GNPQVKFMHC LPAFHNRETK VGEWIYETFG
+     LNGVEVTEEV FESSASIVFD QA
+//

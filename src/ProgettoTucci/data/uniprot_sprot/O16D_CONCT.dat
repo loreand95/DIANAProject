@@ -1,0 +1,99 @@
+ID   O16D_CONCT              Reviewed;          73 AA.
+AC   P58920;
+DT   26-JUL-2002, integrated into UniProtKB/Swiss-Prot.
+DT   26-JUL-2002, sequence version 1.
+DT   22-APR-2020, entry version 69.
+DE   RecName: Full=Omega-conotoxin CVID {ECO:0000303|PubMed:10938268};
+DE   AltName: Full=AM-336;
+DE            Short=AM336 {ECO:0000303|PubMed:10938268};
+DE   AltName: Full=CNSB004;
+DE   AltName: Full=Leconotide;
+DE   Flags: Precursor;
+OS   Conus catus (Cat cone).
+OC   Eukaryota; Metazoa; Spiralia; Lophotrochozoa; Mollusca; Gastropoda;
+OC   Caenogastropoda; Neogastropoda; Conoidea; Conidae; Conus; Pionoconus.
+OX   NCBI_TaxID=101291;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA], PROTEIN SEQUENCE OF 46-72, AMIDATION AT CYS-72,
+RP   SYNTHESIS OF 46-72, STRUCTURE BY NMR OF 46-72, DISULFIDE BOND, AND
+RP   SUBCELLULAR LOCATION.
+RC   TISSUE=Venom, and Venom duct;
+RX   PubMed=10938268; DOI=10.1074/jbc.m002252200;
+RA   Lewis R.J., Nielsen K.J., Craik D.J., Loughnan M.L., Adams D.A.,
+RA   Sharpe I.A., Luchian T., Adams D.J., Bond T., Thomas L., Jones A.,
+RA   Matheson J.-L., Drinkwater R., Andrews P.R., Alewood P.F.;
+RT   "Novel omega-conotoxins from Conus catus discriminate among neuronal
+RT   calcium channel subtypes.";
+RL   J. Biol. Chem. 275:35335-35344(2000).
+RN   [2]
+RP   FUNCTION, MUTAGENESIS OF LYS-55 AND TYR-58, AND STRUCTURE BY NMR OF 46-72.
+RX   PubMed=12441339; DOI=10.1074/jbc.m209969200;
+RA   Adams D.J., Smith A.B., Schroeder C.I., Yasuda T., Lewis R.J.;
+RT   "Omega-conotoxin CVID inhibits a pharmacologically distinct voltage-
+RT   sensitive calcium channel associated with transmitter release from
+RT   preganglionic nerve terminals.";
+RL   J. Biol. Chem. 278:4057-4062(2003).
+CC   -!- FUNCTION: Omega-conotoxins act at presynaptic membranes, they bind and
+CC       block voltage-gated calcium channels. This toxin inhibits
+CC       neurotransmitter release, it blocks N-type calcium channels, probably a
+CC       N-type (Cav2.2/CACNA1B) calcium channel variant.
+CC       {ECO:0000269|PubMed:12441339}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000269|PubMed:10938268}.
+CC   -!- TISSUE SPECIFICITY: Expressed by the venom duct.
+CC       {ECO:0000305|PubMed:10938268}.
+CC   -!- DOMAIN: The presence of a 'disulfide through disulfide knot'
+CC       structurally defines this protein as a knottin.
+CC       {ECO:0000269|PubMed:10938268}.
+CC   -!- DOMAIN: The cysteine framework is VI/VII (C-C-CC-C-C). {ECO:0000305}.
+CC   -!- PHARMACEUTICAL: Is under phase I clinical trial under the name AM336 by
+CC       Amrad Corporation Limited for treating severe morphine-resistant pain
+CC       stress.
+CC   -!- SIMILARITY: Belongs to the conotoxin O1 superfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P58920; -.
+DR   ConoServer; 1569; CVID precursor.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; IEA:InterPro.
+DR   GO; GO:0090729; F:toxin activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009405; P:pathogenesis; IEA:InterPro.
+DR   InterPro; IPR004214; Conotoxin.
+DR   InterPro; IPR012321; Conotoxin_omega-typ_CS.
+DR   Pfam; PF02950; Conotoxin; 1.
+DR   PROSITE; PS60004; OMEGA_CONOTOXIN; 1.
+PE   1: Evidence at protein level;
+KW   Amidation; Calcium channel impairing toxin; Direct protein sequencing;
+KW   Disulfide bond; Ion channel impairing toxin; Knottin; Neurotoxin;
+KW   Pharmaceutical; Presynaptic neurotoxin; Secreted; Signal; Toxin;
+KW   Voltage-gated calcium channel impairing toxin.
+FT   SIGNAL          1..22
+FT                   /evidence="ECO:0000255"
+FT   PROPEP          23..45
+FT                   /evidence="ECO:0000269|PubMed:10938268"
+FT                   /id="PRO_0000034964"
+FT   PEPTIDE         46..72
+FT                   /note="Omega-conotoxin CVID"
+FT                   /id="PRO_0000034965"
+FT   SITE            58
+FT                   /note="Important for calcium channel binding"
+FT   MOD_RES         72
+FT                   /note="Cysteine amide"
+FT                   /evidence="ECO:0000269|PubMed:10938268"
+FT   DISULFID        46..61
+FT                   /evidence="ECO:0000269|PubMed:10938268"
+FT   DISULFID        53..65
+FT                   /evidence="ECO:0000269|PubMed:10938268"
+FT   DISULFID        60..72
+FT                   /evidence="ECO:0000269|PubMed:10938268"
+FT   MUTAGEN         55
+FT                   /note="K->R: 20% reduction of neurotransmitter release."
+FT                   /evidence="ECO:0000269|PubMed:12441339"
+FT   MUTAGEN         58
+FT                   /note="Y->F: No activity on neurotransmitter release."
+FT                   /evidence="ECO:0000269|PubMed:12441339"
+SQ   SEQUENCE   73 AA;  7748 MW;  C4CEBD30C77DAEC3 CRC64;
+     MKLTCVVIVA VLLLTACQLI TADDSRGTQK HRALRSDTKL SMSTRCKSKG AKCSKLMYDC
+     CSGSCSGTVG RCG
+//

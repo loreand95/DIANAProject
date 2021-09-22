@@ -1,0 +1,170 @@
+ID   PRDX6_MESAU             Reviewed;          50 AA.
+AC   P86215;
+DT   18-MAY-2010, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 1.
+DT   10-FEB-2021, entry version 41.
+DE   RecName: Full=Peroxiredoxin-6 {ECO:0000250|UniProtKB:P30041};
+DE            EC=1.11.1.27 {ECO:0000250|UniProtKB:P30041};
+DE   AltName: Full=1-Cys peroxiredoxin {ECO:0000250|UniProtKB:P30041};
+DE            Short=1-Cys PRX {ECO:0000250|UniProtKB:P30041};
+DE   AltName: Full=Acidic calcium-independent phospholipase A2 {ECO:0000250|UniProtKB:P30041};
+DE            Short=aiPLA2 {ECO:0000250|UniProtKB:P30041};
+DE            EC=3.1.1.4;
+DE   AltName: Full=Antioxidant protein 2 {ECO:0000250|UniProtKB:P30041};
+DE   AltName: Full=Glutathione-dependent peroxiredoxin {ECO:0000305};
+DE   AltName: Full=Lysophosphatidylcholine acyltransferase 5 {ECO:0000250|UniProtKB:P30041};
+DE            Short=LPC acyltransferase 5;
+DE            Short=LPCAT-5;
+DE            Short=Lyso-PC acyltransferase 5;
+DE            EC=2.3.1.23 {ECO:0000250|UniProtKB:P30041};
+DE   AltName: Full=Non-selenium glutathione peroxidase {ECO:0000250|UniProtKB:P30041};
+DE            Short=NSGPx {ECO:0000250|UniProtKB:P30041};
+DE   Flags: Fragments;
+GN   Name=PRDX6 {ECO:0000250|UniProtKB:P30041};
+OS   Mesocricetus auratus (Golden hamster).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Mesocricetus.
+OX   NCBI_TaxID=10036;
+RN   [1]
+RP   IDENTIFICATION BY MASS SPECTROMETRY.
+RX   PubMed=20400973; DOI=10.1038/aja.2010.19;
+RA   Kameshwari D.B., Bhande S., Sundaram C.S., Kota V., Siva A.B., Shivaji S.;
+RT   "Glucose-regulated protein precursor (GRP78) and tumor rejection antigen
+RT   (GP96) are unique to hamster caput epididymal spermatozoa.";
+RL   Asian J. Androl. 12:344-355(2010).
+CC   -!- FUNCTION: Thiol-specific peroxidase that catalyzes the reduction of
+CC       hydrogen peroxide and organic hydroperoxides to water and alcohols,
+CC       respectively (By similarity). Can reduce H(2)O(2) and short chain
+CC       organic, fatty acid, and phospholipid hydroperoxides (By similarity).
+CC       Also has phospholipase activity, and can therefore either reduce the
+CC       oxidized sn-2 fatty acyl group of phospholipids (peroxidase activity)
+CC       or hydrolyze the sn-2 ester bond of phospholipids (phospholipase
+CC       activity) (By similarity). These activities are dependent on binding to
+CC       phospholipids at acidic pH and to oxidized phospholipds at cytosolic pH
+CC       (By similarity). Plays a role in cell protection against oxidative
+CC       stress by detoxifying peroxides and in phospholipid homeostasis (By
+CC       similarity). Exhibits acyl-CoA-dependent lysophospholipid
+CC       acyltransferase which mediates the conversion of
+CC       lysophosphatidylcholine (1-acyl-sn-glycero-3-phosphocholine or LPC)
+CC       into phosphatidylcholine (1,2-diacyl-sn-glycero-3-phosphocholine or PC)
+CC       (By similarity). Shows a clear preference for LPC as the
+CC       lysophospholipid and for palmitoyl CoA as the fatty acyl substrate (By
+CC       similarity). {ECO:0000250|UniProtKB:P30041}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a hydroperoxide + 2 glutathione = an alcohol + glutathione
+CC         disulfide + H2O; Xref=Rhea:RHEA:62632, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:30879, ChEBI:CHEBI:35924, ChEBI:CHEBI:57925,
+CC         ChEBI:CHEBI:58297; EC=1.11.1.27;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1,2-diacyl-sn-glycero-3-phosphocholine + H2O = a 1-acyl-sn-
+CC         glycero-3-phosphocholine + a fatty acid + H(+); Xref=Rhea:RHEA:15801,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28868,
+CC         ChEBI:CHEBI:57643, ChEBI:CHEBI:58168; EC=3.1.1.4;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a 1-acyl-sn-glycero-3-phosphocholine + an acyl-CoA = a 1,2-
+CC         diacyl-sn-glycero-3-phosphocholine + CoA; Xref=Rhea:RHEA:12937,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57643, ChEBI:CHEBI:58168,
+CC         ChEBI:CHEBI:58342; EC=2.3.1.23;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1-hexadecanoyl-sn-glycero-3-phosphocholine + hexadecanoyl-CoA
+CC         = 1,2-dihexadecanoyl-sn-glycero-3-phosphocholine + CoA;
+CC         Xref=Rhea:RHEA:35983, ChEBI:CHEBI:57287, ChEBI:CHEBI:57379,
+CC         ChEBI:CHEBI:72998, ChEBI:CHEBI:72999;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:35984;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-dihexadecanoyl-sn-glycero-3-phosphocholine + H2O = 1-
+CC         hexadecanoyl-sn-glycero-3-phosphocholine + H(+) + hexadecanoate;
+CC         Xref=Rhea:RHEA:41223, ChEBI:CHEBI:7896, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:72998, ChEBI:CHEBI:72999;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:41224;
+CC         Evidence={ECO:0000250|UniProtKB:P30041};
+CC   -!- SUBUNIT: Homodimer (By similarity). Interacts with GSTP1; mediates
+CC       PRDX6 glutathionylation and regeneration (By similarity). Interacts
+CC       with APEX1. Interacts with STH. May interact with FAM168B (By
+CC       similarity). May interact with HTR2A (By similarity).
+CC       {ECO:0000250|UniProtKB:O08709, ECO:0000250|UniProtKB:O77834,
+CC       ECO:0000250|UniProtKB:P30041}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250|UniProtKB:O35244}.
+CC       Lysosome {ECO:0000250|UniProtKB:O35244}. Note=Also found in lung
+CC       secretory organelles (lamellar bodies). {ECO:0000250|UniProtKB:O35244}.
+CC   -!- PTM: Irreversibly inactivated by overoxidation of Cys-6 to sulfinic
+CC       acid (Cys-SO(2)H) and sulfonic acid (Cys-SO(3)H) forms upon oxidative
+CC       stress. {ECO:0000250|UniProtKB:P30041}.
+CC   -!- PTM: Phosphorylation at Thr-177 by MAP kinases increases the
+CC       phospholipase activity of the enzyme (By similarity). The
+CC       phosphorylated form exhibits a greater lysophosphatidylcholine
+CC       acyltransferase activity compared to the non-phosphorylated form (By
+CC       similarity). {ECO:0000250|UniProtKB:O35244}.
+CC   -!- MISCELLANEOUS: The active site is a conserved redox-active cysteine
+CC       residue, the peroxidatic cysteine (C(P)), which makes the nucleophilic
+CC       attack on the peroxide substrate. The peroxide oxidizes the C(P)-SH to
+CC       cysteine sulfenic acid (C(P)-SOH), which then reacts with another
+CC       cysteine residue, the resolving cysteine (C(R)), to form a disulfide
+CC       bridge. The disulfide is subsequently reduced by an appropriate
+CC       electron donor to complete the catalytic cycle. In this 1-Cys
+CC       peroxiredoxin, no C(R) is present and C(P) instead forms a disulfide
+CC       with a cysteine from another protein or with a small thiol molecule.
+CC       C(P) is reactivated by glutathionylation mediated by glutathione S-
+CC       transferase Pi, followed by spontaneous reduction of the enzyme with
+CC       glutathione. {ECO:0000250|UniProtKB:O35244}.
+CC   -!- SIMILARITY: Belongs to the peroxiredoxin family. Prx6 subfamily.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   SMR; P86215; -.
+DR   STRING; 10036.XP_005071394.1; -.
+DR   eggNOG; KOG0854; Eukaryota.
+DR   Proteomes; UP000189706; Genome assembly.
+DR   GO; GO:0005737; C:cytoplasm; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; IEA:UniProtKB-SubCell.
+DR   GO; GO:0047184; F:1-acylglycerophosphocholine O-acyltransferase activity; ISS:UniProtKB.
+DR   GO; GO:0004601; F:peroxidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004623; F:phospholipase A2 activity; ISS:UniProtKB.
+DR   GO; GO:0102567; F:phospholipase A2 activity (consuming 1,2-dipalmitoylphosphatidylcholine); IEA:UniProtKB-EC.
+DR   GO; GO:0102568; F:phospholipase A2 activity consuming 1,2-dioleoylphosphatidylethanolamine); IEA:UniProtKB-EC.
+DR   GO; GO:0016042; P:lipid catabolic process; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.30.10; -; 1.
+DR   InterPro; IPR036249; Thioredoxin-like_sf.
+DR   SUPFAM; SSF52833; SSF52833; 1.
+PE   1: Evidence at protein level;
+KW   Acetylation; Antioxidant; Cytoplasm; Hydrolase; Lipid degradation;
+KW   Lipid metabolism; Lysosome; Multifunctional enzyme; Oxidoreductase;
+KW   Peroxidase; Phosphoprotein; Redox-active center; Reference proteome;
+KW   Transferase.
+FT   CHAIN           <1..>50
+FT                   /note="Peroxiredoxin-6"
+FT                   /id="PRO_0000394303"
+FT   DOMAIN          <1..>50
+FT                   /note="Thioredoxin"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00691"
+FT   ACT_SITE        6
+FT                   /note="Cysteine sulfenic acid (-SOH) intermediate; for
+FT                   peroxidase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P30041"
+FT   ACT_SITE        28
+FT                   /note="For phospholipase activity"
+FT                   /evidence="ECO:0000250|UniProtKB:O35244"
+FT   MOD_RES         3
+FT                   /note="Phosphothreonine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30041"
+FT   MOD_RES         19
+FT                   /note="N6-acetyllysine"
+FT                   /evidence="ECO:0000250|UniProtKB:P30041"
+FT   NON_CONS        12..13
+FT                   /evidence="ECO:0000305"
+FT   NON_CONS        20..21
+FT                   /evidence="ECO:0000305"
+FT   NON_TER         1
+FT   NON_TER         50
+SQ   SEQUENCE   50 AA;  5686 MW;  B0C0D9B70FAC32FC CRC64;
+     DFTPVCTTEL GRLAPEFAKR VVFIFGPDKK LKLSILYPAT TGRNFDEILR
+//

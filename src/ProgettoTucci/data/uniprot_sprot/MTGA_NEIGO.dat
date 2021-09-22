@@ -1,0 +1,97 @@
+ID   MTGA_NEIGO              Reviewed;         233 AA.
+AC   Q51005; O08028;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   10-FEB-2021, entry version 101.
+DE   RecName: Full=Biosynthetic peptidoglycan transglycosylase {ECO:0000255|HAMAP-Rule:MF_00766};
+DE            EC=2.4.1.129 {ECO:0000255|HAMAP-Rule:MF_00766};
+DE   AltName: Full=Glycan polymerase {ECO:0000255|HAMAP-Rule:MF_00766};
+DE   AltName: Full=Monofunctional biosynthetic peptidoglycan transglycosylase {ECO:0000303|PubMed:8830253};
+DE   AltName: Full=Peptidoglycan glycosyltransferase MtgA {ECO:0000255|HAMAP-Rule:MF_00766};
+DE            Short=PGT {ECO:0000255|HAMAP-Rule:MF_00766};
+GN   Name=mtgA {ECO:0000255|HAMAP-Rule:MF_00766};
+OS   Neisseria gonorrhoeae.
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae;
+OC   Neisseria.
+OX   NCBI_TaxID=485;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CH95;
+RX   PubMed=8830253; DOI=10.1046/j.1365-2958.1996.442924.x;
+RA   Spratt B.G., Zhou J., Taylor M., Merrick M.J.;
+RT   "Monofunctional biosynthetic peptidoglycan transglycosylases.";
+RL   Mol. Microbiol. 19:639-640(1996).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=CH95;
+RX   PubMed=9157250; DOI=10.1046/j.1365-2958.1997.2681633.x;
+RA   Zhou J., Bowler L.D., Spratt B.G.;
+RT   "Interspecies recombination, and phylogenetic distortions, within the
+RT   glutamine synthetase and shikimate dehydrogenase genes of Neisseria
+RT   meningitidis and commensal Neisseria species.";
+RL   Mol. Microbiol. 23:799-812(1997).
+CC   -!- FUNCTION: Peptidoglycan polymerase that catalyzes glycan chain
+CC       elongation from lipid-linked precursors. {ECO:0000255|HAMAP-
+CC       Rule:MF_00766}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-
+CC         Ala)](n)-di-trans,octa-cis-undecaprenyl diphosphate + beta-D-GlcNAc-
+CC         (1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-di-trans,octa-
+CC         cis-undecaprenyl diphosphate = [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-
+CC         D-Glu-L-Lys-D-Ala-D-Ala)](n+1)-di-trans-octa-cis-undecaprenyl
+CC         diphosphate + di-trans,octa-cis-undecaprenyl diphosphate + H(+);
+CC         Xref=Rhea:RHEA:23708, Rhea:RHEA-COMP:9602, Rhea:RHEA-COMP:9603,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:58405, ChEBI:CHEBI:60033,
+CC         ChEBI:CHEBI:78435; EC=2.4.1.129; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00766};
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00766}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_00766}; Single-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_00766}.
+CC   -!- SIMILARITY: Belongs to the glycosyltransferase 51 family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00766}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L47159; AAB37748.1; -; Genomic_DNA.
+DR   EMBL; U82700; AAC44899.1; -; Genomic_DNA.
+DR   RefSeq; WP_003695505.1; NZ_WHPL01000002.1.
+DR   SMR; Q51005; -.
+DR   CAZy; GT51; Glycosyltransferase Family 51.
+DR   UniPathway; UPA00219; -.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0009274; C:peptidoglycan-based cell wall; IEA:InterPro.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008955; F:peptidoglycan glycosyltransferase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016763; F:transferase activity, transferring pentosyl groups; IEA:InterPro.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3810.10; -; 1.
+DR   HAMAP; MF_00766; PGT_MtgA; 1.
+DR   InterPro; IPR001264; Glyco_trans_51.
+DR   InterPro; IPR023346; Lysozyme-like_dom_sf.
+DR   InterPro; IPR036950; PBP_transglycosylase.
+DR   InterPro; IPR011812; Pep_trsgly.
+DR   PANTHER; PTHR30400; PTHR30400; 1.
+DR   Pfam; PF00912; Transgly; 1.
+DR   SUPFAM; SSF53955; SSF53955; 1.
+DR   TIGRFAMs; TIGR02070; mono_pep_trsgly; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Cell shape;
+KW   Cell wall biogenesis/degradation; Glycosyltransferase; Membrane;
+KW   Peptidoglycan synthesis; Transferase; Transmembrane; Transmembrane helix.
+FT   CHAIN           1..233
+FT                   /note="Biosynthetic peptidoglycan transglycosylase"
+FT                   /id="PRO_0000083130"
+FT   TRANSMEM        8..28
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00766"
+SQ   SEQUENCE   233 AA;  26643 MW;  95467FBE1195EDA9 CRC64;
+     MFRIVKWLIA LPVGIFIFFN AYVYGNIITY RAVAPHRTAF MSMRMKQFEQ EGRDVALDYR
+     WVPYNRISTN LKKALIASED VRFAGHGGFD WDGIQNAIRR NRNSGEVKAG GSTISQQLAK
+     NLFLNESRNY LRKGEEAAIT AMMEAVTDKN RIFELYLNSI EWHYGVFGAE AASRYFYKKP
+     AADLTKQQAA KLTALVPAPL YYADHPKSKR LRNKTNIVLR RMGSAELPES DTD
+//

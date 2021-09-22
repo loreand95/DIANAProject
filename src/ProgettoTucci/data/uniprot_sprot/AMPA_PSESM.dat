@@ -1,0 +1,135 @@
+ID   AMPA_PSESM              Reviewed;         496 AA.
+AC   Q887M0;
+DT   31-OCT-2003, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUN-2003, sequence version 1.
+DT   07-APR-2021, entry version 109.
+DE   RecName: Full=Probable cytosol aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.1 {ECO:0000255|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucine aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            Short=LAP {ECO:0000255|HAMAP-Rule:MF_00181};
+DE            EC=3.4.11.10 {ECO:0000255|HAMAP-Rule:MF_00181};
+DE   AltName: Full=Leucyl aminopeptidase {ECO:0000255|HAMAP-Rule:MF_00181};
+GN   Name=pepA {ECO:0000255|HAMAP-Rule:MF_00181}; OrderedLocusNames=PSPTO_1271;
+OS   Pseudomonas syringae pv. tomato (strain ATCC BAA-871 / DC3000).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+OC   Pseudomonadaceae; Pseudomonas.
+OX   NCBI_TaxID=223283;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC BAA-871 / DC3000;
+RX   PubMed=12928499; DOI=10.1073/pnas.1731982100;
+RA   Buell C.R., Joardar V., Lindeberg M., Selengut J., Paulsen I.T.,
+RA   Gwinn M.L., Dodson R.J., DeBoy R.T., Durkin A.S., Kolonay J.F., Madupu R.,
+RA   Daugherty S.C., Brinkac L.M., Beanan M.J., Haft D.H., Nelson W.C.,
+RA   Davidsen T.M., Zafar N., Zhou L., Liu J., Yuan Q., Khouri H.M.,
+RA   Fedorova N.B., Tran B., Russell D., Berry K.J., Utterback T.R.,
+RA   Van Aken S.E., Feldblyum T.V., D'Ascenzo M., Deng W.-L., Ramos A.R.,
+RA   Alfano J.R., Cartinhour S., Chatterjee A.K., Delaney T.P., Lazarowitz S.G.,
+RA   Martin G.B., Schneider D.J., Tang X., Bender C.L., White O., Fraser C.M.,
+RA   Collmer A.;
+RT   "The complete genome sequence of the Arabidopsis and tomato pathogen
+RT   Pseudomonas syringae pv. tomato DC3000.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 100:10181-10186(2003).
+CC   -!- FUNCTION: Presumably involved in the processing and regular turnover of
+CC       intracellular proteins. Catalyzes the removal of unsubstituted N-
+CC       terminal amino acids from various peptides. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, Xaa-|-Yaa-, in which Xaa
+CC         is preferably Leu, but may be other amino acids including Pro
+CC         although not Arg or Lys, and Yaa may be Pro. Amino acid amides and
+CC         methyl esters are also readily hydrolyzed, but rates on arylamides
+CC         are exceedingly low.; EC=3.4.11.1; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00181};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=Release of an N-terminal amino acid, preferentially leucine,
+CC         but not glutamic or aspartic acids.; EC=3.4.11.10;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00181};
+CC   -!- COFACTOR:
+CC       Name=Mn(2+); Xref=ChEBI:CHEBI:29035;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00181};
+CC       Note=Binds 2 manganese ions per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00181}.
+CC   -!- SIMILARITY: Belongs to the peptidase M17 family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00181}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AE016853; AAO54796.1; -; Genomic_DNA.
+DR   RefSeq; NP_791101.1; NC_004578.1.
+DR   RefSeq; WP_011103494.1; NC_004578.1.
+DR   SMR; Q887M0; -.
+DR   STRING; 223283.PSPTO_1271; -.
+DR   MEROPS; M17.003; -.
+DR   EnsemblBacteria; AAO54796; AAO54796; PSPTO_1271.
+DR   KEGG; pst:PSPTO_1271; -.
+DR   PATRIC; fig|223283.9.peg.1293; -.
+DR   eggNOG; COG0260; Bacteria.
+DR   HOGENOM; CLU_013734_2_2_6; -.
+DR   OMA; MKNTGPR; -.
+DR   OrthoDB; 356206at2; -.
+DR   PhylomeDB; Q887M0; -.
+DR   BioCyc; PSYR223283:G1G0D-1296-MONOMER; -.
+DR   Proteomes; UP000002515; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030145; F:manganese ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0070006; F:metalloaminopeptidase activity; IEA:InterPro.
+DR   GO; GO:0006508; P:proteolysis; ISS:JCVI.
+DR   CDD; cd00433; Peptidase_M17; 1.
+DR   Gene3D; 3.40.220.10; -; 1.
+DR   HAMAP; MF_00181; Cytosol_peptidase_M17; 1.
+DR   InterPro; IPR011356; Leucine_aapep/pepB.
+DR   InterPro; IPR043472; Macro_dom-like.
+DR   InterPro; IPR000819; Peptidase_M17_C.
+DR   InterPro; IPR023042; Peptidase_M17_leu_NH2_pept.
+DR   InterPro; IPR008283; Peptidase_M17_N.
+DR   PANTHER; PTHR11963; PTHR11963; 1.
+DR   Pfam; PF00883; Peptidase_M17; 1.
+DR   Pfam; PF02789; Peptidase_M17_N; 1.
+DR   PRINTS; PR00481; LAMNOPPTDASE.
+DR   SUPFAM; SSF52949; SSF52949; 1.
+DR   PROSITE; PS00631; CYTOSOL_AP; 1.
+PE   3: Inferred from homology;
+KW   Aminopeptidase; Cytoplasm; Hydrolase; Manganese; Metal-binding; Protease;
+KW   Reference proteome.
+FT   CHAIN           1..496
+FT                   /note="Probable cytosol aminopeptidase"
+FT                   /id="PRO_0000165785"
+FT   ACT_SITE        278
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   ACT_SITE        352
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           266
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           271
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           271
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           289
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           348
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           350
+FT                   /note="Manganese 1"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+FT   METAL           350
+FT                   /note="Manganese 2"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00181"
+SQ   SEQUENCE   496 AA;  52389 MW;  CC597EA0ED671800 CRC64;
+     MELVVKSVSP ETLKTATLVV TINESRVLIG AAQLVDIKSG GAISAVLERG DLAGKSGQTL
+     LLTNLQNIKA ERVLLVGIGK DGELSDRQLK KIAGSVLSSL KGLGGSDAVI ALDDLSVKNR
+     DTYGKARLFV EALADGEYVF DRFKTQKAEV RPLKKITLLT DKVSVADVER AANHAQAIAT
+     GMALTRDLGN LPPNICHPTY LGEEAKALGK AHKNLKVEIH DEKKLAELGM GSFLAVAQGS
+     AQPPRLIVMN YQGGKKGDKP FVLVGKGITF DTGGISIKPA AGMDEMKFDM CGAASVFGTL
+     RAVLELKLPI NVVCILACAE NMPSGTATRP GDIVTTMSGQ TVEILNTDAE GRLVLCDALT
+     YAERFKPQAV IDIATLTGAC VVALGGHTSG LLGNNDALIN QLLDAGKLAD DRAWQLPLFD
+     EYQEQLDSPF ADIANIGGPK GGTITAACFL SRFTKAYEWA HLDIAGTAWL SGGKDKGATG
+     RPVPLLTQYL LDRAGV
+//

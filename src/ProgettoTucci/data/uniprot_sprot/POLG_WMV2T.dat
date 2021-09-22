@@ -1,0 +1,107 @@
+ID   POLG_WMV2T              Reviewed;         455 AA.
+AC   Q89251;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   11-JAN-2001, sequence version 3.
+DT   07-OCT-2020, entry version 81.
+DE   RecName: Full=Genome polyprotein;
+DE   Contains:
+DE     RecName: Full=Nuclear inclusion protein B;
+DE              Short=NI-B;
+DE              Short=NIB;
+DE     AltName: Full=RNA-directed RNA polymerase;
+DE              EC=2.7.7.48;
+DE   Contains:
+DE     RecName: Full=Capsid protein;
+DE              Short=CP;
+DE     AltName: Full=Coat protein;
+DE   Flags: Fragment;
+OS   Watermelon mosaic virus II (isolate Tonga) (Vanilla necrosis potyvirus)
+OS   (VNV).
+OC   Viruses; Riboviria; Orthornavirae; Pisuviricota; Stelpaviricetes;
+OC   Patatavirales; Potyviridae; Potyvirus.
+OX   NCBI_TaxID=148359;
+OH   NCBI_TaxID=3654; Citrullus lanatus (Watermelon) (Citrullus vulgaris).
+OH   NCBI_TaxID=3656; Cucumis melo (Muskmelon).
+OH   NCBI_TaxID=3659; Cucumis sativus (Cucumber).
+OH   NCBI_TaxID=3663; Cucurbita pepo (Vegetable marrow) (Summer squash).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+RX   PubMed=8470960; DOI=10.1007/bf01316887;
+RA   Wang Y.Y., Beck D.L., Gardner R.C., Pearson M.N.;
+RT   "Nucleotide sequence, serology and symtomology suggest that vanilla
+RT   necrosis potyvirus is a strain of watermelon mosaic virus II.";
+RL   Arch. Virol. 129:93-103(1993).
+RN   [2]
+RP   REVIEW.
+RX   PubMed=11226583; DOI=10.1016/s0168-1702(01)00220-9;
+RA   Urcuqui-Inchima S., Haenni A.L., Bernardi F.;
+RT   "Potyvirus proteins: a wealth of functions.";
+RL   Virus Res. 74:157-175(2001).
+CC   -!- FUNCTION: [Capsid protein]: involved in aphid transmission, cell-to-
+CC       cell and systemis movement, encapsidation of the viral RNA and in the
+CC       regulation of viral RNA amplification.
+CC   -!- FUNCTION: [Nuclear inclusion protein B]: an RNA-dependent RNA
+CC       polymerase that plays an essential role in the virus replication.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate +
+CC         RNA(n+1); Xref=Rhea:RHEA:21248, Rhea:RHEA-COMP:11128, Rhea:RHEA-
+CC         COMP:11129, ChEBI:CHEBI:33019, ChEBI:CHEBI:61557, ChEBI:CHEBI:83400;
+CC         EC=2.7.7.48;
+CC   -!- SUBCELLULAR LOCATION: [Capsid protein]: Virion {ECO:0000305}.
+CC   -!- PTM: Genome polyprotein of potyviruses undergoes post-translational
+CC       proteolytic processing by the main proteinase NIa-pro resulting in the
+CC       production of at least ten individual proteins. The P1 proteinase and
+CC       the HC-pro cleave only their respective C-termini autocatalytically.
+CC       6K1 is essential for proper proteolytic separation of P3 from CI (By
+CC       similarity). {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the potyviridae genome polyprotein family.
+CC       {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAA48497.2; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L22907; AAA48497.2; ALT_INIT; Genomic_RNA.
+DR   SMR; Q89251; -.
+DR   GO; GO:0019028; C:viral capsid; IEA:UniProtKB-KW.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0003968; F:RNA-directed 5'-3' RNA polymerase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:InterPro.
+DR   InterPro; IPR043502; DNA/RNA_pol_sf.
+DR   InterPro; IPR001592; Poty_coat.
+DR   InterPro; IPR001205; RNA-dir_pol_C.
+DR   Pfam; PF00767; Poty_coat; 1.
+DR   Pfam; PF00680; RdRP_1; 1.
+DR   SUPFAM; SSF56672; SSF56672; 1.
+PE   3: Inferred from homology;
+KW   Capsid protein; Nucleotidyltransferase; RNA-directed RNA polymerase;
+KW   Transferase; Viral RNA replication; Virion.
+FT   CHAIN           <1..174
+FT                   /note="Nuclear inclusion protein B"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000040495"
+FT   CHAIN           1..455
+FT                   /note="Genome polyprotein"
+FT                   /id="PRO_0000420033"
+FT   CHAIN           175..455
+FT                   /note="Capsid protein"
+FT                   /evidence="ECO:0000250"
+FT                   /id="PRO_0000040496"
+FT   ACT_SITE        5
+FT                   /note="For nuclear inclusion protein A activity"
+FT                   /evidence="ECO:0000250"
+FT   SITE            174..175
+FT                   /note="Cleavage; by NIa-pro"
+FT                   /evidence="ECO:0000250"
+FT   NON_TER         1
+SQ   SEQUENCE   455 AA;  51607 MW;  937AFDEAE9A52EC1 CRC64;
+     RTGSCANGDD IILAVKGEDV WLYDTLSASF AELGLNYNFD ERTKKREELW FMSHQAMLVD
+     GIYIPKLEPE RIVSILEWDR SKELMHRTEA ICAAMIEAWG YTELLQEIRK FYLWLLSKDE
+     FKELAASGKA PYIAETALRK LYTNVNTQPN ELQRYLEVLD FNHIDGCCES VSLQSGKETV
+     ENLDAGKESK KETSDKGNKP QNSQVGQGSK EPTKTGTVSK DVNVGSKGKE VPRLQKITKK
+     MNLPTVGGKI ILGLDHLLEY KPNQVDLFNT RATKTQFESW YSAVKVEYDL NDEQMGVIMN
+     GFMVWCIDNG TSPDVNGVWV MMDGEEQVEY PLKPIVENAK PTLRQIMHHF SDAAEAYIEM
+     RNSESPYMPR YGLLRNLRDR ELARYAFDFY EVTSKTPNRA REAIAQMKAA ALAGINSRLF
+     GLDGNISTNS ENTERHTARD VNQNMHTLLG MGPPQ
+//

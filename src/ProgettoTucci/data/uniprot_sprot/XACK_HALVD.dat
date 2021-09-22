@@ -1,0 +1,121 @@
+ID   XACK_HALVD              Reviewed;         383 AA.
+AC   D4GP39; L9VI55;
+DT   22-APR-2020, integrated into UniProtKB/Swiss-Prot.
+DT   18-MAY-2010, sequence version 1.
+DT   07-APR-2021, entry version 74.
+DE   RecName: Full=Xylose/arabinose import ATP-binding protein XacK {ECO:0000305};
+DE            EC=7.5.2.13 {ECO:0000269|PubMed:31089701};
+GN   Name=xacK {ECO:0000303|PubMed:31089701};
+GN   Synonyms=tsgD7 {ECO:0000312|EMBL:ADE01437.1};
+GN   OrderedLocusNames=HVO_B0038 {ECO:0000312|EMBL:ADE01437.1};
+OS   Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 /
+OS   NCIMB 2012 / VKM B-1768 / DS2) (Halobacterium volcanii).
+OG   Plasmid pHV3.
+OC   Archaea; Euryarchaeota; Stenosarchaea group; Halobacteria; Haloferacales;
+OC   Haloferacaceae; Haloferax.
+OX   NCBI_TaxID=309800;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM
+RC   B-1768 / DS2;
+RX   PubMed=20333302; DOI=10.1371/journal.pone.0009605;
+RA   Hartman A.L., Norais C., Badger J.H., Delmas S., Haldenby S., Madupu R.,
+RA   Robinson J., Khouri H., Ren Q., Lowe T.M., Maupin-Furlow J.,
+RA   Pohlschroder M., Daniels C., Pfeiffer F., Allers T., Eisen J.A.;
+RT   "The complete genome sequence of Haloferax volcanii DS2, a model
+RT   archaeon.";
+RL   PLoS ONE 5:E9605-E9605(2010).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, AND INDUCTION.
+RC   STRAIN=DS2 / DS70 / H26;
+RX   PubMed=31089701; DOI=10.1093/femsle/fnz089;
+RA   Johnsen U., Ortjohann M., Sutter J.M., Geweke S., Schoenheit P.;
+RT   "Uptake of D-xylose and L-arabinose in Haloferax volcanii involves an ABC
+RT   transporter of the CUT1 subfamily.";
+RL   FEMS Microbiol. Lett. 366:0-0(2019).
+CC   -!- FUNCTION: Part of the ABC transporter complex XacGHIJK involved in the
+CC       uptake of xylose and arabinose (PubMed:31089701). Responsible for
+CC       energy coupling to the transport system (Probable).
+CC       {ECO:0000269|PubMed:31089701, ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + D-xylose(out) + H2O = ADP + D-xylose(in) + H(+) +
+CC         phosphate; Xref=Rhea:RHEA:29899, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:30616, ChEBI:CHEBI:43474,
+CC         ChEBI:CHEBI:53455, ChEBI:CHEBI:456216; EC=7.5.2.13;
+CC         Evidence={ECO:0000269|PubMed:31089701};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:29900;
+CC         Evidence={ECO:0000269|PubMed:31089701};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + L-arabinose(out) = ADP + H(+) + L-arabinose(in) +
+CC         phosphate; Xref=Rhea:RHEA:30007, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:17535, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:43474, ChEBI:CHEBI:456216; EC=7.5.2.13;
+CC         Evidence={ECO:0000269|PubMed:31089701};
+CC       PhysiologicalDirection=left-to-right; Xref=Rhea:RHEA:30008;
+CC         Evidence={ECO:0000269|PubMed:31089701};
+CC   -!- SUBUNIT: The complex is composed of two ATP-binding proteins (XacJ and
+CC       XacK), two transmembrane proteins (XacH and XacI) and a solute-binding
+CC       protein (XacG). {ECO:0000305|PubMed:31089701}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Peripheral membrane
+CC       protein {ECO:0000305}.
+CC   -!- INDUCTION: Transcriptionally up-regulated by both L-arabinose and D-
+CC       xylose via the pentose-specific regulator XacR.
+CC       {ECO:0000269|PubMed:31089701}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. Carbohydrate
+CC       uptake transporter-1 (CUT1) (TC 3.A.1.1) family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP001953; ADE01437.1; -; Genomic_DNA.
+DR   RefSeq; WP_004041117.1; NZ_AOHU01000021.1.
+DR   SMR; D4GP39; -.
+DR   STRING; 309800.C498_01570; -.
+DR   TCDB; 3.A.1.1.56; the atp-binding cassette (abc) superfamily.
+DR   EnsemblBacteria; ADE01437; ADE01437; HVO_B0038.
+DR   GeneID; 8919050; -.
+DR   KEGG; hvo:HVO_B0038; -.
+DR   PATRIC; fig|309800.29.peg.299; -.
+DR   eggNOG; arCOG00177; Archaea.
+DR   HOGENOM; CLU_000604_1_1_2; -.
+DR   OMA; MSAVQIN; -.
+DR   OrthoDB; 88924at2157; -.
+DR   Proteomes; UP000008243; Plasmid pHV3.
+DR   GO; GO:0043190; C:ATP-binding cassette (ABC) transporter complex; IEA:InterPro.
+DR   GO; GO:0015612; F:ABC-type L-arabinose transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATPase activity; IEA:InterPro.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR003439; ABC_transporter-like.
+DR   InterPro; IPR017871; ABC_transporter_CS.
+DR   InterPro; IPR008995; Mo/tungstate-bd_C_term_dom.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR013611; Transp-assoc_OB_typ2.
+DR   Pfam; PF00005; ABC_tran; 1.
+DR   Pfam; PF08402; TOBE_2; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF50331; SSF50331; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 1.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 1.
+PE   1: Evidence at protein level;
+KW   ATP-binding; Cell membrane; Membrane; Nucleotide-binding; Plasmid;
+KW   Reference proteome; Sugar transport; Translocase; Transport.
+FT   CHAIN           1..383
+FT                   /note="Xylose/arabinose import ATP-binding protein XacK"
+FT                   /id="PRO_0000449390"
+FT   DOMAIN          4..240
+FT                   /note="ABC transporter"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   NP_BIND         41..48
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+SQ   SEQUENCE   383 AA;  41615 MW;  5E81629F3E9B68CA CRC64;
+     MARLTLDDVT KVYTDEGGGD IVAVEEISLD IDDGEFLVLV GPSGCGKSTT LRMMAGLETV
+     TEGELRLEDR VLNGVSAQDR DIAMVFQSYA LYPHKSVRGN MSFGLEESTG LPDDEIRQRV
+     EETTDMLGIS DLLDRKPGQL SGGQQQRVAL GRAIVRDPEV FLMDEPLSNL DAKLRAEMRT
+     ELQRLQGELG VTTVYVTHDQ TEAMTMGDRV AVLDDGELQQ VGTPLDCYHR PNNLFVAGFI
+     GEPSMNLFDG SLSGDTFRGD GFDYPLSGAT RDQLGGASGL TLGIRPEDVT VGERRSGQRT
+     FDAEVVVVEP QGNENAVHLR FVDGDEGTQF TATTTGQSRV EAGDRTTVSF PEDAIHLFDG
+     ETGDALKNRE LPSNRAIDAF VSN
+//

@@ -1,0 +1,101 @@
+ID   ALR_HAHCH               Reviewed;         374 AA.
+AC   Q2SLB1;
+DT   05-FEB-2008, integrated into UniProtKB/Swiss-Prot.
+DT   24-JAN-2006, sequence version 1.
+DT   02-DEC-2020, entry version 83.
+DE   RecName: Full=Alanine racemase {ECO:0000255|HAMAP-Rule:MF_01201};
+DE            EC=5.1.1.1 {ECO:0000255|HAMAP-Rule:MF_01201};
+GN   Name=alr; OrderedLocusNames=HCH_01715;
+OS   Hahella chejuensis (strain KCTC 2396).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales;
+OC   Hahellaceae; Hahella.
+OX   NCBI_TaxID=349521;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=KCTC 2396;
+RX   PubMed=16352867; DOI=10.1093/nar/gki1016;
+RA   Jeong H., Yim J.H., Lee C., Choi S.-H., Park Y.K., Yoon S.H., Hur C.-G.,
+RA   Kang H.-Y., Kim D., Lee H.H., Park K.H., Park S.-H., Park H.-S., Lee H.K.,
+RA   Oh T.K., Kim J.F.;
+RT   "Genomic blueprint of Hahella chejuensis, a marine microbe producing an
+RT   algicidal agent.";
+RL   Nucleic Acids Res. 33:7066-7073(2005).
+CC   -!- FUNCTION: Catalyzes the interconversion of L-alanine and D-alanine. May
+CC       also act on other amino acids. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=L-alanine = D-alanine; Xref=Rhea:RHEA:20249,
+CC         ChEBI:CHEBI:57416, ChEBI:CHEBI:57972; EC=5.1.1.1;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01201};
+CC   -!- PATHWAY: Amino-acid biosynthesis; D-alanine biosynthesis; D-alanine
+CC       from L-alanine: step 1/1. {ECO:0000255|HAMAP-Rule:MF_01201}.
+CC   -!- SIMILARITY: Belongs to the alanine racemase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01201}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000155; ABC28563.1; -; Genomic_DNA.
+DR   RefSeq; WP_011395635.1; NC_007645.1.
+DR   SMR; Q2SLB1; -.
+DR   STRING; 349521.HCH_01715; -.
+DR   EnsemblBacteria; ABC28563; ABC28563; HCH_01715.
+DR   KEGG; hch:HCH_01715; -.
+DR   eggNOG; COG0787; Bacteria.
+DR   HOGENOM; CLU_028393_1_0_6; -.
+DR   OMA; WEILCGF; -.
+DR   OrthoDB; 859043at2; -.
+DR   BioCyc; HCHE349521:G1G5E-1555-MONOMER; -.
+DR   UniPathway; UPA00042; UER00497.
+DR   Proteomes; UP000000238; Chromosome.
+DR   GO; GO:0008784; F:alanine racemase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030170; F:pyridoxal phosphate binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0030632; P:D-alanine biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.40.37.10; -; 1.
+DR   Gene3D; 3.20.20.10; -; 1.
+DR   HAMAP; MF_01201; Ala_racemase; 1.
+DR   InterPro; IPR000821; Ala_racemase.
+DR   InterPro; IPR009006; Ala_racemase/Decarboxylase_C.
+DR   InterPro; IPR011079; Ala_racemase_C.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR020622; Ala_racemase_pyridoxalP-BS.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   Pfam; PF00842; Ala_racemase_C; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   PRINTS; PR00992; ALARACEMASE.
+DR   SMART; SM01005; Ala_racemase_C; 1.
+DR   SUPFAM; SSF50621; SSF50621; 1.
+DR   SUPFAM; SSF51419; SSF51419; 1.
+DR   TIGRFAMs; TIGR00492; alr; 1.
+DR   PROSITE; PS00395; ALANINE_RACEMASE; 1.
+PE   3: Inferred from homology;
+KW   Isomerase; Pyridoxal phosphate; Reference proteome.
+FT   CHAIN           1..374
+FT                   /note="Alanine racemase"
+FT                   /id="PRO_1000065991"
+FT   ACT_SITE        34
+FT                   /note="Proton acceptor; specific for D-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   ACT_SITE        265
+FT                   /note="Proton acceptor; specific for L-alanine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         138
+FT                   /note="Substrate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   BINDING         313
+FT                   /note="Substrate; via amide nitrogen"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+FT   MOD_RES         34
+FT                   /note="N6-(pyridoxal phosphate)lysine"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01201"
+SQ   SEQUENCE   374 AA;  40590 MW;  4F84E7F06032C60A CRC64;
+     MRPSRALIDL DALRHNIRLL NSIAHNARCA AVIKADAYGH GAVEIARALK GEAPKLAVAC
+     YDEAVSLREA GVTTPLLVLE GFYSSEELAD STRWCDIEWV VHDMEQLDML SEVAPLRKAG
+     PDSTRMQTWI KLNTGMNRLG LPLNKLAHVA EKLQQFPGLS VIGLMTHFAC ADELDSLLQQ
+     RQWRAFQAGM QAAGANGWSY SSANSAALLQ YPETHLDWVR PGIAMYGASP MADKTGADFG
+     LKPVMTFESR LIATRELQAG DSIGYGAAWT ADAPTRMGVV AVGYGDGYPR QMQNGAPVAV
+     CGKRTKIIGR VSMDMLTVDI SHIPEARIGS EVELWGGTVS ADEVAGYAST ISYTLFTGMT
+     SRVPRVYINR SEVV
+//

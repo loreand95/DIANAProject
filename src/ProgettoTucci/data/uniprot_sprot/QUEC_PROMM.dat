@@ -1,0 +1,98 @@
+ID   QUEC_PROMM              Reviewed;         229 AA.
+AC   Q7V3W6;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2003, sequence version 1.
+DT   02-DEC-2020, entry version 94.
+DE   RecName: Full=7-cyano-7-deazaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE            EC=6.3.4.20 {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=7-cyano-7-carbaguanine synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=PreQ(0) synthase {ECO:0000255|HAMAP-Rule:MF_01633};
+DE   AltName: Full=Queuosine biosynthesis protein QueC {ECO:0000255|HAMAP-Rule:MF_01633};
+GN   Name=queC {ECO:0000255|HAMAP-Rule:MF_01633}; OrderedLocusNames=PMT_2222;
+OS   Prochlorococcus marinus (strain MIT 9313).
+OC   Bacteria; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus.
+OX   NCBI_TaxID=74547;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=MIT 9313;
+RX   PubMed=12917642; DOI=10.1038/nature01947;
+RA   Rocap G., Larimer F.W., Lamerdin J.E., Malfatti S., Chain P., Ahlgren N.A.,
+RA   Arellano A., Coleman M., Hauser L., Hess W.R., Johnson Z.I., Land M.L.,
+RA   Lindell D., Post A.F., Regala W., Shah M., Shaw S.L., Steglich C.,
+RA   Sullivan M.B., Ting C.S., Tolonen A., Webb E.A., Zinser E.R.,
+RA   Chisholm S.W.;
+RT   "Genome divergence in two Prochlorococcus ecotypes reflects oceanic niche
+RT   differentiation.";
+RL   Nature 424:1042-1047(2003).
+CC   -!- FUNCTION: Catalyzes the ATP-dependent conversion of 7-carboxy-7-
+CC       deazaguanine (CDG) to 7-cyano-7-deazaguanine (preQ(0)).
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=7-carboxy-7-deazaguanine + ATP + NH4(+) = 7-cyano-7-
+CC         deazaguanine + ADP + H(+) + H2O + phosphate; Xref=Rhea:RHEA:27982,
+CC         ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:28938,
+CC         ChEBI:CHEBI:30616, ChEBI:CHEBI:43474, ChEBI:CHEBI:45075,
+CC         ChEBI:CHEBI:61036, ChEBI:CHEBI:456216; EC=6.3.4.20;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01633};
+CC       Note=Binds 1 zinc ion per subunit. {ECO:0000255|HAMAP-Rule:MF_01633};
+CC   -!- PATHWAY: Purine metabolism; 7-cyano-7-deazaguanine biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01633}.
+CC   -!- SIMILARITY: Belongs to the QueC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01633}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; BX548175; CAE22396.1; -; Genomic_DNA.
+DR   SMR; Q7V3W6; -.
+DR   STRING; 74547.PMT_2222; -.
+DR   EnsemblBacteria; CAE22396; CAE22396; PMT_2222.
+DR   KEGG; pmt:PMT_2222; -.
+DR   eggNOG; COG0603; Bacteria.
+DR   HOGENOM; CLU_081854_1_0_3; -.
+DR   OMA; CESCMRR; -.
+DR   UniPathway; UPA00391; -.
+DR   Proteomes; UP000001423; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0008616; P:queuosine biosynthetic process; IEA:UniProtKB-UniRule.
+DR   CDD; cd01995; ExsB; 1.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01633; QueC; 1.
+DR   InterPro; IPR018317; QueC.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   PANTHER; PTHR42914; PTHR42914; 1.
+DR   Pfam; PF06508; QueC; 1.
+DR   PIRSF; PIRSF006293; ExsB; 1.
+DR   TIGRFAMs; TIGR00364; TIGR00364; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Ligase; Metal-binding; Nucleotide-binding;
+KW   Queuosine biosynthesis; Reference proteome; Zinc.
+FT   CHAIN           1..229
+FT                   /note="7-cyano-7-deazaguanine synthase"
+FT                   /id="PRO_0000246880"
+FT   NP_BIND         13..23
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           194
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           202
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           205
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+FT   METAL           208
+FT                   /note="Zinc"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_01633"
+SQ   SEQUENCE   229 AA;  24267 MW;  0BF8A530FDDAF244 CRC64;
+     MSSMIHSTTI ALLSGGLDSA TAAALAVEAG QKVIGLSFDY GQRHRKELQA ADALAAHMGL
+     SEHHVISVNL GSWGGSSLTD LTQTVPSEGV VDGVIPNTYV PGRNTVFIAI GLSLAEARNA
+     NQLVLGINAM DYSGYPDCRP DYLRAYQSLA DLANKAGREG HGIKLWAPLI DWNKKQIVQE
+     ALRLGVPIDK TWSCYSGGDH ACGICDSCRI RDAALSEAGR SDLCSKSTP
+//

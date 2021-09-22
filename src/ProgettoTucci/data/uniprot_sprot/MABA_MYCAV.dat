@@ -1,0 +1,107 @@
+ID   MABA_MYCAV              Reviewed;         255 AA.
+AC   O07399;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-1997, sequence version 1.
+DT   07-APR-2021, entry version 95.
+DE   RecName: Full=3-oxoacyl-[acyl-carrier-protein] reductase MabA {ECO:0000250|UniProtKB:P9WGT3};
+DE            EC=1.1.1.100 {ECO:0000250|UniProtKB:P9WGT3};
+DE   AltName: Full=3-ketoacyl-acyl carrier protein reductase {ECO:0000250|UniProtKB:P9WGT3};
+DE   AltName: Full=Beta-ketoacyl-ACP reductase {ECO:0000250|UniProtKB:P9WGT3};
+DE   AltName: Full=Beta-ketoacyl-acyl carrier protein reductase {ECO:0000250|UniProtKB:P9WGT3};
+GN   Name=mabA {ECO:0000250|UniProtKB:P9WGT3}; Synonyms=fabG;
+OS   Mycobacterium avium.
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium avium complex (MAC).
+OX   NCBI_TaxID=1764;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=GIR10;
+RX   PubMed=9534249; DOI=10.1099/00221287-144-3-807;
+RA   Labo M., Gusberti L., de Rossi E., Speziale P., Riccardi G.;
+RT   "Determination of a 15437 bp nucleotide sequence around the inhA gene of
+RT   Mycobacterium avium and similarity analysis of the products of putative
+RT   ORFs.";
+RL   Microbiology 144:807-814(1998).
+CC   -!- FUNCTION: Part of the mycobacterial fatty acid elongation system FAS-
+CC       II, which is involved in mycolic acid biosynthesis. Catalyzes the
+CC       NADPH-dependent reduction of beta-ketoacyl derivatives, the second step
+CC       of the FAS-II elongation cycle. {ECO:0000250|UniProtKB:P9WGT3}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=a (3R)-hydroxyacyl-[ACP] + NADP(+) = a 3-oxoacyl-[ACP] + H(+)
+CC         + NADPH; Xref=Rhea:RHEA:17397, Rhea:RHEA-COMP:9916, Rhea:RHEA-
+CC         COMP:9945, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783, ChEBI:CHEBI:58349,
+CC         ChEBI:CHEBI:78776, ChEBI:CHEBI:78827; EC=1.1.1.100;
+CC         Evidence={ECO:0000250|UniProtKB:P9WGT3};
+CC       PhysiologicalDirection=right-to-left; Xref=Rhea:RHEA:17399;
+CC         Evidence={ECO:0000250|UniProtKB:P9WGT3};
+CC   -!- PATHWAY: Lipid metabolism; mycolic acid biosynthesis.
+CC       {ECO:0000250|UniProtKB:P9WGT3}.
+CC   -!- SUBUNIT: Homotetramer. {ECO:0000250|UniProtKB:P9WGT3}.
+CC   -!- SUBCELLULAR LOCATION: Secreted, cell wall
+CC       {ECO:0000250|UniProtKB:P9WGT3}.
+CC   -!- SIMILARITY: Belongs to the short-chain dehydrogenases/reductases (SDR)
+CC       family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF002133; AAC46203.1; -; Genomic_DNA.
+DR   SMR; O07399; -.
+DR   UniPathway; UPA00915; -.
+DR   GO; GO:0005618; C:cell wall; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-KW.
+DR   GO; GO:0102131; F:3-oxo-glutaryl-[acp] methyl ester reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0102132; F:3-oxo-pimeloyl-[acp] methyl ester reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004316; F:3-oxoacyl-[acyl-carrier-protein] reductase (NADPH) activity; ISS:UniProtKB.
+DR   GO; GO:0050661; F:NADP binding; ISS:UniProtKB.
+DR   GO; GO:0030497; P:fatty acid elongation; ISS:UniProtKB.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR020904; Sc_DH/Rdtase_CS.
+DR   InterPro; IPR002347; SDR_fam.
+DR   PRINTS; PR00081; GDHRDH.
+DR   PRINTS; PR00080; SDRFAMILY.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   PROSITE; PS00061; ADH_SHORT; 1.
+PE   3: Inferred from homology;
+KW   Cell wall; Fatty acid biosynthesis; Fatty acid metabolism;
+KW   Lipid biosynthesis; Lipid metabolism; NADP; Oxidoreductase; Secreted.
+FT   CHAIN           1..255
+FT                   /note="3-oxoacyl-[acyl-carrier-protein] reductase MabA"
+FT                   /id="PRO_0000054675"
+FT   NP_BIND         33..35
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WGT3"
+FT   NP_BIND         69..70
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WGT3"
+FT   ACT_SITE        161
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10001"
+FT   BINDING         55
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WGT3"
+FT   BINDING         98
+FT                   /note="NADP; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WGT3"
+FT   BINDING         161
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P71534"
+FT   BINDING         165
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P71534"
+FT   BINDING         194
+FT                   /note="NADP; via amide nitrogen"
+FT                   /evidence="ECO:0000250|UniProtKB:P71534"
+FT   BINDING         205
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250|UniProtKB:P71534"
+FT   SITE            148
+FT                   /note="Important for activity"
+FT                   /evidence="ECO:0000250|UniProtKB:P9WGT3"
+SQ   SEQUENCE   255 AA;  26706 MW;  C3A20AA0B6251655 CRC64;
+     MTDTATENTT ESAADYGRPA FVSRSVLVTG GNRGIGLAIA QRLAAEAHKV AVTHRGSGAP
+     DGLFGVECDV TDNDAVDRAF TEVEEHQGPV EVLVSNAGIS KDAFLIRMTE ERFTEVINAN
+     LTGAFRVTQR AARSMQKKRF GRIIYIGSVS GMWGIGNQAN YAAAKAGLIG MARSISRELS
+     KAGVTANVVA PGYIDTEMTR ALDERIQAGA LEFIPAKRVG TAAEVPGAVS FLASEDASYI
+     AGAVIPVDGG MGMGH
+//

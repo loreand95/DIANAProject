@@ -1,0 +1,123 @@
+ID   GSHR_NOSS1              Reviewed;         459 AA.
+AC   P48638;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   23-JAN-2002, sequence version 2.
+DT   02-DEC-2020, entry version 139.
+DE   RecName: Full=Glutathione reductase;
+DE            Short=GR;
+DE            Short=GRase;
+DE            EC=1.8.1.7;
+GN   Name=gor; OrderedLocusNames=all4968;
+OS   Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576).
+OC   Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc.
+OX   NCBI_TaxID=103690;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=7559423; DOI=10.1074/jbc.270.39.23143;
+RA   Jiang F., Hellman U., Sroga G.E., Bergman B., Mannervik B.;
+RT   "Cloning, sequencing, and regulation of the glutathione reductase gene from
+RT   the cyanobacterium Anabaena PCC 7120.";
+RL   J. Biol. Chem. 270:22882-22889(1995).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=PCC 7120 / SAG 25.82 / UTEX 2576;
+RX   PubMed=11759840; DOI=10.1093/dnares/8.5.205;
+RA   Kaneko T., Nakamura Y., Wolk C.P., Kuritz T., Sasamoto S., Watanabe A.,
+RA   Iriguchi M., Ishikawa A., Kawashima K., Kimura T., Kishida Y., Kohara M.,
+RA   Matsumoto M., Matsuno A., Muraki A., Nakazaki N., Shimpo S., Sugimoto M.,
+RA   Takazawa M., Yamada M., Yasuda M., Tabata S.;
+RT   "Complete genomic sequence of the filamentous nitrogen-fixing
+RT   cyanobacterium Anabaena sp. strain PCC 7120.";
+RL   DNA Res. 8:205-213(2001).
+CC   -!- FUNCTION: Maintains high levels of reduced glutathione in the cytosol.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 glutathione + NADP(+) = glutathione disulfide + H(+) +
+CC         NADPH; Xref=Rhea:RHEA:11740, ChEBI:CHEBI:15378, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:57925, ChEBI:CHEBI:58297, ChEBI:CHEBI:58349; EC=1.8.1.7;
+CC   -!- COFACTOR:
+CC       Name=FAD; Xref=ChEBI:CHEBI:57692; Evidence={ECO:0000250};
+CC       Note=Binds 1 FAD per subunit. {ECO:0000250};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- MISCELLANEOUS: The active site is a redox-active disulfide bond.
+CC   -!- SIMILARITY: Belongs to the class-I pyridine nucleotide-disulfide
+CC       oxidoreductase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X89712; CAA61856.1; -; Genomic_DNA.
+DR   EMBL; BA000019; BAB76667.1; -; Genomic_DNA.
+DR   PIR; AH2426; AH2426.
+DR   PIR; I39477; I39477.
+DR   RefSeq; WP_010999094.1; NZ_RSCN01000018.1.
+DR   SMR; P48638; -.
+DR   STRING; 103690.17134106; -.
+DR   EnsemblBacteria; BAB76667; BAB76667; BAB76667.
+DR   KEGG; ana:all4968; -.
+DR   eggNOG; COG1249; Bacteria.
+DR   OMA; KCAIIEA; -.
+DR   OrthoDB; 267896at2; -.
+DR   Proteomes; UP000002483; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0050660; F:flavin adenine dinucleotide binding; IEA:InterPro.
+DR   GO; GO:0004362; F:glutathione-disulfide reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0050661; F:NADP binding; IEA:InterPro.
+DR   GO; GO:0045454; P:cell redox homeostasis; IEA:InterPro.
+DR   GO; GO:0006749; P:glutathione metabolic process; IEA:InterPro.
+DR   Gene3D; 3.30.390.30; -; 1.
+DR   Gene3D; 3.50.50.60; -; 2.
+DR   InterPro; IPR036188; FAD/NAD-bd_sf.
+DR   InterPro; IPR023753; FAD/NAD-binding_dom.
+DR   InterPro; IPR016156; FAD/NAD-linked_Rdtase_dimer_sf.
+DR   InterPro; IPR006324; Glut-diS_reduct.
+DR   InterPro; IPR001100; Pyr_nuc-diS_OxRdtase.
+DR   InterPro; IPR004099; Pyr_nucl-diS_OxRdtase_dimer.
+DR   InterPro; IPR012999; Pyr_OxRdtase_I_AS.
+DR   Pfam; PF07992; Pyr_redox_2; 1.
+DR   Pfam; PF02852; Pyr_redox_dim; 1.
+DR   PIRSF; PIRSF000350; Mercury_reductase_MerA; 1.
+DR   SUPFAM; SSF51905; SSF51905; 1.
+DR   SUPFAM; SSF55424; SSF55424; 1.
+DR   TIGRFAMs; TIGR01424; gluta_reduc_2; 1.
+DR   PROSITE; PS00076; PYRIDINE_REDOX_1; 1.
+PE   3: Inferred from homology;
+KW   Cytoplasm; Disulfide bond; FAD; Flavoprotein; NADP; Oxidoreductase;
+KW   Redox-active center; Reference proteome.
+FT   CHAIN           1..459
+FT                   /note="Glutathione reductase"
+FT                   /id="PRO_0000067973"
+FT   NP_BIND         34..42
+FT                   /note="FAD"
+FT                   /evidence="ECO:0000250"
+FT   ACT_SITE        448
+FT                   /note="Proton acceptor"
+FT                   /evidence="ECO:0000250"
+FT   DISULFID        42..47
+FT                   /note="Redox-active"
+FT                   /evidence="ECO:0000250"
+FT   CONFLICT        234
+FT                   /note="E -> Q (in Ref. 1; CAA61856)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        340
+FT                   /note="R -> L (in Ref. 1; CAA61856)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        361
+FT                   /note="V -> L (in Ref. 1; CAA61856)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        372
+FT                   /note="L -> H (in Ref. 1; CAA61856)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        381..383
+FT                   /note="RTR -> AP (in Ref. 1; CAA61856)"
+FT                   /evidence="ECO:0000305"
+SQ   SEQUENCE   459 AA;  49478 MW;  29C1F06CE2195888 CRC64;
+     MTFDYDLFVI GAGSGGLAAS KRAASYGAKV AIAENDLVGG TCVIRGCVPK KLMVYGSHFP
+     ALFEDAAGYG WQVGKAELNW EHFITSIDKE VRRLSQLHIS FLEKAGVELI SGRATLVDNH
+     TVEVGERKFT ADKILIAVGG RPIKPELPGM EYGITSNEIF HLKTQPKHIA IIGSGYIGTE
+     FAGIMRGLGS QVTQITRGDK ILKGFDEDIR TEIQEGMTNH GIRIIPKNVV TAIEQVPEGL
+     KISLSGEDQE PIIADVFLVA TGRVPNVDGL GLENAGVDVV DSSIEGPGYS TMNAIAVNEY
+     SQTSQPNIYA VGDVTDRLNL TPVAIGEGRA FADSEFGNNR REFSHETIAT AVFSNPQAST
+     VGLTEAEARA KLGDDAVTIY RTRFRPMYHS FTGKQERIMM KLVVDTKTDK VLGAHMVGEN
+     AAEIIQGVAI AVKMGATKKD FDATVGIHPS SAEEFVTMR
+//

@@ -1,0 +1,131 @@
+ID   SYDND_BURCH             Reviewed;         600 AA.
+AC   A0KAE8;
+DT   15-JAN-2008, integrated into UniProtKB/Swiss-Prot.
+DT   12-DEC-2006, sequence version 1.
+DT   07-APR-2021, entry version 96.
+DE   RecName: Full=Aspartate--tRNA(Asp/Asn) ligase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            EC=6.1.1.23 {ECO:0000255|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Aspartyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            Short=AspRS {ECO:0000255|HAMAP-Rule:MF_00044};
+DE   AltName: Full=Non-discriminating aspartyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00044};
+DE            Short=ND-AspRS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   Name=aspS {ECO:0000255|HAMAP-Rule:MF_00044};
+GN   OrderedLocusNames=Bcen2424_2725;
+OS   Burkholderia cenocepacia (strain HI2424).
+OC   Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+OC   Burkholderiaceae; Burkholderia; Burkholderia cepacia complex.
+OX   NCBI_TaxID=331272;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=HI2424;
+RA   Copeland A., Lucas S., Lapidus A., Barry K., Detter J.C.,
+RA   Glavina del Rio T., Hammon N., Israni S., Pitluck S., Chain P.,
+RA   Malfatti S., Shin M., Vergez L., Schmutz J., Larimer F., Land M.,
+RA   Hauser L., Kyrpides N., Kim E., LiPuma J.J., Gonzalez C.F.,
+RA   Konstantinidis K., Tiedje J.M., Richardson P.;
+RT   "Complete sequence of chromosome 1 of Burkholderia cenocepacia HI2424.";
+RL   Submitted (AUG-2006) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Aspartyl-tRNA synthetase with relaxed tRNA specificity since
+CC       it is able to aspartylate not only its cognate tRNA(Asp) but also
+CC       tRNA(Asn). Reaction proceeds in two steps: L-aspartate is first
+CC       activated by ATP to form Asp-AMP and then transferred to the acceptor
+CC       end of tRNA(Asp/Asn). {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + L-aspartate + tRNA(Asx) = AMP + diphosphate + L-
+CC         aspartyl-tRNA(Asx); Xref=Rhea:RHEA:18349, Rhea:RHEA-COMP:9710,
+CC         Rhea:RHEA-COMP:9711, ChEBI:CHEBI:29991, ChEBI:CHEBI:30616,
+CC         ChEBI:CHEBI:33019, ChEBI:CHEBI:78442, ChEBI:CHEBI:78516,
+CC         ChEBI:CHEBI:456215; EC=6.1.1.23; Evidence={ECO:0000255|HAMAP-
+CC         Rule:MF_00044};
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase family.
+CC       Type 1 subfamily. {ECO:0000255|HAMAP-Rule:MF_00044}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; CP000458; ABK09475.1; -; Genomic_DNA.
+DR   RefSeq; WP_011546184.1; NC_008542.1.
+DR   SMR; A0KAE8; -.
+DR   KEGG; bch:Bcen2424_2725; -.
+DR   HOGENOM; CLU_014330_3_2_4; -.
+DR   OMA; YQLDVEM; -.
+DR   OrthoDB; 226836at2; -.
+DR   BioCyc; BCEN331272:G1GW2-2868-MONOMER; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004815; F:aspartate-tRNA ligase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0050560; F:aspartate-tRNA(Asn) ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   GO; GO:0006422; P:aspartyl-tRNA aminoacylation; IEA:UniProtKB-UniRule.
+DR   Gene3D; 3.30.1360.30; -; 1.
+DR   HAMAP; MF_00044; Asp_tRNA_synth_type1; 1.
+DR   InterPro; IPR004364; Aa-tRNA-synt_II.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004524; Asp-tRNA-ligase_1.
+DR   InterPro; IPR002312; Asp/Asn-tRNA-synth_IIb.
+DR   InterPro; IPR004115; GAD-like_sf.
+DR   InterPro; IPR029351; GAD_dom.
+DR   InterPro; IPR012340; NA-bd_OB-fold.
+DR   InterPro; IPR004365; NA-bd_OB_tRNA.
+DR   PANTHER; PTHR22594:SF5; PTHR22594:SF5; 1.
+DR   Pfam; PF02938; GAD; 1.
+DR   Pfam; PF00152; tRNA-synt_2; 1.
+DR   Pfam; PF01336; tRNA_anti-codon; 1.
+DR   PRINTS; PR01042; TRNASYNTHASP.
+DR   SUPFAM; SSF50249; SSF50249; 1.
+DR   SUPFAM; SSF55261; SSF55261; 1.
+DR   TIGRFAMs; TIGR00459; aspS_bact; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Cytoplasm; Ligase;
+KW   Nucleotide-binding; Protein biosynthesis.
+FT   CHAIN           1..600
+FT                   /note="Aspartate--tRNA(Asp/Asn) ligase"
+FT                   /id="PRO_1000006645"
+FT   NP_BIND         220..222
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   NP_BIND         543..546
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   REGION          198..201
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         174
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         220
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         229
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         457
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         491
+FT                   /note="ATP"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   BINDING         498
+FT                   /note="Aspartate"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   SITE            32
+FT                   /note="Important for tRNA non-discrimination"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+FT   SITE            83
+FT                   /note="Important for tRNA non-discrimination"
+FT                   /evidence="ECO:0000255|HAMAP-Rule:MF_00044"
+SQ   SEQUENCE   600 AA;  67757 MW;  4FDAD415B483C6AF CRC64;
+     MSMRTEYCGL VTEHLLGQTV SLCGWVQRRR DHGGVIFIDL RDREGLVQVV CDPDRAEMFA
+     TAEGVRNEFC VQIKGLVRNR PDGTVNAGLK SGRIEVLCHE LNVLNASVTP PFQLDDDNLS
+     ETTRLTHRVL DLRRPQMQHN LRLRYRVAIE ARKYLDEQGF IDIETPMLTK STPEGARDYL
+     VPSRVNAGQF FALPQSPQLF KQLLMVANFD RYYQITKCFR DEDLRADRQP EFTQIDCETS
+     FLGEQEIRDL FEDMIRHIFK TTIDVELDAK FPVMPYSEAM ARFGSDKPDL RVQLEFTELT
+     DAMKDVDFKV FSTPANAKDG RVAALRVPKG GELSRGDIDG YTEFVRIYGA KGLAWIKVNE
+     KAKGRDGLQS PIVKNLHDAS IAAILERTGA EDGDIIFFAA DRAKVVNDSL GALRLKIGHS
+     EFGKANGLVQ AGWKPLWVVD FPMFEYDDED ARYVAAHHPF TSPKDEHLEY LETDPGRCLA
+     KAYDMVLNGW EIGGGSVRIH REEVQSKVFR ALKIGAEEAQ LKFGFLLDAL QYGAPPHGGI
+     AFGLDRIVTM MAGADSIRDV IAFPKTQRAQ DLLTQAPSPV DERQLRELHI RLRQPEQPKA
+//
